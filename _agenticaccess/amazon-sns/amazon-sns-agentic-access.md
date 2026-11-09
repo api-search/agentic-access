@@ -9,37 +9,49 @@ api_specs:
   label: Amazon SNS Amazon SNS Amazon Simple Notification Service (SNS) API
   slug: amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api-openapi.yml
 - filename: amazon-sns-platform-applications-api-openapi.yml
   format: yaml
   label: Amazon SNS Platform Applications API
   slug: amazon-sns-platform-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-platform-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-platform-applications-api-openapi.yml
 - filename: amazon-sns-publishing-api-openapi.yml
   format: yaml
   label: Amazon SNS Publishing API
   slug: amazon-sns-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-publishing-api-openapi.yml
 - filename: amazon-sns-sms-api-openapi.yml
   format: yaml
   label: Amazon SNS SMS API
   slug: amazon-sns-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-sms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-sms-api-openapi.yml
 - filename: amazon-sns-subscriptions-api-openapi.yml
   format: yaml
   label: Amazon SNS Subscriptions API
   slug: amazon-sns-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-subscriptions-api-openapi.yml
 - filename: amazon-sns-topics-api-openapi.yml
   format: yaml
   label: Amazon SNS Topics API
   slug: amazon-sns-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-topics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-topics-api-openapi.yml
+- filename: amazon-sns-operations-api-openapi.yml
+  format: yaml
+  label: Amazon SNS Sns Operations API
+  slug: amazon-sns-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-operations-api-openapi.yml
+- filename: amazon-sns-sms-sandbox-phone-number-api-openapi.yml
+  format: yaml
+  label: Amazon SNS Sns Sms Sandbox Phone Number API
+  slug: amazon-sns-sms-sandbox-phone-number-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-sms-sandbox-phone-number-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -72,9 +84,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=Publish\n  method: post\n  operationId: publish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=PublishBatch\n  method: post\n  operationId: publishBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=TagResource\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=UntagResource\n  method: post\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=ListTagsForResource\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreatePlatformApplication\n  method: post\n  operationId: createPlatformApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=GetSMSAttributes\n  method: get\n  operationId: getSMSAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CheckIfPhoneNumberIsOptedOut\n  method: get\n  operationId: checkIfPhoneNumberIsOptedOut\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/agentic-access/amazon-sns-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sns/agentic-access/amazon-sns-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
+- Amazon Web Services
 - Email
 - Messaging
 - Notification

@@ -9,25 +9,25 @@ api_specs:
   label: Spiceworks Comments API
   slug: spiceworks-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-comments-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-comments-api-openapi.yml
 - filename: spiceworks-devices-api-openapi.yml
   format: yaml
   label: Spiceworks Devices API
   slug: spiceworks-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-devices-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-devices-api-openapi.yml
 - filename: spiceworks-tickets-api-openapi.yml
   format: yaml
   label: Spiceworks Tickets API
   slug: spiceworks-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-tickets-api-openapi.yml
 - filename: spiceworks-users-api-openapi.yml
   format: yaml
   label: Spiceworks Users API
   slug: spiceworks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/openapi/spiceworks-users-api-openapi.yml
+  url: https://artifacts.apis.io/spiceworks/openapi/spiceworks-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spicew
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/tickets/{id}\n  method: get\n  operationId: getTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/tickets/{id}\n  method: put\n  operationId: updateTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/tickets/{ticket_id}/comments\n  method: get\n  operationId: listTicketComments\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/tickets/{ticket_id}/comments\n  method: post\n  operationId: createTicketComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/devices/{id}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - helpdesk\n    - inventory\n    - users\n- path: /api/v1/users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - helpdesk\n    - inventory\n    - users\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/agentic-access/spiceworks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spiceworks/agentic-access/spiceworks-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Community

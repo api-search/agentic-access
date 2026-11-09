@@ -9,43 +9,43 @@ api_specs:
   label: Zinrelo Events API
   slug: zinrelo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-events-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-events-api-openapi.yml
 - filename: zinrelo-members-api-openapi.yml
   format: yaml
   label: Zinrelo Members API
   slug: zinrelo-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-members-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-members-api-openapi.yml
 - filename: zinrelo-points-api-openapi.yml
   format: yaml
   label: Zinrelo Points API
   slug: zinrelo-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-points-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-points-api-openapi.yml
 - filename: zinrelo-redemptions-api-openapi.yml
   format: yaml
   label: Zinrelo Redemptions API
   slug: zinrelo-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-redemptions-api-openapi.yml
 - filename: zinrelo-rewards-api-openapi.yml
   format: yaml
   label: Zinrelo Rewards API
   slug: zinrelo-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-rewards-api-openapi.yml
 - filename: zinrelo-tiers-api-openapi.yml
   format: yaml
   label: Zinrelo Tiers API
   slug: zinrelo-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-tiers-api-openapi.yml
 - filename: zinrelo-transactions-api-openapi.yml
   format: yaml
   label: Zinrelo Transactions API
   slug: zinrelo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/openapi/zinrelo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/zinrelo/openapi/zinrelo-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zinrel
   \    audit: required\n- path: /v1/loyalty/users/deduct\n  method: post\n  operationId: deductPoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/loyalty/purchase\n  method: post\n  operationId: recordPurchase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/loyalty/transaction/return\n  method: post\n  operationId: recordReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/loyalty/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/loyalty-storefront/transactions\n  method: get\n  operationId: listStorefrontTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/loyalty/rewards\n  method: get\n  operationId: listRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/loyalty/redemptions\n  method: get\n  operationId: listRedemptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/loyalty/redeem\n  method: post\n  operationId: redeemPoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/loyalty/tiers\n  method: get\n  operationId: listTiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/events/{id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zinrelo/refs/heads/main/agentic-access/zinrelo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zinrelo/agentic-access/zinrelo-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Loyalty

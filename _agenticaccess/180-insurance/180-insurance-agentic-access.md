@@ -9,43 +9,43 @@ api_specs:
   label: 180 Insurance Cotações API
   slug: 180-insurance-cota-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-cota-es-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-cota-es-api-openapi.yml
 - filename: 180-insurance-produtos-api-openapi.yml
   format: yaml
   label: 180 Insurance Produtos API
   slug: 180-insurance-produtos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-produtos-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-produtos-api-openapi.yml
 - filename: 180-insurance-propostas-api-openapi.yml
   format: yaml
   label: 180 Insurance Propostas API
   slug: 180-insurance-propostas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-propostas-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-propostas-api-openapi.yml
 - filename: 180-insurance-renova-es-api-openapi.yml
   format: yaml
   label: 180 Insurance Renovações API
   slug: 180-insurance-renova-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-renova-es-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-renova-es-api-openapi.yml
 - filename: 180-insurance-sinistros-api-openapi.yml
   format: yaml
   label: 180 Insurance Sinistros API
   slug: 180-insurance-sinistros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-sinistros-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-sinistros-api-openapi.yml
 - filename: 180-insurance-vendas-api-openapi.yml
   format: yaml
   label: 180 Insurance Vendas API
   slug: 180-insurance-vendas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-vendas-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-vendas-api-openapi.yml
 - filename: 180-insurance-webhooks-api-openapi.yml
   format: yaml
   label: 180 Insurance Webhooks API
   slug: 180-insurance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/openapi/180-insurance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/180-insurance/openapi/180-insurance-webhooks-api-openapi.yml
 consequence_counts:
   read: 13
   write: 20
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/180-in
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sagas/v1/vendas/{id-venda}/solicitar-cancelamento\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sagas/v1/webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sagas/v1/webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sagas/v1/webhooks/{id-webhook}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sagas/v1/webhooks/{id-webhook}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sagas/v1/webhooks/{id-webhook}/rotacionar-chave-hmac\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/180-insurance/refs/heads/main/agentic-access/180-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/180-insurance/agentic-access/180-insurance-agentic-access.yml
 summary_line: 33 operations · 20 acting
 tags:
 - Company

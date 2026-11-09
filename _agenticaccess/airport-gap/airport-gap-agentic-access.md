@@ -9,25 +9,25 @@ api_specs:
   label: Airport Gap Airports API
   slug: airport-gap-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-airports-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-airports-api-openapi.yml
 - filename: airport-gap-distance-api-openapi.yml
   format: yaml
   label: Airport Gap Distance API
   slug: airport-gap-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-distance-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-distance-api-openapi.yml
 - filename: airport-gap-favorites-api-openapi.yml
   format: yaml
   label: Airport Gap Favorites API
   slug: airport-gap-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-favorites-api-openapi.yml
 - filename: airport-gap-tokens-api-openapi.yml
   format: yaml
   label: Airport Gap Tokens API
   slug: airport-gap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-tokens-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: post\n  operationId: generateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /favorites\n  method: get\n  operationId: listFavorites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /favorites\n  method: post\n  operationId: addFavorite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /favorites/{id}\n  method: get\n  operationId: getFavorite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /favorites/{id}\n  method: patch\n  operationId: updateFavorite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /favorites/{id}\n  method: delete\n  operationId: deleteFavorite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /favorites/clear_all\n  method: delete\n  operationId: clearAllFavorites\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/agentic-access/airport-gap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airport-gap/agentic-access/airport-gap-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Airports

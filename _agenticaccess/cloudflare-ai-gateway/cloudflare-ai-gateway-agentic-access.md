@@ -9,19 +9,19 @@ api_specs:
   label: Cloudflare AI Gateway Gateways API
   slug: cloudflare-ai-gateway-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-ai-gateway/openapi/cloudflare-ai-gateway-gateways-api-openapi.yml
 - filename: cloudflare-ai-gateway-logs-api-openapi.yml
   format: yaml
   label: Cloudflare AI Gateway Logs API
   slug: cloudflare-ai-gateway-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-ai-gateway/openapi/cloudflare-ai-gateway-logs-api-openapi.yml
 - filename: cloudflare-ai-gateway-proxy-api-openapi.yml
   format: yaml
   label: Cloudflare AI Gateway Proxy API
   slug: cloudflare-ai-gateway-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/openapi/cloudflare-ai-gateway-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-ai-gateway/openapi/cloudflare-ai-gateway-proxy-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudf
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/ai-gateway/gateways/{gateway_id}\n  method: get\n  operationId: getAiGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/ai-gateway/gateways/{gateway_id}\n  method: put\n  operationId: updateAiGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/ai-gateway/gateways/{gateway_id}\n  method: delete\n  operationId: deleteAiGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/ai-gateway/gateways/{gateway_id}/logs\n  method: get\n  operationId: listAiGatewayLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{account_id}/{gateway_id}/{provider}\n  method: post\n  operationId: proxyProviderRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{account_id}/{gateway_id}\n  method: post\n  operationId: unifiedProxyRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/agentic-access/cloudflare-ai-gateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-ai-gateway/agentic-access/cloudflare-ai-gateway-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - AI Gateway

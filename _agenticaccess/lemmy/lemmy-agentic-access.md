@@ -9,85 +9,85 @@ api_specs:
   label: Lemmy Account API
   slug: lemmy-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-account-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-account-api-openapi.yml
 - filename: lemmy-admin-api-openapi.yml
   format: yaml
   label: Lemmy Admin API
   slug: lemmy-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-admin-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-admin-api-openapi.yml
 - filename: lemmy-authentication-api-openapi.yml
   format: yaml
   label: Lemmy Authentication API
   slug: lemmy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-authentication-api-openapi.yml
 - filename: lemmy-comment-api-openapi.yml
   format: yaml
   label: Lemmy Comment API
   slug: lemmy-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-comment-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-comment-api-openapi.yml
 - filename: lemmy-community-api-openapi.yml
   format: yaml
   label: Lemmy Community API
   slug: lemmy-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-community-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-community-api-openapi.yml
 - filename: lemmy-federation-api-openapi.yml
   format: yaml
   label: Lemmy Federation API
   slug: lemmy-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-federation-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-federation-api-openapi.yml
 - filename: lemmy-images-api-openapi.yml
   format: yaml
   label: Lemmy Images API
   slug: lemmy-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-images-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-images-api-openapi.yml
 - filename: lemmy-notifications-api-openapi.yml
   format: yaml
   label: Lemmy Notifications API
   slug: lemmy-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-notifications-api-openapi.yml
 - filename: lemmy-person-api-openapi.yml
   format: yaml
   label: Lemmy Person API
   slug: lemmy-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-person-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-person-api-openapi.yml
 - filename: lemmy-post-api-openapi.yml
   format: yaml
   label: Lemmy Post API
   slug: lemmy-post-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-post-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-post-api-openapi.yml
 - filename: lemmy-private-messages-api-openapi.yml
   format: yaml
   label: Lemmy Private Messages API
   slug: lemmy-private-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-private-messages-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-private-messages-api-openapi.yml
 - filename: lemmy-reports-api-openapi.yml
   format: yaml
   label: Lemmy Reports API
   slug: lemmy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-reports-api-openapi.yml
 - filename: lemmy-search-api-openapi.yml
   format: yaml
   label: Lemmy Search API
   slug: lemmy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-search-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-search-api-openapi.yml
 - filename: lemmy-site-api-openapi.yml
   format: yaml
   label: Lemmy Site API
   slug: lemmy-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/openapi/lemmy-site-api-openapi.yml
+  url: https://artifacts.apis.io/lemmy/openapi/lemmy-site-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    audit: required\n- path: /account/notification/list\n  method: get\n  operationId: listNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/notification/mark_as_read/all\n  method: post\n  operationId: markAllNotificationsRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /person\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /person/list\n  method: get\n  operationId: listPersons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /federated_instances\n  method: get\n  operationId: getFederatedInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/list\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/add\n  method: post\n  operationId: addAdmin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/ban\n  method: post\n  operationId: banFromSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image\n  method: post\n  operationId: uploadImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /image/{filename}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image/proxy\n  method: get\n  operationId: imageProxy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/agentic-access/lemmy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lemmy/agentic-access/lemmy-agentic-access.yml
 summary_line: 52 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Community

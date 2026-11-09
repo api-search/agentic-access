@@ -9,55 +9,55 @@ api_specs:
   label: Rigetti Computing Account API
   slug: rigetti-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-account-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-account-api-openapi.yml
 - filename: rigetti-authentication-api-openapi.yml
   format: yaml
   label: Rigetti Computing Authentication API
   slug: rigetti-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-authentication-api-openapi.yml
 - filename: rigetti-clientapplications-api-openapi.yml
   format: yaml
   label: Rigetti Computing Client Applications API
   slug: rigetti-clientapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-clientapplications-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-clientapplications-api-openapi.yml
 - filename: rigetti-endpoints-api-openapi.yml
   format: yaml
   label: Rigetti Computing Endpoints API
   slug: rigetti-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-endpoints-api-openapi.yml
 - filename: rigetti-engagements-api-openapi.yml
   format: yaml
   label: Rigetti Computing Engagements API
   slug: rigetti-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-engagements-api-openapi.yml
 - filename: rigetti-quantumprocessors-api-openapi.yml
   format: yaml
   label: Rigetti Computing Quantum Processors API
   slug: rigetti-quantumprocessors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-quantumprocessors-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-quantumprocessors-api-openapi.yml
 - filename: rigetti-reservations-api-openapi.yml
   format: yaml
   label: Rigetti Computing Reservations API
   slug: rigetti-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-reservations-api-openapi.yml
 - filename: rigetti-rigetti-qcs-api-api-openapi.yml
   format: yaml
   label: Rigetti Computing Rigetti QCS API
   slug: rigetti-rigetti-qcs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-rigetti-qcs-api-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-rigetti-qcs-api-api-openapi.yml
 - filename: rigetti-health-check-api-openapi.yml
   format: yaml
   label: Rigetti Computing Health Check API
   slug: rigetti-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/openapi/rigetti-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/rigetti/openapi/rigetti-health-check-api-openapi.yml
 consequence_counts:
   read: 36
   safety-critical: 3
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rigett
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/instructionSetArchitectures\n  method: get\n  operationId: ListInstructionSetArchitectures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/calendars/{quantumProcessorId}\n  method: get\n  operationId: GetQuantumProcessorCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/groups/{groupName}/reservations\n  method: get\n  operationId: ListGroupReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reservations\n  method: get\n  operationId: ListReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /v1/reservations\n  method: post\n  operationId: CreateReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reservations/{reservationId}\n  method: get\n  operationId: GetReservation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reservations/{reservationId}\n  method: delete\n  operationId: DeleteReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reservations:findAvailable\n\
   \  method: get\n  operationId: FindAvailableReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: GetHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/\n  method: get\n  operationId: HealthCheckDeprecated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/agentic-access/rigetti-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rigetti/agentic-access/rigetti-agentic-access.yml
 summary_line: 52 operations · 16 acting · 3 human-in-the-loop
 tags:
 - Quantum Computing
@@ -132,4 +132,9 @@ tags:
 - Fault-Tolerant Quantum Computing
 - Quantum-Classical Hybrid
 - Public Company
+- Quantum Cloud
+- Developer Tools
+- SDK
+- Scientific Computing
+- Deep Tech
 ---

@@ -9,61 +9,61 @@ api_specs:
   label: Hedera Accounts API
   slug: hedera-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-accounts-api-openapi.yml
 - filename: hedera-airdrops-api-openapi.yml
   format: yaml
   label: Hedera Airdrops API
   slug: hedera-airdrops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-airdrops-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-airdrops-api-openapi.yml
 - filename: hedera-balances-api-openapi.yml
   format: yaml
   label: Hedera Balances API
   slug: hedera-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-balances-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-balances-api-openapi.yml
 - filename: hedera-blocks-api-openapi.yml
   format: yaml
   label: Hedera Blocks API
   slug: hedera-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-blocks-api-openapi.yml
 - filename: hedera-contracts-api-openapi.yml
   format: yaml
   label: Hedera Contracts API
   slug: hedera-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-contracts-api-openapi.yml
 - filename: hedera-network-api-openapi.yml
   format: yaml
   label: Hedera Network API
   slug: hedera-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-network-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-network-api-openapi.yml
 - filename: hedera-schedules-api-openapi.yml
   format: yaml
   label: Hedera Schedules API
   slug: hedera-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-schedules-api-openapi.yml
 - filename: hedera-tokens-api-openapi.yml
   format: yaml
   label: Hedera Tokens API
   slug: hedera-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-tokens-api-openapi.yml
 - filename: hedera-topics-api-openapi.yml
   format: yaml
   label: Hedera Topics API
   slug: hedera-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-topics-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-topics-api-openapi.yml
 - filename: hedera-transactions-api-openapi.yml
   format: yaml
   label: Hedera Transactions API
   slug: hedera-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/openapi/hedera-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/hedera/openapi/hedera-transactions-api-openapi.yml
 consequence_counts:
   read: 46
   write: 2
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/topics/{topicId}/messages\n  method: get\n  operationId: getTopicMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/topics/{topicId}/messages/{sequenceNumber}\n  method: get\n  operationId: getTopicMessageByIdAndSequenceNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/topics/messages/{timestamp}\n  method: get\n  operationId: getTopicMessageByTimestamp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens\n  method: get\n  operationId: getTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{tokenId}\n  method: get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{tokenId}/balances\n  method: get\n  operationId: getTokenBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{tokenId}/nfts\n  method: get\n  operationId: getNfts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{tokenId}/nfts/{serialNumber}\n  method: get\n  operationId: getNft\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tokens/{tokenId}/nfts/{serialNumber}/transactions\n\
   \  method: get\n  operationId: getNftTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hedera/refs/heads/main/agentic-access/hedera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hedera/agentic-access/hedera-agentic-access.yml
 summary_line: 48 operations · 2 acting
 tags:
 - Hedera

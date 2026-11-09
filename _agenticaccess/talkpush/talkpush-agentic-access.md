@@ -9,85 +9,85 @@ api_specs:
   label: TalkPush Agents API
   slug: talkpush-agents-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-agents-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-agents-api-api-openapi.yml
 - filename: talkpush-calls-api-api-openapi.yml
   format: yaml
   label: TalkPush Calls API
   slug: talkpush-calls-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-calls-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-calls-api-api-openapi.yml
 - filename: talkpush-campaigns-api-api-openapi.yml
   format: yaml
   label: TalkPush Campaigns API
   slug: talkpush-campaigns-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-campaigns-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-campaigns-api-api-openapi.yml
 - filename: talkpush-candidate-attributes-api-api-openapi.yml
   format: yaml
   label: TalkPush Candidate Attributes API
   slug: talkpush-candidate-attributes-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-candidate-attributes-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-candidate-attributes-api-api-openapi.yml
 - filename: talkpush-document-tags-api-api-openapi.yml
   format: yaml
   label: TalkPush Document Tags API
   slug: talkpush-document-tags-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-document-tags-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-document-tags-api-api-openapi.yml
 - filename: talkpush-folders-api-api-openapi.yml
   format: yaml
   label: TalkPush Folders API
   slug: talkpush-folders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-folders-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-folders-api-api-openapi.yml
 - filename: talkpush-labels-api-api-openapi.yml
   format: yaml
   label: TalkPush Labels API
   slug: talkpush-labels-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-labels-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-labels-api-api-openapi.yml
 - filename: talkpush-leads-api-api-openapi.yml
   format: yaml
   label: TalkPush Leads API
   slug: talkpush-leads-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-leads-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-leads-api-api-openapi.yml
 - filename: talkpush-managers-api-api-openapi.yml
   format: yaml
   label: TalkPush Managers API
   slug: talkpush-managers-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-managers-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-managers-api-api-openapi.yml
 - filename: talkpush-message-templates-api-api-openapi.yml
   format: yaml
   label: TalkPush Message Templates API
   slug: talkpush-message-templates-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-message-templates-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-message-templates-api-api-openapi.yml
 - filename: talkpush-messaging-api-api-openapi.yml
   format: yaml
   label: TalkPush Messaging API
   slug: talkpush-messaging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-messaging-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-messaging-api-api-openapi.yml
 - filename: talkpush-movement-reasons-api-api-openapi.yml
   format: yaml
   label: TalkPush Movement Reasons API
   slug: talkpush-movement-reasons-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-movement-reasons-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-movement-reasons-api-api-openapi.yml
 - filename: talkpush-requisition-management-system-api-openapi.yml
   format: yaml
   label: TalkPush Requisition Management System API
   slug: talkpush-requisition-management-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-requisition-management-system-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-requisition-management-system-api-openapi.yml
 - filename: talkpush-tokens-api-api-openapi.yml
   format: yaml
   label: TalkPush Tokens API
   slug: talkpush-tokens-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/openapi/talkpush-tokens-api-api-openapi.yml
+  url: https://artifacts.apis.io/talkpush/openapi/talkpush-tokens-api-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/talkpu
   \    max-ttl: 3600\n    audit: none\n- path: /company/labels\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messaging/templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messaging/templates\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messaging/templates/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messaging/tokens\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movement_reasons\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /managers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rms/callback\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talkpush/refs/heads/main/agentic-access/talkpush-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/talkpush/agentic-access/talkpush-agentic-access.yml
 summary_line: 44 operations · 23 acting
 tags:
 - Company

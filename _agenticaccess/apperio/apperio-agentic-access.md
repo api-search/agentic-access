@@ -9,31 +9,31 @@ api_specs:
   label: Apperio Analytics API
   slug: apperio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-analytics-api-openapi.yml
 - filename: apperio-e-billing-api-openapi.yml
   format: yaml
   label: Apperio E-billing API
   slug: apperio-e-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-e-billing-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-e-billing-api-openapi.yml
 - filename: apperio-filter-api-openapi.yml
   format: yaml
   label: Apperio Filter API
   slug: apperio-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-filter-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-filter-api-openapi.yml
 - filename: apperio-matter-information-api-openapi.yml
   format: yaml
   label: Apperio Matter information API
   slug: apperio-matter-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-matter-information-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-matter-information-api-openapi.yml
 - filename: apperio-users-api-openapi.yml
   format: yaml
   label: Apperio Users API
   slug: apperio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/openapi/apperio-users-api-openapi.yml
+  url: https://artifacts.apis.io/apperio/openapi/apperio-users-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 14
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apperi
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/filter/matter-tag-sets/{matter-tag-set-id}/matter-tags/{matter-tag-id}/links\n  method: post\n  operationId: postApiV1FilterMatterTagSetsByMatterTagSetIdMatterTagsByMatterTagIdLinks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/filter/matter-tag-sets/{matter-tag-set-id}/matter-tags/{matter-tag-id}/links/{link-id}\n  method: delete\n  operationId: deleteApiV1FilterMatterTagSetsByMatterTagSetIdMatterTagsByMatterTagIdLinksByLinkId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/matters/{matter-id}/header\n  method: get\n  operationId: getApiV1MattersByMatterIdHeader\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/tokens/\n  method: get\n  operationId: getApiV1UsersTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/tokens/\n  method: post\n  operationId: postApiV1UsersTokens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /api/v1/users/tokens/{token-id}/\n  method: delete\n  operationId: deleteApiV1UsersTokensByTokenId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/tokens/{token-id}/status/\n  method: put\n  operationId: putApiV1UsersTokensByTokenIdStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/agentic-access/apperio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apperio/agentic-access/apperio-agentic-access.yml
 summary_line: 30 operations · 16 acting
 tags:
 - Legal

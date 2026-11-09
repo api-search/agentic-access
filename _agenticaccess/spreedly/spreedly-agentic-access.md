@@ -9,157 +9,157 @@ api_specs:
   label: Spreedly Access Secrets API
   slug: spreedly-access-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-access-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-access-secrets-api-openapi.yml
 - filename: spreedly-authorize-api-openapi.yml
   format: yaml
   label: Spreedly Authorize API
   slug: spreedly-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-authorize-api-openapi.yml
 - filename: spreedly-capture-api-openapi.yml
   format: yaml
   label: Spreedly Capture API
   slug: spreedly-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-capture-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-capture-api-openapi.yml
 - filename: spreedly-card-refresher-api-openapi.yml
   format: yaml
   label: Spreedly Card Refresher API
   slug: spreedly-card-refresher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-card-refresher-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-card-refresher-api-openapi.yml
 - filename: spreedly-certificates-api-openapi.yml
   format: yaml
   label: Spreedly Certificates API
   slug: spreedly-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-certificates-api-openapi.yml
 - filename: spreedly-claim-api-openapi.yml
   format: yaml
   label: Spreedly Claim API
   slug: spreedly-claim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-claim-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-claim-api-openapi.yml
 - filename: spreedly-composer-api-openapi.yml
   format: yaml
   label: Spreedly Composer API
   slug: spreedly-composer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-composer-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-composer-api-openapi.yml
 - filename: spreedly-credit-api-openapi.yml
   format: yaml
   label: Spreedly Credit API
   slug: spreedly-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-credit-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-credit-api-openapi.yml
 - filename: spreedly-environments-api-openapi.yml
   format: yaml
   label: Spreedly Environments API
   slug: spreedly-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-environments-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-environments-api-openapi.yml
 - filename: spreedly-events-api-openapi.yml
   format: yaml
   label: Spreedly Events API
   slug: spreedly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-events-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-events-api-openapi.yml
 - filename: spreedly-gateways-api-openapi.yml
   format: yaml
   label: Spreedly Gateways API
   slug: spreedly-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-gateways-api-openapi.yml
 - filename: spreedly-general-credit-api-openapi.yml
   format: yaml
   label: Spreedly General Credit API
   slug: spreedly-general-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-general-credit-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-general-credit-api-openapi.yml
 - filename: spreedly-merchant-profiles-api-openapi.yml
   format: yaml
   label: Spreedly Merchant Profiles API
   slug: spreedly-merchant-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-merchant-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-merchant-profiles-api-openapi.yml
 - filename: spreedly-network-tokenization-api-openapi.yml
   format: yaml
   label: Spreedly Network Tokenization API
   slug: spreedly-network-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-network-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-network-tokenization-api-openapi.yml
 - filename: spreedly-payment-methods-api-openapi.yml
   format: yaml
   label: Spreedly Payment Methods API
   slug: spreedly-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-payment-methods-api-openapi.yml
 - filename: spreedly-payments-api-openapi.yml
   format: yaml
   label: Spreedly Payments API
   slug: spreedly-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-payments-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-payments-api-openapi.yml
 - filename: spreedly-protection-events-api-openapi.yml
   format: yaml
   label: Spreedly Protection Events API
   slug: spreedly-protection-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-protection-events-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-protection-events-api-openapi.yml
 - filename: spreedly-protection-provider-api-openapi.yml
   format: yaml
   label: Spreedly Protection Provider API
   slug: spreedly-protection-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-protection-provider-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-protection-provider-api-openapi.yml
 - filename: spreedly-purchase-api-openapi.yml
   format: yaml
   label: Spreedly Purchase API
   slug: spreedly-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-purchase-api-openapi.yml
 - filename: spreedly-receivers-api-openapi.yml
   format: yaml
   label: Spreedly Receivers API
   slug: spreedly-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-receivers-api-openapi.yml
 - filename: spreedly-sca-authentication-api-openapi.yml
   format: yaml
   label: Spreedly Sca Authentication API
   slug: spreedly-sca-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-sca-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-sca-authentication-api-openapi.yml
 - filename: spreedly-sca-provider-api-openapi.yml
   format: yaml
   label: Spreedly Sca Provider API
   slug: spreedly-sca-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-sca-provider-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-sca-provider-api-openapi.yml
 - filename: spreedly-sub-merchants-api-openapi.yml
   format: yaml
   label: Spreedly Sub Merchants API
   slug: spreedly-sub-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-sub-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-sub-merchants-api-openapi.yml
 - filename: spreedly-transactions-api-openapi.yml
   format: yaml
   label: Spreedly Transactions API
   slug: spreedly-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-transactions-api-openapi.yml
 - filename: spreedly-verify-api-openapi.yml
   format: yaml
   label: Spreedly Verify API
   slug: spreedly-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-verify-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-verify-api-openapi.yml
 - filename: spreedly-void-api-openapi.yml
   format: yaml
   label: Spreedly Void API
   slug: spreedly-void-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/openapi/spreedly-void-api-openapi.yml
+  url: https://artifacts.apis.io/spreedly/openapi/spreedly-void-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 36
@@ -299,7 +299,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/spreed
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sub_merchants/{sub_merchant_key}\n  method: get\n  operationId: show-sub-merchant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sub_merchants/{sub_merchant_key}\n  method: put\n  operationId: ubdate-sub-merchant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transaction_token}/complete\n  method: post\n  operationId: complete-transactions\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: list-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transaction_token}/confirm\n  method: post\n  operationId: confirm-transactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transaction_token}/transcript\n  method: get\n  operationId: transcript-transactions\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gateway_token}/verify\n  method: post\n  operationId: verify-payment-method\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transaction_token}/void\n  method: post\n  operationId: void-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spreedly/refs/heads/main/agentic-access/spreedly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spreedly/agentic-access/spreedly-agentic-access.yml
 summary_line: 84 operations · 48 acting
 tags:
 - Payments

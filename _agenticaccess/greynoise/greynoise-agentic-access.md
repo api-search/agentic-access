@@ -9,61 +9,61 @@ api_specs:
   label: GreyNoise Intelligence Callback API
   slug: greynoise-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-callback-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-callback-api-openapi.yml
 - filename: greynoise-community-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence Community API
   slug: greynoise-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-community-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-community-api-openapi.yml
 - filename: greynoise-cve-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence CVE API
   slug: greynoise-cve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-cve-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-cve-api-openapi.yml
 - filename: greynoise-gnql-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence GNQL API
   slug: greynoise-gnql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-gnql-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-gnql-api-openapi.yml
 - filename: greynoise-ip-lookup-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence IP Lookup API
   slug: greynoise-ip-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-ip-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-ip-lookup-api-openapi.yml
 - filename: greynoise-ip-timeline-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence IP Timeline API
   slug: greynoise-ip-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-ip-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-ip-timeline-api-openapi.yml
 - filename: greynoise-recall-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence Recall API
   slug: greynoise-recall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-recall-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-recall-api-openapi.yml
 - filename: greynoise-sessions-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence Sessions API
   slug: greynoise-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-sessions-api-openapi.yml
 - filename: greynoise-tags-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence Tags API
   slug: greynoise-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-tags-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-tags-api-openapi.yml
 - filename: greynoise-utility-api-openapi.yml
   format: yaml
   label: GreyNoise Intelligence Utility API
   slug: greynoise-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/openapi/greynoise-utility-api-openapi.yml
+  url: https://artifacts.apis.io/greynoise/openapi/greynoise-utility-api-openapi.yml
 consequence_counts:
   read: 23
   write: 4
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/greyno
   \  operationId: getSessionConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/counts\n  method: get\n  operationId: getSessionCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/export\n  method: get\n  operationId: exportSessionsPcap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/fields\n  method: get\n  operationId: getSessionFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/timeseries\n  method: get\n  operationId: getSessionTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/unique\n  method: get\n  operationId: getSessionUniqueValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/{session_id}\n  method: get\n  operationId: getSessionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/{session_id}/export\n  method: get\n  operationId: exportSessionData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sessions/{session_id}/frames\n  method: get\n  operationId: getSessionPcap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v3/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/agentic-access/greynoise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/greynoise/agentic-access/greynoise-agentic-access.yml
 summary_line: 27 operations · 4 acting
 tags:
 - Security

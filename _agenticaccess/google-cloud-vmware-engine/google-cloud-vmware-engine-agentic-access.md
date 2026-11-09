@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud VMware Engine Clusters API
   slug: google-cloud-vmware-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
 - filename: google-cloud-vmware-engine-privateclouds-api-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine PrivateClouds API
   slug: google-cloud-vmware-engine-privateclouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
 - filename: google-cloud-vmware-engine-network-policies-api-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine Network Policies API
   slug: google-cloud-vmware-engine-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vmware
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/privateClouds/{privateCloudId}\n  method: get\n  operationId: getPrivateCloud\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/privateClouds/{privateCloudId}\n  method: delete\n  operationId: deletePrivateCloud\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/privateClouds/{privateCloudId}/clusters\n  method: get\n  operationId: listClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/privateClouds/{privateCloudId}/clusters\n  method: post\n  operationId: createCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/networkPolicies\n\
   \  method: get\n  operationId: listNetworkPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/agentic-access/google-cloud-vmware-engine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-vmware-engine/agentic-access/google-cloud-vmware-engine-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Compute

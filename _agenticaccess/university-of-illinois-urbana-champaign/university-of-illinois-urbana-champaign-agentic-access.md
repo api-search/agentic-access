@@ -9,13 +9,13 @@ api_specs:
   label: Rokwire Core Building Block API
   slug: rokwire-core-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
 - filename: university-of-illinois-urbana-champaign-client-api-openapi.yml
   format: yaml
   label: Rokwire Gateway Building Block API
   slug: rokwire-gateway-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 82
@@ -105,8 +105,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/univer
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/laundry/rooms\n  method: get\n  operationId: getApiLaundryRooms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/laundry/room\n  method: get\n  operationId: getApiLaundryRoom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/laundry/initrequest\n  method: get\n  operationId: getApiLaundryInitrequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/laundry/requestservice\n  method: post\n  operationId: postApiLaundryRequestservice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/person/contactinfo\n  method: get\n  operationId: getApiPersonContactinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/giescourses\n  method: get\n  operationId: getApiPersonGiescourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/person/studentcourses\n  method: get\n  operationId: getApiPersonStudentcourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enc/test\n  method: get\n  operationId: getEncTest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/auth/login\n  method: post\n  operationId: postServicesAuthLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/auth/mfa\n  method: post\n  operationId: postServicesAuthMfa\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated\
-  \ at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml
+  \ at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/university-of-illinois-urbana-champaign/agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/agentic-access/university-of-illinois-urbana-champaign-agentic-access.yml
 summary_line: 196 operations · 114 acting · 3 human-in-the-loop
 tags:
 - University

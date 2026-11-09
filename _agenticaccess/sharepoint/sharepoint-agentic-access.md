@@ -9,55 +9,55 @@ api_specs:
   label: Microsoft SharePoint Files API
   slug: sharepoint-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-files-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-files-api-openapi.yml
 - filename: sharepoint-items-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Items API
   slug: sharepoint-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-items-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-items-api-openapi.yml
 - filename: sharepoint-lists-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Lists API
   slug: sharepoint-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-lists-api-openapi.yml
 - filename: sharepoint-search-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Search API
   slug: sharepoint-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-search-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-search-api-openapi.yml
 - filename: sharepoint-sites-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Sites API
   slug: sharepoint-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-sites-api-openapi.yml
 - filename: sharepoint-user-profiles-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-user-profiles-api-openapi.yml
 - filename: sharepoint-batch-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint $batch API
   slug: microsoft-sharepoint-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-batch-api-openapi.yml
 - filename: sharepoint-listitems-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint ListItems API
   slug: microsoft-sharepoint-listitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-listitems-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-listitems-api-openapi.yml
 - filename: sharepoint-site-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Site API
   slug: microsoft-sharepoint-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-site-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-site-api-openapi.yml
 consequence_counts:
   read: 10
   write: 5
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sharep
   \  method: post\n  operationId: createListItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/lists/getbytitle('{list_title}')/items({item_id})\n  method: get\n  operationId: getListItemById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/lists/getbytitle('{list_title}')/items({item_id})\n  method: post\n  operationId: updateListItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/lists/getbytitle('{list_title}')/items({item_id})\n\
   \  method: delete\n  operationId: deleteListItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /web/getfolderbyserverrelativeurl('{folder_url}')/files\n  method: get\n  operationId: getFilesInFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /web/getfolderbyserverrelativeurl('{folder_url}')/files/add(url='{file_name}',overwrite=true)\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /web/getfilebyserverrelativeurl('{file_url}')/$value\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/query\n  method: get\n  operationId: searchQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /SP.UserProfiles.PeopleManager/GetMyProperties\n  method: get\n  operationId: getMyUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/agentic-access/sharepoint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sharepoint/agentic-access/sharepoint-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Collaboration

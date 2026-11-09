@@ -9,19 +9,19 @@ api_specs:
   label: Paychex Companies API
   slug: paychex-developer-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-companies-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-companies-api-openapi.yml
 - filename: paychex-developer-time-entries-api-openapi.yml
   format: yaml
   label: Paychex Time Entries API
   slug: paychex-developer-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-time-entries-api-openapi.yml
 - filename: paychex-developer-workers-api-openapi.yml
   format: yaml
   label: Paychex Workers API
   slug: paychex-developer-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/openapi/paychex-developer-workers-api-openapi.yml
+  url: https://artifacts.apis.io/paychex-developer/openapi/paychex-developer-workers-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/paychex-payroll-companies-openapi.yml, openapi/paychex-time-openapi.yml, openapi/paychex-workers-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /companies\n  method: get\n  operationId: listCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{companyId}\n  method: get\n  operationId: getCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /time/v1/timeentries\n  method: post\n  operationId: createTimeEntries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{companyId}/workers\n  method: get\n  operationId: listCompanyWorkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{companyId}/workers/{workerId}\n  method: get\n  operationId: getCompanyWorker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paychex-developer/refs/heads/main/agentic-access/paychex-developer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paychex-developer/agentic-access/paychex-developer-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Benefits

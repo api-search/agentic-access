@@ -9,175 +9,175 @@ api_specs:
   label: Instantly Account API
   slug: instantly-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-account-api-openapi.yml
 - filename: instantly-ai-accountcampaignmapping-api-openapi.yml
   format: yaml
   label: Instantly Account Campaign Mapping API
   slug: instantly-ai-accountcampaignmapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-accountcampaignmapping-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-accountcampaignmapping-api-openapi.yml
 - filename: instantly-ai-analytics-api-openapi.yml
   format: yaml
   label: Instantly Analytics API
   slug: instantly-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-analytics-api-openapi.yml
 - filename: instantly-ai-blocklistentry-api-openapi.yml
   format: yaml
   label: Instantly Block List Entry API
   slug: instantly-ai-blocklistentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-blocklistentry-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-blocklistentry-api-openapi.yml
 - filename: instantly-ai-campaign-api-openapi.yml
   format: yaml
   label: Instantly Campaign API
   slug: instantly-ai-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-campaign-api-openapi.yml
 - filename: instantly-ai-campaignsubsequence-api-openapi.yml
   format: yaml
   label: Instantly Campaign Subsequence API
   slug: instantly-ai-campaignsubsequence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-campaignsubsequence-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-campaignsubsequence-api-openapi.yml
 - filename: instantly-ai-crmactions-api-openapi.yml
   format: yaml
   label: Instantly CRM Actions API
   slug: instantly-ai-crmactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-crmactions-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-crmactions-api-openapi.yml
 - filename: instantly-ai-customtag-api-openapi.yml
   format: yaml
   label: Instantly Custom Tag API
   slug: instantly-ai-customtag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-customtag-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-customtag-api-openapi.yml
 - filename: instantly-ai-customtagmapping-api-openapi.yml
   format: yaml
   label: Instantly Custom Tag Mapping API
   slug: instantly-ai-customtagmapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-customtagmapping-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-customtagmapping-api-openapi.yml
 - filename: instantly-ai-dfyemailaccountorder-api-openapi.yml
   format: yaml
   label: Instantly DFY Email Account Order API
   slug: instantly-ai-dfyemailaccountorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-dfyemailaccountorder-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-dfyemailaccountorder-api-openapi.yml
 - filename: instantly-ai-email-api-openapi.yml
   format: yaml
   label: Instantly Email API
   slug: instantly-ai-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-email-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-email-api-openapi.yml
 - filename: instantly-ai-inboxplacementanalytics-api-openapi.yml
   format: yaml
   label: Instantly Inbox Placement Analytics API
   slug: instantly-ai-inboxplacementanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-inboxplacementanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-inboxplacementanalytics-api-openapi.yml
 - filename: instantly-ai-inboxplacementblacklistandspamassassinreport-api-openapi.yml
   format: yaml
   label: Instantly Inbox Placement Blacklist And Spam Assassin Report API
   slug: instantly-ai-inboxplacementblacklistandspamassassinreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-inboxplacementblacklistandspamassassinreport-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-inboxplacementblacklistandspamassassinreport-api-openapi.yml
 - filename: instantly-ai-inboxplacementtest-api-openapi.yml
   format: yaml
   label: Instantly Inbox Placement Test API
   slug: instantly-ai-inboxplacementtest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-inboxplacementtest-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-inboxplacementtest-api-openapi.yml
 - filename: instantly-ai-lead-api-openapi.yml
   format: yaml
   label: Instantly Lead API
   slug: instantly-ai-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-lead-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-lead-api-openapi.yml
 - filename: instantly-ai-leadlabel-api-openapi.yml
   format: yaml
   label: Instantly Lead Label API
   slug: instantly-ai-leadlabel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-leadlabel-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-leadlabel-api-openapi.yml
 - filename: instantly-ai-leadlist-api-openapi.yml
   format: yaml
   label: Instantly Lead List API
   slug: instantly-ai-leadlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-leadlist-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-leadlist-api-openapi.yml
 - filename: instantly-ai-supersearchenrichment-api-openapi.yml
   format: yaml
   label: Instantly Super Search Enrichment API
   slug: instantly-ai-supersearchenrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-supersearchenrichment-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-supersearchenrichment-api-openapi.yml
 - filename: instantly-ai-webhook-api-openapi.yml
   format: yaml
   label: Instantly Webhook API
   slug: instantly-ai-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-webhook-api-openapi.yml
 - filename: instantly-ai-workspace-api-openapi.yml
   format: yaml
   label: Instantly Workspace API
   slug: instantly-ai-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-workspace-api-openapi.yml
 - filename: instantly-ai-workspacebilling-api-openapi.yml
   format: yaml
   label: Instantly Workspace Billing API
   slug: instantly-ai-workspacebilling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-workspacebilling-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-workspacebilling-api-openapi.yml
 - filename: instantly-ai-workspacegroupmember-api-openapi.yml
   format: yaml
   label: Instantly Workspace Group Member API
   slug: instantly-ai-workspacegroupmember-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-workspacegroupmember-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-workspacegroupmember-api-openapi.yml
 - filename: instantly-ai-workspacemember-api-openapi.yml
   format: yaml
   label: Instantly Workspace Member API
   slug: instantly-ai-workspacemember-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-workspacemember-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-workspacemember-api-openapi.yml
 - filename: instantly-ai-oauth-api-openapi.yml
   format: yaml
   label: Instantly O Auth API
   slug: instantly-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-oauth-api-openapi.yml
 - filename: instantly-ai-api-key-api-openapi.yml
   format: yaml
   label: Instantly API Key API
   slug: instantly-ai-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-api-key-api-openapi.yml
 - filename: instantly-ai-audit-log-api-openapi.yml
   format: yaml
   label: Instantly Audit Log API
   slug: instantly-ai-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-audit-log-api-openapi.yml
 - filename: instantly-ai-background-job-api-openapi.yml
   format: yaml
   label: Instantly Background Job API
   slug: instantly-ai-background-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-background-job-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-background-job-api-openapi.yml
 - filename: instantly-ai-email-verification-api-openapi.yml
   format: yaml
   label: Instantly Email Verification API
   slug: instantly-ai-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-email-verification-api-openapi.yml
 - filename: instantly-ai-webhook-event-api-openapi.yml
   format: yaml
   label: Instantly Webhook Event API
   slug: instantly-ai-webhook-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/openapi/instantly-ai-webhook-event-api-openapi.yml
+  url: https://artifacts.apis.io/instantly-ai/openapi/instantly-ai-webhook-event-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 83
@@ -276,8 +276,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/instan
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/emails/{id}\n  method: patch\n  operationId: patchEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/emails/{id}\n  method: delete\n  operationId: deleteEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/emails/unread/count\n  method: get\n  operationId: countUnreadEmails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v2/emails/threads/{thread_id}/mark-as-read\n  method: post\n  operationId: markThreadAsRead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/email-verification\n  method: post\n  operationId: createEmailVerification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/email-verification/{email}\n  method: get\n  operationId: checkVerificationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v2/inbox-placement-analytics\n  method: get\n  operationId: listInboxPlacementAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-analytics/{id}\n  method: get\n  operationId: getInboxPlacementAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-analytics/stats-by-test-id\n  method: post\n  operationId: getInboxPlacementAnalyticsStatsByTestId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-analytics/deliverability-insights\n  method: post\n  operationId: getInboxPlacementAnalyticsDeliverabilityInsights\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-analytics/stats-by-date\n  method: post\n  operationId: getInboxPlacementAnalyticsStatsByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-reports\n  method: get\n  operationId: listInboxPlacementBlacklistAndSpamAssassinReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-reports/{id}\n  method: get\n  operationId: getInboxPlacementBlacklistAndSpamAssassinReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/agentic-access/instantly-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instantly-ai/refs/heads/main/agentic-access/instantly-ai-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-analytics/stats-by-date\n  method: post\n  operationId: getInboxPlacementAnalyticsStatsByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-reports\n  method: get\n  operationId: listInboxPlacementBlacklistAndSpamAssassinReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/inbox-placement-reports/{id}\n  method: get\n  operationId: getInboxPlacementBlacklistAndSpamAssassinReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/instantly-ai/agentic-access/instantly-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/instantly-ai/agentic-access/instantly-ai-agentic-access.yml
 summary_line: 181 operations · 98 acting · 2 human-in-the-loop
 tags:
 - Cold Email

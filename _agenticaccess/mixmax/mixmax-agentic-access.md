@@ -9,37 +9,37 @@ api_specs:
   label: Mixmax Contact Groups API
   slug: mixmax-contact-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-contact-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-contact-groups-api-openapi.yml
 - filename: mixmax-contacts-api-openapi.yml
   format: yaml
   label: Mixmax Contacts API
   slug: mixmax-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-contacts-api-openapi.yml
 - filename: mixmax-file-requests-api-openapi.yml
   format: yaml
   label: Mixmax File Requests API
   slug: mixmax-file-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-file-requests-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-file-requests-api-openapi.yml
 - filename: mixmax-meetings-api-openapi.yml
   format: yaml
   label: Mixmax Meetings API
   slug: mixmax-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-meetings-api-openapi.yml
 - filename: mixmax-sequences-api-openapi.yml
   format: yaml
   label: Mixmax Sequences API
   slug: mixmax-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-sequences-api-openapi.yml
 - filename: mixmax-snippet-tags-api-openapi.yml
   format: yaml
   label: Mixmax Snippet Tags API
   slug: mixmax-snippet-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/openapi/mixmax-snippet-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mixmax/openapi/mixmax-snippet-tags-api-openapi.yml
 consequence_counts:
   read: 12
   write: 12
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mixmax
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts/{id}/notes\n  method: post\n  operationId: createContactNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{id}/notes/{noteId}\n  method: put\n  operationId: updateContactNote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contacts/{id}/notes/{noteId}\n  method: delete\n  operationId: deleteContactNote\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /filerequests\n  method: get\n  operationId: listFileRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meetings/summaries/search\n  method: get\n  operationId: searchMeetingSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meetings/transcripts/{id}\n  method: get\n  operationId: getMeetingTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences\n  method: get\n  operationId: listSequences\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{id}/recipients\n  method: get\n  operationId: listSequenceRecipients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snippettags/{id}\n  method: delete\n  operationId: deleteSnippetTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixmax/refs/heads/main/agentic-access/mixmax-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mixmax/agentic-access/mixmax-agentic-access.yml
 summary_line: 24 operations · 12 acting
 tags:
 - Company
@@ -81,7 +81,7 @@ tags:
 - MCP
 - Agents
 - Webhook
-- Authentication
+- OAuth
 - Sales Engagement
 - Email
 - Sales
@@ -89,4 +89,5 @@ tags:
 - Productivity
 - Meetings
 - Sequences
+- Authentication
 ---

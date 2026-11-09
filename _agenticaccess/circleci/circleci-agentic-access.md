@@ -9,103 +9,103 @@ api_specs:
   label: CircleCI Self-Hosted Runner API
   slug: runner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-runner-api-openapi.yml
 - filename: circleci-webhooks-asyncapi.yml
   format: yaml
   label: CircleCI Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/circleci/asyncapi/circleci-webhooks-asyncapi.yml
 - filename: circleci-artifact-api-openapi.yml
   format: yaml
   label: CircleCI Artifact API
   slug: circleci-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-artifact-api-openapi.yml
 - filename: circleci-build-api-openapi.yml
   format: yaml
   label: CircleCI Build API
   slug: circleci-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-build-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-build-api-openapi.yml
 - filename: circleci-context-api-openapi.yml
   format: yaml
   label: CircleCI Context API
   slug: circleci-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-context-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-context-api-openapi.yml
 - filename: circleci-insights-api-openapi.yml
   format: yaml
   label: CircleCI Insights API
   slug: circleci-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-insights-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-insights-api-openapi.yml
 - filename: circleci-job-api-openapi.yml
   format: yaml
   label: CircleCI Job API
   slug: circleci-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-job-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-job-api-openapi.yml
 - filename: circleci-pipeline-api-openapi.yml
   format: yaml
   label: CircleCI Pipeline API
   slug: circleci-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-pipeline-api-openapi.yml
 - filename: circleci-project-api-openapi.yml
   format: yaml
   label: CircleCI Project API
   slug: circleci-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-project-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-project-api-openapi.yml
 - filename: circleci-resource-class-api-openapi.yml
   format: yaml
   label: CircleCI Resource Class API
   slug: circleci-resource-class-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-resource-class-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-resource-class-api-openapi.yml
 - filename: circleci-runner-task-api-openapi.yml
   format: yaml
   label: CircleCI Runner Task API
   slug: circleci-runner-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-task-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-runner-task-api-openapi.yml
 - filename: circleci-schedule-api-openapi.yml
   format: yaml
   label: CircleCI Schedule API
   slug: circleci-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-schedule-api-openapi.yml
 - filename: circleci-ssh-key-api-openapi.yml
   format: yaml
   label: CircleCI SSH Key API
   slug: circleci-ssh-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-ssh-key-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-ssh-key-api-openapi.yml
 - filename: circleci-test-metadata-api-openapi.yml
   format: yaml
   label: CircleCI Test Metadata API
   slug: circleci-test-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-test-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-test-metadata-api-openapi.yml
 - filename: circleci-user-api-openapi.yml
   format: yaml
   label: CircleCI User API
   slug: circleci-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-user-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-user-api-openapi.yml
 - filename: circleci-webhook-api-openapi.yml
   format: yaml
   label: CircleCI Webhook API
   slug: circleci-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-webhook-api-openapi.yml
 - filename: circleci-workflow-api-openapi.yml
   format: yaml
   label: CircleCI Workflow API
   slug: circleci-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-workflow-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 44
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/circle
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{webhook-id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runner\n  method: get\n  operationId: listRunners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runner/tasks\n  method: get\n  operationId: getUnclaimedTaskCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runner/tasks/running\n  method: get\n  operationId: getRunningTaskCount\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runner/resource-class\n  method: get\n  operationId: listResourceClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runner/resource-class\n  method: post\n  operationId: createResourceClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runner/resource-class/{resource-class}\n  method: get\n  operationId: getResourceClass\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runner/resource-class/{resource-class}\n\
   \  method: delete\n  operationId: deleteResourceClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/agentic-access/circleci-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/circleci/agentic-access/circleci-agentic-access.yml
 summary_line: 74 operations · 30 acting
 tags:
 - CI/CD

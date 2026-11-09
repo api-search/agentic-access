@@ -9,115 +9,115 @@ api_specs:
   label: GoDaddy Actions API
   slug: godaddy-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-actions-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-actions-api-openapi.yml
 - filename: godaddy-contacts-api-openapi.yml
   format: yaml
   label: GoDaddy Contacts API
   slug: godaddy-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-contacts-api-openapi.yml
 - filename: godaddy-domains-api-openapi.yml
   format: yaml
   label: GoDaddy Domains API
   slug: godaddy-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-domains-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-domains-api-openapi.yml
 - filename: godaddy-expiry-auctions-registrar-partners-api-openapi.yml
   format: yaml
   label: 'GoDaddy Expiry Auctions: Registrar Partners API'
   slug: godaddy-expiry-auctions-registrar-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-expiry-auctions-registrar-partners-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-expiry-auctions-registrar-partners-api-openapi.yml
 - filename: godaddy-notifications-api-openapi.yml
   format: yaml
   label: GoDaddy Notifications API
   slug: godaddy-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-notifications-api-openapi.yml
 - filename: godaddy-abuse-api-openapi.yml
   format: yaml
   label: GoDaddy Abuse API
   slug: godaddy-abuse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-abuse-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-abuse-api-openapi.yml
 - filename: godaddy-agreements-api-openapi.yml
   format: yaml
   label: GoDaddy Agreements API
   slug: godaddy-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-agreements-api-openapi.yml
 - filename: godaddy-certificates-api-openapi.yml
   format: yaml
   label: GoDaddy Certificates API
   slug: godaddy-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-certificates-api-openapi.yml
 - filename: godaddy-countries-api-openapi.yml
   format: yaml
   label: GoDaddy Countries API
   slug: godaddy-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-countries-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-countries-api-openapi.yml
 - filename: godaddy-customers-api-openapi.yml
   format: yaml
   label: GoDaddy Customers API
   slug: godaddy-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-customers-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-customers-api-openapi.yml
 - filename: godaddy-orders-api-openapi.yml
   format: yaml
   label: GoDaddy Orders API
   slug: godaddy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-orders-api-openapi.yml
 - filename: godaddy-shoppers-api-openapi.yml
   format: yaml
   label: GoDaddy Shoppers API
   slug: godaddy-shoppers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-shoppers-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-shoppers-api-openapi.yml
 - filename: godaddy-subscriptions-api-openapi.yml
   format: yaml
   label: GoDaddy Subscriptions API
   slug: godaddy-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-subscriptions-api-openapi.yml
 - filename: godaddy-discovery-api-openapi.yml
   format: yaml
   label: GoDaddy Discovery API
   slug: godaddy-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-discovery-api-openapi.yml
 - filename: godaddy-domain-management-api-openapi.yml
   format: yaml
   label: GoDaddy Domain Management API
   slug: godaddy-domain-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-domain-management-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-domain-management-api-openapi.yml
 - filename: godaddy-operations-api-openapi.yml
   format: yaml
   label: GoDaddy Operations API
   slug: godaddy-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-operations-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-operations-api-openapi.yml
 - filename: godaddy-records-api-openapi.yml
   format: yaml
   label: GoDaddy Records API
   slug: godaddy-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-records-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-records-api-openapi.yml
 - filename: godaddy-registration-quotes-api-openapi.yml
   format: yaml
   label: GoDaddy Registration Quotes API
   slug: godaddy-registration-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-registration-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-registration-quotes-api-openapi.yml
 - filename: godaddy-registrations-api-openapi.yml
   format: yaml
   label: GoDaddy Registrations API
   slug: godaddy-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/openapi/godaddy-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/godaddy/openapi/godaddy-registrations-api-openapi.yml
 consequence_counts:
   physical: 24
   read: 52
@@ -307,8 +307,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/godadd
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/customers/{customerId}/domains/{domain}/actions/{type}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/domains/notifications\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/domains/notifications/optIn\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/domains/notifications/optIn\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/customers/{customerId}/domains/notifications/schemas/{type}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/domains/notifications/{notificationId}/acknowledge\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/customers/{customerId}/domains/register\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n\
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/customers/{customerId}/domains/register/schema/{tld}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/domains/register/validate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/domains/maintenances\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/agentic-access/godaddy-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/godaddy/refs/heads/main/agentic-access/godaddy-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/godaddy/agentic-access/godaddy-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/godaddy/agentic-access/godaddy-agentic-access.yml
 summary_line: 119 operations · 67 acting · 2 human-in-the-loop
 tags:
 - Aftermarket

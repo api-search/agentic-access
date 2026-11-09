@@ -9,49 +9,49 @@ api_specs:
   label: Lunar Configuration API
   slug: lunar-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-configuration-api-openapi.yml
 - filename: lunar-discovery-api-openapi.yml
   format: yaml
   label: Lunar Discovery API
   slug: lunar-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-discovery-api-openapi.yml
 - filename: lunar-doctor-api-openapi.yml
   format: yaml
   label: Lunar Doctor API
   slug: lunar-doctor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-doctor-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-doctor-api-openapi.yml
 - filename: lunar-flows-api-openapi.yml
   format: yaml
   label: Lunar Flows API
   slug: lunar-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-flows-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-flows-api-openapi.yml
 - filename: lunar-handshake-api-openapi.yml
   format: yaml
   label: Lunar Handshake API
   slug: lunar-handshake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-handshake-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-handshake-api-openapi.yml
 - filename: lunar-policies-api-openapi.yml
   format: yaml
   label: Lunar Policies API
   slug: lunar-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-policies-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-policies-api-openapi.yml
 - filename: lunar-health-api-openapi.yml
   format: yaml
   label: Lunar Health API
   slug: lunar-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-health-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-health-api-openapi.yml
 - filename: lunar-proxy-api-openapi.yml
   format: yaml
   label: Lunar Proxy API
   slug: lunar-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/openapi/lunar-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/lunar/openapi/lunar-proxy-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lunar-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apply_flows\n  method: put\n  operationId: applyFlows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /on_haproxy_error\n  method: put\n  operationId: reportHAProxyError\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configuration\n  method: post\n  operationId: applyConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apply_policies\n  method: post\n  operationId: applyPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validate_policies\n  method: post\n  operationId: validatePolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /revert_to_diagnosis_free\n  method: post\n  operationId: revertToDiagnosisFree\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /revert_to_last_loaded\n  method: post\n  operationId: revertToLastLoaded\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lunar/refs/heads/main/agentic-access/lunar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lunar/agentic-access/lunar-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - API Management

@@ -9,49 +9,49 @@ api_specs:
   label: Delx A2a API
   slug: delx-ai-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-a2a-api-openapi.yml
 - filename: delx-ai-agents-api-openapi.yml
   format: yaml
   label: Delx Agents API
   slug: delx-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-agents-api-openapi.yml
 - filename: delx-ai-discovery-api-openapi.yml
   format: yaml
   label: Delx Discovery API
   slug: delx-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-discovery-api-openapi.yml
 - filename: delx-ai-mcp-api-openapi.yml
   format: yaml
   label: Delx MCP API
   slug: delx-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-mcp-api-openapi.yml
 - filename: delx-ai-protocol-api-openapi.yml
   format: yaml
   label: Delx Protocol API
   slug: delx-ai-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-protocol-api-openapi.yml
 - filename: delx-ai-reliability-api-openapi.yml
   format: yaml
   label: Delx Reliability API
   slug: delx-ai-reliability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-reliability-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-reliability-api-openapi.yml
 - filename: delx-ai-tools-api-openapi.yml
   format: yaml
   label: Delx Tools API
   slug: delx-ai-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-tools-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-tools-api-openapi.yml
 - filename: delx-ai-x402-api-openapi.yml
   format: yaml
   label: Delx X402 API
   slug: delx-ai-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/openapi/delx-ai-x402-api-openapi.yml
+  url: https://artifacts.apis.io/delx-ai/openapi/delx-ai-x402-api-openapi.yml
 consequence_counts:
   physical: 338
   read: 14
@@ -241,8 +241,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/delx-a
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/luhn-check\n  method: post\n  operationId: util_luhn_check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/isbn-check\n  method: post\n  operationId: util_isbn_check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/levenshtein\n  method: post\n  operationId: util_levenshtein\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/similarity\n  method: post\n  operationId: util_similarity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/normalize-whitespace\n  method: post\n  operationId: util_normalize_whitespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/extract-urls\n  method: post\n  operationId: util_extract_urls\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/extract-emails\n  method: post\n  operationId: util_extract_emails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/x402/url-encode\n  method: post\n  operationId: util_url_encode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  \n\n# --- truncated at 32 KB (380 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/agentic-access/delx-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delx-ai/refs/heads/main/agentic-access/delx-ai-agentic-access.yml
+  \n\n# --- truncated at 32 KB (380 KB total) ---\n# Full source: https://artifacts.apis.io/delx-ai/agentic-access/delx-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/delx-ai/agentic-access/delx-ai-agentic-access.yml
 summary_line: 1002 operations · 988 acting · 471 human-in-the-loop
 tags:
 - Agents

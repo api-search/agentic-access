@@ -802,9 +802,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: generated\nsource: openapi/onclar
 source_yaml_url: https://artifacts.apis.io/onclarity-com/agentic-access/onclarity-com-agentic-access.yml
 summary_line: 932 operations · 484 acting · 10 human-in-the-loop
 tags:
-- AI
+- Artificial Intelligence
 - Customer Experience
-- CX
-- Agentic
+- AI Agents
 - Enterprise
 ---

@@ -9,121 +9,121 @@ api_specs:
   label: Shoplazza Access API
   slug: shoplazza-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-access-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-access-api-openapi.yml
 - filename: shoplazza-app-proxy-api-openapi.yml
   format: yaml
   label: Shoplazza App Proxy API
   slug: shoplazza-app-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-app-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-app-proxy-api-openapi.yml
 - filename: shoplazza-billing-api-api-openapi.yml
   format: yaml
   label: Shoplazza Billing API
   slug: shoplazza-billing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-billing-api-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-billing-api-api-openapi.yml
 - filename: shoplazza-custom-area-api-openapi.yml
   format: yaml
   label: Shoplazza Custom Area API
   slug: shoplazza-custom-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-custom-area-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-custom-area-api-openapi.yml
 - filename: shoplazza-customer-api-openapi.yml
   format: yaml
   label: Shoplazza Customer API
   slug: shoplazza-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-customer-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-customer-api-openapi.yml
 - filename: shoplazza-data-api-openapi.yml
   format: yaml
   label: Shoplazza Data API
   slug: shoplazza-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-data-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-data-api-openapi.yml
 - filename: shoplazza-discounts-api-openapi.yml
   format: yaml
   label: Shoplazza Discounts API
   slug: shoplazza-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-discounts-api-openapi.yml
 - filename: shoplazza-file-api-openapi.yml
   format: yaml
   label: Shoplazza File API
   slug: shoplazza-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-file-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-file-api-openapi.yml
 - filename: shoplazza-fullfillment-api-openapi.yml
   format: yaml
   label: Shoplazza Fullfillment API
   slug: shoplazza-fullfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-fullfillment-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-fullfillment-api-openapi.yml
 - filename: shoplazza-gift-card-api-openapi.yml
   format: yaml
   label: Shoplazza Gift Card API
   slug: shoplazza-gift-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-gift-card-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-gift-card-api-openapi.yml
 - filename: shoplazza-meta-definition-api-openapi.yml
   format: yaml
   label: Shoplazza Meta Definition API
   slug: shoplazza-meta-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-meta-definition-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-meta-definition-api-openapi.yml
 - filename: shoplazza-metafield-api-openapi.yml
   format: yaml
   label: Shoplazza Metafield API
   slug: shoplazza-metafield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-metafield-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-metafield-api-openapi.yml
 - filename: shoplazza-order-api-openapi.yml
   format: yaml
   label: Shoplazza Order API
   slug: shoplazza-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-order-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-order-api-openapi.yml
 - filename: shoplazza-order-risk-api-openapi.yml
   format: yaml
   label: Shoplazza Order Risk API
   slug: shoplazza-order-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-order-risk-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-order-risk-api-openapi.yml
 - filename: shoplazza-page-api-openapi.yml
   format: yaml
   label: Shoplazza Page API
   slug: shoplazza-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-page-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-page-api-openapi.yml
 - filename: shoplazza-product-api-openapi.yml
   format: yaml
   label: Shoplazza Product API
   slug: shoplazza-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-product-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-product-api-openapi.yml
 - filename: shoplazza-redirect-api-openapi.yml
   format: yaml
   label: Shoplazza Redirect API
   slug: shoplazza-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-redirect-api-openapi.yml
 - filename: shoplazza-shop-api-openapi.yml
   format: yaml
   label: Shoplazza Shop API
   slug: shoplazza-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-shop-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-shop-api-openapi.yml
 - filename: shoplazza-theme-api-openapi.yml
   format: yaml
   label: Shoplazza Theme API
   slug: shoplazza-theme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-theme-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-theme-api-openapi.yml
 - filename: shoplazza-webhook-api-openapi.yml
   format: yaml
   label: Shoplazza Webhook API
   slug: shoplazza-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/openapi/shoplazza-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/shoplazza/openapi/shoplazza-webhook-api-openapi.yml
 consequence_counts:
   physical: 24
   read: 102
@@ -312,8 +312,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shopla
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/2022-01/{resource}/{resource_id}/metafields\n  method: post\n  operationId: create-matefield\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/2022-01/{resource}/{resource_id}/metafields/{id}\n  method: get\n  operationId: get-metafield-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/2022-01/{resource}/{resource_id}/metafields/{id}\n  method: patch\n  operationId: update-matefield\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/2022-01/{resource}/{resource_id}/metafields/{id}\n  method: delete\n  operationId: delete-metafield\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/2022-01/{resource}/{resource_id}/metafields/count\n  method: get\n  operationId: get-metafields-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/2022-01/orders\n  method: get\n  operationId: order-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /openapi/2022-01/orders\n  method: post\n  operationId: create-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/2022-01/orders/{id}\n  method: get\n  operationId: order-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/2022-01/orders/{id}\n  method: delete\n  operationId: delete-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /openapi/2022-01/orders/{id}\n  method: put\n  operationId: update-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/2022-01/orders/number/{number}\n  method: get\n  operationId: order-details-by-number\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/2022-01/orders/count\n  method: get\n  operationId: order-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/agentic-access/shoplazza-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shoplazza/refs/heads/main/agentic-access/shoplazza-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /openapi/2022-01/orders/{id}\n  method: put\n  operationId: update-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/2022-01/orders/number/{number}\n  method: get\n  operationId: order-details-by-number\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/2022-01/orders/count\n  method: get\n  operationId: order-count\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/shoplazza/agentic-access/shoplazza-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/shoplazza/agentic-access/shoplazza-agentic-access.yml
 summary_line: 197 operations · 95 acting · 1 human-in-the-loop
 tags:
 - Company

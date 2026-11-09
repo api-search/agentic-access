@@ -9,31 +9,31 @@ api_specs:
   label: SAP HANA Alerts API
   slug: sap-hana-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-alerts-api-openapi.yml
 - filename: sap-hana-instance-mappings-api-openapi.yml
   format: yaml
   label: SAP HANA Instance Mappings API
   slug: sap-hana-instance-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-instance-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-instance-mappings-api-openapi.yml
 - filename: sap-hana-instances-api-openapi.yml
   format: yaml
   label: SAP HANA Instances API
   slug: sap-hana-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-instances-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-instances-api-openapi.yml
 - filename: sap-hana-metering-api-openapi.yml
   format: yaml
   label: SAP HANA Metering API
   slug: sap-hana-metering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-metering-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-metering-api-openapi.yml
 - filename: sap-hana-metrics-api-openapi.yml
   format: yaml
   label: SAP HANA Metrics API
   slug: sap-hana-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/openapi/sap-hana-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/sap-hana/openapi/sap-hana-metrics-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-ha
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory/v2/serviceInstances\n  method: get\n  operationId: listInventoryInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/v1/serviceInstances/{serviceInstanceId}/events\n  method: get\n  operationId: listAlertEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/v1/serviceInstances/{serviceInstanceId}/rules\n  method: get\n  operationId: listAlertRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/v1/serviceInstances/{serviceInstanceId}/rules\n  method: patch\n  operationId: updateAlertRules\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/v1/serviceInstances/{serviceInstanceId}/values\n  method: get\n  operationId: getMetricValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metering/v1/serviceInstances/{serviceInstanceId}/values\n  method: get\n  operationId: getMeteringValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/v2/serviceInstances/{serviceInstanceId}/instanceMappings\n  method: get\n  operationId: listInstanceMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory/v2/serviceInstances/{serviceInstanceId}/instanceMappings\n  method: post\n  operationId: createInstanceMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory/v2/serviceInstances/{serviceInstanceId}/instanceMappings/{mappingId}\n  method: delete\n  operationId: deleteInstanceMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/agentic-access/sap-hana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-hana/agentic-access/sap-hana-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Analytics

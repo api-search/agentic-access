@@ -8,25 +8,25 @@ api_specs:
   label: Cornell University Library Catalog Search API
   slug: library-catalog
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-library-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-library-catalog-api-openapi.yml
 - filename: cornell-cugir-api-openapi.yml
   format: yaml
   label: Cornell University Cugir API
   slug: cornell-cugir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-cugir-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-cugir-api-openapi.yml
 - filename: cornell-config-api-openapi.yml
   format: yaml
   label: Cornell University Config API
   slug: cornell-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-config-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-config-api-openapi.yml
 - filename: cornell-search-api-openapi.yml
   format: yaml
   label: Cornell University Search API
   slug: cornell-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/openapi/cornell-search-api-openapi.yml
+  url: https://artifacts.apis.io/cornell/openapi/cornell-search-api-openapi.yml
 consequence_counts:
   read: 11
 description: 'Recommended x-agentic-access execution contracts for the surfaces Cornell University itself operates, classified heuristically from the OpenAPI. Regenerated 2026-08-19: the 2026-07-15 file covered 15 operations across five CODI specs, four of which describe surfaces that are dead or vendor-operated (Cornell Dining, Cornell Days, the campus map, and the Localist events calendar). Every operation below is an unauthenticated public read verified live on 2026-08-19.'
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: generated\nsource: openapi/cornel
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/acadCareers.json\n  method: get\n  source: openapi/cornell-class-roster-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/acadGroups.json\n  method: get\n  source: openapi/cornell-class-roster-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/classLevels.json\n  method: get\n  source: openapi/cornell-class-roster-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/subjects.json\n  method: get\n  source: openapi/cornell-class-roster-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/classes.json\n  method: get\n  source: openapi/cornell-class-roster-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog.json\n  method: get\n  source: openapi/cornell-library-catalog-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/opensearch.xml\n  method: get\n  source: openapi/cornell-library-catalog-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/opensearch.json\n  method: get\n  source: openapi/cornell-library-catalog-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog.json\n  method: get\n  source: openapi/cugir-geospatial-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{id}.json\n  method: get\n  source: openapi/cugir-geospatial-api-openapi.yml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cornell/refs/heads/main/agentic-access/cornell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cornell/agentic-access/cornell-agentic-access.yml
 summary_line: 11 operations
 tags:
 - University

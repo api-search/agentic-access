@@ -9,19 +9,19 @@ api_specs:
   label: Rybbit Analytics API
   slug: rybbit-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-analytics-api-openapi.yml
 - filename: rybbit-event-tracking-api-openapi.yml
   format: yaml
   label: Rybbit Event Tracking API
   slug: rybbit-event-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-event-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-event-tracking-api-openapi.yml
 - filename: rybbit-sessions-api-openapi.yml
   format: yaml
   label: Rybbit Sessions API
   slug: rybbit-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/openapi/rybbit-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/rybbit/openapi/rybbit-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rybbit
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/sessions/{sessionId}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/session-locations\n  method: get\n  operationId: listSessionLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/users/{userId}/sessions\n  method: get\n  operationId: listUserSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/users/session-count\n  method: get\n  operationId: getUserSessionCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/retention\n  method: get\n  operationId: getRetention\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sites/{site}/journeys\n  method: get\n  operationId: getJourneys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rybbit/refs/heads/main/agentic-access/rybbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rybbit/agentic-access/rybbit-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Analytics

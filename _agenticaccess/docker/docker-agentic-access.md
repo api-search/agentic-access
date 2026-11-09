@@ -9,91 +9,91 @@ api_specs:
   label: Docker Config API
   slug: docker-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-config-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-config-api-openapi.yml
 - filename: docker-container-api-openapi.yml
   format: yaml
   label: Docker Container API
   slug: docker-container-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-container-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-container-api-openapi.yml
 - filename: docker-distribution-api-openapi.yml
   format: yaml
   label: Docker Distribution API
   slug: docker-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-distribution-api-openapi.yml
 - filename: docker-exec-api-openapi.yml
   format: yaml
   label: Docker Exec API
   slug: docker-exec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-exec-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-exec-api-openapi.yml
 - filename: docker-image-api-openapi.yml
   format: yaml
   label: Docker Image API
   slug: docker-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-image-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-image-api-openapi.yml
 - filename: docker-network-api-openapi.yml
   format: yaml
   label: Docker Network API
   slug: docker-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-network-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-network-api-openapi.yml
 - filename: docker-node-api-openapi.yml
   format: yaml
   label: Docker Node API
   slug: docker-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-node-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-node-api-openapi.yml
 - filename: docker-plugin-api-openapi.yml
   format: yaml
   label: Docker Plugin API
   slug: docker-plugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-plugin-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-plugin-api-openapi.yml
 - filename: docker-secret-api-openapi.yml
   format: yaml
   label: Docker Secret API
   slug: docker-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-secret-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-secret-api-openapi.yml
 - filename: docker-service-api-openapi.yml
   format: yaml
   label: Docker Service API
   slug: docker-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-service-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-service-api-openapi.yml
 - filename: docker-session-api-openapi.yml
   format: yaml
   label: Docker Session API
   slug: docker-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-session-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-session-api-openapi.yml
 - filename: docker-swarm-api-openapi.yml
   format: yaml
   label: Docker Swarm API
   slug: docker-swarm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-swarm-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-swarm-api-openapi.yml
 - filename: docker-system-api-openapi.yml
   format: yaml
   label: Docker System API
   slug: docker-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-system-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-system-api-openapi.yml
 - filename: docker-task-api-openapi.yml
   format: yaml
   label: Docker Task API
   slug: docker-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-task-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-task-api-openapi.yml
 - filename: docker-volume-api-openapi.yml
   format: yaml
   label: Docker Volume API
   slug: docker-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/openapi/docker-volume-api-openapi.yml
+  url: https://artifacts.apis.io/docker/openapi/docker-volume-api-openapi.yml
 consequence_counts:
   read: 45
   safety-critical: 4
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docker
   - path: /secrets/{id}\n  method: get\n  operationId: SecretInspect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/{id}\n  method: delete\n  operationId: SecretDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/{id}/update\n  method: post\n  operationId: SecretUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configs\n  method: get\n  operationId: ConfigList\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configs/create\n  method: post\n  operationId: ConfigCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /configs/{id}\n  method: get\n  operationId: ConfigInspect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /configs/{id}\n  method: delete\n  operationId: ConfigDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /configs/{id}/update\n  method: post\n  operationId: ConfigUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /distribution/{name}/json\n  method: get\n  operationId: DistributionInspect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /session\n  method: post\n  operationId: Session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docker/refs/heads/main/agentic-access/docker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docker/agentic-access/docker-agentic-access.yml
 summary_line: 107 operations · 62 acting · 4 human-in-the-loop
 tags:
 - Cloud

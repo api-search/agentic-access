@@ -9,25 +9,25 @@ api_specs:
   label: Fastino Labs Anthropic Compat API
   slug: fastino-labs-anthropic-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-anthropic-compat-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-anthropic-compat-api-openapi.yml
 - filename: fastino-labs-inference-api-openapi.yml
   format: yaml
   label: Fastino Labs Inference API
   slug: fastino-labs-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-inference-api-openapi.yml
 - filename: fastino-labs-inference-history-api-openapi.yml
   format: yaml
   label: Fastino Labs Inference History API
   slug: fastino-labs-inference-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-inference-history-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-inference-history-api-openapi.yml
 - filename: fastino-labs-openai-compat-api-openapi.yml
   format: yaml
   label: Fastino Labs Openai Compat API
   slug: fastino-labs-openai-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/openapi/fastino-labs-openai-compat-api-openapi.yml
+  url: https://artifacts.apis.io/fastino-labs/openapi/fastino-labs-openai-compat-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/pioneer-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 5\n    connected: 3\n  by_consequence:\n    write: 5\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /inference\n  method: post\n  operationId: run_inference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chat/completions\n  method: post\n  operationId: create_chat_completion\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/completions\n  method: post\n  operationId: create_text_completion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: list_models\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/messages\n  method: post\n  operationId: create_message\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inferences\n  method: get\n  operationId: list_inferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inferences/{inference_id}\n  method: get\n  operationId: get_inference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inferences/{inference_id}/feedback\n  method: post\n  operationId: submit_inference_feedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastino-labs/refs/heads/main/agentic-access/fastino-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fastino-labs/agentic-access/fastino-labs-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Company

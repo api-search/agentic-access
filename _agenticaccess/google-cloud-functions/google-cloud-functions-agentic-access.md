@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud Functions API
   slug: google-cloud-functions-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-functions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-functions-api-openapi.yml
 - filename: google-cloud-functions-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Locations API
   slug: google-cloud-functions-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-locations-api-openapi.yml
 - filename: google-cloud-functions-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Operations API
   slug: google-cloud-functions-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-operations-api-openapi.yml
 - filename: google-cloud-functions-runtimes-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Runtimes API
   slug: google-cloud-functions-runtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-runtimes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-runtimes-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/functions\n  method: post\n  operationId: createFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/functions/{functionId}\n  method: get\n  operationId: getFunction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/functions/{functionId}\n  method: patch\n  operationId: updateFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/functions/{functionId}\n  method: delete\n  operationId: deleteFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/runtimes\n  method: get\n  operationId: listRuntimes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/functions/{functionId}:generateUploadUrl\n  method: post\n  operationId: generateUploadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/operations/{operationId}\n  method: get\n  operationId: getOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/agentic-access/google-cloud-functions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-functions/agentic-access/google-cloud-functions-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Event-Driven

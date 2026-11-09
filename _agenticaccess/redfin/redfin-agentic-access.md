@@ -8,43 +8,43 @@ api_specs:
   label: Redfin CSV Export API
   slug: redfin-csv-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-csv-export-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-csv-export-api-openapi.yml
 - filename: redfin-market-tracker-api-openapi.yml
   format: yaml
   label: Redfin Market Tracker API
   slug: redfin-market-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-market-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-market-tracker-api-openapi.yml
 - filename: redfin-market-trends-api-openapi.yml
   format: yaml
   label: Redfin Market Trends API
   slug: redfin-market-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-market-trends-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-market-trends-api-openapi.yml
 - filename: redfin-neighborhood-api-openapi.yml
   format: yaml
   label: Redfin Neighborhood API
   slug: redfin-neighborhood-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-neighborhood-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-neighborhood-api-openapi.yml
 - filename: redfin-property-details-api-openapi.yml
   format: yaml
   label: Redfin Property Details API
   slug: redfin-property-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-property-details-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-property-details-api-openapi.yml
 - filename: redfin-search-api-openapi.yml
   format: yaml
   label: Redfin Search API
   slug: redfin-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-search-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-search-api-openapi.yml
 - filename: redfin-valuation-api-openapi.yml
   format: yaml
   label: Redfin Valuation API
   slug: redfin-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/openapi/redfin-valuation-api-openapi.yml
+  url: https://artifacts.apis.io/redfin/openapi/redfin-valuation-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/redfin
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/initialInfo\n  method: get\n  operationId: getInitialInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/aboveTheFold\n  method: get\n  operationId: getAboveTheFold\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/belowTheFold\n  method: get\n  operationId: getBelowTheFold\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/mainHouseInfoPanelInfo\n  method: get\n  operationId: getMainHouseInfoPanelInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/avmHistoricalData\n  method: get\n  operationId: getAvmHistoricalData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/neighborhoodStats/statsInfo\n  method: get\n  operationId: getNeighborhoodStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/home/details/commute/commuteInfo\n  method: get\n  operationId: getCommuteInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/region/{regionType}/{regionId}/{code}/trends\n  method: get\n  operationId: getRegionTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/region/{regionType}/{regionId}/{code}/aggregate-trends\n  method: get\n  operationId: getRegionAggregateTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/redfin/refs/heads/main/agentic-access/redfin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/redfin/agentic-access/redfin-agentic-access.yml
 summary_line: 19 operations
 tags:
 - CSV Export

@@ -9,85 +9,85 @@ api_specs:
   label: OpenWeatherMap Accumulated Parameters API
   slug: openweathermap-accumulated-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-accumulated-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-accumulated-parameters-api-openapi.yml
 - filename: openweathermap-air-pollution-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Air Pollution API
   slug: openweathermap-air-pollution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-air-pollution-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-air-pollution-api-openapi.yml
 - filename: openweathermap-current-weather-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Current Weather API
   slug: openweathermap-current-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-current-weather-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-current-weather-api-openapi.yml
 - filename: openweathermap-forecast-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Forecast API
   slug: openweathermap-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-forecast-api-openapi.yml
 - filename: openweathermap-geocoding-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Geocoding API
   slug: openweathermap-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-geocoding-api-openapi.yml
 - filename: openweathermap-history-api-openapi.yml
   format: yaml
   label: OpenWeatherMap History API
   slug: openweathermap-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-history-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-history-api-openapi.yml
 - filename: openweathermap-measurements-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Measurements API
   slug: openweathermap-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-measurements-api-openapi.yml
 - filename: openweathermap-one-call-api-openapi.yml
   format: yaml
   label: OpenWeatherMap One Call API
   slug: openweathermap-one-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-one-call-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-one-call-api-openapi.yml
 - filename: openweathermap-road-risk-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Road Risk API
   slug: openweathermap-road-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-road-risk-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-road-risk-api-openapi.yml
 - filename: openweathermap-solar-irradiance-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Solar Irradiance API
   slug: openweathermap-solar-irradiance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-solar-irradiance-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-solar-irradiance-api-openapi.yml
 - filename: openweathermap-solar-panels-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Solar Panels API
   slug: openweathermap-solar-panels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-solar-panels-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-solar-panels-api-openapi.yml
 - filename: openweathermap-stations-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Stations API
   slug: openweathermap-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-stations-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-stations-api-openapi.yml
 - filename: openweathermap-statistical-weather-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Statistical Weather API
   slug: openweathermap-statistical-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-statistical-weather-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-statistical-weather-api-openapi.yml
 - filename: openweathermap-weather-maps-api-openapi.yml
   format: yaml
   label: OpenWeatherMap Weather Maps API
   slug: openweathermap-weather-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/openapi/openweathermap-weather-maps-api-openapi.yml
+  url: https://artifacts.apis.io/openweathermap/openapi/openweathermap-weather-maps-api-openapi.yml
 consequence_counts:
   read: 33
   write: 9
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openwe
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aggregated/day\n  method: get\n  operationId: getStatisticalAggregatedDay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /map/{layer}/{z}/{x}/{y}.png\n  method: get\n  operationId: getWeatherMapTile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations\n  method: get\n  operationId: listStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations\n  method: post\n  operationId: createStation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stations/{station_id}\n  method: get\n  operationId: getStation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stations/{station_id}\n  method: put\n  operationId: updateStation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stations/{station_id}\n  method: delete\n  operationId: deleteStation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /measurements\n  method: get\n  operationId: getMeasurements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /measurements\n  method: post\n  operationId: postMeasurements\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openweathermap/refs/heads/main/agentic-access/openweathermap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openweathermap/agentic-access/openweathermap-agentic-access.yml
 summary_line: 42 operations · 9 acting
 tags:
 - Weather

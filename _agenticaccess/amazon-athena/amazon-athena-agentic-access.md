@@ -9,49 +9,85 @@ api_specs:
   label: Amazon Athena Data Catalogs API
   slug: amazon-athena-data-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-data-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-data-catalogs-api-openapi.yml
 - filename: amazon-athena-databases-api-openapi.yml
   format: yaml
   label: Amazon Athena Databases API
   slug: amazon-athena-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-databases-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-databases-api-openapi.yml
 - filename: amazon-athena-named-queries-api-openapi.yml
   format: yaml
   label: Amazon Athena Named Queries API
   slug: amazon-athena-named-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-named-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-named-queries-api-openapi.yml
 - filename: amazon-athena-prepared-statements-api-openapi.yml
   format: yaml
   label: Amazon Athena Prepared Statements API
   slug: amazon-athena-prepared-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-prepared-statements-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-prepared-statements-api-openapi.yml
 - filename: amazon-athena-query-executions-api-openapi.yml
   format: yaml
   label: Amazon Athena Query Executions API
   slug: amazon-athena-query-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-query-executions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-query-executions-api-openapi.yml
 - filename: amazon-athena-table-metadata-api-openapi.yml
   format: yaml
   label: Amazon Athena Table Metadata API
   slug: amazon-athena-table-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-table-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-table-metadata-api-openapi.yml
 - filename: amazon-athena-tags-api-openapi.yml
   format: yaml
   label: Amazon Athena Tags API
   slug: amazon-athena-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-tags-api-openapi.yml
 - filename: amazon-athena-work-groups-api-openapi.yml
   format: yaml
   label: Amazon Athena Work Groups API
   slug: amazon-athena-work-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/openapi/amazon-athena-work-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-work-groups-api-openapi.yml
+- filename: amazon-athena-calculation-execution-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena Calculation Execution API
+  slug: amazon-athena-calculation-execution-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-calculation-execution-api-openapi.yml
+- filename: amazon-athena-capacity-reservation-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena Capacity Reservation API
+  slug: amazon-athena-capacity-reservation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-capacity-reservation-api-openapi.yml
+- filename: amazon-athena-notebook-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena Notebook API
+  slug: amazon-athena-notebook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-notebook-api-openapi.yml
+- filename: amazon-athena-notebook-metadata-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena Notebook Metadata API
+  slug: amazon-athena-notebook-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-notebook-metadata-api-openapi.yml
+- filename: amazon-athena-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena Operations API
+  slug: amazon-athena-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-operations-api-openapi.yml
+- filename: amazon-athena-session-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena Session API
+  slug: amazon-athena-session-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-session-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -97,11 +133,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=UntagResource\n  method: post\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=ListTagsForResource\n  method: post\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateWorkGroup\n  method: post\n  operationId: createWorkGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DeleteWorkGroup\n  method: post\n  operationId: deleteWorkGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=GetWorkGroup\n  method: post\n  operationId: getWorkGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=UpdateWorkGroup\n  method: post\n  operationId: updateWorkGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=ListWorkGroups\n  method: post\n  operationId: listWorkGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/agentic-access/amazon-athena-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-athena/agentic-access/amazon-athena-agentic-access.yml
 summary_line: 32 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Amazon Athena
 - SQL
 - Analytics
 - Serverless
+- Amazon Web Services
 ---

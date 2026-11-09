@@ -9,37 +9,37 @@ api_specs:
   label: Keen Cached Queries API
   slug: cached-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-cached-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-cached-queries-api-openapi.yml
 - filename: keen-saved-queries-api-openapi.yml
   format: yaml
   label: Keen Saved Queries API
   slug: saved-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-saved-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-saved-queries-api-openapi.yml
 - filename: keen-collections-api-openapi.yml
   format: yaml
   label: Keen Collections API
   slug: keen-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-collections-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-collections-api-openapi.yml
 - filename: keen-events-api-openapi.yml
   format: yaml
   label: Keen Events API
   slug: keen-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-events-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-events-api-openapi.yml
 - filename: keen-extractions-api-openapi.yml
   format: yaml
   label: Keen Extractions API
   slug: keen-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-extractions-api-openapi.yml
 - filename: keen-queries-api-openapi.yml
   format: yaml
   label: Keen Queries API
   slug: keen-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/openapi/keen-queries-api-openapi.yml
+  url: https://artifacts.apis.io/keen/openapi/keen-queries-api-openapi.yml
 consequence_counts:
   read: 21
   write: 6
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/keen-c
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/queries/funnel\n  method: post\n  operationId: queryFunnel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/queries/multi_analysis\n  method: post\n  operationId: queryMultiAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/queries/saved\n  method: get\n  operationId: listSavedQueries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/queries/saved/{queryName}\n  method: get\n  operationId: getSavedQuery\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/queries/saved/{queryName}\n  method: put\n  operationId: createOrUpdateSavedQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/queries/saved/{queryName}\n  method: delete\n  operationId: deleteSavedQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/queries/saved/{queryName}/result\n  method: get\n  operationId: runSavedQuery\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keen/refs/heads/main/agentic-access/keen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keen/agentic-access/keen-agentic-access.yml
 summary_line: 27 operations · 6 acting
 tags:
 - Analytics

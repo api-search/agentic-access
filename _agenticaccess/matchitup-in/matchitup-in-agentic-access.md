@@ -9,163 +9,163 @@ api_specs:
   label: Match It Up Admin API
   slug: matchitup-in-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-admin-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-admin-api-openapi.yml
 - filename: matchitup-in-agent-contracts-api-openapi.yml
   format: yaml
   label: Match It Up Agent Contracts API
   slug: matchitup-in-agent-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-agent-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-agent-contracts-api-openapi.yml
 - filename: matchitup-in-agent-marketplace-api-openapi.yml
   format: yaml
   label: Match It Up Agent Marketplace API
   slug: matchitup-in-agent-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-agent-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-agent-marketplace-api-openapi.yml
 - filename: matchitup-in-analytics-api-openapi.yml
   format: yaml
   label: Match It Up Analytics API
   slug: matchitup-in-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-analytics-api-openapi.yml
 - filename: matchitup-in-authentication-api-openapi.yml
   format: yaml
   label: Match It Up Authentication API
   slug: matchitup-in-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-authentication-api-openapi.yml
 - filename: matchitup-in-brew-circles-api-openapi.yml
   format: yaml
   label: Match It Up Brew Circles API
   slug: matchitup-in-brew-circles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-brew-circles-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-brew-circles-api-openapi.yml
 - filename: matchitup-in-contracts-api-openapi.yml
   format: yaml
   label: Match It Up Contracts API
   slug: matchitup-in-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-contracts-api-openapi.yml
 - filename: matchitup-in-fastapi-api-openapi.yml
   format: yaml
   label: Match It Up Fast API
   slug: matchitup-in-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-fastapi-api-openapi.yml
 - filename: matchitup-in-health-api-openapi.yml
   format: yaml
   label: Match It Up Health API
   slug: matchitup-in-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-health-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-health-api-openapi.yml
 - filename: matchitup-in-marketplace-api-openapi.yml
   format: yaml
   label: Match It Up Marketplace API
   slug: matchitup-in-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-marketplace-api-openapi.yml
 - filename: matchitup-in-mcp-api-openapi.yml
   format: yaml
   label: Match It Up MCP API
   slug: matchitup-in-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-mcp-api-openapi.yml
 - filename: matchitup-in-messages-api-openapi.yml
   format: yaml
   label: Match It Up Messages API
   slug: matchitup-in-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-messages-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-messages-api-openapi.yml
 - filename: matchitup-in-nda-api-openapi.yml
   format: yaml
   label: Match It Up Nda API
   slug: matchitup-in-nda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-nda-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-nda-api-openapi.yml
 - filename: matchitup-in-partner-leads-api-openapi.yml
   format: yaml
   label: Match It Up Partner Leads API
   slug: matchitup-in-partner-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-partner-leads-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-partner-leads-api-openapi.yml
 - filename: matchitup-in-phase2-api-openapi.yml
   format: yaml
   label: Match It Up Phase2 API
   slug: matchitup-in-phase2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase2-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase2-api-openapi.yml
 - filename: matchitup-in-phase3-api-openapi.yml
   format: yaml
   label: Match It Up Phase3 API
   slug: matchitup-in-phase3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase3-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase3-api-openapi.yml
 - filename: matchitup-in-phase4-api-openapi.yml
   format: yaml
   label: Match It Up Phase4 API
   slug: matchitup-in-phase4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase4-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase4-api-openapi.yml
 - filename: matchitup-in-phase5-api-openapi.yml
   format: yaml
   label: Match It Up Phase5 API
   slug: matchitup-in-phase5-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-phase5-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-phase5-api-openapi.yml
 - filename: matchitup-in-pitch-deck-api-openapi.yml
   format: yaml
   label: Match It Up Pitch Deck API
   slug: matchitup-in-pitch-deck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-pitch-deck-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-pitch-deck-api-openapi.yml
 - filename: matchitup-in-protocol-api-openapi.yml
   format: yaml
   label: Match It Up Protocol API
   slug: matchitup-in-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-protocol-api-openapi.yml
 - filename: matchitup-in-public-api-openapi.yml
   format: yaml
   label: Match It Up Public API
   slug: matchitup-in-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-public-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-public-api-openapi.yml
 - filename: matchitup-in-referrals-api-openapi.yml
   format: yaml
   label: Match It Up Referrals API
   slug: matchitup-in-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-referrals-api-openapi.yml
 - filename: matchitup-in-social-auth-api-openapi.yml
   format: yaml
   label: Match It Up Social Auth API
   slug: matchitup-in-social-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-social-auth-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-social-auth-api-openapi.yml
 - filename: matchitup-in-sprint8-api-openapi.yml
   format: yaml
   label: Match It Up Sprint8 API
   slug: matchitup-in-sprint8-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-sprint8-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-sprint8-api-openapi.yml
 - filename: matchitup-in-sprint9-api-openapi.yml
   format: yaml
   label: Match It Up Sprint9 API
   slug: matchitup-in-sprint9-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-sprint9-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-sprint9-api-openapi.yml
 - filename: matchitup-in-ssr-api-openapi.yml
   format: yaml
   label: Match It Up SSR API
   slug: matchitup-in-ssr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-ssr-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-ssr-api-openapi.yml
 - filename: matchitup-in-subscriptions-api-openapi.yml
   format: yaml
   label: Match It Up Subscriptions API
   slug: matchitup-in-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/openapi/matchitup-in-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/matchitup-in/openapi/matchitup-in-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 227
@@ -304,8 +304,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/matchi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/job/{job_id}\n  method: get\n  operationId: poll_mixer_job_api_mixer_job__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mixer/results\n  method: get\n  operationId: get_mixer_results_api_mixer_results_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mixer/usage\n  method: get\n  operationId: get_mixer_usage_status_api_mixer_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mixer/results/{result_id}/approve-all\n  method: post\n  operationId: approve_all_mixer_intros_api_mixer_results__result_id__approve_all_post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/results/{result_id}/matches/{target_user_id}/approve\n  method: post\n  operationId: approve_mixer_intro_api_mixer_results__result_id__matches__target_user_id__approve_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/results/{result_id}/matches/{target_user_id}/dismiss\n  method: post\n  operationId: dismiss_mixer_intro_api_mixer_results__result_id__matches__target_user_id__dismiss_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/results/{result_id}/generate-intros\n  method: post\n  operationId: generate_mixer_intros_api_mixer_results__result_id__generate_intros_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/schedule\n  method: get\n  operationId: get_mixer_schedules_api_mixer_schedule_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/mixer/schedule\n  method: post\n  operationId: create_mixer_schedule_api_mixer_schedule_post\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/schedule/{schedule_id}\n  method: delete\n  operationId: delete_mixer_schedule_api_mixer_schedule__schedule_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (139 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/agentic-access/matchitup-in-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matchitup-in/refs/heads/main/agentic-access/matchitup-in-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/mixer/schedule/{schedule_id}\n  method: delete\n  operationId: delete_mixer_schedule_api_mixer_schedule__schedule_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (139 KB total) ---\n# Full source: https://artifacts.apis.io/matchitup-in/agentic-access/matchitup-in-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/matchitup-in/agentic-access/matchitup-in-agentic-access.yml
 summary_line: 442 operations · 215 acting · 1 human-in-the-loop
 tags:
 - Company

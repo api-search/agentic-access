@@ -9,61 +9,61 @@ api_specs:
   label: Clarafintech Accounts Payable API
   slug: clarafintech-accounts-payable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-accounts-payable-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-accounts-payable-api-openapi.yml
 - filename: clarafintech-authentication-api-openapi.yml
   format: yaml
   label: Clarafintech Authentication API
   slug: clarafintech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-authentication-api-openapi.yml
 - filename: clarafintech-billing-statements-api-openapi.yml
   format: yaml
   label: Clarafintech Billing Statements API
   slug: clarafintech-billing-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-billing-statements-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-billing-statements-api-openapi.yml
 - filename: clarafintech-cards-api-openapi.yml
   format: yaml
   label: Clarafintech Cards API
   slug: clarafintech-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-cards-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-cards-api-openapi.yml
 - filename: clarafintech-digital-account-api-openapi.yml
   format: yaml
   label: Clarafintech Digital Account API
   slug: clarafintech-digital-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-digital-account-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-digital-account-api-openapi.yml
 - filename: clarafintech-extracted-documents-api-openapi.yml
   format: yaml
   label: Clarafintech Extracted Documents API
   slug: clarafintech-extracted-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-extracted-documents-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-extracted-documents-api-openapi.yml
 - filename: clarafintech-invoices-api-openapi.yml
   format: yaml
   label: Clarafintech Invoices API
   slug: clarafintech-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-invoices-api-openapi.yml
 - filename: clarafintech-reimbursements-api-openapi.yml
   format: yaml
   label: Clarafintech Reimbursements API
   slug: clarafintech-reimbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-reimbursements-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-reimbursements-api-openapi.yml
 - filename: clarafintech-transactions-api-openapi.yml
   format: yaml
   label: Clarafintech Transactions API
   slug: clarafintech-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-transactions-api-openapi.yml
 - filename: clarafintech-users-api-openapi.yml
   format: yaml
   label: Clarafintech Users API
   slug: clarafintech-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/openapi/clarafintech-users-api-openapi.yml
+  url: https://artifacts.apis.io/clarafintech/openapi/clarafintech-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/claraf
   \   audit: none\n- path: /api/v3/reimbursements\n  method: get\n  operationId: listReimbursementsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/reimbursements/{uuid}\n  method: get\n  operationId: getReimbursementV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/billing-statements\n  method: get\n  operationId: listBillingStatementsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/billing-statements/{uuid}/transactions\n  method: get\n  operationId: listBillingStatementTransactionsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/digital-accounts\n\
   \  method: get\n  operationId: listDigitalAccountTransactionsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/accounts-payable/pix\n  method: post\n  operationId: createPixPaymentV3\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/accounts-payable/pix/{externalId}\n  method: delete\n  operationId: cancelPixPaymentV3\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/accounts-payable/{externalId}\n  method: get\n  operationId: getAccountsPayablePaymentV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/accounts-payable\n  method: get\n  operationId: listAccountsPayablePaymentsV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/digital-accounts/balance\n  method: get\n  operationId: getDigitalAccountBalanceV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clarafintech/refs/heads/main/agentic-access/clarafintech-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clarafintech/agentic-access/clarafintech-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - Fintech

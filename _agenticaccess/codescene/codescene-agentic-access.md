@@ -3,61 +3,6 @@ acting_count: 17
 action_class_counts:
   acting: 17
   connected: 56
-api_specs:
-- filename: codescene-analyses-api-openapi.yml
-  format: yaml
-  label: CodeScene Analyses API
-  slug: codescene-analyses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-analyses-api-openapi.yml
-- filename: codescene-authors-api-openapi.yml
-  format: yaml
-  label: CodeScene Authors API
-  slug: codescene-authors-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-authors-api-openapi.yml
-- filename: codescene-code-coverage-api-openapi.yml
-  format: yaml
-  label: CodeScene Code Coverage API
-  slug: codescene-code-coverage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-code-coverage-api-openapi.yml
-- filename: codescene-code-health-api-openapi.yml
-  format: yaml
-  label: CodeScene Code Health API
-  slug: codescene-code-health-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-code-health-api-openapi.yml
-- filename: codescene-delta-analyses-api-openapi.yml
-  format: yaml
-  label: CodeScene Delta Analyses API
-  slug: codescene-delta-analyses-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-delta-analyses-api-openapi.yml
-- filename: codescene-kpi-trends-api-openapi.yml
-  format: yaml
-  label: CodeScene KPI trends API
-  slug: codescene-kpi-trends-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-kpi-trends-api-openapi.yml
-- filename: codescene-mcp-api-openapi.yml
-  format: yaml
-  label: CodeScene MCP API
-  slug: codescene-mcp-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-mcp-api-openapi.yml
-- filename: codescene-projects-api-openapi.yml
-  format: yaml
-  label: CodeScene Projects API
-  slug: codescene-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-projects-api-openapi.yml
-- filename: codescene-teams-and-developers-api-openapi.yml
-  format: yaml
-  label: CodeScene teams and developers API
-  slug: codescene-teams-and-developers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/openapi/codescene-teams-and-developers-api-openapi.yml
 consequence_counts:
   read: 56
   write: 17
@@ -102,12 +47,12 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/codesc
   \      - high-value\n    audit: required\n- path: /code-coverage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-coverage\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /code-health/projects/{project-id}/safeguards/pr/insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/projects/{project-id}/safeguards/pr/outcomes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /code-health/projects/{project-id}/safeguards/mcp/insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/projects/{project-id}/safeguards/mcp/outcomes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/safeguards/mcp/insights/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/safeguards/mcp/outcomes/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/safeguards/mcp/insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/safeguards/mcp/outcomes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /code-health/safeguards/mcp/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codescene/refs/heads/main/agentic-access/codescene-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codescene/agentic-access/codescene-agentic-access.yml
 summary_line: 73 operations · 17 acting
 tags:
 - Company
-- Analytics
-- Software Development
+- Artificial Intelligence
+- Code Analysis
+- Technical Debt
 - DevOps
-- Code Quality
 ---

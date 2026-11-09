@@ -9,25 +9,25 @@ api_specs:
   label: Strand AI Jobs API
   slug: strand-ai-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-jobs-api-openapi.yml
 - filename: strand-ai-predict-api-openapi.yml
   format: yaml
   label: Strand AI Predict API
   slug: strand-ai-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-predict-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-predict-api-openapi.yml
 - filename: strand-ai-samples-api-openapi.yml
   format: yaml
   label: Strand AI Samples API
   slug: strand-ai-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-samples-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-samples-api-openapi.yml
 - filename: strand-ai-uploads-api-openapi.yml
   format: yaml
   label: Strand AI Uploads API
   slug: strand-ai-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/openapi/strand-ai-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/strand-ai/openapi/strand-ai-uploads-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/strand
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /predict/estimate\n  method: post\n  operationId: estimatePrediction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /predict\n  method: post\n  operationId: submitPrediction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}/stream\n  method: get\n  operationId: streamJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}/results\n  method: get\n  operationId: getJobResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /samples/{id}/expiration\n  method: patch\n  operationId: setSampleExpiration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /samples/expiration\n  method: patch\n  operationId: setSamplesExpirationBulk\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /samples/{id}/restore\n  method: post\n  operationId: restoreSample\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{id}/results/files/{path}\n  method: get\n  operationId: getJobResultFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strand-ai/refs/heads/main/agentic-access/strand-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/strand-ai/agentic-access/strand-ai-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Company

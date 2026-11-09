@@ -9,43 +9,43 @@ api_specs:
   label: Sterling Authentication API
   slug: sterling-check-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-authentication-api-openapi.yml
 - filename: sterling-check-candidates-api-openapi.yml
   format: yaml
   label: Sterling Candidates API
   slug: sterling-check-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-candidates-api-openapi.yml
 - filename: sterling-check-invites-api-openapi.yml
   format: yaml
   label: Sterling Invites API
   slug: sterling-check-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-invites-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-invites-api-openapi.yml
 - filename: sterling-check-packages-api-openapi.yml
   format: yaml
   label: Sterling Packages API
   slug: sterling-check-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-packages-api-openapi.yml
 - filename: sterling-check-reports-api-openapi.yml
   format: yaml
   label: Sterling Reports API
   slug: sterling-check-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-reports-api-openapi.yml
 - filename: sterling-check-screenings-api-openapi.yml
   format: yaml
   label: Sterling Screenings API
   slug: sterling-check-screenings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-screenings-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-screenings-api-openapi.yml
 - filename: sterling-check-webhooks-api-openapi.yml
   format: yaml
   label: Sterling Webhooks API
   slug: sterling-check-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/openapi/sterling-check-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sterling-check/openapi/sterling-check-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sterli
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings\n  method: get\n  operationId: listScreenings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /screenings\n  method: post\n  operationId: createScreening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings/{screeningId}\n  method: get\n  operationId: getScreening\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /screenings/{screeningId}/cancel\n  method: post\n  operationId: cancelScreening\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings/{screeningId}/invite\n  method: post\n  operationId: resendInvite\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenings/{screeningId}/report\n  method: get\n  operationId: getScreeningReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sterling-check/refs/heads/main/agentic-access/sterling-check-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sterling-check/agentic-access/sterling-check-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - Background Screening

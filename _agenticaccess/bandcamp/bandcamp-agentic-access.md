@@ -9,25 +9,25 @@ api_specs:
   label: Bandcamp Account API
   slug: bandcamp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-account-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-account-api-openapi.yml
 - filename: bandcamp-merch-orders-api-openapi.yml
   format: yaml
   label: Bandcamp Merch Orders API
   slug: bandcamp-merch-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-merch-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-merch-orders-api-openapi.yml
 - filename: bandcamp-sales-api-openapi.yml
   format: yaml
   label: Bandcamp Sales API
   slug: bandcamp-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-sales-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-sales-api-openapi.yml
 - filename: bandcamp-oauth-api-openapi.yml
   format: yaml
   label: Bandcamp O Auth API
   slug: bandcamp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/openapi/bandcamp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bandcamp/openapi/bandcamp-oauth-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 5
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bandca
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/merchorders/1/mark_date_range_as_shipped\n  method: post\n  operationId: postApiMerchorders1MarkDateRangeAsShipped\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/merchorders/1/update_quantities\n  method: post\n  operationId: postApiMerchorders1UpdateQuantities\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/merchorders/1/update_sku\n  method: post\n  operationId: postApiMerchorders1UpdateSku\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth_token\n  method: post\n  operationId: postOauthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/sales/4/sales_report\n\
   \  method: post\n  operationId: postApiSales4SalesReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sales/4/generate_sales_report\n  method: post\n  operationId: postApiSales4GenerateSalesReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/sales/4/fetch_sales_report\n  method: post\n  operationId: postApiSales4FetchSalesReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bandcamp/refs/heads/main/agentic-access/bandcamp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bandcamp/agentic-access/bandcamp-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Music

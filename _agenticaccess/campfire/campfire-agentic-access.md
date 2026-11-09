@@ -9,73 +9,73 @@ api_specs:
   label: Campfire Accounts Payable API
   slug: campfire-accounts-payable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-accounts-payable-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-accounts-payable-api-openapi.yml
 - filename: campfire-accounts-receivable-api-openapi.yml
   format: yaml
   label: Campfire Accounts Receivable API
   slug: campfire-accounts-receivable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-accounts-receivable-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-accounts-receivable-api-openapi.yml
 - filename: campfire-bank-reconciliation-api-openapi.yml
   format: yaml
   label: Campfire Bank Reconciliation API
   slug: campfire-bank-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-bank-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-bank-reconciliation-api-openapi.yml
 - filename: campfire-cash-management-api-openapi.yml
   format: yaml
   label: Campfire Cash Management API
   slug: campfire-cash-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-cash-management-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-cash-management-api-openapi.yml
 - filename: campfire-coa-api-openapi.yml
   format: yaml
   label: Campfire Coa API
   slug: campfire-coa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-coa-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-coa-api-openapi.yml
 - filename: campfire-company-objects-api-openapi.yml
   format: yaml
   label: Campfire Company Objects API
   slug: campfire-company-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-company-objects-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-company-objects-api-openapi.yml
 - filename: campfire-core-accounting-api-openapi.yml
   format: yaml
   label: Campfire Core Accounting API
   slug: campfire-core-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-core-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-core-accounting-api-openapi.yml
 - filename: campfire-custom-fields-api-openapi.yml
   format: yaml
   label: Campfire Custom Fields API
   slug: campfire-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-custom-fields-api-openapi.yml
 - filename: campfire-financial-statements-api-openapi.yml
   format: yaml
   label: Campfire Financial Statements API
   slug: campfire-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-financial-statements-api-openapi.yml
 - filename: campfire-integrations-api-openapi.yml
   format: yaml
   label: Campfire Integrations API
   slug: campfire-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-integrations-api-openapi.yml
 - filename: campfire-revenue-recognition-api-openapi.yml
   format: yaml
   label: Campfire Revenue Recognition API
   slug: campfire-revenue-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-revenue-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-revenue-recognition-api-openapi.yml
 - filename: campfire-settings-api-openapi.yml
   format: yaml
   label: Campfire Settings API
   slug: campfire-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/openapi/campfire-settings-api-openapi.yml
+  url: https://artifacts.apis.io/campfire/openapi/campfire-settings-api-openapi.yml
 consequence_counts:
   physical: 26
   read: 132
@@ -264,8 +264,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/campfi
   \  method: get\n  operationId: coa_api_v2_reconciliation_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coa/api/v2/reconciliation\n  method: post\n  operationId: coa_api_v2_reconciliation_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coa/api/v2/reconciliation/{id}\n  method: get\n  operationId: coa_api_v2_reconciliation_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coa/api/v2/reconciliation/{id}\n  method: put\n  operationId: coa_api_v2_reconciliation_update\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coa/api/v2/reconciliation/{id}\n  method: patch\n  operationId: coa_api_v2_reconciliation_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coa/api/v2/reconciliation/{id}\n  method: delete\n  operationId: coa_api_v2_reconciliation_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /coa/api/v2/reconciliation/{id}/bulk-match-transactions\n  method: post\n  operationId: coa_api_v2_reconciliation_bulk_match_transactions_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coa/api/v2/reconciliation/{id}/source-transactions\n  method: get\n  operationId: coa_api_v2_reconciliation_source_transactions_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coa/api/v2/reconciliation/{id}/transactions/confirm\n  method: post\n  operationId: coa_api_v2_reconciliation_transactions_confirm_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
-  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coa/api/v2/reconciliation/parse-statement-page\n  method: post\n  operationId: parse_bank_statement_page\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ca/api/account\n  method: get\n  operationId: list_accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (118 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/agentic-access/campfire-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/campfire/refs/heads/main/agentic-access/campfire-agentic-access.yml
+  \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coa/api/v2/reconciliation/parse-statement-page\n  method: post\n  operationId: parse_bank_statement_page\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ca/api/account\n  method: get\n  operationId: list_accounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (118 KB total) ---\n# Full source: https://artifacts.apis.io/campfire/agentic-access/campfire-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/campfire/agentic-access/campfire-agentic-access.yml
 summary_line: 368 operations · 236 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Juspay Customers API
   slug: juspay-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-customers-api-openapi.yml
+  url: https://artifacts.apis.io/juspay/openapi/juspay-customers-api-openapi.yml
 - filename: juspay-orders-api-openapi.yml
   format: yaml
   label: Juspay Orders API
   slug: juspay-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-orders-api-openapi.yml
+  url: https://artifacts.apis.io/juspay/openapi/juspay-orders-api-openapi.yml
 - filename: juspay-refunds-api-openapi.yml
   format: yaml
   label: Juspay Refunds API
   slug: juspay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/juspay/openapi/juspay-refunds-api-openapi.yml
 - filename: juspay-session-api-openapi.yml
   format: yaml
   label: Juspay Session API
   slug: juspay-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-session-api-openapi.yml
+  url: https://artifacts.apis.io/juspay/openapi/juspay-session-api-openapi.yml
 - filename: juspay-transactions-api-openapi.yml
   format: yaml
   label: Juspay Transactions API
   slug: juspay-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/openapi/juspay-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/juspay/openapi/juspay-transactions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/juspay
   \      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{order_id}\n  method: get\n  operationId: getOrderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/order-status\n  method: post\n  operationId: getOrderStatusV4\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/refunds\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /txns\n  method: post\n  operationId: createTransaction\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/agentic-access/juspay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/juspay/agentic-access/juspay-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Payments

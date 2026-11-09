@@ -15,85 +15,85 @@ api_specs:
   label: Strapi Admin Authentication API
   slug: strapi-admin-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-admin-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-admin-authentication-api-openapi.yml
 - filename: strapi-admin-roles-api-openapi.yml
   format: yaml
   label: Strapi Admin Roles API
   slug: strapi-admin-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-admin-roles-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-admin-roles-api-openapi.yml
 - filename: strapi-admin-users-api-openapi.yml
   format: yaml
   label: Strapi Admin Users API
   slug: strapi-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-admin-users-api-openapi.yml
 - filename: strapi-api-tokens-api-openapi.yml
   format: yaml
   label: Strapi API Tokens API
   slug: strapi-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-api-tokens-api-openapi.yml
 - filename: strapi-authentication-api-openapi.yml
   format: yaml
   label: Strapi Authentication API
   slug: strapi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-authentication-api-openapi.yml
 - filename: strapi-content-entries-api-openapi.yml
   format: yaml
   label: Strapi Content Entries API
   slug: strapi-content-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-content-entries-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-content-entries-api-openapi.yml
 - filename: strapi-content-manager-api-openapi.yml
   format: yaml
   label: Strapi Content Manager API
   slug: strapi-content-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-content-manager-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-content-manager-api-openapi.yml
 - filename: strapi-content-types-api-openapi.yml
   format: yaml
   label: Strapi Content Types API
   slug: strapi-content-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-content-types-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-content-types-api-openapi.yml
 - filename: strapi-permissions-api-openapi.yml
   format: yaml
   label: Strapi Permissions API
   slug: strapi-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-permissions-api-openapi.yml
 - filename: strapi-roles-api-openapi.yml
   format: yaml
   label: Strapi Roles API
   slug: strapi-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-roles-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-roles-api-openapi.yml
 - filename: strapi-transfer-tokens-api-openapi.yml
   format: yaml
   label: Strapi Transfer Tokens API
   slug: strapi-transfer-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-transfer-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-transfer-tokens-api-openapi.yml
 - filename: strapi-upload-api-openapi.yml
   format: yaml
   label: Strapi Upload API
   slug: strapi-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-upload-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-upload-api-openapi.yml
 - filename: strapi-users-api-openapi.yml
   format: yaml
   label: Strapi Users API
   slug: strapi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-users-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-users-api-openapi.yml
 - filename: strapi-webhooks-api-openapi.yml
   format: yaml
   label: Strapi Webhooks API
   slug: strapi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/openapi/strapi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/strapi/openapi/strapi-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 24
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/strapi
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/auth/{provider}/callback\n  method: get\n  operationId: providerCallback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/{id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/users/me\n  method: get\n  operationId: getAuthenticatedUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users-permissions/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users-permissions/roles/{id}\n  method: get\n\
   \  operationId: getRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users-permissions/permissions\n  method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/agentic-access/strapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/strapi/agentic-access/strapi-agentic-access.yml
 summary_line: 58 operations · 34 acting · 4 human-in-the-loop
 tags:
 - Strapi

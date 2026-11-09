@@ -8,25 +8,25 @@ api_specs:
   label: Artlist Album API
   slug: artlist-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-album-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-album-api-openapi.yml
 - filename: artlist-artist-api-openapi.yml
   format: yaml
   label: Artlist Artist API
   slug: artlist-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-artist-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-artist-api-openapi.yml
 - filename: artlist-downloadable-api-openapi.yml
   format: yaml
   label: Artlist Downloadable API
   slug: artlist-downloadable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-downloadable-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-downloadable-api-openapi.yml
 - filename: artlist-song-api-openapi.yml
   format: yaml
   label: Artlist Song API
   slug: artlist-song-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/openapi/artlist-song-api-openapi.yml
+  url: https://artifacts.apis.io/artlist/openapi/artlist-song-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/artlist-download-openapi-original.yml, openapi/artlist-search-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /https://business.artlist.io/download/v1/downloadable/{assetType}/{id}/{format}\n  method: get\n  operationId: downloadable-controller-get-downloadable-url\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /https://business.artlist.io/search/v1/song/{id}\n  method: get\n  operationId: song-controller-get-song\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /https://business.artlist.io/search/v1/song\n  method: get\n  operationId: song-controller-get-songs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /https://business.artlist.io/search/v1/artist/{id}\n  method: get\n  operationId: artist-controller-get-artist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /https://business.artlist.io/search/v1/album/{id}\n  method: get\n  operationId: album-controller-get-album\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/artlist/refs/heads/main/agentic-access/artlist-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/artlist/agentic-access/artlist-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Company

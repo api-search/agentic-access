@@ -9,19 +9,19 @@ api_specs:
   label: GitHub Container Registry Organization Packages API
   slug: github-container-registry-organization-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/openapi/github-container-registry-organization-packages-api-openapi.yml
+  url: https://artifacts.apis.io/github-container-registry/openapi/github-container-registry-organization-packages-api-openapi.yml
 - filename: github-container-registry-user-namespace-packages-api-openapi.yml
   format: yaml
   label: GitHub Container Registry User Namespace Packages API
   slug: github-container-registry-user-namespace-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/openapi/github-container-registry-user-namespace-packages-api-openapi.yml
+  url: https://artifacts.apis.io/github-container-registry/openapi/github-container-registry-user-namespace-packages-api-openapi.yml
 - filename: github-container-registry-user-packages-api-openapi.yml
   format: yaml
   label: GitHub Container Registry User Packages API
   slug: github-container-registry-user-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/openapi/github-container-registry-user-packages-api-openapi.yml
+  url: https://artifacts.apis.io/github-container-registry/openapi/github-container-registry-user-packages-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/github
   \      - abnormal\n      - high-value\n    audit: required\n- path: /user/packages/{package_type}/{package_name}/restore\n  method: post\n  operationId: restoreUserPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/packages/{package_type}/{package_name}/versions\n  method: get\n  operationId: listUserPackageVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/packages/{package_type}/{package_name}/versions/{package_version_id}\n  method: get\n  operationId: getUserPackageVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /user/packages/{package_type}/{package_name}/versions/{package_version_id}\n  method: delete\n  operationId: deleteUserPackageVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{username}/packages\n  method: get\n  operationId: listPackagesForUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/packages/{package_type}/{package_name}\n  method: get\n  operationId: getPackageForUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/packages/{package_type}/{package_name}/versions\n  method: get\n \
   \ operationId: listPackageVersionsForUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/agentic-access/github-container-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/github-container-registry/agentic-access/github-container-registry-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Container Images
@@ -62,4 +62,6 @@ tags:
 - GitHub
 - Packages
 - Registry
+- OCI
+- Docker
 ---

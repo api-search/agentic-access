@@ -9,25 +9,25 @@ api_specs:
   label: Traceloop Auto Monitor Setups API
   slug: traceloop-auto-monitor-setups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-auto-monitor-setups-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-auto-monitor-setups-api-openapi.yml
 - filename: traceloop-evaluators-api-openapi.yml
   format: yaml
   label: Traceloop Evaluators API
   slug: traceloop-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-evaluators-api-openapi.yml
 - filename: traceloop-metrics-api-openapi.yml
   format: yaml
   label: Traceloop Metrics API
   slug: traceloop-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-metrics-api-openapi.yml
 - filename: traceloop-organizations-api-openapi.yml
   format: yaml
   label: Traceloop Organizations API
   slug: traceloop-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-organizations-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tracel
   - path: /v2/evaluators/toxicity-detector/execute\n  method: post\n  operationId: postV2EvaluatorsToxicityDetectorExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/evaluators/uncertainty-detector/execute\n  method: post\n  operationId: postV2EvaluatorsUncertaintyDetectorExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/evaluators/word-count/execute\n  method: post\n  operationId: postV2EvaluatorsWordCountExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/evaluators/word-count-ratio/execute\n  method: post\n  operationId: postV2EvaluatorsWordCountRatioExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/metrics\n  method: post\n  operationId: get-metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/metrics_hwm\n  method: get\n  operationId: get-metrics-hwm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v2/organizations\n  method: post\n  operationId: postV2Organizations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/agentic-access/traceloop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/traceloop/agentic-access/traceloop-agentic-access.yml
 summary_line: 44 operations · 40 acting · 1 human-in-the-loop
 tags:
 - LLM Observability

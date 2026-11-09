@@ -9,25 +9,25 @@ api_specs:
   label: ADVANCE.AI Authentication API
   slug: advanceai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-authentication-api-openapi.yml
 - filename: advanceai-document-verification-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Document Verification API
   slug: advanceai-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-document-verification-api-openapi.yml
 - filename: advanceai-face-comparison-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Face Comparison API
   slug: advanceai-face-comparison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-face-comparison-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-face-comparison-api-openapi.yml
 - filename: advanceai-liveness-detection-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Liveness Detection API
   slug: advanceai-liveness-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-liveness-detection-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-liveness-detection-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/advanc
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intl/openapi/face-identity/document-verification/v1/auth-license\n  method: post\n  operationId: authorizeDocumentVerificationLicense\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /intl/openapi/face-identity/document-verification/v1/query\n  method: post\n  operationId: queryDocumentVerificationResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/face-recognition/v4/check\n  method: post\n  operationId: compareFaces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /liveness/ext/v1/generate-signature-id\n  method: post\n  operationId: generateLivenessSignatureId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/liveness/v1/auth-license\n  method: post\n  operationId: authorizeLivenessLicense\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/liveness/v3/detection-result\n  method: post\n  operationId: getLivenessDetectionResult\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liveness/ext/v1/get-video\n  method: get\n  operationId: getLivenessVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liveness/ext/v1/clear-data\n  method: get\n  operationId: clearLivenessPiiData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/agentic-access/advanceai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/advanceai/agentic-access/advanceai-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Company

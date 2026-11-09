@@ -8,37 +8,37 @@ api_specs:
   label: Wageningen University & Research Altitude API
   slug: wageningen-university-research-altitude-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-altitude-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-altitude-api-openapi.yml
 - filename: wageningen-university-research-kpi-api-openapi.yml
   format: yaml
   label: Wageningen University & Research KPI API
   slug: wageningen-university-research-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-kpi-api-openapi.yml
 - filename: wageningen-university-research-raster-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Raster API
   slug: wageningen-university-research-raster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-raster-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-raster-api-openapi.yml
 - filename: wageningen-university-research-retrieve-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Retrieve API
   slug: wageningen-university-research-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-retrieve-api-openapi.yml
 - filename: wageningen-university-research-return-api-openapi.yml
   format: yaml
   label: Wageningen University & Research Return API
   slug: wageningen-university-research-return-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-return-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-return-api-openapi.yml
 - filename: wageningen-university-research-oai-pmh-api-openapi.yml
   format: yaml
   label: Wageningen University & Research OAI PMH API
   slug: wageningen-university-research-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/openapi/wageningen-university-research-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/wageningen-university-research/openapi/wageningen-university-research-oai-pmh-api-openapi.yml
 consequence_counts:
   read: 55
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wageni
   \ audit: none\n- path: /fields/{fieldid}/soiltypes\n  method: get\n  operationId: get_fields_fieldid_soiltypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meteodata\n  method: get\n  operationId: get_meteodata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meteodata/{stationid}/{date}\n  method: get\n  operationId: get_meteodata_stationid_date\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meteostations\n  method: get\n  operationId: get_meteostations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meteostations/{meteostation}\n  method: get\n  operationId:\
   \ get_meteostations_meteostation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ndvi_image\n  method: get\n  operationId: get_ndvi_image\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /regions/municipalities\n  method: get\n  operationId: get_regions_municipalities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soilparams/{soilparamid}\n  method: get\n  operationId: get_soilparams_soilparamid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soiltypes\n  method: get\n  operationId: get_soiltypes\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soiltypes/{entityid}\n  method: get\n  operationId: get_soiltypes_entityid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/agentic-access/wageningen-university-research-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wageningen-university-research/agentic-access/wageningen-university-research-agentic-access.yml
 summary_line: 55 operations
 tags:
 - Education

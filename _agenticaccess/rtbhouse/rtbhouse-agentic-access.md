@@ -9,31 +9,31 @@ api_specs:
   label: RTB House Advertisers API
   slug: rtbhouse-advertisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-advertisers-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-advertisers-api-openapi.yml
 - filename: rtbhouse-dev-api-openapi.yml
   format: yaml
   label: RTB House Dev API
   slug: rtbhouse-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-dev-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-dev-api-openapi.yml
 - filename: rtbhouse-statistics-api-openapi.yml
   format: yaml
   label: RTB House Statistics API
   slug: rtbhouse-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-statistics-api-openapi.yml
 - filename: rtbhouse-tokens-api-openapi.yml
   format: yaml
   label: RTB House Tokens API
   slug: rtbhouse-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-tokens-api-openapi.yml
 - filename: rtbhouse-user-api-openapi.yml
   format: yaml
   label: RTB House User API
   slug: rtbhouse-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/openapi/rtbhouse-user-api-openapi.yml
+  url: https://artifacts.apis.io/rtbhouse/openapi/rtbhouse-user-api-openapi.yml
 consequence_counts:
   read: 20
   write: 3
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rtbhou
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /advertisers/{hash}/billing\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/rtb-creatives\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/conversions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/rtb-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/summary-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers-summary-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/rate-cards\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/last-seen-tags-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/win-rate-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/top-hosts-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/top-in-apps-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /advertisers/{hash}/rtb-deduplication-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtbhouse/refs/heads/main/agentic-access/rtbhouse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rtbhouse/agentic-access/rtbhouse-agentic-access.yml
 summary_line: 23 operations · 3 acting
 tags:
 - Advertising

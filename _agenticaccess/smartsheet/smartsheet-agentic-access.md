@@ -9,31 +9,31 @@ api_specs:
   label: Smartsheet Columns API
   slug: smartsheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-columns-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-columns-api-openapi.yml
 - filename: smartsheet-reports-api-openapi.yml
   format: yaml
   label: Smartsheet Reports API
   slug: smartsheet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-reports-api-openapi.yml
 - filename: smartsheet-rows-api-openapi.yml
   format: yaml
   label: Smartsheet Rows API
   slug: smartsheet-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-rows-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-rows-api-openapi.yml
 - filename: smartsheet-sheets-api-openapi.yml
   format: yaml
   label: Smartsheet Sheets API
   slug: smartsheet-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-sheets-api-openapi.yml
 - filename: smartsheet-webhooks-api-openapi.yml
   format: yaml
   label: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smarts
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sheets/{sheetId}\n  method: get\n  operationId: getSheet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sheets/{sheetId}\n  method: delete\n  operationId: deleteSheet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sheets/{sheetId}/rows\n  method: post\n  operationId: addRows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sheets/{sheetId}/rows\n\
   \  method: put\n  operationId: updateRows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sheets/{sheetId}/columns\n  method: get\n  operationId: listColumns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId:\
   \ createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/agentic-access/smartsheet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartsheet/agentic-access/smartsheet-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Work Management

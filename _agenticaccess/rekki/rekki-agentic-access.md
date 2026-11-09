@@ -9,31 +9,31 @@ api_specs:
   label: REKKI Catalog API
   slug: rekki-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-catalog-api-openapi.yml
 - filename: rekki-connect-customers-api-openapi.yml
   format: yaml
   label: REKKI Connect Customers API
   slug: rekki-connect-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-connect-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-connect-customers-api-openapi.yml
 - filename: rekki-general-api-openapi.yml
   format: yaml
   label: REKKI General API
   slug: rekki-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-general-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-general-api-openapi.yml
 - filename: rekki-order-guide-api-openapi.yml
   format: yaml
   label: REKKI Order Guide API
   slug: rekki-order-guide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-order-guide-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-order-guide-api-openapi.yml
 - filename: rekki-orders-api-openapi.yml
   format: yaml
   label: REKKI Orders API
   slug: rekki-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/openapi/rekki-orders-api-openapi.yml
+  url: https://artifacts.apis.io/rekki/openapi/rekki-orders-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 9
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rekki-
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/v1/orders/set_integrated\n  method: post\n  operationId: MarkOrdersIntegrated\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/v3/orders/confirm\n  method: post\n  operationId: ConfirmOrdersV3\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/v3/orders/list\n  method: post\n  operationId: ListOrdersBySupplierV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/v3/orders/set_error\n  method: post\n  operationId: MarkIntegrationErrorV3\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/v3/orders/set_integrated\n  method: post\n  operationId: MarkOrdersIntegratedV3\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n    \
   \  exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/v4/orders/set_integrated\n  method: post\n  operationId: MarkOrdersIntegratedV4\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/v4/orders/list\n  method: post\n  operationId: ListOrdersBySupplierV4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rekki/refs/heads/main/agentic-access/rekki-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rekki/agentic-access/rekki-agentic-access.yml
 summary_line: 32 operations · 23 acting
 tags:
 - Company

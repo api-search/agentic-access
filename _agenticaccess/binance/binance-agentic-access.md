@@ -9,169 +9,169 @@ api_specs:
   label: Binance Spot WebSocket API
   slug: spot-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/asyncapi/binance-spot-websocket-api-asyncapi.yml
+  url: https://artifacts.apis.io/binance/asyncapi/binance-spot-websocket-api-asyncapi.yml
 - filename: binance-spot-websocket-streams-asyncapi.yml
   format: yaml
   label: Binance Spot WebSocket Streams
   slug: spot-websocket-streams
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/asyncapi/binance-spot-websocket-streams-asyncapi.yml
+  url: https://artifacts.apis.io/binance/asyncapi/binance-spot-websocket-streams-asyncapi.yml
 - filename: binance-account-api-openapi.yml
   format: yaml
   label: Binance Account API
   slug: binance-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-account-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-account-api-openapi.yml
 - filename: binance-assets-api-openapi.yml
   format: yaml
   label: Binance Assets API
   slug: binance-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-assets-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-assets-api-openapi.yml
 - filename: binance-auto-invest-api-openapi.yml
   format: yaml
   label: Binance Auto-Invest API
   slug: binance-auto-invest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-auto-invest-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-auto-invest-api-openapi.yml
 - filename: binance-borrow-repay-api-openapi.yml
   format: yaml
   label: Binance Borrow/Repay API
   slug: binance-borrow-repay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-borrow-repay-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-borrow-repay-api-openapi.yml
 - filename: binance-convert-api-openapi.yml
   format: yaml
   label: Binance Convert API
   slug: binance-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-convert-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-convert-api-openapi.yml
 - filename: binance-copy-trading-api-openapi.yml
   format: yaml
   label: Binance Copy Trading API
   slug: binance-copy-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-copy-trading-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-copy-trading-api-openapi.yml
 - filename: binance-crypto-loan-api-openapi.yml
   format: yaml
   label: Binance Crypto Loan API
   slug: binance-crypto-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-crypto-loan-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-crypto-loan-api-openapi.yml
 - filename: binance-deposits-api-openapi.yml
   format: yaml
   label: Binance Deposits API
   slug: binance-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-deposits-api-openapi.yml
 - filename: binance-fiat-api-openapi.yml
   format: yaml
   label: Binance Fiat API
   slug: binance-fiat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-fiat-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-fiat-api-openapi.yml
 - filename: binance-flexible-products-api-openapi.yml
   format: yaml
   label: Binance Flexible Products API
   slug: binance-flexible-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-flexible-products-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-flexible-products-api-openapi.yml
 - filename: binance-futures-algo-api-openapi.yml
   format: yaml
   label: Binance Futures Algo API
   slug: binance-futures-algo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-futures-algo-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-futures-algo-api-openapi.yml
 - filename: binance-general-api-openapi.yml
   format: yaml
   label: Binance General API
   slug: binance-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-general-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-general-api-openapi.yml
 - filename: binance-gift-card-api-openapi.yml
   format: yaml
   label: Binance Gift Card API
   slug: binance-gift-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-gift-card-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-gift-card-api-openapi.yml
 - filename: binance-locked-products-api-openapi.yml
   format: yaml
   label: Binance Locked Products API
   slug: binance-locked-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-locked-products-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-locked-products-api-openapi.yml
 - filename: binance-market-data-api-openapi.yml
   format: yaml
   label: Binance Market Data API
   slug: binance-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-market-data-api-openapi.yml
 - filename: binance-mining-api-openapi.yml
   format: yaml
   label: Binance Mining API
   slug: binance-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-mining-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-mining-api-openapi.yml
 - filename: binance-nft-api-openapi.yml
   format: yaml
   label: Binance NFT API
   slug: binance-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-nft-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-nft-api-openapi.yml
 - filename: binance-orders-api-openapi.yml
   format: yaml
   label: Binance Orders API
   slug: binance-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-orders-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-orders-api-openapi.yml
 - filename: binance-payouts-api-openapi.yml
   format: yaml
   label: Binance Payouts API
   slug: binance-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-payouts-api-openapi.yml
 - filename: binance-refunds-api-openapi.yml
   format: yaml
   label: Binance Refunds API
   slug: binance-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-refunds-api-openapi.yml
 - filename: binance-spot-algo-api-openapi.yml
   format: yaml
   label: Binance Spot Algo API
   slug: binance-spot-algo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-spot-algo-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-spot-algo-api-openapi.yml
 - filename: binance-sub-account-assets-api-openapi.yml
   format: yaml
   label: Binance Sub-Account Assets API
   slug: binance-sub-account-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-sub-account-assets-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-sub-account-assets-api-openapi.yml
 - filename: binance-sub-account-management-api-openapi.yml
   format: yaml
   label: Binance Sub-Account Management API
   slug: binance-sub-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-sub-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-sub-account-management-api-openapi.yml
 - filename: binance-trading-api-openapi.yml
   format: yaml
   label: Binance Trading API
   slug: binance-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-trading-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-trading-api-openapi.yml
 - filename: binance-user-data-stream-api-openapi.yml
   format: yaml
   label: Binance User Data Stream API
   slug: binance-user-data-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-user-data-stream-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-user-data-stream-api-openapi.yml
 - filename: binance-withdrawals-api-openapi.yml
   format: yaml
   label: Binance Withdrawals API
   slug: binance-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/openapi/binance-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/binance/openapi/binance-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 32
   read: 117
@@ -357,8 +357,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/binanc
   \  method: get\n  operationId: getDepositHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/nft/history/withdraw\n  method: get\n  operationId: getWithdrawHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sapi/v1/nft/user/getAsset\n  method: get\n  operationId: getNftAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /binancepay/openapi/v3/order/create\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binancepay/openapi/v2/order/query\n  method: post\n  operationId: queryOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /binancepay/openapi/order/close\n  method: post\n  operationId: closeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binancepay/openapi/payout/transfer\n  method: post\n  operationId: batchPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /binancepay/openapi/order/refund\n  method: post\n  operationId: refundOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sapi/v1/algo/spot/newOrderTwap\n  method: post\n  operationId: createSpotTwapOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated\
-  \ at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/agentic-access/binance-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/agentic-access/binance-agentic-access.yml
+  \ at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/binance/agentic-access/binance-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/binance/agentic-access/binance-agentic-access.yml
 summary_line: 180 operations · 63 acting
 tags:
 - Cryptocurrency

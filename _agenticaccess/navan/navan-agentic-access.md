@@ -9,43 +9,43 @@ api_specs:
   label: Navan Bookings API
   slug: navan-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-bookings-api-openapi.yml
 - filename: navan-custom-fields-api-openapi.yml
   format: yaml
   label: Navan Custom Fields API
   slug: navan-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-custom-fields-api-openapi.yml
 - filename: navan-fees-and-adjustments-api-openapi.yml
   format: yaml
   label: Navan Fees and Adjustments API
   slug: navan-fees-and-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-fees-and-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-fees-and-adjustments-api-openapi.yml
 - filename: navan-receipts-api-openapi.yml
   format: yaml
   label: Navan Receipts API
   slug: navan-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-receipts-api-openapi.yml
 - filename: navan-transactions-api-openapi.yml
   format: yaml
   label: Navan Transactions API
   slug: navan-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-transactions-api-openapi.yml
 - filename: navan-users-api-openapi.yml
   format: yaml
   label: Navan Users API
   slug: navan-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-users-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-users-api-openapi.yml
 - filename: navan-webhooks-api-openapi.yml
   format: yaml
   label: Navan Webhooks API
   slug: navan-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/openapi/navan-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/navan/openapi/navan-webhooks-api-openapi.yml
 consequence_counts:
   read: 22
   write: 7
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/navan-
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /travel/v1/users/{userId}\n  method: delete\n  operationId: deactivateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /travel/v1/bookings\n  method: get\n  operationId: listBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /travel/v1/bookings/{bookingId}\n  method: get\n  operationId: getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense/webhooks\n  method: get\n  operationId:\
   \ listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/expense/webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navan/refs/heads/main/agentic-access/navan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/navan/agentic-access/navan-agentic-access.yml
 summary_line: 29 operations · 7 acting
 tags:
 - Corporate Travel

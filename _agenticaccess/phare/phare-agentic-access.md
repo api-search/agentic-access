@@ -9,61 +9,61 @@ api_specs:
   label: Phare Alert Rules API
   slug: phare-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-alert-rules-api-openapi.yml
 - filename: phare-incidents-api-openapi.yml
   format: yaml
   label: Phare Incidents API
   slug: phare-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-incidents-api-openapi.yml
 - filename: phare-integrations-api-openapi.yml
   format: yaml
   label: Phare Integrations API
   slug: phare-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-integrations-api-openapi.yml
 - filename: phare-maintenance-windows-api-openapi.yml
   format: yaml
   label: Phare Maintenance Windows API
   slug: phare-maintenance-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-maintenance-windows-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-maintenance-windows-api-openapi.yml
 - filename: phare-monitors-api-openapi.yml
   format: yaml
   label: Phare Monitors API
   slug: phare-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-monitors-api-openapi.yml
 - filename: phare-platform-api-openapi.yml
   format: yaml
   label: Phare Platform API
   slug: phare-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-platform-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-platform-api-openapi.yml
 - filename: phare-projects-api-openapi.yml
   format: yaml
   label: Phare Projects API
   slug: phare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-projects-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-projects-api-openapi.yml
 - filename: phare-reports-api-openapi.yml
   format: yaml
   label: Phare Reports API
   slug: phare-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-reports-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-reports-api-openapi.yml
 - filename: phare-status-pages-api-openapi.yml
   format: yaml
   label: Phare Status Pages API
   slug: phare-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-status-pages-api-openapi.yml
 - filename: phare-users-api-openapi.yml
   format: yaml
   label: Phare Users API
   slug: phare-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/openapi/phare-users-api-openapi.yml
+  url: https://artifacts.apis.io/phare/openapi/phare-users-api-openapi.yml
 consequence_counts:
   read: 22
   write: 26
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-27'\nmethod: generated\nsource: openapi/phare-
   - path: /uptime/monitors/{monitorId}/report\n  method: get\n  operationId: getUptimeMonitorReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uptime/reports\n  method: get\n  operationId: getUptimeReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uptime/status-pages\n  method: get\n  operationId: getUptimeStatusPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uptime/status-pages\n  method: post\n  operationId: createUptimeStatusPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /uptime/status-pages/{statusPageId}\n  method: get\n  operationId: getUptimeStatusPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uptime/status-pages/{statusPageId}\n  method: post\n  operationId: updateUptimeStatusPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uptime/status-pages/{statusPageId}\n  method: delete\n  operationId: deleteUptimeStatusPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /uptime/status-pages/{statusPageId}/current-status\n  method: get\n  operationId: getUptimeStatusPageCurrentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phare/refs/heads/main/agentic-access/phare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phare/agentic-access/phare-agentic-access.yml
 summary_line: 48 operations · 26 acting
 tags:
 - Company

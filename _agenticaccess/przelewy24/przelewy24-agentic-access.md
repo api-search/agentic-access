@@ -9,79 +9,79 @@ api_specs:
   label: Przelewy24 Additional API functionality API
   slug: przelewy24-additional-api-functionality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-additional-api-functionality-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-additional-api-functionality-api-openapi.yml
 - filename: przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
   format: yaml
   label: Przelewy24 Additional services Mass Payments Transactions API
   slug: przelewy24-additional-services-mass-payments-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-additional-services-mass-payments-transactions-api-openapi.yml
 - filename: przelewy24-apay-api-api-openapi.yml
   format: yaml
   label: Przelewy24 APay API
   slug: przelewy24-apay-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-apay-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-apay-api-api-openapi.yml
 - filename: przelewy24-blik-api-api-openapi.yml
   format: yaml
   label: Przelewy24 BLIK API
   slug: przelewy24-blik-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-blik-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-blik-api-api-openapi.yml
 - filename: przelewy24-card-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Card API
   slug: przelewy24-card-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-card-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-card-api-api-openapi.yml
 - filename: przelewy24-ekspres-p24-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Ekspres P24 API
   slug: przelewy24-ekspres-p24-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-ekspres-p24-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-ekspres-p24-api-api-openapi.yml
 - filename: przelewy24-gpay-api-api-openapi.yml
   format: yaml
   label: Przelewy24 GPay API
   slug: przelewy24-gpay-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-gpay-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-gpay-api-api-openapi.yml
 - filename: przelewy24-marketplace-management-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Marketplace Management API
   slug: przelewy24-marketplace-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-marketplace-management-api-api-openapi.yml
 - filename: przelewy24-marketplace-merchant-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Marketplace Merchant API
   slug: przelewy24-marketplace-merchant-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-merchant-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-marketplace-merchant-api-api-openapi.yml
 - filename: przelewy24-marketplace-partner-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Marketplace Partner API
   slug: przelewy24-marketplace-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-marketplace-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-marketplace-partner-api-api-openapi.yml
 - filename: przelewy24-recursion-dopayment-api-openapi.yml
   format: yaml
   label: Przelewy24 Recursion (doPayment) API
   slug: przelewy24-recursion-dopayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-recursion-dopayment-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-recursion-dopayment-api-openapi.yml
 - filename: przelewy24-report-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Report API
   slug: przelewy24-report-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-report-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-report-api-api-openapi.yml
 - filename: przelewy24-transaction-service-api-api-openapi.yml
   format: yaml
   label: Przelewy24 Transaction service API
   slug: przelewy24-transaction-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/openapi/przelewy24-transaction-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/przelewy24/openapi/przelewy24-transaction-service-api-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 35
@@ -247,7 +247,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/paymentMethod/blik/getAliasesByEmail/{email}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/paymentMethod/blik/getAliasesByEmail/{email}/custom\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/card/info/{orderId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/card/chargeWith3ds\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/card/charge\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/card/pay\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/report/history\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/report/batch/details\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bundle/payWithGoogle/{TOKEN}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bundle/applepay/{TOKEN}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/agentic-access/przelewy24-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/przelewy24/agentic-access/przelewy24-agentic-access.yml
 summary_line: 67 operations · 32 acting · 2 human-in-the-loop
 tags:
 - Payments

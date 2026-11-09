@@ -9,49 +9,49 @@ api_specs:
   label: X2Y2 Chain API
   slug: x2y2-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-chain-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-chain-api-openapi.yml
 - filename: x2y2-contracts-api-openapi.yml
   format: yaml
   label: X2Y2 Contracts API
   slug: x2y2-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-contracts-api-openapi.yml
 - filename: x2y2-events-api-openapi.yml
   format: yaml
   label: X2Y2 Events API
   slug: x2y2-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-events-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-events-api-openapi.yml
 - filename: x2y2-general-api-openapi.yml
   format: yaml
   label: X2Y2 General API
   slug: x2y2-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-general-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-general-api-openapi.yml
 - filename: x2y2-loan-api-openapi.yml
   format: yaml
   label: X2Y2 Loan API
   slug: x2y2-loan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-loan-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-loan-api-openapi.yml
 - filename: x2y2-offer-api-openapi.yml
   format: yaml
   label: X2Y2 Offer API
   slug: x2y2-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-offer-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-offer-api-openapi.yml
 - filename: x2y2-offers-api-openapi.yml
   format: yaml
   label: X2Y2 Offers API
   slug: x2y2-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-offers-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-offers-api-openapi.yml
 - filename: x2y2-orders-api-openapi.yml
   format: yaml
   label: X2Y2 Orders API
   slug: x2y2-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/openapi/x2y2-orders-api-openapi.yml
+  url: https://artifacts.apis.io/x2y2/openapi/x2y2-orders-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/x2y2-c
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/offer/make\n  method: post\n  operationId: offer-make\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/offer/list\n  method: get\n  operationId: get-offer-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/offer/cancelAll\n  method: post\n  operationId: offercancelall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/offer/cancel\n\
   \  method: post\n  operationId: offercancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/offers\n  method: get\n  operationId: get-v1-offers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders\n  method: get\n  operationId: get-v1-orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/add\n  method: post\n  operationId: create-open-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/sign\n  method: post\n  operationId: sign-order-info\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/cancel\n  method: post\n  operationId: sign-cancel-order\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/x2y2/refs/heads/main/agentic-access/x2y2-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/x2y2/agentic-access/x2y2-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - NFT

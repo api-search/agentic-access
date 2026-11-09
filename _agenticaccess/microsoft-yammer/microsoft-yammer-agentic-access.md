@@ -9,55 +9,55 @@ api_specs:
   label: Microsoft Yammer Files API
   slug: microsoft-yammer-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-files-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-files-api-openapi.yml
 - filename: microsoft-yammer-groups-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Groups API
   slug: microsoft-yammer-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-groups-api-openapi.yml
 - filename: microsoft-yammer-messages-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Messages API
   slug: microsoft-yammer-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-messages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-messages-api-openapi.yml
 - filename: microsoft-yammer-networks-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Networks API
   slug: microsoft-yammer-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-networks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-networks-api-openapi.yml
 - filename: microsoft-yammer-search-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Search API
   slug: microsoft-yammer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-search-api-openapi.yml
 - filename: microsoft-yammer-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Subscriptions API
   slug: microsoft-yammer-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-subscriptions-api-openapi.yml
 - filename: microsoft-yammer-threads-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Threads API
   slug: microsoft-yammer-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-threads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-threads-api-openapi.yml
 - filename: microsoft-yammer-topics-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Topics API
   slug: microsoft-yammer-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-topics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-topics-api-openapi.yml
 - filename: microsoft-yammer-users-api-openapi.yml
   format: yaml
   label: Microsoft Yammer Users API
   slug: microsoft-yammer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/openapi/microsoft-yammer-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-yammer/openapi/microsoft-yammer-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}.json\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}.json\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/by_email.json\n  method: get\n  operationId: getUserByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /users/in_group/{id}.json\n  method: get\n  operationId: getUsersInGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/to_topic/{id}.json\n  method: get\n  operationId: getTopicSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search.json\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/current.json\n  method: get\n  operationId: getCurrentNetwork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/agentic-access/microsoft-yammer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-yammer/agentic-access/microsoft-yammer-agentic-access.yml
 summary_line: 33 operations · 12 acting
 tags:
 - Enterprise Social

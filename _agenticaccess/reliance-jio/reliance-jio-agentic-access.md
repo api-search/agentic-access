@@ -9,13 +9,13 @@ api_specs:
   label: Reliance Jio Events Cpaas Platform API
   slug: reliance-jio-jioeventscpaasplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jioeventscpaasplatform-api-openapi.yml
+  url: https://artifacts.apis.io/reliance-jio/openapi/reliance-jio-jioeventscpaasplatform-api-openapi.yml
 - filename: reliance-jio-jiomeetcpaasplatform-api-openapi.yml
   format: yaml
   label: Reliance Jio Meet Cpaas Platform API
   slug: reliance-jio-jiomeetcpaasplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/openapi/reliance-jio-jiomeetcpaasplatform-api-openapi.yml
+  url: https://artifacts.apis.io/reliance-jio/openapi/reliance-jio-jiomeetcpaasplatform-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/relian
   \ - high-value\n    audit: required\n- path: /api/platform/v1/schedule/meeting\n  method: delete\n  operationId: deleteApiPlatformV1ScheduleMeeting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/v1/schedule/meeting\n  method: post\n  operationId: postApiPlatformV1ScheduleMeeting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/v1/schedule/meeting\n  method: get\n  operationId: getApiPlatformV1ScheduleMeeting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/platform/v1/recordings/isrecording\n  method: post\n  operationId: postApiPlatformV1RecordingsIsrecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/v1/recordings/stop\n  method: post\n  operationId: postApiPlatformV1RecordingsStop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/platform/v1/analytics/report\n  method: get\n  operationId: getApiPlatformV1AnalyticsReport\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/platform/v1/chat/thread\n  method: get\n  operationId: getApiPlatformV1ChatThread\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reliance-jio/refs/heads/main/agentic-access/reliance-jio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reliance-jio/agentic-access/reliance-jio-agentic-access.yml
 summary_line: 29 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Telecommunications

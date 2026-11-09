@@ -9,67 +9,67 @@ api_specs:
   label: Cognition Labs Attachments API
   slug: cognition-labs-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-attachments-api-openapi.yml
 - filename: cognition-labs-consumption-api-openapi.yml
   format: yaml
   label: Cognition Labs Consumption API
   slug: cognition-labs-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-consumption-api-openapi.yml
 - filename: cognition-labs-enterprise-v3-api-openapi.yml
   format: yaml
   label: Cognition Labs Enterprise (v3) API
   slug: cognition-labs-enterprise-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-enterprise-v3-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-enterprise-v3-api-openapi.yml
 - filename: cognition-labs-knowledge-api-openapi.yml
   format: yaml
   label: Cognition Labs Knowledge API
   slug: cognition-labs-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-knowledge-api-openapi.yml
 - filename: cognition-labs-messages-api-openapi.yml
   format: yaml
   label: Cognition Labs Messages API
   slug: cognition-labs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-messages-api-openapi.yml
 - filename: cognition-labs-organizations-v3-api-openapi.yml
   format: yaml
   label: Cognition Labs Organizations (v3) API
   slug: cognition-labs-organizations-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-organizations-v3-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-organizations-v3-api-openapi.yml
 - filename: cognition-labs-playbooks-api-openapi.yml
   format: yaml
   label: Cognition Labs Playbooks API
   slug: cognition-labs-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-playbooks-api-openapi.yml
 - filename: cognition-labs-secrets-api-openapi.yml
   format: yaml
   label: Cognition Labs Secrets API
   slug: cognition-labs-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-secrets-api-openapi.yml
 - filename: cognition-labs-sessions-api-openapi.yml
   format: yaml
   label: Cognition Labs Sessions API
   slug: cognition-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-sessions-api-openapi.yml
 - filename: cognition-labs-enterprise-api-openapi.yml
   format: yaml
   label: Cognition Labs Enterprise API
   slug: cognition-labs-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-enterprise-api-openapi.yml
 - filename: cognition-labs-audit-logs-api-openapi.yml
   format: yaml
   label: Cognition Labs Audit Logs API
   slug: cognition-labs-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/openapi/cognition-labs-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cognition-labs/openapi/cognition-labs-audit-logs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cognit
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets\n  method: post\n  operationId: createSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/{secret_id}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{org_id}/sessions\n  method: post\n  operationId: createOrganizationSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/members/users\n  method: get\n  operationId: listOrganizationUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprise/organizations\n  method: get\n  operationId: listEnterpriseOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprise/audit-logs\n  method: get\n  operationId: listEnterpriseAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprise/consumption/daily\n  method: get\n  operationId: getEnterpriseDailyConsumption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{org_id}/consumption/sessions\n  method: get\n  operationId: getSessionDailyConsumption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognition-labs/refs/heads/main/agentic-access/cognition-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cognition-labs/agentic-access/cognition-labs-agentic-access.yml
 summary_line: 26 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -9,31 +9,31 @@ api_specs:
   label: Remitian Accounts API
   slug: remitian-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/remitian/openapi/remitian-accounts-api-openapi.yml
 - filename: remitian-audit-logs-api-openapi.yml
   format: yaml
   label: Remitian Audit Logs API
   slug: remitian-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/remitian/openapi/remitian-audit-logs-api-openapi.yml
 - filename: remitian-jurisdictions-api-openapi.yml
   format: yaml
   label: Remitian Jurisdictions API
   slug: remitian-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/remitian/openapi/remitian-jurisdictions-api-openapi.yml
 - filename: remitian-payments-api-openapi.yml
   format: yaml
   label: Remitian Payments API
   slug: remitian-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-payments-api-openapi.yml
+  url: https://artifacts.apis.io/remitian/openapi/remitian-payments-api-openapi.yml
 - filename: remitian-webhooks-api-openapi.yml
   format: yaml
   label: Remitian Webhooks API
   slug: remitian-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/openapi/remitian-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/remitian/openapi/remitian-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 8
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/remiti
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/audit-logs\n  method: get\n  operationId: listAuditLogs\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/remitian/refs/heads/main/agentic-access/remitian-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/remitian/agentic-access/remitian-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Tax

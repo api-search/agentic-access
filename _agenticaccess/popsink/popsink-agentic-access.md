@@ -9,127 +9,127 @@ api_specs:
   label: Popsink Admin API
   slug: popsink-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-admin-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-admin-api-openapi.yml
 - filename: popsink-auth-api-openapi.yml
   format: yaml
   label: Popsink Auth API
   slug: popsink-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-auth-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-auth-api-openapi.yml
 - filename: popsink-brokers-api-openapi.yml
   format: yaml
   label: Popsink Brokers API
   slug: popsink-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-brokers-api-openapi.yml
 - filename: popsink-connector-types-api-openapi.yml
   format: yaml
   label: Popsink connector types API
   slug: popsink-connector-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-connector-types-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-connector-types-api-openapi.yml
 - filename: popsink-connectors-api-openapi.yml
   format: yaml
   label: Popsink Connectors API
   slug: popsink-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-connectors-api-openapi.yml
 - filename: popsink-env-member-api-openapi.yml
   format: yaml
   label: Popsink Env Member API
   slug: popsink-env-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-env-member-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-env-member-api-openapi.yml
 - filename: popsink-env-request-api-openapi.yml
   format: yaml
   label: Popsink Env Request API
   slug: popsink-env-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-env-request-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-env-request-api-openapi.yml
 - filename: popsink-envs-api-openapi.yml
   format: yaml
   label: Popsink Envs API
   slug: popsink-envs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-envs-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-envs-api-openapi.yml
 - filename: popsink-jobs-smt-api-openapi.yml
   format: yaml
   label: Popsink Jobs Smt API
   slug: popsink-jobs-smt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-jobs-smt-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-jobs-smt-api-openapi.yml
 - filename: popsink-organizations-api-openapi.yml
   format: yaml
   label: Popsink Organizations API
   slug: popsink-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-organizations-api-openapi.yml
 - filename: popsink-pipelines-api-openapi.yml
   format: yaml
   label: Popsink Pipelines API
   slug: popsink-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-pipelines-api-openapi.yml
 - filename: popsink-popsink-public-api-api-openapi.yml
   format: yaml
   label: Popsink Public API
   slug: popsink-popsink-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-popsink-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-popsink-public-api-api-openapi.yml
 - filename: popsink-probes-api-openapi.yml
   format: yaml
   label: Popsink Probes API
   slug: popsink-probes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-probes-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-probes-api-openapi.yml
 - filename: popsink-saml-api-openapi.yml
   format: yaml
   label: Popsink Saml API
   slug: popsink-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-saml-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-saml-api-openapi.yml
 - filename: popsink-schemas-api-openapi.yml
   format: yaml
   label: Popsink Schemas API
   slug: popsink-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-schemas-api-openapi.yml
 - filename: popsink-team-member-api-openapi.yml
   format: yaml
   label: Popsink Team Member API
   slug: popsink-team-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-team-member-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-team-member-api-openapi.yml
 - filename: popsink-team-request-api-openapi.yml
   format: yaml
   label: Popsink Team Request API
   slug: popsink-team-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-team-request-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-team-request-api-openapi.yml
 - filename: popsink-teams-api-openapi.yml
   format: yaml
   label: Popsink Teams API
   slug: popsink-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-teams-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-teams-api-openapi.yml
 - filename: popsink-user-logs-api-openapi.yml
   format: yaml
   label: Popsink User Logs API
   slug: popsink-user-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-user-logs-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-user-logs-api-openapi.yml
 - filename: popsink-users-api-openapi.yml
   format: yaml
   label: Popsink Users API
   slug: popsink-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-users-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-users-api-openapi.yml
 - filename: popsink-health-checks-api-openapi.yml
   format: yaml
   label: Popsink Health Checks API
   slug: popsink-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/openapi/popsink-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/popsink/openapi/popsink-health-checks-api-openapi.yml
 consequence_counts:
   read: 41
   safety-critical: 2
@@ -199,7 +199,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/popsin
   \  method: get\n  operationId: list_source_config_connectors_source_config_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors/target-config\n  method: get\n  operationId: list_target_config_connectors_target_config_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/\n  method: get\n  operationId: get_organizations_organizations__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/\n  method: post\n  operationId: create_organization_organizations__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_uuid}/\n  method: get\n  operationId: get_organization_organizations__organization_uuid___get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_uuid}/\n  method: delete\n  operationId: delete_organization_organizations__organization_uuid___delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me/\n  method: get\n  operationId: get_me_users_me__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /\n  method: get\n  operationId: root__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/\n  method: post\n  operationId: auth_auth__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/popsink/refs/heads/main/agentic-access/popsink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/popsink/agentic-access/popsink-agentic-access.yml
 summary_line: 90 operations · 49 acting · 2 human-in-the-loop
 tags:
 - Company

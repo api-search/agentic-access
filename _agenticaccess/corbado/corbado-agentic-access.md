@@ -9,43 +9,43 @@ api_specs:
   label: Corbado Exports API
   slug: corbado-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-exports-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-exports-api-openapi.yml
 - filename: corbado-identifiers-api-openapi.yml
   format: yaml
   label: Corbado Identifiers API
   slug: corbado-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-identifiers-api-openapi.yml
 - filename: corbado-passkeyevents-api-openapi.yml
   format: yaml
   label: Corbado PasskeyEvents API
   slug: corbado-passkeyevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeyevents-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-passkeyevents-api-openapi.yml
 - filename: corbado-passkeys-api-openapi.yml
   format: yaml
   label: Corbado Passkeys API
   slug: corbado-passkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-passkeys-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-passkeys-api-openapi.yml
 - filename: corbado-sessions-api-openapi.yml
   format: yaml
   label: Corbado Sessions API
   slug: corbado-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-sessions-api-openapi.yml
 - filename: corbado-users-api-openapi.yml
   format: yaml
   label: Corbado Users API
   slug: corbado-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-users-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-users-api-openapi.yml
 - filename: corbado-connect-tokens-api-openapi.yml
   format: yaml
   label: Corbado Connect Tokens API
   slug: corbado-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/openapi/corbado-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/corbado/openapi/corbado-connect-tokens-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/corbad
   \      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userID}/passkeyEvents\n  method: post\n  operationId: passkeyEventCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userID}/passkeyEvents\n  method: get\n  operationId: passkeyEventList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userID}/passkeyEvents/{passkeyEventID}\n  method: delete\n  operationId: passkeyEventDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /connectTokens\n  method: post\n  operationId: connectTokenCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectTokens\n  method: get\n  operationId: connectTokenList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectTokens/{connectTokenID}\n  method: patch\n  operationId: connectTokenUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectTokens/{connectTokenID}\n\
   \  method: delete\n  operationId: connectTokenDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exports/{exportType}\n  method: get\n  operationId: exportList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exports/{exportType}/{filename}/downloadLink\n  method: get\n  operationId: exportDownloadLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corbado/refs/heads/main/agentic-access/corbado-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/corbado/agentic-access/corbado-agentic-access.yml
 summary_line: 29 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Authentication

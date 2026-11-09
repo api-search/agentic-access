@@ -9,49 +9,49 @@ api_specs:
   label: Cerbos Admin Audit API
   slug: cerbos-admin-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-audit-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-audit-api-openapi.yml
 - filename: cerbos-admin-policies-api-openapi.yml
   format: yaml
   label: Cerbos Admin Policies API
   slug: cerbos-admin-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-policies-api-openapi.yml
 - filename: cerbos-admin-schemas-api-openapi.yml
   format: yaml
   label: Cerbos Admin Schemas API
   slug: cerbos-admin-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-schemas-api-openapi.yml
 - filename: cerbos-admin-store-api-openapi.yml
   format: yaml
   label: Cerbos Admin Store API
   slug: cerbos-admin-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-admin-store-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-admin-store-api-openapi.yml
 - filename: cerbos-check-api-openapi.yml
   format: yaml
   label: Cerbos Check API
   slug: cerbos-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-check-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-check-api-openapi.yml
 - filename: cerbos-plan-api-openapi.yml
   format: yaml
   label: Cerbos Plan API
   slug: cerbos-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-plan-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-plan-api-openapi.yml
 - filename: cerbos-server-api-openapi.yml
   format: yaml
   label: Cerbos Server API
   slug: cerbos-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-server-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-server-api-openapi.yml
 - filename: cerbos-auth-zen-api-openapi.yml
   format: yaml
   label: Cerbos Auth ZEN API
   slug: cerbos-auth-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/openapi/cerbos-auth-zen-api-openapi.yml
+  url: https://artifacts.apis.io/cerbos/openapi/cerbos-auth-zen-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cerbos
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/schema\n  method: post\n  operationId: adminAddOrUpdateSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/schema\n  method: get\n  operationId: adminGetSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/schema\n  method: delete\n  operationId: adminDeleteSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /admin/schemas\n  method: get\n  operationId: adminListSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/auditlog/list/{kind}\n  method: get\n  operationId: adminListAuditLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/store/revisions\n  method: delete\n  operationId: adminPurgeStoreRevisions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/store/reload\n  method: get\n  operationId: adminReloadStore\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cerbos/refs/heads/main/agentic-access/cerbos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cerbos/agentic-access/cerbos-agentic-access.yml
 summary_line: 22 operations · 12 acting · 1 human-in-the-loop
 tags:
 - ABAC

@@ -9,19 +9,19 @@ api_specs:
   label: 'Swisscom Process: create API'
   slug: swisscom-process-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-create-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-process-create-api-openapi.yml
 - filename: swisscom-process-read-api-openapi.yml
   format: yaml
   label: 'Swisscom Process: read API'
   slug: swisscom-process-read-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-process-read-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-process-read-api-openapi.yml
 - filename: swisscom-signatures-api-openapi.yml
   format: yaml
   label: Swisscom Signatures API
   slug: swisscom-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/openapi/swisscom-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/swisscom/openapi/swisscom-signatures-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/swissc
   \  method: post\n  operationId: release\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sswp:process:create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/process/{processId}/open/{personId}\n  method: post\n  operationId: open\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sswp:process:read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/process/{processId}/attach\n  method: post\n  operationId: attach\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sswp:process:create\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/process/{processId}\n  method: get\n  operationId: getProcess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sswp:process:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/process/{processId}/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sswp:process:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/process/{processId}/record\n  method: get\n  operationId: getRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sswp:process:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/process/{processId}/file/{fileId}\n  method:\
   \ get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sswp:process:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/process/{processId}/file/{fileId}/content\n  method: get\n  operationId: getFileContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sswp:process:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swisscom/refs/heads/main/agentic-access/swisscom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swisscom/agentic-access/swisscom-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Telecommunications

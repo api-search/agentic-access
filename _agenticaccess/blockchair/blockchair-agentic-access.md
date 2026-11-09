@@ -9,43 +9,43 @@ api_specs:
   label: Blockchair Address Dashboards API
   slug: blockchair-address-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-address-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-address-dashboards-api-openapi.yml
 - filename: blockchair-block-dashboards-api-openapi.yml
   format: yaml
   label: Blockchair Block Dashboards API
   slug: blockchair-block-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-block-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-block-dashboards-api-openapi.yml
 - filename: blockchair-broadcast-api-openapi.yml
   format: yaml
   label: Blockchair Broadcast API
   slug: blockchair-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-broadcast-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-broadcast-api-openapi.yml
 - filename: blockchair-outputs-database-api-openapi.yml
   format: yaml
   label: Blockchair Outputs Database API
   slug: blockchair-outputs-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-outputs-database-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-outputs-database-api-openapi.yml
 - filename: blockchair-raw-data-api-openapi.yml
   format: yaml
   label: Blockchair Raw Data API
   slug: blockchair-raw-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-raw-data-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-raw-data-api-openapi.yml
 - filename: blockchair-stats-api-openapi.yml
   format: yaml
   label: Blockchair Stats API
   slug: blockchair-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-stats-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-stats-api-openapi.yml
 - filename: blockchair-transaction-dashboards-api-openapi.yml
   format: yaml
   label: Blockchair Transaction Dashboards API
   slug: blockchair-transaction-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/openapi/blockchair-transaction-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/blockchair/openapi/blockchair-transaction-dashboards-api-openapi.yml
 consequence_counts:
   read: 15
   write: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blockc
   \ getTransactionDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/dashboards/transactions/{hashes}\n  method: get\n  operationId: getTransactionsDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/dashboards/block/{id}\n  method: get\n  operationId: getBlockDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/dashboards/blocks/{ids}\n  method: get\n  operationId: getBlocksDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/raw/block/{id}\n  method: get\n  operationId: getRawBlock\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/raw/transaction/{hash}\n  method: get\n  operationId: getRawTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/outputs\n  method: get\n  operationId: queryOutputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/blocks\n  method: get\n  operationId: queryBlocks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chain}/transactions\n  method: get\n  operationId: queryTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /{chain}/push/transaction\n  method: post\n  operationId: broadcastTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blockchair/refs/heads/main/agentic-access/blockchair-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blockchair/agentic-access/blockchair-agentic-access.yml
 summary_line: 16 operations · 1 acting
 tags:
 - Blockchain

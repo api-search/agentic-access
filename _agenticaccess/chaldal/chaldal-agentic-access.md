@@ -9,31 +9,31 @@ api_specs:
   label: Chaldal Accounts API
   slug: chaldal-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-accounts-api-openapi.yml
 - filename: chaldal-heartbeat-api-openapi.yml
   format: yaml
   label: Chaldal Heartbeat API
   slug: chaldal-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-heartbeat-api-openapi.yml
 - filename: chaldal-identity-api-openapi.yml
   format: yaml
   label: Chaldal Identity API
   slug: chaldal-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-identity-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-identity-api-openapi.yml
 - filename: chaldal-organization-api-openapi.yml
   format: yaml
   label: Chaldal Organization API
   slug: chaldal-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-organization-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-organization-api-openapi.yml
 - filename: chaldal-task-api-openapi.yml
   format: yaml
   label: Chaldal Task API
   slug: chaldal-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/openapi/chaldal-task-api-openapi.yml
+  url: https://artifacts.apis.io/chaldal/openapi/chaldal-task-api-openapi.yml
 consequence_counts:
   read: 19
   write: 16
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/chalda
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Identity/GetAddressInfoFromAddressIdInMyOrg\n  method: get\n  operationId: Identity_GetAddressInfoFromAddressIdInMyOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Identity/GetAddressInfoListFromAddressIdListInMyOrg\n  method: get\n  operationId: Identity_GetAddressInfoListFromAddressIdListInMyOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Organization/CreateOrganization\n  method: post\n  operationId: Organization_CreateOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Organization/GetOrgStatus\n  method: post\n  operationId: Organization_GetOrgStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Organization/AddOrgPickupPoint\n  method: post\n  operationId: Organization_AddOrgPickupPoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Organization/GetOrgPickupPoints\n  method: get\n  operationId: Organization_GetOrgPickupPoints\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Organization/GetOrgPickupPointByTrackingRef\n  method: get\n  operationId: Organization_GetOrgPickupPointByTrackingRef\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chaldal/refs/heads/main/agentic-access/chaldal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chaldal/agentic-access/chaldal-agentic-access.yml
 summary_line: 35 operations · 16 acting
 tags:
 - Company

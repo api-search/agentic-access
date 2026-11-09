@@ -9,61 +9,61 @@ api_specs:
   label: instacart Authentication API
   slug: instacart-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-authentication-api-openapi.yml
 - filename: instacart-chat-api-openapi.yml
   format: yaml
   label: instacart Chat API
   slug: instacart-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-chat-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-chat-api-openapi.yml
 - filename: instacart-delivery-api-openapi.yml
   format: yaml
   label: instacart Delivery API
   slug: instacart-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-delivery-api-openapi.yml
 - filename: instacart-items-api-openapi.yml
   format: yaml
   label: instacart Items API
   slug: instacart-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-items-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-items-api-openapi.yml
 - filename: instacart-last-mile-delivery-api-openapi.yml
   format: yaml
   label: instacart Last Mile Delivery API
   slug: instacart-last-mile-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-last-mile-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-last-mile-delivery-api-openapi.yml
 - filename: instacart-orders-api-openapi.yml
   format: yaml
   label: instacart Orders API
   slug: instacart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-orders-api-openapi.yml
 - filename: instacart-pickup-api-openapi.yml
   format: yaml
   label: instacart Pickup API
   slug: instacart-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-pickup-api-openapi.yml
 - filename: instacart-products-api-openapi.yml
   format: yaml
   label: instacart Products API
   slug: instacart-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-products-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-products-api-openapi.yml
 - filename: instacart-replacements-api-openapi.yml
   format: yaml
   label: instacart Replacements API
   slug: instacart-replacements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-replacements-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-replacements-api-openapi.yml
 - filename: instacart-rest-api-openapi.yml
   format: yaml
   label: instacart Rest API
   slug: instacart-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/openapi/instacart-rest-api-openapi.yml
+  url: https://artifacts.apis.io/instacart/openapi/instacart-rest-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 7
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/instac
   \  method: post\n  operationId: previewPickupTimeSlots\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/fulfillment/users/{user_id}/orders/pickup\n  method: post\n  operationId: createPickupOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/data_ingestion/catalog/product/submission\n  method: post\n  operationId: submitProducts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /idp/v1/products/products_link\n  method: post\n  operationId: createShoppingListPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /idp/v1/products/recipe\n  method: post\n  operationId: createRecipePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/post_checkout/orders/{order_id}/items/{order_item_id}/replacement\n\
   \  method: put\n  operationId: updateItemReplacement\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/llm_integration/openapi/v2_1/recipes\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instacart/refs/heads/main/agentic-access/instacart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instacart/agentic-access/instacart-agentic-access.yml
 summary_line: 24 operations · 17 acting
 tags:
 - Grocery

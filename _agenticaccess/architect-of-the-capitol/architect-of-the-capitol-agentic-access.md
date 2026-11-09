@@ -8,31 +8,31 @@ api_specs:
   label: Architect of the Capitol Accessibility API
   slug: architect-of-the-capitol-accessibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-accessibility-api-openapi.yml
+  url: https://artifacts.apis.io/architect-of-the-capitol/openapi/architect-of-the-capitol-accessibility-api-openapi.yml
 - filename: architect-of-the-capitol-art-collection-api-openapi.yml
   format: yaml
   label: Architect of the Capitol Art Collection API
   slug: architect-of-the-capitol-art-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-art-collection-api-openapi.yml
+  url: https://artifacts.apis.io/architect-of-the-capitol/openapi/architect-of-the-capitol-art-collection-api-openapi.yml
 - filename: architect-of-the-capitol-buildings-api-openapi.yml
   format: yaml
   label: Architect of the Capitol Buildings API
   slug: architect-of-the-capitol-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/architect-of-the-capitol/openapi/architect-of-the-capitol-buildings-api-openapi.yml
 - filename: architect-of-the-capitol-preservation-api-openapi.yml
   format: yaml
   label: Architect of the Capitol Preservation API
   slug: architect-of-the-capitol-preservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-preservation-api-openapi.yml
+  url: https://artifacts.apis.io/architect-of-the-capitol/openapi/architect-of-the-capitol-preservation-api-openapi.yml
 - filename: architect-of-the-capitol-visitor-information-api-openapi.yml
   format: yaml
   label: Architect of the Capitol Visitor Information API
   slug: architect-of-the-capitol-visitor-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/openapi/architect-of-the-capitol-visitor-information-api-openapi.yml
+  url: https://artifacts.apis.io/architect-of-the-capitol/openapi/architect-of-the-capitol-visitor-information-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aoc-data-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /buildings\n  method: get\n  operationId: listBuildings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /buildings/{buildingId}\n  method: get\n  operationId: getBuilding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artworks\n  method: get\n  operationId: listArtworks\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artworks/{artworkId}\n  method: get\n  operationId: getArtwork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preservation-projects\n  method: get\n  operationId: listPreservationProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /preservation-projects/{projectId}\n  method: get\n  operationId: getPreservationProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /visitor-info\n  method: get\n  operationId: getVisitorInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /accessibility\n  method: get\n  operationId: getAccessibilityInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/architect-of-the-capitol/refs/heads/main/agentic-access/architect-of-the-capitol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/architect-of-the-capitol/agentic-access/architect-of-the-capitol-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Federal Government

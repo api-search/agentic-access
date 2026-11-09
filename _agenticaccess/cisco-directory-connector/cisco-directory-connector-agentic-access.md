@@ -9,19 +9,19 @@ api_specs:
   label: Cisco Directory Connector Groups API
   slug: cisco-directory-connector-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-groups-api-openapi.yml
 - filename: cisco-directory-connector-organizations-api-openapi.yml
   format: yaml
   label: Cisco Directory Connector Organizations API
   slug: cisco-directory-connector-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-organizations-api-openapi.yml
 - filename: cisco-directory-connector-people-api-openapi.yml
   format: yaml
   label: Cisco Directory Connector People API
   slug: cisco-directory-connector-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-people-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-people-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{personId}\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{personId}\n  method: put\n  operationId: updatePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{personId}\n  method: delete\n  operationId: deletePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}\n  method: patch\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/members\n  method: get\n  operationId: listGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{orgId}\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/agentic-access/cisco-directory-connector-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-directory-connector/agentic-access/cisco-directory-connector-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Active Directory

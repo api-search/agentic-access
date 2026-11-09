@@ -9,25 +9,25 @@ api_specs:
   label: LogRocket Data Export API
   slug: logrocket-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-data-export-api-openapi.yml
 - filename: logrocket-highlights-api-openapi.yml
   format: yaml
   label: LogRocket Highlights API
   slug: logrocket-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-highlights-api-openapi.yml
 - filename: logrocket-users-api-openapi.yml
   format: yaml
   label: LogRocket Users API
   slug: logrocket-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-users-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-users-api-openapi.yml
 - filename: logrocket-graph-ql-api-openapi.yml
   format: yaml
   label: LogRocket Graph QL API
   slug: logrocket-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/openapi/logrocket-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/logrocket/openapi/logrocket-graph-ql-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/logrocket-graphql-api-openapi.yml, openapi/logrocket-rest-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /graphql\n  method: post\n  operationId: executeGraphQLQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/users/{userId}\n  method: put\n  operationId:\
   \ updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/data-export/\n  method: get\n  operationId: listDataExports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/apps/{appId}/highlights/\n  method: post\n  operationId: createHighlights\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/highlights/\n  method: get\n  operationId: getHighlights\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logrocket/refs/heads/main/agentic-access/logrocket-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/logrocket/agentic-access/logrocket-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Session Replay

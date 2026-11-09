@@ -196,7 +196,7 @@ summary_line: 62 operations · 33 acting · 4 human-in-the-loop
 tags:
 - Company
 - Bookmarking
-- OpenSource
-- SelfHostable
+- Open Source
+- Self-Hosted
 - Productivity
 ---

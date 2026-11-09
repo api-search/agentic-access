@@ -9,37 +9,73 @@ api_specs:
   label: Azure Blob Storage Append Blobs API
   slug: microsoft-azure-blob-storage-append-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-append-blobs-api-openapi.yml
-- filename: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml
-  format: yaml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-append-blobs-api-openapi.yml
+- filename: blob.json
+  format: json
   label: Azure Blob Storage Azure Blob Storage REST API
   slug: microsoft-azure-blob-storage-azure-blob-storage-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-azure-blob-storage-rest-api-api-openapi.yml
+  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/storage/data-plane/BlobStorage/stable/2026-10-06/blob.json
 - filename: microsoft-azure-blob-storage-blobs-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Blobs API
   slug: microsoft-azure-blob-storage-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-block-blobs-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Block Blobs API
   slug: microsoft-azure-blob-storage-block-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-block-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-block-blobs-api-openapi.yml
 - filename: microsoft-azure-blob-storage-containers-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Containers API
   slug: microsoft-azure-blob-storage-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-containers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-containers-api-openapi.yml
 - filename: microsoft-azure-blob-storage-page-blobs-api-openapi.yml
   format: yaml
   label: Azure Blob Storage Page Blobs API
   slug: microsoft-azure-blob-storage-page-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/openapi/microsoft-azure-blob-storage-page-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-page-blobs-api-openapi.yml
+- filename: microsoft-azure-blob-storage-appendblob-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Appendblob API
+  slug: microsoft-azure-blob-storage-appendblob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-appendblob-api-openapi.yml
+- filename: microsoft-azure-blob-storage-blob-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Blob API
+  slug: microsoft-azure-blob-storage-blob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-blob-api-openapi.yml
+- filename: microsoft-azure-blob-storage-blockblob-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Blockblob API
+  slug: microsoft-azure-blob-storage-blockblob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-blockblob-api-openapi.yml
+- filename: microsoft-azure-blob-storage-container-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Container API
+  slug: microsoft-azure-blob-storage-container-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-container-api-openapi.yml
+- filename: microsoft-azure-blob-storage-pageblob-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Pageblob API
+  slug: microsoft-azure-blob-storage-pageblob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-pageblob-api-openapi.yml
+- filename: microsoft-azure-blob-storage-service-api-openapi.yml
+  format: yaml
+  label: Azure Blob Storage Service API
+  slug: microsoft-azure-blob-storage-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-blob-storage/openapi/microsoft-azure-blob-storage-service-api-openapi.yml
 consequence_counts:
   read: 16
   write: 29
@@ -81,7 +117,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
   \  operationId: putPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{container}/{blob}?comp=pagelist\n  method: get\n  operationId: getPageRanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{container}/{blob}?comp=pagelist&diff\n  method: get\n  operationId: getPageRangesDiff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{container}/{blob}?comp=incrementalcopy\n  method: put\n  operationId: incrementalCopyBlob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?restype=service&comp=batch\n  method: post\n  operationId: submitBlobBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?restype=service&comp=properties\n  method: get\n  operationId: getBlobServiceProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?restype=service&comp=properties\n  method: put\n  operationId: setBlobServiceProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?restype=service&comp=stats\n  method: get\n  operationId: getBlobServiceStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?restype=service&comp=userdelegationkey\n  method: post\n  operationId: getUserDelegationKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-blob-storage/refs/heads/main/agentic-access/microsoft-azure-blob-storage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-blob-storage/agentic-access/microsoft-azure-blob-storage-agentic-access.yml
 summary_line: 45 operations · 29 acting
 tags:
 - Microsoft Azure

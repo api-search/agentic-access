@@ -9,43 +9,43 @@ api_specs:
   label: Let's Encrypt Account API
   slug: lets-encrypt-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-account-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-account-api-openapi.yml
 - filename: lets-encrypt-authorization-api-openapi.yml
   format: yaml
   label: Let's Encrypt Authorization API
   slug: lets-encrypt-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-authorization-api-openapi.yml
 - filename: lets-encrypt-certificate-api-openapi.yml
   format: yaml
   label: Let's Encrypt Certificate API
   slug: lets-encrypt-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-certificate-api-openapi.yml
 - filename: lets-encrypt-challenge-api-openapi.yml
   format: yaml
   label: Let's Encrypt Challenge API
   slug: lets-encrypt-challenge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-challenge-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-challenge-api-openapi.yml
 - filename: lets-encrypt-directory-api-openapi.yml
   format: yaml
   label: Let's Encrypt Directory API
   slug: lets-encrypt-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-directory-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-directory-api-openapi.yml
 - filename: lets-encrypt-nonce-api-openapi.yml
   format: yaml
   label: Let's Encrypt Nonce API
   slug: lets-encrypt-nonce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-nonce-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-nonce-api-openapi.yml
 - filename: lets-encrypt-order-api-openapi.yml
   format: yaml
   label: Let's Encrypt Order API
   slug: lets-encrypt-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/openapi/lets-encrypt-order-api-openapi.yml
+  url: https://artifacts.apis.io/lets-encrypt/openapi/lets-encrypt-order-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lets-e
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acme/cert/{certId}\n  method: post\n  operationId: getCertificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acme/revoke-cert\n  method: post\n  operationId: revokeCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /acme/chall/{challengeId}\n  method: post\n  operationId: respondChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /directory\n  method: get\n  operationId: getDirectory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acme/new-nonce\n  method: head\n  operationId: newNonce\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acme/new-order\n  method: post\n  operationId: newOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /acme/order/{orderId}\n  method: post\n  operationId: getOrder\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acme/finalize/{orderId}\n  method: post\n  operationId: finalizeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lets-encrypt/refs/heads/main/agentic-access/lets-encrypt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lets-encrypt/agentic-access/lets-encrypt-agentic-access.yml
 summary_line: 12 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Certificates

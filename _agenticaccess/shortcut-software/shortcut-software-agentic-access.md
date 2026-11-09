@@ -9,151 +9,151 @@ api_specs:
   label: Shortcut Software Categories API
   slug: shortcut-software-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-categories-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-categories-api-openapi.yml
 - filename: shortcut-software-custom-fields-api-openapi.yml
   format: yaml
   label: Shortcut Software Custom Fields API
   slug: shortcut-software-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-custom-fields-api-openapi.yml
 - filename: shortcut-software-documents-api-openapi.yml
   format: yaml
   label: Shortcut Software Documents API
   slug: shortcut-software-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-documents-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-documents-api-openapi.yml
 - filename: shortcut-software-entity-templates-api-openapi.yml
   format: yaml
   label: Shortcut Software Entity Templates API
   slug: shortcut-software-entity-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-entity-templates-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-entity-templates-api-openapi.yml
 - filename: shortcut-software-epic-workflow-api-openapi.yml
   format: yaml
   label: Shortcut Software Epic Workflow API
   slug: shortcut-software-epic-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-epic-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-epic-workflow-api-openapi.yml
 - filename: shortcut-software-epics-api-openapi.yml
   format: yaml
   label: Shortcut Software Epics API
   slug: shortcut-software-epics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-epics-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-epics-api-openapi.yml
 - filename: shortcut-software-external-link-api-openapi.yml
   format: yaml
   label: Shortcut Software External Link API
   slug: shortcut-software-external-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-external-link-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-external-link-api-openapi.yml
 - filename: shortcut-software-files-api-openapi.yml
   format: yaml
   label: Shortcut Software Files API
   slug: shortcut-software-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-files-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-files-api-openapi.yml
 - filename: shortcut-software-groups-api-openapi.yml
   format: yaml
   label: Shortcut Software Groups API
   slug: shortcut-software-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-groups-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-groups-api-openapi.yml
 - filename: shortcut-software-health-api-openapi.yml
   format: yaml
   label: Shortcut Software Health API
   slug: shortcut-software-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-health-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-health-api-openapi.yml
 - filename: shortcut-software-integrations-api-openapi.yml
   format: yaml
   label: Shortcut Software Integrations API
   slug: shortcut-software-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-integrations-api-openapi.yml
 - filename: shortcut-software-iterations-api-openapi.yml
   format: yaml
   label: Shortcut Software Iterations API
   slug: shortcut-software-iterations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-iterations-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-iterations-api-openapi.yml
 - filename: shortcut-software-key-results-api-openapi.yml
   format: yaml
   label: Shortcut Software Key Results API
   slug: shortcut-software-key-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-key-results-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-key-results-api-openapi.yml
 - filename: shortcut-software-labels-api-openapi.yml
   format: yaml
   label: Shortcut Software Labels API
   slug: shortcut-software-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-labels-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-labels-api-openapi.yml
 - filename: shortcut-software-linked-files-api-openapi.yml
   format: yaml
   label: Shortcut Software Linked Files API
   slug: shortcut-software-linked-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-linked-files-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-linked-files-api-openapi.yml
 - filename: shortcut-software-member-api-openapi.yml
   format: yaml
   label: Shortcut Software Member API
   slug: shortcut-software-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-member-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-member-api-openapi.yml
 - filename: shortcut-software-members-api-openapi.yml
   format: yaml
   label: Shortcut Software Members API
   slug: shortcut-software-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-members-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-members-api-openapi.yml
 - filename: shortcut-software-milestones-api-openapi.yml
   format: yaml
   label: Shortcut Software Milestones API
   slug: shortcut-software-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-milestones-api-openapi.yml
 - filename: shortcut-software-objectives-api-openapi.yml
   format: yaml
   label: Shortcut Software Objectives API
   slug: shortcut-software-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-objectives-api-openapi.yml
 - filename: shortcut-software-projects-api-openapi.yml
   format: yaml
   label: Shortcut Software Projects API
   slug: shortcut-software-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-projects-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-projects-api-openapi.yml
 - filename: shortcut-software-repositories-api-openapi.yml
   format: yaml
   label: Shortcut Software Repositories API
   slug: shortcut-software-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-repositories-api-openapi.yml
 - filename: shortcut-software-search-api-openapi.yml
   format: yaml
   label: Shortcut Software Search API
   slug: shortcut-software-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-search-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-search-api-openapi.yml
 - filename: shortcut-software-stories-api-openapi.yml
   format: yaml
   label: Shortcut Software Stories API
   slug: shortcut-software-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-stories-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-stories-api-openapi.yml
 - filename: shortcut-software-story-links-api-openapi.yml
   format: yaml
   label: Shortcut Software Story Links API
   slug: shortcut-software-story-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-story-links-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-story-links-api-openapi.yml
 - filename: shortcut-software-workflows-api-openapi.yml
   format: yaml
   label: Shortcut Software Workflows API
   slug: shortcut-software-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/openapi/shortcut-software-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/shortcut-software/openapi/shortcut-software-workflows-api-openapi.yml
 consequence_counts:
   read: 71
   safety-critical: 2
@@ -226,8 +226,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shortc
   \  method: put\n  operationId: updateObjective\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/objectives/{objective-public-id}\n  method: delete\n  operationId: deleteObjective\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/objectives/{objective-public-id}/epics\n  method: get\n  operationId: listObjectiveEpics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/objectives/{objective-public-id}/health\n\
   \  method: get\n  operationId: getObjectiveHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/objectives/{objective-public-id}/health\n  method: post\n  operationId: createObjectiveHealth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/objectives/{objective-public-id}/health-history\n  method: get\n  operationId: listObjectiveHealths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/projects/{project-public-id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/projects/{project-public-id}\n  method: put\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /api/v3/projects/{project-public-id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/projects/{project-public-id}/stories\n  method: get\n  operationId: listStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/repositories\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/agentic-access/shortcut-software-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shortcut-software/refs/heads/main/agentic-access/shortcut-software-agentic-access.yml
+  \ required\n- path: /api/v3/projects/{project-public-id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/projects/{project-public-id}/stories\n  method: get\n  operationId: listStories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/repositories\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/shortcut-software/agentic-access/shortcut-software-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/shortcut-software/agentic-access/shortcut-software-agentic-access.yml
 summary_line: 143 operations · 72 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,31 +9,31 @@ api_specs:
   label: Cognito Forms Entries API
   slug: cognito-forms-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-entries-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-entries-api-openapi.yml
 - filename: cognito-forms-files-api-openapi.yml
   format: yaml
   label: Cognito Forms Files API
   slug: cognito-forms-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-files-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-files-api-openapi.yml
 - filename: cognito-forms-forms-api-openapi.yml
   format: yaml
   label: Cognito Forms API
   slug: cognito-forms-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-forms-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-forms-api-openapi.yml
 - filename: cognito-forms-webhooks-api-openapi.yml
   format: yaml
   label: Cognito Forms Webhooks API
   slug: cognito-forms-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-webhooks-api-openapi.yml
 - filename: cognito-forms-odata-api-openapi.yml
   format: yaml
   label: Cognito Forms O Data API
   slug: cognito-forms-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/openapi/cognito-forms-odata-api-openapi.yml
+  url: https://artifacts.apis.io/cognito-forms/openapi/cognito-forms-odata-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cognit
   \   - admin\n- path: /api/files\n  method: post\n  operationId: UploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - admin\n- path: /api/odata/Forms({form})/Views({viewId})/Entries\n  method: get\n  operationId: GetEntryViewEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin\n- path: /integration/oauth/subscribenewentry\n  method: post\n  operationId: NewEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n    scope:\n    - admin\n- path: /integration/oauth/subscribeupdateentry\n  method: post\n  operationId: UpdateEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - admin\n- path: /integration/oauth/subscribeentrydeleted\n  method: post\n  operationId: EntryDeleted\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - admin\n- path: /integration/oauth/unsubscribe\n  method: delete\n  operationId: UnsubscribeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - admin\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognito-forms/refs/heads/main/agentic-access/cognito-forms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cognito-forms/agentic-access/cognito-forms-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Forms

@@ -9,37 +9,37 @@ api_specs:
   label: Humanloop Datasets API
   slug: humanloop-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-datasets-api-openapi.yml
 - filename: humanloop-evaluators-api-openapi.yml
   format: yaml
   label: Humanloop Evaluators API
   slug: humanloop-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-evaluators-api-openapi.yml
 - filename: humanloop-logs-api-openapi.yml
   format: yaml
   label: Humanloop Logs API
   slug: humanloop-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-logs-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-logs-api-openapi.yml
 - filename: humanloop-prompts-api-openapi.yml
   format: yaml
   label: Humanloop Prompts API
   slug: humanloop-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-prompts-api-openapi.yml
 - filename: humanloop-sessions-api-openapi.yml
   format: yaml
   label: Humanloop Sessions API
   slug: humanloop-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-sessions-api-openapi.yml
 - filename: humanloop-tools-api-openapi.yml
   format: yaml
   label: Humanloop Tools API
   slug: humanloop-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/openapi/humanloop-tools-api-openapi.yml
+  url: https://artifacts.apis.io/humanloop/openapi/humanloop-tools-api-openapi.yml
 consequence_counts:
   read: 12
   write: 8
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/humanl
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets\n  method: post\n  operationId: upsertDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{id}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /evaluators\n  method: get\n  operationId: listEvaluators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /evaluators\n  method: post\n  operationId: upsertEvaluator\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /evaluators/{id}\n  method: get\n  operationId: getEvaluator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: listLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs/{id}\n  method: get\n  operationId: getLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{id}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanloop/refs/heads/main/agentic-access/humanloop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/humanloop/agentic-access/humanloop-agentic-access.yml
 summary_line: 20 operations · 8 acting
 tags:
 - LLM Platform

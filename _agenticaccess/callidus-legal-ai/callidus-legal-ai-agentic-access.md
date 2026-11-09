@@ -9,313 +9,313 @@ api_specs:
   label: Callidus Legal AI Addin Doc Utils API
   slug: callidus-legal-ai-addin-docutils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-addin-docutils-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-addin-docutils-api-openapi.yml
 - filename: callidus-legal-ai-addin-litigate-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Addin Litigate API
   slug: callidus-legal-ai-addin-litigate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-addin-litigate-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-addin-litigate-api-openapi.yml
 - filename: callidus-legal-ai-addin-liveedit-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Addin Live Edit API
   slug: callidus-legal-ai-addin-liveedit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-addin-liveedit-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-addin-liveedit-api-openapi.yml
 - filename: callidus-legal-ai-addin-negotiate-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Addin Negotiate API
   slug: callidus-legal-ai-addin-negotiate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-addin-negotiate-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-addin-negotiate-api-openapi.yml
 - filename: callidus-legal-ai-addin-outlook-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Addin Outlook API
   slug: callidus-legal-ai-addin-outlook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-addin-outlook-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-addin-outlook-api-openapi.yml
 - filename: callidus-legal-ai-authorization-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Authorization API
   slug: callidus-legal-ai-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-authorization-api-openapi.yml
 - filename: callidus-legal-ai-basic-bot-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Basic Bot API
   slug: callidus-legal-ai-basic-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-basic-bot-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-basic-bot-api-openapi.yml
 - filename: callidus-legal-ai-callidusai-api-api-openapi.yml
   format: yaml
   label: Callidus Legal AI CallidusAI API
   slug: callidus-legal-ai-callidusai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-callidusai-api-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-callidusai-api-api-openapi.yml
 - filename: callidus-legal-ai-cases-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Cases API
   slug: callidus-legal-ai-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-cases-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-cases-api-openapi.yml
 - filename: callidus-legal-ai-changes-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Changes API
   slug: callidus-legal-ai-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-changes-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-changes-api-openapi.yml
 - filename: callidus-legal-ai-chat-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Chat API
   slug: callidus-legal-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-chat-api-openapi.yml
 - filename: callidus-legal-ai-contract-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Contract API
   slug: callidus-legal-ai-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-contract-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-contract-api-openapi.yml
 - filename: callidus-legal-ai-courts-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Courts API
   slug: callidus-legal-ai-courts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-courts-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-courts-api-openapi.yml
 - filename: callidus-legal-ai-db-caselaw-api-openapi.yml
   format: yaml
   label: Callidus Legal AI DB Caselaw API
   slug: callidus-legal-ai-db-caselaw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-db-caselaw-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-db-caselaw-api-openapi.yml
 - filename: callidus-legal-ai-depositions-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Depositions API
   slug: callidus-legal-ai-depositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-depositions-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-depositions-api-openapi.yml
 - filename: callidus-legal-ai-desktop-oauth-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Desktop OAuth API
   slug: callidus-legal-ai-desktop-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-desktop-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-desktop-oauth-api-openapi.yml
 - filename: callidus-legal-ai-doc-agent-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Doc Agent API
   slug: callidus-legal-ai-doc-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-doc-agent-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-doc-agent-api-openapi.yml
 - filename: callidus-legal-ai-doc-agent-debug-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Doc Agent Debug API
   slug: callidus-legal-ai-doc-agent-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-doc-agent-debug-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-doc-agent-debug-api-openapi.yml
 - filename: callidus-legal-ai-doc-agent-v2-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Doc Agent v2 API
   slug: callidus-legal-ai-doc-agent-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-doc-agent-v2-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-doc-agent-v2-api-openapi.yml
 - filename: callidus-legal-ai-document-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Document API
   slug: callidus-legal-ai-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-document-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-document-api-openapi.yml
 - filename: callidus-legal-ai-document-drafting-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Document Drafting API
   slug: callidus-legal-ai-document-drafting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-document-drafting-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-document-drafting-api-openapi.yml
 - filename: callidus-legal-ai-drafting-templates-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Drafting Templates API
   slug: callidus-legal-ai-drafting-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-drafting-templates-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-drafting-templates-api-openapi.yml
 - filename: callidus-legal-ai-ediscovery-api-openapi.yml
   format: yaml
   label: Callidus Legal AI E Discovery API
   slug: callidus-legal-ai-ediscovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-ediscovery-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-ediscovery-api-openapi.yml
 - filename: callidus-legal-ai-error-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Error API
   slug: callidus-legal-ai-error-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-error-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-error-api-openapi.yml
 - filename: callidus-legal-ai-form-filler-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Form Filler API
   slug: callidus-legal-ai-form-filler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-form-filler-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-form-filler-api-openapi.yml
 - filename: callidus-legal-ai-generate-summary-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Generate Summary API
   slug: callidus-legal-ai-generate-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-generate-summary-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-generate-summary-api-openapi.yml
 - filename: callidus-legal-ai-health-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Health API
   slug: callidus-legal-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-health-api-openapi.yml
 - filename: callidus-legal-ai-integrations-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Integrations API
   slug: callidus-legal-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-integrations-api-openapi.yml
 - filename: callidus-legal-ai-legal-research-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Legal Research API
   slug: callidus-legal-ai-legal-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-legal-research-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-legal-research-api-openapi.yml
 - filename: callidus-legal-ai-legal-research-v3-api-api-openapi.yml
   format: yaml
   label: 'Callidus Legal AI Legal Research: V3 API'
   slug: callidus-legal-ai-legal-research-v3-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-legal-research-v3-api-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-legal-research-v3-api-api-openapi.yml
 - filename: callidus-legal-ai-mcp-api-openapi.yml
   format: yaml
   label: Callidus Legal AI MCP API
   slug: callidus-legal-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-mcp-api-openapi.yml
 - filename: callidus-legal-ai-mcp-oauth-api-openapi.yml
   format: yaml
   label: Callidus Legal AI MCP OAuth API
   slug: callidus-legal-ai-mcp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-mcp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-mcp-oauth-api-openapi.yml
 - filename: callidus-legal-ai-myip-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Myip API
   slug: callidus-legal-ai-myip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-myip-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-myip-api-openapi.yml
 - filename: callidus-legal-ai-onboarding-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Onboarding API
   slug: callidus-legal-ai-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-onboarding-api-openapi.yml
 - filename: callidus-legal-ai-optp-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Optp API
   slug: callidus-legal-ai-optp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-optp-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-optp-api-openapi.yml
 - filename: callidus-legal-ai-oral-argument-simulator-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Oral Argument Simulator API
   slug: callidus-legal-ai-oral-argument-simulator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-oral-argument-simulator-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-oral-argument-simulator-api-openapi.yml
 - filename: callidus-legal-ai-pii-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Pii API
   slug: callidus-legal-ai-pii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-pii-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-pii-api-openapi.yml
 - filename: callidus-legal-ai-platform-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Platform API
   slug: callidus-legal-ai-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-platform-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-platform-api-openapi.yml
 - filename: callidus-legal-ai-proofread-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Proofread API
   slug: callidus-legal-ai-proofread-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-proofread-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-proofread-api-openapi.yml
 - filename: callidus-legal-ai-reliance-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Reliance API
   slug: callidus-legal-ai-reliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-reliance-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-reliance-api-openapi.yml
 - filename: callidus-legal-ai-serp-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Serp API
   slug: callidus-legal-ai-serp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-serp-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-serp-api-openapi.yml
 - filename: callidus-legal-ai-session-id-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Session Id API
   slug: callidus-legal-ai-session-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-session-id-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-session-id-api-openapi.yml
 - filename: callidus-legal-ai-smart-bot-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Smart Bot API
   slug: callidus-legal-ai-smart-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-smart-bot-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-smart-bot-api-openapi.yml
 - filename: callidus-legal-ai-stats-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Stats API
   slug: callidus-legal-ai-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-stats-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-stats-api-openapi.yml
 - filename: callidus-legal-ai-suggestion-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Suggestion API
   slug: callidus-legal-ai-suggestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-suggestion-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-suggestion-api-openapi.yml
 - filename: callidus-legal-ai-suggestions-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Suggestions API
   slug: callidus-legal-ai-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-suggestions-api-openapi.yml
 - filename: callidus-legal-ai-summarize-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Summarize API
   slug: callidus-legal-ai-summarize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-summarize-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-summarize-api-openapi.yml
 - filename: callidus-legal-ai-summarize-full-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Summarize Full API
   slug: callidus-legal-ai-summarize-full-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-summarize-full-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-summarize-full-api-openapi.yml
 - filename: callidus-legal-ai-summarize-full-details-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Summarize Full Details API
   slug: callidus-legal-ai-summarize-full-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-summarize-full-details-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-summarize-full-details-api-openapi.yml
 - filename: callidus-legal-ai-tasktracker-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Tasktracker API
   slug: callidus-legal-ai-tasktracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-tasktracker-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-tasktracker-api-openapi.yml
 - filename: callidus-legal-ai-validate-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Validate API
   slug: callidus-legal-ai-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-validate-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-validate-api-openapi.yml
 - filename: callidus-legal-ai-version-api-openapi.yml
   format: yaml
   label: Callidus Legal AI Version API
   slug: callidus-legal-ai-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/openapi/callidus-legal-ai-version-api-openapi.yml
+  url: https://artifacts.apis.io/callidus-legal-ai/openapi/callidus-legal-ai-version-api-openapi.yml
 consequence_counts:
   physical: 23
   read: 367
@@ -504,8 +504,8 @@ source_yaml: "generated: '2026-10-06'\nmethod: generated\nsource: openapi/callid
   \ add_ad_legal_research_v3__research_id__coa__coa_id__affirmative_defense_add_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /legal_research/v3/{research_id}/coa/{coa_id}/affirmative_defense/{ad_id}\n  method: delete\n  operationId: delete_ad_legal_research_v3__research_id__coa__coa_id__affirmative_defense__ad_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /legal_research/v3/{research_id}/coa/{coa_id}/ad/{ad_id}/legal_authority\n  method: get\n  operationId: get_ad_authority_state_legal_research_v3__research_id__coa__coa_id__ad__ad_id__legal_authority_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /legal_research/v3/{research_id}/coa/{coa_id}/ad/{ad_id}/legal_authority\n  method: put\n  operationId: commit_ad_authority_selection_legal_research_v3__research_id__coa__coa_id__ad__ad_id__legal_authority_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /legal_research/v3/{research_id}/coa/{coa_id}/ad/{ad_id}/legal_authority/generate\n  method: post\n  operationId: generate_ad_authority_suggestion_legal_research_v3__research_id__coa__coa_id__ad__ad_id__legal_authority_generate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /legal_research/v3/{research_id}/coa/{coa_id}/ad/{ad_id}/legal_authority/add\n  method: post\n  operationId: add_ad_authority_legal_research_v3__research_id__coa__coa_id__ad__ad_id__legal_authority_add_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /legal_research/v3/{research_id}/coa/{coa_id}/ad/{ad_id}/legal_authority/{authority_id}\n  method: delete\n  operationId: delete_ad_authority_legal_research_v3__research_id__coa__coa_id__ad__ad_id__legal_authority__authority_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
-  \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (307 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/agentic-access/callidus-legal-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/callidus-legal-ai/refs/heads/main/agentic-access/callidus-legal-ai-agentic-access.yml
+  \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (307 KB total) ---\n# Full source: https://artifacts.apis.io/callidus-legal-ai/agentic-access/callidus-legal-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/callidus-legal-ai/agentic-access/callidus-legal-ai-agentic-access.yml
 summary_line: 869 operations · 502 acting · 21 human-in-the-loop
 tags:
 - Legal Tech

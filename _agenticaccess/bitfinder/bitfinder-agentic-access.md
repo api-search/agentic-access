@@ -8,19 +8,19 @@ api_specs:
   label: Bitfinder Air Data API
   slug: bitfinder-air-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-air-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-air-data-api-openapi.yml
 - filename: bitfinder-devices-api-openapi.yml
   format: yaml
   label: Bitfinder Devices API
   slug: bitfinder-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-devices-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-devices-api-openapi.yml
 - filename: bitfinder-user-api-openapi.yml
   format: yaml
   label: Bitfinder User API
   slug: bitfinder-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/openapi/bitfinder-user-api-openapi.yml
+  url: https://artifacts.apis.io/bitfinder/openapi/bitfinder-user-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bitfinder-awair-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /users/self\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/self/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/self/devices/{device_type}/{device_id}/air-data/latest\n\
   \  method: get\n  operationId: getLatestAirData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/self/devices/{device_type}/{device_id}/air-data/raw\n  method: get\n  operationId: getRawAirData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/self/devices/{device_type}/{device_id}/air-data/5-min-avg\n  method: get\n  operationId: get5MinAvgAirData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/self/devices/{device_type}/{device_id}/air-data/15-min-avg\n  method: get\n  operationId: get15MinAvgAirData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/agentic-access/bitfinder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitfinder/agentic-access/bitfinder-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Company

@@ -9,79 +9,79 @@ api_specs:
   label: Krea Assets API
   slug: krea-ai-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-assets-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-assets-api-openapi.yml
 - filename: krea-ai-general-api-openapi.yml
   format: yaml
   label: Krea General API
   slug: krea-ai-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-general-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-general-api-openapi.yml
 - filename: krea-ai-image-api-openapi.yml
   format: yaml
   label: Krea Image API
   slug: krea-ai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-image-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-image-api-openapi.yml
 - filename: krea-ai-image-enhance-api-openapi.yml
   format: yaml
   label: Krea Image Enhance API
   slug: krea-ai-image-enhance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-image-enhance-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-image-enhance-api-openapi.yml
 - filename: krea-ai-node-apps-api-openapi.yml
   format: yaml
   label: Krea Node Apps API
   slug: krea-ai-node-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-node-apps-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-node-apps-api-openapi.yml
 - filename: krea-ai-styles-api-openapi.yml
   format: yaml
   label: Krea Styles API
   slug: krea-ai-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-styles-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-styles-api-openapi.yml
 - filename: krea-ai-video-api-openapi.yml
   format: yaml
   label: Krea Video API
   slug: krea-ai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-video-api-openapi.yml
 - filename: krea-ai-audio-api-openapi.yml
   format: yaml
   label: Krea Audio API
   slug: krea-ai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-audio-api-openapi.yml
 - filename: krea-ai-krea-api-openapi.yml
   format: yaml
   label: Krea Krea API
   slug: krea-ai-krea-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-krea-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-krea-api-openapi.yml
 - filename: krea-ai-usage-api-openapi.yml
   format: yaml
   label: Krea Usage API
   slug: krea-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-usage-api-openapi.yml
 - filename: krea-ai-utilities-api-openapi.yml
   format: yaml
   label: Krea Utilities API
   slug: krea-ai-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-utilities-api-openapi.yml
 - filename: krea-ai-video-enhance-api-openapi.yml
   format: yaml
   label: Krea Video Enhance API
   slug: krea-ai-video-enhance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-video-enhance-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-video-enhance-api-openapi.yml
 - filename: krea-ai-3-d-api-openapi.yml
   format: yaml
   label: Krea 3 D API
   slug: krea-ai-3-d-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/openapi/krea-ai-3-d-api-openapi.yml
+  url: https://artifacts.apis.io/krea-ai/openapi/krea-ai-3-d-api-openapi.yml
 consequence_counts:
   read: 8
   write: 64
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/krea-a
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generate/video/runway/gen-3\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generate/video/runway/gen-4-video\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generate/video/runway/gen-4.5\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generate/video/xai/grok-video\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generate/image/bytedance/seededit\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generate/video/runway/aleph\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krea-ai/refs/heads/main/agentic-access/krea-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/krea-ai/agentic-access/krea-ai-agentic-access.yml
 summary_line: 72 operations · 64 acting
 tags:
 - Artificial Intelligence

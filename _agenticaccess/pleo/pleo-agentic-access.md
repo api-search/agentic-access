@@ -9,127 +9,127 @@ api_specs:
   label: Pleo Accounting Entries API
   slug: pleo-accounting-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounting-entries-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accounting-entries-api-openapi.yml
 - filename: pleo-accounting-entries-external-api-openapi.yml
   format: yaml
   label: Pleo Accounting Entries External API
   slug: pleo-accounting-entries-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounting-entries-external-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accounting-entries-external-api-openapi.yml
 - filename: pleo-accountingentryenrichmentv2-api-openapi.yml
   format: yaml
   label: Pleo AccountingEntryEnrichmentV2 API
   slug: pleo-accountingentryenrichmentv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accountingentryenrichmentv2-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accountingentryenrichmentv2-api-openapi.yml
 - filename: pleo-accounts-api-openapi.yml
   format: yaml
   label: Pleo Accounts API
   slug: pleo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-accounts-api-openapi.yml
 - filename: pleo-companies-api-openapi.yml
   format: yaml
   label: Pleo Companies API
   slug: pleo-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-companies-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-companies-api-openapi.yml
 - filename: pleo-employees-api-openapi.yml
   format: yaml
   label: Pleo Employees API
   slug: pleo-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-employees-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-employees-api-openapi.yml
 - filename: pleo-export-api-v0-api-openapi.yml
   format: yaml
   label: Pleo Export API (v0) API
   slug: pleo-export-api-v0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v0-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v0-api-openapi.yml
 - filename: pleo-export-api-v1-api-openapi.yml
   format: yaml
   label: Pleo Export API (v1) API
   slug: pleo-export-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v1-api-openapi.yml
 - filename: pleo-export-api-v2-api-openapi.yml
   format: yaml
   label: Pleo Export API (v2) API
   slug: pleo-export-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v2-api-openapi.yml
 - filename: pleo-export-api-v3-api-openapi.yml
   format: yaml
   label: Pleo Export API (v3) API
   slug: pleo-export-api-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-api-v3-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-api-v3-api-openapi.yml
 - filename: pleo-export-items-v0-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v0) API
   slug: pleo-export-items-v0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v0-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v0-api-openapi.yml
 - filename: pleo-export-items-v1-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v1) API
   slug: pleo-export-items-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v1-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v1-api-openapi.yml
 - filename: pleo-export-items-v2-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v2) API
   slug: pleo-export-items-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v2-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v2-api-openapi.yml
 - filename: pleo-export-items-v3-api-openapi.yml
   format: yaml
   label: Pleo Export Items (v3) API
   slug: pleo-export-items-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-export-items-v3-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-export-items-v3-api-openapi.yml
 - filename: pleo-external-clients-api-openapi.yml
   format: yaml
   label: Pleo External Clients API
   slug: pleo-external-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-external-clients-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-external-clients-api-openapi.yml
 - filename: pleo-external-vendors-api-openapi.yml
   format: yaml
   label: Pleo External Vendors API
   slug: pleo-external-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-external-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-external-vendors-api-openapi.yml
 - filename: pleo-installations-api-openapi.yml
   format: yaml
   label: Pleo Installations API
   slug: pleo-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-installations-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-installations-api-openapi.yml
 - filename: pleo-subscriptions-api-openapi.yml
   format: yaml
   label: Pleo Subscriptions API
   slug: pleo-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-subscriptions-api-openapi.yml
 - filename: pleo-tag-groups-api-openapi.yml
   format: yaml
   label: Pleo Tag Groups API
   slug: pleo-tag-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tag-groups-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-tag-groups-api-openapi.yml
 - filename: pleo-tags-api-openapi.yml
   format: yaml
   label: Pleo Tags API
   slug: pleo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-tags-api-openapi.yml
 - filename: pleo-tax-codes-api-openapi.yml
   format: yaml
   label: Pleo Tax Codes API
   slug: pleo-tax-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/openapi/pleo-tax-codes-api-openapi.yml
+  url: https://artifacts.apis.io/pleo/openapi/pleo-tax-codes-api-openapi.yml
 consequence_counts:
   read: 61
   write: 56
@@ -188,8 +188,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pleo-a
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tag-groups/{groupId}/tags\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags\n  method: get\n  operationId: searchTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tags\n  method: delete\n  operationId: bulkDeleteTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v0/tags/archive\n  method: post\n  operationId: bulkArchiveTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tags/{tagId}\n  method: put\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}/dimensions\n  method: get\n  operationId: getTagDimensionValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tags/{tagId}/dimensions/{dimensionId}\n  method: get\n  operationId: getDimensionValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tags/{tagId}/dimensions/{dimensionId}\n  method: put\n  operationId: updateDimensionValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}/dimensions/{dimensionId}\n  method: post\n  operationId: createDimensionValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}/dimensions/{dimensionId}\n  method: delete\n  operationId: deleteDimensionValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/agentic-access/pleo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pleo/refs/heads/main/agentic-access/pleo-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}/dimensions/{dimensionId}\n  method: post\n  operationId: createDimensionValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tags/{tagId}/dimensions/{dimensionId}\n  method: delete\n  operationId: deleteDimensionValue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/pleo/agentic-access/pleo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/pleo/agentic-access/pleo-agentic-access.yml
 summary_line: 117 operations · 56 acting
 tags:
 - Expense Management

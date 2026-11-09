@@ -9,37 +9,37 @@ api_specs:
   label: Oracle Container Engine for Kubernetes Add-ons API
   slug: oracle-container-engine-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-add-ons-api-openapi.yml
 - filename: oracle-container-engine-clusters-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Clusters API
   slug: oracle-container-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-clusters-api-openapi.yml
 - filename: oracle-container-engine-credentials-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Credentials API
   slug: oracle-container-engine-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-credentials-api-openapi.yml
 - filename: oracle-container-engine-node-pools-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Node Pools API
   slug: oracle-container-engine-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-node-pools-api-openapi.yml
 - filename: oracle-container-engine-virtual-node-pools-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Virtual Node Pools API
   slug: oracle-container-engine-virtual-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-virtual-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-virtual-node-pools-api-openapi.yml
 - filename: oracle-container-engine-work-requests-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Work Requests API
   slug: oracle-container-engine-work-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-work-requests-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-work-requests-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oracle
   \   audit: required\n- path: /clusters/{clusterId}/kubeconfig/content\n  method: post\n  operationId: createKubeconfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodePools\n  method: get\n  operationId: listNodePools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodePools\n  method: post\n  operationId: createNodePool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodePools/{nodePoolId}\n  method: get\n\
   \  operationId: getNodePool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nodePools/{nodePoolId}\n  method: delete\n  operationId: deleteNodePool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtualNodePools\n  method: get\n  operationId: listVirtualNodePools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/addons\n  method: get\n  operationId: listAddons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/addons\n\
   \  method: post\n  operationId: installAddon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workRequests\n  method: get\n  operationId: listWorkRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workRequests/{workRequestId}\n  method: get\n  operationId: getWorkRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/agentic-access/oracle-container-engine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-container-engine/agentic-access/oracle-container-engine-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Cloud

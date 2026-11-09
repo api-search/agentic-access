@@ -8,13 +8,13 @@ api_specs:
   label: Caris Life Sciences Information API
   slug: caris-life-sciences-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-information-api-openapi.yml
+  url: https://artifacts.apis.io/caris-life-sciences/openapi/caris-life-sciences-information-api-openapi.yml
 - filename: caris-life-sciences-portal-api-openapi.yml
   format: yaml
   label: Caris Life Sciences Portal API
   slug: caris-life-sciences-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/openapi/caris-life-sciences-portal-api-openapi.yml
+  url: https://artifacts.apis.io/caris-life-sciences/openapi/caris-life-sciences-portal-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/caris-life-sciences-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getPortalLanding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/\n  method: get\n  operationId: getOrderingInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/ehr-integrations/\n  method: get\n  operationId: getEhrIntegrationInformation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/agentic-access/caris-life-sciences-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/caris-life-sciences/agentic-access/caris-life-sciences-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Precision Oncology

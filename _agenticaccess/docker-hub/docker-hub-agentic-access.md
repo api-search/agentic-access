@@ -9,61 +9,61 @@ api_specs:
   label: Docker Hub Access Tokens API
   slug: docker-hub-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-access-tokens-api-openapi.yml
 - filename: docker-hub-audit-logs-api-openapi.yml
   format: yaml
   label: Docker Hub Audit Logs API
   slug: docker-hub-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-audit-logs-api-openapi.yml
 - filename: docker-hub-authentication-api-api-openapi.yml
   format: yaml
   label: Docker Hub Authentication API
   slug: docker-hub-authentication-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-authentication-api-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-authentication-api-api-openapi.yml
 - filename: docker-hub-groups-api-openapi.yml
   format: yaml
   label: Docker Hub Groups API
   slug: docker-hub-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-groups-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-groups-api-openapi.yml
 - filename: docker-hub-invites-api-openapi.yml
   format: yaml
   label: Docker Hub Invites API
   slug: docker-hub-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-invites-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-invites-api-openapi.yml
 - filename: docker-hub-org-access-tokens-api-openapi.yml
   format: yaml
   label: Docker Hub Org Access Tokens API
   slug: docker-hub-org-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-org-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-org-access-tokens-api-openapi.yml
 - filename: docker-hub-org-settings-api-openapi.yml
   format: yaml
   label: Docker Hub Org Settings API
   slug: docker-hub-org-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-org-settings-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-org-settings-api-openapi.yml
 - filename: docker-hub-orgs-api-openapi.yml
   format: yaml
   label: Docker Hub Orgs API
   slug: docker-hub-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-orgs-api-openapi.yml
 - filename: docker-hub-repositories-api-openapi.yml
   format: yaml
   label: Docker Hub Repositories API
   slug: docker-hub-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-repositories-api-openapi.yml
 - filename: docker-hub-scim-api-openapi.yml
   format: yaml
   label: Docker Hub SCIM API
   slug: docker-hub-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/openapi/docker-hub-scim-api-openapi.yml
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-scim-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docker
   \ abnormal\n      - high-value\n    audit: required\n- path: /v2/invites/{id}/resend\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/invites/bulk\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/scim/2.0/ServiceProviderConfig\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/ResourceTypes\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/ResourceTypes/{name}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/Schemas\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/Schemas/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/Users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/Users\n  method: post\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/scim/2.0/Users/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scim/2.0/Users/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docker-hub/refs/heads/main/agentic-access/docker-hub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docker-hub/agentic-access/docker-hub-agentic-access.yml
 summary_line: 54 operations · 27 acting
 tags:
 - Containers

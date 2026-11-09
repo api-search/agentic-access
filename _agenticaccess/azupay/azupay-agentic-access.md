@@ -9,61 +9,61 @@ api_specs:
   label: Azupay API Keys API
   slug: azupay-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-api-keys-api-openapi.yml
 - filename: azupay-billing-and-transaction-reports-api-openapi.yml
   format: yaml
   label: Azupay Billing and Transaction Reports API
   slug: azupay-billing-and-transaction-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-billing-and-transaction-reports-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-billing-and-transaction-reports-api-openapi.yml
 - filename: azupay-check-accounts-api-openapi.yml
   format: yaml
   label: Azupay Check Accounts API
   slug: azupay-check-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-check-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-check-accounts-api-openapi.yml
 - filename: azupay-clients-api-openapi.yml
   format: yaml
   label: Azupay Clients API
   slug: azupay-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-clients-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-clients-api-openapi.yml
 - filename: azupay-current-balances-api-openapi.yml
   format: yaml
   label: Azupay Current Balances API
   slug: azupay-current-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-current-balances-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-current-balances-api-openapi.yml
 - filename: azupay-payment-agreement-api-openapi.yml
   format: yaml
   label: Azupay Payment Agreement API
   slug: azupay-payment-agreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-agreement-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-payment-agreement-api-openapi.yml
 - filename: azupay-payment-agreement-request-api-openapi.yml
   format: yaml
   label: Azupay Payment Agreement Request API
   slug: azupay-payment-agreement-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-agreement-request-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-payment-agreement-request-api-openapi.yml
 - filename: azupay-payment-api-openapi.yml
   format: yaml
   label: Azupay Payment API
   slug: azupay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-payment-api-openapi.yml
 - filename: azupay-payment-initiation-api-openapi.yml
   format: yaml
   label: Azupay Payment Initiation API
   slug: azupay-payment-initiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-initiation-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-payment-initiation-api-openapi.yml
 - filename: azupay-payment-request-api-openapi.yml
   format: yaml
   label: Azupay Payment Request API
   slug: azupay-payment-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/openapi/azupay-payment-request-api-openapi.yml
+  url: https://artifacts.apis.io/azupay/openapi/azupay-payment-request-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 16
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/azupay
   \     purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paymentInitiation/search\n  method: post\n  operationId: searchPaymentInitiation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paymentRequest\n  method: post\n  operationId: createPayIdPaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paymentRequest\n  method: delete\n  operationId: deletePaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paymentRequest\n  method: get\n  operationId: getPaymentRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /paymentRequest/refund\n  method: post\n  operationId: refundPaymentRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /paymentRequest/search\n  method: post\n  operationId: searchPaymentRequest\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azupay/refs/heads/main/agentic-access/azupay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azupay/agentic-access/azupay-agentic-access.yml
 summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Payments

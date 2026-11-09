@@ -8,25 +8,25 @@ api_specs:
   label: Breaking Bad Characters API
   slug: breaking-bad-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-characters-api-openapi.yml
+  url: https://artifacts.apis.io/breaking-bad/openapi/breaking-bad-characters-api-openapi.yml
 - filename: breaking-bad-deaths-api-openapi.yml
   format: yaml
   label: Breaking Bad Deaths API
   slug: breaking-bad-deaths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-deaths-api-openapi.yml
+  url: https://artifacts.apis.io/breaking-bad/openapi/breaking-bad-deaths-api-openapi.yml
 - filename: breaking-bad-episodes-api-openapi.yml
   format: yaml
   label: Breaking Bad Episodes API
   slug: breaking-bad-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/breaking-bad/openapi/breaking-bad-episodes-api-openapi.yml
 - filename: breaking-bad-quotes-api-openapi.yml
   format: yaml
   label: Breaking Bad Quotes API
   slug: breaking-bad-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/openapi/breaking-bad-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/breaking-bad/openapi/breaking-bad-quotes-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/breaking-bad-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /characters\n  method: get\n  operationId: listCharacters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /characters/{id}\n  method: get\n  operationId: getCharacterById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /character/random\n  method: get\n  operationId: getRandomCharacter\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes\n  method: get\n  operationId: listQuotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes/{id}\n  method: get\n  operationId: getQuoteById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quote/random\n  method: get\n  operationId: getRandomQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes\n  method: get\n  operationId: listEpisodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes/{id}\n\
   \  method: get\n  operationId: getEpisodeById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deaths\n  method: get\n  operationId: listDeaths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /death-count\n  method: get\n  operationId: getDeathCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /random-death\n  method: get\n  operationId: getRandomDeath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breaking-bad/refs/heads/main/agentic-access/breaking-bad-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/breaking-bad/agentic-access/breaking-bad-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Video

@@ -8,25 +8,25 @@ api_specs:
   label: Regulations.gov comment submission utilities API
   slug: regulations-gov-comment-submission-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-comment-submission-utilities-api-openapi.yml
 - filename: regulations-gov-comments-api-openapi.yml
   format: yaml
   label: Regulations.gov Comments API
   slug: regulations-gov-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-comments-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-comments-api-openapi.yml
 - filename: regulations-gov-dockets-api-openapi.yml
   format: yaml
   label: Regulations.gov Dockets API
   slug: regulations-gov-dockets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-dockets-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-dockets-api-openapi.yml
 - filename: regulations-gov-documents-api-openapi.yml
   format: yaml
   label: Regulations.gov Documents API
   slug: regulations-gov-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/openapi/regulations-gov-documents-api-openapi.yml
+  url: https://artifacts.apis.io/regulations-gov/openapi/regulations-gov-documents-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/regulations-gov-regulations-gov-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /documents\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{documentId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /comments/{commentId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dockets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dockets/{docketId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agency-categories\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/agentic-access/regulations-gov-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/regulations-gov/agentic-access/regulations-gov-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Government

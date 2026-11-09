@@ -9,79 +9,79 @@ api_specs:
   label: Kongregate Authenticate.json API
   slug: kongregate-authenticate-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-authenticate-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-authenticate-json-api-openapi.yml
 - filename: kongregate-characters-json-api-openapi.yml
   format: yaml
   label: Kongregate Characters.json API
   slug: kongregate-characters-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-characters-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-characters-json-api-openapi.yml
 - filename: kongregate-guilds-api-openapi.yml
   format: yaml
   label: Kongregate Guilds API
   slug: kongregate-guilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-guilds-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-guilds-api-openapi.yml
 - filename: kongregate-guilds-json-api-openapi.yml
   format: yaml
   label: Kongregate Guilds.json API
   slug: kongregate-guilds-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-guilds-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-guilds-json-api-openapi.yml
 - filename: kongregate-high-scores-api-openapi.yml
   format: yaml
   label: Kongregate High Scores API
   slug: kongregate-high-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-high-scores-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-high-scores-api-openapi.yml
 - filename: kongregate-items-json-api-openapi.yml
   format: yaml
   label: Kongregate Items.json API
   slug: kongregate-items-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-items-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-items-json-api-openapi.yml
 - filename: kongregate-kongpanions-api-openapi.yml
   format: yaml
   label: Kongregate Kongpanions API
   slug: kongregate-kongpanions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-kongpanions-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-kongpanions-api-openapi.yml
 - filename: kongregate-kongpanions-json-api-openapi.yml
   format: yaml
   label: Kongregate Kongpanions.json API
   slug: kongregate-kongpanions-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-kongpanions-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-kongpanions-json-api-openapi.yml
 - filename: kongregate-shared-links-api-openapi.yml
   format: yaml
   label: Kongregate Shared Links API
   slug: kongregate-shared-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-shared-links-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-shared-links-api-openapi.yml
 - filename: kongregate-submit-statistics-json-api-openapi.yml
   format: yaml
   label: Kongregate Submit Statistics.json API
   slug: kongregate-submit-statistics-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-submit-statistics-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-submit-statistics-json-api-openapi.yml
 - filename: kongregate-use-item-json-api-openapi.yml
   format: yaml
   label: Kongregate Use Item.json API
   slug: kongregate-use-item-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-use-item-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-use-item-json-api-openapi.yml
 - filename: kongregate-user-info-json-api-openapi.yml
   format: yaml
   label: Kongregate User Info.json API
   slug: kongregate-user-info-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-user-info-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-user-info-json-api-openapi.yml
 - filename: kongregate-user-items-json-api-openapi.yml
   format: yaml
   label: Kongregate User Items.json API
   slug: kongregate-user-items-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/openapi/kongregate-user-items-json-api-openapi.yml
+  url: https://artifacts.apis.io/kongregate/openapi/kongregate-user-items-json-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/kongre
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /high_scores/friends/{statistic_id}/:user_id.json\n  method: get\n  operationId: server-api-friends-high-scores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /use_item.json\n  method: post\n  operationId: server-api-use-item\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /items.json\n  method: get\n  operationId: server-api-item-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user_items.json\n  method: get\n  operationId: server-api-user-items\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kongpanions/index.json\n  method: get\n  operationId: server-api-kongpanions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kongpanions.json\n  method: get\n  operationId: server-api-user-kongpanions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shared_links/create.json\n  method: post\n  operationId: server-api-create-shared-link\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shared_links/{id}/destroy.json\n\
   \  method: post\n  operationId: server-api-destroy-shared-link\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submit_statistics.json\n  method: post\n  operationId: server-api-statistics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user_info.json\n  method: get\n  operationId: server-api-user-info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kongregate/refs/heads/main/agentic-access/kongregate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kongregate/agentic-access/kongregate-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Company

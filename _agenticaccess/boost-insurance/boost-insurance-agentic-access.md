@@ -8,25 +8,25 @@ api_specs:
   label: Boost Insurance Authentication API
   slug: boost-insurance-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-authentication-api-openapi.yml
 - filename: boost-insurance-claims-api-openapi.yml
   format: yaml
   label: Boost Insurance Claims API
   slug: boost-insurance-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-claims-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-claims-api-openapi.yml
 - filename: boost-insurance-policies-api-openapi.yml
   format: yaml
   label: Boost Insurance Policies API
   slug: boost-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-policies-api-openapi.yml
 - filename: boost-insurance-quotes-api-openapi.yml
   format: yaml
   label: Boost Insurance Quotes API
   slug: boost-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-quotes-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/boost-insurance-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /auth/oauth2/token\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policies\n  method: post\n  operationId: createPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /claims\n  method: post\n  operationId: createClaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/agentic-access/boost-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boost-insurance/agentic-access/boost-insurance-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Insurance

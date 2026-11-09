@@ -9,43 +9,43 @@ api_specs:
   label: Trusona Devices API
   slug: trusona-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-devices-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-devices-api-openapi.yml
 - filename: trusona-documents-api-openapi.yml
   format: yaml
   label: Trusona Documents API
   slug: trusona-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-documents-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-documents-api-openapi.yml
 - filename: trusona-encrypted-verifications-api-openapi.yml
   format: yaml
   label: Trusona Encrypted Verifications API
   slug: trusona-encrypted-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-encrypted-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-encrypted-verifications-api-openapi.yml
 - filename: trusona-id-verifications-api-openapi.yml
   format: yaml
   label: Trusona ID Verifications API
   slug: trusona-id-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-id-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-id-verifications-api-openapi.yml
 - filename: trusona-messages-api-openapi.yml
   format: yaml
   label: Trusona Messages API
   slug: trusona-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-messages-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-messages-api-openapi.yml
 - filename: trusona-risk-scores-api-openapi.yml
   format: yaml
   label: Trusona Risk Scores API
   slug: trusona-risk-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-risk-scores-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-risk-scores-api-openapi.yml
 - filename: trusona-verifications-api-openapi.yml
   format: yaml
   label: Trusona Verifications API
   slug: trusona-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/openapi/trusona-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/trusona/openapi/trusona-verifications-api-openapi.yml
 consequence_counts:
   read: 11
   write: 4
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: generated\nsource: openapi/truson
   \ 3600\n    audit: none\n- path: /api/v1/verifications/{verificationId}/messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/encrypted/verifications\n  method: post\n  operationId: createEncryptedVerification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/verifications/{verificationId}\n  method: get\n  operationId: getVerification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/verifications/{verificationId}/risk_scores\n  method: get\n  operationId: getRiskScores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/verifications/{verificationId}/messages/{verificationMessageId}\n  method: get\n  operationId: getMessage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/verifications/{verificationId}/document\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/verifications/{verificationId}/document/scanned_images\n  method: get\n  operationId: getScannedImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/verifications/{verificationId}/devices\n  method: get\n  operationId: getDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/encrypted/verifications/{verificationId}\n  method: get\n  operationId: getEncryptedVerification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/encrypted/verifications/{verificationId}/document\n  method: get\n  operationId: getEncryptedDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trusona/refs/heads/main/agentic-access/trusona-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trusona/agentic-access/trusona-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Company

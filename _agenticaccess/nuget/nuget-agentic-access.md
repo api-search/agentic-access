@@ -9,43 +9,43 @@ api_specs:
   label: NuGet Package Publish API
   slug: nuget-package-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-package-publish-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-package-publish-api-openapi.yml
 - filename: nuget-registration-api-openapi.yml
   format: yaml
   label: NuGet Registration API
   slug: nuget-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-registration-api-openapi.yml
 - filename: nuget-service-index-api-openapi.yml
   format: yaml
   label: NuGet Service Index API
   slug: nuget-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-service-index-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-service-index-api-openapi.yml
 - filename: nuget-autocomplete-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Autocomplete API
   slug: microsoft-nuget-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-autocomplete-api-openapi.yml
 - filename: nuget-flatcontainer-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Flatcontainer API
   slug: microsoft-nuget-flatcontainer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-flatcontainer-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-flatcontainer-api-openapi.yml
 - filename: nuget-query-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Query API
   slug: microsoft-nuget-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-query-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-query-api-openapi.yml
 - filename: nuget-registration5-gz-semver2-api-openapi.yml
   format: yaml
   label: Microsoft NuGet Registration5 Gz Semver2 API
   slug: microsoft-nuget-registration5-gz-semver2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/openapi/nuget-registration5-gz-semver2-api-openapi.yml
+  url: https://artifacts.apis.io/nuget/openapi/nuget-registration5-gz-semver2-api-openapi.yml
 consequence_counts:
   read: 13
   write: 3
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nuget-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lowerId}/index.json\n  method: get\n  operationId: getRegistrationIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lowerId}/page/{lower}/{upper}.json\n  method: get\n  operationId: getRegistrationPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lowerId}/{version}.json\n  method: get\n  operationId: getRegistrationLeaf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: get\n  operationId: searchPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /autocomplete\n  method: get\n  operationId: autocompletePackageIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autocomplete-versions\n  method: get\n  operationId: enumeratePackageVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /index.json\n  method: get\n  operationId: getServiceIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /package\n  method: put\n  operationId: pushPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /package/{id}/{version}\n  method: delete\n  operationId: deletePackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /package/{id}/{version}\n  method: post\n  operationId: relistPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuget/refs/heads/main/agentic-access/nuget-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nuget/agentic-access/nuget-agentic-access.yml
 summary_line: 16 operations · 3 acting
 tags:
 - Package Management

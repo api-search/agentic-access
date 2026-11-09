@@ -8,31 +8,31 @@ api_specs:
   label: IBISWorld Business Environment API
   slug: ibisworld-business-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-business-environment-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-business-environment-api-openapi.yml
 - filename: ibisworld-classification-api-openapi.yml
   format: yaml
   label: IBISWorld Classification API
   slug: ibisworld-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-classification-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-classification-api-openapi.yml
 - filename: ibisworld-company-api-openapi.yml
   format: yaml
   label: IBISWorld Company API
   slug: ibisworld-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-company-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-company-api-openapi.yml
 - filename: ibisworld-downloads-api-openapi.yml
   format: yaml
   label: IBISWorld Downloads API
   slug: ibisworld-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-downloads-api-openapi.yml
 - filename: ibisworld-industry-api-openapi.yml
   format: yaml
   label: IBISWorld Industry API
   slug: ibisworld-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/openapi/ibisworld-industry-api-openapi.yml
+  url: https://artifacts.apis.io/ibisworld/openapi/ibisworld-industry-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ibisworld-business-environment-api-openapi.yml, openapi/ibisworld-classification-api-openapi.yml,\n  openapi/ibisworld-company-api-openapi.yml, openapi/ibisworld-downloads-api-openapi.yml, openapi/ibisworld-industry-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /environment/v3/profilelist\n  method: post\n  operationId: listEnvironmentProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /classification/v3/systems\n  method: post\n\
   \  operationId: listClassificationSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/v3/lookup\n  method: post\n  operationId: lookupCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /downloads/v3/list\n  method: post\n  operationId: listDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industry/v3/reportlist\n  method: post\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industry/v3/sections\n  method: post\n  operationId: listSections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industry/v3/report\n  method: post\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibisworld/refs/heads/main/agentic-access/ibisworld-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibisworld/agentic-access/ibisworld-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Business Intelligence

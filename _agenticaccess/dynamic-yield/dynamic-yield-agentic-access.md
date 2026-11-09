@@ -9,31 +9,31 @@ api_specs:
   label: Dynamic Yield API only API
   slug: dynamic-yield-api-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-api-only-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-api-only-api-openapi.yml
 - filename: dynamic-yield-experience-apis-api-openapi.yml
   format: yaml
   label: Dynamic Yield Experience APIs API
   slug: dynamic-yield-experience-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-experience-apis-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-experience-apis-api-openapi.yml
 - filename: dynamic-yield-product-data-api-openapi.yml
   format: yaml
   label: Dynamic Yield Product Data API
   slug: dynamic-yield-product-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-product-data-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-product-data-api-openapi.yml
 - filename: dynamic-yield-profile-anywhere-api-openapi.yml
   format: yaml
   label: Dynamic Yield Profile Anywhere API
   slug: dynamic-yield-profile-anywhere-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-profile-anywhere-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-profile-anywhere-api-openapi.yml
 - filename: dynamic-yield-user-data-api-api-openapi.yml
   format: yaml
   label: Dynamic Yield User Data API
   slug: dynamic-yield-user-data-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/openapi/dynamic-yield-user-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/dynamic-yield/openapi/dynamic-yield-user-data-api-api-openapi.yml
 consequence_counts:
   read: 4
   write: 19
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/dynami
   \  method: post\n  operationId: externalEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /userdata/{feedKey}/bulk\n  method: post\n  operationId: userDataApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /userprofile\n  method: get\n  operationId: profileAnywhere\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collect/user/engagement (API only)\n  method: post\n  operationId: reporting-engagement-2\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collect/user/event (API only)\n  method: post\n  operationId: reporting-events-api-only\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collect/user/pageview (API only)\n  method: post\n  operationId: reporting-pageviews-api-only\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /serve/user/choose (API only)\n  method: post\n  operationId: choosing-variations-api-only\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynamic-yield/refs/heads/main/agentic-access/dynamic-yield-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dynamic-yield/agentic-access/dynamic-yield-agentic-access.yml
 summary_line: 23 operations · 19 acting
 tags:
 - Company

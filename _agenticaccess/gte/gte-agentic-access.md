@@ -9,37 +9,37 @@ api_specs:
   label: GTE Exchange API
   slug: gte-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-exchange-api-openapi.yml
 - filename: gte-health-api-openapi.yml
   format: yaml
   label: GTE Health API
   slug: gte-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-health-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-health-api-openapi.yml
 - filename: gte-info-api-openapi.yml
   format: yaml
   label: GTE Info API
   slug: gte-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-info-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-info-api-openapi.yml
 - filename: gte-markets-api-openapi.yml
   format: yaml
   label: GTE Markets API
   slug: gte-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-markets-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-markets-api-openapi.yml
 - filename: gte-tokens-api-openapi.yml
   format: yaml
   label: GTE Tokens API
   slug: gte-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-tokens-api-openapi.yml
 - filename: gte-users-api-openapi.yml
   format: yaml
   label: GTE Users API
   slug: gte-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-users-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/gte-op
   \ none\n- path: /markets/{market_address}\n  method: get\n  operationId: GetMarketByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{market_address}/candles\n  method: get\n  operationId: GetMarketCandles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{market_address}/trades\n  method: get\n  operationId: GetMarketTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /markets/{market_address}/book\n  method: get\n  operationId: GetMarketBook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_address}/lppositions\n  method: get\n\
   \  operationId: GetUserLpPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_address}/portfolio\n  method: get\n  operationId: GetUserPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_address}/trades\n  method: get\n  operationId: GetUserTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_address}/open_orders\n  method: get\n  operationId: GetOpenOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_address}/filled_orders\n  method: get\n  operationId: GetFilledOrders\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_address}/order_history\n  method: get\n  operationId: GetOrderHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange\n  method: post\n  operationId: Exchange\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/agentic-access/gte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gte/agentic-access/gte-agentic-access.yml
 summary_line: 18 operations · 1 acting
 tags:
 - Company

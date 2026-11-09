@@ -9,37 +9,37 @@ api_specs:
   label: Smoobu Apartments API
   slug: smoobu-apartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-apartments-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-apartments-api-openapi.yml
 - filename: smoobu-guests-api-openapi.yml
   format: yaml
   label: Smoobu Guests API
   slug: smoobu-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-guests-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-guests-api-openapi.yml
 - filename: smoobu-messaging-api-openapi.yml
   format: yaml
   label: Smoobu Messaging API
   slug: smoobu-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-messaging-api-openapi.yml
 - filename: smoobu-rates-and-availability-api-openapi.yml
   format: yaml
   label: Smoobu Rates and Availability API
   slug: smoobu-rates-and-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-rates-and-availability-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-rates-and-availability-api-openapi.yml
 - filename: smoobu-reservations-api-openapi.yml
   format: yaml
   label: Smoobu Reservations API
   slug: smoobu-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-reservations-api-openapi.yml
 - filename: smoobu-user-api-openapi.yml
   format: yaml
   label: Smoobu User API
   slug: smoobu-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/openapi/smoobu-user-api-openapi.yml
+  url: https://artifacts.apis.io/smoobu/openapi/smoobu-user-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smoobu
   \ checkApartmentAvailability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/guests\n  method: get\n  operationId: listGuests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/guests/{guestId}\n  method: get\n  operationId: getGuest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/reservations/{reservationId}/messages\n  method: get\n  operationId: listReservationMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/reservations/{reservationId}/messages/send-message-to-guest\n\
   \  method: post\n  operationId: sendMessageToGuest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/reservations/{reservationId}/messages/send-message-to-host\n  method: post\n  operationId: sendMessageToHost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/threads\n  method: get\n  operationId: listThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smoobu/refs/heads/main/agentic-access/smoobu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smoobu/agentic-access/smoobu-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Vacation Rentals

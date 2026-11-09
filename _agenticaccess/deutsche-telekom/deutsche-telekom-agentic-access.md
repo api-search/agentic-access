@@ -9,229 +9,229 @@ api_specs:
   label: Deutsche Telekom ApiChangelog API
   slug: deutsche-telekom-apichangelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-apichangelog-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-apichangelog-api-openapi.yml
 - filename: deutsche-telekom-apiexposure-api-openapi.yml
   format: yaml
   label: Deutsche Telekom ApiExposure API
   slug: deutsche-telekom-apiexposure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-apiexposure-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-apiexposure-api-openapi.yml
 - filename: deutsche-telekom-apiroadmap-api-openapi.yml
   format: yaml
   label: Deutsche Telekom ApiRoadmap API
   slug: deutsche-telekom-apiroadmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-apiroadmap-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-apiroadmap-api-openapi.yml
 - filename: deutsche-telekom-apisubscription-api-openapi.yml
   format: yaml
   label: Deutsche Telekom ApiSubscription API
   slug: deutsche-telekom-apisubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-apisubscription-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-apisubscription-api-openapi.yml
 - filename: deutsche-telekom-application-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Application API
   slug: deutsche-telekom-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-application-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-application-api-openapi.yml
 - filename: deutsche-telekom-attack-detection-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Attack Detection API
   slug: deutsche-telekom-attack-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-attack-detection-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-attack-detection-api-openapi.yml
 - filename: deutsche-telekom-authentication-management-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Authentication Management API
   slug: deutsche-telekom-authentication-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-authentication-management-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-authentication-management-api-openapi.yml
 - filename: deutsche-telekom-client-attribute-certificate-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Client Attribute Certificate API
   slug: deutsche-telekom-client-attribute-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-client-attribute-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-client-attribute-certificate-api-openapi.yml
 - filename: deutsche-telekom-client-initial-access-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Client Initial Access API
   slug: deutsche-telekom-client-initial-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-client-initial-access-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-client-initial-access-api-openapi.yml
 - filename: deutsche-telekom-client-registration-policy-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Client Registration Policy API
   slug: deutsche-telekom-client-registration-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-client-registration-policy-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-client-registration-policy-api-openapi.yml
 - filename: deutsche-telekom-client-role-mappings-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Client Role Mappings API
   slug: deutsche-telekom-client-role-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-client-role-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-client-role-mappings-api-openapi.yml
 - filename: deutsche-telekom-client-scopes-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Client Scopes API
   slug: deutsche-telekom-client-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-client-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-client-scopes-api-openapi.yml
 - filename: deutsche-telekom-clients-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Clients API
   slug: deutsche-telekom-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-clients-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-clients-api-openapi.yml
 - filename: deutsche-telekom-component-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Component API
   slug: deutsche-telekom-component-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-component-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-component-api-openapi.yml
 - filename: deutsche-telekom-deleting-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Deleting API
   slug: deutsche-telekom-deleting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-deleting-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-deleting-api-openapi.yml
 - filename: deutsche-telekom-downloading-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Downloading API
   slug: deutsche-telekom-downloading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-downloading-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-downloading-api-openapi.yml
 - filename: deutsche-telekom-eventexposure-api-openapi.yml
   format: yaml
   label: Deutsche Telekom EventExposure API
   slug: deutsche-telekom-eventexposure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-eventexposure-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-eventexposure-api-openapi.yml
 - filename: deutsche-telekom-eventspecification-api-openapi.yml
   format: yaml
   label: Deutsche Telekom EventSpecification API
   slug: deutsche-telekom-eventspecification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-eventspecification-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-eventspecification-api-openapi.yml
 - filename: deutsche-telekom-eventsubscription-api-openapi.yml
   format: yaml
   label: Deutsche Telekom EventSubscription API
   slug: deutsche-telekom-eventsubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-eventsubscription-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-eventsubscription-api-openapi.yml
 - filename: deutsche-telekom-groups-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Groups API
   slug: deutsche-telekom-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-groups-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-groups-api-openapi.yml
 - filename: deutsche-telekom-identity-providers-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Identity Providers API
   slug: deutsche-telekom-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-identity-providers-api-openapi.yml
 - filename: deutsche-telekom-key-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Key API
   slug: deutsche-telekom-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-key-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-key-api-openapi.yml
 - filename: deutsche-telekom-onboarding-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Onboarding API
   slug: deutsche-telekom-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-onboarding-api-openapi.yml
 - filename: deutsche-telekom-protocol-mappers-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Protocol Mappers API
   slug: deutsche-telekom-protocol-mappers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-protocol-mappers-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-protocol-mappers-api-openapi.yml
 - filename: deutsche-telekom-realms-admin-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Realms Admin API
   slug: deutsche-telekom-realms-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-realms-admin-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-realms-admin-api-openapi.yml
 - filename: deutsche-telekom-remotesubscription-api-openapi.yml
   format: yaml
   label: Deutsche Telekom RemoteSubscription API
   slug: deutsche-telekom-remotesubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-remotesubscription-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-remotesubscription-api-openapi.yml
 - filename: deutsche-telekom-role-mapper-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Role Mapper API
   slug: deutsche-telekom-role-mapper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-role-mapper-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-role-mapper-api-openapi.yml
 - filename: deutsche-telekom-roles-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Roles API
   slug: deutsche-telekom-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-roles-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-roles-api-openapi.yml
 - filename: deutsche-telekom-roles-by-id-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Roles (by ID) API
   slug: deutsche-telekom-roles-by-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-roles-by-id-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-roles-by-id-api-openapi.yml
 - filename: deutsche-telekom-root-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Root API
   slug: deutsche-telekom-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-root-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-root-api-openapi.yml
 - filename: deutsche-telekom-rover-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Rover API
   slug: deutsche-telekom-rover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-rover-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-rover-api-openapi.yml
 - filename: deutsche-telekom-scope-mappings-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Scope Mappings API
   slug: deutsche-telekom-scope-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-scope-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-scope-mappings-api-openapi.yml
 - filename: deutsche-telekom-secrets-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Secrets API
   slug: deutsche-telekom-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-secrets-api-openapi.yml
 - filename: deutsche-telekom-uploading-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Uploading API
   slug: deutsche-telekom-uploading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-uploading-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-uploading-api-openapi.yml
 - filename: deutsche-telekom-user-storage-provider-api-openapi.yml
   format: yaml
   label: Deutsche Telekom User Storage Provider API
   slug: deutsche-telekom-user-storage-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-user-storage-provider-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-user-storage-provider-api-openapi.yml
 - filename: deutsche-telekom-users-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Users API
   slug: deutsche-telekom-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-users-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-users-api-openapi.yml
 - filename: deutsche-telekom-api-specification-api-openapi.yml
   format: yaml
   label: Deutsche Telekom API Specification API
   slug: deutsche-telekom-api-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-api-specification-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-api-specification-api-openapi.yml
 - filename: deutsche-telekom-event-type-api-openapi.yml
   format: yaml
   label: Deutsche Telekom Event Type API
   slug: deutsche-telekom-event-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/openapi/deutsche-telekom-event-type-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-telekom/openapi/deutsche-telekom-event-type-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 179
@@ -345,8 +345,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contro
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /{realm}/authentication/per-client-config-description\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{realm}/authentication/register-required-action\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/authentication/required-actions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{realm}/authentication/required-actions/{alias}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /{realm}/authentication/required-actions/{alias}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/authentication/required-actions/{alias}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/authentication/required-actions/{alias}/lower-priority\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/authentication/required-actions/{alias}/raise-priority\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/authentication/unregistered-required-actions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{realm}/clear-keys-cache\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
-  \ high-value\n    audit: required\n- path: /{realm}/clear-realm-cache\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/clear-user-cache\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (112 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/agentic-access/deutsche-telekom-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/agentic-access/deutsche-telekom-agentic-access.yml
+  \ high-value\n    audit: required\n- path: /{realm}/clear-realm-cache\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{realm}/clear-user-cache\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (112 KB total) ---\n# Full source: https://artifacts.apis.io/deutsche-telekom/agentic-access/deutsche-telekom-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/deutsche-telekom/agentic-access/deutsche-telekom-agentic-access.yml
 summary_line: 366 operations · 187 acting · 6 human-in-the-loop
 tags:
 - Telecommunications

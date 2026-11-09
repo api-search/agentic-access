@@ -9,49 +9,49 @@ api_specs:
   label: ScyllaDB Account API
   slug: scylladb-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-account-api-openapi.yml
 - filename: scylladb-account-cluster-network-api-openapi.yml
   format: yaml
   label: ScyllaDB Account Cluster Network API
   slug: scylladb-account-cluster-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-cluster-network-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-account-cluster-network-api-openapi.yml
 - filename: scylladb-account-network-cluster-connection-api-openapi.yml
   format: yaml
   label: ScyllaDB Account network cluster connection API
   slug: scylladb-account-network-cluster-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-account-network-cluster-connection-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-account-network-cluster-connection-api-openapi.yml
 - filename: scylladb-cluster-api-openapi.yml
   format: yaml
   label: ScyllaDB Cluster API
   slug: scylladb-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-cluster-api-openapi.yml
 - filename: scylladb-cluster-request-api-openapi.yml
   format: yaml
   label: ScyllaDB Cluster Request API
   slug: scylladb-cluster-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-cluster-request-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-cluster-request-api-openapi.yml
 - filename: scylladb-deployment-api-openapi.yml
   format: yaml
   label: ScyllaDB Deployment API
   slug: scylladb-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-deployment-api-openapi.yml
 - filename: scylladb-pricing-api-openapi.yml
   format: yaml
   label: ScyllaDB Pricing API
   slug: scylladb-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-pricing-api-openapi.yml
 - filename: scylladb-vector-search-api-openapi.yml
   format: yaml
   label: ScyllaDB Vector Search API
   slug: scylladb-vector-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/openapi/scylladb-vector-search-api-openapi.yml
+  url: https://artifacts.apis.io/scylladb/openapi/scylladb-vector-search-api-openapi.yml
 consequence_counts:
   read: 21
   write: 20
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/scylla
   \ getCloudProviderRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployment/cloud-provider/{cloudProviderId}/region/{regionId}\n  method: get\n  operationId: getCloudProviderRegion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: post\n  operationId: searchPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountId}/cluster/{clusterId}/dc/{dcId}/vector-search\n  method: post\n  operationId: installVectorSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountId}/cluster/{clusterId}/dc/{dcId}/vector-search\n  method: delete\n  operationId: deleteVectorSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{accountId}/cluster/{clusterId}/dc/{dcId}/vector-search\n  method: get\n  operationId: getVectorSearchInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/{accountId}/cluster/{clusterId}/dc/{dcId}/vector-search\n  method: patch\n  operationId: resizeVectorSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scylladb/refs/heads/main/agentic-access/scylladb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scylladb/agentic-access/scylladb-agentic-access.yml
 summary_line: 41 operations · 20 acting
 tags:
 - Database

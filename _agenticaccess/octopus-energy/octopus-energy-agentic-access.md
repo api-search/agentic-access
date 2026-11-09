@@ -8,43 +8,43 @@ api_specs:
   label: Octopus Energy Consumption API
   slug: octopus-energy-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-consumption-api-openapi.yml
 - filename: octopus-energy-electricitymeterpoints-api-openapi.yml
   format: yaml
   label: Octopus Energy ElectricityMeterPoints API
   slug: octopus-energy-electricitymeterpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-electricitymeterpoints-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-electricitymeterpoints-api-openapi.yml
 - filename: octopus-energy-electricitytariffs-api-openapi.yml
   format: yaml
   label: Octopus Energy ElectricityTariffs API
   slug: octopus-energy-electricitytariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-electricitytariffs-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-electricitytariffs-api-openapi.yml
 - filename: octopus-energy-gasmeterpoints-api-openapi.yml
   format: yaml
   label: Octopus Energy GasMeterPoints API
   slug: octopus-energy-gasmeterpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-gasmeterpoints-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-gasmeterpoints-api-openapi.yml
 - filename: octopus-energy-gastariffs-api-openapi.yml
   format: yaml
   label: Octopus Energy GasTariffs API
   slug: octopus-energy-gastariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-gastariffs-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-gastariffs-api-openapi.yml
 - filename: octopus-energy-industry-api-openapi.yml
   format: yaml
   label: Octopus Energy Industry API
   slug: octopus-energy-industry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-industry-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-industry-api-openapi.yml
 - filename: octopus-energy-products-api-openapi.yml
   format: yaml
   label: Octopus Energy Products API
   slug: octopus-energy-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/openapi/octopus-energy-products-api-openapi.yml
+  url: https://artifacts.apis.io/octopus-energy/openapi/octopus-energy-products-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/octopu
   \  method: get\n  operationId: listElectricityStandardUnitRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_code}/electricity-tariffs/{tariff_code}/standing-charges/\n  method: get\n  operationId: listElectricityStandingCharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_code}/electricity-tariffs/{tariff_code}/day-unit-rates/\n  method: get\n  operationId: listElectricityDayUnitRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_code}/electricity-tariffs/{tariff_code}/night-unit-rates/\n  method: get\n  operationId: listElectricityNightUnitRates\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_code}/gas-tariffs/{tariff_code}/standard-unit-rates/\n  method: get\n  operationId: listGasStandardUnitRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{product_code}/gas-tariffs/{tariff_code}/standing-charges/\n  method: get\n  operationId: listGasStandingCharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /electricity-meter-points/{mpan}/\n  method: get\n  operationId: getElectricityMeterPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /electricity-meter-points/{mpan}/meters/{serial_number}/consumption/\n  method: get\n  operationId: listElectricityConsumption\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gas-meter-points/{mprn}/\n  method: get\n  operationId: getGasMeterPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gas-meter-points/{mprn}/meters/{serial_number}/consumption/\n  method: get\n  operationId: listGasConsumption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /industry/grid-supply-points/\n  method: get\n  operationId: listGridSupplyPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/agentic-access/octopus-energy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/octopus-energy/agentic-access/octopus-energy-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Energy

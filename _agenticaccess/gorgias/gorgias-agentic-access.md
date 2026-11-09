@@ -15,79 +15,79 @@ api_specs:
   label: Gorgias Account API
   slug: gorgias-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-account-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-account-api-openapi.yml
 - filename: gorgias-customers-api-openapi.yml
   format: yaml
   label: Gorgias Customers API
   slug: gorgias-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-customers-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-customers-api-openapi.yml
 - filename: gorgias-integrations-api-openapi.yml
   format: yaml
   label: Gorgias Integrations API
   slug: gorgias-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-integrations-api-openapi.yml
 - filename: gorgias-macros-api-openapi.yml
   format: yaml
   label: Gorgias Macros API
   slug: gorgias-macros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-macros-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-macros-api-openapi.yml
 - filename: gorgias-messages-api-openapi.yml
   format: yaml
   label: Gorgias Messages API
   slug: gorgias-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-messages-api-openapi.yml
 - filename: gorgias-rules-api-openapi.yml
   format: yaml
   label: Gorgias Rules API
   slug: gorgias-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-rules-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-rules-api-openapi.yml
 - filename: gorgias-surveys-api-openapi.yml
   format: yaml
   label: Gorgias Surveys API
   slug: gorgias-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-surveys-api-openapi.yml
 - filename: gorgias-tags-api-openapi.yml
   format: yaml
   label: Gorgias Tags API
   slug: gorgias-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-tags-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-tags-api-openapi.yml
 - filename: gorgias-teams-api-openapi.yml
   format: yaml
   label: Gorgias Teams API
   slug: gorgias-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-teams-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-teams-api-openapi.yml
 - filename: gorgias-tickets-api-openapi.yml
   format: yaml
   label: Gorgias Tickets API
   slug: gorgias-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-tickets-api-openapi.yml
 - filename: gorgias-users-api-openapi.yml
   format: yaml
   label: Gorgias Users API
   slug: gorgias-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-users-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-users-api-openapi.yml
 - filename: gorgias-views-api-openapi.yml
   format: yaml
   label: Gorgias Views API
   slug: gorgias-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-views-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-views-api-openapi.yml
 - filename: gorgias-widgets-api-openapi.yml
   format: yaml
   label: Gorgias Widgets API
   slug: gorgias-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/openapi/gorgias-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/gorgias/openapi/gorgias-widgets-api-openapi.yml
 consequence_counts:
   read: 23
   write: 26
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gorgia
   \ 3600\n    audit: none\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/satisfaction-surveys\n\
   \  method: get\n  operationId: listSatisfactionSurveys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/satisfaction-surveys\n  method: post\n  operationId: createSatisfactionSurvey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/widgets\n  method: get\n  operationId: listWidgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/widgets\n  method: post\n  operationId: createWidget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n- path: /api/widgets/{id}\n  method: get\n  operationId: getWidget\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - accounts.read\n    - customers.read\n    - customers.write\n    - openid\n    - tickets.read\n    - tickets.write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/agentic-access/gorgias-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gorgias/agentic-access/gorgias-agentic-access.yml
 summary_line: 49 operations · 26 acting
 tags:
 - Customer Service

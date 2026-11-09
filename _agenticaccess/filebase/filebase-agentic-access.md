@@ -9,67 +9,67 @@ api_specs:
   label: Filebase Buckets API
   slug: filebase-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-buckets-api-openapi.yml
 - filename: filebase-data-management-api-openapi.yml
   format: yaml
   label: Filebase Data Management API
   slug: filebase-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-data-management-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-data-management-api-openapi.yml
 - filename: filebase-ipns-api-openapi.yml
   format: yaml
   label: Filebase IPNS API
   slug: filebase-ipns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-ipns-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-ipns-api-openapi.yml
 - filename: filebase-keypairs-api-openapi.yml
   format: yaml
   label: Filebase Keypairs API
   slug: filebase-keypairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-keypairs-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-keypairs-api-openapi.yml
 - filename: filebase-mfs-api-openapi.yml
   format: yaml
   label: Filebase MFS API
   slug: filebase-mfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-mfs-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-mfs-api-openapi.yml
 - filename: filebase-multipart-upload-api-openapi.yml
   format: yaml
   label: Filebase Multipart Upload API
   slug: filebase-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-multipart-upload-api-openapi.yml
 - filename: filebase-node-api-openapi.yml
   format: yaml
   label: Filebase Node API
   slug: filebase-node-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-node-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-node-api-openapi.yml
 - filename: filebase-objects-api-openapi.yml
   format: yaml
   label: Filebase Objects API
   slug: filebase-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-objects-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-objects-api-openapi.yml
 - filename: filebase-pinning-api-openapi.yml
   format: yaml
   label: Filebase Pinning API
   slug: filebase-pinning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-pinning-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-pinning-api-openapi.yml
 - filename: filebase-pins-api-openapi.yml
   format: yaml
   label: Filebase Pins API
   slug: filebase-pins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-pins-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-pins-api-openapi.yml
 - filename: filebase-usage-api-openapi.yml
   format: yaml
   label: Filebase Usage API
   slug: filebase-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/openapi/filebase-usage-api-openapi.yml
+  url: https://artifacts.apis.io/filebase/openapi/filebase-usage-api-openapi.yml
 consequence_counts:
   read: 15
   write: 19
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fileba
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/pin/rm\n  method: post\n  operationId: pinRemove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/pin/ls\n  method: post\n  operationId: pinList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pins\n  method: get\n  operationId: listPins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /pins\n  method: post\n  operationId: addPin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pins/{requestId}\n  method: get\n  operationId: getPin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pins/{requestId}\n  method: post\n  operationId: replacePin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pins/{requestId}\n  method: delete\n  operationId: deletePin\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/usage/bandwidth\n  method: get\n  operationId: getBandwidthUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filebase/refs/heads/main/agentic-access/filebase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/filebase/agentic-access/filebase-agentic-access.yml
 summary_line: 34 operations · 19 acting
 tags:
 - Object Storage

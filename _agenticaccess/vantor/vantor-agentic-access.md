@@ -9,145 +9,145 @@ api_specs:
   label: Vantor Accounts API
   slug: vantor-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-accounts-api-openapi.yml
 - filename: vantor-api-keys-api-openapi.yml
   format: yaml
   label: Vantor API Keys API
   slug: vantor-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-api-keys-api-openapi.yml
 - filename: vantor-authentication-api-openapi.yml
   format: yaml
   label: Vantor Authentication API
   slug: vantor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-authentication-api-openapi.yml
 - filename: vantor-collections-api-openapi.yml
   format: yaml
   label: Vantor Collections API
   slug: vantor-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-collections-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-collections-api-openapi.yml
 - filename: vantor-credits-api-openapi.yml
   format: yaml
   label: Vantor Credits API
   slug: vantor-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-credits-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-credits-api-openapi.yml
 - filename: vantor-deliveries-api-openapi.yml
   format: yaml
   label: Vantor Deliveries API
   slug: vantor-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-deliveries-api-openapi.yml
 - filename: vantor-discovery-api-openapi.yml
   format: yaml
   label: Vantor Discovery API
   slug: vantor-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-discovery-api-openapi.yml
 - filename: vantor-estimates-api-openapi.yml
   format: yaml
   label: Vantor Estimates API
   slug: vantor-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-estimates-api-openapi.yml
 - filename: vantor-events-api-openapi.yml
   format: yaml
   label: Vantor Events API
   slug: vantor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-events-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-events-api-openapi.yml
 - filename: vantor-feasibility-api-openapi.yml
   format: yaml
   label: Vantor Feasibility API
   slug: vantor-feasibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-feasibility-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-feasibility-api-openapi.yml
 - filename: vantor-image-api-openapi.yml
   format: yaml
   label: Vantor Image API
   slug: vantor-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-image-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-image-api-openapi.yml
 - filename: vantor-introspection-api-openapi.yml
   format: yaml
   label: Vantor Introspection API
   slug: vantor-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-introspection-api-openapi.yml
 - filename: vantor-items-api-openapi.yml
   format: yaml
   label: Vantor Items API
   slug: vantor-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-items-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-items-api-openapi.yml
 - filename: vantor-monitors-api-openapi.yml
   format: yaml
   label: Vantor Monitors API
   slug: vantor-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-monitors-api-openapi.yml
 - filename: vantor-ordering-api-openapi.yml
   format: yaml
   label: Vantor Ordering API
   slug: vantor-ordering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-ordering-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-ordering-api-openapi.yml
 - filename: vantor-orders-api-openapi.yml
   format: yaml
   label: Vantor Orders API
   slug: vantor-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-orders-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-orders-api-openapi.yml
 - filename: vantor-search-api-openapi.yml
   format: yaml
   label: Vantor Search API
   slug: vantor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-search-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-search-api-openapi.yml
 - filename: vantor-subscriptions-api-openapi.yml
   format: yaml
   label: Vantor Subscriptions API
   slug: vantor-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-subscriptions-api-openapi.yml
 - filename: vantor-tasks-api-openapi.yml
   format: yaml
   label: Vantor Tasks API
   slug: vantor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-tasks-api-openapi.yml
 - filename: vantor-tokens-api-openapi.yml
   format: yaml
   label: Vantor Tokens API
   slug: vantor-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-tokens-api-openapi.yml
 - filename: vantor-users-api-openapi.yml
   format: yaml
   label: Vantor Users API
   slug: vantor-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-users-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-users-api-openapi.yml
 - filename: vantor-wfs-api-openapi.yml
   format: yaml
   label: Vantor WFS API
   slug: vantor-wfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-wfs-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-wfs-api-openapi.yml
 - filename: vantor-wms-api-openapi.yml
   format: yaml
   label: Vantor WMS API
   slug: vantor-wms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-wms-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-wms-api-openapi.yml
 - filename: vantor-wmts-api-openapi.yml
   format: yaml
   label: Vantor WMTS API
   slug: vantor-wmts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/openapi/vantor-wmts-api-openapi.yml
+  url: https://artifacts.apis.io/vantor/openapi/vantor-wmts-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 35
@@ -242,7 +242,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/maxar-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/v1/token/refresh\n  method: post\n  operationId: refreshToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/v1/token/revoke\n  method: post\n  operationId: revokeToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /accounts/{accountId}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/users\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/users/{userId}\n  method: delete\n  operationId: removeUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /wfsaccess\n  method: get\n  operationId: wfsAccess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wmsaccess\n  method: get\n  operationId: wmsAccess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wmtsaccess\n  method: get\n  operationId: wmtsAccess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vantor/refs/heads/main/agentic-access/vantor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vantor/agentic-access/vantor-agentic-access.yml
 summary_line: 59 operations · 24 acting · 2 human-in-the-loop
 tags:
 - Satellite Imagery

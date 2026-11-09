@@ -9,31 +9,31 @@ api_specs:
   label: ABC Trainerize Client Data API
   slug: trainerize-client-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-client-data-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-client-data-api-openapi.yml
 - filename: trainerize-clients-api-openapi.yml
   format: yaml
   label: ABC Trainerize Clients API
   slug: trainerize-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-clients-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-clients-api-openapi.yml
 - filename: trainerize-messaging-api-openapi.yml
   format: yaml
   label: ABC Trainerize Messaging API
   slug: trainerize-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-messaging-api-openapi.yml
 - filename: trainerize-training-api-openapi.yml
   format: yaml
   label: ABC Trainerize Training API
   slug: trainerize-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-training-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-training-api-openapi.yml
 - filename: trainerize-webhooks-api-openapi.yml
   format: yaml
   label: ABC Trainerize Webhooks API
   slug: trainerize-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/openapi/trainerize-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trainerize/openapi/trainerize-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/traine
   \    audit: required\n- path: /attachment/upload\n  method: post\n  operationId: uploadAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /program/copyMaster\n  method: post\n  operationId: copyMasterProgram\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /program/subscribe\n  method: post\n  operationId: subscribeProgram\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /program/unsubscribe\n  method: post\n  operationId: unsubscribeProgram\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /program/addTrainingPhase\n  method: post\n  operationId: addTrainingPhase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workout/getList\n  method: post\n  operationId: getWorkoutList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /webhook/register\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/list\n  method: post\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/delete\n  method: post\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trainerize/refs/heads/main/agentic-access/trainerize-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trainerize/agentic-access/trainerize-agentic-access.yml
 summary_line: 19 operations · 15 acting
 tags:
 - Fitness

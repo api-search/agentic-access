@@ -9,61 +9,61 @@ api_specs:
   label: Temenos Transact Accounts API
   slug: temenos-transact-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-accounts-api-openapi.yml
 - filename: temenos-transact-beneficiaries-api-openapi.yml
   format: yaml
   label: Temenos Transact Beneficiaries API
   slug: temenos-transact-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-beneficiaries-api-openapi.yml
 - filename: temenos-transact-cards-api-openapi.yml
   format: yaml
   label: Temenos Transact Cards API
   slug: temenos-transact-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-cards-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-cards-api-openapi.yml
 - filename: temenos-transact-customers-api-openapi.yml
   format: yaml
   label: Temenos Transact Customers API
   slug: temenos-transact-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-customers-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-customers-api-openapi.yml
 - filename: temenos-transact-deposits-api-openapi.yml
   format: yaml
   label: Temenos Transact Deposits API
   slug: temenos-transact-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-deposits-api-openapi.yml
 - filename: temenos-transact-loans-api-openapi.yml
   format: yaml
   label: Temenos Transact Loans API
   slug: temenos-transact-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-loans-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-loans-api-openapi.yml
 - filename: temenos-transact-payments-api-openapi.yml
   format: yaml
   label: Temenos Transact Payments API
   slug: temenos-transact-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-payments-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-payments-api-openapi.yml
 - filename: temenos-transact-products-api-openapi.yml
   format: yaml
   label: Temenos Transact Products API
   slug: temenos-transact-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-products-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-products-api-openapi.yml
 - filename: temenos-transact-reference-data-api-openapi.yml
   format: yaml
   label: Temenos Transact Reference Data API
   slug: temenos-transact-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-reference-data-api-openapi.yml
 - filename: temenos-transact-transactions-api-openapi.yml
   format: yaml
   label: Temenos Transact Transactions API
   slug: temenos-transact-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/openapi/temenos-transact-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/temenos-transact/openapi/temenos-transact-transactions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 22
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/temeno
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holdings/deposits/{depositId}\n  method: get\n  operationId: getDeposit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holdings/loans\n  method: get\n  operationId: getLoans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holdings/loans/{loanId}\n  method: get\n  operationId: getLoan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /party/beneficiaries\n  method: get\n  operationId: getBeneficiaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /party/beneficiaries\n  method:\
   \ post\n  operationId: createBeneficiary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product/products\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/countries\n  method: get\n  operationId: getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reference/ibanValidation/{iban}\n\
   \  method: get\n  operationId: validateIban\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holdings/cards\n  method: get\n  operationId: getCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /holdings/cards/{cardId}\n  method: get\n  operationId: getCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/temenos-transact/refs/heads/main/agentic-access/temenos-transact-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/temenos-transact/agentic-access/temenos-transact-agentic-access.yml
 summary_line: 30 operations · 8 acting
 tags:
 - Banking

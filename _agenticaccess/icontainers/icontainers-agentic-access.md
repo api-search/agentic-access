@@ -9,31 +9,31 @@ api_specs:
   label: iContainers Bookings API
   slug: icontainers-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-bookings-api-openapi.yml
 - filename: icontainers-documents-api-openapi.yml
   format: yaml
   label: iContainers Documents API
   slug: icontainers-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-documents-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-documents-api-openapi.yml
 - filename: icontainers-places-api-openapi.yml
   format: yaml
   label: iContainers Places API
   slug: icontainers-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-places-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-places-api-openapi.yml
 - filename: icontainers-quotes-api-openapi.yml
   format: yaml
   label: iContainers Quotes API
   slug: icontainers-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-quotes-api-openapi.yml
 - filename: icontainers-rates-api-openapi.yml
   format: yaml
   label: iContainers Rates API
   slug: icontainers-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/openapi/icontainers-rates-api-openapi.yml
+  url: https://artifacts.apis.io/icontainers/openapi/icontainers-rates-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/iconta
   \ post\n  operationId: AirQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/quotes/ltl\n  method: post\n  operationId: LtlQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/bookings/{bookingUuid}/details\n  method: get\n  operationId: GetBookingDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookings/{bookingUuid}/documents/{documentId}\n  method: get\n  operationId: GetBookingDocument\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/bookings/{bookingUuid}/trackAndTrace\n  method: get\n  operationId: GetBookingTrackAndTracer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/quotes/{uuid}\n  method: get\n  operationId: GetQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/rates/{rateUuid}/calculatePrices\n  method: post\n  operationId: RateCalculatePrices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /tenant/v1/documents/{documentId}\n  method: get\n  operationId: GetDocumentTenant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/documents/{documentId}\n  method: get\n  operationId: GetDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/locations/aerial/places\n  method: get\n  operationId: f7652b9cd80cf6ebb58789309b5420bd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/locations/maritime/places\n  method: get\n  operationId: 34de8aa5b349a2047b75f06e974d840c\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/icontainers/refs/heads/main/agentic-access/icontainers-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/icontainers/agentic-access/icontainers-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Kaleyra Messages API
   slug: kaleyra-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-messages-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-messages-api-openapi.yml
 - filename: kaleyra-verify-api-openapi.yml
   format: yaml
   label: Kaleyra Verify API
   slug: kaleyra-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-verify-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-verify-api-openapi.yml
 - filename: kaleyra-video-api-openapi.yml
   format: yaml
   label: Kaleyra Video API
   slug: kaleyra-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-video-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-video-api-openapi.yml
 - filename: kaleyra-voice-api-openapi.yml
   format: yaml
   label: Kaleyra Voice API
   slug: kaleyra-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/openapi/kaleyra-voice-api-openapi.yml
+  url: https://artifacts.apis.io/kaleyra/openapi/kaleyra-voice-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/kaleyr
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n      - outbound-communication\n    audit: required\n- path: /v2/{sid}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{sid}/messages/{message_id}\n  method: get\n  operationId: getMessageStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{sid}/verify\n  method: post\n  operationId: generateOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - outbound-communication\n    audit: required\n- path: /v1/{sid}/verify/validate\n  method:\
   \ get\n  operationId: validateOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{sid}/voice/click-to-call\n  method: post\n  operationId: clickToCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n      - outbound-communication\n    audit: required\n- path: /v2/rooms\n  method: post\n  operationId: createVideoRoom\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/agentic-access/kaleyra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kaleyra/agentic-access/kaleyra-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - CPaaS

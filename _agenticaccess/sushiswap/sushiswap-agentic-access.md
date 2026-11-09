@@ -9,43 +9,43 @@ api_specs:
   label: SushiSwap Deposit API
   slug: sushiswap-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-deposit-api-openapi.yml
 - filename: sushiswap-liquidity-providers-api-openapi.yml
   format: yaml
   label: SushiSwap Liquidity Providers API
   slug: sushiswap-liquidity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-liquidity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-liquidity-providers-api-openapi.yml
 - filename: sushiswap-pool-api-openapi.yml
   format: yaml
   label: SushiSwap Pool API
   slug: sushiswap-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-pool-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-pool-api-openapi.yml
 - filename: sushiswap-price-api-openapi.yml
   format: yaml
   label: SushiSwap Price API
   slug: sushiswap-price-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-price-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-price-api-openapi.yml
 - filename: sushiswap-quote-api-openapi.yml
   format: yaml
   label: SushiSwap Quote API
   slug: sushiswap-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-quote-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-quote-api-openapi.yml
 - filename: sushiswap-swap-api-openapi.yml
   format: yaml
   label: SushiSwap Swap API
   slug: sushiswap-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-swap-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-swap-api-openapi.yml
 - filename: sushiswap-token-api-openapi.yml
   format: yaml
   label: SushiSwap Token API
   slug: sushiswap-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/openapi/sushiswap-token-api-openapi.yml
+  url: https://artifacts.apis.io/sushiswap/openapi/sushiswap-token-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blade-
   \    audit: none\n- path: /rfq/sign\n  method: post\n  operationId: signQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rfq/v2/quote-sign/{chainId}\n  method: get\n  operationId: quoteAndSign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rfq/v2/deposit\n  method: post\n  operationId: depositAssets\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quote/v7/{chainId}\n\
   \  method: get\n  operationId: quote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /swap/v7/{chainId}\n  method: get\n  operationId: swap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/v1/{chainId}\n  method: get\n  operationId: prices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /price/v1/{chainId}/{tokenAddress}\n  method: get\n  operationId: price\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token/v1/{chainId}/{tokenAddress}\n  method: get\n  operationId: token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liquidity-providers/v7/{chainId}\n  method: get\n  operationId: getLiquidityProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sushiswap/refs/heads/main/agentic-access/sushiswap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sushiswap/agentic-access/sushiswap-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - DeFi

@@ -9,19 +9,19 @@ api_specs:
   label: Toggl Track Me API
   slug: toggl-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-me-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-me-api-openapi.yml
 - filename: toggl-reports-api-openapi.yml
   format: yaml
   label: Toggl Track Reports API
   slug: toggl-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-reports-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-reports-api-openapi.yml
 - filename: toggl-time-entries-api-openapi.yml
   format: yaml
   label: Toggl Track Time Entries API
   slug: toggl-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/openapi/toggl-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/toggl/openapi/toggl-time-entries-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toggl-
   \  method: get\n  operationId: getCurrentTimeEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v9/workspaces/{workspace_id}/time_entries\n  method: post\n  operationId: createTimeEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v9/workspaces/{workspace_id}/time_entries/{time_entry_id}\n  method: put\n  operationId: updateTimeEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v9/workspaces/{workspace_id}/time_entries/{time_entry_id}\n\
   \  method: delete\n  operationId: deleteTimeEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v9/workspaces/{workspace_id}/time_entries/{time_entry_id}/stop\n  method: patch\n  operationId: stopTimeEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /reports/api/v2/weekly\n  method: get\n  operationId: weeklyReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/api/v2/summary\n\
   \  method: get\n  operationId: summaryReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/api/v2/details\n  method: get\n  operationId: detailedReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toggl/refs/heads/main/agentic-access/toggl-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/toggl/agentic-access/toggl-agentic-access.yml
 summary_line: 10 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Time Tracking

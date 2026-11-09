@@ -9,25 +9,31 @@ api_specs:
   label: Amazon Serverless Application Repository Applications API
   slug: amazon-serverless-application-repository-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-applications-api-openapi.yml
 - filename: amazon-serverless-application-repository-changesets-api-openapi.yml
   format: yaml
   label: Amazon Serverless Application Repository Changesets API
   slug: amazon-serverless-application-repository-changesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-changesets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-changesets-api-openapi.yml
 - filename: amazon-serverless-application-repository-policies-api-openapi.yml
   format: yaml
   label: Amazon Serverless Application Repository Policies API
   slug: amazon-serverless-application-repository-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-policies-api-openapi.yml
 - filename: amazon-serverless-application-repository-versions-api-openapi.yml
   format: yaml
   label: Amazon Serverless Application Repository Versions API
   slug: amazon-serverless-application-repository-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/openapi/amazon-serverless-application-repository-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-versions-api-openapi.yml
+- filename: amazon-serverless-application-repository-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Serverless Application Repository Serverless Application Repository Operations API
+  slug: amazon-serverless-application-repository-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-serverless-application-repository/openapi/amazon-serverless-application-repository-operations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -57,10 +63,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}\n  method: get\n  operationId: GetApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{applicationId}\n  method: patch\n  operationId: UpdateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}\n  method: delete\n  operationId: DeleteApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}/versions\n  method: get\n  operationId: ListApplicationVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{applicationId}/versions\n  method: post\n  operationId: CreateApplicationVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}/changesets\n  method: post\n  operationId: CreateCloudFormationChangeSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}/policy\n  method: get\n  operationId: GetApplicationPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{applicationId}/policy\n  method: put\n  operationId: PutApplicationPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-serverless-application-repository/refs/heads/main/agentic-access/amazon-serverless-application-repository-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-serverless-application-repository/agentic-access/amazon-serverless-application-repository-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Application Repository
+- Amazon Web Services
 - Lambda
 - SAM
 - Serverless

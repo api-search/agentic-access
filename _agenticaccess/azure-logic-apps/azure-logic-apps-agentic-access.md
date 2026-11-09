@@ -9,139 +9,139 @@ api_specs:
   label: Azure Logic Apps IntegrationAccountAgreements API
   slug: azure-logic-apps-integrationaccountagreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountagreements-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountagreements-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountassemblies-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountAssemblies API
   slug: azure-logic-apps-integrationaccountassemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountassemblies-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountassemblies-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountbatchconfigurations-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountBatchConfigurations API
   slug: azure-logic-apps-integrationaccountbatchconfigurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountbatchconfigurations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountbatchconfigurations-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountcertificates-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountCertificates API
   slug: azure-logic-apps-integrationaccountcertificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountcertificates-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountcertificates-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountmaps-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountMaps API
   slug: azure-logic-apps-integrationaccountmaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountmaps-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountmaps-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountpartners-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountPartners API
   slug: azure-logic-apps-integrationaccountpartners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountpartners-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountpartners-api-openapi.yml
 - filename: azure-logic-apps-integrationaccounts-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccounts API
   slug: azure-logic-apps-integrationaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccounts-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountschemas-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountSchemas API
   slug: azure-logic-apps-integrationaccountschemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountschemas-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountschemas-api-openapi.yml
 - filename: azure-logic-apps-integrationaccountsessions-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationAccountSessions API
   slug: azure-logic-apps-integrationaccountsessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationaccountsessions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationaccountsessions-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentmanagedapi-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Integration Service Environment Managed API
   slug: azure-logic-apps-integrationserviceenvironmentmanagedapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentmanagedapi-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationserviceenvironmentmanagedapi-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentmanagedapis-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Integration Service Environment Managed APIs API
   slug: azure-logic-apps-integrationserviceenvironmentmanagedapis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentmanagedapis-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationserviceenvironmentmanagedapis-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentnetworkhealth-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Integration Service Environment Network Health API
   slug: azure-logic-apps-integrationserviceenvironmentnetworkhealth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentnetworkhealth-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationserviceenvironmentnetworkhealth-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentrestart-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Integration Service Environment Restart API
   slug: azure-logic-apps-integrationserviceenvironmentrestart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentrestart-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationserviceenvironmentrestart-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironments-api-openapi.yml
   format: yaml
   label: Azure Logic Apps IntegrationServiceEnvironments API
   slug: azure-logic-apps-integrationserviceenvironments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironments-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationserviceenvironments-api-openapi.yml
 - filename: azure-logic-apps-integrationserviceenvironmentskus-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Integration Service Environment Skus API
   slug: azure-logic-apps-integrationserviceenvironmentskus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-integrationserviceenvironmentskus-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-integrationserviceenvironmentskus-api-openapi.yml
 - filename: azure-logic-apps-operations-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Operations API
   slug: azure-logic-apps-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-operations-api-openapi.yml
 - filename: azure-logic-apps-workflowrunactions-api-openapi.yml
   format: yaml
   label: Azure Logic Apps WorkflowRunActions API
   slug: azure-logic-apps-workflowrunactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowrunactions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflowrunactions-api-openapi.yml
 - filename: azure-logic-apps-workflowrunoperations-api-openapi.yml
   format: yaml
   label: Azure Logic Apps WorkflowRunOperations API
   slug: azure-logic-apps-workflowrunoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowrunoperations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflowrunoperations-api-openapi.yml
 - filename: azure-logic-apps-workflows-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Workflows API
   slug: azure-logic-apps-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflows-api-openapi.yml
 - filename: azure-logic-apps-workflowtriggerhistories-api-openapi.yml
   format: yaml
   label: Azure Logic Apps WorkflowTriggerHistories API
   slug: azure-logic-apps-workflowtriggerhistories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflowtriggerhistories-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflowtriggerhistories-api-openapi.yml
 - filename: azure-logic-apps-workflow-runs-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Workflow Runs API
   slug: azure-logic-apps-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflow-runs-api-openapi.yml
 - filename: azure-logic-apps-workflow-triggers-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Workflow Triggers API
   slug: azure-logic-apps-workflow-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflow-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflow-triggers-api-openapi.yml
 - filename: azure-logic-apps-workflow-versions-api-openapi.yml
   format: yaml
   label: Azure Logic Apps Workflow Versions API
   slug: azure-logic-apps-workflow-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/openapi/azure-logic-apps-workflow-versions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-logic-apps/openapi/azure-logic-apps-workflow-versions-api-openapi.yml
 consequence_counts:
   read: 51
   safety-critical: 2
@@ -214,8 +214,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \  method: post\n  operationId: Workflows_Move\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/regenerateAccessKey\n  method: post\n  operationId: Workflows_RegenerateAccessKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs\n\
   \  method: get\n  operationId: WorkflowRuns_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}\n  method: get\n  operationId: WorkflowRuns_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions\n  method: get\n  operationId: WorkflowRunActions_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path:\
   \ /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}\n  method: get\n  operationId: WorkflowRunActions_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/listExpressionTraces\n  method: post\n  operationId: WorkflowRunActions_ListExpressionTraces\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Logic/workflows/{workflowName}/runs/{runName}/actions/{actionName}/repetitions\n\
-  \  method: get\n  operationId: WorkflowRunActionRepetitions_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/agentic-access/azure-logic-apps-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-logic-apps/refs/heads/main/agentic-access/azure-logic-apps-agentic-access.yml
+  \  method: get\n  operationId: WorkflowRunActionRepetitions_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/azure-logic-apps/agentic-access/azure-logic-apps-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/azure-logic-apps/agentic-access/azure-logic-apps-agentic-access.yml
 summary_line: 106 operations · 55 acting · 2 human-in-the-loop
 tags:
 - Microsoft Azure

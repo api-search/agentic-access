@@ -15,55 +15,55 @@ api_specs:
   label: Celigo Connections API
   slug: celigo-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-connections-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-connections-api-openapi.yml
 - filename: celigo-exports-api-openapi.yml
   format: yaml
   label: Celigo Exports API
   slug: celigo-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-exports-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-exports-api-openapi.yml
 - filename: celigo-flows-api-openapi.yml
   format: yaml
   label: Celigo Flows API
   slug: celigo-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-flows-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-flows-api-openapi.yml
 - filename: celigo-iclients-api-openapi.yml
   format: yaml
   label: Celigo iClients API
   slug: celigo-iclients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-iclients-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-iclients-api-openapi.yml
 - filename: celigo-imports-api-openapi.yml
   format: yaml
   label: Celigo Imports API
   slug: celigo-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-imports-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-imports-api-openapi.yml
 - filename: celigo-integrations-api-openapi.yml
   format: yaml
   label: Celigo Integrations API
   slug: celigo-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-integrations-api-openapi.yml
 - filename: celigo-jobs-api-openapi.yml
   format: yaml
   label: Celigo Jobs API
   slug: celigo-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-jobs-api-openapi.yml
 - filename: celigo-licenses-api-openapi.yml
   format: yaml
   label: Celigo Licenses API
   slug: celigo-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-licenses-api-openapi.yml
 - filename: celigo-state-api-openapi.yml
   format: yaml
   label: Celigo State API
   slug: celigo-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/openapi/celigo-state-api-openapi.yml
+  url: https://artifacts.apis.io/celigo/openapi/celigo-state-api-openapi.yml
 consequence_counts:
   read: 16
   write: 21
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/celigo
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{_id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /state\n  method: get\n  operationId: listState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /state\n  method: post\n  operationId: createState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /state/{_id}\n  method: get\n  operationId: getState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /state/{_id}\n  method: put\n  operationId: replaceState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /state/{_id}\n  method: delete\n  operationId: deleteState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /licenses\n  method: get\n  operationId: listLicenses\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/agentic-access/celigo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/celigo/agentic-access/celigo-agentic-access.yml
 summary_line: 37 operations · 21 acting
 tags:
 - API Management

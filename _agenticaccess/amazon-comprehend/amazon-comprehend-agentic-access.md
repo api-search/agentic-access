@@ -9,7 +9,13 @@ api_specs:
   label: Amazon Comprehend Amazon Comprehend API
   slug: amazon-comprehend-amazon-comprehend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/openapi/amazon-comprehend-amazon-comprehend-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-comprehend/openapi/amazon-comprehend-amazon-comprehend-api-openapi.yml
+- filename: amazon-comprehend-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Comprehend Comprehend Operations API
+  slug: amazon-comprehend-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-comprehend/openapi/amazon-comprehend-operations-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 9
@@ -117,10 +123,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ 3600\n    audit: none\n- path: /#X-Amz-Target=Comprehend_20171127.ListTopicsDetectionJobs\n  method: post\n  operationId: ListTopicsDetectionJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=Comprehend_20171127.PutResourcePolicy\n  method: post\n  operationId: PutResourcePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Comprehend_20171127.StartDocumentClassificationJob\n  method: post\n  operationId: StartDocumentClassificationJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Comprehend_20171127.StartDominantLanguageDetectionJob\n  method: post\n  operationId: StartDominantLanguageDetectionJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Comprehend_20171127.StartEntitiesDetectionJob\n  method: post\n  operationId: StartEntitiesDetectionJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Comprehend_20171127.StartEventsDetectionJob\n  method: post\n\
   \  operationId: StartEventsDetectionJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Comprehend_20171127.StartFlywheelIteration\n  method: post\n  operationId: StartFlywheelIteration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=Comprehend_20171127.StartKeyPhrasesDetectionJob\n  method: post\n  operationId: StartKeyPhrasesDetectionJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/agentic-access/amazon-comprehend-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-comprehend/refs/heads/main/agentic-access/amazon-comprehend-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-comprehend/agentic-access/amazon-comprehend-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-comprehend/agentic-access/amazon-comprehend-agentic-access.yml
 summary_line: 84 operations · 66 acting · 9 human-in-the-loop
 tags:
+- Amazon Web Services
 - Machine Learning
 - Natural Language Processing
 - Text Analysis

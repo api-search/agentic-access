@@ -9,49 +9,49 @@ api_specs:
   label: Spring Integration Adapters API
   slug: spring-integration-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-adapters-api-openapi.yml
 - filename: spring-integration-channels-api-openapi.yml
   format: yaml
   label: Spring Integration Channels API
   slug: spring-integration-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-channels-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-channels-api-openapi.yml
 - filename: spring-integration-control-api-openapi.yml
   format: yaml
   label: Spring Integration Control API
   slug: spring-integration-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-control-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-control-api-openapi.yml
 - filename: spring-integration-gateway-api-openapi.yml
   format: yaml
   label: Spring Integration Gateway API
   slug: spring-integration-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-gateway-api-openapi.yml
 - filename: spring-integration-graph-api-openapi.yml
   format: yaml
   label: Spring Integration Graph API
   slug: spring-integration-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-graph-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-graph-api-openapi.yml
 - filename: spring-integration-handlers-api-openapi.yml
   format: yaml
   label: Spring Integration Handlers API
   slug: spring-integration-handlers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-handlers-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-handlers-api-openapi.yml
 - filename: spring-integration-history-api-openapi.yml
   format: yaml
   label: Spring Integration History API
   slug: spring-integration-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-history-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-history-api-openapi.yml
 - filename: spring-integration-inbound-adapter-api-openapi.yml
   format: yaml
   label: Spring Integration Inbound Adapter API
   slug: spring-integration-inbound-adapter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/openapi/spring-integration-inbound-adapter-api-openapi.yml
+  url: https://artifacts.apis.io/spring-integration/openapi/spring-integration-inbound-adapter-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spring
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels\n  method: get\n  operationId: listChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{name}\n  method: get\n  operationId: getChannel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /handlers\n  method: get\n  operationId: listHandlers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /handlers/{name}\n  method: get\n  operationId: getHandler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inboundChannelAdapters\n  method: get\n  operationId: listInboundAdapters\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inboundChannelAdapters/{name}\n  method: get\n  operationId: getInboundAdapter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inboundChannelAdapters/{name}\n  method: post\n  operationId: controlInboundAdapter\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /graph\n  method: get\n  operationId: getIntegrationGraph\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /messageHistory\n  method: get\n  operationId: getMessageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /controlBus\n  method: post\n  operationId: sendControlBusCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spring-integration/refs/heads/main/agentic-access/spring-integration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spring-integration/agentic-access/spring-integration-agentic-access.yml
 summary_line: 14 operations · 5 acting · 2 human-in-the-loop
 tags:
 - AMQP

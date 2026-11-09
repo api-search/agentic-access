@@ -9,61 +9,61 @@ api_specs:
   label: PaidHandshake Exchange Capabilities API
   slug: paidhandshake-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-capabilities-api-openapi.yml
 - filename: paidhandshake-checkout-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Checkout API
   slug: paidhandshake-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-checkout-api-openapi.yml
 - filename: paidhandshake-inventory-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Inventory API
   slug: paidhandshake-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-inventory-api-openapi.yml
 - filename: paidhandshake-machine-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Machine API
   slug: paidhandshake-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-machine-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-machine-api-openapi.yml
 - filename: paidhandshake-proof-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Proof API
   slug: paidhandshake-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-proof-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-proof-api-openapi.yml
 - filename: paidhandshake-quote-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Quote API
   slug: paidhandshake-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-quote-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-quote-api-openapi.yml
 - filename: paidhandshake-sample-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Sample API
   slug: paidhandshake-sample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-sample-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-sample-api-openapi.yml
 - filename: paidhandshake-search-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange Search API
   slug: paidhandshake-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-search-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-search-api-openapi.yml
 - filename: paidhandshake-well-known-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange .well Known API
   slug: paidhandshake-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-well-known-api-openapi.yml
 - filename: paidhandshake-x402-api-openapi.yml
   format: yaml
   label: PaidHandshake Exchange X402 API
   slug: paidhandshake-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/openapi/paidhandshake-x402-api-openapi.yml
+  url: https://artifacts.apis.io/paidhandshake/openapi/paidhandshake-x402-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/paidha
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/machine/v1/jobs/{job_id}\n  method: get\n  operationId: getMachineJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/machine/v1/wallet\n  method: get\n  operationId: getMachineWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/machine/v1/watches\n  method: get\n  operationId: listMachineWatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/machine/v1/watches\n  method: post\n  operationId:\
   \ createMachineWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/machine/v1/watches/{watch_id}\n  method: get\n  operationId: getMachineWatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/machine/v1/watches/{watch_id}/enable\n  method: post\n  operationId: enableMachineWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/machine/v1/watches/{watch_id}/disable\n  method: post\n  operationId: disableMachineWatch\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paidhandshake/refs/heads/main/agentic-access/paidhandshake-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paidhandshake/agentic-access/paidhandshake-agentic-access.yml
 summary_line: 25 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company

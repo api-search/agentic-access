@@ -9,61 +9,61 @@ api_specs:
   label: ALVIERE Account Wallet API
   slug: alviere-account-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-account-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-account-wallet-api-openapi.yml
 - filename: alviere-accounts-api-openapi.yml
   format: yaml
   label: ALVIERE Accounts API
   slug: alviere-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-accounts-api-openapi.yml
 - filename: alviere-authentication-api-openapi.yml
   format: yaml
   label: ALVIERE Authentication API
   slug: alviere-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-authentication-api-openapi.yml
 - filename: alviere-bank-processing-api-openapi.yml
   format: yaml
   label: ALVIERE Bank Processing API
   slug: alviere-bank-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-bank-processing-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-bank-processing-api-openapi.yml
 - filename: alviere-card-issuance-api-openapi.yml
   format: yaml
   label: ALVIERE Card Issuance API
   slug: alviere-card-issuance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-card-issuance-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-card-issuance-api-openapi.yml
 - filename: alviere-card-processing-api-openapi.yml
   format: yaml
   label: ALVIERE Card Processing API
   slug: alviere-card-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-card-processing-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-card-processing-api-openapi.yml
 - filename: alviere-remittances-api-openapi.yml
   format: yaml
   label: ALVIERE Remittances API
   slug: alviere-remittances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-remittances-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-remittances-api-openapi.yml
 - filename: alviere-reporting-api-openapi.yml
   format: yaml
   label: ALVIERE Reporting API
   slug: alviere-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-reporting-api-openapi.yml
 - filename: alviere-tokenization-api-openapi.yml
   format: yaml
   label: ALVIERE Tokenization API
   slug: alviere-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-tokenization-api-openapi.yml
 - filename: alviere-treasury-management-api-openapi.yml
   format: yaml
   label: ALVIERE Treasury Management API
   slug: alviere-treasury-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/openapi/alviere-treasury-management-api-openapi.yml
+  url: https://artifacts.apis.io/alviere/openapi/alviere-treasury-management-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 22
@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/alvier
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/remittances/{account_uuid}/quote\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/remittances/{account_uuid}/transaction\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/payments/{uuid}\n \
   \ method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports/payments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/treasury/{account_uuid}/load\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/treasury/{account_uuid}/withdraw\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/treasury/transfer\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alviere/refs/heads/main/agentic-access/alviere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/alviere/agentic-access/alviere-agentic-access.yml
 summary_line: 75 operations · 53 acting
 tags:
 - Company

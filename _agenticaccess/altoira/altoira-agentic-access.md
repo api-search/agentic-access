@@ -9,31 +9,31 @@ api_specs:
   label: AltoIRA Handoffs API
   slug: altoira-handoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-handoffs-api-openapi.yml
+  url: https://artifacts.apis.io/altoira/openapi/altoira-handoffs-api-openapi.yml
 - filename: altoira-investment-api-openapi.yml
   format: yaml
   label: AltoIRA Investment API
   slug: altoira-investment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-investment-api-openapi.yml
+  url: https://artifacts.apis.io/altoira/openapi/altoira-investment-api-openapi.yml
 - filename: altoira-offering-api-openapi.yml
   format: yaml
   label: AltoIRA Offering API
   slug: altoira-offering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-offering-api-openapi.yml
+  url: https://artifacts.apis.io/altoira/openapi/altoira-offering-api-openapi.yml
 - filename: altoira-user-api-openapi.yml
   format: yaml
   label: AltoIRA User API
   slug: altoira-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-user-api-openapi.yml
+  url: https://artifacts.apis.io/altoira/openapi/altoira-user-api-openapi.yml
 - filename: altoira-oauth-api-openapi.yml
   format: yaml
   label: AltoIRA OAUTH API
   slug: altoira-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/openapi/altoira-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/altoira/openapi/altoira-oauth-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/altoir
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/offering/{external_id}/{alto_user_id}/investment\n  method: get\n  operationId: getInvestment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/platform/investment/{external_id}/{alto_user_id}/refund\n  method: post\n  operationId: investmentRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/investment/{external_id}/{alto_user_id}/cancel\n  method: post\n  operationId: investmentCancel\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/investment/{external_id}/{alto_user_id}/distribution\n  method: post\n  operationId: investmentDistribution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/platform/investment/{external_id}/{alto_user_id}/issue_new_capital_call\n  method: post\n  operationId: issueNewCapitalCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altoira/refs/heads/main/agentic-access/altoira-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/altoira/agentic-access/altoira-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Company

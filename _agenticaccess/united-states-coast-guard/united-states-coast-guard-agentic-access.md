@@ -8,25 +8,25 @@ api_specs:
   label: United States Coast Guard Equipment API
   slug: united-states-coast-guard-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-coast-guard/openapi/united-states-coast-guard-equipment-api-openapi.yml
 - filename: united-states-coast-guard-incident-reports-api-openapi.yml
   format: yaml
   label: United States Coast Guard Incident Reports API
   slug: united-states-coast-guard-incident-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-incident-reports-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-coast-guard/openapi/united-states-coast-guard-incident-reports-api-openapi.yml
 - filename: united-states-coast-guard-port-state-information-api-openapi.yml
   format: yaml
   label: United States Coast Guard Port State Information API
   slug: united-states-coast-guard-port-state-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-port-state-information-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-coast-guard/openapi/united-states-coast-guard-port-state-information-api-openapi.yml
 - filename: united-states-coast-guard-vessel-documentation-api-openapi.yml
   format: yaml
   label: United States Coast Guard Vessel Documentation API
   slug: united-states-coast-guard-vessel-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/openapi/united-states-coast-guard-vessel-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-coast-guard/openapi/united-states-coast-guard-vessel-documentation-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cgmix-maritime-information-exchange-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /VDS/SearchAndReturn/Search.aspx\n  method: get\n  operationId: searchVesselDocumentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml/PSIXData.asmx/getVesselSummaryXMLString\n  method: get\n  operationId: getVesselSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /xml/PSIXData.asmx/getVesselParticularsXMLString\n  method: get\n  operationId: getVesselParticulars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml/PSIXData.asmx/getVesselCasesXMLString\n  method: get\n  operationId: getVesselCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml/PSIXData.asmx/getVesselDeficienciesXMLString\n  method: get\n  operationId: getVesselDeficiencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml/PSIXData.asmx/getVesselDocumentsXMLString\n  method: get\n  operationId: getVesselDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /xml/EquipmentData.asmx/getEquipmentDetails\n  method: get\n  operationId: getEquipmentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xml/IIRData.asmx/getIIRReferralForEnforcementActionXMLString\n  method: get\n  operationId: getIncidentInvestigationReferral\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/agentic-access/united-states-coast-guard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-states-coast-guard/agentic-access/united-states-coast-guard-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Federal Government

@@ -9,43 +9,43 @@ api_specs:
   label: Rockwell Collins Airports API
   slug: rockwell-collins-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-airports-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-airports-api-openapi.yml
 - filename: rockwell-collins-alerts-api-openapi.yml
   format: yaml
   label: Rockwell Collins Alerts API
   slug: rockwell-collins-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-alerts-api-openapi.yml
 - filename: rockwell-collins-flights-api-openapi.yml
   format: yaml
   label: Rockwell Collins Flights API
   slug: rockwell-collins-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-flights-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-flights-api-openapi.yml
 - filename: rockwell-collins-foresight-api-openapi.yml
   format: yaml
   label: Rockwell Collins Foresight API
   slug: rockwell-collins-foresight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-foresight-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-foresight-api-openapi.yml
 - filename: rockwell-collins-history-api-openapi.yml
   format: yaml
   label: Rockwell Collins History API
   slug: rockwell-collins-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-history-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-history-api-openapi.yml
 - filename: rockwell-collins-miscellaneous-api-openapi.yml
   format: yaml
   label: Rockwell Collins Miscellaneous API
   slug: rockwell-collins-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-miscellaneous-api-openapi.yml
 - filename: rockwell-collins-operators-api-openapi.yml
   format: yaml
   label: Rockwell Collins Operators API
   slug: rockwell-collins-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/openapi/rockwell-collins-operators-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-collins/openapi/rockwell-collins-operators-api-openapi.yml
 consequence_counts:
   read: 52
   safety-critical: 1
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flight
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /history/flights/{ident}\n  method: get\n  operationId: get_history_flight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history/flights/{id}/track\n  method: get\n  operationId: get_history_flight_track\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history/flights/{id}/map\n  method: get\n  operationId: get_history_flight_map\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /history/flights/{id}/route\n  method: get\n  operationId: get_history_flight_route\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history/aircraft/{registration}/last_flight\n  method: get\n  operationId: get_history_aircraft_last_flight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aircraft/{ident}/blocked\n  method: get\n  operationId: get_aircraft_blocked\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aircraft/{ident}/owner\n  method: get\n  operationId: get_aircraft_owner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aircraft/types/{type}\n  method:\
   \ get\n  operationId: get_flight_type\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/{date_start}/{date_end}\n  method: get\n  operationId: get_schedules_by_date\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disruption_counts/{entity_type}\n  method: get\n  operationId: get_all_disruption_counts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /disruption_counts/{entity_type}/{id}\n  method: get\n  operationId: get_disruption_counts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-collins/refs/heads/main/agentic-access/rockwell-collins-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rockwell-collins/agentic-access/rockwell-collins-agentic-access.yml
 summary_line: 58 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Avionics

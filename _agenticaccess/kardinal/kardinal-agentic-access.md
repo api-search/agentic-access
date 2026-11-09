@@ -9,19 +9,19 @@ api_specs:
   label: Kardinal Plan API
   slug: kardinal-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-plan-api-openapi.yml
+  url: https://artifacts.apis.io/kardinal/openapi/kardinal-plan-api-openapi.yml
 - filename: kardinal-solution-api-openapi.yml
   format: yaml
   label: Kardinal Solution API
   slug: kardinal-solution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-solution-api-openapi.yml
+  url: https://artifacts.apis.io/kardinal/openapi/kardinal-solution-api-openapi.yml
 - filename: kardinal-webhook-api-openapi.yml
   format: yaml
   label: Kardinal Webhook API
   slug: kardinal-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/openapi/kardinal-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/kardinal/openapi/kardinal-webhook-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 14
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/kardin
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agencies/{agencyId}/plans/{planId}/orders/{orderId}\n  method: delete\n  operationId: deletePlanOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agencies/{agencyId}/plans/{planId}/solution\n  method: get\n  operationId: getPlanSolution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{agencyId}/plans/{planId}/solution/objectives\n  method: get\n  operationId:\
   \ getPlanSolutionObjectives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{agencyId}/plans/{planId}/state\n  method: get\n  operationId: fetchLastPlanState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{agencyId}/plans/{planId}/states\n  method: get\n  operationId: fetchLastNPlanStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{agencyId}/plans/{planId}/status\n  method: get\n  operationId: getPlanStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{agencyId}/plans/{planId}/mode\n  method: put\n  operationId: putPlanMode\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agencies/{agencyId}/plans/{planId}/manual/check\n  method: get\n  operationId: checkPlanManualMode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{agencyId}/simplePlans\n  method: post\n  operationId: postSimplePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kardinal/refs/heads/main/agentic-access/kardinal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kardinal/agentic-access/kardinal-agentic-access.yml
 summary_line: 40 operations · 26 acting · 4 human-in-the-loop
 tags:
 - Company

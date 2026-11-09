@@ -9,199 +9,199 @@ api_specs:
   label: Brickwork Admin Appointments API
   slug: brickwork-admin-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-appointments-api-openapi.yml
 - filename: brickwork-admin-company-users-api-openapi.yml
   format: yaml
   label: Brickwork Admin Company Users API
   slug: brickwork-admin-company-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-company-users-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-company-users-api-openapi.yml
 - filename: brickwork-admin-customer-appointments-api-openapi.yml
   format: yaml
   label: Brickwork Admin Customer Appointments API
   slug: brickwork-admin-customer-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-customer-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-customer-appointments-api-openapi.yml
 - filename: brickwork-admin-customer-rsvps-api-openapi.yml
   format: yaml
   label: Brickwork Admin Customer Rsvps API
   slug: brickwork-admin-customer-rsvps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-customer-rsvps-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-customer-rsvps-api-openapi.yml
 - filename: brickwork-admin-customers-api-openapi.yml
   format: yaml
   label: Brickwork Admin Customers API
   slug: brickwork-admin-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-customers-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-customers-api-openapi.yml
 - filename: brickwork-admin-event-rsvps-api-openapi.yml
   format: yaml
   label: Brickwork Admin Event Rsvps API
   slug: brickwork-admin-event-rsvps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-event-rsvps-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-event-rsvps-api-openapi.yml
 - filename: brickwork-admin-events-api-openapi.yml
   format: yaml
   label: Brickwork Admin Events API
   slug: brickwork-admin-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-events-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-events-api-openapi.yml
 - filename: brickwork-admin-features-api-openapi.yml
   format: yaml
   label: Brickwork Admin Features API
   slug: brickwork-admin-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-features-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-features-api-openapi.yml
 - filename: brickwork-admin-groups-api-openapi.yml
   format: yaml
   label: Brickwork Admin Groups API
   slug: brickwork-admin-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-groups-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-groups-api-openapi.yml
 - filename: brickwork-admin-languages-api-openapi.yml
   format: yaml
   label: Brickwork Admin Languages API
   slug: brickwork-admin-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-languages-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-languages-api-openapi.yml
 - filename: brickwork-admin-question-answers-api-openapi.yml
   format: yaml
   label: Brickwork Admin Question Answers API
   slug: brickwork-admin-question-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-question-answers-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-question-answers-api-openapi.yml
 - filename: brickwork-admin-questions-api-openapi.yml
   format: yaml
   label: Brickwork Admin Questions API
   slug: brickwork-admin-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-questions-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-questions-api-openapi.yml
 - filename: brickwork-admin-rsvps-api-openapi.yml
   format: yaml
   label: Brickwork Admin Rsvps API
   slug: brickwork-admin-rsvps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-rsvps-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-rsvps-api-openapi.yml
 - filename: brickwork-admin-services-api-openapi.yml
   format: yaml
   label: Brickwork Admin Services API
   slug: brickwork-admin-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-services-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-services-api-openapi.yml
 - filename: brickwork-admin-store-alerts-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Alerts API
   slug: brickwork-admin-store-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-alerts-api-openapi.yml
 - filename: brickwork-admin-store-event-rsvps-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Event Rsvps API
   slug: brickwork-admin-store-event-rsvps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-event-rsvps-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-event-rsvps-api-openapi.yml
 - filename: brickwork-admin-store-events-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Events API
   slug: brickwork-admin-store-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-events-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-events-api-openapi.yml
 - filename: brickwork-admin-store-images-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Images API
   slug: brickwork-admin-store-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-images-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-images-api-openapi.yml
 - filename: brickwork-admin-store-regular-hours-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Regular Hours API
   slug: brickwork-admin-store-regular-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-regular-hours-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-regular-hours-api-openapi.yml
 - filename: brickwork-admin-store-services-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Services API
   slug: brickwork-admin-store-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-services-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-services-api-openapi.yml
 - filename: brickwork-admin-store-special-hours-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Special Hours API
   slug: brickwork-admin-store-special-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-special-hours-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-special-hours-api-openapi.yml
 - filename: brickwork-admin-store-types-api-openapi.yml
   format: yaml
   label: Brickwork Admin Store Types API
   slug: brickwork-admin-store-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-store-types-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-store-types-api-openapi.yml
 - filename: brickwork-admin-stores-api-openapi.yml
   format: yaml
   label: Brickwork Admin Stores API
   slug: brickwork-admin-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-stores-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-stores-api-openapi.yml
 - filename: brickwork-admin-transactions-api-openapi.yml
   format: yaml
   label: Brickwork Admin Transactions API
   slug: brickwork-admin-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-transactions-api-openapi.yml
 - filename: brickwork-admin-user-hours-api-openapi.yml
   format: yaml
   label: Brickwork Admin User Hours API
   slug: brickwork-admin-user-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-admin-user-hours-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-admin-user-hours-api-openapi.yml
 - filename: brickwork-events-api-openapi.yml
   format: yaml
   label: Brickwork Events API
   slug: brickwork-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-events-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-events-api-openapi.yml
 - filename: brickwork-front-end-stores-api-openapi.yml
   format: yaml
   label: Brickwork Front End Stores API
   slug: brickwork-front-end-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-front-end-stores-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-front-end-stores-api-openapi.yml
 - filename: brickwork-questions-api-openapi.yml
   format: yaml
   label: Brickwork Questions API
   slug: brickwork-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-questions-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-questions-api-openapi.yml
 - filename: brickwork-service-appointments-api-openapi.yml
   format: yaml
   label: Brickwork Service Appointments API
   slug: brickwork-service-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-service-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-service-appointments-api-openapi.yml
 - filename: brickwork-services-api-openapi.yml
   format: yaml
   label: Brickwork Services API
   slug: brickwork-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-services-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-services-api-openapi.yml
 - filename: brickwork-store-events-api-openapi.yml
   format: yaml
   label: Brickwork Store Events API
   slug: brickwork-store-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-store-events-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-store-events-api-openapi.yml
 - filename: brickwork-store-services-api-openapi.yml
   format: yaml
   label: Brickwork Store Services API
   slug: brickwork-store-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-store-services-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-store-services-api-openapi.yml
 - filename: brickwork-utilities-api-openapi.yml
   format: yaml
   label: Brickwork Utilities API
   slug: brickwork-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/openapi/brickwork-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/brickwork/openapi/brickwork-utilities-api-openapi.yml
 consequence_counts:
   read: 66
   write: 41
@@ -260,8 +260,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/brickw
   \ GetApiV3Stores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/stores/combined\n  method: get\n  operationId: GetApiV3StoresCombined\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/stores/{id_or_number}\n  method: get\n  operationId: GetApiV3StoresId_or_number\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/stores/locations\n  method: get\n  operationId: GetApiV3StoresLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/stores/{store_id_or_slug}/featured_associates\n  method: get\n  operationId: GetApiV3StoresStore_id_or_slugFeatured_associates\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/stores/{store_number}\n  method: get\n  operationId: GetApiV3StoresStore_number\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/stores/store_search\n  method: get\n  operationId: GetApiV3StoresStore_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{locale}/api/v3/questions\n  method: get\n  operationId: GetLocaleApiV3Questions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{locale}/api/v3/store_services/{id}/appointment_timeslots\n  method: get\n  operationId: GetLocaleApiV3Store_servicesIdAppointment_timeslots\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{locale}/api/v3/services\n  method: get\n  operationId: GetLocaleApiV3Services\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{locale}/api/v3/services/{id}/\n  method: get\n  operationId: GetLocaleApiV3ServicesId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{locale}/api/v3/services/{id}/stores\n  method: get\n  operationId: GetLocaleApiV3ServicesIdStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{store_event_id}/rsvps\n  method: post\n  operationId: PostEventsStore_event_idRsvps\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{locale}/api/v3/stores/{store_id}/store_services\n  method: get\n  operationId: GetLocaleApiV3StoresStore_idStore_services\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/agentic-access/brickwork-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brickwork/refs/heads/main/agentic-access/brickwork-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{locale}/api/v3/stores/{store_id}/store_services\n  method: get\n  operationId: GetLocaleApiV3StoresStore_idStore_services\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/brickwork/agentic-access/brickwork-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/brickwork/agentic-access/brickwork-agentic-access.yml
 summary_line: 107 operations · 41 acting
 tags:
 - Company

@@ -9,19 +9,19 @@ api_specs:
   label: Let's Enhance Image API
   slug: lets-enhance-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-image-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-image-api-openapi.yml
 - filename: lets-enhance-storage-api-openapi.yml
   format: yaml
   label: Let's Enhance Storage API
   slug: lets-enhance-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-storage-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-storage-api-openapi.yml
 - filename: lets-enhance-video-api-openapi.yml
   format: yaml
   label: Let's Enhance Video API
   slug: lets-enhance-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/openapi/lets-enhance-video-api-openapi.yml
+  url: https://artifacts.apis.io/lets-enhance/openapi/lets-enhance-video-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lets-e
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - storage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage/storages\n  method: get\n  operationId: list_storages_v1_storage_storages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - storage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage/storages\n  method: post\n  operationId: create_storage_v1_storage_storages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - storage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storage/storages/{storage_id}\n  method: get\n  operationId: get_storage_v1_storage_storages__storage_id__get\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - storage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/storage/storages/{storage_id}\n  method: delete\n  operationId: delete_storage_v1_storage_storages__storage_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - storage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/storage/storages/{storage_id}\n  method: patch\n  operationId: patch_storage_v1_storage_storages__storage_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - storage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/agentic-access/lets-enhance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lets-enhance/agentic-access/lets-enhance-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Company

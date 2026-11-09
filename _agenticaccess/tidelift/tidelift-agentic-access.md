@@ -9,91 +9,91 @@ api_specs:
   label: Tidelift Alignments API
   slug: tidelift-alignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-alignments-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-alignments-api-openapi.yml
 - filename: tidelift-attestations-api-openapi.yml
   format: yaml
   label: Tidelift Attestations API
   slug: tidelift-attestations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-attestations-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-attestations-api-openapi.yml
 - filename: tidelift-authentication-api-openapi.yml
   format: yaml
   label: Tidelift Authentication API
   slug: tidelift-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-authentication-api-openapi.yml
 - filename: tidelift-basic-examples-api-openapi.yml
   format: yaml
   label: Tidelift Basic Examples API
   slug: tidelift-basic-examples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-basic-examples-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-basic-examples-api-openapi.yml
 - filename: tidelift-catalog-releases-api-openapi.yml
   format: yaml
   label: Tidelift Catalog Releases API
   slug: tidelift-catalog-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-catalog-releases-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-catalog-releases-api-openapi.yml
 - filename: tidelift-catalogs-api-openapi.yml
   format: yaml
   label: Tidelift Catalogs API
   slug: tidelift-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-catalogs-api-openapi.yml
 - filename: tidelift-catalogstandards-api-openapi.yml
   format: yaml
   label: Tidelift CatalogStandards API
   slug: tidelift-catalogstandards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-catalogstandards-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-catalogstandards-api-openapi.yml
 - filename: tidelift-groups-api-openapi.yml
   format: yaml
   label: Tidelift Groups API
   slug: tidelift-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-groups-api-openapi.yml
 - filename: tidelift-licenses-api-openapi.yml
   format: yaml
   label: Tidelift Licenses API
   slug: tidelift-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-licenses-api-openapi.yml
 - filename: tidelift-packages-api-openapi.yml
   format: yaml
   label: Tidelift Packages API
   slug: tidelift-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-packages-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-packages-api-openapi.yml
 - filename: tidelift-projects-api-openapi.yml
   format: yaml
   label: Tidelift Projects API
   slug: tidelift-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-projects-api-openapi.yml
 - filename: tidelift-releases-api-openapi.yml
   format: yaml
   label: Tidelift Releases API
   slug: tidelift-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-releases-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-releases-api-openapi.yml
 - filename: tidelift-reports-api-openapi.yml
   format: yaml
   label: Tidelift Reports API
   slug: tidelift-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-reports-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-reports-api-openapi.yml
 - filename: tidelift-users-api-openapi.yml
   format: yaml
   label: Tidelift Users API
   slug: tidelift-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-users-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-users-api-openapi.yml
 - filename: tidelift-vulnerabilities-api-openapi.yml
   format: yaml
   label: Tidelift Vulnerabilities API
   slug: tidelift-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/openapi/tidelift-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/tidelift/openapi/tidelift-vulnerabilities-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 2
@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tideli
   \ releaseSbom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - organization\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{org_name}/reports/{report_type}\n  method: get\n  operationId: latestReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - organization\n    - project\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{org_name}/reports/{report_type}/status\n  method: get\n  operationId: reportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - organization\n    - project\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{org_name}/reports/{report_type}/generate\n  method: post\n  operationId: generateReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   scope:\n    - organization\n    - project\n    - user\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{org_name}/users\n  method: get\n  operationId: listUsersForOrg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vulnerabilities/{vulnerability_id}\n  method: get\n  operationId: getVulnerability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - organization\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vulnerabilities/{vulnerability_id}/affected_releases\n  method: get\n  operationId: getVulnerabilityAffectedReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - organization\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidelift/refs/heads/main/agentic-access/tidelift-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tidelift/agentic-access/tidelift-agentic-access.yml
 summary_line: 72 operations · 33 acting · 2 human-in-the-loop
 tags:
 - Company

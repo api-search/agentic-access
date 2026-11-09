@@ -9,109 +9,109 @@ api_specs:
   label: HeyMilo ATS API
   slug: heymilo-ats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-ats-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-ats-api-openapi.yml
 - filename: heymilo-candidates-api-openapi.yml
   format: yaml
   label: HeyMilo Candidates API
   slug: heymilo-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-candidates-api-openapi.yml
 - filename: heymilo-design-template-groups-api-openapi.yml
   format: yaml
   label: HeyMilo Design Template Groups API
   slug: heymilo-design-template-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-design-template-groups-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-design-template-groups-api-openapi.yml
 - filename: heymilo-design-templates-api-openapi.yml
   format: yaml
   label: HeyMilo Design Templates API
   slug: heymilo-design-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-design-templates-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-design-templates-api-openapi.yml
 - filename: heymilo-domains-api-openapi.yml
   format: yaml
   label: HeyMilo Domains API
   slug: heymilo-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-domains-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-domains-api-openapi.yml
 - filename: heymilo-email-template-groups-api-openapi.yml
   format: yaml
   label: HeyMilo Email Template Groups API
   slug: heymilo-email-template-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-email-template-groups-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-email-template-groups-api-openapi.yml
 - filename: heymilo-email-templates-api-openapi.yml
   format: yaml
   label: HeyMilo Email Templates API
   slug: heymilo-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-email-templates-api-openapi.yml
 - filename: heymilo-health-api-openapi.yml
   format: yaml
   label: HeyMilo Health API
   slug: heymilo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-health-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-health-api-openapi.yml
 - filename: heymilo-interview-templates-api-openapi.yml
   format: yaml
   label: HeyMilo Interview Templates API
   slug: heymilo-interview-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-interview-templates-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-interview-templates-api-openapi.yml
 - filename: heymilo-interviewers-api-openapi.yml
   format: yaml
   label: HeyMilo Interviewers API
   slug: heymilo-interviewers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-interviewers-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-interviewers-api-openapi.yml
 - filename: heymilo-interviews-api-openapi.yml
   format: yaml
   label: HeyMilo Interviews API
   slug: heymilo-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-interviews-api-openapi.yml
 - filename: heymilo-phone-numbers-api-openapi.yml
   format: yaml
   label: HeyMilo Phone Numbers API
   slug: heymilo-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-phone-numbers-api-openapi.yml
 - filename: heymilo-questions-api-openapi.yml
   format: yaml
   label: HeyMilo Questions API
   slug: heymilo-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-questions-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-questions-api-openapi.yml
 - filename: heymilo-schema-discovery-api-openapi.yml
   format: yaml
   label: HeyMilo Schema Discovery API
   slug: heymilo-schema-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-schema-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-schema-discovery-api-openapi.yml
 - filename: heymilo-sender-emails-api-openapi.yml
   format: yaml
   label: HeyMilo Sender Emails API
   slug: heymilo-sender-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-sender-emails-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-sender-emails-api-openapi.yml
 - filename: heymilo-voices-api-openapi.yml
   format: yaml
   label: HeyMilo Voices API
   slug: heymilo-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-voices-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-voices-api-openapi.yml
 - filename: heymilo-webhooks-api-openapi.yml
   format: yaml
   label: HeyMilo Webhooks API
   slug: heymilo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-webhooks-api-openapi.yml
 - filename: heymilo-workspaces-api-openapi.yml
   format: yaml
   label: HeyMilo Workspaces API
   slug: heymilo-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/openapi/heymilo-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/heymilo/openapi/heymilo-workspaces-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 36
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/heymil
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/postings/{posting_id}/questions/{question_id}\n  method: delete\n  operationId: deleteQuestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/postings/{posting_id}/questions/reorder\n  method: post\n  operationId: reorderQuestions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /api/v2/workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/ats/candidates/resolve\n  method: post\n  operationId: resolveAtsCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/ats/candidates/push\n  method: post\n  operationId: pushAtsCandidate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/ats/candidates/push/{item_id}\n\
   \  method: get\n  operationId: getAtsPushStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/ats/connections\n  method: get\n  operationId: listAtsConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/agentic-access/heymilo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/heymilo/agentic-access/heymilo-agentic-access.yml
 summary_line: 56 operations · 20 acting
 tags:
 - Company

@@ -9,13 +9,13 @@ api_specs:
   label: Google Cloud Speech-To-Text Operations API
   slug: google-cloud-speech-to-text-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/openapi/google-cloud-speech-to-text-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-speech-to-text/openapi/google-cloud-speech-to-text-operations-api-openapi.yml
 - filename: google-cloud-speech-to-text-speech-api-openapi.yml
   format: yaml
   label: Google Cloud Speech-To-Text Speech API
   slug: google-cloud-speech-to-text-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/openapi/google-cloud-speech-to-text-speech-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-speech-to-text/openapi/google-cloud-speech-to-text-speech-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /speech:recognize\n  method: post\n  operationId: recognize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /speech:longrunningrecognize\n  method: post\n  operationId: longRunningRecognize\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /operations/{operationId}\n  method: get\n  operationId: getOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/recognizers\n  method: get\n  operationId: listRecognizers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /projects/{project}/locations/{location}/recognizers\n\
   \  method: post\n  operationId: createRecognizer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/agentic-access/google-cloud-speech-to-text-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-speech-to-text/agentic-access/google-cloud-speech-to-text-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Audio Processing

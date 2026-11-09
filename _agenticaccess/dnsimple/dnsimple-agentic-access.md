@@ -9,43 +9,43 @@ api_specs:
   label: DNSimple Accounts API
   slug: dnsimple-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-accounts-api-openapi.yml
 - filename: dnsimple-certificates-api-openapi.yml
   format: yaml
   label: DNSimple Certificates API
   slug: dnsimple-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-certificates-api-openapi.yml
 - filename: dnsimple-contacts-api-openapi.yml
   format: yaml
   label: DNSimple Contacts API
   slug: dnsimple-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-contacts-api-openapi.yml
 - filename: dnsimple-domains-api-openapi.yml
   format: yaml
   label: DNSimple Domains API
   slug: dnsimple-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-domains-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-domains-api-openapi.yml
 - filename: dnsimple-webhooks-api-openapi.yml
   format: yaml
   label: DNSimple Webhooks API
   slug: dnsimple-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-webhooks-api-openapi.yml
 - filename: dnsimple-whoami-api-openapi.yml
   format: yaml
   label: DNSimple Whoami API
   slug: dnsimple-whoami-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-whoami-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-whoami-api-openapi.yml
 - filename: dnsimple-zones-api-openapi.yml
   format: yaml
   label: DNSimple Zones API
   slug: dnsimple-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/openapi/dnsimple-zones-api-openapi.yml
+  url: https://artifacts.apis.io/dnsimple/openapi/dnsimple-zones-api-openapi.yml
 consequence_counts:
   read: 11
   write: 7
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dnsimp
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account}/zones/{zone}/records/{record}\n  method: get\n  operationId: getZoneRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account}/zones/{zone}/records/{record}\n  method: patch\n  operationId: updateZoneRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account}/zones/{zone}/records/{record}\n  method: delete\n  operationId: deleteZoneRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account}/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account}/contacts\n  method: post\n  operationId: createContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{account}/certificates\n  method: get\n  operationId: listCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{account}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dnsimple/refs/heads/main/agentic-access/dnsimple-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dnsimple/agentic-access/dnsimple-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - DNS

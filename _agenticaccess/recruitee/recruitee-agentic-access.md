@@ -9,25 +9,25 @@ api_specs:
   label: Recruitee C API
   slug: recruitee-c-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-c-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-c-api-openapi.yml
 - filename: recruitee-i-api-openapi.yml
   format: yaml
   label: Recruitee I API
   slug: recruitee-i-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-i-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-i-api-openapi.yml
 - filename: recruitee-offers-api-openapi.yml
   format: yaml
   label: Recruitee Offers API
   slug: recruitee-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-offers-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-offers-api-openapi.yml
 - filename: recruitee-p-api-openapi.yml
   format: yaml
   label: Recruitee P API
   slug: recruitee-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/openapi/recruitee-p-api-openapi.yml
+  url: https://artifacts.apis.io/recruitee/openapi/recruitee-p-api-openapi.yml
 consequence_counts:
   read: 13
   write: 18
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/recrui
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /p/{codename}/reports/{report_id}\n  method: delete\n  operationId: delete-reports\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /p/{codename}/c/{company_id}/partner\n  method: post\n  operationId: post-partner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /p/{codename}/c/{company_id}/partner\n  method: patch\n  operationId: patch-partner\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /p/{codename}/c/{company_id}/partner\n  method: get\n  operationId: get-partner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /p/{codename}/c/{company_id}/partner\n  method: delete\n  operationId: delete-partner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/p/{partner}/analytics\n  method: post\n  operationId: analytics\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /i/p/{partner}/timeline\n  method: get\n  operationId: timeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recruitee/refs/heads/main/agentic-access/recruitee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recruitee/agentic-access/recruitee-agentic-access.yml
 summary_line: 31 operations · 18 acting
 tags:
 - Recruiting

@@ -9,247 +9,247 @@ api_specs:
   label: Supaglue Accounts API
   slug: supaglue-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-accounts-api-openapi.yml
 - filename: supaglue-associations-api-openapi.yml
   format: yaml
   label: Supaglue Associations API
   slug: supaglue-associations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-associations-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-associations-api-openapi.yml
 - filename: supaglue-associationschemas-api-openapi.yml
   format: yaml
   label: Supaglue AssociationSchemas API
   slug: supaglue-associationschemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-associationschemas-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-associationschemas-api-openapi.yml
 - filename: supaglue-attachments-api-openapi.yml
   format: yaml
   label: Supaglue Attachments API
   slug: supaglue-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-attachments-api-openapi.yml
 - filename: supaglue-collections-api-openapi.yml
   format: yaml
   label: Supaglue Collections API
   slug: supaglue-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-collections-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-collections-api-openapi.yml
 - filename: supaglue-comments-api-openapi.yml
   format: yaml
   label: Supaglue Comments API
   slug: supaglue-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-comments-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-comments-api-openapi.yml
 - filename: supaglue-connections-api-openapi.yml
   format: yaml
   label: Supaglue Connections API
   slug: supaglue-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-connections-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-connections-api-openapi.yml
 - filename: supaglue-connectionsyncconfigs-api-openapi.yml
   format: yaml
   label: Supaglue ConnectionSyncConfigs API
   slug: supaglue-connectionsyncconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-connectionsyncconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-connectionsyncconfigs-api-openapi.yml
 - filename: supaglue-contacts-api-openapi.yml
   format: yaml
   label: Supaglue Contacts API
   slug: supaglue-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-contacts-api-openapi.yml
 - filename: supaglue-customers-api-openapi.yml
   format: yaml
   label: Supaglue Customers API
   slug: supaglue-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-customers-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-customers-api-openapi.yml
 - filename: supaglue-destinations-api-openapi.yml
   format: yaml
   label: Supaglue Destinations API
   slug: supaglue-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-destinations-api-openapi.yml
 - filename: supaglue-entities-api-openapi.yml
   format: yaml
   label: Supaglue Entities API
   slug: supaglue-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-entities-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-entities-api-openapi.yml
 - filename: supaglue-entitymappings-api-openapi.yml
   format: yaml
   label: Supaglue EntityMappings API
   slug: supaglue-entitymappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-entitymappings-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-entitymappings-api-openapi.yml
 - filename: supaglue-leads-api-openapi.yml
   format: yaml
   label: Supaglue Leads API
   slug: supaglue-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-leads-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-leads-api-openapi.yml
 - filename: supaglue-lists-api-openapi.yml
   format: yaml
   label: Supaglue Lists API
   slug: supaglue-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-lists-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-lists-api-openapi.yml
 - filename: supaglue-magic-links-api-openapi.yml
   format: yaml
   label: Supaglue Magic Links API
   slug: supaglue-magic-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-magic-links-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-magic-links-api-openapi.yml
 - filename: supaglue-mailboxes-api-openapi.yml
   format: yaml
   label: Supaglue Mailboxes API
   slug: supaglue-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-mailboxes-api-openapi.yml
 - filename: supaglue-opportunities-api-openapi.yml
   format: yaml
   label: Supaglue Opportunities API
   slug: supaglue-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-opportunities-api-openapi.yml
 - filename: supaglue-properties-api-openapi.yml
   format: yaml
   label: Supaglue Properties API
   slug: supaglue-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-properties-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-properties-api-openapi.yml
 - filename: supaglue-providers-api-openapi.yml
   format: yaml
   label: Supaglue Providers API
   slug: supaglue-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-providers-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-providers-api-openapi.yml
 - filename: supaglue-schemas-api-openapi.yml
   format: yaml
   label: Supaglue Schemas API
   slug: supaglue-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-schemas-api-openapi.yml
 - filename: supaglue-sequence-states-api-openapi.yml
   format: yaml
   label: Supaglue Sequence States API
   slug: supaglue-sequence-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-sequence-states-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-sequence-states-api-openapi.yml
 - filename: supaglue-sequences-api-openapi.yml
   format: yaml
   label: Supaglue Sequences API
   slug: supaglue-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-sequences-api-openapi.yml
 - filename: supaglue-standardobjects-api-openapi.yml
   format: yaml
   label: Supaglue StandardObjects API
   slug: supaglue-standardobjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-standardobjects-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-standardobjects-api-openapi.yml
 - filename: supaglue-standardobjectschemas-api-openapi.yml
   format: yaml
   label: Supaglue StandardObjectSchemas API
   slug: supaglue-standardobjectschemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-standardobjectschemas-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-standardobjectschemas-api-openapi.yml
 - filename: supaglue-syncconfigs-api-openapi.yml
   format: yaml
   label: Supaglue SyncConfigs API
   slug: supaglue-syncconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-syncconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-syncconfigs-api-openapi.yml
 - filename: supaglue-syncruns-api-openapi.yml
   format: yaml
   label: Supaglue SyncRuns API
   slug: supaglue-syncruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-syncruns-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-syncruns-api-openapi.yml
 - filename: supaglue-syncs-api-openapi.yml
   format: yaml
   label: Supaglue Syncs API
   slug: supaglue-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-syncs-api-openapi.yml
 - filename: supaglue-tags-api-openapi.yml
   format: yaml
   label: Supaglue Tags API
   slug: supaglue-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-tags-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-tags-api-openapi.yml
 - filename: supaglue-teams-api-openapi.yml
   format: yaml
   label: Supaglue Teams API
   slug: supaglue-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-teams-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-teams-api-openapi.yml
 - filename: supaglue-tickets-api-openapi.yml
   format: yaml
   label: Supaglue Tickets API
   slug: supaglue-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-tickets-api-openapi.yml
 - filename: supaglue-users-api-openapi.yml
   format: yaml
   label: Supaglue Users API
   slug: supaglue-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-users-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-users-api-openapi.yml
 - filename: supaglue-forms-api-openapi.yml
   format: yaml
   label: Supaglue Forms API
   slug: supaglue-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-forms-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-forms-api-openapi.yml
 - filename: supaglue-hubspot-api-openapi.yml
   format: yaml
   label: Supaglue Hubspot API
   slug: supaglue-hubspot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-hubspot-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-hubspot-api-openapi.yml
 - filename: supaglue-passthrough-api-openapi.yml
   format: yaml
   label: Supaglue Passthrough API
   slug: supaglue-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-passthrough-api-openapi.yml
 - filename: supaglue-persons-api-openapi.yml
   format: yaml
   label: Supaglue Persons API
   slug: supaglue-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-persons-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-persons-api-openapi.yml
 - filename: supaglue-salesforce-api-openapi.yml
   format: yaml
   label: Supaglue Salesforce API
   slug: supaglue-salesforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-salesforce-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-salesforce-api-openapi.yml
 - filename: supaglue-webhook-events-api-openapi.yml
   format: yaml
   label: Supaglue Webhook Events API
   slug: supaglue-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-webhook-events-api-openapi.yml
 - filename: supaglue-custom-object-schemas-api-openapi.yml
   format: yaml
   label: Supaglue Custom Object Schemas API
   slug: supaglue-custom-object-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-custom-object-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-custom-object-schemas-api-openapi.yml
 - filename: supaglue-custom-objects-api-openapi.yml
   format: yaml
   label: Supaglue Custom Objects API
   slug: supaglue-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-custom-objects-api-openapi.yml
 - filename: supaglue-schema-mappings-api-openapi.yml
   format: yaml
   label: Supaglue Schema Mappings API
   slug: supaglue-schema-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/openapi/supaglue-schema-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/supaglue/openapi/supaglue-schema-mappings-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 78
@@ -314,8 +314,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/supagl
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas\n  method: get\n  operationId: getSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas\n  method: post\n  operationId: createSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas/{schema_id}\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/{schema_id}\n  method: put\n  operationId: updateSchema\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas/{schema_id}\n  method: delete\n  operationId: deleteSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequence_states\n  method: post\n  operationId: createSequenceState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequence_states\n  method:\
   \ get\n  operationId: listSequenceStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequence_states/_search\n  method: post\n  operationId: searchSequenceStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequence_states/_batch\n  method: post\n  operationId: batchCreateSequenceState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequence_states/{sequence_state_id}\n  method: get\n  operationId: getSequenceState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /sequences\n  method: post\n  operationId: createSequence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequences\n  method: get\n  operationId: listSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{sequence_id}\n  method: get\n  operationId: getSequence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/agentic-access/supaglue-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supaglue/refs/heads/main/agentic-access/supaglue-agentic-access.yml
+  \ 3600\n    audit: none\n- path: /sequences\n  method: post\n  operationId: createSequence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sequences\n  method: get\n  operationId: listSequences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sequences/{sequence_id}\n  method: get\n  operationId: getSequence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/supaglue/agentic-access/supaglue-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/supaglue/agentic-access/supaglue-agentic-access.yml
 summary_line: 139 operations · 61 acting
 tags:
 - CRM

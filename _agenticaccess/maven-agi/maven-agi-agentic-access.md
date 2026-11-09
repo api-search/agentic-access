@@ -9,55 +9,55 @@ api_specs:
   label: Maven AGI Actions API
   slug: maven-agi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-actions-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-actions-api-openapi.yml
 - filename: maven-agi-agents-api-openapi.yml
   format: yaml
   label: Maven AGI Agents API
   slug: maven-agi-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-agents-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-agents-api-openapi.yml
 - filename: maven-agi-analytics-api-openapi.yml
   format: yaml
   label: Maven AGI Analytics API
   slug: maven-agi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-analytics-api-openapi.yml
 - filename: maven-agi-app-settings-api-openapi.yml
   format: yaml
   label: Maven AGI App Settings API
   slug: maven-agi-app-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-app-settings-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-app-settings-api-openapi.yml
 - filename: maven-agi-conversations-api-openapi.yml
   format: yaml
   label: Maven AGI Conversations API
   slug: maven-agi-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-conversations-api-openapi.yml
 - filename: maven-agi-events-api-openapi.yml
   format: yaml
   label: Maven AGI Events API
   slug: maven-agi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-events-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-events-api-openapi.yml
 - filename: maven-agi-knowledge-api-openapi.yml
   format: yaml
   label: Maven AGI Knowledge API
   slug: maven-agi-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-knowledge-api-openapi.yml
 - filename: maven-agi-triggers-api-openapi.yml
   format: yaml
   label: Maven AGI Triggers API
   slug: maven-agi-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-triggers-api-openapi.yml
 - filename: maven-agi-users-api-openapi.yml
   format: yaml
   label: Maven AGI Users API
   slug: maven-agi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/openapi/maven-agi-users-api-openapi.yml
+  url: https://artifacts.apis.io/maven-agi/openapi/maven-agi-users-api-openapi.yml
 consequence_counts:
   read: 23
   write: 36
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/maven-
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers/{triggerReferenceId}\n  method: get\n  operationId: getTrigger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers/{triggerReferenceId}\n  method: patch\n  operationId: patchTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers/{triggerReferenceId}\n  method: delete\n  operationId: deleteTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: put\n  operationId: createOrUpdateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agentusers/search\n  method: post\n  operationId: searchAgentUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agentusers/{agentUserId}\n  method: get\n  operationId: getAgentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-agi/refs/heads/main/agentic-access/maven-agi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/maven-agi/agentic-access/maven-agi-agentic-access.yml
 summary_line: 59 operations · 36 acting
 tags:
 - Artificial Intelligence

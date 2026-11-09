@@ -9,37 +9,37 @@ api_specs:
   label: Visa Acceptance Captures API
   slug: visa-acceptance-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-captures-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-captures-api-openapi.yml
 - filename: visa-acceptance-invoices-api-openapi.yml
   format: yaml
   label: Visa Acceptance Invoices API
   slug: visa-acceptance-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-invoices-api-openapi.yml
 - filename: visa-acceptance-pay-by-link-api-openapi.yml
   format: yaml
   label: Visa Acceptance Pay by Link API
   slug: visa-acceptance-pay-by-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-pay-by-link-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-pay-by-link-api-openapi.yml
 - filename: visa-acceptance-payments-api-openapi.yml
   format: yaml
   label: Visa Acceptance Payments API
   slug: visa-acceptance-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-payments-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-payments-api-openapi.yml
 - filename: visa-acceptance-refunds-api-openapi.yml
   format: yaml
   label: Visa Acceptance Refunds API
   slug: visa-acceptance-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-refunds-api-openapi.yml
 - filename: visa-acceptance-voids-api-openapi.yml
   format: yaml
   label: Visa Acceptance Voids API
   slug: visa-acceptance-voids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/openapi/visa-acceptance-voids-api-openapi.yml
+  url: https://artifacts.apis.io/visa-acceptance/openapi/visa-acceptance-voids-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 4
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/visa-a
   \      - abnormal\n      - high-value\n    audit: required\n- path: /pts/v2/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pts/v2/invoices/{invoiceId}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pts/v2/invoices/{invoiceId}\n  method: patch\n  operationId: updateInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pts/v2/paybylinks\n  method: post\n  operationId: createPayByLink\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pts/v2/paybylinks\n  method: get\n  operationId: listPayByLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pts/v2/paybylinks/{linkId}\n  method: get\n  operationId: getPayByLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pts/v2/paybylinks/{linkId}\n  method: delete\n  operationId: cancelPayByLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/visa-acceptance/refs/heads/main/agentic-access/visa-acceptance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/visa-acceptance/agentic-access/visa-acceptance-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - Payments

@@ -9,73 +9,73 @@ api_specs:
   label: Google Analytics Accounts API
   slug: google-analytics-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-accounts-api-openapi.yml
 - filename: google-analytics-accountsummaries-api-openapi.yml
   format: yaml
   label: Google Analytics Account Summaries API
   slug: google-analytics-accountsummaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-accountsummaries-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-accountsummaries-api-openapi.yml
 - filename: google-analytics-data-api-openapi.yml
   format: yaml
   label: Google Analytics Data API
   slug: google-analytics-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-data-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-data-api-openapi.yml
 - filename: google-analytics-events-api-openapi.yml
   format: yaml
   label: Google Analytics Events API
   slug: google-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-events-api-openapi.yml
 - filename: google-analytics-management-api-openapi.yml
   format: yaml
   label: Google Analytics Management API
   slug: google-analytics-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-management-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-management-api-openapi.yml
 - filename: google-analytics-metadata-api-openapi.yml
   format: yaml
   label: Google Analytics Metadata API
   slug: google-analytics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-metadata-api-openapi.yml
 - filename: google-analytics-properties-api-openapi.yml
   format: yaml
   label: Google Analytics Properties API
   slug: google-analytics-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-properties-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-properties-api-openapi.yml
 - filename: google-analytics-provisioning-api-openapi.yml
   format: yaml
   label: Google Analytics Provisioning API
   slug: google-analytics-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-provisioning-api-openapi.yml
 - filename: google-analytics-reports-api-openapi.yml
   format: yaml
   label: Google Analytics Reports API
   slug: google-analytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-reports-api-openapi.yml
 - filename: google-analytics-userdeletion-api-openapi.yml
   format: yaml
   label: Google Analytics User Deletion API
   slug: google-analytics-userdeletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-userdeletion-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-userdeletion-api-openapi.yml
 - filename: google-analytics-validation-api-openapi.yml
   format: yaml
   label: Google Analytics Validation API
   slug: google-analytics-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-validation-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-validation-api-openapi.yml
 - filename: google-analytics-user-activity-api-openapi.yml
   format: yaml
   label: Google Analytics User Activity API
   slug: google-analytics-user-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/openapi/google-analytics-user-activity-api-openapi.yml
+  url: https://artifacts.apis.io/google-analytics/openapi/google-analytics-user-activity-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 145
@@ -180,8 +180,8 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/google
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - analytics.edit\n    - analytics.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha/properties/{propertiesId}/calculatedMetrics/{calculatedMetricsId}\n  method: patch\n  operationId: properties_calculatedMetrics_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/properties/{propertiesId}/channelGroups\n  method: post\n  operationId: properties_channelGroups_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/properties/{propertiesId}/channelGroups\n  method: get\n  operationId: properties_channelGroups_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - analytics.edit\n    - analytics.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha/properties/{propertiesId}/channelGroups/{channelGroupsId}\n  method: delete\n  operationId: properties_channelGroups_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/properties/{propertiesId}/channelGroups/{channelGroupsId}\n  method: get\n  operationId: properties_channelGroups_get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - analytics.edit\n    - analytics.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha/properties/{propertiesId}/channelGroups/{channelGroupsId}\n  method: patch\n  operationId: properties_channelGroups_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/properties/{propertiesId}/conversionEvents\n  method: post\n  operationId: properties_conversionEvents_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/properties/{propertiesId}/conversionEvents\n  method: get\n  operationId: properties_conversionEvents_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - analytics.edit\n    - analytics.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha/properties/{propertiesId}/conversionEvents/{conversionEventsId}\n  method: delete\n  operationId: properties_conversionEvents_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (154 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/agentic-access/google-analytics-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/agentic-access/google-analytics-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha/properties/{propertiesId}/conversionEvents\n  method: get\n  operationId: properties_conversionEvents_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - analytics.edit\n    - analytics.readonly\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha/properties/{propertiesId}/conversionEvents/{conversionEventsId}\n  method: delete\n  operationId: properties_conversionEvents_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - analytics.edit\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (154 KB total) ---\n# Full source: https://artifacts.apis.io/google-analytics/agentic-access/google-analytics-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/google-analytics/agentic-access/google-analytics-agentic-access.yml
 summary_line: 374 operations · 229 acting
 tags:
 - Analytics

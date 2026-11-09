@@ -9,109 +9,109 @@ api_specs:
   label: PEXA Exchange API
   slug: pexa-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/_original/pexa-exchange-api-swagger.json
+  url: https://artifacts.apis.io/pexa/openapi/_original/pexa-exchange-api-swagger.json
 - filename: pexa-billing-api-openapi.yml
   format: yaml
   label: PEXA Billing API
   slug: pexa-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-billing-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-billing-api-openapi.yml
 - filename: pexa-conversation-api-openapi.yml
   format: yaml
   label: PEXA Conversation API
   slug: pexa-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-conversation-api-openapi.yml
 - filename: pexa-document-api-openapi.yml
   format: yaml
   label: PEXA Document API
   slug: pexa-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-document-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-document-api-openapi.yml
 - filename: pexa-invitation-api-openapi.yml
   format: yaml
   label: PEXA Invitation API
   slug: pexa-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-invitation-api-openapi.yml
 - filename: pexa-landtitle-api-openapi.yml
   format: yaml
   label: PEXA Landtitle API
   slug: pexa-landtitle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-landtitle-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-landtitle-api-openapi.yml
 - filename: pexa-notification-api-openapi.yml
   format: yaml
   label: PEXA Notification API
   slug: pexa-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notification-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-notification-api-openapi.yml
 - filename: pexa-notification-service-api-openapi.yml
   format: yaml
   label: PEXA Notification Service [$] API
   slug: pexa-notification-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notification-service-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-notification-service-api-openapi.yml
 - filename: pexa-notificationregistration-api-openapi.yml
   format: yaml
   label: PEXA Notification Registration API
   slug: pexa-notificationregistration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-notificationregistration-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-notificationregistration-api-openapi.yml
 - filename: pexa-project-api-openapi.yml
   format: yaml
   label: PEXA Project API
   slug: pexa-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-project-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-project-api-openapi.yml
 - filename: pexa-settlement-api-openapi.yml
   format: yaml
   label: PEXA Settlement API
   slug: pexa-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-settlement-api-openapi.yml
 - filename: pexa-standalone-discharge-experience-api-openapi.yml
   format: yaml
   label: PEXA Standalone Discharge Experience API
   slug: pexa-standalone-discharge-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-standalone-discharge-experience-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-standalone-discharge-experience-api-openapi.yml
 - filename: pexa-subscriber-api-openapi.yml
   format: yaml
   label: PEXA Subscriber API
   slug: pexa-subscriber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-subscriber-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-subscriber-api-openapi.yml
 - filename: pexa-titlesearch-api-openapi.yml
   format: yaml
   label: PEXA Title Search API
   slug: pexa-titlesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-titlesearch-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-titlesearch-api-openapi.yml
 - filename: pexa-user-api-openapi.yml
   format: yaml
   label: PEXA User API
   slug: pexa-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-user-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-user-api-openapi.yml
 - filename: pexa-workspace-api-openapi.yml
   format: yaml
   label: PEXA Workspace API
   slug: pexa-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-workspace-api-openapi.yml
 - filename: pexa-workspaces-api-openapi.yml
   format: yaml
   label: PEXA Workspaces API
   slug: pexa-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-workspaces-api-openapi.yml
 - filename: pexa-health-check-api-openapi.yml
   format: yaml
   label: PEXA Health Check API
   slug: pexa-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/openapi/pexa-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/pexa/openapi/pexa-health-check-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 44
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/pexa-e
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/projects/{projectId}/workspaces/{workspaceId}/participants\n  method: post\n  operationId: addParticipants\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - au:projects:workspaces:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/projects/{projectId}/workspaces/{workspaceId}/participants\n  method: delete\n  operationId: deleteParticipants\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - au:projects:workspaces:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v4/projects/{projectId}/workspaces/{pexaWorkspaceId}/settlementDates\n  method: post\n  operationId: proposeSettlement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - au:projects:workspaces:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/projects/notifications\n  method: get\n  operationId: notification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - au:projects:notification:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/discharge\n  method: post\n  operationId: processDischarge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - '{{api_scope}}'\n    audience: null\n    token:\n      max-ttl: 300\n  \
   \    exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pexa/refs/heads/main/agentic-access/pexa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pexa/agentic-access/pexa-agentic-access.yml
 summary_line: 87 operations · 43 acting
 tags:
 - Real Estate

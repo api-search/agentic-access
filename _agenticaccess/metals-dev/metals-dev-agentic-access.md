@@ -8,31 +8,31 @@ api_specs:
   label: Metals.Dev Account API
   slug: metals-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-account-api-openapi.yml
 - filename: metals-dev-authority-api-openapi.yml
   format: yaml
   label: Metals.Dev Authority API
   slug: metals-dev-authority-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-authority-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-authority-api-openapi.yml
 - filename: metals-dev-currency-api-openapi.yml
   format: yaml
   label: Metals.Dev Currency API
   slug: metals-dev-currency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-currency-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-currency-api-openapi.yml
 - filename: metals-dev-rates-api-openapi.yml
   format: yaml
   label: Metals.Dev Rates API
   slug: metals-dev-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-rates-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-rates-api-openapi.yml
 - filename: metals-dev-spot-prices-api-openapi.yml
   format: yaml
   label: Metals.Dev Spot Prices API
   slug: metals-dev-spot-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/openapi/metals-dev-spot-prices-api-openapi.yml
+  url: https://artifacts.apis.io/metals-dev/openapi/metals-dev-spot-prices-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/metals-dev-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /latest\n  method: get\n  operationId: getLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metal/spot\n  method: get\n  operationId: getMetalSpot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metal/authority\n  method: get\n  operationId: getMetalAuthority\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeseries\n  method: get\n  operationId: getTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metals-dev/refs/heads/main/agentic-access/metals-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/metals-dev/agentic-access/metals-dev-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Financial Data

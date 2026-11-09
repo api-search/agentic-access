@@ -9,43 +9,67 @@ api_specs:
   label: Absentify Absences API
   slug: absentify-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-absences-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-absences-api-openapi.yml
 - filename: absentify-departments-api-openapi.yml
   format: yaml
   label: Absentify Departments API
   slug: absentify-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-departments-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-departments-api-openapi.yml
 - filename: absentify-leave-types-api-openapi.yml
   format: yaml
   label: Absentify Leave types API
   slug: absentify-leave-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-leave-types-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-leave-types-api-openapi.yml
 - filename: absentify-members-api-openapi.yml
   format: yaml
   label: Absentify Members API
   slug: absentify-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-members-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-members-api-openapi.yml
 - filename: absentify-public-holidays-api-openapi.yml
   format: yaml
   label: Absentify Public holidays API
   slug: absentify-public-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-public-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-public-holidays-api-openapi.yml
 - filename: absentify-requests-api-openapi.yml
   format: yaml
   label: Absentify Requests API
   slug: absentify-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-requests-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-requests-api-openapi.yml
 - filename: absentify-workspace-api-openapi.yml
   format: yaml
   label: Absentify Workspace API
   slug: absentify-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-workspace-api-openapi.yml
+- filename: absentify-allowance-management-api-openapi.yml
+  format: yaml
+  label: Absentify Allowance Management API
+  slug: absentify-allowance-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/absentify/openapi/absentify-allowance-management-api-openapi.yml
+- filename: absentify-exports-api-openapi.yml
+  format: yaml
+  label: Absentify Exports API
+  slug: absentify-exports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/absentify/openapi/absentify-exports-api-openapi.yml
+- filename: absentify-out-of-office-api-openapi.yml
+  format: yaml
+  label: Absentify Out of office API
+  slug: absentify-out-of-office-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/absentify/openapi/absentify-out-of-office-api-openapi.yml
+- filename: absentify-overtime-api-openapi.yml
+  format: yaml
+  label: Absentify Overtime API
+  slug: absentify-overtime-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/absentify/openapi/absentify-overtime-api-openapi.yml
 consequence_counts:
   read: 17
   write: 23
@@ -84,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/absent
   \  operationId: request-getRequestsPerDay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requests/{id}\n  method: get\n  operationId: request-getRequestById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requests/recurring\n  method: post\n  operationId: request-createRecurringRequests\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}/approve\n  method: post\n  operationId: request-approveRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}/decline\n  method: post\n  operationId: request-declineRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}/approve_representative\n  method: post\n  operationId: request-approveRequestRepresentative\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}/decline_representative\n  method: post\n  operationId: request-declineRequestRepresentative\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requests/{id}/cancel\n  method: post\n  operationId: request-cancelRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /absences_per_day\n  method: get\n  operationId: absences-getAbsencesPerDay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/agentic-access/absentify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/absentify/agentic-access/absentify-agentic-access.yml
 summary_line: 40 operations · 23 acting
 tags:
 - Absence Management

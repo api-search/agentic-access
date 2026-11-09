@@ -8,67 +8,67 @@ api_specs:
   label: Public Transport Victoria Departures API
   slug: public-transport-victoria-departures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-departures-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-departures-api-openapi.yml
 - filename: public-transport-victoria-directions-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Directions API
   slug: public-transport-victoria-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-directions-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-directions-api-openapi.yml
 - filename: public-transport-victoria-disruptions-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Disruptions API
   slug: public-transport-victoria-disruptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-disruptions-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-disruptions-api-openapi.yml
 - filename: public-transport-victoria-fareestimate-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Fare Estimate API
   slug: public-transport-victoria-fareestimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-fareestimate-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-fareestimate-api-openapi.yml
 - filename: public-transport-victoria-outlets-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Outlets API
   slug: public-transport-victoria-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-outlets-api-openapi.yml
 - filename: public-transport-victoria-patterns-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Patterns API
   slug: public-transport-victoria-patterns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-patterns-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-patterns-api-openapi.yml
 - filename: public-transport-victoria-routes-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Routes API
   slug: public-transport-victoria-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-routes-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-routes-api-openapi.yml
 - filename: public-transport-victoria-routetypes-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Route Types API
   slug: public-transport-victoria-routetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-routetypes-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-routetypes-api-openapi.yml
 - filename: public-transport-victoria-runs-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Runs API
   slug: public-transport-victoria-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-runs-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-runs-api-openapi.yml
 - filename: public-transport-victoria-search-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Search API
   slug: public-transport-victoria-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-search-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-search-api-openapi.yml
 - filename: public-transport-victoria-stops-api-openapi.yml
   format: yaml
   label: Public Transport Victoria Stops API
   slug: public-transport-victoria-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/openapi/public-transport-victoria-stops-api-openapi.yml
+  url: https://artifacts.apis.io/public-transport-victoria/openapi/public-transport-victoria-stops-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/public
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/pattern/run/{run_ref}/route_type/{route_type}\n  method: get\n  operationId: Patterns_GetPatternByRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/routes\n  method: get\n  operationId: Routes_OneOrMoreRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/routes/{route_id}\n  method: get\n  operationId: Routes_RouteFromId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/route_types\n  method: get\n  operationId: RouteTypes_GetRouteTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v3/runs/route/{route_id}\n  method: get\n  operationId: Runs_ForRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/runs/route/{route_id}/route_type/{route_type}\n  method: get\n  operationId: Runs_ForRouteAndRouteType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/runs/{run_ref}\n  method: get\n  operationId: Runs_ForRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/runs/{run_ref}/route_type/{route_type}\n  method: get\n  operationId: Runs_ForRunAndRouteType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search/{search_term}\n\
   \  method: get\n  operationId: Search_Search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/stops/{stop_id}/route_type/{route_type}\n  method: get\n  operationId: Stops_StopDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/stops/route/{route_id}/route_type/{route_type}\n  method: get\n  operationId: Stops_StopsForRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/stops/location/{latitude},{longitude}\n  method: get\n  operationId: Stops_StopsByGeolocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/public-transport-victoria/refs/heads/main/agentic-access/public-transport-victoria-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/public-transport-victoria/agentic-access/public-transport-victoria-agentic-access.yml
 summary_line: 26 operations
 tags:
 - Company

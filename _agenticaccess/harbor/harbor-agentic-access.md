@@ -9,37 +9,37 @@ api_specs:
   label: Harbor Challenges API
   slug: harbor-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-challenges-api-openapi.yml
 - filename: harbor-communities-api-openapi.yml
   format: yaml
   label: Harbor Communities API
   slug: harbor-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-communities-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-communities-api-openapi.yml
 - filename: harbor-leaderboards-api-openapi.yml
   format: yaml
   label: Harbor Leaderboards API
   slug: harbor-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-leaderboards-api-openapi.yml
 - filename: harbor-members-api-openapi.yml
   format: yaml
   label: Harbor Members API
   slug: harbor-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-members-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-members-api-openapi.yml
 - filename: harbor-redemptions-api-openapi.yml
   format: yaml
   label: Harbor Redemptions API
   slug: harbor-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-redemptions-api-openapi.yml
 - filename: harbor-rewards-api-openapi.yml
   format: yaml
   label: Harbor Rewards API
   slug: harbor-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/openapi/harbor-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/harbor/openapi/harbor-rewards-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/harbor
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communities/{communityId}/challenges\n  method: get\n  operationId: listChallenges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}/challenges\n  method: post\n  operationId: createChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communities/{communityId}/challenges/{challengeId}/complete\n  method: post\n  operationId: completeChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communities/{communityId}/rewards\n  method: get\n  operationId: listRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}/redemptions\n  method: get\n  operationId: listRedemptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}/redemptions\n  method: post\n  operationId: createRedemption\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /communities/{communityId}/leaderboard\n\
   \  method: get\n  operationId: getLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /communities/{communityId}\n  method: get\n  operationId: getCommunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harbor/refs/heads/main/agentic-access/harbor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/harbor/agentic-access/harbor-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Community

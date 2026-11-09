@@ -9,61 +9,61 @@ api_specs:
   label: Augment API Key API
   slug: augment-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-api-key-api-openapi.yml
 - filename: augment-carrier-management-api-openapi.yml
   format: yaml
   label: Augment Carrier Management API
   slug: augment-carrier-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-carrier-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-carrier-management-api-openapi.yml
 - filename: augment-carrier-support-api-openapi.yml
   format: yaml
   label: Augment Carrier Support API
   slug: augment-carrier-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-carrier-support-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-carrier-support-api-openapi.yml
 - filename: augment-load-management-api-openapi.yml
   format: yaml
   label: Augment Load Management API
   slug: augment-load-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-load-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-load-management-api-openapi.yml
 - filename: augment-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Augment Webhook Endpoints API
   slug: augment-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-webhook-endpoints-api-openapi.yml
 - filename: augment-webhook-event-subscriptions-api-openapi.yml
   format: yaml
   label: Augment Webhook Event Subscriptions API
   slug: augment-webhook-event-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-webhook-event-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-webhook-event-subscriptions-api-openapi.yml
 - filename: augment-csv-imports-api-openapi.yml
   format: yaml
   label: Augment CSV Imports API
   slug: augment-csv-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-csv-imports-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-csv-imports-api-openapi.yml
 - filename: augment-facility-management-api-openapi.yml
   format: yaml
   label: Augment Facility Management API
   slug: augment-facility-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-facility-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-facility-management-api-openapi.yml
 - filename: augment-purchase-order-management-api-openapi.yml
   format: yaml
   label: Augment Purchase Order Management API
   slug: augment-purchase-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-purchase-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-purchase-order-management-api-openapi.yml
 - filename: augment-quote-management-api-openapi.yml
   format: yaml
   label: Augment Quote Management API
   slug: augment-quote-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/openapi/augment-quote-management-api-openapi.yml
+  url: https://artifacts.apis.io/augment/openapi/augment-quote-management-api-openapi.yml
 consequence_counts:
   read: 8
   write: 15
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/augmen
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook-endpoints/{webhookEndpointId}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook-event-types\n  method: get\n  operationId: listWebhookEventTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook-subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook-subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook-subscriptions/{subscriptionId}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook-subscriptions/{subscriptionId}\n  method: patch\n  operationId: updateWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook-subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhook-subscriptions/{subscriptionId}/test\n  method: post\n  operationId: testWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/agentic-access/augment-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/augment/agentic-access/augment-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
 - Company

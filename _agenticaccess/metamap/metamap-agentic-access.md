@@ -9,61 +9,61 @@ api_specs:
   label: MetaMap Authentication API
   slug: metamap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-authentication-api-openapi.yml
 - filename: metamap-background-checks-api-openapi.yml
   format: yaml
   label: MetaMap Background Checks API
   slug: metamap-background-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-background-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-background-checks-api-openapi.yml
 - filename: metamap-credit-checks-api-openapi.yml
   format: yaml
   label: MetaMap Credit Checks API
   slug: metamap-credit-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-credit-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-credit-checks-api-openapi.yml
 - filename: metamap-custom-watchlists-api-openapi.yml
   format: yaml
   label: MetaMap Custom Watchlists API
   slug: metamap-custom-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-custom-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-custom-watchlists-api-openapi.yml
 - filename: metamap-email-checks-api-openapi.yml
   format: yaml
   label: MetaMap Email Checks API
   slug: metamap-email-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-email-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-email-checks-api-openapi.yml
 - filename: metamap-govchecks-api-openapi.yml
   format: yaml
   label: MetaMap GovChecks API
   slug: metamap-govchecks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-govchecks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-govchecks-api-openapi.yml
 - filename: metamap-phone-checks-api-openapi.yml
   format: yaml
   label: MetaMap Phone Checks API
   slug: metamap-phone-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-phone-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-phone-checks-api-openapi.yml
 - filename: metamap-verifications-api-openapi.yml
   format: yaml
   label: MetaMap Verifications API
   slug: metamap-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-verifications-api-openapi.yml
 - filename: metamap-watchlist-checks-api-openapi.yml
   format: yaml
   label: MetaMap Watchlist Checks API
   slug: metamap-watchlist-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-watchlist-checks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-watchlist-checks-api-openapi.yml
 - filename: metamap-webhooks-api-openapi.yml
   format: yaml
   label: MetaMap Webhooks API
   slug: metamap-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/openapi/metamap-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/metamap/openapi/metamap-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/metama
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/identities/{identity}/send-input\n  method: post\n  operationId: send-inputs\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/verifications/{verification_id}/inputs/document-photo/skip\n  method: put\n  operationId: skip-verification-upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/verifications\n  method: post\n  operationId:\
   \ start-verification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/verifications/{verificationId}/status\n  method: put\n  operationId: update-verification-status\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /safety/v1/upload/watchlists/file\n  method: post\n  operationId: upload-custom-watchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/agentic-access/metamap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/metamap/agentic-access/metamap-agentic-access.yml
 summary_line: 53 operations · 51 acting · 6 human-in-the-loop
 tags:
 - Identity Verification

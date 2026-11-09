@@ -8,43 +8,43 @@ api_specs:
   label: Django CMS Breadcrumbs API
   slug: django-cms-breadcrumbs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-breadcrumbs-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-breadcrumbs-api-openapi.yml
 - filename: django-cms-health-api-openapi.yml
   format: yaml
   label: Django CMS Health API
   slug: django-cms-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-health-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-health-api-openapi.yml
 - filename: django-cms-languages-api-openapi.yml
   format: yaml
   label: Django CMS Languages API
   slug: django-cms-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-languages-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-languages-api-openapi.yml
 - filename: django-cms-menus-api-openapi.yml
   format: yaml
   label: Django CMS Menus API
   slug: django-cms-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-menus-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-menus-api-openapi.yml
 - filename: django-cms-pages-api-openapi.yml
   format: yaml
   label: Django CMS Pages API
   slug: django-cms-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-pages-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-pages-api-openapi.yml
 - filename: django-cms-placeholders-api-openapi.yml
   format: yaml
   label: Django CMS Placeholders API
   slug: django-cms-placeholders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-placeholders-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-placeholders-api-openapi.yml
 - filename: django-cms-plugins-api-openapi.yml
   format: yaml
   label: Django CMS Plugins API
   slug: django-cms-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/openapi/django-cms-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/django-cms/openapi/django-cms-plugins-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/django
   \  method: get\n  operationId: submenu_levels_root_nephews_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/submenu/{levels}/{root_level}/{nephews}/{path}/\n  method: get\n  operationId: submenu_levels_root_nephews_path_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/submenu/{levels}/{root_level}/\n  method: get\n  operationId: submenu_levels_root_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/submenu/{levels}/\n  method: get\n  operationId: submenu_levels_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /{language}/submenu/\n  method: get\n  operationId: submenu_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/breadcrumbs/\n  method: get\n  operationId: breadcrumbs_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/breadcrumbs/{path}/\n  method: get\n  operationId: breadcrumbs_path_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/breadcrumbs/{start_level}/\n  method: get\n  operationId: breadcrumbs_level_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{language}/breadcrumbs/{start_level}/{path}/\n\
   \  method: get\n  operationId: breadcrumbs_level_path_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/django-cms/refs/heads/main/agentic-access/django-cms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/django-cms/agentic-access/django-cms-agentic-access.yml
 summary_line: 23 operations
 tags:
 - CMS

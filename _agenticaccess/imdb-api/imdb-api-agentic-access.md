@@ -8,37 +8,37 @@ api_specs:
   label: IMDb-API External API
   slug: imdb-api-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-external-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-external-api-openapi.yml
 - filename: imdb-api-lists-api-openapi.yml
   format: yaml
   label: IMDb-API Lists API
   slug: imdb-api-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-lists-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-lists-api-openapi.yml
 - filename: imdb-api-name-api-openapi.yml
   format: yaml
   label: IMDb-API Name API
   slug: imdb-api-name-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-name-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-name-api-openapi.yml
 - filename: imdb-api-search-api-openapi.yml
   format: yaml
   label: IMDb-API Search API
   slug: imdb-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-search-api-openapi.yml
 - filename: imdb-api-title-api-openapi.yml
   format: yaml
   label: IMDb-API Title API
   slug: imdb-api-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-title-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-title-api-openapi.yml
 - filename: imdb-api-tools-api-openapi.yml
   format: yaml
   label: IMDb-API Tools API
   slug: imdb-api-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/openapi/imdb-api-tools-api-openapi.yml
+  url: https://artifacts.apis.io/imdb-api/openapi/imdb-api-tools-api-openapi.yml
 consequence_counts:
   read: 37
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/imdb-a
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/API/MostPopularMovies/{apiKey}\n  method: get\n  operationId: getMostPopularMovies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/API/MostPopularTVs/{apiKey}\n  method: get\n  operationId: getMostPopularTVs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/API/InTheaters/{apiKey}\n  method: get\n  operationId: getInTheaters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/API/ComingSoon/{apiKey}\n  method: get\n  operationId: getComingSoon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /{lang}/API/BoxOffice/{apiKey}\n  method: get\n  operationId: getBoxOffice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{lang}/API/BoxOfficeAllTime/{apiKey}\n  method: get\n  operationId: getBoxOfficeAllTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/Usage/{apiKey}\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/ResizeImage\n  method: get\n  operationId: resizeImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/ResizePoster\n  method: get\n  operationId: resizePoster\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/imdb-api/refs/heads/main/agentic-access/imdb-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/imdb-api/agentic-access/imdb-api-agentic-access.yml
 summary_line: 37 operations
 tags:
 - Video

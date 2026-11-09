@@ -4,90 +4,30 @@ action_class_counts:
   acting: 10
   connected: 10
 api_specs:
-- filename: go1-categories-api-openapi.yml
-  format: yaml
-  label: Go1 Categories API
-  slug: go1-categories-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-categories-api-openapi.yml
-- filename: go1-collections-api-openapi.yml
-  format: yaml
-  label: Go1 Collections API
-  slug: go1-collections-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-collections-api-openapi.yml
-- filename: go1-compliance-api-openapi.yml
-  format: yaml
-  label: Go1 Compliance API
-  slug: go1-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-compliance-api-openapi.yml
 - filename: go1-enrollments-api-openapi.yml
   format: yaml
   label: Go1 Enrollments API
   slug: go1-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-enrollments-api-openapi.yml
-- filename: go1-files-api-openapi.yml
-  format: yaml
-  label: Go1 Files API
-  slug: go1-files-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-files-api-openapi.yml
+  url: https://artifacts.apis.io/go1/openapi/go1-enrollments-api-openapi.yml
 - filename: go1-learning-objects-api-openapi.yml
   format: yaml
   label: Go1 Learning objects API
   slug: go1-learning-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-learning-objects-api-openapi.yml
-- filename: go1-plans-api-openapi.yml
-  format: yaml
-  label: Go1 Plans API
-  slug: go1-plans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-plans-api-openapi.yml
-- filename: go1-play-links-api-openapi.yml
-  format: yaml
-  label: Go1 Play links API
-  slug: go1-play-links-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-play-links-api-openapi.yml
-- filename: go1-playlists-api-openapi.yml
-  format: yaml
-  label: Go1 Playlists API
-  slug: go1-playlists-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/go1/openapi/go1-learning-objects-api-openapi.yml
 - filename: go1-portals-api-openapi.yml
   format: yaml
   label: Go1 Portals API
   slug: go1-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-portals-api-openapi.yml
-- filename: go1-restrictions-api-openapi.yml
-  format: yaml
-  label: Go1 Restrictions API
-  slug: go1-restrictions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-restrictions-api-openapi.yml
-- filename: go1-scim-api-openapi.yml
-  format: yaml
-  label: Go1 SCIM API
-  slug: go1-scim-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-scim-api-openapi.yml
-- filename: go1-user-accounts-api-openapi.yml
-  format: yaml
-  label: Go1 User accounts API
-  slug: go1-user-accounts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/go1/openapi/go1-portals-api-openapi.yml
 - filename: go1-webhooks-api-openapi.yml
   format: yaml
   label: Go1 Webhooks API
   slug: go1-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/openapi/go1-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/go1/openapi/go1-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 5
@@ -150,7 +90,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/go1-op
   \  exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /enrollments\n  method: get\n  operationId: enrolmentSearchController_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - enrollment.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enrollments\n  method: post\n  operationId: enrolmentCreateController_postV3\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - enrollment.write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /enrollments/{id}/certificate\n  method: get\n  operationId: download_enrollment_controller\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - enrollment.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portals\n  method: post\n  operationId: createPortal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - portal.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portals\n  method: get\n  operationId: getPortals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - portal.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portals/{id}\n  method: get\n  operationId: getPortal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - portal.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portals/{id}\n\
   \  method: patch\n  operationId: patchPortal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - portal.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/go1/refs/heads/main/agentic-access/go1-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/go1/agentic-access/go1-agentic-access.yml
 summary_line: 20 operations · 10 acting · 5 human-in-the-loop
 tags:
 - Company

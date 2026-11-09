@@ -9,85 +9,85 @@ api_specs:
   label: Mistral AI Agents API
   slug: mistral-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-agents-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-agents-api-openapi.yml
 - filename: mistral-audio-api-openapi.yml
   format: yaml
   label: Mistral AI Audio API
   slug: mistral-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-audio-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-audio-api-openapi.yml
 - filename: mistral-batch-jobs-api-openapi.yml
   format: yaml
   label: Mistral AI Batch Jobs API
   slug: mistral-batch-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-batch-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-batch-jobs-api-openapi.yml
 - filename: mistral-embeddings-api-openapi.yml
   format: yaml
   label: Mistral AI Embeddings API
   slug: mistral-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-embeddings-api-openapi.yml
 - filename: mistral-files-api-openapi.yml
   format: yaml
   label: Mistral AI Files API
   slug: mistral-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-files-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-files-api-openapi.yml
 - filename: mistral-fim-api-openapi.yml
   format: yaml
   label: Mistral AI FIM API
   slug: mistral-fim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-fim-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-fim-api-openapi.yml
 - filename: mistral-fine-tuning-jobs-api-openapi.yml
   format: yaml
   label: Mistral AI Fine-Tuning Jobs API
   slug: mistral-fine-tuning-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-fine-tuning-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-fine-tuning-jobs-api-openapi.yml
 - filename: mistral-models-api-openapi.yml
   format: yaml
   label: Mistral AI Models API
   slug: mistral-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-models-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-models-api-openapi.yml
 - filename: mistral-moderation-api-openapi.yml
   format: yaml
   label: Mistral AI Moderation API
   slug: mistral-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-moderation-api-openapi.yml
 - filename: mistral-ocr-api-openapi.yml
   format: yaml
   label: Mistral AI OCR API
   slug: mistral-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-ocr-api-openapi.yml
 - filename: mistral-chat-completions-api-openapi.yml
   format: yaml
   label: Mistral AI Chat Completions API
   slug: mistral-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-chat-completions-api-openapi.yml
 - filename: mistral-training-jobs-api-openapi.yml
   format: yaml
   label: Mistral AI Training Jobs API
   slug: mistral-training-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-training-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-training-jobs-api-openapi.yml
 - filename: mistral-embeddings-api-openapi.yml
   format: yaml
   label: Mistral Embeddings API
   slug: mistral-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-embeddings-api-openapi.yml
 - filename: mistral-moderation-api-openapi.yml
   format: yaml
   label: Mistral Moderation API
   slug: mistral-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/openapi/mistral-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/mistral/openapi/mistral-moderation-api-openapi.yml
 consequence_counts:
   read: 10
   write: 19
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mistra
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model_id}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model_id}\n  method: patch\n  operationId: updateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{model_id}\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /models/{model_id}/archive\n  method: post\n  operationId: archiveModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{model_id}/unarchive\n  method: post\n  operationId: unarchiveModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /moderations\n  method: post\n  operationId: createModeration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/moderations\n  method: post\n  operationId: createChatModeration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocr\n  method: post\n  operationId: processDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/agentic-access/mistral-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mistral/agentic-access/mistral-agentic-access.yml
 summary_line: 29 operations · 19 acting
 tags:
 - Embeddings

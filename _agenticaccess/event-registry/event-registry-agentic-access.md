@@ -9,31 +9,31 @@ api_specs:
   label: Event Registry Articles API
   slug: event-registry-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-articles-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-articles-api-openapi.yml
 - filename: event-registry-events-api-openapi.yml
   format: yaml
   label: Event Registry Events API
   slug: event-registry-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-events-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-events-api-openapi.yml
 - filename: event-registry-suggest-api-openapi.yml
   format: yaml
   label: Event Registry Suggest API
   slug: event-registry-suggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-suggest-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-suggest-api-openapi.yml
 - filename: event-registry-topic-pages-api-openapi.yml
   format: yaml
   label: Event Registry Topic Pages API
   slug: event-registry-topic-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-topic-pages-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-topic-pages-api-openapi.yml
 - filename: event-registry-usage-api-openapi.yml
   format: yaml
   label: Event Registry Usage API
   slug: event-registry-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/openapi/event-registry-usage-api-openapi.yml
+  url: https://artifacts.apis.io/event-registry/openapi/event-registry-usage-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/event-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suggestConceptsFast\n  method: post\n  operationId: suggestConcepts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suggestCategoriesFast\n  method: post\n  operationId: suggestCategories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suggestSourcesFast\n  method: post\n  operationId: suggestSources\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suggestLocationsFast\n  method: post\n  operationId: suggestLocations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suggestAuthorsFast\n  method: post\n  operationId: suggestAuthors\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /article/getArticlesForTopicPage\n  method: post\n  operationId: getTopicPageArticles\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event/getEventsForTopicPage\n  method: post\n  operationId: getTopicPageEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: post\n  operationId: getApiUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/agentic-access/event-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/event-registry/agentic-access/event-registry-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - News

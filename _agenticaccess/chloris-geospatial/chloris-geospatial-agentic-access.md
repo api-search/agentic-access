@@ -9,55 +9,55 @@ api_specs:
   label: Chloris Geospatial Aoi API
   slug: chloris-geospatial-aoi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-aoi-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-aoi-api-openapi.yml
 - filename: chloris-geospatial-boundary-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Boundary API
   slug: chloris-geospatial-boundary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-boundary-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-boundary-api-openapi.yml
 - filename: chloris-geospatial-collection-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Collection API
   slug: chloris-geospatial-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-collection-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-collection-api-openapi.yml
 - filename: chloris-geospatial-info-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Info API
   slug: chloris-geospatial-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-info-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-info-api-openapi.yml
 - filename: chloris-geospatial-invite-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Invite API
   slug: chloris-geospatial-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-invite-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-invite-api-openapi.yml
 - filename: chloris-geospatial-mgrstiles-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Mgrs Tiles API
   slug: chloris-geospatial-mgrstiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-mgrstiles-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-mgrstiles-api-openapi.yml
 - filename: chloris-geospatial-organization-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Organization API
   slug: chloris-geospatial-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-organization-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-organization-api-openapi.yml
 - filename: chloris-geospatial-reportingunit-api-openapi.yml
   format: yaml
   label: Chloris Geospatial Reporting Unit API
   slug: chloris-geospatial-reportingunit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-reportingunit-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-reportingunit-api-openapi.yml
 - filename: chloris-geospatial-user-api-openapi.yml
   format: yaml
   label: Chloris Geospatial User API
   slug: chloris-geospatial-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/openapi/chloris-geospatial-user-api-openapi.yml
+  url: https://artifacts.apis.io/chloris-geospatial/openapi/chloris-geospatial-user-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/chlori
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mgrsTiles\n  method: get\n  operationId: getMgrsTilesFromBoundary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mgrsTiles/{id}\n  method: get\n  operationId: getMgrsTile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user\n  method: post\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invite\n  method: post\n  operationId: sendInvite\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /boundary\n  method: post\n  operationId: uploadBoundary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /boundary\n  method: get\n  operationId: getBoundaryUpload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collection\n  method: put\n  operationId: putCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /aoi/submit\n  method: get\n  operationId: submitAoiToSandbox\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /aoi/healthz\n  method: get\n  operationId: sandboxHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chloris-geospatial/refs/heads/main/agentic-access/chloris-geospatial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chloris-geospatial/agentic-access/chloris-geospatial-agentic-access.yml
 summary_line: 15 operations · 5 acting
 tags:
 - Company

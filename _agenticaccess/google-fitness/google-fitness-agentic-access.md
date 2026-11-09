@@ -9,7 +9,7 @@ api_specs:
   label: Google Fit REST Users API
   slug: google-fitness-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/openapi/google-fitness-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-fitness/openapi/google-fitness-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fitnes
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/dataSources/{dataSourceId}\n  method: get\n  operationId: getDataSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/dataSources/{dataSourceId}/datasets/{datasetId}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/dataSources/{dataSourceId}/datasets/{datasetId}\n  method: patch\n  operationId: patchDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /users/{userId}/dataset:aggregate\n  method: post\n  operationId: aggregateDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/sessions/{sessionId}\n  method: put\n  operationId: updateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}/sessions/{sessionId}\n\
   \  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/agentic-access/google-fitness-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-fitness/agentic-access/google-fitness-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Activity Tracking

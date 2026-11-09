@@ -9,43 +9,43 @@ api_specs:
   label: Greenly Alternatives API
   slug: greenly-earth-alternatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-alternatives-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-alternatives-api-openapi.yml
 - filename: greenly-earth-live-api-openapi.yml
   format: yaml
   label: Greenly Live API
   slug: greenly-earth-live-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-live-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-live-api-openapi.yml
 - filename: greenly-earth-offsetprojects-api-openapi.yml
   format: yaml
   label: Greenly Offset Projects API
   slug: greenly-earth-offsetprojects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-offsetprojects-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-offsetprojects-api-openapi.yml
 - filename: greenly-earth-ready-api-openapi.yml
   format: yaml
   label: Greenly Ready API
   slug: greenly-earth-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-ready-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-ready-api-openapi.yml
 - filename: greenly-earth-transactions-api-openapi.yml
   format: yaml
   label: Greenly Transactions API
   slug: greenly-earth-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-transactions-api-openapi.yml
 - filename: greenly-earth-users-api-openapi.yml
   format: yaml
   label: Greenly Users API
   slug: greenly-earth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-users-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-users-api-openapi.yml
 - filename: greenly-earth-purchase-categories-api-openapi.yml
   format: yaml
   label: Greenly Purchase Categories API
   slug: greenly-earth-purchase-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/openapi/greenly-earth-purchase-categories-api-openapi.yml
+  url: https://artifacts.apis.io/greenly-earth/openapi/greenly-earth-purchase-categories-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/greenl
   - path: /ready\n  method: get\n  operationId: IsReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseCategories\n  method: get\n  operationId: GetPurchaseCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /purchaseCategories/{purchaseCategoryId}\n  method: get\n  operationId: GetPurchaseCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/calculateCarbonFootprints\n  method: post\n  operationId: CalculateCarbonFootprints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /users/createUser\n  method: post\n  operationId: CreateUserAPI\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: put\n  operationId: UpdateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  operationId: GetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: delete\n\
   \  operationId: DeleteUserAPI\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenly-earth/refs/heads/main/agentic-access/greenly-earth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/greenly-earth/agentic-access/greenly-earth-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Carbon Accounting

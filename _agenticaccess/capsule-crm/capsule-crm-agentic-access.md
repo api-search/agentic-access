@@ -9,31 +9,31 @@ api_specs:
   label: Capsule CRM Entries API
   slug: capsule-crm-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-entries-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-entries-api-openapi.yml
 - filename: capsule-crm-opportunities-api-openapi.yml
   format: yaml
   label: Capsule CRM Opportunities API
   slug: capsule-crm-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-opportunities-api-openapi.yml
 - filename: capsule-crm-parties-api-openapi.yml
   format: yaml
   label: Capsule CRM Parties API
   slug: capsule-crm-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-parties-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-parties-api-openapi.yml
 - filename: capsule-crm-projects-api-openapi.yml
   format: yaml
   label: Capsule CRM Projects API
   slug: capsule-crm-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-projects-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-projects-api-openapi.yml
 - filename: capsule-crm-tasks-api-openapi.yml
   format: yaml
   label: Capsule CRM Tasks API
   slug: capsule-crm-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/openapi/capsule-crm-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/capsule-crm/openapi/capsule-crm-tasks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 15
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/capsul
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: get\n  operationId: showTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /entries\n  method: get\n  operationId: listEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entries\n  method: post\n  operationId: createEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entries/{id}\n  method: put\n  operationId: updateEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entries/{id}\n  method: delete\n  operationId: deleteEntry\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/agentic-access/capsule-crm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/capsule-crm/agentic-access/capsule-crm-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - CRM

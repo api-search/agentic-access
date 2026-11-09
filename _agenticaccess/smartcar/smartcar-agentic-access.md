@@ -9,31 +9,31 @@ api_specs:
   label: Smartcar Charging API
   slug: smartcar-charging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-charging-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-charging-api-openapi.yml
 - filename: smartcar-connections-api-openapi.yml
   format: yaml
   label: Smartcar Connections API
   slug: smartcar-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-connections-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-connections-api-openapi.yml
 - filename: smartcar-navigation-api-openapi.yml
   format: yaml
   label: Smartcar Navigation API
   slug: smartcar-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-navigation-api-openapi.yml
 - filename: smartcar-security-api-openapi.yml
   format: yaml
   label: Smartcar Security API
   slug: smartcar-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-security-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-security-api-openapi.yml
 - filename: smartcar-vehicle-data-api-openapi.yml
   format: yaml
   label: Smartcar Vehicle Data API
   slug: smartcar-vehicle-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/openapi/smartcar-vehicle-data-api-openapi.yml
+  url: https://artifacts.apis.io/smartcar/openapi/smartcar-vehicle-data-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartc
   \ required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /vehicles/{id}/location\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/odometer\n  method: get\n  operationId: getOdometer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/fuel\n  method: get\n  operationId: getFuelTank\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/engine/oil\n  method: get\n  operationId: getEngineOil\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/diagnostics/dtcs\n  method: get\n  operationId: getDiagnosticCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/permissions\n  method: get\n  operationId: getPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{id}/batch\n  method: post\n  operationId: batchRequests\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vehicles/{id}/commands/set-destination\n  method: post\n  operationId:\
   \ setDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcar/refs/heads/main/agentic-access/smartcar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartcar/agentic-access/smartcar-agentic-access.yml
 summary_line: 21 operations · 7 acting · 2 human-in-the-loop
 tags:
 - Automotive

@@ -9,13 +9,19 @@ api_specs:
   label: Amazon Kinesis Video Streams Signaling Channels API
   slug: amazon-kinesis-video-streams-signaling-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kinesis-video-streams/openapi/amazon-kinesis-video-streams-signaling-channels-api-openapi.yml
 - filename: amazon-kinesis-video-streams-streams-api-openapi.yml
   format: yaml
   label: Amazon Kinesis Video Streams API
   slug: amazon-kinesis-video-streams-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kinesis-video-streams/openapi/amazon-kinesis-video-streams-streams-api-openapi.yml
+- filename: amazon-kinesis-video-streams-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Kinesis Video Streams Kinesis Video Streams Operations API
+  slug: amazon-kinesis-video-streams-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kinesis-video-streams/openapi/amazon-kinesis-video-streams-operations-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -45,9 +51,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{StreamName}\n  method: get\n  operationId: DescribeStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{StreamName}\n  method: put\n  operationId: UpdateStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{StreamName}\n  method: delete\n  operationId: DeleteStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /channels\n  method: post\n  operationId: CreateSignalingChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels\n  method: get\n  operationId: ListSignalingChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{ChannelName}\n  method: get\n  operationId: DescribeSignalingChannel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channels/{ChannelName}\n  method: delete\n  operationId: DeleteSignalingChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-video-streams/refs/heads/main/agentic-access/amazon-kinesis-video-streams-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kinesis-video-streams/agentic-access/amazon-kinesis-video-streams-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
+- Amazon Web Services
 - IoT
 - Machine Learning
 - Media

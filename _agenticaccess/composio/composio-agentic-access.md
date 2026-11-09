@@ -9,103 +9,103 @@ api_specs:
   label: Composio Auth Configs API
   slug: composio-auth-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-auth-configs-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-auth-configs-api-openapi.yml
 - filename: composio-authentication-api-openapi.yml
   format: yaml
   label: Composio Authentication API
   slug: composio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-authentication-api-openapi.yml
 - filename: composio-cli-api-openapi.yml
   format: yaml
   label: Composio CLI API
   slug: composio-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-cli-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-cli-api-openapi.yml
 - filename: composio-cli-authentication-api-openapi.yml
   format: yaml
   label: Composio CLI Authentication API
   slug: composio-cli-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-cli-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-cli-authentication-api-openapi.yml
 - filename: composio-connected-accounts-api-openapi.yml
   format: yaml
   label: Composio Connected Accounts API
   slug: composio-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-connected-accounts-api-openapi.yml
 - filename: composio-files-api-openapi.yml
   format: yaml
   label: Composio Files API
   slug: composio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-files-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-files-api-openapi.yml
 - filename: composio-logs-api-openapi.yml
   format: yaml
   label: Composio Logs API
   slug: composio-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-logs-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-logs-api-openapi.yml
 - filename: composio-mcp-api-openapi.yml
   format: yaml
   label: Composio MCP API
   slug: composio-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-mcp-api-openapi.yml
 - filename: composio-migration-api-openapi.yml
   format: yaml
   label: Composio Migration API
   slug: composio-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-migration-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-migration-api-openapi.yml
 - filename: composio-organization-management-api-openapi.yml
   format: yaml
   label: Composio Organization Management API
   slug: composio-organization-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-organization-management-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-organization-management-api-openapi.yml
 - filename: composio-projects-api-openapi.yml
   format: yaml
   label: Composio Projects API
   slug: composio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-projects-api-openapi.yml
 - filename: composio-tool-router-api-openapi.yml
   format: yaml
   label: Composio Tool Router API
   slug: composio-tool-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-tool-router-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-tool-router-api-openapi.yml
 - filename: composio-toolkits-api-openapi.yml
   format: yaml
   label: Composio Toolkits API
   slug: composio-toolkits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-toolkits-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-toolkits-api-openapi.yml
 - filename: composio-tools-api-openapi.yml
   format: yaml
   label: Composio Tools API
   slug: composio-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-tools-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-tools-api-openapi.yml
 - filename: composio-triggers-api-openapi.yml
   format: yaml
   label: Composio Triggers API
   slug: composio-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-triggers-api-openapi.yml
 - filename: composio-webhook-endpoints-api-openapi.yml
   format: yaml
   label: Composio Webhook Endpoints API
   slug: composio-webhook-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-webhook-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-webhook-endpoints-api-openapi.yml
 - filename: composio-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Composio Webhook Subscriptions API
   slug: composio-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/openapi/composio-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/composio/openapi/composio-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   read: 49
   safety-critical: 3
@@ -183,14 +183,15 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/compos
   \ required\n    audit: required\n- path: /api/v3/triggers_types/list/enum\n  method: get\n  operationId: getTriggersTypesListEnum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/triggers_types/{slug}\n  method: get\n  operationId: getTriggersTypesBySlug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/triggers_types\n  method: get\n  operationId: getTriggersTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers\n  method: get\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggers\n  method: post\n  operationId:\
   \ createTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook_endpoints\n  method: post\n  operationId: postWebhookEndpoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook_endpoints\n  method: get\n  operationId: getWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/webhook_endpoints/{nano_id}\n  method: get\n  operationId: getWebhookEndpointsByNanoId\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/webhook_endpoints/{nano_id}\n  method: post\n  operationId: postWebhookEndpointsByNanoId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook_endpoints/{nano_id}\n  method: patch\n  operationId: patchWebhookEndpointsByNanoId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook_subscriptions\n  method: post\n  operationId: postWebhookSubscriptions\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook_subscriptions\n  method: get\n  operationId: getWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/webhook_subscriptions/{id}\n  method: get\n  operationId: getWebhookSubscriptionsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/agentic-access/composio-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/composio/refs/heads/main/agentic-access/composio-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/webhook_subscriptions\n  method: get\n  operationId: getWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/webhook_subscriptions/{id}\n  method: get\n  operationId: getWebhookSubscriptionsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/composio/agentic-access/composio-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/composio/agentic-access/composio-agentic-access.yml
 summary_line: 107 operations · 58 acting · 3 human-in-the-loop
 tags:
 - AI Agents
 - Authentication
 - Integration
 - MCP
+- OAuth
 - Sandbox
 - Tools
 - Triggers

@@ -9,103 +9,103 @@ api_specs:
   label: Spike.sh Alert Rules API
   slug: spike-sh-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-alert-rules-api-openapi.yml
 - filename: spike-sh-components-api-openapi.yml
   format: yaml
   label: Spike.sh Components API
   slug: spike-sh-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-components-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-components-api-openapi.yml
 - filename: spike-sh-escalations-api-openapi.yml
   format: yaml
   label: Spike.sh Escalations API
   slug: spike-sh-escalations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-escalations-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-escalations-api-openapi.yml
 - filename: spike-sh-incident-actions-api-openapi.yml
   format: yaml
   label: Spike.sh Incident Actions API
   slug: spike-sh-incident-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-incident-actions-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-incident-actions-api-openapi.yml
 - filename: spike-sh-incidents-api-openapi.yml
   format: yaml
   label: Spike.sh Incidents API
   slug: spike-sh-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-incidents-api-openapi.yml
 - filename: spike-sh-integrations-api-openapi.yml
   format: yaml
   label: Spike.sh Integrations API
   slug: spike-sh-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-integrations-api-openapi.yml
 - filename: spike-sh-on-call-overrides-api-openapi.yml
   format: yaml
   label: Spike.sh On-Call Overrides API
   slug: spike-sh-on-call-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-on-call-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-on-call-overrides-api-openapi.yml
 - filename: spike-sh-on-call-schedules-api-openapi.yml
   format: yaml
   label: Spike.sh On-Call Schedules API
   slug: spike-sh-on-call-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-on-call-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-on-call-schedules-api-openapi.yml
 - filename: spike-sh-orgs-api-openapi.yml
   format: yaml
   label: Spike.sh Orgs API
   slug: spike-sh-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-orgs-api-openapi.yml
 - filename: spike-sh-planned-maintenances-api-openapi.yml
   format: yaml
   label: Spike.sh Planned Maintenances API
   slug: spike-sh-planned-maintenances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-planned-maintenances-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-planned-maintenances-api-openapi.yml
 - filename: spike-sh-services-api-openapi.yml
   format: yaml
   label: Spike.sh Services API
   slug: spike-sh-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-services-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-services-api-openapi.yml
 - filename: spike-sh-status-page-incidents-api-openapi.yml
   format: yaml
   label: Spike.sh Status Page Incidents API
   slug: spike-sh-status-page-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-status-page-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-status-page-incidents-api-openapi.yml
 - filename: spike-sh-status-pages-api-openapi.yml
   format: yaml
   label: Spike.sh Status Pages API
   slug: spike-sh-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-status-pages-api-openapi.yml
 - filename: spike-sh-subscribers-api-openapi.yml
   format: yaml
   label: Spike.sh Subscribers API
   slug: spike-sh-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-subscribers-api-openapi.yml
 - filename: spike-sh-suppressed-incidents-api-openapi.yml
   format: yaml
   label: Spike.sh Suppressed Incidents API
   slug: spike-sh-suppressed-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-suppressed-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-suppressed-incidents-api-openapi.yml
 - filename: spike-sh-teams-api-openapi.yml
   format: yaml
   label: Spike.sh Teams API
   slug: spike-sh-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-teams-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-teams-api-openapi.yml
 - filename: spike-sh-users-api-openapi.yml
   format: yaml
   label: Spike.sh Users API
   slug: spike-sh-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/openapi/spike-sh-users-api-openapi.yml
+  url: https://artifacts.apis.io/spike-sh/openapi/spike-sh-users-api-openapi.yml
 consequence_counts:
   read: 49
   safety-critical: 3
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spike-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/status-page/{status_page_id}/planned-maintenance\n  method: get\n  operationId: getOngoingPlannedMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status-page/{status_page_id}/planned-maintenance/upcoming\n  method: get\n  operationId: getUpcomingPlannedMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status-page/{status_page_id}/planned-maintenance/previous\n  method: get\n  operationId: getPreviousPlannedMaintenances\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status-page/{status_page_id}/planned-maintenance/{pm_id}\n  method: get\n  operationId: getPlannedMaintenance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status-page/{status_page_id}/planned-maintenance/create\n  method: post\n  operationId: createPlannedMaintenance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/status-page/{status_page_id}/planned-maintenance/{pm_id}/update\n  method: post\n  operationId: updatePlannedMaintenance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/status-page/{status_page_id}/subscribers\n  method: get\n  operationId: getSubscribers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spike-sh/refs/heads/main/agentic-access/spike-sh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spike-sh/agentic-access/spike-sh-agentic-access.yml
 summary_line: 85 operations · 36 acting · 3 human-in-the-loop
 tags:
 - Incident Management

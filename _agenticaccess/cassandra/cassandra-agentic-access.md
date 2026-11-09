@@ -15,37 +15,37 @@ api_specs:
   label: Apache Cassandra Columns API
   slug: cassandra-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-columns-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-columns-api-openapi.yml
 - filename: cassandra-indexes-api-openapi.yml
   format: yaml
   label: Apache Cassandra Indexes API
   slug: cassandra-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-indexes-api-openapi.yml
 - filename: cassandra-keyspaces-api-openapi.yml
   format: yaml
   label: Apache Cassandra Keyspaces API
   slug: cassandra-keyspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-keyspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-keyspaces-api-openapi.yml
 - filename: cassandra-rows-api-openapi.yml
   format: yaml
   label: Apache Cassandra Rows API
   slug: cassandra-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-rows-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-rows-api-openapi.yml
 - filename: cassandra-tables-api-openapi.yml
   format: yaml
   label: Apache Cassandra Tables API
   slug: cassandra-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-tables-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-tables-api-openapi.yml
 - filename: cassandra-types-api-openapi.yml
   format: yaml
   label: Apache Cassandra Types API
   slug: cassandra-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-types-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-types-api-openapi.yml
 consequence_counts:
   read: 11
   write: 15
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cassan
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/schemas/keyspaces/{keyspace}/types/{type}\n  method: delete\n  operationId: deleteType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/keyspaces/{keyspace}/{table}\n  method: get\n  operationId: queryRows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/keyspaces/{keyspace}/{table}\n  method: post\n  operationId: insertRow\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/keyspaces/{keyspace}/{table}/rows\n  method: get\n  operationId: getAllRows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/keyspaces/{keyspace}/{table}/{primaryKey}\n  method: get\n  operationId: getRow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/keyspaces/{keyspace}/{table}/{primaryKey}\n  method: put\n  operationId: replaceRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/keyspaces/{keyspace}/{table}/{primaryKey}\n  method: patch\n  operationId: updateRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/keyspaces/{keyspace}/{table}/{primaryKey}\n  method: delete\n  operationId: deleteRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/agentic-access/cassandra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cassandra/agentic-access/cassandra-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
 - Apache

@@ -9,49 +9,49 @@ api_specs:
   label: Upsie Authorization API
   slug: upsie-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-authorization-api-openapi.yml
 - filename: upsie-repair-assignments-repairassignments-api-openapi.yml
   format: yaml
   label: Upsie Repair Assignments (/repairassignments) API
   slug: upsie-repair-assignments-repairassignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-assignments-repairassignments-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-assignments-repairassignments-api-openapi.yml
 - filename: upsie-repair-categories-api-openapi.yml
   format: yaml
   label: Upsie Repair Categories API
   slug: upsie-repair-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-categories-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-categories-api-openapi.yml
 - filename: upsie-repair-item-templates-api-openapi.yml
   format: yaml
   label: Upsie Repair Item Templates API
   slug: upsie-repair-item-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-item-templates-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-item-templates-api-openapi.yml
 - filename: upsie-repair-items-repairitems-api-openapi.yml
   format: yaml
   label: Upsie Repair Items (/repairitems) API
   slug: upsie-repair-items-repairitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-items-repairitems-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-items-repairitems-api-openapi.yml
 - filename: upsie-repair-notes-api-openapi.yml
   format: yaml
   label: Upsie Repair Notes API
   slug: upsie-repair-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repair-notes-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repair-notes-api-openapi.yml
 - filename: upsie-repairs-repairs-api-openapi.yml
   format: yaml
   label: Upsie Repairs (/repairs) API
   slug: upsie-repairs-repairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-repairs-repairs-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-repairs-repairs-api-openapi.yml
 - filename: upsie-webhooks-api-openapi.yml
   format: yaml
   label: Upsie Webhooks API
   slug: upsie-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/openapi/upsie-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/upsie/openapi/upsie-webhooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 12
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/upsie-
   \  method: post\n  operationId: invalidateApiTokens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/auth/whoami\n  method: get\n  operationId: whoAmI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/partnerorganizationwebhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/partnerorganizationwebhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/partnerorganizationwebhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/partnerorganizationwebhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/partnerorganizationwebhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upsie/refs/heads/main/agentic-access/upsie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/upsie/agentic-access/upsie-agentic-access.yml
 summary_line: 22 operations · 12 acting
 tags:
 - Company

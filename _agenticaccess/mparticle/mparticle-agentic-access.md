@@ -9,43 +9,43 @@ api_specs:
   label: mParticle Data Plan API
   slug: mparticle-data-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-api-openapi.yml
 - filename: mparticle-data-plan-version-api-openapi.yml
   format: yaml
   label: mParticle Data Plan Version API
   slug: mparticle-data-plan-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-version-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-version-api-openapi.yml
 - filename: mparticle-events-api-openapi.yml
   format: yaml
   label: mParticle Events API
   slug: mparticle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-events-api-openapi.yml
 - filename: mparticle-identify-api-openapi.yml
   format: yaml
   label: mParticle Identify API
   slug: mparticle-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-identify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-identify-api-openapi.yml
 - filename: mparticle-login-api-openapi.yml
   format: yaml
   label: mParticle Login API
   slug: mparticle-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-login-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-login-api-openapi.yml
 - filename: mparticle-logout-api-openapi.yml
   format: yaml
   label: mParticle Logout API
   slug: mparticle-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-logout-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-logout-api-openapi.yml
 - filename: mparticle-modify-api-openapi.yml
   format: yaml
   label: mParticle Modify API
   slug: mparticle-modify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-modify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-modify-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 3
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/mparti
   \      - abnormal\n      - high-value\n    audit: required\n- path: /{plan_id}/versions\n  method: post\n  operationId: create-plan-version\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validate\n  method: post\n  operationId: validate-plan-document\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: post\n  operationId: uploadEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n\
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bulkevents\n  method: post\n  operationId: bulkUploadEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identify\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /login\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logout\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{mpid}/modify\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/agentic-access/mparticle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mparticle/agentic-access/mparticle-agentic-access.yml
 summary_line: 16 operations · 13 acting
 tags:
 - Customer Data Platform

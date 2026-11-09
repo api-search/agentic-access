@@ -9,61 +9,61 @@ api_specs:
   label: Tinybird Analyze API
   slug: tinybird-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-analyze-api-openapi.yml
 - filename: tinybird-data-sources-api-openapi.yml
   format: yaml
   label: Tinybird Data Sources API
   slug: tinybird-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-data-sources-api-openapi.yml
 - filename: tinybird-environment-variables-api-openapi.yml
   format: yaml
   label: Tinybird Environment Variables API
   slug: tinybird-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-environment-variables-api-openapi.yml
 - filename: tinybird-events-api-openapi.yml
   format: yaml
   label: Tinybird Events API
   slug: tinybird-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-events-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-events-api-openapi.yml
 - filename: tinybird-jobs-api-openapi.yml
   format: yaml
   label: Tinybird Jobs API
   slug: tinybird-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-jobs-api-openapi.yml
 - filename: tinybird-organizations-api-openapi.yml
   format: yaml
   label: Tinybird Organizations API
   slug: tinybird-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-organizations-api-openapi.yml
 - filename: tinybird-pipes-api-openapi.yml
   format: yaml
   label: Tinybird Pipes API
   slug: tinybird-pipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-pipes-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-pipes-api-openapi.yml
 - filename: tinybird-query-api-openapi.yml
   format: yaml
   label: Tinybird Query API
   slug: tinybird-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-query-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-query-api-openapi.yml
 - filename: tinybird-sink-pipes-api-openapi.yml
   format: yaml
   label: Tinybird Sink Pipes API
   slug: tinybird-sink-pipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-sink-pipes-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-sink-pipes-api-openapi.yml
 - filename: tinybird-tokens-api-openapi.yml
   format: yaml
   label: Tinybird Tokens API
   slug: tinybird-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/openapi/tinybird-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tinybird/openapi/tinybird-tokens-api-openapi.yml
 consequence_counts:
   read: 16
   write: 22
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tinybi
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/sink_pipes\n  method: post\n  operationId: createSinkPipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tokens/\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tokens/\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tokens/{tokenId}\n  method:\
   \ get\n  operationId: getToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tokens/{tokenId}\n  method: put\n  operationId: updateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tokens/{tokenId}\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tokens/{tokenId}/refresh\n  method: post\n  operationId: refreshToken\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/agentic-access/tinybird-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tinybird/agentic-access/tinybird-agentic-access.yml
 summary_line: 38 operations · 22 acting
 tags:
 - Analytics

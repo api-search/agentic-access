@@ -9,121 +9,121 @@ api_specs:
   label: SuprSend Broadcast API
   slug: suprsend-broadcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-broadcast-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-broadcast-api-openapi.yml
 - filename: suprsend-broadcast-run-api-openapi.yml
   format: yaml
   label: SuprSend Broadcast Run API
   slug: suprsend-broadcast-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-broadcast-run-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-broadcast-run-api-openapi.yml
 - filename: suprsend-bulk-api-openapi.yml
   format: yaml
   label: SuprSend Bulk API
   slug: suprsend-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-bulk-api-openapi.yml
 - filename: suprsend-event-api-openapi.yml
   format: yaml
   label: SuprSend Event API
   slug: suprsend-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-event-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-event-api-openapi.yml
 - filename: suprsend-message-api-openapi.yml
   format: yaml
   label: SuprSend Message API
   slug: suprsend-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-message-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-message-api-openapi.yml
 - filename: suprsend-object-api-openapi.yml
   format: yaml
   label: SuprSend Object API
   slug: suprsend-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-object-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-object-api-openapi.yml
 - filename: suprsend-preference-category-api-openapi.yml
   format: yaml
   label: SuprSend Preference Category API
   slug: suprsend-preference-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-preference-category-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-preference-category-api-openapi.yml
 - filename: suprsend-schema-api-openapi.yml
   format: yaml
   label: SuprSend Schema API
   slug: suprsend-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-schema-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-schema-api-openapi.yml
 - filename: suprsend-subscriber-list-api-openapi.yml
   format: yaml
   label: SuprSend Subscriber List API
   slug: suprsend-subscriber-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-subscriber-list-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-subscriber-list-api-openapi.yml
 - filename: suprsend-template-api-openapi.yml
   format: yaml
   label: SuprSend Template API
   slug: suprsend-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-template-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-template-api-openapi.yml
 - filename: suprsend-tenant-api-openapi.yml
   format: yaml
   label: SuprSend Tenant API
   slug: suprsend-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-tenant-api-openapi.yml
 - filename: suprsend-translation-api-openapi.yml
   format: yaml
   label: SuprSend Translation API
   slug: suprsend-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-translation-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-translation-api-openapi.yml
 - filename: suprsend-trigger-api-openapi.yml
   format: yaml
   label: SuprSend Trigger API
   slug: suprsend-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-trigger-api-openapi.yml
 - filename: suprsend-user-api-openapi.yml
   format: yaml
   label: SuprSend User API
   slug: suprsend-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-user-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-user-api-openapi.yml
 - filename: suprsend-workflow-api-openapi.yml
   format: yaml
   label: SuprSend Workflow API
   slug: suprsend-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-workflow-api-openapi.yml
 - filename: suprsend-workflow-run-api-openapi.yml
   format: yaml
   label: SuprSend Workflow Run API
   slug: suprsend-workflow-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-workflow-run-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-workflow-run-api-openapi.yml
 - filename: suprsend-workspace-api-openapi.yml
   format: yaml
   label: SuprSend Workspace API
   slug: suprsend-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-workspace-api-openapi.yml
 - filename: suprsend-ws-api-key-api-openapi.yml
   format: yaml
   label: SuprSend Ws Api Key API
   slug: suprsend-ws-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-ws-api-key-api-openapi.yml
 - filename: suprsend-ws-public-key-api-openapi.yml
   format: yaml
   label: SuprSend Ws Public Key API
   slug: suprsend-ws-public-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-public-key-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-ws-public-key-api-openapi.yml
 - filename: suprsend-ws-signing-key-api-openapi.yml
   format: yaml
   label: SuprSend Ws Signing Key API
   slug: suprsend-ws-signing-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/openapi/suprsend-ws-signing-key-api-openapi.yml
+  url: https://artifacts.apis.io/suprsend/openapi/suprsend-ws-signing-key-api-openapi.yml
 consequence_counts:
   read: 52
   safety-critical: 4
@@ -207,8 +207,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/suprse
   \  method: get\n  operationId: get-linked-workflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{workspace}/event/{url_encoded_event_name}/delink_schema/\n  method: patch\n  operationId: delink-event-schema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{workspace}/preference_category/\n  method: get\n  operationId: get-category\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{workspace}/preference_category/\n  method: post\n  operationId: create-update-category\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{workspace}/preference_category/commit/\n  method: patch\n  operationId: commit-category\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{workspace}/preference_category/translation/locale/\n  method: get\n  operationId: list-category-translation-locales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{workspace}/preference_category/translation/content/{locale}/\n  method: get\n  operationId: get-category-translation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{workspace}/preference_category/translation/content/{locale}/\n  method: post\n  operationId: add-category-translation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/{workspace}/preference_category/translation/content/{locale}/\n  method: delete\n  operationId: delete-category-translation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37\
-  \ KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/agentic-access/suprsend-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/agentic-access/suprsend-agentic-access.yml
+  \ KB total) ---\n# Full source: https://artifacts.apis.io/suprsend/agentic-access/suprsend-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/suprsend/agentic-access/suprsend-agentic-access.yml
 summary_line: 122 operations · 70 acting · 4 human-in-the-loop
 tags:
 - Notification

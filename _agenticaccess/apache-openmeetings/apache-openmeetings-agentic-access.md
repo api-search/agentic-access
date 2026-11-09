@@ -9,61 +9,61 @@ api_specs:
   label: Apache OpenMeetings CalendarService API
   slug: apache-openmeetings-calendarservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-calendarservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-calendarservice-api-openapi.yml
 - filename: apache-openmeetings-errorservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings ErrorService API
   slug: apache-openmeetings-errorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-errorservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-errorservice-api-openapi.yml
 - filename: apache-openmeetings-fileservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings FileService API
   slug: apache-openmeetings-fileservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-fileservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-fileservice-api-openapi.yml
 - filename: apache-openmeetings-groupservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings GroupService API
   slug: apache-openmeetings-groupservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-groupservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-groupservice-api-openapi.yml
 - filename: apache-openmeetings-infoservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings InfoService API
   slug: apache-openmeetings-infoservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-infoservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-infoservice-api-openapi.yml
 - filename: apache-openmeetings-nettestservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings NetTestService API
   slug: apache-openmeetings-nettestservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-nettestservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-nettestservice-api-openapi.yml
 - filename: apache-openmeetings-recordingservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings RecordingService API
   slug: apache-openmeetings-recordingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-recordingservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-recordingservice-api-openapi.yml
 - filename: apache-openmeetings-roomservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings RoomService API
   slug: apache-openmeetings-roomservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-roomservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-roomservice-api-openapi.yml
 - filename: apache-openmeetings-userservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings UserService API
   slug: apache-openmeetings-userservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-userservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-userservice-api-openapi.yml
 - filename: apache-openmeetings-wbservice-api-openapi.yml
   format: yaml
   label: Apache OpenMeetings WbService API
   slug: apache-openmeetings-wbservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/openapi/apache-openmeetings-wbservice-api-openapi.yml
+  url: https://artifacts.apis.io/apache-openmeetings/openapi/apache-openmeetings-wbservice-api-openapi.yml
 consequence_counts:
   read: 33
   write: 23
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apache
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{externaltype}/{externalid}\n  method: delete\n  operationId: deleteExternal_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/hash\n  method: post\n  operationId: getRoomHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wb/cleanslide/{roomid}/{wbid}/{slide}\n  method: get\n  operationId: cleanSlide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wb/cleanwb/{roomid}/{wbid}\n  method: get\n  operationId: cleanWb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wb/resetwb/{id}\n  method: get\n  operationId: resetWb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wb/uploadwb/{type}\n  method: post\n  operationId: uploadWb\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/agentic-access/apache-openmeetings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-openmeetings/agentic-access/apache-openmeetings-agentic-access.yml
 summary_line: 56 operations · 23 acting
 tags:
 - Collaboration

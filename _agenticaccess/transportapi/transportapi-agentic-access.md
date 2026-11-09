@@ -8,25 +8,25 @@ api_specs:
   label: TransportAPI Bus Information API
   slug: transportapi-bus-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-bus-information-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-bus-information-api-openapi.yml
 - filename: transportapi-journey-planner-api-openapi.yml
   format: yaml
   label: TransportAPI Journey Planner API
   slug: transportapi-journey-planner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-journey-planner-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-journey-planner-api-openapi.yml
 - filename: transportapi-places-api-openapi.yml
   format: yaml
   label: TransportAPI Places API
   slug: transportapi-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-places-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-places-api-openapi.yml
 - filename: transportapi-rail-information-api-openapi.yml
   format: yaml
   label: TransportAPI Rail Information API
   slug: transportapi-rail-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/openapi/transportapi-rail-information-api-openapi.yml
+  url: https://artifacts.apis.io/transportapi/openapi/transportapi-rail-information-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transportapi-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /bus/stop/{atcocode}/live.json\n  method: get\n  operationId: getBusStopLiveDepartures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bus/stop/{atcocode}/timetable.json\n  method: get\n  operationId: getBusStopTimetable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bus/route/{operator}/{line}/{direction}/{atcocode}/{date}/timetable.json\n\
   \  method: get\n  operationId: getBusRouteTimetable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /train/station/{station_code}/live.json\n  method: get\n  operationId: getTrainStationLiveDepartures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /train/station/{station_code}/{date}/{time}/timetable.json\n  method: get\n  operationId: getTrainStationTimetable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places.json\n  method: get\n  operationId: searchPlaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /journey/from/{from_coords}/to/{to_coords}.json\n  method:\
   \ get\n  operationId: planJourney\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transportapi/refs/heads/main/agentic-access/transportapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transportapi/agentic-access/transportapi-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Public Transit

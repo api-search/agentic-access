@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Datastream Operations API
   slug: google-cloud-datastream-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-operations-api-openapi.yml
 - filename: google-cloud-datastream-streams-api-openapi.yml
   format: yaml
   label: Google Cloud Datastream Streams API
   slug: google-cloud-datastream-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-streams-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-streams-api-openapi.yml
 - filename: google-cloud-datastream-connection-profiles-api-openapi.yml
   format: yaml
   label: Google Cloud Datastream Connection Profiles API
   slug: google-cloud-datastream-connection-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/openapi/google-cloud-datastream-connection-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-connection-profiles-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \  method: delete\n  operationId: deleteConnectionProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/streams\n  method: get\n  operationId: listStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/streams\n  method: post\n  operationId: createStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/streams/{streamId}\n\
   \  method: get\n  operationId: getStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/streams/{streamId}\n  method: patch\n  operationId: updateStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/streams/{streamId}\n  method: delete\n  operationId: deleteStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/operations/{operationId}\n\
   \  method: get\n  operationId: getOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastream/refs/heads/main/agentic-access/google-cloud-datastream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-datastream/agentic-access/google-cloud-datastream-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Change Data Capture

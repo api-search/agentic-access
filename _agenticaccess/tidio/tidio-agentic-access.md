@@ -9,43 +9,43 @@ api_specs:
   label: Tidio Contacts API
   slug: tidio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-contacts-api-openapi.yml
 - filename: tidio-departments-api-openapi.yml
   format: yaml
   label: Tidio Departments API
   slug: tidio-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-departments-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-departments-api-openapi.yml
 - filename: tidio-lyro-api-openapi.yml
   format: yaml
   label: Tidio Lyro API
   slug: tidio-lyro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-lyro-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-lyro-api-openapi.yml
 - filename: tidio-operators-api-openapi.yml
   format: yaml
   label: Tidio Operators API
   slug: tidio-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-operators-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-operators-api-openapi.yml
 - filename: tidio-products-api-openapi.yml
   format: yaml
   label: Tidio Products API
   slug: tidio-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-products-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-products-api-openapi.yml
 - filename: tidio-project-api-openapi.yml
   format: yaml
   label: Tidio Project API
   slug: tidio-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-project-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-project-api-openapi.yml
 - filename: tidio-tickets-api-openapi.yml
   format: yaml
   label: Tidio Tickets API
   slug: tidio-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/openapi/tidio-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tidio/openapi/tidio-tickets-api-openapi.yml
 consequence_counts:
   read: 11
   write: 15
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tidio-
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lyro/data-sources/qa\n  method: post\n  operationId: createLyroQaDataSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lyro/data-sources/website\n  method: put\n  operationId: upsertLyroWebsiteDataSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lyro/data-sources/website/scrape\n  method: post\n  operationId: scrapeWebsiteLyroDataSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lyro/tickets\n  method: post\n  operationId: askLyroToAnswerTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/batch\n  method: put\n  operationId: upsertProducts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/{productId}\n  method: delete\n  operationId: deleteProduct\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/agentic-access/tidio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tidio/agentic-access/tidio-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
 - Live Chat

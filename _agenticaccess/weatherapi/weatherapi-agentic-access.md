@@ -8,43 +8,43 @@ api_specs:
   label: WeatherAPI Alerts API
   slug: weatherapi-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-alerts-api-openapi.yml
 - filename: weatherapi-future-api-openapi.yml
   format: yaml
   label: WeatherAPI Future API
   slug: weatherapi-future-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-future-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-future-api-openapi.yml
 - filename: weatherapi-geo-api-openapi.yml
   format: yaml
   label: WeatherAPI Geo API
   slug: weatherapi-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-geo-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-geo-api-openapi.yml
 - filename: weatherapi-history-api-openapi.yml
   format: yaml
   label: WeatherAPI History API
   slug: weatherapi-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-history-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-history-api-openapi.yml
 - filename: weatherapi-marine-api-openapi.yml
   format: yaml
   label: WeatherAPI Marine API
   slug: weatherapi-marine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-marine-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-marine-api-openapi.yml
 - filename: weatherapi-sports-api-openapi.yml
   format: yaml
   label: WeatherAPI Sports API
   slug: weatherapi-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-sports-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-sports-api-openapi.yml
 - filename: weatherapi-weather-api-openapi.yml
   format: yaml
   label: WeatherAPI Weather API
   slug: weatherapi-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/openapi/weatherapi-weather-api-openapi.yml
+  url: https://artifacts.apis.io/weatherapi/openapi/weatherapi-weather-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/weathe
   \  method: get\n  operationId: getFutureWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search.json\n  method: get\n  operationId: searchLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ip.json\n  method: get\n  operationId: ipLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timezone.json\n  method: get\n  operationId: getTimezone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /astronomy.json\n  method: get\n  operationId: getAstronomy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /history.json\n  method: get\n  operationId: getHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marine.json\n  method: get\n  operationId: getMarine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sports.json\n  method: get\n  operationId: getSports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current.json\n  method: get\n  operationId: getCurrentWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecast.json\n  method: get\n  operationId: getForecast\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current.json#bulk\n  method: post\n  operationId: getBulkCurrentWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weatherapi/refs/heads/main/agentic-access/weatherapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weatherapi/agentic-access/weatherapi-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Weather

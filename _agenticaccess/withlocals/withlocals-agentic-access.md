@@ -9,31 +9,31 @@ api_specs:
   label: Withlocals Availability API
   slug: withlocals-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-availability-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-availability-api-openapi.yml
 - filename: withlocals-bookings-api-openapi.yml
   format: yaml
   label: Withlocals Bookings API
   slug: withlocals-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-bookings-api-openapi.yml
 - filename: withlocals-products-api-openapi.yml
   format: yaml
   label: Withlocals Products API
   slug: withlocals-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-products-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-products-api-openapi.yml
 - filename: withlocals-supplier-api-openapi.yml
   format: yaml
   label: Withlocals Supplier API
   slug: withlocals-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-supplier-api-openapi.yml
 - filename: withlocals-webhooks-api-openapi.yml
   format: yaml
   label: Withlocals Webhooks API
   slug: withlocals-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/openapi/withlocals-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/withlocals/openapi/withlocals-webhooks-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/withlo
   \ getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /availability/calendar\n  method: post\n  operationId: availabilityCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings\n  method: get\n  operationId: listBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings\n  method: post\n  operationId: createBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{bookingId}\n  method: get\n  operationId:\
   \ getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{bookingId}\n  method: patch\n  operationId: amendBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/{bookingId}\n  method: delete\n  operationId: cancelBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: put\n  operationId: setWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/withlocals/refs/heads/main/agentic-access/withlocals-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/withlocals/agentic-access/withlocals-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: Celestia Node Blob API
   slug: celestia-blob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-blob-api-openapi.yml
+  url: https://artifacts.apis.io/celestia/openapi/celestia-blob-api-openapi.yml
 - filename: celestia-contact-api-openapi.yml
   format: yaml
   label: Celestia Contact API
   slug: celestia-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-contact-api-openapi.yml
+  url: https://artifacts.apis.io/celestia/openapi/celestia-contact-api-openapi.yml
 - filename: celestia-health-api-openapi.yml
   format: yaml
   label: Celestia Health API
   slug: celestia-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-health-api-openapi.yml
+  url: https://artifacts.apis.io/celestia/openapi/celestia-health-api-openapi.yml
 - filename: celestia-subscribe-api-openapi.yml
   format: yaml
   label: Celestia Subscribe API
   slug: celestia-subscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/openapi/celestia-subscribe-api-openapi.yml
+  url: https://artifacts.apis.io/celestia/openapi/celestia-subscribe-api-openapi.yml
 consequence_counts:
   write: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/celest
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: postRoot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celestia/refs/heads/main/agentic-access/celestia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/celestia/agentic-access/celestia-agentic-access.yml
 summary_line: 10 operations · 10 acting
 tags:
 - Blockchain

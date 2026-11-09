@@ -9,121 +9,121 @@ api_specs:
   label: Dyspatch Blocks API
   slug: dyspatch-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-blocks-api-openapi.yml
 - filename: dyspatch-customer-profiles-api-openapi.yml
   format: yaml
   label: Dyspatch Customer Profiles API
   slug: dyspatch-customer-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-customer-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-customer-profiles-api-openapi.yml
 - filename: dyspatch-drafts-api-openapi.yml
   format: yaml
   label: Dyspatch Drafts API
   slug: dyspatch-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-drafts-api-openapi.yml
 - filename: dyspatch-live-activity-drafts-api-openapi.yml
   format: yaml
   label: Dyspatch Live Activity Drafts API
   slug: dyspatch-live-activity-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-live-activity-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-live-activity-drafts-api-openapi.yml
 - filename: dyspatch-live-activity-localizations-api-openapi.yml
   format: yaml
   label: Dyspatch Live Activity Localizations API
   slug: dyspatch-live-activity-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-live-activity-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-live-activity-localizations-api-openapi.yml
 - filename: dyspatch-live-activity-templates-api-openapi.yml
   format: yaml
   label: Dyspatch Live Activity Templates API
   slug: dyspatch-live-activity-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-live-activity-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-live-activity-templates-api-openapi.yml
 - filename: dyspatch-localizations-api-openapi.yml
   format: yaml
   label: Dyspatch Localizations API
   slug: dyspatch-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-localizations-api-openapi.yml
 - filename: dyspatch-push-drafts-api-openapi.yml
   format: yaml
   label: Dyspatch Push Drafts API
   slug: dyspatch-push-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-push-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-push-drafts-api-openapi.yml
 - filename: dyspatch-push-localizations-api-openapi.yml
   format: yaml
   label: Dyspatch Push Localizations API
   slug: dyspatch-push-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-push-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-push-localizations-api-openapi.yml
 - filename: dyspatch-push-templates-api-openapi.yml
   format: yaml
   label: Dyspatch Push Templates API
   slug: dyspatch-push-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-push-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-push-templates-api-openapi.yml
 - filename: dyspatch-sms-drafts-api-openapi.yml
   format: yaml
   label: Dyspatch SMS Drafts API
   slug: dyspatch-sms-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-sms-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-sms-drafts-api-openapi.yml
 - filename: dyspatch-sms-localizations-api-openapi.yml
   format: yaml
   label: Dyspatch SMS Localizations API
   slug: dyspatch-sms-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-sms-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-sms-localizations-api-openapi.yml
 - filename: dyspatch-sms-templates-api-openapi.yml
   format: yaml
   label: Dyspatch SMS Templates API
   slug: dyspatch-sms-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-sms-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-sms-templates-api-openapi.yml
 - filename: dyspatch-tags-api-openapi.yml
   format: yaml
   label: Dyspatch Tags API
   slug: dyspatch-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-tags-api-openapi.yml
 - filename: dyspatch-templates-api-openapi.yml
   format: yaml
   label: Dyspatch Templates API
   slug: dyspatch-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-templates-api-openapi.yml
 - filename: dyspatch-themes-api-openapi.yml
   format: yaml
   label: Dyspatch Themes API
   slug: dyspatch-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-themes-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-themes-api-openapi.yml
 - filename: dyspatch-voice-drafts-api-openapi.yml
   format: yaml
   label: Dyspatch Voice Drafts API
   slug: dyspatch-voice-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-voice-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-voice-drafts-api-openapi.yml
 - filename: dyspatch-voice-localizations-api-openapi.yml
   format: yaml
   label: Dyspatch Voice Localizations API
   slug: dyspatch-voice-localizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-voice-localizations-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-voice-localizations-api-openapi.yml
 - filename: dyspatch-voice-templates-api-openapi.yml
   format: yaml
   label: Dyspatch Voice Templates API
   slug: dyspatch-voice-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-voice-templates-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-voice-templates-api-openapi.yml
 - filename: dyspatch-workspaces-api-openapi.yml
   format: yaml
   label: Dyspatch Workspaces API
   slug: dyspatch-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/openapi/dyspatch-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/dyspatch/openapi/dyspatch-workspaces-api-openapi.yml
 consequence_counts:
   read: 58
   write: 73
@@ -182,8 +182,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dyspat
   \  method: delete\n  operationId: deleteLiveActivityLocalization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /liveactivity/drafts/{draftId}/localizations/{languageId}/translations\n  method: get\n  operationId: getLiveActivityTranslations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liveactivity/drafts/{draftId}/localizations/{languageId}/translations\n  method: put\n  operationId: setLiveActivityTranslation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /liveactivity/drafts/{draftId}/localizationKeys\n  method: get\n  operationId: getLiveActivityDraftLocalizationKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liveactivity/localizations/{localizationId}\n  method: get\n  operationId: getLiveActivityPublishedLocalizationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liveactivity/localizations/{localizationId}/drafts/{draftId}\n  method: get\n  operationId: getLiveActivityDraftLocalizationById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/templates\n  method: get\n  operationId: getVoiceTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/templates/{templateId}\n  method: get\n  operationId: getVoiceTemplateById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/render/template/{templateId}\n  method: post\n  operationId: renderVoiceTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/render/template/{templateId}/{languageId}\n  method: post\n  operationId: renderVoiceTemplateByLCID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/drafts\n  method: get\n  operationId: getVoiceDrafts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/drafts/{draftId}/publishRequest\n  method: post\n  operationId: submitVoiceDraftForApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/agentic-access/dyspatch-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dyspatch/refs/heads/main/agentic-access/dyspatch-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voice/drafts\n  method: get\n  operationId: getVoiceDrafts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice/drafts/{draftId}/publishRequest\n  method: post\n  operationId: submitVoiceDraftForApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/dyspatch/agentic-access/dyspatch-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dyspatch/agentic-access/dyspatch-agentic-access.yml
 summary_line: 131 operations · 73 acting
 tags:
 - Company

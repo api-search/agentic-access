@@ -9,91 +9,91 @@ api_specs:
   label: Open Mobility Foundation Events API
   slug: open-mobility-foundation-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-events-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-events-api-openapi.yml
 - filename: open-mobility-foundation-geographies-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Geographies API
   slug: open-mobility-foundation-geographies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-geographies-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-geographies-api-openapi.yml
 - filename: open-mobility-foundation-geographies-json-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Geographies.json API
   slug: open-mobility-foundation-geographies-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-geographies-json-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-geographies-json-api-openapi.yml
 - filename: open-mobility-foundation-jurisdictions-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Jurisdictions API
   slug: open-mobility-foundation-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-jurisdictions-api-openapi.yml
 - filename: open-mobility-foundation-jurisdictions-json-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Jurisdictions.json API
   slug: open-mobility-foundation-jurisdictions-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-jurisdictions-json-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-jurisdictions-json-api-openapi.yml
 - filename: open-mobility-foundation-metrics-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Metrics API
   slug: open-mobility-foundation-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-metrics-api-openapi.yml
 - filename: open-mobility-foundation-policies-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Policies API
   slug: open-mobility-foundation-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-policies-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-policies-api-openapi.yml
 - filename: open-mobility-foundation-policies-json-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Policies.json API
   slug: open-mobility-foundation-policies-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-policies-json-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-policies-json-api-openapi.yml
 - filename: open-mobility-foundation-reports-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Reports API
   slug: open-mobility-foundation-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-reports-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-reports-api-openapi.yml
 - filename: open-mobility-foundation-requirements-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Requirements API
   slug: open-mobility-foundation-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-requirements-api-openapi.yml
 - filename: open-mobility-foundation-stops-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Stops API
   slug: open-mobility-foundation-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-stops-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-stops-api-openapi.yml
 - filename: open-mobility-foundation-telemetry-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Telemetry API
   slug: open-mobility-foundation-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-telemetry-api-openapi.yml
 - filename: open-mobility-foundation-trips-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Trips API
   slug: open-mobility-foundation-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-trips-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-trips-api-openapi.yml
 - filename: open-mobility-foundation-value-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Value API
   slug: open-mobility-foundation-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-value-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-value-api-openapi.yml
 - filename: open-mobility-foundation-vehicles-api-openapi.yml
   format: yaml
   label: Open Mobility Foundation Vehicles API
   slug: open-mobility-foundation-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/openapi/open-mobility-foundation-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/open-mobility-foundation/openapi/open-mobility-foundation-vehicles-api-openapi.yml
 consequence_counts:
   read: 29
   safety-critical: 2
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/open-m
   \ method: get\n  operationId: get-vehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/{device_id}\n  method: get\n  operationId: get-vehicles-device_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/status\n  method: get\n  operationId: get-vehicles-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicles/status/{device_id}\n  method: get\n  operationId: get-vehicles-status-device_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trips\n  method: get\n  operationId: get-trips-end_time\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /telemetry\n  method: get\n  operationId: get-telemetry-telemetry_time\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/historical\n  method: get\n  operationId: get-events-historical-event_time\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/recent\n  method: get\n  operationId: get-events-recent-start_time-end_time\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stops\n  method: get\n  operationId: get-stops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /stops/{stop_id}\n  method: get\n  operationId: get-stops-stop_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{filename}\n  method: get\n  operationId: get-reports-filename\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-mobility-foundation/refs/heads/main/agentic-access/open-mobility-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-mobility-foundation/agentic-access/open-mobility-foundation-agentic-access.yml
 summary_line: 38 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Company

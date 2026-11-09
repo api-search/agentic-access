@@ -9,109 +9,109 @@ api_specs:
   label: PropelAuth End-User API Keys API
   slug: propelauth-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-api-keys-api-openapi.yml
 - filename: propelauth-access-tokens-api-openapi.yml
   format: yaml
   label: PropelAuth Access Tokens API
   slug: propelauth-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-access-tokens-api-openapi.yml
 - filename: propelauth-discovery-api-openapi.yml
   format: yaml
   label: PropelAuth Discovery API
   slug: propelauth-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-discovery-api-openapi.yml
 - filename: propelauth-dynamic-client-registration-api-openapi.yml
   format: yaml
   label: PropelAuth Dynamic Client Registration API
   slug: propelauth-dynamic-client-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-dynamic-client-registration-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-dynamic-client-registration-api-openapi.yml
 - filename: propelauth-employees-api-openapi.yml
   format: yaml
   label: PropelAuth Employees API
   slug: propelauth-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-employees-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-employees-api-openapi.yml
 - filename: propelauth-invites-api-openapi.yml
   format: yaml
   label: PropelAuth Invites API
   slug: propelauth-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-invites-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-invites-api-openapi.yml
 - filename: propelauth-magic-links-api-openapi.yml
   format: yaml
   label: PropelAuth Magic Links API
   slug: propelauth-magic-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-magic-links-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-magic-links-api-openapi.yml
 - filename: propelauth-mcp-oauth-2-1-api-openapi.yml
   format: yaml
   label: PropelAuth MCP OAuth 2.1 API
   slug: propelauth-mcp-oauth-2-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-mcp-oauth-2-1-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-mcp-oauth-2-1-api-openapi.yml
 - filename: propelauth-members-api-openapi.yml
   format: yaml
   label: PropelAuth Members API
   slug: propelauth-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-members-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-members-api-openapi.yml
 - filename: propelauth-metadata-api-openapi.yml
   format: yaml
   label: PropelAuth Metadata API
   slug: propelauth-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-metadata-api-openapi.yml
 - filename: propelauth-migration-api-openapi.yml
   format: yaml
   label: PropelAuth Migration API
   slug: propelauth-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-migration-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-migration-api-openapi.yml
 - filename: propelauth-organizations-api-openapi.yml
   format: yaml
   label: PropelAuth Organizations API
   slug: propelauth-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-organizations-api-openapi.yml
 - filename: propelauth-role-mappings-api-openapi.yml
   format: yaml
   label: PropelAuth Role Mappings API
   slug: propelauth-role-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-role-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-role-mappings-api-openapi.yml
 - filename: propelauth-sessions-api-openapi.yml
   format: yaml
   label: PropelAuth Sessions API
   slug: propelauth-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-sessions-api-openapi.yml
 - filename: propelauth-usage-api-openapi.yml
   format: yaml
   label: PropelAuth Usage API
   slug: propelauth-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-usage-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-usage-api-openapi.yml
 - filename: propelauth-users-api-openapi.yml
   format: yaml
   label: PropelAuth Users API
   slug: propelauth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-users-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-users-api-openapi.yml
 - filename: propelauth-validation-api-openapi.yml
   format: yaml
   label: PropelAuth Validation API
   slug: propelauth-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-validation-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-validation-api-openapi.yml
 - filename: propelauth-oauth2-api-openapi.yml
   format: yaml
   label: PropelAuth O Auth2 API
   slug: propelauth-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/openapi/propelauth-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/propelauth/openapi/propelauth-oauth2-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -181,7 +181,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/propel
   \    audit: required\n- path: /api/backend/v1/user/{userId}/clear_password\n  method: put\n  operationId: clearUserPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/backend/v1/user/{userId}/disable\n  method: post\n  operationId: disableUser\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/backend/v1/user/{userId}/enable\n  method: post\n  operationId: enableUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/backend/v1/user/{userId}/disable_2fa\n  method: post\n  operationId: disableUser2fa\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/backend/v1/resend_email_confirmation\n  method: post\n  operationId: resendEmailConfirmation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/backend/v1/end_user_api_keys/validate\n  method: post\n  operationId: validateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/backend/v1/end_user_api_keys/validate_imported\n  method: post\n  operationId: validateImportedApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/agentic-access/propelauth-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/propelauth/agentic-access/propelauth-agentic-access.yml
 summary_line: 54 operations · 35 acting · 3 human-in-the-loop
 tags:
 - Authentication

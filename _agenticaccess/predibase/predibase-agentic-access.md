@@ -9,43 +9,43 @@ api_specs:
   label: Predibase Adapters API
   slug: predibase-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-adapters-api-openapi.yml
 - filename: predibase-batch-inference-api-openapi.yml
   format: yaml
   label: Predibase Batch Inference API
   slug: predibase-batch-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-batch-inference-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-batch-inference-api-openapi.yml
 - filename: predibase-datasets-api-openapi.yml
   format: yaml
   label: Predibase Datasets API
   slug: predibase-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-datasets-api-openapi.yml
 - filename: predibase-deployments-api-openapi.yml
   format: yaml
   label: Predibase Deployments API
   slug: predibase-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-deployments-api-openapi.yml
 - filename: predibase-fine-tuning-api-openapi.yml
   format: yaml
   label: Predibase Fine-Tuning API
   slug: predibase-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-fine-tuning-api-openapi.yml
 - filename: predibase-inference-api-openapi.yml
   format: yaml
   label: Predibase Inference API
   slug: predibase-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-inference-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-inference-api-openapi.yml
 - filename: predibase-models-api-openapi.yml
   format: yaml
   label: Predibase Models API
   slug: predibase-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/openapi/predibase-models-api-openapi.yml
+  url: https://artifacts.apis.io/predibase/openapi/predibase-models-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/predib
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentName}\n  method: delete\n  operationId: deleteDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets\n  method: post\n  operationId: createDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /datasets/{datasetName}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch-inference/jobs\n  method: post\n  operationId: createBatchInferenceJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batch-inference/jobs\n  method: get\n  operationId: listBatchInferenceJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch-inference/jobs/{jobId}\n  method: get\n  operationId: getBatchInferenceJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/agentic-access/predibase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/predibase/agentic-access/predibase-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Artificial Intelligence

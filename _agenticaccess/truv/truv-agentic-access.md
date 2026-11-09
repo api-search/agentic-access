@@ -9,121 +9,121 @@ api_specs:
   label: Truv Admin API
   slug: truv-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-admin-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-admin-api-openapi.yml
 - filename: truv-banking-api-openapi.yml
   format: yaml
   label: Truv Banking API
   slug: truv-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-banking-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-banking-api-openapi.yml
 - filename: truv-bridge-tokens-api-openapi.yml
   format: yaml
   label: Truv Bridge Tokens API
   slug: truv-bridge-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-bridge-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-bridge-tokens-api-openapi.yml
 - filename: truv-companies-providers-api-openapi.yml
   format: yaml
   label: Truv Companies & Providers API
   slug: truv-companies-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-companies-providers-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-companies-providers-api-openapi.yml
 - filename: truv-direct-deposit-api-openapi.yml
   format: yaml
   label: Truv Direct Deposit API
   slug: truv-direct-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-direct-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-direct-deposit-api-openapi.yml
 - filename: truv-employment-api-openapi.yml
   format: yaml
   label: Truv Employment API
   slug: truv-employment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-employment-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-employment-api-openapi.yml
 - filename: truv-identity-api-openapi.yml
   format: yaml
   label: Truv Identity API
   slug: truv-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-identity-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-identity-api-openapi.yml
 - filename: truv-income-api-openapi.yml
   format: yaml
   label: Truv Income API
   slug: truv-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-income-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-income-api-openapi.yml
 - filename: truv-insurance-api-openapi.yml
   format: yaml
   label: Truv Insurance API
   slug: truv-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-insurance-api-openapi.yml
 - filename: truv-links-api-openapi.yml
   format: yaml
   label: Truv Links API
   slug: truv-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-links-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-links-api-openapi.yml
 - filename: truv-orders-api-openapi.yml
   format: yaml
   label: Truv Orders API
   slug: truv-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-orders-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-orders-api-openapi.yml
 - filename: truv-pay-statements-api-openapi.yml
   format: yaml
   label: Truv Pay Statements API
   slug: truv-pay-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-pay-statements-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-pay-statements-api-openapi.yml
 - filename: truv-payroll-shifts-api-openapi.yml
   format: yaml
   label: Truv Payroll & Shifts API
   slug: truv-payroll-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-payroll-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-payroll-shifts-api-openapi.yml
 - filename: truv-pll-api-openapi.yml
   format: yaml
   label: Truv PLL API
   slug: truv-pll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-pll-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-pll-api-openapi.yml
 - filename: truv-scoring-api-openapi.yml
   format: yaml
   label: Truv Scoring API
   slug: truv-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-scoring-api-openapi.yml
 - filename: truv-tasks-api-openapi.yml
   format: yaml
   label: Truv Tasks API
   slug: truv-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-tasks-api-openapi.yml
 - filename: truv-tax-api-openapi.yml
   format: yaml
   label: Truv Tax API
   slug: truv-tax-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-tax-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-tax-api-openapi.yml
 - filename: truv-templates-api-openapi.yml
   format: yaml
   label: Truv Templates API
   slug: truv-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-templates-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-templates-api-openapi.yml
 - filename: truv-users-api-openapi.yml
   format: yaml
   label: Truv Users API
   slug: truv-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-users-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-users-api-openapi.yml
 - filename: truv-webhooks-api-openapi.yml
   format: yaml
   label: Truv Webhooks API
   slug: truv-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/openapi/truv-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/truv/openapi/truv-webhooks-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 44
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/truv-a
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook_id}/\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhook_id}/\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook_id}/\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /v1/webhook-requests/\n  method: get\n  operationId: listWebhookRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truv/refs/heads/main/agentic-access/truv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/truv/agentic-access/truv-agentic-access.yml
 summary_line: 68 operations · 24 acting
 tags:
 - Income Verification

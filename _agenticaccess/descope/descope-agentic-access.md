@@ -9,91 +9,91 @@ api_specs:
   label: Descope Apps API
   slug: descope-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-apps-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-apps-api-openapi.yml
 - filename: descope-auth-api-openapi.yml
   format: yaml
   label: Descope Auth API
   slug: descope-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-auth-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-auth-api-openapi.yml
 - filename: descope-custom-attributes-api-openapi.yml
   format: yaml
   label: Descope Custom Attributes API
   slug: descope-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-custom-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-custom-attributes-api-openapi.yml
 - filename: descope-email-api-openapi.yml
   format: yaml
   label: Descope Email API
   slug: descope-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-email-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-email-api-openapi.yml
 - filename: descope-embedded-link-api-openapi.yml
   format: yaml
   label: Descope Embedded Link API
   slug: descope-embedded-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-embedded-link-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-embedded-link-api-openapi.yml
 - filename: descope-fedcm-api-openapi.yml
   format: yaml
   label: Descope Fedcm API
   slug: descope-fedcm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-fedcm-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-fedcm-api-openapi.yml
 - filename: descope-instant-message-im-api-openapi.yml
   format: yaml
   label: Descope Instant Message (IM) API
   slug: descope-instant-message-im-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-instant-message-im-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-instant-message-im-api-openapi.yml
 - filename: descope-keys-api-openapi.yml
   format: yaml
   label: Descope Keys API
   slug: descope-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-keys-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-keys-api-openapi.yml
 - filename: descope-mgmt-api-openapi.yml
   format: yaml
   label: Descope Mgmt API
   slug: descope-mgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-mgmt-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-mgmt-api-openapi.yml
 - filename: descope-scim-api-openapi.yml
   format: yaml
   label: Descope Scim API
   slug: descope-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-scim-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-scim-api-openapi.yml
 - filename: descope-text-message-sms-api-openapi.yml
   format: yaml
   label: Descope Text Message (SMS) API
   slug: descope-text-message-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-text-message-sms-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-text-message-sms-api-openapi.yml
 - filename: descope-verification-api-openapi.yml
   format: yaml
   label: Descope Verification API
   slug: descope-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-verification-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-verification-api-openapi.yml
 - filename: descope-voice-message-phone-api-openapi.yml
   format: yaml
   label: Descope Voice Message (Phone) API
   slug: descope-voice-message-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-voice-message-phone-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-voice-message-phone-api-openapi.yml
 - filename: descope-well-known-api-openapi.yml
   format: yaml
   label: Descope .well Known API
   slug: descope-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-well-known-api-openapi.yml
 - filename: descope-oauth2-api-openapi.yml
   format: yaml
   label: Descope Oauth2 API
   slug: descope-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/openapi/descope-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/descope/openapi/descope-oauth2-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 109
@@ -202,8 +202,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/descop
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/mgmt/user/signin/embeddedlink\n  method: post\n  operationId: EmbeddedLinkSignin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fedcm/clientmetadata\n  method: get\n  operationId: GetFedCMClientMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{projectId}/fedcm/config\n  method: get\n  operationId: GetFedCMConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/auth/otp/signup/im\n  method: post\n  operationId: SignUpOTPInstantMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/otp/signin/im\n  method: post\n  operationId: SignInOTPInstantMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/otp/signup-in/im\n  method: post\n  operationId: SignUpOrInOTPInstantMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/otp/verify/im\n  method: post\n  operationId: VerifyCodeIM\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/otp/update/phone/im\n  method: post\n  operationId: UpdateUserPhoneOTPIM\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/keys/{projectId}\n  method: get\n  operationId: GetKeys\n  x-agentic-access:\n    action-class: connected\n\
-  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/keys/{projectId}\n  method: get\n  operationId: GetKeysV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mgmt/inboundapp/app/{projectId}/register\n  method: post\n  operationId: RegisterThirdPartyApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (146 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/agentic-access/descope-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descope/refs/heads/main/agentic-access/descope-agentic-access.yml
+  \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/keys/{projectId}\n  method: get\n  operationId: GetKeysV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mgmt/inboundapp/app/{projectId}/register\n  method: post\n  operationId: RegisterThirdPartyApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (146 KB total) ---\n# Full source: https://artifacts.apis.io/descope/agentic-access/descope-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/descope/agentic-access/descope-agentic-access.yml
 summary_line: 459 operations · 350 acting · 8 human-in-the-loop
 tags:
 - Authentication
@@ -213,6 +213,7 @@ tags:
 - Passkeys
 - MFA
 - SSO
+- OAuth
 - OpenID Connect
 - SAML
 - SCIM

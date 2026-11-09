@@ -9,55 +9,55 @@ api_specs:
   label: H Company Agents API
   slug: h-company-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-agents-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-agents-api-openapi.yml
 - filename: h-company-browser-profiles-api-openapi.yml
   format: yaml
   label: H Company Browser Profiles API
   slug: h-company-browser-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-browser-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-browser-profiles-api-openapi.yml
 - filename: h-company-environments-api-openapi.yml
   format: yaml
   label: H Company Environments API
   slug: h-company-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-environments-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-environments-api-openapi.yml
 - filename: h-company-quota-api-openapi.yml
   format: yaml
   label: H Company Quota API
   slug: h-company-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-quota-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-quota-api-openapi.yml
 - filename: h-company-schedules-api-openapi.yml
   format: yaml
   label: H Company Schedules API
   slug: h-company-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-schedules-api-openapi.yml
 - filename: h-company-sessions-api-openapi.yml
   format: yaml
   label: H Company Sessions API
   slug: h-company-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-sessions-api-openapi.yml
 - filename: h-company-skills-api-openapi.yml
   format: yaml
   label: H Company Skills API
   slug: h-company-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-skills-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-skills-api-openapi.yml
 - filename: h-company-vaults-api-openapi.yml
   format: yaml
   label: H Company Vaults API
   slug: h-company-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-vaults-api-openapi.yml
 - filename: h-company-webhooks-api-openapi.yml
   format: yaml
   label: H Company Webhooks API
   slug: h-company-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/openapi/h-company-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/h-company/openapi/h-company-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 26
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/h-comp
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vaults\n  method: post\n  operationId: create_vault_api_v2_vaults_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vaults\n  method: get\n  operationId: list_vaults_api_v2_vaults_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/vaults/{vault_id}\n  method: get\n  operationId: get_vault_api_v2_vaults__vault_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/vaults/{vault_id}\n  method: patch\n  operationId:\
   \ update_vault_api_v2_vaults__vault_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vaults/{vault_id}\n  method: delete\n  operationId: delete_vault_api_v2_vaults__vault_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vaults/{vault_id}/token\n  method: put\n  operationId: rotate_vault_token_api_v2_vaults__vault_id__token_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/vaults/{vault_id}/health\n  method: get\n  operationId: vault_health_api_v2_vaults__vault_id__health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/quota/tokens\n  method: get\n  operationId: get_token_quota_api_v2_quota_tokens_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/agentic-access/h-company-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/h-company/agentic-access/h-company-agentic-access.yml
 summary_line: 69 operations · 43 acting · 4 human-in-the-loop
 tags:
 - Artificial Intelligence

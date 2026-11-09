@@ -9,133 +9,133 @@ api_specs:
   label: August Health Admission Agreements (v1) API
   slug: august-health-admission-agreements-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-admission-agreements-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-admission-agreements-v1-api-openapi.yml
 - filename: august-health-assessments-v1-api-openapi.yml
   format: yaml
   label: August Health Assessments (v1) API
   slug: august-health-assessments-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-assessments-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-assessments-v1-api-openapi.yml
 - filename: august-health-billing-v1-api-openapi.yml
   format: yaml
   label: August Health Billing (v1) API
   slug: august-health-billing-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-billing-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-billing-v1-api-openapi.yml
 - filename: august-health-care-v1-api-openapi.yml
   format: yaml
   label: August Health Care (v1) API
   slug: august-health-care-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-care-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-care-v1-api-openapi.yml
 - filename: august-health-census-v1-api-openapi.yml
   format: yaml
   label: August Health Census (v1) API
   slug: august-health-census-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-census-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-census-v1-api-openapi.yml
 - filename: august-health-contacts-v1-api-openapi.yml
   format: yaml
   label: August Health Contacts (v1) API
   slug: august-health-contacts-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-contacts-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-contacts-v1-api-openapi.yml
 - filename: august-health-facilities-v1-api-openapi.yml
   format: yaml
   label: August Health Facilities (v1) API
   slug: august-health-facilities-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-facilities-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-facilities-v1-api-openapi.yml
 - filename: august-health-immunizations-v1-api-openapi.yml
   format: yaml
   label: August Health Immunizations (v1) API
   slug: august-health-immunizations-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-immunizations-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-immunizations-v1-api-openapi.yml
 - filename: august-health-incidents-v1-api-openapi.yml
   format: yaml
   label: August Health Incidents (v1) API
   slug: august-health-incidents-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-incidents-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-incidents-v1-api-openapi.yml
 - filename: august-health-med-passes-v1-api-openapi.yml
   format: yaml
   label: August Health Med Passes (v1) API
   slug: august-health-med-passes-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-med-passes-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-med-passes-v1-api-openapi.yml
 - filename: august-health-medication-administrations-v1-api-openapi.yml
   format: yaml
   label: August Health Medication Administrations (v1) API
   slug: august-health-medication-administrations-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-medication-administrations-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-medication-administrations-v1-api-openapi.yml
 - filename: august-health-medication-orders-v1-api-openapi.yml
   format: yaml
   label: August Health Medication Orders (v1) API
   slug: august-health-medication-orders-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-medication-orders-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-medication-orders-v1-api-openapi.yml
 - filename: august-health-occupancy-v1-api-openapi.yml
   format: yaml
   label: August Health Occupancy (v1) API
   slug: august-health-occupancy-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-occupancy-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-occupancy-v1-api-openapi.yml
 - filename: august-health-organizations-v1-api-openapi.yml
   format: yaml
   label: August Health Organizations (v1) API
   slug: august-health-organizations-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-organizations-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-organizations-v1-api-openapi.yml
 - filename: august-health-residents-v1-api-openapi.yml
   format: yaml
   label: August Health Residents (v1) API
   slug: august-health-residents-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-residents-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-residents-v1-api-openapi.yml
 - filename: august-health-shifts-v1-api-openapi.yml
   format: yaml
   label: August Health Shifts (v1) API
   slug: august-health-shifts-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-shifts-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-shifts-v1-api-openapi.yml
 - filename: august-health-tasks-v1-api-openapi.yml
   format: yaml
   label: August Health Tasks (v1) API
   slug: august-health-tasks-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-tasks-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-tasks-v1-api-openapi.yml
 - filename: august-health-tokens-v1-api-openapi.yml
   format: yaml
   label: August Health Tokens (v1) API
   slug: august-health-tokens-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-tokens-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-tokens-v1-api-openapi.yml
 - filename: august-health-users-v1-api-openapi.yml
   format: yaml
   label: August Health Users (v1) API
   slug: august-health-users-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-users-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-users-v1-api-openapi.yml
 - filename: august-health-visitor-logs-v1-api-openapi.yml
   format: yaml
   label: August Health Visitor Logs (v1) API
   slug: august-health-visitor-logs-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-visitor-logs-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-visitor-logs-v1-api-openapi.yml
 - filename: august-health-vitals-v1-api-openapi.yml
   format: yaml
   label: August Health Vitals (v1) API
   slug: august-health-vitals-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-vitals-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-vitals-v1-api-openapi.yml
 - filename: august-health-webhooks-v1-api-openapi.yml
   format: yaml
   label: August Health Webhooks (v1) API
   slug: august-health-webhooks-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/openapi/august-health-webhooks-v1-api-openapi.yml
+  url: https://artifacts.apis.io/august-health/openapi/august-health-webhooks-v1-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 45
@@ -192,7 +192,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/august
   \  method: get\n  operationId: listVitalsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/facilities/{facilityId}/people/{personId}/vitals/{id}\n  method: get\n  operationId: getVitalV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/facilities/{facilityId}/people/{personId}/vitals/{id}\n  method: patch\n  operationId: updateVitalV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{orgId}/facilities/{facilityId}/prnCareCategories\n  method: get\n  operationId: listPrnCareCategoriesV1\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/facilities/{facilityId}/rooms\n  method: get\n  operationId: listRoomsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/facilities/{facilityId}/routineAdministrations\n  method: get\n  operationId: listFacilityRoutineAdministrationsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/facilities/{facilityId}/shifts\n  method: get\n  operationId: listShiftsV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/users\n  method:\
   \ get\n  operationId: listUsersV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/token\n  method: post\n  operationId: createTokenV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/portalAccessUrl\n  method: post\n  operationId: createWebhooksPortalAccessUrlV1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/august-health/refs/heads/main/agentic-access/august-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/august-health/agentic-access/august-health-agentic-access.yml
 summary_line: 61 operations · 16 acting
 tags:
 - Company

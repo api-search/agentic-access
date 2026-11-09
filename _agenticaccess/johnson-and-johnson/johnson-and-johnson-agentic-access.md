@@ -8,19 +8,19 @@ api_specs:
   label: Johnson & Johnson Devices API
   slug: johnson-and-johnson-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-devices-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-devices-api-openapi.yml
 - filename: johnson-and-johnson-glucose-readings-api-openapi.yml
   format: yaml
   label: Johnson & Johnson Glucose Readings API
   slug: johnson-and-johnson-glucose-readings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-glucose-readings-api-openapi.yml
 - filename: johnson-and-johnson-patients-api-openapi.yml
   format: yaml
   label: Johnson & Johnson Patients API
   slug: johnson-and-johnson-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/openapi/johnson-and-johnson-patients-api-openapi.yml
+  url: https://artifacts.apis.io/johnson-and-johnson/openapi/johnson-and-johnson-patients-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/johnson-and-johnson-lifescan-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /glucose-readings\n  method: get\n  operationId: listGlucoseReadings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients\n  method: get\n  operationId:\
   \ listPatients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/agentic-access/johnson-and-johnson-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/johnson-and-johnson/agentic-access/johnson-and-johnson-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Healthcare

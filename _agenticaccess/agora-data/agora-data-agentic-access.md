@@ -9,61 +9,61 @@ api_specs:
   label: Agora Data Health API
   slug: agora-data-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-health-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-health-api-openapi.yml
 - filename: agora-data-hooks-api-openapi.yml
   format: yaml
   label: Agora Data Hooks API
   slug: agora-data-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-hooks-api-openapi.yml
 - filename: agora-data-import-api-openapi.yml
   format: yaml
   label: Agora Data Import API
   slug: agora-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-import-api-openapi.yml
 - filename: agora-data-inventory-api-openapi.yml
   format: yaml
   label: Agora Data Inventory API
   slug: agora-data-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-inventory-api-openapi.yml
 - filename: agora-data-loans-api-openapi.yml
   format: yaml
   label: Agora Data Loans API
   slug: agora-data-loans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-loans-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-loans-api-openapi.yml
 - filename: agora-data-login-api-openapi.yml
   format: yaml
   label: Agora Data Login API
   slug: agora-data-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-login-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-login-api-openapi.yml
 - filename: agora-data-providers-api-openapi.yml
   format: yaml
   label: Agora Data Providers API
   slug: agora-data-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-providers-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-providers-api-openapi.yml
 - filename: agora-data-status-api-openapi.yml
   format: yaml
   label: Agora Data Status API
   slug: agora-data-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-status-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-status-api-openapi.yml
 - filename: agora-data-uploads-api-openapi.yml
   format: yaml
   label: Agora Data Uploads API
   slug: agora-data-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-uploads-api-openapi.yml
 - filename: agora-data-oauth-api-openapi.yml
   format: yaml
   label: Agora Data OAUTH API
   slug: agora-data-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/openapi/agora-data-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/agora-data/openapi/agora-data-oauth-api-openapi.yml
 consequence_counts:
   read: 8
   write: 13
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/agora-
   \  method: get\n  operationId: agora_endpoint_providers__provider_name___rest_of_path__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /login/authenticate\n  method: post\n  operationId: login_login_authenticate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/authorize\n  method: post\n  operationId: create_a_code_oauth_authorize_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token\n \
   \ method: post\n  operationId: rotate_tokens_oauth_token_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hooks/files/idms\n  method: post\n  operationId: idms_file_endpoint_hooks_files_idms_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hooks/files/autoMaster\n  method: post\n  operationId: auto_master_file_endpoint_hooks_files_autoMaster_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory/homenet/aggregation\n  method: get\n  operationId: run_inventory_aggregator_inventory_homenet_aggregation_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: status_endpoint_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agora-data/refs/heads/main/agentic-access/agora-data-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agora-data/agentic-access/agora-data-agentic-access.yml
 summary_line: 21 operations · 13 acting
 tags:
 - Company

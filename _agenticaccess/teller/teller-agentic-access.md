@@ -9,25 +9,25 @@ api_specs:
   label: Teller Accounts API
   slug: teller-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/teller/openapi/teller-accounts-api-openapi.yml
 - filename: teller-identity-api-openapi.yml
   format: yaml
   label: Teller Identity API
   slug: teller-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-identity-api-openapi.yml
+  url: https://artifacts.apis.io/teller/openapi/teller-identity-api-openapi.yml
 - filename: teller-institutions-api-openapi.yml
   format: yaml
   label: Teller Institutions API
   slug: teller-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/teller/openapi/teller-institutions-api-openapi.yml
 - filename: teller-transactions-api-openapi.yml
   format: yaml
   label: Teller Transactions API
   slug: teller-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/openapi/teller-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/teller/openapi/teller-transactions-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/teller
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}\n  method: delete\n  operationId: deleteAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/details\n  method: get\n  operationId: getAccountDetails\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/balances\n  method: get\n  operationId: getAccountBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{account_id}/transactions/{transaction_id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /institutions\n  method: get\n  operationId: listInstitutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teller/refs/heads/main/agentic-access/teller-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teller/agentic-access/teller-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Banking

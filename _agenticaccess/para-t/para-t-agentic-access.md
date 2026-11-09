@@ -9,145 +9,145 @@ api_specs:
   label: Paraşüt Accounts API
   slug: para-t-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-accounts-api-openapi.yml
 - filename: para-t-apihome-api-openapi.yml
   format: yaml
   label: Paraşüt ApiHome API
   slug: para-t-apihome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-apihome-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-apihome-api-openapi.yml
 - filename: para-t-bankfees-api-openapi.yml
   format: yaml
   label: Paraşüt BankFees API
   slug: para-t-bankfees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-bankfees-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-bankfees-api-openapi.yml
 - filename: para-t-contacts-api-openapi.yml
   format: yaml
   label: Paraşüt Contacts API
   slug: para-t-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-contacts-api-openapi.yml
 - filename: para-t-earchives-api-openapi.yml
   format: yaml
   label: Paraşüt EArchives API
   slug: para-t-earchives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-earchives-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-earchives-api-openapi.yml
 - filename: para-t-einvoiceinboxes-api-openapi.yml
   format: yaml
   label: Paraşüt EInvoiceInboxes API
   slug: para-t-einvoiceinboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-einvoiceinboxes-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-einvoiceinboxes-api-openapi.yml
 - filename: para-t-einvoices-api-openapi.yml
   format: yaml
   label: Paraşüt EInvoices API
   slug: para-t-einvoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-einvoices-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-einvoices-api-openapi.yml
 - filename: para-t-employees-api-openapi.yml
   format: yaml
   label: Paraşüt Employees API
   slug: para-t-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-employees-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-employees-api-openapi.yml
 - filename: para-t-esmms-api-openapi.yml
   format: yaml
   label: Paraşüt ESmms API
   slug: para-t-esmms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-esmms-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-esmms-api-openapi.yml
 - filename: para-t-products-api-openapi.yml
   format: yaml
   label: Paraşüt Products API
   slug: para-t-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-products-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-products-api-openapi.yml
 - filename: para-t-purchasebills-api-openapi.yml
   format: yaml
   label: Paraşüt PurchaseBills API
   slug: para-t-purchasebills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-purchasebills-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-purchasebills-api-openapi.yml
 - filename: para-t-salaries-api-openapi.yml
   format: yaml
   label: Paraşüt Salaries API
   slug: para-t-salaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-salaries-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-salaries-api-openapi.yml
 - filename: para-t-stockmovements-api-openapi.yml
   format: yaml
   label: Paraşüt StockMovements API
   slug: para-t-stockmovements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-stockmovements-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-stockmovements-api-openapi.yml
 - filename: para-t-tags-api-openapi.yml
   format: yaml
   label: Paraşüt Tags API
   slug: para-t-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-tags-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-tags-api-openapi.yml
 - filename: para-t-taxes-api-openapi.yml
   format: yaml
   label: Paraşüt Taxes API
   slug: para-t-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-taxes-api-openapi.yml
 - filename: para-t-trackablejobs-api-openapi.yml
   format: yaml
   label: Paraşüt TrackableJobs API
   slug: para-t-trackablejobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-trackablejobs-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-trackablejobs-api-openapi.yml
 - filename: para-t-transactions-api-openapi.yml
   format: yaml
   label: Paraşüt Transactions API
   slug: para-t-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-transactions-api-openapi.yml
 - filename: para-t-warehouses-api-openapi.yml
   format: yaml
   label: Paraşüt Warehouses API
   slug: para-t-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-warehouses-api-openapi.yml
 - filename: para-t-inventory-levels-api-openapi.yml
   format: yaml
   label: Paraşüt Inventory Levels API
   slug: para-t-inventory-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-inventory-levels-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-inventory-levels-api-openapi.yml
 - filename: para-t-item-categories-api-openapi.yml
   format: yaml
   label: Paraşüt Item Categories API
   slug: para-t-item-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-item-categories-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-item-categories-api-openapi.yml
 - filename: para-t-sales-invoices-api-openapi.yml
   format: yaml
   label: Paraşüt Sales Invoices API
   slug: para-t-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-sales-invoices-api-openapi.yml
 - filename: para-t-sales-offers-api-openapi.yml
   format: yaml
   label: Paraşüt Sales Offers API
   slug: para-t-sales-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-sales-offers-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-sales-offers-api-openapi.yml
 - filename: para-t-shipment-documents-api-openapi.yml
   format: yaml
   label: Paraşüt Shipment documents API
   slug: para-t-shipment-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-shipment-documents-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-shipment-documents-api-openapi.yml
 - filename: para-t-stock-updates-api-openapi.yml
   format: yaml
   label: Paraşüt Stock Updates API
   slug: para-t-stock-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/openapi/para-t-stock-updates-api-openapi.yml
+  url: https://artifacts.apis.io/para-t/openapi/para-t-stock-updates-api-openapi.yml
 consequence_counts:
   physical: 26
   read: 41
@@ -332,8 +332,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/para-t
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/sales_offers/{id}/archive\n  method: patch\n  operationId: archiveSalesOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/sales_offers/{id}/unarchive\n  method: patch\n  operationId: unarchiveSalesOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/sales_offers/{id}/details\n  method: get\n  operationId:\
   \ showSalesOffersDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{company_id}/sales_offers/{id}/update_status\n  method: patch\n  operationId: updateSalesOffersStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/sharings\n  method: post\n  operationId: e-mailSalesOffers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/shipment_documents\n  method: get\n  operationId: listShipmentDocuments\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{company_id}/shipment_documents\n  method: post\n  operationId: createShipmentDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/shipment_documents/{id}\n  method: get\n  operationId: showShipmentDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{company_id}/shipment_documents/{id}\n  method: put\n  operationId: updateShipmentDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n   \
-  \ subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/shipment_documents/{id}\n  method: delete\n  operationId: deleteShipmentDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/stock_movements\n  method: get\n  operationId: listStockMovements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/agentic-access/para-t-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/para-t/refs/heads/main/agentic-access/para-t-agentic-access.yml
+  \ subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/shipment_documents/{id}\n  method: delete\n  operationId: deleteShipmentDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{company_id}/stock_movements\n  method: get\n  operationId: listStockMovements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/para-t/agentic-access/para-t-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/para-t/agentic-access/para-t-agentic-access.yml
 summary_line: 121 operations · 80 acting
 tags:
 - Company

@@ -9,67 +9,67 @@ api_specs:
   label: Val Town Alias API
   slug: val-town-alias-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-alias-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-alias-api-openapi.yml
 - filename: val-town-blobs-api-openapi.yml
   format: yaml
   label: Val Town Blobs API
   slug: val-town-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-blobs-api-openapi.yml
 - filename: val-town-connections-api-openapi.yml
   format: yaml
   label: Val Town Connections API
   slug: val-town-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-connections-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-connections-api-openapi.yml
 - filename: val-town-emails-api-openapi.yml
   format: yaml
   label: Val Town Emails API
   slug: val-town-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-emails-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-emails-api-openapi.yml
 - filename: val-town-files-api-openapi.yml
   format: yaml
   label: Val Town Files API
   slug: val-town-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-files-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-files-api-openapi.yml
 - filename: val-town-me-api-openapi.yml
   format: yaml
   label: Val Town Me API
   slug: val-town-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-me-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-me-api-openapi.yml
 - filename: val-town-orgs-api-openapi.yml
   format: yaml
   label: Val Town Orgs API
   slug: val-town-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-orgs-api-openapi.yml
 - filename: val-town-sqlite-api-openapi.yml
   format: yaml
   label: Val Town Sqlite API
   slug: val-town-sqlite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-sqlite-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-sqlite-api-openapi.yml
 - filename: val-town-telemetry-api-openapi.yml
   format: yaml
   label: Val Town Telemetry API
   slug: val-town-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-telemetry-api-openapi.yml
 - filename: val-town-users-api-openapi.yml
   format: yaml
   label: Val Town Users API
   slug: val-town-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-users-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-users-api-openapi.yml
 - filename: val-town-vals-api-openapi.yml
   format: yaml
   label: Val Town Vals API
   slug: val-town-vals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/openapi/val-town-vals-api-openapi.yml
+  url: https://artifacts.apis.io/val-town/openapi/val-town-vals-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/val-to
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/files/{file_id}\n  method: get\n  operationId: queryValFileById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/alias/vals/{username}/{val_name}\n  method: get\n  operationId: aliasVal2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/me/vals\n  method: get\n  operationId: meVals2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/orgs\n  method: get\n  operationId: orgsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/orgs/{org_id}/memberships\n  method: get\n  operationId: orgsMembershipsList\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/blob\n  method: get\n  operationId: v2blobsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/blob/{key}\n  method: get\n  operationId: v2blobsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/blob/{key}\n  method: post\n  operationId: v2blobsStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/blob/{key}\n  method: delete\n  operationId: v2blobsDelete\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/connections/slack/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/connections/google-docs/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/val-town/refs/heads/main/agentic-access/val-town-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/val-town/agentic-access/val-town-agentic-access.yml
 summary_line: 40 operations · 19 acting
 tags:
 - Developer Tools

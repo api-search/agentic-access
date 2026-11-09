@@ -9,133 +9,133 @@ api_specs:
   label: Mixpanel Webhooks
   slug: mixpanel-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/asyncapi/mixpanel-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/mixpanel/asyncapi/mixpanel-webhooks-asyncapi.yml
 - filename: mixpanel-annotations-api-openapi.yml
   format: yaml
   label: Mixpanel Annotations API
   slug: mixpanel-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-annotations-api-openapi.yml
 - filename: mixpanel-cohorts-api-openapi.yml
   format: yaml
   label: Mixpanel Cohorts API
   slug: mixpanel-cohorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-cohorts-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-cohorts-api-openapi.yml
 - filename: mixpanel-connectors-api-openapi.yml
   format: yaml
   label: Mixpanel Connectors API
   slug: mixpanel-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-connectors-api-openapi.yml
 - filename: mixpanel-deletion-api-openapi.yml
   format: yaml
   label: Mixpanel Deletion API
   slug: mixpanel-deletion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-deletion-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-deletion-api-openapi.yml
 - filename: mixpanel-events-api-openapi.yml
   format: yaml
   label: Mixpanel Events API
   slug: mixpanel-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-events-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-events-api-openapi.yml
 - filename: mixpanel-export-api-openapi.yml
   format: yaml
   label: Mixpanel Export API
   slug: mixpanel-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-export-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-export-api-openapi.yml
 - filename: mixpanel-funnels-api-openapi.yml
   format: yaml
   label: Mixpanel Funnels API
   slug: mixpanel-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-funnels-api-openapi.yml
 - filename: mixpanel-group-profiles-api-openapi.yml
   format: yaml
   label: Mixpanel Group Profiles API
   slug: mixpanel-group-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-group-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-group-profiles-api-openapi.yml
 - filename: mixpanel-identity-api-openapi.yml
   format: yaml
   label: Mixpanel Identity API
   slug: mixpanel-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-identity-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-identity-api-openapi.yml
 - filename: mixpanel-imports-api-openapi.yml
   format: yaml
   label: Mixpanel Imports API
   slug: mixpanel-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-imports-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-imports-api-openapi.yml
 - filename: mixpanel-insights-api-openapi.yml
   format: yaml
   label: Mixpanel Insights API
   slug: mixpanel-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-insights-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-insights-api-openapi.yml
 - filename: mixpanel-lookup-tables-api-openapi.yml
   format: yaml
   label: Mixpanel Lookup Tables API
   slug: mixpanel-lookup-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-lookup-tables-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-lookup-tables-api-openapi.yml
 - filename: mixpanel-pipeline-runs-api-openapi.yml
   format: yaml
   label: Mixpanel Pipeline Runs API
   slug: mixpanel-pipeline-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-pipeline-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-pipeline-runs-api-openapi.yml
 - filename: mixpanel-pipelines-api-openapi.yml
   format: yaml
   label: Mixpanel Pipelines API
   slug: mixpanel-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-pipelines-api-openapi.yml
 - filename: mixpanel-project-memberships-api-openapi.yml
   format: yaml
   label: Mixpanel Project Memberships API
   slug: mixpanel-project-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-project-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-project-memberships-api-openapi.yml
 - filename: mixpanel-retention-api-openapi.yml
   format: yaml
   label: Mixpanel Retention API
   slug: mixpanel-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-retention-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-retention-api-openapi.yml
 - filename: mixpanel-retrieval-api-openapi.yml
   format: yaml
   label: Mixpanel Retrieval API
   slug: mixpanel-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-retrieval-api-openapi.yml
 - filename: mixpanel-schemas-api-openapi.yml
   format: yaml
   label: Mixpanel Schemas API
   slug: mixpanel-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-schemas-api-openapi.yml
 - filename: mixpanel-segmentation-api-openapi.yml
   format: yaml
   label: Mixpanel Segmentation API
   slug: mixpanel-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-segmentation-api-openapi.yml
 - filename: mixpanel-service-accounts-api-openapi.yml
   format: yaml
   label: Mixpanel Service Accounts API
   slug: mixpanel-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-service-accounts-api-openapi.yml
 - filename: mixpanel-user-profiles-api-openapi.yml
   format: yaml
   label: Mixpanel User Profiles API
   slug: mixpanel-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/openapi/mixpanel-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/mixpanel/openapi/mixpanel-user-profiles-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 24
@@ -190,7 +190,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mixpan
   \ exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/warehouse-sources\n  method: get\n  operationId: listWarehouseSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/warehouse-sources\n  method: post\n  operationId: createWarehouseSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/warehouse-sources/{sourceId}\n  method: get\n  operationId: getWarehouseSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/warehouse-sources/{sourceId}\n  method: patch\n  operationId: updateWarehouseSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/warehouse-sources/{sourceId}\n  method: delete\n  operationId: deleteWarehouseSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/warehouse-sources/{sourceId}/tables\n  method: get\n  operationId: listWarehouseTables\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/warehouse-sources/{sourceId}/runs\n  method: get\n  operationId: listWarehouseRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/warehouse-sources/{sourceId}/runs\n  method: post\n  operationId: triggerWarehouseRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/agentic-access/mixpanel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mixpanel/agentic-access/mixpanel-agentic-access.yml
 summary_line: 54 operations · 30 acting
 tags:
 - Analytics

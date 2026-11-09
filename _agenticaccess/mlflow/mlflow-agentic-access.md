@@ -9,37 +9,37 @@ api_specs:
   label: MLflow Artifacts API
   slug: mlflow-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-artifacts-api-openapi.yml
 - filename: mlflow-experiments-api-openapi.yml
   format: yaml
   label: MLflow Experiments API
   slug: mlflow-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-experiments-api-openapi.yml
 - filename: mlflow-metrics-api-openapi.yml
   format: yaml
   label: MLflow Metrics API
   slug: mlflow-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-metrics-api-openapi.yml
 - filename: mlflow-model-versions-api-openapi.yml
   format: yaml
   label: MLflow Model Versions API
   slug: mlflow-model-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-model-versions-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-model-versions-api-openapi.yml
 - filename: mlflow-registered-models-api-openapi.yml
   format: yaml
   label: MLflow Registered Models API
   slug: mlflow-registered-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-registered-models-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-registered-models-api-openapi.yml
 - filename: mlflow-runs-api-openapi.yml
   format: yaml
   label: MLflow Runs API
   slug: mlflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/openapi/mlflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mlflow/openapi/mlflow-runs-api-openapi.yml
 consequence_counts:
   read: 9
   write: 14
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mlflow
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2.0/mlflow/registered-models/create\n  method: post\n  operationId: createRegisteredModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2.0/mlflow/registered-models/get\n  method: get\n  operationId: getRegisteredModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/2.0/mlflow/registered-models/search\n  method: post\n  operationId: searchRegisteredModels\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/2.0/mlflow/runs/create\n  method: post\n  operationId: createRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2.0/mlflow/runs/update\n  method: post\n  operationId: updateRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2.0/mlflow/runs/get\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/2.0/mlflow/runs/search\n  method: post\n  operationId: searchRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/2.0/mlflow/runs/delete\n  method: post\n  operationId: deleteRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2.0/mlflow/runs/restore\n  method: post\n  operationId: restoreRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mlflow/refs/heads/main/agentic-access/mlflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mlflow/agentic-access/mlflow-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Machine Learning

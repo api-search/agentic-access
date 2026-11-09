@@ -9,25 +9,25 @@ api_specs:
   label: Netflix Conductor Events API
   slug: netflix-conductor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-events-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-events-api-openapi.yml
 - filename: netflix-conductor-metadata-api-openapi.yml
   format: yaml
   label: Netflix Conductor Metadata API
   slug: netflix-conductor-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-metadata-api-openapi.yml
 - filename: netflix-conductor-tasks-api-openapi.yml
   format: yaml
   label: Netflix Conductor Tasks API
   slug: netflix-conductor-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-tasks-api-openapi.yml
 - filename: netflix-conductor-workflow-api-openapi.yml
   format: yaml
   label: Netflix Conductor Workflow API
   slug: netflix-conductor-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/openapi/netflix-conductor-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/netflix-conductor/openapi/netflix-conductor-workflow-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conduc
   \      - high-value\n    audit: required\n- path: /workflow/{workflowId}/skiptask/{taskReferenceName}\n  method: put\n  operationId: skipTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow/search\n  method: get\n  operationId: searchWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/poll/{taskType}\n  method: get\n  operationId: pollTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/poll/batch/{taskType}\n  method: get\n  operationId: batchPollTasks\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/queue/sizes\n  method: get\n  operationId: getTaskQueueSizes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event\n  method: get\n  operationId: listEventHandlers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event\n  method: post\n  operationId: createEventHandler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netflix-conductor/refs/heads/main/agentic-access/netflix-conductor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/netflix-conductor/agentic-access/netflix-conductor-agentic-access.yml
 summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Event-Driven

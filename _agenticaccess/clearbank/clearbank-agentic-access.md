@@ -9,91 +9,91 @@ api_specs:
   label: ClearBank Accounts API
   slug: clearbank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-accounts-api-openapi.yml
 - filename: clearbank-createfxquoteendpoint-api-openapi.yml
   format: yaml
   label: ClearBank Create Fx Quote Endpoint API
   slug: clearbank-createfxquoteendpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-createfxquoteendpoint-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-createfxquoteendpoint-api-openapi.yml
 - filename: clearbank-customer-api-openapi.yml
   format: yaml
   label: ClearBank Customer API
   slug: clearbank-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-customer-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-customer-api-openapi.yml
 - filename: clearbank-customer-due-diligence-api-openapi.yml
   format: yaml
   label: ClearBank Customer Due Diligence API
   slug: clearbank-customer-due-diligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-customer-due-diligence-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-customer-due-diligence-api-openapi.yml
 - filename: clearbank-externalcrossbordercustomerpaymentsv4-api-openapi.yml
   format: yaml
   label: ClearBank External Cross Border Customer Payments V4 API
   slug: clearbank-externalcrossbordercustomerpaymentsv4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-externalcrossbordercustomerpaymentsv4-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-externalcrossbordercustomerpaymentsv4-api-openapi.yml
 - filename: clearbank-externalcustomerpaymentsv6-api-openapi.yml
   format: yaml
   label: ClearBank External Customer Payments V6 API
   slug: clearbank-externalcustomerpaymentsv6-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-externalcustomerpaymentsv6-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-externalcustomerpaymentsv6-api-openapi.yml
 - filename: clearbank-externalinstitutionpaymentsv6-api-openapi.yml
   format: yaml
   label: ClearBank External Institution Payments V6 API
   slug: clearbank-externalinstitutionpaymentsv6-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-externalinstitutionpaymentsv6-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-externalinstitutionpaymentsv6-api-openapi.yml
 - filename: clearbank-externalreturnpaymentsv6-api-openapi.yml
   format: yaml
   label: ClearBank External Return Payments V6 API
   slug: clearbank-externalreturnpaymentsv6-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-externalreturnpaymentsv6-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-externalreturnpaymentsv6-api-openapi.yml
 - filename: clearbank-fpspayments-api-openapi.yml
   format: yaml
   label: ClearBank Fps Payments API
   slug: clearbank-fpspayments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-fpspayments-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-fpspayments-api-openapi.yml
 - filename: clearbank-fx-orders-api-openapi.yml
   format: yaml
   label: ClearBank Fx Orders API
   slug: clearbank-fx-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-fx-orders-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-fx-orders-api-openapi.yml
 - filename: clearbank-payments-api-openapi.yml
   format: yaml
   label: ClearBank Payments API
   slug: clearbank-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-payments-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-payments-api-openapi.yml
 - filename: clearbank-retail-api-openapi.yml
   format: yaml
   label: ClearBank Retail API
   slug: clearbank-retail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-retail-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-retail-api-openapi.yml
 - filename: clearbank-sct-payments-api-openapi.yml
   format: yaml
   label: ClearBank SCT Payments API
   slug: clearbank-sct-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-sct-payments-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-sct-payments-api-openapi.yml
 - filename: clearbank-secondaryreferencedata-api-openapi.yml
   format: yaml
   label: ClearBank Secondary Reference Data API
   slug: clearbank-secondaryreferencedata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-secondaryreferencedata-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-secondaryreferencedata-api-openapi.yml
 - filename: clearbank-co-p-api-openapi.yml
   format: yaml
   label: ClearBank Co P API
   slug: clearbank-co-p-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/openapi/clearbank-co-p-api-openapi.yml
+  url: https://artifacts.apis.io/clearbank/openapi/clearbank-co-p-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 2
@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/clearb
   \    audit: required\n- path: /payments/sepa-ct/v1/customer-payments\n  method: post\n  operationId: Payment.Create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/sepa-ct/v1/recall-response\n  method: post\n  operationId: Payments.Inbound.RecallRequestResult\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/sepa-ct/v1/recall\n  method: post\n  operationId: Payment.Recall\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/sepa-ct/v1/payment-returns\n  method: post\n  operationId: Payments.Inbound.ReturnOfInboundPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v4/Accounts\n  method: post\n  operationId: V4InstitutionsByInstitutionIdAccountsPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clearbank/refs/heads/main/agentic-access/clearbank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clearbank/agentic-access/clearbank-agentic-access.yml
 summary_line: 31 operations · 29 acting
 tags:
 - Financial Services

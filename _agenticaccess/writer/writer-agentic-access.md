@@ -9,43 +9,43 @@ api_specs:
   label: Writer File API
   slug: writer-file-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-file-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-file-api-api-openapi.yml
 - filename: writer-generation-api-api-openapi.yml
   format: yaml
   label: Writer Generation API
   slug: writer-generation-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-generation-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-generation-api-api-openapi.yml
 - filename: writer-kg-api-api-openapi.yml
   format: yaml
   label: Writer KG API
   slug: writer-kg-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-kg-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-kg-api-api-openapi.yml
 - filename: writer-template-api-openapi.yml
   format: yaml
   label: Writer Template API
   slug: writer-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-template-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-template-api-openapi.yml
 - filename: writer-tools-api-api-openapi.yml
   format: yaml
   label: Writer Tools API
   slug: writer-tools-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-tools-api-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-tools-api-api-openapi.yml
 - filename: writer-translation-api-openapi.yml
   format: yaml
   label: Writer Translation API
   slug: writer-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-translation-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-translation-api-openapi.yml
 - filename: writer-vision-api-openapi.yml
   format: yaml
   label: Writer Vision API
   slug: writer-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/openapi/writer-vision-api-openapi.yml
+  url: https://artifacts.apis.io/writer/openapi/writer-vision-api-openapi.yml
 consequence_counts:
   read: 11
   write: 19
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/writer
   \    audit: required\n- path: /v1/applications/jobs/{job_id}/retry\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/jobs/{job_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/{application_id}/graphs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/{application_id}/graphs\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/pdf-parser/{file_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/web-search\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/vision\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/translation\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/writer/refs/heads/main/agentic-access/writer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/writer/agentic-access/writer-agentic-access.yml
 summary_line: 30 operations · 19 acting
 tags:
 - Artificial Intelligence

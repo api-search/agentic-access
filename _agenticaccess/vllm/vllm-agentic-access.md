@@ -8,37 +8,37 @@ api_specs:
   label: vLLM Audio API
   slug: vllm-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-audio-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-audio-api-openapi.yml
 - filename: vllm-completions-api-openapi.yml
   format: yaml
   label: vLLM Completions API
   slug: vllm-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-completions-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-completions-api-openapi.yml
 - filename: vllm-embeddings-api-openapi.yml
   format: yaml
   label: vLLM Embeddings API
   slug: vllm-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-embeddings-api-openapi.yml
 - filename: vllm-scoring-api-openapi.yml
   format: yaml
   label: vLLM Scoring API
   slug: vllm-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-scoring-api-openapi.yml
 - filename: vllm-tokenize-api-openapi.yml
   format: yaml
   label: vLLM Tokenize API
   slug: vllm-tokenize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-tokenize-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-tokenize-api-openapi.yml
 - filename: vllm-chat-completions-api-openapi.yml
   format: yaml
   label: vLLM Chat Completions API
   slug: vllm-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-chat-completions-api-openapi.yml
 consequence_counts:
   write: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vllm-o
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/score\n  method: post\n  operationId: score\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/rerank\n  method: post\n  operationId: rerank\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /classify\n  method: post\n  operationId: classify\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pooling\n  method: post\n  operationId: pooling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generative_scoring\n  method: post\n  operationId: generativeScoring\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokenize\n  method: post\n  operationId: tokenize\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /detokenize\n  method: post\n  operationId: detokenize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/agentic-access/vllm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vllm/agentic-access/vllm-agentic-access.yml
 summary_line: 12 operations · 12 acting
 tags:
 - LLM

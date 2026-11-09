@@ -9,55 +9,55 @@ api_specs:
   label: TransitLand Agencies API
   slug: transitland-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-agencies-api-openapi.yml
 - filename: transitland-feed-versions-api-openapi.yml
   format: yaml
   label: TransitLand Feed Versions API
   slug: transitland-feed-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-feed-versions-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-feed-versions-api-openapi.yml
 - filename: transitland-feeds-api-openapi.yml
   format: yaml
   label: TransitLand Feeds API
   slug: transitland-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-feeds-api-openapi.yml
 - filename: transitland-onestop-id-api-openapi.yml
   format: yaml
   label: TransitLand Onestop Id API
   slug: transitland-onestop-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-onestop-id-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-onestop-id-api-openapi.yml
 - filename: transitland-operators-api-openapi.yml
   format: yaml
   label: TransitLand Operators API
   slug: transitland-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-operators-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-operators-api-openapi.yml
 - filename: transitland-routes-api-openapi.yml
   format: yaml
   label: TransitLand Routes API
   slug: transitland-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-routes-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-routes-api-openapi.yml
 - filename: transitland-stops-api-openapi.yml
   format: yaml
   label: TransitLand Stops API
   slug: transitland-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-stops-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-stops-api-openapi.yml
 - filename: transitland-street-routing-api-openapi.yml
   format: yaml
   label: TransitLand Street routing API
   slug: transitland-street-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-street-routing-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-street-routing-api-openapi.yml
 - filename: transitland-transit-routing-api-openapi.yml
   format: yaml
   label: TransitLand Transit routing API
   slug: transitland-transit-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/openapi/transitland-transit-routing-api-openapi.yml
+  url: https://artifacts.apis.io/transitland/openapi/transitland-transit-routing-api-openapi.yml
 consequence_counts:
   read: 28
   write: 9
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/transi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /valhalla/optimized_route\n  method: get\n  operationId: valhallaOptimizedRouteGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valhalla/optimized_route\n  method: post\n  operationId: valhallaOptimizedRoutePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /valhalla/route\n  method: get\n  operationId: valhallaRouteGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valhalla/route\n  method: post\n  operationId: valhallaRoutePost\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /valhalla/sources_to_targets\n  method: get\n  operationId: valhallaSourcesToTargetsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valhalla/sources_to_targets\n  method: post\n  operationId: valhallaSourcesToTargetsPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /valhalla/trace_attributes\n  method: post\n  operationId: valhallaTraceAttributes\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /valhalla/trace_route\n  method: post\n  operationId: valhallaTraceRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transitland/refs/heads/main/agentic-access/transitland-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transitland/agentic-access/transitland-agentic-access.yml
 summary_line: 37 operations · 9 acting
 tags:
 - Transportation

@@ -9,37 +9,37 @@ api_specs:
   label: Deepchecks Application Versions API
   slug: deepchecks-application-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-application-versions-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-application-versions-api-openapi.yml
 - filename: deepchecks-applications-api-openapi.yml
   format: yaml
   label: Deepchecks Applications API
   slug: deepchecks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-applications-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-applications-api-openapi.yml
 - filename: deepchecks-interactions-api-openapi.yml
   format: yaml
   label: Deepchecks Interactions API
   slug: deepchecks-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-interactions-api-openapi.yml
 - filename: deepchecks-properties-api-openapi.yml
   format: yaml
   label: Deepchecks Properties API
   slug: deepchecks-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-properties-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-properties-api-openapi.yml
 - filename: deepchecks-spans-api-openapi.yml
   format: yaml
   label: Deepchecks Spans API
   slug: deepchecks-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-spans-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-spans-api-openapi.yml
 - filename: deepchecks-system-api-openapi.yml
   format: yaml
   label: Deepchecks System API
   slug: deepchecks-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/openapi/deepchecks-system-api-openapi.yml
+  url: https://artifacts.apis.io/deepchecks/openapi/deepchecks-system-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/deepch
   \  method: post\n  operationId: createInteractions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/application-versions/{application_version_id}/interactions\n  method: get\n  operationId: getInteractionsByFilter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/application-versions/{application_version_id}/interactions\n  method: delete\n  operationId: deleteInteractions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v1/application-versions/{application_version_id}/interactions/complete-status\n  method: post\n  operationId: getInteractionCompletionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/application-versions/{application_version_id}/interactions/download\n  method: get\n  operationId: downloadInteractionsByFilter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/applications/{app_id}/llm-prop-definitions\n  method: put\n  operationId: updateLlmPropsDefinitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /api/v1/spans\n  method: get\n  operationId: getRawSpansByFilter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/backend-version\n  method: post\n  operationId: getBackendVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepchecks/refs/heads/main/agentic-access/deepchecks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deepchecks/agentic-access/deepchecks-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Artificial Intelligence

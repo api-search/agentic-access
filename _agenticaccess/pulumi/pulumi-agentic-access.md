@@ -9,205 +9,205 @@ api_specs:
   label: Pulumi AI Agents API
   slug: pulumi-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-ai-agents-api-openapi.yml
 - filename: pulumi-ai-api-openapi.yml
   format: yaml
   label: Pulumi AI API
   slug: pulumi-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-ai-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-ai-api-openapi.yml
 - filename: pulumi-cloudsetup-api-openapi.yml
   format: yaml
   label: Pulumi CloudSetup API
   slug: pulumi-cloudsetup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-cloudsetup-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-cloudsetup-api-openapi.yml
 - filename: pulumi-deploymentrunners-api-openapi.yml
   format: yaml
   label: Pulumi DeploymentRunners API
   slug: pulumi-deploymentrunners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-deploymentrunners-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-deploymentrunners-api-openapi.yml
 - filename: pulumi-deployments-api-openapi.yml
   format: yaml
   label: Pulumi Deployments API
   slug: pulumi-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-deployments-api-openapi.yml
 - filename: pulumi-environments-api-openapi.yml
   format: yaml
   label: Pulumi Environments API
   slug: pulumi-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-environments-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-environments-api-openapi.yml
 - filename: pulumi-insights-api-openapi.yml
   format: yaml
   label: Pulumi Insights API
   slug: pulumi-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-insights-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-insights-api-openapi.yml
 - filename: pulumi-insightsaccounts-api-openapi.yml
   format: yaml
   label: Pulumi InsightsAccounts API
   slug: pulumi-insightsaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-insightsaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-insightsaccounts-api-openapi.yml
 - filename: pulumi-miscellaneous-api-openapi.yml
   format: yaml
   label: Pulumi Miscellaneous API
   slug: pulumi-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-miscellaneous-api-openapi.yml
 - filename: pulumi-neo-api-openapi.yml
   format: yaml
   label: Pulumi Neo API
   slug: pulumi-neo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-neo-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-neo-api-openapi.yml
 - filename: pulumi-oauthtokenexchange-api-openapi.yml
   format: yaml
   label: Pulumi OAuthTokenExchange API
   slug: pulumi-oauthtokenexchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-oauthtokenexchange-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-oauthtokenexchange-api-openapi.yml
 - filename: pulumi-oidcissuers-api-openapi.yml
   format: yaml
   label: Pulumi OidcIssuers API
   slug: pulumi-oidcissuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-oidcissuers-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-oidcissuers-api-openapi.yml
 - filename: pulumi-organizations-api-openapi.yml
   format: yaml
   label: Pulumi Organizations API
   slug: pulumi-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-organizations-api-openapi.yml
 - filename: pulumi-policygroups-api-openapi.yml
   format: yaml
   label: Pulumi PolicyGroups API
   slug: pulumi-policygroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-policygroups-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-policygroups-api-openapi.yml
 - filename: pulumi-policyresults-api-openapi.yml
   format: yaml
   label: Pulumi PolicyResults API
   slug: pulumi-policyresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-policyresults-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-policyresults-api-openapi.yml
 - filename: pulumi-registry-api-openapi.yml
   format: yaml
   label: Pulumi Registry API
   slug: pulumi-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-registry-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-registry-api-openapi.yml
 - filename: pulumi-registrypreview-api-openapi.yml
   format: yaml
   label: Pulumi RegistryPreview API
   slug: pulumi-registrypreview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-registrypreview-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-registrypreview-api-openapi.yml
 - filename: pulumi-resourcesearch-api-openapi.yml
   format: yaml
   label: Pulumi ResourceSearch API
   slug: pulumi-resourcesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-resourcesearch-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-resourcesearch-api-openapi.yml
 - filename: pulumi-resourcesundermanagement-api-openapi.yml
   format: yaml
   label: Pulumi ResourcesUnderManagement API
   slug: pulumi-resourcesundermanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-resourcesundermanagement-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-resourcesundermanagement-api-openapi.yml
 - filename: pulumi-schedules-api-openapi.yml
   format: yaml
   label: Pulumi Schedules API
   slug: pulumi-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-schedules-api-openapi.yml
 - filename: pulumi-services-api-openapi.yml
   format: yaml
   label: Pulumi Services API
   slug: pulumi-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-services-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-services-api-openapi.yml
 - filename: pulumi-stackconfig-api-openapi.yml
   format: yaml
   label: Pulumi StackConfig API
   slug: pulumi-stackconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-stackconfig-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-stackconfig-api-openapi.yml
 - filename: pulumi-stackpolicy-api-openapi.yml
   format: yaml
   label: Pulumi StackPolicy API
   slug: pulumi-stackpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-stackpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-stackpolicy-api-openapi.yml
 - filename: pulumi-stacks-api-openapi.yml
   format: yaml
   label: Pulumi Stacks API
   slug: pulumi-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-stacks-api-openapi.yml
 - filename: pulumi-stacktags-api-openapi.yml
   format: yaml
   label: Pulumi StackTags API
   slug: pulumi-stacktags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-stacktags-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-stacktags-api-openapi.yml
 - filename: pulumi-stackupdates-api-openapi.yml
   format: yaml
   label: Pulumi StackUpdates API
   slug: pulumi-stackupdates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-stackupdates-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-stackupdates-api-openapi.yml
 - filename: pulumi-users-api-openapi.yml
   format: yaml
   label: Pulumi Users API
   slug: pulumi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-users-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-users-api-openapi.yml
 - filename: pulumi-vcs-integrations-api-openapi.yml
   format: yaml
   label: Pulumi VCS Integrations API
   slug: pulumi-vcs-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-vcs-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-vcs-integrations-api-openapi.yml
 - filename: pulumi-webhooks-api-openapi.yml
   format: yaml
   label: Pulumi Webhooks API
   slug: pulumi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-webhooks-api-openapi.yml
 - filename: pulumi-workflows-api-openapi.yml
   format: yaml
   label: Pulumi Workflows API
   slug: pulumi-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-workflows-api-openapi.yml
 - filename: pulumi-access-tokens-api-openapi.yml
   format: yaml
   label: Pulumi Access Tokens API
   slug: pulumi-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-access-tokens-api-openapi.yml
 - filename: pulumi-audit-logs-api-openapi.yml
   format: yaml
   label: Pulumi Audit Logs API
   slug: pulumi-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-audit-logs-api-openapi.yml
 - filename: pulumi-data-export-api-openapi.yml
   format: yaml
   label: Pulumi Data Export API
   slug: pulumi-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-data-export-api-openapi.yml
 - filename: pulumi-policy-packs-api-openapi.yml
   format: yaml
   label: Pulumi Policy Packs API
   slug: pulumi-policy-packs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/openapi/pulumi-policy-packs-api-openapi.yml
+  url: https://artifacts.apis.io/pulumi/openapi/pulumi-policy-packs-api-openapi.yml
 consequence_counts:
   physical: 37
   read: 365
@@ -396,8 +396,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pulumi
   \ ListEnvironments_esc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}\n  method: get\n  operationId: ListOrgEnvironments_esc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}\n  method: post\n  operationId: CreateEnvironment_esc_environments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/esc/environments/{orgName}/restore\n  method: get\n  operationId: ListDeletedEnvironments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}/restore\n  method: put\n  operationId: RestoreEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/esc/environments/{orgName}/tags\n  method: get\n  operationId: ListAllEnvironmentTags_esc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}/yaml/check\n  method: post\n  operationId: CheckYAML_esc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/esc/environments/{orgName}/yaml/open\n  method: post\n  operationId: OpenYAML_esc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/esc/environments/{orgName}/yaml/open/{openSessionID}\n  method: get\n  operationId: ReadAnonymousOpenEnvironment_esc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}/{projectName}/{envName}\n  method: delete\n  operationId: DeleteEnvironment_esc_environments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/esc/environments/{orgName}/{projectName}/{envName}\n  method: get\n  operationId: ReadEnvironment_esc_environments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}/{projectName}/{envName}\n  method: head\n  operationId: HeadEnvironment_esc_environments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (241 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/agentic-access/pulumi-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulumi/refs/heads/main/agentic-access/pulumi-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/esc/environments/{orgName}/{projectName}/{envName}\n  method: get\n  operationId: ReadEnvironment_esc_environments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/esc/environments/{orgName}/{projectName}/{envName}\n  method: head\n  operationId: HeadEnvironment_esc_environments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (241 KB total) ---\n# Full source: https://artifacts.apis.io/pulumi/agentic-access/pulumi-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/pulumi/agentic-access/pulumi-agentic-access.yml
 summary_line: 754 operations · 389 acting · 5 human-in-the-loop
 tags:
 - Automation

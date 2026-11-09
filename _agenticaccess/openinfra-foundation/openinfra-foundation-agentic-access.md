@@ -9,61 +9,61 @@ api_specs:
   label: OpenInfra Foundation Auth API
   slug: openinfra-foundation-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-auth-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-auth-api-openapi.yml
 - filename: openinfra-foundation-credentials-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Credentials API
   slug: openinfra-foundation-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-credentials-api-openapi.yml
 - filename: openinfra-foundation-domains-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Domains API
   slug: openinfra-foundation-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-domains-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-domains-api-openapi.yml
 - filename: openinfra-foundation-endpoints-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Endpoints API
   slug: openinfra-foundation-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-endpoints-api-openapi.yml
 - filename: openinfra-foundation-extensions-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Extensions API
   slug: openinfra-foundation-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-extensions-api-openapi.yml
 - filename: openinfra-foundation-groups-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Groups API
   slug: openinfra-foundation-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-groups-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-groups-api-openapi.yml
 - filename: openinfra-foundation-networks-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Networks API
   slug: openinfra-foundation-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-networks-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-networks-api-openapi.yml
 - filename: openinfra-foundation-roles-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Roles API
   slug: openinfra-foundation-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-roles-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-roles-api-openapi.yml
 - filename: openinfra-foundation-servers-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Servers API
   slug: openinfra-foundation-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-servers-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-servers-api-openapi.yml
 - filename: openinfra-foundation-users-api-openapi.yml
   format: yaml
   label: OpenInfra Foundation Users API
   slug: openinfra-foundation-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/openapi/openinfra-foundation-users-api-openapi.yml
+  url: https://artifacts.apis.io/openinfra-foundation/openapi/openinfra-foundation-users-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 2
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openin
   \    audit: required\n- path: /servers/{id}/action\n  method: post\n  operationId: serverAction\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2.0/networks\n  method: get\n  operationId: listNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/networks\n  method: post\n  operationId: createNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/networks/{network_id}\n\
   \  method: get\n  operationId: getNetwork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.0/networks/{network_id}\n  method: put\n  operationId: updateNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/networks/{network_id}\n  method: delete\n  operationId: deleteNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.0/extensions\n  method: get\n  operationId: listExtensions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/agentic-access/openinfra-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openinfra-foundation/agentic-access/openinfra-foundation-agentic-access.yml
 summary_line: 24 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Cloud Computing

@@ -9,55 +9,55 @@ api_specs:
   label: Spider Crawling API
   slug: spider-cloud-crawling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-crawling-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-crawling-api-openapi.yml
 - filename: spider-cloud-data-api-openapi.yml
   format: yaml
   label: Spider Data API
   slug: spider-cloud-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-data-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-data-api-openapi.yml
 - filename: spider-cloud-fetch-api-openapi.yml
   format: yaml
   label: Spider Fetch API
   slug: spider-cloud-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-fetch-api-openapi.yml
 - filename: spider-cloud-links-api-openapi.yml
   format: yaml
   label: Spider Links API
   slug: spider-cloud-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-links-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-links-api-openapi.yml
 - filename: spider-cloud-scraping-api-openapi.yml
   format: yaml
   label: Spider Scraping API
   slug: spider-cloud-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-scraping-api-openapi.yml
 - filename: spider-cloud-screenshot-api-openapi.yml
   format: yaml
   label: Spider Screenshot API
   slug: spider-cloud-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-screenshot-api-openapi.yml
 - filename: spider-cloud-search-api-openapi.yml
   format: yaml
   label: Spider Search API
   slug: spider-cloud-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-search-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-search-api-openapi.yml
 - filename: spider-cloud-transform-api-openapi.yml
   format: yaml
   label: Spider Transform API
   slug: spider-cloud-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-transform-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-transform-api-openapi.yml
 - filename: spider-cloud-unblocker-api-openapi.yml
   format: yaml
   label: Spider Unblocker API
   slug: spider-cloud-unblocker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/openapi/spider-cloud-unblocker-api-openapi.yml
+  url: https://artifacts.apis.io/spider-cloud/openapi/spider-cloud-unblocker-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spider
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /links\n  method: post\n  operationId: links\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scrape\n  method: post\n  operationId: scrape\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /screenshot\n  method: post\n  operationId: screenshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transform\n  method: post\n  operationId: transform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unblocker\n  method: post\n  operationId: unblocker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spider-cloud/refs/heads/main/agentic-access/spider-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spider-cloud/agentic-access/spider-cloud-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Crawling

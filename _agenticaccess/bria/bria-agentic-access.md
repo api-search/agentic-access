@@ -9,91 +9,91 @@ api_specs:
   label: Bria Automotive Endpoints API
   slug: bria-automotive-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-automotive-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-automotive-endpoints-api-openapi.yml
 - filename: bria-dataset-api-openapi.yml
   format: yaml
   label: Bria Dataset API
   slug: bria-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-dataset-api-openapi.yml
 - filename: bria-editing-endpoints-api-openapi.yml
   format: yaml
   label: Bria Editing Endpoints API
   slug: bria-editing-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-editing-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-editing-endpoints-api-openapi.yml
 - filename: bria-endpoints-api-openapi.yml
   format: yaml
   label: Bria Endpoints API
   slug: bria-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-endpoints-api-openapi.yml
 - filename: bria-image-attribution-api-openapi.yml
   format: yaml
   label: Bria Image Attribution API
   slug: bria-image-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-image-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-image-attribution-api-openapi.yml
 - filename: bria-image-generation-api-openapi.yml
   format: yaml
   label: Bria Image Generation API
   slug: bria-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-image-generation-api-openapi.yml
 - filename: bria-masking-endpoints-api-openapi.yml
   format: yaml
   label: Bria Masking Endpoints API
   slug: bria-masking-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-masking-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-masking-endpoints-api-openapi.yml
 - filename: bria-model-api-openapi.yml
   format: yaml
   label: Bria Model API
   slug: bria-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-model-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-model-api-openapi.yml
 - filename: bria-product-endpoints-api-openapi.yml
   format: yaml
   label: Bria Product Endpoints API
   slug: bria-product-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-product-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-product-endpoints-api-openapi.yml
 - filename: bria-project-api-openapi.yml
   format: yaml
   label: Bria Project API
   slug: bria-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-project-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-project-api-openapi.yml
 - filename: bria-v2-endpoints-api-openapi.yml
   format: yaml
   label: Bria v2 endpoints API
   slug: bria-v2-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-v2-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-v2-endpoints-api-openapi.yml
 - filename: bria-video-attribution-api-openapi.yml
   format: yaml
   label: Bria Video Attribution API
   slug: bria-video-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-video-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-video-attribution-api-openapi.yml
 - filename: bria-video-generation-api-openapi.yml
   format: yaml
   label: Bria Video Generation API
   slug: bria-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-video-generation-api-openapi.yml
 - filename: bria-fastapi-api-openapi.yml
   format: yaml
   label: Bria Fast API
   slug: bria-fastapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-fastapi-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-fastapi-api-openapi.yml
 - filename: bria-health-api-openapi.yml
   format: yaml
   label: Bria Health API
   slug: bria-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/openapi/bria-health-api-openapi.yml
+  url: https://artifacts.apis.io/bria/openapi/bria-health-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 1
@@ -162,8 +162,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bria-a
   \ relight\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /erase\n  method: post\n  operationId: erase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gen_fill\n  method: post\n  operationId: gen-fill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /remove_background\n  method: post\n\
   \  operationId: background-remove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /replace_background\n  method: post\n  operationId: background-replace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /erase_foreground\n  method: post\n  operationId: erase-foreground\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /blur_background\n  method: post\n  operationId: blur-bg\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /expand\n  method: post\n  operationId: image-expansion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enhance\n  method: post\n  operationId: enhance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/agentic-access/bria-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bria/refs/heads/main/agentic-access/bria-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/bria/agentic-access/bria-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bria/agentic-access/bria-agentic-access.yml
 summary_line: 104 operations · 82 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

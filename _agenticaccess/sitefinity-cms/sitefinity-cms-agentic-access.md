@@ -9,19 +9,19 @@ api_specs:
   label: Sitefinity CMS Blog Posts API
   slug: sitefinity-cms-blog-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-blog-posts-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-blog-posts-api-openapi.yml
 - filename: sitefinity-cms-events-api-openapi.yml
   format: yaml
   label: Sitefinity CMS Events API
   slug: sitefinity-cms-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-events-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-events-api-openapi.yml
 - filename: sitefinity-cms-news-items-api-openapi.yml
   format: yaml
   label: Sitefinity CMS News Items API
   slug: sitefinity-cms-news-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/openapi/sitefinity-cms-news-items-api-openapi.yml
+  url: https://artifacts.apis.io/sitefinity-cms/openapi/sitefinity-cms-news-items-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sitefi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /newsitems({id})\n  method: get\n  operationId: getNewsItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /newsitems({id})\n  method: put\n  operationId: updateNewsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /newsitems({id})\n  method: delete\n  operationId: deleteNewsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /newsitems({id})/operation\n  method: post\n  operationId: publishNewsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blogposts\n  method: get\n  operationId: listBlogPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blogposts\n  method: post\n  operationId: createBlogPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitefinity-cms/refs/heads/main/agentic-access/sitefinity-cms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sitefinity-cms/agentic-access/sitefinity-cms-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Content Management

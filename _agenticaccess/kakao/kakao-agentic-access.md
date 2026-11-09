@@ -9,25 +9,25 @@ api_specs:
   label: Kakao OIDC API
   slug: kakao-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-oidc-api-openapi.yml
 - filename: kakao-service-terms-api-openapi.yml
   format: yaml
   label: Kakao Service Terms API
   slug: kakao-service-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-service-terms-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-service-terms-api-openapi.yml
 - filename: kakao-user-api-openapi.yml
   format: yaml
   label: Kakao User API
   slug: kakao-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-user-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-user-api-openapi.yml
 - filename: kakao-oauth-api-openapi.yml
   format: yaml
   label: Kakao O Auth API
   slug: kakao-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/openapi/kakao-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kakao/openapi/kakao-oauth-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kakao-
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/service_terms\n  method: get\n  operationId: getServiceTerms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/me\n  method: get\n  operationId: getUserMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/me\n  method: post\n  operationId: getUserMePost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/app/users\n  method: get\n  operationId: listAppUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/logout\n\
   \  method: post\n  operationId: userLogout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/unlink\n  method: post\n  operationId: userUnlink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/user/scopes\n  method: get\n  operationId: getUserScopes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user/revoke/scopes\n  method: post\n  operationId: revokeUserScopes\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/agentic-access/kakao-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kakao/agentic-access/kakao-agentic-access.yml
 summary_line: 14 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Messaging
@@ -77,7 +77,8 @@ tags:
 - Search
 - South Korea
 - Identity
-- Authentication
+- OAuth
 - KakaoTalk
 - LLM
+- Authentication
 ---

@@ -9,25 +9,25 @@ api_specs:
   label: Strimzi Consumer API
   slug: strimzi-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-consumer-api-openapi.yml
 - filename: strimzi-producer-api-openapi.yml
   format: yaml
   label: Strimzi Producer API
   slug: strimzi-producer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-producer-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-producer-api-openapi.yml
 - filename: strimzi-seek-api-openapi.yml
   format: yaml
   label: Strimzi Seek API
   slug: strimzi-seek-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-seek-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-seek-api-openapi.yml
 - filename: strimzi-topics-api-openapi.yml
   format: yaml
   label: Strimzi Topics API
   slug: strimzi-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/openapi/strimzi-topics-api-openapi.yml
+  url: https://artifacts.apis.io/strimzi/openapi/strimzi-topics-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/strimz
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consumers/{groupid}/instances/{name}/subscription\n  method: post\n  operationId: subscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consumers/{groupid}/instances/{name}/subscription\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumers/{groupid}/instances/{name}/subscription\n  method: delete\n  operationId: unsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consumers/{groupid}/instances/{name}/records\n  method: get\n  operationId: poll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /consumers/{groupid}/instances/{name}/offsets\n  method: post\n  operationId: commit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /consumers/{groupid}/instances/{name}/positions\n  method: post\n  operationId: seek\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topics\n  method: get\n  operationId: listTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics/{topicname}/partitions\n  method: get\n  operationId: listPartitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthy\n  method: get\n  operationId: healthy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  operationId: ready\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/strimzi/refs/heads/main/agentic-access/strimzi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/strimzi/agentic-access/strimzi-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Kafka

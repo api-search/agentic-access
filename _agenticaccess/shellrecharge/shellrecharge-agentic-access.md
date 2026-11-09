@@ -9,13 +9,13 @@ api_specs:
   label: ShellRecharge Locations API
   slug: shellrecharge-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shellrecharge/openapi/shellrecharge-locations-api-openapi.yml
 - filename: shellrecharge-sessions-api-openapi.yml
   format: yaml
   label: ShellRecharge Sessions API
   slug: shellrecharge-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/openapi/shellrecharge-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/shellrecharge/openapi/shellrecharge-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -58,7 +58,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shellrecharge-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    physical: 1\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /ev/v2/locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ev/v2/locations/{uid}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /ev/v2/locations/nearby\n  method: get\n  operationId: getNearbyLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ev/v2/locations/markers\n  method: get\n  operationId: getLocationMarkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobility-ev-api/v1/api/charge-sessions/start\n  method: post\n  operationId: startChargeSession\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mobility-ev-api/v1/api/charge-sessions/retrieve/{sessionId}\n  method: get\n  operationId: retrieveChargeSession\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mobility-ev-api/v1/api/charge-sessions/stop/{sessionId}\n  method: post\n  operationId: stopChargeSession\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /mobility-ev-api/v1/api/charge-sessions/active\n  method: get\n  operationId: listActiveChargeSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shellrecharge/refs/heads/main/agentic-access/shellrecharge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shellrecharge/agentic-access/shellrecharge-agentic-access.yml
 summary_line: 8 operations · 2 acting · 1 human-in-the-loop
 tags:
 - EV Charging

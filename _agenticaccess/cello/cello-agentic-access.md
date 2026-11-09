@@ -9,37 +9,31 @@ api_specs:
   label: Cello Events API
   slug: cello-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-events-api-openapi.yml
 - filename: cello-new-users-api-openapi.yml
   format: yaml
   label: Cello New Users API
   slug: cello-new-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-new-users-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-new-users-api-openapi.yml
 - filename: cello-referral-codes-api-openapi.yml
   format: yaml
   label: Cello Referral Codes API
   slug: cello-referral-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-referral-codes-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-referral-codes-api-openapi.yml
 - filename: cello-referrers-api-openapi.yml
   format: yaml
   label: Cello Referrers API
   slug: cello-referrers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-referrers-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-referrers-api-openapi.yml
 - filename: cello-token-api-openapi.yml
   format: yaml
   label: Cello Token API
   slug: cello-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-token-api-openapi.yml
-- filename: cello-events-v2-api-openapi.yml
-  format: yaml
-  label: Cello Events v2 API
-  slug: cello-events-v2-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/openapi/cello-events-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cello/openapi/cello-token-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -68,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cello-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 3\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /referral-codes/{code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /new-users/{productUserId}/reward\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /referral-codes/active-link/{productUserId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /referrers/{productUserId}/depersonalize\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/agentic-access/cello-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cello/agentic-access/cello-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - Company

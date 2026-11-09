@@ -9,85 +9,85 @@ api_specs:
   label: Amazon DynamoDB Batch API
   slug: amazon-dynamodb-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-batch-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-batch-api-openapi.yml
 - filename: amazon-dynamodb-items-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Items API
   slug: amazon-dynamodb-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-items-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-items-api-openapi.yml
 - filename: amazon-dynamodb-queries-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Queries API
   slug: amazon-dynamodb-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-queries-api-openapi.yml
 - filename: amazon-dynamodb-tables-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Tables API
   slug: amazon-dynamodb-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-tables-api-openapi.yml
 - filename: amazon-dynamodb-transactions-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Transactions API
   slug: amazon-dynamodb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-transactions-api-openapi.yml
 - filename: amazon-dynamodb-backups-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Backups API
   slug: amazon-dynamodb-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-backups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-backups-api-openapi.yml
 - filename: amazon-dynamodb-contributor-insights-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Contributor Insights API
   slug: amazon-dynamodb-contributor-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-contributor-insights-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-contributor-insights-api-openapi.yml
 - filename: amazon-dynamodb-exports-imports-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Exports Imports API
   slug: amazon-dynamodb-exports-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-exports-imports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-exports-imports-api-openapi.yml
 - filename: amazon-dynamodb-global-tables-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Global Tables API
   slug: amazon-dynamodb-global-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-global-tables-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-global-tables-api-openapi.yml
 - filename: amazon-dynamodb-operations-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Operations API
   slug: amazon-dynamodb-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-operations-api-openapi.yml
 - filename: amazon-dynamodb-resource-policies-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Resource Policies API
   slug: amazon-dynamodb-resource-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-resource-policies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-resource-policies-api-openapi.yml
 - filename: amazon-dynamodb-streams-kinesis-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Streams Kinesis API
   slug: amazon-dynamodb-streams-kinesis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-streams-kinesis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-streams-kinesis-api-openapi.yml
 - filename: amazon-dynamodb-tags-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Tags API
   slug: amazon-dynamodb-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-tags-api-openapi.yml
 - filename: amazon-dynamodb-ttl-api-openapi.yml
   format: yaml
   label: Amazon DynamoDB Dynamodb Ttl API
   slug: amazon-dynamodb-ttl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/openapi/amazon-dynamodb-ttl-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-ttl-api-openapi.yml
 consequence_counts:
   read: 3
   write: 12
@@ -119,9 +119,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: createTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeTable\n  method: post\n  operationId: describeTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListTables\n  method: post\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#UpdateTable\n  method: post\n  operationId: updateTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DeleteTable\n  method: post\n  operationId: deleteTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#TransactGetItems\n  method: post\n  operationId: transactGetItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#TransactWriteItems\n  method: post\n  operationId: transactWriteItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/agentic-access/amazon-dynamodb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-dynamodb/agentic-access/amazon-dynamodb-agentic-access.yml
 summary_line: 15 operations · 12 acting
 tags:
+- Amazon Web Services
 - Database
 - Document Store
 - Key-Value Store

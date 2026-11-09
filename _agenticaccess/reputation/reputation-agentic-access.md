@@ -9,97 +9,97 @@ api_specs:
   label: Reputation Asset Library API
   slug: reputation-asset-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-asset-library-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-asset-library-api-openapi.yml
 - filename: reputation-authorize-api-openapi.yml
   format: yaml
   label: Reputation Authorize API
   slug: reputation-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-authorize-api-openapi.yml
 - filename: reputation-categories-api-openapi.yml
   format: yaml
   label: Reputation Categories API
   slug: reputation-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-categories-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-categories-api-openapi.yml
 - filename: reputation-credentials-api-openapi.yml
   format: yaml
   label: Reputation Credentials API
   slug: reputation-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-credentials-api-openapi.yml
 - filename: reputation-listing-audits-api-openapi.yml
   format: yaml
   label: Reputation Listing Audits API
   slug: reputation-listing-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-listing-audits-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-listing-audits-api-openapi.yml
 - filename: reputation-locations-api-openapi.yml
   format: yaml
   label: Reputation Locations API
   slug: reputation-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-locations-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-locations-api-openapi.yml
 - filename: reputation-metrics-api-openapi.yml
   format: yaml
   label: Reputation Metrics API
   slug: reputation-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-metrics-api-openapi.yml
 - filename: reputation-reports-api-openapi.yml
   format: yaml
   label: Reputation Reports API
   slug: reputation-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-reports-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-reports-api-openapi.yml
 - filename: reputation-requests-api-openapi.yml
   format: yaml
   label: Reputation Requests API
   slug: reputation-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-requests-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-requests-api-openapi.yml
 - filename: reputation-reviews-api-openapi.yml
   format: yaml
   label: Reputation Reviews API
   slug: reputation-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-reviews-api-openapi.yml
 - filename: reputation-rich-content-api-openapi.yml
   format: yaml
   label: Reputation Rich Content API
   slug: reputation-rich-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-rich-content-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-rich-content-api-openapi.yml
 - filename: reputation-summary-api-openapi.yml
   format: yaml
   label: Reputation Summary API
   slug: reputation-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-summary-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-summary-api-openapi.yml
 - filename: reputation-surveys-api-openapi.yml
   format: yaml
   label: Reputation Surveys API
   slug: reputation-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-surveys-api-openapi.yml
 - filename: reputation-tenants-api-openapi.yml
   format: yaml
   label: Reputation Tenants API
   slug: reputation-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-tenants-api-openapi.yml
 - filename: reputation-tickets-api-openapi.yml
   format: yaml
   label: Reputation Tickets API
   slug: reputation-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-tickets-api-openapi.yml
 - filename: reputation-users-api-openapi.yml
   format: yaml
   label: Reputation Users API
   slug: reputation-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/openapi/reputation-users-api-openapi.yml
+  url: https://artifacts.apis.io/reputation/openapi/reputation-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 43
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reputa
   \      - high-value\n    audit: required\n- path: /v3/tickets\n  method: get\n  operationId: get_tickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/tickets\n  method: post\n  operationId: post_tickets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/ticket-queues\n  method: get\n  operationId: get_ticket_queues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/ticket-stages\n  method: get\n  operationId: get_ticket_stages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v3/ticket-types\n  method: get\n  operationId: get_ticket_types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users\n  method: get\n  operationId: get_users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/users\n  method: post\n  operationId: post_users\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/users/{userID}\n  method: get\n  operationId: get_users_userID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reputation/refs/heads/main/agentic-access/reputation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reputation/agentic-access/reputation-agentic-access.yml
 summary_line: 67 operations · 24 acting
 tags:
 - Reputation Management

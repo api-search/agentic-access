@@ -9,73 +9,73 @@ api_specs:
   label: Ansible Auth API
   slug: ansible-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-auth-api-openapi.yml
 - filename: ansible-credentials-api-openapi.yml
   format: yaml
   label: Ansible Credentials API
   slug: ansible-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-credentials-api-openapi.yml
 - filename: ansible-hosts-api-openapi.yml
   format: yaml
   label: Ansible Hosts API
   slug: ansible-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-hosts-api-openapi.yml
 - filename: ansible-inventories-api-openapi.yml
   format: yaml
   label: Ansible Inventories API
   slug: ansible-inventories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-inventories-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-inventories-api-openapi.yml
 - filename: ansible-job-templates-api-openapi.yml
   format: yaml
   label: Ansible Job Templates API
   slug: ansible-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-job-templates-api-openapi.yml
 - filename: ansible-jobs-api-openapi.yml
   format: yaml
   label: Ansible Jobs API
   slug: ansible-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-jobs-api-openapi.yml
 - filename: ansible-organizations-api-openapi.yml
   format: yaml
   label: Ansible Organizations API
   slug: ansible-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-organizations-api-openapi.yml
 - filename: ansible-projects-api-openapi.yml
   format: yaml
   label: Ansible Projects API
   slug: ansible-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-projects-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-projects-api-openapi.yml
 - filename: ansible-schedules-api-openapi.yml
   format: yaml
   label: Ansible Schedules API
   slug: ansible-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-schedules-api-openapi.yml
 - filename: ansible-users-api-openapi.yml
   format: yaml
   label: Ansible Users API
   slug: ansible-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-users-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-users-api-openapi.yml
 - filename: ansible-workflow-job-templates-api-openapi.yml
   format: yaml
   label: Ansible Workflow Job Templates API
   slug: ansible-workflow-job-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-workflow-job-templates-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-workflow-job-templates-api-openapi.yml
 - filename: ansible-workflow-jobs-api-openapi.yml
   format: yaml
   label: Ansible Workflow Jobs API
   slug: ansible-workflow-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/openapi/ansible-workflow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ansible/openapi/ansible-workflow-jobs-api-openapi.yml
 consequence_counts:
   read: 18
   write: 15
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ansibl
   \      - abnormal\n      - high-value\n    audit: required\n- path: /job_templates/{id}/\n  method: get\n  operationId: getJobTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_templates/{id}/launch/\n  method: post\n  operationId: launchJobTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}/\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{id}/cancel/\n  method: post\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{id}/stdout/\n  method: get\n  operationId: getJobStdout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow_job_templates/\n  method: get\n  operationId: listWorkflowJobTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow_job_templates/{id}/launch/\n  method: post\n  operationId: launchWorkflowJobTemplate\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflow_jobs/\n  method: get\n  operationId: listWorkflowJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/agentic-access/ansible-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ansible/agentic-access/ansible-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Ansible

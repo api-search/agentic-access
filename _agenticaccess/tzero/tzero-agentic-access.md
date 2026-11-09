@@ -9,169 +9,169 @@ api_specs:
   label: tZERO Authorization API
   slug: tzero-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-authorization-api-openapi.yml
 - filename: tzero-balance-api-openapi.yml
   format: yaml
   label: tZERO Balance API
   slug: tzero-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-balance-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-balance-api-openapi.yml
 - filename: tzero-bank-accounts-api-openapi.yml
   format: yaml
   label: tZERO Bank Accounts API
   slug: tzero-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-bank-accounts-api-openapi.yml
 - filename: tzero-corporate-actions-api-openapi.yml
   format: yaml
   label: tZERO Corporate Actions API
   slug: tzero-corporate-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-corporate-actions-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-corporate-actions-api-openapi.yml
 - filename: tzero-custody-accounts-api-openapi.yml
   format: yaml
   label: tZERO Custody Accounts API
   slug: tzero-custody-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-custody-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-custody-accounts-api-openapi.yml
 - filename: tzero-custody-assets-api-openapi.yml
   format: yaml
   label: tZERO Custody Assets API
   slug: tzero-custody-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-custody-assets-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-custody-assets-api-openapi.yml
 - filename: tzero-custody-transfers-api-openapi.yml
   format: yaml
   label: tZERO Custody Transfers API
   slug: tzero-custody-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-custody-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-custody-transfers-api-openapi.yml
 - filename: tzero-deployments-api-openapi.yml
   format: yaml
   label: tZERO Deployments API
   slug: tzero-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-deployments-api-openapi.yml
 - filename: tzero-dividends-api-openapi.yml
   format: yaml
   label: tZERO Dividends API
   slug: tzero-dividends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-dividends-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-dividends-api-openapi.yml
 - filename: tzero-documents-api-openapi.yml
   format: yaml
   label: tZERO Documents API
   slug: tzero-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-documents-api-openapi.yml
 - filename: tzero-investments-api-openapi.yml
   format: yaml
   label: tZERO Investments API
   slug: tzero-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-investments-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-investments-api-openapi.yml
 - filename: tzero-investoraccounts-api-openapi.yml
   format: yaml
   label: tZERO Investor Accounts API
   slug: tzero-investoraccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-investoraccounts-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-investoraccounts-api-openapi.yml
 - filename: tzero-investors-api-openapi.yml
   format: yaml
   label: tZERO Investors API
   slug: tzero-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-investors-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-investors-api-openapi.yml
 - filename: tzero-iso-api-openapi.yml
   format: yaml
   label: tZERO Iso API
   slug: tzero-iso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-iso-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-iso-api-openapi.yml
 - filename: tzero-issuances-api-openapi.yml
   format: yaml
   label: tZERO Issuances API
   slug: tzero-issuances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-issuances-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-issuances-api-openapi.yml
 - filename: tzero-markets-api-openapi.yml
   format: yaml
   label: tZERO Markets API
   slug: tzero-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-markets-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-markets-api-openapi.yml
 - filename: tzero-onboarding-api-openapi.yml
   format: yaml
   label: tZERO Onboarding API
   slug: tzero-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-onboarding-api-openapi.yml
 - filename: tzero-proposals-api-openapi.yml
   format: yaml
   label: tZERO Proposals API
   slug: tzero-proposals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-proposals-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-proposals-api-openapi.yml
 - filename: tzero-securities-api-openapi.yml
   format: yaml
   label: tZERO Securities API
   slug: tzero-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-securities-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-securities-api-openapi.yml
 - filename: tzero-settlements-api-openapi.yml
   format: yaml
   label: tZERO Settlements API
   slug: tzero-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-settlements-api-openapi.yml
 - filename: tzero-subred-api-openapi.yml
   format: yaml
   label: tZERO Subred API
   slug: tzero-subred-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-subred-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-subred-api-openapi.yml
 - filename: tzero-subred-embed-api-openapi.yml
   format: yaml
   label: tZERO SubRed Embed API
   slug: tzero-subred-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-subred-embed-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-subred-embed-api-openapi.yml
 - filename: tzero-tokens-api-openapi.yml
   format: yaml
   label: tZERO Tokens API
   slug: tzero-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-tokens-api-openapi.yml
 - filename: tzero-trading-api-openapi.yml
   format: yaml
   label: tZERO Trading API
   slug: tzero-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-trading-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-trading-api-openapi.yml
 - filename: tzero-transfers-api-openapi.yml
   format: yaml
   label: tZERO Transfers API
   slug: tzero-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-transfers-api-openapi.yml
 - filename: tzero-vaults-api-openapi.yml
   format: yaml
   label: tZERO Vaults API
   slug: tzero-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-vaults-api-openapi.yml
 - filename: tzero-webhooks-api-openapi.yml
   format: yaml
   label: tZERO Webhooks API
   slug: tzero-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-webhooks-api-openapi.yml
 - filename: tzero-whitelist-api-openapi.yml
   format: yaml
   label: tZERO Whitelist API
   slug: tzero-whitelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/openapi/tzero-whitelist-api-openapi.yml
+  url: https://artifacts.apis.io/tzero/openapi/tzero-whitelist-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 71
@@ -310,8 +310,8 @@ source_yaml: "generated: '2026-09-01'\nmethod: generated\nsource: openapi/tzero-
   \ /pi/v1/users/{userId}/kyc\n  method: get\n  operationId: getUserKycStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pi/v1/users/{userId}/kyc\n  method: post\n  operationId: triggerKyc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/assets\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pi/v1/assets/{assetId}/investments\n  method: post\n  operationId: createInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/assets/{assetId}/investments\n  method: put\n  operationId: updateInvestment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/assets/{assetId}/investments/{investmentId}/payment\n  method: put\n  operationId: addInvestmentPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/accounts/{accountId}/bankAccounts\n\
   \  method: post\n  operationId: addBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/accounts/{accountId}/bankAccounts\n  method: get\n  operationId: getBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pi/v1/accounts/{accountId}/bankAccounts/{bankAccountId}\n  method: delete\n  operationId: removeBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/accounts/{accountId}/bankAccounts/{bankAccountId}/transfer\n\
-  \  method: post\n  operationId: transfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/accounts/{accountId}/balances\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pi/v1/investments/accounts/{accountId}\n  method: get\n  operationId: getInvestmentsByAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/agentic-access/tzero-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tzero/refs/heads/main/agentic-access/tzero-agentic-access.yml
+  \  method: post\n  operationId: transfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pi/v1/accounts/{accountId}/balances\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pi/v1/investments/accounts/{accountId}\n  method: get\n  operationId: getInvestmentsByAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/tzero/agentic-access/tzero-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tzero/agentic-access/tzero-agentic-access.yml
 summary_line: 135 operations · 64 acting · 1 human-in-the-loop
 tags:
 - Company

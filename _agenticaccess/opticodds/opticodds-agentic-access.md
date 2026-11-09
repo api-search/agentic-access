@@ -9,115 +9,115 @@ api_specs:
   label: OpticOdds Fixtures API
   slug: opticodds-fixtures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-fixtures-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-fixtures-api-openapi.yml
 - filename: opticodds-futures-api-openapi.yml
   format: yaml
   label: OpticOdds Futures API
   slug: opticodds-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-futures-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-futures-api-openapi.yml
 - filename: opticodds-injuries-api-openapi.yml
   format: yaml
   label: OpticOdds Injuries API
   slug: opticodds-injuries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-injuries-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-injuries-api-openapi.yml
 - filename: opticodds-results-api-openapi.yml
   format: yaml
   label: OpticOdds Results API
   slug: opticodds-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-results-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-results-api-openapi.yml
 - filename: opticodds-conferences-api-openapi.yml
   format: yaml
   label: OpticOdds Conferences API
   slug: opticodds-conferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-conferences-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-conferences-api-openapi.yml
 - filename: opticodds-copilot-api-openapi.yml
   format: yaml
   label: OpticOdds Copilot API
   slug: opticodds-copilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-copilot-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-copilot-api-openapi.yml
 - filename: opticodds-divisions-api-openapi.yml
   format: yaml
   label: OpticOdds Divisions API
   slug: opticodds-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-divisions-api-openapi.yml
 - filename: opticodds-grader-api-openapi.yml
   format: yaml
   label: OpticOdds Grader API
   slug: opticodds-grader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-grader-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-grader-api-openapi.yml
 - filename: opticodds-leagues-api-openapi.yml
   format: yaml
   label: OpticOdds Leagues API
   slug: opticodds-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-leagues-api-openapi.yml
 - filename: opticodds-market-types-api-openapi.yml
   format: yaml
   label: OpticOdds Market Types API
   slug: opticodds-market-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-market-types-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-market-types-api-openapi.yml
 - filename: opticodds-markets-api-openapi.yml
   format: yaml
   label: OpticOdds Markets API
   slug: opticodds-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-markets-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-markets-api-openapi.yml
 - filename: opticodds-odds-api-openapi.yml
   format: yaml
   label: OpticOdds Odds API
   slug: opticodds-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-odds-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-odds-api-openapi.yml
 - filename: opticodds-parlay-api-openapi.yml
   format: yaml
   label: OpticOdds Parlay API
   slug: opticodds-parlay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-parlay-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-parlay-api-openapi.yml
 - filename: opticodds-players-api-openapi.yml
   format: yaml
   label: OpticOdds Players API
   slug: opticodds-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-players-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-players-api-openapi.yml
 - filename: opticodds-queue-api-openapi.yml
   format: yaml
   label: OpticOdds Queue API
   slug: opticodds-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-queue-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-queue-api-openapi.yml
 - filename: opticodds-sports-api-openapi.yml
   format: yaml
   label: OpticOdds Sports API
   slug: opticodds-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-sports-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-sports-api-openapi.yml
 - filename: opticodds-sportsbooks-api-openapi.yml
   format: yaml
   label: OpticOdds Sportsbooks API
   slug: opticodds-sportsbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-sportsbooks-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-sportsbooks-api-openapi.yml
 - filename: opticodds-teams-api-openapi.yml
   format: yaml
   label: OpticOdds Teams API
   slug: opticodds-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-teams-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-teams-api-openapi.yml
 - filename: opticodds-tournaments-api-openapi.yml
   format: yaml
   label: OpticOdds Tournaments API
   slug: opticodds-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/openapi/opticodds-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/opticodds/openapi/opticodds-tournaments-api-openapi.yml
 consequence_counts:
   read: 43
   safety-critical: 3
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/optico
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /fixtures/player-results\n  method: get\n  operationId: getFixturesPlayerResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/player-results/last-x\n  method: get\n  operationId: getFixturesPlayerResultsLastX\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/results\n  method: get\n  operationId: getFixturesResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fixtures/results/head-to-head\n\
   \  method: get\n  operationId: getFixturesResultsHeadToHead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sports\n  method: get\n  operationId: getSports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sports/active\n  method: get\n  operationId: getSportsActive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sportsbooks\n  method: get\n  operationId: getSportsbooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sportsbooks/active\n  method: get\n  operationId: getSportsbooksActive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sportsbooks/last-polled\n  method: get\n  operationId: getSportsbooksLastPolled\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams\n  method: get\n  operationId: getTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tournaments\n  method: get\n  operationId: getTournaments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tournaments/results\n  method: get\n  operationId: getTournamentsResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opticodds/refs/heads/main/agentic-access/opticodds-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opticodds/agentic-access/opticodds-agentic-access.yml
 summary_line: 51 operations · 8 acting · 3 human-in-the-loop
 tags:
 - Odds

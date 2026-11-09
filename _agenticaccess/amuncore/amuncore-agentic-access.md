@@ -9,7 +9,7 @@ api_specs:
   label: AmunCore Dynamic API
   slug: amuncore-dynamic-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/openapi/amuncore-dynamic-api-api-openapi.yml
+  url: https://artifacts.apis.io/amuncore/openapi/amuncore-dynamic-api-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -38,7 +38,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-10'\nmethod: generated\nsource: openapi/amuncore-dynamic-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 2\n    acting: 3\n  by_consequence:\n    read: 2\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/{appId}/{endpointName}\n  method: get\n  operationId: DynamicApi_GetList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{appId}/{endpointName}\n  method: post\n  operationId: DynamicApi_Post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/{appId}/{endpointName}/{id}\n  method: get\n  operationId: DynamicApi_GetById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/{appId}/{endpointName}/{id}\n  method: put\n  operationId: DynamicApi_Put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/{appId}/{endpointName}/{id}\n  method: delete\n  operationId: DynamicApi_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amuncore/refs/heads/main/agentic-access/amuncore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amuncore/agentic-access/amuncore-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Database

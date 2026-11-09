@@ -9,31 +9,31 @@ api_specs:
   label: Finn-tannlege A2a API
   slug: finn-tannlege-com-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-a2a-api-openapi.yml
 - filename: finn-tannlege-com-llms-txt-api-openapi.yml
   format: yaml
   label: Finn-tannlege Llms.txt API
   slug: finn-tannlege-com-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-llms-txt-api-openapi.yml
 - filename: finn-tannlege-com-mcp-api-openapi.yml
   format: yaml
   label: Finn-tannlege MCP API
   slug: finn-tannlege-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-mcp-api-openapi.yml
 - filename: finn-tannlege-com-tannlege-api-openapi.yml
   format: yaml
   label: Finn-tannlege Tannlege API
   slug: finn-tannlege-com-tannlege-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-tannlege-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-tannlege-api-openapi.yml
 - filename: finn-tannlege-com-well-known-api-openapi.yml
   format: yaml
   label: Finn-tannlege .well Known API
   slug: finn-tannlege-com-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/openapi/finn-tannlege-com-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/finn-tannlege-com/openapi/finn-tannlege-com-well-known-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/finn-t
   \  method: get\n  operationId: getDentalSpecialists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tannlege/chains\n  method: get\n  operationId: listDentalChains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tannlege/discover\n  method: get\n  operationId: discoverDentalAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: get\n  operationId: getDentalA2ACard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: post\n  operationId: dentalA2AJsonRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/agent-card.json\n  method: get\n  operationId: getDentalAgentCardWellKnown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llms.txt\n  method: get\n  operationId: getLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mcp\n  method: post\n  operationId: dentalMcpStreamableHttp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /mcp\n  method: get\n  operationId: dentalMcpSse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finn-tannlege-com/refs/heads/main/agentic-access/finn-tannlege-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/finn-tannlege-com/agentic-access/finn-tannlege-com-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Dental

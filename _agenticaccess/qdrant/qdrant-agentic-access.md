@@ -9,55 +9,55 @@ api_specs:
   label: Qdrant Aliases API
   slug: qdrant-aliases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-aliases-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-aliases-api-openapi.yml
 - filename: qdrant-beta-api-openapi.yml
   format: yaml
   label: Qdrant Beta API
   slug: qdrant-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-beta-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-beta-api-openapi.yml
 - filename: qdrant-collections-api-openapi.yml
   format: yaml
   label: Qdrant Collections API
   slug: qdrant-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-collections-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-collections-api-openapi.yml
 - filename: qdrant-distributed-api-openapi.yml
   format: yaml
   label: Qdrant Distributed API
   slug: qdrant-distributed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-distributed-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-distributed-api-openapi.yml
 - filename: qdrant-indexes-api-openapi.yml
   format: yaml
   label: Qdrant Indexes API
   slug: qdrant-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-indexes-api-openapi.yml
 - filename: qdrant-points-api-openapi.yml
   format: yaml
   label: Qdrant Points API
   slug: qdrant-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-points-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-points-api-openapi.yml
 - filename: qdrant-search-api-openapi.yml
   format: yaml
   label: Qdrant Search API
   slug: qdrant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-search-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-search-api-openapi.yml
 - filename: qdrant-service-api-openapi.yml
   format: yaml
   label: Qdrant Service API
   slug: qdrant-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-service-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-service-api-openapi.yml
 - filename: qdrant-snapshots-api-openapi.yml
   format: yaml
   label: Qdrant Snapshots API
   slug: qdrant-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/openapi/qdrant-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/qdrant/openapi/qdrant-snapshots-api-openapi.yml
 consequence_counts:
   read: 35
   write: 38
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/qdrant
   \ 3600\n    audit: none\n- path: /collections/{collection_name}/shards/{shard_id}/snapshot\n  method: get\n  operationId: stream_shard_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_name}/shards/{shard_id}/snapshots/upload\n  method: post\n  operationId: recover_shard_from_uploaded_snapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/shards/{shard_id}/snapshots/recover\n  method: put\n  operationId: recover_shard_from_snapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/shards/{shard_id}/snapshots\n  method: get\n  operationId: list_shard_snapshots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_name}/shards/{shard_id}/snapshots\n  method: post\n  operationId: create_shard_snapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/shards/{shard_id}/snapshots/{snapshot_name}\n  method: delete\n  operationId: delete_shard_snapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_name}/shards/{shard_id}/snapshots/{snapshot_name}\n  method: get\n  operationId: get_shard_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qdrant/refs/heads/main/agentic-access/qdrant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qdrant/agentic-access/qdrant-agentic-access.yml
 summary_line: 73 operations · 38 acting
 tags:
 - Artificial Intelligence

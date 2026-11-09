@@ -9,49 +9,49 @@ api_specs:
   label: Scalable Press Billing API
   slug: scalablepress-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-billing-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-billing-api-openapi.yml
 - filename: scalablepress-customization-api-openapi.yml
   format: yaml
   label: Scalable Press Customization API
   slug: scalablepress-customization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-customization-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-customization-api-openapi.yml
 - filename: scalablepress-design-api-openapi.yml
   format: yaml
   label: Scalable Press Design API
   slug: scalablepress-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-design-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-design-api-openapi.yml
 - filename: scalablepress-event-api-openapi.yml
   format: yaml
   label: Scalable Press Event API
   slug: scalablepress-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-event-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-event-api-openapi.yml
 - filename: scalablepress-mockup-api-openapi.yml
   format: yaml
   label: Scalable Press Mockup API
   slug: scalablepress-mockup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-mockup-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-mockup-api-openapi.yml
 - filename: scalablepress-order-api-openapi.yml
   format: yaml
   label: Scalable Press Order API
   slug: scalablepress-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-order-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-order-api-openapi.yml
 - filename: scalablepress-product-api-openapi.yml
   format: yaml
   label: Scalable Press Product API
   slug: scalablepress-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-product-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-product-api-openapi.yml
 - filename: scalablepress-quote-api-openapi.yml
   format: yaml
   label: Scalable Press Quote API
   slug: scalablepress-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-quote-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-quote-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 14
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scalab
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/design\n  method: post\n  operationId: createDesign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/design/{designId}\n  method: get\n  operationId: getDesign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/design/{designId}\n  method: delete\n  operationId: deleteDesign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v2/customization\n  method: get\n  operationId: getCustomizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/mockup\n  method: post\n  operationId: createMockup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/billing/invoice\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/billing/invoice/{invoiceId}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v2/billing/invoice/{invoiceId}/pay/paypal\n  method: post\n  operationId: payInvoicePaypal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/agentic-access/scalablepress-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scalablepress/agentic-access/scalablepress-agentic-access.yml
 summary_line: 24 operations · 10 acting
 tags:
 - Print on Demand

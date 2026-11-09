@@ -9,43 +9,43 @@ api_specs:
   label: Rootly Alerts API
   slug: rootly-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-alerts-api-openapi.yml
 - filename: rootly-escalation-policies-api-openapi.yml
   format: yaml
   label: Rootly Escalation Policies API
   slug: rootly-escalation-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-escalation-policies-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-escalation-policies-api-openapi.yml
 - filename: rootly-incidents-api-openapi.yml
   format: yaml
   label: Rootly Incidents API
   slug: rootly-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-incidents-api-openapi.yml
 - filename: rootly-services-api-openapi.yml
   format: yaml
   label: Rootly Services API
   slug: rootly-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-services-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-services-api-openapi.yml
 - filename: rootly-teams-api-openapi.yml
   format: yaml
   label: Rootly Teams API
   slug: rootly-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-teams-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-teams-api-openapi.yml
 - filename: rootly-users-api-openapi.yml
   format: yaml
   label: Rootly Users API
   slug: rootly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-users-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-users-api-openapi.yml
 - filename: rootly-workflows-api-openapi.yml
   format: yaml
   label: Rootly Workflows API
   slug: rootly-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/openapi/rootly-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/rootly/openapi/rootly-workflows-api-openapi.yml
 consequence_counts:
   read: 13
   write: 17
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rootly
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /escalation-policies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /escalation-policies\n  method: post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rootly/refs/heads/main/agentic-access/rootly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rootly/agentic-access/rootly-agentic-access.yml
 summary_line: 30 operations · 17 acting
 tags:
 - AIOps

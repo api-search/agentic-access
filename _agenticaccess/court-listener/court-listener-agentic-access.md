@@ -8,127 +8,127 @@ api_specs:
   label: CourtListener Alerts API
   slug: court-listener-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-alerts-api-openapi.yml
 - filename: court-listener-audio-api-openapi.yml
   format: yaml
   label: CourtListener Audio API
   slug: court-listener-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-audio-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-audio-api-openapi.yml
 - filename: court-listener-citation-api-openapi.yml
   format: yaml
   label: CourtListener Citation API
   slug: court-listener-citation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-citation-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-citation-api-openapi.yml
 - filename: court-listener-cited-by-api-openapi.yml
   format: yaml
   label: CourtListener Cited By API
   slug: court-listener-cited-by-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-cited-by-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-cited-by-api-openapi.yml
 - filename: court-listener-cites-api-openapi.yml
   format: yaml
   label: CourtListener Cites API
   slug: court-listener-cites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-cites-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-cites-api-openapi.yml
 - filename: court-listener-courts-api-openapi.yml
   format: yaml
   label: CourtListener Courts API
   slug: court-listener-courts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-courts-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-courts-api-openapi.yml
 - filename: court-listener-coverage-api-openapi.yml
   format: yaml
   label: CourtListener Coverage API
   slug: court-listener-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-coverage-api-openapi.yml
 - filename: court-listener-docket-alerts-api-openapi.yml
   format: yaml
   label: CourtListener Docket Alerts API
   slug: court-listener-docket-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-docket-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-docket-alerts-api-openapi.yml
 - filename: court-listener-docket-entries-api-openapi.yml
   format: yaml
   label: CourtListener Docket Entries API
   slug: court-listener-docket-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-docket-entries-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-docket-entries-api-openapi.yml
 - filename: court-listener-dockets-api-openapi.yml
   format: yaml
   label: CourtListener Dockets API
   slug: court-listener-dockets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-dockets-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-dockets-api-openapi.yml
 - filename: court-listener-financial-disclosures-api-openapi.yml
   format: yaml
   label: CourtListener Financial Disclosures API
   slug: court-listener-financial-disclosures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-financial-disclosures-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-financial-disclosures-api-openapi.yml
 - filename: court-listener-fjc-database-api-openapi.yml
   format: yaml
   label: CourtListener FJC Database API
   slug: court-listener-fjc-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-fjc-database-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-fjc-database-api-openapi.yml
 - filename: court-listener-jurisdiction-api-openapi.yml
   format: yaml
   label: CourtListener Jurisdiction API
   slug: court-listener-jurisdiction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-jurisdiction-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-jurisdiction-api-openapi.yml
 - filename: court-listener-opinion-api-openapi.yml
   format: yaml
   label: CourtListener Opinion API
   slug: court-listener-opinion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-opinion-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-opinion-api-openapi.yml
 - filename: court-listener-opinion-clusters-api-openapi.yml
   format: yaml
   label: CourtListener Opinion Clusters API
   slug: court-listener-opinion-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-opinion-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-opinion-clusters-api-openapi.yml
 - filename: court-listener-opinions-api-openapi.yml
   format: yaml
   label: CourtListener Opinions API
   slug: court-listener-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-opinions-api-openapi.yml
 - filename: court-listener-people-api-openapi.yml
   format: yaml
   label: CourtListener People API
   slug: court-listener-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-people-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-people-api-openapi.yml
 - filename: court-listener-positions-api-openapi.yml
   format: yaml
   label: CourtListener Positions API
   slug: court-listener-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-positions-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-positions-api-openapi.yml
 - filename: court-listener-recap-documents-api-openapi.yml
   format: yaml
   label: CourtListener RECAP Documents API
   slug: court-listener-recap-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-recap-documents-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-recap-documents-api-openapi.yml
 - filename: court-listener-search-api-openapi.yml
   format: yaml
   label: CourtListener Search API
   slug: court-listener-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-search-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-search-api-openapi.yml
 - filename: court-listener-visualizations-api-openapi.yml
   format: yaml
   label: CourtListener Visualizations API
   slug: court-listener-visualizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/openapi/court-listener-visualizations-api-openapi.yml
+  url: https://artifacts.apis.io/court-listener/openapi/court-listener-visualizations-api-openapi.yml
 consequence_counts:
   read: 37
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/court-
   \  max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/positions/\n  method: get\n  operationId: listPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/positions/{id}/\n  method: get\n  operationId: retrievePosition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/financial-disclosures/\n  method: get\n  operationId: listFinancialDisclosures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/financial-disclosures/{id}/\n  method: get\n  operationId: retrieveFinancialDisclosure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/rest/v4/alerts/\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/alerts/{id}/\n  method: get\n  operationId: retrieveAlert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/docket-alerts/\n  method: get\n  operationId: listDocketAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/docket-alerts/{id}/\n  method: get\n  operationId: retrieveDocketAlert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/visualizations/\n  method: get\n  operationId: listVisualizations\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/visualizations/{id}/\n  method: get\n  operationId: retrieveVisualization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/fjc-integrated-database/\n  method: get\n  operationId: listFJCDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/rest/v4/fjc-integrated-database/{id}/\n  method: get\n  operationId: retrieveFJCDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/court-listener/refs/heads/main/agentic-access/court-listener-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/court-listener/agentic-access/court-listener-agentic-access.yml
 summary_line: 37 operations
 tags:
 - Legal
@@ -175,4 +175,5 @@ tags:
 - Federal Courts
 - State Courts
 - Open Data
+- FreeLaw
 ---

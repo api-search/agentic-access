@@ -9,55 +9,55 @@ api_specs:
   label: TwentyCi Address Match API
   slug: twentyci-address-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-address-match-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-address-match-api-openapi.yml
 - filename: twentyci-agent-performance-api-openapi.yml
   format: yaml
   label: TwentyCi Agent Performance API
   slug: twentyci-agent-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-agent-performance-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-agent-performance-api-openapi.yml
 - filename: twentyci-authorisation-api-openapi.yml
   format: yaml
   label: TwentyCi Authorisation API
   slug: twentyci-authorisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-authorisation-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-authorisation-api-openapi.yml
 - filename: twentyci-categories-api-openapi.yml
   format: yaml
   label: TwentyCi Categories API
   slug: twentyci-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-categories-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-categories-api-openapi.yml
 - filename: twentyci-properties-api-openapi.yml
   format: yaml
   label: TwentyCi Properties API
   slug: twentyci-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-properties-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-properties-api-openapi.yml
 - filename: twentyci-schools-api-openapi.yml
   format: yaml
   label: TwentyCi Schools API
   slug: twentyci-schools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-schools-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-schools-api-openapi.yml
 - filename: twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
   format: yaml
   label: TwentyCi This is Now | Retail Propensity To Buy Goods API
   slug: twentyci-this-is-now-retail-propensity-to-buy-goods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-this-is-now-retail-propensity-to-buy-goods-api-openapi.yml
 - filename: twentyci-trigger-information-api-openapi.yml
   format: yaml
   label: TwentyCi Trigger Information API
   slug: twentyci-trigger-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-trigger-information-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-trigger-information-api-openapi.yml
 - filename: twentyci-uk-housing-market-metrics-api-openapi.yml
   format: yaml
   label: TwentyCi UK Housing Market Metrics API
   slug: twentyci-uk-housing-market-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/twentyci/openapi/twentyci-uk-housing-market-metrics-api-openapi.yml
 consequence_counts:
   read: 52
   write: 6
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/twenty
   \ none\n- path: /agent-performance/brand/exchange\n  method: get\n  operationId: get_agent_performance_brand_exchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent-performance/brand/property-sale-value-all-brands\n  method: get\n  operationId: get_agent_performance_brand_property_sale_value_all_brands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent-performance/brand/initial-price-achieve\n  method: get\n  operationId: get_agent_performance_brand_initial_price_achieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agent-performance/brand/property-listing-value\n  method: get\n  operationId: get_agent_performance_brand_property_listing_value\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rentals/agent-performance/brand/time-to-let\n  method: get\n  operationId: get_rentals_agent_performance_brand_time_to_let\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rentals/agent-performance/brand/time-to-let-all-brands\n  method: get\n  operationId: get_rentals_agent_performance_brand_time_to_let_all_brands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rentals/agent-performance/brand/let-percentage-all-brands\n  method: get\n  operationId: get_rentals_agent_performance_brand_let_percentage_all_brands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /this-is-now/search-national\n  method: get\n  operationId: get_this_is_now_search_national\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twentyci/refs/heads/main/agentic-access/twentyci-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/twentyci/agentic-access/twentyci-agentic-access.yml
 summary_line: 58 operations · 6 acting
 tags:
 - Real Estate

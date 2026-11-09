@@ -9,67 +9,67 @@ api_specs:
   label: FastDOL Auth API
   slug: fastdol-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-auth-api-openapi.yml
 - filename: fastdol-dashboard-api-openapi.yml
   format: yaml
   label: FastDOL Dashboard API
   slug: fastdol-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-dashboard-api-openapi.yml
 - filename: fastdol-employers-api-openapi.yml
   format: yaml
   label: FastDOL Employers API
   slug: fastdol-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-employers-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-employers-api-openapi.yml
 - filename: fastdol-export-api-openapi.yml
   format: yaml
   label: FastDOL Export API
   slug: fastdol-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-export-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-export-api-openapi.yml
 - filename: fastdol-health-api-openapi.yml
   format: yaml
   label: FastDOL Health API
   slug: fastdol-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-health-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-health-api-openapi.yml
 - filename: fastdol-industries-api-openapi.yml
   format: yaml
   label: FastDOL Industries API
   slug: fastdol-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-industries-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-industries-api-openapi.yml
 - filename: fastdol-inspections-api-openapi.yml
   format: yaml
   label: FastDOL Inspections API
   slug: fastdol-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-inspections-api-openapi.yml
 - filename: fastdol-sitemap-api-openapi.yml
   format: yaml
   label: FastDOL Sitemap API
   slug: fastdol-sitemap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-sitemap-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-sitemap-api-openapi.yml
 - filename: fastdol-stats-api-openapi.yml
   format: yaml
   label: FastDOL Stats API
   slug: fastdol-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-stats-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-stats-api-openapi.yml
 - filename: fastdol-usage-api-openapi.yml
   format: yaml
   label: FastDOL Usage API
   slug: fastdol-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-usage-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-usage-api-openapi.yml
 - filename: fastdol-webhooks-api-openapi.yml
   format: yaml
   label: FastDOL Webhooks API
   slug: fastdol-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/openapi/fastdol-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fastdol/openapi/fastdol-webhooks-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 2
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fastdo
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stats/states\n  method: get\n  operationId: states_index_v1_stats_states_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/export\n  method: post\n  operationId: create_export_v1_export_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/export/{job_id}\n  method: get\n  operationId: get_export_v1_export__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/export/{job_id}/download\n\
   \  method: get\n  operationId: download_export_v1_export__job_id__download_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/usage/lookup\n  method: post\n  operationId: log_lookup_v1_usage_lookup_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/usage/pdf-report-claim\n  method: post\n  operationId: claim_pdf_report_v1_usage_pdf_report_claim_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/usage\n\
   \  method: get\n  operationId: get_usage_v1_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/health\n  method: get\n  operationId: health_v1_health_head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/health\n  method: head\n  operationId: health_v1_health_head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/health/detail\n  method: get\n  operationId: health_detail_v1_health_detail_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/agentic-access/fastdol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fastdol/agentic-access/fastdol-agentic-access.yml
 summary_line: 48 operations · 17 acting · 2 human-in-the-loop
 tags:
 - OSHA

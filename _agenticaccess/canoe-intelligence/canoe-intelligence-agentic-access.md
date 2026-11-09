@@ -9,61 +9,61 @@ api_specs:
   label: Canoe Intelligence Allocations API
   slug: canoe-intelligence-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-allocations-api-openapi.yml
 - filename: canoe-intelligence-authentication-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Authentication API
   slug: canoe-intelligence-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-authentication-api-openapi.yml
 - filename: canoe-intelligence-custom-fields-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Custom Fields API
   slug: canoe-intelligence-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-custom-fields-api-openapi.yml
 - filename: canoe-intelligence-documents-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Documents API
   slug: canoe-intelligence-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-documents-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-documents-api-openapi.yml
 - filename: canoe-intelligence-funds-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Funds API
   slug: canoe-intelligence-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-funds-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-funds-api-openapi.yml
 - filename: canoe-intelligence-organizations-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Organizations API
   slug: canoe-intelligence-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-organizations-api-openapi.yml
 - filename: canoe-intelligence-password-grant-tokens-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Password Grant Tokens API
   slug: canoe-intelligence-password-grant-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-password-grant-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-password-grant-tokens-api-openapi.yml
 - filename: canoe-intelligence-terms-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Terms API
   slug: canoe-intelligence-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-terms-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-terms-api-openapi.yml
 - filename: canoe-intelligence-user-api-openapi.yml
   format: yaml
   label: Canoe Intelligence User API
   slug: canoe-intelligence-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-user-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-user-api-openapi.yml
 - filename: canoe-intelligence-introduction-api-openapi.yml
   format: yaml
   label: Canoe Intelligence Introduction API
   slug: canoe-intelligence-introduction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/openapi/canoe-intelligence-introduction-api-openapi.yml
+  url: https://artifacts.apis.io/canoe-intelligence/openapi/canoe-intelligence-introduction-api-openapi.yml
 consequence_counts:
   read: 50
   write: 52
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/canoe-
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: Update A User Within Your Organization\n  method: put\n  operationId: UpdateASingleUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: Get User Access Levels\n  method: get\n  operationId: findByRole\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user\n  method: get\n  operationId: User\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /v1/user\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: get\n  operationId: findByTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/roles\n  method: get\n  operationId: getUserRoles\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canoe-intelligence/refs/heads/main/agentic-access/canoe-intelligence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/canoe-intelligence/agentic-access/canoe-intelligence-agentic-access.yml
 summary_line: 102 operations · 52 acting
 tags:
 - Alternative Investments

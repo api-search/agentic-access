@@ -9,61 +9,61 @@ api_specs:
   label: Payments Canada application level heartbeat API
   slug: payments-canada-application-level-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-application-level-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-application-level-heartbeat-api-openapi.yml
 - filename: payments-canada-ccin-extract-resource-api-openapi.yml
   format: yaml
   label: Payments Canada Ccin Extract Resource API
   slug: payments-canada-ccin-extract-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-ccin-extract-resource-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-ccin-extract-resource-api-openapi.yml
 - filename: payments-canada-fif-branches-resource-api-openapi.yml
   format: yaml
   label: Payments Canada Fif Branches Resource API
   slug: payments-canada-fif-branches-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-fif-branches-resource-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-fif-branches-resource-api-openapi.yml
 - filename: payments-canada-fif-extracts-resource-api-openapi.yml
   format: yaml
   label: Payments Canada Fif Extracts Resource API
   slug: payments-canada-fif-extracts-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-fif-extracts-resource-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-fif-extracts-resource-api-openapi.yml
 - filename: payments-canada-interest-report-api-openapi.yml
   format: yaml
   label: Payments Canada Interest Report API
   slug: payments-canada-interest-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-interest-report-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-interest-report-api-openapi.yml
 - filename: payments-canada-master-extract-resource-api-openapi.yml
   format: yaml
   label: Payments Canada Master Extract Resource API
   slug: payments-canada-master-extract-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-master-extract-resource-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-master-extract-resource-api-openapi.yml
 - filename: payments-canada-report-api-openapi.yml
   format: yaml
   label: Payments Canada Report API
   slug: payments-canada-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-report-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-report-api-openapi.yml
 - filename: payments-canada-single-credit-transfer-api-openapi.yml
   format: yaml
   label: Payments Canada single credit transfer API
   slug: payments-canada-single-credit-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-single-credit-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-single-credit-transfer-api-openapi.yml
 - filename: payments-canada-single-credit-transfer-status-enquiry-api-openapi.yml
   format: yaml
   label: Payments Canada single credit transfer status enquiry API
   slug: payments-canada-single-credit-transfer-status-enquiry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-single-credit-transfer-status-enquiry-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-single-credit-transfer-status-enquiry-api-openapi.yml
 - filename: payments-canada-update-extract-resource-api-openapi.yml
   format: yaml
   label: Payments Canada Update Extract Resource API
   slug: payments-canada-update-extract-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/openapi/payments-canada-update-extract-resource-api-openapi.yml
+  url: https://artifacts.apis.io/payments-canada/openapi/payments-canada-update-extract-resource-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/ccin-e
   \  method: get\n  operationId: getUpdate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-capacity-balance-report\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - client_credentials\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inbound-heartbeat\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - client_credentials\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method:\
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - client_credentials\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/status\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - client_credentials\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /interest-report\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - client_credentials\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payments-canada/refs/heads/main/agentic-access/payments-canada-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payments-canada/agentic-access/payments-canada-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Financial Services

@@ -9,367 +9,367 @@ api_specs:
   label: Gr4vy 3DS scenarios API
   slug: gr4vy-3ds-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-3ds-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-3ds-scenarios-api-openapi.yml
 - filename: gr4vy-account-updater-api-openapi.yml
   format: yaml
   label: Gr4vy Account Updater API
   slug: gr4vy-account-updater-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-account-updater-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-account-updater-api-openapi.yml
 - filename: gr4vy-anti-fraud-service-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Anti Fraud Service Definitions API
   slug: gr4vy-anti-fraud-service-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-anti-fraud-service-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-anti-fraud-service-definitions-api-openapi.yml
 - filename: gr4vy-anti-fraud-services-api-openapi.yml
   format: yaml
   label: Gr4vy Anti-Fraud Services API
   slug: gr4vy-anti-fraud-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-anti-fraud-services-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-anti-fraud-services-api-openapi.yml
 - filename: gr4vy-api-key-pairs-api-openapi.yml
   format: yaml
   label: Gr4vy API Key Pairs API
   slug: gr4vy-api-key-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-api-key-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-api-key-pairs-api-openapi.yml
 - filename: gr4vy-api-logs-api-openapi.yml
   format: yaml
   label: Gr4vy API Logs API
   slug: gr4vy-api-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-api-logs-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-api-logs-api-openapi.yml
 - filename: gr4vy-apple-pay-certificates-api-openapi.yml
   format: yaml
   label: Gr4vy Apple Pay Certificates API
   slug: gr4vy-apple-pay-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-apple-pay-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-apple-pay-certificates-api-openapi.yml
 - filename: gr4vy-audit-logs-api-openapi.yml
   format: yaml
   label: Gr4vy Audit Logs API
   slug: gr4vy-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-audit-logs-api-openapi.yml
 - filename: gr4vy-buyers-api-openapi.yml
   format: yaml
   label: Gr4vy Buyers API
   slug: gr4vy-buyers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-buyers-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-buyers-api-openapi.yml
 - filename: gr4vy-buyers-gift-cards-api-openapi.yml
   format: yaml
   label: Gr4vy Buyers - Gift cards API
   slug: gr4vy-buyers-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-buyers-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-buyers-gift-cards-api-openapi.yml
 - filename: gr4vy-buyers-payment-methods-api-openapi.yml
   format: yaml
   label: Gr4vy Buyers - Payment methods API
   slug: gr4vy-buyers-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-buyers-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-buyers-payment-methods-api-openapi.yml
 - filename: gr4vy-buyers-shipping-details-api-openapi.yml
   format: yaml
   label: Gr4vy Buyers - Shipping details API
   slug: gr4vy-buyers-shipping-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-buyers-shipping-details-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-buyers-shipping-details-api-openapi.yml
 - filename: gr4vy-card-details-api-openapi.yml
   format: yaml
   label: Gr4vy Card Details API
   slug: gr4vy-card-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-card-details-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-card-details-api-openapi.yml
 - filename: gr4vy-card-scheme-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Card Scheme Definitions API
   slug: gr4vy-card-scheme-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-card-scheme-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-card-scheme-definitions-api-openapi.yml
 - filename: gr4vy-checkout-sessions-api-openapi.yml
   format: yaml
   label: Gr4vy Checkout Sessions API
   slug: gr4vy-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-checkout-sessions-api-openapi.yml
 - filename: gr4vy-connection-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Connection Definitions API
   slug: gr4vy-connection-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-connection-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-connection-definitions-api-openapi.yml
 - filename: gr4vy-connections-api-openapi.yml
   format: yaml
   label: Gr4vy Connections API
   slug: gr4vy-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-connections-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-connections-api-openapi.yml
 - filename: gr4vy-digital-wallets-api-openapi.yml
   format: yaml
   label: Gr4vy Digital Wallets API
   slug: gr4vy-digital-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-digital-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-digital-wallets-api-openapi.yml
 - filename: gr4vy-digital-wallets-sessions-api-openapi.yml
   format: yaml
   label: Gr4vy Digital wallets - Sessions API
   slug: gr4vy-digital-wallets-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-digital-wallets-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-digital-wallets-sessions-api-openapi.yml
 - filename: gr4vy-digital-wallets-setup-api-openapi.yml
   format: yaml
   label: Gr4vy Digital wallets - Setup API
   slug: gr4vy-digital-wallets-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-digital-wallets-setup-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-digital-wallets-setup-api-openapi.yml
 - filename: gr4vy-flow-api-openapi.yml
   format: yaml
   label: Gr4vy Flow API
   slug: gr4vy-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-flow-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-flow-api-openapi.yml
 - filename: gr4vy-gift-card-service-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Gift Card Service Definitions API
   slug: gr4vy-gift-card-service-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-gift-card-service-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-gift-card-service-definitions-api-openapi.yml
 - filename: gr4vy-gift-card-services-api-openapi.yml
   format: yaml
   label: Gr4vy Gift Card Services API
   slug: gr4vy-gift-card-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-gift-card-services-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-gift-card-services-api-openapi.yml
 - filename: gr4vy-gift-cards-api-openapi.yml
   format: yaml
   label: Gr4vy Gift Cards API
   slug: gr4vy-gift-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-gift-cards-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-gift-cards-api-openapi.yml
 - filename: gr4vy-health-dashboard-api-openapi.yml
   format: yaml
   label: Gr4vy Health Dashboard API
   slug: gr4vy-health-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-health-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-health-dashboard-api-openapi.yml
 - filename: gr4vy-insights-api-openapi.yml
   format: yaml
   label: Gr4vy Insights API
   slug: gr4vy-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-insights-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-insights-api-openapi.yml
 - filename: gr4vy-insights-presets-api-openapi.yml
   format: yaml
   label: Gr4vy Insights - Presets API
   slug: gr4vy-insights-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-insights-presets-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-insights-presets-api-openapi.yml
 - filename: gr4vy-merchant-accounts-3ds-configuration-api-openapi.yml
   format: yaml
   label: Gr4vy Merchant accounts - 3DS configuration API
   slug: gr4vy-merchant-accounts-3ds-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-merchant-accounts-3ds-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-merchant-accounts-3ds-configuration-api-openapi.yml
 - filename: gr4vy-merchant-accounts-api-openapi.yml
   format: yaml
   label: Gr4vy Merchant Accounts API
   slug: gr4vy-merchant-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-merchant-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-merchant-accounts-api-openapi.yml
 - filename: gr4vy-metrics-explorer-api-openapi.yml
   format: yaml
   label: Gr4vy Metrics Explorer API
   slug: gr4vy-metrics-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-metrics-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-metrics-explorer-api-openapi.yml
 - filename: gr4vy-monitoring-api-openapi.yml
   format: yaml
   label: Gr4vy Monitoring API
   slug: gr4vy-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-monitoring-api-openapi.yml
 - filename: gr4vy-payment-links-api-openapi.yml
   format: yaml
   label: Gr4vy Payment Links API
   slug: gr4vy-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-links-api-openapi.yml
 - filename: gr4vy-payment-method-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Payment Method Definitions API
   slug: gr4vy-payment-method-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-method-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-method-definitions-api-openapi.yml
 - filename: gr4vy-payment-methods-api-openapi.yml
   format: yaml
   label: Gr4vy Payment Methods API
   slug: gr4vy-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-methods-api-openapi.yml
 - filename: gr4vy-payment-methods-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Payment methods - Definitions API
   slug: gr4vy-payment-methods-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-methods-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-methods-definitions-api-openapi.yml
 - filename: gr4vy-payment-methods-network-tokens-api-openapi.yml
   format: yaml
   label: Gr4vy Payment methods - Network tokens API
   slug: gr4vy-payment-methods-network-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-methods-network-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-methods-network-tokens-api-openapi.yml
 - filename: gr4vy-payment-methods-payment-service-tokens-api-openapi.yml
   format: yaml
   label: Gr4vy Payment methods - Payment service tokens API
   slug: gr4vy-payment-methods-payment-service-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-methods-payment-service-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-methods-payment-service-tokens-api-openapi.yml
 - filename: gr4vy-payment-options-api-openapi.yml
   format: yaml
   label: Gr4vy Payment Options API
   slug: gr4vy-payment-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-options-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-options-api-openapi.yml
 - filename: gr4vy-payment-service-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Payment Service Definitions API
   slug: gr4vy-payment-service-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-service-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-service-definitions-api-openapi.yml
 - filename: gr4vy-payment-services-api-openapi.yml
   format: yaml
   label: Gr4vy Payment Services API
   slug: gr4vy-payment-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payment-services-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payment-services-api-openapi.yml
 - filename: gr4vy-payouts-api-openapi.yml
   format: yaml
   label: Gr4vy Payouts API
   slug: gr4vy-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-payouts-api-openapi.yml
 - filename: gr4vy-refunds-api-openapi.yml
   format: yaml
   label: Gr4vy Refunds API
   slug: gr4vy-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-refunds-api-openapi.yml
 - filename: gr4vy-reports-api-openapi.yml
   format: yaml
   label: Gr4vy Reports API
   slug: gr4vy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-reports-api-openapi.yml
 - filename: gr4vy-reports-executions-api-openapi.yml
   format: yaml
   label: Gr4vy Reports - Executions API
   slug: gr4vy-reports-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-reports-executions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-reports-executions-api-openapi.yml
 - filename: gr4vy-roles-api-openapi.yml
   format: yaml
   label: Gr4vy Roles API
   slug: gr4vy-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-roles-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-roles-api-openapi.yml
 - filename: gr4vy-sessions-api-openapi.yml
   format: yaml
   label: Gr4vy Sessions API
   slug: gr4vy-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-sessions-api-openapi.yml
 - filename: gr4vy-tokens-api-openapi.yml
   format: yaml
   label: Gr4vy Tokens API
   slug: gr4vy-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-tokens-api-openapi.yml
 - filename: gr4vy-transactions-actions-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Actions API
   slug: gr4vy-transactions-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-actions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-actions-api-openapi.yml
 - filename: gr4vy-transactions-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions API
   slug: gr4vy-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-api-openapi.yml
 - filename: gr4vy-transactions-captures-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Captures API
   slug: gr4vy-transactions-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-captures-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-captures-api-openapi.yml
 - filename: gr4vy-transactions-chargeback-reversals-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Chargeback reversals API
   slug: gr4vy-transactions-chargeback-reversals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-chargeback-reversals-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-chargeback-reversals-api-openapi.yml
 - filename: gr4vy-transactions-chargebacks-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Chargebacks API
   slug: gr4vy-transactions-chargebacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-chargebacks-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-chargebacks-api-openapi.yml
 - filename: gr4vy-transactions-refund-settlements-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Refund settlements API
   slug: gr4vy-transactions-refund-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-refund-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-refund-settlements-api-openapi.yml
 - filename: gr4vy-transactions-sessions-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Sessions API
   slug: gr4vy-transactions-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-sessions-api-openapi.yml
 - filename: gr4vy-transactions-settlements-api-openapi.yml
   format: yaml
   label: Gr4vy Transactions - Settlements API
   slug: gr4vy-transactions-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-transactions-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-transactions-settlements-api-openapi.yml
 - filename: gr4vy-users-api-openapi.yml
   format: yaml
   label: Gr4vy Users API
   slug: gr4vy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-users-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-users-api-openapi.yml
 - filename: gr4vy-vault-forward-api-openapi.yml
   format: yaml
   label: Gr4vy Vault Forward API
   slug: gr4vy-vault-forward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-vault-forward-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-vault-forward-api-openapi.yml
 - filename: gr4vy-vault-forward-configurations-api-openapi.yml
   format: yaml
   label: Gr4vy Vault Forward Configurations API
   slug: gr4vy-vault-forward-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-vault-forward-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-vault-forward-configurations-api-openapi.yml
 - filename: gr4vy-vault-forward-definitions-api-openapi.yml
   format: yaml
   label: Gr4vy Vault Forward Definitions API
   slug: gr4vy-vault-forward-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-vault-forward-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-vault-forward-definitions-api-openapi.yml
 - filename: gr4vy-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Gr4vy Webhook subscriptions API
   slug: gr4vy-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-webhook-subscriptions-api-openapi.yml
 - filename: gr4vy-webhooks-api-openapi.yml
   format: yaml
   label: Gr4vy Webhooks API
   slug: gr4vy-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/openapi/gr4vy-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gr4vy/openapi/gr4vy-webhooks-api-openapi.yml
 consequence_counts:
   physical: 45
   read: 116
@@ -558,8 +558,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/gr4vy-
   \ delete_digital_wallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - digital-wallets.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital-wallets/{digital_wallet_id}\n  method: put\n  operationId: update_digital_wallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - digital-wallets.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital-wallets/{digital_wallet_id}/domains\n  method: post\n  operationId: register_digital_wallet_domain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - digital-wallets.write\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digital-wallets/{digital_wallet_id}/domains\n  method: delete\n  operationId: unregister_digital_wallet_domain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - digital-wallets.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}\n  method: get\n  operationId: list-flow-rules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flows/{flow}/actions/{action}/rules\n  method: post\n  operationId: new-flow-rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/rules/{rule_id}\n  method: get\n  operationId: get-flow-rule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flows/{flow}/actions/{action}/rules/{rule_id}\n  method: put\n  operationId: update-flow-rule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/rules/{rule_id}\n  method: delete\n  operationId: delete-flow-rule\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/outcomes\n  method: get\n  operationId: list-flow-outcomes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gift-card-service-definitions/{gift_card_service_definition_id}\n  method: get\n  operationId: get-gift-card-service-definition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (88 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/agentic-access/gr4vy-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gr4vy/refs/heads/main/agentic-access/gr4vy-agentic-access.yml
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow}/actions/{action}/outcomes\n  method: get\n  operationId: list-flow-outcomes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gift-card-service-definitions/{gift_card_service_definition_id}\n  method: get\n  operationId: get-gift-card-service-definition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (88 KB total) ---\n# Full source: https://artifacts.apis.io/gr4vy/agentic-access/gr4vy-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/gr4vy/agentic-access/gr4vy-agentic-access.yml
 summary_line: 263 operations · 147 acting · 4 human-in-the-loop
 tags:
 - Payments

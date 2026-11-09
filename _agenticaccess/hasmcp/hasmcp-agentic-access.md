@@ -9,19 +9,19 @@ api_specs:
   label: HasMCP Providers API
   slug: hasmcp-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/openapi/hasmcp-providers-api-openapi.yml
+  url: https://artifacts.apis.io/hasmcp/openapi/hasmcp-providers-api-openapi.yml
 - filename: hasmcp-servers-api-openapi.yml
   format: yaml
   label: HasMCP Servers API
   slug: hasmcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/openapi/hasmcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/hasmcp/openapi/hasmcp-servers-api-openapi.yml
 - filename: hasmcp-variables-api-openapi.yml
   format: yaml
   label: HasMCP Variables API
   slug: hasmcp-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/openapi/hasmcp-variables-api-openapi.yml
+  url: https://artifacts.apis.io/hasmcp/openapi/hasmcp-variables-api-openapi.yml
 consequence_counts:
   read: 15
   write: 26
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/hasmcp
   \      - high-value\n    audit: required\n- path: /providers/{id}/prompts/{promptID}\n  method: delete\n  operationId: deleteProviderPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - provider:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{id}/resources\n  method: get\n  operationId: listServerResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - server:list\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{id}/resources\n  method: post\n  operationId: createServerResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - server:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{id}/resources/{resourceID}\n  method: delete\n  operationId: deleteServerResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - server:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{id}/prompts\n  method: get\n  operationId: listServerPrompts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - server:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers/{id}/prompts\n  method: post\n  operationId: createServerPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - server:update\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /servers/{id}/prompts/{promptID}\n  method: delete\n  operationId: deleteServerPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - server:update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasmcp/refs/heads/main/agentic-access/hasmcp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hasmcp/agentic-access/hasmcp-agentic-access.yml
 summary_line: 41 operations · 26 acting
 tags:
 - Company

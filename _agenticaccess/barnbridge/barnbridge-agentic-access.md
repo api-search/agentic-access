@@ -8,31 +8,31 @@ api_specs:
   label: BarnBridge Governance API
   slug: barnbridge-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-governance-api-openapi.yml
+  url: https://artifacts.apis.io/barnbridge/openapi/barnbridge-governance-api-openapi.yml
 - filename: barnbridge-smart-alpha-api-openapi.yml
   format: yaml
   label: BarnBridge SMART Alpha API
   slug: barnbridge-smart-alpha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-smart-alpha-api-openapi.yml
+  url: https://artifacts.apis.io/barnbridge/openapi/barnbridge-smart-alpha-api-openapi.yml
 - filename: barnbridge-smart-exposure-api-openapi.yml
   format: yaml
   label: BarnBridge SMART Exposure API
   slug: barnbridge-smart-exposure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-smart-exposure-api-openapi.yml
+  url: https://artifacts.apis.io/barnbridge/openapi/barnbridge-smart-exposure-api-openapi.yml
 - filename: barnbridge-smart-yield-api-openapi.yml
   format: yaml
   label: BarnBridge SMART Yield API
   slug: barnbridge-smart-yield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-smart-yield-api-openapi.yml
+  url: https://artifacts.apis.io/barnbridge/openapi/barnbridge-smart-yield-api-openapi.yml
 - filename: barnbridge-yield-farming-api-openapi.yml
   format: yaml
   label: BarnBridge Yield Farming API
   slug: barnbridge-yield-farming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/openapi/barnbridge-yield-farming-api-openapi.yml
+  url: https://artifacts.apis.io/barnbridge/openapi/barnbridge-yield-farming-api-openapi.yml
 consequence_counts:
   read: 48
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  method: get\n  operationId: listGovernanceProposalVotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/proposals/{proposalID}/events\n  method: get\n  operationId: listGovernanceProposalEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/overview\n  method: get\n  operationId: getGovernanceOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/voters\n  method: get\n  operationId: listGovernanceVoters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/abrogation-proposals\n  method: get\n  operationId:\
   \ listAbrogationProposals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/abrogation-proposals/{proposalID}\n  method: get\n  operationId: getAbrogationProposal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/abrogation-proposals/{proposalID}/votes\n  method: get\n  operationId: listAbrogationProposalVotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/treasury/transactions\n  method: get\n  operationId: listTreasuryTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/governance/treasury/tokens\n  method:\
   \ get\n  operationId: listTreasuryTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/yieldfarming/staking-actions/list\n  method: get\n  operationId: listYieldFarmingStakingActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/yieldfarming/staking-actions/chart\n  method: get\n  operationId: getYieldFarmingStakingActionsChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barnbridge/refs/heads/main/agentic-access/barnbridge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/barnbridge/agentic-access/barnbridge-agentic-access.yml
 summary_line: 48 operations
 tags:
 - DeFi

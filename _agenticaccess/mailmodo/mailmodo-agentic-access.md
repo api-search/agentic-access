@@ -9,85 +9,85 @@ api_specs:
   label: Mailmodo Campaigns API
   slug: mailmodo-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-campaigns-api-openapi.yml
 - filename: mailmodo-contact-lists-api-openapi.yml
   format: yaml
   label: Mailmodo Contact Lists API
   slug: mailmodo-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-contact-lists-api-openapi.yml
 - filename: mailmodo-contacts-api-openapi.yml
   format: yaml
   label: Mailmodo Contacts API
   slug: mailmodo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-contacts-api-openapi.yml
 - filename: mailmodo-events-api-openapi.yml
   format: yaml
   label: Mailmodo Events API
   slug: mailmodo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-events-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-events-api-openapi.yml
 - filename: mailmodo-templates-api-openapi.yml
   format: yaml
   label: Mailmodo Templates API
   slug: mailmodo-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-templates-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-templates-api-openapi.yml
 - filename: mailmodo-addevent-api-openapi.yml
   format: yaml
   label: Mailmodo Add Event API
   slug: mailmodo-addevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-addevent-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-addevent-api-openapi.yml
 - filename: mailmodo-addtolist-api-openapi.yml
   format: yaml
   label: Mailmodo Add To List API
   slug: mailmodo-addtolist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-addtolist-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-addtolist-api-openapi.yml
 - filename: mailmodo-bulktriggercampaign-api-openapi.yml
   format: yaml
   label: Mailmodo Bulktrigger Campaign API
   slug: mailmodo-bulktriggercampaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-bulktriggercampaign-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-bulktriggercampaign-api-openapi.yml
 - filename: mailmodo-getallcontactlists-api-openapi.yml
   format: yaml
   label: Mailmodo Get All Contact Lists API
   slug: mailmodo-getallcontactlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getallcontactlists-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-getallcontactlists-api-openapi.yml
 - filename: mailmodo-getalltemplates-api-openapi.yml
   format: yaml
   label: Mailmodo Get All Templates API
   slug: mailmodo-getalltemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getalltemplates-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-getalltemplates-api-openapi.yml
 - filename: mailmodo-getcontactdetails-api-openapi.yml
   format: yaml
   label: Mailmodo Get Contact Details API
   slug: mailmodo-getcontactdetails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-getcontactdetails-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-getcontactdetails-api-openapi.yml
 - filename: mailmodo-hooks-api-openapi.yml
   format: yaml
   label: Mailmodo Hooks API
   slug: mailmodo-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-hooks-api-openapi.yml
 - filename: mailmodo-removefromlist-api-openapi.yml
   format: yaml
   label: Mailmodo Remove From List API
   slug: mailmodo-removefromlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-removefromlist-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-removefromlist-api-openapi.yml
 - filename: mailmodo-triggercampaign-api-openapi.yml
   format: yaml
   label: Mailmodo Trigger Campaign API
   slug: mailmodo-triggercampaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/openapi/mailmodo-triggercampaign-api-openapi.yml
+  url: https://artifacts.apis.io/mailmodo/openapi/mailmodo-triggercampaign-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mailmo
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getAllContactLists\n  method: get\n  operationId: get-getAllContatLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getAllTemplates\n  method: get\n  operationId: get-getAllTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getContactDetails\n  method: get\n  operationId: get-getContactDetails?email=gursahay@mailmodo.com\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hooks/start/{journey-id}\n  method: post\n  operationId:\
   \ post-hooks-start-journey-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hooks/abort/{journey-id}\n  method: post\n  operationId: post-hooks-abort-journey-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /removeFromList\n  method: post\n  operationId: postRemoveFromList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /api/v1/getAllTemplates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /triggerCampaign/{campaign-id}\n  method: post\n  operationId: post-triggerCampaign-campaign-id\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailmodo/refs/heads/main/agentic-access/mailmodo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailmodo/agentic-access/mailmodo-agentic-access.yml
 summary_line: 29 operations · 21 acting
 tags:
 - Email

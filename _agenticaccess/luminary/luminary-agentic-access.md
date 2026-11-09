@@ -9,37 +9,37 @@ api_specs:
   label: Luminary Documents API
   slug: luminary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-documents-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-documents-api-openapi.yml
 - filename: luminary-entities-api-openapi.yml
   format: yaml
   label: Luminary Entities API
   slug: luminary-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-entities-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-entities-api-openapi.yml
 - filename: luminary-households-api-openapi.yml
   format: yaml
   label: Luminary Households API
   slug: luminary-households-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-households-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-households-api-openapi.yml
 - filename: luminary-individuals-api-openapi.yml
   format: yaml
   label: Luminary Individuals API
   slug: luminary-individuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-individuals-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-individuals-api-openapi.yml
 - filename: luminary-users-api-openapi.yml
   format: yaml
   label: Luminary Users API
   slug: luminary-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-users-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-users-api-openapi.yml
 - filename: luminary-valuations-api-openapi.yml
   format: yaml
   label: Luminary Valuations API
   slug: luminary-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/openapi/luminary-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/luminary/openapi/luminary-valuations-api-openapi.yml
 consequence_counts:
   read: 19
   write: 12
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/lumina
   \ 3600\n    audit: none\n- path: /households/{id}\n  method: put\n  operationId: updateHousehold\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /households/{id}/documents\n  method: get\n  operationId: listHouseholdDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /households/{id}/entities\n  method: get\n  operationId: listHouseholdEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /households/{id}/individuals\n  method: get\n  operationId: listHouseholdIndividuals\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /individuals\n  method: get\n  operationId: listIndividuals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /individuals\n  method: post\n  operationId: createIndividual\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /individuals/{id}\n  method: delete\n  operationId: deleteIndividual\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /individuals/{id}\n  method: get\n  operationId: getIndividual\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /individuals/{id}\n  method: put\n  operationId: updateIndividual\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luminary/refs/heads/main/agentic-access/luminary-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/luminary/agentic-access/luminary-agentic-access.yml
 summary_line: 31 operations · 12 acting
 tags:
 - Company
@@ -84,5 +84,6 @@ tags:
 - Legal Tech
 - Document AI
 - Family Office
+- OAuth
 - Authentication
 ---

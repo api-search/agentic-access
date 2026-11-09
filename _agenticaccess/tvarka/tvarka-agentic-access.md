@@ -21,73 +21,73 @@ api_specs:
   label: Tvarka Sign API
   slug: tvarka-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-sign-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-sign-api-openapi.yml
 - filename: tvarka-auth-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Auth API
   slug: tvarka-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-auth-api-openapi.yml
 - filename: tvarka-batches-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Batches API
   slug: tvarka-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-batches-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-batches-api-openapi.yml
 - filename: tvarka-erasure-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Erasure API
   slug: tvarka-erasure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-erasure-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-erasure-api-openapi.yml
 - filename: tvarka-files-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Files API
   slug: tvarka-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-files-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-files-api-openapi.yml
 - filename: tvarka-ltv-api-openapi.yml
   format: yaml
   label: Tvarka ATK API LTV API
   slug: tvarka-ltv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-ltv-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-ltv-api-openapi.yml
 - filename: tvarka-pairing-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Pairing API
   slug: tvarka-pairing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-pairing-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-pairing-api-openapi.yml
 - filename: tvarka-signings-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Signings API
   slug: tvarka-signings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-signings-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-signings-api-openapi.yml
 - filename: tvarka-tvarka-atk-api-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Tvarka ATK API
   slug: tvarka-tvarka-atk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-atk-api-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-tvarka-atk-api-api-openapi.yml
 - filename: tvarka-tvarka-sign-api-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Tvarka Sign API
   slug: tvarka-tvarka-sign-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-tvarka-sign-api-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-tvarka-sign-api-api-openapi.yml
 - filename: tvarka-validation-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Validation API
   slug: tvarka-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-validation-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-validation-api-openapi.yml
 - filename: tvarka-well-known-api-openapi.yml
   format: yaml
   label: Tvarka ATK API Well Known API
   slug: tvarka-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/openapi/tvarka-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/tvarka/openapi/tvarka-well-known-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 13
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-08-31'\nmethod: generated\nsource: openapi/tvarka
   \ invitation.\n- path: /v1/signings/{signingId}/signers/{signerId}\n  method: patch\n  operationId: updateSignerMethods\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/signings/{signingId}/signers/{signerId}\n  method: delete\n  operationId: removeSigner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/signings/{signingId}/signers/{signerId}/remind\n  method: post\n  operationId: remindSigner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/signings/{signingId}/simulate\n  method: post\n  operationId: simulateSigning\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\ncurated: '2026-08-31'\ncuration_note: 'The mechanical classifier reads HTTP method and keyword only, and returned human_in_the_loop_required:\n  0 for an estate whose writes are legally significant acts. Curated 2026-08-31 against the provider''s own docs\n  and contracts: every operation that opens or completes a national eID identity verification or a qualified electronic\n  signature, every billed trust-service call, and every irreversible erasure now carries human-in-the-loop:\
   \ required,\n  with the reason recorded per operation in x-curation-reason. Signing and signature-requesting operations are additionally\n  raised to consequence: physical because they bind a real person to a legally effective instrument and bill for\n  it. Nothing else in the generated classification was altered.'\nrelated:\n  reversibility: conventions/tvarka-atk-api-conventions.yml + conventions/tvarka-sign-api-conventions.yml\n  mcp: mcp/tvarka-sign-api-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tvarka/refs/heads/main/agentic-access/tvarka-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tvarka/agentic-access/tvarka-agentic-access.yml
 summary_line: 44 operations · 31 acting · 15 human-in-the-loop
 tags:
 - Authentication

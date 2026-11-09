@@ -8,25 +8,25 @@ api_specs:
   label: Sofar Ocean Devices API
   slug: sofar-ocean-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-devices-api-openapi.yml
 - filename: sofar-ocean-smart-mooring-api-openapi.yml
   format: yaml
   label: Sofar Ocean Smart Mooring API
   slug: sofar-ocean-smart-mooring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-smart-mooring-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-smart-mooring-api-openapi.yml
 - filename: sofar-ocean-spotter-data-api-openapi.yml
   format: yaml
   label: Sofar Ocean Spotter Data API
   slug: sofar-ocean-spotter-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-spotter-data-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-spotter-data-api-openapi.yml
 - filename: sofar-ocean-wave-spectra-api-openapi.yml
   format: yaml
   label: Sofar Ocean Wave Spectra API
   slug: sofar-ocean-wave-spectra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-wave-spectra-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-wave-spectra-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sofar-ocean-spotter-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /api/devices\n  method: get\n  operationId: getDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/latest-data\n  method: get\n  operationId: getLatestData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wave-data\n  method: get\n  operationId: getWaveData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: get\n  operationId: searchData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sensor-data\n  method: get\n  operationId: getSensorData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sensor-configuration-history\n  method: get\n  operationId: getSensorConfigurationHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/op-wave-spectra\n  method: get\n  operationId: listWaveSpectraLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/op-wave-spectra/{lat}/{lon}\n  method: get\n  operationId: getWaveSpectra\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/agentic-access/sofar-ocean-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sofar-ocean/agentic-access/sofar-ocean-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Company

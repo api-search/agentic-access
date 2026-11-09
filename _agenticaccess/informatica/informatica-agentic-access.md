@@ -9,37 +9,37 @@ api_specs:
   label: Informatica Authentication API
   slug: informatica-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/informatica/openapi/informatica-authentication-api-openapi.yml
 - filename: informatica-connections-api-openapi.yml
   format: yaml
   label: Informatica Connections API
   slug: informatica-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-connections-api-openapi.yml
+  url: https://artifacts.apis.io/informatica/openapi/informatica-connections-api-openapi.yml
 - filename: informatica-jobs-api-openapi.yml
   format: yaml
   label: Informatica Jobs API
   slug: informatica-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/informatica/openapi/informatica-jobs-api-openapi.yml
 - filename: informatica-mapping-tasks-api-openapi.yml
   format: yaml
   label: Informatica Mapping Tasks API
   slug: informatica-mapping-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-mapping-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/informatica/openapi/informatica-mapping-tasks-api-openapi.yml
 - filename: informatica-mappings-api-openapi.yml
   format: yaml
   label: Informatica Mappings API
   slug: informatica-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/informatica/openapi/informatica-mappings-api-openapi.yml
 - filename: informatica-schedules-api-openapi.yml
   format: yaml
   label: Informatica Schedules API
   slug: informatica-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/openapi/informatica-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/informatica/openapi/informatica-schedules-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inform
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /saas/api/v2/mttask/name/{taskName}\n  method: get\n  operationId: getMappingTaskByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /saas/api/v2/job\n  method: post\n  operationId: startJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /saas/api/v2/job/stop\n  method: post\n  operationId: stopJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n \
   \     proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /saas/api/v2/activity/activityLog\n  method: get\n  operationId: getActivityLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /saas/api/v2/schedule\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /saas/api/v2/schedule\n  method: post\n  operationId: createSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /saas/api/v2/schedule/{scheduleId}\n  method: get\n  operationId: getSchedule\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /saas/api/v2/schedule/{scheduleId}\n  method: put\n  operationId: updateSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /saas/api/v2/schedule/{scheduleId}\n  method: delete\n  operationId: deleteSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/agentic-access/informatica-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/informatica/agentic-access/informatica-agentic-access.yml
 summary_line: 28 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Address Verification

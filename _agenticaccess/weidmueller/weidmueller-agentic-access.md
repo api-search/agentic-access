@@ -9,97 +9,97 @@ api_specs:
   label: Weidmüller u-OS Data Hub Variable-NATS API
   slug: u-os-data-hub-variable-nats-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/asyncapi/weidmueller-variable-nats-asyncapi.yml
+  url: https://artifacts.apis.io/weidmueller/asyncapi/weidmueller-variable-nats-asyncapi.yml
 - filename: weidmueller-consumer-api-openapi.yml
   format: yaml
   label: Weidmüller Consumer API
   slug: weidmueller-consumer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-consumer-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-consumer-api-openapi.yml
 - filename: weidmueller-firewall-api-openapi.yml
   format: yaml
   label: Weidmüller Firewall API
   slug: weidmueller-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-firewall-api-openapi.yml
 - filename: weidmueller-logging-api-openapi.yml
   format: yaml
   label: Weidmüller Logging API
   slug: weidmueller-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-logging-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-logging-api-openapi.yml
 - filename: weidmueller-network-api-openapi.yml
   format: yaml
   label: Weidmüller Network API
   slug: weidmueller-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-network-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-network-api-openapi.yml
 - filename: weidmueller-operations-api-openapi.yml
   format: yaml
   label: Weidmüller Operations API
   slug: weidmueller-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-operations-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-operations-api-openapi.yml
 - filename: weidmueller-ping-api-openapi.yml
   format: yaml
   label: Weidmüller Ping API
   slug: weidmueller-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-ping-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-ping-api-openapi.yml
 - filename: weidmueller-realtime-api-openapi.yml
   format: yaml
   label: Weidmüller Realtime API
   slug: weidmueller-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-realtime-api-openapi.yml
 - filename: weidmueller-recovery-api-openapi.yml
   format: yaml
   label: Weidmüller Recovery API
   slug: weidmueller-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-recovery-api-openapi.yml
 - filename: weidmueller-security-api-openapi.yml
   format: yaml
   label: Weidmüller Security API
   slug: weidmueller-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-security-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-security-api-openapi.yml
 - filename: weidmueller-serial-interfaces-api-openapi.yml
   format: yaml
   label: Weidmüller Serial Interfaces API
   slug: weidmueller-serial-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-serial-interfaces-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-serial-interfaces-api-openapi.yml
 - filename: weidmueller-syslog-api-openapi.yml
   format: yaml
   label: Weidmüller Syslog API
   slug: weidmueller-syslog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-syslog-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-syslog-api-openapi.yml
 - filename: weidmueller-system-api-openapi.yml
   format: yaml
   label: Weidmüller System API
   slug: weidmueller-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-system-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-system-api-openapi.yml
 - filename: weidmueller-time-api-openapi.yml
   format: yaml
   label: Weidmüller Time API
   slug: weidmueller-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-time-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-time-api-openapi.yml
 - filename: weidmueller-update-api-openapi.yml
   format: yaml
   label: Weidmüller Update API
   slug: weidmueller-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-update-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-update-api-openapi.yml
 - filename: weidmueller-open-api-api-openapi.yml
   format: yaml
   label: Weidmüller Open API
   slug: weidmueller-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/openapi/weidmueller-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/weidmueller/openapi/weidmueller-open-api-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 5
@@ -173,7 +173,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/weidmu
   \ set_update_settings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - u-os-adm.update.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update/config\n  method: patch\n  operationId: update_update_settings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - u-os-adm.update.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi.json\n  method: get\n  operationId: get_openapi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: get\n  operationId:\
   \ get_providers_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - hub.variables.readonly\n    - hub.variables.readwrite\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{provider_id}/variables\n  method: get\n  operationId: get_variables_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - hub.variables.readonly\n    - hub.variables.readwrite\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{provider_id}/variables\n  method: post\n  operationId: post_multiple_variables_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - hub.variables.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providers/{provider_id}/variables/{variable_key}\n\
   \  method: get\n  operationId: get_single_variable_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - hub.variables.readonly\n    - hub.variables.readwrite\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{provider_id}/variables/{variable_key}\n  method: post\n  operationId: post_single_variable_handler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - hub.variables.readwrite\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weidmueller/refs/heads/main/agentic-access/weidmueller-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weidmueller/agentic-access/weidmueller-agentic-access.yml
 summary_line: 53 operations · 23 acting · 5 human-in-the-loop
 tags:
 - Company

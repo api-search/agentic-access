@@ -9,25 +9,25 @@ api_specs:
   label: Shipday Assignment API
   slug: shipday-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-assignment-api-openapi.yml
 - filename: shipday-drivers-api-openapi.yml
   format: yaml
   label: Shipday Drivers API
   slug: shipday-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-drivers-api-openapi.yml
 - filename: shipday-on-demand-delivery-api-openapi.yml
   format: yaml
   label: Shipday On-Demand Delivery API
   slug: shipday-on-demand-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-on-demand-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-on-demand-delivery-api-openapi.yml
 - filename: shipday-orders-api-openapi.yml
   format: yaml
   label: Shipday Orders API
   slug: shipday-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/openapi/shipday-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipday/openapi/shipday-orders-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 2
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shipda
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers\n  method: post\n  operationId: addCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carriers/{carrierId}\n  method: delete\n  operationId: deleteCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/assign/{orderId}/{carrierId}\n  method: put\n  operationId: assignOrderToCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/assign/{orderId}\n  method: delete\n  operationId: unassignOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /on-demand/availability\n  method: post\n  operationId: checkOnDemandAvailability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /on-demand/assign\n  method: post\n  operationId: assignOnDemand\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipday/refs/heads/main/agentic-access/shipday-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shipday/agentic-access/shipday-agentic-access.yml
 summary_line: 11 operations · 9 acting
 tags:
 - Delivery

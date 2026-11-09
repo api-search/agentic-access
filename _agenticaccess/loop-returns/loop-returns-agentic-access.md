@@ -9,43 +9,43 @@ api_specs:
   label: Loop Returns Cart API
   slug: loop-returns-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-cart-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-cart-api-openapi.yml
 - filename: loop-returns-destinations-api-openapi.yml
   format: yaml
   label: Loop Returns Destinations API
   slug: loop-returns-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-destinations-api-openapi.yml
 - filename: loop-returns-fraud-reports-api-openapi.yml
   format: yaml
   label: Loop Returns Fraud Reports API
   slug: loop-returns-fraud-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-fraud-reports-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-fraud-reports-api-openapi.yml
 - filename: loop-returns-label-requests-api-openapi.yml
   format: yaml
   label: Loop Returns Label Requests API
   slug: loop-returns-label-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-label-requests-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-label-requests-api-openapi.yml
 - filename: loop-returns-programmatic-webhooks-api-openapi.yml
   format: yaml
   label: Loop Returns Programmatic Webhooks API
   slug: loop-returns-programmatic-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-programmatic-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-programmatic-webhooks-api-openapi.yml
 - filename: loop-returns-return-actions-api-openapi.yml
   format: yaml
   label: Loop Returns Return Actions API
   slug: loop-returns-return-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-return-actions-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-return-actions-api-openapi.yml
 - filename: loop-returns-return-data-api-openapi.yml
   format: yaml
   label: Loop Returns Return Data API
   slug: loop-returns-return-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/openapi/loop-returns-return-data-api-openapi.yml
+  url: https://artifacts.apis.io/loop-returns/openapi/loop-returns-return-data-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/loop-r
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/link\n  method: post\n  operationId: createReturnDeepLink\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/qr\n  method: post\n  operationId: createReturnDeepLinkWithQrCode\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - developer_tools\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - developer_tools\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - developer_tools\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - developer_tools\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loop-returns/refs/heads/main/agentic-access/loop-returns-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loop-returns/agentic-access/loop-returns-agentic-access.yml
 summary_line: 32 operations · 22 acting
 tags:
 - Returns

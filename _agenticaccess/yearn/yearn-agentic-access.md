@@ -8,25 +8,25 @@ api_specs:
   label: Yearn Finance Chains API
   slug: yearn-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-chains-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-chains-api-openapi.yml
 - filename: yearn-info-api-openapi.yml
   format: yaml
   label: Yearn Finance Info API
   slug: yearn-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-info-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-info-api-openapi.yml
 - filename: yearn-tvl-api-openapi.yml
   format: yaml
   label: Yearn Finance TVL API
   slug: yearn-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-tvl-api-openapi.yml
 - filename: yearn-vaults-api-openapi.yml
   format: yaml
   label: Yearn Finance Vaults API
   slug: yearn-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-vaults-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ydaemon.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /{chainID}/vaults/all\n  method: get\n  operationId: getAllVaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chainID}/vaults/{address}\n  method: get\n  operationId: getVaultByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chainID}/vaults/tvl\n  method: get\n  operationId:\
   \ getVaultsTVL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chainID}/vaults/v2\n  method: get\n  operationId: getV2Vaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chainID}/vaults/v3\n  method: get\n  operationId: getV3Vaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chainID}/vaults/retired\n  method: get\n  operationId: getRetiredVaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{chainID}/vaults/detected\n  method: get\n  operationId: getDetectedVaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/chains\n  method: get\n  operationId: getSupportedChains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/vaults/blacklisted\n  method: get\n  operationId: getBlacklistedVaults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/agentic-access/yearn-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yearn/agentic-access/yearn-agentic-access.yml
 summary_line: 9 operations
 tags:
 - DeFi

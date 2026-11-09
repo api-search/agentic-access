@@ -9,31 +9,31 @@ api_specs:
   label: Inkit Batches API
   slug: inkit-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-batches-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-batches-api-openapi.yml
 - filename: inkit-documents-api-openapi.yml
   format: yaml
   label: Inkit Documents API
   slug: inkit-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-documents-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-documents-api-openapi.yml
 - filename: inkit-folders-api-openapi.yml
   format: yaml
   label: Inkit Folders API
   slug: inkit-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-folders-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-folders-api-openapi.yml
 - filename: inkit-renders-api-openapi.yml
   format: yaml
   label: Inkit Renders API
   slug: inkit-renders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-renders-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-renders-api-openapi.yml
 - filename: inkit-templates-api-openapi.yml
   format: yaml
   label: Inkit Templates API
   slug: inkit-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/openapi/inkit-templates-api-openapi.yml
+  url: https://artifacts.apis.io/inkit/openapi/inkit-templates-api-openapi.yml
 consequence_counts:
   read: 11
   write: 4
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inkit-
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /render/{id}\n  method: get\n  operationId: getRender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /render/{id}/pdf\n  method: get\n  operationId: getRenderPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /batch\n  method: post\n  operationId: createBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /batch\n  method: get\n  operationId: listBatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /batch/{id}\n  method: get\n  operationId: getBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/{id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document/{id}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /download/{id}\n  method: get\n  operationId: downloadDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inkit/refs/heads/main/agentic-access/inkit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inkit/agentic-access/inkit-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Document Generation

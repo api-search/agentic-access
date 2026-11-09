@@ -9,37 +9,37 @@ api_specs:
   label: Sonix AI Analysis API
   slug: sonix-ai-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-ai-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-ai-analysis-api-openapi.yml
 - filename: sonix-exports-api-openapi.yml
   format: yaml
   label: Sonix Exports API
   slug: sonix-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-exports-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-exports-api-openapi.yml
 - filename: sonix-folders-api-openapi.yml
   format: yaml
   label: Sonix Folders API
   slug: sonix-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-folders-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-folders-api-openapi.yml
 - filename: sonix-media-api-openapi.yml
   format: yaml
   label: Sonix Media API
   slug: sonix-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-media-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-media-api-openapi.yml
 - filename: sonix-transcripts-api-openapi.yml
   format: yaml
   label: Sonix Transcripts API
   slug: sonix-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-transcripts-api-openapi.yml
 - filename: sonix-translations-api-openapi.yml
   format: yaml
   label: Sonix Translations API
   slug: sonix-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/openapi/sonix-translations-api-openapi.yml
+  url: https://artifacts.apis.io/sonix/openapi/sonix-translations-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sonix-
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media/{id}/translations\n  method: post\n  operationId: createTranslation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /media/{id}/translations/{language}\n  method: get\n  operationId: getTranslation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /media/{id}/summarizations\n  method: post\n  operationId: createSummarization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summarizations/{id}\n  method: get\n  operationId: getSummarization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /media/{id}/video_burn_ins\n  method: post\n  operationId: createVideoBurnIn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video_burn_ins/{id}\n  method: get\n  operationId: getVideoBurnIn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: get\n  operationId: listFolders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folders/{id}\n  method: put\n  operationId: updateFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonix/refs/heads/main/agentic-access/sonix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sonix/agentic-access/sonix-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
 - Audio Transcription

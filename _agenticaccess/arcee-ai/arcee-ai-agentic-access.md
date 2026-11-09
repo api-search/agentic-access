@@ -9,175 +9,199 @@ api_specs:
   label: Arcee AI Access Profiles API
   slug: arcee-ai-access-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-access-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-access-profiles-api-openapi.yml
 - filename: arcee-ai-afm-api-api-openapi.yml
   format: yaml
   label: Arcee AI AFM API
   slug: arcee-ai-afm-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-afm-api-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-afm-api-api-openapi.yml
 - filename: arcee-ai-analytics-api-openapi.yml
   format: yaml
   label: Arcee AI Analytics API
   slug: arcee-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-analytics-api-openapi.yml
 - filename: arcee-ai-arcee-admin-api-openapi.yml
   format: yaml
   label: Arcee AI Arcee-Admin API
   slug: arcee-ai-arcee-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-arcee-admin-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-arcee-admin-api-openapi.yml
 - filename: arcee-ai-auth-api-openapi.yml
   format: yaml
   label: Arcee AI Auth API
   slug: arcee-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-auth-api-openapi.yml
 - filename: arcee-ai-automated-reports-api-openapi.yml
   format: yaml
   label: Arcee AI Automated Reports API
   slug: arcee-ai-automated-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-automated-reports-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-automated-reports-api-openapi.yml
 - filename: arcee-ai-billing-api-openapi.yml
   format: yaml
   label: Arcee AI Billing API
   slug: arcee-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-billing-api-openapi.yml
 - filename: arcee-ai-chat-api-openapi.yml
   format: yaml
   label: Arcee AI Chat API
   slug: arcee-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-chat-api-openapi.yml
 - filename: arcee-ai-completions-api-openapi.yml
   format: yaml
   label: Arcee AI Completions API
   slug: arcee-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-completions-api-openapi.yml
 - filename: arcee-ai-demo-mode-api-openapi.yml
   format: yaml
   label: Arcee AI Demo Mode API
   slug: arcee-ai-demo-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-demo-mode-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-demo-mode-api-openapi.yml
 - filename: arcee-ai-dev-mode-api-openapi.yml
   format: yaml
   label: Arcee AI Dev Mode API
   slug: arcee-ai-dev-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-dev-mode-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-dev-mode-api-openapi.yml
 - filename: arcee-ai-device-auth-api-openapi.yml
   format: yaml
   label: Arcee AI Device Auth API
   slug: arcee-ai-device-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-device-auth-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-device-auth-api-openapi.yml
 - filename: arcee-ai-feedback-api-openapi.yml
   format: yaml
   label: Arcee AI Feedback API
   slug: arcee-ai-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-feedback-api-openapi.yml
 - filename: arcee-ai-health-api-openapi.yml
   format: yaml
   label: Arcee AI Health API
   slug: arcee-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-health-api-openapi.yml
 - filename: arcee-ai-keys-api-openapi.yml
   format: yaml
   label: Arcee AI Keys API
   slug: arcee-ai-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-keys-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-keys-api-openapi.yml
 - filename: arcee-ai-metrics-api-openapi.yml
   format: yaml
   label: Arcee AI Metrics API
   slug: arcee-ai-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-metrics-api-openapi.yml
 - filename: arcee-ai-models-api-openapi.yml
   format: yaml
   label: Arcee AI Models API
   slug: arcee-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-models-api-openapi.yml
 - filename: arcee-ai-organizations-api-openapi.yml
   format: yaml
   label: Arcee AI Organizations API
   slug: arcee-ai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-organizations-api-openapi.yml
 - filename: arcee-ai-partners-api-openapi.yml
   format: yaml
   label: Arcee AI Partners API
   slug: arcee-ai-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-partners-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-partners-api-openapi.yml
 - filename: arcee-ai-rag-api-openapi.yml
   format: yaml
   label: Arcee AI RAG API
   slug: arcee-ai-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-rag-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-rag-api-openapi.yml
 - filename: arcee-ai-rate-limit-profiles-api-openapi.yml
   format: yaml
   label: Arcee AI Rate Limit Profiles API
   slug: arcee-ai-rate-limit-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-rate-limit-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-rate-limit-profiles-api-openapi.yml
 - filename: arcee-ai-registry-api-openapi.yml
   format: yaml
   label: Arcee AI Registry API
   slug: arcee-ai-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-registry-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-registry-api-openapi.yml
 - filename: arcee-ai-s3-api-openapi.yml
   format: yaml
   label: Arcee AI S3 API
   slug: arcee-ai-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-s3-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-s3-api-openapi.yml
 - filename: arcee-ai-search-api-openapi.yml
   format: yaml
   label: Arcee AI Search API
   slug: arcee-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-search-api-openapi.yml
 - filename: arcee-ai-system-prompts-api-openapi.yml
   format: yaml
   label: Arcee AI System Prompts API
   slug: arcee-ai-system-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-system-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-system-prompts-api-openapi.yml
 - filename: arcee-ai-transaction-api-openapi.yml
   format: yaml
   label: Arcee AI Transaction API
   slug: arcee-ai-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-transaction-api-openapi.yml
 - filename: arcee-ai-usage-api-openapi.yml
   format: yaml
   label: Arcee AI Usage API
   slug: arcee-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-usage-api-openapi.yml
 - filename: arcee-ai-user-api-openapi.yml
   format: yaml
   label: Arcee AI User API
   slug: arcee-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-user-api-openapi.yml
 - filename: arcee-ai-webhooks-api-openapi.yml
   format: yaml
   label: Arcee AI Webhooks API
   slug: arcee-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/openapi/arcee-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-webhooks-api-openapi.yml
+- filename: arcee-ai-aws-marketplace-api-openapi.yml
+  format: yaml
+  label: Arcee AI AWS Marketplace API
+  slug: arcee-ai-aws-marketplace-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-aws-marketplace-api-openapi.yml
+- filename: arcee-ai-decisions-api-openapi.yml
+  format: yaml
+  label: Arcee AI Decisions API
+  slug: arcee-ai-decisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-decisions-api-openapi.yml
+- filename: arcee-ai-responses-api-openapi.yml
+  format: yaml
+  label: Arcee AI Responses API
+  slug: arcee-ai-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-responses-api-openapi.yml
+- filename: arcee-ai-signup-campaigns-api-openapi.yml
+  format: yaml
+  label: Arcee AI Signup Campaigns API
+  slug: arcee-ai-signup-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-signup-campaigns-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 112
@@ -266,8 +290,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/arcee-
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/device/deny\n  method: post\n  operationId: deny_device_app_v1_device_deny_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/orgs\n  method: get\n  operationId: get_user_organizations_app_v1_orgs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/v1/orgs\n  method: put\n  operationId: update_organization_app_v1_orgs_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/orgs\n  method: post\n  operationId: create_organization_app_v1_orgs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/orgs/profiles\n  method: get\n  operationId: get_organizations_with_profiles_app_v1_orgs_profiles_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/v1/orgs/{org_id}/users\n  method: get\n  operationId: get_organization_users_app_v1_orgs__org_id__users_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/v1/orgs/{org_id}/users\n  method: post\n  operationId: change_users_organization_app_v1_orgs__org_id__users_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/related-users\n  method: get\n  operationId: get_related_users_app_v1_related_users_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/v1/orgs/{org_id}\n  method: get\n  operationId: get_organization_by_id_app_v1_orgs__org_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/v1/orgs/{org_id}\n  method:\
-  \ delete\n  operationId: delete_organization_app_v1_orgs__org_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/orgs/{org_id}/status\n  method: patch\n  operationId: change_organization_status_app_v1_orgs__org_id__status_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (76 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/agentic-access/arcee-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcee-ai/refs/heads/main/agentic-access/arcee-ai-agentic-access.yml
+  \ delete\n  operationId: delete_organization_app_v1_orgs__org_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/v1/orgs/{org_id}/status\n  method: patch\n  operationId: change_organization_status_app_v1_orgs__org_id__status_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (76 KB total) ---\n# Full source: https://artifacts.apis.io/arcee-ai/agentic-access/arcee-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/arcee-ai/agentic-access/arcee-ai-agentic-access.yml
 summary_line: 237 operations · 125 acting · 4 human-in-the-loop
 tags:
 - Company

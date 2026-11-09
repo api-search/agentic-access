@@ -9,55 +9,55 @@ api_specs:
   label: Onfleet Tasks API
   slug: onfleet-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-tasks-api-openapi.yml
 - filename: onfleet-workers-api-openapi.yml
   format: yaml
   label: Onfleet Workers API
   slug: onfleet-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-workers-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-workers-api-openapi.yml
 - filename: onfleet-route-plans-api-openapi.yml
   format: yaml
   label: Onfleet Route Plans API
   slug: onfleet-route-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-route-plans-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-route-plans-api-openapi.yml
 - filename: onfleet-orders-api-openapi.yml
   format: yaml
   label: Onfleet Orders API
   slug: onfleet-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-orders-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-orders-api-openapi.yml
 - filename: onfleet-organizations-api-openapi.yml
   format: yaml
   label: Onfleet Organizations & Teams API
   slug: onfleet-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-organizations-api-openapi.yml
 - filename: onfleet-recipients-api-openapi.yml
   format: yaml
   label: Onfleet Recipients API
   slug: onfleet-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-recipients-api-openapi.yml
 - filename: onfleet-destinations-api-openapi.yml
   format: yaml
   label: Onfleet Destinations API
   slug: onfleet-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-destinations-api-openapi.yml
 - filename: onfleet-webhooks-api-openapi.yml
   format: yaml
   label: Onfleet Webhooks API
   slug: onfleet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-webhooks-api-openapi.yml
 - filename: onfleet-route-optimization-api-openapi.yml
   format: yaml
   label: Onfleet Route Optimization API
   slug: onfleet-route-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/openapi/onfleet-route-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/onfleet/openapi/onfleet-route-optimization-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 21
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/onflee
   \    - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/secret\n  method: get\n  operationId: getWebhookSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers\n  method: get\n  operationId: listWorkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers\n  method: post\n  operationId: createWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}\n  method: get\n  operationId: getWorker\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}\n  method: put\n  operationId: updateWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}\n  method: delete\n  operationId: deleteWorker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}/tasks\n  method: get\n  operationId: listWorkerAssignedTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/deliveryManifest\n  method: get\n  operationId: getDeliveryManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/agentic-access/onfleet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/onfleet/agentic-access/onfleet-agentic-access.yml
 summary_line: 54 operations · 33 acting · 1 human-in-the-loop
 tags:
 - Last Mile Delivery

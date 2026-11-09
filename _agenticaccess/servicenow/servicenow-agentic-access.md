@@ -9,97 +9,97 @@ api_specs:
   label: ServiceNow Event Management Topic Open API
   slug: servicenow-event-management-topic-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/asyncapi/servicenow-events-asyncapi.yml
+  url: https://artifacts.apis.io/servicenow/asyncapi/servicenow-events-asyncapi.yml
 - filename: servicenow-aggregate-statistics-api-openapi.yml
   format: yaml
   label: ServiceNow Aggregate Statistics API
   slug: servicenow-aggregate-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-aggregate-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-aggregate-statistics-api-openapi.yml
 - filename: servicenow-attachments-api-openapi.yml
   format: yaml
   label: ServiceNow Attachments API
   slug: servicenow-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-attachments-api-openapi.yml
 - filename: servicenow-cart-api-openapi.yml
   format: yaml
   label: ServiceNow Cart API
   slug: servicenow-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cart-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-cart-api-openapi.yml
 - filename: servicenow-catalog-items-api-openapi.yml
   format: yaml
   label: ServiceNow Catalog Items API
   slug: servicenow-catalog-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-catalog-items-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-catalog-items-api-openapi.yml
 - filename: servicenow-catalogs-api-openapi.yml
   format: yaml
   label: ServiceNow Catalogs API
   slug: servicenow-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-catalogs-api-openapi.yml
 - filename: servicenow-categories-api-openapi.yml
   format: yaml
   label: ServiceNow Categories API
   slug: servicenow-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-categories-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-categories-api-openapi.yml
 - filename: servicenow-change-tasks-api-openapi.yml
   format: yaml
   label: ServiceNow Change Tasks API
   slug: servicenow-change-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-change-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-change-tasks-api-openapi.yml
 - filename: servicenow-cmdb-instances-api-openapi.yml
   format: yaml
   label: ServiceNow CMDB Instances API
   slug: servicenow-cmdb-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-cmdb-instances-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-cmdb-instances-api-openapi.yml
 - filename: servicenow-contact-api-openapi.yml
   format: yaml
   label: ServiceNow Contact API
   slug: servicenow-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-contact-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-contact-api-openapi.yml
 - filename: servicenow-emergency-changes-api-openapi.yml
   format: yaml
   label: ServiceNow Emergency Changes API
   slug: servicenow-emergency-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-emergency-changes-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-emergency-changes-api-openapi.yml
 - filename: servicenow-import-sets-api-openapi.yml
   format: yaml
   label: ServiceNow Import Sets API
   slug: servicenow-import-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-import-sets-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-import-sets-api-openapi.yml
 - filename: servicenow-normal-changes-api-openapi.yml
   format: yaml
   label: ServiceNow Normal Changes API
   slug: servicenow-normal-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-normal-changes-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-normal-changes-api-openapi.yml
 - filename: servicenow-standard-changes-api-openapi.yml
   format: yaml
   label: ServiceNow Standard Changes API
   slug: servicenow-standard-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-standard-changes-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-standard-changes-api-openapi.yml
 - filename: servicenow-table-records-api-openapi.yml
   format: yaml
   label: ServiceNow Table Records API
   slug: servicenow-table-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-table-records-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-table-records-api-openapi.yml
 - filename: servicenow-trouble-ticket-api-openapi.yml
   format: yaml
   label: ServiceNow Trouble Ticket API
   slug: servicenow-trouble-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/openapi/servicenow-trouble-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/servicenow/openapi/servicenow-trouble-ticket-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 23
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contac
   \ none\n- path: /table/{tableName}\n  method: post\n  operationId: createRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /table/{tableName}/{sys_id}\n  method: get\n  operationId: getRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /table/{tableName}/{sys_id}\n  method: put\n  operationId: updateRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /table/{tableName}/{sys_id}\n  method: patch\n  operationId:\
   \ patchRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /table/{tableName}/{sys_id}\n  method: delete\n  operationId: deleteRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /troubleTicket\n  method: get\n  operationId: getTroubleTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /troubleTicket\n  method: post\n  operationId: createTroubleTicket\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /troubleTicket/{id}\n  method: get\n  operationId: getTroubleTicketById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /troubleTicket/{id}\n  method: patch\n  operationId: updateTroubleTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/agentic-access/servicenow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/servicenow/agentic-access/servicenow-agentic-access.yml
 summary_line: 44 operations · 21 acting · 1 human-in-the-loop
 tags:
 - ServiceNow

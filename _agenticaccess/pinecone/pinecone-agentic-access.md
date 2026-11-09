@@ -9,55 +9,55 @@ api_specs:
   label: Pinecone API Keys API
   slug: pinecone-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-api-keys-api-openapi.yml
 - filename: pinecone-bulk-operations-api-openapi.yml
   format: yaml
   label: Pinecone Bulk Operations API
   slug: pinecone-bulk-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-bulk-operations-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-bulk-operations-api-openapi.yml
 - filename: pinecone-inference-api-openapi.yml
   format: yaml
   label: Pinecone Inference API
   slug: pinecone-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-inference-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-inference-api-openapi.yml
 - filename: pinecone-manage-assistants-api-openapi.yml
   format: yaml
   label: Pinecone Manage Assistants API
   slug: pinecone-manage-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-manage-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-manage-assistants-api-openapi.yml
 - filename: pinecone-manage-indexes-api-openapi.yml
   format: yaml
   label: Pinecone Manage Indexes API
   slug: pinecone-manage-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-manage-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-manage-indexes-api-openapi.yml
 - filename: pinecone-namespace-operations-api-openapi.yml
   format: yaml
   label: Pinecone Namespace Operations API
   slug: pinecone-namespace-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-namespace-operations-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-namespace-operations-api-openapi.yml
 - filename: pinecone-organizations-api-openapi.yml
   format: yaml
   label: Pinecone Organizations API
   slug: pinecone-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-organizations-api-openapi.yml
 - filename: pinecone-projects-api-openapi.yml
   format: yaml
   label: Pinecone Projects API
   slug: pinecone-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-projects-api-openapi.yml
 - filename: pinecone-vector-operations-api-openapi.yml
   format: yaml
   label: Pinecone Vector Operations API
   slug: pinecone-vector-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/openapi/pinecone-vector-operations-api-openapi.yml
+  url: https://artifacts.apis.io/pinecone/openapi/pinecone-vector-operations-api-openapi.yml
 consequence_counts:
   read: 32
   write: 34
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pineco
   \  method: post\n  operationId: deleteVectors\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vectors/fetch\n  method: get\n  operationId: fetchVectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vectors/fetch_by_metadata\n  method: post\n  operationId: fetch_vectors_by_metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vectors/list\n  method: get\n  operationId: listVectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vectors/update\n\
   \  method: post\n  operationId: updateVector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vectors/upsert\n  method: post\n  operationId: upsertVectors\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /records/namespaces/{namespace}/upsert\n  method: post\n  operationId: upsertRecordsNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /records/namespaces/{namespace}/search\n  method: post\n  operationId: searchRecordsNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinecone/refs/heads/main/agentic-access/pinecone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pinecone/agentic-access/pinecone-agentic-access.yml
 summary_line: 66 operations · 34 acting
 tags:
 - Vector Search

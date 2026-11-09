@@ -9,247 +9,247 @@ api_specs:
   label: Check Addresses API
   slug: check-hq-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-addresses-api-openapi.yml
 - filename: check-hq-agencies-api-openapi.yml
   format: yaml
   label: Check Agencies API
   slug: check-hq-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-agencies-api-openapi.yml
 - filename: check-hq-bank-accounts-api-openapi.yml
   format: yaml
   label: Check Bank Accounts API
   slug: check-hq-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-bank-accounts-api-openapi.yml
 - filename: check-hq-benefits-api-openapi.yml
   format: yaml
   label: Check Benefits API
   slug: check-hq-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-benefits-api-openapi.yml
 - filename: check-hq-communications-api-openapi.yml
   format: yaml
   label: Check Communications API
   slug: check-hq-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-communications-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-communications-api-openapi.yml
 - filename: check-hq-companies-api-openapi.yml
   format: yaml
   label: Check Companies API
   slug: check-hq-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-companies-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-companies-api-openapi.yml
 - filename: check-hq-company-benefits-api-openapi.yml
   format: yaml
   label: Check Company Benefits API
   slug: check-hq-company-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-company-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-company-benefits-api-openapi.yml
 - filename: check-hq-company-provided-documents-api-openapi.yml
   format: yaml
   label: Check Company Provided Documents API
   slug: check-hq-company-provided-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-company-provided-documents-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-company-provided-documents-api-openapi.yml
 - filename: check-hq-company-tax-elections-api-openapi.yml
   format: yaml
   label: Check Company Tax Elections API
   slug: check-hq-company-tax-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-company-tax-elections-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-company-tax-elections-api-openapi.yml
 - filename: check-hq-company-tax-params-api-openapi.yml
   format: yaml
   label: Check Company Tax Params API
   slug: check-hq-company-tax-params-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-company-tax-params-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-company-tax-params-api-openapi.yml
 - filename: check-hq-contractor-payments-api-openapi.yml
   format: yaml
   label: Check Contractor Payments API
   slug: check-hq-contractor-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-contractor-payments-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-contractor-payments-api-openapi.yml
 - filename: check-hq-contractors-api-openapi.yml
   format: yaml
   label: Check Contractors API
   slug: check-hq-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-contractors-api-openapi.yml
 - filename: check-hq-corrections-api-openapi.yml
   format: yaml
   label: Check Corrections API
   slug: check-hq-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-corrections-api-openapi.yml
 - filename: check-hq-documents-api-openapi.yml
   format: yaml
   label: Check Documents API
   slug: check-hq-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-documents-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-documents-api-openapi.yml
 - filename: check-hq-earning-codes-api-openapi.yml
   format: yaml
   label: Check Earning Codes API
   slug: check-hq-earning-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-earning-codes-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-earning-codes-api-openapi.yml
 - filename: check-hq-earning-rates-api-openapi.yml
   format: yaml
   label: Check Earning Rates API
   slug: check-hq-earning-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-earning-rates-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-earning-rates-api-openapi.yml
 - filename: check-hq-employee-tax-elections-api-openapi.yml
   format: yaml
   label: Check Employee Tax Elections API
   slug: check-hq-employee-tax-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-employee-tax-elections-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-employee-tax-elections-api-openapi.yml
 - filename: check-hq-employee-tax-params-api-openapi.yml
   format: yaml
   label: Check Employee Tax Params API
   slug: check-hq-employee-tax-params-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-employee-tax-params-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-employee-tax-params-api-openapi.yml
 - filename: check-hq-employee-tax-statements-api-openapi.yml
   format: yaml
   label: Check Employee Tax Statements API
   slug: check-hq-employee-tax-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-employee-tax-statements-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-employee-tax-statements-api-openapi.yml
 - filename: check-hq-employees-api-openapi.yml
   format: yaml
   label: Check Employees API
   slug: check-hq-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-employees-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-employees-api-openapi.yml
 - filename: check-hq-external-payrolls-api-openapi.yml
   format: yaml
   label: Check External Payrolls API
   slug: check-hq-external-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-external-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-external-payrolls-api-openapi.yml
 - filename: check-hq-filings-api-openapi.yml
   format: yaml
   label: Check Filings API
   slug: check-hq-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-filings-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-filings-api-openapi.yml
 - filename: check-hq-forms-api-openapi.yml
   format: yaml
   label: Check Forms API
   slug: check-hq-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-forms-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-forms-api-openapi.yml
 - filename: check-hq-fulfillments-api-openapi.yml
   format: yaml
   label: Check Fulfillments API
   slug: check-hq-fulfillments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-fulfillments-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-fulfillments-api-openapi.yml
 - filename: check-hq-integrations-api-openapi.yml
   format: yaml
   label: Check Integrations API
   slug: check-hq-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-integrations-api-openapi.yml
 - filename: check-hq-logs-api-openapi.yml
   format: yaml
   label: Check Logs API
   slug: check-hq-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-logs-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-logs-api-openapi.yml
 - filename: check-hq-net-pay-splits-api-openapi.yml
   format: yaml
   label: Check Net Pay Splits API
   slug: check-hq-net-pay-splits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-net-pay-splits-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-net-pay-splits-api-openapi.yml
 - filename: check-hq-notifications-api-openapi.yml
   format: yaml
   label: Check Notifications API
   slug: check-hq-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-notifications-api-openapi.yml
 - filename: check-hq-pay-schedules-api-openapi.yml
   format: yaml
   label: Check Pay Schedules API
   slug: check-hq-pay-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-pay-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-pay-schedules-api-openapi.yml
 - filename: check-hq-payments-api-openapi.yml
   format: yaml
   label: Check Payments API
   slug: check-hq-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-payments-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-payments-api-openapi.yml
 - filename: check-hq-payroll-items-api-openapi.yml
   format: yaml
   label: Check Payroll Items API
   slug: check-hq-payroll-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-payroll-items-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-payroll-items-api-openapi.yml
 - filename: check-hq-payrolls-api-openapi.yml
   format: yaml
   label: Check Payrolls API
   slug: check-hq-payrolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-payrolls-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-payrolls-api-openapi.yml
 - filename: check-hq-post-tax-deductions-api-openapi.yml
   format: yaml
   label: Check Post Tax Deductions API
   slug: check-hq-post-tax-deductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-post-tax-deductions-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-post-tax-deductions-api-openapi.yml
 - filename: check-hq-report-runs-api-openapi.yml
   format: yaml
   label: Check Report Runs API
   slug: check-hq-report-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-report-runs-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-report-runs-api-openapi.yml
 - filename: check-hq-setups-api-openapi.yml
   format: yaml
   label: Check Setups API
   slug: check-hq-setups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-setups-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-setups-api-openapi.yml
 - filename: check-hq-tax-packages-api-openapi.yml
   format: yaml
   label: Check Tax Packages API
   slug: check-hq-tax-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-tax-packages-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-tax-packages-api-openapi.yml
 - filename: check-hq-taxes-api-openapi.yml
   format: yaml
   label: Check Taxes API
   slug: check-hq-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-taxes-api-openapi.yml
 - filename: check-hq-usage-api-openapi.yml
   format: yaml
   label: Check Usage API
   slug: check-hq-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-usage-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-usage-api-openapi.yml
 - filename: check-hq-webhook-configs-api-openapi.yml
   format: yaml
   label: Check Webhook Configs API
   slug: check-hq-webhook-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-webhook-configs-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-webhook-configs-api-openapi.yml
 - filename: check-hq-webhook-deliveries-api-openapi.yml
   format: yaml
   label: Check Webhook Deliveries API
   slug: check-hq-webhook-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-webhook-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-webhook-deliveries-api-openapi.yml
 - filename: check-hq-workplaces-api-openapi.yml
   format: yaml
   label: Check Workplaces API
   slug: check-hq-workplaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/openapi/check-hq-workplaces-api-openapi.yml
+  url: https://artifacts.apis.io/check-hq/openapi/check-hq-workplaces-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 98
@@ -339,8 +339,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/check-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee_tax_params/settings\n  method: get\n  operationId: bulk-get-employee-tax-parameter-settings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee_tax_params/settings\n  method: patch\n  operationId: bulk-update-employee-tax-parameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employee_tax_params/{employee_id}\n  method: get\n  operationId: list-employees-tax-parameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee_tax_params/{employee_id}/settings\n\
   \  method: get\n  operationId: list-employee-tax-parameter-settings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee_tax_statements\n  method: get\n  operationId: list-employee-tax-statements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee_tax_statements/{id}\n  method: get\n  operationId: employee-tax-statements-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees\n  method: get\n  operationId: list-employees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employee}/components/tax_setup\n  method: post\n  operationId: employee-tax-setup\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employees/{employee}/components/withholdings_setup\n  method: post\n  operationId: employee-withholdings-setup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employees/{employee}/paystubs\n  method: get\n  operationId: get-an-employees-paystubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employee}/reveal\n  method: get\n  operationId: reveal-employee-ssn\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external_payrolls\n  method: get\n  operationId: list-external-payrolls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external_payrolls\n  method: post\n  operationId: create-an-external-payroll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/agentic-access/check-hq-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/check-hq/refs/heads/main/agentic-access/check-hq-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external_payrolls\n  method: get\n  operationId: list-external-payrolls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external_payrolls\n  method: post\n  operationId: create-an-external-payroll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (54 KB total) ---\n# Full source: https://artifacts.apis.io/check-hq/agentic-access/check-hq-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/check-hq/agentic-access/check-hq-agentic-access.yml
 summary_line: 188 operations · 90 acting
 tags:
 - Payroll

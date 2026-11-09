@@ -9,43 +9,43 @@ api_specs:
   label: Ostrom Auth API
   slug: ostrom-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-auth-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-auth-api-openapi.yml
 - filename: ostrom-contracts-api-openapi.yml
   format: yaml
   label: Ostrom Contracts API
   slug: ostrom-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-contracts-api-openapi.yml
 - filename: ostrom-orders-api-openapi.yml
   format: yaml
   label: Ostrom Orders API
   slug: ostrom-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-orders-api-openapi.yml
 - filename: ostrom-prices-api-openapi.yml
   format: yaml
   label: Ostrom Prices API
   slug: ostrom-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-prices-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-prices-api-openapi.yml
 - filename: ostrom-products-api-openapi.yml
   format: yaml
   label: Ostrom Products API
   slug: ostrom-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-products-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-products-api-openapi.yml
 - filename: ostrom-users-api-openapi.yml
   format: yaml
   label: Ostrom Users API
   slug: ostrom-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-users-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-users-api-openapi.yml
 - filename: ostrom-webhooks-api-openapi.yml
   format: yaml
   label: Ostrom Webhooks API
   slug: ostrom-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/openapi/ostrom-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ostrom/openapi/ostrom-webhooks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/ostrom
   - path: /users/{externalUserId}/contracts/{contractId}\n  method: get\n  operationId: getContractByExternalUserId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{externalUserId}/contracts/{contractId}/energy-consumption\n  method: get\n  operationId: getContractEnergyConsumptionByExternalUserId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spot-prices\n  method: get\n  operationId: getSpotPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: getProductPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n\
   \  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ostrom/refs/heads/main/agentic-access/ostrom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ostrom/agentic-access/ostrom-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Company

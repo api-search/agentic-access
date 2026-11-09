@@ -9,7 +9,7 @@ api_specs:
   label: AICamp API
   slug: aicamp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aicamp/refs/heads/main/openapi/aicamp-openapi.json
+  url: https://artifacts.apis.io/aicamp/openapi/aicamp-openapi.json
 consequence_counts:
   read: 1
   write: 2
@@ -37,7 +37,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/aicamp-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 1\n    acting: 2\n  by_consequence:\n    read: 1\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /plants\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plants\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /plants/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aicamp/refs/heads/main/agentic-access/aicamp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aicamp/agentic-access/aicamp-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Company

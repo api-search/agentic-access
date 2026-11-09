@@ -9,103 +9,163 @@ api_specs:
   label: Didit Billing API
   slug: didit-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-billing-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-billing-api-openapi.yml
 - filename: didit-businesses-api-openapi.yml
   format: yaml
   label: Didit Businesses API
   slug: didit-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-businesses-api-openapi.yml
 - filename: didit-case-blueprints-api-openapi.yml
   format: yaml
   label: Didit Case Blueprints API
   slug: didit-case-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-case-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-case-blueprints-api-openapi.yml
 - filename: didit-cases-api-openapi.yml
   format: yaml
   label: Didit Cases API
   slug: didit-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-cases-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-cases-api-openapi.yml
 - filename: didit-customization-api-openapi.yml
   format: yaml
   label: Didit Customization API
   slug: didit-customization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-customization-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-customization-api-openapi.yml
 - filename: didit-questionnaires-api-openapi.yml
   format: yaml
   label: Didit Questionnaires API
   slug: didit-questionnaires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-questionnaires-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-questionnaires-api-openapi.yml
 - filename: didit-regulatory-reports-api-openapi.yml
   format: yaml
   label: Didit Regulatory Reports API
   slug: didit-regulatory-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-regulatory-reports-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-regulatory-reports-api-openapi.yml
 - filename: didit-report-templates-api-openapi.yml
   format: yaml
   label: Didit Report Templates API
   slug: didit-report-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-report-templates-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-report-templates-api-openapi.yml
 - filename: didit-session-api-openapi.yml
   format: yaml
   label: Didit Session API
   slug: didit-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-session-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-session-api-openapi.yml
 - filename: didit-sessions-api-openapi.yml
   format: yaml
   label: Didit Sessions API
   slug: didit-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-sessions-api-openapi.yml
 - filename: didit-standalone-apis-api-openapi.yml
   format: yaml
   label: Didit Standalone APIs API
   slug: didit-standalone-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-standalone-apis-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-standalone-apis-api-openapi.yml
 - filename: didit-system-api-openapi.yml
   format: yaml
   label: Didit System API
   slug: didit-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-system-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-system-api-openapi.yml
 - filename: didit-transactions-api-openapi.yml
   format: yaml
   label: Didit Transactions API
   slug: didit-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-transactions-api-openapi.yml
 - filename: didit-travel-rule-api-openapi.yml
   format: yaml
   label: Didit Travel Rule API
   slug: didit-travel-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-travel-rule-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-travel-rule-api-openapi.yml
 - filename: didit-users-api-openapi.yml
   format: yaml
   label: Didit Users API
   slug: didit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-users-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-users-api-openapi.yml
 - filename: didit-webhook-api-openapi.yml
   format: yaml
   label: Didit Webhook API
   slug: didit-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-webhook-api-openapi.yml
 - filename: didit-workflows-api-openapi.yml
   format: yaml
   label: Didit Workflows API
   slug: didit-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/openapi/didit-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/didit/openapi/didit-workflows-api-openapi.yml
+- filename: didit-aml-ongoing-monitoring-api-openapi.yml
+  format: yaml
+  label: Didit AML Ongoing Monitoring API
+  slug: didit-aml-ongoing-monitoring-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-aml-ongoing-monitoring-api-openapi.yml
+- filename: didit-biometric-templates-api-openapi.yml
+  format: yaml
+  label: Didit Biometric Templates API
+  slug: didit-biometric-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-biometric-templates-api-openapi.yml
+- filename: didit-case-assignment-api-openapi.yml
+  format: yaml
+  label: Didit Case Assignment API
+  slug: didit-case-assignment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-case-assignment-api-openapi.yml
+- filename: didit-case-management-api-openapi.yml
+  format: yaml
+  label: Didit Case Management API
+  slug: didit-case-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-case-management-api-openapi.yml
+- filename: didit-digital-id-wallets-api-openapi.yml
+  format: yaml
+  label: Didit Digital ID wallets API
+  slug: didit-digital-id-wallets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-digital-id-wallets-api-openapi.yml
+- filename: didit-draft-api-openapi.yml
+  format: yaml
+  label: Didit Draft API
+  slug: didit-draft-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-draft-api-openapi.yml
+- filename: didit-fraud-check-api-openapi.yml
+  format: yaml
+  label: Didit Fraud Check API
+  slug: didit-fraud-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-fraud-check-api-openapi.yml
+- filename: didit-history-api-openapi.yml
+  format: yaml
+  label: Didit History API
+  slug: didit-history-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-history-api-openapi.yml
+- filename: didit-networks-api-openapi.yml
+  format: yaml
+  label: Didit Networks API
+  slug: didit-networks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-networks-api-openapi.yml
+- filename: didit-publish-api-openapi.yml
+  format: yaml
+  label: Didit Publish API
+  slug: didit-publish-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-publish-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 47
@@ -209,8 +269,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/didit-
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/travel-rule/widget/{token}/\n  method: get\n  operationId: getTravelRuleWidgetContext\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/\n  method: get\n  operationId: list_cases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/\n  method: post\n  operationId: create_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/\n  method: get\n  operationId: get_case\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/\n  method: patch\n  operationId: update_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/\n  method: delete\n  operationId: delete_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/assign/\n  method: post\n  operationId: assign_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/resolve/\n  method: post\n  operationId: resolve_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/reopen/\n  method: post\n  operationId: reopen_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/request-info/\n  method: post\n  operationId: request_case_info\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/agentic-access/didit-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/agentic-access/didit-agentic-access.yml
+  \    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/reopen/\n  method: post\n  operationId: reopen_case\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/organization/{organization_id}/application/{application_id}/cases/{case_uuid}/request-info/\n  method: post\n  operationId: request_case_info\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (47 KB total) ---\n# Full source: https://artifacts.apis.io/didit/agentic-access/didit-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/didit/agentic-access/didit-agentic-access.yml
 summary_line: 142 operations · 95 acting · 1 human-in-the-loop
 tags:
 - Identity

@@ -9,121 +9,121 @@ api_specs:
   label: Recall.ai Audio Mixed API
   slug: recall-ai-audio-mixed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-audio-mixed-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-audio-mixed-api-openapi.yml
 - filename: recall-ai-audio-separate-api-openapi.yml
   format: yaml
   label: Recall.ai Audio Separate API
   slug: recall-ai-audio-separate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-audio-separate-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-audio-separate-api-openapi.yml
 - filename: recall-ai-billing-api-openapi.yml
   format: yaml
   label: Recall.ai Billing API
   slug: recall-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-billing-api-openapi.yml
 - filename: recall-ai-bot-api-openapi.yml
   format: yaml
   label: Recall.ai Bot API
   slug: recall-ai-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-bot-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-bot-api-openapi.yml
 - filename: recall-ai-calendar-v1-api-openapi.yml
   format: yaml
   label: Recall.ai Calendar V1 API
   slug: recall-ai-calendar-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-calendar-v1-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-calendar-v1-api-openapi.yml
 - filename: recall-ai-calendar-v2-api-openapi.yml
   format: yaml
   label: Recall.ai Calendar V2 API
   slug: recall-ai-calendar-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-calendar-v2-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-calendar-v2-api-openapi.yml
 - filename: recall-ai-google-login-api-openapi.yml
   format: yaml
   label: Recall.ai Google Login API
   slug: recall-ai-google-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-google-login-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-google-login-api-openapi.yml
 - filename: recall-ai-google-login-group-api-openapi.yml
   format: yaml
   label: Recall.ai Google Login Group API
   slug: recall-ai-google-login-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-google-login-group-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-google-login-group-api-openapi.yml
 - filename: recall-ai-meeting-direct-connect-api-openapi.yml
   format: yaml
   label: Recall.ai Meeting Direct Connect API
   slug: recall-ai-meeting-direct-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-meeting-direct-connect-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-meeting-direct-connect-api-openapi.yml
 - filename: recall-ai-meeting-metadata-api-openapi.yml
   format: yaml
   label: Recall.ai Meeting Metadata API
   slug: recall-ai-meeting-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-meeting-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-meeting-metadata-api-openapi.yml
 - filename: recall-ai-participant-events-api-openapi.yml
   format: yaml
   label: Recall.ai Participant Events API
   slug: recall-ai-participant-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-participant-events-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-participant-events-api-openapi.yml
 - filename: recall-ai-realtime-endpoint-api-openapi.yml
   format: yaml
   label: Recall.ai Realtime Endpoint API
   slug: recall-ai-realtime-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-realtime-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-realtime-endpoint-api-openapi.yml
 - filename: recall-ai-recording-api-openapi.yml
   format: yaml
   label: Recall.ai Recording API
   slug: recall-ai-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-recording-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-recording-api-openapi.yml
 - filename: recall-ai-sdk-upload-api-openapi.yml
   format: yaml
   label: Recall.ai SDK Upload API
   slug: recall-ai-sdk-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-sdk-upload-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-sdk-upload-api-openapi.yml
 - filename: recall-ai-transcript-api-openapi.yml
   format: yaml
   label: Recall.ai Transcript API
   slug: recall-ai-transcript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-transcript-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-transcript-api-openapi.yml
 - filename: recall-ai-video-mixed-api-openapi.yml
   format: yaml
   label: Recall.ai Video Mixed API
   slug: recall-ai-video-mixed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-video-mixed-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-video-mixed-api-openapi.yml
 - filename: recall-ai-video-separate-api-openapi.yml
   format: yaml
   label: Recall.ai Video Separate API
   slug: recall-ai-video-separate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-video-separate-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-video-separate-api-openapi.yml
 - filename: recall-ai-zoom-meetings-to-credentials-api-openapi.yml
   format: yaml
   label: Recall.ai Zoom Meetings To Credentials API
   slug: recall-ai-zoom-meetings-to-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-zoom-meetings-to-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-zoom-meetings-to-credentials-api-openapi.yml
 - filename: recall-ai-zoom-oauth-apps-api-openapi.yml
   format: yaml
   label: Recall.ai Zoom OAUTH Apps API
   slug: recall-ai-zoom-oauth-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-zoom-oauth-apps-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-zoom-oauth-apps-api-openapi.yml
 - filename: recall-ai-zoom-oauth-credentials-api-openapi.yml
   format: yaml
   label: Recall.ai Zoom OAUTH Credentials API
   slug: recall-ai-zoom-oauth-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/openapi/recall-ai-zoom-oauth-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/recall-ai/openapi/recall-ai-zoom-oauth-credentials-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 45
@@ -202,8 +202,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/recall
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/google-logins/{id}/\n  method: put\n  operationId: google_logins_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/google-logins/{id}/\n  method: patch\n  operationId: google_logins_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/google-logins/{id}/\n  method: delete\n  operationId: google_logins_destroy\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/zoom-meetings-to-credentials/\n  method: get\n  operationId: zoom_meetings_to_credentials_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/zoom-oauth-app-logs/\n  method: get\n  operationId: zoom_oauth_app_logs_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/zoom-oauth-apps/\n  method: get\n  operationId: zoom_oauth_apps_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/zoom-oauth-apps/\n\
   \  method: post\n  operationId: zoom_oauth_apps_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/zoom-oauth-apps/{id}/\n  method: get\n  operationId: zoom_oauth_apps_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/zoom-oauth-apps/{id}/\n  method: patch\n  operationId: zoom_oauth_apps_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/zoom-oauth-apps/{id}/\n  method:\
-  \ delete\n  operationId: zoom_oauth_apps_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/zoom-oauth-credential-logs/\n  method: get\n  operationId: zoom_oauth_credential_logs_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/zoom-oauth-credentials/\n  method: get\n  operationId: zoom_oauth_credentials_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/agentic-access/recall-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recall-ai/refs/heads/main/agentic-access/recall-ai-agentic-access.yml
+  \ delete\n  operationId: zoom_oauth_apps_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/zoom-oauth-credential-logs/\n  method: get\n  operationId: zoom_oauth_credential_logs_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/zoom-oauth-credentials/\n  method: get\n  operationId: zoom_oauth_credentials_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/recall-ai/agentic-access/recall-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/recall-ai/agentic-access/recall-ai-agentic-access.yml
 summary_line: 111 operations · 66 acting · 2 human-in-the-loop
 tags:
 - Meeting Bots

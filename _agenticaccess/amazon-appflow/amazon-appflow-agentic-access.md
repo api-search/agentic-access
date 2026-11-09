@@ -9,19 +9,19 @@ api_specs:
   label: Amazon AppFlow Connectors API
   slug: amazon-appflow-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appflow/openapi/amazon-appflow-connectors-api-openapi.yml
 - filename: amazon-appflow-flows-api-openapi.yml
   format: yaml
   label: Amazon AppFlow Flows API
   slug: amazon-appflow-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-flows-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appflow/openapi/amazon-appflow-flows-api-openapi.yml
 - filename: amazon-appflow-tags-api-openapi.yml
   format: yaml
   label: Amazon AppFlow Tags API
   slug: amazon-appflow-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/openapi/amazon-appflow-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appflow/openapi/amazon-appflow-tags-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 2
@@ -71,9 +71,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stop-flow\n  method: post\n  operationId: stopFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /cancel-flow-executions\n  method: post\n  operationId: cancelFlowExecutions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /describe-flow-execution-records\n  method: post\n  operationId: describeFlowExecutionRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appflow/refs/heads/main/agentic-access/amazon-appflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-appflow/agentic-access/amazon-appflow-agentic-access.yml
 summary_line: 25 operations · 21 acting · 2 human-in-the-loop
 tags:
+- Amazon Web Services
 - Connectors
 - Dataflows
 - Data Integration

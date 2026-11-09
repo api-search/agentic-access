@@ -9,43 +9,43 @@ api_specs:
   label: Roblox Engine API Assets API
   slug: roblox-engine-api-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-assets-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-assets-api-openapi.yml
 - filename: roblox-engine-api-groups-api-openapi.yml
   format: yaml
   label: Roblox Engine API Groups API
   slug: roblox-engine-api-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-groups-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-groups-api-openapi.yml
 - filename: roblox-engine-api-messaging-api-openapi.yml
   format: yaml
   label: Roblox Engine API Messaging API
   slug: roblox-engine-api-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-messaging-api-openapi.yml
 - filename: roblox-engine-api-places-api-openapi.yml
   format: yaml
   label: Roblox Engine API Places API
   slug: roblox-engine-api-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-places-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-places-api-openapi.yml
 - filename: roblox-engine-api-universes-api-openapi.yml
   format: yaml
   label: Roblox Engine API Universes API
   slug: roblox-engine-api-universes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-universes-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-universes-api-openapi.yml
 - filename: roblox-engine-api-users-api-openapi.yml
   format: yaml
   label: Roblox Engine API Users API
   slug: roblox-engine-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-users-api-openapi.yml
 - filename: roblox-engine-api-datastores-api-openapi.yml
   format: yaml
   label: Roblox Engine API Datastores API
   slug: roblox-engine-api-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-datastores-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/roblox
   \    audit: none\n- path: /cloud/v2/groups/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud/v2/groups/{groupId}/memberships\n  method: get\n  operationId: listGroupMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/v1/assets\n  method: post\n  operationId: createAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/v1/assets/{assetId}\n  method: get\n  operationId: getAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/v1/assets/{assetId}\n  method: patch\n  operationId: updateAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cloud/v2/universes/{universeId}/user-restrictions/{userId}\n  method: get\n  operationId: getUserRestriction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cloud/v2/universes/{universeId}/user-restrictions/{userId}\n  method: patch\n  operationId: updateUserRestriction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/agentic-access/roblox-engine-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/roblox-engine-api/agentic-access/roblox-engine-api-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - Gaming

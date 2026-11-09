@@ -9,127 +9,139 @@ api_specs:
   label: Explorium Businesses API
   slug: explorium-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-businesses-api-openapi.yml
 - filename: explorium-credits-api-openapi.yml
   format: yaml
   label: Explorium Credits API
   slug: explorium-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-credits-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-credits-api-openapi.yml
 - filename: explorium-prospects-api-openapi.yml
   format: yaml
   label: Explorium Prospects API
   slug: explorium-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-prospects-api-openapi.yml
 - filename: explorium-webhooks-api-openapi.yml
   format: yaml
   label: Explorium Webhooks API
   slug: explorium-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-webhooks-api-openapi.yml
 - filename: explorium-asyncenrichmentjobs-api-openapi.yml
   format: yaml
   label: Explorium Async Enrichment Jobs API
   slug: explorium-asyncenrichmentjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-asyncenrichmentjobs-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-asyncenrichmentjobs-api-openapi.yml
 - filename: explorium-asyncjobs-api-openapi.yml
   format: yaml
   label: Explorium Async Jobs API
   slug: explorium-asyncjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-asyncjobs-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-asyncjobs-api-openapi.yml
 - filename: explorium-bulkbusinessenrichments-api-openapi.yml
   format: yaml
   label: Explorium Bulk Business Enrichments API
   slug: explorium-bulkbusinessenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-bulkbusinessenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-bulkbusinessenrichments-api-openapi.yml
 - filename: explorium-businessenrichments-api-openapi.yml
   format: yaml
   label: Explorium Business Enrichments API
   slug: explorium-businessenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-businessenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-businessenrichments-api-openapi.yml
 - filename: explorium-customenrichments-api-openapi.yml
   format: yaml
   label: Explorium Custom Enrichments API
   slug: explorium-customenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-customenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-customenrichments-api-openapi.yml
 - filename: explorium-entityiddatasets-api-openapi.yml
   format: yaml
   label: Explorium Entity ID Datasets API
   slug: explorium-entityiddatasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-entityiddatasets-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-entityiddatasets-api-openapi.yml
 - filename: explorium-prospectsbulkenrichments-api-openapi.yml
   format: yaml
   label: Explorium Prospects Bulk Enrichments API
   slug: explorium-prospectsbulkenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-prospectsbulkenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-prospectsbulkenrichments-api-openapi.yml
 - filename: explorium-prospectsenrichments-api-openapi.yml
   format: yaml
   label: Explorium Prospects Enrichments API
   slug: explorium-prospectsenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-prospectsenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-prospectsenrichments-api-openapi.yml
 - filename: explorium-v2autocomplete-api-openapi.yml
   format: yaml
   label: Explorium V2 Autocomplete API
   slug: explorium-v2autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2autocomplete-api-openapi.yml
 - filename: explorium-v2businessenrichments-api-openapi.yml
   format: yaml
   label: Explorium V2 Business Enrichments API
   slug: explorium-v2businessenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2businessenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2businessenrichments-api-openapi.yml
 - filename: explorium-v2businesses-api-openapi.yml
   format: yaml
   label: Explorium V2 Businesses API
   slug: explorium-v2businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2businesses-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2businesses-api-openapi.yml
 - filename: explorium-v2credits-api-openapi.yml
   format: yaml
   label: Explorium V2 Credits API
   slug: explorium-v2credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2credits-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2credits-api-openapi.yml
 - filename: explorium-v2prospectenrichments-api-openapi.yml
   format: yaml
   label: Explorium V2 Prospect Enrichments API
   slug: explorium-v2prospectenrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2prospectenrichments-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2prospectenrichments-api-openapi.yml
 - filename: explorium-v2prospects-api-openapi.yml
   format: yaml
   label: Explorium V2 Prospects API
   slug: explorium-v2prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2prospects-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2prospects-api-openapi.yml
 - filename: explorium-v2research-api-openapi.yml
   format: yaml
   label: Explorium V2 Research API
   slug: explorium-v2research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-v2research-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2research-api-openapi.yml
 - filename: explorium-version-api-openapi.yml
   format: yaml
   label: Explorium Version API
   slug: explorium-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-version-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-version-api-openapi.yml
+- filename: explorium-v2enrollments-api-openapi.yml
+  format: yaml
+  label: Explorium V2Enrollments API
+  slug: explorium-v2enrollments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2enrollments-api-openapi.yml
+- filename: explorium-v2webhooks-api-openapi.yml
+  format: yaml
+  label: Explorium V2Webhooks API
+  slug: explorium-v2webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2webhooks-api-openapi.yml
 - filename: explorium-health-check-api-openapi.yml
   format: yaml
   label: Explorium Health Check API
   slug: explorium-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/openapi/explorium-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/explorium/openapi/explorium-health-check-api-openapi.yml
 consequence_counts:
   read: 25
   write: 102
@@ -188,8 +200,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/explor
   - path: /v1/prospects/stats\n  method: post\n  operationId: prospect_fetch_stats\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/events\n  method: post\n  operationId: fetch_prospects_events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/autocomplete\n  method: get\n  operationId: prospects_autocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/events/enrollments\n  method: get\n  operationId: get_prospects_enrollments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/prospects/events/enrollments\n  method: post\n  operationId: add_prospects_enrollments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/events/enrollments\n  method: delete\n  operationId: delete_prospects_enrollments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/events/enrollments\n  method: patch\n  operationId: update_prospects_enrollments\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/contacts_information/bulk_enrich\n  method: post\n  operationId: prospects_contacts_information_bulk_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/linkedin_posts/bulk_enrich\n  method: post\n  operationId: prospects_linkedin_posts_bulk_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
-  \   audit: required\n- path: /v1/prospects/profiles/bulk_enrich\n  method: post\n  operationId: prospects_profiles_bulk_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/contacts_information/enrich\n  method: post\n  operationId: prospects_contacts_information_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/agentic-access/explorium-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/explorium/refs/heads/main/agentic-access/explorium-agentic-access.yml
+  \   audit: required\n- path: /v1/prospects/profiles/bulk_enrich\n  method: post\n  operationId: prospects_profiles_bulk_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/prospects/contacts_information/enrich\n  method: post\n  operationId: prospects_contacts_information_enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/explorium/agentic-access/explorium-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/explorium/agentic-access/explorium-agentic-access.yml
 summary_line: 127 operations · 102 acting
 tags:
 - Data Enrichment

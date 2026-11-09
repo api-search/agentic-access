@@ -9,61 +9,61 @@ api_specs:
   label: Micronaut Beans API
   slug: micronaut-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-beans-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-beans-api-openapi.yml
 - filename: micronaut-configuration-api-openapi.yml
   format: yaml
   label: Micronaut Configuration API
   slug: micronaut-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-configuration-api-openapi.yml
 - filename: micronaut-environment-api-openapi.yml
   format: yaml
   label: Micronaut Environment API
   slug: micronaut-environment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-environment-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-environment-api-openapi.yml
 - filename: micronaut-health-api-openapi.yml
   format: yaml
   label: Micronaut Health API
   slug: micronaut-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-health-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-health-api-openapi.yml
 - filename: micronaut-info-api-openapi.yml
   format: yaml
   label: Micronaut Info API
   slug: micronaut-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-info-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-info-api-openapi.yml
 - filename: micronaut-jvm-api-openapi.yml
   format: yaml
   label: Micronaut JVM API
   slug: micronaut-jvm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-jvm-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-jvm-api-openapi.yml
 - filename: micronaut-lifecycle-api-openapi.yml
   format: yaml
   label: Micronaut Lifecycle API
   slug: micronaut-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-lifecycle-api-openapi.yml
 - filename: micronaut-loggers-api-openapi.yml
   format: yaml
   label: Micronaut Loggers API
   slug: micronaut-loggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-loggers-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-loggers-api-openapi.yml
 - filename: micronaut-metrics-api-openapi.yml
   format: yaml
   label: Micronaut Metrics API
   slug: micronaut-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-metrics-api-openapi.yml
 - filename: micronaut-routes-api-openapi.yml
   format: yaml
   label: Micronaut Routes API
   slug: micronaut-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/openapi/micronaut-routes-api-openapi.yml
+  url: https://artifacts.apis.io/micronaut/openapi/micronaut-routes-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micron
   \  operationId: getBeans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers\n  method: get\n  operationId: getLoggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers/{name}\n  method: get\n  operationId: getLogger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loggers/{name}\n  method: post\n  operationId: setLoggerLevel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics\n  method: get\n  operationId: listMetrics\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{name}\n  method: get\n  operationId: getMetric\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routes\n  method: get\n  operationId: getRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /env\n  method: get\n  operationId: getEnvironment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threaddump\n  method: get\n  operationId: getThreadDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /refresh\n\
   \  method: post\n  operationId: refresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stop\n  method: post\n  operationId: stop\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/agentic-access/micronaut-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/micronaut/agentic-access/micronaut-agentic-access.yml
 summary_line: 13 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Cloud-Native

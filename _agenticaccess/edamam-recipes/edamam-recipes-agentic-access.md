@@ -9,61 +9,61 @@ api_specs:
   label: Edamam Food Nutrition Request - AI Vision (Beta) API
   slug: edamam-recipes-food-nutrition-request-ai-vision-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-nutrition-request-ai-vision-beta-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-food-nutrition-request-ai-vision-beta-api-openapi.yml
 - filename: edamam-recipes-food-request-step-1-parser-api-openapi.yml
   format: yaml
   label: Edamam Food Request Step 1 - Parser API
   slug: edamam-recipes-food-request-step-1-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-request-step-1-parser-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-food-request-step-1-parser-api-openapi.yml
 - filename: edamam-recipes-food-request-step-2-nutrients-api-openapi.yml
   format: yaml
   label: Edamam Food Request Step 2 - Nutrients API
   slug: edamam-recipes-food-request-step-2-nutrients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-request-step-2-nutrients-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-food-request-step-2-nutrients-api-openapi.yml
 - filename: edamam-recipes-food-search-autocomplete-api-openapi.yml
   format: yaml
   label: Edamam Food Search Autocomplete API
   slug: edamam-recipes-food-search-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-food-search-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-food-search-autocomplete-api-openapi.yml
 - filename: edamam-recipes-nutrition-data-api-openapi.yml
   format: yaml
   label: Edamam Nutrition Data API
   slug: edamam-recipes-nutrition-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-nutrition-data-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-nutrition-data-api-openapi.yml
 - filename: edamam-recipes-nutrition-details-api-openapi.yml
   format: yaml
   label: Edamam Nutrition Details API
   slug: edamam-recipes-nutrition-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-nutrition-details-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-nutrition-details-api-openapi.yml
 - filename: edamam-recipes-planner-api-openapi.yml
   format: yaml
   label: Edamam Planner API
   slug: edamam-recipes-planner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-planner-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-planner-api-openapi.yml
 - filename: edamam-recipes-recipe-search-api-openapi.yml
   format: yaml
   label: Edamam Recipe Search API
   slug: edamam-recipes-recipe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-recipe-search-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-recipe-search-api-openapi.yml
 - filename: edamam-recipes-shopping-list-api-openapi.yml
   format: yaml
   label: Edamam Shopping List API
   slug: edamam-recipes-shopping-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-shopping-list-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-shopping-list-api-openapi.yml
 - filename: edamam-recipes-values-api-openapi.yml
   format: yaml
   label: Edamam Values API
   slug: edamam-recipes-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/openapi/edamam-recipes-values-api-openapi.yml
+  url: https://artifacts.apis.io/edamam-recipes/openapi/edamam-recipes-values-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/edamam
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/daily-values/v1/values\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - app_id\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/recipes/v2/by-uri\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/shopping-list/v2\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/nutrition-details\n  method:\
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/nutrition-data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/recipes/v2\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/recipes/v2/by-uri\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/recipes/v2/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/shopping-list/v2\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edamam-recipes/refs/heads/main/agentic-access/edamam-recipes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/edamam-recipes/agentic-access/edamam-recipes-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Food and Beverage
@@ -106,4 +106,7 @@ tags:
 - Sustainability
 - Carbon Footprint
 - Public APIs
+- Restaurant
+- Food
+- UPC
 ---

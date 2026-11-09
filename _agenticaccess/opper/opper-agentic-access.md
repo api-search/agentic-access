@@ -9,115 +9,115 @@ api_specs:
   label: Opper AI Account API
   slug: opper-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-account-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-account-api-openapi.yml
 - filename: opper-artifacts-api-openapi.yml
   format: yaml
   label: Opper AI Artifacts API
   slug: opper-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-artifacts-api-openapi.yml
 - filename: opper-audio-api-openapi.yml
   format: yaml
   label: Opper AI Audio API
   slug: opper-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-audio-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-audio-api-openapi.yml
 - filename: opper-compatibility-api-openapi.yml
   format: yaml
   label: Opper AI Compatibility API
   slug: opper-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-compatibility-api-openapi.yml
 - filename: opper-files-api-openapi.yml
   format: yaml
   label: Opper AI Files API
   slug: opper-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-files-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-files-api-openapi.yml
 - filename: opper-functions-api-openapi.yml
   format: yaml
   label: Opper AI Functions API
   slug: opper-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-functions-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-functions-api-openapi.yml
 - filename: opper-generations-api-openapi.yml
   format: yaml
   label: Opper AI Generations API
   slug: opper-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-generations-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-generations-api-openapi.yml
 - filename: opper-images-api-openapi.yml
   format: yaml
   label: Opper AI Images API
   slug: opper-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-images-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-images-api-openapi.yml
 - filename: opper-management-api-openapi.yml
   format: yaml
   label: Opper AI Management API
   slug: opper-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-management-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-management-api-openapi.yml
 - filename: opper-models-api-openapi.yml
   format: yaml
   label: Opper AI Models API
   slug: opper-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-models-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-models-api-openapi.yml
 - filename: opper-ocr-api-openapi.yml
   format: yaml
   label: Opper AI OCR API
   slug: opper-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-ocr-api-openapi.yml
 - filename: opper-rerank-api-openapi.yml
   format: yaml
   label: Opper AI Rerank API
   slug: opper-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-rerank-api-openapi.yml
 - filename: opper-roundtable-api-openapi.yml
   format: yaml
   label: Opper AI Roundtable API
   slug: opper-roundtable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-roundtable-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-roundtable-api-openapi.yml
 - filename: opper-spans-api-openapi.yml
   format: yaml
   label: Opper AI Spans API
   slug: opper-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-spans-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-spans-api-openapi.yml
 - filename: opper-system-api-openapi.yml
   format: yaml
   label: Opper AI System API
   slug: opper-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-system-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-system-api-openapi.yml
 - filename: opper-tools-api-openapi.yml
   format: yaml
   label: Opper AI Tools API
   slug: opper-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-tools-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-tools-api-openapi.yml
 - filename: opper-traces-api-openapi.yml
   format: yaml
   label: Opper AI Traces API
   slug: opper-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-traces-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-traces-api-openapi.yml
 - filename: opper-user-delegation-api-openapi.yml
   format: yaml
   label: Opper AI User delegation API
   slug: opper-user-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-user-delegation-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-user-delegation-api-openapi.yml
 - filename: opper-videos-api-openapi.yml
   format: yaml
   label: Opper AI Videos API
   slug: opper-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/openapi/opper-videos-api-openapi.yml
+  url: https://artifacts.apis.io/opper/openapi/opper-videos-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 59
@@ -231,8 +231,8 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/opper-
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1/messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1/messages/count_tokens\n  method: post\n  operationId: countMessageTokens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1/models\n  method: get\n  operationId: listAnthropicCompatModels\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/compat/v1/systemone\n  method: post\n  operationId: evaluateSystemOne\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1beta/interactions\n  method: post\n  operationId: createInteraction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1beta/models/{model}:countTokens\n  method: post\n  operationId: countTokens\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1beta/models/{model}:generateContent\n  method: post\n  operationId: generateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/compat/v1beta/models/{model}:streamGenerateContent\n  method: post\n  operationId: streamGenerateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
-  \  audit: required\n- path: /v3/files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/files/usage\n  method: get\n  operationId: getFilesUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/agentic-access/opper-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opper/refs/heads/main/agentic-access/opper-agentic-access.yml
+  \  audit: required\n- path: /v3/files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/files\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/files/usage\n  method: get\n  operationId: getFilesUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/opper/agentic-access/opper-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/opper/agentic-access/opper-agentic-access.yml
 summary_line: 139 operations · 80 acting · 8 human-in-the-loop
 tags:
 - Artificial Intelligence

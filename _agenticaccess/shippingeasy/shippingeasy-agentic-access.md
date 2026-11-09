@@ -9,13 +9,13 @@ api_specs:
   label: ShippingEasy Orders API
   slug: shippingeasy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippingeasy/openapi/shippingeasy-orders-api-openapi.yml
 - filename: shippingeasy-stores-api-openapi.yml
   format: yaml
   label: ShippingEasy Stores API
   slug: shippingeasy-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-stores-api-openapi.yml
+  url: https://artifacts.apis.io/shippingeasy/openapi/shippingeasy-stores-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 5
@@ -59,7 +59,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shippingeasy-customer-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 5\n    acting: 3\n  by_consequence:\n    read: 5\n    physical: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /stores\n  method: get\n  operationId: listStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: findOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{id}\n  method: get\n  operationId:\
   \ findOrderById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{store_api_key}/orders\n  method: get\n  operationId: findOrdersByStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{store_api_key}/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{store_api_key}/orders/{external_order_identifier}\n  method: get\n  operationId: findOrderByExternalOrderNumber\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{store_api_key}/orders/{external_order_identifier}/status\n  method: put\n  operationId: updateOrderStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{store_api_key}/orders/{order_number}/cancellations\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/agentic-access/shippingeasy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shippingeasy/agentic-access/shippingeasy-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Shipping

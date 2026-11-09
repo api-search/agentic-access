@@ -9,49 +9,49 @@ api_specs:
   label: Track-POD Address API
   slug: track-pod-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-address-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-address-api-openapi.yml
 - filename: track-pod-driver-api-openapi.yml
   format: yaml
   label: Track-POD Driver API
   slug: track-pod-driver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-driver-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-driver-api-openapi.yml
 - filename: track-pod-order-api-openapi.yml
   format: yaml
   label: Track-POD Order API
   slug: track-pod-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-order-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-order-api-openapi.yml
 - filename: track-pod-route-api-openapi.yml
   format: yaml
   label: Track-POD Route API
   slug: track-pod-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-route-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-route-api-openapi.yml
 - filename: track-pod-test-api-openapi.yml
   format: yaml
   label: Track-POD Test API
   slug: track-pod-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-test-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-test-api-openapi.yml
 - filename: track-pod-vehicle-api-openapi.yml
   format: yaml
   label: Track-POD Vehicle API
   slug: track-pod-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-vehicle-api-openapi.yml
 - filename: track-pod-vehiclecheck-api-openapi.yml
   format: yaml
   label: Track-POD VehicleCheck API
   slug: track-pod-vehiclecheck-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-vehiclecheck-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-vehiclecheck-api-openapi.yml
 - filename: track-pod-reject-reason-api-openapi.yml
   format: yaml
   label: Track-POD Reject Reason API
   slug: track-pod-reject-reason-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/openapi/track-pod-reject-reason-api-openapi.yml
+  url: https://artifacts.apis.io/track-pod/openapi/track-pod-reject-reason-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 29
@@ -207,7 +207,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/track-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Route/Ready/Id/{id}\n  method: put\n  operationId: SetRouteReadyById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Test\n  method: get\n  operationId: Test\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Vehicle/{id}\n  method: get\n  operationId: GetVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /Vehicle/{id}\n  method: delete\n  operationId: DeleteVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Vehicle\n  method: get\n  operationId: GetVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Vehicle\n  method: post\n  operationId: AddVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Vehicle\n  method: put\n  operationId: UpdateVehicle\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /VehicleCheck/{number}\n  method: get\n  operationId: GetCheckByVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /VehicleCheck/Number/{number}/Date/{date}\n  method: get\n  operationId: GetChecksByVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /VehicleCheck/Date/{date}\n  method: get\n  operationId: GetVehicleChecksByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/track-pod/refs/heads/main/agentic-access/track-pod-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/track-pod/agentic-access/track-pod-agentic-access.yml
 summary_line: 73 operations · 44 acting
 tags:
 - Delivery

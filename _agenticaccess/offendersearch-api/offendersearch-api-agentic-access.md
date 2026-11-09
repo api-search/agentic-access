@@ -9,97 +9,97 @@ api_specs:
   label: Offendersearch API Account API
   slug: offendersearch-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-account-api-openapi.yml
 - filename: offendersearch-api-admin-api-openapi.yml
   format: yaml
   label: Offendersearch API Admin API
   slug: offendersearch-api-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-admin-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-admin-api-openapi.yml
 - filename: offendersearch-api-auth-api-openapi.yml
   format: yaml
   label: Offendersearch API Auth API
   slug: offendersearch-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-auth-api-openapi.yml
 - filename: offendersearch-api-batch-api-openapi.yml
   format: yaml
   label: Offendersearch API Batch API
   slug: offendersearch-api-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-batch-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-batch-api-openapi.yml
 - filename: offendersearch-api-billing-api-openapi.yml
   format: yaml
   label: Offendersearch API Billing API
   slug: offendersearch-api-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-billing-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-billing-api-openapi.yml
 - filename: offendersearch-api-compat-api-openapi.yml
   format: yaml
   label: Offendersearch API Compat API
   slug: offendersearch-api-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-compat-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-compat-api-openapi.yml
 - filename: offendersearch-api-keys-api-openapi.yml
   format: yaml
   label: Offendersearch API Keys API
   slug: offendersearch-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-keys-api-openapi.yml
 - filename: offendersearch-api-proof-docs-api-openapi.yml
   format: yaml
   label: Offendersearch API Proof Docs API
   slug: offendersearch-api-proof-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-proof-docs-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-proof-docs-api-openapi.yml
 - filename: offendersearch-api-records-api-openapi.yml
   format: yaml
   label: Offendersearch API Records API
   slug: offendersearch-api-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-records-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-records-api-openapi.yml
 - filename: offendersearch-api-report-api-openapi.yml
   format: yaml
   label: Offendersearch API Report API
   slug: offendersearch-api-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-report-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-report-api-openapi.yml
 - filename: offendersearch-api-search-api-openapi.yml
   format: yaml
   label: Offendersearch API Search API
   slug: offendersearch-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-search-api-openapi.yml
 - filename: offendersearch-api-searches-api-openapi.yml
   format: yaml
   label: Offendersearch API Searches API
   slug: offendersearch-api-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-searches-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-searches-api-openapi.yml
 - filename: offendersearch-api-sources-api-openapi.yml
   format: yaml
   label: Offendersearch API Sources API
   slug: offendersearch-api-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-sources-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-sources-api-openapi.yml
 - filename: offendersearch-api-support-api-openapi.yml
   format: yaml
   label: Offendersearch API Support API
   slug: offendersearch-api-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-support-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-support-api-openapi.yml
 - filename: offendersearch-api-team-api-openapi.yml
   format: yaml
   label: Offendersearch API Team API
   slug: offendersearch-api-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-team-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-team-api-openapi.yml
 - filename: offendersearch-api-usage-api-openapi.yml
   format: yaml
   label: Offendersearch API Usage API
   slug: offendersearch-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/openapi/offendersearch-api-usage-api-openapi.yml
+  url: https://artifacts.apis.io/offendersearch-api/openapi/offendersearch-api-usage-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-08-18'\nmethod: generated\nsource: openapi/offend
   - path: /v1/admin/warm-queries\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/admin/warm\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/admin/cache-stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/admin/scraper-health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/admin/scraper-runs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/ingest\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/ingest/rerun-failures\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/ingest/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/freshness\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/ingest/report\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/offendersearch-api/refs/heads/main/agentic-access/offendersearch-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/offendersearch-api/agentic-access/offendersearch-api-agentic-access.yml
 summary_line: 36 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Background Checks

@@ -9,37 +9,37 @@ api_specs:
   label: Notion Blocks API
   slug: notion-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-blocks-api-openapi.yml
 - filename: notion-comments-api-openapi.yml
   format: yaml
   label: Notion Comments API
   slug: notion-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-comments-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-comments-api-openapi.yml
 - filename: notion-databases-api-openapi.yml
   format: yaml
   label: Notion Databases API
   slug: notion-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-databases-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-databases-api-openapi.yml
 - filename: notion-pages-api-openapi.yml
   format: yaml
   label: Notion Pages API
   slug: notion-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-pages-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-pages-api-openapi.yml
 - filename: notion-search-api-openapi.yml
   format: yaml
   label: Notion Search API
   slug: notion-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-search-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-search-api-openapi.yml
 - filename: notion-users-api-openapi.yml
   format: yaml
   label: Notion Users API
   slug: notion-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/openapi/notion-users-api-openapi.yml
+  url: https://artifacts.apis.io/notion/openapi/notion-users-api-openapi.yml
 consequence_counts:
   read: 11
   write: 8
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/notion
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{database_id}\n  method: get\n  operationId: retrieveDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /databases/{database_id}\n  method: patch\n  operationId: updateDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /databases/{database_id}/query\n  method: post\n  operationId: queryDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages\n  method: post\n\
   \  operationId: createPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/{page_id}\n  method: get\n  operationId: retrievePage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/{page_id}\n  method: patch\n  operationId: updatePage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pages/{page_id}/properties/{property_id}\n  method: get\n  operationId: retrievePageProperty\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: retrieveUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me\n  method: get\n  operationId: retrieveBotUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/agentic-access/notion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/notion/agentic-access/notion-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Collaboration

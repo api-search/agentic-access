@@ -9,37 +9,37 @@ api_specs:
   label: Mindee Extraction API
   slug: mindee-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/openapi/mindee-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/mindee/openapi/mindee-extraction-api-openapi.yml
 - filename: mindee-classification-api-openapi.yml
   format: yaml
   label: Mindee Classification API
   slug: mindee-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/openapi/mindee-classification-api-openapi.yml
+  url: https://artifacts.apis.io/mindee/openapi/mindee-classification-api-openapi.yml
 - filename: mindee-crop-api-openapi.yml
   format: yaml
   label: Mindee Crop API
   slug: mindee-crop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/openapi/mindee-crop-api-openapi.yml
+  url: https://artifacts.apis.io/mindee/openapi/mindee-crop-api-openapi.yml
 - filename: mindee-ocr-api-openapi.yml
   format: yaml
   label: Mindee OCR API
   slug: mindee-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/openapi/mindee-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/mindee/openapi/mindee-ocr-api-openapi.yml
 - filename: mindee-split-api-openapi.yml
   format: yaml
   label: Mindee Split API
   slug: mindee-split-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/openapi/mindee-split-api-openapi.yml
+  url: https://artifacts.apis.io/mindee/openapi/mindee-split-api-openapi.yml
 - filename: mindee-jobs-api-openapi.yml
   format: yaml
   label: Mindee Jobs API
   slug: mindee-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/openapi/mindee-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mindee/openapi/mindee-jobs-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 7
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mindee
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/products/extraction/results/{inference_id}\n  method: get\n  operationId: Get_Extraction_Product_Result_v2_products_extraction_results__inference_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/inferences/{inference_id}\n  method: get\n  operationId: Get_Extraction_Product_Result_v2_inferences__inference_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobs/{job_id}\n  method: get\n  operationId: Get_Job_Status_v2_jobs__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/products/ocr/enqueue\n  method: post\n  operationId: Enqueue_OCR_Product_Inference_v2_products_ocr_enqueue_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/products/ocr/results/{inference_id}\n  method: get\n  operationId: Get_OCR_Product_Result_v2_products_ocr_results__inference_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/products/split/enqueue\n  method: post\n  operationId: Enqueue_Split_Product_Inference_v2_products_split_enqueue_post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/products/split/results/{inference_id}\n  method: get\n  operationId: Get_Split_Product_Result_v2_products_split_results__inference_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindee/refs/heads/main/agentic-access/mindee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mindee/agentic-access/mindee-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Document Parsing

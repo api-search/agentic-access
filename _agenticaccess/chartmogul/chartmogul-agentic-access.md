@@ -15,37 +15,37 @@ api_specs:
   label: ChartMogul Account API
   slug: chartmogul-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-account-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-account-api-openapi.yml
 - filename: chartmogul-customers-api-openapi.yml
   format: yaml
   label: ChartMogul Customers API
   slug: chartmogul-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-customers-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-customers-api-openapi.yml
 - filename: chartmogul-invoices-api-openapi.yml
   format: yaml
   label: ChartMogul Invoices API
   slug: chartmogul-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-invoices-api-openapi.yml
 - filename: chartmogul-metrics-api-openapi.yml
   format: yaml
   label: ChartMogul Metrics API
   slug: chartmogul-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-metrics-api-openapi.yml
 - filename: chartmogul-plans-api-openapi.yml
   format: yaml
   label: ChartMogul Plans API
   slug: chartmogul-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-plans-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-plans-api-openapi.yml
 - filename: chartmogul-subscriptions-api-openapi.yml
   format: yaml
   label: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 19
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chartm
   \ 3600\n    audit: none\n- path: /plans\n  method: post\n  operationId: createPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plans/{uuid}\n  method: get\n  operationId: retrievePlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/{uuid}\n  method: patch\n  operationId: updatePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plans/{uuid}\n  method: delete\n  operationId: deletePlan\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/all\n  method: get\n  operationId: getAllMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/mrr\n  method: get\n  operationId: getMrr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/arr\n  method: get\n  operationId: getArr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/arpa\n  method: get\n  operationId: getArpa\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/customer-count\n  method: get\n  operationId: getCustomerCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/churn-rate\n  method: get\n  operationId: getChurnRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/mrr-churn-rate\n  method: get\n  operationId: getMrrChurnRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/ltv\n  method: get\n  operationId: getLtv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/agentic-access/chartmogul-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chartmogul/agentic-access/chartmogul-agentic-access.yml
 summary_line: 28 operations · 9 acting
 tags:
 - Subscription Analytics

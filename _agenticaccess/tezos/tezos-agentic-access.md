@@ -9,145 +9,145 @@ api_specs:
   label: Tezos Accounts API
   slug: tezos-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-accounts-api-openapi.yml
 - filename: tezos-bigmaps-api-openapi.yml
   format: yaml
   label: Tezos BigMaps API
   slug: tezos-bigmaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-bigmaps-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-bigmaps-api-openapi.yml
 - filename: tezos-blocks-api-openapi.yml
   format: yaml
   label: Tezos Blocks API
   slug: tezos-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-blocks-api-openapi.yml
 - filename: tezos-commitments-api-openapi.yml
   format: yaml
   label: Tezos Commitments API
   slug: tezos-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-commitments-api-openapi.yml
 - filename: tezos-constants-api-openapi.yml
   format: yaml
   label: Tezos Constants API
   slug: tezos-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-constants-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-constants-api-openapi.yml
 - filename: tezos-contracts-api-openapi.yml
   format: yaml
   label: Tezos Contracts API
   slug: tezos-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-contracts-api-openapi.yml
 - filename: tezos-cycles-api-openapi.yml
   format: yaml
   label: Tezos Cycles API
   slug: tezos-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-cycles-api-openapi.yml
 - filename: tezos-delegates-api-openapi.yml
   format: yaml
   label: Tezos Delegates API
   slug: tezos-delegates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-delegates-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-delegates-api-openapi.yml
 - filename: tezos-domains-api-openapi.yml
   format: yaml
   label: Tezos Domains API
   slug: tezos-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-domains-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-domains-api-openapi.yml
 - filename: tezos-events-api-openapi.yml
   format: yaml
   label: Tezos Events API
   slug: tezos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-events-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-events-api-openapi.yml
 - filename: tezos-head-api-openapi.yml
   format: yaml
   label: Tezos Head API
   slug: tezos-head-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-head-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-head-api-openapi.yml
 - filename: tezos-helpers-api-openapi.yml
   format: yaml
   label: Tezos Helpers API
   slug: tezos-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-helpers-api-openapi.yml
 - filename: tezos-operations-api-openapi.yml
   format: yaml
   label: Tezos Operations API
   slug: tezos-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-operations-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-operations-api-openapi.yml
 - filename: tezos-protocols-api-openapi.yml
   format: yaml
   label: Tezos Protocols API
   slug: tezos-protocols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-protocols-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-protocols-api-openapi.yml
 - filename: tezos-quotes-api-openapi.yml
   format: yaml
   label: Tezos Quotes API
   slug: tezos-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-quotes-api-openapi.yml
 - filename: tezos-rewards-api-openapi.yml
   format: yaml
   label: Tezos Rewards API
   slug: tezos-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-rewards-api-openapi.yml
 - filename: tezos-rights-api-openapi.yml
   format: yaml
   label: Tezos Rights API
   slug: tezos-rights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-rights-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-rights-api-openapi.yml
 - filename: tezos-smartrollups-api-openapi.yml
   format: yaml
   label: Tezos SmartRollups API
   slug: tezos-smartrollups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-smartrollups-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-smartrollups-api-openapi.yml
 - filename: tezos-software-api-openapi.yml
   format: yaml
   label: Tezos Software API
   slug: tezos-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-software-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-software-api-openapi.yml
 - filename: tezos-staking-api-openapi.yml
   format: yaml
   label: Tezos Staking API
   slug: tezos-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-staking-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-staking-api-openapi.yml
 - filename: tezos-statistics-api-openapi.yml
   format: yaml
   label: Tezos Statistics API
   slug: tezos-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-statistics-api-openapi.yml
 - filename: tezos-tickets-api-openapi.yml
   format: yaml
   label: Tezos Tickets API
   slug: tezos-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-tickets-api-openapi.yml
 - filename: tezos-tokens-api-openapi.yml
   format: yaml
   label: Tezos Tokens API
   slug: tezos-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-tokens-api-openapi.yml
 - filename: tezos-voting-api-openapi.yml
   format: yaml
   label: Tezos Voting API
   slug: tezos-voting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/openapi/tezos-voting-api-openapi.yml
+  url: https://artifacts.apis.io/tezos/openapi/tezos-voting-api-openapi.yml
 consequence_counts:
   read: 285
   write: 3
@@ -206,8 +206,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/transactions\n  method: get\n  operationId: Operations_GetTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/transactions/{hash}\n  method: get\n  operationId: Operations_GetTransactionByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/transactions/{hash}/{counter}\n  method: get\n  operationId: Operations_GetTransactionByHashCounter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/transactions/{hash}/{counter}/{nonce}\n  method: get\n  operationId:\
   \ Operations_GetTransactionByHashCounterNonce\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/transactions/{hash}/status\n  method: get\n  operationId: Operations_GetTransactionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/transactions/count\n  method: get\n  operationId: Operations_GetTransactionsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/reveals\n  method: get\n  operationId: Operations_GetReveals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/reveals/{hash}\n  method: get\n  operationId:\
   \ Operations_GetRevealByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/reveals/{hash}/status\n  method: get\n  operationId: Operations_GetRevealStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/reveals/count\n  method: get\n  operationId: Operations_GetRevealsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/register_constants\n  method: get\n  operationId: Operations_GetRegisterConstants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/register_constants/{hash}\n  method: get\n  operationId:\
-  \ Operations_GetRegisterConstantByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/register_constants/{hash}/status\n  method: get\n  operationId: Operations_GetRegisterConstantStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/register_constants/count\n  method: get\n  operationId: Operations_GetRegisterConstantsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/agentic-access/tezos-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tezos/refs/heads/main/agentic-access/tezos-agentic-access.yml
+  \ Operations_GetRegisterConstantByHash\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/register_constants/{hash}/status\n  method: get\n  operationId: Operations_GetRegisterConstantStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/operations/register_constants/count\n  method: get\n  operationId: Operations_GetRegisterConstantsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://artifacts.apis.io/tezos/agentic-access/tezos-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tezos/agentic-access/tezos-agentic-access.yml
 summary_line: 288 operations · 3 acting
 tags:
 - Tezos

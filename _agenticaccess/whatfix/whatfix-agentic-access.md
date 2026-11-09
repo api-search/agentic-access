@@ -9,31 +9,31 @@ api_specs:
   label: Whatfix Analytics API
   slug: whatfix-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-analytics-api-openapi.yml
 - filename: whatfix-content-api-openapi.yml
   format: yaml
   label: Whatfix Content API
   slug: whatfix-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-content-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-content-api-openapi.yml
 - filename: whatfix-end-users-api-openapi.yml
   format: yaml
   label: Whatfix End Users API
   slug: whatfix-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-end-users-api-openapi.yml
 - filename: whatfix-reports-api-openapi.yml
   format: yaml
   label: Whatfix Reports API
   slug: whatfix-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-reports-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-reports-api-openapi.yml
 - filename: whatfix-segments-api-openapi.yml
   format: yaml
   label: Whatfix Segments API
   slug: whatfix-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/openapi/whatfix-segments-api-openapi.yml
+  url: https://artifacts.apis.io/whatfix/openapi/whatfix-segments-api-openapi.yml
 consequence_counts:
   read: 8
   write: 1
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/whatfix-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 8\n    acting: 1\n  by_consequence:\n    read: 8\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /{accountId}/end-users\n  method: get\n  operationId: listEndUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/end-users/{userId}\n  method: put\n  operationId: upsertEndUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{accountId}/content\n  method: get\n  operationId: listContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/analytics/flows\n  method: get\n  operationId: getFlowAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/analytics/end-users\n  method: get\n  operationId: getEndUserEngagement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/analytics/self-help\n  method: get\n  operationId: getSelfHelpAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /{accountId}/analytics/task-completion\n  method: get\n  operationId: getUserTaskCompletion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/reports/summary/mostPopularFlows\n  method: get\n  operationId: getMostPopularFlows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{accountId}/segments\n  method: get\n  operationId: listSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whatfix/refs/heads/main/agentic-access/whatfix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/whatfix/agentic-access/whatfix-agentic-access.yml
 summary_line: 9 operations · 1 acting
 tags:
 - Digital Adoption

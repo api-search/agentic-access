@@ -9,31 +9,31 @@ api_specs:
   label: Pimloc Account API
   slug: pimloc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-account-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-account-api-openapi.yml
 - filename: pimloc-authentication-api-openapi.yml
   format: yaml
   label: Pimloc Authentication API
   slug: pimloc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-authentication-api-openapi.yml
 - filename: pimloc-media-api-openapi.yml
   format: yaml
   label: Pimloc Media API
   slug: pimloc-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-media-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-media-api-openapi.yml
 - filename: pimloc-projects-api-openapi.yml
   format: yaml
   label: Pimloc Projects API
   slug: pimloc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-projects-api-openapi.yml
 - filename: pimloc-secure-redact-api-api-openapi.yml
   format: yaml
   label: Pimloc Secure Redact API
   slug: pimloc-secure-redact-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-secure-redact-api-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-secure-redact-api-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/secure
   - path: /api/v3/project\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/project\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/project/{project_id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/project/{project_id}/media\n  method: get\n  operationId:\
   \ listProjectMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/project/{project_id}/audit\n  method: get\n  operationId: fetchProjectAudit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/project/{project_id}/user\n  method: get\n  operationId: listProjectUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/project/{project_id}/user\n  method: post\n  operationId: addUserToProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/v3/project/{project_id}/user\n  method: delete\n  operationId: removeUserFromProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/project/{project_id}/status\n  method: patch\n  operationId: setProjectStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/account\n  method: get\n  operationId: fetchAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/agentic-access/pimloc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pimloc/agentic-access/pimloc-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
 - Company

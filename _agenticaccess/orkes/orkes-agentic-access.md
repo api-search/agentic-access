@@ -9,49 +9,49 @@ api_specs:
   label: Orkes Authentication API
   slug: orkes-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-authentication-api-openapi.yml
 - filename: orkes-human-tasks-api-openapi.yml
   format: yaml
   label: Orkes Human Tasks API
   slug: orkes-human-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-human-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-human-tasks-api-openapi.yml
 - filename: orkes-schedules-api-openapi.yml
   format: yaml
   label: Orkes Schedules API
   slug: orkes-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-schedules-api-openapi.yml
 - filename: orkes-secrets-api-openapi.yml
   format: yaml
   label: Orkes Secrets API
   slug: orkes-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-secrets-api-openapi.yml
 - filename: orkes-task-metadata-api-openapi.yml
   format: yaml
   label: Orkes Task Metadata API
   slug: orkes-task-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-task-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-task-metadata-api-openapi.yml
 - filename: orkes-tasks-api-openapi.yml
   format: yaml
   label: Orkes Tasks API
   slug: orkes-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-tasks-api-openapi.yml
 - filename: orkes-workflow-execution-api-openapi.yml
   format: yaml
   label: Orkes Workflow Execution API
   slug: orkes-workflow-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-workflow-execution-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-workflow-execution-api-openapi.yml
 - filename: orkes-workflow-metadata-api-openapi.yml
   format: yaml
   label: Orkes Workflow Metadata API
   slug: orkes-workflow-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/openapi/orkes-workflow-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/orkes/openapi/orkes-workflow-metadata-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orkes-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduler/schedules\n  method: get\n  operationId: listSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduler/schedules\n  method: post\n  operationId: createSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduler/schedules/{name}\n  method: get\n  operationId: getSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scheduler/schedules/{name}\n  method: delete\n  operationId: deleteSchedule\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduler/schedules/{name}/pause\n  method: post\n  operationId: pauseSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduler/schedules/{name}/resume\n  method: post\n  operationId: resumeSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /token\n\
   \  method: post\n  operationId: generateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orkes/refs/heads/main/agentic-access/orkes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orkes/agentic-access/orkes-agentic-access.yml
 summary_line: 35 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Microservices

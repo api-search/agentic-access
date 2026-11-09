@@ -9,91 +9,91 @@ api_specs:
   label: Meltwater Account Management API
   slug: meltwater-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-account-management-api-openapi.yml
 - filename: meltwater-bring-your-own-content-byoc-api-openapi.yml
   format: yaml
   label: Meltwater Bring Your Own Content (BYOC) API
   slug: meltwater-bring-your-own-content-byoc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-bring-your-own-content-byoc-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-bring-your-own-content-byoc-api-openapi.yml
 - filename: meltwater-explore-analytics-api-openapi.yml
   format: yaml
   label: Meltwater Explore+ Analytics API
   slug: meltwater-explore-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-explore-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-explore-analytics-api-openapi.yml
 - filename: meltwater-explore-assets-api-openapi.yml
   format: yaml
   label: Meltwater Explore+ Assets API
   slug: meltwater-explore-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-explore-assets-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-explore-assets-api-openapi.yml
 - filename: meltwater-explore-search-api-openapi.yml
   format: yaml
   label: Meltwater Explore+ Search API
   slug: meltwater-explore-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-explore-search-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-explore-search-api-openapi.yml
 - filename: meltwater-listening-analytics-api-openapi.yml
   format: yaml
   label: Meltwater Listening Analytics API
   slug: meltwater-listening-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-listening-analytics-api-openapi.yml
 - filename: meltwater-listening-exports-api-openapi.yml
   format: yaml
   label: Meltwater Listening Exports API
   slug: meltwater-listening-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-exports-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-listening-exports-api-openapi.yml
 - filename: meltwater-listening-search-api-openapi.yml
   format: yaml
   label: Meltwater Listening Search API
   slug: meltwater-listening-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-search-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-listening-search-api-openapi.yml
 - filename: meltwater-listening-search-management-api-openapi.yml
   format: yaml
   label: Meltwater Listening Search Management API
   slug: meltwater-listening-search-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-search-management-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-listening-search-management-api-openapi.yml
 - filename: meltwater-listening-streaming-api-openapi.yml
   format: yaml
   label: Meltwater Listening Streaming API
   slug: meltwater-listening-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-listening-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-listening-streaming-api-openapi.yml
 - filename: meltwater-mira-api-api-openapi.yml
   format: yaml
   label: Meltwater Mira API
   slug: meltwater-mira-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-mira-api-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-mira-api-api-openapi.yml
 - filename: meltwater-owned-analytics-api-openapi.yml
   format: yaml
   label: Meltwater Owned Analytics API
   slug: meltwater-owned-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-owned-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-owned-analytics-api-openapi.yml
 - filename: meltwater-analyze-api-openapi.yml
   format: yaml
   label: Meltwater Analyze API
   slug: meltwater-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-analyze-api-openapi.yml
 - filename: meltwater-export-api-openapi.yml
   format: yaml
   label: Meltwater Export API
   slug: meltwater-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-export-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-export-api-openapi.yml
 - filename: meltwater-llm-api-openapi.yml
   format: yaml
   label: Meltwater LLM API
   slug: meltwater-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/openapi/meltwater-llm-api-openapi.yml
+  url: https://artifacts.apis.io/meltwater/openapi/meltwater-llm-api-openapi.yml
 consequence_counts:
   read: 53
   write: 34
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/meltwa
   \  method: post\n  operationId: postV3MiraChat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/mira/responses\n  method: post\n  operationId: postV3MiraResponses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/mira/projects\n  method: get\n  operationId: getV3MiraProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/accounts\n  method: get\n  operationId: getV3OwnedAccounts\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/accounts/metrics/breakdown\n  method: get\n  operationId: getV3OwnedAccountsMetricsBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/accounts/metrics/heatmap\n  method: get\n  operationId: getV3OwnedAccountsMetricsHeatmap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/accounts/metrics/nested_breakdown\n  method: get\n  operationId: getV3OwnedAccountsMetricsNestedBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/accounts/metrics/numeric\n  method: get\n  operationId: getV3OwnedAccountsMetricsNumeric\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/accounts/posts/top_posts\n  method: get\n  operationId: getV3OwnedAccountsPostsTopPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/owned/supported_metrics\n  method: get\n  operationId: getV3OwnedSupportedMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meltwater/refs/heads/main/agentic-access/meltwater-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meltwater/agentic-access/meltwater-agentic-access.yml
 summary_line: 87 operations · 34 acting
 tags:
 - Media Monitoring

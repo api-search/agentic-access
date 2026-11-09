@@ -9,31 +9,31 @@ api_specs:
   label: OpenSERP Docs API
   slug: openserp-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-docs-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-docs-api-openapi.yml
 - filename: openserp-health-api-openapi.yml
   format: yaml
   label: OpenSERP Health API
   slug: openserp-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-health-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-health-api-openapi.yml
 - filename: openserp-mega-api-openapi.yml
   format: yaml
   label: OpenSERP Mega API
   slug: openserp-mega-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-mega-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-mega-api-openapi.yml
 - filename: openserp-search-api-openapi.yml
   format: yaml
   label: OpenSERP Search API
   slug: openserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-search-api-openapi.yml
 - filename: openserp-stats-api-openapi.yml
   format: yaml
   label: OpenSERP Stats API
   slug: openserp-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/openapi/openserp-stats-api-openapi.yml
+  url: https://artifacts.apis.io/openserp/openapi/openserp-stats-api-openapi.yml
 consequence_counts:
   read: 14
   write: 4
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-10'\nmethod: generated\nsource: openapi/opense
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mega/engines\n  method: get\n  operationId: listMegaEngines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract\n  method: get\n  operationId: extractURL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extract\n  method: post\n  operationId: extractURLPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /extract/batch\n  method: post\n  operationId: extractBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  operationId: readinessCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/cache\n  method: get\n  operationId: getCacheStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /stats/proxy\n  method: get\n  operationId: getProxyStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/cb\n  method: get\n  operationId: getCircuitBreakerStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi.yaml\n  method: get\n  operationId: getOpenAPISpec\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs\n  method: get\n  operationId: getSwaggerUI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openserp/refs/heads/main/agentic-access/openserp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openserp/agentic-access/openserp-agentic-access.yml
 summary_line: 18 operations · 4 acting
 tags:
 - Company

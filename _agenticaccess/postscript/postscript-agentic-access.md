@@ -9,43 +9,43 @@ api_specs:
   label: Postscript Subscribers API
   slug: postscript-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-subscribers-api-openapi.yml
 - filename: postscript-events-api-openapi.yml
   format: yaml
   label: Postscript Events API
   slug: postscript-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-events-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-events-api-openapi.yml
 - filename: postscript-keywords-api-openapi.yml
   format: yaml
   label: Postscript Keywords API
   slug: postscript-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-keywords-api-openapi.yml
 - filename: postscript-messages-api-openapi.yml
   format: yaml
   label: Postscript Messages API
   slug: postscript-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-messages-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-messages-api-openapi.yml
 - filename: postscript-webhooks-api-openapi.yml
   format: yaml
   label: Postscript Webhooks API
   slug: postscript-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-webhooks-api-openapi.yml
 - filename: postscript-compliance-api-openapi.yml
   format: yaml
   label: Postscript Compliance API
   slug: postscript-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-compliance-api-openapi.yml
 - filename: postscript-identity-api-openapi.yml
   format: yaml
   label: Postscript Identity API
   slug: postscript-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/openapi/postscript-identity-api-openapi.yml
+  url: https://artifacts.apis.io/postscript/openapi/postscript-identity-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/postsc
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/webhooks\n  method: post\n  operationId: create-webhook-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/webhooks\n  method: get\n  operationId: list-webhook-subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/webhooks/{id}\n  method: delete\n  operationId: delete-webhook-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/webhooks/{id}\n  method: get\n  operationId: get-webhook-subscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/webhooks/{id}\n  method: patch\n  operationId: update-webhook-subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/webhooks/example\n  method: get\n  operationId: example-event\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /api/v2/webhooks/test\n  method: post\n  operationId: test-shop-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/webhooks/token\n  method: get\n  operationId: get-webhook-signing-token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postscript/refs/heads/main/agentic-access/postscript-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/postscript/agentic-access/postscript-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
 - SMS

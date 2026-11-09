@@ -9,37 +9,37 @@ api_specs:
   label: Connexis Cash Accounts API
   slug: connexis-cash-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-accounts-api-openapi.yml
 - filename: connexis-cash-balances-api-openapi.yml
   format: yaml
   label: Connexis Cash Balances API
   slug: connexis-cash-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-balances-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-balances-api-openapi.yml
 - filename: connexis-cash-beneficiaries-api-openapi.yml
   format: yaml
   label: Connexis Cash Beneficiaries API
   slug: connexis-cash-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-beneficiaries-api-openapi.yml
 - filename: connexis-cash-consents-api-openapi.yml
   format: yaml
   label: Connexis Cash Consents API
   slug: connexis-cash-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-consents-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-consents-api-openapi.yml
 - filename: connexis-cash-transactions-api-openapi.yml
   format: yaml
   label: Connexis Cash Transactions API
   slug: connexis-cash-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-transactions-api-openapi.yml
 - filename: connexis-cash-aisp-api-openapi.yml
   format: yaml
   label: Connexis Cash AISP API
   slug: connexis-cash-aisp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/openapi/connexis-cash-aisp-api-openapi.yml
+  url: https://artifacts.apis.io/connexis-cash/openapi/connexis-cash-aisp-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: generated\nsource: openapi/connex
   \ aisp\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{accountResourceId}/balances\n  method: get\n  operationId: accountsBalancesGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - aisp\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{accountResourceId}/transactions\n  method: get\n  operationId: accountsTransactionsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - aisp\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/trusted-beneficiaries\n  method: get\n  operationId: trustedBeneficiariesGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - aisp\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - aisp\n- path: /v1/accounts/{accountResourceId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - aisp\n- path: /v1/accounts/{accountResourceId}/balances\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - aisp\n- path: /v1/trusted-beneficiaries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - aisp\n- path: /v1/consents\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - aisp\n- path: /v1/accounts/{accountResourceId}/transactions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - aisp\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connexis-cash/refs/heads/main/agentic-access/connexis-cash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/connexis-cash/agentic-access/connexis-cash-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Account Information

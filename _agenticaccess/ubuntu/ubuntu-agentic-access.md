@@ -9,73 +9,73 @@ api_specs:
   label: Ubuntu Bugs API
   slug: ubuntu-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-bugs-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-bugs-api-openapi.yml
 - filename: ubuntu-categories-api-openapi.yml
   format: yaml
   label: Ubuntu Categories API
   slug: ubuntu-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-categories-api-openapi.yml
 - filename: ubuntu-distributions-api-openapi.yml
   format: yaml
   label: Ubuntu Distributions API
   slug: ubuntu-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-distributions-api-openapi.yml
 - filename: ubuntu-info-api-openapi.yml
   format: yaml
   label: Ubuntu Info API
   slug: ubuntu-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-info-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-info-api-openapi.yml
 - filename: ubuntu-metrics-api-openapi.yml
   format: yaml
   label: Ubuntu Metrics API
   slug: ubuntu-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-metrics-api-openapi.yml
 - filename: ubuntu-notices-api-openapi.yml
   format: yaml
   label: Ubuntu Notices API
   slug: ubuntu-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-notices-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-notices-api-openapi.yml
 - filename: ubuntu-packages-api-openapi.yml
   format: yaml
   label: Ubuntu Packages API
   slug: ubuntu-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-packages-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-packages-api-openapi.yml
 - filename: ubuntu-people-api-openapi.yml
   format: yaml
   label: Ubuntu People API
   slug: ubuntu-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-people-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-people-api-openapi.yml
 - filename: ubuntu-projects-api-openapi.yml
   format: yaml
   label: Ubuntu Projects API
   slug: ubuntu-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-projects-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-projects-api-openapi.yml
 - filename: ubuntu-refresh-api-openapi.yml
   format: yaml
   label: Ubuntu Refresh API
   slug: ubuntu-refresh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-refresh-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-refresh-api-openapi.yml
 - filename: ubuntu-search-api-openapi.yml
   format: yaml
   label: Ubuntu Search API
   slug: ubuntu-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-search-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-search-api-openapi.yml
 - filename: ubuntu-cves-api-openapi.yml
   format: yaml
   label: Ubuntu CV Es API
   slug: ubuntu-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/openapi/ubuntu-cves-api-openapi.yml
+  url: https://artifacts.apis.io/ubuntu/openapi/ubuntu-cves-api-openapi.yml
 consequence_counts:
   read: 16
   write: 2
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ubuntu
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bugs/{bug_id}\n  method: get\n  operationId: getBug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bugs/{bug_id}\n  method: patch\n  operationId: updateBug\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{project_name}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /ubuntu\n  method: get\n  operationId: getUbuntuDistribution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ubuntu/+source/{source_package_name}\n  method: get\n  operationId: getSourcePackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snaps/search\n  method: get\n  operationId: searchSnaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snaps/info/{snap_name}\n  method: get\n  operationId: getSnapInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snaps/refresh\n  method: post\n  operationId:\
   \ refreshSnaps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/snaps/categories\n  method: get\n  operationId: listSnapCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/metrics\n  method: get\n  operationId: getSnapMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubuntu/refs/heads/main/agentic-access/ubuntu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ubuntu/agentic-access/ubuntu-agentic-access.yml
 summary_line: 18 operations · 2 acting
 tags:
 - Cloud

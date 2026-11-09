@@ -9,43 +9,43 @@ api_specs:
   label: Till Payments Continue Dcc API
   slug: till-payments-continue-dcc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-continue-dcc-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-continue-dcc-api-openapi.yml
 - filename: till-payments-dispute-api-openapi.yml
   format: yaml
   label: Till Payments Dispute API
   slug: till-payments-dispute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-dispute-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-dispute-api-openapi.yml
 - filename: till-payments-options-api-openapi.yml
   format: yaml
   label: Till Payments Options API
   slug: till-payments-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-options-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-options-api-openapi.yml
 - filename: till-payments-prepare-transaction-api-openapi.yml
   format: yaml
   label: Till Payments Prepare Transaction API
   slug: till-payments-prepare-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-prepare-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-prepare-transaction-api-openapi.yml
 - filename: till-payments-schedule-api-openapi.yml
   format: yaml
   label: Till Payments Schedule API
   slug: till-payments-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-schedule-api-openapi.yml
 - filename: till-payments-status-api-openapi.yml
   format: yaml
   label: Till Payments Status API
   slug: till-payments-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-status-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-status-api-openapi.yml
 - filename: till-payments-transaction-api-openapi.yml
   format: yaml
   label: Till Payments Transaction API
   slug: till-payments-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/openapi/till-payments-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/till-payments/openapi/till-payments-transaction-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 5
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/till-p
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{apiKey}/void\n  method: post\n  operationId: processVoid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{apiKey}/register\n  method: post\n  operationId: processRegister\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{apiKey}/deregister\n\
   \  method: post\n  operationId: processDeregister\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{apiKey}/refund\n  method: post\n  operationId: processRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction/{apiKey}/payout\n  method: post\n  operationId: processPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/till-payments/refs/heads/main/agentic-access/till-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/till-payments/agentic-access/till-payments-agentic-access.yml
 summary_line: 26 operations · 21 acting
 tags:
 - Payments

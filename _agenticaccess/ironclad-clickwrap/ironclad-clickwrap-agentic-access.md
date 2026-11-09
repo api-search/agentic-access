@@ -9,31 +9,31 @@ api_specs:
   label: Ironclad Clickwrap Activity API
   slug: ironclad-clickwrap-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/openapi/ironclad-clickwrap-activity-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad-clickwrap/openapi/ironclad-clickwrap-activity-api-openapi.yml
 - filename: ironclad-clickwrap-contracts-api-openapi.yml
   format: yaml
   label: Ironclad Clickwrap Contracts API
   slug: ironclad-clickwrap-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/openapi/ironclad-clickwrap-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad-clickwrap/openapi/ironclad-clickwrap-contracts-api-openapi.yml
 - filename: ironclad-clickwrap-groups-api-openapi.yml
   format: yaml
   label: Ironclad Clickwrap Groups API
   slug: ironclad-clickwrap-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/openapi/ironclad-clickwrap-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad-clickwrap/openapi/ironclad-clickwrap-groups-api-openapi.yml
 - filename: ironclad-clickwrap-signers-api-openapi.yml
   format: yaml
   label: Ironclad Clickwrap Signers API
   slug: ironclad-clickwrap-signers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/openapi/ironclad-clickwrap-signers-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad-clickwrap/openapi/ironclad-clickwrap-signers-api-openapi.yml
 - filename: ironclad-clickwrap-sites-api-openapi.yml
   format: yaml
   label: Ironclad Clickwrap Sites API
   slug: ironclad-clickwrap-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/openapi/ironclad-clickwrap-sites-api-openapi.yml
+  url: https://artifacts.apis.io/ironclad-clickwrap/openapi/ironclad-clickwrap-sites-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ironcl
   \ listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts\n  method: get\n  operationId: listContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contractId}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signers\n  method: get\n  operationId: listSigners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /signers/{signerId}\n  method: get\n  operationId: getSigner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /send/agreed\n  method: post\n  operationId: sendAgreed\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /send/displayed\n  method: post\n  operationId: sendDisplayed\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /send/visited\n  method: post\n  operationId: sendVisited\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /retrieve/latest\n  method: get\n  operationId: retrieveLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/agentic-access/ironclad-clickwrap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ironclad-clickwrap/agentic-access/ironclad-clickwrap-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Agreements

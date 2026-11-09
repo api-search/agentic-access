@@ -110,7 +110,7 @@ source_yaml_url: https://artifacts.apis.io/airthings/agentic-access/airthings-ag
 summary_line: 39 operations · 8 acting
 tags:
 - Company
-- AirQuality
+- Air Quality
 - Radon
 - Sensors
 - IoT

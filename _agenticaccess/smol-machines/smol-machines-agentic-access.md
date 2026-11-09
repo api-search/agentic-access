@@ -9,115 +9,115 @@ api_specs:
   label: Smol Machines Apps API
   slug: smol-machines-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-apps-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-apps-api-openapi.yml
 - filename: smol-machines-billing-api-openapi.yml
   format: yaml
   label: Smol Machines Billing API
   slug: smol-machines-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-billing-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-billing-api-openapi.yml
 - filename: smol-machines-containers-api-openapi.yml
   format: yaml
   label: Smol Machines Containers API
   slug: smol-machines-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-containers-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-containers-api-openapi.yml
 - filename: smol-machines-execution-api-openapi.yml
   format: yaml
   label: Smol Machines Execution API
   slug: smol-machines-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-execution-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-execution-api-openapi.yml
 - filename: smol-machines-health-api-openapi.yml
   format: yaml
   label: Smol Machines Health API
   slug: smol-machines-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-health-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-health-api-openapi.yml
 - filename: smol-machines-images-api-openapi.yml
   format: yaml
   label: Smol Machines Images API
   slug: smol-machines-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-images-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-images-api-openapi.yml
 - filename: smol-machines-logs-api-openapi.yml
   format: yaml
   label: Smol Machines Logs API
   slug: smol-machines-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-logs-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-logs-api-openapi.yml
 - filename: smol-machines-machines-api-openapi.yml
   format: yaml
   label: Smol Machines API
   slug: smol-machines-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-machines-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-machines-api-openapi.yml
 - filename: smol-machines-microvms-api-openapi.yml
   format: yaml
   label: Smol Machines MicroVMs API
   slug: smol-machines-microvms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-microvms-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-microvms-api-openapi.yml
 - filename: smol-machines-nodes-api-openapi.yml
   format: yaml
   label: Smol Machines Nodes API
   slug: smol-machines-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-nodes-api-openapi.yml
 - filename: smol-machines-operations-api-openapi.yml
   format: yaml
   label: Smol Machines Operations API
   slug: smol-machines-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-operations-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-operations-api-openapi.yml
 - filename: smol-machines-plans-api-openapi.yml
   format: yaml
   label: Smol Machines Plans API
   slug: smol-machines-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-plans-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-plans-api-openapi.yml
 - filename: smol-machines-pools-api-openapi.yml
   format: yaml
   label: Smol Machines Pools API
   slug: smol-machines-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-pools-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-pools-api-openapi.yml
 - filename: smol-machines-sandboxes-api-openapi.yml
   format: yaml
   label: Smol Machines Sandboxes API
   slug: smol-machines-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-sandboxes-api-openapi.yml
 - filename: smol-machines-tenants-api-openapi.yml
   format: yaml
   label: Smol Machines Tenants API
   slug: smol-machines-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-tenants-api-openapi.yml
 - filename: smol-machines-tokens-api-openapi.yml
   format: yaml
   label: Smol Machines Tokens API
   slug: smol-machines-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-tokens-api-openapi.yml
 - filename: smol-machines-usage-api-openapi.yml
   format: yaml
   label: Smol Machines Usage API
   slug: smol-machines-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-usage-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-usage-api-openapi.yml
 - filename: smol-machines-volumes-api-openapi.yml
   format: yaml
   label: Smol Machines Volumes API
   slug: smol-machines-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-volumes-api-openapi.yml
 - filename: smol-machines-api-keys-api-openapi.yml
   format: yaml
   label: Smol Machines API Keys API
   slug: smol-machines-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/openapi/smol-machines-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/smol-machines/openapi/smol-machines-api-keys-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 34
@@ -209,7 +209,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/smol-m
   \     max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/sandboxes/{id}/exec\n  method: post\n  operationId: exec_command\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sandboxes/{id}/images\n  method: get\n  operationId: list_images\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sandboxes/{id}/images/pull\n  method: post\n  operationId: pull_image\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sandboxes/{id}/logs\n  method: get\n  operationId: stream_logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sandboxes/{id}/run\n  method: post\n  operationId: run_command\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sandboxes/{id}/start\n  method: post\n  operationId: start_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sandboxes/{id}/stop\n  method: post\n  operationId: stop_sandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /health\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smol-machines/refs/heads/main/agentic-access/smol-machines-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smol-machines/agentic-access/smol-machines-agentic-access.yml
 summary_line: 83 operations · 49 acting · 5 human-in-the-loop
 tags:
 - Company

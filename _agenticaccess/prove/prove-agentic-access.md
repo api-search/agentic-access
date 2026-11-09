@@ -9,43 +9,43 @@ api_specs:
   label: Prove Auth API
   slug: prove-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-auth-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-auth-api-openapi.yml
 - filename: prove-authentication-api-openapi.yml
   format: yaml
   label: Prove Authentication API
   slug: prove-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-authentication-api-openapi.yml
 - filename: prove-domain-api-openapi.yml
   format: yaml
   label: Prove Domain API
   slug: prove-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-domain-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-domain-api-openapi.yml
 - filename: prove-identity-api-openapi.yml
   format: yaml
   label: Prove Identity API
   slug: prove-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-identity-api-openapi.yml
 - filename: prove-identity-verification-api-openapi.yml
   format: yaml
   label: Prove Identity Verification API
   slug: prove-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-identity-verification-api-openapi.yml
 - filename: prove-pre-fill-api-openapi.yml
   format: yaml
   label: Prove Pre-Fill API
   slug: prove-pre-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-pre-fill-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-pre-fill-api-openapi.yml
 - filename: prove-trust-score-api-openapi.yml
   format: yaml
   label: Prove Trust Score API
   slug: prove-trust-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/openapi/prove-trust-score-api-openapi.yml
+  url: https://artifacts.apis.io/prove/openapi/prove-trust-score-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prove-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/{mobileNumber}/lookup\n  method: get\n  operationId: v3GetIdentitiesByPhoneNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/{proveId}\n  method: get\n  operationId: v3GetIdentity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/{proveId}\n  method: delete\n  operationId: v3DisenrollIdentity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/{identityId}/cross-domain\n  method: post\n  operationId: v3CrossDomainIdentity\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domain/link\n  method: post\n  operationId: v3DomainLinkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domain/confirm-link\n  method: post\n  operationId: v3DomainConfirmLinkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /domain/unlink\n  method: post\n  operationId: v3DomainUnlinkRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domain/id\n  method: get\n  operationId: v3DomainIDRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domain/linked\n  method: get\n  operationId: v3DomainLinkedRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prove/refs/heads/main/agentic-access/prove-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prove/agentic-access/prove-agentic-access.yml
 summary_line: 26 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Identity Verification

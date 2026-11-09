@@ -9,163 +9,163 @@ api_specs:
   label: Adobe Creative Suite Accessibility API
   slug: adobe-creative-suite-accessibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-accessibility-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-accessibility-api-openapi.yml
 - filename: adobe-creative-suite-artboard-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Artboard API
   slug: adobe-creative-suite-artboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-artboard-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-artboard-api-openapi.yml
 - filename: adobe-creative-suite-assets-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Assets API
   slug: adobe-creative-suite-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-assets-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-assets-api-openapi.yml
 - filename: adobe-creative-suite-combine-pdf-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Combine PDF API
   slug: adobe-creative-suite-combine-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-combine-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-combine-pdf-api-openapi.yml
 - filename: adobe-creative-suite-compress-pdf-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Compress PDF API
   slug: adobe-creative-suite-compress-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-compress-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-compress-pdf-api-openapi.yml
 - filename: adobe-creative-suite-create-pdf-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Create PDF API
   slug: adobe-creative-suite-create-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-create-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-create-pdf-api-openapi.yml
 - filename: adobe-creative-suite-cutout-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Cutout API
   slug: adobe-creative-suite-cutout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-cutout-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-cutout-api-openapi.yml
 - filename: adobe-creative-suite-document-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Document API
   slug: adobe-creative-suite-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-document-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-document-api-openapi.yml
 - filename: adobe-creative-suite-document-generation-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Document Generation API
   slug: adobe-creative-suite-document-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-document-generation-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-document-generation-api-openapi.yml
 - filename: adobe-creative-suite-export-pdf-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Export PDF API
   slug: adobe-creative-suite-export-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-export-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-export-pdf-api-openapi.yml
 - filename: adobe-creative-suite-generative-expand-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Generative Expand API
   slug: adobe-creative-suite-generative-expand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-generative-expand-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-generative-expand-api-openapi.yml
 - filename: adobe-creative-suite-generative-fill-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Generative Fill API
   slug: adobe-creative-suite-generative-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-generative-fill-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-generative-fill-api-openapi.yml
 - filename: adobe-creative-suite-image-generation-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Image Generation API
   slug: adobe-creative-suite-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-image-generation-api-openapi.yml
 - filename: adobe-creative-suite-layers-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Layers API
   slug: adobe-creative-suite-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-layers-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-layers-api-openapi.yml
 - filename: adobe-creative-suite-license-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite License API
   slug: adobe-creative-suite-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-license-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-license-api-openapi.yml
 - filename: adobe-creative-suite-linearize-pdf-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Linearize PDF API
   slug: adobe-creative-suite-linearize-pdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-linearize-pdf-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-linearize-pdf-api-openapi.yml
 - filename: adobe-creative-suite-mask-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Mask API
   slug: adobe-creative-suite-mask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-mask-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-mask-api-openapi.yml
 - filename: adobe-creative-suite-member-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Member API
   slug: adobe-creative-suite-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-member-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-member-api-openapi.yml
 - filename: adobe-creative-suite-object-composite-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Object Composite API
   slug: adobe-creative-suite-object-composite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-object-composite-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-object-composite-api-openapi.yml
 - filename: adobe-creative-suite-ocr-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite OCR API
   slug: adobe-creative-suite-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-ocr-api-openapi.yml
 - filename: adobe-creative-suite-operations-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Operations API
   slug: adobe-creative-suite-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-operations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-operations-api-openapi.yml
 - filename: adobe-creative-suite-rendition-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Rendition API
   slug: adobe-creative-suite-rendition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-rendition-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-rendition-api-openapi.yml
 - filename: adobe-creative-suite-search-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Search API
   slug: adobe-creative-suite-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-search-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-search-api-openapi.yml
 - filename: adobe-creative-suite-smart-object-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Smart Object API
   slug: adobe-creative-suite-smart-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-smart-object-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-smart-object-api-openapi.yml
 - filename: adobe-creative-suite-status-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Status API
   slug: adobe-creative-suite-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-status-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-status-api-openapi.yml
 - filename: adobe-creative-suite-text-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Text API
   slug: adobe-creative-suite-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-text-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-text-api-openapi.yml
 - filename: adobe-creative-suite-video-generation-api-openapi.yml
   format: yaml
   label: Adobe Creative Suite Video Generation API
   slug: adobe-creative-suite-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/openapi/adobe-creative-suite-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-creative-suite/openapi/adobe-creative-suite-video-generation-api-openapi.yml
 consequence_counts:
   read: 10
   write: 29
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adobe-
   \ audit: none\n- path: /pie/psdService/renditionCreate\n  method: post\n  operationId: createRendition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Media/1/Search/Files\n  method: get\n  operationId: searchStockFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Media/1/Search/Files/{content_id}\n  method: get\n  operationId: getStockFileMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Media/1/Search/CategoryTree\n  method: get\n  operationId: getCategoryTree\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pie/psdService/smartObject\n  method: post\n  operationId: editSmartObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status/{jobId}\n  method: get\n  operationId: getGenerationStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pie/psdService/status/{jobId}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pie/psdService/text\n  method: post\n  operationId: editTextLayers\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/generate-async\n  method: post\n  operationId: generateVideoAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/agentic-access/adobe-creative-suite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adobe-creative-suite/agentic-access/adobe-creative-suite-agentic-access.yml
 summary_line: 39 operations · 29 acting
 tags:
 - Creative

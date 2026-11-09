@@ -9,43 +9,43 @@ api_specs:
   label: BitOasis Account API
   slug: bitoasis-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-account-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-account-api-openapi.yml
 - filename: bitoasis-coin-deposits-api-openapi.yml
   format: yaml
   label: BitOasis Coin Deposits API
   slug: bitoasis-coin-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-coin-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-deposits-api-openapi.yml
 - filename: bitoasis-coin-withdrawals-api-openapi.yml
   format: yaml
   label: BitOasis Coin Withdrawals API
   slug: bitoasis-coin-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-coin-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-withdrawals-api-openapi.yml
 - filename: bitoasis-fiat-deposits-api-openapi.yml
   format: yaml
   label: BitOasis Fiat Deposits API
   slug: bitoasis-fiat-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-fiat-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-deposits-api-openapi.yml
 - filename: bitoasis-fiat-withdrawals-api-openapi.yml
   format: yaml
   label: BitOasis Fiat Withdrawals API
   slug: bitoasis-fiat-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
 - filename: bitoasis-market-data-api-openapi.yml
   format: yaml
   label: BitOasis Market Data API
   slug: bitoasis-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-market-data-api-openapi.yml
 - filename: bitoasis-orders-api-openapi.yml
   format: yaml
   label: BitOasis Orders API
   slug: bitoasis-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/openapi/bitoasis-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-orders-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 17
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bitoas
   \  method: get\n  operationId: getCoinWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/coin-withdrawal/{withdrawal_id}\n  method: get\n  operationId: getCoinWithdrawal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/coin-withdrawal\n  method: post\n  operationId: newCoinWithdrawal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exchange/coin-withdrawal-fees\n  method: get\n  operationId: getCoinWithdrawalFees\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/fiat-deposits\n  method: get\n  operationId: getFiatDeposits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/fiat-deposit/{deposit_id}\n  method: get\n  operationId: getFiatDeposit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/fiat-withdrawals\n  method: get\n  operationId: getFiatWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/fiat-withdrawal/{withdrawal_id}\n  method: get\n  operationId: getFiatWithdrawal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /exchange/fiat-withdrawal/{withdrawal_id}\n  method: delete\n  operationId: cancelFiatWithdrawal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exchange/fiat-withdrawal\n  method: post\n  operationId: newFiatWithdrawal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/agentic-access/bitoasis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitoasis/agentic-access/bitoasis-agentic-access.yml
 summary_line: 23 operations · 6 acting
 tags:
 - Company

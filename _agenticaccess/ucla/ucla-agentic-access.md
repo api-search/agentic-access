@@ -9,55 +9,55 @@ api_specs:
   label: University of California, Los Angeles Class Sections API
   slug: ucla-class-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-class-sections-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-class-sections-api-openapi.yml
 - filename: ucla-classes-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Classes API
   slug: ucla-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-classes-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-classes-api-openapi.yml
 - filename: ucla-courses-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Courses API
   slug: ucla-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-courses-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-courses-api-openapi.yml
 - filename: ucla-dictionary-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Dictionary API
   slug: ucla-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-dictionary-api-openapi.yml
 - filename: ucla-ge-foundations-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles GE Foundations API
   slug: ucla-ge-foundations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-ge-foundations-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-ge-foundations-api-openapi.yml
 - filename: ucla-infrastructure-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Infrastructure API
   slug: ucla-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-infrastructure-api-openapi.yml
 - filename: ucla-myucla-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles My UCLA API
   slug: ucla-myucla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-myucla-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-myucla-api-openapi.yml
 - filename: ucla-production-calendar-jobs-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Production Calendar Jobs API
   slug: ucla-production-calendar-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-production-calendar-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-production-calendar-jobs-api-openapi.yml
 - filename: ucla-weather-api-openapi.yml
   format: yaml
   label: University of California, Los Angeles Weather API
   slug: ucla-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/openapi/ucla-weather-api-openapi.yml
+  url: https://artifacts.apis.io/ucla/openapi/ucla-weather-api-openapi.yml
 consequence_counts:
   read: 91
   write: 0
@@ -116,8 +116,8 @@ source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: openapi/_origina
   \    notes: Read-only campus reference data. Safe for an agent to call on an approved credential; the\n      credential itself requires a UCLA-approved access request and is not self-service.\n- contract: ucla-sis-dictionary-openapi.yml\n  path: /dictionary/ipedsapbexpandedethnicities/v1\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: OAuth 2.0 client_credentials (UCLA API Gateway)\n    audit: gateway analytics only (Apigee); UCLA publishes no audit contract\n    human-in-the-loop: false\n    notes: Read-only campus reference data. Safe for an agent to call on an approved credential; the\n      credential itself requires a UCLA-approved access request and is not self-service.\n- contract: ucla-sis-dictionary-openapi.yml\n  path: /dictionary/{LatinHonorsStartTermCode}/latinhonors/v1\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: OAuth 2.0 client_credentials\
   \ (UCLA API Gateway)\n    audit: gateway analytics only (Apigee); UCLA publishes no audit contract\n    human-in-the-loop: false\n    notes: Read-only campus reference data. Safe for an agent to call on an approved credential; the\n      credential itself requires a UCLA-approved access request and is not self-service.\n- contract: ucla-sis-dictionary-openapi.yml\n  path: /dictionary/majors/v1\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: OAuth 2.0 client_credentials (UCLA API Gateway)\n    audit: gateway analytics only (Apigee); UCLA publishes no audit contract\n    human-in-the-loop: false\n    notes: Read-only campus reference data. Safe for an agent to call on an approved credential; the\n      credential itself requires a UCLA-approved access request and is not self-service.\n- contract: ucla-sis-dictionary-openapi.yml\n  path: /dictionary/majorprograms/v1\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: none\n    token: OAuth 2.0 client_credentials (UCLA API Gateway)\n    audit: gateway analytics only (Apigee); UCLA publishes no audit contract\n    human-in-the-loop: false\n    notes: Read-only campus reference data. Safe for an agent to call on an approved credential; the\n      credential itself requires a UCLA-approved access request and is not self-service.\n- contract: ucla-sis-dictionary-openapi.yml\n  path: /dictionary/majorprogramspecialization/v1\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: none\n    token: OAuth 2.0 client_credentials (UCLA API Gateway)\n    audit: gateway analytics only (Apigee); UCLA publishes no audit contract\n    human-in-the-loop: false\n    notes: Read-only campus reference data. Safe for an agent to call on an approved credential; the\n      credential itself requires a UCLA-approved access request and is not self-service.\n\n\n# --- truncated at\
-  \ 32 KB (51 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/agentic-access/ucla-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/agentic-access/ucla-agentic-access.yml
+  \ 32 KB (51 KB total) ---\n# Full source: https://artifacts.apis.io/ucla/agentic-access/ucla-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ucla/agentic-access/ucla-agentic-access.yml
 summary_line: 91 operations
 tags:
 - University

@@ -9,55 +9,55 @@ api_specs:
   label: SAP Business One BusinessPartners('{CardCode}') API
   slug: sap-business-one-businesspartners-cardcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-businesspartners-cardcode-api-openapi.yml
 - filename: sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
   format: yaml
   label: SAP Business One CompanyService GetCompanyInfo API
   slug: sap-business-one-companyservice-getcompanyinfo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-companyservice-getcompanyinfo-api-openapi.yml
 - filename: sap-business-one-invoices-api-openapi.yml
   format: yaml
   label: SAP Business One Invoices API
   slug: sap-business-one-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-invoices-api-openapi.yml
 - filename: sap-business-one-items-api-openapi.yml
   format: yaml
   label: SAP Business One Items API
   slug: sap-business-one-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-items-api-openapi.yml
 - filename: sap-business-one-login-api-openapi.yml
   format: yaml
   label: SAP Business One Login API
   slug: sap-business-one-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-login-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-login-api-openapi.yml
 - filename: sap-business-one-logout-api-openapi.yml
   format: yaml
   label: SAP Business One Logout API
   slug: sap-business-one-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-logout-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-logout-api-openapi.yml
 - filename: sap-business-one-orders-api-openapi.yml
   format: yaml
   label: SAP Business One Orders API
   slug: sap-business-one-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-orders-api-openapi.yml
 - filename: sap-business-one-orders-docentry-api-openapi.yml
   format: yaml
   label: SAP Business One Orders({DocEntry}) API
   slug: sap-business-one-orders-docentry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-orders-docentry-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-orders-docentry-api-openapi.yml
 - filename: sap-business-one-business-partners-api-openapi.yml
   format: yaml
   label: SAP Business One Business Partners API
   slug: sap-business-one-business-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/openapi/sap-business-one-business-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap-business-one/openapi/sap-business-one-business-partners-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sap-bu
   \ 3600\n    audit: none\n- path: /Invoices\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Items\n  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Items\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Login\n  method: post\n  operationId:\
   \ login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Orders({DocEntry})\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-business-one/refs/heads/main/agentic-access/sap-business-one-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-business-one/agentic-access/sap-business-one-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - ERP

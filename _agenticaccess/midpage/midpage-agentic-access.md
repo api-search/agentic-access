@@ -8,19 +8,19 @@ api_specs:
   label: Midpage Opinions API
   slug: midpage-opinions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-opinions-api-openapi.yml
+  url: https://artifacts.apis.io/midpage/openapi/midpage-opinions-api-openapi.yml
 - filename: midpage-search-api-openapi.yml
   format: yaml
   label: Midpage Search API
   slug: midpage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-search-api-openapi.yml
+  url: https://artifacts.apis.io/midpage/openapi/midpage-search-api-openapi.yml
 - filename: midpage-user-api-openapi.yml
   format: yaml
   label: Midpage User API
   slug: midpage-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/openapi/midpage-user-api-openapi.yml
+  url: https://artifacts.apis.io/midpage/openapi/midpage-user-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/midpage-opinions-api-openapi.yml, openapi/midpage-search-api-openapi.yml, openapi/midpage-user-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /opinions/get\n  method: post\n  operationId: getOpinions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: post\n  operationId: searchOpinions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midpage/refs/heads/main/agentic-access/midpage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/midpage/agentic-access/midpage-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Legal

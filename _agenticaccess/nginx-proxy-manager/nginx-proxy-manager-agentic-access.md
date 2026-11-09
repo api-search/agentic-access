@@ -137,9 +137,9 @@ source_yaml_url: https://artifacts.apis.io/nginx-proxy-manager/agentic-access/ng
 summary_line: 70 operations · 42 acting · 4 human-in-the-loop
 tags:
 - Company
-- OpenSource
+- Open Source
 - Docker
-- Nginx
+- NGINX
 - Proxy
 - SSL
 ---

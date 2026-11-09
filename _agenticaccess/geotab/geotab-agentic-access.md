@@ -9,19 +9,19 @@ api_specs:
   label: Geotab Authentication API
   slug: geotab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/geotab/openapi/geotab-authentication-api-openapi.yml
 - filename: geotab-invalid-records-api-openapi.yml
   format: yaml
   label: Geotab Invalid Records API
   slug: geotab-invalid-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-invalid-records-api-openapi.yml
+  url: https://artifacts.apis.io/geotab/openapi/geotab-invalid-records-api-openapi.yml
 - filename: geotab-records-api-openapi.yml
   format: yaml
   label: Geotab Records API
   slug: geotab-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/openapi/geotab-records-api-openapi.yml
+  url: https://artifacts.apis.io/geotab/openapi/geotab-records-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 1
@@ -59,7 +59,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/geotab-data-intake-gateway-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    write: 3\n    safety-critical: 1\n    read: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /authentication/authenticate\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authentication/refresh-token\n  method: post\n  operationId: refresh-token\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authentication/revoke-token\n  method: post\n  operationId: revoke-token\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /invalidrecords\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /records\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geotab/refs/heads/main/agentic-access/geotab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/geotab/agentic-access/geotab-agentic-access.yml
 summary_line: 5 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Fleet Management

@@ -9,85 +9,85 @@ api_specs:
   label: MedAdvisor 3rd-Party Integration API
   slug: medadvisor-3rd-party-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-3rd-party-integration-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-3rd-party-integration-api-openapi.yml
 - filename: medadvisor-account-api-openapi.yml
   format: yaml
   label: MedAdvisor Account API
   slug: medadvisor-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-account-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-account-api-openapi.yml
 - filename: medadvisor-booking-api-openapi.yml
   format: yaml
   label: MedAdvisor Booking API
   slug: medadvisor-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-booking-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-booking-api-openapi.yml
 - filename: medadvisor-bookingservice-api-openapi.yml
   format: yaml
   label: MedAdvisor Booking Service API
   slug: medadvisor-bookingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-bookingservice-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-bookingservice-api-openapi.yml
 - filename: medadvisor-calendarsetting-api-openapi.yml
   format: yaml
   label: MedAdvisor Calendar Setting API
   slug: medadvisor-calendarsetting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-calendarsetting-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-calendarsetting-api-openapi.yml
 - filename: medadvisor-clinic-api-openapi.yml
   format: yaml
   label: MedAdvisor Clinic API
   slug: medadvisor-clinic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-clinic-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-clinic-api-openapi.yml
 - filename: medadvisor-communication-api-openapi.yml
   format: yaml
   label: MedAdvisor Communication API
   slug: medadvisor-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-communication-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-communication-api-openapi.yml
 - filename: medadvisor-config-api-openapi.yml
   format: yaml
   label: MedAdvisor Config API
   slug: medadvisor-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-config-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-config-api-openapi.yml
 - filename: medadvisor-headoffice-api-openapi.yml
   format: yaml
   label: MedAdvisor Head Office API
   slug: medadvisor-headoffice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-headoffice-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-headoffice-api-openapi.yml
 - filename: medadvisor-inbox-api-openapi.yml
   format: yaml
   label: MedAdvisor Inbox API
   slug: medadvisor-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-inbox-api-openapi.yml
 - filename: medadvisor-logging-api-openapi.yml
   format: yaml
   label: MedAdvisor Logging API
   slug: medadvisor-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-logging-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-logging-api-openapi.yml
 - filename: medadvisor-pharmacist-api-openapi.yml
   format: yaml
   label: MedAdvisor Pharmacist API
   slug: medadvisor-pharmacist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-pharmacist-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-pharmacist-api-openapi.yml
 - filename: medadvisor-pharmacy-api-openapi.yml
   format: yaml
   label: MedAdvisor Pharmacy API
   slug: medadvisor-pharmacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-pharmacy-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-pharmacy-api-openapi.yml
 - filename: medadvisor-refillorder-api-openapi.yml
   format: yaml
   label: MedAdvisor Refill Order API
   slug: medadvisor-refillorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/openapi/medadvisor-refillorder-api-openapi.yml
+  url: https://artifacts.apis.io/medadvisor/openapi/medadvisor-refillorder-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 77
@@ -246,8 +246,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/medadv
   \  method: delete\n  operationId: Communication_DeletePatientGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/config/demographicRules\n  method: get\n  operationId: Config_RetrieveDemographicRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/config/precursorInstructions\n  method: get\n  operationId: Config_RetrievePrecursorInstructionMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/hq/services\n  method: get\n  operationId: HeadOffice_GetServices\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/hq/services\n  method: post\n  operationId: HeadOffice_CreateService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/hq/pharmacies\n  method: get\n  operationId: HeadOffice_GetPharmacies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/hq/services/{id}\n  method: get\n  operationId: HeadOffice_GetService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/hq/services/{id}\n  method: put\n  operationId: HeadOffice_UpdateService\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/hq/pharmacies/{id}\n  method: get\n  operationId: HeadOffice_GetPharmacy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/hq/services/{id}/push/{pharmacyId}/deadline\n  method: put\n  operationId: HeadOffice_UpdatePushDeadline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/hq/services/{id}/push\n  method: post\n  operationId: HeadOffice_PushService\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/inbox/main\n  method: get\n  operationId: Inbox_GetInboxMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/inbox/sent\n  method: post\n  operationId: Inbox_GetSentMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/agentic-access/medadvisor-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medadvisor/refs/heads/main/agentic-access/medadvisor-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/inbox/main\n  method: get\n  operationId: Inbox_GetInboxMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/inbox/sent\n  method: post\n  operationId: Inbox_GetSentMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://artifacts.apis.io/medadvisor/agentic-access/medadvisor-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/medadvisor/agentic-access/medadvisor-agentic-access.yml
 summary_line: 158 operations · 81 acting · 1 human-in-the-loop
 tags:
 - Healthcare

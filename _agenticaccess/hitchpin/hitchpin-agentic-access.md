@@ -9,19 +9,19 @@ api_specs:
   label: HitchPin Instant Invoice Share API
   slug: hitchpin-instant-invoice-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoice-share-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-instant-invoice-share-api-openapi.yml
 - filename: hitchpin-instant-invoices-api-openapi.yml
   format: yaml
   label: HitchPin Instant Invoices API
   slug: hitchpin-instant-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-instant-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-instant-invoices-api-openapi.yml
 - filename: hitchpin-rendering-api-openapi.yml
   format: yaml
   label: HitchPin Rendering API
   slug: hitchpin-rendering-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/openapi/hitchpin-rendering-api-openapi.yml
+  url: https://artifacts.apis.io/hitchpin/openapi/hitchpin-rendering-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 4
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hitchp
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instant-invoices/{invoice_number}/\n  method: get\n  operationId: retrieve_instant_invoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instant-invoices/{invoice_number}/revoke/\n  method: delete\n  operationId: void_instant_invoice\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /instant-invoices/{invoice_number}/share/\n  method:\
   \ post\n  operationId: share_instant_invoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /render\n  method: put\n  operationId: RenderReceipt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /render-link\n  method: post\n  operationId: CreateReceiptUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: ShortenUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hitchpin/refs/heads/main/agentic-access/hitchpin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hitchpin/agentic-access/hitchpin-agentic-access.yml
 summary_line: 11 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,103 +9,103 @@ api_specs:
   label: Hotglue Jobs API
   slug: hotglue-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-jobs-api-openapi.yml
 - filename: hotglue-availableconnectors-api-openapi.yml
   format: yaml
   label: Hotglue Available Connectors API
   slug: hotglue-availableconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-availableconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-availableconnectors-api-openapi.yml
 - filename: hotglue-availablesources-api-openapi.yml
   format: yaml
   label: Hotglue Available Sources API
   slug: hotglue-availablesources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-availablesources-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-availablesources-api-openapi.yml
 - filename: hotglue-availabletargets-api-openapi.yml
   format: yaml
   label: Hotglue Available Targets API
   slug: hotglue-availabletargets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-availabletargets-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-availabletargets-api-openapi.yml
 - filename: hotglue-connectors-api-openapi.yml
   format: yaml
   label: Hotglue Connectors API
   slug: hotglue-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-connectors-api-openapi.yml
 - filename: hotglue-flows-api-openapi.yml
   format: yaml
   label: Hotglue Flows API
   slug: hotglue-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-flows-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-flows-api-openapi.yml
 - filename: hotglue-jupyter-api-openapi.yml
   format: yaml
   label: Hotglue Jupyter API
   slug: hotglue-jupyter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-jupyter-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-jupyter-api-openapi.yml
 - filename: hotglue-linkedconnectors-api-openapi.yml
   format: yaml
   label: Hotglue Linked Connectors API
   slug: hotglue-linkedconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-linkedconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-linkedconnectors-api-openapi.yml
 - filename: hotglue-linkedsources-api-openapi.yml
   format: yaml
   label: Hotglue Linked Sources API
   slug: hotglue-linkedsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-linkedsources-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-linkedsources-api-openapi.yml
 - filename: hotglue-linkedtargets-api-openapi.yml
   format: yaml
   label: Hotglue Linked Targets API
   slug: hotglue-linkedtargets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-linkedtargets-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-linkedtargets-api-openapi.yml
 - filename: hotglue-mcptoken-api-openapi.yml
   format: yaml
   label: Hotglue MCP Token API
   slug: hotglue-mcptoken-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-mcptoken-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-mcptoken-api-openapi.yml
 - filename: hotglue-supportedconnectors-api-openapi.yml
   format: yaml
   label: Hotglue Supported Connectors API
   slug: hotglue-supportedconnectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-supportedconnectors-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-supportedconnectors-api-openapi.yml
 - filename: hotglue-supportedsources-api-openapi.yml
   format: yaml
   label: Hotglue Supported Sources API
   slug: hotglue-supportedsources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-supportedsources-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-supportedsources-api-openapi.yml
 - filename: hotglue-supportedtargets-api-openapi.yml
   format: yaml
   label: Hotglue Supported Targets API
   slug: hotglue-supportedtargets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-supportedtargets-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-supportedtargets-api-openapi.yml
 - filename: hotglue-tenant-api-openapi.yml
   format: yaml
   label: Hotglue Tenant API
   slug: hotglue-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-tenant-api-openapi.yml
 - filename: hotglue-tenants-api-openapi.yml
   format: yaml
   label: Hotglue Tenants API
   slug: hotglue-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-tenants-api-openapi.yml
 - filename: hotglue-magic-link-api-openapi.yml
   format: yaml
   label: Hotglue Magic Link API
   slug: hotglue-magic-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/openapi/hotglue-magic-link-api-openapi.yml
+  url: https://artifacts.apis.io/hotglue/openapi/hotglue-magic-link-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hotglu
   \  method: get\n  operationId: triggerDiscover\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{env_id}/{flow_id}/{tenant}/linkedConnectors/discover/poll\n  method: get\n  operationId: pollDiscover\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{env_id}/{flow_id}/{tenant}/linkedConnectors/state\n  method: get\n  operationId: getConnectorState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{env_id}/{flow_id}/{tenant}/linkedConnectors/state\n  method: put\n  operationId: setConnectorState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{env_id}/{flow_id}/{tenant}/linkedConnectors/state\n  method: delete\n  operationId: deleteConnectorState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{env_id}/{flow_id}/{tenant}/jobs\n  method: post\n  operationId: runJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{env_id}/availableConnectors\n  method: get\n  operationId: listAvailableConnectors\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{env_id}/{flow_id}/supportedConnectors\n  method: get\n  operationId: listSupportedConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotglue/refs/heads/main/agentic-access/hotglue-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hotglue/agentic-access/hotglue-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Connectors

@@ -9,37 +9,37 @@ api_specs:
   label: Adobe Premiere Pro Elements API
   slug: adobe-premiere-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-elements-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-elements-api-openapi.yml
 - filename: adobe-premiere-libraries-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Libraries API
   slug: adobe-premiere-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-libraries-api-openapi.yml
 - filename: adobe-premiere-representations-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Representations API
   slug: adobe-premiere-representations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-representations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-representations-api-openapi.yml
 - filename: adobe-premiere-library-service-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service API
   slug: adobe-premiere-library-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-api-openapi.yml
 - filename: adobe-premiere-library-service-bookmarks-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service - Bookmarks API
   slug: adobe-premiere-library-service-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
 - filename: adobe-premiere-library-service-public-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service - Public API
   slug: adobe-premiere-library-service-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-public-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-public-api-openapi.yml
 consequence_counts:
   read: 12
   write: 16
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/adobe-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/libraries/bookmarks\n  method: get\n  operationId: getBookmarks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/libraries/bookmarks\n  method: post\n  operationId: addLibraryBookmarks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/libraries/bookmarks/{bookmarkId}\n  method: put\n  operationId: putLibraryBookmark\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/libraries/bookmarks/{bookmarkId}\n  method: delete\n  operationId: removeLibraryBookmark\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/public/libraries/{libraryId}\n  method: get\n  operationId: getPublicLibrary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/public/libraries/{libraryId}\n  method: head\n  operationId: headPublicLibrary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/public/libraries/{libraryId}/elements\n  method:\
   \ get\n  operationId: getPublicLibraryElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/public/libraries/{libraryId}/elements/{elementId}\n  method: get\n  operationId: getPublicLibraryElement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/libraries/{libraryId}/elements/{elementId}/representations/{representationId}\n  method: get\n  operationId: getElementRepresentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/agentic-access/adobe-premiere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adobe-premiere/agentic-access/adobe-premiere-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - Adobe

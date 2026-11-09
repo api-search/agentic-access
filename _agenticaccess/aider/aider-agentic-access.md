@@ -9,85 +9,85 @@ api_specs:
   label: Aider Chat API
   slug: aider-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-chat-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-chat-api-openapi.yml
 - filename: aider-editing-api-openapi.yml
   format: yaml
   label: Aider Editing API
   slug: aider-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-editing-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-editing-api-openapi.yml
 - filename: aider-files-api-openapi.yml
   format: yaml
   label: Aider Files API
   slug: aider-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-files-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-files-api-openapi.yml
 - filename: aider-git-api-openapi.yml
   format: yaml
   label: Aider Git API
   slug: aider-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-git-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-git-api-openapi.yml
 - filename: aider-launch-api-openapi.yml
   format: yaml
   label: Aider Launch API
   slug: aider-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-launch-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-launch-api-openapi.yml
 - filename: aider-map-api-openapi.yml
   format: yaml
   label: Aider Map API
   slug: aider-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-map-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-map-api-openapi.yml
 - filename: aider-models-api-openapi.yml
   format: yaml
   label: Aider Models API
   slug: aider-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-models-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-models-api-openapi.yml
 - filename: aider-modes-api-openapi.yml
   format: yaml
   label: Aider Modes API
   slug: aider-modes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-modes-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-modes-api-openapi.yml
 - filename: aider-quality-api-openapi.yml
   format: yaml
   label: Aider Quality API
   slug: aider-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-quality-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-quality-api-openapi.yml
 - filename: aider-session-api-openapi.yml
   format: yaml
   label: Aider Session API
   slug: aider-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-session-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-session-api-openapi.yml
 - filename: aider-settings-api-openapi.yml
   format: yaml
   label: Aider Settings API
   slug: aider-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-settings-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-settings-api-openapi.yml
 - filename: aider-voice-api-openapi.yml
   format: yaml
   label: Aider Voice API
   slug: aider-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-voice-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-voice-api-openapi.yml
 - filename: aider-web-api-openapi.yml
   format: yaml
   label: Aider Web API
   slug: aider-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-web-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-web-api-openapi.yml
 - filename: aider-i-o-api-openapi.yml
   format: yaml
   label: Aider I/O API
   slug: aider-i-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/openapi/aider-i-o-api-openapi.yml
+  url: https://artifacts.apis.io/aider/openapi/aider-i-o-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aider-
   \  method: post\n  operationId: openEditorPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commands/load\n  method: post\n  operationId: loadCommandScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commands/save\n  method: post\n  operationId: saveCommandScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /commands/help\n  method: get\n  operationId: getHelp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commands/report\n  method: post\n  operationId: openGitHubIssue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commands/exit\n  method: post\n  operationId: exitSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /launch/config\n  method: get\n  operationId: getLaunchConfig\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /launch/config\n  method: put\n  operationId: updateLaunchConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aider/refs/heads/main/agentic-access/aider-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aider/agentic-access/aider-agentic-access.yml
 summary_line: 40 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

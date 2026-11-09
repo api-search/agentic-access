@@ -9,25 +9,25 @@ api_specs:
   label: APIMatic Portals API
   slug: apimatic-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-docs-portal-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-docs-portal-api-openapi.yml
 - filename: apimatic-sdk-api-openapi.yml
   format: yaml
   label: APIMatic SDK Generation API
   slug: apimatic-sdk-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-sdk-api-openapi.yml
 - filename: apimatic-transformation-api-openapi.yml
   format: yaml
   label: APIMatic Transformation API
   slug: apimatic-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-transformation-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-transformation-api-openapi.yml
 - filename: apimatic-validation-api-openapi.yml
   format: yaml
   label: APIMatic Validation API
   slug: apimatic-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/openapi/apimatic-validation-api-openapi.yml
+  url: https://artifacts.apis.io/apimatic/openapi/apimatic-validation-api-openapi.yml
 consequence_counts:
   read: 14
   write: 11
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apimat
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transformations\n  method: get\n  operationId: listAllTransformations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transformations/{transformation_id}\n  method: get\n  operationId: getATransformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transformations/{transformation_id}\n  method: delete\n  operationId: deleteTransformation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validation/validate-via-file\n\
   \  method: post\n  operationId: validateApiViaFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validation/validate-via-url\n  method: get\n  operationId: validateApiViaUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validation/v2/validate-via-file\n  method: post\n  operationId: validateApiViaFileV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validation/v2/validate-via-url\n  method: get\n  operationId:\
   \ validateApiViaUrlV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/agentic-access/apimatic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apimatic/agentic-access/apimatic-agentic-access.yml
 summary_line: 25 operations · 11 acting
 tags:
 - API Transformation

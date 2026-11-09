@@ -9,109 +9,109 @@ api_specs:
   label: Column ACH Transfers API
   slug: column-ach-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-ach-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-ach-transfers-api-openapi.yml
 - filename: column-wire-transfers-api-openapi.yml
   format: yaml
   label: Column Wire Transfers API
   slug: column-wire-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-wire-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-wire-transfers-api-openapi.yml
 - filename: column-international-wires-api-openapi.yml
   format: yaml
   label: Column International Wires API
   slug: column-international-wires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-international-wires-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-international-wires-api-openapi.yml
 - filename: column-realtime-transfers-api-openapi.yml
   format: yaml
   label: Column Realtime Transfers API
   slug: column-realtime-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-realtime-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-realtime-transfers-api-openapi.yml
 - filename: column-book-transfers-api-openapi.yml
   format: yaml
   label: Column Book Transfers API
   slug: column-book-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-book-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-book-transfers-api-openapi.yml
 - filename: column-asyncapi.yml
   format: yaml
   label: Column Webhooks
   slug: column-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-asyncapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-asyncapi.yml
 - filename: column-account-numbers-api-openapi.yml
   format: yaml
   label: Column Account Numbers API
   slug: column-account-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-account-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-account-numbers-api-openapi.yml
 - filename: column-ach-transfers-api-openapi.yml
   format: yaml
   label: Column ACH Transfers API
   slug: column-ach-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-ach-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-ach-transfers-api-openapi.yml
 - filename: column-bank-accounts-api-openapi.yml
   format: yaml
   label: Column Bank Accounts API
   slug: column-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-bank-accounts-api-openapi.yml
 - filename: column-book-transfers-api-openapi.yml
   format: yaml
   label: Column Book Transfers API
   slug: column-book-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-book-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-book-transfers-api-openapi.yml
 - filename: column-check-transfers-api-openapi.yml
   format: yaml
   label: Column Check Transfers API
   slug: column-check-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-check-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-check-transfers-api-openapi.yml
 - filename: column-counterparties-api-openapi.yml
   format: yaml
   label: Column Counterparties API
   slug: column-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-counterparties-api-openapi.yml
 - filename: column-entities-api-openapi.yml
   format: yaml
   label: Column Entities API
   slug: column-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-entities-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-entities-api-openapi.yml
 - filename: column-events-api-openapi.yml
   format: yaml
   label: Column Events API
   slug: column-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-events-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-events-api-openapi.yml
 - filename: column-international-wires-api-openapi.yml
   format: yaml
   label: Column International Wires API
   slug: column-international-wires-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-international-wires-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-international-wires-api-openapi.yml
 - filename: column-realtime-transfers-api-openapi.yml
   format: yaml
   label: Column Realtime Transfers API
   slug: column-realtime-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-realtime-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-realtime-transfers-api-openapi.yml
 - filename: column-webhooks-api-openapi.yml
   format: yaml
   label: Column Webhooks API
   slug: column-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-webhooks-api-openapi.yml
 - filename: column-wire-transfers-api-openapi.yml
   format: yaml
   label: Column Wire Transfers API
   slug: column-wire-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/openapi/column-wire-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/column/openapi/column-wire-transfers-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 23
@@ -198,7 +198,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/column
   \ createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wire-transfers\n  method: get\n  operationId: listWireTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wire-transfers\n  method: post\n  operationId: createWireTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wire-transfers/{id}\n  method: get\n  operationId: getWireTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/column/refs/heads/main/agentic-access/column-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/column/agentic-access/column-agentic-access.yml
 summary_line: 44 operations · 21 acting
 tags:
 - Fintech

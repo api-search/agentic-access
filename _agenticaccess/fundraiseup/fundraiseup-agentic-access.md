@@ -9,67 +9,67 @@ api_specs:
   label: Fundraise Up Donations API
   slug: fundraiseup-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-donations-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-donations-api-openapi.yml
 - filename: fundraiseup-events-api-openapi.yml
   format: yaml
   label: Fundraise Up Events API
   slug: fundraiseup-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-events-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-events-api-openapi.yml
 - filename: fundraiseup-recurring-plans-api-openapi.yml
   format: yaml
   label: Fundraise Up Recurring Plans API
   slug: fundraiseup-recurring-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-recurring-plans-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-recurring-plans-api-openapi.yml
 - filename: fundraiseup-supporters-api-openapi.yml
   format: yaml
   label: Fundraise Up Supporters API
   slug: fundraiseup-supporters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-supporters-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-supporters-api-openapi.yml
 - filename: fundraiseup-access-links-api-openapi.yml
   format: yaml
   label: Fundraise Up Access links API
   slug: fundraiseup-access-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-access-links-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-access-links-api-openapi.yml
 - filename: fundraiseup-campaigns-api-openapi.yml
   format: yaml
   label: Fundraise Up Campaigns API
   slug: fundraiseup-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-campaigns-api-openapi.yml
 - filename: fundraiseup-designation-configurations-api-openapi.yml
   format: yaml
   label: Fundraise Up Designation configurations API
   slug: fundraiseup-designation-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-designation-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-designation-configurations-api-openapi.yml
 - filename: fundraiseup-designation-groups-api-openapi.yml
   format: yaml
   label: Fundraise Up Designation groups API
   slug: fundraiseup-designation-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-designation-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-designation-groups-api-openapi.yml
 - filename: fundraiseup-designations-api-openapi.yml
   format: yaml
   label: Fundraise Up Designations API
   slug: fundraiseup-designations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-designations-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-designations-api-openapi.yml
 - filename: fundraiseup-fundraisers-api-openapi.yml
   format: yaml
   label: Fundraise Up Fundraisers API
   slug: fundraiseup-fundraisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-fundraisers-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-fundraisers-api-openapi.yml
 - filename: fundraiseup-upgrade-links-api-openapi.yml
   format: yaml
   label: Fundraise Up Upgrade links API
   slug: fundraiseup-upgrade-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/openapi/fundraiseup-upgrade-links-api-openapi.yml
+  url: https://artifacts.apis.io/fundraiseup/openapi/fundraiseup-upgrade-links-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fundra
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recurring_plans/{id}\n  method: get\n  operationId: getRecurringPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recurring_plans/{id}\n  method: post\n  operationId: updateRecurringPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /supporters\n  method: get\n  operationId: listSupporters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /supporters/{id}\n  method: get\n  operationId: getSupporter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /donor_portal/access_links/supporters/{id}\n  method: post\n  operationId: createSupporterAccessLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /donor_portal/access_links/recurring_plans/{id}\n  method: post\n  operationId: createRecurringPlanAccessLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/agentic-access/fundraiseup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fundraiseup/agentic-access/fundraiseup-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Fundraising

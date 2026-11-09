@@ -8,13 +8,13 @@ api_specs:
   label: Google Gemini Content Generation API
   slug: google-gemini-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-content-generation-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-content-generation-api-openapi.yml
 - filename: google-gemini-embeddings-api-openapi.yml
   format: yaml
   label: Google Gemini Embeddings API
   slug: google-gemini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-embeddings-api-openapi.yml
 consequence_counts:
   write: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google-gemini-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 3\n  by_consequence:\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /models/{model}:generateContent\n  method: post\n  operationId: generateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{model}:streamGenerateContent\n  method: post\n  operationId: streamGenerateContent\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/{model}:embedContent\n  method: post\n  operationId: embedContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/agentic-access/google-gemini-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-gemini/agentic-access/google-gemini-agentic-access.yml
 summary_line: 3 operations · 3 acting
 tags:
 - AI Agents

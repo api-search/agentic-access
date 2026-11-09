@@ -8,25 +8,25 @@ api_specs:
   label: Agency for Toxic Substances and Disease Registry Exposure Investigations API
   slug: agency-for-toxic-substances-and-disease-registry-exposure-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-exposure-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/agency-for-toxic-substances-and-disease-registry/openapi/agency-for-toxic-substances-and-disease-registry-exposure-investigations-api-openapi.yml
 - filename: agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api-openapi.yml
   format: yaml
   label: Agency for Toxic Substances and Disease Registry Minimum Risk Levels API
   slug: agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api-openapi.yml
+  url: https://artifacts.apis.io/agency-for-toxic-substances-and-disease-registry/openapi/agency-for-toxic-substances-and-disease-registry-minimum-risk-levels-api-openapi.yml
 - filename: agency-for-toxic-substances-and-disease-registry-substance-priority-list-api-openapi.yml
   format: yaml
   label: Agency for Toxic Substances and Disease Registry Substance Priority List API
   slug: agency-for-toxic-substances-and-disease-registry-substance-priority-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-substance-priority-list-api-openapi.yml
+  url: https://artifacts.apis.io/agency-for-toxic-substances-and-disease-registry/openapi/agency-for-toxic-substances-and-disease-registry-substance-priority-list-api-openapi.yml
 - filename: agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api-openapi.yml
   format: yaml
   label: Agency for Toxic Substances and Disease Registry Toxicological Profiles API
   slug: agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/openapi/agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/agency-for-toxic-substances-and-disease-registry/openapi/agency-for-toxic-substances-and-disease-registry-toxicological-profiles-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/atsdr-toxic-substance-profiles-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /toxprofiles\n  method: get\n  operationId: list-toxicological-profiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mrls\n  method: get\n  operationId: list-minimum-risk-levels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /priority-list\n  method: get\n\
   \  operationId: list-substance-priority-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exposure-investigations\n  method: get\n  operationId: list-exposure-investigations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agency-for-toxic-substances-and-disease-registry/refs/heads/main/agentic-access/agency-for-toxic-substances-and-disease-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agency-for-toxic-substances-and-disease-registry/agentic-access/agency-for-toxic-substances-and-disease-registry-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Diseases

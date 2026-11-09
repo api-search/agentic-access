@@ -9,109 +9,109 @@ api_specs:
   label: Aptly App API
   slug: aptly-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-app-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-app-api-openapi.yml
 - filename: aptly-board-api-openapi.yml
   format: yaml
   label: Aptly Board API
   slug: aptly-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-board-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-board-api-openapi.yml
 - filename: aptly-boards-api-openapi.yml
   format: yaml
   label: Aptly Boards API
   slug: aptly-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-boards-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-boards-api-openapi.yml
 - filename: aptly-cards-api-openapi.yml
   format: yaml
   label: Aptly Cards API
   slug: aptly-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-cards-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-cards-api-openapi.yml
 - filename: aptly-company-api-openapi.yml
   format: yaml
   label: Aptly Company API
   slug: aptly-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-company-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-company-api-openapi.yml
 - filename: aptly-contacts-api-openapi.yml
   format: yaml
   label: Aptly Contacts API
   slug: aptly-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-contacts-api-openapi.yml
 - filename: aptly-email-api-openapi.yml
   format: yaml
   label: Aptly Email API
   slug: aptly-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-email-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-email-api-openapi.yml
 - filename: aptly-files-api-openapi.yml
   format: yaml
   label: Aptly Files API
   slug: aptly-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-files-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-files-api-openapi.yml
 - filename: aptly-inboxes-api-openapi.yml
   format: yaml
   label: Aptly Inboxes API
   slug: aptly-inboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-inboxes-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-inboxes-api-openapi.yml
 - filename: aptly-knowledge-api-openapi.yml
   format: yaml
   label: Aptly Knowledge API
   slug: aptly-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-knowledge-api-openapi.yml
 - filename: aptly-routinggroups-api-openapi.yml
   format: yaml
   label: Aptly RoutingGroups API
   slug: aptly-routinggroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-routinggroups-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-routinggroups-api-openapi.yml
 - filename: aptly-schema-api-openapi.yml
   format: yaml
   label: Aptly Schema API
   slug: aptly-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-schema-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-schema-api-openapi.yml
 - filename: aptly-tasks-api-openapi.yml
   format: yaml
   label: Aptly Tasks API
   slug: aptly-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-tasks-api-openapi.yml
 - filename: aptly-templates-api-openapi.yml
   format: yaml
   label: Aptly Templates API
   slug: aptly-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-templates-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-templates-api-openapi.yml
 - filename: aptly-users-api-openapi.yml
   format: yaml
   label: Aptly Users API
   slug: aptly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-users-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-users-api-openapi.yml
 - filename: aptly-docs-api-openapi.yml
   format: yaml
   label: Aptly Docs API
   slug: aptly-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-docs-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-docs-api-openapi.yml
 - filename: aptly-tours-api-openapi.yml
   format: yaml
   label: Aptly Tours API
   slug: aptly-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-tours-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-tours-api-openapi.yml
 - filename: aptly-webforms-api-openapi.yml
   format: yaml
   label: Aptly Web Forms API
   slug: aptly-webforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/openapi/aptly-webforms-api-openapi.yml
+  url: https://artifacts.apis.io/aptly/openapi/aptly-webforms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 29
@@ -159,7 +159,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aptly-
   \    audit: required\n- path: /api/routing-groups/{id}/archive\n  method: post\n  operationId: archiveRoutingGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/schema/{boardId}\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasks/search\n  method: post\n  operationId: searchTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tasks/{taskId}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/templates/{id}\n  method: get\n  operationId:\
   \ getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/users/{userId}/inboxes\n  method: get\n  operationId: listUserInboxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptly/refs/heads/main/agentic-access/aptly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aptly/agentic-access/aptly-agentic-access.yml
 summary_line: 51 operations · 22 acting
 tags:
 - Company

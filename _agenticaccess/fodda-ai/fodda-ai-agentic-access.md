@@ -9,109 +9,109 @@ api_specs:
   label: Fodda (PSFK) Accounts API
   slug: fodda-ai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-accounts-api-openapi.yml
 - filename: fodda-ai-admin-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Admin API
   slug: fodda-ai-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-admin-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-admin-api-openapi.yml
 - filename: fodda-ai-analysts-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Analysts API
   slug: fodda-ai-analysts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-analysts-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-analysts-api-openapi.yml
 - filename: fodda-ai-brand-intelligence-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Brand Intelligence API
   slug: fodda-ai-brand-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-brand-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-brand-intelligence-api-openapi.yml
 - filename: fodda-ai-context-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Context API
   slug: fodda-ai-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-context-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-context-api-openapi.yml
 - filename: fodda-ai-copilot-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Copilot API
   slug: fodda-ai-copilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-copilot-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-copilot-api-openapi.yml
 - filename: fodda-ai-graph-slice-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Graph Slice API
   slug: fodda-ai-graph-slice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graph-slice-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-graph-slice-api-openapi.yml
 - filename: fodda-ai-graphs-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Graphs API
   slug: fodda-ai-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-graphs-api-openapi.yml
 - filename: fodda-ai-health-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Health API
   slug: fodda-ai-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-health-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-health-api-openapi.yml
 - filename: fodda-ai-log-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Log API
   slug: fodda-ai-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-log-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-log-api-openapi.yml
 - filename: fodda-ai-offerings-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Offerings API
   slug: fodda-ai-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-offerings-api-openapi.yml
 - filename: fodda-ai-psfk-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Psfk API
   slug: fodda-ai-psfk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-psfk-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-psfk-api-openapi.yml
 - filename: fodda-ai-research-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Research API
   slug: fodda-ai-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-research-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-research-api-openapi.yml
 - filename: fodda-ai-search-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Search API
   slug: fodda-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-search-api-openapi.yml
 - filename: fodda-ai-sources-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Sources API
   slug: fodda-ai-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-sources-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-sources-api-openapi.yml
 - filename: fodda-ai-spt-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Spt API
   slug: fodda-ai-spt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-spt-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-spt-api-openapi.yml
 - filename: fodda-ai-supplemental-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) Supplemental API
   slug: fodda-ai-supplemental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-supplemental-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-supplemental-api-openapi.yml
 - filename: fodda-ai-user-api-openapi.yml
   format: yaml
   label: Fodda (PSFK) User API
   slug: fodda-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/openapi/fodda-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/fodda-ai/openapi/fodda-ai-user-api-openapi.yml
 consequence_counts:
   read: 135
   write: 32
@@ -170,8 +170,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fodda-
   \  method: get\n  operationId: supplemental__ca_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/bps/id-snapshot\n  method: get\n  operationId: supplemental__id_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/psa/ph-snapshot\n  method: get\n  operationId: supplemental__ph_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/sg/sg-snapshot\n  method: get\n  operationId: supplemental__sg_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/bcch/cl-snapshot\n  method: get\n  operationId:\
   \ supplemental__cl_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/cn/cn-snapshot\n  method: get\n  operationId: supplemental__cn_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/usaspending/snapshot\n  method: get\n  operationId: supplemental__snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/dol/snapshot\n  method: get\n  operationId: supplemental__snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/socrata/us-snapshot\n  method: get\n  operationId: supplemental__us_snapshot\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/socrata/city/{cityKey}\n  method: get\n  operationId: supplemental___citykey_\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/socrata/portals\n  method: get\n  operationId: supplemental__portals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/cdc/health-data\n  method: get\n  operationId: supplemental__health_data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/pubmed/research-trends\n  method: get\n  operationId: supplemental__research_trends\n  x-agentic-access:\n\
-  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/wto/trade-snapshot\n  method: get\n  operationId: supplemental__trade_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/wto/global-snapshot\n  method: get\n  operationId: supplemental__global_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/openfoodfacts\n  method: get\n  operationId: supplemental__openfoodfacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/agentic-access/fodda-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fodda-ai/refs/heads/main/agentic-access/fodda-ai-agentic-access.yml
+  \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/wto/trade-snapshot\n  method: get\n  operationId: supplemental__trade_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/wto/global-snapshot\n  method: get\n  operationId: supplemental__global_snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplemental/openfoodfacts\n  method: get\n  operationId: supplemental__openfoodfacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/fodda-ai/agentic-access/fodda-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fodda-ai/agentic-access/fodda-ai-agentic-access.yml
 summary_line: 167 operations · 32 acting
 tags:
 - Market Intelligence

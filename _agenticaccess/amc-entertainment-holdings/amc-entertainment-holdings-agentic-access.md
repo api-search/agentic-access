@@ -9,97 +9,97 @@ api_specs:
   label: AMC Entertainment Holdings Barcodes API
   slug: amc-entertainment-holdings-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-barcodes-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-barcodes-api-openapi.yml
 - filename: amc-entertainment-holdings-concessions-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Concessions API
   slug: amc-entertainment-holdings-concessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-concessions-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-concessions-api-openapi.yml
 - filename: amc-entertainment-holdings-locations-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Locations API
   slug: amc-entertainment-holdings-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-locations-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-locations-api-openapi.yml
 - filename: amc-entertainment-holdings-loyalty-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Loyalty API
   slug: amc-entertainment-holdings-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-loyalty-api-openapi.yml
 - filename: amc-entertainment-holdings-markets-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Markets API
   slug: amc-entertainment-holdings-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-markets-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-markets-api-openapi.yml
 - filename: amc-entertainment-holdings-media-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Media API
   slug: amc-entertainment-holdings-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-media-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-media-api-openapi.yml
 - filename: amc-entertainment-holdings-movieconfirmations-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings MovieConfirmations API
   slug: amc-entertainment-holdings-movieconfirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-movieconfirmations-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-movieconfirmations-api-openapi.yml
 - filename: amc-entertainment-holdings-movies-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Movies API
   slug: amc-entertainment-holdings-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-movies-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-movies-api-openapi.yml
 - filename: amc-entertainment-holdings-orders-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Orders API
   slug: amc-entertainment-holdings-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-orders-api-openapi.yml
 - filename: amc-entertainment-holdings-refunds-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Refunds API
   slug: amc-entertainment-holdings-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-refunds-api-openapi.yml
 - filename: amc-entertainment-holdings-seating-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Seating API
   slug: amc-entertainment-holdings-seating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-seating-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-seating-api-openapi.yml
 - filename: amc-entertainment-holdings-showtimes-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Showtimes API
   slug: amc-entertainment-holdings-showtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-showtimes-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-showtimes-api-openapi.yml
 - filename: amc-entertainment-holdings-states-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings States API
   slug: amc-entertainment-holdings-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-states-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-states-api-openapi.yml
 - filename: amc-entertainment-holdings-theatres-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Theatres API
   slug: amc-entertainment-holdings-theatres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-theatres-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-theatres-api-openapi.yml
 - filename: amc-entertainment-holdings-wallet-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Wallet API
   slug: amc-entertainment-holdings-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-wallet-api-openapi.yml
 - filename: amc-entertainment-holdings-webhooks-api-openapi.yml
   format: yaml
   label: AMC Entertainment Holdings Webhooks API
   slug: amc-entertainment-holdings-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/openapi/amc-entertainment-holdings-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/amc-entertainment-holdings/openapi/amc-entertainment-holdings-webhooks-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 58
@@ -237,7 +237,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amc-en
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/theatres\n  method: get\n  operationId: listTheatres\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/theatres/{idOrSlug}\n  method: get\n  operationId: getTheatre\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/theatres/views/now-playing/wwm-release-number/{wwm-release-number}\n  method: get\n  operationId: listTheatresByWwmRelease\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/amc-accounts/{account-id}/wallet/views/on-demand\n  method: get\n  operationId: getExternalWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook-events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: subscribeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook-token-id}\n  method: delete\n  operationId: unsubscribeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook-token-id}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/agentic-access/amc-entertainment-holdings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amc-entertainment-holdings/agentic-access/amc-entertainment-holdings-agentic-access.yml
 summary_line: 82 operations · 24 acting
 tags:
 - Entertainment

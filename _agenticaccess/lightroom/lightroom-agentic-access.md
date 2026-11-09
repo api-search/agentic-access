@@ -9,61 +9,61 @@ api_specs:
   label: Adobe Lightroom Album Assets API
   slug: lightroom-album-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-album-assets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-album-assets-api-openapi.yml
 - filename: lightroom-albums-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Albums API
   slug: lightroom-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-albums-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-albums-api-openapi.yml
 - filename: lightroom-assets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Assets API
   slug: lightroom-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-assets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-assets-api-openapi.yml
 - filename: lightroom-auto-straighten-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Auto Straighten API
   slug: lightroom-auto-straighten-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-auto-straighten-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-auto-straighten-api-openapi.yml
 - filename: lightroom-auto-tone-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Auto Tone API
   slug: lightroom-auto-tone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-auto-tone-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-auto-tone-api-openapi.yml
 - filename: lightroom-catalog-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Catalog API
   slug: lightroom-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-catalog-api-openapi.yml
 - filename: lightroom-edit-image-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Edit Image API
   slug: lightroom-edit-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-edit-image-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-edit-image-api-openapi.yml
 - filename: lightroom-health-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Health API
   slug: lightroom-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-health-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-health-api-openapi.yml
 - filename: lightroom-presets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Presets API
   slug: lightroom-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-presets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-presets-api-openapi.yml
 - filename: lightroom-renditions-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Renditions API
   slug: lightroom-renditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-renditions-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-renditions-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 1
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lightr
   \ - lr_partner_apis\n- path: /catalogs/{catalog_id}/albums\n  method: get\n  operationId: listAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - lr_partner_apis\n- path: /catalogs/{catalog_id}/albums/{album_id}\n  method: get\n  operationId: getAlbum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - lr_partner_apis\n- path: /catalogs/{catalog_id}/albums/{album_id}\n  method: put\n  operationId: createOrUpdateAlbum\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - lr_partner_apis\n- path: /catalogs/{catalog_id}/albums/{album_id}\n\
   \  method: delete\n  operationId: deleteAlbum\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - lr_partner_apis\n- path: /catalogs/{catalog_id}/albums/{album_id}/assets\n  method: get\n  operationId: listAlbumAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - lr_partner_apis\n- path: /catalogs/{catalog_id}/albums/{album_id}/assets\n  method: put\n  operationId: addAssetsToAlbum\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n    scope:\n    - lr_partner_apis\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/agentic-access/lightroom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightroom/agentic-access/lightroom-agentic-access.yml
 summary_line: 37 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Cloud Storage

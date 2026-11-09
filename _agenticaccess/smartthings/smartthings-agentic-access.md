@@ -9,85 +9,85 @@ api_specs:
   label: Samsung SmartThings Apps API
   slug: smartthings-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-apps-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-apps-api-openapi.yml
 - filename: smartthings-capabilities-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Capabilities API
   slug: smartthings-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-capabilities-api-openapi.yml
 - filename: smartthings-device-commands-status-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Device Commands & Status API
   slug: smartthings-device-commands-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-device-commands-status-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-device-commands-status-api-openapi.yml
 - filename: smartthings-devices-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Devices API
   slug: smartthings-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-devices-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-devices-api-openapi.yml
 - filename: smartthings-history-api-openapi.yml
   format: yaml
   label: Samsung SmartThings History API
   slug: smartthings-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-history-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-history-api-openapi.yml
 - filename: smartthings-installed-apps-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Installed Apps API
   slug: smartthings-installed-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-installed-apps-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-installed-apps-api-openapi.yml
 - filename: smartthings-locations-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Locations API
   slug: smartthings-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-locations-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-locations-api-openapi.yml
 - filename: smartthings-presentations-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Presentations API
   slug: smartthings-presentations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-presentations-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-presentations-api-openapi.yml
 - filename: smartthings-rooms-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Rooms API
   slug: smartthings-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-rooms-api-openapi.yml
 - filename: smartthings-rules-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Rules API
   slug: smartthings-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-rules-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-rules-api-openapi.yml
 - filename: smartthings-scenes-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Scenes API
   slug: smartthings-scenes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-scenes-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-scenes-api-openapi.yml
 - filename: smartthings-schedules-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Schedules API
   slug: smartthings-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-schedules-api-openapi.yml
 - filename: smartthings-subscriptions-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Subscriptions API
   slug: smartthings-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-subscriptions-api-openapi.yml
 - filename: smartthings-virtual-devices-api-openapi.yml
   format: yaml
   label: Samsung SmartThings Virtual Devices API
   slug: smartthings-virtual-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/openapi/smartthings-virtual-devices-api-openapi.yml
+  url: https://artifacts.apis.io/smartthings/openapi/smartthings-virtual-devices-api-openapi.yml
 consequence_counts:
   read: 30
   write: 35
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartt
   \      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appNameOrId}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{appNameOrId}\n  method: put\n  operationId: updateApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appNameOrId}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /presentation\n  method:\
   \ get\n  operationId: getPresentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presentation/deviceconfig\n  method: get\n  operationId: getDeviceConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /presentation/deviceconfig\n  method: post\n  operationId: createDeviceConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /history/devices\n  method: get\n  operationId: getDeviceHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /virtualdevices\n  method: get\n  operationId: listVirtualDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virtualdevices\n  method: post\n  operationId: createVirtualDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtualdevices/{deviceId}/events\n  method: post\n  operationId: createVirtualDeviceEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartthings/refs/heads/main/agentic-access/smartthings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartthings/agentic-access/smartthings-agentic-access.yml
 summary_line: 65 operations · 35 acting
 tags:
 - Smart Home

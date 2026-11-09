@@ -9,31 +9,31 @@ api_specs:
   label: ThingSpeak Channels API
   slug: thingspeak-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-channels-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-channels-api-openapi.yml
 - filename: thingspeak-update-api-openapi.yml
   format: yaml
   label: ThingSpeak Update API
   slug: thingspeak-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-update-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-update-api-openapi.yml
 - filename: thingspeak-mqtt-asyncapi.yml
   format: yaml
   label: ThingSpeak MQTT API
   slug: thingspeak-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/asyncapi/thingspeak-mqtt-asyncapi.yml
+  url: https://artifacts.apis.io/thingspeak/asyncapi/thingspeak-mqtt-asyncapi.yml
 - filename: thingspeak-channels-json-api-openapi.yml
   format: yaml
   label: ThingSpeak Channels.json API
   slug: thingspeak-channels-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-channels-json-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-channels-json-api-openapi.yml
 - filename: thingspeak-talkbacks-api-openapi.yml
   format: yaml
   label: ThingSpeak Talkbacks API
   slug: thingspeak-talkbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-talkbacks-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-talkbacks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 9
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/things
   \ path: /talkbacks/{talkback_id}/commands.json\n  method: get\n  operationId: listCommands\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /talkbacks/{talkback_id}/commands.json\n  method: post\n  operationId: addCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /talkbacks/{talkback_id}/commands/execute.json\n  method: get\n  operationId: executeNextCommand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /talkbacks/{talkback_id}/commands/{command_id}.json\n  method: get\n  operationId: readCommand\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /talkbacks/{talkback_id}/commands/{command_id}.json\n  method: put\n  operationId: updateCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /talkbacks/{talkback_id}/commands/{command_id}.json\n  method: delete\n  operationId: deleteCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update\n  method: get\n  operationId: updateChannelFeedGet\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /update\n  method: post\n  operationId: updateChannelFeedPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channels/{channel_id}/bulk_update.json\n  method: post\n  operationId: bulkUpdateChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/agentic-access/thingspeak-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thingspeak/agentic-access/thingspeak-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - IoT

@@ -9,19 +9,19 @@ api_specs:
   label: WarpPay402 Studio Feeds API
   slug: warppay402-com-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-feeds-api-openapi.yml
 - filename: warppay402-com-public-data-feed-api-openapi.yml
   format: yaml
   label: WarpPay402 Studio Public Data Feed API
   slug: warppay402-com-public-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-public-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-public-data-feed-api-openapi.yml
 - filename: warppay402-com-tools-api-openapi.yml
   format: yaml
   label: WarpPay402 Studio Tools API
   slug: warppay402-com-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/openapi/warppay402-com-tools-api-openapi.yml
+  url: https://artifacts.apis.io/warppay402-com/openapi/warppay402-com-tools-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/warppa
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tools/aerodrome-swap\n  method: post\n  operationId: executeAerodromeSwap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/aerodrome-clamm\n  method: post\n  operationId: manageAerodromeClamm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/aerodrome-veaero\n  method: post\n  operationId: manageAerodromeVeaero\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/deploy-contract\n  method: post\n  operationId: deployBaseContract\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/deploy-solana-contract\n  method: post\n  operationId: deploySolanaContract\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/deploy-arc-contract\n  method: post\n  operationId: deployArcContract\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools/arc-cctp-bridge\n  method: post\n  operationId: bridgeArcCctp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warppay402-com/refs/heads/main/agentic-access/warppay402-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/warppay402-com/agentic-access/warppay402-com-agentic-access.yml
 summary_line: 19 operations · 13 acting
 tags:
 - x402

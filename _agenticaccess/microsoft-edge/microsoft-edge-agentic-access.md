@@ -9,37 +9,37 @@ api_specs:
   label: Microsoft Edge Browser API
   slug: microsoft-edge-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-browser-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-edge/openapi/microsoft-edge-browser-api-openapi.yml
 - filename: microsoft-edge-packages-api-openapi.yml
   format: yaml
   label: Microsoft Edge Packages API
   slug: microsoft-edge-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-packages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-edge/openapi/microsoft-edge-packages-api-openapi.yml
 - filename: microsoft-edge-pages-api-openapi.yml
   format: yaml
   label: Microsoft Edge Pages API
   slug: microsoft-edge-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-pages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-edge/openapi/microsoft-edge-pages-api-openapi.yml
 - filename: microsoft-edge-products-api-openapi.yml
   format: yaml
   label: Microsoft Edge Products API
   slug: microsoft-edge-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-products-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-edge/openapi/microsoft-edge-products-api-openapi.yml
 - filename: microsoft-edge-publishing-api-openapi.yml
   format: yaml
   label: Microsoft Edge Publishing API
   slug: microsoft-edge-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-edge/openapi/microsoft-edge-publishing-api-openapi.yml
 - filename: microsoft-edge-targets-api-openapi.yml
   format: yaml
   label: Microsoft Edge Targets API
   slug: microsoft-edge-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/openapi/microsoft-edge-targets-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-edge/openapi/microsoft-edge-targets-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ audit: none\n- path: /v1/products/{productId}/submissions\n  method: post\n  operationId: createSubmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/products/{productId}/submissions/{submissionId}\n  method: get\n  operationId: getSubmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products/{productId}/submissions/draft/package\n  method: post\n  operationId: uploadPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/products/{productId}/submissions/draft/package/operations/{operationId}\n  method: get\n  operationId: getPackageUploadStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/list\n  method: get\n  operationId: listTargets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/new\n  method: put\n  operationId: createTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /json/activate/{targetId}\n  method: post\n  operationId: activateTarget\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /json/close/{targetId}\n  method: post\n  operationId: closeTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /json/version\n  method: get\n  operationId: getBrowserVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /json/protocol\n  method: get\n  operationId: getProtocolSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-edge/refs/heads/main/agentic-access/microsoft-edge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-edge/agentic-access/microsoft-edge-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Browser

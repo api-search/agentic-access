@@ -9,61 +9,61 @@ api_specs:
   label: Super Micro Computer Accounts API
   slug: super-micro-computer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-accounts-api-openapi.yml
 - filename: super-micro-computer-chassis-api-openapi.yml
   format: yaml
   label: Super Micro Computer Chassis API
   slug: super-micro-computer-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-chassis-api-openapi.yml
 - filename: super-micro-computer-event-service-api-openapi.yml
   format: yaml
   label: Super Micro Computer Event Service API
   slug: super-micro-computer-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-event-service-api-openapi.yml
 - filename: super-micro-computer-managers-api-openapi.yml
   format: yaml
   label: Super Micro Computer Managers API
   slug: super-micro-computer-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-managers-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-managers-api-openapi.yml
 - filename: super-micro-computer-network-api-openapi.yml
   format: yaml
   label: Super Micro Computer Network API
   slug: super-micro-computer-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-network-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-network-api-openapi.yml
 - filename: super-micro-computer-service-root-api-openapi.yml
   format: yaml
   label: Super Micro Computer Service Root API
   slug: super-micro-computer-service-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-service-root-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-service-root-api-openapi.yml
 - filename: super-micro-computer-sessions-api-openapi.yml
   format: yaml
   label: Super Micro Computer Sessions API
   slug: super-micro-computer-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-sessions-api-openapi.yml
 - filename: super-micro-computer-storage-api-openapi.yml
   format: yaml
   label: Super Micro Computer Storage API
   slug: super-micro-computer-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-storage-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-storage-api-openapi.yml
 - filename: super-micro-computer-systems-api-openapi.yml
   format: yaml
   label: Super Micro Computer Systems API
   slug: super-micro-computer-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-systems-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-systems-api-openapi.yml
 - filename: super-micro-computer-update-service-api-openapi.yml
   format: yaml
   label: Super Micro Computer Update Service API
   slug: super-micro-computer-update-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/openapi/super-micro-computer-update-service-api-openapi.yml
+  url: https://artifacts.apis.io/super-micro-computer/openapi/super-micro-computer-update-service-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 2
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/superm
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EventService/Subscriptions\n  method: get\n  operationId: listEventSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EventService/Subscriptions\n  method: post\n  operationId: createEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /EventService/Subscriptions/{subscriptionId}\n  method: get\n  operationId: getEventSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /EventService/Subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateService\n  method: get\n  operationId: getUpdateService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UpdateService/FirmwareInventory\n  method: get\n  operationId: listFirmwareInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UpdateService/Actions/UpdateService.SimpleUpdate\n  method: post\n  operationId: simpleUpdate\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/agentic-access/super-micro-computer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/super-micro-computer/agentic-access/super-micro-computer-agentic-access.yml
 summary_line: 35 operations · 12 acting · 2 human-in-the-loop
 tags:
 - Servers

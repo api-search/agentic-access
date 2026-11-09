@@ -9,67 +9,67 @@ api_specs:
   label: Armis Alerts API
   slug: armis-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-alerts-api-openapi.yml
 - filename: armis-arp-api-openapi.yml
   format: yaml
   label: Armis ARP API
   slug: armis-arp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-arp-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-arp-api-openapi.yml
 - filename: armis-assets-api-openapi.yml
   format: yaml
   label: Armis Assets API
   slug: armis-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-assets-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-assets-api-openapi.yml
 - filename: armis-authentication-api-openapi.yml
   format: yaml
   label: Armis Authentication API
   slug: armis-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-authentication-api-openapi.yml
 - filename: armis-boundaries-api-openapi.yml
   format: yaml
   label: Armis Boundaries API
   slug: armis-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-boundaries-api-openapi.yml
 - filename: armis-collectors-api-openapi.yml
   format: yaml
   label: Armis Collectors API
   slug: armis-collectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-collectors-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-collectors-api-openapi.yml
 - filename: armis-data-export-api-openapi.yml
   format: yaml
   label: Armis Data Export API
   slug: armis-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-data-export-api-openapi.yml
 - filename: armis-device-custom-properties-api-openapi.yml
   format: yaml
   label: Armis Device Custom Properties API
   slug: armis-device-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-device-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-device-custom-properties-api-openapi.yml
 - filename: armis-integrations-api-openapi.yml
   format: yaml
   label: Armis Integrations API
   slug: armis-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-integrations-api-openapi.yml
 - filename: armis-policies-api-openapi.yml
   format: yaml
   label: Armis Policies API
   slug: armis-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-policies-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-policies-api-openapi.yml
 - filename: armis-sites-api-openapi.yml
   format: yaml
   label: Armis Sites API
   slug: armis-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/openapi/armis-sites-api-openapi.yml
+  url: https://artifacts.apis.io/armis/openapi/armis-sites-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/armis-
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/integrations/{integration_id}\n  method: patch\n  operationId: patch_settings_integrations__integration_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/sites\n  method: post\n  operationId: post_settings_sites_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/sites\n\
   \  method: get\n  operationId: get_settings_sites_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/sites/{site_id}\n  method: delete\n  operationId: delete_settings_sites__site_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/sites/{site_id}\n  method: get\n  operationId: get_settings_sites__site_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/sites/{site_id}\n  method: patch\n  operationId: patch_settings_sites__site_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/agentic-access/armis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/armis/agentic-access/armis-agentic-access.yml
 summary_line: 34 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,61 +9,61 @@ api_specs:
   label: WunderGraph Analytics API
   slug: wundergraph-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-analytics-api-openapi.yml
 - filename: wundergraph-api-keys-api-openapi.yml
   format: yaml
   label: WunderGraph API Keys API
   slug: wundergraph-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-api-keys-api-openapi.yml
 - filename: wundergraph-feature-flags-api-openapi.yml
   format: yaml
   label: WunderGraph Feature Flags API
   slug: wundergraph-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-feature-flags-api-openapi.yml
 - filename: wundergraph-feature-subgraphs-api-openapi.yml
   format: yaml
   label: WunderGraph Feature Subgraphs API
   slug: wundergraph-feature-subgraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-feature-subgraphs-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-feature-subgraphs-api-openapi.yml
 - filename: wundergraph-federated-graphs-api-openapi.yml
   format: yaml
   label: WunderGraph Federated Graphs API
   slug: wundergraph-federated-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-federated-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-federated-graphs-api-openapi.yml
 - filename: wundergraph-monographs-api-openapi.yml
   format: yaml
   label: WunderGraph Monographs API
   slug: wundergraph-monographs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-monographs-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-monographs-api-openapi.yml
 - filename: wundergraph-namespaces-api-openapi.yml
   format: yaml
   label: WunderGraph Namespaces API
   slug: wundergraph-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-namespaces-api-openapi.yml
 - filename: wundergraph-router-api-openapi.yml
   format: yaml
   label: WunderGraph Router API
   slug: wundergraph-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-router-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-router-api-openapi.yml
 - filename: wundergraph-schema-contracts-api-openapi.yml
   format: yaml
   label: WunderGraph Schema Contracts API
   slug: wundergraph-schema-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-schema-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-schema-contracts-api-openapi.yml
 - filename: wundergraph-subgraphs-api-openapi.yml
   format: yaml
   label: WunderGraph Subgraphs API
   slug: wundergraph-subgraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/openapi/wundergraph-subgraphs-api-openapi.yml
+  url: https://artifacts.apis.io/wundergraph/openapi/wundergraph-subgraphs-api-openapi.yml
 consequence_counts:
   read: 14
   write: 24
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wunder
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/router/compose\n  method: post\n  operationId: composeRouterConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/router/tokens\n  method: get\n  operationId: listRouterTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/router/tokens\n  method: post\n  operationId: createRouterToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api-keys\n  method: get\n  operationId: listAPIKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api-keys\n  method: post\n  operationId: createAPIKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api-keys/{name}\n  method: delete\n  operationId: deleteAPIKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /v1/analytics\n  method: get\n  operationId: getAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/agentic-access/wundergraph-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wundergraph/agentic-access/wundergraph-agentic-access.yml
 summary_line: 38 operations · 24 acting
 tags:
 - Federation

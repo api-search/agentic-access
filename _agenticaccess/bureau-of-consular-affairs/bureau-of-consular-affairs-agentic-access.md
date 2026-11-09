@@ -9,19 +9,19 @@ api_specs:
   label: Bureau of Consular Affairs Datastore API
   slug: bureau-of-consular-affairs-datastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-datastore-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-consular-affairs/openapi/bureau-of-consular-affairs-datastore-api-openapi.yml
 - filename: bureau-of-consular-affairs-discovery-api-openapi.yml
   format: yaml
   label: Bureau of Consular Affairs Discovery API
   slug: bureau-of-consular-affairs-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-consular-affairs/openapi/bureau-of-consular-affairs-discovery-api-openapi.yml
 - filename: bureau-of-consular-affairs-write-api-openapi.yml
   format: yaml
   label: Bureau of Consular Affairs Write API
   slug: bureau-of-consular-affairs-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/openapi/bureau-of-consular-affairs-write-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-consular-affairs/openapi/bureau-of-consular-affairs-write-api-openapi.yml
 consequence_counts:
   read: 15
   write: 3
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bureau
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/group_list\n  method: get\n  operationId: groupList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/group_show\n  method: get\n  operationId: groupShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/organization_list\n  method: get\n  operationId: organizationList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/organization_show\n  method: get\n  operationId: organizationShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/tag_list\n\
   \  method: get\n  operationId: tagList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/tag_show\n  method: get\n  operationId: tagShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/datastore_search\n  method: get\n  operationId: datastoreSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/datastore_search_sql\n  method: get\n  operationId: datastoreSearchSql\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /action/package_create\n  method: post\n  operationId: packageCreate\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /action/package_update\n  method: post\n  operationId: packageUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /action/package_delete\n  method: post\n  operationId: packageDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-consular-affairs/refs/heads/main/agentic-access/bureau-of-consular-affairs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-consular-affairs/agentic-access/bureau-of-consular-affairs-agentic-access.yml
 summary_line: 18 operations · 3 acting
 tags:
 - Federal Government

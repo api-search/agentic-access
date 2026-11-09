@@ -9,7 +9,7 @@ api_specs:
   label: Hypertune Graph QL API
   slug: hypertune-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/openapi/hypertune-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/hypertune/openapi/hypertune-graph-ql-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1
@@ -37,7 +37,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hypertune-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 1\n    acting: 1\n  by_consequence:\n    read: 1\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /graphql\n  method: get\n  operationId: evaluateFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graphql\n  method: post\n  operationId: evaluateFlagsPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypertune/refs/heads/main/agentic-access/hypertune-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hypertune/agentic-access/hypertune-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
 - Feature Flags

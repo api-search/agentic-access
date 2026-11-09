@@ -9,25 +9,25 @@ api_specs:
   label: Amdocs Billing API
   slug: amdocs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-billing-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-billing-api-openapi.yml
 - filename: amdocs-customers-api-openapi.yml
   format: yaml
   label: Amdocs Customers API
   slug: amdocs-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-customers-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-customers-api-openapi.yml
 - filename: amdocs-products-api-openapi.yml
   format: yaml
   label: Amdocs Products API
   slug: amdocs-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-products-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-products-api-openapi.yml
 - filename: amdocs-subscriptions-api-openapi.yml
   format: yaml
   label: Amdocs Subscriptions API
   slug: amdocs-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/openapi/amdocs-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amdocs/openapi/amdocs-subscriptions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amdocs-connectx-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 5\n    acting: 3\n  by_consequence:\n    read: 5\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customerId}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers/{customerId}\n  method: patch\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customerId}/subscriptions\n  method: get\n  operationId: listCustomerSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers/{customerId}/subscriptions\n  method: post\n  operationId:\
   \ createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customerId}/invoices\n  method: get\n  operationId: listCustomerInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amdocs/refs/heads/main/agentic-access/amdocs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amdocs/agentic-access/amdocs-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Telecommunications

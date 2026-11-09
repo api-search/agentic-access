@@ -9,25 +9,25 @@ api_specs:
   label: Narakeet Account API
   slug: narakeet-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-account-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-account-api-openapi.yml
 - filename: narakeet-text-to-speech-api-openapi.yml
   format: yaml
   label: Narakeet Text to Speech API
   slug: narakeet-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-text-to-speech-api-openapi.yml
 - filename: narakeet-video-api-openapi.yml
   format: yaml
   label: Narakeet Video API
   slug: narakeet-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-video-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-video-api-openapi.yml
 - filename: narakeet-voices-api-openapi.yml
   format: yaml
   label: Narakeet Voices API
   slug: narakeet-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/openapi/narakeet-voices-api-openapi.yml
+  url: https://artifacts.apis.io/narakeet/openapi/narakeet-voices-api-openapi.yml
 consequence_counts:
   read: 4
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/narakeet-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 2\n    connected: 4\n  by_consequence:\n    write: 2\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /text-to-speech/{format}\n  method: post\n  operationId: buildTextToSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/upload-request/zip\n  method: get\n  operationId: createVideoUploadRequest\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/build\n  method: post\n  operationId: buildVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voices\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/credits\n  method: get\n  operationId: getAccountCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: pollBuildStatus\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/narakeet/refs/heads/main/agentic-access/narakeet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/narakeet/agentic-access/narakeet-agentic-access.yml
 summary_line: 6 operations · 2 acting
 tags:
 - Text-to-Speech

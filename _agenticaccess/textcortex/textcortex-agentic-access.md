@@ -9,25 +9,25 @@ api_specs:
   label: Textcortex Balance API
   slug: textcortex-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-balance-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-balance-api-openapi.yml
 - filename: textcortex-chat-completions-api-openapi.yml
   format: yaml
   label: Textcortex Chat Completions API
   slug: textcortex-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-chat-completions-api-openapi.yml
 - filename: textcortex-models-api-openapi.yml
   format: yaml
   label: Textcortex Models API
   slug: textcortex-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-models-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-models-api-openapi.yml
 - filename: textcortex-responses-api-openapi.yml
   format: yaml
   label: Textcortex Responses API
   slug: textcortex-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/openapi/textcortex-responses-api-openapi.yml
+  url: https://artifacts.apis.io/textcortex/openapi/textcortex-responses-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/textcortex-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 3\n    acting: 2\n  by_consequence:\n    read: 3\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /balance\n  method: get\n  operationId: retrieveBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model_id}\n  method: get\n  operationId: retrieveModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /responses\n  method: post\n  operationId: createResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/textcortex/refs/heads/main/agentic-access/textcortex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/textcortex/agentic-access/textcortex-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Company

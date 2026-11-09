@@ -9,61 +9,61 @@ api_specs:
   label: FluentEDI Compute API
   slug: fluentedi-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-compute-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-compute-api-openapi.yml
 - filename: fluentedi-crypto-api-openapi.yml
   format: yaml
   label: FluentEDI Crypto API
   slug: fluentedi-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-crypto-api-openapi.yml
 - filename: fluentedi-data-api-openapi.yml
   format: yaml
   label: FluentEDI Data API
   slug: fluentedi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-data-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-data-api-openapi.yml
 - filename: fluentedi-doc-api-openapi.yml
   format: yaml
   label: FluentEDI Doc API
   slug: fluentedi-doc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-doc-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-doc-api-openapi.yml
 - filename: fluentedi-edi-api-openapi.yml
   format: yaml
   label: FluentEDI Edi API
   slug: fluentedi-edi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-edi-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-edi-api-openapi.yml
 - filename: fluentedi-meta-api-openapi.yml
   format: yaml
   label: FluentEDI Meta API
   slug: fluentedi-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-meta-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-meta-api-openapi.yml
 - filename: fluentedi-schedule-api-openapi.yml
   format: yaml
   label: FluentEDI Schedule API
   slug: fluentedi-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-schedule-api-openapi.yml
 - filename: fluentedi-text-api-openapi.yml
   format: yaml
   label: FluentEDI Text API
   slug: fluentedi-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-text-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-text-api-openapi.yml
 - filename: fluentedi-time-api-openapi.yml
   format: yaml
   label: FluentEDI Time API
   slug: fluentedi-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-time-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-time-api-openapi.yml
 - filename: fluentedi-web-api-openapi.yml
   format: yaml
   label: FluentEDI Web API
   slug: fluentedi-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/openapi/fluentedi-web-api-openapi.yml
+  url: https://artifacts.apis.io/fluentedi/openapi/fluentedi-web-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 50
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fluent
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/http/assert\n  method: get\n  operationId: http_assert_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/http/assert\n  method: post\n  operationId: http_assert_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/dns/lookup\n  method: get\n  operationId: dns_lookup_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/dns/lookup\n  method: post\n  operationId: dns_lookup_post\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/net/inspect\n  method: get\n  operationId: net_inspect_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/net/inspect\n  method: post\n  operationId: net_inspect_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/domain/lookup\n  method: get\n  operationId: domain_lookup_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/domain/lookup\n  method: post\n  operationId: domain_lookup_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/email/validate\n  method: get\n  operationId: email_validate_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/email/validate\n  method: post\n  operationId: email_validate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluentedi/refs/heads/main/agentic-access/fluentedi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fluentedi/agentic-access/fluentedi-agentic-access.yml
 summary_line: 99 operations · 49 acting · 1 human-in-the-loop
 tags:
 - EDI

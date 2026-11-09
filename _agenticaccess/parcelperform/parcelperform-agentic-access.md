@@ -9,43 +9,43 @@ api_specs:
   label: Parcel Perform Analytics API
   slug: parcelperform-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-analytics-api-openapi.yml
 - filename: parcelperform-authentication-api-openapi.yml
   format: yaml
   label: Parcel Perform Authentication API
   slug: parcelperform-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-authentication-api-openapi.yml
 - filename: parcelperform-couriers-api-openapi.yml
   format: yaml
   label: Parcel Perform Couriers API
   slug: parcelperform-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-couriers-api-openapi.yml
 - filename: parcelperform-returns-api-openapi.yml
   format: yaml
   label: Parcel Perform Returns API
   slug: parcelperform-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-returns-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-returns-api-openapi.yml
 - filename: parcelperform-shipments-api-openapi.yml
   format: yaml
   label: Parcel Perform Shipments API
   slug: parcelperform-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-shipments-api-openapi.yml
 - filename: parcelperform-tracking-events-api-openapi.yml
   format: yaml
   label: Parcel Perform Tracking Events API
   slug: parcelperform-tracking-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-tracking-events-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-tracking-events-api-openapi.yml
 - filename: parcelperform-webhooks-api-openapi.yml
   format: yaml
   label: Parcel Perform Webhooks API
   slug: parcelperform-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/openapi/parcelperform-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parcelperform/openapi/parcelperform-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 6
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parcel
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipment/{tracking_id}/event\n  method: post\n  operationId: createShipmentEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /return\n  method: post\n  operationId: createReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /return/shipment\n  method: post\n  operationId: createReturnWithShipment\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /courier\n  method: get\n  operationId: listCouriers\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courier/{courier_code}\n  method: get\n  operationId: getCourier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/performance\n  method: get\n  operationId: getPerformanceAnalytics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parcelperform/refs/heads/main/agentic-access/parcelperform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parcelperform/agentic-access/parcelperform-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Logistics

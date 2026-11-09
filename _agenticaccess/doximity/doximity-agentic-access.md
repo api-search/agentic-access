@@ -9,13 +9,13 @@ api_specs:
   label: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-openid-connect-api-openapi.yml
 - filename: doximity-oauth-api-openapi.yml
   format: yaml
   label: Doximity O Auth API
   slug: doximity-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-oauth-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -54,14 +54,15 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/doximi
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/userinfo\n  method: get\n  operationId: userinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/revoke\n  method: post\n  operationId: revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /oauth/logout\n  method: get\n  operationId: logout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/session_state\n  method: post\n  operationId: sessionState\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/rate_limit\n  method: get\n  operationId: getRateLimit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/openid-configuration\n  method: get\n  operationId: openidConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/oauth-authorization-server\n  method: get\n  operationId: oauthAuthorizationServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/jwks.json\n  method: get\n  operationId:\
   \ jwks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/agentic-access/doximity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/doximity/agentic-access/doximity-agentic-access.yml
 summary_line: 10 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Company
 - Health Tech
 - Identity
-- Authentication
+- OAuth
 - OpenID Connect
+- Authentication
 - Physician Network
 - Healthcare
 - SSO

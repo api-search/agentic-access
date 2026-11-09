@@ -9,61 +9,61 @@ api_specs:
   label: Knownwell Alignment API
   slug: knownwell-alignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-alignment-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-alignment-api-openapi.yml
 - filename: knownwell-api-keys-api-openapi.yml
   format: yaml
   label: Knownwell API Keys API
   slug: knownwell-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-api-keys-api-openapi.yml
 - filename: knownwell-clients-api-openapi.yml
   format: yaml
   label: Knownwell Clients API
   slug: knownwell-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-clients-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-clients-api-openapi.yml
 - filename: knownwell-documentation-api-openapi.yml
   format: yaml
   label: Knownwell Documentation API
   slug: knownwell-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-documentation-api-openapi.yml
 - filename: knownwell-health-api-openapi.yml
   format: yaml
   label: Knownwell Health API
   slug: knownwell-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-health-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-health-api-openapi.yml
 - filename: knownwell-portfolios-api-openapi.yml
   format: yaml
   label: Knownwell Portfolios API
   slug: knownwell-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-portfolios-api-openapi.yml
 - filename: knownwell-root-api-openapi.yml
   format: yaml
   label: Knownwell Root API
   slug: knownwell-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-root-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-root-api-openapi.yml
 - filename: knownwell-status-api-openapi.yml
   format: yaml
   label: Knownwell Status API
   slug: knownwell-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-status-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-status-api-openapi.yml
 - filename: knownwell-streams-api-openapi.yml
   format: yaml
   label: Knownwell Streams API
   slug: knownwell-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-streams-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-streams-api-openapi.yml
 - filename: knownwell-topics-api-openapi.yml
   format: yaml
   label: Knownwell Topics API
   slug: knownwell-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/openapi/knownwell-topics-api-openapi.yml
+  url: https://artifacts.apis.io/knownwell/openapi/knownwell-topics-api-openapi.yml
 consequence_counts:
   read: 23
   safety-critical: 1
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/knownw
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api-keys\n  method: get\n  operationId: list_api_keys_v1_api_keys_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api-keys/{key_id}\n  method: delete\n  operationId: revoke_api_key_v1_api_keys__key_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/topics\n  method: get\n  operationId: list_topics_v1_topics_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/streams\n  method: get\n\
   \  operationId: list_all_streams_v1_streams_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_check_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: root__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docs\n  method: get\n  operationId: documentation_docs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: status_page_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/knownwell/refs/heads/main/agentic-access/knownwell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/knownwell/agentic-access/knownwell-agentic-access.yml
 summary_line: 25 operations · 2 acting · 1 human-in-the-loop
 tags:
 - Company

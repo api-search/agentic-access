@@ -9,55 +9,55 @@ api_specs:
   label: Treasury Prime Accounts API
   slug: treasury-prime-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-accounts-api-openapi.yml
 - filename: treasury-prime-businesses-api-openapi.yml
   format: yaml
   label: Treasury Prime Businesses API
   slug: treasury-prime-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-businesses-api-openapi.yml
 - filename: treasury-prime-cards-api-openapi.yml
   format: yaml
   label: Treasury Prime Cards API
   slug: treasury-prime-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-cards-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-cards-api-openapi.yml
 - filename: treasury-prime-health-api-openapi.yml
   format: yaml
   label: Treasury Prime Health API
   slug: treasury-prime-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-health-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-health-api-openapi.yml
 - filename: treasury-prime-payments-api-openapi.yml
   format: yaml
   label: Treasury Prime Payments API
   slug: treasury-prime-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-payments-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-payments-api-openapi.yml
 - filename: treasury-prime-persons-api-openapi.yml
   format: yaml
   label: Treasury Prime Persons API
   slug: treasury-prime-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-persons-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-persons-api-openapi.yml
 - filename: treasury-prime-statements-api-openapi.yml
   format: yaml
   label: Treasury Prime Statements API
   slug: treasury-prime-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-statements-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-statements-api-openapi.yml
 - filename: treasury-prime-transactions-api-openapi.yml
   format: yaml
   label: Treasury Prime Transactions API
   slug: treasury-prime-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-transactions-api-openapi.yml
 - filename: treasury-prime-webhooks-api-openapi.yml
   format: yaml
   label: Treasury Prime Webhooks API
   slug: treasury-prime-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/openapi/treasury-prime-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/treasury-prime/openapi/treasury-prime-webhooks-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 21
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/treasu
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/statement\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/statement\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/treasury-prime/refs/heads/main/agentic-access/treasury-prime-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/treasury-prime/agentic-access/treasury-prime-agentic-access.yml
 summary_line: 38 operations · 17 acting
 tags:
 - Fintech

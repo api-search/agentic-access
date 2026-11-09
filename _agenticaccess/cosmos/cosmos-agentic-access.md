@@ -9,13 +9,13 @@ api_specs:
   label: Cosmos Query API
   slug: cosmos-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/openapi/cosmos-query-api-openapi.yml
+  url: https://artifacts.apis.io/cosmos/openapi/cosmos-query-api-openapi.yml
 - filename: cosmos-service-api-openapi.yml
   format: yaml
   label: Cosmos Service API
   slug: cosmos-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/openapi/cosmos-service-api-openapi.yml
+  url: https://artifacts.apis.io/cosmos/openapi/cosmos-service-api-openapi.yml
 consequence_counts:
   read: 103
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    audit: none\n- path: /cosmos/tx/v1beta1/txs\n  method: post\n  operationId: BroadcastTx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cosmos/tx/v1beta1/txs/block/{height}\n  method: get\n  operationId: GetBlockWithTxs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/tx/v1beta1/txs/{hash}\n  method: get\n  operationId: GetTx\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/upgrade/v1beta1/applied_plan/{name}\n  method: get\n  operationId: AppliedPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/upgrade/v1beta1/authority\n  method: get\n  operationId: Authority\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/upgrade/v1beta1/current_plan\n  method: get\n  operationId: CurrentPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/upgrade/v1beta1/module_versions\n  method: get\n  operationId: ModuleVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/upgrade/v1beta1/upgraded_consensus_state/{lastHeight}\n  method: get\n  operationId: UpgradedConsensusState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cosmos/refs/heads/main/agentic-access/cosmos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cosmos/agentic-access/cosmos-agentic-access.yml
 summary_line: 109 operations · 6 acting
 tags:
 - Blockchain

@@ -9,73 +9,73 @@ api_specs:
   label: Browserbase Contexts API
   slug: browserbase-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-contexts-api-openapi.yml
 - filename: browserbase-extensions-api-openapi.yml
   format: yaml
   label: Browserbase Extensions API
   slug: browserbase-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-extensions-api-openapi.yml
 - filename: browserbase-projects-api-openapi.yml
   format: yaml
   label: Browserbase Projects API
   slug: browserbase-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-projects-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-projects-api-openapi.yml
 - filename: browserbase-sessions-api-openapi.yml
   format: yaml
   label: Browserbase Sessions API
   slug: browserbase-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-sessions-api-openapi.yml
 - filename: browserbase-agents-api-openapi.yml
   format: yaml
   label: Browserbase Agents API
   slug: browserbase-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-agents-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-agents-api-openapi.yml
 - filename: browserbase-certificates-api-openapi.yml
   format: yaml
   label: Browserbase Certificates API
   slug: browserbase-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-certificates-api-openapi.yml
 - filename: browserbase-downloads-api-openapi.yml
   format: yaml
   label: Browserbase Downloads API
   slug: browserbase-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-downloads-api-openapi.yml
 - filename: browserbase-fetch-api-openapi.yml
   format: yaml
   label: Browserbase Fetch API
   slug: browserbase-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-fetch-api-openapi.yml
 - filename: browserbase-functions-api-openapi.yml
   format: yaml
   label: Browserbase Functions API
   slug: browserbase-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-functions-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-functions-api-openapi.yml
 - filename: browserbase-search-api-openapi.yml
   format: yaml
   label: Browserbase Search API
   slug: browserbase-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-search-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-search-api-openapi.yml
 - filename: browserbase-secrets-api-openapi.yml
   format: yaml
   label: Browserbase Secrets API
   slug: browserbase-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-secrets-api-openapi.yml
 - filename: browserbase-webhooks-api-openapi.yml
   format: yaml
   label: Browserbase Webhooks API
   slug: browserbase-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/openapi/browserbase-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/browserbase/openapi/browserbase-webhooks-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/browse
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{id}/downloads\n  method: get\n  operationId: getSessionDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{id}/debug\n  method: get\n  operationId: getSessionDebug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contexts\n  method: post\n  operationId: createContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contexts/{id}\n  method: get\n  operationId: getContext\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contexts/{id}\n  method: put\n  operationId: updateContext\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{id}/usage\n  method: get\n  operationId: getProjectUsage\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extensions\n  method: post\n  operationId: uploadExtension\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /extensions/{id}\n  method: get\n  operationId: getExtension\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /extensions/{id}\n  method: delete\n  operationId: deleteExtension\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserbase/refs/heads/main/agentic-access/browserbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/browserbase/agentic-access/browserbase-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Browser Automation

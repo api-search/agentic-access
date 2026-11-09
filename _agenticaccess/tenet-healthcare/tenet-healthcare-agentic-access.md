@@ -8,37 +8,37 @@ api_specs:
   label: Tenet Healthcare Appointments API
   slug: tenet-healthcare-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-appointments-api-openapi.yml
 - filename: tenet-healthcare-conditions-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Conditions API
   slug: tenet-healthcare-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-conditions-api-openapi.yml
 - filename: tenet-healthcare-documents-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Documents API
   slug: tenet-healthcare-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-documents-api-openapi.yml
 - filename: tenet-healthcare-medications-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Medications API
   slug: tenet-healthcare-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-medications-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-medications-api-openapi.yml
 - filename: tenet-healthcare-observations-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Observations API
   slug: tenet-healthcare-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-observations-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-observations-api-openapi.yml
 - filename: tenet-healthcare-patients-api-openapi.yml
   format: yaml
   label: Tenet Healthcare Patients API
   slug: tenet-healthcare-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/openapi/tenet-healthcare-patients-api-openapi.yml
+  url: https://artifacts.apis.io/tenet-healthcare/openapi/tenet-healthcare-patients-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tenet-healthcare-fhir-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /Patient/{id}\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Patient/{id}/Appointment\n  method: get\n  operationId: listPatientAppointments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Appointment\n  method: get\n  operationId: searchAppointments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Patient/{id}/Observation\n  method: get\n  operationId: listPatientObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Patient/{id}/Condition\n  method: get\n  operationId: listPatientConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Patient/{id}/MedicationRequest\n  method: get\n  operationId: listPatientMedications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n- path: /Patient/{id}/DocumentReference\n  method: get\n  operationId: listPatientDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/Appointment.read\n    - patient/Observation.read\n    - patient/Patient.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/agentic-access/tenet-healthcare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tenet-healthcare/agentic-access/tenet-healthcare-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Healthcare

@@ -9,37 +9,37 @@ api_specs:
   label: Xerox EULA API
   slug: xerox-eula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-eula-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-eula-api-openapi.yml
 - filename: xerox-jobs-api-openapi.yml
   format: yaml
   label: Xerox Jobs API
   slug: xerox-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-jobs-api-openapi.yml
 - filename: xerox-provider-types-api-openapi.yml
   format: yaml
   label: Xerox Provider Types API
   slug: xerox-provider-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-provider-types-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-provider-types-api-openapi.yml
 - filename: xerox-providers-api-openapi.yml
   format: yaml
   label: Xerox Providers API
   slug: xerox-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-providers-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-providers-api-openapi.yml
 - filename: xerox-sites-api-openapi.yml
   format: yaml
   label: Xerox Sites API
   slug: xerox-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-sites-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-sites-api-openapi.yml
 - filename: xerox-status-api-openapi.yml
   format: yaml
   label: Xerox Status API
   slug: xerox-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/openapi/xerox-status-api-openapi.yml
+  url: https://artifacts.apis.io/xerox/openapi/xerox-status-api-openapi.yml
 consequence_counts:
   read: 15
   write: 15
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xerox-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Sites/Favorite\n  method: delete\n  operationId: removeFavoriteSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Sites/Favorites\n  method: get\n  operationId: listFavoriteSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Sites/Sync\n  method: post\n  operationId: syncSites\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /Sites/UpdateSites\n  method: get\n  operationId: updateSitesFromProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Provider\n  method: put\n  operationId: createProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Provider\n  method: post\n  operationId: updateProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Provider\n  method: get\n  operationId: getProvider\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Provider/Delete\n  method: delete\n  operationId: deleteProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Provider/Search\n  method: get\n  operationId: searchProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/agentic-access/xerox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xerox/agentic-access/xerox-agentic-access.yml
 summary_line: 30 operations · 15 acting
 tags:
 - Document Management

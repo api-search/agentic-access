@@ -9,55 +9,55 @@ api_specs:
   label: Shopmonkey Appointments API
   slug: shopmonkey-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-appointments-api-openapi.yml
 - filename: shopmonkey-customers-api-openapi.yml
   format: yaml
   label: Shopmonkey Customers API
   slug: shopmonkey-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-customers-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-customers-api-openapi.yml
 - filename: shopmonkey-employees-api-openapi.yml
   format: yaml
   label: Shopmonkey Employees API
   slug: shopmonkey-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-employees-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-employees-api-openapi.yml
 - filename: shopmonkey-inventory-parts-api-openapi.yml
   format: yaml
   label: Shopmonkey Inventory & Parts API
   slug: shopmonkey-inventory-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-inventory-parts-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-inventory-parts-api-openapi.yml
 - filename: shopmonkey-invoices-payments-api-openapi.yml
   format: yaml
   label: Shopmonkey Invoices & Payments API
   slug: shopmonkey-invoices-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-invoices-payments-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-invoices-payments-api-openapi.yml
 - filename: shopmonkey-locations-api-openapi.yml
   format: yaml
   label: Shopmonkey Locations API
   slug: shopmonkey-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-locations-api-openapi.yml
 - filename: shopmonkey-vehicles-api-openapi.yml
   format: yaml
   label: Shopmonkey Vehicles API
   slug: shopmonkey-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-vehicles-api-openapi.yml
 - filename: shopmonkey-webhooks-api-openapi.yml
   format: yaml
   label: Shopmonkey Webhooks API
   slug: shopmonkey-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-webhooks-api-openapi.yml
 - filename: shopmonkey-work-orders-api-openapi.yml
   format: yaml
   label: Shopmonkey Work Orders API
   slug: shopmonkey-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/openapi/shopmonkey-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopmonkey/openapi/shopmonkey-work-orders-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 50
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shopmo
   \ /order/{orderId}/service/{id}\n  method: put\n  operationId: updateOrderService\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{orderId}/service/{id}\n  method: delete\n  operationId: deleteOrderService\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{orderId}/part\n  method: get\n  operationId: listOrderParts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/{orderId}/part\n  method: post\n  operationId: addOrderPart\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{orderId}/part_bulk\n  method: put\n  operationId: bulkUpdateOrderParts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customer/{id}/order\n  method: get\n  operationId: listCustomerOrders\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle/{id}/orders\n  method: get\n  operationId: listVehicleOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopmonkey/refs/heads/main/agentic-access/shopmonkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shopmonkey/agentic-access/shopmonkey-agentic-access.yml
 summary_line: 101 operations · 51 acting
 tags:
 - Auto Repair

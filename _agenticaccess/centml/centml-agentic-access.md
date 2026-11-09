@@ -9,31 +9,31 @@ api_specs:
   label: CentML Clusters API
   slug: centml-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-clusters-api-openapi.yml
 - filename: centml-completions-api-openapi.yml
   format: yaml
   label: CentML Completions API
   slug: centml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-completions-api-openapi.yml
 - filename: centml-deployments-api-openapi.yml
   format: yaml
   label: CentML Deployments API
   slug: centml-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-deployments-api-openapi.yml
 - filename: centml-models-api-openapi.yml
   format: yaml
   label: CentML Models API
   slug: centml-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-models-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-models-api-openapi.yml
 - filename: centml-chat-completions-api-openapi.yml
   format: yaml
   label: CentML Chat Completions API
   slug: centml-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/openapi/centml-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/centml/openapi/centml-chat-completions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 8
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/centml
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/inference\n  method: put\n  operationId: updateInferenceDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/inference/{deployment_id}\n  method: get\n  operationId: getInferenceDeployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/compute\n  method:\
   \ post\n  operationId: createComputeDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/status/{deployment_id}\n  method: get\n  operationId: getDeploymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/status/{deployment_id}\n  method: put\n  operationId: updateDeploymentStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n- path: /deployments/logs/{deployment_id}\n  method: get\n  operationId: getDeploymentLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters\n  method: get\n  operationId: getClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /capacity\n  method: get\n  operationId: listCapacity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/agentic-access/centml-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/centml/agentic-access/centml-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Artificial Intelligence

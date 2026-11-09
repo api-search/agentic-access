@@ -9,49 +9,49 @@ api_specs:
   label: SAP SuccessFactors EmpEmployment API
   slug: sap-successfactors-empemployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empemployment-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empemployment-api-openapi.yml
 - filename: sap-successfactors-empjob-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors EmpJob API
   slug: sap-successfactors-empjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empjob-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empjob-api-openapi.yml
 - filename: sap-successfactors-focompany-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors FOCompany API
   slug: sap-successfactors-focompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-focompany-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-focompany-api-openapi.yml
 - filename: sap-successfactors-perperson-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors PerPerson API
   slug: sap-successfactors-perperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-perperson-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-perperson-api-openapi.yml
 - filename: sap-successfactors-upsert-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors Upsert API
   slug: sap-successfactors-upsert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-upsert-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-upsert-api-openapi.yml
 - filename: sap-successfactors-user-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User API
   slug: sap-successfactors-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-api-openapi.yml
 - filename: sap-successfactors-user-userid-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User('{userId}') API
   slug: sap-successfactors-user-userid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-userid-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-userid-api-openapi.yml
 - filename: sap-successfactors-oauth-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors OAUTH API
   slug: sap-successfactors-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-oauth-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-successfactors-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    acting: 3\n    connected: 6\n  by_consequence:\n    write: 3\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /oauth/token\n  method: post\n  operationId: getOAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /User\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /User('{userId}')\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PerPerson\n  method: get\n  operationId: listPerPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EmpEmployment\n  method: get\n  operationId: listEmpEmployment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /EmpEmployment\n  method: post\n  operationId: createEmpEmployment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /EmpJob\n  method: get\n  operationId: listEmpJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /FOCompany\n  method: get\n  operationId: listFOCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /upsert\n  method: post\n  operationId: upsertEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/agentic-access/sap-successfactors-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-successfactors/agentic-access/sap-successfactors-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - HCM

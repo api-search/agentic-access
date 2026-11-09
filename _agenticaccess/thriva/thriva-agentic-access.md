@@ -9,61 +9,61 @@ api_specs:
   label: Thriva Appointments API
   slug: thriva-appointments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-appointments-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-appointments-api-api-openapi.yml
 - filename: thriva-auth-api-api-openapi.yml
   format: yaml
   label: Thriva Auth API
   slug: thriva-auth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-auth-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-auth-api-api-openapi.yml
 - filename: thriva-biomarkers-api-api-openapi.yml
   format: yaml
   label: Thriva Biomarkers API
   slug: thriva-biomarkers-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-biomarkers-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-biomarkers-api-api-openapi.yml
 - filename: thriva-bulk-orders-api-api-openapi.yml
   format: yaml
   label: Thriva Bulk Orders API
   slug: thriva-bulk-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-bulk-orders-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-bulk-orders-api-api-openapi.yml
 - filename: thriva-escalations-api-api-openapi.yml
   format: yaml
   label: Thriva Escalations API
   slug: thriva-escalations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-escalations-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-escalations-api-api-openapi.yml
 - filename: thriva-orders-api-api-openapi.yml
   format: yaml
   label: Thriva Orders API
   slug: thriva-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-orders-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-orders-api-api-openapi.yml
 - filename: thriva-result-attachments-api-api-openapi.yml
   format: yaml
   label: Thriva Result attachments API
   slug: thriva-result-attachments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-result-attachments-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-result-attachments-api-api-openapi.yml
 - filename: thriva-results-api-api-openapi.yml
   format: yaml
   label: Thriva Results API
   slug: thriva-results-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-results-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-results-api-api-openapi.yml
 - filename: thriva-tracking-api-api-openapi.yml
   format: yaml
   label: Thriva Tracking API
   slug: thriva-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-tracking-api-api-openapi.yml
 - filename: thriva-users-api-api-openapi.yml
   format: yaml
   label: Thriva Users API
   slug: thriva-users-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/openapi/thriva-users-api-api-openapi.yml
+  url: https://artifacts.apis.io/thriva/openapi/thriva-users-api-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 18
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/thriva
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{user_id}/invitations\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/result-sets/{result_set_id}/attachments\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/result-sets/{result_set_id}/attachments/{attachment_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/appointments\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/appointments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/appointments/{appointment_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tracking/{tracking_code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thriva/refs/heads/main/agentic-access/thriva-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thriva/agentic-access/thriva-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - Company

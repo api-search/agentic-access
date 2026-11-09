@@ -9,25 +9,25 @@ api_specs:
   label: AWS App Mesh Meshes API
   slug: aws-app-mesh-meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-meshes-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-meshes-api-openapi.yml
 - filename: aws-app-mesh-tag-api-openapi.yml
   format: yaml
   label: AWS App Mesh Tag API
   slug: aws-app-mesh-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tag-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-tag-api-openapi.yml
 - filename: aws-app-mesh-tags-api-openapi.yml
   format: yaml
   label: AWS App Mesh Tags API
   slug: aws-app-mesh-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-tags-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-tags-api-openapi.yml
 - filename: aws-app-mesh-untag-api-openapi.yml
   format: yaml
   label: AWS App Mesh Untag API
   slug: aws-app-mesh-untag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/openapi/aws-app-mesh-untag-api-openapi.yml
+  url: https://artifacts.apis.io/aws-app-mesh/openapi/aws-app-mesh-untag-api-openapi.yml
 consequence_counts:
   read: 15
   write: 23
@@ -67,9 +67,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-ap
   \  method: put\n  operationId: UpdateVirtualRouter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v20190125/meshes/{meshName}/virtualServices/{virtualServiceName}\n  method: delete\n  operationId: DeleteVirtualService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v20190125/meshes/{meshName}/virtualServices/{virtualServiceName}\n  method: get\n  operationId: DescribeVirtualService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v20190125/meshes/{meshName}/virtualServices/{virtualServiceName}\n  method: put\n  operationId: UpdateVirtualService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v20190125/tags#resourceArn\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v20190125/tag#resourceArn\n  method: put\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v20190125/untag#resourceArn\n  method: put\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/agentic-access/aws-app-mesh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-app-mesh/agentic-access/aws-app-mesh-agentic-access.yml
 summary_line: 38 operations · 23 acting
 tags:
+- Amazon Web Services
 - Deprecated
 - Envoy
 - Microservices

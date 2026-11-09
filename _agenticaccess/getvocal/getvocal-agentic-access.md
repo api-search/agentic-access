@@ -8,19 +8,19 @@ api_specs:
   label: GetVocal Contact API
   slug: getvocal-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-contact-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-contact-api-openapi.yml
 - filename: getvocal-llms-txt-api-openapi.yml
   format: yaml
   label: GetVocal Llms.txt API
   slug: getvocal-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-llms-txt-api-openapi.yml
 - filename: getvocal-well-known-api-openapi.yml
   format: yaml
   label: GetVocal .well Known API
   slug: getvocal-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/openapi/getvocal-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/getvocal/openapi/getvocal-well-known-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/getvocal-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /llms.txt\n  method: get\n  operationId: getLlmsTxt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/mcp.json\n  method: get\n  operationId: getMcpManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contact/demo\n  method: get\n  operationId: bookDemo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getvocal/refs/heads/main/agentic-access/getvocal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/getvocal/agentic-access/getvocal-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Company

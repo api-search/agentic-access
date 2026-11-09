@@ -9,115 +9,115 @@ api_specs:
   label: AgentMesh A2a API
   slug: agentmesh-link-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-a2a-api-openapi.yml
 - filename: agentmesh-link-account-api-openapi.yml
   format: yaml
   label: AgentMesh Account API
   slug: agentmesh-link-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-account-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-account-api-openapi.yml
 - filename: agentmesh-link-admin-api-openapi.yml
   format: yaml
   label: AgentMesh Admin API
   slug: agentmesh-link-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-admin-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-admin-api-openapi.yml
 - filename: agentmesh-link-agents-api-openapi.yml
   format: yaml
   label: AgentMesh Agents API
   slug: agentmesh-link-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-agents-api-openapi.yml
 - filename: agentmesh-link-alpha-web-api-openapi.yml
   format: yaml
   label: AgentMesh Alpha Web API
   slug: agentmesh-link-alpha-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-alpha-web-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-alpha-web-api-openapi.yml
 - filename: agentmesh-link-billing-api-openapi.yml
   format: yaml
   label: AgentMesh Billing API
   slug: agentmesh-link-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-billing-api-openapi.yml
 - filename: agentmesh-link-discover-api-openapi.yml
   format: yaml
   label: AgentMesh Discover API
   slug: agentmesh-link-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-discover-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-discover-api-openapi.yml
 - filename: agentmesh-link-health-api-openapi.yml
   format: yaml
   label: AgentMesh Health API
   slug: agentmesh-link-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-health-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-health-api-openapi.yml
 - filename: agentmesh-link-knowledge-api-openapi.yml
   format: yaml
   label: AgentMesh Knowledge API
   slug: agentmesh-link-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-knowledge-api-openapi.yml
 - filename: agentmesh-link-knowledge-v90-api-openapi.yml
   format: yaml
   label: AgentMesh Knowledge V90 API
   slug: agentmesh-link-knowledge-v90-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-knowledge-v90-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-knowledge-v90-api-openapi.yml
 - filename: agentmesh-link-m2m-api-openapi.yml
   format: yaml
   label: AgentMesh M2m API
   slug: agentmesh-link-m2m-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-m2m-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-m2m-api-openapi.yml
 - filename: agentmesh-link-messages-api-openapi.yml
   format: yaml
   label: AgentMesh Messages API
   slug: agentmesh-link-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-messages-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-messages-api-openapi.yml
 - filename: agentmesh-link-network-api-openapi.yml
   format: yaml
   label: AgentMesh Network API
   slug: agentmesh-link-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-network-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-network-api-openapi.yml
 - filename: agentmesh-link-search-api-openapi.yml
   format: yaml
   label: AgentMesh Search API
   slug: agentmesh-link-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-search-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-search-api-openapi.yml
 - filename: agentmesh-link-stats-api-openapi.yml
   format: yaml
   label: AgentMesh Stats API
   slug: agentmesh-link-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-stats-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-stats-api-openapi.yml
 - filename: agentmesh-link-tasks-api-openapi.yml
   format: yaml
   label: AgentMesh Tasks API
   slug: agentmesh-link-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-tasks-api-openapi.yml
 - filename: agentmesh-link-user-knowledge-api-openapi.yml
   format: yaml
   label: AgentMesh User Knowledge API
   slug: agentmesh-link-user-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-user-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-user-knowledge-api-openapi.yml
 - filename: agentmesh-link-users-api-openapi.yml
   format: yaml
   label: AgentMesh Users API
   slug: agentmesh-link-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-users-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-users-api-openapi.yml
 - filename: agentmesh-link-well-known-api-openapi.yml
   format: yaml
   label: AgentMesh .well Known API
   slug: agentmesh-link-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/openapi/agentmesh-link-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/agentmesh-link/openapi/agentmesh-link-well-known-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 23
@@ -184,7 +184,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/agentm
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/orchestrate\n  method: post\n  operationId: orchestrate_multi_agent_v1_tasks_orchestrate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/m2m/sequence\n  method: post\n  operationId: m2m_sequence_v1_m2m_sequence_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/m2m/dispatch\n  method: post\n  operationId:\
   \ m2m_dispatch_v1_m2m_dispatch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/tasks/route-v7\n  method: post\n  operationId: route_v7_v1_tasks_route_v7_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/route-v90-memory\n  method: post\n  operationId: route_v90_memory_v1_tasks_route_v90_memory_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /a2a\n  method: get\n  operationId: a2a_info_a2a_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a2a\n  method: post\n  operationId: a2a_endpoint_a2a_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentmesh-link/refs/heads/main/agentic-access/agentmesh-link-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentmesh-link/agentic-access/agentmesh-link-agentic-access.yml
 summary_line: 48 operations · 25 acting · 1 human-in-the-loop
 tags:
 - AI Agents

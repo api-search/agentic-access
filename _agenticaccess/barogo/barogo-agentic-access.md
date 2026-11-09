@@ -9,31 +9,31 @@ api_specs:
   label: Barogo Areas API
   slug: barogo-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/openapi/barogo-areas-api-openapi.yml
+  url: https://artifacts.apis.io/barogo/openapi/barogo-areas-api-openapi.yml
 - filename: barogo-delivery-api-openapi.yml
   format: yaml
   label: Barogo Delivery API
   slug: barogo-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/openapi/barogo-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/barogo/openapi/barogo-delivery-api-openapi.yml
 - filename: barogo-deposits-api-openapi.yml
   format: yaml
   label: Barogo Deposits API
   slug: barogo-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/openapi/barogo-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/barogo/openapi/barogo-deposits-api-openapi.yml
 - filename: barogo-orders-api-openapi.yml
   format: yaml
   label: Barogo Orders API
   slug: barogo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/openapi/barogo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/barogo/openapi/barogo-orders-api-openapi.yml
 - filename: barogo-stores-api-openapi.yml
   format: yaml
   label: Barogo Stores API
   slug: barogo-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/openapi/barogo-stores-api-openapi.yml
+  url: https://artifacts.apis.io/barogo/openapi/barogo-stores-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 7
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: generated\nsource: openapi/barogo
   \ /api/orders/{orderAgencyOrderId}/prepare-complete\n  method: post\n  operationId: markOrderPrepareComplete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/orders/{orderAgencyOrderId}/status/cancel\n  method: put\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/store-mapping\n  method: post\n  operationId: createStoreMapping\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/store-mapping/pause\n  method: put\n  operationId: pauseStoreMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/store-mapping/{orderAgencyStoreId}\n  method: get\n  operationId: getStoreMapping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stores\n  method: get\n  operationId: listStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barogo/refs/heads/main/agentic-access/barogo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/barogo/agentic-access/barogo-agentic-access.yml
 summary_line: 21 operations · 14 acting
 tags:
 - Company

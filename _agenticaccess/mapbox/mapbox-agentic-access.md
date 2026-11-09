@@ -9,19 +9,19 @@ api_specs:
   label: Mapbox Activity API
   slug: mapbox-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-activity-api-openapi.yml
+  url: https://artifacts.apis.io/mapbox/openapi/mapbox-activity-api-openapi.yml
 - filename: mapbox-mapbox-tiling-service-api-api-openapi.yml
   format: yaml
   label: Mapbox Tiling Service API
   slug: mapbox-mapbox-tiling-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-mapbox-tiling-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/mapbox/openapi/mapbox-mapbox-tiling-service-api-api-openapi.yml
 - filename: mapbox-tilesets-api-openapi.yml
   format: yaml
   label: Mapbox Tilesets API
   slug: mapbox-tilesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/openapi/mapbox-tilesets-api-openapi.yml
+  url: https://artifacts.apis.io/mapbox/openapi/mapbox-tilesets-api-openapi.yml
 consequence_counts:
   read: 9
   write: 14
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mapbox
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tilesets/v1/{tileset_id}/jobs\n  method: get\n  operationId: listTilesetJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tilesets/v1/{tileset_id}/jobs/{job_id}\n  method: get\n  operationId: getTilesetJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tilesets/v1/queue\n  method: put\n  operationId: getQueueStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tilesets/v1/validateRecipe\n  method: put\n  operationId: validateRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tilesets/v1/{tileset_id}/recipe\n  method: get\n  operationId: getTilesetRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tilesets/v1/{tileset_id}/recipe\n  method: patch\n  operationId: updateTilesetRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /tilesets/v1/{username}\n  method: get\n  operationId: listTilesets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/{tileset_id}.json\n  method: get\n  operationId: getTilesetTileJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activity/v1/{username}/tilesets\n  method: get\n  operationId: getTilesetActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mapbox/refs/heads/main/agentic-access/mapbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mapbox/agentic-access/mapbox-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Mapping

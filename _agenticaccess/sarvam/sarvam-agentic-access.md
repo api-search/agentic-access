@@ -9,49 +9,49 @@ api_specs:
   label: Sarvam Pronunciation Dictionary API
   slug: sarvam-pronunciationdictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-pronunciationdictionary-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-pronunciationdictionary-api-openapi.yml
 - filename: sarvam-speechtotextjob-api-openapi.yml
   format: yaml
   label: Sarvam Speech To Text Job API
   slug: sarvam-speechtotextjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speechtotextjob-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-speechtotextjob-api-openapi.yml
 - filename: sarvam-speechtotexttranslatejob-api-openapi.yml
   format: yaml
   label: Sarvam Speech To Text Translate Job API
   slug: sarvam-speechtotexttranslatejob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speechtotexttranslatejob-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-speechtotexttranslatejob-api-openapi.yml
 - filename: sarvam-text-api-openapi.yml
   format: yaml
   label: Sarvam Text API
   slug: sarvam-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-text-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-text-api-openapi.yml
 - filename: sarvam-chat-completions-api-openapi.yml
   format: yaml
   label: Sarvam Chat Completions API
   slug: sarvam-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-chat-completions-api-openapi.yml
 - filename: sarvam-document-intelligence-api-openapi.yml
   format: yaml
   label: Sarvam Document Intelligence API
   slug: sarvam-document-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-document-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-document-intelligence-api-openapi.yml
 - filename: sarvam-speech-to-text-api-openapi.yml
   format: yaml
   label: Sarvam Speech To Text API
   slug: sarvam-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-speech-to-text-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-speech-to-text-api-openapi.yml
 - filename: sarvam-text-to-speech-api-openapi.yml
   format: yaml
   label: Sarvam Text To Speech API
   slug: sarvam-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/openapi/sarvam-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/sarvam/openapi/sarvam-text-to-speech-api-openapi.yml
 consequence_counts:
   read: 8
   write: 20
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sarvam
   - path: /speech-to-text-translate/job/v1/upload-files\n  method: post\n  operationId: get-upload-links\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /speech-to-text-translate/job/v1/{job_id}/start\n  method: post\n  operationId: start\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /speech-to-text-translate/job/v1/{job_id}/status\n  method: get\n  operationId: get-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /speech-to-text-translate/job/v1/download-files\n  method: post\n  operationId: get-download-links\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /translate\n  method: post\n  operationId: translate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transliterate\n  method: post\n  operationId: transliterate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text-lid\n  method: post\n  operationId: identify-language\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text-to-speech\n  method: post\n  operationId: convert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /text-to-speech/stream\n  method: post\n  operationId: convert-stream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sarvam/refs/heads/main/agentic-access/sarvam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sarvam/agentic-access/sarvam-agentic-access.yml
 summary_line: 28 operations · 20 acting
 tags:
 - Company

@@ -9,91 +9,91 @@ api_specs:
   label: Push Account API
   slug: push-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-account-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-account-api-openapi.yml
 - filename: push-audience-list-api-openapi.yml
   format: yaml
   label: Push Audience List API
   slug: push-audience-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-audience-list-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-audience-list-api-openapi.yml
 - filename: push-campaigns-api-openapi.yml
   format: yaml
   label: Push Campaigns API
   slug: push-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-campaigns-api-openapi.yml
 - filename: push-company-api-openapi.yml
   format: yaml
   label: Push Company API
   slug: push-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-company-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-company-api-openapi.yml
 - filename: push-company-custom-fields-api-openapi.yml
   format: yaml
   label: Push Company custom fields API
   slug: push-company-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-company-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-company-custom-fields-api-openapi.yml
 - filename: push-contact-api-openapi.yml
   format: yaml
   label: Push Contact API
   slug: push-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-contact-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-contact-api-openapi.yml
 - filename: push-contact-custom-fields-api-openapi.yml
   format: yaml
   label: Push Contact Custom fields API
   slug: push-contact-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-contact-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-contact-custom-fields-api-openapi.yml
 - filename: push-coupon-lists-api-openapi.yml
   format: yaml
   label: Push Coupon lists API
   slug: push-coupon-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-coupon-lists-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-coupon-lists-api-openapi.yml
 - filename: push-deliveries-api-openapi.yml
   format: yaml
   label: Push Deliveries API
   slug: push-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-deliveries-api-openapi.yml
 - filename: push-hotel-data-api-openapi.yml
   format: yaml
   label: Push Hotel Data API
   slug: push-hotel-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-hotel-data-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-hotel-data-api-openapi.yml
 - filename: push-hotel-data-custom-fields-api-openapi.yml
   format: yaml
   label: Push Hotel Data custom fields API
   slug: push-hotel-data-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-hotel-data-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-hotel-data-custom-fields-api-openapi.yml
 - filename: push-product-api-openapi.yml
   format: yaml
   label: Push Product API
   slug: push-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-product-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-product-api-openapi.yml
 - filename: push-product-custom-fields-api-openapi.yml
   format: yaml
   label: Push Product custom fields API
   slug: push-product-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-product-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-product-custom-fields-api-openapi.yml
 - filename: push-purchase-api-openapi.yml
   format: yaml
   label: Push Purchase API
   slug: push-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-purchase-api-openapi.yml
 - filename: push-sync-data-api-openapi.yml
   format: yaml
   label: Push Sync Data API
   slug: push-sync-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/openapi/push-sync-data-api-openapi.yml
+  url: https://artifacts.apis.io/push/openapi/push-sync-data-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 26
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/push-c
   \  method: get\n  operationId: showDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/account/{account_id}/deliveries\n  method: get\n  operationId: listDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/account/{account_id}/lists\n  method: post\n  operationId: createAudienceList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/{account_id}/lists\n  method: get\n  operationId: listAudienceList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /v2/account/{account_id}/lists/{id}\n  method: get\n  operationId: showAudienceList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/account/{account_id}/lists/{id}\n  method: put\n  operationId: updateAudienceList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/account/{account_id}/lists/{id}\n  method: delete\n  operationId: deleteAudienceList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/push/refs/heads/main/agentic-access/push-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/push/agentic-access/push-agentic-access.yml
 summary_line: 67 operations · 41 acting
 tags:
 - Company

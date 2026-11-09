@@ -9,115 +9,115 @@ api_specs:
   label: Uber Codes API
   slug: uber-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-codes-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-codes-api-openapi.yml
 - filename: uber-deliveries-api-openapi.yml
   format: yaml
   label: Uber Deliveries API
   slug: uber-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-deliveries-api-openapi.yml
 - filename: uber-estimates-api-openapi.yml
   format: yaml
   label: Uber Estimates API
   slug: uber-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-estimates-api-openapi.yml
 - filename: uber-locations-api-openapi.yml
   format: yaml
   label: Uber Locations API
   slug: uber-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-locations-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-locations-api-openapi.yml
 - filename: uber-menus-api-openapi.yml
   format: yaml
   label: Uber Menus API
   slug: uber-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-menus-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-menus-api-openapi.yml
 - filename: uber-orders-api-openapi.yml
   format: yaml
   label: Uber Orders API
   slug: uber-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-orders-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-orders-api-openapi.yml
 - filename: uber-organizations-api-openapi.yml
   format: yaml
   label: Uber Organizations API
   slug: uber-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-organizations-api-openapi.yml
 - filename: uber-partners-api-openapi.yml
   format: yaml
   label: Uber Partners API
   slug: uber-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-partners-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-partners-api-openapi.yml
 - filename: uber-places-api-openapi.yml
   format: yaml
   label: Uber Places API
   slug: uber-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-places-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-places-api-openapi.yml
 - filename: uber-products-api-openapi.yml
   format: yaml
   label: Uber Products API
   slug: uber-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-products-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-products-api-openapi.yml
 - filename: uber-programs-api-openapi.yml
   format: yaml
   label: Uber Programs API
   slug: uber-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-programs-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-programs-api-openapi.yml
 - filename: uber-redemption-api-openapi.yml
   format: yaml
   label: Uber Redemption API
   slug: uber-redemption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-redemption-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-redemption-api-openapi.yml
 - filename: uber-refunds-api-openapi.yml
   format: yaml
   label: Uber Refunds API
   slug: uber-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-refunds-api-openapi.yml
 - filename: uber-reporting-api-openapi.yml
   format: yaml
   label: Uber Reporting API
   slug: uber-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-reporting-api-openapi.yml
 - filename: uber-requests-api-openapi.yml
   format: yaml
   label: Uber Requests API
   slug: uber-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-requests-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-requests-api-openapi.yml
 - filename: uber-riders-api-openapi.yml
   format: yaml
   label: Uber Riders API
   slug: uber-riders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-riders-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-riders-api-openapi.yml
 - filename: uber-stores-api-openapi.yml
   format: yaml
   label: Uber Stores API
   slug: uber-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-stores-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-stores-api-openapi.yml
 - filename: uber-templates-api-openapi.yml
   format: yaml
   label: Uber Templates API
   slug: uber-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-templates-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-templates-api-openapi.yml
 - filename: uber-trips-api-openapi.yml
   format: yaml
   label: Uber Trips API
   slug: uber-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/openapi/uber-trips-api-openapi.yml
+  url: https://artifacts.apis.io/uber/openapi/uber-trips-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 32
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uber-c
   \    audit: required\n- path: /history\n  method: get\n  operationId: getRideHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eats/stores\n  method: get\n  operationId: listStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eats/stores/{store_id}\n  method: get\n  operationId: getStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eats/stores/{store_id}\n  method: patch\n  operationId: updateStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /eats/stores/{store_id}/status\n  method: put\n  operationId: updateStoreStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /voucher-program-templates\n  method: get\n  operationId: listVoucherTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voucher-program-templates\n  method: post\n  operationId: createVoucherTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /business/trips/{trip_id}/invoice_urls\n\
   \  method: get\n  operationId: getTripInvoiceUrls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/trips/{trip_id}/receipt\n  method: get\n  operationId: getTripReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business/trips/{trip_id}/receipt/pdf_url\n  method: get\n  operationId: getTripReceiptPdfUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/agentic-access/uber-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uber/agentic-access/uber-agentic-access.yml
 summary_line: 57 operations · 25 acting
 tags:
 - Ride Hailing

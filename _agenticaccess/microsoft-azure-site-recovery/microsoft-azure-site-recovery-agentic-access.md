@@ -4,18 +4,198 @@ action_class_counts:
   acting: 10
   connected: 5
 api_specs:
-- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
-  format: yaml
-  label: Azure Site Recovery RecoveryPlans API
-  slug: microsoft-azure-site-recovery-recoveryplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 - filename: microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
   format: yaml
   label: Azure Site Recovery ReplicationProtectedItems API
   slug: microsoft-azure-site-recovery-replicationprotecteditems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
+- filename: microsoft-azure-site-recovery-clusterrecoverypoint-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Cluster Recovery Point API
+  slug: microsoft-azure-site-recovery-clusterrecoverypoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-clusterrecoverypoint-api-openapi.yml
+- filename: microsoft-azure-site-recovery-clusterrecoverypoints-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Cluster Recovery Points API
+  slug: microsoft-azure-site-recovery-clusterrecoverypoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-clusterrecoverypoints-api-openapi.yml
+- filename: microsoft-azure-site-recovery-migrationrecoverypoints-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Migration Recovery Points API
+  slug: microsoft-azure-site-recovery-migrationrecoverypoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-migrationrecoverypoints-api-openapi.yml
+- filename: microsoft-azure-site-recovery-operations-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Operations API
+  slug: microsoft-azure-site-recovery-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-operations-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationalertsettings-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Alert Settings API
+  slug: microsoft-azure-site-recovery-replicationalertsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationalertsettings-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationappliances-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Appliances API
+  slug: microsoft-azure-site-recovery-replicationappliances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationappliances-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationeligibilityresults-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Eligibility Results API
+  slug: microsoft-azure-site-recovery-replicationeligibilityresults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationeligibilityresults-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationevents-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Events API
+  slug: microsoft-azure-site-recovery-replicationevents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationevents-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationfabrics-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Fabrics API
+  slug: microsoft-azure-site-recovery-replicationfabrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationfabrics-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationjobs-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Jobs API
+  slug: microsoft-azure-site-recovery-replicationjobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationjobs-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationlogicalnetworks-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Logical Networks API
+  slug: microsoft-azure-site-recovery-replicationlogicalnetworks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationlogicalnetworks-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationmigrationitems-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Migration Items API
+  slug: microsoft-azure-site-recovery-replicationmigrationitems-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationmigrationitems-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationnetworkmappings-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Network Mappings API
+  slug: microsoft-azure-site-recovery-replicationnetworkmappings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationnetworkmappings-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationnetworks-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Networks API
+  slug: microsoft-azure-site-recovery-replicationnetworks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationnetworks-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationprotectableitems-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Protectable Items API
+  slug: microsoft-azure-site-recovery-replicationprotectableitems-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotectableitems-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationprotectionclusters-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Protection Clusters API
+  slug: microsoft-azure-site-recovery-replicationprotectionclusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotectionclusters-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationprotectioncontainermappings-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Protection Container Mappings API
+  slug: microsoft-azure-site-recovery-replicationprotectioncontainermappings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotectioncontainermappings-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationprotectioncontainers-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Protection Containers API
+  slug: microsoft-azure-site-recovery-replicationprotectioncontainers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotectioncontainers-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationprotectionintents-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Protection Intents API
+  slug: microsoft-azure-site-recovery-replicationprotectionintents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationprotectionintents-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationrecoveryplans-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Recovery Plans API
+  slug: microsoft-azure-site-recovery-replicationrecoveryplans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationrecoveryplans-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationrecoveryservicesproviders-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Recovery Services Providers API
+  slug: microsoft-azure-site-recovery-replicationrecoveryservicesproviders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationrecoveryservicesproviders-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationstorageclassificationmappings-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Storage Classification Mappings API
+  slug: microsoft-azure-site-recovery-replicationstorageclassificationmappings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationstorageclassificationmappings-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationstorageclassifications-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Storage Classifications API
+  slug: microsoft-azure-site-recovery-replicationstorageclassifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationstorageclassifications-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationvaulthealth-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Vault Health API
+  slug: microsoft-azure-site-recovery-replicationvaulthealth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationvaulthealth-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationvaultsetting-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Vault Setting API
+  slug: microsoft-azure-site-recovery-replicationvaultsetting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationvaultsetting-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replicationvcenters-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replicationv Centers API
+  slug: microsoft-azure-site-recovery-replicationvcenters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replicationvcenters-api-openapi.yml
+- filename: microsoft-azure-site-recovery-supportedoperatingsystems-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Supported Operating Systems API
+  slug: microsoft-azure-site-recovery-supportedoperatingsystems-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-supportedoperatingsystems-api-openapi.yml
+- filename: microsoft-azure-site-recovery-targetcomputesizes-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Target Compute Sizes API
+  slug: microsoft-azure-site-recovery-targetcomputesizes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-targetcomputesizes-api-openapi.yml
+- filename: microsoft-azure-site-recovery-recovery-points-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Recovery Points API
+  slug: microsoft-azure-site-recovery-recovery-points-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recovery-points-api-openapi.yml
+- filename: microsoft-azure-site-recovery-replication-policies-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Replication Policies API
+  slug: microsoft-azure-site-recovery-replication-policies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replication-policies-api-openapi.yml
+- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
+  format: yaml
+  label: Azure Site Recovery Recovery Plans API
+  slug: microsoft-azure-site-recovery-recoveryplans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 1
@@ -59,11 +239,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{protectionContainerName}/replicationProtectedItems/{replicatedProtectedItemName}/reProtect\n  method: post\n  operationId: replicationProtectedItems_reprotect\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationProtectedItems\n  method: get\n  operationId: replicationProtectedItems_list\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans\n  method: get\n  operationId: recoveryPlans_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}\n  method: get\n  operationId: recoveryPlans_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}\n\
   \  method: put\n  operationId: recoveryPlans_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationRecoveryPlans/{recoveryPlanName}\n  method: delete\n  operationId: recoveryPlans_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/agentic-access/microsoft-azure-site-recovery-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-site-recovery/agentic-access/microsoft-azure-site-recovery-agentic-access.yml
 summary_line: 15 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Disaster Recovery
 - Replication
 - Business Continuity
 - Failover
+- Microsoft Azure
+- Azure Resource Manager
 ---

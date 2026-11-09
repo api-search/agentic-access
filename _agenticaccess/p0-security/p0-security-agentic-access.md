@@ -8,13 +8,13 @@ api_specs:
   label: P0 Security Command API
   slug: p0-security-command-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-command-api-openapi.yml
+  url: https://artifacts.apis.io/p0-security/openapi/p0-security-command-api-openapi.yml
 - filename: p0-security-permission-requests-api-openapi.yml
   format: yaml
   label: P0 Security Permission Requests API
   slug: p0-security-permission-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/openapi/p0-security-permission-requests-api-openapi.yml
+  url: https://artifacts.apis.io/p0-security/openapi/p0-security-permission-requests-api-openapi.yml
 consequence_counts:
   safety-critical: 1
   write: 3
@@ -51,7 +51,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/p0-security-jit-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 3\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /o/{orgId}/command\n  method: post\n  operationId: submitCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /o/{orgId}/permission-requests/{requestId}/approve\n  method: post\n  operationId: approveRequest\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /o/{orgId}/permission-requests/{requestId}/deny\n  method: post\n  operationId: denyRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /o/{orgId}/permission-requests/{requestId}/revoke\n  method: post\n  operationId: revokeRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n \
   \     human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/p0-security/refs/heads/main/agentic-access/p0-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/p0-security/agentic-access/p0-security-agentic-access.yml
 summary_line: 4 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Company

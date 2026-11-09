@@ -9,49 +9,49 @@ api_specs:
   label: Haystack / deepset Files API
   slug: haystack-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-files-api-openapi.yml
 - filename: haystack-ai-pipelines-api-openapi.yml
   format: yaml
   label: Haystack / deepset Pipelines API
   slug: haystack-ai-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-pipelines-api-openapi.yml
 - filename: haystack-ai-search-api-openapi.yml
   format: yaml
   label: Haystack / deepset Search API
   slug: haystack-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-search-api-openapi.yml
 - filename: haystack-ai-workspaces-api-openapi.yml
   format: yaml
   label: Haystack / deepset Workspaces API
   slug: haystack-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-workspaces-api-openapi.yml
 - filename: haystack-ai-config-api-openapi.yml
   format: yaml
   label: Haystack / deepset Config API
   slug: haystack-ai-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-config-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-config-api-openapi.yml
 - filename: haystack-ai-dashboard-api-openapi.yml
   format: yaml
   label: Haystack / deepset Dashboard API
   slug: haystack-ai-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-dashboard-api-openapi.yml
 - filename: haystack-ai-openai-api-openapi.yml
   format: yaml
   label: Haystack / deepset Openai API
   slug: haystack-ai-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-openai-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-openai-api-openapi.yml
 - filename: haystack-ai-status-api-openapi.yml
   format: yaml
   label: Haystack / deepset Status API
   slug: haystack-ai-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/openapi/haystack-ai-status-api-openapi.yml
+  url: https://artifacts.apis.io/haystack-ai/openapi/haystack-ai-status-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/haysta
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_name}/pipelines/{pipeline_name}/undeploy\n  method: post\n  operationId: undeployPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_name}/pipelines/{pipeline_name}/search\n  method: post\n  operationId: searchPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: status_all\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/{pipeline_name}\n  method: get\n  operationId: status_pipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces\n  method: post\n  operationId: createWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workspaces/{workspace_name}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workspaces/{workspace_name}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/haystack-ai/refs/heads/main/agentic-access/haystack-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/haystack-ai/agentic-access/haystack-ai-agentic-access.yml
 summary_line: 37 operations · 21 acting
 tags:
 - Artificial Intelligence

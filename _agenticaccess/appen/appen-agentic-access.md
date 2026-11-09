@@ -9,43 +9,43 @@ api_specs:
   label: Appen Download API
   slug: appen-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-download-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-download-api-openapi.yml
 - filename: appen-internal-contributors-api-openapi.yml
   format: yaml
   label: Appen Internal Contributors API
   slug: appen-internal-contributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-internal-contributors-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-internal-contributors-api-openapi.yml
 - filename: appen-jobs-api-openapi.yml
   format: yaml
   label: Appen Jobs API
   slug: appen-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-jobs-api-openapi.yml
 - filename: appen-projects-api-openapi.yml
   format: yaml
   label: Appen Projects API
   slug: appen-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-projects-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-projects-api-openapi.yml
 - filename: appen-route-units-api-openapi.yml
   format: yaml
   label: Appen Route Units API
   slug: appen-route-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-route-units-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-route-units-api-openapi.yml
 - filename: appen-test-questions-api-openapi.yml
   format: yaml
   label: Appen Test Questions API
   slug: appen-test-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-test-questions-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-test-questions-api-openapi.yml
 - filename: appen-upload-api-openapi.yml
   format: yaml
   label: Appen Upload API
   slug: appen-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/openapi/appen-upload-api-openapi.yml
+  url: https://artifacts.apis.io/appen/openapi/appen-upload-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/appen-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/add-contributors-to-existing-group\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/list-all-contributor-groups\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/assign-job\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/un-assign-job\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/delete-contributor\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/delete-contributor-group\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/project-flow/projects/internalcontributor/download-contributors\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appen/refs/heads/main/agentic-access/appen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/appen/agentic-access/appen-agentic-access.yml
 summary_line: 32 operations · 28 acting
 tags:
 - Artificial Intelligence

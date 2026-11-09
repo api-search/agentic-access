@@ -9,67 +9,67 @@ api_specs:
   label: PDFfiller Applications API
   slug: pdffiller-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-applications-api-openapi.yml
 - filename: pdffiller-auth-api-openapi.yml
   format: yaml
   label: PDFfiller Auth API
   slug: pdffiller-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-auth-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-auth-api-openapi.yml
 - filename: pdffiller-callbacks-api-openapi.yml
   format: yaml
   label: PDFfiller Callbacks API
   slug: pdffiller-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-callbacks-api-openapi.yml
 - filename: pdffiller-custom-logos-api-openapi.yml
   format: yaml
   label: PDFfiller Custom Logos API
   slug: pdffiller-custom-logos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-custom-logos-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-custom-logos-api-openapi.yml
 - filename: pdffiller-fillable-forms-api-openapi.yml
   format: yaml
   label: PDFfiller Fillable Forms API
   slug: pdffiller-fillable-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-fillable-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-fillable-forms-api-openapi.yml
 - filename: pdffiller-folders-api-openapi.yml
   format: yaml
   label: PDFfiller Folders API
   slug: pdffiller-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-folders-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-folders-api-openapi.yml
 - filename: pdffiller-signature-requests-api-openapi.yml
   format: yaml
   label: PDFfiller Signature Requests API
   slug: pdffiller-signature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-signature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-signature-requests-api-openapi.yml
 - filename: pdffiller-templates-api-openapi.yml
   format: yaml
   label: PDFfiller Templates API
   slug: pdffiller-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-templates-api-openapi.yml
 - filename: pdffiller-tokens-api-openapi.yml
   format: yaml
   label: PDFfiller Tokens API
   slug: pdffiller-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-tokens-api-openapi.yml
 - filename: pdffiller-tools-api-openapi.yml
   format: yaml
   label: PDFfiller Tools API
   slug: pdffiller-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-tools-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-tools-api-openapi.yml
 - filename: pdffiller-users-api-openapi.yml
   format: yaml
   label: PDFfiller Users API
   slug: pdffiller-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/openapi/pdffiller-users-api-openapi.yml
+  url: https://artifacts.apis.io/pdffiller/openapi/pdffiller-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 45
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pdffil
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_branding/custom_logo\n  method: get\n  operationId: listCustomLogos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_branding/custom_logo\n  method: post\n  operationId: createCustomLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_branding/custom_logo/{custom_logo_id}\n  method: get\n  operationId: getCustomLogo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_branding/custom_logo/{custom_logo_id}\n  method: delete\n  operationId: deleteCustomLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tools/merge\n  method: post\n  operationId: mergeDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdffiller/refs/heads/main/agentic-access/pdffiller-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pdffiller/agentic-access/pdffiller-agentic-access.yml
 summary_line: 73 operations · 28 acting
 tags:
 - PDF

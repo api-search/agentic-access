@@ -9,115 +9,115 @@ api_specs:
   label: Dfns Auth API
   slug: dfns-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-auth-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-auth-api-openapi.yml
 - filename: dfns-keys-api-openapi.yml
   format: yaml
   label: Dfns Keys API
   slug: dfns-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-keys-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-keys-api-openapi.yml
 - filename: dfns-networks-api-openapi.yml
   format: yaml
   label: Dfns Networks API
   slug: dfns-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-networks-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-networks-api-openapi.yml
 - filename: dfns-permissions-api-openapi.yml
   format: yaml
   label: Dfns Permissions API
   slug: dfns-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-permissions-api-openapi.yml
 - filename: dfns-policies-api-openapi.yml
   format: yaml
   label: Dfns Policies API
   slug: dfns-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-policies-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-policies-api-openapi.yml
 - filename: dfns-wallets-api-openapi.yml
   format: yaml
   label: Dfns Wallets API
   slug: dfns-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-wallets-api-openapi.yml
 - filename: dfns-webhooks-api-openapi.yml
   format: yaml
   label: Dfns Webhooks API
   slug: dfns-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-webhooks-api-openapi.yml
 - filename: dfns-address-watches-api-openapi.yml
   format: yaml
   label: Dfns Address Watches API
   slug: dfns-address-watches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-address-watches-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-address-watches-api-openapi.yml
 - filename: dfns-agreements-api-openapi.yml
   format: yaml
   label: Dfns Agreements API
   slug: dfns-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-agreements-api-openapi.yml
 - filename: dfns-allocations-api-openapi.yml
   format: yaml
   label: Dfns Allocations API
   slug: dfns-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-allocations-api-openapi.yml
 - filename: dfns-exchanges-api-openapi.yml
   format: yaml
   label: Dfns Exchanges API
   slug: dfns-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-exchanges-api-openapi.yml
 - filename: dfns-fee-sponsors-api-openapi.yml
   format: yaml
   label: Dfns Fee Sponsors API
   slug: dfns-fee-sponsors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-fee-sponsors-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-fee-sponsors-api-openapi.yml
 - filename: dfns-payins-api-openapi.yml
   format: yaml
   label: Dfns Payins API
   slug: dfns-payins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-payins-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-payins-api-openapi.yml
 - filename: dfns-payouts-api-openapi.yml
   format: yaml
   label: Dfns Payouts API
   slug: dfns-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-payouts-api-openapi.yml
 - filename: dfns-signers-api-openapi.yml
   format: yaml
   label: Dfns Signers API
   slug: dfns-signers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-signers-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-signers-api-openapi.yml
 - filename: dfns-staking-api-openapi.yml
   format: yaml
   label: Dfns Staking API
   slug: dfns-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-staking-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-staking-api-openapi.yml
 - filename: dfns-swaps-api-openapi.yml
   format: yaml
   label: Dfns Swaps API
   slug: dfns-swaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-swaps-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-swaps-api-openapi.yml
 - filename: dfns-tenant-api-openapi.yml
   format: yaml
   label: Dfns Tenant API
   slug: dfns-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-tenant-api-openapi.yml
 - filename: dfns-vaults-api-openapi.yml
   format: yaml
   label: Dfns Vaults API
   slug: dfns-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/openapi/dfns-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/dfns/openapi/dfns-vaults-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 23
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dfns-o
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/service-accounts\n  method: post\n  operationId: createServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/service-accounts\n  method: get\n  operationId: listServiceAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /auth/service-accounts/{serviceAccountId}\n  method: get\n  operationId: getServiceAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/service-accounts/{serviceAccountId}\n  method: put\n  operationId: updateServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/service-accounts/{serviceAccountId}/activate\n  method: put\n  operationId: activateServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /auth/service-accounts/{serviceAccountId}/deactivate\n  method: put\n  operationId: deactivateServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/fees\n  method: get\n  operationId: getNetworkFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{network}/call-function\n  method: post\n  operationId: callFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dfns/refs/heads/main/agentic-access/dfns-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dfns/agentic-access/dfns-agentic-access.yml
 summary_line: 49 operations · 26 acting
 tags:
 - Wallets

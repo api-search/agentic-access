@@ -9,43 +9,43 @@ api_specs:
   label: Litescrape Apple API
   slug: litescrape-apple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-apple-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-apple-api-openapi.yml
 - filename: litescrape-bing-api-openapi.yml
   format: yaml
   label: Litescrape Bing API
   slug: litescrape-bing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-bing-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-bing-api-openapi.yml
 - filename: litescrape-duckduckgo-api-openapi.yml
   format: yaml
   label: Litescrape Duckduckgo API
   slug: litescrape-duckduckgo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-duckduckgo-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-duckduckgo-api-openapi.yml
 - filename: litescrape-google-api-openapi.yml
   format: yaml
   label: Litescrape Google API
   slug: litescrape-google-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-google-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-google-api-openapi.yml
 - filename: litescrape-tripadvisor-api-openapi.yml
   format: yaml
   label: Litescrape Tripadvisor API
   slug: litescrape-tripadvisor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-tripadvisor-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-tripadvisor-api-openapi.yml
 - filename: litescrape-yelp-api-openapi.yml
   format: yaml
   label: Litescrape Yelp API
   slug: litescrape-yelp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-yelp-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-yelp-api-openapi.yml
 - filename: litescrape-zeroclick-api-openapi.yml
   format: yaml
   label: Litescrape Zeroclick API
   slug: litescrape-zeroclick-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/openapi/litescrape-zeroclick-api-openapi.yml
+  url: https://artifacts.apis.io/litescrape/openapi/litescrape-zeroclick-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 22
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/litesc
   - path: /api/google/maps/popular-times\n  method: get\n  operationId: google_maps_popular_times\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/google/maps/posts\n  method: get\n  operationId: google_maps_posts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/google/reviews\n  method: get\n  operationId: google_reviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/google/search\n  method: get\n  operationId: google_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/google/shopping\n  method: get\n  operationId: google_shopping\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/google/shopping/product\n  method: get\n  operationId: google_shopping_product\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tripadvisor/place\n  method: get\n  operationId: tripadvisor_place\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tripadvisor/reviews\n  method: get\n  operationId: tripadvisor_reviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tripadvisor/search\n  method: get\n  operationId: tripadvisor_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/yelp/reviews\n  method: get\n  operationId: yelp_reviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/yelp/search\n  method: get\n  operationId: yelp_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zeroclick/agent/quote\n  method: post\n  operationId: sellerAgentQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litescrape/refs/heads/main/agentic-access/litescrape-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/litescrape/agentic-access/litescrape-agentic-access.yml
 summary_line: 23 operations · 1 acting
 tags:
 - Company

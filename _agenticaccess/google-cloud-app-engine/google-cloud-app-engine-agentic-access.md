@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud App Engine Applications API
   slug: google-cloud-app-engine-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-applications-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-applications-api-openapi.yml
 - filename: google-cloud-app-engine-apps-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Apps API
   slug: google-cloud-app-engine-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-apps-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-apps-api-openapi.yml
 - filename: google-cloud-app-engine-instances-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Instances API
   slug: google-cloud-app-engine-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-instances-api-openapi.yml
 - filename: google-cloud-app-engine-versions-api-openapi.yml
   format: yaml
   label: Google Cloud App Engine Versions API
   slug: google-cloud-app-engine-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/openapi/google-cloud-app-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-app-engine/openapi/google-cloud-app-engine-versions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/appeng
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n- path: /apps/{appsId}/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n- path: /apps/{appsId}/services/{servicesId}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n- path: /apps/{appsId}/services/{servicesId}\n  method: delete\n  operationId: deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n- path: /apps/{appsId}/services/{servicesId}/versions\n  method: get\n  operationId: listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n- path: /apps/{appsId}/services/{servicesId}/versions\n  method: post\n  operationId: createVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n\
   - path: /apps/{appsId}/services/{servicesId}/versions/{versionsId}/instances\n  method: get\n  operationId: listInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/appengine.admin\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-app-engine/refs/heads/main/agentic-access/google-cloud-app-engine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-app-engine/agentic-access/google-cloud-app-engine-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - App Engine

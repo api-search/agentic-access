@@ -9,37 +9,37 @@ api_specs:
   label: Perforce Activity API
   slug: perforce-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-activity-api-openapi.yml
+  url: https://artifacts.apis.io/perforce/openapi/perforce-activity-api-openapi.yml
 - filename: perforce-changes-api-openapi.yml
   format: yaml
   label: Perforce Changes API
   slug: perforce-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-changes-api-openapi.yml
+  url: https://artifacts.apis.io/perforce/openapi/perforce-changes-api-openapi.yml
 - filename: perforce-comments-api-openapi.yml
   format: yaml
   label: Perforce Comments API
   slug: perforce-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-comments-api-openapi.yml
+  url: https://artifacts.apis.io/perforce/openapi/perforce-comments-api-openapi.yml
 - filename: perforce-projects-api-openapi.yml
   format: yaml
   label: Perforce Projects API
   slug: perforce-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-projects-api-openapi.yml
+  url: https://artifacts.apis.io/perforce/openapi/perforce-projects-api-openapi.yml
 - filename: perforce-reviews-api-openapi.yml
   format: yaml
   label: Perforce Reviews API
   slug: perforce-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/perforce/openapi/perforce-reviews-api-openapi.yml
 - filename: perforce-version-api-openapi.yml
   format: yaml
   label: Perforce Version API
   slug: perforce-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/openapi/perforce-version-api-openapi.yml
+  url: https://artifacts.apis.io/perforce/openapi/perforce-version-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/perfor
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /comments/notify\n  method: post\n  operationId: sendCommentNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /activity\n  method: get\n  operationId: listActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activity\n  method: post\n  operationId: createActivity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /projects/\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{id}\n  method: patch\n  operationId: updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{id}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/agentic-access/perforce-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/perforce/agentic-access/perforce-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - Version Control

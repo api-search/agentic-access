@@ -9,37 +9,37 @@ api_specs:
   label: Wunderkind Email API
   slug: wunderkind-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-email-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-email-api-openapi.yml
 - filename: wunderkind-id-resolution-api-openapi.yml
   format: yaml
   label: Wunderkind Id Resolution API
   slug: wunderkind-id-resolution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-id-resolution-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-id-resolution-api-openapi.yml
 - filename: wunderkind-identity-api-openapi.yml
   format: yaml
   label: Wunderkind Identity API
   slug: wunderkind-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-identity-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-identity-api-openapi.yml
 - filename: wunderkind-send-event-api-openapi.yml
   format: yaml
   label: Wunderkind Send Event API
   slug: wunderkind-send-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-send-event-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-send-event-api-openapi.yml
 - filename: wunderkind-ucrm-api-openapi.yml
   format: yaml
   label: Wunderkind Ucrm API
   slug: wunderkind-ucrm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-ucrm-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-ucrm-api-openapi.yml
 - filename: wunderkind-wunderhook-api-openapi.yml
   format: yaml
   label: Wunderkind Wunderhook API
   slug: wunderkind-wunderhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/openapi/wunderkind-wunderhook-api-openapi.yml
+  url: https://artifacts.apis.io/wunderkind/openapi/wunderkind-wunderhook-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 4
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wunder
   \ post\n  operationId: Service_Pageview\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/track-link\n  method: post\n  operationId: Service_TrackLink\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/user-identified\n  method: post\n  operationId: Service_UserIdentified\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/visit\n  method: post\n  operationId: Service_Visit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ucrm/v1/unsubscribe\n  method: put\n  operationId: external_unsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ucrm/v1/subscribe\n  method:\
   \ put\n  operationId: external_subscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: get_new-endpoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wunderkind/refs/heads/main/agentic-access/wunderkind-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wunderkind/agentic-access/wunderkind-agentic-access.yml
 summary_line: 21 operations · 17 acting
 tags:
 - Company
@@ -147,4 +147,6 @@ tags:
 - Behavioral Data
 - E-Commerce
 - Webhook
+- Artificial Intelligence
+- Identity
 ---

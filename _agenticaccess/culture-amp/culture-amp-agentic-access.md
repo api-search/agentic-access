@@ -8,19 +8,19 @@ api_specs:
   label: Culture Amp Employees API
   slug: culture-amp-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-employees-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-employees-api-openapi.yml
 - filename: culture-amp-performance-api-openapi.yml
   format: yaml
   label: Culture Amp Performance API
   slug: culture-amp-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-performance-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-performance-api-openapi.yml
 - filename: culture-amp-surveys-api-openapi.yml
   format: yaml
   label: Culture Amp Surveys API
   slug: culture-amp-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/openapi/culture-amp-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/culture-amp/openapi/culture-amp-surveys-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cultur
   \    audit: none\n- path: /surveys\n  method: get\n  operationId: list-surveys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{id}\n  method: get\n  operationId: get-survey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{id}/questions\n  method: get\n  operationId: list-survey-questions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/question/{question_id}\n  method: get\n  operationId: get-survey-question\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{id}/responses\n  method: get\n  operationId: list-survey-responses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/responses/{response_id}\n  method: get\n  operationId: get-survey-response\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{id}/factors\n  method: get\n  operationId: list-survey-factors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/factors/{factor_id}\n  method: get\n  operationId: get-survey-factor\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{id}/sections\n  method: get\n  operationId: list-survey-sections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/{survey_id}/sections/{section_id}\n  method: get\n  operationId: get-survey-section\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - surveys-read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culture-amp/refs/heads/main/agentic-access/culture-amp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/culture-amp/agentic-access/culture-amp-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Human Resources

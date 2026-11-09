@@ -9,55 +9,55 @@ api_specs:
   label: Cuebiq Conversion Feed V1 API
   slug: cuebiq-conversion-feed-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-conversion-feed-v1-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-conversion-feed-v1-api-openapi.yml
 - filename: cuebiq-geoset-api-openapi.yml
   format: yaml
   label: Cuebiq Geoset API
   slug: cuebiq-geoset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-geoset-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-geoset-api-openapi.yml
 - filename: cuebiq-kpis-v2-campaign-reports-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Campaign Reports API
   slug: cuebiq-kpis-v2-campaign-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-campaign-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-campaign-reports-api-openapi.yml
 - filename: cuebiq-kpis-v2-campaigns-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Campaigns API
   slug: cuebiq-kpis-v2-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-campaigns-api-openapi.yml
 - filename: cuebiq-kpis-v2-customer-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Customer API
   slug: cuebiq-kpis-v2-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-customer-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-customer-api-openapi.yml
 - filename: cuebiq-kpis-v2-shared-campaign-reports-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Shared Campaign Reports API
   slug: cuebiq-kpis-v2-shared-campaign-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-shared-campaign-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-shared-campaign-reports-api-openapi.yml
 - filename: cuebiq-kpis-v2-shared-campaigns-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Shared Campaigns API
   slug: cuebiq-kpis-v2-shared-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-shared-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-shared-campaigns-api-openapi.yml
 - filename: cuebiq-kpis-v2-shared-reports-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Shared Reports API
   slug: cuebiq-kpis-v2-shared-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-shared-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-shared-reports-api-openapi.yml
 - filename: cuebiq-measurement-v2-api-openapi.yml
   format: yaml
   label: Cuebiq Measurement V2 API
   slug: cuebiq-measurement-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-measurement-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-measurement-v2-api-openapi.yml
 consequence_counts:
   read: 73
   write: 10
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/cuebiq
   \ get\n  operationId: getSharedReportMeasuredVisits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/shared/reports/{reportId}/kpis/projected-visits\n  method: get\n  operationId: getSharedReportProjectedVisits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/shared/reports/{reportId}/kpis/reached-people\n  method: get\n  operationId: getSharedReportReachedPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/shared/reports/{reportId}/kpis/uplift\n  method: get\n  operationId: getSharedReportUplift\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/shared/reports/{reportId}/kpis/visit-rate\n  method: get\n  operationId: getSharedReportVisitRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/customers/{customerId}/shared/reports/{reportId}/pixels\n  method: get\n  operationId: getSharedReportPixels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/dsp\n  method: get\n  operationId: getDSPs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/dsp/{dspId}\n  method: get\n  operationId: getDSP\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/agentic-access/cuebiq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cuebiq/agentic-access/cuebiq-agentic-access.yml
 summary_line: 83 operations · 10 acting
 tags:
 - Company

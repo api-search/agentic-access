@@ -9,67 +9,67 @@ api_specs:
   label: Site24x7 Alarms API
   slug: site24x7-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-alarms-api-openapi.yml
 - filename: site24x7-current-status-api-openapi.yml
   format: yaml
   label: Site24x7 Current Status API
   slug: site24x7-current-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-current-status-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-current-status-api-openapi.yml
 - filename: site24x7-maintenance-windows-api-openapi.yml
   format: yaml
   label: Site24x7 Maintenance Windows API
   slug: site24x7-maintenance-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-maintenance-windows-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-maintenance-windows-api-openapi.yml
 - filename: site24x7-monitor-groups-api-openapi.yml
   format: yaml
   label: Site24x7 Monitor Groups API
   slug: site24x7-monitor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-monitor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-monitor-groups-api-openapi.yml
 - filename: site24x7-monitors-api-openapi.yml
   format: yaml
   label: Site24x7 Monitors API
   slug: site24x7-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-monitors-api-openapi.yml
 - filename: site24x7-notification-profiles-api-openapi.yml
   format: yaml
   label: Site24x7 Notification Profiles API
   slug: site24x7-notification-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-notification-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-notification-profiles-api-openapi.yml
 - filename: site24x7-outages-api-openapi.yml
   format: yaml
   label: Site24x7 Outages API
   slug: site24x7-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-outages-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-outages-api-openapi.yml
 - filename: site24x7-reports-api-openapi.yml
   format: yaml
   label: Site24x7 Reports API
   slug: site24x7-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-reports-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-reports-api-openapi.yml
 - filename: site24x7-tags-api-openapi.yml
   format: yaml
   label: Site24x7 Tags API
   slug: site24x7-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-tags-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-tags-api-openapi.yml
 - filename: site24x7-threshold-profiles-api-openapi.yml
   format: yaml
   label: Site24x7 Threshold Profiles API
   slug: site24x7-threshold-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-threshold-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-threshold-profiles-api-openapi.yml
 - filename: site24x7-users-api-openapi.yml
   format: yaml
   label: Site24x7 Users API
   slug: site24x7-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/openapi/site24x7-users-api-openapi.yml
+  url: https://artifacts.apis.io/site24x7/openapi/site24x7-users-api-openapi.yml
 consequence_counts:
   read: 38
   write: 36
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/site24
   \  method: put\n  operationId: updateMaintenanceWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintenance_windows/{maintenance_id}\n  method: delete\n  operationId: deleteMaintenanceWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{tag_id}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{tag_id}\n  method: put\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{tag_id}\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/site24x7/refs/heads/main/agentic-access/site24x7-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/site24x7/agentic-access/site24x7-agentic-access.yml
 summary_line: 74 operations · 36 acting
 tags:
 - Monitoring

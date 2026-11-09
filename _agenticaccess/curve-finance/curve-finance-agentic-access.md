@@ -8,49 +8,49 @@ api_specs:
   label: Curve Finance Crv USD API
   slug: curve-finance-crvusd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-crvusd-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-crvusd-api-openapi.yml
 - filename: curve-finance-deprecated-api-openapi.yml
   format: yaml
   label: Curve Finance Deprecated API
   slug: curve-finance-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-deprecated-api-openapi.yml
 - filename: curve-finance-gauges-api-openapi.yml
   format: yaml
   label: Curve Finance Gauges API
   slug: curve-finance-gauges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-gauges-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-gauges-api-openapi.yml
 - filename: curve-finance-lending-api-openapi.yml
   format: yaml
   label: Curve Finance Lending API
   slug: curve-finance-lending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-lending-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-lending-api-openapi.yml
 - filename: curve-finance-misc-api-openapi.yml
   format: yaml
   label: Curve Finance Misc API
   slug: curve-finance-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-misc-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-misc-api-openapi.yml
 - filename: curve-finance-pools-api-openapi.yml
   format: yaml
   label: Curve Finance Pools API
   slug: curve-finance-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-pools-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-pools-api-openapi.yml
 - filename: curve-finance-tokens-api-openapi.yml
   format: yaml
   label: Curve Finance Tokens API
   slug: curve-finance-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-tokens-api-openapi.yml
 - filename: curve-finance-volumes-and-apys-api-openapi.yml
   format: yaml
   label: Curve Finance Volumes and APYs API
   slug: curve-finance-volumes-and-apys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/openapi/curve-finance-volumes-and-apys-api-openapi.yml
+  url: https://artifacts.apis.io/curve-finance/openapi/curve-finance-volumes-and-apys-api-openapi.yml
 consequence_counts:
   read: 43
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/curve-
   - path: /getPools/all\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPools/big/{blockchainId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPools/big\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPools/empty/{blockchainId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPools/empty\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPools/small/{blockchainId}\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPools/small\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRegistryAddress\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getScrvusdTotalSupplyNumber\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getScrvusdTotalSupplyResult\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSubgraphData/{blockchainId}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTokens/all/{blockchainId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getVolumes/{blockchainId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getVolumes/ethereum/crvusd-amms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getWeeklyFees\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/agentic-access/curve-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/curve-finance/agentic-access/curve-finance-agentic-access.yml
 summary_line: 43 operations
 tags:
 - Web3

@@ -8,61 +8,61 @@ api_specs:
   label: Chess.com Clubs API
   slug: chess-com-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-clubs-api-openapi.yml
 - filename: chess-com-countries-api-openapi.yml
   format: yaml
   label: Chess.com Countries API
   slug: chess-com-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-countries-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-countries-api-openapi.yml
 - filename: chess-com-games-api-openapi.yml
   format: yaml
   label: Chess.com Games API
   slug: chess-com-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-games-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-games-api-openapi.yml
 - filename: chess-com-leaderboards-api-openapi.yml
   format: yaml
   label: Chess.com Leaderboards API
   slug: chess-com-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-leaderboards-api-openapi.yml
 - filename: chess-com-matches-api-openapi.yml
   format: yaml
   label: Chess.com Matches API
   slug: chess-com-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-matches-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-matches-api-openapi.yml
 - filename: chess-com-players-api-openapi.yml
   format: yaml
   label: Chess.com Players API
   slug: chess-com-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-players-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-players-api-openapi.yml
 - filename: chess-com-puzzles-api-openapi.yml
   format: yaml
   label: Chess.com Puzzles API
   slug: chess-com-puzzles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-puzzles-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-puzzles-api-openapi.yml
 - filename: chess-com-streamers-api-openapi.yml
   format: yaml
   label: Chess.com Streamers API
   slug: chess-com-streamers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-streamers-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-streamers-api-openapi.yml
 - filename: chess-com-titled-players-api-openapi.yml
   format: yaml
   label: Chess.com Titled Players API
   slug: chess-com-titled-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-titled-players-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-titled-players-api-openapi.yml
 - filename: chess-com-tournaments-api-openapi.yml
   format: yaml
   label: Chess.com Tournaments API
   slug: chess-com-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/openapi/chess-com-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/chess-com/openapi/chess-com-tournaments-api-openapi.yml
 consequence_counts:
   read: 29
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chess-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match/live/{ID}\n  method: get\n  operationId: getLiveMatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match/live/{ID}/{board}\n  method: get\n  operationId: getLiveMatchBoard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /country/{iso}\n  method: get\n  operationId: getCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /country/{iso}/players\n  method: get\n  operationId: listCountryPlayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /country/{iso}/clubs\n  method: get\n  operationId: listCountryClubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /puzzle\n  method: get\n  operationId: getDailyPuzzle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /puzzle/random\n  method: get\n  operationId: getRandomPuzzle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streamers\n  method: get\n  operationId: listStreamers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leaderboards\n  method: get\n  operationId: getLeaderboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/agentic-access/chess-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chess-com/agentic-access/chess-com-agentic-access.yml
 summary_line: 29 operations
 tags:
 - Chess

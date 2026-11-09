@@ -9,277 +9,277 @@ api_specs:
   label: Emburse Accounts API
   slug: emburse-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-accounts-api-openapi.yml
 - filename: emburse-allocation-api-controller-v-1-api-openapi.yml
   format: yaml
   label: Emburse Allocation API Controller V 1 API
   slug: emburse-allocation-api-controller-v-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-allocation-api-controller-v-1-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-allocation-api-controller-v-1-api-openapi.yml
 - filename: emburse-allocation-api-controller-v-2-api-openapi.yml
   format: yaml
   label: Emburse Allocation API Controller V 2 API
   slug: emburse-allocation-api-controller-v-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-allocation-api-controller-v-2-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-allocation-api-controller-v-2-api-openapi.yml
 - filename: emburse-allocation-api-controller-v-3-api-openapi.yml
   format: yaml
   label: Emburse Allocation API Controller V 3 API
   slug: emburse-allocation-api-controller-v-3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-allocation-api-controller-v-3-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-allocation-api-controller-v-3-api-openapi.yml
 - filename: emburse-allowances-api-openapi.yml
   format: yaml
   label: Emburse Allowances API
   slug: emburse-allowances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-allowances-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-allowances-api-openapi.yml
 - filename: emburse-cards-api-openapi.yml
   format: yaml
   label: Emburse Cards API
   slug: emburse-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-cards-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-cards-api-openapi.yml
 - filename: emburse-categories-api-openapi.yml
   format: yaml
   label: Emburse Categories API
   slug: emburse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-categories-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-categories-api-openapi.yml
 - filename: emburse-company-api-openapi.yml
   format: yaml
   label: Emburse Company API
   slug: emburse-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-company-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-company-api-openapi.yml
 - filename: emburse-departments-api-openapi.yml
   format: yaml
   label: Emburse Departments API
   slug: emburse-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-departments-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-departments-api-openapi.yml
 - filename: emburse-entity-type-api-openapi.yml
   format: yaml
   label: Emburse Entity Type API
   slug: emburse-entity-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-entity-type-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-entity-type-api-openapi.yml
 - filename: emburse-entity-v1-api-openapi.yml
   format: yaml
   label: Emburse Entity (V1) API
   slug: emburse-entity-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-entity-v1-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-entity-v1-api-openapi.yml
 - filename: emburse-entity-v2-api-openapi.yml
   format: yaml
   label: Emburse Entity (V2) API
   slug: emburse-entity-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-entity-v2-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-entity-v2-api-openapi.yml
 - filename: emburse-expense-approval-controller-v1-api-openapi.yml
   format: yaml
   label: Emburse Expense Approval Controller V1 API
   slug: emburse-expense-approval-controller-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-approval-controller-v1-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-approval-controller-v1-api-openapi.yml
 - filename: emburse-expense-approval-controller-v2-api-openapi.yml
   format: yaml
   label: Emburse Expense Approval Controller V2 API
   slug: emburse-expense-approval-controller-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-approval-controller-v2-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-approval-controller-v2-api-openapi.yml
 - filename: emburse-expense-controller-v1-api-openapi.yml
   format: yaml
   label: Emburse Expense Controller V1 API
   slug: emburse-expense-controller-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-controller-v1-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-controller-v1-api-openapi.yml
 - filename: emburse-expense-controller-v3-api-openapi.yml
   format: yaml
   label: Emburse Expense Controller V3 API
   slug: emburse-expense-controller-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-controller-v3-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-controller-v3-api-openapi.yml
 - filename: emburse-expense-export-controller-v1-api-openapi.yml
   format: yaml
   label: Emburse Expense Export Controller V1 API
   slug: emburse-expense-export-controller-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-export-controller-v1-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-export-controller-v1-api-openapi.yml
 - filename: emburse-expense-export-controller-v2-api-openapi.yml
   format: yaml
   label: Emburse Expense Export Controller V2 API
   slug: emburse-expense-export-controller-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-export-controller-v2-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-export-controller-v2-api-openapi.yml
 - filename: emburse-expense-image-api-api-openapi.yml
   format: yaml
   label: Emburse Expense Image API
   slug: emburse-expense-image-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-image-api-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-image-api-api-openapi.yml
 - filename: emburse-expense-receipts-controller-api-openapi.yml
   format: yaml
   label: Emburse Expense Receipts Controller API
   slug: emburse-expense-receipts-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-receipts-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-receipts-controller-api-openapi.yml
 - filename: emburse-expense-report-line-item-controller-api-openapi.yml
   format: yaml
   label: Emburse Expense Report Line Item Controller API
   slug: emburse-expense-report-line-item-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-report-line-item-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-report-line-item-controller-api-openapi.yml
 - filename: emburse-expense-types-controller-api-openapi.yml
   format: yaml
   label: Emburse Expense Types Controller API
   slug: emburse-expense-types-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-expense-types-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-expense-types-controller-api-openapi.yml
 - filename: emburse-invoice-api-external-controller-api-openapi.yml
   format: yaml
   label: Emburse Invoice API External Controller API
   slug: emburse-invoice-api-external-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-invoice-api-external-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-invoice-api-external-controller-api-openapi.yml
 - filename: emburse-labels-api-openapi.yml
   format: yaml
   label: Emburse Labels API
   slug: emburse-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-labels-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-labels-api-openapi.yml
 - filename: emburse-locations-api-openapi.yml
   format: yaml
   label: Emburse Locations API
   slug: emburse-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-locations-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-locations-api-openapi.yml
 - filename: emburse-members-api-openapi.yml
   format: yaml
   label: Emburse Members API
   slug: emburse-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-members-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-members-api-openapi.yml
 - filename: emburse-merchant-categories-api-openapi.yml
   format: yaml
   label: Emburse Merchant Categories API
   slug: emburse-merchant-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-merchant-categories-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-merchant-categories-api-openapi.yml
 - filename: emburse-paid-expense-controller-api-openapi.yml
   format: yaml
   label: Emburse Paid Expense Controller API
   slug: emburse-paid-expense-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-paid-expense-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-paid-expense-controller-api-openapi.yml
 - filename: emburse-person-controller-v2-api-openapi.yml
   format: yaml
   label: Emburse Person Controller V2 API
   slug: emburse-person-controller-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-person-controller-v2-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-person-controller-v2-api-openapi.yml
 - filename: emburse-person-controller-v3-api-openapi.yml
   format: yaml
   label: Emburse Person Controller V3 API
   slug: emburse-person-controller-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-person-controller-v3-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-person-controller-v3-api-openapi.yml
 - filename: emburse-person-controller-v4-api-openapi.yml
   format: yaml
   label: Emburse Person Controller V4 API
   slug: emburse-person-controller-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-person-controller-v4-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-person-controller-v4-api-openapi.yml
 - filename: emburse-po-api-controller-api-openapi.yml
   format: yaml
   label: Emburse Po API Controller API
   slug: emburse-po-api-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-po-api-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-po-api-controller-api-openapi.yml
 - filename: emburse-po-api-receipt-controller-api-openapi.yml
   format: yaml
   label: Emburse Po API Receipt Controller API
   slug: emburse-po-api-receipt-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-po-api-receipt-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-po-api-receipt-controller-api-openapi.yml
 - filename: emburse-pre-approval-api-controller-api-openapi.yml
   format: yaml
   label: Emburse Pre Approval API Controller API
   slug: emburse-pre-approval-api-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-pre-approval-api-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-pre-approval-api-controller-api-openapi.yml
 - filename: emburse-pre-approval-api-controller-v-2-api-openapi.yml
   format: yaml
   label: Emburse Pre Approval API Controller V 2 API
   slug: emburse-pre-approval-api-controller-v-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-pre-approval-api-controller-v-2-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-pre-approval-api-controller-v-2-api-openapi.yml
 - filename: emburse-pre-approval-api-export-controller-api-openapi.yml
   format: yaml
   label: Emburse Pre Approval API Export Controller API
   slug: emburse-pre-approval-api-export-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-pre-approval-api-export-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-pre-approval-api-export-controller-api-openapi.yml
 - filename: emburse-pre-approval-import-controller-api-openapi.yml
   format: yaml
   label: Emburse Pre Approval Import Controller API
   slug: emburse-pre-approval-import-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-pre-approval-import-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-pre-approval-import-controller-api-openapi.yml
 - filename: emburse-requisitions-api-openapi.yml
   format: yaml
   label: Emburse Requisitions API
   slug: emburse-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-requisitions-api-openapi.yml
 - filename: emburse-returned-payments-controller-api-openapi.yml
   format: yaml
   label: Emburse Returned Payments Controller API
   slug: emburse-returned-payments-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-returned-payments-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-returned-payments-controller-api-openapi.yml
 - filename: emburse-sap-person-controller-api-openapi.yml
   format: yaml
   label: Emburse Sap Person Controller API
   slug: emburse-sap-person-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-sap-person-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-sap-person-controller-api-openapi.yml
 - filename: emburse-shared-links-api-openapi.yml
   format: yaml
   label: Emburse Shared Links API
   slug: emburse-shared-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-shared-links-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-shared-links-api-openapi.yml
 - filename: emburse-shipping-addresses-api-openapi.yml
   format: yaml
   label: Emburse Shipping Addresses API
   slug: emburse-shipping-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-shipping-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-shipping-addresses-api-openapi.yml
 - filename: emburse-transactions-api-openapi.yml
   format: yaml
   label: Emburse Transactions API
   slug: emburse-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-transactions-api-openapi.yml
 - filename: emburse-v1-contacts-api-openapi.yml
   format: yaml
   label: Emburse /v1/contacts API
   slug: emburse-v1-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-v1-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-v1-contacts-api-openapi.yml
 - filename: emburse-vendor-api-controller-api-openapi.yml
   format: yaml
   label: Emburse Vendor API Controller API
   slug: emburse-vendor-api-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-vendor-api-controller-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-vendor-api-controller-api-openapi.yml
 - filename: emburse-oauth-api-openapi.yml
   format: yaml
   label: Emburse OAUTH API
   slug: emburse-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/openapi/emburse-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/emburse/openapi/emburse-oauth-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 96
@@ -468,8 +468,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/emburs
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/exports\n  method: get\n  operationId: getExportIdsUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getVoucherInvoices\n  method: get\n  operationId: getByDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getVoucherInvoicesForXML\n  method: get\n  operationId: getVoucherInvoicesForXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /expense-image-api/getVoucherInvoicesForOFD\n  method: get\n  operationId: getVoucherInvoicesForOFD\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getReceipts\n  method: get\n  operationId: getReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getReceiptsWithCoverPage\n  method: get\n  operationId: getReceiptsWithCoverPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getReceiptsForXml\n  method: get\n  operationId: getReceiptsForXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /expense-image-api/getReceiptsForOFD\n  method: get\n  operationId: getReceiptsForOFD\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getLineItemVoucherInvoices\n  method: get\n  operationId: getLineItemVoucherInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getLineItemReceipts\n  method: get\n  operationId: getLineItemReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expense-image-api/getLineItemReceiptsWithMileageDetails\n  method: get\n  operationId: getLineItemReceiptsWithMileageDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /expense-image-api/getLineItemReceiptsFromLineItemId\n  method: get\n  operationId: getLineItemReceiptsFromLineItemId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense-receipts/{reportId}\n  method: get\n  operationId: getExpenseReceiptsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense-report-line-item-search\n  method: get\n  operationId: getLineItemsUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/agentic-access/emburse-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/agentic-access/emburse-agentic-access.yml
+  \ 3600\n    audit: none\n- path: /expense-image-api/getLineItemReceiptsFromLineItemId\n  method: get\n  operationId: getLineItemReceiptsFromLineItemId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense-receipts/{reportId}\n  method: get\n  operationId: getExpenseReceiptsUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/expense-report-line-item-search\n  method: get\n  operationId: getLineItemsUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://artifacts.apis.io/emburse/agentic-access/emburse-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/emburse/agentic-access/emburse-agentic-access.yml
 summary_line: 213 operations · 117 acting · 76 human-in-the-loop
 tags:
 - Expense Management

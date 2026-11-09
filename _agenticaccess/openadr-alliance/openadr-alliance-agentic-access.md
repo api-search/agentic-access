@@ -9,55 +9,55 @@ api_specs:
   label: OpenADR Alliance Auth API
   slug: openadr-alliance-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-auth-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-auth-api-openapi.yml
 - filename: openadr-alliance-events-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Events API
   slug: openadr-alliance-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-events-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-events-api-openapi.yml
 - filename: openadr-alliance-mqtt-notifier-api-openapi.yml
   format: yaml
   label: OpenADR Alliance MQTT Notifier API
   slug: openadr-alliance-mqtt-notifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-mqtt-notifier-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-mqtt-notifier-api-openapi.yml
 - filename: openadr-alliance-notifiers-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Notifiers API
   slug: openadr-alliance-notifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-notifiers-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-notifiers-api-openapi.yml
 - filename: openadr-alliance-programs-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Programs API
   slug: openadr-alliance-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-programs-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-programs-api-openapi.yml
 - filename: openadr-alliance-reports-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Reports API
   slug: openadr-alliance-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-reports-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-reports-api-openapi.yml
 - filename: openadr-alliance-resources-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Resources API
   slug: openadr-alliance-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-resources-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-resources-api-openapi.yml
 - filename: openadr-alliance-subscriptions-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Subscriptions API
   slug: openadr-alliance-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-subscriptions-api-openapi.yml
 - filename: openadr-alliance-vens-api-openapi.yml
   format: yaml
   label: OpenADR Alliance Vens API
   slug: openadr-alliance-vens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/openapi/openadr-alliance-vens-api-openapi.yml
+  url: https://artifacts.apis.io/openadr-alliance/openapi/openadr-alliance-vens-api-openapi.yml
 consequence_counts:
   read: 29
   write: 22
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/openad
   \   action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_vens\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vens/{venID}\n  method: get\n  operationId: searchVenByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read_all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vens/{venID}\n  method: put\n  operationId: updateVen\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_vens\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vens/{venID}\n  method: delete\n  operationId: deleteVen\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - write_vens\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vens/{venID}/resources\n  method: get\n  operationId: searchVenResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read_all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vens/{venID}/resources\n  method: post\n  operationId: createResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_vens\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vens/{venID}/resources/{resourceID}\n  method: get\n  operationId: searchVenResourceByID\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read_all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vens/{venID}/resources/{resourceID}\n  method: put\n  operationId: updateVenResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_vens\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vens/{venID}/resources/{resourceID}\n  method: delete\n  operationId: deleteVenResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write_vens\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openadr-alliance/refs/heads/main/agentic-access/openadr-alliance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openadr-alliance/agentic-access/openadr-alliance-agentic-access.yml
 summary_line: 51 operations · 22 acting
 tags:
 - Energy

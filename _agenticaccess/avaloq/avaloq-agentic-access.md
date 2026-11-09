@@ -9,31 +9,31 @@ api_specs:
   label: Avaloq Accounts API
   slug: avaloq-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-accounts-api-openapi.yml
 - filename: avaloq-customers-api-openapi.yml
   format: yaml
   label: Avaloq Customers API
   slug: avaloq-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-customers-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-customers-api-openapi.yml
 - filename: avaloq-payment-status-api-openapi.yml
   format: yaml
   label: Avaloq Payment Status API
   slug: avaloq-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-payment-status-api-openapi.yml
 - filename: avaloq-payments-api-openapi.yml
   format: yaml
   label: Avaloq Payments API
   slug: avaloq-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-payments-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-payments-api-openapi.yml
 - filename: avaloq-transactions-api-openapi.yml
   format: yaml
   label: Avaloq Transactions API
   slug: avaloq-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/openapi/avaloq-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/avaloq/openapi/avaloq-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/avaloq-banking-openapi.yml, openapi/avaloq-payments-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 7\n    acting: 2\n  by_consequence:\n    read: 7\n    write: 1\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/accounts/{accountId}/transactions\n  method: get\n  operationId: listAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/customers/{customerId}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentId}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/agentic-access/avaloq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/avaloq/agentic-access/avaloq-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Banking

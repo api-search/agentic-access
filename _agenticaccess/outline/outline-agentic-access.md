@@ -9,109 +9,109 @@ api_specs:
   label: Outline Attachments API
   slug: outline-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-attachments-api-openapi.yml
 - filename: outline-auth-api-openapi.yml
   format: yaml
   label: Outline Auth API
   slug: outline-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-auth-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-auth-api-openapi.yml
 - filename: outline-collections-api-openapi.yml
   format: yaml
   label: Outline Collections API
   slug: outline-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-collections-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-collections-api-openapi.yml
 - filename: outline-comments-api-openapi.yml
   format: yaml
   label: Outline Comments API
   slug: outline-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-comments-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-comments-api-openapi.yml
 - filename: outline-dataattributes-api-openapi.yml
   format: yaml
   label: Outline DataAttributes API
   slug: outline-dataattributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-dataattributes-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-dataattributes-api-openapi.yml
 - filename: outline-documents-api-openapi.yml
   format: yaml
   label: Outline Documents API
   slug: outline-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-documents-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-documents-api-openapi.yml
 - filename: outline-events-api-openapi.yml
   format: yaml
   label: Outline Events API
   slug: outline-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-events-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-events-api-openapi.yml
 - filename: outline-groups-api-openapi.yml
   format: yaml
   label: Outline Groups API
   slug: outline-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-groups-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-groups-api-openapi.yml
 - filename: outline-oauthauthentications-api-openapi.yml
   format: yaml
   label: Outline OAuthAuthentications API
   slug: outline-oauthauthentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauthauthentications-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-oauthauthentications-api-openapi.yml
 - filename: outline-revisions-api-openapi.yml
   format: yaml
   label: Outline Revisions API
   slug: outline-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-revisions-api-openapi.yml
 - filename: outline-shares-api-openapi.yml
   format: yaml
   label: Outline Shares API
   slug: outline-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-shares-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-shares-api-openapi.yml
 - filename: outline-stars-api-openapi.yml
   format: yaml
   label: Outline Stars API
   slug: outline-stars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-stars-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-stars-api-openapi.yml
 - filename: outline-templates-api-openapi.yml
   format: yaml
   label: Outline Templates API
   slug: outline-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-templates-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-templates-api-openapi.yml
 - filename: outline-users-api-openapi.yml
   format: yaml
   label: Outline Users API
   slug: outline-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-users-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-users-api-openapi.yml
 - filename: outline-views-api-openapi.yml
   format: yaml
   label: Outline Views API
   slug: outline-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-views-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-views-api-openapi.yml
 - filename: outline-access-requests-api-openapi.yml
   format: yaml
   label: Outline Access Requests API
   slug: outline-access-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-access-requests-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-access-requests-api-openapi.yml
 - filename: outline-file-operations-api-openapi.yml
   format: yaml
   label: Outline File Operations API
   slug: outline-file-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-file-operations-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-file-operations-api-openapi.yml
 - filename: outline-oauth-clients-api-openapi.yml
   format: yaml
   label: Outline OAuth Clients API
   slug: outline-oauth-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/openapi/outline-oauth-clients-api-openapi.yml
+  url: https://artifacts.apis.io/outline/openapi/outline-oauth-clients-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 46
@@ -186,8 +186,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/outlin
   \  method: post\n  operationId: sharesUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /shares.revoke\n  method: post\n  operationId: sharesRevoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n    scope:\n    - read\n    - write\n- path: /stars.create\n  method: post\n  operationId: starsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /stars.list\n  method: post\n  operationId: starsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /stars.update\n  method: post\n  operationId: starsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /stars.delete\n  method: post\n  operationId: starsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /templates.create\n  method: post\n  operationId: templatesCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /templates.list\n  method: post\n  operationId: templatesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /templates.info\n  method: post\n  operationId: templatesInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/agentic-access/outline-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outline/refs/heads/main/agentic-access/outline-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/outline/agentic-access/outline-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/outline/agentic-access/outline-agentic-access.yml
 summary_line: 112 operations · 66 acting · 1 human-in-the-loop
 tags:
 - Knowledge Base

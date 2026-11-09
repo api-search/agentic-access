@@ -9,31 +9,31 @@ api_specs:
   label: Billieio Authentication API
   slug: billieio-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-authentication-api-openapi.yml
 - filename: billieio-back-end-order-creation-api-openapi.yml
   format: yaml
   label: Billieio Back-end Order Creation API
   slug: billieio-back-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-back-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-back-end-order-creation-api-openapi.yml
 - filename: billieio-captures-api-openapi.yml
   format: yaml
   label: Billieio Captures API
   slug: billieio-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-captures-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-captures-api-openapi.yml
 - filename: billieio-front-end-order-creation-api-openapi.yml
   format: yaml
   label: Billieio Front-end Order Creation API
   slug: billieio-front-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-front-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-front-end-order-creation-api-openapi.yml
 - filename: billieio-order-management-api-openapi.yml
   format: yaml
   label: Billieio Order Management API
   slug: billieio-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/openapi/billieio-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/billieio/openapi/billieio-order-management-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 5
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/billie
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token/revoke\n  method: post\n  operationId: oauth_token_revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /orders\n  method: post\n  operationId: order_create_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /orders/{id}\n  method: get\n  operationId: order_get_details_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{id}\n  method: post\n  operationId: order_update_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}/cancel\n  method: post\n  operationId: order_cancel_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n     \
   \ - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billieio/refs/heads/main/agentic-access/billieio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/billieio/agentic-access/billieio-agentic-access.yml
 summary_line: 18 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Fintech

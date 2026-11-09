@@ -9,61 +9,61 @@ api_specs:
   label: Affinity Auth API
   slug: affinity-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-auth-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-auth-api-openapi.yml
 - filename: affinity-companies-api-openapi.yml
   format: yaml
   label: Affinity Companies API
   slug: affinity-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-companies-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-companies-api-openapi.yml
 - filename: affinity-companymerges-api-openapi.yml
   format: yaml
   label: Affinity Company Merges API
   slug: affinity-companymerges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-companymerges-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-companymerges-api-openapi.yml
 - filename: affinity-emails-api-openapi.yml
   format: yaml
   label: Affinity Emails API
   slug: affinity-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-emails-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-emails-api-openapi.yml
 - filename: affinity-lists-api-openapi.yml
   format: yaml
   label: Affinity Lists API
   slug: affinity-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-lists-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-lists-api-openapi.yml
 - filename: affinity-meetings-api-openapi.yml
   format: yaml
   label: Affinity Meetings API
   slug: affinity-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-meetings-api-openapi.yml
 - filename: affinity-notes-api-openapi.yml
   format: yaml
   label: Affinity Notes API
   slug: affinity-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-notes-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-notes-api-openapi.yml
 - filename: affinity-opportunities-api-openapi.yml
   format: yaml
   label: Affinity Opportunities API
   slug: affinity-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-opportunities-api-openapi.yml
 - filename: affinity-personmerges-api-openapi.yml
   format: yaml
   label: Affinity Person Merges API
   slug: affinity-personmerges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-personmerges-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-personmerges-api-openapi.yml
 - filename: affinity-persons-api-openapi.yml
   format: yaml
   label: Affinity Persons API
   slug: affinity-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/openapi/affinity-persons-api-openapi.yml
+  url: https://artifacts.apis.io/affinity/openapi/affinity-persons-api-openapi.yml
 consequence_counts:
   read: 42
   write: 4
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/affini
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/persons/{personId}/lists\n  method: get\n  operationId: v2_persons_personId_lists__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/persons/{personId}/list-entries\n  method: get\n  operationId: v2_persons_personId_list-entries__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/person-merges\n  method: get\n  operationId: v2_person-merges__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/person-merges\n  method: post\n  operationId: v2_person-merges__POST\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/person-merges/{mergeId}\n  method: get\n  operationId: v2_person-merges_mergeId__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/person-merges\n  method: get\n  operationId: v2_tasks_person-merges__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/person-merges/{taskId}\n  method: get\n  operationId: v2_tasks_person-merges_taskId__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/company-merges\n  method: get\n  operationId: v2_tasks_company-merges__GET\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasks/company-merges/{taskId}\n  method: get\n  operationId: v2_tasks_company-merges_taskId__GET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affinity/refs/heads/main/agentic-access/affinity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/affinity/agentic-access/affinity-agentic-access.yml
 summary_line: 46 operations · 4 acting
 tags:
 - CRM

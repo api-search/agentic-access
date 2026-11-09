@@ -9,97 +9,97 @@ api_specs:
   label: VATSIM Events API
   slug: vatsim-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-events-api-openapi.yml
 - filename: vatsim-metar-api-openapi.yml
   format: yaml
   label: VATSIM METAR API
   slug: vatsim-metar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-metar-api-openapi.yml
 - filename: vatsim-airport-info-api-openapi.yml
   format: yaml
   label: VATSIM Airport info API
   slug: vatsim-airport-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-airport-info-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-airport-info-api-openapi.yml
 - filename: vatsim-atc-api-openapi.yml
   format: yaml
   label: VATSIM Atc API
   slug: vatsim-atc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-atc-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-atc-api-openapi.yml
 - filename: vatsim-audio-api-openapi.yml
   format: yaml
   label: VATSIM Audio API
   slug: vatsim-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-audio-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-audio-api-openapi.yml
 - filename: vatsim-community-api-openapi.yml
   format: yaml
   label: VATSIM Community API
   slug: vatsim-community-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-community-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-community-api-openapi.yml
 - filename: vatsim-data-feed-api-openapi.yml
   format: yaml
   label: VATSIM Data feed API
   slug: vatsim-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-data-feed-api-openapi.yml
 - filename: vatsim-event-info-api-openapi.yml
   format: yaml
   label: VATSIM Event info API
   slug: vatsim-event-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-event-info-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-event-info-api-openapi.yml
 - filename: vatsim-events-api-openapi.yml
   format: yaml
   label: VATSIM Events API
   slug: vatsim-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-events-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-events-api-openapi.yml
 - filename: vatsim-members-api-openapi.yml
   format: yaml
   label: VATSIM Members API
   slug: vatsim-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-members-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-members-api-openapi.yml
 - filename: vatsim-metar-api-openapi.yml
   format: yaml
   label: VATSIM METAR API
   slug: vatsim-metar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-metar-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-metar-api-openapi.yml
 - filename: vatsim-orgs-api-openapi.yml
   format: yaml
   label: VATSIM Orgs API
   slug: vatsim-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-orgs-api-openapi.yml
 - filename: vatsim-servers-api-openapi.yml
   format: yaml
   label: VATSIM Servers API
   slug: vatsim-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-servers-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-servers-api-openapi.yml
 - filename: vatsim-user-api-openapi.yml
   format: yaml
   label: VATSIM User API
   slug: vatsim-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-user-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-user-api-openapi.yml
 - filename: vatsim-users-api-openapi.yml
   format: yaml
   label: VATSIM Users API
   slug: vatsim-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-users-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-users-api-openapi.yml
 - filename: vatsim-oauth2-api-openapi.yml
   format: yaml
   label: VATSIM O Auth2 API
   slug: vatsim-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/openapi/vatsim-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/vatsim/openapi/vatsim-oauth2-api-openapi.yml
 consequence_counts:
   read: 32
   write: 2
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aip.ya
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transceivers-data.json\n  method: get\n  operationId: listAudioClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /afv-atis-data.json\n  method: get\n  operationId: listATISStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{num}\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{num}/{regionId}\n  method: get\n  operationId: listEventsByRegion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /latest\n  method: get\n  operationId: listAllEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest/{num}\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /view/{eventId}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /view/region/{regionId}\n  method: get\n  operationId: listEventsByRegion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /view/division/{divisionId}\n  method: get\n  operationId: listEventsByDivision\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export\n  method: get\n  operationId: exportEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{icao}\n  method: get\n  operationId: getMetar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/info\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vatsim/refs/heads/main/agentic-access/vatsim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vatsim/agentic-access/vatsim-agentic-access.yml
 summary_line: 34 operations · 2 acting
 tags:
 - Aviation

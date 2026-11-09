@@ -9,85 +9,85 @@ api_specs:
   label: Fermyon Accounts API
   slug: fermyon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-accounts-api-openapi.yml
 - filename: fermyon-apps-api-openapi.yml
   format: yaml
   label: Fermyon Apps API
   slug: fermyon-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-apps-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-apps-api-openapi.yml
 - filename: fermyon-auth-tokens-api-openapi.yml
   format: yaml
   label: Fermyon Auth Tokens API
   slug: fermyon-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-auth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-auth-tokens-api-openapi.yml
 - filename: fermyon-channels-api-openapi.yml
   format: yaml
   label: Fermyon Channels API
   slug: fermyon-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-channels-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-channels-api-openapi.yml
 - filename: fermyon-custom-domains-api-openapi.yml
   format: yaml
   label: Fermyon Custom Domains API
   slug: fermyon-custom-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-custom-domains-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-custom-domains-api-openapi.yml
 - filename: fermyon-device-codes-api-openapi.yml
   format: yaml
   label: Fermyon Device Codes API
   slug: fermyon-device-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-device-codes-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-device-codes-api-openapi.yml
 - filename: fermyon-key-value-pairs-api-openapi.yml
   format: yaml
   label: Fermyon Key Value Pairs API
   slug: fermyon-key-value-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-key-value-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-key-value-pairs-api-openapi.yml
 - filename: fermyon-key-value-stores-api-openapi.yml
   format: yaml
   label: Fermyon Key Value Stores API
   slug: fermyon-key-value-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-key-value-stores-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-key-value-stores-api-openapi.yml
 - filename: fermyon-oci-api-openapi.yml
   format: yaml
   label: Fermyon Oci API
   slug: fermyon-oci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-oci-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-oci-api-openapi.yml
 - filename: fermyon-payments-api-openapi.yml
   format: yaml
   label: Fermyon Payments API
   slug: fermyon-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-payments-api-openapi.yml
 - filename: fermyon-personal-access-tokens-api-openapi.yml
   format: yaml
   label: Fermyon Personal Access Tokens API
   slug: fermyon-personal-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-personal-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-personal-access-tokens-api-openapi.yml
 - filename: fermyon-revisions-api-openapi.yml
   format: yaml
   label: Fermyon Revisions API
   slug: fermyon-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-revisions-api-openapi.yml
 - filename: fermyon-sql-databases-api-openapi.yml
   format: yaml
   label: Fermyon Sql Databases API
   slug: fermyon-sql-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-sql-databases-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-sql-databases-api-openapi.yml
 - filename: fermyon-variable-pairs-api-openapi.yml
   format: yaml
   label: Fermyon Variable Pairs API
   slug: fermyon-variable-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/openapi/fermyon-variable-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/fermyon/openapi/fermyon-variable-pairs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fermyo
   \ /api/sql-databases/execute\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/sql-databases\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/sql-databases\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/sql-databases/{database}/links\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/sql-databases/{database}/links\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/sql-databases/{database}/rename\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/variable-pairs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/variable-pairs\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/variable-pairs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/agentic-access/fermyon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fermyon/agentic-access/fermyon-agentic-access.yml
 summary_line: 62 operations · 38 acting
 tags:
 - Compute

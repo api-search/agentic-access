@@ -8,67 +8,67 @@ api_specs:
   label: OpenF1 Drivers API
   slug: openf1-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-drivers-api-openapi.yml
 - filename: openf1-laps-api-openapi.yml
   format: yaml
   label: OpenF1 Laps API
   slug: openf1-laps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-laps-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-laps-api-openapi.yml
 - filename: openf1-meetings-api-openapi.yml
   format: yaml
   label: OpenF1 Meetings API
   slug: openf1-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-meetings-api-openapi.yml
 - filename: openf1-pit-api-openapi.yml
   format: yaml
   label: OpenF1 Pit API
   slug: openf1-pit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-pit-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-pit-api-openapi.yml
 - filename: openf1-position-api-openapi.yml
   format: yaml
   label: OpenF1 Position API
   slug: openf1-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-position-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-position-api-openapi.yml
 - filename: openf1-racecontrol-api-openapi.yml
   format: yaml
   label: OpenF1 RaceControl API
   slug: openf1-racecontrol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-racecontrol-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-racecontrol-api-openapi.yml
 - filename: openf1-sessions-api-openapi.yml
   format: yaml
   label: OpenF1 Sessions API
   slug: openf1-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-sessions-api-openapi.yml
 - filename: openf1-stints-api-openapi.yml
   format: yaml
   label: OpenF1 Stints API
   slug: openf1-stints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-stints-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-stints-api-openapi.yml
 - filename: openf1-teamradio-api-openapi.yml
   format: yaml
   label: OpenF1 TeamRadio API
   slug: openf1-teamradio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-teamradio-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-teamradio-api-openapi.yml
 - filename: openf1-telemetry-api-openapi.yml
   format: yaml
   label: OpenF1 Telemetry API
   slug: openf1-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-telemetry-api-openapi.yml
 - filename: openf1-weather-api-openapi.yml
   format: yaml
   label: OpenF1 Weather API
   slug: openf1-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-weather-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-weather-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openf1
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /laps\n  method: get\n  operationId: listLaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /car_data\n  method: get\n  operationId: getCarData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /location\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /position\n  method: get\n  operationId: getPosition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /intervals\n  method: get\n  operationId: getIntervals\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pit\n  method: get\n  operationId: listPitStops\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stints\n  method: get\n  operationId: listStints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather\n  method: get\n  operationId: getWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /race_control\n  method: get\n  operationId: listRaceControl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team_radio\n\
   \  method: get\n  operationId: listTeamRadio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/agentic-access/openf1-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openf1/agentic-access/openf1-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Formula 1

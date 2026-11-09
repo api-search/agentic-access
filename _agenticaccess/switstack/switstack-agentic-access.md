@@ -9,49 +9,49 @@ api_specs:
   label: Switstack Auth API
   slug: switstack-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-auth-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-auth-api-openapi.yml
 - filename: switstack-bom-api-openapi.yml
   format: yaml
   label: Switstack BOM API
   slug: switstack-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-bom-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-bom-api-openapi.yml
 - filename: switstack-config-api-openapi.yml
   format: yaml
   label: Switstack Config API
   slug: switstack-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-config-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-config-api-openapi.yml
 - filename: switstack-parser-api-openapi.yml
   format: yaml
   label: Switstack Parser API
   slug: switstack-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-parser-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-parser-api-openapi.yml
 - filename: switstack-payment-api-openapi.yml
   format: yaml
   label: Switstack Payment API
   slug: switstack-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-payment-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-payment-api-openapi.yml
 - filename: switstack-suite-api-openapi.yml
   format: yaml
   label: Switstack Suite API
   slug: switstack-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-suite-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-suite-api-openapi.yml
 - filename: switstack-test-api-openapi.yml
   format: yaml
   label: Switstack Test API
   slug: switstack-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-test-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-test-api-openapi.yml
 - filename: switstack-validation-api-openapi.yml
   format: yaml
   label: Switstack Validation API
   slug: switstack-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/openapi/switstack-validation-api-openapi.yml
+  url: https://artifacts.apis.io/switstack/openapi/switstack-validation-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 40
@@ -145,8 +145,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/switst
   \     - high-value\n    audit: required\n- path: /api/config/poi-configs\n  method: get\n  operationId: list_poi_configs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/config/poi-configs\n  method: post\n  operationId: create_poi_config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/poi-configs/{id}\n  method: get\n  operationId: get_poi_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/config/poi-configs/{id}\n  method: put\n  operationId: update_poi_config\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/poi-configs/{id}\n  method: patch\n  operationId: partial_update_poi_config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/poi-configs/{id}\n  method: delete\n  operationId: delete_poi_config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/configs/list\n  method: get\n \
   \ operationId: list_config_files\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/configs/load\n  method: get\n  operationId: load_config_file\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parse/log\n  method: post\n  operationId: parse_log\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/parse/tag\n  method: post\n  operationId: parse_tag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
-  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/parse/list-tags\n  method: post\n  operationId: list_tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parse/tlv\n  method: post\n  operationId: parse_tlv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payment/payments\n  method: get\n  operationId: list_payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/agentic-access/switstack-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switstack/refs/heads/main/agentic-access/switstack-agentic-access.yml
+  \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/parse/list-tags\n  method: post\n  operationId: list_tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/parse/tlv\n  method: post\n  operationId: parse_tlv\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payment/payments\n  method: get\n  operationId: list_payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/switstack/agentic-access/switstack-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/switstack/agentic-access/switstack-agentic-access.yml
 summary_line: 125 operations · 85 acting · 1 human-in-the-loop
 tags:
 - Company

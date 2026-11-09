@@ -9,55 +9,55 @@ api_specs:
   label: Orbit Activities API
   slug: orbit-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-activities-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-activities-api-openapi.yml
 - filename: orbit-activity-types-api-openapi.yml
   format: yaml
   label: Orbit Activity Types API
   slug: orbit-activity-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-activity-types-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-activity-types-api-openapi.yml
 - filename: orbit-members-api-openapi.yml
   format: yaml
   label: Orbit Members API
   slug: orbit-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-members-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-members-api-openapi.yml
 - filename: orbit-notes-api-openapi.yml
   format: yaml
   label: Orbit Notes API
   slug: orbit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-notes-api-openapi.yml
 - filename: orbit-organizations-api-openapi.yml
   format: yaml
   label: Orbit Organizations API
   slug: orbit-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-organizations-api-openapi.yml
 - filename: orbit-reports-api-openapi.yml
   format: yaml
   label: Orbit Reports API
   slug: orbit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-reports-api-openapi.yml
 - filename: orbit-users-api-openapi.yml
   format: yaml
   label: Orbit Users API
   slug: orbit-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-users-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-users-api-openapi.yml
 - filename: orbit-webhooks-api-openapi.yml
   format: yaml
   label: Orbit Webhooks API
   slug: orbit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-webhooks-api-openapi.yml
 - filename: orbit-workspaces-api-openapi.yml
   format: yaml
   label: Orbit Workspaces API
   slug: orbit-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/openapi/orbit-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/orbit/openapi/orbit-workspaces-api-openapi.yml
 consequence_counts:
   read: 18
   write: 15
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orbit-
   \ none\n- path: /{workspace_slug}/organizations/{organization_id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace_slug}/reports\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace_slug}/webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace_slug}/webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace_slug}/webhooks/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{workspace_slug}/webhooks/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{workspace_slug}/webhooks/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_slug}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbit/refs/heads/main/agentic-access/orbit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orbit/agentic-access/orbit-agentic-access.yml
 summary_line: 33 operations · 15 acting
 tags:
 - Developer Relations

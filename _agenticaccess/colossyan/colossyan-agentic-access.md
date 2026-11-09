@@ -9,31 +9,31 @@ api_specs:
   label: Colossyan Avatars API
   slug: colossyan-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-avatars-api-openapi.yml
 - filename: colossyan-experimental-api-openapi.yml
   format: yaml
   label: Colossyan Experimental API
   slug: colossyan-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-experimental-api-openapi.yml
 - filename: colossyan-generated-videos-api-openapi.yml
   format: yaml
   label: Colossyan Generated Videos API
   slug: colossyan-generated-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-generated-videos-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-generated-videos-api-openapi.yml
 - filename: colossyan-video-generation-api-openapi.yml
   format: yaml
   label: Colossyan Video Generation API
   slug: colossyan-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-video-generation-api-openapi.yml
 - filename: colossyan-voices-api-openapi.yml
   format: yaml
   label: Colossyan Voices API
   slug: colossyan-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-voices-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-voices-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coloss
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video-generation-jobs/{videoGenerationJobId}\n  method: delete\n  operationId: cancelVideoGenerationJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video-generation-jobs/template-jobs\n  method: post\n  operationId: createTemplateVideoGenerationJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /generated-videos/{videoId}\n  method: get\n  operationId: getGeneratedVideo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /generated-videos/{videoId}\n  method: delete\n  operationId: deleteGeneratedVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/actors\n  method: get\n  operationId: listAvatars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/actors\n  method: post\n  operationId: createAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/voices\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /knowledge-to-draft/generate-draft\n  method: post\n  operationId: generateDraftFromKnowledge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/agentic-access/colossyan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/colossyan/agentic-access/colossyan-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Artificial Intelligence

@@ -9,43 +9,43 @@ api_specs:
   label: Phos Labs Audit API
   slug: phoslabs-io-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-audit-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-audit-api-openapi.yml
 - filename: phoslabs-io-copy-api-openapi.yml
   format: yaml
   label: Phos Labs Copy API
   slug: phoslabs-io-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-copy-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-copy-api-openapi.yml
 - filename: phoslabs-io-detect-biases-api-openapi.yml
   format: yaml
   label: Phos Labs Detect Biases API
   slug: phoslabs-io-detect-biases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-detect-biases-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-detect-biases-api-openapi.yml
 - filename: phoslabs-io-diagnose-api-openapi.yml
   format: yaml
   label: Phos Labs Diagnose API
   slug: phoslabs-io-diagnose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-diagnose-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-diagnose-api-openapi.yml
 - filename: phoslabs-io-fix-checkout-api-openapi.yml
   format: yaml
   label: Phos Labs Fix Checkout API
   slug: phoslabs-io-fix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-fix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-fix-checkout-api-openapi.yml
 - filename: phoslabs-io-pricing-api-openapi.yml
   format: yaml
   label: Phos Labs Pricing API
   slug: phoslabs-io-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-pricing-api-openapi.yml
 - filename: phoslabs-io-tools-api-openapi.yml
   format: yaml
   label: Phos Labs Tools API
   slug: phoslabs-io-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/openapi/phoslabs-io-tools-api-openapi.yml
+  url: https://artifacts.apis.io/phoslabs-io/openapi/phoslabs-io-tools-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/phoslabs-io-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 6\n    connected: 1\n  by_consequence:\n    write: 5\n    physical: 1\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/audit\n  method: post\n  operationId: audit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/diagnose\n  method: post\n  operationId: diagnose\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/fix-checkout\n  method: post\n  operationId: fixCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/copy\n  method: post\n  operationId: copy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/pricing\n  method:\
   \ post\n  operationId: pricing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/detect-biases\n  method: post\n  operationId: detectBiases\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tools\n  method: get\n  operationId: listTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phoslabs-io/refs/heads/main/agentic-access/phoslabs-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phoslabs-io/agentic-access/phoslabs-io-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
 - Company

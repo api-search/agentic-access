@@ -9,55 +9,55 @@ api_specs:
   label: OpusClip Brand Templates API
   slug: opusclip-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-brand-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-brand-templates-api-openapi.yml
 - filename: opusclip-censor-jobs-api-openapi.yml
   format: yaml
   label: OpusClip Censor Jobs API
   slug: opusclip-censor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-censor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-censor-jobs-api-openapi.yml
 - filename: opusclip-clip-project-api-openapi.yml
   format: yaml
   label: OpusClip Clip Project API
   slug: opusclip-clip-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-clip-project-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-clip-project-api-openapi.yml
 - filename: opusclip-collection-api-openapi.yml
   format: yaml
   label: OpusClip Collection API
   slug: opusclip-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-collection-api-openapi.yml
 - filename: opusclip-collection-content-api-openapi.yml
   format: yaml
   label: OpusClip Collection Content API
   slug: opusclip-collection-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-collection-content-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-collection-content-api-openapi.yml
 - filename: opusclip-exportableclip-api-openapi.yml
   format: yaml
   label: OpusClip ExportableClip API
   slug: opusclip-exportableclip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-exportableclip-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-exportableclip-api-openapi.yml
 - filename: opusclip-generative-jobs-api-openapi.yml
   format: yaml
   label: OpusClip Generative Jobs API
   slug: opusclip-generative-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-generative-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-generative-jobs-api-openapi.yml
 - filename: opusclip-social-posting-api-openapi.yml
   format: yaml
   label: OpusClip Social Posting API
   slug: opusclip-social-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-social-posting-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-social-posting-api-openapi.yml
 - filename: opusclip-transcripts-api-openapi.yml
   format: yaml
   label: OpusClip Transcripts API
   slug: opusclip-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/openapi/opusclip-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/opusclip/openapi/opusclip-transcripts-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 13
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/opuscl
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/post-tasks\n  method: post\n  operationId: PostTaskController_createPostTask\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/publish-schedules\n  method: post\n  operationId: PublishScheduleController_createPublishSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/publish-schedules/{scheduleId}\n  method: delete\n  operationId: PublishScheduleController_cancelPublishSchedule\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/generative-jobs\n  method: post\n  operationId: GenerativeJobController_createGenerativeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/generative-jobs/{jobId}\n  method: get\n  operationId: GenerativeJobController_getGenerativeJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transcripts\n\
   \  method: get\n  operationId: TranscriptController_getTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opusclip/refs/heads/main/agentic-access/opusclip-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opusclip/agentic-access/opusclip-agentic-access.yml
 summary_line: 22 operations · 13 acting · 13 human-in-the-loop
 tags:
 - Company

@@ -9,61 +9,73 @@ api_specs:
   label: Amazon Application Migration Service Applications API
   slug: amazon-application-migration-service-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-applications-api-openapi.yml
 - filename: amazon-application-migration-service-exports-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Exports API
   slug: amazon-application-migration-service-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-exports-api-openapi.yml
 - filename: amazon-application-migration-service-jobs-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Jobs API
   slug: amazon-application-migration-service-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-jobs-api-openapi.yml
 - filename: amazon-application-migration-service-launch-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Launch API
   slug: amazon-application-migration-service-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-launch-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-launch-api-openapi.yml
 - filename: amazon-application-migration-service-lifecycle-hooks-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Lifecycle Hooks API
   slug: amazon-application-migration-service-lifecycle-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-lifecycle-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-lifecycle-hooks-api-openapi.yml
 - filename: amazon-application-migration-service-replication-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Replication API
   slug: amazon-application-migration-service-replication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-replication-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-replication-api-openapi.yml
 - filename: amazon-application-migration-service-source-servers-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Source Servers API
   slug: amazon-application-migration-service-source-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-source-servers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-source-servers-api-openapi.yml
 - filename: amazon-application-migration-service-tags-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Tags API
   slug: amazon-application-migration-service-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-tags-api-openapi.yml
 - filename: amazon-application-migration-service-vcenter-clients-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Vcenter Clients API
   slug: amazon-application-migration-service-vcenter-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-vcenter-clients-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-vcenter-clients-api-openapi.yml
 - filename: amazon-application-migration-service-waves-api-openapi.yml
   format: yaml
   label: Amazon Application Migration Service Waves API
   slug: amazon-application-migration-service-waves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/openapi/amazon-application-migration-service-waves-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-waves-api-openapi.yml
+- filename: amazon-application-migration-service-network-migration-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Application Migration Service Network Migration API
+  slug: amazon-application-migration-service-network-migration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-network-migration-api-openapi.yml
+- filename: amazon-application-migration-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Application Migration Service Application Migration Service Operations API
+  slug: amazon-application-migration-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-application-migration-service/openapi/amazon-application-migration-service-operations-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -115,11 +127,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DescribeVcenterClients\n  method: get\n  operationId: describeVcenterClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListWaves\n  method: post\n  operationId: listWaves\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /CreateWave\n  method: post\n  operationId: createWave\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateWave\n  method: post\n  operationId: updateWave\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DeleteWave\n  method: post\n  operationId: deleteWave\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /AssociateApplications\n  method: post\n  operationId: associateApplications\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-application-migration-service/refs/heads/main/agentic-access/amazon-application-migration-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-application-migration-service/agentic-access/amazon-application-migration-service-agentic-access.yml
 summary_line: 45 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Amazon Application Migration Service
 - Migration
 - Lift And Shift
+- Amazon Web Services
 - Cloud Migration
 ---

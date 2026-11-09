@@ -9,55 +9,55 @@ api_specs:
   label: Dialect Blink API
   slug: dialect-blink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-blink-api-openapi.yml
 - filename: dialect-blink-data-table-api-openapi.yml
   format: yaml
   label: Dialect Blink Data Table API
   slug: dialect-blink-data-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-data-table-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-blink-data-table-api-openapi.yml
 - filename: dialect-blink-lists-api-openapi.yml
   format: yaml
   label: Dialect Blink Lists API
   slug: dialect-blink-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-lists-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-blink-lists-api-openapi.yml
 - filename: dialect-blink-preview-api-openapi.yml
   format: yaml
   label: Dialect Blink Preview API
   slug: dialect-blink-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-blink-preview-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-blink-preview-api-openapi.yml
 - filename: dialect-channels-api-openapi.yml
   format: yaml
   label: Dialect Channels API
   slug: dialect-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-channels-api-openapi.yml
 - filename: dialect-inbox-api-openapi.yml
   format: yaml
   label: Dialect Inbox API
   slug: dialect-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-inbox-api-openapi.yml
 - filename: dialect-markets-api-openapi.yml
   format: yaml
   label: Dialect Markets API
   slug: dialect-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-markets-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-markets-api-openapi.yml
 - filename: dialect-positions-api-openapi.yml
   format: yaml
   label: Dialect Positions API
   slug: dialect-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-positions-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-positions-api-openapi.yml
 - filename: dialect-send-api-openapi.yml
   format: yaml
   label: Dialect Send API
   slug: dialect-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/openapi/dialect-send-api-openapi.yml
+  url: https://artifacts.apis.io/dialect/openapi/dialect-send-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 18
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dialec
   \ /v1/blink\n  method: get\n  operationId: getFullBlink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/blink\n  method: post\n  operationId: executeBlinkAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/blink/chain\n  method: post\n  operationId: executeChainedAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/blink-data-table\n  method: get\n  operationId: getBlinkDataTable\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/blink-lists/{id}\n  method: get\n  operationId: getBlinkList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/markets\n  method: get\n  operationId: markets-positions.marketsV0Api.listMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/marketsByType\n  method: get\n  operationId: markets-positions.marketsV0Api.listMarketsGroupedByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/markets/history\n  method: get\n  operationId: markets-positions.marketsV0Api.marketsHistory\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/positions/owners\n  method: get\n  operationId: markets-positions.positionsV0Api.positionsByOwners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/positions/history\n  method: get\n  operationId: markets-positions.positionsV0Api.positionsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/positions/pnl\n  method: get\n  operationId: markets-positions.positionsV0Api.positionsPnl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dialect/refs/heads/main/agentic-access/dialect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dialect/agentic-access/dialect-agentic-access.yml
 summary_line: 40 operations · 22 acting
 tags:
 - Company

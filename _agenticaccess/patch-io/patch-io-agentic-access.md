@@ -9,25 +9,25 @@ api_specs:
   label: Patch Order Line Items API
   slug: patch-io-order-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-order-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-order-line-items-api-openapi.yml
 - filename: patch-io-orders-api-openapi.yml
   format: yaml
   label: Patch Orders API
   slug: patch-io-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-orders-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-orders-api-openapi.yml
 - filename: patch-io-projects-api-openapi.yml
   format: yaml
   label: Patch Projects API
   slug: patch-io-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-projects-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-projects-api-openapi.yml
 - filename: patch-io-technology-types-api-openapi.yml
   format: yaml
   label: Patch Technology Types API
   slug: patch-io-technology-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/openapi/patch-io-technology-types-api-openapi.yml
+  url: https://artifacts.apis.io/patch-io/openapi/patch-io-technology-types-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 5
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/patch-
   \ 3600\n    audit: none\n- path: /v1/orders/{uid}\n  method: delete\n  operationId: deleteOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{id}/place\n  method: patch\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{id}/cancel\n  method: patch\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{order_id}/line_items\n  method: post\n  operationId: createOrderLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{order_id}/line_items/{serial_number}\n  method: patch\n  operationId: updateOrderLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{order_id}/line_items/{serial_number}\n  method: delete\n  operationId: deleteOrderLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/patch-io/refs/heads/main/agentic-access/patch-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/patch-io/agentic-access/patch-io-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Climate

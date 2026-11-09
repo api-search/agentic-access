@@ -9,61 +9,61 @@ api_specs:
   label: Yuzu Health Accumulator (Experimental) API
   slug: yuzu-health-accumulator-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-accumulator-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-accumulator-experimental-api-openapi.yml
 - filename: yuzu-health-benefits-api-openapi.yml
   format: yaml
   label: Yuzu Health Benefits API
   slug: yuzu-health-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-benefits-api-openapi.yml
 - filename: yuzu-health-coverage-api-openapi.yml
   format: yaml
   label: Yuzu Health Coverage API
   slug: yuzu-health-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-coverage-api-openapi.yml
 - filename: yuzu-health-enrollment-api-openapi.yml
   format: yaml
   label: Yuzu Health Enrollment API
   slug: yuzu-health-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-enrollment-api-openapi.yml
 - filename: yuzu-health-eob-experimental-api-openapi.yml
   format: yaml
   label: Yuzu Health EOB (Experimental) API
   slug: yuzu-health-eob-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-eob-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-eob-experimental-api-openapi.yml
 - filename: yuzu-health-group-policy-api-openapi.yml
   format: yaml
   label: Yuzu Health Group Policy API
   slug: yuzu-health-group-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-group-policy-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-group-policy-api-openapi.yml
 - filename: yuzu-health-member-api-openapi.yml
   format: yaml
   label: Yuzu Health Member API
   slug: yuzu-health-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-member-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-member-api-openapi.yml
 - filename: yuzu-health-publicapiv1-api-openapi.yml
   format: yaml
   label: Yuzu Health PublicApiV1 API
   slug: yuzu-health-publicapiv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-publicapiv1-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-publicapiv1-api-openapi.yml
 - filename: yuzu-health-publicapiv2-api-openapi.yml
   format: yaml
   label: Yuzu Health PublicApiV2 API
   slug: yuzu-health-publicapiv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-publicapiv2-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-publicapiv2-api-openapi.yml
 - filename: yuzu-health-sponsor-api-openapi.yml
   format: yaml
   label: Yuzu Health Sponsor API
   slug: yuzu-health-sponsor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/openapi/yuzu-health-sponsor-api-openapi.yml
+  url: https://artifacts.apis.io/yuzu-health/openapi/yuzu-health-sponsor-api-openapi.yml
 consequence_counts:
   read: 43
   safety-critical: 33
@@ -244,7 +244,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/yuzu-h
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/coverages/{coverageId}/care-events\n  method: get\n  operationId: PublicApiV2Controller_listCareEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coverages/{coverageId}/care-events/{careEventId}/replacement\n  method: post\n  operationId: PublicApiV2Controller_replaceCareEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/coverages/{coverageId}/care-events/{careEventId}\n  method: delete\n  operationId: PublicApiV2Controller_deleteCareEvent\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/designs/{planDesignId}/benefits\n  method: get\n  operationId: PublicApiV2Controller_getDesignBenefits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sponsors/{sponsorNamespace}\n  method: get\n  operationId: SponsorPublicController_getSponsor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sponsors/{sponsorNamespace}\n  method: patch\n  operationId: SponsorPublicController_updateSponsor\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yuzu-health/refs/heads/main/agentic-access/yuzu-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yuzu-health/agentic-access/yuzu-health-agentic-access.yml
 summary_line: 76 operations · 33 acting · 33 human-in-the-loop
 tags:
 - Company

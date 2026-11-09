@@ -8,31 +8,31 @@ api_specs:
   label: R Badges API
   slug: r-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-badges-api-openapi.yml
+  url: https://artifacts.apis.io/r/openapi/r-badges-api-openapi.yml
 - filename: r-downloads-api-openapi.yml
   format: yaml
   label: R Downloads API
   slug: r-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/r/openapi/r-downloads-api-openapi.yml
 - filename: r-packages-api-openapi.yml
   format: yaml
   label: R Packages API
   slug: r-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-packages-api-openapi.yml
+  url: https://artifacts.apis.io/r/openapi/r-packages-api-openapi.yml
 - filename: r-top-packages-api-openapi.yml
   format: yaml
   label: R Top Packages API
   slug: r-top-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-top-packages-api-openapi.yml
+  url: https://artifacts.apis.io/r/openapi/r-top-packages-api-openapi.yml
 - filename: r-versions-api-openapi.yml
   format: yaml
   label: R Versions API
   slug: r-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/openapi/r-versions-api-openapi.yml
+  url: https://artifacts.apis.io/r/openapi/r-versions-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/r-meta
   \    audit: none\n- path: /-/pkgs\n  method: get\n  operationId: listAllPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/desc\n  method: get\n  operationId: listPackageDescriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/allvign\n  method: get\n  operationId: listPackageVignettes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /downloads/total/{period}/{packages}\n  method: get\n  operationId: getPackageDownloadTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /downloads/daily/{period}/{packages}\n  method: get\n  operationId: getPackageDownloadDaily\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /top/{period}/{count}\n  method: get\n  operationId: getTopPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /badges/{period}/{package}\n  method: get\n  operationId: getDownloadBadge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /r-release\n  method: get\n  operationId: getRRelease\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /r-release-win\n  method: get\n  operationId: getRReleaseWindows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /r-release-macos\n  method: get\n  operationId: getRReleaseMacos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /r-oldrel\n  method: get\n  operationId: getROldrel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /r-versions\n  method: get\n  operationId: listRVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/agentic-access/r-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/r/agentic-access/r-agentic-access.yml
 summary_line: 14 operations
 tags:
 - R

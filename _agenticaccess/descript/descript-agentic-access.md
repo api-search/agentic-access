@@ -9,19 +9,19 @@ api_specs:
   label: Descript API Endpoints API
   slug: descript-api-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-api-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-api-endpoints-api-openapi.yml
 - filename: descript-edit-in-descript-api-openapi.yml
   format: yaml
   label: Descript Edit in Descript API
   slug: descript-edit-in-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-edit-in-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-edit-in-descript-api-openapi.yml
 - filename: descript-export-from-descript-api-openapi.yml
   format: yaml
   label: Descript Export from Descript API
   slug: descript-export-from-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-export-from-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-export-from-descript-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/descri
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/publish\n  method: post\n  operationId: publishJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{job_id}\n\
   \  method: delete\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /published_projects/{publishedProjectSlug}\n\
   \  method: get\n  operationId: getPublishedProjectMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit_in_descript/schema\n  method: post\n  operationId: postEditInDescriptSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/agentic-access/descript-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/descript/agentic-access/descript-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Artificial Intelligence

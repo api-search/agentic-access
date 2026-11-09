@@ -9,37 +9,37 @@ api_specs:
   label: LittleHorse External Events API
   slug: littlehorse-external-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-external-events-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-external-events-api-openapi.yml
 - filename: littlehorse-node-runs-api-openapi.yml
   format: yaml
   label: LittleHorse Node Runs API
   slug: littlehorse-node-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-node-runs-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-node-runs-api-openapi.yml
 - filename: littlehorse-task-definitions-api-openapi.yml
   format: yaml
   label: LittleHorse Task Definitions API
   slug: littlehorse-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-task-definitions-api-openapi.yml
 - filename: littlehorse-user-tasks-api-openapi.yml
   format: yaml
   label: LittleHorse User Tasks API
   slug: littlehorse-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-user-tasks-api-openapi.yml
 - filename: littlehorse-workflow-runs-api-openapi.yml
   format: yaml
   label: LittleHorse Workflow Runs API
   slug: littlehorse-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-workflow-runs-api-openapi.yml
 - filename: littlehorse-workflow-specs-api-openapi.yml
   format: yaml
   label: LittleHorse Workflow Specs API
   slug: littlehorse-workflow-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-workflow-specs-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-workflow-specs-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/little
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /externalEventDef/{name}\n  method: get\n  operationId: getExternalEventDef\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wfRun/{wfRunId}/externalEvent/{externalEventDefName}\n  method: post\n  operationId: postExternalEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wfRun/{wfRunId}/userTaskRun/{userTaskRunId}\n  method: get\n  operationId: getUserTaskRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /wfRun/{wfRunId}/userTaskRun/{userTaskRunId}/assign\n  method: post\n  operationId: assignUserTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wfRun/{wfRunId}/userTaskRun/{userTaskRunId}/complete\n  method: post\n  operationId: completeUserTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /nodeRun/{wfRunId}/{threadRunNumber}/{position}\n  method: get\n  operationId: getNodeRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/agentic-access/littlehorse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/littlehorse/agentic-access/littlehorse-agentic-access.yml
 summary_line: 22 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Microservices

@@ -9,49 +9,49 @@ api_specs:
   label: OpenBMC AccountService API
   slug: openbmc-accountservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-accountservice-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-accountservice-api-openapi.yml
 - filename: openbmc-chassis-api-openapi.yml
   format: yaml
   label: OpenBMC Chassis API
   slug: openbmc-chassis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-chassis-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-chassis-api-openapi.yml
 - filename: openbmc-managers-api-openapi.yml
   format: yaml
   label: OpenBMC Managers API
   slug: openbmc-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-managers-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-managers-api-openapi.yml
 - filename: openbmc-openbmc-redfish-api-api-openapi.yml
   format: yaml
   label: OpenBMC Redfish API
   slug: openbmc-openbmc-redfish-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-openbmc-redfish-api-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-openbmc-redfish-api-api-openapi.yml
 - filename: openbmc-sessionservice-api-openapi.yml
   format: yaml
   label: OpenBMC SessionService API
   slug: openbmc-sessionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-sessionservice-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-sessionservice-api-openapi.yml
 - filename: openbmc-systems-api-openapi.yml
   format: yaml
   label: OpenBMC Systems API
   slug: openbmc-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-systems-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-systems-api-openapi.yml
 - filename: openbmc-event-service-api-openapi.yml
   format: yaml
   label: OpenBMC Event Service API
   slug: openbmc-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-event-service-api-openapi.yml
 - filename: openbmc-update-service-api-openapi.yml
   format: yaml
   label: OpenBMC Update Service API
   slug: openbmc-update-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/openapi/openbmc-update-service-api-openapi.yml
+  url: https://artifacts.apis.io/openbmc/openapi/openbmc-update-service-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 3
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openbm
   \    exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /Managers/bmc/Actions/Manager.Reset\n  method: post\n  operationId: resetBmc\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /Managers/bmc/Actions/Manager.ResetToDefaults\n  method: post\n  operationId: resetBmcToDefaults\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /Systems/system/LogServices/EventLog/Entries\n\
   \  method: get\n  operationId: getEventLogEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UpdateService\n  method: get\n  operationId: getUpdateService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /AccountService/Accounts/root\n  method: patch\n  operationId: patchRootAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /EventService/Subscriptions\n  method: get\n  operationId: listEventSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /EventService/Subscriptions\n  method: post\n  operationId: createEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openbmc/refs/heads/main/agentic-access/openbmc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openbmc/agentic-access/openbmc-agentic-access.yml
 summary_line: 13 operations · 6 acting · 3 human-in-the-loop
 tags:
 - Firmware

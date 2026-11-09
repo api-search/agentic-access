@@ -9,79 +9,79 @@ api_specs:
   label: Suki AI Ambient Content API
   slug: suki-ai-ambient-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-ambient-content-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-ambient-content-api-openapi.yml
 - filename: suki-ai-ambient-sessions-api-openapi.yml
   format: yaml
   label: Suki AI Ambient Sessions API
   slug: suki-ai-ambient-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-ambient-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-ambient-sessions-api-openapi.yml
 - filename: suki-ai-authentication-api-openapi.yml
   format: yaml
   label: Suki AI Authentication API
   slug: suki-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-authentication-api-openapi.yml
 - filename: suki-ai-feedback-api-openapi.yml
   format: yaml
   label: Suki AI Feedback API
   slug: suki-ai-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-feedback-api-openapi.yml
 - filename: suki-ai-form-filling-content-api-openapi.yml
   format: yaml
   label: Suki AI Form Filling Content API
   slug: suki-ai-form-filling-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-form-filling-content-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-form-filling-content-api-openapi.yml
 - filename: suki-ai-form-filling-sessions-api-openapi.yml
   format: yaml
   label: Suki AI Form Filling Sessions API
   slug: suki-ai-form-filling-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-form-filling-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-form-filling-sessions-api-openapi.yml
 - filename: suki-ai-info-api-openapi.yml
   format: yaml
   label: Suki AI Info API
   slug: suki-ai-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-info-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-info-api-openapi.yml
 - filename: suki-ai-notifications-api-openapi.yml
   format: yaml
   label: Suki AI Notifications API
   slug: suki-ai-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-notifications-api-openapi.yml
 - filename: suki-ai-user-preferences-api-openapi.yml
   format: yaml
   label: Suki AI User Preferences API
   slug: suki-ai-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-user-preferences-api-openapi.yml
 - filename: suki-ai-content-api-openapi.yml
   format: yaml
   label: Suki AI Content API
   slug: suki-ai-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-content-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-content-api-openapi.yml
 - filename: suki-ai-preferences-api-openapi.yml
   format: yaml
   label: Suki AI Preferences API
   slug: suki-ai-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-preferences-api-openapi.yml
 - filename: suki-ai-sessions-api-openapi.yml
   format: yaml
   label: Suki AI Sessions API
   slug: suki-ai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-sessions-api-openapi.yml
 - filename: suki-ai-templates-api-openapi.yml
   format: yaml
   label: Suki AI Templates API
   slug: suki-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/openapi/suki-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/suki-ai/openapi/suki-ai-templates-api-openapi.yml
 consequence_counts:
   read: 16
   write: 13
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/suki-a
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /form-filling/sessions/{id}/status\n  method: get\n  operationId: getFormFillingSessionStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /form-filling/sessions/{id}/structured-data\n  method: get\n  operationId: getFormFillingStructuredData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-preferences\n  method: get\n  operationId: getUserPreferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-preferences\n  method: patch\n  operationId: updateUserPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /feedback\n  method: post\n  operationId: submitFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/notifications\n  method: post\n  operationId: receiveNotifications\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /info/specialties\n  method: get\n  operationId: listSpecialties\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/diagnoses\n  method: get\n  operationId: listDiagnoses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/encounter-types\n  method: get\n  operationId: listEncounterTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/visit-types\n  method: get\n  operationId: listVisitTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info/provider-roles\n  method: get\n  operationId: listProviderRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suki-ai/refs/heads/main/agentic-access/suki-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/suki-ai/agentic-access/suki-ai-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Healthcare

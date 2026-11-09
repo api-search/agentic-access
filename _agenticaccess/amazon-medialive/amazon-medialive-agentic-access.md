@@ -9,7 +9,55 @@ api_specs:
   label: Amazon MediaLive Prod API
   slug: amazon-medialive-prod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/openapi/amazon-medialive-prod-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-prod-api-openapi.yml
+- filename: amazon-medialive-alerts-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Alerts API
+  slug: amazon-medialive-alerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-alerts-api-openapi.yml
+- filename: amazon-medialive-channelplacementgroups-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Channelplacementgroups API
+  slug: amazon-medialive-channelplacementgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-channelplacementgroups-api-openapi.yml
+- filename: amazon-medialive-nodes-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Nodes API
+  slug: amazon-medialive-nodes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-nodes-api-openapi.yml
+- filename: amazon-medialive-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Operations API
+  slug: amazon-medialive-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-operations-api-openapi.yml
+- filename: amazon-medialive-programs-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Programs API
+  slug: amazon-medialive-programs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-programs-api-openapi.yml
+- filename: amazon-medialive-schedule-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Schedule API
+  slug: amazon-medialive-schedule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-schedule-api-openapi.yml
+- filename: amazon-medialive-start-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Start API
+  slug: amazon-medialive-start-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-start-api-openapi.yml
+- filename: amazon-medialive-stop-api-openapi.yml
+  format: yaml
+  label: Amazon MediaLive Medialive Stop API
+  slug: amazon-medialive-stop-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-medialive/openapi/amazon-medialive-stop-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 20
@@ -105,9 +153,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prod/channels/{channelId}/start\n  method: post\n  operationId: StartChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prod/inputDevices/{inputDeviceId}/startInputDeviceMaintenanceWindow\n  method: post\n  operationId: StartInputDeviceMaintenanceWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /prod/multiplexes/{multiplexId}/start\n  method: post\n  operationId: StartMultiplex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prod/channels/{channelId}/stop\n  method: post\n  operationId: StopChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /prod/multiplexes/{multiplexId}/stop\n  method: post\n  operationId: StopMultiplex\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /prod/inputDevices/{inputDeviceId}/transfer\n  method: post\n  operationId: TransferInputDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prod/channels/{channelId}/channelClass\n  method: put\n  operationId: UpdateChannelClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-medialive/refs/heads/main/agentic-access/amazon-medialive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-medialive/agentic-access/amazon-medialive-agentic-access.yml
 summary_line: 59 operations · 39 acting · 4 human-in-the-loop
 tags:
+- Amazon Web Services
 - Broadcasting
 - Media Processing
 - Media

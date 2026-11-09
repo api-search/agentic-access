@@ -9,25 +9,25 @@ api_specs:
   label: Quiltt Connections API
   slug: quiltt-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-connections-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-connections-api-openapi.yml
 - filename: quiltt-profiles-api-openapi.yml
   format: yaml
   label: Quiltt Profiles API
   slug: quiltt-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-profiles-api-openapi.yml
 - filename: quiltt-session-tokens-api-openapi.yml
   format: yaml
   label: Quiltt Session Tokens API
   slug: quiltt-session-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-session-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-session-tokens-api-openapi.yml
 - filename: quiltt-webhooks-api-openapi.yml
   format: yaml
   label: Quiltt Webhooks API
   slug: quiltt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/openapi/quiltt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quiltt/openapi/quiltt-webhooks-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quiltt
   \    audit: required\n- path: /profiles/{profileId}/connections\n  method: get\n  operationId: listConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles/{profileId}/connections/{connectionId}\n  method: get\n  operationId: getConnection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles/{profileId}/connections/{connectionId}\n  method: delete\n  operationId: deleteConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /users/sessions\n  method: post\n  operationId: issueSessionToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/session\n  method: get\n  operationId: verifySessionToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/sessions/revoke\n  method: post\n  operationId: revokeSessionToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiltt/refs/heads/main/agentic-access/quiltt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quiltt/agentic-access/quiltt-agentic-access.yml
 summary_line: 15 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Fintech

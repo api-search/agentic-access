@@ -9,79 +9,79 @@ api_specs:
   label: Flipturn Access IDs API
   slug: flipturn-access-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-access-ids-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-access-ids-api-openapi.yml
 - filename: flipturn-alerts-api-openapi.yml
   format: yaml
   label: Flipturn Alerts API
   slug: flipturn-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-alerts-api-openapi.yml
 - filename: flipturn-charger-health-api-openapi.yml
   format: yaml
   label: Flipturn Charger Health API
   slug: flipturn-charger-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-charger-health-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-charger-health-api-openapi.yml
 - filename: flipturn-chargers-api-openapi.yml
   format: yaml
   label: Flipturn Chargers API
   slug: flipturn-chargers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-chargers-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-chargers-api-openapi.yml
 - filename: flipturn-charging-sessions-api-openapi.yml
   format: yaml
   label: Flipturn Charging Sessions API
   slug: flipturn-charging-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-charging-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-charging-sessions-api-openapi.yml
 - filename: flipturn-departure-times-api-openapi.yml
   format: yaml
   label: Flipturn Departure Times API
   slug: flipturn-departure-times-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-departure-times-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-departure-times-api-openapi.yml
 - filename: flipturn-errors-api-openapi.yml
   format: yaml
   label: Flipturn Errors API
   slug: flipturn-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-errors-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-errors-api-openapi.yml
 - filename: flipturn-maintenance-windows-api-openapi.yml
   format: yaml
   label: Flipturn Maintenance Windows API
   slug: flipturn-maintenance-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-maintenance-windows-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-maintenance-windows-api-openapi.yml
 - filename: flipturn-ocpp-messages-api-openapi.yml
   format: yaml
   label: Flipturn OCPP Messages API
   slug: flipturn-ocpp-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-ocpp-messages-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-ocpp-messages-api-openapi.yml
 - filename: flipturn-reservations-api-openapi.yml
   format: yaml
   label: Flipturn Reservations API
   slug: flipturn-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-reservations-api-openapi.yml
 - filename: flipturn-site-power-limits-api-openapi.yml
   format: yaml
   label: Flipturn Site Power Limits API
   slug: flipturn-site-power-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-site-power-limits-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-site-power-limits-api-openapi.yml
 - filename: flipturn-sites-api-openapi.yml
   format: yaml
   label: Flipturn Sites API
   slug: flipturn-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-sites-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-sites-api-openapi.yml
 - filename: flipturn-vehicles-api-openapi.yml
   format: yaml
   label: Flipturn Vehicles API
   slug: flipturn-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/openapi/flipturn-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/flipturn/openapi/flipturn-vehicles-api-openapi.yml
 consequence_counts:
   read: 15
   write: 11
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fliptu
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocpp/reservations\n  method: post\n  operationId: createReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocpp/reservations/cancel\n  method: post\n  operationId: cancelReservation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/{site-id}/limits\n  method: get\n  operationId: getSitePowerLimits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /site/{site-id}/limits\n  method: post\n  operationId: createSitePowerLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/{site-id}/limits/{schedule-id}\n  method: delete\n  operationId: deleteSitePowerLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /departure-times/vehicle\n  method: post\n  operationId: syncVehicleDepartureTimes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /departure-times/batch\n  method: post\n  operationId: batchSyncDepartureTimes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintenance-windows\n  method: get\n  operationId: listMaintenanceWindows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/agentic-access/flipturn-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flipturn/agentic-access/flipturn-agentic-access.yml
 summary_line: 26 operations · 11 acting
 tags:
 - Company

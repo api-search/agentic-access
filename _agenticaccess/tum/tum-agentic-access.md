@@ -9,19 +9,19 @@ api_specs:
   label: NavigaTUM
   slug: navigatum
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-locations-api-openapi.yml
 - filename: tum-menu-api-openapi.yml
   format: yaml
   label: eat-api — Munich Student Canteen Menus
   slug: eat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-menu-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-menu-api-openapi.yml
 - filename: tum-campus-api-openapi.yml
   format: yaml
   label: Technical University of Munich Campus API
   slug: tum-campus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-campus-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 28
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tum-ca
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/locations/{id}/qr-code\n  method: get\n  operationId: qr_code_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search\n  method: get\n  operationId: search_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/maps/route\n  method: get\n  operationId: route_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{canteen_id}/{year}/{week}.json\n  method: get\n  operationId: getByCanteenIdByYear{week}Json\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{canteen_id}/combined/combined.json\n\
   \  method: get\n  operationId: getByCanteenIdCombinedCombinedJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all.json\n  method: get\n  operationId: getAllJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /all_ref.json\n  method: get\n  operationId: getAllRefJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/openapi.json\n  method: get\n  operationId: openapi_doc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enums/canteens.json\n  method: get\n  operationId: getEnumsCanteensJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enums/languages.json\n  method: get\n  operationId: getEnumsLanguagesJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enums/labels.json\n  method: get\n  operationId: getEnumsLabelsJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/status\n  method: get\n  operationId: health_status_handler\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/agentic-access/tum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tum/agentic-access/tum-agentic-access.yml
 summary_line: 38 operations · 10 acting
 tags:
 - University

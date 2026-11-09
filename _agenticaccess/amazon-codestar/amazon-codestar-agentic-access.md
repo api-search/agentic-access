@@ -9,7 +9,7 @@ api_specs:
   label: Amazon CodeStar AWS CodeStar API
   slug: amazon-codestar-aws-codestar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/openapi/amazon-codestar-aws-codestar-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codestar/openapi/amazon-codestar-aws-codestar-api-openapi.yml
 consequence_counts:
   read: 5
   write: 13
@@ -44,11 +44,13 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=CodeStar_20170419.ListUserProfiles\n  method: post\n  operationId: ListUserProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=CodeStar_20170419.TagProject\n  method: post\n  operationId: TagProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeStar_20170419.UntagProject\n  method: post\n  operationId: UntagProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeStar_20170419.UpdateProject\n  method: post\n  operationId: UpdateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeStar_20170419.UpdateTeamMember\n  method: post\n  operationId: UpdateTeamMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeStar_20170419.UpdateUserProfile\n  method: post\n  operationId: UpdateUserProfile\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/agentic-access/amazon-codestar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codestar/agentic-access/amazon-codestar-agentic-access.yml
 summary_line: 18 operations · 13 acting
 tags:
+- Amazon Web Services
 - Developer Tools
 - DevOps
 - Project Management
 - Team Collaboration
+- Defunct
 ---

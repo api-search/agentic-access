@@ -9,85 +9,85 @@ api_specs:
   label: CData Connect AI MCP Server
   slug: mcp
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-mcp-api-openapi.yml
 - filename: cdata-account-api-openapi.yml
   format: yaml
   label: CData Account API
   slug: cdata-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-account-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-account-api-openapi.yml
 - filename: cdata-cache-api-openapi.yml
   format: yaml
   label: CData Cache API
   slug: cdata-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-cache-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-cache-api-openapi.yml
 - filename: cdata-connection-api-openapi.yml
   format: yaml
   label: CData Connection API
   slug: cdata-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-connection-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-connection-api-openapi.yml
 - filename: cdata-data-explorer-api-openapi.yml
   format: yaml
   label: CData Data Explorer API
   slug: cdata-data-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-data-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-data-explorer-api-openapi.yml
 - filename: cdata-job-api-openapi.yml
   format: yaml
   label: CData Job API
   slug: cdata-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-job-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-job-api-openapi.yml
 - filename: cdata-jobs-api-openapi.yml
   format: yaml
   label: CData Jobs API
   slug: cdata-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-jobs-api-openapi.yml
 - filename: cdata-log-api-openapi.yml
   format: yaml
   label: CData Log API
   slug: cdata-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-log-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-log-api-openapi.yml
 - filename: cdata-metadata-api-openapi.yml
   format: yaml
   label: CData Metadata API
   slug: cdata-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-metadata-api-openapi.yml
 - filename: cdata-query-api-openapi.yml
   format: yaml
   label: CData Query API
   slug: cdata-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-query-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-query-api-openapi.yml
 - filename: cdata-service-accounts-api-openapi.yml
   format: yaml
   label: CData Service Accounts API
   slug: cdata-service-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-service-accounts-api-openapi.yml
 - filename: cdata-users-api-openapi.yml
   format: yaml
   label: CData Users API
   slug: cdata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-users-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-users-api-openapi.yml
 - filename: cdata-odata-api-openapi.yml
   format: yaml
   label: CData O Data API
   slug: cdata-odata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-odata-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-odata-api-openapi.yml
 - filename: cdata-open-api-api-openapi.yml
   format: yaml
   label: CData Open API
   slug: cdata-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/openapi/cdata-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/cdata/openapi/cdata-open-api-api-openapi.yml
 consequence_counts:
   read: 33
   safety-critical: 1
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cdata-
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/permissions\n  method: post\n  operationId: assignUserPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - management:users:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/permissions\n  method: get\n  operationId: listUserPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - management:users:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/permissions/{permission_id}\n  method: delete\n  operationId: removeUserPermission\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - management:users:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/workspaces/{workspace_id}/roles\n  method: post\n  operationId: assignUserWorkspaceRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - management:users:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/workspaces/{workspace_id}/roles\n  method: get\n  operationId: listUserWorkspaceRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - management:users:read\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /users/{id}/workspaces/{workspace_id}/roles/{role_id}\n  method: delete\n  operationId: removeUserWorkspaceRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - management:users:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdata/refs/heads/main/agentic-access/cdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cdata/agentic-access/cdata-agentic-access.yml
 summary_line: 76 operations · 43 acting · 1 human-in-the-loop
 tags:
 - Data

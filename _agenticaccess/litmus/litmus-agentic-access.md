@@ -9,43 +9,43 @@ api_specs:
   label: Litmus Analytics API
   slug: litmus-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-analytics-api-openapi.yml
 - filename: litmus-campaigns-api-openapi.yml
   format: yaml
   label: Litmus Campaigns API
   slug: litmus-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-campaigns-api-openapi.yml
 - filename: litmus-clients-api-openapi.yml
   format: yaml
   label: Litmus Clients API
   slug: litmus-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-clients-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-clients-api-openapi.yml
 - filename: litmus-previews-api-openapi.yml
   format: yaml
   label: Litmus Previews API
   slug: litmus-previews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-previews-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-previews-api-openapi.yml
 - filename: litmus-results-api-openapi.yml
   format: yaml
   label: Litmus Results API
   slug: litmus-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-results-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-results-api-openapi.yml
 - filename: litmus-tests-api-openapi.yml
   format: yaml
   label: Litmus Tests API
   slug: litmus-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-tests-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-tests-api-openapi.yml
 - filename: litmus-ftpsites-api-openapi.yml
   format: yaml
   label: Litmus Ftp Sites API
   slug: litmus-ftpsites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/openapi/litmus-ftpsites-api-openapi.yml
+  url: https://artifacts.apis.io/litmus/openapi/litmus-ftpsites-api-openapi.yml
 consequence_counts:
   read: 16
   write: 5
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/litmus
   \  operationId: createEmailPreview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /emails/{emailGuid}\n  method: get\n  operationId: getEmailPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /emails/{emailGuid}/previews/{clientId}\n  method: get\n  operationId: getClientPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients\n  method: get\n  operationId: listEmailClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests\n\
   \  method: get\n  operationId: listTests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests\n  method: post\n  operationId: createTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tests/{testId}\n  method: get\n  operationId: getTest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests/{testId}\n  method: delete\n  operationId: deleteTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tests/{testId}/previews\n  method: get\n  operationId: listTestPreviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests/{testId}/spam\n  method: get\n  operationId: getSpamTestResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests/{testId}/links\n  method: get\n  operationId: getLinkCheckResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients\n  method: get\n  operationId: listLegacyClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/agentic-access/litmus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/litmus/agentic-access/litmus-agentic-access.yml
 summary_line: 21 operations · 5 acting
 tags:
 - Developer Tools

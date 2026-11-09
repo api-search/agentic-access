@@ -9,31 +9,31 @@ api_specs:
   label: Uptrace Alerts API
   slug: uptrace-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-alerts-api-openapi.yml
 - filename: uptrace-annotations-api-openapi.yml
   format: yaml
   label: Uptrace Annotations API
   slug: uptrace-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-annotations-api-openapi.yml
 - filename: uptrace-dashboards-api-openapi.yml
   format: yaml
   label: Uptrace Dashboards API
   slug: uptrace-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-dashboards-api-openapi.yml
 - filename: uptrace-metrics-api-openapi.yml
   format: yaml
   label: Uptrace Metrics API
   slug: uptrace-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-metrics-api-openapi.yml
 - filename: uptrace-projects-api-openapi.yml
   format: yaml
   label: Uptrace Projects API
   slug: uptrace-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/openapi/uptrace-projects-api-openapi.yml
+  url: https://artifacts.apis.io/uptrace/openapi/uptrace-projects-api-openapi.yml
 consequence_counts:
   read: 8
   write: 11
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uptrac
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{projectId}\n  method: put\n  operationId:\
   \ updateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/projects/{projectId}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/dashboards\n  method: get\n  operationId: listDashboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/dashboards\n  method: post\n  operationId: createDashboard\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/agentic-access/uptrace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uptrace/agentic-access/uptrace-agentic-access.yml
 summary_line: 19 operations · 11 acting
 tags:
 - APM

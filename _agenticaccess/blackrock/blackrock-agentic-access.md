@@ -9,55 +9,55 @@ api_specs:
   label: BlackRock Authorization Url:generate API
   slug: blackrock-authorizationurl-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-authorizationurl-generate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-authorizationurl-generate-api-openapi.yml
 - filename: blackrock-studionotifications-api-openapi.yml
   format: yaml
   label: BlackRock Studio Notifications API
   slug: blackrock-studionotifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studionotifications-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studionotifications-api-openapi.yml
 - filename: blackrock-studionotifications-batchcreate-api-openapi.yml
   format: yaml
   label: BlackRock Studio Notifications:batch Create API
   slug: blackrock-studionotifications-batchcreate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studionotifications-batchcreate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studionotifications-batchcreate-api-openapi.yml
 - filename: blackrock-studionotifications-filter-api-openapi.yml
   format: yaml
   label: BlackRock Studio Notifications:filter API
   slug: blackrock-studionotifications-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studionotifications-filter-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studionotifications-filter-api-openapi.yml
 - filename: blackrock-studiosubscriptions-api-openapi.yml
   format: yaml
   label: BlackRock Studio Subscriptions API
   slug: blackrock-studiosubscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studiosubscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studiosubscriptions-api-openapi.yml
 - filename: blackrock-studiosubscriptions-batchcreate-api-openapi.yml
   format: yaml
   label: BlackRock Studio Subscriptions:batch Create API
   slug: blackrock-studiosubscriptions-batchcreate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studiosubscriptions-batchcreate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studiosubscriptions-batchcreate-api-openapi.yml
 - filename: blackrock-studiosubscriptions-filter-api-openapi.yml
   format: yaml
   label: BlackRock Studio Subscriptions:filter API
   slug: blackrock-studiosubscriptions-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-studiosubscriptions-filter-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-studiosubscriptions-filter-api-openapi.yml
 - filename: blackrock-token-checktokenexists-api-openapi.yml
   format: yaml
   label: BlackRock Token:check Token Exists API
   slug: blackrock-token-checktokenexists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-token-checktokenexists-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-token-checktokenexists-api-openapi.yml
 - filename: blackrock-token-generate-api-openapi.yml
   format: yaml
   label: BlackRock Token:generate API
   slug: blackrock-token-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/openapi/blackrock-token-generate-api-openapi.yml
+  url: https://artifacts.apis.io/blackrock/openapi/blackrock-token-generate-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/blackr
   \    subject: optional\n    scope:\n    - platform.studio.studio_notification.v1.StudioSubscription\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studioSubscriptions/{id}\n  method: delete\n  operationId: StudioSubscriptionAPI_DeleteStudioSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - platform.studio.studio_notification.v1.StudioSubscription\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studioSubscriptions/{studioSubscription.id}\n  method: patch\n  operationId: StudioSubscriptionAPI_UpdateStudioSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - platform.studio.studio_notification.v1.StudioSubscription\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studioSubscriptions:batchCreate\n  method: post\n  operationId: StudioSubscriptionAPI_BatchCreateStudioSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - platform.studio.studio_notification.v1.StudioSubscription\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studioSubscriptions:filter\n  method: post\n  operationId: StudioSubscriptionAPI_FilterStudioSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - platform.studio.studio_notification.v1.StudioSubscription\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /authorizationUrl:generate\n  method: get\n  operationId: TokenAPI_GenerateAuthorizationUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - platform.infrastructure.token.v1.Token:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token:checkTokenExists\n  method: get\n  operationId: TokenAPI_CheckTokenExists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - platform.infrastructure.token.v1.Token:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token:generate\n  method: get\n  operationId: TokenAPI_GenerateToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - platform.infrastructure.token.v1.Token:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackrock/refs/heads/main/agentic-access/blackrock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blackrock/agentic-access/blackrock-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Asset Management

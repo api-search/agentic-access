@@ -9,127 +9,127 @@ api_specs:
   label: Zoho Cliq Bots API
   slug: zoho-cliq-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-bots-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-bots-api-openapi.yml
 - filename: zoho-cliq-chats-api-openapi.yml
   format: yaml
   label: Zoho Cliq Chats API
   slug: zoho-cliq-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-chats-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-chats-api-openapi.yml
 - filename: zoho-cliq-dndsettings-api-openapi.yml
   format: yaml
   label: Zoho Cliq Dndsettings API
   slug: zoho-cliq-dndsettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-dndsettings-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-dndsettings-api-openapi.yml
 - filename: zoho-cliq-extensions-api-openapi.yml
   format: yaml
   label: Zoho Cliq Extensions API
   slug: zoho-cliq-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-extensions-api-openapi.yml
 - filename: zoho-cliq-functions-api-openapi.yml
   format: yaml
   label: Zoho Cliq Functions API
   slug: zoho-cliq-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-functions-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-functions-api-openapi.yml
 - filename: zoho-cliq-keyboardshortcuts-api-openapi.yml
   format: yaml
   label: Zoho Cliq Keyboardshortcuts API
   slug: zoho-cliq-keyboardshortcuts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-keyboardshortcuts-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-keyboardshortcuts-api-openapi.yml
 - filename: zoho-cliq-mentions-api-openapi.yml
   format: yaml
   label: Zoho Cliq Mentions API
   slug: zoho-cliq-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-mentions-api-openapi.yml
 - filename: zoho-cliq-messageactions-api-openapi.yml
   format: yaml
   label: Zoho Cliq Messageactions API
   slug: zoho-cliq-messageactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-messageactions-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-messageactions-api-openapi.yml
 - filename: zoho-cliq-messagecards-api-openapi.yml
   format: yaml
   label: Zoho Cliq Messagecards API
   slug: zoho-cliq-messagecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-messagecards-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-messagecards-api-openapi.yml
 - filename: zoho-cliq-messageformat-api-openapi.yml
   format: yaml
   label: Zoho Cliq Messageformat API
   slug: zoho-cliq-messageformat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-messageformat-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-messageformat-api-openapi.yml
 - filename: zoho-cliq-messages-api-openapi.yml
   format: yaml
   label: Zoho Cliq Messages API
   slug: zoho-cliq-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-messages-api-openapi.yml
 - filename: zoho-cliq-mobilesettings-api-openapi.yml
   format: yaml
   label: Zoho Cliq Mobilesettings API
   slug: zoho-cliq-mobilesettings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-mobilesettings-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-mobilesettings-api-openapi.yml
 - filename: zoho-cliq-mypins-api-openapi.yml
   format: yaml
   label: Zoho Cliq Mypins API
   slug: zoho-cliq-mypins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-mypins-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-mypins-api-openapi.yml
 - filename: zoho-cliq-pinmessages-api-openapi.yml
   format: yaml
   label: Zoho Cliq Pinmessages API
   slug: zoho-cliq-pinmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-pinmessages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-pinmessages-api-openapi.yml
 - filename: zoho-cliq-platform-storage-api-openapi.yml
   format: yaml
   label: Zoho Cliq Platform_storage API
   slug: zoho-cliq-platform-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-platform-storage-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-platform-storage-api-openapi.yml
 - filename: zoho-cliq-reminders-api-openapi.yml
   format: yaml
   label: Zoho Cliq Reminders API
   slug: zoho-cliq-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-reminders-api-openapi.yml
 - filename: zoho-cliq-slashcommands-api-openapi.yml
   format: yaml
   label: Zoho Cliq Slashcommands API
   slug: zoho-cliq-slashcommands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-slashcommands-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-slashcommands-api-openapi.yml
 - filename: zoho-cliq-stars-api-openapi.yml
   format: yaml
   label: Zoho Cliq Stars API
   slug: zoho-cliq-stars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-stars-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-stars-api-openapi.yml
 - filename: zoho-cliq-threads-api-openapi.yml
   format: yaml
   label: Zoho Cliq Threads API
   slug: zoho-cliq-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-threads-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-threads-api-openapi.yml
 - filename: zoho-cliq-scheduled-messages-api-openapi.yml
   format: yaml
   label: Zoho Cliq Scheduled Messages API
   slug: zoho-cliq-scheduled-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-scheduled-messages-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-scheduled-messages-api-openapi.yml
 - filename: zoho-cliq-user-preferences-api-openapi.yml
   format: yaml
   label: Zoho Cliq User Preferences API
   slug: zoho-cliq-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/openapi/zoho-cliq-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-cliq/openapi/zoho-cliq-user-preferences-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 42
@@ -245,8 +245,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zoho-c
   \ in chat\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCliq.Webhooks.CREATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages\n  method: post\n  operationId: Forward Messages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCliq.Messages.CREATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/search\n  method: get\n  operationId: searchMessagesV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCliq.Chats.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/mobile\n\
   \  method: get\n  operationId: getMobileSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCliq.Profile.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/mobile\n  method: put\n  operationId: updateMobileSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCliq.Profile.UPDATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pin-categories\n  method: get\n  operationId: getPinCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - ZohoCliq.Chats.READ\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pin-categories\n  method: post\n  operationId: createPinCategory\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCliq.Chats.CREATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pin-categories\n  method: delete\n  operationId: removeChatsAcrossCategories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCliq.Chats.DELETE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pin-categories/{CATEGORY_ID}\n  method: put\n  operationId: updatePinCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoCliq.Chats.UPDATE\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/agentic-access/zoho-cliq-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-cliq/refs/heads/main/agentic-access/zoho-cliq-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://artifacts.apis.io/zoho-cliq/agentic-access/zoho-cliq-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zoho-cliq/agentic-access/zoho-cliq-agentic-access.yml
 summary_line: 155 operations · 113 acting
 tags:
 - Messaging

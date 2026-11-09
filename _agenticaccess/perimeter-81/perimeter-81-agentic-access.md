@@ -9,103 +9,103 @@ api_specs:
   label: Perimeter 81 Application API
   slug: perimeter-81-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-application-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-application-api-openapi.yml
 - filename: perimeter-81-enhanced-networks-api-openapi.yml
   format: yaml
   label: Perimeter 81 Enhanced Networks API
   slug: perimeter-81-enhanced-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-enhanced-networks-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-enhanced-networks-api-openapi.yml
 - filename: perimeter-81-enhanced-regions-api-openapi.yml
   format: yaml
   label: Perimeter 81 Enhanced Regions API
   slug: perimeter-81-enhanced-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-enhanced-regions-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-enhanced-regions-api-openapi.yml
 - filename: perimeter-81-enhanced-route-tables-api-openapi.yml
   format: yaml
   label: Perimeter 81 Enhanced Route Tables API
   slug: perimeter-81-enhanced-route-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-enhanced-route-tables-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-enhanced-route-tables-api-openapi.yml
 - filename: perimeter-81-enhanced-tunnels-api-openapi.yml
   format: yaml
   label: Perimeter 81 Enhanced Tunnels API
   slug: perimeter-81-enhanced-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-enhanced-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-enhanced-tunnels-api-openapi.yml
 - filename: perimeter-81-firewall-policy-api-openapi.yml
   format: yaml
   label: Perimeter 81 Firewall Policy API
   slug: perimeter-81-firewall-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-firewall-policy-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-firewall-policy-api-openapi.yml
 - filename: perimeter-81-gateways-api-openapi.yml
   format: yaml
   label: Perimeter 81 Gateways API
   slug: perimeter-81-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-gateways-api-openapi.yml
 - filename: perimeter-81-ipsec-redundant-api-openapi.yml
   format: yaml
   label: Perimeter 81 IPSec-Redundant API
   slug: perimeter-81-ipsec-redundant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-ipsec-redundant-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-ipsec-redundant-api-openapi.yml
 - filename: perimeter-81-ipsec-single-api-openapi.yml
   format: yaml
   label: Perimeter 81 IPSec-Single API
   slug: perimeter-81-ipsec-single-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-ipsec-single-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-ipsec-single-api-openapi.yml
 - filename: perimeter-81-networks-api-openapi.yml
   format: yaml
   label: Perimeter 81 Networks API
   slug: perimeter-81-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-networks-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-networks-api-openapi.yml
 - filename: perimeter-81-objects-addresses-api-openapi.yml
   format: yaml
   label: Perimeter 81 Objects Addresses API
   slug: perimeter-81-objects-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-objects-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-objects-addresses-api-openapi.yml
 - filename: perimeter-81-objects-services-api-openapi.yml
   format: yaml
   label: Perimeter 81 Objects Services API
   slug: perimeter-81-objects-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-objects-services-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-objects-services-api-openapi.yml
 - filename: perimeter-81-openvpn-api-openapi.yml
   format: yaml
   label: Perimeter 81 OpenVPN API
   slug: perimeter-81-openvpn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-openvpn-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-openvpn-api-openapi.yml
 - filename: perimeter-81-regions-api-openapi.yml
   format: yaml
   label: Perimeter 81 Regions API
   slug: perimeter-81-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-regions-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-regions-api-openapi.yml
 - filename: perimeter-81-route-table-api-openapi.yml
   format: yaml
   label: Perimeter 81 Route Table API
   slug: perimeter-81-route-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-route-table-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-route-table-api-openapi.yml
 - filename: perimeter-81-standard-networks-api-openapi.yml
   format: yaml
   label: Perimeter 81 Standard Networks API
   slug: perimeter-81-standard-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-standard-networks-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-standard-networks-api-openapi.yml
 - filename: perimeter-81-wireguard-api-openapi.yml
   format: yaml
   label: Perimeter 81 Wireguard API
   slug: perimeter-81-wireguard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/openapi/perimeter-81-wireguard-api-openapi.yml
+  url: https://artifacts.apis.io/perimeter-81/openapi/perimeter-81-wireguard-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 44
@@ -269,8 +269,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/perime
   \  method: get\n  operationId: Standard_getIPSecSingleTunnel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/networks/standard/{networkId}/tunnels/ipsec/single/{tunnelId}\n  method: put\n  operationId: Standard_updateIPSecSingleTunnel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.3/networks/standard/{networkId}/tunnels/ipsec/single/{tunnelId}\n  method: delete\n  operationId: Standard_deleteIPSecSingleTunnel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v2.3/networks/standard/{networkId}/tunnels/ipsec/redundant\n  method: post\n  operationId: Standard_createIPSecRedundantTunnel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.3/networks/standard/{networkId}/tunnels/ipsec/redundant/{haTunnelId}\n  method: get\n  operationId: Standard_getIPSecRedundantTunnel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/networks/standard/{networkId}/tunnels/ipsec/redundant/{haTunnelId}\n  method: put\n  operationId: Standard_updateIPSecRedundantTunnel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.3/networks/standard/{networkId}/tunnels/ipsec/redundant/{haTunnelId}\n  method: delete\n  operationId: Standard_deleteIPSecRedundantTunnel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2.3/networks/standard/{networkId}/route-table\n  method: get\n  operationId: standard_getRouteTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/networks/{networkId}/policy\n  method: get\n  operationId: getFirewallPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/networks/{networkId}/policy\n  method: put\n  operationId: updateFirewallPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/agentic-access/perimeter-81-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perimeter-81/refs/heads/main/agentic-access/perimeter-81-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/networks/{networkId}/policy\n  method: get\n  operationId: getFirewallPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2.3/networks/{networkId}/policy\n  method: put\n  operationId: updateFirewallPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/perimeter-81/agentic-access/perimeter-81-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/perimeter-81/agentic-access/perimeter-81-agentic-access.yml
 summary_line: 107 operations · 63 acting · 14 human-in-the-loop
 tags:
 - Company

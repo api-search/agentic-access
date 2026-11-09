@@ -9,163 +9,163 @@ api_specs:
   label: Authentik Core API
   slug: authentik-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-core-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-core-api-openapi.yml
 - filename: authentik-crypto-api-openapi.yml
   format: yaml
   label: Authentik Crypto API
   slug: authentik-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-crypto-api-openapi.yml
 - filename: authentik-events-api-openapi.yml
   format: yaml
   label: Authentik Events API
   slug: authentik-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-events-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-events-api-openapi.yml
 - filename: authentik-flows-api-openapi.yml
   format: yaml
   label: Authentik Flows API
   slug: authentik-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-flows-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-flows-api-openapi.yml
 - filename: authentik-policies-api-openapi.yml
   format: yaml
   label: Authentik Policies API
   slug: authentik-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-policies-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-policies-api-openapi.yml
 - filename: authentik-providers-api-openapi.yml
   format: yaml
   label: Authentik Providers API
   slug: authentik-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-providers-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-providers-api-openapi.yml
 - filename: authentik-rbac-api-openapi.yml
   format: yaml
   label: Authentik RBAC API
   slug: authentik-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-rbac-api-openapi.yml
 - filename: authentik-schema-api-openapi.yml
   format: yaml
   label: Authentik Schema API
   slug: authentik-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-schema-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-schema-api-openapi.yml
 - filename: authentik-sources-api-openapi.yml
   format: yaml
   label: Authentik Sources API
   slug: authentik-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-sources-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-sources-api-openapi.yml
 - filename: authentik-stages-api-openapi.yml
   format: yaml
   label: Authentik Stages API
   slug: authentik-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-stages-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-stages-api-openapi.yml
 - filename: authentik-admin-api-openapi.yml
   format: yaml
   label: Authentik Admin API
   slug: authentik-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-admin-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-admin-api-openapi.yml
 - filename: authentik-agents-api-openapi.yml
   format: yaml
   label: Authentik Agents API
   slug: authentik-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-agents-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-agents-api-openapi.yml
 - filename: authentik-authenticators-api-openapi.yml
   format: yaml
   label: Authentik Authenticators API
   slug: authentik-authenticators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-authenticators-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-authenticators-api-openapi.yml
 - filename: authentik-endpoints-api-openapi.yml
   format: yaml
   label: Authentik Endpoints API
   slug: authentik-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-endpoints-api-openapi.yml
 - filename: authentik-enterprise-api-openapi.yml
   format: yaml
   label: Authentik Enterprise API
   slug: authentik-enterprise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-enterprise-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-enterprise-api-openapi.yml
 - filename: authentik-lifecycle-api-openapi.yml
   format: yaml
   label: Authentik Lifecycle API
   slug: authentik-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-lifecycle-api-openapi.yml
 - filename: authentik-managed-api-openapi.yml
   format: yaml
   label: Authentik Managed API
   slug: authentik-managed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-managed-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-managed-api-openapi.yml
 - filename: authentik-outposts-api-openapi.yml
   format: yaml
   label: Authentik Outposts API
   slug: authentik-outposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-outposts-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-outposts-api-openapi.yml
 - filename: authentik-propertymappings-api-openapi.yml
   format: yaml
   label: Authentik Property Mappings API
   slug: authentik-propertymappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-propertymappings-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-propertymappings-api-openapi.yml
 - filename: authentik-rac-api-openapi.yml
   format: yaml
   label: Authentik RAC API
   slug: authentik-rac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-rac-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-rac-api-openapi.yml
 - filename: authentik-reports-api-openapi.yml
   format: yaml
   label: Authentik Reports API
   slug: authentik-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-reports-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-reports-api-openapi.yml
 - filename: authentik-requests-api-openapi.yml
   format: yaml
   label: Authentik Requests API
   slug: authentik-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-requests-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-requests-api-openapi.yml
 - filename: authentik-root-api-openapi.yml
   format: yaml
   label: Authentik Root API
   slug: authentik-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-root-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-root-api-openapi.yml
 - filename: authentik-ssf-api-openapi.yml
   format: yaml
   label: Authentik SSF API
   slug: authentik-ssf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-ssf-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-ssf-api-openapi.yml
 - filename: authentik-tasks-api-openapi.yml
   format: yaml
   label: Authentik Tasks API
   slug: authentik-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-tasks-api-openapi.yml
 - filename: authentik-tenants-api-openapi.yml
   format: yaml
   label: Authentik Tenants API
   slug: authentik-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-tenants-api-openapi.yml
 - filename: authentik-oauth2-api-openapi.yml
   format: yaml
   label: Authentik Oauth2 API
   slug: authentik-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/openapi/authentik-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/authentik/openapi/authentik-oauth2-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 557
@@ -249,14 +249,15 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/authen
   \ authenticators_static_used_by_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authenticators/totp/\n  method: get\n  operationId: authenticators_totp_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authenticators/totp/{id}/\n  method: get\n  operationId: authenticators_totp_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authenticators/totp/{id}/\n  method: put\n  operationId: authenticators_totp_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /authenticators/totp/{id}/\n  method: patch\n  operationId: authenticators_totp_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authenticators/totp/{id}/\n  method: delete\n  operationId: authenticators_totp_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authenticators/totp/{id}/used_by/\n  method: get\n  operationId: authenticators_totp_used_by_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /authenticators/webauthn/\n  method: get\n  operationId: authenticators_webauthn_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authenticators/webauthn/{id}/\n  method: get\n  operationId: authenticators_webauthn_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authenticators/webauthn/{id}/\n  method: put\n  operationId: authenticators_webauthn_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authenticators/webauthn/{id}/\n  method: patch\n  operationId: authenticators_webauthn_partial_update\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authenticators/webauthn/{id}/\n  method: delete\n  operationId: authenticators_webauthn_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (361 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/agentic-access/authentik-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authentik/refs/heads/main/agentic-access/authentik-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authenticators/webauthn/{id}/\n  method: delete\n  operationId: authenticators_webauthn_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (361 KB total) ---\n# Full source: https://artifacts.apis.io/authentik/agentic-access/authentik-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/authentik/agentic-access/authentik-agentic-access.yml
 summary_line: 1193 operations · 636 acting · 1 human-in-the-loop
 tags:
 - Authentication
 - Authorization
 - Identity Provider
 - LDAP
+- OAuth
 - Open Source
 - OpenID Connect
 - SAML

@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Transfer Service TransferJobs API
   slug: google-cloud-transfer-service-transferjobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferjobs-api-openapi.yml
 - filename: google-cloud-transfer-service-transferoperations-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service TransferOperations API
   slug: google-cloud-transfer-service-transferoperations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-transferoperations-api-openapi.yml
 - filename: google-cloud-transfer-service-agent-pools-api-openapi.yml
   format: yaml
   label: Google Cloud Transfer Service Agent Pools API
   slug: google-cloud-transfer-service-agent-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-transfer-service/openapi/google-cloud-transfer-service-agent-pools-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 4
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/storag
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transferJobs/{jobName}\n  method: get\n  operationId: getTransferJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transferJobs/{jobName}\n  method: patch\n  operationId: updateTransferJob\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transferJobs/{jobName}:run\n  method: post\n  operationId: runTransferJob\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transferOperations\n  method: get\n  operationId: listTransferOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/agentPools\n  method: get\n  operationId: listAgentPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/agentPools\n  method: post\n  operationId: createAgentPool\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-transfer-service/refs/heads/main/agentic-access/google-cloud-transfer-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-transfer-service/agentic-access/google-cloud-transfer-service-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Microsoft Azure

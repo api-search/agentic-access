@@ -9,55 +9,55 @@ api_specs:
   label: Spinnaker Applications API
   slug: spinnaker-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-applications-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-applications-api-openapi.yml
 - filename: spinnaker-build-services-api-openapi.yml
   format: yaml
   label: Spinnaker Build Services API
   slug: spinnaker-build-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-build-services-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-build-services-api-openapi.yml
 - filename: spinnaker-clusters-api-openapi.yml
   format: yaml
   label: Spinnaker Clusters API
   slug: spinnaker-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-clusters-api-openapi.yml
 - filename: spinnaker-images-api-openapi.yml
   format: yaml
   label: Spinnaker Images API
   slug: spinnaker-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-images-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-images-api-openapi.yml
 - filename: spinnaker-load-balancers-api-openapi.yml
   format: yaml
   label: Spinnaker Load Balancers API
   slug: spinnaker-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-load-balancers-api-openapi.yml
 - filename: spinnaker-pipelines-api-openapi.yml
   format: yaml
   label: Spinnaker Pipelines API
   slug: spinnaker-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-pipelines-api-openapi.yml
 - filename: spinnaker-projects-api-openapi.yml
   format: yaml
   label: Spinnaker Projects API
   slug: spinnaker-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-projects-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-projects-api-openapi.yml
 - filename: spinnaker-search-api-openapi.yml
   format: yaml
   label: Spinnaker Search API
   slug: spinnaker-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-search-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-search-api-openapi.yml
 - filename: spinnaker-tasks-api-openapi.yml
   format: yaml
   label: Spinnaker Tasks API
   slug: spinnaker-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/openapi/spinnaker-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/spinnaker/openapi/spinnaker-tasks-api-openapi.yml
 consequence_counts:
   read: 16
   write: 7
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spinna
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - openid\n- path: /pipelines/{id}/pause\n  method: put\n  operationId: pausePipelineExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - openid\n- path: /pipelines/{id}/resume\n  method: put\n  operationId: resumePipelineExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - openid\n- path: /images/find\n  method: get\n  operationId: findImages\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /projects/{id}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /v2/builds\n  method: get\n  operationId: listBuildMasters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n- path: /v2/builds/{buildMaster}/jobs\n  method: get\n  operationId: listBuildJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - openid\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spinnaker/refs/heads/main/agentic-access/spinnaker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spinnaker/agentic-access/spinnaker-agentic-access.yml
 summary_line: 23 operations · 7 acting
 tags:
 - Continuous Delivery

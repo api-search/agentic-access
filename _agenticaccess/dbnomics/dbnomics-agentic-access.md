@@ -8,25 +8,25 @@ api_specs:
   label: DBnomics Datasets API
   slug: dbnomics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-datasets-api-openapi.yml
 - filename: dbnomics-providers-api-openapi.yml
   format: yaml
   label: DBnomics Providers API
   slug: dbnomics-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-providers-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-providers-api-openapi.yml
 - filename: dbnomics-search-api-openapi.yml
   format: yaml
   label: DBnomics Search API
   slug: dbnomics-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-search-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-search-api-openapi.yml
 - filename: dbnomics-series-api-openapi.yml
   format: yaml
   label: DBnomics Series API
   slug: dbnomics-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-series-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-series-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dbnomics-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /providers\n  method: get\n  operationId: listProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{provider_code}\n  method: get\n  operationId: getProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{provider_code}\n  method: get\n  operationId: listDatasets\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{provider_code}/{dataset_code}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /last-updates\n  method: get\n  operationId: getLastUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series\n  method: get\n  operationId: getSeriesByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /series/{provider_code}/{dataset_code}\n  method: get\n  operationId: listDatasetSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series/{provider_code}/{dataset_code}/{series_code}\n  method: get\n  operationId: getSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/agentic-access/dbnomics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dbnomics/agentic-access/dbnomics-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Economic Indicators

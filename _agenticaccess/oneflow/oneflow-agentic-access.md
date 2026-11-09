@@ -9,67 +9,67 @@ api_specs:
   label: Oneflow Comments API
   slug: oneflow-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-comments-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-comments-api-openapi.yml
 - filename: oneflow-contract-files-api-openapi.yml
   format: yaml
   label: Oneflow Contract Files API
   slug: oneflow-contract-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-contract-files-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-contract-files-api-openapi.yml
 - filename: oneflow-contracts-api-openapi.yml
   format: yaml
   label: Oneflow Contracts API
   slug: oneflow-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-contracts-api-openapi.yml
 - filename: oneflow-data-fields-api-openapi.yml
   format: yaml
   label: Oneflow Data Fields API
   slug: oneflow-data-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-data-fields-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-data-fields-api-openapi.yml
 - filename: oneflow-participants-api-openapi.yml
   format: yaml
   label: Oneflow Participants API
   slug: oneflow-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-participants-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-participants-api-openapi.yml
 - filename: oneflow-parties-api-openapi.yml
   format: yaml
   label: Oneflow Parties API
   slug: oneflow-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-parties-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-parties-api-openapi.yml
 - filename: oneflow-ping-api-openapi.yml
   format: yaml
   label: Oneflow Ping API
   slug: oneflow-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-ping-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-ping-api-openapi.yml
 - filename: oneflow-templates-api-openapi.yml
   format: yaml
   label: Oneflow Templates API
   slug: oneflow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-templates-api-openapi.yml
 - filename: oneflow-users-api-openapi.yml
   format: yaml
   label: Oneflow Users API
   slug: oneflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-users-api-openapi.yml
 - filename: oneflow-webhooks-api-openapi.yml
   format: yaml
   label: Oneflow Webhooks API
   slug: oneflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-webhooks-api-openapi.yml
 - filename: oneflow-workspaces-api-openapi.yml
   format: yaml
   label: Oneflow Workspaces API
   slug: oneflow-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/openapi/oneflow-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/oneflow/openapi/oneflow-workspaces-api-openapi.yml
 consequence_counts:
   read: 14
   write: 14
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oneflo
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/parties/{party_id}/participants/{participant_id}\n  method: put\n  operationId: updateParticipant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{contract_id}/parties/{party_id}/participants/{participant_id}\n  method: delete\n  operationId: deleteParticipant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contract_id}/comments\n  method: get\n  operationId: getContractComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oneflow/refs/heads/main/agentic-access/oneflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oneflow/agentic-access/oneflow-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - Contract Management

@@ -9,145 +9,145 @@ api_specs:
   label: Figment Addresses API
   slug: figment-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-addresses-api-openapi.yml
 - filename: figment-aptos-api-openapi.yml
   format: yaml
   label: Figment Aptos API
   slug: figment-aptos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-aptos-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-aptos-api-openapi.yml
 - filename: figment-avalanche-api-openapi.yml
   format: yaml
   label: Figment Avalanche API
   slug: figment-avalanche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-avalanche-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-avalanche-api-openapi.yml
 - filename: figment-blockfrost-projects-api-openapi.yml
   format: yaml
   label: Figment Blockfrost Projects API
   slug: figment-blockfrost-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-blockfrost-projects-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-blockfrost-projects-api-openapi.yml
 - filename: figment-cardano-api-openapi.yml
   format: yaml
   label: Figment Cardano API
   slug: figment-cardano-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-cardano-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-cardano-api-openapi.yml
 - filename: figment-cosmos-api-openapi.yml
   format: yaml
   label: Figment Cosmos API
   slug: figment-cosmos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-cosmos-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-cosmos-api-openapi.yml
 - filename: figment-ethereum-api-openapi.yml
   format: yaml
   label: Figment Ethereum API
   slug: figment-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-ethereum-api-openapi.yml
 - filename: figment-near-api-openapi.yml
   format: yaml
   label: Figment NEAR API
   slug: figment-near-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-near-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-near-api-openapi.yml
 - filename: figment-osmosis-api-openapi.yml
   format: yaml
   label: Figment Osmosis API
   slug: figment-osmosis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-osmosis-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-osmosis-api-openapi.yml
 - filename: figment-partners-ethereum-api-openapi.yml
   format: yaml
   label: Figment Partners - Ethereum API
   slug: figment-partners-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-partners-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-partners-ethereum-api-openapi.yml
 - filename: figment-polkadot-api-openapi.yml
   format: yaml
   label: Figment Polkadot API
   slug: figment-polkadot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-polkadot-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-polkadot-api-openapi.yml
 - filename: figment-polygon-api-openapi.yml
   format: yaml
   label: Figment Polygon API
   slug: figment-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-polygon-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-polygon-api-openapi.yml
 - filename: figment-portfolio-api-openapi.yml
   format: yaml
   label: Figment Portfolio API
   slug: figment-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-portfolio-api-openapi.yml
 - filename: figment-rewards-api-openapi.yml
   format: yaml
   label: Figment Rewards API
   slug: figment-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-rewards-api-openapi.yml
 - filename: figment-solana-api-openapi.yml
   format: yaml
   label: Figment Solana API
   slug: figment-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-solana-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-solana-api-openapi.yml
 - filename: figment-stablecoins-api-openapi.yml
   format: yaml
   label: Figment Stablecoins API
   slug: figment-stablecoins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-stablecoins-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-stablecoins-api-openapi.yml
 - filename: figment-staking-flows-api-openapi.yml
   format: yaml
   label: Figment Staking Flows API
   slug: figment-staking-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-staking-flows-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-staking-flows-api-openapi.yml
 - filename: figment-statements-api-openapi.yml
   format: yaml
   label: Figment Statements API
   slug: figment-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-statements-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-statements-api-openapi.yml
 - filename: figment-sui-api-openapi.yml
   format: yaml
   label: Figment Sui API
   slug: figment-sui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-sui-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-sui-api-openapi.yml
 - filename: figment-transactions-api-openapi.yml
   format: yaml
   label: Figment Transactions API
   slug: figment-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-transactions-api-openapi.yml
 - filename: figment-validators-api-openapi.yml
   format: yaml
   label: Figment Validators API
   slug: figment-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-validators-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-validators-api-openapi.yml
 - filename: figment-vaulta-api-openapi.yml
   format: yaml
   label: Figment Vaulta API
   slug: figment-vaulta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-vaulta-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-vaulta-api-openapi.yml
 - filename: figment-vaults-api-openapi.yml
   format: yaml
   label: Figment Vaults API
   slug: figment-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-vaults-api-openapi.yml
 - filename: figment-x402-api-openapi.yml
   format: yaml
   label: Figment X402 API
   slug: figment-x402-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/openapi/figment-x402-api-openapi.yml
+  url: https://artifacts.apis.io/figment/openapi/figment-x402-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 49
@@ -297,8 +297,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/figmen
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements\n  method: get\n  operationId: get-statements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/broadcast\n  method: post\n  operationId: broadcast-sui-tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sui/stake\n  method: post\n  operationId: build-sui-stake-tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sui/stakes\n  method: get\n  operationId: sui-get-stakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sui/withdraw\n  method: post\n  operationId: sui-withdraw-tx\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /injective/transactions/broadcast\n  method: post\n  operationId: postInjectiveTransactionsBroadcast\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validators\n  method: get\n  operationId: list-validators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaulta/broadcast\n  method: post\n  operationId: broadcast-vaulta-tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaulta/stake\n  method: post\n  operationId: vaulta-stake-tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n\
-  # --- truncated at 32 KB (40 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/agentic-access/figment-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figment/refs/heads/main/agentic-access/figment-agentic-access.yml
+  # --- truncated at 32 KB (40 KB total) ---\n# Full source: https://artifacts.apis.io/figment/agentic-access/figment-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/figment/agentic-access/figment-agentic-access.yml
 summary_line: 129 operations · 80 acting · 1 human-in-the-loop
 tags:
 - Staking

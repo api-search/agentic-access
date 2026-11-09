@@ -9,67 +9,67 @@ api_specs:
   label: Shell Accounts API
   slug: shell-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-accounts-api-openapi.yml
 - filename: shell-cards-api-openapi.yml
   format: yaml
   label: Shell Cards API
   slug: shell-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-cards-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-cards-api-openapi.yml
 - filename: shell-catalogue-api-openapi.yml
   format: yaml
   label: Shell Catalogue API
   slug: shell-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-catalogue-api-openapi.yml
 - filename: shell-invoices-api-openapi.yml
   format: yaml
   label: Shell Invoices API
   slug: shell-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-invoices-api-openapi.yml
 - filename: shell-limits-api-openapi.yml
   format: yaml
   label: Shell Limits API
   slug: shell-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-limits-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-limits-api-openapi.yml
 - filename: shell-offers-api-openapi.yml
   format: yaml
   label: Shell Offers API
   slug: shell-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-offers-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-offers-api-openapi.yml
 - filename: shell-orders-api-openapi.yml
   format: yaml
   label: Shell Orders API
   slug: shell-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-orders-api-openapi.yml
 - filename: shell-points-api-openapi.yml
   format: yaml
   label: Shell Points API
   slug: shell-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-points-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-points-api-openapi.yml
 - filename: shell-products-api-openapi.yml
   format: yaml
   label: Shell Products API
   slug: shell-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-products-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-products-api-openapi.yml
 - filename: shell-sites-api-openapi.yml
   format: yaml
   label: Shell Sites API
   slug: shell-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-sites-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-sites-api-openapi.yml
 - filename: shell-transactions-api-openapi.yml
   format: yaml
   label: Shell Transactions API
   slug: shell-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/openapi/shell-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/shell/openapi/shell-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shell-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: listLoyaltyTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue\n  method: get\n  operationId: listCatalogue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalogue/{rewardId}\n  method: get\n  operationId: getCatalogueItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/offers\n  method: get\n  operationId:\
   \ listOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/offers/{offerId}/assign\n  method: post\n  operationId: assignOffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountNumber}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/agentic-access/shell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shell/agentic-access/shell-agentic-access.yml
 summary_line: 28 operations · 9 acting
 tags:
 - Aviation

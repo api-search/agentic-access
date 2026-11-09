@@ -9,37 +9,37 @@ api_specs:
   label: Amazon FinSpace Environments API
   slug: amazon-finspace-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-environments-api-openapi.yml
 - filename: amazon-finspace-kdb-clusters-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Clusters API
   slug: amazon-finspace-kdb-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-clusters-api-openapi.yml
 - filename: amazon-finspace-kdb-databases-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Databases API
   slug: amazon-finspace-kdb-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-databases-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-databases-api-openapi.yml
 - filename: amazon-finspace-kdb-environments-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Environments API
   slug: amazon-finspace-kdb-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-environments-api-openapi.yml
 - filename: amazon-finspace-kdb-users-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Kdb Users API
   slug: amazon-finspace-kdb-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-kdb-users-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-kdb-users-api-openapi.yml
 - filename: amazon-finspace-tagging-api-openapi.yml
   format: yaml
   label: Amazon FinSpace Tagging API
   slug: amazon-finspace-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/openapi/amazon-finspace-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-finspace/openapi/amazon-finspace-tagging-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -72,11 +72,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  method: get\n  operationId: listKxClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kdb/environments/{environmentId}/clusters/{clusterName}\n  method: get\n  operationId: getKxCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kdb/environments/{environmentId}/clusters/{clusterName}\n  method: delete\n  operationId: deleteKxCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kdb/environments/{environmentId}/databases\n  method: post\n  operationId: createKxDatabase\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kdb/environments/{environmentId}/databases\n  method: get\n  operationId: listKxDatabases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kdb/environments/{environmentId}/users\n  method: post\n  operationId: createKxUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kdb/environments/{environmentId}/users\n  method: get\n  operationId: listKxUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/agentic-access/amazon-finspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-finspace/agentic-access/amazon-finspace-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
+- Amazon Web Services
 - Capital Markets
 - Data Analytics
 - Data Management
 - Financial Services
+- Defunct
 ---

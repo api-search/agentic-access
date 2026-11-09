@@ -9,19 +9,19 @@ api_specs:
   label: StreamYard Broadcasts API
   slug: streamyard-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-broadcasts-api-openapi.yml
 - filename: streamyard-destinations-api-openapi.yml
   format: yaml
   label: StreamYard Destinations API
   slug: streamyard-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-destinations-api-openapi.yml
 - filename: streamyard-recordings-api-openapi.yml
   format: yaml
   label: StreamYard Recordings API
   slug: streamyard-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/openapi/streamyard-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/streamyard/openapi/streamyard-recordings-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stream
   \    audit: required\n- path: /broadcasts/{broadcastId}/destinations\n  method: get\n  operationId: listBroadcastDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /broadcasts/{broadcastId}/destinations\n  method: post\n  operationId: addBroadcastDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /broadcasts/{broadcastId}/destinations/{destinationId}\n  method: delete\n  operationId: removeBroadcastDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /destinations\n  method: get\n  operationId: listDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /destinations/{destinationId}\n  method: get\n  operationId: getDestination\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /destinations/{destinationId}\n  method: delete\n  operationId: deleteDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings\n  method: get\n  operationId: listRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/{recordingId}\n  method: get\n  operationId: getRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/{recordingId}\n  method: delete\n  operationId: deleteRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamyard/refs/heads/main/agentic-access/streamyard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/streamyard/agentic-access/streamyard-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Broadcasting

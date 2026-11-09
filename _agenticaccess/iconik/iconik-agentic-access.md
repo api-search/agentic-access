@@ -9,37 +9,37 @@ api_specs:
   label: iconik Assets API
   slug: iconik-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-assets-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-assets-api-openapi.yml
 - filename: iconik-collections-api-openapi.yml
   format: yaml
   label: iconik Collections API
   slug: iconik-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-collections-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-collections-api-openapi.yml
 - filename: iconik-files-api-openapi.yml
   format: yaml
   label: iconik Files API
   slug: iconik-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-files-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-files-api-openapi.yml
 - filename: iconik-jobs-api-openapi.yml
   format: yaml
   label: iconik Jobs API
   slug: iconik-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-jobs-api-openapi.yml
 - filename: iconik-metadata-api-openapi.yml
   format: yaml
   label: iconik Metadata API
   slug: iconik-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-metadata-api-openapi.yml
 - filename: iconik-search-api-openapi.yml
   format: yaml
   label: iconik Search API
   slug: iconik-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/openapi/iconik-search-api-openapi.yml
+  url: https://artifacts.apis.io/iconik/openapi/iconik-search-api-openapi.yml
 consequence_counts:
   read: 14
   write: 12
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/iconik
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/v1/jobs/{job_id}/\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata/v1/fields/\n  method: get\n  operationId: listMetadataFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/v1/fields/\n  method: post\n  operationId: createMetadataField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata/v1/views/\n  method: get\n  operationId: listMetadataViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/v1/assets/{asset_id}/views/{view_id}/\n  method: get\n  operationId: getAssetMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/v1/assets/{asset_id}/views/{view_id}/\n  method: put\n  operationId: putAssetMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /search/v1/search/\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iconik/refs/heads/main/agentic-access/iconik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/iconik/agentic-access/iconik-agentic-access.yml
 summary_line: 26 operations · 12 acting
 tags:
 - Media Asset Management

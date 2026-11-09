@@ -9,31 +9,31 @@ api_specs:
   label: VMware Tanzu Authentication API
   slug: vmware-tanzu-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-authentication-api-openapi.yml
 - filename: vmware-tanzu-clusters-api-openapi.yml
   format: yaml
   label: VMware Tanzu Clusters API
   slug: vmware-tanzu-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-clusters-api-openapi.yml
 - filename: vmware-tanzu-global-namespaces-api-openapi.yml
   format: yaml
   label: VMware Tanzu Global Namespaces API
   slug: vmware-tanzu-global-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
 - filename: vmware-tanzu-resource-groups-api-openapi.yml
   format: yaml
   label: VMware Tanzu Resource Groups API
   slug: vmware-tanzu-resource-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-resource-groups-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-resource-groups-api-openapi.yml
 - filename: vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
   format: yaml
   label: VMware Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vmware
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/global-namespaces\n  method: get\n  operationId: listGlobalNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha1/global-namespaces\n  method: post\n  operationId: createGlobalNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/global-namespaces/{namespace_id}\n  method: get\n  operationId: getGlobalNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha1/global-namespaces/{namespace_id}\n  method:\
   \ put\n  operationId: updateGlobalNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/global-namespaces/{namespace_id}\n  method: delete\n  operationId: deleteGlobalNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/resource-groups\n  method: get\n  operationId: listResourceGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1alpha1/resource-groups\n  method: post\n  operationId:\
   \ createResourceGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/agentic-access/vmware-tanzu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vmware-tanzu/agentic-access/vmware-tanzu-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Cloud-Native

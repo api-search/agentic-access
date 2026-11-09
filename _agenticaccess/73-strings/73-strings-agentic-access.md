@@ -9,37 +9,37 @@ api_specs:
   label: 73 Strings Asset Info API
   slug: 73-strings-asset-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-asset-info-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-asset-info-api-openapi.yml
 - filename: 73-strings-documents-api-openapi.yml
   format: yaml
   label: 73 Strings Documents API
   slug: 73-strings-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-documents-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-documents-api-openapi.yml
 - filename: 73-strings-financial-data-api-openapi.yml
   format: yaml
   label: 73 Strings Financial Data API
   slug: 73-strings-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-financial-data-api-openapi.yml
 - filename: 73-strings-qualitative-data-api-openapi.yml
   format: yaml
   label: 73 Strings Qualitative Data API
   slug: 73-strings-qualitative-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-qualitative-data-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-qualitative-data-api-openapi.yml
 - filename: 73-strings-transaction-api-api-openapi.yml
   format: yaml
   label: 73 Strings Transaction API
   slug: 73-strings-transaction-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-transaction-api-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-transaction-api-api-openapi.yml
 - filename: 73-strings-cap-table-api-openapi.yml
   format: yaml
   label: 73 Strings cap table API
   slug: 73-strings-cap-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/openapi/73-strings-cap-table-api-openapi.yml
+  url: https://artifacts.apis.io/73-strings/openapi/73-strings-cap-table-api-openapi.yml
 consequence_counts:
   read: 18
   write: 5
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/73-str
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ems/saveEntityFinancialData\n  method: post\n  operationId: companyFinancialData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/ems/customAttributeData\n  method: post\n  operationId: getCustomAttributeDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ems/getEntityGeneralDetails\n  method: post\n  operationId: getGeneralDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ems/getEntityQualitativeAnalysisData\n  method: post\n  operationId:\
   \ getQualitativeAnalysisData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/unifiedTransaction\n  method: post\n  operationId: unifiedTransaction-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/unifiedTransaction\n  method: post\n  operationId: unifiedTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transactionData\n  method: post\n  operationId: getTransactionData\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/transactionType\n  method: post\n  operationId: getTransactionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/transactionVersion\n  method: post\n  operationId: getTransactionVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/putfundTransactions\n  method: post\n  operationId: GTN_FUND_TRANSACTION\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/73-strings/refs/heads/main/agentic-access/73-strings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/73-strings/agentic-access/73-strings-agentic-access.yml
 summary_line: 23 operations · 5 acting
 tags:
 - Private Markets

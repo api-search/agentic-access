@@ -9,121 +9,121 @@ api_specs:
   label: Qargo API / Accounting API
   slug: qargo-api-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-accounting-api-openapi.yml
 - filename: qargo-api-authentication-api-openapi.yml
   format: yaml
   label: Qargo API / Authentication API
   slug: qargo-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-authentication-api-openapi.yml
 - filename: qargo-api-company-api-openapi.yml
   format: yaml
   label: Qargo API / Company API
   slug: qargo-api-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-company-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-company-api-openapi.yml
 - filename: qargo-api-document-api-openapi.yml
   format: yaml
   label: Qargo API / Document API
   slug: qargo-api-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-document-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-document-api-openapi.yml
 - filename: qargo-api-order-api-openapi.yml
   format: yaml
   label: Qargo API / Order API
   slug: qargo-api-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-order-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-order-api-openapi.yml
 - filename: qargo-api-resource-api-openapi.yml
   format: yaml
   label: Qargo API / Resource API
   slug: qargo-api-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-resource-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-resource-api-openapi.yml
 - filename: qargo-api-task-api-openapi.yml
   format: yaml
   label: Qargo API / Task API
   slug: qargo-api-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-task-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-task-api-openapi.yml
 - filename: qargo-api-trip-api-openapi.yml
   format: yaml
   label: Qargo API / Trip API
   slug: qargo-api-trip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-api-trip-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-api-trip-api-openapi.yml
 - filename: qargo-system-api-openapi.yml
   format: yaml
   label: Qargo System API
   slug: qargo-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-system-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-system-api-openapi.yml
 - filename: qargo-use-case-accounting-api-openapi.yml
   format: yaml
   label: Qargo Use case / Accounting API
   slug: qargo-use-case-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-accounting-api-openapi.yml
 - filename: qargo-use-case-document-import-api-openapi.yml
   format: yaml
   label: Qargo Use case / Document import API
   slug: qargo-use-case-document-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-document-import-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-document-import-api-openapi.yml
 - filename: qargo-use-case-e-invoicing-api-openapi.yml
   format: yaml
   label: Qargo Use case / E-invoicing API
   slug: qargo-use-case-e-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-e-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-e-invoicing-api-openapi.yml
 - filename: qargo-use-case-fleet-dispatch-api-openapi.yml
   format: yaml
   label: Qargo Use case / Fleet dispatch API
   slug: qargo-use-case-fleet-dispatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-fleet-dispatch-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-fleet-dispatch-api-openapi.yml
 - filename: qargo-use-case-intermodal-partner-api-openapi.yml
   format: yaml
   label: Qargo Use case / Intermodal [partner] API
   slug: qargo-use-case-intermodal-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-intermodal-partner-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-intermodal-partner-api-openapi.yml
 - filename: qargo-use-case-location-booking-api-openapi.yml
   format: yaml
   label: Qargo Use case / Location booking API
   slug: qargo-use-case-location-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-location-booking-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-location-booking-api-openapi.yml
 - filename: qargo-use-case-order-api-openapi.yml
   format: yaml
   label: Qargo Use case / Order API
   slug: qargo-use-case-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-order-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-order-api-openapi.yml
 - filename: qargo-use-case-subcontractor-dispatch-api-openapi.yml
   format: yaml
   label: Qargo Use case / Subcontractor dispatch API
   slug: qargo-use-case-subcontractor-dispatch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-subcontractor-dispatch-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-subcontractor-dispatch-api-openapi.yml
 - filename: qargo-use-case-tracking-api-openapi.yml
   format: yaml
   label: Qargo Use case / Tracking API
   slug: qargo-use-case-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-tracking-api-openapi.yml
 - filename: qargo-use-case-trip-import-api-openapi.yml
   format: yaml
   label: Qargo Use case / Trip import API
   slug: qargo-use-case-trip-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-trip-import-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-trip-import-api-openapi.yml
 - filename: qargo-use-case-visibility-api-openapi.yml
   format: yaml
   label: Qargo Use case / Visibility API
   slug: qargo-use-case-visibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/openapi/qargo-use-case-visibility-api-openapi.yml
+  url: https://artifacts.apis.io/qargo/openapi/qargo-use-case-visibility-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 50
@@ -312,8 +312,8 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/qargo-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/resource/{resource_id}/unavailability/{id}\n  method: get\n  operationId: Get_resource_unavailability_v1_resources_resource__resource_id__unavailability__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources/resource/{resource_id}/unavailability/{id}\n  method: put\n  operationId: Update_resource_unavailabilities_v1_resources_resource__resource_id__unavailability__id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/resource/{resource_id}/unavailability/{id}\n\
   \  method: delete\n  operationId: Delete_resource_unavailabilities_v1_resources_resource__resource_id__unavailability__id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/resource/{resource_id}/validity\n  method: get\n  operationId: List_resource_validities_v1_resources_resource__resource_id__validity_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources/resource/{resource_id}/validity\n  method: post\n  operationId: Create_resource_validity_request_v1_resources_resource__resource_id__validity_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/resource/{resource_id}/validity/{id}\n  method: get\n  operationId: Get_resource_validity_v1_resources_resource__resource_id__validity__id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resources/resource/{resource_id}/validity/{id}\n  method: put\n  operationId: Update_resource_validity_v1_resources_resource__resource_id__validity__id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resources/resource/{resource_id}/validity/{id}\n  method: delete\n\
-  \  operationId: Delete_resource_validity_v1_resources_resource__resource_id__validity__id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/agentic-access/qargo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qargo/refs/heads/main/agentic-access/qargo-agentic-access.yml
+  \  operationId: Delete_resource_validity_v1_resources_resource__resource_id__validity__id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/qargo/agentic-access/qargo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/qargo/agentic-access/qargo-agentic-access.yml
 summary_line: 114 operations · 64 acting · 7 human-in-the-loop
 tags:
 - Company

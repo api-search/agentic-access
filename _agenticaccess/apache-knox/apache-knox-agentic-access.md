@@ -9,19 +9,19 @@ api_specs:
   label: Apache Knox Descriptors API
   slug: apache-knox-descriptors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-descriptors-api-openapi.yml
+  url: https://artifacts.apis.io/apache-knox/openapi/apache-knox-descriptors-api-openapi.yml
 - filename: apache-knox-providers-api-openapi.yml
   format: yaml
   label: Apache Knox Providers API
   slug: apache-knox-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-providers-api-openapi.yml
+  url: https://artifacts.apis.io/apache-knox/openapi/apache-knox-providers-api-openapi.yml
 - filename: apache-knox-topologies-api-openapi.yml
   format: yaml
   label: Apache Knox Topologies API
   slug: apache-knox-topologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/openapi/apache-knox-topologies-api-openapi.yml
+  url: https://artifacts.apis.io/apache-knox/openapi/apache-knox-topologies-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topologies/{topologyName}\n  method: get\n  operationId: getTopology\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/topologies/{topologyName}\n  method: delete\n  operationId: deleteTopology\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/topologies/{topologyName}/urls\n  method: get\n  operationId: getTopologyUrls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/version\n  method: get\n  operationId: getVersion\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/descriptors\n  method: get\n  operationId: listDescriptors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/descriptors\n  method: post\n  operationId: createDescriptor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/descriptors/{descriptorName}\n  method: get\n  operationId: getDescriptor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/descriptors/{descriptorName}\n\
   \  method: delete\n  operationId: deleteDescriptor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/providerconfig\n  method: get\n  operationId: listProviderConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/providerconfig\n  method: post\n  operationId: createProviderConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-knox/refs/heads/main/agentic-access/apache-knox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-knox/agentic-access/apache-knox-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - API Gateway

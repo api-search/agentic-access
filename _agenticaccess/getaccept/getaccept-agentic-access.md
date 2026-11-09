@@ -9,73 +9,73 @@ api_specs:
   label: GetAccept Archive API
   slug: getaccept-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-archive-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-archive-api-openapi.yml
 - filename: getaccept-attachments-api-openapi.yml
   format: yaml
   label: GetAccept Attachments API
   slug: getaccept-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-attachments-api-openapi.yml
 - filename: getaccept-authentication-api-openapi.yml
   format: yaml
   label: GetAccept Authentication API
   slug: getaccept-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-authentication-api-openapi.yml
 - filename: getaccept-communication-templates-api-openapi.yml
   format: yaml
   label: GetAccept Communication Templates API
   slug: getaccept-communication-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-communication-templates-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-communication-templates-api-openapi.yml
 - filename: getaccept-contacts-api-openapi.yml
   format: yaml
   label: GetAccept Contacts API
   slug: getaccept-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-contacts-api-openapi.yml
 - filename: getaccept-custom-data-api-openapi.yml
   format: yaml
   label: GetAccept Custom Data API
   slug: getaccept-custom-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-custom-data-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-custom-data-api-openapi.yml
 - filename: getaccept-documents-api-openapi.yml
   format: yaml
   label: GetAccept Documents API
   slug: getaccept-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-documents-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-documents-api-openapi.yml
 - filename: getaccept-others-api-openapi.yml
   format: yaml
   label: GetAccept Others API
   slug: getaccept-others-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-others-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-others-api-openapi.yml
 - filename: getaccept-subscriptions-api-openapi.yml
   format: yaml
   label: GetAccept Subscriptions API
   slug: getaccept-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-subscriptions-api-openapi.yml
 - filename: getaccept-templates-api-openapi.yml
   format: yaml
   label: GetAccept Templates API
   slug: getaccept-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-templates-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-templates-api-openapi.yml
 - filename: getaccept-users-api-openapi.yml
   format: yaml
   label: GetAccept Users API
   slug: getaccept-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-users-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-users-api-openapi.yml
 - filename: getaccept-videos-api-openapi.yml
   format: yaml
   label: GetAccept Videos API
   slug: getaccept-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/openapi/getaccept-videos-api-openapi.yml
+  url: https://artifacts.apis.io/getaccept/openapi/getaccept-videos-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 47
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/getacc
   \ none\n    scope:\n    - basic\n- path: /users\n  method: post\n  operationId: CreateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - basic\n- path: /users/{userId}\n  method: delete\n  operationId: DeleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - basic\n- path: /users/{userId}\n  method: get\n  operationId: GetUserDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    -\
   \ basic\n- path: /users/{userId}/statistics\n  method: get\n  operationId: GetUserStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic\n- path: /upload/video\n  method: post\n  operationId: UploadVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - basic\n- path: /video/job/{videoId}\n  method: get\n  operationId: GetVideoJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic\n- path: /videos\n  method: get\n  operationId: ListVideos\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic\n- path: /videos/{videoId}\n  method: get\n  operationId: GetVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/agentic-access/getaccept-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/getaccept/agentic-access/getaccept-agentic-access.yml
 summary_line: 86 operations · 39 acting
 tags:
 - Company

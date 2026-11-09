@@ -8,61 +8,61 @@ api_specs:
   label: Barchart Charts and Analytics API
   slug: barchart-charts-and-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-charts-and-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-charts-and-analytics-api-openapi.yml
 - filename: barchart-cryptocurrency-data-api-openapi.yml
   format: yaml
   label: Barchart Cryptocurrency Data API
   slug: barchart-cryptocurrency-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-cryptocurrency-data-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-cryptocurrency-data-api-openapi.yml
 - filename: barchart-leaderboards-and-lists-api-openapi.yml
   format: yaml
   label: Barchart Leaderboards and Lists API
   slug: barchart-leaderboards-and-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-leaderboards-and-lists-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-leaderboards-and-lists-api-openapi.yml
 - filename: barchart-metadata-api-openapi.yml
   format: yaml
   label: Barchart Metadata API
   slug: barchart-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-metadata-api-openapi.yml
 - filename: barchart-news-and-filings-api-openapi.yml
   format: yaml
   label: Barchart News and Filings API
   slug: barchart-news-and-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-news-and-filings-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-news-and-filings-api-openapi.yml
 - filename: barchart-other-data-api-openapi.yml
   format: yaml
   label: Barchart Other Data API
   slug: barchart-other-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-other-data-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-other-data-api-openapi.yml
 - filename: barchart-price-data-api-openapi.yml
   format: yaml
   label: Barchart Price Data API
   slug: barchart-price-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-price-data-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-price-data-api-openapi.yml
 - filename: barchart-profiles-and-financial-data-api-openapi.yml
   format: yaml
   label: Barchart Profiles and Financial Data API
   slug: barchart-profiles-and-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-profiles-and-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-profiles-and-financial-data-api-openapi.yml
 - filename: barchart-splits-dividends-and-earnings-api-openapi.yml
   format: yaml
   label: Barchart Splits, Dividends, and Earnings API
   slug: barchart-splits-dividends-and-earnings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-splits-dividends-and-earnings-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-splits-dividends-and-earnings-api-openapi.yml
 - filename: barchart-etfs-api-openapi.yml
   format: yaml
   label: Barchart ET Fs API
   slug: barchart-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/openapi/barchart-etfs-api-openapi.yml
+  url: https://artifacts.apis.io/barchart/openapi/barchart-etfs-api-openapi.yml
 consequence_counts:
   read: 95
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: generated\nsource: openapi/barcha
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCmdtyCalendar.json\n  method: get\n  operationId: get-getCmdtyCalendar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getFuelPrices.json\n  method: get\n  operationId: get-getFuelPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getCropFactors.json\n  method: get\n  operationId: get-getCropFactors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getUniqueIdentifier.json\n  method: get\n  operationId: get-getUniqueIdentifier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /getYieldForecastPlanet.json\n  method: get\n  operationId: get-getYieldForecastPlanet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuote.json\n  method: get\n  operationId: getQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getQuoteEod.json\n  method: get\n  operationId: getQuoteEod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getEquitiesByExchange.json\n  method: get\n  operationId: getEquitiesByExchange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getInstrumentDefinition.json\n  method: get\n  operationId: getInstrumentDefinition\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getTechnicals.json\n  method: get\n  operationId: getTechnicals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSignal.json\n  method: get\n  operationId: getSignal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getWeather.json\n  method: get\n  operationId: getWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/barchart/refs/heads/main/agentic-access/barchart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/barchart/agentic-access/barchart-agentic-access.yml
 summary_line: 95 operations
 tags:
 - Market Data

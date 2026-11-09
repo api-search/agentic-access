@@ -9,37 +9,37 @@ api_specs:
   label: Interos Groups API
   slug: interos-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-groups-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-groups-api-openapi.yml
 - filename: interos-health-api-openapi.yml
   format: yaml
   label: Interos Health API
   slug: interos-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-health-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-health-api-openapi.yml
 - filename: interos-organizations-api-openapi.yml
   format: yaml
   label: Interos Organizations API
   slug: interos-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-organizations-api-openapi.yml
 - filename: interos-relationships-api-openapi.yml
   format: yaml
   label: Interos Relationships API
   slug: interos-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-relationships-api-openapi.yml
 - filename: interos-watchtower-api-openapi.yml
   format: yaml
   label: Interos Watchtower API
   slug: interos-watchtower-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-watchtower-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-watchtower-api-openapi.yml
 - filename: interos-my-data-api-openapi.yml
   format: yaml
   label: Interos My Data API
   slug: interos-my-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/openapi/interos-my-data-api-openapi.yml
+  url: https://artifacts.apis.io/interos/openapi/interos-my-data-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/intero
   \ /v1/organizations/{organization_id}\n  method: get\n  operationId: get_organization_profile_v1_external_organizations__organization_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organization_groups\n  method: get\n  operationId: get_all_for_customer_v1_external_organization_groups_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organization_groups/{group_id}/organizations\n  method: get\n  operationId: get_organizations_for_group_v1_external_organization_groups__group_id__organizations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{destination_organization_id}/connections\n  method: get\n  operationId: get_suppliers_for_organization_v1_external_organizations__destination_organization_id__connections_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{organization_id}/suppliers\n  method: get\n  operationId: get_suppliers_for_organization_v1_external_organizations__organization_id__suppliers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/custom_fields\n  method: get\n  operationId: get_custom_fields_custom_fields_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/static_custom_fields/values\n  method: post\n  operationId: post_organizations_static_custom_fields_values_organizations_static_custom_fields_values_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/scenarios/watchlists/{watchlist_id}/organizations\n  method: get\n  operationId: get_watchlist_organizations_scenarios_watchlists__watchlist_id__organizations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interos/refs/heads/main/agentic-access/interos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/interos/agentic-access/interos-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Company

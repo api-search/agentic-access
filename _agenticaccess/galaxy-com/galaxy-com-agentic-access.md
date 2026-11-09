@@ -9,13 +9,13 @@ api_specs:
   label: Galaxy Ethereum API
   slug: galaxy-com-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galaxy-com/refs/heads/main/openapi/galaxy-com-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/galaxy-com/openapi/galaxy-com-ethereum-api-openapi.yml
 - filename: galaxy-com-solana-api-openapi.yml
   format: yaml
   label: Galaxy Solana API
   slug: galaxy-com-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galaxy-com/refs/heads/main/openapi/galaxy-com-solana-api-openapi.yml
+  url: https://artifacts.apis.io/galaxy-com/openapi/galaxy-com-solana-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 9
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/galaxy
   \ /v1/solana/delegators/transfer\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/solana/delegators/signed-transaction\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/solana/delegators/transaction\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/solana/delegators/rewards\n  method: post\n  operationId: getSOLDelegatorAccruedRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/solana/delegators\n  method: post\n  operationId: getMultipleDelegators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/solana/{network}/delegators/{stake_account}\n  method: get\n  operationId: getSingleDelegator\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/solana/{network}/validators/{validator_address}\n  method: get\n  operationId: getValidatorInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/solana/delegators/monitoring\n  method: post\n  operationId: createValidatorMonitoringUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galaxy-com/refs/heads/main/agentic-access/galaxy-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/galaxy-com/agentic-access/galaxy-com-agentic-access.yml
 summary_line: 30 operations · 21 acting
 tags:
 - Company

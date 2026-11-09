@@ -9,79 +9,79 @@ api_specs:
   label: Workday Tracking System Accruals API
   slug: workday-tracking-system-accruals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-accruals-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-accruals-api-openapi.yml
 - filename: workday-tracking-system-balances-api-openapi.yml
   format: yaml
   label: Workday Tracking System Balances API
   slug: workday-tracking-system-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-balances-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-balances-api-openapi.yml
 - filename: workday-tracking-system-labor-demand-api-openapi.yml
   format: yaml
   label: Workday Tracking System Labor Demand API
   slug: workday-tracking-system-labor-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-labor-demand-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-labor-demand-api-openapi.yml
 - filename: workday-tracking-system-leave-of-absence-api-openapi.yml
   format: yaml
   label: Workday Tracking System Leave of Absence API
   slug: workday-tracking-system-leave-of-absence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-leave-of-absence-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-leave-of-absence-api-openapi.yml
 - filename: workday-tracking-system-scheduling-organizations-api-openapi.yml
   format: yaml
   label: Workday Tracking System Scheduling Organizations API
   slug: workday-tracking-system-scheduling-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-scheduling-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-scheduling-organizations-api-openapi.yml
 - filename: workday-tracking-system-shifts-api-openapi.yml
   format: yaml
   label: Workday Tracking System Shifts API
   slug: workday-tracking-system-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-shifts-api-openapi.yml
 - filename: workday-tracking-system-time-blocks-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Blocks API
   slug: workday-tracking-system-time-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-blocks-api-openapi.yml
 - filename: workday-tracking-system-time-clock-events-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Clock Events API
   slug: workday-tracking-system-time-clock-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-clock-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-clock-events-api-openapi.yml
 - filename: workday-tracking-system-time-off-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Off API
   slug: workday-tracking-system-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-off-api-openapi.yml
 - filename: workday-tracking-system-time-requests-api-openapi.yml
   format: yaml
   label: Workday Tracking System Time Requests API
   slug: workday-tracking-system-time-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-time-requests-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-time-requests-api-openapi.yml
 - filename: workday-tracking-system-timesheets-api-openapi.yml
   format: yaml
   label: Workday Tracking System Timesheets API
   slug: workday-tracking-system-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-timesheets-api-openapi.yml
 - filename: workday-tracking-system-work-schedules-api-openapi.yml
   format: yaml
   label: Workday Tracking System Work Schedules API
   slug: workday-tracking-system-work-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-work-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-work-schedules-api-openapi.yml
 - filename: workday-tracking-system-worker-preferences-api-openapi.yml
   format: yaml
   label: Workday Tracking System Worker Preferences API
   slug: workday-tracking-system-worker-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/openapi/workday-tracking-system-worker-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/workday-tracking-system/openapi/workday-tracking-system-worker-preferences-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/workda
   - path: /workers/{workerId}/timeClockEvents\n  method: get\n  operationId: listTimeClockEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/timeClockEvents\n  method: post\n  operationId: createTimeClockEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}/workSchedule\n  method: get\n  operationId: getWorkSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/workSchedule\n  method: put\n  operationId: assignWorkSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}/timeRequests\n  method: get\n  operationId: listTimeRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/timeRequests\n  method: post\n  operationId: createTimeRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workers/{workerId}/timesheets\n  method: get\n  operationId: listTimesheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /workers/{workerId}/timesheets/{timesheetId}/submit\n  method: post\n  operationId: submitTimesheet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/agentic-access/workday-tracking-system-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workday-tracking-system/agentic-access/workday-tracking-system-agentic-access.yml
 summary_line: 35 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Absence Management

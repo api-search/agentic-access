@@ -9,85 +9,85 @@ api_specs:
   label: Facebook Business Manager Ad Accounts API
   slug: facebook-business-manager-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-accounts-api-openapi.yml
 - filename: facebook-business-manager-ad-creatives-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Creatives API
   slug: facebook-business-manager-ad-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-creatives-api-openapi.yml
 - filename: facebook-business-manager-ad-images-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Images API
   slug: facebook-business-manager-ad-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-images-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-images-api-openapi.yml
 - filename: facebook-business-manager-ad-sets-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Sets API
   slug: facebook-business-manager-ad-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-sets-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-sets-api-openapi.yml
 - filename: facebook-business-manager-ads-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ads API
   slug: facebook-business-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ads-api-openapi.yml
 - filename: facebook-business-manager-campaigns-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Campaigns API
   slug: facebook-business-manager-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-campaigns-api-openapi.yml
 - filename: facebook-business-manager-comments-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Comments API
   slug: facebook-business-manager-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-comments-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-comments-api-openapi.yml
 - filename: facebook-business-manager-custom-audiences-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Custom Audiences API
   slug: facebook-business-manager-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-custom-audiences-api-openapi.yml
 - filename: facebook-business-manager-insights-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Insights API
   slug: facebook-business-manager-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-insights-api-openapi.yml
 - filename: facebook-business-manager-page-insights-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Page Insights API
   slug: facebook-business-manager-page-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-page-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-page-insights-api-openapi.yml
 - filename: facebook-business-manager-pages-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Pages API
   slug: facebook-business-manager-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-pages-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-pages-api-openapi.yml
 - filename: facebook-business-manager-photos-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Photos API
   slug: facebook-business-manager-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-photos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-photos-api-openapi.yml
 - filename: facebook-business-manager-posts-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Posts API
   slug: facebook-business-manager-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-posts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-posts-api-openapi.yml
 - filename: facebook-business-manager-videos-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Videos API
   slug: facebook-business-manager-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-videos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-videos-api-openapi.yml
 consequence_counts:
   read: 16
   write: 17
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/facebo
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{post_id}/comments\n  method: post\n  operationId: createComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{comment_id}\n  method: delete\n  operationId: deleteComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{page_id}/photos\n  method: post\n  operationId: uploadPagePhoto\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{page_id}/videos\n  method: post\n  operationId: uploadPageVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{page_id}/insights\n  method: get\n  operationId: getPageInsights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{page_id}/subscribed_apps\n  method: post\n  operationId: subscribePageApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/agentic-access/facebook-business-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/facebook-business-manager/agentic-access/facebook-business-manager-agentic-access.yml
 summary_line: 33 operations · 17 acting
 tags:
 - Advertising

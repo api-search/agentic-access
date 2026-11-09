@@ -9,67 +9,67 @@ api_specs:
   label: ServiceM8 Attachments API
   slug: servicem8-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-attachments-api-openapi.yml
 - filename: servicem8-badges-api-openapi.yml
   format: yaml
   label: ServiceM8 Badges API
   slug: servicem8-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-badges-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-badges-api-openapi.yml
 - filename: servicem8-clients-api-openapi.yml
   format: yaml
   label: ServiceM8 Clients API
   slug: servicem8-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-clients-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-clients-api-openapi.yml
 - filename: servicem8-job-activities-api-openapi.yml
   format: yaml
   label: ServiceM8 Job Activities API
   slug: servicem8-job-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-job-activities-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-job-activities-api-openapi.yml
 - filename: servicem8-job-contacts-api-openapi.yml
   format: yaml
   label: ServiceM8 Job Contacts API
   slug: servicem8-job-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-job-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-job-contacts-api-openapi.yml
 - filename: servicem8-jobs-api-openapi.yml
   format: yaml
   label: ServiceM8 Jobs API
   slug: servicem8-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-jobs-api-openapi.yml
 - filename: servicem8-materials-api-openapi.yml
   format: yaml
   label: ServiceM8 Materials API
   slug: servicem8-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-materials-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-materials-api-openapi.yml
 - filename: servicem8-queues-api-openapi.yml
   format: yaml
   label: ServiceM8 Queues API
   slug: servicem8-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-queues-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-queues-api-openapi.yml
 - filename: servicem8-staff-api-openapi.yml
   format: yaml
   label: ServiceM8 Staff API
   slug: servicem8-staff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-staff-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-staff-api-openapi.yml
 - filename: servicem8-vendors-api-openapi.yml
   format: yaml
   label: ServiceM8 Vendors API
   slug: servicem8-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-vendors-api-openapi.yml
 - filename: servicem8-webhooks-api-openapi.yml
   format: yaml
   label: ServiceM8 Webhooks API
   slug: servicem8-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/openapi/servicem8-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/servicem8/openapi/servicem8-webhooks-api-openapi.yml
 consequence_counts:
   read: 27
   write: 36
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/servic
   \   - abnormal\n      - high-value\n    audit: required\n- path: /badge/{uuid}.json\n  method: get\n  operationId: getBadge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /badge/{uuid}.json\n  method: post\n  operationId: updateBadge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /badge/{uuid}.json\n  method: delete\n  operationId: deleteBadge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_subscriptions\n\
   \  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_subscriptions/{uuid}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_subscriptions/{uuid}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servicem8/refs/heads/main/agentic-access/servicem8-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/servicem8/agentic-access/servicem8-agentic-access.yml
 summary_line: 63 operations · 36 acting
 tags:
 - Field Service Management

@@ -9,73 +9,85 @@ api_specs:
   label: Amazon Ground Station Agent API
   slug: amazon-ground-station-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-agent-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-agent-api-openapi.yml
 - filename: amazon-ground-station-config-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Config API
   slug: amazon-ground-station-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-config-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-config-api-openapi.yml
 - filename: amazon-ground-station-contact-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Contact API
   slug: amazon-ground-station-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-contact-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-contact-api-openapi.yml
 - filename: amazon-ground-station-contacts-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Contacts API
   slug: amazon-ground-station-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-contacts-api-openapi.yml
 - filename: amazon-ground-station-ephemerides-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ephemerides API
   slug: amazon-ground-station-ephemerides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-ephemerides-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-ephemerides-api-openapi.yml
 - filename: amazon-ground-station-ephemeris-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ephemeris API
   slug: amazon-ground-station-ephemeris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-ephemeris-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-ephemeris-api-openapi.yml
 - filename: amazon-ground-station-groundstation-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Groundstation API
   slug: amazon-ground-station-groundstation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-groundstation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-groundstation-api-openapi.yml
 - filename: amazon-ground-station-minute-usage-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Minute Usage API
   slug: amazon-ground-station-minute-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-minute-usage-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-minute-usage-api-openapi.yml
 - filename: amazon-ground-station-missionprofile-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Missionprofile API
   slug: amazon-ground-station-missionprofile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-missionprofile-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-missionprofile-api-openapi.yml
 - filename: amazon-ground-station-satellite-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Satellite API
   slug: amazon-ground-station-satellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-satellite-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-satellite-api-openapi.yml
 - filename: amazon-ground-station-tags-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Tags API
   slug: amazon-ground-station-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-tags-api-openapi.yml
+- filename: amazon-ground-station-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Ground Station Operations API
+  slug: amazon-ground-station-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-operations-api-openapi.yml
+- filename: amazon-ground-station-versions-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Ground Station Versions API
+  slug: amazon-ground-station-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-versions-api-openapi.yml
 - filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Dataflow Endpoint Group API
   slug: amazon-ground-station-dataflow-endpoint-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
 consequence_counts:
   read: 16
   write: 17
@@ -112,9 +124,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /missionprofile\n  method: get\n  operationId: ListMissionProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /missionprofile/{missionProfileId}\n  method: delete\n  operationId: DeleteMissionProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /missionprofile/{missionProfileId}\n  method: get\n  operationId: GetMissionProfile\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /missionprofile/{missionProfileId}\n  method: put\n  operationId: UpdateMissionProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /satellite/{satelliteId}\n  method: get\n  operationId: GetSatellite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /satellite\n  method: get\n  operationId: ListSatellites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ground-station/refs/heads/main/agentic-access/amazon-ground-station-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-ground-station/agentic-access/amazon-ground-station-agentic-access.yml
 summary_line: 33 operations · 17 acting
 tags:
+- Amazon Web Services
 - Data Processing
 - IoT
 - Satellite Communications

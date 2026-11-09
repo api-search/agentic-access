@@ -15,73 +15,73 @@ api_specs:
   label: Swetrix Annotations API
   slug: swetrix-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-annotations-api-openapi.yml
 - filename: swetrix-custom-events-api-openapi.yml
   format: yaml
   label: Swetrix Custom Events API
   slug: swetrix-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-custom-events-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-custom-events-api-openapi.yml
 - filename: swetrix-errors-api-openapi.yml
   format: yaml
   label: Swetrix Errors API
   slug: swetrix-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-errors-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-errors-api-openapi.yml
 - filename: swetrix-feature-flags-api-openapi.yml
   format: yaml
   label: Swetrix Feature Flags API
   slug: swetrix-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-feature-flags-api-openapi.yml
 - filename: swetrix-funnels-api-openapi.yml
   format: yaml
   label: Swetrix Funnels API
   slug: swetrix-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-funnels-api-openapi.yml
 - filename: swetrix-organisations-api-openapi.yml
   format: yaml
   label: Swetrix Organisations API
   slug: swetrix-organisations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-organisations-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-organisations-api-openapi.yml
 - filename: swetrix-performance-api-openapi.yml
   format: yaml
   label: Swetrix Performance API
   slug: swetrix-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-performance-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-performance-api-openapi.yml
 - filename: swetrix-projects-api-openapi.yml
   format: yaml
   label: Swetrix Projects API
   slug: swetrix-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-projects-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-projects-api-openapi.yml
 - filename: swetrix-revenue-api-openapi.yml
   format: yaml
   label: Swetrix Revenue API
   slug: swetrix-revenue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-revenue-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-revenue-api-openapi.yml
 - filename: swetrix-sessions-api-openapi.yml
   format: yaml
   label: Swetrix Sessions API
   slug: swetrix-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-sessions-api-openapi.yml
 - filename: swetrix-traffic-api-openapi.yml
   format: yaml
   label: Swetrix Traffic API
   slug: swetrix-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-traffic-api-openapi.yml
 - filename: swetrix-views-api-openapi.yml
   format: yaml
   label: Swetrix Views API
   slug: swetrix-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-views-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-views-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/swetri
   \  method: get\n  operationId: getPerformanceBirdseye\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/live-visitors\n  method: get\n  operationId: getLiveVisitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/session\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/funnel\n  method: get\n  operationId: getFunnelAnalysis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/errors\n  method: get\n  operationId: listErrors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/get-error\n  method: get\n  operationId: getError\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/error-overview\n  method: get\n  operationId: getErrorOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/custom-events\n  method: get\n  operationId: getCustomEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/keywords\n  method: get\n  operationId:\
   \ getKeywords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/user-flow\n  method: get\n  operationId: getUserFlow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/log/filters\n  method: get\n  operationId: getFilters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/feature-flag/{id}/stats\n  method: get\n  operationId: getFeatureFlagStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/agentic-access/swetrix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swetrix/agentic-access/swetrix-agentic-access.yml
 summary_line: 49 operations · 25 acting
 tags:
 - Analytics

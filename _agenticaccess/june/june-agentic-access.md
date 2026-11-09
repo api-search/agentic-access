@@ -8,25 +8,25 @@ api_specs:
   label: June Companies API
   slug: june-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-companies-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-companies-api-openapi.yml
 - filename: june-events-api-openapi.yml
   format: yaml
   label: June Events API
   slug: june-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-events-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-events-api-openapi.yml
 - filename: june-users-api-openapi.yml
   format: yaml
   label: June Users API
   slug: june-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-users-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-users-api-openapi.yml
 - filename: june-pageviews-api-openapi.yml
   format: yaml
   label: June Pageviews API
   slug: june-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/openapi/june-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/june/openapi/june-pageviews-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/june-tracking-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /track\n  method: post\n  operationId: trackEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identify\n  method: post\n  operationId: identifyUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group\n  method: post\n  operationId: groupUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /page\n  method: post\n  operationId: recordPageView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/june/refs/heads/main/agentic-access/june-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/june/agentic-access/june-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Analytics

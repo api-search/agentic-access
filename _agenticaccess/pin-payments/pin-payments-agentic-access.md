@@ -9,25 +9,25 @@ api_specs:
   label: Pin Payments Cards API
   slug: pin-payments-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pin-payments/openapi/pin-payments-cards-api-openapi.yml
 - filename: pin-payments-charges-api-openapi.yml
   format: yaml
   label: Pin Payments Charges API
   slug: pin-payments-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-charges-api-openapi.yml
+  url: https://artifacts.apis.io/pin-payments/openapi/pin-payments-charges-api-openapi.yml
 - filename: pin-payments-customers-api-openapi.yml
   format: yaml
   label: Pin Payments Customers API
   slug: pin-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/pin-payments/openapi/pin-payments-customers-api-openapi.yml
 - filename: pin-payments-refunds-api-openapi.yml
   format: yaml
   label: Pin Payments Refunds API
   slug: pin-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/openapi/pin-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/pin-payments/openapi/pin-payments-refunds-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 13
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pin-pa
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_token}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_token}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_token}/charges\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_token}/cards\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_token}/cards\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_token}/cards/{card_token}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{customer_token}/subscriptions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_token}/subscriptions/{sub_token}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cards\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cards/{card_token}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pin-payments/refs/heads/main/agentic-access/pin-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pin-payments/agentic-access/pin-payments-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - Payments
@@ -90,6 +90,6 @@ tags:
 - Refunds
 - Payment Gateway
 - Recurring Payments
-- Ecommerce
+- E-Commerce
 - Australia
 ---

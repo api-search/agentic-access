@@ -9,55 +9,55 @@ api_specs:
   label: ReasonBlocks Billing API
   slug: reasonblocks-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-billing-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-billing-api-openapi.yml
 - filename: reasonblocks-codebase-findings-api-openapi.yml
   format: yaml
   label: ReasonBlocks Codebase Findings API
   slug: reasonblocks-codebase-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-codebase-findings-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-codebase-findings-api-openapi.yml
 - filename: reasonblocks-health-api-openapi.yml
   format: yaml
   label: ReasonBlocks Health API
   slug: reasonblocks-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-health-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-health-api-openapi.yml
 - filename: reasonblocks-monitor-api-openapi.yml
   format: yaml
   label: ReasonBlocks Monitor API
   slug: reasonblocks-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-monitor-api-openapi.yml
 - filename: reasonblocks-monitor-telemetry-api-openapi.yml
   format: yaml
   label: ReasonBlocks Monitor Telemetry API
   slug: reasonblocks-monitor-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitor-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-monitor-telemetry-api-openapi.yml
 - filename: reasonblocks-monitors-api-openapi.yml
   format: yaml
   label: ReasonBlocks Monitors API
   slug: reasonblocks-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-monitors-api-openapi.yml
 - filename: reasonblocks-pattern-library-api-openapi.yml
   format: yaml
   label: ReasonBlocks Pattern Library API
   slug: reasonblocks-pattern-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-pattern-library-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-pattern-library-api-openapi.yml
 - filename: reasonblocks-patterns-traces-api-openapi.yml
   format: yaml
   label: ReasonBlocks Patterns & Traces API
   slug: reasonblocks-patterns-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-patterns-traces-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-patterns-traces-api-openapi.yml
 - filename: reasonblocks-scoring-api-openapi.yml
   format: yaml
   label: ReasonBlocks Scoring API
   slug: reasonblocks-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/openapi/reasonblocks-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/reasonblocks/openapi/reasonblocks-scoring-api-openapi.yml
 consequence_counts:
   read: 25
   write: 22
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reason
   \ list_scorers_v1_monitor_scorers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/monitor/stream\n  method: get\n  operationId: monitor_stream_v1_monitor_stream_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/monitors/evaluate\n  method: post\n  operationId: evaluate_monitors_v1_monitors_evaluate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/library/patterns\n  method: get\n  operationId: list_patterns_v1_library_patterns_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/library/patterns/{tier}/{pattern_id}\n  method: delete\n  operationId: delete_pattern_v1_library_patterns__tier___pattern_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/library/patterns/{tier}/{pattern_id}\n  method: patch\n  operationId: patch_pattern_v1_library_patterns__tier___pattern_id__patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/traces/retrieve\n  method: post\n  operationId: retrieve_traces_v1_traces_retrieve_post\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/traces\n  method: post\n  operationId: store_trace_v1_traces_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/score\n  method: post\n  operationId: score_step_v1_score_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reasonblocks/refs/heads/main/agentic-access/reasonblocks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reasonblocks/agentic-access/reasonblocks-agentic-access.yml
 summary_line: 47 operations · 22 acting
 tags:
 - Company

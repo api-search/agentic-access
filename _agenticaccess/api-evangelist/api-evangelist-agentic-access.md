@@ -9,121 +9,121 @@ api_specs:
   label: API Evangelist Account API
   slug: api-evangelist-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-account-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-account-api-openapi.yml
 - filename: api-evangelist-areas-api-openapi.yml
   format: yaml
   label: API Evangelist Areas API
   slug: api-evangelist-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-areas-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-areas-api-openapi.yml
 - filename: api-evangelist-building-blocks-api-openapi.yml
   format: yaml
   label: API Evangelist Building Blocks API
   slug: api-evangelist-building-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-building-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-building-blocks-api-openapi.yml
 - filename: api-evangelist-contact-api-openapi.yml
   format: yaml
   label: API Evangelist Contact API
   slug: api-evangelist-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-contact-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-contact-api-openapi.yml
 - filename: api-evangelist-discovery-api-openapi.yml
   format: yaml
   label: API Evangelist Discovery API
   slug: api-evangelist-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-discovery-api-openapi.yml
 - filename: api-evangelist-governance-api-openapi.yml
   format: yaml
   label: API Evangelist Governance API
   slug: api-evangelist-governance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-governance-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-governance-api-openapi.yml
 - filename: api-evangelist-guidance-api-openapi.yml
   format: yaml
   label: API Evangelist Guidance API
   slug: api-evangelist-guidance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-guidance-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-guidance-api-openapi.yml
 - filename: api-evangelist-insights-api-openapi.yml
   format: yaml
   label: API Evangelist Insights API
   slug: api-evangelist-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-insights-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-insights-api-openapi.yml
 - filename: api-evangelist-media-api-openapi.yml
   format: yaml
   label: API Evangelist Media API
   slug: api-evangelist-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-media-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-media-api-openapi.yml
 - filename: api-evangelist-operations-api-openapi.yml
   format: yaml
   label: API Evangelist Operations API
   slug: api-evangelist-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-operations-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-operations-api-openapi.yml
 - filename: api-evangelist-overview-api-openapi.yml
   format: yaml
   label: API Evangelist Overview API
   slug: api-evangelist-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-overview-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-overview-api-openapi.yml
 - filename: api-evangelist-papers-api-openapi.yml
   format: yaml
   label: API Evangelist Papers API
   slug: api-evangelist-papers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-papers-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-papers-api-openapi.yml
 - filename: api-evangelist-reference-api-openapi.yml
   format: yaml
   label: API Evangelist Reference API
   slug: api-evangelist-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-reference-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-reference-api-openapi.yml
 - filename: api-evangelist-services-api-openapi.yml
   format: yaml
   label: API Evangelist Services API
   slug: api-evangelist-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-services-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-services-api-openapi.yml
 - filename: api-evangelist-stories-api-openapi.yml
   format: yaml
   label: API Evangelist Stories API
   slug: api-evangelist-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-stories-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-stories-api-openapi.yml
 - filename: api-evangelist-synthesis-api-openapi.yml
   format: yaml
   label: API Evangelist Synthesis API
   slug: api-evangelist-synthesis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-synthesis-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-synthesis-api-openapi.yml
 - filename: api-evangelist-tags-api-openapi.yml
   format: yaml
   label: API Evangelist Tags API
   slug: api-evangelist-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-tags-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-tags-api-openapi.yml
 - filename: api-evangelist-timelines-api-openapi.yml
   format: yaml
   label: API Evangelist Timelines API
   slug: api-evangelist-timelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-timelines-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-timelines-api-openapi.yml
 - filename: api-evangelist-toolbox-api-openapi.yml
   format: yaml
   label: API Evangelist Toolbox API
   slug: api-evangelist-toolbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-toolbox-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-toolbox-api-openapi.yml
 - filename: api-evangelist-apis-api-openapi.yml
   format: yaml
   label: API Evangelist APIs API
   slug: api-evangelist-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/openapi/api-evangelist-apis-api-openapi.yml
+  url: https://artifacts.apis.io/api-evangelist/openapi/api-evangelist-apis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 70
@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-08-10'\nmethod: generated\nsource: openapi/apieva
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /areas/{slug}/related\n  method: get\n  operationId: getAreaRelated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /papers/{slug}/related\n  method: get\n  operationId: getPaperRelated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guidance/{slug}/related\n  method: get\n  operationId: getGuidanceRelated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights\n  method: get\n  operationId: getInsightsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /insights/dimensions\n  method: get\n  operationId: listInsightDimensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/adoption\n  method: get\n  operationId: listInsightAdoption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/industries\n  method: get\n  operationId: listInsightIndustries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/companies\n  method: get\n  operationId: listInsightCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/company/{slug}\n  method: get\n  operationId: getCompanyInsight\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insights/company/{slug}/gaps\n  method: get\n  operationId: getCompanyGaps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-evangelist/refs/heads/main/agentic-access/api-evangelist-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-evangelist/agentic-access/api-evangelist-agentic-access.yml
 summary_line: 92 operations · 22 acting · 1 human-in-the-loop
 tags:
 - API-Evangelist

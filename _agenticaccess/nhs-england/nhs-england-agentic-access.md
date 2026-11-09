@@ -9,115 +9,115 @@ api_specs:
   label: NHS England Booking API
   slug: nhs-england-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-booking-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-booking-api-openapi.yml
 - filename: nhs-england-callbacks-api-openapi.yml
   format: yaml
   label: NHS England Callbacks API
   slug: nhs-england-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-callbacks-api-openapi.yml
 - filename: nhs-england-channels-api-openapi.yml
   format: yaml
   label: NHS England Channels API
   slug: nhs-england-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-channels-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-channels-api-openapi.yml
 - filename: nhs-england-codesystem-api-openapi.yml
   format: yaml
   label: NHS England Code System API
   slug: nhs-england-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-codesystem-api-openapi.yml
 - filename: nhs-england-communication-api-openapi.yml
   format: yaml
   label: NHS England Communication API
   slug: nhs-england-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-communication-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-communication-api-openapi.yml
 - filename: nhs-england-immunization-api-openapi.yml
   format: yaml
   label: NHS England Immunization API
   slug: nhs-england-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-immunization-api-openapi.yml
 - filename: nhs-england-list-id-api-openapi.yml
   format: yaml
   label: NHS England List{id} API
   slug: nhs-england-list-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-list-id-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-list-id-api-openapi.yml
 - filename: nhs-england-message-api-openapi.yml
   format: yaml
   label: NHS England Message API
   slug: nhs-england-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-message-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-message-api-openapi.yml
 - filename: nhs-england-message-batches-api-openapi.yml
   format: yaml
   label: NHS England Message Batches API
   slug: nhs-england-message-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-message-batches-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-message-batches-api-openapi.yml
 - filename: nhs-england-messages-api-openapi.yml
   format: yaml
   label: NHS England Messages API
   slug: nhs-england-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-messages-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-messages-api-openapi.yml
 - filename: nhs-england-metadata-api-openapi.yml
   format: yaml
   label: NHS England Metadata API
   slug: nhs-england-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-metadata-api-openapi.yml
 - filename: nhs-england-organisation-api-openapi.yml
   format: yaml
   label: NHS England Organisation API
   slug: nhs-england-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-organisation-api-openapi.yml
 - filename: nhs-england-organization-api-openapi.yml
   format: yaml
   label: NHS England Organization API
   slug: nhs-england-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-organization-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-organization-api-openapi.yml
 - filename: nhs-england-organizationaffiliation-api-openapi.yml
   format: yaml
   label: NHS England Organization Affiliation API
   slug: nhs-england-organizationaffiliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-organizationaffiliation-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-organizationaffiliation-api-openapi.yml
 - filename: nhs-england-r4-api-openapi.yml
   format: yaml
   label: NHS England R4 API
   slug: nhs-england-r4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-r4-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-r4-api-openapi.yml
 - filename: nhs-england-referral-api-openapi.yml
   format: yaml
   label: NHS England Referral API
   slug: nhs-england-referral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-referral-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-referral-api-openapi.yml
 - filename: nhs-england-slots-api-openapi.yml
   format: yaml
   label: NHS England Slots API
   slug: nhs-england-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-slots-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-slots-api-openapi.yml
 - filename: nhs-england-stu3-api-openapi.yml
   format: yaml
   label: NHS England STU3 API
   slug: nhs-england-stu3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-stu3-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-stu3-api-openapi.yml
 - filename: nhs-england-valueset-api-openapi.yml
   format: yaml
   label: NHS England Value Set API
   slug: nhs-england-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/openapi/nhs-england-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/nhs-england/openapi/nhs-england-valueset-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 39
@@ -192,7 +192,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nhs-en
   \  method: post\n  operationId: postSTU3ReferralRequestByUbrn$ersChangeShortlistAndSendForTriage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/Appointment/{id}\n  method: put\n  operationId: putSTU3AppointmentById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/Appointment/{id}\n  method: get\n  operationId: getSTU3AppointmentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /STU3/Appointment/{id}/_history/{version}\n  method: get\n  operationId: getSTU3AppointmentByIdHistoryByVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /STU3/ReferralRequest/{ubrn}/$ers.cancelReferral\n  method: post\n  operationId: postSTU3ReferralRequestByUbrn$ersCancelReferral\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/CommunicationRequest/{ubrn}/$ers.generateCRI\n  method: post\n  operationId: postSTU3CommunicationRequestByUbrn$ersGenerateCRI\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /STU3/CommunicationRequest/$ers.createAdviceAndGuidance\n  method: post\n  operationId: postSTU3CommunicationRequest$ersCreateAdviceAndGuidance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ValueSet/\n  method: post\n  operationId: search-ods-organization-code\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nhs-england/refs/heads/main/agentic-access/nhs-england-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nhs-england/agentic-access/nhs-england-agentic-access.yml
 summary_line: 69 operations · 30 acting
 tags:
 - Healthcare

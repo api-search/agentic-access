@@ -9,103 +9,103 @@ api_specs:
   label: Anchor Browser Agentic capabilities API
   slug: anchorbrowser-agentic-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-agentic-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-agentic-capabilities-api-openapi.yml
 - filename: anchorbrowser-ai-tools-api-openapi.yml
   format: yaml
   label: Anchor Browser AI Tools API
   slug: anchorbrowser-ai-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-ai-tools-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-ai-tools-api-openapi.yml
 - filename: anchorbrowser-applications-api-openapi.yml
   format: yaml
   label: Anchor Browser Applications API
   slug: anchorbrowser-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-applications-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-applications-api-openapi.yml
 - filename: anchorbrowser-batch-sessions-api-openapi.yml
   format: yaml
   label: Anchor Browser Batch Sessions API
   slug: anchorbrowser-batch-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-batch-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-batch-sessions-api-openapi.yml
 - filename: anchorbrowser-billing-api-openapi.yml
   format: yaml
   label: Anchor Browser Billing API
   slug: anchorbrowser-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-billing-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-billing-api-openapi.yml
 - filename: anchorbrowser-browser-sessions-api-openapi.yml
   format: yaml
   label: Anchor Browser Sessions API
   slug: anchorbrowser-browser-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-browser-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-browser-sessions-api-openapi.yml
 - filename: anchorbrowser-certificates-api-openapi.yml
   format: yaml
   label: Anchor Browser Certificates API
   slug: anchorbrowser-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-certificates-api-openapi.yml
 - filename: anchorbrowser-event-coordination-api-openapi.yml
   format: yaml
   label: Anchor Browser Event Coordination API
   slug: anchorbrowser-event-coordination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-event-coordination-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-event-coordination-api-openapi.yml
 - filename: anchorbrowser-extensions-api-openapi.yml
   format: yaml
   label: Anchor Browser Extensions API
   slug: anchorbrowser-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-extensions-api-openapi.yml
 - filename: anchorbrowser-identities-api-openapi.yml
   format: yaml
   label: Anchor Browser Identities API
   slug: anchorbrowser-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-identities-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-identities-api-openapi.yml
 - filename: anchorbrowser-integrations-api-openapi.yml
   format: yaml
   label: Anchor Browser Integrations API
   slug: anchorbrowser-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-integrations-api-openapi.yml
 - filename: anchorbrowser-os-level-control-api-openapi.yml
   format: yaml
   label: Anchor Browser OS Level Control API
   slug: anchorbrowser-os-level-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-os-level-control-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-os-level-control-api-openapi.yml
 - filename: anchorbrowser-profiles-api-openapi.yml
   format: yaml
   label: Anchor Browser Profiles API
   slug: anchorbrowser-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-profiles-api-openapi.yml
 - filename: anchorbrowser-session-recordings-api-openapi.yml
   format: yaml
   label: Anchor Browser Session Recordings API
   slug: anchorbrowser-session-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-session-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-session-recordings-api-openapi.yml
 - filename: anchorbrowser-tasks-api-openapi.yml
   format: yaml
   label: Anchor Browser Tasks API
   slug: anchorbrowser-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-tasks-api-openapi.yml
 - filename: anchorbrowser-tasks-legacy-api-openapi.yml
   format: yaml
   label: Anchor Browser Tasks (Legacy) API
   slug: anchorbrowser-tasks-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-tasks-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-tasks-legacy-api-openapi.yml
 - filename: anchorbrowser-tools-api-openapi.yml
   format: yaml
   label: Anchor Browser Tools API
   slug: anchorbrowser-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/openapi/anchorbrowser-tools-api-openapi.yml
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-tools-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 38
@@ -240,7 +240,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/anchor
   \  method: get\n  operationId: getV1TaskByTaskIdExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/task/{taskId}/executions/{executionId}\n  method: get\n  operationId: getV1TaskByTaskIdExecutionsByExecutionId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/task/{taskId}/{taskVersion}\n  method: get\n  operationId: getV1TaskByTaskIdByTaskVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/task/{taskId}/{taskVersion}\n  method: post\n  operationId: postV1TaskByTaskIdByTaskVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/task/{taskId}/{taskVersion}\n  method: delete\n  operationId: deleteV1TaskByTaskIdByTaskVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/fetch-webpage\n  method: post\n  operationId: postV1ToolsFetchWebpage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tools/fetch/webpage\n  method: post\n  operationId: postV1ToolsFetchWebpage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/screenshot\n  method: post\n  operationId: postV1ToolsScreenshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tools/page-pdf\n  method: post\n  operationId: postV1ToolsPagePdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anchorbrowser/refs/heads/main/agentic-access/anchorbrowser-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/anchorbrowser/agentic-access/anchorbrowser-agentic-access.yml
 summary_line: 98 operations · 60 acting · 13 human-in-the-loop
 tags:
 - Browser Infrastructure

@@ -9,31 +9,31 @@ api_specs:
   label: Tradify Customers API
   slug: tradify-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-customers-api-openapi.yml
 - filename: tradify-invoices-api-openapi.yml
   format: yaml
   label: Tradify Invoices API
   slug: tradify-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-invoices-api-openapi.yml
 - filename: tradify-jobs-api-openapi.yml
   format: yaml
   label: Tradify Jobs API
   slug: tradify-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-jobs-api-openapi.yml
 - filename: tradify-quotes-api-openapi.yml
   format: yaml
   label: Tradify Quotes API
   slug: tradify-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-quotes-api-openapi.yml
 - filename: tradify-timesheets-api-openapi.yml
   format: yaml
   label: Tradify Timesheets API
   slug: tradify-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/openapi/tradify-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/tradify/openapi/tradify-timesheets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tradify-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 6\n    acting: 3\n  by_consequence:\n    read: 6\n    write: 2\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobs/{id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: get\n  operationId: listQuotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /timesheets\n  method: get\n  operationId: listTimesheets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradify/refs/heads/main/agentic-access/tradify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tradify/agentic-access/tradify-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Job Management

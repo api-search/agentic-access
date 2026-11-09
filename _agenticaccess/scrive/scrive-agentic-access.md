@@ -9,49 +9,49 @@ api_specs:
   label: Scrive Access Control API
   slug: scrive-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-access-control-api-openapi.yml
 - filename: scrive-attachments-api-openapi.yml
   format: yaml
   label: Scrive Attachments API
   slug: scrive-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-attachments-api-openapi.yml
 - filename: scrive-callbacks-api-openapi.yml
   format: yaml
   label: Scrive Callbacks API
   slug: scrive-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-callbacks-api-openapi.yml
 - filename: scrive-documents-api-openapi.yml
   format: yaml
   label: Scrive Documents API
   slug: scrive-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-documents-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-documents-api-openapi.yml
 - filename: scrive-e-id-authentication-api-openapi.yml
   format: yaml
   label: Scrive e-ID Authentication API
   slug: scrive-e-id-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-e-id-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-e-id-authentication-api-openapi.yml
 - filename: scrive-monitor-api-openapi.yml
   format: yaml
   label: Scrive Monitor API
   slug: scrive-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-monitor-api-openapi.yml
 - filename: scrive-signing-api-openapi.yml
   format: yaml
   label: Scrive Signing API
   slug: scrive-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-signing-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-signing-api-openapi.yml
 - filename: scrive-templates-api-openapi.yml
   format: yaml
   label: Scrive Templates API
   slug: scrive-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/openapi/scrive-templates-api-openapi.yml
+  url: https://artifacts.apis.io/scrive/openapi/scrive-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scrive
   \    audit: none\n- path: /usergroups/{group_id}/users\n  method: get\n  operationId: listGroupUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessroles/{user_id}\n  method: get\n  operationId: listAccessRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accessroles/{user_id}\n  method: post\n  operationId: grantAccessRole\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /accessroles/{user_id}/{role_id}\n  method: delete\n  operationId: deleteAccessRole\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /folders/create\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /folders/{folder_id}\n  method: get\n  operationId: getFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders/{folder_id}\n  method: delete\n  operationId: deleteFolder\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrive/refs/heads/main/agentic-access/scrive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scrive/agentic-access/scrive-agentic-access.yml
 summary_line: 45 operations · 30 acting · 5 human-in-the-loop
 tags:
 - E-Signature

@@ -9,61 +9,61 @@ api_specs:
   label: Ambra Health Accounts API
   slug: ambra-health-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-accounts-api-openapi.yml
 - filename: ambra-health-groups-api-openapi.yml
   format: yaml
   label: Ambra Health Groups API
   slug: ambra-health-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-groups-api-openapi.yml
 - filename: ambra-health-namespaces-api-openapi.yml
   format: yaml
   label: Ambra Health Namespaces API
   slug: ambra-health-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-namespaces-api-openapi.yml
 - filename: ambra-health-patients-api-openapi.yml
   format: yaml
   label: Ambra Health Patients API
   slug: ambra-health-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-patients-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-patients-api-openapi.yml
 - filename: ambra-health-session-api-openapi.yml
   format: yaml
   label: Ambra Health Session API
   slug: ambra-health-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-session-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-session-api-openapi.yml
 - filename: ambra-health-sharing-api-openapi.yml
   format: yaml
   label: Ambra Health Sharing API
   slug: ambra-health-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-sharing-api-openapi.yml
 - filename: ambra-health-storage-images-api-openapi.yml
   format: yaml
   label: Ambra Health Storage & Images API
   slug: ambra-health-storage-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-storage-images-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-storage-images-api-openapi.yml
 - filename: ambra-health-studies-api-openapi.yml
   format: yaml
   label: Ambra Health Studies API
   slug: ambra-health-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-studies-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-studies-api-openapi.yml
 - filename: ambra-health-users-api-openapi.yml
   format: yaml
   label: Ambra Health Users API
   slug: ambra-health-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-users-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-users-api-openapi.yml
 - filename: ambra-health-webhooks-api-openapi.yml
   format: yaml
   label: Ambra Health Webhooks API
   slug: ambra-health-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/openapi/ambra-health-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ambra-health/openapi/ambra-health-webhooks-api-openapi.yml
 consequence_counts:
   read: 24
   safety-critical: 1
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ambra-
   \    audit: required\n- path: /dicomdata/list\n  method: get\n  operationId: dicomdataList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dicomdata/get\n  method: get\n  operationId: dicomdataGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /annotation/add\n  method: post\n  operationId: annotationAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /annotation/list\n  method: get\n  operationId: annotationList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /webhook/list\n  method: get\n  operationId: webhookList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook/add\n  method: post\n  operationId: webhookAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/set\n  method: post\n  operationId: webhookSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/delete\n  method: post\n  operationId: webhookDelete\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/event\n  method: get\n  operationId: webhookEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bundle\n  method: post\n  operationId: bundle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/agentic-access/ambra-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ambra-health/agentic-access/ambra-health-agentic-access.yml
 summary_line: 62 operations · 38 acting · 1 human-in-the-loop
 tags:
 - Medical Imaging

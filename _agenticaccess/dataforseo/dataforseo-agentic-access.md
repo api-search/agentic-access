@@ -9,73 +9,73 @@ api_specs:
   label: DataForSEO AiOptimization API
   slug: dataforseo-aioptimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-aioptimization-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-aioptimization-api-openapi.yml
 - filename: dataforseo-appendix-api-openapi.yml
   format: yaml
   label: DataForSEO Appendix API
   slug: dataforseo-appendix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-appendix-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-appendix-api-openapi.yml
 - filename: dataforseo-backlinks-api-openapi.yml
   format: yaml
   label: DataForSEO Backlinks API
   slug: dataforseo-backlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-backlinks-api-openapi.yml
 - filename: dataforseo-businessdata-api-openapi.yml
   format: yaml
   label: DataForSEO BusinessData API
   slug: dataforseo-businessdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-businessdata-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-businessdata-api-openapi.yml
 - filename: dataforseo-dataforseolabs-api-openapi.yml
   format: yaml
   label: DataForSEO DataforseoLabs API
   slug: dataforseo-dataforseolabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-dataforseolabs-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-dataforseolabs-api-openapi.yml
 - filename: dataforseo-domainanalytics-api-openapi.yml
   format: yaml
   label: DataForSEO DomainAnalytics API
   slug: dataforseo-domainanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-domainanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-domainanalytics-api-openapi.yml
 - filename: dataforseo-keywordsdata-api-openapi.yml
   format: yaml
   label: DataForSEO KeywordsData API
   slug: dataforseo-keywordsdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-keywordsdata-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-keywordsdata-api-openapi.yml
 - filename: dataforseo-merchant-api-openapi.yml
   format: yaml
   label: DataForSEO Merchant API
   slug: dataforseo-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-merchant-api-openapi.yml
 - filename: dataforseo-onpage-api-openapi.yml
   format: yaml
   label: DataForSEO OnPage API
   slug: dataforseo-onpage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-onpage-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-onpage-api-openapi.yml
 - filename: dataforseo-serp-api-openapi.yml
   format: yaml
   label: DataForSEO Serp API
   slug: dataforseo-serp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-serp-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-serp-api-openapi.yml
 - filename: dataforseo-app-data-api-openapi.yml
   format: yaml
   label: DataForSEO App Data API
   slug: dataforseo-app-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-app-data-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-app-data-api-openapi.yml
 - filename: dataforseo-content-analysis-api-openapi.yml
   format: yaml
   label: DataForSEO Content Analysis API
   slug: dataforseo-content-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/openapi/dataforseo-content-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/dataforseo/openapi/dataforseo-content-analysis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 297
@@ -159,8 +159,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/datafo
   \ - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/history/live\n  method: post\n  operationId: HistoryLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/backlinks/live\n  method: post\n  operationId: BacklinksLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/anchors/live\n  method: post\n  operationId: AnchorsLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/domain_pages/live\n  method: post\n  operationId: DomainPagesLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/domain_pages_summary/live\n  method: post\n  operationId: DomainPagesSummaryLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/referring_domains/live\n  method: post\n  operationId: ReferringDomainsLive\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/referring_networks/live\n  method: post\n  operationId: ReferringNetworksLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/competitors/live\n  method: post\n  operationId: CompetitorsLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /v3/backlinks/domain_intersection/live\n  method: post\n  operationId: DomainIntersectionLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/page_intersection/live\n  method: post\n  operationId: PageIntersectionLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (165 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/agentic-access/dataforseo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dataforseo/refs/heads/main/agentic-access/dataforseo-agentic-access.yml
+  - path: /v3/backlinks/domain_intersection/live\n  method: post\n  operationId: DomainIntersectionLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/backlinks/page_intersection/live\n  method: post\n  operationId: PageIntersectionLive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (165 KB total) ---\n# Full source: https://artifacts.apis.io/dataforseo/agentic-access/dataforseo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dataforseo/agentic-access/dataforseo-agentic-access.yml
 summary_line: 554 operations · 257 acting · 3 human-in-the-loop
 tags:
 - SEO

@@ -9,67 +9,67 @@ api_specs:
   label: Deezer Album API
   slug: deezer-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-album-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-album-api-openapi.yml
 - filename: deezer-artist-api-openapi.yml
   format: yaml
   label: Deezer Artist API
   slug: deezer-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-artist-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-artist-api-openapi.yml
 - filename: deezer-chart-api-openapi.yml
   format: yaml
   label: Deezer Chart API
   slug: deezer-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-chart-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-chart-api-openapi.yml
 - filename: deezer-editorial-api-openapi.yml
   format: yaml
   label: Deezer Editorial API
   slug: deezer-editorial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-editorial-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-editorial-api-openapi.yml
 - filename: deezer-genre-api-openapi.yml
   format: yaml
   label: Deezer Genre API
   slug: deezer-genre-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-genre-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-genre-api-openapi.yml
 - filename: deezer-infos-api-openapi.yml
   format: yaml
   label: Deezer Infos API
   slug: deezer-infos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-infos-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-infos-api-openapi.yml
 - filename: deezer-playlist-api-openapi.yml
   format: yaml
   label: Deezer Playlist API
   slug: deezer-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-playlist-api-openapi.yml
 - filename: deezer-radio-api-openapi.yml
   format: yaml
   label: Deezer Radio API
   slug: deezer-radio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-radio-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-radio-api-openapi.yml
 - filename: deezer-search-api-openapi.yml
   format: yaml
   label: Deezer Search API
   slug: deezer-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-search-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-search-api-openapi.yml
 - filename: deezer-track-api-openapi.yml
   format: yaml
   label: Deezer Track API
   slug: deezer-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-track-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-track-api-openapi.yml
 - filename: deezer-user-api-openapi.yml
   format: yaml
   label: Deezer User API
   slug: deezer-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/openapi/deezer-user-api-openapi.yml
+  url: https://artifacts.apis.io/deezer/openapi/deezer-user-api-openapi.yml
 consequence_counts:
   read: 38
   write: 3
@@ -104,13 +104,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deezer
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /radio/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /radio/{id}/tracks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editorial\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editorial/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /editorial/{id}/releases\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /user/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - basic_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/playlists\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/playlists\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage_library\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{id}/tracks\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/albums\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/artists\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/history\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - listening_history\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deezer/refs/heads/main/agentic-access/deezer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deezer/agentic-access/deezer-agentic-access.yml
 summary_line: 41 operations · 3 acting
 tags:
 - Music
 - Streaming
 - Audio
-- Authentication
+- OAuth
 - Catalog
 - Playlists
+- Authentication
 ---

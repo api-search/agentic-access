@@ -9,13 +9,13 @@ api_specs:
   label: Fave Payments API
   slug: fave-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-payments-api-openapi.yml
+  url: https://artifacts.apis.io/fave/openapi/fave-payments-api-openapi.yml
 - filename: fave-transactions-api-openapi.yml
   format: yaml
   label: Fave Transactions API
   slug: fave-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/openapi/fave-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fave/openapi/fave-transactions-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 2
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fave-favepay-omni-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 4\n    connected: 2\n  by_consequence:\n    physical: 3\n    read: 2\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/fpo/v1/{country_code}/qr_codes\n  method: post\n  operationId: createQrCode\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fpo/v1/{country_code}/merchant_scan\n\
   \  method: post\n  operationId: merchantScan\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fpo/v1/{country_code}/transactions\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/fpo/v1/{country_code}/transactions\n  method: post\n  operationId: refundTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/fpo/v1/{country_code}/transactions/{id}\n  method: post\n  operationId: acknowledgeTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/fpo/v1/{country_code}/outlets/{outlet_id}/transactions\n  method: get\n  operationId: listOutletTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fave/refs/heads/main/agentic-access/fave-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fave/agentic-access/fave-agentic-access.yml
 summary_line: 6 operations · 4 acting
 tags:
 - Company

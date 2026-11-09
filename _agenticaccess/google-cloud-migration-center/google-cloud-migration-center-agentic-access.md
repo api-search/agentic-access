@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud Migration Center Assets API
   slug: google-cloud-migration-center-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-assets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-assets-api-openapi.yml
 - filename: google-cloud-migration-center-groups-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center Groups API
   slug: google-cloud-migration-center-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-groups-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-groups-api-openapi.yml
 - filename: google-cloud-migration-center-preferencesets-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center PreferenceSets API
   slug: google-cloud-migration-center-preferencesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-preferencesets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-preferencesets-api-openapi.yml
 - filename: google-cloud-migration-center-import-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Migration Center Import Jobs API
   slug: google-cloud-migration-center-import-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/openapi/google-cloud-migration-center-import-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-import-jobs-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/migrat
   \      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/assets/{assetId}\n  method: patch\n  operationId: updateAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/assets/{assetId}\n  method: delete\n  operationId: deleteAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/importJobs\n  method: get\n  operationId: listImportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/importJobs\n  method: post\n  operationId: createImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/preferenceSets\n  method: get\n  operationId: listPreferenceSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/preferenceSets\n  method: post\n  operationId: createPreferenceSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-migration-center/refs/heads/main/agentic-access/google-cloud-migration-center-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-migration-center/agentic-access/google-cloud-migration-center-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Cloud Migration

@@ -9,49 +9,49 @@ api_specs:
   label: DataDome Account API
   slug: datadome-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-account-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-account-api-openapi.yml
 - filename: datadome-accountprotect-api-openapi.yml
   format: yaml
   label: DataDome AccountProtect API
   slug: datadome-accountprotect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-accountprotect-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-accountprotect-api-openapi.yml
 - filename: datadome-endpoints-api-openapi.yml
   format: yaml
   label: DataDome Endpoints API
   slug: datadome-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-endpoints-api-openapi.yml
 - filename: datadome-priorities-api-openapi.yml
   format: yaml
   label: DataDome Priorities API
   slug: datadome-priorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-priorities-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-priorities-api-openapi.yml
 - filename: datadome-templates-api-openapi.yml
   format: yaml
   label: DataDome Templates API
   slug: datadome-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-templates-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-templates-api-openapi.yml
 - filename: datadome-trustedproxies-api-openapi.yml
   format: yaml
   label: DataDome TrustedProxies API
   slug: datadome-trustedproxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-trustedproxies-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-trustedproxies-api-openapi.yml
 - filename: datadome-verifiedmodels-api-openapi.yml
   format: yaml
   label: DataDome VerifiedModels API
   slug: datadome-verifiedmodels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-verifiedmodels-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-verifiedmodels-api-openapi.yml
 - filename: datadome-custom-rules-api-openapi.yml
   format: yaml
   label: DataDome Custom Rules API
   slug: datadome-custom-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/openapi/datadome-custom-rules-api-openapi.yml
+  url: https://artifacts.apis.io/datadome/openapi/datadome-custom-rules-api-openapi.yml
 consequence_counts:
   read: 14
   write: 17
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datado
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /priorities/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /priorities/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /priorities/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /priorities/{id}/metrics\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account-protect/decision-feedback\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datadome/refs/heads/main/agentic-access/datadome-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datadome/agentic-access/datadome-agentic-access.yml
 summary_line: 31 operations · 17 acting
 tags:
 - Bot Mitigation

@@ -9,97 +9,97 @@ api_specs:
   label: Dub Analytics API
   slug: dub-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-analytics-api-openapi.yml
 - filename: dub-bounties-api-openapi.yml
   format: yaml
   label: Dub Bounties API
   slug: dub-bounties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-bounties-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-bounties-api-openapi.yml
 - filename: dub-commissions-api-openapi.yml
   format: yaml
   label: Dub Commissions API
   slug: dub-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-commissions-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-commissions-api-openapi.yml
 - filename: dub-customers-api-openapi.yml
   format: yaml
   label: Dub Customers API
   slug: dub-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-customers-api-openapi.yml
 - filename: dub-domains-api-openapi.yml
   format: yaml
   label: Dub Domains API
   slug: dub-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-domains-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-domains-api-openapi.yml
 - filename: dub-embed-tokens-api-openapi.yml
   format: yaml
   label: Dub Embed Tokens API
   slug: dub-embed-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-embed-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-embed-tokens-api-openapi.yml
 - filename: dub-events-api-openapi.yml
   format: yaml
   label: Dub Events API
   slug: dub-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-events-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-events-api-openapi.yml
 - filename: dub-folders-api-openapi.yml
   format: yaml
   label: Dub Folders API
   slug: dub-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-folders-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-folders-api-openapi.yml
 - filename: dub-links-api-openapi.yml
   format: yaml
   label: Dub Links API
   slug: dub-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-links-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-links-api-openapi.yml
 - filename: dub-partners-api-openapi.yml
   format: yaml
   label: Dub Partners API
   slug: dub-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-partners-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-partners-api-openapi.yml
 - filename: dub-payouts-api-openapi.yml
   format: yaml
   label: Dub Payouts API
   slug: dub-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-payouts-api-openapi.yml
 - filename: dub-qr-codes-api-openapi.yml
   format: yaml
   label: Dub QR Codes API
   slug: dub-qr-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-qr-codes-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-qr-codes-api-openapi.yml
 - filename: dub-tags-api-openapi.yml
   format: yaml
   label: Dub Tags API
   slug: dub-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-tags-api-openapi.yml
 - filename: dub-track-api-openapi.yml
   format: yaml
   label: Dub Track API
   slug: dub-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-track-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-track-api-openapi.yml
 - filename: dub-discount-codes-api-openapi.yml
   format: yaml
   label: Dub Discount Codes API
   slug: dub-discount-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-discount-codes-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-discount-codes-api-openapi.yml
 - filename: dub-program-applications-api-openapi.yml
   format: yaml
   label: Dub Program Applications API
   slug: dub-program-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/openapi/dub-program-applications-api-openapi.yml
+  url: https://artifacts.apis.io/dub/openapi/dub-program-applications-api-openapi.yml
 consequence_counts:
   read: 19
   write: 35
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dub-op
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commissions\n  method: get\n  operationId: listCommissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commissions/{id}\n  method: patch\n  operationId: updateCommission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /commissions/bulk\n  method: patch\n  operationId: bulkUpdateCommissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /payouts\n  method: get\n  operationId: listPayouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/embed/referrals\n  method: post\n  operationId: createReferralsEmbedToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qr\n  method: get\n  operationId: getQRCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bounties/{bountyId}/submissions\n  method: get\n  operationId: listBountySubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /bounties/{bountyId}/submissions/{submissionId}/approve\n  method: post\n  operationId: approveBountySubmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bounties/{bountyId}/submissions/{submissionId}/reject\n  method: post\n  operationId: rejectBountySubmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/agentic-access/dub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dub/agentic-access/dub-agentic-access.yml
 summary_line: 54 operations · 35 acting
 tags:
 - Link Management

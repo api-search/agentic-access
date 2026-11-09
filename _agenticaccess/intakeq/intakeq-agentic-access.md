@@ -9,37 +9,37 @@ api_specs:
   label: IntakeQ Appointments API
   slug: intakeq-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-appointments-api-openapi.yml
 - filename: intakeq-clients-api-openapi.yml
   format: yaml
   label: IntakeQ Clients API
   slug: intakeq-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-clients-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-clients-api-openapi.yml
 - filename: intakeq-files-api-openapi.yml
   format: yaml
   label: IntakeQ Files API
   slug: intakeq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-files-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-files-api-openapi.yml
 - filename: intakeq-intake-forms-api-openapi.yml
   format: yaml
   label: IntakeQ Intake Forms API
   slug: intakeq-intake-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-intake-forms-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-intake-forms-api-openapi.yml
 - filename: intakeq-invoices-api-openapi.yml
   format: yaml
   label: IntakeQ Invoices API
   slug: intakeq-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-invoices-api-openapi.yml
 - filename: intakeq-treatment-notes-api-openapi.yml
   format: yaml
   label: IntakeQ Treatment Notes API
   slug: intakeq-treatment-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/openapi/intakeq-treatment-notes-api-openapi.yml
+  url: https://artifacts.apis.io/intakeq/openapi/intakeq-treatment-notes-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/intake
   \     max-ttl: 3600\n    audit: none\n- path: /practitioners\n  method: get\n  operationId: listPractitioners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notes/summary\n  method: get\n  operationId: queryTreatmentNotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notes/{noteId}\n  method: get\n  operationId: getTreatmentNote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notes/{noteId}/pdf\n  method: get\n  operationId: downloadTreatmentNotePdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices\n  method: get\n  operationId: queryInvoices\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{invoiceId}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files\n  method: get\n  operationId: getClientFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folders\n  method: get\n  operationId: getFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileId}\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{fileId}\n\
   \  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{clientId}\n  method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/agentic-access/intakeq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intakeq/agentic-access/intakeq-agentic-access.yml
 summary_line: 30 operations · 11 acting
 tags:
 - Practice Management

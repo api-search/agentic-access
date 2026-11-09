@@ -9,37 +9,37 @@ api_specs:
   label: Thought Industries Content API
   slug: thought-industries-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-content-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-content-api-openapi.yml
 - filename: thought-industries-courses-api-openapi.yml
   format: yaml
   label: Thought Industries Courses API
   slug: thought-industries-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-courses-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-courses-api-openapi.yml
 - filename: thought-industries-enrollments-api-openapi.yml
   format: yaml
   label: Thought Industries Enrollments API
   slug: thought-industries-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-enrollments-api-openapi.yml
 - filename: thought-industries-groups-api-openapi.yml
   format: yaml
   label: Thought Industries Groups API
   slug: thought-industries-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-groups-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-groups-api-openapi.yml
 - filename: thought-industries-reports-api-openapi.yml
   format: yaml
   label: Thought Industries Reports API
   slug: thought-industries-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-reports-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-reports-api-openapi.yml
 - filename: thought-industries-users-api-openapi.yml
   format: yaml
   label: Thought Industries Users API
   slug: thought-industries-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/openapi/thought-industries-users-api-openapi.yml
+  url: https://artifacts.apis.io/thought-industries/openapi/thought-industries-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/though
   \  method: get\n  operationId: getUserEnrollments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courses\n  method: get\n  operationId: listCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courses/{courseId}\n  method: get\n  operationId: getCourse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /courses/{courseId}/enrollments\n  method: post\n  operationId: enrollUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /courses/{courseId}/enrollments/bulk-remove\n\
   \  method: post\n  operationId: bulkRemoveEnrollments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}/users\n  method: post\n  operationId: addUserToGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /content\n  method: get\n  operationId: listContent\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/learning-path-actions\n  method: get\n  operationId: getLearningPathActionsReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/agentic-access/thought-industries-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thought-industries/agentic-access/thought-industries-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Education

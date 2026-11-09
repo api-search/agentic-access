@@ -9,109 +9,109 @@ api_specs:
   label: Moniepoint Authentication API
   slug: moniepoint-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-authentication-api-openapi.yml
 - filename: moniepoint-banks-api-openapi.yml
   format: yaml
   label: Moniepoint Banks API
   slug: moniepoint-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-banks-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-banks-api-openapi.yml
 - filename: moniepoint-bills-payment-api-openapi.yml
   format: yaml
   label: Moniepoint Bills Payment API
   slug: moniepoint-bills-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-bills-payment-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-bills-payment-api-openapi.yml
 - filename: moniepoint-bulk-transfers-api-openapi.yml
   format: yaml
   label: Moniepoint Bulk Transfers API
   slug: moniepoint-bulk-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-bulk-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-bulk-transfers-api-openapi.yml
 - filename: moniepoint-debits-api-openapi.yml
   format: yaml
   label: Moniepoint Debits API
   slug: moniepoint-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-debits-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-debits-api-openapi.yml
 - filename: moniepoint-invoices-api-openapi.yml
   format: yaml
   label: Moniepoint Invoices API
   slug: moniepoint-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-invoices-api-openapi.yml
 - filename: moniepoint-limit-profiles-api-openapi.yml
   format: yaml
   label: Moniepoint Limit Profiles API
   slug: moniepoint-limit-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-limit-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-limit-profiles-api-openapi.yml
 - filename: moniepoint-mandates-api-openapi.yml
   format: yaml
   label: Moniepoint Mandates API
   slug: moniepoint-mandates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-mandates-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-mandates-api-openapi.yml
 - filename: moniepoint-push-payments-api-openapi.yml
   format: yaml
   label: Moniepoint Push Payments API
   slug: moniepoint-push-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-push-payments-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-push-payments-api-openapi.yml
 - filename: moniepoint-refunds-api-openapi.yml
   format: yaml
   label: Moniepoint Refunds API
   slug: moniepoint-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-refunds-api-openapi.yml
 - filename: moniepoint-reserved-accounts-api-openapi.yml
   format: yaml
   label: Moniepoint Reserved Accounts API
   slug: moniepoint-reserved-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-reserved-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-reserved-accounts-api-openapi.yml
 - filename: moniepoint-settlements-api-openapi.yml
   format: yaml
   label: Moniepoint Settlements API
   slug: moniepoint-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-settlements-api-openapi.yml
 - filename: moniepoint-single-transfers-api-openapi.yml
   format: yaml
   label: Moniepoint Single Transfers API
   slug: moniepoint-single-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-single-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-single-transfers-api-openapi.yml
 - filename: moniepoint-transactions-api-openapi.yml
   format: yaml
   label: Moniepoint Transactions API
   slug: moniepoint-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-transactions-api-openapi.yml
 - filename: moniepoint-verification-api-openapi.yml
   format: yaml
   label: Moniepoint Verification API
   slug: moniepoint-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-verification-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-verification-api-openapi.yml
 - filename: moniepoint-wallet-api-openapi.yml
   format: yaml
   label: Moniepoint Wallet API
   slug: moniepoint-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-wallet-api-openapi.yml
 - filename: moniepoint-wallets-api-openapi.yml
   format: yaml
   label: Moniepoint Wallets API
   slug: moniepoint-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-wallets-api-openapi.yml
 - filename: moniepoint-subaccounts-api-openapi.yml
   format: yaml
   label: Moniepoint Subaccounts API
   slug: moniepoint-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/openapi/moniepoint-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/moniepoint/openapi/moniepoint-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 30
@@ -250,7 +250,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/moniep
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/disbursements/account/validate\n  method: get\n  operationId: validateAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vas/bvn-account-match\n  method: post\n  operationId: matchBvnToAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/vas/bvn-details/{bvn}\n  method: get\n  operationId: getBvnDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vas/verify-nin\n  method: post\n\
   \  operationId: verifyNin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/disbursements/wallet\n  method: post\n  operationId: createWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/disbursements/wallet\n  method: get\n  operationId: listWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/disbursements/wallet-balance\n  method: get\n  operationId: getWalletBalance\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/disbursements/wallet/transactions\n  method: get\n  operationId: listWalletTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moniepoint/refs/heads/main/agentic-access/moniepoint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moniepoint/agentic-access/moniepoint-agentic-access.yml
 summary_line: 63 operations · 33 acting
 tags:
 - Africa

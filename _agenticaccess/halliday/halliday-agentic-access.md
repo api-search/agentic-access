@@ -9,25 +9,25 @@ api_specs:
   label: Halliday Assets API
   slug: halliday-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-assets-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-assets-api-openapi.yml
 - filename: halliday-chains-api-openapi.yml
   format: yaml
   label: Halliday Chains API
   slug: halliday-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-chains-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-chains-api-openapi.yml
 - filename: halliday-payments-api-openapi.yml
   format: yaml
   label: Halliday Payments API
   slug: halliday-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-payments-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-payments-api-openapi.yml
 - filename: halliday-webhooks-api-openapi.yml
   format: yaml
   label: Halliday Webhooks API
   slug: halliday-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/openapi/halliday-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/halliday/openapi/halliday-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hallid
   \ required\n- path: /payments/withdraw/confirm\n  method: post\n  operationId: withdrawPaymentConfirm\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/balances\n  method: post\n  operationId: getPaymentBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/webhooks\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /orgs/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/webhooks\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/webhooks\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/webhooks/rotate-secret\n  method: post\n  operationId: rotateWebhookSecret\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halliday/refs/heads/main/agentic-access/halliday-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/halliday/agentic-access/halliday-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Company

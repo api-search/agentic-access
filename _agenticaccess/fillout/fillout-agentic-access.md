@@ -9,13 +9,13 @@ api_specs:
   label: Fillout Forms API
   slug: fillout-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-forms-api-openapi.yml
+  url: https://artifacts.apis.io/fillout/openapi/fillout-forms-api-openapi.yml
 - filename: fillout-webhook-api-openapi.yml
   format: yaml
   label: Fillout Webhook API
   slug: fillout-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/openapi/fillout-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/fillout/openapi/fillout-webhook-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fillout-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 4\n    acting: 4\n  by_consequence:\n    read: 4\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /forms\n  method: get\n  operationId: getForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{formId}\n  method: get\n  operationId: getFormMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{formId}/submissions\n  method: get\n  operationId:\
   \ getAllSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{formId}/submissions\n  method: post\n  operationId: createSubmissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /forms/{formId}/submissions/{submissionId}\n  method: get\n  operationId: getSubmissionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{formId}/submissions/{submissionId}\n  method: delete\n  operationId: deleteSubmissionById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/create\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/delete\n  method: post\n  operationId: removeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fillout/refs/heads/main/agentic-access/fillout-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fillout/agentic-access/fillout-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Forms

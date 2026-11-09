@@ -9,139 +9,139 @@ api_specs:
   label: BMO Account Information API
   slug: bmo-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-account-information-api-openapi.yml
 - filename: bmo-account-transactions-api-openapi.yml
   format: yaml
   label: BMO Account Transactions API
   slug: bmo-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-account-transactions-api-openapi.yml
 - filename: bmo-accounttransactionimages-api-openapi.yml
   format: yaml
   label: BMO Account Transaction Images API
   slug: bmo-accounttransactionimages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-accounttransactionimages-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-accounttransactionimages-api-openapi.yml
 - filename: bmo-getpaymentstatus-api-openapi.yml
   format: yaml
   label: BMO Get Payment Status API
   slug: bmo-getpaymentstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-getpaymentstatus-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-getpaymentstatus-api-openapi.yml
 - filename: bmo-obtain-payment-status-api-openapi.yml
   format: yaml
   label: BMO Obtain Payment Status API
   slug: bmo-obtain-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-obtain-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-obtain-payment-status-api-openapi.yml
 - filename: bmo-obtain-service-agreement-list-api-openapi.yml
   format: yaml
   label: BMO Obtain Service Agreement List API
   slug: bmo-obtain-service-agreement-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-obtain-service-agreement-list-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-obtain-service-agreement-list-api-openapi.yml
 - filename: bmo-paymentstatusupdate-api-openapi.yml
   format: yaml
   label: BMO Payment Status Update API
   slug: bmo-paymentstatusupdate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-paymentstatusupdate-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-paymentstatusupdate-api-openapi.yml
 - filename: bmo-retrieveclientdataencryptionkey-api-openapi.yml
   format: yaml
   label: BMO Retrieve Client Data Encryption Key API
   slug: bmo-retrieveclientdataencryptionkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-retrieveclientdataencryptionkey-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-retrieveclientdataencryptionkey-api-openapi.yml
 - filename: bmo-send-payment-credit-api-openapi.yml
   format: yaml
   label: BMO Send Payment Credit API
   slug: bmo-send-payment-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-send-payment-credit-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-send-payment-credit-api-openapi.yml
 - filename: bmo-send-payment-debit-api-openapi.yml
   format: yaml
   label: BMO Send Payment Debit API
   slug: bmo-send-payment-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-send-payment-debit-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-send-payment-debit-api-openapi.yml
 - filename: bmo-sendfedwiredrawdownpayment-api-openapi.yml
   format: yaml
   label: BMO Send Fedwire Drawdown Payment API
   slug: bmo-sendfedwiredrawdownpayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-sendfedwiredrawdownpayment-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-sendfedwiredrawdownpayment-api-openapi.yml
 - filename: bmo-sendpayment-api-openapi.yml
   format: yaml
   label: BMO Send Payment API
   slug: bmo-sendpayment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-sendpayment-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-sendpayment-api-openapi.yml
 - filename: bmo-tpp-emtcreditorpaymentactivationrequest-api-openapi.yml
   format: yaml
   label: BMO TPP EMT Creditor Payment Activation Request API
   slug: bmo-tpp-emtcreditorpaymentactivationrequest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tpp-emtcreditorpaymentactivationrequest-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tpp-emtcreditorpaymentactivationrequest-api-openapi.yml
 - filename: bmo-tpp-emtcustomercanceltransferinitiation-api-openapi.yml
   format: yaml
   label: BMO TPP EMT Customer Cancel Transfer Initiation API
   slug: bmo-tpp-emtcustomercanceltransferinitiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tpp-emtcustomercanceltransferinitiation-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tpp-emtcustomercanceltransferinitiation-api-openapi.yml
 - filename: bmo-tpp-emtcustomercredittransferinitiation-api-openapi.yml
   format: yaml
   label: BMO TPP EMT Customer Credit Transfer Initiation API
   slug: bmo-tpp-emtcustomercredittransferinitiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tpp-emtcustomercredittransferinitiation-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tpp-emtcustomercredittransferinitiation-api-openapi.yml
 - filename: bmo-tpp-emtgetrequestforpaymenttransaction-api-openapi.yml
   format: yaml
   label: BMO TPP EMT Get Request For Payment Transaction API
   slug: bmo-tpp-emtgetrequestforpaymenttransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tpp-emtgetrequestforpaymenttransaction-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tpp-emtgetrequestforpaymenttransaction-api-openapi.yml
 - filename: bmo-tpp-emtgettransaction-api-openapi.yml
   format: yaml
   label: BMO TPP EMT Get Transaction API
   slug: bmo-tpp-emtgettransaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tpp-emtgettransaction-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tpp-emtgettransaction-api-openapi.yml
 - filename: bmo-tpp-emtrecipientpaymentoptions-api-openapi.yml
   format: yaml
   label: BMO TPP EMT Recipient Payment Options API
   slug: bmo-tpp-emtrecipientpaymentoptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tpp-emtrecipientpaymentoptions-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tpp-emtrecipientpaymentoptions-api-openapi.yml
 - filename: bmo-tppacharrangementcompany-api-openapi.yml
   format: yaml
   label: BMO Tpp ACH Arrangement Company API
   slug: bmo-tppacharrangementcompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-tppacharrangementcompany-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-tppacharrangementcompany-api-openapi.yml
 - filename: bmo-account-validation-api-openapi.yml
   format: yaml
   label: BMO Account Validation API
   slug: bmo-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-account-validation-api-openapi.yml
 - filename: bmo-oauth-2-0-api-openapi.yml
   format: yaml
   label: BMO OAuth 2.0 API
   slug: bmo-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-oauth-2-0-api-openapi.yml
 - filename: bmo-payment-initiation-api-openapi.yml
   format: yaml
   label: BMO Payment Initiation API
   slug: bmo-payment-initiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-payment-initiation-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-payment-initiation-api-openapi.yml
 - filename: bmo-payment-status-api-openapi.yml
   format: yaml
   label: BMO Payment Status API
   slug: bmo-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/openapi/bmo-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/bmo/openapi/bmo-payment-status-api-openapi.yml
 consequence_counts:
   physical: 16
   read: 11
@@ -263,7 +263,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bmo-ac
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tpp/interac-etransfer/payment-initiation/customer-credit-transfer-initiation\n  method: post\n  operationId: TPP-EMTCustomerCreditTransferInitiation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - bmo.tppinterac.payment-initiation.create\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tpp/interac-etransfer/payment-initiation/get-request-for-payment-transaction\n  method: post\n  operationId: TPP-EMTGetRequestForPaymentTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - bmo.tppinterac.payment-initiation.create\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tpp/interac-etransfer/payment-initiation/get-transaction\n  method: post\n  operationId: TPP-EMTGetTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - bmo.tppinterac.payment-initiation.read\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tpp/interac-etransfer/payment-initiation/get-emt-recipient-payment-options/get\n  method: post\n  operationId: TPP-EMTRecipientPaymentOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - bmo.tppinterac.payment-initiation.read\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /tpp/ach/customer-access-entitlement/commercial-user-access-arrangement/get\n  method: post\n  operationId: ACHCompanyIDList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - bmo.tppach.payment-initiation.read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bmo/refs/heads/main/agentic-access/bmo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bmo/agentic-access/bmo-agentic-access.yml
 summary_line: 30 operations · 19 acting
 tags:
 - Financial Services

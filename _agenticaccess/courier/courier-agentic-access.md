@@ -9,133 +9,133 @@ api_specs:
   label: Courier Inbox Real-Time API
   slug: courier-inbox-real-time-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/asyncapi/courier-asyncapi.yml
+  url: https://artifacts.apis.io/courier/asyncapi/courier-asyncapi.yml
 - filename: courier-audiences-api-openapi.yml
   format: yaml
   label: Courier Audiences API
   slug: courier-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-audiences-api-openapi.yml
 - filename: courier-audit-events-api-openapi.yml
   format: yaml
   label: Courier Audit Events API
   slug: courier-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-audit-events-api-openapi.yml
 - filename: courier-authentication-api-openapi.yml
   format: yaml
   label: Courier Authentication API
   slug: courier-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-authentication-api-openapi.yml
 - filename: courier-automations-api-openapi.yml
   format: yaml
   label: Courier Automations API
   slug: courier-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-automations-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-automations-api-openapi.yml
 - filename: courier-brands-api-openapi.yml
   format: yaml
   label: Courier Brands API
   slug: courier-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-brands-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-brands-api-openapi.yml
 - filename: courier-bulk-api-openapi.yml
   format: yaml
   label: Courier Bulk API
   slug: courier-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-bulk-api-openapi.yml
 - filename: courier-courier-create-api-openapi.yml
   format: yaml
   label: Courier Create API
   slug: courier-courier-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-courier-create-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-courier-create-api-openapi.yml
 - filename: courier-device-tokens-api-openapi.yml
   format: yaml
   label: Courier Device Tokens API
   slug: courier-device-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-device-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-device-tokens-api-openapi.yml
 - filename: courier-inbound-api-openapi.yml
   format: yaml
   label: Courier Inbound API
   slug: courier-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-inbound-api-openapi.yml
 - filename: courier-journeys-api-openapi.yml
   format: yaml
   label: Courier Journeys API
   slug: courier-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-journeys-api-openapi.yml
 - filename: courier-lists-api-openapi.yml
   format: yaml
   label: Courier Lists API
   slug: courier-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-lists-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-lists-api-openapi.yml
 - filename: courier-notification-templates-api-openapi.yml
   format: yaml
   label: Courier Notification Templates API
   slug: courier-notification-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-notification-templates-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-notification-templates-api-openapi.yml
 - filename: courier-providers-api-openapi.yml
   format: yaml
   label: Courier Providers API
   slug: courier-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-providers-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-providers-api-openapi.yml
 - filename: courier-routing-strategies-api-openapi.yml
   format: yaml
   label: Courier Routing Strategies API
   slug: courier-routing-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-routing-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-routing-strategies-api-openapi.yml
 - filename: courier-send-api-openapi.yml
   format: yaml
   label: Courier Send API
   slug: courier-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-send-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-send-api-openapi.yml
 - filename: courier-sent-messages-api-openapi.yml
   format: yaml
   label: Courier Sent Messages API
   slug: courier-sent-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-sent-messages-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-sent-messages-api-openapi.yml
 - filename: courier-tenants-api-openapi.yml
   format: yaml
   label: Courier Tenants API
   slug: courier-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-tenants-api-openapi.yml
 - filename: courier-translations-api-openapi.yml
   format: yaml
   label: Courier Translations API
   slug: courier-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-translations-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-translations-api-openapi.yml
 - filename: courier-user-preferences-api-openapi.yml
   format: yaml
   label: Courier User Preferences API
   slug: courier-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-user-preferences-api-openapi.yml
 - filename: courier-user-profiles-api-openapi.yml
   format: yaml
   label: Courier User Profiles API
   slug: courier-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-user-profiles-api-openapi.yml
 - filename: courier-user-tenants-api-openapi.yml
   format: yaml
   label: Courier User Tenants API
   slug: courier-user-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/openapi/courier-user-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/courier/openapi/courier-user-tenants-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 43
@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/courie
   \      - high-value\n    audit: required\n- path: /routing-strategies/{id}\n  method: delete\n  operationId: routingStrategies_archive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routing-strategies/{id}/notifications\n  method: get\n  operationId: routingStrategies_listNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: get\n  operationId: providers_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: post\n  operationId: providers_create\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providers/catalog\n  method: get\n  operationId: providers_catalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{id}\n  method: get\n  operationId: providers_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers/{id}\n  method: put\n  operationId: providers_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /providers/{id}\n  method: delete\n  operationId: providers_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/courier/refs/heads/main/agentic-access/courier-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/courier/agentic-access/courier-agentic-access.yml
 summary_line: 103 operations · 60 acting
 tags:
 - Notification

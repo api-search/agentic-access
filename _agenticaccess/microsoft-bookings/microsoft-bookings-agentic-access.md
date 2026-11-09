@@ -9,43 +9,55 @@ api_specs:
   label: Microsoft Bookings Appointments API
   slug: microsoft-bookings-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-appointments-api-openapi.yml
 - filename: microsoft-bookings-bookingbusinesses-api-openapi.yml
   format: yaml
   label: Microsoft Bookings BookingBusinesses API
   slug: microsoft-bookings-bookingbusinesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-bookingbusinesses-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-bookingbusinesses-api-openapi.yml
 - filename: microsoft-bookings-currencies-api-openapi.yml
   format: yaml
   label: Microsoft Bookings Currencies API
   slug: microsoft-bookings-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-currencies-api-openapi.yml
 - filename: microsoft-bookings-customers-api-openapi.yml
   format: yaml
   label: Microsoft Bookings Customers API
   slug: microsoft-bookings-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-customers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-customers-api-openapi.yml
 - filename: microsoft-bookings-customquestions-api-openapi.yml
   format: yaml
   label: Microsoft Bookings CustomQuestions API
   slug: microsoft-bookings-customquestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-customquestions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-customquestions-api-openapi.yml
 - filename: microsoft-bookings-services-api-openapi.yml
   format: yaml
   label: Microsoft Bookings Services API
   slug: microsoft-bookings-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-services-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-services-api-openapi.yml
+- filename: microsoft-bookings-solutions-bookingbusiness-api-openapi.yml
+  format: yaml
+  label: Microsoft Bookings Solutions.booking Business API
+  slug: microsoft-bookings-solutions-bookingbusiness-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-solutions-bookingbusiness-api-openapi.yml
+- filename: microsoft-bookings-solutions-bookingcurrency-api-openapi.yml
+  format: yaml
+  label: Microsoft Bookings Solutions.booking Currency API
+  slug: microsoft-bookings-solutions-bookingcurrency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-solutions-bookingcurrency-api-openapi.yml
 - filename: microsoft-bookings-staff-members-api-openapi.yml
   format: yaml
   label: Microsoft Bookings Staff Members API
   slug: microsoft-bookings-staff-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/openapi/microsoft-bookings-staff-members-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-staff-members-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13
@@ -79,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/bookingBusinesses/{id}/customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solutions/bookingBusinesses/{id}/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/bookingBusinesses/{id}/appointments\n  method: get\n  operationId: listAppointments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /solutions/bookingBusinesses/{id}/appointments\n  method: post\n  operationId: createAppointment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/bookingBusinesses/{id}/appointments/{appointmentId}/cancel\n  method: post\n  operationId: cancelAppointment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/bookingBusinesses/{id}/calendarView\n  method: get\n  operationId: listCalendarView\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solutions/bookingBusinesses/{id}/customQuestions\n  method: get\n  operationId: listCustomQuestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solutions/bookingBusinesses/{id}/customQuestions\n  method: post\n  operationId: createCustomQuestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/bookingCurrencies\n  method: get\n  operationId: listBookingCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/agentic-access/microsoft-bookings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bookings/agentic-access/microsoft-bookings-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Booking

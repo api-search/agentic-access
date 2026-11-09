@@ -9,19 +9,19 @@ api_specs:
   label: JokeAPI Jokes API
   slug: jokeapi-jokes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-jokes-api-openapi.yml
+  url: https://artifacts.apis.io/jokeapi/openapi/jokeapi-jokes-api-openapi.yml
 - filename: jokeapi-metadata-api-openapi.yml
   format: yaml
   label: JokeAPI Metadata API
   slug: jokeapi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/jokeapi/openapi/jokeapi-metadata-api-openapi.yml
 - filename: jokeapi-system-api-openapi.yml
   format: yaml
   label: JokeAPI System API
   slug: jokeapi-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/openapi/jokeapi-system-api-openapi.yml
+  url: https://artifacts.apis.io/jokeapi/openapi/jokeapi-system-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jokeapi-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 9\n    acting: 1\n  by_consequence:\n    read: 9\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /joke/{category}\n  method: get\n  operationId: getJoke\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories\n  method: get\n  operationId: getCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flags\n  method: get\n  operationId: getFlags\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /formats\n  method: get\n  operationId: getFormats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /languages\n  method: get\n  operationId: getLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /langcode/{language}\n  method: get\n  operationId: getLangcode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /endpoints\n\
   \  method: get\n  operationId: getEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submit\n  method: post\n  operationId: submitJoke\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/agentic-access/jokeapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jokeapi/agentic-access/jokeapi-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Jokes

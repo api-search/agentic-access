@@ -9,19 +9,19 @@ api_specs:
   label: Rotessa Customers API
   slug: rotessa-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-customers-api-openapi.yml
 - filename: rotessa-transaction-report-api-openapi.yml
   format: yaml
   label: Rotessa Transaction Report API
   slug: rotessa-transaction-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-report-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-transaction-report-api-openapi.yml
 - filename: rotessa-transaction-schedules-api-openapi.yml
   format: yaml
   label: Rotessa Transaction Schedules API
   slug: rotessa-transaction-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/openapi/rotessa-transaction-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/rotessa/openapi/rotessa-transaction-schedules-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rotess
   \ 3600\n    audit: none\n- path: /customers/update_via_post\n  method: post\n  operationId: updateCustomerViaPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_report\n  method: get\n  operationId: showTransactionReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction_schedules\n  method: post\n  operationId: createTransactionSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_schedules/create_with_custom_identifier\n\
   \  method: post\n  operationId: createTransactionScheduleWithCustomIdentifier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_schedules/{id}\n  method: get\n  operationId: getTransactionSchedule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transaction_schedules/{id}\n  method: patch\n  operationId: updateTransactionSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_schedules/{id}\n\
   \  method: delete\n  operationId: deleteTransactionSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transaction_schedules/update_via_post\n  method: post\n  operationId: updateTransactionScheduleViaPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rotessa/refs/heads/main/agentic-access/rotessa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rotessa/agentic-access/rotessa-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
 - Payments

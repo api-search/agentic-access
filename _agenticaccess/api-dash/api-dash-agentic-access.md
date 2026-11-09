@@ -9,55 +9,55 @@ api_specs:
   label: API Dash API Dash APIs API
   slug: api-dash-api-dash-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-api-dash-apis-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-api-dash-apis-api-openapi.yml
 - filename: api-dash-case-conversion-api-openapi.yml
   format: yaml
   label: API Dash Case Conversion API
   slug: api-dash-case-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-case-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-case-conversion-api-openapi.yml
 - filename: api-dash-country-data-api-openapi.yml
   format: yaml
   label: API Dash Country Data API
   slug: api-dash-country-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-country-data-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-country-data-api-openapi.yml
 - filename: api-dash-humanize-api-openapi.yml
   format: yaml
   label: API Dash Humanize API
   slug: api-dash-humanize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-humanize-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-humanize-api-openapi.yml
 - filename: api-dash-i-o-api-openapi.yml
   format: yaml
   label: API Dash I/O API
   slug: api-dash-i-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-i-o-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-i-o-api-openapi.yml
 - filename: api-dash-sse-api-openapi.yml
   format: yaml
   label: API Dash SSE API
   slug: api-dash-sse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-sse-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-sse-api-openapi.yml
 - filename: api-dash-text-conversion-api-openapi.yml
   format: yaml
   label: API Dash Text Conversion API
   slug: api-dash-text-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-text-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-text-conversion-api-openapi.yml
 - filename: api-dash-user-authentication-api-openapi.yml
   format: yaml
   label: API Dash User Authentication API
   slug: api-dash-user-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-user-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-user-authentication-api-openapi.yml
 - filename: api-dash-user-data-api-openapi.yml
   format: yaml
   label: API Dash User Data API
   slug: api-dash-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/openapi/api-dash-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/api-dash/openapi/api-dash-user-data-api-openapi.yml
 consequence_counts:
   read: 42
   write: 15
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: generated\nsource: openapi/api-da
   \  operationId: delete_user_io_user__username__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /io/head\n  method: head\n  operationId: head_request_io_head_head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /io/octet-stream\n  method: post\n  operationId: octet_stream_request_io_octet_stream_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/login\n  method: post\n  operationId: login_for_access_token_auth_login_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/logout\n  method: post\n  operationId: logout_auth_logout_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sse/events/{count}\n  method: get\n  operationId: sse_events_sse_events__count__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile\n  method: get\n  operationId: read_random_profile_profile_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: read_all_users_users_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: read_user_by_id_users__user_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: welcome__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-dash/refs/heads/main/agentic-access/api-dash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-dash/agentic-access/api-dash-agentic-access.yml
 summary_line: 57 operations · 15 acting
 tags:
 - API Client

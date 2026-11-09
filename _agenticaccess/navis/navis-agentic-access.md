@@ -8,31 +8,31 @@ api_specs:
   label: Navis (Kaleris) Gate API
   slug: navis-gate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-gate-api-openapi.yml
+  url: https://artifacts.apis.io/navis/openapi/navis-gate-api-openapi.yml
 - filename: navis-holds-api-openapi.yml
   format: yaml
   label: Navis (Kaleris) Holds API
   slug: navis-holds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-holds-api-openapi.yml
+  url: https://artifacts.apis.io/navis/openapi/navis-holds-api-openapi.yml
 - filename: navis-operations-api-openapi.yml
   format: yaml
   label: Navis (Kaleris) Operations API
   slug: navis-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-operations-api-openapi.yml
+  url: https://artifacts.apis.io/navis/openapi/navis-operations-api-openapi.yml
 - filename: navis-units-api-openapi.yml
   format: yaml
   label: Navis (Kaleris) Units API
   slug: navis-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-units-api-openapi.yml
+  url: https://artifacts.apis.io/navis/openapi/navis-units-api-openapi.yml
 - filename: navis-vessel-visits-api-openapi.yml
   format: yaml
   label: Navis (Kaleris) Vessel Visits API
   slug: navis-vessel-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/openapi/navis-vessel-visits-api-openapi.yml
+  url: https://artifacts.apis.io/navis/openapi/navis-vessel-visits-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/navis-n4-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /units\n  method: get\n  operationId: searchUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /units/{unitId}\n  method: get\n  operationId: getUnit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel-visits\n  method: get\n  operationId: listVesselVisits\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel-visits/{visitId}\n  method: get\n  operationId: getVesselVisit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel-visits/{visitId}/units\n  method: get\n  operationId: getVesselVisitUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gate-transactions\n  method: get\n  operationId: listGateTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /work-queues\n  method: get\n  operationId: getWorkQueues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /holds\n  method: get\n  operationId: listHolds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/navis/refs/heads/main/agentic-access/navis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/navis/agentic-access/navis-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Maritime

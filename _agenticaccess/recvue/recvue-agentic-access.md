@@ -9,61 +9,61 @@ api_specs:
   label: RecVue Authentication API
   slug: recvue-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-authentication-api-openapi.yml
 - filename: recvue-billing-api-openapi.yml
   format: yaml
   label: RecVue Billing API
   slug: recvue-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-billing-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-billing-api-openapi.yml
 - filename: recvue-billing-schedules-api-openapi.yml
   format: yaml
   label: RecVue Billing Schedules API
   slug: recvue-billing-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-billing-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-billing-schedules-api-openapi.yml
 - filename: recvue-customers-api-openapi.yml
   format: yaml
   label: RecVue Customers API
   slug: recvue-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-customers-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-customers-api-openapi.yml
 - filename: recvue-invoices-api-openapi.yml
   format: yaml
   label: RecVue Invoices API
   slug: recvue-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-invoices-api-openapi.yml
 - filename: recvue-orders-api-openapi.yml
   format: yaml
   label: RecVue Orders API
   slug: recvue-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-orders-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-orders-api-openapi.yml
 - filename: recvue-pricing-api-openapi.yml
   format: yaml
   label: RecVue Pricing API
   slug: recvue-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-pricing-api-openapi.yml
 - filename: recvue-programs-api-openapi.yml
   format: yaml
   label: RecVue Programs API
   slug: recvue-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-programs-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-programs-api-openapi.yml
 - filename: recvue-revenue-recognition-api-openapi.yml
   format: yaml
   label: RecVue Revenue Recognition API
   slug: recvue-revenue-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-revenue-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-revenue-recognition-api-openapi.yml
 - filename: recvue-usage-api-openapi.yml
   format: yaml
   label: RecVue Usage API
   slug: recvue-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/openapi/recvue-usage-api-openapi.yml
+  url: https://artifacts.apis.io/recvue/openapi/recvue-usage-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/recvue
   \      - high-value\n    audit: required\n- path: /deliveries\n  method: get\n  operationId: getDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: getCustomerAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: post\n  operationId: createCustomerAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /revenue/contract-amendment-setup\n  method: get\n  operationId: getRevenueContractAmendmentSetup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /revenue/contract-amendment-setup\n  method: post\n  operationId: createRevenueContractAmendmentSetup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /programs/execute\n  method: post\n  operationId: executeConcurrentProgram\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recvue/refs/heads/main/agentic-access/recvue-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recvue/agentic-access/recvue-agentic-access.yml
 summary_line: 21 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Revenue Recognition

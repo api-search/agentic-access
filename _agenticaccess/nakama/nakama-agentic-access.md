@@ -9,61 +9,61 @@ api_specs:
   label: Nakama Realtime Socket API
   slug: nakama-realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/asyncapi/nakama-asyncapi.yml
+  url: https://artifacts.apis.io/nakama/asyncapi/nakama-asyncapi.yml
 - filename: nakama-account-api-openapi.yml
   format: yaml
   label: Nakama Account API
   slug: nakama-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-account-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-account-api-openapi.yml
 - filename: nakama-authentication-api-openapi.yml
   format: yaml
   label: Nakama Authentication API
   slug: nakama-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-authentication-api-openapi.yml
 - filename: nakama-friends-api-openapi.yml
   format: yaml
   label: Nakama Friends API
   slug: nakama-friends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-friends-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-friends-api-openapi.yml
 - filename: nakama-groups-api-openapi.yml
   format: yaml
   label: Nakama Groups API
   slug: nakama-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-groups-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-groups-api-openapi.yml
 - filename: nakama-leaderboards-api-openapi.yml
   format: yaml
   label: Nakama Leaderboards API
   slug: nakama-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-leaderboards-api-openapi.yml
 - filename: nakama-notifications-api-openapi.yml
   format: yaml
   label: Nakama Notifications API
   slug: nakama-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-notifications-api-openapi.yml
 - filename: nakama-rpc-api-openapi.yml
   format: yaml
   label: Nakama RPC API
   slug: nakama-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-rpc-api-openapi.yml
 - filename: nakama-storage-api-openapi.yml
   format: yaml
   label: Nakama Storage API
   slug: nakama-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-storage-api-openapi.yml
 - filename: nakama-tournaments-api-openapi.yml
   format: yaml
   label: Nakama Tournaments API
   slug: nakama-tournaments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/openapi/nakama-tournaments-api-openapi.yml
+  url: https://artifacts.apis.io/nakama/openapi/nakama-tournaments-api-openapi.yml
 consequence_counts:
   read: 9
   write: 18
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nakama
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/rpc/{id}\n  method: get\n  operationId: rpcFunc2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/storage\n  method: put\n  operationId: writeStorageObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/storage\n  method: post\n  operationId: readStorageObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /v2/storage/{collection}\n  method: get\n  operationId: listStorageObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/storage/delete\n  method: put\n  operationId: deleteStorageObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tournament\n  method: get\n  operationId: listTournaments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tournament/{tournament_id}/join\n  method: post\n  operationId: joinTournament\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nakama/refs/heads/main/agentic-access/nakama-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nakama/agentic-access/nakama-agentic-access.yml
 summary_line: 27 operations · 18 acting
 tags:
 - Gaming

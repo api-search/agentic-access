@@ -9,43 +9,43 @@ api_specs:
   label: SMTP Senpai (MailSenpai) Account API
   slug: mailsenpai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-account-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-account-api-openapi.yml
 - filename: mailsenpai-log-api-openapi.yml
   format: yaml
   label: SMTP Senpai (MailSenpai) Log API
   slug: mailsenpai-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-log-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-log-api-openapi.yml
 - filename: mailsenpai-sending-api-openapi.yml
   format: yaml
   label: SMTP Senpai (MailSenpai) Sending API
   slug: mailsenpai-sending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-sending-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-sending-api-openapi.yml
 - filename: mailsenpai-smtp-senpai-api-api-openapi.yml
   format: yaml
   label: SMTP Senpai (MailSenpai) SMTP Senpai API
   slug: mailsenpai-smtp-senpai-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-smtp-senpai-api-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-smtp-senpai-api-api-openapi.yml
 - filename: mailsenpai-suppression-api-openapi.yml
   format: yaml
   label: SMTP Senpai (MailSenpai) Suppression API
   slug: mailsenpai-suppression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-suppression-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-suppression-api-openapi.yml
 - filename: mailsenpai-webhooks-api-openapi.yml
   format: yaml
   label: SMTP Senpai (MailSenpai) Webhooks API
   slug: mailsenpai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-webhooks-api-openapi.yml
 - filename: mailsenpai-website-forms-api-openapi.yml
   format: yaml
   label: SMTP Senpai (MailSenpai) Website forms API
   slug: mailsenpai-website-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/openapi/mailsenpai-website-forms-api-openapi.yml
+  url: https://artifacts.apis.io/mailsenpai/openapi/mailsenpai-website-forms-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/mailse
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /riammetti\n  method: post\n  operationId: riammetti\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relay/f/{codice}\n  method: get\n  operationId: moduloInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /relay/f/{codice}\n  method: post\n  operationId: moduloInvia\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /relay/f/{codice}\n\
   \  method: options\n  operationId: moduloPreflight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: get\n  operationId: webhookLeggi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook\n  method: post\n  operationId: webhookImposta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook/prova\n  method: post\n  operationId: webhookProva\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mailsenpai/refs/heads/main/agentic-access/mailsenpai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mailsenpai/agentic-access/mailsenpai-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Email Marketing

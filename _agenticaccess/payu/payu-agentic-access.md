@@ -9,91 +9,91 @@ api_specs:
   label: PayU Authorize API
   slug: payu-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-authorize-api-openapi.yml
 - filename: payu-card-installments-api-openapi.yml
   format: yaml
   label: PayU Card Installments API
   slug: payu-card-installments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-card-installments-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-card-installments-api-openapi.yml
 - filename: payu-fx-reference-api-openapi.yml
   format: yaml
   label: PayU FX-Reference API
   slug: payu-fx-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-fx-reference-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-fx-reference-api-openapi.yml
 - filename: payu-marketplace-seller-api-openapi.yml
   format: yaml
   label: PayU Marketplace-Seller API
   slug: payu-marketplace-seller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-marketplace-seller-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-marketplace-seller-api-openapi.yml
 - filename: payu-marketplace-verification-api-openapi.yml
   format: yaml
   label: PayU Marketplace-Verification API
   slug: payu-marketplace-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-marketplace-verification-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-marketplace-verification-api-openapi.yml
 - filename: payu-mcp-api-openapi.yml
   format: yaml
   label: PayU MCP API
   slug: payu-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-mcp-api-openapi.yml
 - filename: payu-order-api-openapi.yml
   format: yaml
   label: PayU Order API
   slug: payu-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-order-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-order-api-openapi.yml
 - filename: payu-partner-merchant-registration-api-openapi.yml
   format: yaml
   label: PayU Partner-Merchant-Registration API
   slug: payu-partner-merchant-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-partner-merchant-registration-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-partner-merchant-registration-api-openapi.yml
 - filename: payu-payment-methods-api-openapi.yml
   format: yaml
   label: PayU Payment-Methods API
   slug: payu-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-payment-methods-api-openapi.yml
 - filename: payu-payout-api-openapi.yml
   format: yaml
   label: PayU Payout API
   slug: payu-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-payout-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-payout-api-openapi.yml
 - filename: payu-pf-submerchant-registration-api-openapi.yml
   format: yaml
   label: PayU PF-Submerchant-Registration API
   slug: payu-pf-submerchant-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-pf-submerchant-registration-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-pf-submerchant-registration-api-openapi.yml
 - filename: payu-refund-api-openapi.yml
   format: yaml
   label: PayU Refund API
   slug: payu-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-refund-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-refund-api-openapi.yml
 - filename: payu-shop-api-openapi.yml
   format: yaml
   label: PayU Shop API
   slug: payu-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-shop-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-shop-api-openapi.yml
 - filename: payu-statements-api-openapi.yml
   format: yaml
   label: PayU Statements API
   slug: payu-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-statements-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-statements-api-openapi.yml
 - filename: payu-token-api-openapi.yml
   format: yaml
   label: PayU Token API
   slug: payu-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/openapi/payu-token-api-openapi.yml
+  url: https://artifacts.apis.io/payu/openapi/payu-token-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 18
@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/payu-a
   \ get\n  operationId: retrieve-submerchant-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - client_credentials\n- path: /api/v2_1/orders/{orderId}/refunds\n  method: post\n  operationId: create-a-refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - client_credentials\n- path: /api/v2_1/orders/{orderId}/refunds\n  method: get\n  operationId: retrieve-all-refunds-for-the-specified-order\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - client_credentials\n\
   - path: /api/v2_1/orders/{orderId}/refunds/{refundId}\n  method: get\n  operationId: retrieve-specific-refund\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - client_credentials\n- path: /api/v2_1/shops/{shopId}\n  method: get\n  operationId: retrieve-shop-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - client_credentials\n- path: /api/v2_1/reports/{reportId}\n  method: get\n  operationId: retrieve-statement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2_1/tokens/{token}\n  method: delete\n  operationId: delete-a-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - trusted_merchant\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payu/refs/heads/main/agentic-access/payu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payu/agentic-access/payu-agentic-access.yml
 summary_line: 47 operations · 29 acting
 tags:
 - Payments

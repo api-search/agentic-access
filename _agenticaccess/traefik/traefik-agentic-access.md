@@ -8,37 +8,37 @@ api_specs:
   label: Traefik Labs Health API
   slug: traefik-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-health-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-health-api-openapi.yml
 - filename: traefik-http-api-openapi.yml
   format: yaml
   label: Traefik Labs HTTP API
   slug: traefik-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-http-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-http-api-openapi.yml
 - filename: traefik-overview-api-openapi.yml
   format: yaml
   label: Traefik Labs Overview API
   slug: traefik-overview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-overview-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-overview-api-openapi.yml
 - filename: traefik-tcp-api-openapi.yml
   format: yaml
   label: Traefik Labs TCP API
   slug: traefik-tcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-tcp-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-tcp-api-openapi.yml
 - filename: traefik-udp-api-openapi.yml
   format: yaml
   label: Traefik Labs UDP API
   slug: traefik-udp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-udp-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-udp-api-openapi.yml
 - filename: traefik-entry-points-api-openapi.yml
   format: yaml
   label: Traefik Labs Entry Points API
   slug: traefik-entry-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/openapi/traefik-entry-points-api-openapi.yml
+  url: https://artifacts.apis.io/traefik/openapi/traefik-entry-points-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/traefi
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcp/routers/{name}\n  method: get\n  operationId: getTCPRouter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcp/services\n  method: get\n  operationId: listTCPServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcp/services/{name}\n  method: get\n  operationId: getTCPService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcp/middlewares\n  method: get\n  operationId: listTCPMiddlewares\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tcp/middlewares/{name}\n\
   \  method: get\n  operationId: getTCPMiddleware\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /udp/routers\n  method: get\n  operationId: listUDPRouters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /udp/routers/{name}\n  method: get\n  operationId: getUDPRouter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /udp/services\n  method: get\n  operationId: listUDPServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /udp/services/{name}\n  method: get\n  operationId: getUDPService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /support-dump\n  method: get\n  operationId: getSupportDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ping\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/agentic-access/traefik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/traefik/agentic-access/traefik-agentic-access.yml
 summary_line: 23 operations
 tags:
 - AI Gateway

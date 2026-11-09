@@ -9,97 +9,97 @@ api_specs:
   label: Brushfire Accounts API
   slug: brushfire-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-accounts-api-openapi.yml
 - filename: brushfire-attendees-api-openapi.yml
   format: yaml
   label: Brushfire Attendees API
   slug: brushfire-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-attendees-api-openapi.yml
 - filename: brushfire-cart-api-openapi.yml
   format: yaml
   label: Brushfire Cart API
   slug: brushfire-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-cart-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-cart-api-openapi.yml
 - filename: brushfire-clients-api-openapi.yml
   format: yaml
   label: Brushfire Clients API
   slug: brushfire-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-clients-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-clients-api-openapi.yml
 - filename: brushfire-data-api-openapi.yml
   format: yaml
   label: Brushfire Data API
   slug: brushfire-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-data-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-data-api-openapi.yml
 - filename: brushfire-events-api-openapi.yml
   format: yaml
   label: Brushfire Events API
   slug: brushfire-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-events-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-events-api-openapi.yml
 - filename: brushfire-exchanges-api-openapi.yml
   format: yaml
   label: Brushfire Exchanges API
   slug: brushfire-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-exchanges-api-openapi.yml
 - filename: brushfire-groups-api-openapi.yml
   format: yaml
   label: Brushfire Groups API
   slug: brushfire-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-groups-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-groups-api-openapi.yml
 - filename: brushfire-hooks-api-openapi.yml
   format: yaml
   label: Brushfire Hooks API
   slug: brushfire-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-hooks-api-openapi.yml
 - filename: brushfire-lookups-api-openapi.yml
   format: yaml
   label: Brushfire Lookups API
   slug: brushfire-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-lookups-api-openapi.yml
 - filename: brushfire-orders-api-openapi.yml
   format: yaml
   label: Brushfire Orders API
   slug: brushfire-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-orders-api-openapi.yml
 - filename: brushfire-paymentprofiles-api-openapi.yml
   format: yaml
   label: Brushfire PaymentProfiles API
   slug: brushfire-paymentprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-paymentprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-paymentprofiles-api-openapi.yml
 - filename: brushfire-promotions-api-openapi.yml
   format: yaml
   label: Brushfire Promotions API
   slug: brushfire-promotions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-promotions-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-promotions-api-openapi.yml
 - filename: brushfire-regions-api-openapi.yml
   format: yaml
   label: Brushfire Regions API
   slug: brushfire-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-regions-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-regions-api-openapi.yml
 - filename: brushfire-sessions-api-openapi.yml
   format: yaml
   label: Brushfire Sessions API
   slug: brushfire-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-sessions-api-openapi.yml
 - filename: brushfire-access-codes-api-openapi.yml
   format: yaml
   label: Brushfire Access Codes API
   slug: brushfire-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/openapi/brushfire-access-codes-api-openapi.yml
+  url: https://artifacts.apis.io/brushfire/openapi/brushfire-access-codes-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 81
@@ -209,8 +209,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/brushf
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/{lookupId}/events/{eventNumber}/attendees\n  method: get\n  operationId: getLookupsByLookupIdEventsByEventNumberAttendees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/{lookupId}/events/{eventNumber}/group\n  method: get\n  operationId: getLookupsByLookupIdEventsByEventNumberGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lookups/{lookupId}/events/{eventNumber}/orders\n  method: get\n  operationId: getLookupsByLookupIdEventsByEventNumberOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n\
   \  method: get\n  operationId: getOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: postOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrdersByOrderId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/fields\n  method: get\n  operationId: getOrdersByOrderIdFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/fields\n  method: post\n  operationId: postOrdersByOrderIdFields\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/print\n  method: get\n  operationId: getOrdersByOrderIdPrint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/resend\n  method: post\n  operationId: postOrdersByOrderIdResend\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/direct\n  method: post\n  operationId: postOrdersDirect\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/helpdesk/{email}\n  method: get\n  operationId: getOrdersHelpdeskByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/agentic-access/brushfire-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/agentic-access/brushfire-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/direct\n  method: post\n  operationId: postOrdersDirect\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/helpdesk/{email}\n  method: get\n  operationId: getOrdersHelpdeskByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/brushfire/agentic-access/brushfire-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/brushfire/agentic-access/brushfire-agentic-access.yml
 summary_line: 135 operations · 54 acting
 tags:
 - Event Ticketing

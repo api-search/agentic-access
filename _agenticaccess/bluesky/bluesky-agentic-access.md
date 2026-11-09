@@ -9,145 +9,145 @@ api_specs:
   label: Bluesky Jetstream
   slug: bluesky-jetstream
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/asyncapi/bluesky-asyncapi.yml
+  url: https://artifacts.apis.io/bluesky/asyncapi/bluesky-asyncapi.yml
 - filename: bluesky-actor-profiles-api-openapi.yml
   format: yaml
   label: Bluesky Actor Profiles API
   slug: bluesky-actor-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-actor-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-actor-profiles-api-openapi.yml
 - filename: bluesky-administration-api-openapi.yml
   format: yaml
   label: Bluesky Administration API
   slug: bluesky-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-administration-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-administration-api-openapi.yml
 - filename: bluesky-chat-actors-api-openapi.yml
   format: yaml
   label: Bluesky Chat Actors API
   slug: bluesky-chat-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-chat-actors-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-chat-actors-api-openapi.yml
 - filename: bluesky-chat-moderation-api-openapi.yml
   format: yaml
   label: Bluesky Chat Moderation API
   slug: bluesky-chat-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-chat-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-chat-moderation-api-openapi.yml
 - filename: bluesky-content-labels-api-openapi.yml
   format: yaml
   label: Bluesky Content Labels API
   slug: bluesky-content-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-content-labels-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-content-labels-api-openapi.yml
 - filename: bluesky-conversations-api-openapi.yml
   format: yaml
   label: Bluesky Conversations API
   slug: bluesky-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-conversations-api-openapi.yml
 - filename: bluesky-feeds-api-openapi.yml
   format: yaml
   label: Bluesky Feeds API
   slug: bluesky-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-feeds-api-openapi.yml
 - filename: bluesky-identity-api-openapi.yml
   format: yaml
   label: Bluesky Identity API
   slug: bluesky-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-identity-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-identity-api-openapi.yml
 - filename: bluesky-labels-api-openapi.yml
   format: yaml
   label: Bluesky Labels API
   slug: bluesky-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-labels-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-labels-api-openapi.yml
 - filename: bluesky-moderation-api-openapi.yml
   format: yaml
   label: Bluesky Moderation API
   slug: bluesky-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-moderation-api-openapi.yml
 - filename: bluesky-notifications-api-openapi.yml
   format: yaml
   label: Bluesky Notifications API
   slug: bluesky-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-notifications-api-openapi.yml
 - filename: bluesky-ozone-communication-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Communication API
   slug: bluesky-ozone-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-communication-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-communication-api-openapi.yml
 - filename: bluesky-ozone-moderation-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Moderation API
   slug: bluesky-ozone-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-moderation-api-openapi.yml
 - filename: bluesky-ozone-server-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Server API
   slug: bluesky-ozone-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-server-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-server-api-openapi.yml
 - filename: bluesky-ozone-sets-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Sets API
   slug: bluesky-ozone-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-sets-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-sets-api-openapi.yml
 - filename: bluesky-ozone-settings-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Settings API
   slug: bluesky-ozone-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-settings-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-settings-api-openapi.yml
 - filename: bluesky-ozone-signatures-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Signatures API
   slug: bluesky-ozone-signatures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-signatures-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-signatures-api-openapi.yml
 - filename: bluesky-ozone-team-api-openapi.yml
   format: yaml
   label: Bluesky Ozone Team API
   slug: bluesky-ozone-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-ozone-team-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-ozone-team-api-openapi.yml
 - filename: bluesky-repository-api-openapi.yml
   format: yaml
   label: Bluesky Repository API
   slug: bluesky-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-repository-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-repository-api-openapi.yml
 - filename: bluesky-server-api-openapi.yml
   format: yaml
   label: Bluesky Server API
   slug: bluesky-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-server-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-server-api-openapi.yml
 - filename: bluesky-social-graph-api-openapi.yml
   format: yaml
   label: Bluesky Social Graph API
   slug: bluesky-social-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-social-graph-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-social-graph-api-openapi.yml
 - filename: bluesky-sync-api-openapi.yml
   format: yaml
   label: Bluesky Sync API
   slug: bluesky-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-sync-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-sync-api-openapi.yml
 - filename: bluesky-video-api-openapi.yml
   format: yaml
   label: Bluesky Video API
   slug: bluesky-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/openapi/bluesky-video-api-openapi.yml
+  url: https://artifacts.apis.io/bluesky/openapi/bluesky-video-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 93
@@ -282,8 +282,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bluesk
   \   - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.repo.uploadBlob\n  method: post\n  operationId: repoUploadBlob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.server.activateAccount\n  method: post\n  operationId: serverActivateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.server.checkAccountStatus\n  method: get\n  operationId: serverCheckAccountStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xrpc/com.atproto.server.confirmEmail\n  method: post\n  operationId: serverConfirmEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.server.createAccount\n  method: post\n  operationId: serverCreateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.server.createAppPassword\n  method: post\n  operationId: serverCreateAppPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.server.createInviteCode\n  method: post\n  operationId: serverCreateInviteCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xrpc/com.atproto.server.createInviteCodes\n  method: post\n  operationId: serverCreateInviteCodes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total)\
-  \ ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/agentic-access/bluesky-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluesky/refs/heads/main/agentic-access/bluesky-agentic-access.yml
+  \ ---\n# Full source: https://artifacts.apis.io/bluesky/agentic-access/bluesky-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bluesky/agentic-access/bluesky-agentic-access.yml
 summary_line: 168 operations · 75 acting · 5 human-in-the-loop
 tags:
 - At-Protocol

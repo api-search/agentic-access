@@ -9,67 +9,67 @@ api_specs:
   label: Google Cloud Service Mesh Gateways API
   slug: google-cloud-service-mesh-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-gateways-api-openapi.yml
 - filename: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Google Cloud Network Services API (Service Mesh) API
   slug: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
 - filename: google-cloud-service-mesh-grpcroutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh GrpcRoutes API
   slug: google-cloud-service-mesh-grpcroutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-grpcroutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-grpcroutes-api-openapi.yml
 - filename: google-cloud-service-mesh-httproutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh HttpRoutes API
   slug: google-cloud-service-mesh-httproutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-httproutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-httproutes-api-openapi.yml
 - filename: google-cloud-service-mesh-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Locations API
   slug: google-cloud-service-mesh-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-locations-api-openapi.yml
 - filename: google-cloud-service-mesh-meshes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Meshes API
   slug: google-cloud-service-mesh-meshes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-meshes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-meshes-api-openapi.yml
 - filename: google-cloud-service-mesh-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Operations API
   slug: google-cloud-service-mesh-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-operations-api-openapi.yml
 - filename: google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh ServiceLbPolicies API
   slug: google-cloud-service-mesh-servicelbpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
 - filename: google-cloud-service-mesh-tcproutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh TcpRoutes API
   slug: google-cloud-service-mesh-tcproutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-tcproutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-tcproutes-api-openapi.yml
 - filename: google-cloud-service-mesh-tlsroutes-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh TlsRoutes API
   slug: google-cloud-service-mesh-tlsroutes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-tlsroutes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-tlsroutes-api-openapi.yml
 - filename: google-cloud-service-mesh-endpoint-policies-api-openapi.yml
   format: yaml
   label: Google Cloud Service Mesh Endpoint Policies API
   slug: google-cloud-service-mesh-endpoint-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/openapi/google-cloud-service-mesh-endpoint-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-endpoint-policies-api-openapi.yml
 consequence_counts:
   read: 11
   write: 11
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/tlsRoutes\n  method: get\n  operationId: listTlsRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/tlsRoutes\n  method: post\n  operationId: createTlsRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/serviceLbPolicies\n  method: get\n  operationId: listServiceLbPolicies\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/serviceLbPolicies\n  method: post\n  operationId: createServiceLbPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/operations\n  method: get\n  operationId: listOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{name}:cancel\n  method: post\n  operationId: cancelOperation\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/agentic-access/google-cloud-service-mesh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-service-mesh/agentic-access/google-cloud-service-mesh-agentic-access.yml
 summary_line: 22 operations · 11 acting
 tags:
 - Google Cloud

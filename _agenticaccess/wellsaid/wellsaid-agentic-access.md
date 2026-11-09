@@ -9,31 +9,31 @@ api_specs:
   label: WellSaid Labs Clips API
   slug: wellsaid-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-clips-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-clips-api-openapi.yml
 - filename: wellsaid-pronunciation-api-openapi.yml
   format: yaml
   label: WellSaid Labs Pronunciation API
   slug: wellsaid-pronunciation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-pronunciation-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-pronunciation-api-openapi.yml
 - filename: wellsaid-text-to-speech-api-openapi.yml
   format: yaml
   label: WellSaid Labs Text-to-Speech API
   slug: wellsaid-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-text-to-speech-api-openapi.yml
 - filename: wellsaid-voices-api-openapi.yml
   format: yaml
   label: WellSaid Labs Voices API
   slug: wellsaid-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voices-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-voices-api-openapi.yml
 - filename: wellsaid-voice-avatars-api-openapi.yml
   format: yaml
   label: WellSaid Labs Voice Avatars API
   slug: wellsaid-voice-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/openapi/wellsaid-voice-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/wellsaid/openapi/wellsaid-voice-avatars-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wellsa
   \  audit: none\n- path: /tts/replacement-libraries\n  method: post\n  operationId: createReplacementLibrary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tts/replacement-libraries/{library-id}\n  method: get\n  operationId: getReplacementLibrary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tts/replacement-libraries/{library-id}\n  method: delete\n  operationId: deleteReplacementLibrary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /tts/replacement-libraries/{library-id}/replacements\n  method: get\n  operationId: listReplacements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tts/replacement-libraries/{library-id}/replacements\n  method: post\n  operationId: createReplacement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tts/replacement-libraries/{library-id}/replacements/{replacement-id}\n  method: get\n  operationId: getReplacement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tts/replacement-libraries/{library-id}/replacements/{replacement-id}\n\
   \  method: delete\n  operationId: deleteReplacement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wellsaid/refs/heads/main/agentic-access/wellsaid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wellsaid/agentic-access/wellsaid-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Artificial Intelligence

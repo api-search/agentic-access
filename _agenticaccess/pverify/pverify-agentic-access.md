@@ -9,79 +9,79 @@ api_specs:
   label: pVerify Authentication API
   slug: pverify-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-authentication-api-openapi.yml
 - filename: pverify-eligibility-api-openapi.yml
   format: yaml
   label: pVerify Eligibility API
   slug: pverify-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-eligibility-api-openapi.yml
 - filename: pverify-dental-eligibility-api-openapi.yml
   format: yaml
   label: pVerify Dental Eligibility API
   slug: pverify-dental-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-dental-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-dental-eligibility-api-openapi.yml
 - filename: pverify-insurance-discovery-api-openapi.yml
   format: yaml
   label: pVerify Insurance Discovery API
   slug: pverify-insurance-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-insurance-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-insurance-discovery-api-openapi.yml
 - filename: pverify-mbi-lookup-api-openapi.yml
   format: yaml
   label: pVerify MBI Lookup API
   slug: pverify-mbi-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-mbi-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-mbi-lookup-api-openapi.yml
 - filename: pverify-patient-demographic-validator-api-openapi.yml
   format: yaml
   label: pVerify Patient Demographic Validator API
   slug: pverify-patient-demographic-validator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-patient-demographic-validator-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-patient-demographic-validator-api-openapi.yml
 - filename: pverify-claim-status-api-openapi.yml
   format: yaml
   label: pVerify Claim Status API
   slug: pverify-claim-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-claim-status-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-claim-status-api-openapi.yml
 - filename: pverify-estimation-api-openapi.yml
   format: yaml
   label: pVerify Patient Cost Estimator API
   slug: pverify-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-estimation-api-openapi.yml
 - filename: pverify-payers-api-openapi.yml
   format: yaml
   label: pVerify Payers API
   slug: pverify-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-payers-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-payers-api-openapi.yml
 - filename: pverify-cgx-widget-api-openapi.yml
   format: yaml
   label: pVerify CGX Widget API
   slug: pverify-cgx-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-cgx-widget-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-cgx-widget-api-openapi.yml
 - filename: pverify-same-or-similar-api-openapi.yml
   format: yaml
   label: pVerify Same or Similar API (discontinued)
   slug: pverify-same-or-similar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-same-or-similar-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-same-or-similar-api-openapi.yml
 - filename: pverify-cmn-api-openapi.yml
   format: yaml
   label: pVerify CMN API (discontinued)
   slug: pverify-cmn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-cmn-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-cmn-api-openapi.yml
 - filename: pverify-snf-api-openapi.yml
   format: yaml
   label: pVerify SNF API (discontinued)
   slug: pverify-snf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/openapi/pverify-snf-api-openapi.yml
+  url: https://artifacts.apis.io/pverify/openapi/pverify-snf-api-openapi.yml
 consequence_counts:
   read: 21
   write: 18
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/pverif
   \  - abnormal\n      - high-value\n    audit: required\n- path: /API/GetPatientFinderResponse/{requestId}\n  method: get\n  operationId: getPatientFinderResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/GetAllPayers\n  method: get\n  operationId: getAllPayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/GetPayerStatus\n  method: get\n  operationId: getPayerStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/GetPayerStatusStatistics\n  method: get\n  operationId: getPayerStatusStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/SameOrSimilarInquiry\n\
   \  method: post\n  operationId: sameOrSimilarInquiry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /API/GetSameOrSimilarResponse/{requestId}\n  method: get\n  operationId: getSameOrSimilarResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PDFReport/SameorSimilar/{id}\n  method: get\n  operationId: getSameOrSimilarReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/GetSameAndSimilarDetailsURL/{requestId}\n  method: get\n  operationId: getSameOrSimilarDetailsUrl\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /API/SNFInquiry\n  method: post\n  operationId: snfInquiry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /API/GetSNFResponse/{requestId}\n  method: get\n  operationId: getSNFResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pverify/refs/heads/main/agentic-access/pverify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pverify/agentic-access/pverify-agentic-access.yml
 summary_line: 39 operations · 18 acting
 tags:
 - Healthcare

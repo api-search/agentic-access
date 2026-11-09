@@ -9,49 +9,49 @@ api_specs:
   label: Momence Auth API
   slug: momence-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-auth-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-auth-api-openapi.yml
 - filename: momence-host-api-openapi.yml
   format: yaml
   label: Momence Host API
   slug: momence-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-host-api-openapi.yml
 - filename: momence-host-checkout-api-openapi.yml
   format: yaml
   label: Momence Host Checkout API
   slug: momence-host-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-host-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-host-checkout-api-openapi.yml
 - filename: momence-member-addresses-api-openapi.yml
   format: yaml
   label: Momence Member Addresses API
   slug: momence-member-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-addresses-api-openapi.yml
 - filename: momence-member-api-openapi.yml
   format: yaml
   label: Momence Member API
   slug: momence-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-api-openapi.yml
 - filename: momence-member-checkout-api-openapi.yml
   format: yaml
   label: Momence Member Checkout API
   slug: momence-member-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-checkout-api-openapi.yml
 - filename: momence-member-host-api-openapi.yml
   format: yaml
   label: Momence Member Host API
   slug: momence-member-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-host-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-host-api-openapi.yml
 - filename: momence-member-sessions-api-openapi.yml
   format: yaml
   label: Momence Member Sessions API
   slug: momence-member-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/openapi/momence-member-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/momence/openapi/momence-member-sessions-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 43
@@ -233,7 +233,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/momenc
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/checkout/prices\n  method: post\n  operationId: ApiV2MemberCheckoutController_postPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/checkout\n  method: post\n  operationId: ApiV2MemberCheckoutController_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/member/host/locations\n  method: get\n  operationId: ApiV2MemberHostLocationsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/host/memberships\n  method: get\n  operationId: ApiV2MemberHostMembershipsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/host/sessions\n  method: get\n  operationId: ApiV2MemberHostSessionsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/host/signable-documents\n  method: get\n  operationId: ApiV2MemberHostSignableDocumentsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/host/signable-documents/sign\n  method: put\n  operationId: ApiV2MemberHostSignableDocumentsController_sign\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/member/sessions\n  method: get\n  operationId: ApiV2MemberSessionBookingsController_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/member/sessions/{sessionBookingId}\n  method: delete\n  operationId: ApiV2MemberSessionBookingsController_cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/momence/refs/heads/main/agentic-access/momence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/momence/agentic-access/momence-agentic-access.yml
 summary_line: 73 operations · 43 acting · 43 human-in-the-loop
 tags:
 - Fitness

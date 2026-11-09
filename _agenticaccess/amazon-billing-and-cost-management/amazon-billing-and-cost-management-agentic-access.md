@@ -9,55 +9,85 @@ api_specs:
   label: Amazon Billing And Cost Management Anomaly Detection API
   slug: amazon-billing-and-cost-management-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-anomaly-detection-api-openapi.yml
 - filename: amazon-billing-and-cost-management-budget-actions-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Budget Actions API
   slug: amazon-billing-and-cost-management-budget-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-budget-actions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-budget-actions-api-openapi.yml
 - filename: amazon-billing-and-cost-management-budgets-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Budgets API
   slug: amazon-billing-and-cost-management-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-budgets-api-openapi.yml
 - filename: amazon-billing-and-cost-management-cost-and-usage-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Cost And Usage API
   slug: amazon-billing-and-cost-management-cost-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-cost-and-usage-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-cost-and-usage-api-openapi.yml
 - filename: amazon-billing-and-cost-management-cost-categories-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Cost Categories API
   slug: amazon-billing-and-cost-management-cost-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-cost-categories-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-cost-categories-api-openapi.yml
 - filename: amazon-billing-and-cost-management-forecasting-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Forecasting API
   slug: amazon-billing-and-cost-management-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-forecasting-api-openapi.yml
 - filename: amazon-billing-and-cost-management-notifications-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Notifications API
   slug: amazon-billing-and-cost-management-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-notifications-api-openapi.yml
 - filename: amazon-billing-and-cost-management-recommendations-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Recommendations API
   slug: amazon-billing-and-cost-management-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-recommendations-api-openapi.yml
 - filename: amazon-billing-and-cost-management-tags-api-openapi.yml
   format: yaml
   label: Amazon Billing And Cost Management Tags API
   slug: amazon-billing-and-cost-management-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/openapi/amazon-billing-and-cost-management-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-tags-api-openapi.yml
+- filename: amazon-billing-and-cost-management-anomaly-monitor-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Anomaly Monitor API
+  slug: amazon-billing-and-cost-management-anomaly-monitor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-anomaly-monitor-api-openapi.yml
+- filename: amazon-billing-and-cost-management-anomaly-subscription-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Anomaly Subscription API
+  slug: amazon-billing-and-cost-management-anomaly-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-anomaly-subscription-api-openapi.yml
+- filename: amazon-billing-and-cost-management-cost-category-definition-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Cost Category Definition API
+  slug: amazon-billing-and-cost-management-cost-category-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-cost-category-definition-api-openapi.yml
+- filename: amazon-billing-and-cost-management-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Operations API
+  slug: amazon-billing-and-cost-management-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-operations-api-openapi.yml
+- filename: amazon-billing-and-cost-management-subscriber-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Subscriber API
+  slug: amazon-billing-and-cost-management-subscriber-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-subscriber-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -103,7 +133,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ ListCostCategoryDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetCostForecast\n  method: post\n  operationId: GetCostForecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetUsageForecast\n  method: post\n  operationId: GetUsageForecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CreateNotification\n  method: post\n  operationId: CreateNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /DescribeNotificationsForBudget\n\
   \  method: post\n  operationId: DescribeNotificationsForBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetRightsizingRecommendation\n  method: post\n  operationId: GetRightsizingRecommendation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetSavingsPlansPurchaseRecommendation\n  method: post\n  operationId: GetSavingsPlansPurchaseRecommendation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /GetReservationPurchaseRecommendation\n  method: post\n  operationId: GetReservationPurchaseRecommendation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ListCostAllocationTags\n  method: post\n  operationId: ListCostAllocationTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetTags\n  method: post\n  operationId: GetTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-billing-and-cost-management/refs/heads/main/agentic-access/amazon-billing-and-cost-management-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-billing-and-cost-management/agentic-access/amazon-billing-and-cost-management-agentic-access.yml
 summary_line: 24 operations · 16 acting
 tags:
 - Billing

@@ -9,19 +9,19 @@ api_specs:
   label: Kameleoon Experiments API
   slug: kameleoon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-experiments-api-openapi.yml
 - filename: kameleoon-personalizations-api-openapi.yml
   format: yaml
   label: Kameleoon Personalizations API
   slug: kameleoon-personalizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-personalizations-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-personalizations-api-openapi.yml
 - filename: kameleoon-oauth-api-openapi.yml
   format: yaml
   label: Kameleoon O Auth API
   slug: kameleoon-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-oauth-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kameleoon-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /oauth/token\n  method: post\n  operationId: oauthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/authorize\n  method: get\n  operationId: oauthAuthorize\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments\n  method: get\n  operationId: listExperiments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /experiments\n  method: post\n  operationId: createExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /personalizations\n  method: get\n  operationId: listPersonalizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/agentic-access/kameleoon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kameleoon/agentic-access/kameleoon-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Experimentation

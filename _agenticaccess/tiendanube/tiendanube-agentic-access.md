@@ -9,73 +9,73 @@ api_specs:
   label: Tiendanube Categories API
   slug: tiendanube-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-categories-api-openapi.yml
 - filename: tiendanube-coupons-api-openapi.yml
   format: yaml
   label: Tiendanube Coupons API
   slug: tiendanube-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-coupons-api-openapi.yml
 - filename: tiendanube-customers-api-openapi.yml
   format: yaml
   label: Tiendanube Customers API
   slug: tiendanube-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-customers-api-openapi.yml
 - filename: tiendanube-fulfillment-orders-api-openapi.yml
   format: yaml
   label: Tiendanube Fulfillment Orders API
   slug: tiendanube-fulfillment-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-fulfillment-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-fulfillment-orders-api-openapi.yml
 - filename: tiendanube-orders-api-openapi.yml
   format: yaml
   label: Tiendanube Orders API
   slug: tiendanube-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-orders-api-openapi.yml
 - filename: tiendanube-payment-providers-api-openapi.yml
   format: yaml
   label: Tiendanube Payment Providers API
   slug: tiendanube-payment-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-payment-providers-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-payment-providers-api-openapi.yml
 - filename: tiendanube-product-images-api-openapi.yml
   format: yaml
   label: Tiendanube Product Images API
   slug: tiendanube-product-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-product-images-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-product-images-api-openapi.yml
 - filename: tiendanube-product-variants-api-openapi.yml
   format: yaml
   label: Tiendanube Product Variants API
   slug: tiendanube-product-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-product-variants-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-product-variants-api-openapi.yml
 - filename: tiendanube-products-api-openapi.yml
   format: yaml
   label: Tiendanube Products API
   slug: tiendanube-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-products-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-products-api-openapi.yml
 - filename: tiendanube-scripts-api-openapi.yml
   format: yaml
   label: Tiendanube Scripts API
   slug: tiendanube-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-scripts-api-openapi.yml
 - filename: tiendanube-shipping-carriers-api-openapi.yml
   format: yaml
   label: Tiendanube Shipping Carriers API
   slug: tiendanube-shipping-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-shipping-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-shipping-carriers-api-openapi.yml
 - filename: tiendanube-webhooks-api-openapi.yml
   format: yaml
   label: Tiendanube Webhooks API
   slug: tiendanube-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/openapi/tiendanube-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tiendanube/openapi/tiendanube-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 18
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tienda
   \      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scripts\n  method: get\n  operationId: listScripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scripts\n  method: post\n  operationId: createScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fulfillment-orders\n  method: get\n  operationId: listFulfillmentOrders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{order_id}/fulfillment-orders\n  method: get\n  operationId: listOrderFulfillmentOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_providers\n  method: get\n  operationId: listPaymentProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_providers\n  method: post\n  operationId: createPaymentProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /shipping_carriers\n  method: get\n  operationId: listShippingCarriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipping_carriers\n  method: post\n  operationId: createShippingCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiendanube/refs/heads/main/agentic-access/tiendanube-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tiendanube/agentic-access/tiendanube-agentic-access.yml
 summary_line: 38 operations · 20 acting
 tags:
 - E-Commerce

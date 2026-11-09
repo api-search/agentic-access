@@ -9,25 +9,25 @@ api_specs:
   label: Typeform Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/asyncapi/typeform-asyncapi.yml
+  url: https://artifacts.apis.io/typeform/asyncapi/typeform-asyncapi.yml
 - filename: typeform-forms-api-openapi.yml
   format: yaml
   label: Typeform Forms API
   slug: typeform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-forms-api-openapi.yml
 - filename: typeform-images-api-openapi.yml
   format: yaml
   label: Typeform Images API
   slug: typeform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-images-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-images-api-openapi.yml
 - filename: typeform-themes-api-openapi.yml
   format: yaml
   label: Typeform Themes API
   slug: typeform-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/openapi/typeform-themes-api-openapi.yml
+  url: https://artifacts.apis.io/typeform/openapi/typeform-themes-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/typefo
   \      - abnormal\n      - high-value\n    audit: required\n- path: /forms/{form_id}\n  method: get\n  operationId: getForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{form_id}\n  method: put\n  operationId: updateForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /forms/{form_id}\n  method: patch\n  operationId: patchForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /forms/{form_id}\n  method: delete\n\
   \  operationId: deleteForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images\n  method: post\n  operationId: createImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /themes\n  method: get\n  operationId: listThemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /themes\n  method: post\n  operationId: createTheme\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typeform/refs/heads/main/agentic-access/typeform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/typeform/agentic-access/typeform-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Forms

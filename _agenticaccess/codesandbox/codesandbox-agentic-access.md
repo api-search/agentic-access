@@ -9,49 +9,49 @@ api_specs:
   label: CodeSandbox Meta API
   slug: codesandbox-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-meta-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-meta-api-openapi.yml
 - filename: codesandbox-preview-host-api-openapi.yml
   format: yaml
   label: CodeSandbox Preview Host API
   slug: codesandbox-preview-host-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-host-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-preview-host-api-openapi.yml
 - filename: codesandbox-preview-token-api-openapi.yml
   format: yaml
   label: CodeSandbox Preview Token API
   slug: codesandbox-preview-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-preview-token-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-preview-token-api-openapi.yml
 - filename: codesandbox-sandbox-api-openapi.yml
   format: yaml
   label: CodeSandbox Sandbox API
   slug: codesandbox-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-sandbox-api-openapi.yml
 - filename: codesandbox-templates-api-openapi.yml
   format: yaml
   label: CodeSandbox Templates API
   slug: codesandbox-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-templates-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-templates-api-openapi.yml
 - filename: codesandbox-token-api-openapi.yml
   format: yaml
   label: CodeSandbox Token API
   slug: codesandbox-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-token-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-token-api-openapi.yml
 - filename: codesandbox-vm-api-openapi.yml
   format: yaml
   label: CodeSandbox Vm API
   slug: codesandbox-vm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-vm-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-vm-api-openapi.yml
 - filename: codesandbox-workspace-api-openapi.yml
   format: yaml
   label: CodeSandbox Workspace API
   slug: codesandbox-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/openapi/codesandbox-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/codesandbox/openapi/codesandbox-workspace-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 2
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/codesa
   \ safety-critical\n    subject: required\n    scope:\n    - vm:manage\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /vm/{id}/specs\n  method: put\n  operationId: vm/update_specs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vm:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vm/{id}/start\n  method: post\n  operationId: vm/start\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sandbox:read\n    - vm:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /workspace/preview_hosts\n  method: get\n  operationId: preview_host/list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - vm:manage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/preview_hosts\n  method: post\n  operationId: preview_host/create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vm:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/preview_hosts\n  method: put\n  operationId: preview_host/update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vm:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/agentic-access/codesandbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codesandbox/agentic-access/codesandbox-agentic-access.yml
 summary_line: 27 operations · 20 acting · 2 human-in-the-loop
 tags:
 - Developer Tools

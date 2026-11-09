@@ -9,115 +9,115 @@ api_specs:
   label: Quant Network API Keys API
   slug: quant-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-api-keys-api-openapi.yml
 - filename: quant-contracts-api-openapi.yml
   format: yaml
   label: Quant Network Contracts API
   slug: quant-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-contracts-api-openapi.yml
 - filename: quant-deposits-api-openapi.yml
   format: yaml
   label: Quant Network Deposits API
   slug: quant-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-deposits-api-openapi.yml
 - filename: quant-flow-query-api-openapi.yml
   format: yaml
   label: Quant Network Flow Query API
   slug: quant-flow-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-flow-query-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-flow-query-api-openapi.yml
 - filename: quant-flow-registry-api-openapi.yml
   format: yaml
   label: Quant Network Flow Registry API
   slug: quant-flow-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-flow-registry-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-flow-registry-api-openapi.yml
 - filename: quant-flow-sessions-api-openapi.yml
   format: yaml
   label: Quant Network Flow Sessions API
   slug: quant-flow-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-flow-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-flow-sessions-api-openapi.yml
 - filename: quant-flow-webhooks-api-openapi.yml
   format: yaml
   label: Quant Network Flow Webhooks API
   slug: quant-flow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-flow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-flow-webhooks-api-openapi.yml
 - filename: quant-health-api-openapi.yml
   format: yaml
   label: Quant Network Health API
   slug: quant-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-health-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-health-api-openapi.yml
 - filename: quant-networks-api-openapi.yml
   format: yaml
   label: Quant Network Networks API
   slug: quant-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-networks-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-networks-api-openapi.yml
 - filename: quant-nodes-api-openapi.yml
   format: yaml
   label: Quant Network Nodes API
   slug: quant-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-nodes-api-openapi.yml
 - filename: quant-observability-api-openapi.yml
   format: yaml
   label: Quant Network Observability API
   slug: quant-observability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-observability-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-observability-api-openapi.yml
 - filename: quant-rpc-api-openapi.yml
   format: yaml
   label: Quant Network RPC API
   slug: quant-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-rpc-api-openapi.yml
 - filename: quant-stakes-api-openapi.yml
   format: yaml
   label: Quant Network Stakes API
   slug: quant-stakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-stakes-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-stakes-api-openapi.yml
 - filename: quant-swaps-api-openapi.yml
   format: yaml
   label: Quant Network Swaps API
   slug: quant-swaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-swaps-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-swaps-api-openapi.yml
 - filename: quant-tracker-address-api-openapi.yml
   format: yaml
   label: Quant Network Tracker Address API
   slug: quant-tracker-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-tracker-address-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-tracker-address-api-openapi.yml
 - filename: quant-tracker-event-api-openapi.yml
   format: yaml
   label: Quant Network Tracker Event API
   slug: quant-tracker-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-tracker-event-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-tracker-event-api-openapi.yml
 - filename: quant-tracker-transaction-api-openapi.yml
   format: yaml
   label: Quant Network Tracker Transaction API
   slug: quant-tracker-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-tracker-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-tracker-transaction-api-openapi.yml
 - filename: quant-user-api-openapi.yml
   format: yaml
   label: Quant Network User API
   slug: quant-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-user-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-user-api-openapi.yml
 - filename: quant-withdrawals-api-openapi.yml
   format: yaml
   label: Quant Network Withdrawals API
   slug: quant-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/openapi/quant-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/quant/openapi/quant-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 45
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/quant-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/withdrawals\n  method: get\n  operationId: getUserWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdrawals\n  method: post\n  operationId: createWithdrawal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /withdrawals/action-required\n  method: get\n  operationId: getActionableWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdrawals/{id}\n\
   \  method: get\n  operationId: getWithdrawalById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdrawals/{id}/finalize-tx\n  method: post\n  operationId: recordFinalizeTx\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /withdrawals/{id}/prove-tx\n  method: post\n  operationId: recordProveTx\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /withdrawals/{id}/status\n  method: get\n  operationId: checkWithdrawalStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quant/refs/heads/main/agentic-access/quant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quant/agentic-access/quant-agentic-access.yml
 summary_line: 70 operations · 25 acting · 3 human-in-the-loop
 tags:
 - Blockchain

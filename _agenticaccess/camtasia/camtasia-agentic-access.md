@@ -9,61 +9,61 @@ api_specs:
   label: Camtasia Assets API
   slug: camtasia-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-assets-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-assets-api-openapi.yml
 - filename: camtasia-categories-api-openapi.yml
   format: yaml
   label: Camtasia Categories API
   slug: camtasia-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-categories-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-categories-api-openapi.yml
 - filename: camtasia-downloads-api-openapi.yml
   format: yaml
   label: Camtasia Downloads API
   slug: camtasia-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-downloads-api-openapi.yml
 - filename: camtasia-libraries-api-openapi.yml
   format: yaml
   label: Camtasia Libraries API
   slug: camtasia-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-libraries-api-openapi.yml
 - filename: camtasia-media-api-openapi.yml
   format: yaml
   label: Camtasia Media API
   slug: camtasia-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-media-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-media-api-openapi.yml
 - filename: camtasia-productions-api-openapi.yml
   format: yaml
   label: Camtasia Productions API
   slug: camtasia-productions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-productions-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-productions-api-openapi.yml
 - filename: camtasia-projects-api-openapi.yml
   format: yaml
   label: Camtasia Projects API
   slug: camtasia-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-projects-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-projects-api-openapi.yml
 - filename: camtasia-recordings-api-openapi.yml
   format: yaml
   label: Camtasia Recordings API
   slug: camtasia-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-recordings-api-openapi.yml
 - filename: camtasia-templates-api-openapi.yml
   format: yaml
   label: Camtasia Templates API
   slug: camtasia-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-templates-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-templates-api-openapi.yml
 - filename: camtasia-tracks-api-openapi.yml
   format: yaml
   label: Camtasia Tracks API
   slug: camtasia-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/openapi/camtasia-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/camtasia/openapi/camtasia-tracks-api-openapi.yml
 consequence_counts:
   read: 23
   write: 15
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/camtas
   \  operationId: listProductions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/productions\n  method: post\n  operationId: createProduction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/productions/{productionId}\n  method: get\n  operationId: getProduction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/productions/{productionId}/download\n  method: get\n  operationId: downloadProduction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings\n  method: get\n  operationId: listRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings\n  method: post\n  operationId: uploadRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/{recordingId}\n  method: get\n  operationId: getRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/{recordingId}\n  method: delete\n  operationId: deleteRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camtasia/refs/heads/main/agentic-access/camtasia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/camtasia/agentic-access/camtasia-agentic-access.yml
 summary_line: 38 operations · 15 acting
 tags:
 - Screen Recording

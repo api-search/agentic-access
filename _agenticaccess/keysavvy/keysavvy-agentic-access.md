@@ -9,67 +9,67 @@ api_specs:
   label: KeySavvy Authentication API
   slug: keysavvy-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-authentication-api-openapi.yml
 - filename: keysavvy-deal-documents-api-openapi.yml
   format: yaml
   label: KeySavvy Deal Documents API
   slug: keysavvy-deal-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-deal-documents-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-deal-documents-api-openapi.yml
 - filename: keysavvy-deal-management-api-openapi.yml
   format: yaml
   label: KeySavvy Deal Management API
   slug: keysavvy-deal-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-deal-management-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-deal-management-api-openapi.yml
 - filename: keysavvy-documents-api-openapi.yml
   format: yaml
   label: KeySavvy Documents API
   slug: keysavvy-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-documents-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-documents-api-openapi.yml
 - filename: keysavvy-keysavvy-partner-api-api-openapi.yml
   format: yaml
   label: KeySavvy KeySavvy Partner API
   slug: keysavvy-keysavvy-partner-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-keysavvy-partner-api-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-keysavvy-partner-api-api-openapi.yml
 - filename: keysavvy-marketplace-management-api-openapi.yml
   format: yaml
   label: KeySavvy Marketplace Management API
   slug: keysavvy-marketplace-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-marketplace-management-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-marketplace-management-api-openapi.yml
 - filename: keysavvy-organization-management-api-openapi.yml
   format: yaml
   label: KeySavvy Organization Management API
   slug: keysavvy-organization-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-organization-management-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-organization-management-api-openapi.yml
 - filename: keysavvy-reporting-api-openapi.yml
   format: yaml
   label: KeySavvy Reporting API
   slug: keysavvy-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-reporting-api-openapi.yml
 - filename: keysavvy-user-management-api-openapi.yml
   format: yaml
   label: KeySavvy User Management API
   slug: keysavvy-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-user-management-api-openapi.yml
 - filename: keysavvy-vehicle-management-api-openapi.yml
   format: yaml
   label: KeySavvy Vehicle Management API
   slug: keysavvy-vehicle-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-vehicle-management-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-vehicle-management-api-openapi.yml
 - filename: keysavvy-webhook-management-api-openapi.yml
   format: yaml
   label: KeySavvy Webhook Management API
   slug: keysavvy-webhook-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/openapi/keysavvy-webhook-management-api-openapi.yml
+  url: https://artifacts.apis.io/keysavvy/openapi/keysavvy-webhook-management-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -119,12 +119,11 @@ source_yaml: "generated: '2026-10-25'\nmethod: generated\nsource: openapi/keysav
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deal/{referenceId}/estimated-transfer-date\n  method: patch\n  operationId: updateEstimatedTransferDate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deal/{referenceId}/business-representative\n  method: patch\n  operationId: updateDealBusinessRepresentative\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deal/{referenceId}/buyer-organization\n  method: patch\n  operationId: updateDealBuyerOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deal/{dealReferenceId}/vehicle/document\n  method: post\n  operationId: uploadDealVehicleDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reporting/search\n  method: post\n  operationId: dealReportingSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth\n  method: post\n  operationId: authenticateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keysavvy/refs/heads/main/agentic-access/keysavvy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keysavvy/agentic-access/keysavvy-agentic-access.yml
 summary_line: 36 operations · 26 acting
 tags:
 - Company
 - Automotive
 - Marketplace
-- API
-- FinTech
+- Fintech
 ---

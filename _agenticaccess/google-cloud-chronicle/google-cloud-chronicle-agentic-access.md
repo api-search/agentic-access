@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud Chronicle Alerts API
   slug: google-cloud-chronicle-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-alerts-api-openapi.yml
 - filename: google-cloud-chronicle-feeds-api-openapi.yml
   format: yaml
   label: Google Cloud Chronicle Feeds API
   slug: google-cloud-chronicle-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-feeds-api-openapi.yml
 - filename: google-cloud-chronicle-referencelists-api-openapi.yml
   format: yaml
   label: Google Cloud Chronicle ReferenceLists API
   slug: google-cloud-chronicle-referencelists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-referencelists-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-referencelists-api-openapi.yml
 - filename: google-cloud-chronicle-rules-api-openapi.yml
   format: yaml
   label: Google Cloud Chronicle Rules API
   slug: google-cloud-chronicle-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/openapi/google-cloud-chronicle-rules-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-chronicle/openapi/google-cloud-chronicle-rules-api-openapi.yml
 consequence_counts:
   read: 5
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chroni
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/rules/{ruleId}\n  method: get\n  operationId: getRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/rules/{ruleId}\n  method: patch\n  operationId: updateRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/rules/{ruleId}\n  method: delete\n  operationId:\
   \ deleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/feeds\n  method: get\n  operationId: listFeeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/feeds\n  method: post\n  operationId: createFeed\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/instances/{instanceId}/referenceLists\n  method: get\n  operationId: listReferenceLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-chronicle/refs/heads/main/agentic-access/google-cloud-chronicle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-chronicle/agentic-access/google-cloud-chronicle-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Incident Response

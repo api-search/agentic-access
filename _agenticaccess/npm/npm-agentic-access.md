@@ -9,49 +9,91 @@ api_specs:
   label: npm Registry API
   slug: registry
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-registry-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-registry-api-openapi.yml
 - filename: npm-hooks-api-openapi.yml
   format: yaml
   label: npm Hooks API
   slug: hooks
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-hooks-api-openapi.yml
 - filename: npm-downloads-api-openapi.yml
   format: yaml
   label: npm Downloads API
   slug: npm-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-downloads-api-openapi.yml
 - filename: npm-oidc-api-openapi.yml
   format: yaml
   label: npm OIDC API
   slug: npm-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-oidc-api-openapi.yml
 - filename: npm-packages-api-openapi.yml
   format: yaml
   label: npm Packages API
   slug: npm-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-packages-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-packages-api-openapi.yml
 - filename: npm-search-api-openapi.yml
   format: yaml
   label: npm Search API
   slug: npm-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-search-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-search-api-openapi.yml
 - filename: npm-tokens-api-openapi.yml
   format: yaml
   label: npm Tokens API
   slug: npm-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-tokens-api-openapi.yml
 - filename: npm-trusted-publishers-api-openapi.yml
   format: yaml
   label: npm Trusted Publishers API
   slug: npm-trusted-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/openapi/npm-trusted-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/npm/openapi/npm-trusted-publishers-api-openapi.yml
+- filename: npm-access-api-openapi.yml
+  format: yaml
+  label: npm Access API
+  slug: npm-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-access-api-openapi.yml
+- filename: npm-audit-api-openapi.yml
+  format: yaml
+  label: npm Audit API
+  slug: npm-audit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-audit-api-openapi.yml
+- filename: npm-org-api-openapi.yml
+  format: yaml
+  label: npm Org API
+  slug: npm-org-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-org-api-openapi.yml
+- filename: npm-publish-api-openapi.yml
+  format: yaml
+  label: npm Publish API
+  slug: npm-publish-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-publish-api-openapi.yml
+- filename: npm-stage-api-openapi.yml
+  format: yaml
+  label: npm Stage API
+  slug: npm-stage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-stage-api-openapi.yml
+- filename: npm-team-api-openapi.yml
+  format: yaml
+  label: npm Team API
+  slug: npm-team-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-team-api-openapi.yml
+- filename: npm-trust-api-openapi.yml
+  format: yaml
+  label: npm Trust API
+  slug: npm-trust-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-trust-api-openapi.yml
 consequence_counts:
   read: 9
   write: 8
@@ -83,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/npm-ho
   \  audit: required\n- path: /-/npm/v1/security/oidc/tokens\n  method: post\n  operationId: exchangeOidcToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /-/npm/v1/security/trusted-publishers/packages/{package}\n  method: get\n  operationId: listTrustedPublishers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/npm/v1/security/trusted-publishers/packages/{package}\n  method: post\n  operationId: addTrustedPublisher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /-/npm/v1/security/trusted-publishers/packages/{package}/{publisher_id}\n  method: delete\n  operationId: removeTrustedPublisher\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: getRegistryMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{package}\n  method: get\n  operationId: getPackageDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{package}/{version}\n  method: get\n  operationId: getPackageVersion\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /-/v1/search\n  method: get\n  operationId: searchPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{package}/-/{tarball}\n  method: get\n  operationId: downloadPackageTarball\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/agentic-access/npm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/npm/agentic-access/npm-agentic-access.yml
 summary_line: 17 operations · 8 acting
 tags:
 - Packages

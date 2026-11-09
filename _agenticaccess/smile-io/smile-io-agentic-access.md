@@ -9,55 +9,55 @@ api_specs:
   label: Smile.io Activities API
   slug: smile-io-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-activities-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-activities-api-openapi.yml
 - filename: smile-io-customer-identities-api-openapi.yml
   format: yaml
   label: Smile.io Customer Identities API
   slug: smile-io-customer-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-customer-identities-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-customer-identities-api-openapi.yml
 - filename: smile-io-customers-api-openapi.yml
   format: yaml
   label: Smile.io Customers API
   slug: smile-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-customers-api-openapi.yml
 - filename: smile-io-earning-rules-api-openapi.yml
   format: yaml
   label: Smile.io Earning Rules API
   slug: smile-io-earning-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-earning-rules-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-earning-rules-api-openapi.yml
 - filename: smile-io-points-products-api-openapi.yml
   format: yaml
   label: Smile.io Points Products API
   slug: smile-io-points-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-products-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-points-products-api-openapi.yml
 - filename: smile-io-points-settings-api-openapi.yml
   format: yaml
   label: Smile.io Points Settings API
   slug: smile-io-points-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-settings-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-points-settings-api-openapi.yml
 - filename: smile-io-points-transactions-api-openapi.yml
   format: yaml
   label: Smile.io Points Transactions API
   slug: smile-io-points-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-points-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-points-transactions-api-openapi.yml
 - filename: smile-io-reward-fulfillments-api-openapi.yml
   format: yaml
   label: Smile.io Reward Fulfillments API
   slug: smile-io-reward-fulfillments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-reward-fulfillments-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-reward-fulfillments-api-openapi.yml
 - filename: smile-io-vip-tiers-api-openapi.yml
   format: yaml
   label: Smile.io VIP Tiers API
   slug: smile-io-vip-tiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/openapi/smile-io-vip-tiers-api-openapi.yml
+  url: https://artifacts.apis.io/smile-io/openapi/smile-io-vip-tiers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smile-
   \  exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /points_products\n  method: get\n  operationId: get__points_products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points_products/{id}\n  method: get\n  operationId: get__points_products_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points_transactions\n  method: post\n  operationId: post__points_transactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /points_transactions\n  method: get\n  operationId: get__points_transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points_transactions/{id}\n  method: get\n  operationId: get__points_transactions_id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vip_tiers\n  method: get\n  operationId: get__vip_tiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /points_settings\n  method: get\n  operationId: get__points_settings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}\n  method: get\n  operationId: get__customers_id\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: get__customers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smile-io/refs/heads/main/agentic-access/smile-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smile-io/agentic-access/smile-io-agentic-access.yml
 summary_line: 14 operations · 4 acting
 tags:
 - Loyalty

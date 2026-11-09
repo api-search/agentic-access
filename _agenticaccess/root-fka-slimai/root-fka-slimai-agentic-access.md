@@ -9,121 +9,121 @@ api_specs:
   label: Root (fka Slim.ai) Accounts API
   slug: root-fka-slimai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-accounts-api-openapi.yml
 - filename: root-fka-slimai-api-keys-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) API Keys API
   slug: root-fka-slimai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-api-keys-api-openapi.yml
 - filename: root-fka-slimai-authentication-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Authentication API
   slug: root-fka-slimai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-authentication-api-openapi.yml
 - filename: root-fka-slimai-avr-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) AVR API
   slug: root-fka-slimai-avr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-avr-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-avr-api-openapi.yml
 - filename: root-fka-slimai-billing-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Billing API
   slug: root-fka-slimai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-billing-api-openapi.yml
 - filename: root-fka-slimai-core-discovered-packages-v3-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Core - Discovered Packages V3 API
   slug: root-fka-slimai-core-discovered-packages-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-core-discovered-packages-v3-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-core-discovered-packages-v3-api-openapi.yml
 - filename: root-fka-slimai-cvefeed-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) CveFeed API
   slug: root-fka-slimai-cvefeed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-cvefeed-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-cvefeed-api-openapi.yml
 - filename: root-fka-slimai-discovery-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Discovery API
   slug: root-fka-slimai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-discovery-api-openapi.yml
 - filename: root-fka-slimai-invitations-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Invitations API
   slug: root-fka-slimai-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-invitations-api-openapi.yml
 - filename: root-fka-slimai-notifications-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Notifications API
   slug: root-fka-slimai-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-notifications-api-openapi.yml
 - filename: root-fka-slimai-organizations-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Organizations API
   slug: root-fka-slimai-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-organizations-api-openapi.yml
 - filename: root-fka-slimai-osvfeed-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) OSVFeed API
   slug: root-fka-slimai-osvfeed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-osvfeed-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-osvfeed-api-openapi.yml
 - filename: root-fka-slimai-package-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Package API
   slug: root-fka-slimai-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-package-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-package-api-openapi.yml
 - filename: root-fka-slimai-patches-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Patches API
   slug: root-fka-slimai-patches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-patches-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-patches-api-openapi.yml
 - filename: root-fka-slimai-patchfeed-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) PatchFeed API
   slug: root-fka-slimai-patchfeed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-patchfeed-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-patchfeed-api-openapi.yml
 - filename: root-fka-slimai-remediation-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Remediation API
   slug: root-fka-slimai-remediation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-remediation-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-remediation-api-openapi.yml
 - filename: root-fka-slimai-security-findings-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Security Findings API
   slug: root-fka-slimai-security-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-security-findings-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-security-findings-api-openapi.yml
 - filename: root-fka-slimai-subscriptions-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Subscriptions API
   slug: root-fka-slimai-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-subscriptions-api-openapi.yml
 - filename: root-fka-slimai-system-matrix-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) System Matrix API
   slug: root-fka-slimai-system-matrix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-system-matrix-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-system-matrix-api-openapi.yml
 - filename: root-fka-slimai-webhooks-api-openapi.yml
   format: yaml
   label: Root (fka Slim.ai) Webhooks API
   slug: root-fka-slimai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/openapi/root-fka-slimai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/root-fka-slimai/openapi/root-fka-slimai-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 48
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/root-f
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/subscriptions/{subscriptionID}\n  method: get\n  operationId: getV3SubscriptionsBySubscriptionID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/globals/sys_matrix\n  method: get\n  operationId: getExternalGlobalsSysMatrix\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/sys_matrix\n  method: get\n  operationId: getV3SysMatrix\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v3/settings/webhooks\n  method: get\n  operationId: getV3SettingsWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/settings/webhooks\n  method: post\n  operationId: postV3SettingsWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/settings/webhooks/{webhookSubscriptionID}\n  method: delete\n  operationId: deleteV3SettingsWebhooksByWebhookSubscriptionID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v3/settings/webhooks/{webhookSubscriptionID}/test-tag-created\n  method: post\n  operationId: postV3SettingsWebhooksByWebhookSubscriptionIDTestTagCreated\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/root-fka-slimai/refs/heads/main/agentic-access/root-fka-slimai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/root-fka-slimai/agentic-access/root-fka-slimai-agentic-access.yml
 summary_line: 69 operations · 21 acting
 tags:
 - Company

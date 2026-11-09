@@ -7,43 +7,43 @@ api_specs:
   label: Chocodata Amazon API
   slug: chocodata-amazon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-amazon-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-amazon-api-openapi.yml
 - filename: chocodata-chocodata-api-openapi.yml
   format: yaml
   label: Chocodata Chocodata API
   slug: chocodata-chocodata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-chocodata-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-chocodata-api-openapi.yml
 - filename: chocodata-reddit-api-openapi.yml
   format: yaml
   label: Chocodata Reddit API
   slug: chocodata-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-reddit-api-openapi.yml
 - filename: chocodata-universal-api-openapi.yml
   format: yaml
   label: Chocodata Universal API
   slug: chocodata-universal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-universal-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-universal-api-openapi.yml
 - filename: chocodata-youtube-api-openapi.yml
   format: yaml
   label: Chocodata Youtube API
   slug: chocodata-youtube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-youtube-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-youtube-api-openapi.yml
 - filename: chocodata-app-store-api-openapi.yml
   format: yaml
   label: Chocodata App Store API
   slug: chocodata-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-app-store-api-openapi.yml
 - filename: chocodata-google-play-api-openapi.yml
   format: yaml
   label: Chocodata Google Play API
   slug: chocodata-google-play-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/openapi/chocodata-google-play-api-openapi.yml
+  url: https://artifacts.apis.io/chocodata/openapi/chocodata-google-play-api-openapi.yml
 consequence_counts: {}
 description: ''
 human_in_the_loop: 0
@@ -67,7 +67,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: generated\nsource: openapi/chocodata-openapi.json + https://chocodata.com/docs (billing, batch, auth guides)\nnote: >-\n  Recommended x-agentic-access classifications for each OpenAPI operation. Chocodata is almost\n  entirely a read surface — every operation except createBatch is a GET scrape with no state\n  change on the provider side beyond credit consumption (5 credits per successful request,\n  non-2xx free). The consequential dimension is spend, not mutation.\noperations:\n  - operationId: scrape\n    action_class: read\n    consequence: billable-read\n    scope: any supported site/resource\n    token: api-key (api_key query parameter)\n    escalation: none\n    note: 5 credits per successful call; agent spend is bounded by plan credits and rate ceilings.\n  - operationId: universalGet\n    action_class: read\n    consequence: billable-read\n    scope: any URL on the web\n    token: api-key\n    escalation: none\n  - operationId: getProduct\n\
   \    action_class: read\n    consequence: billable-read\n    scope: single Amazon product\n    token: api-key\n    escalation: none\n  - operationId: getSearch\n    action_class: read\n    consequence: billable-read\n    scope: Amazon search results\n    token: api-key\n    escalation: none\n  - operationId: getAppStoreProduct\n    action_class: read\n    consequence: billable-read\n    scope: single App Store app\n    token: api-key\n    escalation: none\n  - operationId: getAppStoreReviews\n    action_class: read\n    consequence: billable-read\n    scope: App Store reviews for one app\n    token: api-key\n    escalation: none\n  - operationId: getGooglePlayProduct\n    action_class: read\n    consequence: billable-read\n    scope: single Google Play app\n    token: api-key\n    escalation: none\n  - operationId: getYouTubeTranscript\n    action_class: read\n    consequence: billable-read\n    scope: transcript of one YouTube video\n    token: api-key\n    escalation: none\n  - operationId:\
   \ getYouTubeComments\n    action_class: read\n    consequence: billable-read\n    scope: comments of one YouTube video\n    token: api-key\n    escalation: none\n  - operationId: getRedditPost\n    action_class: read\n    consequence: billable-read\n    scope: single Reddit post with comment tree\n    token: api-key\n    escalation: none\n  - operationId: createBatch\n    action_class: create\n    consequence: bulk-spend\n    scope: up to 1,000 items per submission, each billed independently on success (up to 5,000 credits per batch)\n    token: api-key\n    escalation: recommend human confirmation above the agent's spend cap — no cancel operation exists once submitted\n    note: The one mutating operation; no documented reversal or cancellation path.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chocodata/refs/heads/main/agentic-access/chocodata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chocodata/agentic-access/chocodata-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Web Scraping

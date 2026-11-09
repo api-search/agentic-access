@@ -9,37 +9,37 @@ api_specs:
   label: Renesas Board & Kit API
   slug: renesas-board-kit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-board-kit-api-openapi.yml
+  url: https://artifacts.apis.io/renesas/openapi/renesas-board-kit-api-openapi.yml
 - filename: renesas-document-api-openapi.yml
   format: yaml
   label: Renesas Document API
   slug: renesas-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-document-api-openapi.yml
+  url: https://artifacts.apis.io/renesas/openapi/renesas-document-api-openapi.yml
 - filename: renesas-package-api-openapi.yml
   format: yaml
   label: Renesas Package API
   slug: renesas-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-package-api-openapi.yml
+  url: https://artifacts.apis.io/renesas/openapi/renesas-package-api-openapi.yml
 - filename: renesas-product-api-openapi.yml
   format: yaml
   label: Renesas Product API
   slug: renesas-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-product-api-openapi.yml
+  url: https://artifacts.apis.io/renesas/openapi/renesas-product-api-openapi.yml
 - filename: renesas-product-part-api-openapi.yml
   format: yaml
   label: Renesas Product Part API
   slug: renesas-product-part-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-product-part-api-openapi.yml
+  url: https://artifacts.apis.io/renesas/openapi/renesas-product-part-api-openapi.yml
 - filename: renesas-software-tool-api-openapi.yml
   format: yaml
   label: Renesas Software Tool API
   slug: renesas-software-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/openapi/renesas-software-tool-api-openapi.yml
+  url: https://artifacts.apis.io/renesas/openapi/renesas-software-tool-api-openapi.yml
 consequence_counts:
   read: 16
   write: 2
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/renesa
   \      max-ttl: 3600\n    audit: none\n- path: /product-parts/cross-reference\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/types\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{dcp_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/agile-id/{agile_id}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /boards-kits\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /boards-kits/{board_kit_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package_code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /software-tools\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /software-tools/{software_tool_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/renesas/refs/heads/main/agentic-access/renesas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/renesas/agentic-access/renesas-agentic-access.yml
 summary_line: 18 operations · 2 acting
 tags:
 - Company

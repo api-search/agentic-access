@@ -9,49 +9,49 @@ api_specs:
   label: Ocean.io Autocomplete API
   slug: ocean-io-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-autocomplete-api-openapi.yml
 - filename: ocean-io-enrich-api-openapi.yml
   format: yaml
   label: Ocean.io Enrich API
   slug: ocean-io-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-enrich-api-openapi.yml
 - filename: ocean-io-lookup-api-openapi.yml
   format: yaml
   label: Ocean.io Lookup API
   slug: ocean-io-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-lookup-api-openapi.yml
 - filename: ocean-io-ocean-io-api-documentation-api-openapi.yml
   format: yaml
   label: Ocean.io API Documentation API
   slug: ocean-io-ocean-io-api-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-ocean-io-api-documentation-api-openapi.yml
 - filename: ocean-io-other-api-openapi.yml
   format: yaml
   label: Ocean.io Other API
   slug: ocean-io-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-other-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-other-api-openapi.yml
 - filename: ocean-io-reveal-api-openapi.yml
   format: yaml
   label: Ocean.io Reveal API
   slug: ocean-io-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-reveal-api-openapi.yml
 - filename: ocean-io-search-api-openapi.yml
   format: yaml
   label: Ocean.io Search API
   slug: ocean-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-search-api-openapi.yml
 - filename: ocean-io-segmentation-api-openapi.yml
   format: yaml
   label: Ocean.io Segmentation API
   slug: ocean-io-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/openapi/ocean-io-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/ocean-io/openapi/ocean-io-segmentation-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ocean-
   \ required\n- path: /v2/search/companies\n  method: post\n  operationId: searchCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search/companies\n  method: post\n  operationId: searchCompaniesV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/people\n  method: post\n  operationId: searchPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search/people\n  method: post\n  operationId: searchPeopleV3\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search/people/preview\n  method: post\n  operationId: searchPeopleV3Preview\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search/companies/preview\n  method: post\n  operationId: previewSearchCompaniesV3\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/segmentation/{segmentation_id}\n  method: get\n  operationId: getSegmentation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/segmentation\n  method: post\n  operationId: createSegmentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/segmentation/{segmentation_id}/markDomains\n  method: post\n  operationId: addMarkedDomains\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/segmentation/{segmentation_id}/attribute-domains\n  method: post\n  operationId: attributeSegmentationDomains\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocean-io/refs/heads/main/agentic-access/ocean-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ocean-io/agentic-access/ocean-io-agentic-access.yml
 summary_line: 26 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Sales Intelligence

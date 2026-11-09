@@ -9,7 +9,7 @@ api_specs:
   label: CLEAR Verification Sessions API
   slug: clear-verification-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/openapi/clear-verification-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/clear/openapi/clear-verification-sessions-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -38,7 +38,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/clear-verification-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 3\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /verification_sessions\n  method: post\n  operationId: create_verification_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verification_sessions\n  method: get\n  operationId: list_verifications\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification_sessions/{id}/custom_fields\n  method: post\n  operationId: add_custom_fields_verification_vendor_backend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verification_sessions/{id}\n  method: get\n  operationId: get_verification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verification_sessions/{id}\n  method: put\n  operationId: update_verification_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verification_sessions/search\n  method: get\n  operationId: search_verification_sessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/agentic-access/clear-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clear/agentic-access/clear-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - Company
@@ -47,6 +47,7 @@ tags:
 - Authentication
 - KYC
 - Biometrics
+- OAuth
 - OpenID Connect
 - Healthcare
 - Financial Services

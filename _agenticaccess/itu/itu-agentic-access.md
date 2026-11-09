@@ -9,49 +9,49 @@ api_specs:
   label: ITU Dashboards API
   slug: itu-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-dashboards-api-openapi.yml
 - filename: itu-data-api-openapi.yml
   format: yaml
   label: ITU Data API
   slug: itu-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-data-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-data-api-openapi.yml
 - filename: itu-idi-api-openapi.yml
   format: yaml
   label: ITU IDI API
   slug: itu-idi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-idi-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-idi-api-openapi.yml
 - filename: itu-indicators-api-openapi.yml
   format: yaml
   label: ITU Indicators API
   slug: itu-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-indicators-api-openapi.yml
 - filename: itu-methodology-api-openapi.yml
   format: yaml
   label: ITU Methodology API
   slug: itu-methodology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-methodology-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-methodology-api-openapi.yml
 - filename: itu-proximity-api-openapi.yml
   format: yaml
   label: ITU Proximity API
   slug: itu-proximity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-proximity-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-proximity-api-openapi.yml
 - filename: itu-reference-api-openapi.yml
   format: yaml
   label: ITU Reference API
   slug: itu-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-reference-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-reference-api-openapi.yml
 - filename: itu-umc-api-openapi.yml
   format: yaml
   label: ITU UMC API
   slug: itu-umc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/openapi/itu-umc-api-openapi.yml
+  url: https://artifacts.apis.io/itu/openapi/itu-umc-api-openapi.yml
 consequence_counts:
   read: 18
   write: 2
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/itu-da
   \      max-ttl: 3600\n    audit: none\n- path: /idi/region/byregionid/{regionID}\n  method: get\n  operationId: getIdiByRegion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umc/dashboard/all\n  method: get\n  operationId: getUmcDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umc/topic/all\n  method: get\n  operationId: listUmcTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umc/macro/all\n  method: get\n  operationId: listUmcMacros\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umc/target/all\n  method: get\n  operationId: listUmcTargets\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /umc/bycountryid/{countryID}\n  method: get\n  operationId: getUmcByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /methodology/dataset\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /route-calcdistancetonode\n  method: post\n  operationId: calcDistanceToNode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /route-calc10kmintersection\n  method: post\n  operationId:\
   \ calc10kmIntersection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itu/refs/heads/main/agentic-access/itu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/itu/agentic-access/itu-agentic-access.yml
 summary_line: 20 operations · 2 acting
 tags:
 - Telecommunications

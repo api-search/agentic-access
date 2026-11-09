@@ -9,181 +9,181 @@ api_specs:
   label: FINOS Admin API
   slug: finos-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-admin-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-admin-api-openapi.yml
 - filename: finos-application-api-openapi.yml
   format: yaml
   label: FINOS Application API
   slug: finos-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-application-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-application-api-openapi.yml
 - filename: finos-attachments-api-openapi.yml
   format: yaml
   label: FINOS Attachments API
   slug: finos-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-attachments-api-openapi.yml
 - filename: finos-certificateauthentication-api-openapi.yml
   format: yaml
   label: FINOS CertificateAuthentication API
   slug: finos-certificateauthentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-certificateauthentication-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-certificateauthentication-api-openapi.yml
 - filename: finos-certificatepod-api-openapi.yml
   format: yaml
   label: FINOS CertificatePod API
   slug: finos-certificatepod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-certificatepod-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-certificatepod-api-openapi.yml
 - filename: finos-connection-api-openapi.yml
   format: yaml
   label: FINOS Connection API
   slug: finos-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-connection-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-connection-api-openapi.yml
 - filename: finos-datahose-api-openapi.yml
   format: yaml
   label: FINOS Datahose API
   slug: finos-datahose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-datahose-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-datahose-api-openapi.yml
 - filename: finos-disclaimer-api-openapi.yml
   format: yaml
   label: FINOS Disclaimer API
   slug: finos-disclaimer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-disclaimer-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-disclaimer-api-openapi.yml
 - filename: finos-dlp-policies-and-dictionary-management-api-openapi.yml
   format: yaml
   label: FINOS DLP Policies and Dictionary Management API
   slug: finos-dlp-policies-and-dictionary-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-dlp-policies-and-dictionary-management-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-dlp-policies-and-dictionary-management-api-openapi.yml
 - filename: finos-file-ext-api-openapi.yml
   format: yaml
   label: FINOS File Ext API
   slug: finos-file-ext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-file-ext-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-file-ext-api-openapi.yml
 - filename: finos-infobarriers-api-openapi.yml
   format: yaml
   label: FINOS InfoBarriers API
   slug: finos-infobarriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-infobarriers-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-infobarriers-api-openapi.yml
 - filename: finos-message-api-openapi.yml
   format: yaml
   label: FINOS Message API
   slug: finos-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-message-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-message-api-openapi.yml
 - filename: finos-messages-api-openapi.yml
   format: yaml
   label: FINOS Messages API
   slug: finos-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-messages-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-messages-api-openapi.yml
 - filename: finos-messagesuppression-api-openapi.yml
   format: yaml
   label: FINOS MessageSuppression API
   slug: finos-messagesuppression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-messagesuppression-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-messagesuppression-api-openapi.yml
 - filename: finos-pod-api-openapi.yml
   format: yaml
   label: FINOS Pod API
   slug: finos-pod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-pod-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-pod-api-openapi.yml
 - filename: finos-presence-api-openapi.yml
   format: yaml
   label: FINOS Presence API
   slug: finos-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-presence-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-presence-api-openapi.yml
 - filename: finos-room-membership-api-openapi.yml
   format: yaml
   label: FINOS Room Membership API
   slug: finos-room-membership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-room-membership-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-room-membership-api-openapi.yml
 - filename: finos-security-api-openapi.yml
   format: yaml
   label: FINOS Security API
   slug: finos-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-security-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-security-api-openapi.yml
 - filename: finos-session-api-openapi.yml
   format: yaml
   label: FINOS Session API
   slug: finos-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-session-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-session-api-openapi.yml
 - filename: finos-share-api-openapi.yml
   format: yaml
   label: FINOS Share API
   slug: finos-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-share-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-share-api-openapi.yml
 - filename: finos-signals-api-openapi.yml
   format: yaml
   label: FINOS Signals API
   slug: finos-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-signals-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-signals-api-openapi.yml
 - filename: finos-streams-api-openapi.yml
   format: yaml
   label: FINOS Streams API
   slug: finos-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-streams-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-streams-api-openapi.yml
 - filename: finos-system-api-openapi.yml
   format: yaml
   label: FINOS System API
   slug: finos-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-system-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-system-api-openapi.yml
 - filename: finos-user-api-openapi.yml
   format: yaml
   label: FINOS User API
   slug: finos-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-user-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-user-api-openapi.yml
 - filename: finos-users-api-openapi.yml
   format: yaml
   label: FINOS Users API
   slug: finos-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-users-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-users-api-openapi.yml
 - filename: finos-util-api-openapi.yml
   format: yaml
   label: FINOS Util API
   slug: finos-util-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-util-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-util-api-openapi.yml
 - filename: finos-violations-api-openapi.yml
   format: yaml
   label: FINOS Violations API
   slug: finos-violations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-violations-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-violations-api-openapi.yml
 - filename: finos-app-entitlement-api-openapi.yml
   format: yaml
   label: FINOS App Entitlement API
   slug: finos-app-entitlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-app-entitlement-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-app-entitlement-api-openapi.yml
 - filename: finos-audit-trail-api-openapi.yml
   format: yaml
   label: FINOS Audit Trail API
   slug: finos-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-audit-trail-api-openapi.yml
 - filename: finos-data-feed-api-openapi.yml
   format: yaml
   label: FINOS Data Feed API
   slug: finos-data-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/openapi/finos-data-feed-api-openapi.yml
+  url: https://artifacts.apis.io/finos/openapi/finos-data-feed-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 86
@@ -313,8 +313,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/finos-
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companycert/delete\n  method: post\n  operationId: postV1CompanycertDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companycert/{fingerPrint}/get\n  method: get\n  operationId: getV1CompanycertByFingerPrintGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companycert/{fingerPrint}/update\n  method: post\n  operationId: postV1CompanycertByFingerPrintUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/companycert/{fingerPrint}/issuedBy\n  method: get\n  operationId: getV1CompanycertByFingerPrintIssuedBy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companycert/podmanaged/list\n  method: get\n  operationId: getV1CompanycertPodmanagedList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/companycert/type/list\n  method: post\n  operationId: postV1CompanycertTypeList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/sessioninfo\n  method: get\n  operationId: getV2Sessioninfo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/stream/{sid}/share\n  method: post\n  operationId: postV3StreamBySidShare\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/signals/list\n  method: get\n  operationId: getV1SignalsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/signals/{id}/get\n  method: get\n  operationId: getV1SignalsByIdGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
-  \ audit: none\n\n\n# --- truncated at 32 KB (51 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/agentic-access/finos-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/finos/refs/heads/main/agentic-access/finos-agentic-access.yml
+  \ audit: none\n\n\n# --- truncated at 32 KB (51 KB total) ---\n# Full source: https://artifacts.apis.io/finos/agentic-access/finos-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/finos/agentic-access/finos-agentic-access.yml
 summary_line: 172 operations · 86 acting · 3 human-in-the-loop
 tags:
 - Financial Services

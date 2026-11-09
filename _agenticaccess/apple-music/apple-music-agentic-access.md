@@ -9,31 +9,31 @@ api_specs:
   label: Apple Music Catalog API
   slug: apple-music-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-catalog-api-openapi.yml
 - filename: apple-music-charts-api-openapi.yml
   format: yaml
   label: Apple Music Charts API
   slug: apple-music-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-charts-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-charts-api-openapi.yml
 - filename: apple-music-library-api-openapi.yml
   format: yaml
   label: Apple Music Library API
   slug: apple-music-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-library-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-library-api-openapi.yml
 - filename: apple-music-search-api-openapi.yml
   format: yaml
   label: Apple Music Search API
   slug: apple-music-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-search-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-search-api-openapi.yml
 - filename: apple-music-storefronts-api-openapi.yml
   format: yaml
   label: Apple Music Storefronts API
   slug: apple-music-storefronts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-storefronts-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-storefronts-api-openapi.yml
 consequence_counts:
   read: 23
   write: 1
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apple-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/library/songs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/library/albums\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/library/artists\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/library/playlists\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/library/playlists\n  method: post\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/library/search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/recommendations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/recent/played\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/storefront\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storefronts\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storefronts/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/agentic-access/apple-music-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apple-music/agentic-access/apple-music-agentic-access.yml
 summary_line: 24 operations · 1 acting
 tags:
 - Music

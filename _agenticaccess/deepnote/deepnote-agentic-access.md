@@ -9,31 +9,31 @@ api_specs:
   label: Deepnote Execute (v1) API
   slug: deepnote-execute-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-execute-v1-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-execute-v1-api-openapi.yml
 - filename: deepnote-me-api-openapi.yml
   format: yaml
   label: Deepnote Me API
   slug: deepnote-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-me-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-me-api-openapi.yml
 - filename: deepnote-notebooks-api-openapi.yml
   format: yaml
   label: Deepnote Notebooks API
   slug: deepnote-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-notebooks-api-openapi.yml
 - filename: deepnote-projects-api-openapi.yml
   format: yaml
   label: Deepnote Projects API
   slug: deepnote-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-projects-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-projects-api-openapi.yml
 - filename: deepnote-runs-api-openapi.yml
   format: yaml
   label: Deepnote Runs API
   slug: deepnote-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/openapi/deepnote-runs-api-openapi.yml
+  url: https://artifacts.apis.io/deepnote/openapi/deepnote-runs-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deepno
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notebooks\n  method: post\n  operationId: createNotebook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notebooks/{notebookId}\n  method: get\n  operationId: getNotebook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notebooks/{notebookId}\n  method: delete\n  operationId: deleteNotebook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notebooks/{notebookId}/runs\n\
   \  method: get\n  operationId: listNotebookRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}\n  method:\
   \ delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/notebooks/{notebookId}/execute\n  method: post\n  operationId: executeNotebookV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepnote/refs/heads/main/agentic-access/deepnote-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/deepnote/agentic-access/deepnote-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Data Science

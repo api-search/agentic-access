@@ -9,55 +9,55 @@ api_specs:
   label: SPAN eBus MQTT API
   slug: span-ebus-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/asyncapi/span-ebus-asyncapi.yml
+  url: https://artifacts.apis.io/span-io/asyncapi/span-ebus-asyncapi.yml
 - filename: span-io-auth-api-openapi.yml
   format: yaml
   label: SPAN Auth API
   slug: span-io-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-auth-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-auth-api-openapi.yml
 - filename: span-io-circuits-api-openapi.yml
   format: yaml
   label: SPAN Circuits API
   slug: span-io-circuits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-circuits-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-circuits-api-openapi.yml
 - filename: span-io-islanding-state-api-openapi.yml
   format: yaml
   label: SPAN Islanding State API
   slug: span-io-islanding-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-islanding-state-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-islanding-state-api-openapi.yml
 - filename: span-io-panel-api-openapi.yml
   format: yaml
   label: SPAN Panel API
   slug: span-io-panel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-panel-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-panel-api-openapi.yml
 - filename: span-io-spaces-api-openapi.yml
   format: yaml
   label: SPAN Spaces API
   slug: span-io-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-spaces-api-openapi.yml
 - filename: span-io-status-api-openapi.yml
   format: yaml
   label: SPAN Status API
   slug: span-io-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-status-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-status-api-openapi.yml
 - filename: span-io-storage-api-openapi.yml
   format: yaml
   label: SPAN Storage API
   slug: span-io-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-storage-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-storage-api-openapi.yml
 - filename: span-io-wifi-api-openapi.yml
   format: yaml
   label: SPAN Wifi API
   slug: span-io-wifi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/openapi/span-io-wifi-api-openapi.yml
+  url: https://artifacts.apis.io/span-io/openapi/span-io-wifi-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/span-r
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/spaces/{spaces_id}\n  method: get\n  operationId: deprecated_spaces_endpoint_stub_api_v1_spaces__spaces_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/spaces/{spaces_id}\n  method: post\n  operationId: deprecated_spaces_endpoint_stub_api_v1_spaces__spaces_id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/spaces\n  method: get\n  operationId: deprecated_spaces_endpoint_stub_api_v1_spaces_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/panel/emergency-reconnect\n  method: post\n  operationId: run_panel_emergency_reconnect_api_v1_panel_emergency_reconnect_post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/storage/soe\n  method: get\n  operationId: get_storage_soe_api_v1_storage_soe_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/storage/soe\n  method: post\n  operationId: set_storage_soe_api_v1_storage_soe_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/storage/nice-to-have-thresh\n  method: get\n  operationId: get_storage_nice_to_have_threshold_api_v1_storage_nice_to_have_thresh_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/storage/nice-to-have-thresh\n  method: post\n  operationId: set_storage_nice_to_have_threshold_api_v1_storage_nice_to_have_thresh_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/span-io/refs/heads/main/agentic-access/span-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/span-io/agentic-access/span-io-agentic-access.yml
 summary_line: 24 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Energy

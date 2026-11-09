@@ -9,43 +9,43 @@ api_specs:
   label: Ablo Branches API
   slug: ablo-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-branches-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-branches-api-openapi.yml
 - filename: abloatai-claims-api-openapi.yml
   format: yaml
   label: Ablo Claims API
   slug: ablo-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-claims-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-claims-api-openapi.yml
 - filename: abloatai-commits-api-openapi.yml
   format: yaml
   label: Ablo Commits API
   slug: ablo-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-commits-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-commits-api-openapi.yml
 - filename: abloatai-credentials-api-openapi.yml
   format: yaml
   label: Ablo Credentials API
   slug: ablo-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-credentials-api-openapi.yml
 - filename: abloatai-logs-api-openapi.yml
   format: yaml
   label: Ablo Logs API
   slug: ablo-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-logs-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-logs-api-openapi.yml
 - filename: abloatai-models-api-openapi.yml
   format: yaml
   label: Ablo Models API
   slug: ablo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-models-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-models-api-openapi.yml
 - filename: abloatai-schema-api-openapi.yml
   format: yaml
   label: Ablo Schema API
   slug: ablo-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/openapi/abloatai-schema-api-openapi.yml
+  url: https://artifacts.apis.io/abloatai/openapi/abloatai-schema-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -102,11 +102,11 @@ source_yaml: "generated: '2026-08-19'\nmethod: generated\nsource: openapi/abloat
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/capabilities/{id}\n  method: delete\n  operationId: revokeCapability\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/capabilities/{id}/rotate\n  method: post\n  operationId: rotateCapability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/schema\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/logs\n  method: get\n  operationId: listLogEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/logs/delivery\n  method: get\n  operationId: getLogDelivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/commits\n  method: get\n  operationId: listCommits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/commits\n  method: post\n  operationId: commit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/commits/{id}\n  method: get\n  operationId: getCommit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abloatai/refs/heads/main/agentic-access/abloatai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/abloatai/agentic-access/abloatai-agentic-access.yml
 summary_line: 32 operations · 19 acting · 2 human-in-the-loop
 tags:
 - Agent Infrastructure
-- multi-agent-coordination
+- Multi‑Agent Coordination
 - concurrency-control
 - State Management
 - Database

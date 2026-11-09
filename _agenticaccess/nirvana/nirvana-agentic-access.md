@@ -9,25 +9,25 @@ api_specs:
   label: Nirvana Health Cost Estimation API
   slug: nirvana-cost-estimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-cost-estimation-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-cost-estimation-api-openapi.yml
 - filename: nirvana-coverage-scan-api-openapi.yml
   format: yaml
   label: Nirvana Health Coverage Scan API
   slug: nirvana-coverage-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-coverage-scan-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-coverage-scan-api-openapi.yml
 - filename: nirvana-eligibility-api-openapi.yml
   format: yaml
   label: Nirvana Health Eligibility API
   slug: nirvana-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-eligibility-api-openapi.yml
 - filename: nirvana-medicaid-api-openapi.yml
   format: yaml
   label: Nirvana Health Medicaid API
   slug: nirvana-medicaid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/openapi/nirvana-medicaid-api-openapi.yml
+  url: https://artifacts.apis.io/nirvana/openapi/nirvana-medicaid-api-openapi.yml
 consequence_counts:
   read: 1
   write: 3
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nirvana-cost-estimation-api-openapi.yml, openapi/nirvana-coverage-scan-api-openapi.yml,\n  openapi/nirvana-eligibility-api-openapi.yml, openapi/nirvana-medicaid-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 3\n    connected: 1\n  by_consequence:\n    write: 3\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/estimate\n  method: post\n  operationId: estimate_v1_estimate_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /v1/scan\n  method: post\n  operationId: scan_v1_scan_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/discover\n  method: post\n  operationId: discover_v1_discover_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/medicaid\n  method: post\n  operationId: medicaid_v1_medicaid_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nirvana/refs/heads/main/agentic-access/nirvana-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nirvana/agentic-access/nirvana-agentic-access.yml
 summary_line: 4 operations · 3 acting
 tags:
 - Healthcare

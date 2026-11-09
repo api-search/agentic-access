@@ -9,91 +9,91 @@ api_specs:
   label: Opkey Apk Instrumentation API
   slug: opkey-apk-instrumentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-apk-instrumentation-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-apk-instrumentation-api-openapi.yml
 - filename: opkey-apk-instrumentation-apis-api-openapi.yml
   format: yaml
   label: Opkey Apk Instrumentation Apis API
   slug: opkey-apk-instrumentation-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-apk-instrumentation-apis-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-apk-instrumentation-apis-api-openapi.yml
 - filename: opkey-app-center-api-api-openapi.yml
   format: yaml
   label: Opkey App Center Api
   slug: opkey-app-center-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-app-center-api-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-app-center-api-api-openapi.yml
 - filename: opkey-app-control-api-openapi.yml
   format: yaml
   label: Opkey App Control API
   slug: opkey-app-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-app-control-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-app-control-api-openapi.yml
 - filename: opkey-appium-automation-api-openapi.yml
   format: yaml
   label: Opkey Appium Automation API
   slug: opkey-appium-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-appium-automation-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-appium-automation-api-openapi.yml
 - filename: opkey-authentication-api-openapi.yml
   format: yaml
   label: Opkey Authentication API
   slug: opkey-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-authentication-api-openapi.yml
 - filename: opkey-device-booking-session-api-openapi.yml
   format: yaml
   label: Opkey Device Booking & Session API
   slug: opkey-device-booking-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-device-booking-session-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-device-booking-session-api-openapi.yml
 - filename: opkey-device-interaction-api-openapi.yml
   format: yaml
   label: Opkey Device Interaction API
   slug: opkey-device-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-device-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-device-interaction-api-openapi.yml
 - filename: opkey-file-management-api-openapi.yml
   format: yaml
   label: Opkey File Management API
   slug: opkey-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-file-management-api-openapi.yml
 - filename: opkey-generic-api-openapi.yml
   format: yaml
   label: Opkey Generic API
   slug: opkey-generic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-generic-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-generic-api-openapi.yml
 - filename: opkey-network-simulation-api-openapi.yml
   format: yaml
   label: Opkey Network Simulation API
   slug: opkey-network-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-network-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-network-simulation-api-openapi.yml
 - filename: opkey-performance-api-openapi.yml
   format: yaml
   label: Opkey Performance API
   slug: opkey-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-performance-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-performance-api-openapi.yml
 - filename: opkey-resigning-apis-api-openapi.yml
   format: yaml
   label: Opkey Resigning Apis API
   slug: opkey-resigning-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-resigning-apis-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-resigning-apis-api-openapi.yml
 - filename: opkey-session-media-logs-api-openapi.yml
   format: yaml
   label: Opkey Session Media & Logs API
   slug: opkey-session-media-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-session-media-logs-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-session-media-logs-api-openapi.yml
 - filename: opkey-xctest-automation-api-openapi.yml
   format: yaml
   label: Opkey Xctest Automation API
   slug: opkey-xctest-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/openapi/opkey-xctest-automation-api-openapi.yml
+  url: https://artifacts.apis.io/opkey/openapi/opkey-xctest-automation-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -197,7 +197,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/opkey-
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/xctest/initiate\n  method: post\n  operationId: xctestInitAutomation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/xctest/start_device_services\n  method: post\n  operationId: xctestStartServices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/getAutomationShareableLink\n  method: post\n\
   \  operationId: xctestShareableLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/xctest/release_devices\n  method: post\n  operationId: xctestReleaseDevices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/xctest/book_devices\n  method: post\n  operationId: xctestBookDevices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opkey/refs/heads/main/agentic-access/opkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opkey/agentic-access/opkey-agentic-access.yml
 summary_line: 90 operations · 76 acting · 6 human-in-the-loop
 tags:
 - Company

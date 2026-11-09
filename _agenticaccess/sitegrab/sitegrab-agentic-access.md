@@ -9,61 +9,61 @@ api_specs:
   label: SiteGrab Screenshot API
   slug: sitegrab-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-screenshot-api-openapi.yml
 - filename: sitegrab-checkout-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Checkout API
   slug: sitegrab-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-checkout-api-openapi.yml
 - filename: sitegrab-docs-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Docs API
   slug: sitegrab-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-docs-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-docs-api-openapi.yml
 - filename: sitegrab-health-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Health API
   slug: sitegrab-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-health-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-health-api-openapi.yml
 - filename: sitegrab-keys-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Keys API
   slug: sitegrab-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-keys-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-keys-api-openapi.yml
 - filename: sitegrab-screenshot-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Screenshot API
   slug: sitegrab-screenshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-screenshot-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-screenshot-api-openapi.yml
 - filename: sitegrab-signup-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Signup API
   slug: sitegrab-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-signup-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-signup-api-openapi.yml
 - filename: sitegrab-sitegrab-screenshot-api-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) SiteGrab Screenshot API
   slug: sitegrab-sitegrab-screenshot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-sitegrab-screenshot-api-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-sitegrab-screenshot-api-api-openapi.yml
 - filename: sitegrab-usage-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Usage API
   slug: sitegrab-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-usage-api-openapi.yml
 - filename: sitegrab-webhook-api-openapi.yml
   format: yaml
   label: SiteGrab Screenshot API (LaminarForge) Webhook API
   slug: sitegrab-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/openapi/sitegrab-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/sitegrab/openapi/sitegrab-webhook-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 6
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/sitegr
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/keys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/checkout\n  method: post\n  operationId: createCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook\n  method: post\n  operationId: stripeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /docs\n  method: get\n  operationId: getDocs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signup\n  method: get\n  operationId: getSignup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /\n  method: get\n  operationId: getHome\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sitegrab/refs/heads/main/agentic-access/sitegrab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sitegrab/agentic-access/sitegrab-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Screenshots

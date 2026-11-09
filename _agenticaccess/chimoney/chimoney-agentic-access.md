@@ -9,85 +9,85 @@ api_specs:
   label: Chimoney Account API
   slug: chimoney-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-account-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-account-api-openapi.yml
 - filename: chimoney-info-api-openapi.yml
   format: yaml
   label: Chimoney Info API
   slug: chimoney-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-info-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-info-api-openapi.yml
 - filename: chimoney-interledger-api-openapi.yml
   format: yaml
   label: Chimoney Interledger API
   slug: chimoney-interledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-interledger-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-interledger-api-openapi.yml
 - filename: chimoney-multicurrency-wallets-api-openapi.yml
   format: yaml
   label: Chimoney MultiCurrency Wallets API
   slug: chimoney-multicurrency-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-multicurrency-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-multicurrency-wallets-api-openapi.yml
 - filename: chimoney-payments-api-openapi.yml
   format: yaml
   label: Chimoney Payments API
   slug: chimoney-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-payments-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-payments-api-openapi.yml
 - filename: chimoney-payouts-api-openapi.yml
   format: yaml
   label: Chimoney Payouts API
   slug: chimoney-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-payouts-api-openapi.yml
 - filename: chimoney-redeem-api-openapi.yml
   format: yaml
   label: Chimoney Redeem API
   slug: chimoney-redeem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-redeem-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-redeem-api-openapi.yml
 - filename: chimoney-wallet-api-openapi.yml
   format: yaml
   label: Chimoney Wallet API
   slug: chimoney-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-wallet-api-openapi.yml
 - filename: chimoney-agents-api-openapi.yml
   format: yaml
   label: Chimoney Agents API
   slug: chimoney-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-agents-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-agents-api-openapi.yml
 - filename: chimoney-ai-api-openapi.yml
   format: yaml
   label: Chimoney AI API
   slug: chimoney-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-ai-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-ai-api-openapi.yml
 - filename: chimoney-beneficiary-api-openapi.yml
   format: yaml
   label: Chimoney Beneficiary API
   slug: chimoney-beneficiary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-beneficiary-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-beneficiary-api-openapi.yml
 - filename: chimoney-pass-through-api-openapi.yml
   format: yaml
   label: Chimoney Pass Through API
   slug: chimoney-pass-through-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-pass-through-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-pass-through-api-openapi.yml
 - filename: chimoney-passport-api-openapi.yml
   format: yaml
   label: Chimoney Passport API
   slug: chimoney-passport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-passport-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-passport-api-openapi.yml
 - filename: chimoney-sub-account-api-openapi.yml
   format: yaml
   label: Chimoney Sub Account API
   slug: chimoney-sub-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/openapi/chimoney-sub-account-api-openapi.yml
+  url: https://artifacts.apis.io/chimoney/openapi/chimoney-sub-account-api-openapi.yml
 consequence_counts:
   physical: 21
   read: 20
@@ -240,7 +240,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/chimon
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.2/sub-account/get\n  method: get\n  operationId: get_v0.2_sub-account_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.2/sub-account/list\n  method: get\n  operationId: get_v0.2_sub-account_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.2/sub-account/update\n  method: post\n  operationId: post_v0.2_sub-account_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.2/sub-account/delete\n\
   \  method: delete\n  operationId: delete_v0.2_sub-account_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.2/sub-account/community/create\n  method: post\n  operationId: post_v0.2_sub-account_community_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0.2/sub-account/community/members\n  method: get\n  operationId: get_v0.2_sub-account_community_members\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v0.2/wallets/list\n  method: post\n  operationId: post_v0.2_wallets_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.2/wallets/lookup\n  method: post\n  operationId: post_v0.2_wallets_lookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0.2/wallets/transfer\n  method: post\n  operationId: post_v0.2_wallets_transfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/agentic-access/chimoney-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chimoney/agentic-access/chimoney-agentic-access.yml
 summary_line: 57 operations · 37 acting
 tags:
 - Payouts

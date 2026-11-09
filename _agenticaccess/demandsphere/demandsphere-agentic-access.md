@@ -8,25 +8,25 @@ api_specs:
   label: DemandSphere Keywords API
   slug: demandsphere-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-keywords-api-openapi.yml
 - filename: demandsphere-pages-api-openapi.yml
   format: yaml
   label: DemandSphere Pages API
   slug: demandsphere-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-pages-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-pages-api-openapi.yml
 - filename: demandsphere-searchengines-api-openapi.yml
   format: yaml
   label: DemandSphere SearchEngines API
   slug: demandsphere-searchengines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-searchengines-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-searchengines-api-openapi.yml
 - filename: demandsphere-sites-api-openapi.yml
   format: yaml
   label: DemandSphere Sites API
   slug: demandsphere-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/openapi/demandsphere-sites-api-openapi.yml
+  url: https://artifacts.apis.io/demandsphere/openapi/demandsphere-sites-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/demand
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/landing_matches/list\n  method: post\n  operationId: Keywords_LandingMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/local_rankings/list\n  method: post\n  operationId: Keywords_LocalRankings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/ranking_trends/list\n  method: post\n  operationId: Keywords_RankingTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/search_engines/list\n  method: post\n  operationId: Keywords_SearchEngines\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/landings_history/list\n  method: post\n  operationId: Pages_LandingsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search_engines/summary/list\n  method: post\n  operationId: SearchEngines_Summary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/hierarchy/list\n  method: post\n  operationId: Sites_HierarchyList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/properties/list\n  method: post\n  operationId: Sites_PropertiesList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demandsphere/refs/heads/main/agentic-access/demandsphere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/demandsphere/agentic-access/demandsphere-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Company

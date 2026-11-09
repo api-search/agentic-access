@@ -9,25 +9,25 @@ api_specs:
   label: SnapLogic Asset Management API
   slug: snaplogic-asset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-asset-management-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-asset-management-api-openapi.yml
 - filename: snaplogic-runtime-api-openapi.yml
   format: yaml
   label: SnapLogic Runtime API
   slug: snaplogic-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-runtime-api-openapi.yml
 - filename: snaplogic-tasks-api-openapi.yml
   format: yaml
   label: SnapLogic Tasks API
   slug: snaplogic-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-tasks-api-openapi.yml
 - filename: snaplogic-users-and-groups-api-openapi.yml
   format: yaml
   label: SnapLogic Users and Groups API
   slug: snaplogic-users-and-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/openapi/snaplogic-users-and-groups-api-openapi.yml
+  url: https://artifacts.apis.io/snaplogic/openapi/snaplogic-users-and-groups-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 2
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/snaplo
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assetapi/acl/{path}\n  method: delete\n  operationId: revokeAssetAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /assetapi/project/{path}\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assetapi/project/{path}\n  method: put\n  operationId: renameProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assetapi/project/{path}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assetapi/user-settings\n  method: get\n  operationId: getUserSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assetapi/user-app-access\n  method: post\n  operationId: updateUserAppAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assetapi/update-owner\n  method: post\n  operationId: updateTaskOwner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snaplogic/refs/heads/main/agentic-access/snaplogic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snaplogic/agentic-access/snaplogic-agentic-access.yml
 summary_line: 16 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

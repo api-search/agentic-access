@@ -9,67 +9,67 @@ api_specs:
   label: Logik.io Blueprint > Export API
   slug: logikio-blueprint-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-blueprint-export-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-blueprint-export-api-openapi.yml
 - filename: logikio-blueprint-import-api-openapi.yml
   format: yaml
   label: Logik.io Blueprint > Import API
   slug: logikio-blueprint-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-blueprint-import-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-blueprint-import-api-openapi.yml
 - filename: logikio-bom-api-openapi.yml
   format: yaml
   label: Logik.io BOM API
   slug: logikio-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-bom-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-bom-api-openapi.yml
 - filename: logikio-configuration-api-openapi.yml
   format: yaml
   label: Logik.io Configuration API
   slug: logikio-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-configuration-api-openapi.yml
 - filename: logikio-configuration-v2-api-openapi.yml
   format: yaml
   label: Logik.io Configuration (V2) API
   slug: logikio-configuration-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-configuration-v2-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-configuration-v2-api-openapi.yml
 - filename: logikio-managed-tables-export-tables-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Export Tables API
   slug: logikio-managed-tables-export-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-export-tables-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-export-tables-api-openapi.yml
 - filename: logikio-managed-tables-import-tables-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Import Tables API
   slug: logikio-managed-tables-import-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-import-tables-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-import-tables-api-openapi.yml
 - filename: logikio-managed-tables-metadata-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Metadata API
   slug: logikio-managed-tables-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-metadata-api-openapi.yml
 - filename: logikio-managed-tables-table-rows-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Table Rows API
   slug: logikio-managed-tables-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-table-rows-api-openapi.yml
 - filename: logikio-managed-tables-tables-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Tables API
   slug: logikio-managed-tables-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-tables-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-tables-api-openapi.yml
 - filename: logikio-runtime-bill-of-materials-api-openapi.yml
   format: yaml
   label: Logik.io Runtime - Bill of Materials API
   slug: logikio-runtime-bill-of-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-runtime-bill-of-materials-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-runtime-bill-of-materials-api-openapi.yml
 consequence_counts:
   read: 20
   write: 16
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/logiki
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{uuid}/bom/manufacturing\n  method: get\n  operationId: getManufacturingBOM\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{uuid}/bom/\n  method: get\n  operationId: getAllBOM\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api\n  method: post\n  operationId: startConfigV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{uuid}\n  method: get\n  operationId: getConfigByUuidV2\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{uuid}\n  method: patch\n  operationId: updateConfigByUuidV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{uuid}/sets/{setVariableName}\n  method: get\n  operationId: getSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{uuid}/bom\n  method: get\n  operationId: getAllBomV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{uuid}/bom/sales\n  method: get\n  operationId: getSalesBomV2\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{uuid}/bom/manufacturing\n  method: get\n  operationId: getManufacturingBomV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{uuid}/bom/{custom}\n  method: get\n  operationId: getBomByNameV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/agentic-access/logikio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/logikio/agentic-access/logikio-agentic-access.yml
 summary_line: 36 operations · 16 acting
 tags:
 - Company

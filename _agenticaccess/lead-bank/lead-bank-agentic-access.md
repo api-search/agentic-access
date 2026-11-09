@@ -9,157 +9,157 @@ api_specs:
   label: Lead Bank Account Number API
   slug: lead-bank-account-number-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-account-number-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-account-number-api-openapi.yml
 - filename: lead-bank-ach-api-openapi.yml
   format: yaml
   label: Lead Bank ACH API
   slug: lead-bank-ach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-ach-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-ach-api-openapi.yml
 - filename: lead-bank-blockchain-payment-api-openapi.yml
   format: yaml
   label: Lead Bank Blockchain Payment API
   slug: lead-bank-blockchain-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-blockchain-payment-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-blockchain-payment-api-openapi.yml
 - filename: lead-bank-compliance-api-openapi.yml
   format: yaml
   label: Lead Bank Compliance API
   slug: lead-bank-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-compliance-api-openapi.yml
 - filename: lead-bank-entity-api-openapi.yml
   format: yaml
   label: Lead Bank Entity API
   slug: lead-bank-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-entity-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-entity-api-openapi.yml
 - filename: lead-bank-events-api-openapi.yml
   format: yaml
   label: Lead Bank Events API
   slug: lead-bank-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-events-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-events-api-openapi.yml
 - filename: lead-bank-funding-api-openapi.yml
   format: yaml
   label: Lead Bank Funding API
   slug: lead-bank-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-funding-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-funding-api-openapi.yml
 - filename: lead-bank-instant-payments-api-openapi.yml
   format: yaml
   label: Lead Bank Instant Payments API
   slug: lead-bank-instant-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-instant-payments-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-instant-payments-api-openapi.yml
 - filename: lead-bank-internal-transfer-api-openapi.yml
   format: yaml
   label: Lead Bank Internal Transfer API
   slug: lead-bank-internal-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-internal-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-internal-transfer-api-openapi.yml
 - filename: lead-bank-lending-api-openapi.yml
   format: yaml
   label: Lead Bank Lending API
   slug: lead-bank-lending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-lending-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-lending-api-openapi.yml
 - filename: lead-bank-lending-simulation-api-openapi.yml
   format: yaml
   label: Lead Bank Lending Simulation API
   slug: lead-bank-lending-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-lending-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-lending-simulation-api-openapi.yml
 - filename: lead-bank-originator-api-openapi.yml
   format: yaml
   label: Lead Bank Originator API
   slug: lead-bank-originator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-originator-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-originator-api-openapi.yml
 - filename: lead-bank-simulation-api-openapi.yml
   format: yaml
   label: Lead Bank Simulation API
   slug: lead-bank-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-simulation-api-openapi.yml
 - filename: lead-bank-subledger-balances-api-openapi.yml
   format: yaml
   label: Lead Bank Subledger Balances API
   slug: lead-bank-subledger-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-subledger-balances-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-subledger-balances-api-openapi.yml
 - filename: lead-bank-wire-api-openapi.yml
   format: yaml
   label: Lead Bank Wire API
   slug: lead-bank-wire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-wire-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-wire-api-openapi.yml
 - filename: lead-bank-oauth-api-openapi.yml
   format: yaml
   label: Lead Bank O Auth API
   slug: lead-bank-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-oauth-api-openapi.yml
 - filename: lead-bank-application-api-openapi.yml
   format: yaml
   label: Lead Bank Application API
   slug: lead-bank-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-application-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-application-api-openapi.yml
 - filename: lead-bank-core-account-api-openapi.yml
   format: yaml
   label: Lead Bank Core Account API
   slug: lead-bank-core-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-core-account-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-core-account-api-openapi.yml
 - filename: lead-bank-core-balance-api-openapi.yml
   format: yaml
   label: Lead Bank Core Balance API
   slug: lead-bank-core-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-core-balance-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-core-balance-api-openapi.yml
 - filename: lead-bank-core-transaction-api-openapi.yml
   format: yaml
   label: Lead Bank Core Transaction API
   slug: lead-bank-core-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-core-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-core-transaction-api-openapi.yml
 - filename: lead-bank-files-api-openapi.yml
   format: yaml
   label: Lead Bank Files API
   slug: lead-bank-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-files-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-files-api-openapi.yml
 - filename: lead-bank-receivable-api-openapi.yml
   format: yaml
   label: Lead Bank Receivable API
   slug: lead-bank-receivable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-receivable-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-receivable-api-openapi.yml
 - filename: lead-bank-receivable-sale-api-openapi.yml
   format: yaml
   label: Lead Bank Receivable Sale API
   slug: lead-bank-receivable-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-receivable-sale-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-receivable-sale-api-openapi.yml
 - filename: lead-bank-user-account-api-openapi.yml
   format: yaml
   label: Lead Bank User Account API
   slug: lead-bank-user-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-user-account-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-user-account-api-openapi.yml
 - filename: lead-bank-user-credit-balance-api-openapi.yml
   format: yaml
   label: Lead Bank User Credit Balance API
   slug: lead-bank-user-credit-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-user-credit-balance-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-user-credit-balance-api-openapi.yml
 - filename: lead-bank-user-credit-transaction-api-openapi.yml
   format: yaml
   label: Lead Bank User Credit Transaction API
   slug: lead-bank-user-credit-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/openapi/lead-bank-user-credit-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/lead-bank/openapi/lead-bank-user-credit-transaction-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 25
@@ -326,7 +326,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lead-b
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/accounts/{id}/close\n  method: post\n  operationId: close-an-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/accounts/{id}/entity_relationships\n  method: get\n  operationId: list-account-entity-relationships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/accounts/{id}/entity_relationships/{entity_id}\n  method: delete\n  operationId: delete-account-entity-relationship\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/accounts/{id}/entity_relationships/batch\n  method: post\n  operationId: batch-create-account-entity-relationships\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/blockchain_payments\n  method: post\n  operationId: create-a-blockchain-payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /v0/blockchain_payments\n  method: get\n  operationId: list-all-blockchain-payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/blockchain_payments/{blockchain_payment_id}\n  method: get\n  operationId: retrieve-a-blockchain-payment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lead-bank/refs/heads/main/agentic-access/lead-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lead-bank/agentic-access/lead-bank-agentic-access.yml
 summary_line: 83 operations · 58 acting
 tags:
 - Banking

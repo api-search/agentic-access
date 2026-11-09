@@ -9,43 +9,43 @@ api_specs:
   label: NotificationAPI In-App Inbox API
   slug: notificationapi-in-app-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-in-app-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-in-app-inbox-api-openapi.yml
 - filename: notificationapi-logs-api-openapi.yml
   format: yaml
   label: NotificationAPI Logs API
   slug: notificationapi-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-logs-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-logs-api-openapi.yml
 - filename: notificationapi-notifications-api-openapi.yml
   format: yaml
   label: NotificationAPI Notifications API
   slug: notificationapi-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-notifications-api-openapi.yml
 - filename: notificationapi-schedule-api-openapi.yml
   format: yaml
   label: NotificationAPI Schedule API
   slug: notificationapi-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-schedule-api-openapi.yml
 - filename: notificationapi-send-api-openapi.yml
   format: yaml
   label: NotificationAPI Send API
   slug: notificationapi-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-send-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-send-api-openapi.yml
 - filename: notificationapi-user-preferences-api-openapi.yml
   format: yaml
   label: NotificationAPI User Preferences API
   slug: notificationapi-user-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-user-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-user-preferences-api-openapi.yml
 - filename: notificationapi-users-api-openapi.yml
   format: yaml
   label: NotificationAPI Users API
   slug: notificationapi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/openapi/notificationapi-users-api-openapi.yml
+  url: https://artifacts.apis.io/notificationapi/openapi/notificationapi-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 2
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/notifi
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sender\n  method: post\n  operationId: send\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sender/retract\n  method: post\n  operationId: retract\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /users/{userId}/preferences\n  method: delete\n  operationId: deleteUserPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user_preferences/{userId}\n  method: post\n  operationId: setUserPreferences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: post\n  operationId: identifyUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notificationapi/refs/heads/main/agentic-access/notificationapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/notificationapi/agentic-access/notificationapi-agentic-access.yml
 summary_line: 12 operations · 10 acting
 tags:
 - Notification

@@ -9,37 +9,37 @@ api_specs:
   label: Bolt GenericClient API
   slug: bolt-eu-genericclient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-genericclient-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-genericclient-api-openapi.yml
 - filename: bolt-eu-pim-api-openapi.yml
   format: yaml
   label: Bolt Pim API
   slug: bolt-eu-pim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-pim-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-pim-api-openapi.yml
 - filename: bolt-eu-validateloyaltycard-api-openapi.yml
   format: yaml
   label: Bolt ValidateLoyaltyCard API
   slug: bolt-eu-validateloyaltycard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-validateloyaltycard-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-validateloyaltycard-api-openapi.yml
 - filename: bolt-eu-bolt-delivery-api-api-openapi.yml
   format: yaml
   label: Bolt Delivery API
   slug: bolt-eu-bolt-delivery-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-delivery-api-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-bolt-delivery-api-api-openapi.yml
 - filename: bolt-eu-bolt-food-api-api-openapi.yml
   format: yaml
   label: Bolt Food API
   slug: bolt-eu-bolt-food-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-food-api-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-bolt-food-api-api-openapi.yml
 - filename: bolt-eu-bolt-stores-api-api-openapi.yml
   format: yaml
   label: Bolt Stores API
   slug: bolt-eu-bolt-stores-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/openapi/bolt-eu-bolt-stores-api-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-eu/openapi/bolt-eu-bolt-stores-api-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 2
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bolt-e
   \ /pim/v1/category/products/set\n  method: post\n  operationId: pim-v1-category-products-set\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pim/v1/option/upsert\n  method: post\n  operationId: pim-v1-option-upsert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pim/v1/option/list\n  method: post\n  operationId: pim-v1-option-list\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pim/v1/optionGroup/upsert\n  method: post\n  operationId: pim-v1-optionGroup-upsert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pim/v1/optionGroup/list\n  method: post\n  operationId: pim-v1-optionGroup-list\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pim/v1/fee/list\n  method: post\n  operationId: pim-v1-fee-list\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pim/v1/fee/update\n  method: post\n  operationId: pim-v1-fee-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /validateLoyaltyCard\n  method: post\n  operationId: validateLoyaltyCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolt-eu/refs/heads/main/agentic-access/bolt-eu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bolt-eu/agentic-access/bolt-eu-agentic-access.yml
 summary_line: 45 operations · 43 acting
 tags:
 - Ride Booking

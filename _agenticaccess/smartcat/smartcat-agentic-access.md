@@ -9,175 +9,175 @@ api_specs:
   label: Smartcat Account API
   slug: smartcat-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-account-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-account-api-openapi.yml
 - filename: smartcat-assignmenttemplates-api-openapi.yml
   format: yaml
   label: Smartcat AssignmentTemplates API
   slug: smartcat-assignmenttemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-assignmenttemplates-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-assignmenttemplates-api-openapi.yml
 - filename: smartcat-audit-api-openapi.yml
   format: yaml
   label: Smartcat Audit API
   slug: smartcat-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-audit-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-audit-api-openapi.yml
 - filename: smartcat-callback-api-openapi.yml
   format: yaml
   label: Smartcat Callback API
   slug: smartcat-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-callback-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-callback-api-openapi.yml
 - filename: smartcat-client-api-openapi.yml
   format: yaml
   label: Smartcat Client API
   slug: smartcat-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-client-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-client-api-openapi.yml
 - filename: smartcat-clientindustry-api-openapi.yml
   format: yaml
   label: Smartcat ClientIndustry API
   slug: smartcat-clientindustry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-clientindustry-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-clientindustry-api-openapi.yml
 - filename: smartcat-directories-api-openapi.yml
   format: yaml
   label: Smartcat Directories API
   slug: smartcat-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-directories-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-directories-api-openapi.yml
 - filename: smartcat-document-api-openapi.yml
   format: yaml
   label: Smartcat Document API
   slug: smartcat-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-document-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-document-api-openapi.yml
 - filename: smartcat-documentexport-api-openapi.yml
   format: yaml
   label: Smartcat DocumentExport API
   slug: smartcat-documentexport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-documentexport-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-documentexport-api-openapi.yml
 - filename: smartcat-filedisassemblingalgorithmpresets-api-openapi.yml
   format: yaml
   label: Smartcat FileDisassemblingAlgorithmPresets API
   slug: smartcat-filedisassemblingalgorithmpresets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-filedisassemblingalgorithmpresets-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-filedisassemblingalgorithmpresets-api-openapi.yml
 - filename: smartcat-glossary-api-openapi.yml
   format: yaml
   label: Smartcat Glossary API
   slug: smartcat-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-glossary-api-openapi.yml
 - filename: smartcat-invoice-api-openapi.yml
   format: yaml
   label: Smartcat Invoice API
   slug: smartcat-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-invoice-api-openapi.yml
 - filename: smartcat-job-api-openapi.yml
   format: yaml
   label: Smartcat Job API
   slug: smartcat-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-job-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-job-api-openapi.yml
 - filename: smartcat-lspprices-api-openapi.yml
   format: yaml
   label: Smartcat LspPrices API
   slug: smartcat-lspprices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-lspprices-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-lspprices-api-openapi.yml
 - filename: smartcat-lspservice-api-openapi.yml
   format: yaml
   label: Smartcat LspService API
   slug: smartcat-lspservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-lspservice-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-lspservice-api-openapi.yml
 - filename: smartcat-myteam-api-openapi.yml
   format: yaml
   label: Smartcat MyTeam API
   slug: smartcat-myteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-myteam-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-myteam-api-openapi.yml
 - filename: smartcat-placeholderformatapi-api-openapi.yml
   format: yaml
   label: Smartcat PlaceholderFormatApi API
   slug: smartcat-placeholderformatapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-placeholderformatapi-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-placeholderformatapi-api-openapi.yml
 - filename: smartcat-project-api-openapi.yml
   format: yaml
   label: Smartcat Project API
   slug: smartcat-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-project-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-project-api-openapi.yml
 - filename: smartcat-projecttask-api-openapi.yml
   format: yaml
   label: Smartcat ProjectTask API
   slug: smartcat-projecttask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-projecttask-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-projecttask-api-openapi.yml
 - filename: smartcat-quote-api-openapi.yml
   format: yaml
   label: Smartcat Quote API
   slug: smartcat-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-quote-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-quote-api-openapi.yml
 - filename: smartcat-segmentconfirmationstatistics-api-openapi.yml
   format: yaml
   label: Smartcat SegmentConfirmationStatistics API
   slug: smartcat-segmentconfirmationstatistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-segmentconfirmationstatistics-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-segmentconfirmationstatistics-api-openapi.yml
 - filename: smartcat-smarttranslation-api-openapi.yml
   format: yaml
   label: Smartcat SmartTranslation API
   slug: smartcat-smarttranslation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-smarttranslation-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-smarttranslation-api-openapi.yml
 - filename: smartcat-smartwords-api-openapi.yml
   format: yaml
   label: Smartcat Smartwords API
   slug: smartcat-smartwords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-smartwords-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-smartwords-api-openapi.yml
 - filename: smartcat-template-api-openapi.yml
   format: yaml
   label: Smartcat Template API
   slug: smartcat-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-template-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-template-api-openapi.yml
 - filename: smartcat-translationmemories-api-openapi.yml
   format: yaml
   label: Smartcat TranslationMemories API
   slug: smartcat-translationmemories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-translationmemories-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-translationmemories-api-openapi.yml
 - filename: smartcat-userdeletionrequests-api-openapi.yml
   format: yaml
   label: Smartcat UserDeletionRequests API
   slug: smartcat-userdeletionrequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-userdeletionrequests-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-userdeletionrequests-api-openapi.yml
 - filename: smartcat-vendor-api-openapi.yml
   format: yaml
   label: Smartcat Vendor API
   slug: smartcat-vendor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-vendor-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-vendor-api-openapi.yml
 - filename: smartcat-custom-fields-api-openapi.yml
   format: yaml
   label: Smartcat Custom Fields API
   slug: smartcat-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-custom-fields-api-openapi.yml
 - filename: smartcat-file-management-api-openapi.yml
   format: yaml
   label: Smartcat File Management API
   slug: smartcat-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/openapi/smartcat-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/smartcat/openapi/smartcat-file-management-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 80
@@ -286,8 +286,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/smartc
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/account/myTeam/{userId}\n  method: get\n  operationId: getApiIntegrationV1AccountMyTeamByUserId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/integration/v1/account/myTeam/{userId}\n  method: delete\n  operationId: deleteApiIntegrationV1AccountMyTeamByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/account/myTeam\n  method: get\n  operationId: getApiIntegrationV1AccountMyTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/integration/v1/account/myTeam\n  method: post\n  operationId: postApiIntegrationV1AccountMyTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/account/searchMyTeam\n  method: post\n  operationId: postApiIntegrationV1AccountSearchMyTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/integration/v1/account/myTeam/{userId}/services/replace\n  method: post\n  operationId: postApiIntegrationV1AccountMyTeamByUserIdServicesReplace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/account/myTeam/{userId}/phone\n  method: put\n  operationId: putApiIntegrationV1AccountMyTeamByUserIdPhone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/account/myTeam/{userId}/comment\n  method: put\n  operationId: putApiIntegrationV1AccountMyTeamByUserIdComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/placeholders\n  method: get\n\
-  \  operationId: getApiIntegrationV1Placeholders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/integration/v1/placeholders\n  method: put\n  operationId: putApiIntegrationV1Placeholders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/placeholders/validate\n  method: get\n  operationId: getApiIntegrationV1PlaceholdersValidate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/agentic-access/smartcat-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartcat/refs/heads/main/agentic-access/smartcat-agentic-access.yml
+  \  operationId: getApiIntegrationV1Placeholders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/integration/v1/placeholders\n  method: put\n  operationId: putApiIntegrationV1Placeholders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/integration/v1/placeholders/validate\n  method: get\n  operationId: getApiIntegrationV1PlaceholdersValidate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (59 KB total) ---\n# Full source: https://artifacts.apis.io/smartcat/agentic-access/smartcat-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/smartcat/agentic-access/smartcat-agentic-access.yml
 summary_line: 176 operations · 96 acting · 4 human-in-the-loop
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Interactive Brokers Accounts API
   slug: interactive-brokers-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-accounts-api-openapi.yml
 - filename: interactive-brokers-contracts-api-openapi.yml
   format: yaml
   label: Interactive Brokers Contracts API
   slug: interactive-brokers-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-contracts-api-openapi.yml
 - filename: interactive-brokers-market-data-api-openapi.yml
   format: yaml
   label: Interactive Brokers Market Data API
   slug: interactive-brokers-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-market-data-api-openapi.yml
 - filename: interactive-brokers-orders-api-openapi.yml
   format: yaml
   label: Interactive Brokers Orders API
   slug: interactive-brokers-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-orders-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-orders-api-openapi.yml
 - filename: interactive-brokers-portfolio-api-openapi.yml
   format: yaml
   label: Interactive Brokers Portfolio API
   slug: interactive-brokers-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-portfolio-api-openapi.yml
 - filename: interactive-brokers-sessions-api-openapi.yml
   format: yaml
   label: Interactive Brokers Sessions API
   slug: interactive-brokers-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/openapi/interactive-brokers-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/interactive-brokers/openapi/interactive-brokers-sessions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/intera
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /iserver/secdef/search\n  method: post\n  operationId: searchContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iserver/marketdata/snapshot\n  method: get\n  operationId: getMarketDataSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iserver/marketdata/history\n  method: get\n  operationId: getMarketDataHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iserver/account/{accountId}/orders\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iserver/account/orders\n  method: get\n  operationId: getLiveOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolio/{accountId}/positions/{pageId}\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolio/{accountId}/summary\n  method: get\n  operationId: getAccountSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iserver/auth/status\n  method: post\n  operationId: getAuthStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/agentic-access/interactive-brokers-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/interactive-brokers/agentic-access/interactive-brokers-agentic-access.yml
 summary_line: 9 operations · 1 acting
 tags:
 - Brokerage

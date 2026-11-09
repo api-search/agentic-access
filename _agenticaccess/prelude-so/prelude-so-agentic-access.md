@@ -9,25 +9,25 @@ api_specs:
   label: Prelude Lookup API
   slug: prelude-so-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-lookup-api-openapi.yml
 - filename: prelude-so-transactional-api-openapi.yml
   format: yaml
   label: Prelude Transactional API
   slug: prelude-so-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-transactional-api-openapi.yml
 - filename: prelude-so-verification-api-openapi.yml
   format: yaml
   label: Prelude Verification API
   slug: prelude-so-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-verification-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-verification-api-openapi.yml
 - filename: prelude-so-watch-api-openapi.yml
   format: yaml
   label: Prelude Watch API
   slug: prelude-so-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/openapi/prelude-so-watch-api-openapi.yml
+  url: https://artifacts.apis.io/prelude-so/openapi/prelude-so-watch-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 1
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/prelud
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lookup/{phone_number}\n  method: get\n  operationId: lookupPhoneNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watch/predict\n  method: post\n  operationId: predictWatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watch/feedback\n  method: post\n  operationId: sendWatchFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watch/dispatch-events\n  method: post\n  operationId: dispatchWatchEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /notify\n  method: post\n  operationId: sendTransactionalMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prelude-so/refs/heads/main/agentic-access/prelude-so-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prelude-so/agentic-access/prelude-so-agentic-access.yml
 summary_line: 7 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Number Verification

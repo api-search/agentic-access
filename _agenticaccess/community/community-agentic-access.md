@@ -8,19 +8,19 @@ api_specs:
   label: Community Member Data API
   slug: community-member-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-member-data-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-member-data-api-openapi.yml
 - filename: community-messaging-api-openapi.yml
   format: yaml
   label: Community Messaging API
   slug: community-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-messaging-api-openapi.yml
 - filename: community-tags-api-openapi.yml
   format: yaml
   label: Community Tags API
   slug: community-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/openapi/community-tags-api-openapi.yml
+  url: https://artifacts.apis.io/community/openapi/community-tags-api-openapi.yml
 consequence_counts:
   physical: 2
   write: 7
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/commun
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscription_field_value_modify\n  method: post\n  operationId: upsert-member-custom-data\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscription_opt_out\n  method: post\n  operationId: opt-out-member\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /subscription_tag_modify\n  method: post\n  operationId: change-community-membership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag_create\n  method: post\n  operationId: tag-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag_delete\n  method: post\n  operationId: tag-delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag_update\n  method: post\n  operationId: tag-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tag_keyword_modify\n  method: post\n  operationId: tag-keyword-modify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/agentic-access/community-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/community/agentic-access/community-agentic-access.yml
 summary_line: 9 operations · 9 acting
 tags:
 - Messaging

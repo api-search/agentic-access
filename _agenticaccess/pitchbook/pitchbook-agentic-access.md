@@ -8,73 +8,73 @@ api_specs:
   label: PitchBook Account Information API
   slug: pitchbook-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-account-information-api-openapi.yml
 - filename: pitchbook-companies-api-openapi.yml
   format: yaml
   label: PitchBook Companies API
   slug: pitchbook-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-companies-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-companies-api-openapi.yml
 - filename: pitchbook-credit-analysis-api-openapi.yml
   format: yaml
   label: PitchBook Credit Analysis API
   slug: pitchbook-credit-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-credit-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-credit-analysis-api-openapi.yml
 - filename: pitchbook-deals-api-openapi.yml
   format: yaml
   label: PitchBook Deals API
   slug: pitchbook-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-deals-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-deals-api-openapi.yml
 - filename: pitchbook-fundamentals-api-openapi.yml
   format: yaml
   label: PitchBook Fundamentals API
   slug: pitchbook-fundamentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-fundamentals-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-fundamentals-api-openapi.yml
 - filename: pitchbook-funds-api-openapi.yml
   format: yaml
   label: PitchBook Funds API
   slug: pitchbook-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-funds-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-funds-api-openapi.yml
 - filename: pitchbook-general-api-openapi.yml
   format: yaml
   label: PitchBook General API
   slug: pitchbook-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-general-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-general-api-openapi.yml
 - filename: pitchbook-investors-api-openapi.yml
   format: yaml
   label: PitchBook Investors API
   slug: pitchbook-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-investors-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-investors-api-openapi.yml
 - filename: pitchbook-limited-partners-api-openapi.yml
   format: yaml
   label: PitchBook Limited Partners API
   slug: pitchbook-limited-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-limited-partners-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-limited-partners-api-openapi.yml
 - filename: pitchbook-patents-api-openapi.yml
   format: yaml
   label: PitchBook Patents API
   slug: pitchbook-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-patents-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-patents-api-openapi.yml
 - filename: pitchbook-people-api-openapi.yml
   format: yaml
   label: PitchBook People API
   slug: pitchbook-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-people-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-people-api-openapi.yml
 - filename: pitchbook-service-providers-api-openapi.yml
   format: yaml
   label: PitchBook Service Providers API
   slug: pitchbook-service-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/openapi/pitchbook-service-providers-api-openapi.yml
+  url: https://artifacts.apis.io/pitchbook/openapi/pitchbook-service-providers-api-openapi.yml
 consequence_counts:
   read: 130
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/pitchb
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{pbId}/updates\n  method: get\n  operationId: getPersonUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/search\n  method: get\n  operationId: serviceProviderSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{pbId}/bio\n  method: get\n  operationId: getServiceProviderBio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/bio\n  method: post\n  operationId: getBulkServiceProviderBio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /service-providers/{pbId}/serviced-companies\n  method: get\n  operationId: getServicedCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{pbId}/serviced-deals\n  method: get\n  operationId: getServicedDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{pbId}/serviced-investors\n  method: get\n  operationId: getServicedInvestors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{pbId}/serviced-funds\n  method: get\n  operationId: getServicedFunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{pbId}/serviced-limited-partners\n\
   \  method: get\n  operationId: getServicedLimitedPartners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /service-providers/{pbId}/updates\n  method: get\n  operationId: getInvestorUpdates_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pitchbook/refs/heads/main/agentic-access/pitchbook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pitchbook/agentic-access/pitchbook-agentic-access.yml
 summary_line: 130 operations
 tags:
 - Company

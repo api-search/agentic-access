@@ -9,97 +9,97 @@ api_specs:
   label: Moody's Data Buffet API
   slug: data-buffet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-series-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-series-api-openapi.yml
 - filename: moodys-audit-api-openapi.yml
   format: yaml
   label: Moody's Audit API
   slug: moodys-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-audit-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-audit-api-openapi.yml
 - filename: moodys-dataseries-api-openapi.yml
   format: yaml
   label: Moody's Data Series API
   slug: moodys-dataseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-dataseries-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-dataseries-api-openapi.yml
 - filename: moodys-forecast-api-openapi.yml
   format: yaml
   label: Moody's Forecast API
   slug: moodys-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-forecast-api-openapi.yml
 - filename: moodys-interpolation-api-openapi.yml
   format: yaml
   label: Moody's Interpolation API
   slug: moodys-interpolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-interpolation-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-interpolation-api-openapi.yml
 - filename: moodys-order-api-openapi.yml
   format: yaml
   label: Moody's Order API
   slug: moodys-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-order-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-order-api-openapi.yml
 - filename: moodys-project-api-openapi.yml
   format: yaml
   label: Moody's Project API
   slug: moodys-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-project-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-project-api-openapi.yml
 - filename: moodys-scenario-api-openapi.yml
   format: yaml
   label: Moody's Scenario API
   slug: moodys-scenario-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-scenario-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-scenario-api-openapi.yml
 - filename: moodys-seriessearch-api-openapi.yml
   format: yaml
   label: Moody's Series Search API
   slug: moodys-seriessearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-seriessearch-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-seriessearch-api-openapi.yml
 - filename: moodys-universe-api-openapi.yml
   format: yaml
   label: Moody's Universe API
   slug: moodys-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-universe-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-universe-api-openapi.yml
 - filename: moodys-vin-api-openapi.yml
   format: yaml
   label: Moody's Vin API
   slug: moodys-vin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-vin-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-vin-api-openapi.yml
 - filename: moodys-frequency-api-openapi.yml
   format: yaml
   label: Moody's Frequency API
   slug: moodys-frequency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-frequency-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-frequency-api-openapi.yml
 - filename: moodys-multiseries-api-openapi.yml
   format: yaml
   label: Moody's Multi Series API
   slug: moodys-multiseries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-multiseries-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-multiseries-api-openapi.yml
 - filename: moodys-vintage-api-openapi.yml
   format: yaml
   label: Moody's Vintage API
   slug: moodys-vintage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-vintage-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-vintage-api-openapi.yml
 - filename: moodys-file-types-api-openapi.yml
   format: yaml
   label: Moody's File Types API
   slug: moodys-file-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-file-types-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-file-types-api-openapi.yml
 - filename: moodys-health-check-api-openapi.yml
   format: yaml
   label: Moody's Health Check API
   slug: moodys-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/openapi/moodys-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/moodys/openapi/moodys-health-check-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 48
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/moodys
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /base-scenario\n  method: get\n  operationId: Universe_ScenariosListAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /base-scenario/{scenarioId}\n  method: get\n  operationId: Universe_GetScenarioAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /base-scenario/{scenarioId}/details\n  method: get\n  operationId: Universe_ScenarioDetailsAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /base-scenario/search\n  method: post\n  operationId: Universe_SearchBaseScenariosListAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /base-scenario/search/count\n  method: post\n  operationId: Universe_SearchBaseScenariosListCountAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group/client\n  method: get\n  operationId: Universe_ClientsListAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project/scenario/search\n  method: post\n  operationId: Universe_SearchProjectScenariosListAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project/scenario/search/count\n  method: post\n  operationId: Universe_SearchProjectScenariosListCountAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /vins\n  method: get\n  operationId: Vin_VinLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vintages\n  method: get\n  operationId: Vintage_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/agentic-access/moodys-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moodys/agentic-access/moodys-agentic-access.yml
 summary_line: 94 operations · 46 acting
 tags:
 - Climate Risk

@@ -9,43 +9,43 @@ api_specs:
   label: ParkWhiz Accounts & Vehicles API
   slug: parkwhiz-accounts-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-accounts-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-accounts-vehicles-api-openapi.yml
 - filename: parkwhiz-bookings-api-openapi.yml
   format: yaml
   label: ParkWhiz Bookings API
   slug: parkwhiz-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-bookings-api-openapi.yml
 - filename: parkwhiz-monthly-parking-api-openapi.yml
   format: yaml
   label: ParkWhiz Monthly Parking API
   slug: parkwhiz-monthly-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-monthly-parking-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-monthly-parking-api-openapi.yml
 - filename: parkwhiz-quotes-locations-api-openapi.yml
   format: yaml
   label: ParkWhiz Quotes & Locations API
   slug: parkwhiz-quotes-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-quotes-locations-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-quotes-locations-api-openapi.yml
 - filename: parkwhiz-tickets-api-openapi.yml
   format: yaml
   label: ParkWhiz Tickets API
   slug: parkwhiz-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-tickets-api-openapi.yml
 - filename: parkwhiz-venues-events-api-openapi.yml
   format: yaml
   label: ParkWhiz Venues & Events API
   slug: parkwhiz-venues-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-venues-events-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-venues-events-api-openapi.yml
 - filename: parkwhiz-oauth-api-openapi.yml
   format: yaml
   label: ParkWhiz O Auth API
   slug: parkwhiz-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/openapi/parkwhiz-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/parkwhiz/openapi/parkwhiz-oauth-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 19
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parkwh
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/me/vehicles/{vehicle_id}\n  method: get\n  operationId: getVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/me/vehicles/{vehicle_id}\n  method: patch\n  operationId: updateVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/me/vehicles/{vehicle_id}\n  method: delete\n  operationId: deleteVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/me/payment_methods\n  method: get\n  operationId: listPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/me/payment_methods\n  method: post\n  operationId: addPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets\n  method: post\n  operationId: createTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets/previews\n  method: post\n  operationId: previewTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tickets/{ticket_id}/pay\n  method: post\n  operationId: payTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parkwhiz/refs/heads/main/agentic-access/parkwhiz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parkwhiz/agentic-access/parkwhiz-agentic-access.yml
 summary_line: 36 operations · 17 acting
 tags:
 - Parking

@@ -15,55 +15,55 @@ api_specs:
   label: Pushbullet Channels API
   slug: pushbullet-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-channels-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-channels-api-openapi.yml
 - filename: pushbullet-chats-api-openapi.yml
   format: yaml
   label: Pushbullet Chats API
   slug: pushbullet-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-chats-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-chats-api-openapi.yml
 - filename: pushbullet-devices-api-openapi.yml
   format: yaml
   label: Pushbullet Devices API
   slug: pushbullet-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-devices-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-devices-api-openapi.yml
 - filename: pushbullet-ephemerals-api-openapi.yml
   format: yaml
   label: Pushbullet Ephemerals API
   slug: pushbullet-ephemerals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-ephemerals-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-ephemerals-api-openapi.yml
 - filename: pushbullet-pushes-api-openapi.yml
   format: yaml
   label: Pushbullet Pushes API
   slug: pushbullet-pushes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-pushes-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-pushes-api-openapi.yml
 - filename: pushbullet-subscriptions-api-openapi.yml
   format: yaml
   label: Pushbullet Subscriptions API
   slug: pushbullet-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-subscriptions-api-openapi.yml
 - filename: pushbullet-texts-api-openapi.yml
   format: yaml
   label: Pushbullet Texts API
   slug: pushbullet-texts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-texts-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-texts-api-openapi.yml
 - filename: pushbullet-upload-api-openapi.yml
   format: yaml
   label: Pushbullet Upload API
   slug: pushbullet-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-upload-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-upload-api-openapi.yml
 - filename: pushbullet-users-api-openapi.yml
   format: yaml
   label: Pushbullet Users API
   slug: pushbullet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-users-api-openapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-users-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pushbu
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-info\n  method: get\n  operationId: getChannelInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: subscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{iden}\n  method: post\n  operationId:\
   \ updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{iden}\n  method: delete\n  operationId: unsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /texts\n  method: post\n  operationId: sendText\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /ephemerals\n  method: post\n  operationId: sendEphemeral\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload-request\n  method: post\n  operationId: uploadRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/agentic-access/pushbullet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pushbullet/agentic-access/pushbullet-agentic-access.yml
 summary_line: 23 operations · 17 acting
 tags:
 - Notification

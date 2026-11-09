@@ -303,7 +303,7 @@ source_yaml_url: https://artifacts.apis.io/roark/agentic-access/roark-agentic-ac
 summary_line: 191 operations · 105 acting · 2 human-in-the-loop
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - Testing
 - Evaluation
 - Benchmarking

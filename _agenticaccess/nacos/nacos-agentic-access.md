@@ -9,37 +9,37 @@ api_specs:
   label: Nacos Auth API
   slug: nacos-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-auth-api-openapi.yml
 - filename: nacos-configuration-api-openapi.yml
   format: yaml
   label: Nacos Configuration API
   slug: nacos-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-configuration-api-openapi.yml
 - filename: nacos-namespace-api-openapi.yml
   format: yaml
   label: Nacos Namespace API
   slug: nacos-namespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-namespace-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-namespace-api-openapi.yml
 - filename: nacos-operator-api-openapi.yml
   format: yaml
   label: Nacos Operator API
   slug: nacos-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-operator-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-operator-api-openapi.yml
 - filename: nacos-service-discovery-api-openapi.yml
   format: yaml
   label: Nacos Service Discovery API
   slug: nacos-service-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-service-discovery-api-openapi.yml
 - filename: nacos-service-management-api-openapi.yml
   format: yaml
   label: Nacos Service Management API
   slug: nacos-service-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/openapi/nacos-service-management-api-openapi.yml
+  url: https://artifacts.apis.io/nacos/openapi/nacos-service-management-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nacos-
   \  method: put\n  operationId: updateSwitches\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/ns/operator/metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ns/operator/servers\n  method: get\n  operationId: listServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/console/namespaces\n  method: get\n  operationId: listNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/console/namespaces\n\
   \  method: post\n  operationId: createNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/console/namespaces\n  method: put\n  operationId: updateNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/console/namespaces\n  method: delete\n  operationId: deleteNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/ns/health/instance\n  method: put\n  operationId: updateInstanceHealth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nacos/refs/heads/main/agentic-access/nacos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nacos/agentic-access/nacos-agentic-access.yml
 summary_line: 26 operations · 16 acting
 tags:
 - Alibaba

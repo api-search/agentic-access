@@ -9,13 +9,13 @@ api_specs:
   label: Google Cloud Firestore Databases API
   slug: google-cloud-firestore-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-databases-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-databases-api-openapi.yml
 - filename: google-cloud-firestore-documents-api-openapi.yml
   format: yaml
   label: Google Cloud Firestore Documents API
   slug: google-cloud-firestore-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/openapi/google-cloud-firestore-documents-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-documents-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/databases/{database}/documents/{collectionId}/{documentId}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/datastore\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project}/databases/{database}/documents/{collectionId}/{documentId}\n  method: patch\n  operationId: updateDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/datastore\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /projects/{project}/databases/{database}/documents/{collectionId}/{documentId}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/datastore\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project}/databases/{database}/documents:runQuery\n  method: post\n  operationId: runQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/datastore\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-firestore/refs/heads/main/agentic-access/google-cloud-firestore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-firestore/agentic-access/google-cloud-firestore-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Database

@@ -9,43 +9,43 @@ api_specs:
   label: QStash Dead Letter Queue API
   slug: qstash-dead-letter-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-dead-letter-queue-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-dead-letter-queue-api-openapi.yml
 - filename: qstash-flow-control-api-openapi.yml
   format: yaml
   label: QStash Flow Control API
   slug: qstash-flow-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-flow-control-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-flow-control-api-openapi.yml
 - filename: qstash-logs-api-openapi.yml
   format: yaml
   label: QStash Logs API
   slug: qstash-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-logs-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-logs-api-openapi.yml
 - filename: qstash-messages-api-openapi.yml
   format: yaml
   label: QStash Messages API
   slug: qstash-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-messages-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-messages-api-openapi.yml
 - filename: qstash-queues-api-openapi.yml
   format: yaml
   label: QStash Queues API
   slug: qstash-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-queues-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-queues-api-openapi.yml
 - filename: qstash-schedules-api-openapi.yml
   format: yaml
   label: QStash Schedules API
   slug: qstash-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-schedules-api-openapi.yml
 - filename: qstash-url-groups-api-openapi.yml
   format: yaml
   label: QStash URL Groups API
   slug: qstash-url-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/openapi/qstash-url-groups-api-openapi.yml
+  url: https://artifacts.apis.io/qstash/openapi/qstash-url-groups-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 5
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/qstash
   \    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /flowControl/{key}/resume\n  method: post\n  operationId: resumeFlowControlKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /flowControl/{key}/pin\n  method: post\n  operationId: pinFlowControlKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /flowControl/{key}/unpin\n\
   \  method: post\n  operationId: unpinFlowControlKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /flowControl/{key}/resetRate\n  method: post\n  operationId: resetFlowControlRate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /flowControl\n  method: get\n  operationId: listFlowControlKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /globalParallelism\n\
   \  method: get\n  operationId: getGlobalParallelism\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logs\n  method: get\n  operationId: getLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qstash/refs/heads/main/agentic-access/qstash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qstash/agentic-access/qstash-agentic-access.yml
 summary_line: 31 operations · 21 acting · 5 human-in-the-loop
 tags:
 - Message Queue

@@ -9,25 +9,25 @@ api_specs:
   label: Holvi Account Information API
   slug: holvi-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/holvi/openapi/holvi-account-information-api-openapi.yml
 - filename: holvi-consent-api-openapi.yml
   format: yaml
   label: Holvi Consent API
   slug: holvi-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-consent-api-openapi.yml
+  url: https://artifacts.apis.io/holvi/openapi/holvi-consent-api-openapi.yml
 - filename: holvi-payment-initiation-api-openapi.yml
   format: yaml
   label: Holvi Payment Initiation API
   slug: holvi-payment-initiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-payment-initiation-api-openapi.yml
+  url: https://artifacts.apis.io/holvi/openapi/holvi-payment-initiation-api-openapi.yml
 - filename: holvi-third-party-provider-api-openapi.yml
   format: yaml
   label: Holvi Third Party Provider API
   slug: holvi-third-party-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/openapi/holvi-third-party-provider-api-openapi.yml
+  url: https://artifacts.apis.io/holvi/openapi/holvi-third-party-provider-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/holvi-
   \  operationId: exchangeConsentToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/payment-accounts/\n  method: get\n  operationId: listPaymentAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/payment-accounts/{uuid}/\n  method: get\n  operationId: getPaymentAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/payment-accounts/{uuid}/payments/\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/payment-accounts/{payment_account_uuid}/payments/{payment_uuid}/\n  method: get\n  operationId:\
   \ getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/payment-initiation/\n  method: post\n  operationId: initiatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/payment-initiation/{payment_initialization_id}/confirm-vop\n  method: post\n  operationId: confirmVop\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /api/v2/renew-certificate/\n  method: post\n  operationId: renewCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/agentic-access/holvi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/holvi/agentic-access/holvi-agentic-access.yml
 summary_line: 9 operations · 4 acting
 tags:
 - Company

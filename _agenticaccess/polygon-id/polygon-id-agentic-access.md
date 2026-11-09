@@ -9,85 +9,85 @@ api_specs:
   label: Polygon ID Agent API
   slug: polygon-id-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-agent-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-agent-api-openapi.yml
 - filename: polygon-id-auth-api-openapi.yml
   format: yaml
   label: Polygon ID Auth API
   slug: polygon-id-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-auth-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-auth-api-openapi.yml
 - filename: polygon-id-config-api-openapi.yml
   format: yaml
   label: Polygon ID Config API
   slug: polygon-id-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-config-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-config-api-openapi.yml
 - filename: polygon-id-connection-api-openapi.yml
   format: yaml
   label: Polygon ID Connection API
   slug: polygon-id-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-connection-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-connection-api-openapi.yml
 - filename: polygon-id-credentials-api-openapi.yml
   format: yaml
   label: Polygon ID Credentials API
   slug: polygon-id-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-credentials-api-openapi.yml
 - filename: polygon-id-display-methods-api-openapi.yml
   format: yaml
   label: Polygon ID Display Methods API
   slug: polygon-id-display-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-display-methods-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-display-methods-api-openapi.yml
 - filename: polygon-id-identity-api-openapi.yml
   format: yaml
   label: Polygon ID Identity API
   slug: polygon-id-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-identity-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-identity-api-openapi.yml
 - filename: polygon-id-internal-api-openapi.yml
   format: yaml
   label: Polygon ID Internal API
   slug: polygon-id-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-internal-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-internal-api-openapi.yml
 - filename: polygon-id-key-management-api-openapi.yml
   format: yaml
   label: Polygon ID Key Management API
   slug: polygon-id-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-key-management-api-openapi.yml
 - filename: polygon-id-links-api-openapi.yml
   format: yaml
   label: Polygon ID Links API
   slug: polygon-id-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-links-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-links-api-openapi.yml
 - filename: polygon-id-payment-api-openapi.yml
   format: yaml
   label: Polygon ID Payment API
   slug: polygon-id-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-payment-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-payment-api-openapi.yml
 - filename: polygon-id-public-api-openapi.yml
   format: yaml
   label: Polygon ID Public API
   slug: polygon-id-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-public-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-public-api-openapi.yml
 - filename: polygon-id-qr-store-api-openapi.yml
   format: yaml
   label: Polygon ID QR Store API
   slug: polygon-id-qr-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-qr-store-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-qr-store-api-openapi.yml
 - filename: polygon-id-schemas-api-openapi.yml
   format: yaml
   label: Polygon ID Schemas API
   slug: polygon-id-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/openapi/polygon-id-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/polygon-id/openapi/polygon-id-schemas-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 34
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/polygo
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sign-in\n  method: post\n  operationId: Sign in\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /status\n  method: get\n  operationId: Status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qr-store\n  method: get\n  operationId: GetQRCodeFromStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v2/qr-store\n  method: get\n  operationId: GetQrFromStore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/identities/{identifier}/schemas\n  method: post\n  operationId: ImportSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/identities/{identifier}/schemas\n  method: get\n  operationId: GetSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/identities/{identifier}/schemas/{id}\n  method: get\n  operationId: GetSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/identities/{identifier}/schemas/{id}\n  method: patch\n  operationId: UpdateSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polygon-id/refs/heads/main/agentic-access/polygon-id-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/polygon-id/agentic-access/polygon-id-agentic-access.yml
 summary_line: 71 operations · 37 acting · 2 human-in-the-loop
 tags:
 - Identity

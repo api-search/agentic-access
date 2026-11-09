@@ -9,31 +9,31 @@ api_specs:
   label: Cisco Nexus Dashboard Authentication API
   slug: cisco-nexus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-nexus/openapi/cisco-nexus-authentication-api-openapi.yml
 - filename: cisco-nexus-interfaces-api-openapi.yml
   format: yaml
   label: Cisco Nexus Dashboard Interfaces API
   slug: cisco-nexus-interfaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-interfaces-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-nexus/openapi/cisco-nexus-interfaces-api-openapi.yml
 - filename: cisco-nexus-routing-api-openapi.yml
   format: yaml
   label: Cisco Nexus Dashboard Routing API
   slug: cisco-nexus-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-routing-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-nexus/openapi/cisco-nexus-routing-api-openapi.yml
 - filename: cisco-nexus-system-api-openapi.yml
   format: yaml
   label: Cisco Nexus Dashboard System API
   slug: cisco-nexus-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-system-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-nexus/openapi/cisco-nexus-system-api-openapi.yml
 - filename: cisco-nexus-vlans-api-openapi.yml
   format: yaml
   label: Cisco Nexus Dashboard VLANs API
   slug: cisco-nexus-vlans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/openapi/cisco-nexus-vlans-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-nexus/openapi/cisco-nexus-vlans-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 2
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /class/l2BD.json\n  method: get\n  operationId: listVlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mo/sys/intf/svi-[{sviId}].json\n  method: get\n  operationId: getSviInterface\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mo/sys/intf/svi-[{sviId}].json\n  method: post\n  operationId: configureSviInterface\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mo/sys/ipv4/inst.json\n  method: post\n  operationId: configureStaticRoute\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mo/sys/ipv4/inst/dom-{vrfName}/rt-[{prefix}].json\n  method: get\n  operationId: getStaticRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /class/ipv4Route.json\n  method: get\n  operationId: listStaticRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mo/sys/bgp.json\n  method: get\n  operationId: getBgpConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mo/sys.json\n  method: get\n  operationId: getSystemInfo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mo/sys.json\n  method: post\n  operationId: configureSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mo/sys/fm.json\n  method: post\n  operationId: configureFeatures\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-nexus/refs/heads/main/agentic-access/cisco-nexus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-nexus/agentic-access/cisco-nexus-agentic-access.yml
 summary_line: 18 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Data Center

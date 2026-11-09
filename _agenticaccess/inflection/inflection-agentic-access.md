@@ -9,31 +9,31 @@ api_specs:
   label: Inflection AI Chat API
   slug: inflection-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-chat-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-chat-api-openapi.yml
 - filename: inflection-discovery-api-openapi.yml
   format: yaml
   label: Inflection AI Discovery API
   slug: inflection-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-discovery-api-openapi.yml
 - filename: inflection-embeddings-api-openapi.yml
   format: yaml
   label: Inflection AI Embeddings API
   slug: inflection-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-embeddings-api-openapi.yml
 - filename: inflection-external-api-openapi.yml
   format: yaml
   label: Inflection AI External API
   slug: inflection-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-external-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-external-api-openapi.yml
 - filename: inflection-status-api-openapi.yml
   format: yaml
   label: Inflection AI Status API
   slug: inflection-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/openapi/inflection-status-api-openapi.yml
+  url: https://artifacts.apis.io/inflection/openapi/inflection-status-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inflec
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chat/attributes\n  method: post\n  operationId: chat_attributes_v1_chat_attributes_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/embeddings\n  method: post\n  operationId: embeddings_v1_embeddings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/discovery/configs\n  method: get\n  operationId: configs_v1_discovery_configs_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/api/inference/openai/v1/chat/completions\n  method: post\n  operationId: external_openai_chat_endpoint_external_api_inference_openai_v1_chat_completions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/inference\n  method: post\n  operationId: external_chat_external_api_inference_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/api/inference/streaming\n  method: post\n  operationId:\
   \ external_streaming_external_api_inference_streaming_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflection/refs/heads/main/agentic-access/inflection-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inflection/agentic-access/inflection-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - Artificial Intelligence

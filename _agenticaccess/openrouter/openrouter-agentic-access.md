@@ -9,43 +9,43 @@ api_specs:
   label: OpenRouter Completions API
   slug: openrouter-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-completions-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-completions-api-openapi.yml
 - filename: openrouter-credits-api-openapi.yml
   format: yaml
   label: OpenRouter Credits API
   slug: openrouter-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-credits-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-credits-api-openapi.yml
 - filename: openrouter-generation-api-openapi.yml
   format: yaml
   label: OpenRouter Generation API
   slug: openrouter-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-generation-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-generation-api-openapi.yml
 - filename: openrouter-keys-api-openapi.yml
   format: yaml
   label: OpenRouter Keys API
   slug: openrouter-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-keys-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-keys-api-openapi.yml
 - filename: openrouter-models-api-openapi.yml
   format: yaml
   label: OpenRouter Models API
   slug: openrouter-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-models-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-models-api-openapi.yml
 - filename: openrouter-providers-api-openapi.yml
   format: yaml
   label: OpenRouter Providers API
   slug: openrouter-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-providers-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-providers-api-openapi.yml
 - filename: openrouter-chat-completions-api-openapi.yml
   format: yaml
   label: OpenRouter Chat Completions API
   slug: openrouter-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/openapi/openrouter-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/openrouter/openapi/openrouter-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openro
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{author}/{slug}/endpoints\n  method: get\n  operationId: listModelEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /generation\n  method: get\n  operationId: getGeneration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /providers\n  method: get\n  operationId: listProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keys\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keys\n  method: post\n  operationId: createKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{hash}\n  method: get\n  operationId: getKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /keys/{hash}\n  method: delete\n  operationId: deleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{hash}\n  method: patch\n  operationId: updateKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openrouter/refs/heads/main/agentic-access/openrouter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openrouter/agentic-access/openrouter-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Artificial Intelligence

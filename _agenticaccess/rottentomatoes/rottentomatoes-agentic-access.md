@@ -8,31 +8,31 @@ api_specs:
   label: Rotten Tomatoes Detailed Info API
   slug: rottentomatoes-detailed-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-detailed-info-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-detailed-info-api-openapi.yml
 - filename: rottentomatoes-dvd-lists-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes DVD Lists API
   slug: rottentomatoes-dvd-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-dvd-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-dvd-lists-api-openapi.yml
 - filename: rottentomatoes-movie-lists-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes Movie Lists API
   slug: rottentomatoes-movie-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-movie-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-movie-lists-api-openapi.yml
 - filename: rottentomatoes-search-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes Search API
   slug: rottentomatoes-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-search-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-search-api-openapi.yml
 - filename: rottentomatoes-top-level-lists-api-openapi.yml
   format: yaml
   label: Rotten Tomatoes Top Level Lists API
   slug: rottentomatoes-top-level-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/openapi/rottentomatoes-top-level-lists-api-openapi.yml
+  url: https://artifacts.apis.io/rottentomatoes/openapi/rottentomatoes-top-level-lists-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/movies/box_office.json\n  method: get\n  operationId: BoxOfficeMovieLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/movies/in_theaters.json\n  method: get\n  operationId: InTheatersMovieLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/movies/opening.json\n  method: get\n  operationId: OpeningMoviesMovieLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/movies/upcoming.json\n  method: get\n  operationId: UpcomingMoviesMovieLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movie_alias.json\n  method: get\n  operationId: MoviesAliasDetailedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movies.json\n  method: get\n  operationId: MoviesSearchSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movies/{id}.json\n  method: get\n  operationId: MoviesInfoDetailedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movies/{id}/cast.json\n  method: get\n  operationId: CastInfoDetailedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movies/{id}/clips.json\n\
   \  method: get\n  operationId: MovieClipsDetailedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movies/{id}/reviews.json\n  method: get\n  operationId: MoviesReviewsDetailedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /movies/{id}/similar.json\n  method: get\n  operationId: MoviesSimilarDetailedInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rottentomatoes/refs/heads/main/agentic-access/rottentomatoes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rottentomatoes/agentic-access/rottentomatoes-agentic-access.yml
 summary_line: 18 operations
 tags:
 - Movies

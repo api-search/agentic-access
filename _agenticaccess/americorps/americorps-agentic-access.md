@@ -8,19 +8,19 @@ api_specs:
   label: AmeriCorps Catalog API
   slug: americorps-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/americorps/openapi/americorps-catalog-api-openapi.yml
 - filename: americorps-datasets-api-openapi.yml
   format: yaml
   label: AmeriCorps Datasets API
   slug: americorps-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/americorps/openapi/americorps-datasets-api-openapi.yml
 - filename: americorps-metadata-api-openapi.yml
   format: yaml
   label: AmeriCorps Metadata API
   slug: americorps-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/openapi/americorps-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/americorps/openapi/americorps-metadata-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/americorps-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /api/views\n  method: get\n  operationId: listViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/views/{dataset_id}.json\n  method: get\n  operationId: getViewMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/{dataset_id}.json\n  method: get\n  operationId:\
   \ getDatasetJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resource/{dataset_id}.csv\n  method: get\n  operationId: getDatasetCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/agentic-access/americorps-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/americorps/agentic-access/americorps-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Federal Government

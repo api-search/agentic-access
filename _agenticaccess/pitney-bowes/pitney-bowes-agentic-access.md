@@ -9,49 +9,49 @@ api_specs:
   label: Pitney Bowes Address API
   slug: pitney-bowes-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-address-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-address-api-openapi.yml
 - filename: pitney-bowes-manifests-api-openapi.yml
   format: yaml
   label: Pitney Bowes Manifests API
   slug: pitney-bowes-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-manifests-api-openapi.yml
 - filename: pitney-bowes-pickups-api-openapi.yml
   format: yaml
   label: Pitney Bowes Pickups API
   slug: pitney-bowes-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-pickups-api-openapi.yml
 - filename: pitney-bowes-rating-api-openapi.yml
   format: yaml
   label: Pitney Bowes Rating API
   slug: pitney-bowes-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-rating-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-rating-api-openapi.yml
 - filename: pitney-bowes-reports-api-openapi.yml
   format: yaml
   label: Pitney Bowes Reports API
   slug: pitney-bowes-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-reports-api-openapi.yml
 - filename: pitney-bowes-shipments-api-openapi.yml
   format: yaml
   label: Pitney Bowes Shipments API
   slug: pitney-bowes-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-shipments-api-openapi.yml
 - filename: pitney-bowes-tracking-api-openapi.yml
   format: yaml
   label: Pitney Bowes Tracking API
   slug: pitney-bowes-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-tracking-api-openapi.yml
 - filename: pitney-bowes-oauth-api-openapi.yml
   format: yaml
   label: Pitney Bowes OAUTH API
   slug: pitney-bowes-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-oauth-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 3
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pitney
   \  method: delete\n  operationId: voidShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shippingservices/v1/manifests\n  method: post\n  operationId: createManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shippingservices/v1/tracking/{trackingNumber}\n  method: get\n  operationId: trackParcel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /shippingservices/v1/addresses/verify\n  method: post\n  operationId: verifyAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shippingservices/v1/pickups\n  method: post\n  operationId: schedulePickup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shippingservices/v1/pickups/{pickupId}\n  method: delete\n  operationId: cancelPickup\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shippingservices/v1/ledger/transactions/reports\n  method: get\n  operationId: getTransactionReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/agentic-access/pitney-bowes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pitney-bowes/agentic-access/pitney-bowes-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Mailing

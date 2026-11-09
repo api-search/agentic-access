@@ -9,49 +9,49 @@ api_specs:
   label: Reloadly Authentication API
   slug: reloadly-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-authentication-api-openapi.yml
 - filename: reloadly-balance-api-openapi.yml
   format: yaml
   label: Reloadly Balance API
   slug: reloadly-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-balance-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-balance-api-openapi.yml
 - filename: reloadly-discounts-api-openapi.yml
   format: yaml
   label: Reloadly Discounts API
   slug: reloadly-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-discounts-api-openapi.yml
 - filename: reloadly-operators-api-openapi.yml
   format: yaml
   label: Reloadly Operators API
   slug: reloadly-operators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-operators-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-operators-api-openapi.yml
 - filename: reloadly-orders-api-openapi.yml
   format: yaml
   label: Reloadly Orders API
   slug: reloadly-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-orders-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-orders-api-openapi.yml
 - filename: reloadly-products-api-openapi.yml
   format: yaml
   label: Reloadly Products API
   slug: reloadly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-products-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-products-api-openapi.yml
 - filename: reloadly-top-ups-api-openapi.yml
   format: yaml
   label: Reloadly Top-Ups API
   slug: reloadly-top-ups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-top-ups-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-top-ups-api-openapi.yml
 - filename: reloadly-transactions-api-openapi.yml
   format: yaml
   label: Reloadly Transactions API
   slug: reloadly-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/openapi/reloadly-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/reloadly/openapi/reloadly-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reload
   \    audit: required\n- path: /topups/transactions\n  method: get\n  operationId: listTopUpTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topups/transactions/{transactionId}\n  method: get\n  operationId: getTopUpTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/balance\n  method: get\n  operationId: getAirtimeBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discounts\n  method: get\n  operationId: listDiscounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discounts/products/{productId}\n  method: get\n  operationId: getProductDiscount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: placeOrder\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reloadly/refs/heads/main/agentic-access/reloadly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reloadly/agentic-access/reloadly-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
 - Gift Cards

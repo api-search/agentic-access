@@ -9,151 +9,151 @@ api_specs:
   label: BusUp Billing information API
   slug: busup-billing-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-billing-information-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-billing-information-api-openapi.yml
 - filename: busup-checkin-api-openapi.yml
   format: yaml
   label: BusUp Check In API
   slug: busup-checkin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-checkin-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-checkin-api-openapi.yml
 - filename: busup-commuting-companies-api-openapi.yml
   format: yaml
   label: BusUp Commuting Companies API
   slug: busup-commuting-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-commuting-companies-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-commuting-companies-api-openapi.yml
 - filename: busup-commuting-employees-api-openapi.yml
   format: yaml
   label: BusUp Commuting Employees API
   slug: busup-commuting-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-commuting-employees-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-commuting-employees-api-openapi.yml
 - filename: busup-commuting-sites-api-openapi.yml
   format: yaml
   label: BusUp Commuting Sites API
   slug: busup-commuting-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-commuting-sites-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-commuting-sites-api-openapi.yml
 - filename: busup-consumptions-api-openapi.yml
   format: yaml
   label: BusUp Consumptions API
   slug: busup-consumptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-consumptions-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-consumptions-api-openapi.yml
 - filename: busup-countries-api-openapi.yml
   format: yaml
   label: BusUp Countries API
   slug: busup-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-countries-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-countries-api-openapi.yml
 - filename: busup-credit-memos-api-openapi.yml
   format: yaml
   label: BusUp Credit Memos API
   slug: busup-credit-memos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-credit-memos-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-credit-memos-api-openapi.yml
 - filename: busup-datalog-api-openapi.yml
   format: yaml
   label: BusUp Datalog API
   slug: busup-datalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-datalog-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-datalog-api-openapi.yml
 - filename: busup-invoices-api-openapi.yml
   format: yaml
   label: BusUp Invoices API
   slug: busup-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-invoices-api-openapi.yml
 - filename: busup-leisure-companies-api-openapi.yml
   format: yaml
   label: BusUp Leisure Companies API
   slug: busup-leisure-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-leisure-companies-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-leisure-companies-api-openapi.yml
 - filename: busup-orders-api-openapi.yml
   format: yaml
   label: BusUp Orders API
   slug: busup-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-orders-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-orders-api-openapi.yml
 - filename: busup-permissions-api-openapi.yml
   format: yaml
   label: BusUp Permissions API
   slug: busup-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-permissions-api-openapi.yml
 - filename: busup-promoters-api-openapi.yml
   format: yaml
   label: BusUp Promoters API
   slug: busup-promoters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-promoters-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-promoters-api-openapi.yml
 - filename: busup-role-api-openapi.yml
   format: yaml
   label: BusUp Role API
   slug: busup-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-role-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-role-api-openapi.yml
 - filename: busup-roles-api-openapi.yml
   format: yaml
   label: BusUp Roles API
   slug: busup-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-roles-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-roles-api-openapi.yml
 - filename: busup-route-rate-api-openapi.yml
   format: yaml
   label: BusUp Route Rate API
   slug: busup-route-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-route-rate-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-route-rate-api-openapi.yml
 - filename: busup-route-stops-api-openapi.yml
   format: yaml
   label: BusUp Route Stops API
   slug: busup-route-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-route-stops-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-route-stops-api-openapi.yml
 - filename: busup-routes-api-openapi.yml
   format: yaml
   label: BusUp Routes API
   slug: busup-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-routes-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-routes-api-openapi.yml
 - filename: busup-routesratesuserplans-api-openapi.yml
   format: yaml
   label: BusUp Routes Rates User Plans API
   slug: busup-routesratesuserplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-routesratesuserplans-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-routesratesuserplans-api-openapi.yml
 - filename: busup-sites-api-openapi.yml
   format: yaml
   label: BusUp Sites API
   slug: busup-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-sites-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-sites-api-openapi.yml
 - filename: busup-student-api-openapi.yml
   format: yaml
   label: BusUp Student API
   slug: busup-student-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-student-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-student-api-openapi.yml
 - filename: busup-tickets-api-openapi.yml
   format: yaml
   label: BusUp Tickets API
   slug: busup-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-tickets-api-openapi.yml
 - filename: busup-user-api-openapi.yml
   format: yaml
   label: BusUp User API
   slug: busup-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-user-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-user-api-openapi.yml
 - filename: busup-user-plans-api-openapi.yml
   format: yaml
   label: BusUp User Plans API
   slug: busup-user-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/openapi/busup-user-plans-api-openapi.yml
+  url: https://artifacts.apis.io/busup/openapi/busup-user-plans-api-openapi.yml
 consequence_counts:
   read: 53
   safety-critical: 3
@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-10-06'\nmethod: generated\nsource: openapi/busup-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/password/request-reset\n  method: post\n  operationId: requestResetPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /users/password/check-reset-token\n  method: post\n  operationId: checkResetPasswordToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n- path: /users/password/reset\n  method: post\n  operationId: resetPassword\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /users/change-password\n  method: post\n  operationId: changePassword\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/logout\n  method: get\n  operationId: logout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /users_admins\n  method: get\n  operationId: index\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/busup/refs/heads/main/agentic-access/busup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/busup/agentic-access/busup-agentic-access.yml
 summary_line: 74 operations · 21 acting · 3 human-in-the-loop
 tags:
 - Company

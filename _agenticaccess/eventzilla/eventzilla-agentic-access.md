@@ -9,43 +9,43 @@ api_specs:
   label: Eventzilla Attendees API
   slug: eventzilla-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-attendees-api-openapi.yml
 - filename: eventzilla-categories-api-openapi.yml
   format: yaml
   label: Eventzilla Categories API
   slug: eventzilla-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-categories-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-categories-api-openapi.yml
 - filename: eventzilla-checkout-api-openapi.yml
   format: yaml
   label: Eventzilla Checkout API
   slug: eventzilla-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-checkout-api-openapi.yml
 - filename: eventzilla-events-api-openapi.yml
   format: yaml
   label: Eventzilla Events API
   slug: eventzilla-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-events-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-events-api-openapi.yml
 - filename: eventzilla-tickets-api-openapi.yml
   format: yaml
   label: Eventzilla Tickets API
   slug: eventzilla-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-tickets-api-openapi.yml
 - filename: eventzilla-transactions-api-openapi.yml
   format: yaml
   label: Eventzilla Transactions API
   slug: eventzilla-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-transactions-api-openapi.yml
 - filename: eventzilla-users-api-openapi.yml
   format: yaml
   label: Eventzilla Users API
   slug: eventzilla-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/openapi/eventzilla-users-api-openapi.yml
+  url: https://artifacts.apis.io/eventzilla/openapi/eventzilla-users-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 12
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \    audit: required\n- path: /users/\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userid}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{checkout_id}\n  method: get\n  operationId: getTransactionByCheckoutId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{refno}\n  method: get\n  operationId: getTransactionByRef\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attendees/{attendeeid}\n  method: get\n  operationId: getAttendee\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /attendees/checkin\n  method: post\n  operationId: checkinAttendee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkout/prepare/{eventid}/{dateid}\n  method: get\n  operationId: prepareCheckout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkout/create\n  method: post\n  operationId: createCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkout/fillorder\n  method: post\n  operationId: fillOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkout/confirm\n  method: post\n  operationId: confirmCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventzilla/refs/heads/main/agentic-access/eventzilla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eventzilla/agentic-access/eventzilla-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Event

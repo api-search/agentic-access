@@ -9,139 +9,139 @@ api_specs:
   label: Dovetail Authentication API
   slug: dovetail-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-authentication-api-openapi.yml
 - filename: dovetail-channels-api-openapi.yml
   format: yaml
   label: Dovetail Channels API
   slug: dovetail-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-channels-api-openapi.yml
 - filename: dovetail-contacts-api-openapi.yml
   format: yaml
   label: Dovetail Contacts API
   slug: dovetail-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-contacts-api-openapi.yml
 - filename: dovetail-data-api-openapi.yml
   format: yaml
   label: Dovetail Data API
   slug: dovetail-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-data-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-data-api-openapi.yml
 - filename: dovetail-datasets-api-openapi.yml
   format: yaml
   label: Dovetail Datasets API
   slug: dovetail-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-datasets-api-openapi.yml
 - filename: dovetail-doccomments-api-openapi.yml
   format: yaml
   label: Dovetail Doc Comments API
   slug: dovetail-doccomments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-doccomments-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-doccomments-api-openapi.yml
 - filename: dovetail-docs-api-openapi.yml
   format: yaml
   label: Dovetail Docs API
   slug: dovetail-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-docs-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-docs-api-openapi.yml
 - filename: dovetail-fields-api-openapi.yml
   format: yaml
   label: Dovetail Fields API
   slug: dovetail-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-fields-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-fields-api-openapi.yml
 - filename: dovetail-files-api-openapi.yml
   format: yaml
   label: Dovetail Files API
   slug: dovetail-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-files-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-files-api-openapi.yml
 - filename: dovetail-filesv2-api-openapi.yml
   format: yaml
   label: Dovetail Files V2 API
   slug: dovetail-filesv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-filesv2-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-filesv2-api-openapi.yml
 - filename: dovetail-folders-api-openapi.yml
   format: yaml
   label: Dovetail Folders API
   slug: dovetail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-folders-api-openapi.yml
 - filename: dovetail-highlights-api-openapi.yml
   format: yaml
   label: Dovetail Highlights API
   slug: dovetail-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-highlights-api-openapi.yml
 - filename: dovetail-insightcomments-api-openapi.yml
   format: yaml
   label: Dovetail Insight Comments API
   slug: dovetail-insightcomments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-insightcomments-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-insightcomments-api-openapi.yml
 - filename: dovetail-insights-api-openapi.yml
   format: yaml
   label: Dovetail Insights API
   slug: dovetail-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-insights-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-insights-api-openapi.yml
 - filename: dovetail-notes-api-openapi.yml
   format: yaml
   label: Dovetail Notes API
   slug: dovetail-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-notes-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-notes-api-openapi.yml
 - filename: dovetail-projects-api-openapi.yml
   format: yaml
   label: Dovetail Projects API
   slug: dovetail-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-projects-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-projects-api-openapi.yml
 - filename: dovetail-search-api-openapi.yml
   format: yaml
   label: Dovetail Search API
   slug: dovetail-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-search-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-search-api-openapi.yml
 - filename: dovetail-searchv2-api-openapi.yml
   format: yaml
   label: Dovetail Search V2 API
   slug: dovetail-searchv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-searchv2-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-searchv2-api-openapi.yml
 - filename: dovetail-summarize-api-openapi.yml
   format: yaml
   label: Dovetail Summarize API
   slug: dovetail-summarize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-summarize-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-summarize-api-openapi.yml
 - filename: dovetail-tags-api-openapi.yml
   format: yaml
   label: Dovetail Tags API
   slug: dovetail-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-tags-api-openapi.yml
 - filename: dovetail-transcripts-api-openapi.yml
   format: yaml
   label: Dovetail Transcripts API
   slug: dovetail-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-transcripts-api-openapi.yml
 - filename: dovetail-users-api-openapi.yml
   format: yaml
   label: Dovetail Users API
   slug: dovetail-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-users-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-users-api-openapi.yml
 - filename: dovetail-workspace-api-openapi.yml
   format: yaml
   label: Dovetail Workspace API
   slug: dovetail-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/openapi/dovetail-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/dovetail/openapi/dovetail-workspace-api-openapi.yml
 consequence_counts:
   read: 46
   write: 65
@@ -198,7 +198,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/doveta
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspace/context\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workspace/context/docs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/files/large-upload\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/files/upload\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/files/{file_id}/large-upload/complete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/files/{file_id}/upload/complete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/search\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dovetail/refs/heads/main/agentic-access/dovetail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dovetail/agentic-access/dovetail-agentic-access.yml
 summary_line: 111 operations · 65 acting
 tags:
 - Company
@@ -211,4 +211,7 @@ tags:
 - Analytics
 - Artificial Intelligence
 - Product Management
+- Customer Intelligence
+- Feedback
+- Research
 ---

@@ -9,13 +9,13 @@ api_specs:
   label: Google Cloud Secret Manager Secret Versions API
   slug: google-cloud-secret-manager-secret-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/google-cloud-secret-manager-secret-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-secret-versions-api-openapi.yml
 - filename: google-cloud-secret-manager-secrets-api-openapi.yml
   format: yaml
   label: Google Cloud Secret Manager Secrets API
   slug: google-cloud-secret-manager-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/openapi/google-cloud-secret-manager-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-secret-manager/openapi/google-cloud-secret-manager-secrets-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/secrets/{secretId}\n  method: get\n  operationId: getSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/secrets/{secretId}\n  method: patch\n  operationId: updateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/secrets/{secretId}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/secrets/{secretId}:addVersion\n  method: post\n  operationId: addSecretVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/secrets/{secretId}/versions\n  method: get\n  operationId: listSecretVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/secrets/{secretId}/versions/{versionId}:access\n  method: get\n  operationId: accessSecretVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /projects/{projectId}/secrets/{secretId}/versions/{versionId}:destroy\n  method: post\n  operationId: destroySecretVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/agentic-access/google-cloud-secret-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-secret-manager/agentic-access/google-cloud-secret-manager-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Configuration

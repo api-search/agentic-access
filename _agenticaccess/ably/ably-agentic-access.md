@@ -9,73 +9,73 @@ api_specs:
   label: Ably Apps API
   slug: ably-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-apps-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-apps-api-openapi.yml
 - filename: ably-authentication-api-openapi.yml
   format: yaml
   label: Ably Authentication API
   slug: ably-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-authentication-api-openapi.yml
 - filename: ably-history-api-openapi.yml
   format: yaml
   label: Ably History API
   slug: ably-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-history-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-history-api-openapi.yml
 - filename: ably-keys-api-openapi.yml
   format: yaml
   label: Ably Keys API
   slug: ably-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-keys-api-openapi.yml
 - filename: ably-namespaces-api-openapi.yml
   format: yaml
   label: Ably Namespaces API
   slug: ably-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-namespaces-api-openapi.yml
 - filename: ably-publishing-api-openapi.yml
   format: yaml
   label: Ably Publishing API
   slug: ably-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-publishing-api-openapi.yml
 - filename: ably-push-api-openapi.yml
   format: yaml
   label: Ably Push API
   slug: ably-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-push-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-push-api-openapi.yml
 - filename: ably-queues-api-openapi.yml
   format: yaml
   label: Ably Queues API
   slug: ably-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-queues-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-queues-api-openapi.yml
 - filename: ably-rules-api-openapi.yml
   format: yaml
   label: Ably Rules API
   slug: ably-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-rules-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-rules-api-openapi.yml
 - filename: ably-stats-api-openapi.yml
   format: yaml
   label: Ably Stats API
   slug: ably-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-stats-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-stats-api-openapi.yml
 - filename: ably-status-api-openapi.yml
   format: yaml
   label: Ably Status API
   slug: ably-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-status-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-status-api-openapi.yml
 - filename: ably-tokens-api-openapi.yml
   format: yaml
   label: Ably Tokens API
   slug: ably-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/openapi/ably-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/ably/openapi/ably-tokens-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 1
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ably-c
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /push/channelSubscriptions\n  method: get\n  operationId: getPushSubscriptionsOnChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /push/channelSubscriptions\n  method: post\n  operationId: subscribePushDeviceToChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /push/channelSubscriptions\n  method: delete\n  operationId: deletePushDeviceDetails\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /push/channels\n  method: get\n  operationId: getChannelsWithPushSubscribers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /push/publish\n  method: post\n  operationId: publishPushNotificationToDevices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{keyName}/requestToken\n  method: post\n  operationId: requestAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time\n  method: get\n  operationId: getTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ably/refs/heads/main/agentic-access/ably-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ably/agentic-access/ably-agentic-access.yml
 summary_line: 44 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Real-Time

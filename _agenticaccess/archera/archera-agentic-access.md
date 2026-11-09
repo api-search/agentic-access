@@ -9,55 +9,55 @@ api_specs:
   label: Archera Commitment Plans API
   slug: archera-commitment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-commitment-plans-api-openapi.yml
 - filename: archera-commitments-api-openapi.yml
   format: yaml
   label: Archera Commitments API
   slug: archera-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-commitments-api-openapi.yml
 - filename: archera-exchanges-api-openapi.yml
   format: yaml
   label: Archera Exchanges API
   slug: archera-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-exchanges-api-openapi.yml
 - filename: archera-metrics-api-openapi.yml
   format: yaml
   label: Archera Metrics API
   slug: archera-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-metrics-api-openapi.yml
 - filename: archera-orgs-api-openapi.yml
   format: yaml
   label: Archera Orgs API
   slug: archera-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-orgs-api-openapi.yml
 - filename: archera-resources-api-openapi.yml
   format: yaml
   label: Archera Resources API
   slug: archera-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-resources-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-resources-api-openapi.yml
 - filename: archera-uploads-api-openapi.yml
   format: yaml
   label: Archera Uploads API
   slug: archera-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-uploads-api-openapi.yml
 - filename: archera-well-known-api-openapi.yml
   format: yaml
   label: Archera Well-Known API
   slug: archera-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-well-known-api-openapi.yml
 - filename: archera-oauth-api-openapi.yml
   format: yaml
   label: Archera O Auth API
   slug: archera-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/openapi/archera-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/archera/openapi/archera-oauth-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 3
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/archer
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/authorize\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/authorize\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/sessions\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/sessions/{token_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /oauth/revoke-all\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /oauth/revoke\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /oauth/register\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/archera/refs/heads/main/agentic-access/archera-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/archera/agentic-access/archera-agentic-access.yml
 summary_line: 28 operations · 9 acting · 3 human-in-the-loop
 tags:
 - Company
@@ -120,6 +120,7 @@ tags:
 - Cloud Commitments
 - Cost Optimization
 - MCP
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 - Reserved Instances

@@ -9,37 +9,37 @@ api_specs:
   label: Microsoft Power Automate Connections API
   slug: microsoft-power-automate-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-connections-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-connections-api-openapi.yml
 - filename: microsoft-power-automate-connectors-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Connectors API
   slug: microsoft-power-automate-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-connectors-api-openapi.yml
 - filename: microsoft-power-automate-environments-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Environments API
   slug: microsoft-power-automate-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-environments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-environments-api-openapi.yml
 - filename: microsoft-power-automate-flow-permissions-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Flow Permissions API
   slug: microsoft-power-automate-flow-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flow-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-flow-permissions-api-openapi.yml
 - filename: microsoft-power-automate-flow-runs-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Flow Runs API
   slug: microsoft-power-automate-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-flow-runs-api-openapi.yml
 - filename: microsoft-power-automate-flows-api-openapi.yml
   format: yaml
   label: Microsoft Power Automate Flows API
   slug: microsoft-power-automate-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/openapi/microsoft-power-automate-flows-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-automate/openapi/microsoft-power-automate-flows-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/micros
   \ none\n- path: /providers/Microsoft.ProcessSimple/environments/{environmentName}/flows/{flowName}\n  method: patch\n  operationId: updateFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providers/Microsoft.ProcessSimple/environments/{environmentName}/flows/{flowName}\n  method: delete\n  operationId: deleteFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providers/Microsoft.ProcessSimple/environments/{environmentName}/flows/{flowName}/start\n  method: post\n  operationId: turnOnFlow\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /providers/Microsoft.ProcessSimple/environments/{environmentName}/flows/{flowName}/stop\n  method: post\n  operationId: turnOffFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /providers/Microsoft.ProcessSimple/environments/{environmentName}/flows/{flowName}/listCallbackUrl\n  method: post\n  operationId: listCallbackUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-automate/refs/heads/main/agentic-access/microsoft-power-automate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-power-automate/agentic-access/microsoft-power-automate-agentic-access.yml
 summary_line: 18 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Automation

@@ -9,145 +9,145 @@ api_specs:
   label: Onecli Agent Setup API
   slug: onecli-agent-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-agent-setup-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-agent-setup-api-openapi.yml
 - filename: onecli-agents-api-openapi.yml
   format: yaml
   label: Onecli Agents API
   slug: onecli-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-agents-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-agents-api-openapi.yml
 - filename: onecli-approvals-api-openapi.yml
   format: yaml
   label: Onecli Approvals API
   slug: onecli-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-approvals-api-openapi.yml
 - filename: onecli-apps-api-openapi.yml
   format: yaml
   label: Onecli Apps API
   slug: onecli-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-apps-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-apps-api-openapi.yml
 - filename: onecli-connections-api-openapi.yml
   format: yaml
   label: Onecli Connections API
   slug: onecli-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-connections-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-connections-api-openapi.yml
 - filename: onecli-migration-api-openapi.yml
   format: yaml
   label: Onecli Migration API
   slug: onecli-migration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-migration-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-migration-api-openapi.yml
 - filename: onecli-organization-app-config-api-openapi.yml
   format: yaml
   label: Onecli Organization App Config API
   slug: onecli-organization-app-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-app-config-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-app-config-api-openapi.yml
 - filename: onecli-organization-approvals-api-openapi.yml
   format: yaml
   label: Onecli Organization Approvals API
   slug: onecli-organization-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-approvals-api-openapi.yml
 - filename: onecli-organization-connections-api-openapi.yml
   format: yaml
   label: Onecli Organization Connections API
   slug: onecli-organization-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-connections-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-connections-api-openapi.yml
 - filename: onecli-organization-partner-api-openapi.yml
   format: yaml
   label: Onecli Organization Partner API
   slug: onecli-organization-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-partner-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-partner-api-openapi.yml
 - filename: onecli-organization-rules-api-openapi.yml
   format: yaml
   label: Onecli Organization Rules API
   slug: onecli-organization-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-rules-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-rules-api-openapi.yml
 - filename: onecli-organization-secrets-api-openapi.yml
   format: yaml
   label: Onecli Organization Secrets API
   slug: onecli-organization-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-secrets-api-openapi.yml
 - filename: onecli-organization-settings-api-openapi.yml
   format: yaml
   label: Onecli Organization Settings API
   slug: onecli-organization-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-organization-settings-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-organization-settings-api-openapi.yml
 - filename: onecli-partner-budgets-api-openapi.yml
   format: yaml
   label: Onecli Partner Budgets API
   slug: onecli-partner-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-partner-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-partner-budgets-api-openapi.yml
 - filename: onecli-partner-members-api-openapi.yml
   format: yaml
   label: Onecli Partner Members API
   slug: onecli-partner-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-partner-members-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-partner-members-api-openapi.yml
 - filename: onecli-partner-organizations-api-openapi.yml
   format: yaml
   label: Onecli Partner Organizations API
   slug: onecli-partner-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-partner-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-partner-organizations-api-openapi.yml
 - filename: onecli-partner-projects-api-openapi.yml
   format: yaml
   label: Onecli Partner Projects API
   slug: onecli-partner-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-partner-projects-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-partner-projects-api-openapi.yml
 - filename: onecli-partner-secrets-api-openapi.yml
   format: yaml
   label: Onecli Partner Secrets API
   slug: onecli-partner-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-partner-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-partner-secrets-api-openapi.yml
 - filename: onecli-projects-api-openapi.yml
   format: yaml
   label: Onecli Projects API
   slug: onecli-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-projects-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-projects-api-openapi.yml
 - filename: onecli-rules-api-openapi.yml
   format: yaml
   label: Onecli Rules API
   slug: onecli-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-rules-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-rules-api-openapi.yml
 - filename: onecli-secrets-api-openapi.yml
   format: yaml
   label: Onecli Secrets API
   slug: onecli-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-secrets-api-openapi.yml
 - filename: onecli-team-api-openapi.yml
   format: yaml
   label: Onecli Team API
   slug: onecli-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-team-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-team-api-openapi.yml
 - filename: onecli-user-api-openapi.yml
   format: yaml
   label: Onecli User API
   slug: onecli-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-user-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-user-api-openapi.yml
 - filename: onecli-utility-api-openapi.yml
   format: yaml
   label: Onecli Utility API
   slug: onecli-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/openapi/onecli-utility-api-openapi.yml
+  url: https://artifacts.apis.io/onecli/openapi/onecli-utility-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 52
@@ -213,8 +213,8 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/onecli
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/secrets/{secretId}\n  method: patch\n  operationId: updatePartnerSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/secrets/{secretId}\n  method: delete\n  operationId: deletePartnerSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /partner/orgs/{orgId}/budgets\n  method: get\n  operationId: listPartnerOrgBudgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/orgs/{orgId}/secrets/{secretId}/budget\n  method: post\n  operationId: setPartnerOrgBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/orgs/{orgId}/secrets/{secretId}/budget\n  method: delete\n  operationId: clearPartnerOrgBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /partner/members\n  method: get\n  operationId: listPartnerMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/members\n  method: post\n  operationId: addPartnerMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/members/{userId}/role\n  method: patch\n  operationId: changePartnerMemberRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32\
-  \ KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/agentic-access/onecli-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onecli/refs/heads/main/agentic-access/onecli-agentic-access.yml
+  \ KB total) ---\n# Full source: https://artifacts.apis.io/onecli/agentic-access/onecli-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/onecli/agentic-access/onecli-agentic-access.yml
 summary_line: 116 operations · 64 acting
 tags:
 - Company
@@ -224,8 +224,9 @@ tags:
 - Secrets Management
 - Credentials
 - Gateways
-- Authentication
+- OAuth
 - Developer Tools
 - MCP
 - Vault
+- Authentication
 ---

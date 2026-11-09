@@ -9,79 +9,79 @@ api_specs:
   label: Convai Characters API
   slug: convai-com-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-characters-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-characters-api-openapi.yml
 - filename: convai-com-chat-history-api-openapi.yml
   format: yaml
   label: Convai Chat History API
   slug: convai-com-chat-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-chat-history-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-chat-history-api-openapi.yml
 - filename: convai-com-custom-llm-api-openapi.yml
   format: yaml
   label: Convai Custom LLM API
   slug: convai-com-custom-llm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-custom-llm-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-custom-llm-api-openapi.yml
 - filename: convai-com-evaluation-api-openapi.yml
   format: yaml
   label: Convai Evaluation API
   slug: convai-com-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-evaluation-api-openapi.yml
 - filename: convai-com-interaction-api-openapi.yml
   format: yaml
   label: Convai Interaction API
   slug: convai-com-interaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-interaction-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-interaction-api-openapi.yml
 - filename: convai-com-knowledge-bank-api-openapi.yml
   format: yaml
   label: Convai Knowledge Bank API
   slug: convai-com-knowledge-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-knowledge-bank-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-knowledge-bank-api-openapi.yml
 - filename: convai-com-narrative-api-openapi.yml
   format: yaml
   label: Convai Narrative API
   slug: convai-com-narrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-narrative-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-narrative-api-openapi.yml
 - filename: convai-com-streaming-api-openapi.yml
   format: yaml
   label: Convai Streaming API
   slug: convai-com-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-streaming-api-openapi.yml
 - filename: convai-com-tts-api-openapi.yml
   format: yaml
   label: Convai TTS API
   slug: convai-com-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-tts-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-tts-api-openapi.yml
 - filename: convai-com-app-api-openapi.yml
   format: yaml
   label: Convai App API
   slug: convai-com-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-app-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-app-api-openapi.yml
 - filename: convai-com-disconnect-api-openapi.yml
   format: yaml
   label: Convai Disconnect API
   slug: convai-com-disconnect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-disconnect-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-disconnect-api-openapi.yml
 - filename: convai-com-healthz-api-openapi.yml
   format: yaml
   label: Convai Healthz API
   slug: convai-com-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-healthz-api-openapi.yml
 - filename: convai-com-latency-api-openapi.yml
   format: yaml
   label: Convai Latency API
   slug: convai-com-latency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/openapi/convai-com-latency-api-openapi.yml
+  url: https://artifacts.apis.io/convai-com/openapi/convai-com-latency-api-openapi.yml
 consequence_counts:
   read: 12
   write: 22
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/convai
   \      - high-value\n    audit: required\n- path: /character/narrative/create-trigger\n  method: post\n  operationId: createTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /character/narrative/update-trigger\n  method: post\n  operationId: updateTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /character/narrative/get-trigger\n  method: post\n  operationId: getTrigger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /character/narrative/list-triggers\n  method: post\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /character/narrative/delete-trigger\n  method: post\n  operationId: deleteTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stream\n  method: get\n  operationId: openTranscriptionStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tts\n  method: post\n  operationId: synthesizeSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tts/get_available_voices\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tts/get_available_languages\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/agentic-access/convai-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/convai-com/agentic-access/convai-com-agentic-access.yml
 summary_line: 34 operations · 22 acting
 tags:
 - Artificial Intelligence

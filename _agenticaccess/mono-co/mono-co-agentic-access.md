@@ -9,61 +9,61 @@ api_specs:
   label: Mono Account Information API
   slug: mono-co-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-account-information-api-openapi.yml
 - filename: mono-co-account-linking-api-openapi.yml
   format: yaml
   label: Mono Account Linking API
   slug: mono-co-account-linking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-account-linking-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-account-linking-api-openapi.yml
 - filename: mono-co-direct-debit-api-openapi.yml
   format: yaml
   label: Mono Direct Debit API
   slug: mono-co-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-direct-debit-api-openapi.yml
 - filename: mono-co-directpay-api-openapi.yml
   format: yaml
   label: Mono DirectPay API
   slug: mono-co-directpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-directpay-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-directpay-api-openapi.yml
 - filename: mono-co-identity-and-income-api-openapi.yml
   format: yaml
   label: Mono Identity and Income API
   slug: mono-co-identity-and-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-identity-and-income-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-identity-and-income-api-openapi.yml
 - filename: mono-co-transactions-and-statements-api-openapi.yml
   format: yaml
   label: Mono Transactions and Statements API
   slug: mono-co-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-transactions-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-transactions-and-statements-api-openapi.yml
 - filename: mono-co-creditworthiness-api-openapi.yml
   format: yaml
   label: Mono Creditworthiness API
   slug: mono-co-creditworthiness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-creditworthiness-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-creditworthiness-api-openapi.yml
 - filename: mono-co-financial-data-api-openapi.yml
   format: yaml
   label: Mono Financial Data API
   slug: mono-co-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-financial-data-api-openapi.yml
 - filename: mono-co-investment-api-openapi.yml
   format: yaml
   label: Mono Investment API
   slug: mono-co-investment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-investment-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-investment-api-openapi.yml
 - filename: mono-co-lookup-api-openapi.yml
   format: yaml
   label: Mono Lookup API
   slug: mono-co-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/openapi/mono-co-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/mono-co/openapi/mono-co-lookup-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 21
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mono-c
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{id}/identity\n  method: get\n  operationId: getAccountIdentity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{id}/income\n  method: get\n  operationId: getAccountIncome\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{id}/assets\n  method: get\n  operationId: getAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{id}/earnings\n  method: get\n  operationId: getEarnings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v2/lookup/bvn/initiate\n  method: post\n  operationId: lookupBvnInitiate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/lookup/account-number\n  method: post\n  operationId: lookupAccountNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/lookup/mashup\n  method: post\n  operationId: lookupMashup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{id}/transactions\n  method: get\n  operationId: getAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{id}/statement\n  method: get\n  operationId: getAccountStatement\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mono-co/refs/heads/main/agentic-access/mono-co-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mono-co/agentic-access/mono-co-agentic-access.yml
 summary_line: 30 operations · 9 acting
 tags:
 - Open Banking

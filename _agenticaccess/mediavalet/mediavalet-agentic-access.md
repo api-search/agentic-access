@@ -9,175 +9,175 @@ api_specs:
   label: MediaValet Assets API
   slug: mediavalet-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-assets-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-assets-api-openapi.yml
 - filename: mediavalet-categories-api-openapi.yml
   format: yaml
   label: MediaValet Categories API
   slug: mediavalet-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-categories-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-categories-api-openapi.yml
 - filename: mediavalet-users-api-openapi.yml
   format: yaml
   label: MediaValet Users API
   slug: mediavalet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-users-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-users-api-openapi.yml
 - filename: mediavalet-lightbox-api-openapi.yml
   format: yaml
   label: MediaValet Lightbox API
   slug: mediavalet-lightbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-lightbox-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-lightbox-api-openapi.yml
 - filename: mediavalet-integrations-api-openapi.yml
   format: yaml
   label: MediaValet Integrations API
   slug: mediavalet-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-integrations-api-openapi.yml
 - filename: mediavalet-uploads-api-openapi.yml
   format: yaml
   label: MediaValet Uploads API
   slug: mediavalet-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-uploads-api-openapi.yml
 - filename: mediavalet-attributes-api-openapi.yml
   format: yaml
   label: MediaValet Attributes API
   slug: mediavalet-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-attributes-api-openapi.yml
 - filename: mediavalet-reports-api-openapi.yml
   format: yaml
   label: MediaValet Reports API
   slug: mediavalet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-reports-api-openapi.yml
 - filename: mediavalet-downloads-api-openapi.yml
   format: yaml
   label: MediaValet Downloads API
   slug: mediavalet-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-downloads-api-openapi.yml
 - filename: mediavalet-notification-api-openapi.yml
   format: yaml
   label: MediaValet Notification API
   slug: mediavalet-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-notification-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-notification-api-openapi.yml
 - filename: mediavalet-sharing-api-openapi.yml
   format: yaml
   label: MediaValet Sharing API
   slug: mediavalet-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-sharing-api-openapi.yml
 - filename: mediavalet-crop-api-openapi.yml
   format: yaml
   label: MediaValet Crop API
   slug: mediavalet-crop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-crop-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-crop-api-openapi.yml
 - filename: mediavalet-persons-api-openapi.yml
   format: yaml
   label: MediaValet Persons API
   slug: mediavalet-persons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-persons-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-persons-api-openapi.yml
 - filename: mediavalet-webhooks-api-openapi.yml
   format: yaml
   label: MediaValet Webhooks API
   slug: mediavalet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-webhooks-api-openapi.yml
 - filename: mediavalet-authorization-api-openapi.yml
   format: yaml
   label: MediaValet Authorization API
   slug: mediavalet-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-authorization-api-openapi.yml
 - filename: mediavalet-keywords-api-openapi.yml
   format: yaml
   label: MediaValet Keywords API
   slug: mediavalet-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-keywords-api-openapi.yml
 - filename: mediavalet-searches-api-openapi.yml
   format: yaml
   label: MediaValet Searches API
   slug: mediavalet-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-searches-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-searches-api-openapi.yml
 - filename: mediavalet-config-api-openapi.yml
   format: yaml
   label: MediaValet Config API
   slug: mediavalet-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-config-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-config-api-openapi.yml
 - filename: mediavalet-home-api-openapi.yml
   format: yaml
   label: MediaValet Home API
   slug: mediavalet-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-home-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-home-api-openapi.yml
 - filename: mediavalet-brandedportals-api-openapi.yml
   format: yaml
   label: MediaValet Branded Portals API
   slug: mediavalet-brandedportals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-brandedportals-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-brandedportals-api-openapi.yml
 - filename: mediavalet-introductionandhelp-api-openapi.yml
   format: yaml
   label: MediaValet Introduction And Help API
   slug: mediavalet-introductionandhelp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-introductionandhelp-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-introductionandhelp-api-openapi.yml
 - filename: mediavalet-keywordgroups-api-openapi.yml
   format: yaml
   label: MediaValet Keyword Groups API
   slug: mediavalet-keywordgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-keywordgroups-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-keywordgroups-api-openapi.yml
 - filename: mediavalet-reportsv2-api-openapi.yml
   format: yaml
   label: MediaValet Reports V2 API
   slug: mediavalet-reportsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-reportsv2-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-reportsv2-api-openapi.yml
 - filename: mediavalet-attribute-groups-api-openapi.yml
   format: yaml
   label: MediaValet Attribute Groups API
   slug: mediavalet-attribute-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-attribute-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-attribute-groups-api-openapi.yml
 - filename: mediavalet-direct-links-api-openapi.yml
   format: yaml
   label: MediaValet Direct Links API
   slug: mediavalet-direct-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-direct-links-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-direct-links-api-openapi.yml
 - filename: mediavalet-org-unit-api-openapi.yml
   format: yaml
   label: MediaValet Org unit API
   slug: mediavalet-org-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-org-unit-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-org-unit-api-openapi.yml
 - filename: mediavalet-saved-searches-api-openapi.yml
   format: yaml
   label: MediaValet Saved Searches API
   slug: mediavalet-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-saved-searches-api-openapi.yml
 - filename: mediavalet-terms-and-conditions-api-openapi.yml
   format: yaml
   label: MediaValet Terms And Conditions API
   slug: mediavalet-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-terms-and-conditions-api-openapi.yml
 - filename: mediavalet-user-groups-api-openapi.yml
   format: yaml
   label: MediaValet User Groups API
   slug: mediavalet-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/openapi/mediavalet-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/mediavalet/openapi/mediavalet-user-groups-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 148
@@ -257,8 +257,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mediav
   \ required\n    scope:\n    - api\n- path: /public/{libraryId}/brandedportals/{brandedPortalId}/assets\n  method: get\n  operationId: searchALiveBrandedPortal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /brandedportals/{brandedPortalId}/sections/{sectionId}/uploads\n  method: get\n  operationId: retrieveBrandedPortalUploadSectionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /brandedportals/{brandedPortalId}/sections/{sectionId}/uploads\n  method: put\n  operationId: updateBrandedPortalUploadSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n- path: /brandedportals/{brandedPortalId}/sections/{sectionId}/uploads\n  method: post\n  operationId: createBrandedPortalUploadSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n- path: /brandedportals/{brandedPortalId}/sections/{sectionId}/uploads\n  method: delete\n  operationId: removeBrandedPortalUploadSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n- path: /public/{libraryId}/brandedportals/{brandedPortalId}/renditionKinds\n\
   \  method: get\n  operationId: retrievesBrandedPortalAssetRenditionTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /brandedportals/{brandedPortalId}/{sectionId}/assets\n  method: get\n  operationId: retrieveBrandedPortalDraftAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /brandedportals/{brandedPortalId}/{sectionId}/assets\n  method: post\n  operationId: createAssetsInBrandedPortalSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n\n\n# --- truncated at 32 KB (100\
-  \ KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/agentic-access/mediavalet-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mediavalet/refs/heads/main/agentic-access/mediavalet-agentic-access.yml
+  \ KB total) ---\n# Full source: https://artifacts.apis.io/mediavalet/agentic-access/mediavalet-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mediavalet/agentic-access/mediavalet-agentic-access.yml
 summary_line: 312 operations · 164 acting · 1 human-in-the-loop
 tags:
 - Digital Asset Management

@@ -9,175 +9,175 @@ api_specs:
   label: Rillet API Key API
   slug: rillet-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-api-key-api-openapi.yml
 - filename: rillet-bank-accounts-api-openapi.yml
   format: yaml
   label: Rillet Bank accounts API
   slug: rillet-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-bank-accounts-api-openapi.yml
 - filename: rillet-bank-transactions-api-openapi.yml
   format: yaml
   label: Rillet Bank Transactions API
   slug: rillet-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-bank-transactions-api-openapi.yml
 - filename: rillet-bill-payments-api-openapi.yml
   format: yaml
   label: Rillet Bill Payments API
   slug: rillet-bill-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-bill-payments-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-bill-payments-api-openapi.yml
 - filename: rillet-bills-api-openapi.yml
   format: yaml
   label: Rillet Bills API
   slug: rillet-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-bills-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-bills-api-openapi.yml
 - filename: rillet-books-periods-api-openapi.yml
   format: yaml
   label: Rillet Books periods API
   slug: rillet-books-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-books-periods-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-books-periods-api-openapi.yml
 - filename: rillet-charges-api-openapi.yml
   format: yaml
   label: Rillet Charges API
   slug: rillet-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-charges-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-charges-api-openapi.yml
 - filename: rillet-chart-of-accounts-api-openapi.yml
   format: yaml
   label: Rillet Chart of Accounts API
   slug: rillet-chart-of-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-chart-of-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-chart-of-accounts-api-openapi.yml
 - filename: rillet-contract-items-api-openapi.yml
   format: yaml
   label: Rillet Contract Items API
   slug: rillet-contract-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-contract-items-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-contract-items-api-openapi.yml
 - filename: rillet-contracts-api-openapi.yml
   format: yaml
   label: Rillet Contracts API
   slug: rillet-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-contracts-api-openapi.yml
 - filename: rillet-credit-memos-api-openapi.yml
   format: yaml
   label: Rillet Credit Memos API
   slug: rillet-credit-memos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-credit-memos-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-credit-memos-api-openapi.yml
 - filename: rillet-customer-payments-api-openapi.yml
   format: yaml
   label: Rillet Customer Payments API
   slug: rillet-customer-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-customer-payments-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-customer-payments-api-openapi.yml
 - filename: rillet-customers-api-openapi.yml
   format: yaml
   label: Rillet Customers API
   slug: rillet-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-customers-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-customers-api-openapi.yml
 - filename: rillet-draft-contracts-api-openapi.yml
   format: yaml
   label: Rillet Draft Contracts API
   slug: rillet-draft-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-draft-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-draft-contracts-api-openapi.yml
 - filename: rillet-fields-api-openapi.yml
   format: yaml
   label: Rillet Fields API
   slug: rillet-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-fields-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-fields-api-openapi.yml
 - filename: rillet-health-api-openapi.yml
   format: yaml
   label: Rillet Health API
   slug: rillet-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-health-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-health-api-openapi.yml
 - filename: rillet-invoice-payments-api-openapi.yml
   format: yaml
   label: Rillet Invoice payments API
   slug: rillet-invoice-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-invoice-payments-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-invoice-payments-api-openapi.yml
 - filename: rillet-invoices-api-openapi.yml
   format: yaml
   label: Rillet Invoices API
   slug: rillet-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-invoices-api-openapi.yml
 - filename: rillet-journal-entries-api-openapi.yml
   format: yaml
   label: Rillet Journal Entries API
   slug: rillet-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-journal-entries-api-openapi.yml
 - filename: rillet-organizations-api-openapi.yml
   format: yaml
   label: Rillet Organizations API
   slug: rillet-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-organizations-api-openapi.yml
 - filename: rillet-products-api-openapi.yml
   format: yaml
   label: Rillet Products API
   slug: rillet-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-products-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-products-api-openapi.yml
 - filename: rillet-reimbursements-api-openapi.yml
   format: yaml
   label: Rillet Reimbursements API
   slug: rillet-reimbursements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-reimbursements-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-reimbursements-api-openapi.yml
 - filename: rillet-reports-api-openapi.yml
   format: yaml
   label: Rillet Reports API
   slug: rillet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-reports-api-openapi.yml
 - filename: rillet-subsidiaries-api-openapi.yml
   format: yaml
   label: Rillet Subsidiaries API
   slug: rillet-subsidiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-subsidiaries-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-subsidiaries-api-openapi.yml
 - filename: rillet-tax-rates-api-openapi.yml
   format: yaml
   label: Rillet Tax rates API
   slug: rillet-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-tax-rates-api-openapi.yml
 - filename: rillet-vendor-credit-applications-api-openapi.yml
   format: yaml
   label: Rillet Vendor Credit Applications API
   slug: rillet-vendor-credit-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-vendor-credit-applications-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-vendor-credit-applications-api-openapi.yml
 - filename: rillet-vendor-credits-api-openapi.yml
   format: yaml
   label: Rillet Vendor Credits API
   slug: rillet-vendor-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-vendor-credits-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-vendor-credits-api-openapi.yml
 - filename: rillet-vendors-api-openapi.yml
   format: yaml
   label: Rillet Vendors API
   slug: rillet-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-vendors-api-openapi.yml
 - filename: rillet-webhooks-api-openapi.yml
   format: yaml
   label: Rillet Webhooks API
   slug: rillet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/openapi/rillet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rillet/openapi/rillet-webhooks-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 49
@@ -303,8 +303,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rillet
   \ get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-key\n  method: get\n  operationId: get-api-key-information\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: get\n  operationId: get-fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: post\n  operationId: create-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields/{id}\n  method: put\n  operationId: update-field\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields/{id}/values\n  method: post\n  operationId: create-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fields/{fieldId}/values/{fieldValueId}\n  method: put\n  operationId: update-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /fields/{fieldId}/values/{fieldValueId}\n  method: delete\n  operationId: delete-field-value\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/trial-balance\n  method: get\n  operationId: retrieve-trial-balance-report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/balance-sheet\n  method: get\n  operationId: retrieve-balance-sheet-report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/income-statement\n  method: get\n  operationId: retrieve-income-statement-report\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/agentic-access/rillet-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rillet/refs/heads/main/agentic-access/rillet-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/rillet/agentic-access/rillet-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/rillet/agentic-access/rillet-agentic-access.yml
 summary_line: 110 operations · 61 acting
 tags:
 - Company

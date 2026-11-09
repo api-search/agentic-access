@@ -9,31 +9,31 @@ api_specs:
   label: 0x Cross-Chain API
   slug: 0x-cross-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-cross-chain-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-cross-chain-api-openapi.yml
 - filename: 0x-gasless-api-openapi.yml
   format: yaml
   label: 0x Gasless API
   slug: 0x-gasless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-gasless-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-gasless-api-openapi.yml
 - filename: 0x-sources-api-openapi.yml
   format: yaml
   label: 0x Sources API
   slug: 0x-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-sources-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-sources-api-openapi.yml
 - filename: 0x-swap-api-openapi.yml
   format: yaml
   label: 0x Swap API
   slug: 0x-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-swap-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-swap-api-openapi.yml
 - filename: 0x-trade-analytics-api-openapi.yml
   format: yaml
   label: 0x Trade Analytics API
   slug: 0x-trade-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/openapi/0x-trade-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/0x/openapi/0x-trade-analytics-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/0x-api
   \      max-ttl: 3600\n    audit: none\n- path: /gasless/chains\n  method: get\n  operationId: gasless::chains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sources\n  method: get\n  operationId: sources::getSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trade-analytics/swap\n  method: get\n  operationId: tradeAnalytics::swap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trade-analytics/gasless\n  method: get\n  operationId: tradeAnalytics::gasless\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cross-chain/quotes\n  method: get\n  operationId: crossChain::getQuotes\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cross-chain/status\n  method: get\n  operationId: crossChain::getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cross-chain/sources\n  method: get\n  operationId: crossChain::listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cross-chain/tx-history-beta\n  method: get\n  operationId: crossChain::getTxHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cross-chain/quotes/stream\n  method: get\n  operationId: crossChain::streamQuotes\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/0x/refs/heads/main/agentic-access/0x-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/0x/agentic-access/0x-agentic-access.yml
 summary_line: 19 operations · 1 acting
 tags:
 - Cryptocurrency

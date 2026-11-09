@@ -9,25 +9,25 @@ api_specs:
   label: Apinizer Endpoints API
   slug: apinizer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-endpoints-api-openapi.yml
 - filename: apinizer-gateways-api-openapi.yml
   format: yaml
   label: Apinizer Gateways API
   slug: apinizer-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-gateways-api-openapi.yml
 - filename: apinizer-monitoring-api-openapi.yml
   format: yaml
   label: Apinizer Monitoring API
   slug: apinizer-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-monitoring-api-openapi.yml
 - filename: apinizer-policies-api-openapi.yml
   format: yaml
   label: Apinizer Policies API
   slug: apinizer-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-policies-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-policies-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apinizer-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /gateways\n  method: get\n  operationId: listGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways\n  method: post\n  operationId: createGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateways/{gatewayId}/endpoints\n  method: get\n  operationId: listEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateways/{gatewayId}/policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/agentic-access/apinizer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apinizer/agentic-access/apinizer-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - API Gateway

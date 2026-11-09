@@ -9,37 +9,37 @@ api_specs:
   label: Lunchbox Customer API
   slug: lunchbox-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-customer-api-openapi.yml
+  url: https://artifacts.apis.io/lunchbox/openapi/lunchbox-customer-api-openapi.yml
 - filename: lunchbox-misc-api-openapi.yml
   format: yaml
   label: Lunchbox Misc API
   slug: lunchbox-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-misc-api-openapi.yml
+  url: https://artifacts.apis.io/lunchbox/openapi/lunchbox-misc-api-openapi.yml
 - filename: lunchbox-orders-api-openapi.yml
   format: yaml
   label: Lunchbox Orders API
   slug: lunchbox-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-orders-api-openapi.yml
+  url: https://artifacts.apis.io/lunchbox/openapi/lunchbox-orders-api-openapi.yml
 - filename: lunchbox-service-types-api-openapi.yml
   format: yaml
   label: Lunchbox Service Types API
   slug: lunchbox-service-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-service-types-api-openapi.yml
+  url: https://artifacts.apis.io/lunchbox/openapi/lunchbox-service-types-api-openapi.yml
 - filename: lunchbox-stores-api-openapi.yml
   format: yaml
   label: Lunchbox Stores API
   slug: lunchbox-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-stores-api-openapi.yml
+  url: https://artifacts.apis.io/lunchbox/openapi/lunchbox-stores-api-openapi.yml
 - filename: lunchbox-user-wallet-api-openapi.yml
   format: yaml
   label: Lunchbox User Wallet API
   slug: lunchbox-user-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/openapi/lunchbox-user-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/lunchbox/openapi/lunchbox-user-wallet-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 49
@@ -229,7 +229,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/lunchb
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loyalty-engine/user-wallets/{user_wallet_id}\n  method: get\n  operationId: getUserWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loyalty-engine/user-wallets/{user_wallet_id}\n  method: patch\n  operationId: updateUserWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loyalty-engine/user-wallets/{user_wallet_id}/confirm\n  method: post\n  operationId: confirmUserWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loyalty-engine/user-wallets/{user_wallet_id}/validate\n  method: post\n  operationId: validateUserWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loyalty-engine/user-wallets/{user_wallet_id}/refund\n  method: post\n  operationId: refundUserWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /loyalty-engine/user-wallets/{user_wallet_id}/adjust\n\
   \  method: patch\n  operationId: adjustUserWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/agentic-access/lunchbox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lunchbox/agentic-access/lunchbox-agentic-access.yml
 summary_line: 102 operations · 53 acting · 1 human-in-the-loop
 tags:
 - Restaurant

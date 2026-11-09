@@ -9,61 +9,61 @@ api_specs:
   label: SAS Institute CAS API
   slug: sas-cas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-cas-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-cas-api-openapi.yml
 - filename: sas-decisions-api-openapi.yml
   format: yaml
   label: SAS Institute Decisions API
   slug: sas-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-decisions-api-openapi.yml
 - filename: sas-files-api-openapi.yml
   format: yaml
   label: SAS Institute Files API
   slug: sas-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-files-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-files-api-openapi.yml
 - filename: sas-folders-api-openapi.yml
   format: yaml
   label: SAS Institute Folders API
   slug: sas-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-folders-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-folders-api-openapi.yml
 - filename: sas-identities-api-openapi.yml
   format: yaml
   label: SAS Institute Identities API
   slug: sas-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-identities-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-identities-api-openapi.yml
 - filename: sas-jobs-api-openapi.yml
   format: yaml
   label: SAS Institute Jobs API
   slug: sas-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-jobs-api-openapi.yml
 - filename: sas-logon-api-openapi.yml
   format: yaml
   label: SAS Institute Logon API
   slug: sas-logon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-logon-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-logon-api-openapi.yml
 - filename: sas-models-api-openapi.yml
   format: yaml
   label: SAS Institute Models API
   slug: sas-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-models-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-models-api-openapi.yml
 - filename: sas-reports-api-openapi.yml
   format: yaml
   label: SAS Institute Reports API
   slug: sas-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-reports-api-openapi.yml
 - filename: sas-business-rules-api-openapi.yml
   format: yaml
   label: SAS Institute Business Rules API
   slug: sas-business-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/openapi/sas-business-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sas/openapi/sas-business-rules-api-openapi.yml
 consequence_counts:
   read: 13
   write: 3
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sas-vi
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobExecution/jobs\n  method: post\n  operationId: createJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /jobExecution/jobs/{id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/reports/{id}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /modelRepository/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /modelManagement/projects\n  method: get\n  operationId: listModelProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /decisions/flows\n  method: get\n  operationId: listDecisionFlows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /decisions/flows/{id}\n  method: get\n  operationId: getDecisionFlow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /businessRules/ruleSets\n  method: get\n  operationId: listRuleSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /casManagement/servers\n  method: get\n  operationId: listCasServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/agentic-access/sas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sas/agentic-access/sas-agentic-access.yml
 summary_line: 16 operations · 3 acting
 tags:
 - Analytics

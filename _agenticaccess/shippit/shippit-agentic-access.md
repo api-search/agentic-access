@@ -9,37 +9,37 @@ api_specs:
   label: Shippit Book API
   slug: shippit-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-book-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-book-api-openapi.yml
 - filename: shippit-label-api-openapi.yml
   format: yaml
   label: Shippit Label API
   slug: shippit-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-label-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-label-api-openapi.yml
 - filename: shippit-merchant-api-openapi.yml
   format: yaml
   label: Shippit Merchant API
   slug: shippit-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-merchant-api-openapi.yml
 - filename: shippit-orders-api-openapi.yml
   format: yaml
   label: Shippit Orders API
   slug: shippit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-orders-api-openapi.yml
 - filename: shippit-quote-api-openapi.yml
   format: yaml
   label: Shippit Quote API
   slug: shippit-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-quote-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-quote-api-openapi.yml
 - filename: shippit-tracking-api-openapi.yml
   format: yaml
   label: Shippit Tracking API
   slug: shippit-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/openapi/shippit-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/shippit/openapi/shippit-tracking-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shippi
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{tracking_number}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{tracking_number}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{tracking_number}/tracking\n  method:\
   \ get\n  operationId: getOrderTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /book\n  method: post\n  operationId: bookOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /label/{tracking_number}\n  method: get\n  operationId: getLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchant\n  method: get\n  operationId: getMerchant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /merchant\n  method: put\n  operationId: updateMerchant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchant/operating-hours\n  method: get\n  operationId: getOperatingHours\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippit/refs/heads/main/agentic-access/shippit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shippit/agentic-access/shippit-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Shipping

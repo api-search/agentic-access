@@ -9,199 +9,199 @@ api_specs:
   label: Ask Sage Admin API
   slug: ask-sage-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-admin-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-admin-api-openapi.yml
 - filename: ask-sage-agent-builder-api-openapi.yml
   format: yaml
   label: Ask Sage Agent Builder API
   slug: ask-sage-agent-builder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-agent-builder-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-agent-builder-api-openapi.yml
 - filename: ask-sage-allocation-api-openapi.yml
   format: yaml
   label: Ask Sage Allocation API
   slug: ask-sage-allocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-allocation-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-allocation-api-openapi.yml
 - filename: ask-sage-api-key-management-api-openapi.yml
   format: yaml
   label: Ask Sage API Key Management API
   slug: ask-sage-api-key-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-api-key-management-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-api-key-management-api-openapi.yml
 - filename: ask-sage-audio-api-openapi.yml
   format: yaml
   label: Ask Sage Audio API
   slug: ask-sage-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-audio-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-audio-api-openapi.yml
 - filename: ask-sage-authentication-api-openapi.yml
   format: yaml
   label: Ask Sage Authentication API
   slug: ask-sage-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-authentication-api-openapi.yml
 - filename: ask-sage-chat-management-api-openapi.yml
   format: yaml
   label: Ask Sage Chat Management API
   slug: ask-sage-chat-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-chat-management-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-chat-management-api-openapi.yml
 - filename: ask-sage-completions-api-openapi.yml
   format: yaml
   label: Ask Sage Completions API
   slug: ask-sage-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-completions-api-openapi.yml
 - filename: ask-sage-configuration-api-openapi.yml
   format: yaml
   label: Ask Sage Configuration API
   slug: ask-sage-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-configuration-api-openapi.yml
 - filename: ask-sage-dataset-management-api-openapi.yml
   format: yaml
   label: Ask Sage Dataset Management API
   slug: ask-sage-dataset-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-dataset-management-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-dataset-management-api-openapi.yml
 - filename: ask-sage-datasets-api-openapi.yml
   format: yaml
   label: Ask Sage Datasets API
   slug: ask-sage-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-datasets-api-openapi.yml
 - filename: ask-sage-deep-agent-api-openapi.yml
   format: yaml
   label: Ask Sage Deep Agent API
   slug: ask-sage-deep-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-deep-agent-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-deep-agent-api-openapi.yml
 - filename: ask-sage-execute-agent-api-openapi.yml
   format: yaml
   label: Ask Sage Execute Agent API
   slug: ask-sage-execute-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-execute-agent-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-execute-agent-api-openapi.yml
 - filename: ask-sage-feedback-api-openapi.yml
   format: yaml
   label: Ask Sage Feedback API
   slug: ask-sage-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-feedback-api-openapi.yml
 - filename: ask-sage-files-api-openapi.yml
   format: yaml
   label: Ask Sage Files API
   slug: ask-sage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-files-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-files-api-openapi.yml
 - filename: ask-sage-list-agents-api-openapi.yml
   format: yaml
   label: Ask Sage List Agents API
   slug: ask-sage-list-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-list-agents-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-list-agents-api-openapi.yml
 - filename: ask-sage-mcp-servers-api-openapi.yml
   format: yaml
   label: Ask Sage MCP Servers API
   slug: ask-sage-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-mcp-servers-api-openapi.yml
 - filename: ask-sage-memos-api-openapi.yml
   format: yaml
   label: Ask Sage Memos API
   slug: ask-sage-memos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-memos-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-memos-api-openapi.yml
 - filename: ask-sage-models-api-openapi.yml
   format: yaml
   label: Ask Sage Models API
   slug: ask-sage-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-models-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-models-api-openapi.yml
 - filename: ask-sage-plugins-api-openapi.yml
   format: yaml
   label: Ask Sage Plugins API
   slug: ask-sage-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-plugins-api-openapi.yml
 - filename: ask-sage-sources-api-openapi.yml
   format: yaml
   label: Ask Sage Sources API
   slug: ask-sage-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-sources-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-sources-api-openapi.yml
 - filename: ask-sage-superadmin-api-openapi.yml
   format: yaml
   label: Ask Sage Superadmin API
   slug: ask-sage-superadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-superadmin-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-superadmin-api-openapi.yml
 - filename: ask-sage-system-api-openapi.yml
   format: yaml
   label: Ask Sage System API
   slug: ask-sage-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-system-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-system-api-openapi.yml
 - filename: ask-sage-tabular-data-api-openapi.yml
   format: yaml
   label: Ask Sage Tabular Data API
   slug: ask-sage-tabular-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-tabular-data-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-tabular-data-api-openapi.yml
 - filename: ask-sage-token-requests-api-openapi.yml
   format: yaml
   label: Ask Sage Token Requests API
   slug: ask-sage-token-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-token-requests-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-token-requests-api-openapi.yml
 - filename: ask-sage-training-api-openapi.yml
   format: yaml
   label: Ask Sage Training API
   slug: ask-sage-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-training-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-training-api-openapi.yml
 - filename: ask-sage-usage-api-openapi.yml
   format: yaml
   label: Ask Sage Usage API
   slug: ask-sage-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-usage-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-usage-api-openapi.yml
 - filename: ask-sage-user-information-api-openapi.yml
   format: yaml
   label: Ask Sage User Information API
   slug: ask-sage-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-user-information-api-openapi.yml
 - filename: ask-sage-user-management-api-openapi.yml
   format: yaml
   label: Ask Sage User Management API
   slug: ask-sage-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-user-management-api-openapi.yml
 - filename: ask-sage-utilities-api-openapi.yml
   format: yaml
   label: Ask Sage Utilities API
   slug: ask-sage-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-utilities-api-openapi.yml
 - filename: ask-sage-widgets-api-openapi.yml
   format: yaml
   label: Ask Sage Widgets API
   slug: ask-sage-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-widgets-api-openapi.yml
 - filename: ask-sage-workbooks-api-openapi.yml
   format: yaml
   label: Ask Sage Workbooks API
   slug: ask-sage-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-workbooks-api-openapi.yml
 - filename: ask-sage-organization-api-openapi.yml
   format: yaml
   label: Ask Sage Organization API
   slug: ask-sage-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/openapi/ask-sage-organization-api-openapi.yml
+  url: https://artifacts.apis.io/ask-sage/openapi/ask-sage-organization-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 84
@@ -315,8 +315,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ask-sa
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-agents\n  method: post\n  operationId: list_agents_ep\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /add-mcp-server\n  method: post\n  operationId: postAddMcpServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /add-mcp-server\n  method: get\n  operationId: getAddMcpServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /update-mcp-server\n  method: put\n  operationId: putUpdateMcpServer\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /list-mcp-servers\n  method: get\n  operationId: getListMcpServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-mcp-servers\n  method: post\n  operationId: postListMcpServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-mcp-whitelisted-servers\n  method: get\n  operationId: getListMcpWhitelistedServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-mcp-whitelisted-servers\n\
   \  method: post\n  operationId: postListMcpWhitelistedServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-mcp-tools\n  method: get\n  operationId: getListMcpTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-mcp-tools\n  method: post\n  operationId: postListMcpTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /delete-mcp-server\n  method: delete\n  operationId: deleteDeleteMcpServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /delete-mcp-server\n  method: post\n  operationId: postDeleteMcpServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memo\n  method: put\n  operationId: putMemo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (66 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/agentic-access/ask-sage-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ask-sage/refs/heads/main/agentic-access/ask-sage-agentic-access.yml
+  - path: /delete-mcp-server\n  method: post\n  operationId: postDeleteMcpServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memo\n  method: put\n  operationId: putMemo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (66 KB total) ---\n# Full source: https://artifacts.apis.io/ask-sage/agentic-access/ask-sage-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ask-sage/agentic-access/ask-sage-agentic-access.yml
 summary_line: 219 operations · 135 acting · 6 human-in-the-loop
 tags:
 - Company

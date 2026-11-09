@@ -9,103 +9,103 @@ api_specs:
   label: WP Engine Account API
   slug: wpengine-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-account-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-account-api-openapi.yml
 - filename: wpengine-account-user-api-openapi.yml
   format: yaml
   label: WP Engine Account User API
   slug: wpengine-account-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-account-user-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-account-user-api-openapi.yml
 - filename: wpengine-archive-api-openapi.yml
   format: yaml
   label: WP Engine Archive API
   slug: wpengine-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-archive-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-archive-api-openapi.yml
 - filename: wpengine-backup-api-openapi.yml
   format: yaml
   label: WP Engine Backup API
   slug: wpengine-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-backup-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-backup-api-openapi.yml
 - filename: wpengine-cache-api-openapi.yml
   format: yaml
   label: WP Engine Cache API
   slug: wpengine-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-cache-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-cache-api-openapi.yml
 - filename: wpengine-certificates-api-openapi.yml
   format: yaml
   label: WP Engine Certificates API
   slug: wpengine-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-certificates-api-openapi.yml
 - filename: wpengine-domain-api-openapi.yml
   format: yaml
   label: WP Engine Domain API
   slug: wpengine-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-domain-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-domain-api-openapi.yml
 - filename: wpengine-install-api-openapi.yml
   format: yaml
   label: WP Engine Install API
   slug: wpengine-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-install-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-install-api-openapi.yml
 - filename: wpengine-offload-settings-api-openapi.yml
   format: yaml
   label: WP Engine Offload Settings API
   slug: wpengine-offload-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-offload-settings-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-offload-settings-api-openapi.yml
 - filename: wpengine-site-api-openapi.yml
   format: yaml
   label: WP Engine Site API
   slug: wpengine-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-site-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-site-api-openapi.yml
 - filename: wpengine-site-reports-api-openapi.yml
   format: yaml
   label: WP Engine Site Reports API
   slug: wpengine-site-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-site-reports-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-site-reports-api-openapi.yml
 - filename: wpengine-site-transfer-api-openapi.yml
   format: yaml
   label: WP Engine Site Transfer API
   slug: wpengine-site-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-site-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-site-transfer-api-openapi.yml
 - filename: wpengine-ssh-key-api-openapi.yml
   format: yaml
   label: WP Engine SSH Key API
   slug: wpengine-ssh-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-ssh-key-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-ssh-key-api-openapi.yml
 - filename: wpengine-status-api-openapi.yml
   format: yaml
   label: WP Engine Status API
   slug: wpengine-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-status-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-status-api-openapi.yml
 - filename: wpengine-swagger-api-openapi.yml
   format: yaml
   label: WP Engine Swagger API
   slug: wpengine-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-swagger-api-openapi.yml
 - filename: wpengine-usage-api-openapi.yml
   format: yaml
   label: WP Engine Usage API
   slug: wpengine-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-usage-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-usage-api-openapi.yml
 - filename: wpengine-user-api-openapi.yml
   format: yaml
   label: WP Engine User API
   slug: wpengine-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/openapi/wpengine-user-api-openapi.yml
+  url: https://artifacts.apis.io/wpengine/openapi/wpengine-user-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 31
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wpengi
   \ createBackup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /installs/{install_id}/backups/{backup_id}\n  method: get\n  operationId: showBackup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /installs/{install_id}/backups/{backup_id}/restore\n  method: post\n  operationId: restoreBackup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /installs/{install_id}/purge_cache\n  method: post\n  operationId: purgeCache\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /installs/{install_id}/archives\n  method: get\n  operationId: listArchives\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ssh_keys\n  method: get\n  operationId: listSshKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ssh_keys\n  method: post\n  operationId: createSshKey\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssh_keys/{ssh_key_id}\n  method: delete\n  operationId: deleteSshKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wpengine/refs/heads/main/agentic-access/wpengine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wpengine/agentic-access/wpengine-agentic-access.yml
 summary_line: 60 operations · 29 acting
 tags:
 - WordPress

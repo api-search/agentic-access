@@ -9,25 +9,25 @@ api_specs:
   label: Docsumo Document Types API
   slug: docsumo-document-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-document-types-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-document-types-api-openapi.yml
 - filename: docsumo-documents-api-openapi.yml
   format: yaml
   label: Docsumo Documents API
   slug: docsumo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-documents-api-openapi.yml
 - filename: docsumo-extraction-api-openapi.yml
   format: yaml
   label: Docsumo Extraction API
   slug: docsumo-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-extraction-api-openapi.yml
 - filename: docsumo-review-api-openapi.yml
   format: yaml
   label: Docsumo Review API
   slug: docsumo-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/openapi/docsumo-review-api-openapi.yml
+  url: https://artifacts.apis.io/docsumo/openapi/docsumo-review-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docsum
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eevee/apikey/documents/\n  method: get\n  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eevee/apikey/documents/summary/\n  method: get\n  operationId: documentsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eevee/apikey/documents/{doc_id}/detail/\n  method: get\n  operationId: getDocumentDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eevee/apikey/documents/{doc_id}/\n  method: delete\n\
   \  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eevee/apikey/documents/{doc_id}/review-url/\n  method: get\n  operationId: getReviewUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eevee/apikey/documents/{doc_id}/review-status/\n  method: patch\n  operationId: updateReviewStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eevee/apikey/user/document-types/\n  method: get\n \
   \ operationId: listDocumentTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eevee/apikey/user/detail/\n  method: get\n  operationId: getUserDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docsumo/refs/heads/main/agentic-access/docsumo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docsumo/agentic-access/docsumo-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Document Processing

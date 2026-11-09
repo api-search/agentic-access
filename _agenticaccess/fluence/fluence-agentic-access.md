@@ -9,73 +9,73 @@ api_specs:
   label: Fluence Billing API
   slug: fluence-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-billing-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-billing-api-openapi.yml
 - filename: fluence-hardware-api-openapi.yml
   format: yaml
   label: Fluence Hardware API
   slug: fluence-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-hardware-api-openapi.yml
 - filename: fluence-prices-api-openapi.yml
   format: yaml
   label: Fluence Prices API
   slug: fluence-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-prices-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-prices-api-openapi.yml
 - filename: fluence-publicip-api-openapi.yml
   format: yaml
   label: Fluence PublicIP API
   slug: fluence-publicip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-publicip-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-publicip-api-openapi.yml
 - filename: fluence-service-api-openapi.yml
   format: yaml
   label: Fluence Service API
   slug: fluence-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-service-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-service-api-openapi.yml
 - filename: fluence-ssh-keys-api-openapi.yml
   format: yaml
   label: Fluence SSH keys API
   slug: fluence-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-ssh-keys-api-openapi.yml
 - filename: fluence-storage-api-openapi.yml
   format: yaml
   label: Fluence Storage API
   slug: fluence-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-storage-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-storage-api-openapi.yml
 - filename: fluence-subnets-api-openapi.yml
   format: yaml
   label: Fluence Subnets API
   slug: fluence-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-subnets-api-openapi.yml
 - filename: fluence-users-api-openapi.yml
   format: yaml
   label: Fluence Users API
   slug: fluence-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-users-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-users-api-openapi.yml
 - filename: fluence-vms-api-openapi.yml
   format: yaml
   label: Fluence V Ms API
   slug: fluence-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vms-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-vms-api-openapi.yml
 - filename: fluence-vpcs-api-openapi.yml
   format: yaml
   label: Fluence VP Cs API
   slug: fluence-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-vpcs-api-openapi.yml
 - filename: fluence-security-group-api-openapi.yml
   format: yaml
   label: Fluence Security Group API
   slug: fluence-security-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/openapi/fluence-security-group-api-openapi.yml
+  url: https://artifacts.apis.io/fluence/openapi/fluence-security-group-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 2
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/fluenc
   \  subject: required\n    scope:\n    - vms:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vms/{vm_id}/softreboot\n  method: post\n  operationId: softreboot_users_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - vms:write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/vms/{vm_id}/storages/add\n  method: post\n  operationId: add_storages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vms:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /v2/vms/{vm_id}/storages/remove\n  method: post\n  operationId: remove_storages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vms:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vms/{vm_id}/terminate\n  method: post\n  operationId: terminate_users_vm\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - vms:write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/vms/{vm_id}/vm-api-access-token\n  method: post\n  operationId: mint_vm_access_token\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - vms:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fluence/refs/heads/main/agentic-access/fluence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fluence/agentic-access/fluence-agentic-access.yml
 summary_line: 71 operations · 40 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -9,55 +9,55 @@ api_specs:
   label: Opus Brand Templates API
   slug: opus-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-brand-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-brand-templates-api-openapi.yml
 - filename: opus-censor-jobs-api-openapi.yml
   format: yaml
   label: Opus Censor Jobs API
   slug: opus-censor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-censor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-censor-jobs-api-openapi.yml
 - filename: opus-clip-project-api-openapi.yml
   format: yaml
   label: Opus Clip Project API
   slug: opus-clip-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-clip-project-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-clip-project-api-openapi.yml
 - filename: opus-collection-api-openapi.yml
   format: yaml
   label: Opus Collection API
   slug: opus-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-collection-api-openapi.yml
 - filename: opus-collection-content-api-openapi.yml
   format: yaml
   label: Opus Collection Content API
   slug: opus-collection-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-content-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-collection-content-api-openapi.yml
 - filename: opus-exportableclip-api-openapi.yml
   format: yaml
   label: Opus ExportableClip API
   slug: opus-exportableclip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-exportableclip-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-exportableclip-api-openapi.yml
 - filename: opus-generative-jobs-api-openapi.yml
   format: yaml
   label: Opus Generative Jobs API
   slug: opus-generative-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-generative-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-generative-jobs-api-openapi.yml
 - filename: opus-social-posting-api-openapi.yml
   format: yaml
   label: Opus Social Posting API
   slug: opus-social-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-social-posting-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-social-posting-api-openapi.yml
 - filename: opus-transcripts-api-openapi.yml
   format: yaml
   label: Opus Transcripts API
   slug: opus-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-transcripts-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 13
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/opus-o
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/post-tasks\n  method: post\n  operationId: PostTaskController_createPostTask\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/publish-schedules\n  method: post\n  operationId: PublishScheduleController_createPublishSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/publish-schedules/{scheduleId}\n  method: delete\n  operationId: PublishScheduleController_cancelPublishSchedule\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/generative-jobs\n  method: post\n  operationId: GenerativeJobController_createGenerativeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/generative-jobs/{jobId}\n  method: get\n  operationId: GenerativeJobController_getGenerativeJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transcripts\n\
   \  method: get\n  operationId: TranscriptController_getTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/agentic-access/opus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opus/agentic-access/opus-agentic-access.yml
 summary_line: 22 operations · 13 acting · 13 human-in-the-loop
 tags:
 - Company

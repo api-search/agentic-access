@@ -9,31 +9,31 @@ api_specs:
   label: SpicyAPI Account API
   slug: spicyapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/openapi/spicyapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/spicyapi/openapi/spicyapi-account-api-openapi.yml
 - filename: spicyapi-media-api-openapi.yml
   format: yaml
   label: SpicyAPI Media API
   slug: spicyapi-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/openapi/spicyapi-media-api-openapi.yml
+  url: https://artifacts.apis.io/spicyapi/openapi/spicyapi-media-api-openapi.yml
 - filename: spicyapi-models-api-openapi.yml
   format: yaml
   label: SpicyAPI Models API
   slug: spicyapi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/openapi/spicyapi-models-api-openapi.yml
+  url: https://artifacts.apis.io/spicyapi/openapi/spicyapi-models-api-openapi.yml
 - filename: spicyapi-openai-compatible-api-openapi.yml
   format: yaml
   label: SpicyAPI OpenAI Compatible API
   slug: spicyapi-openai-compatible-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/openapi/spicyapi-openai-compatible-api-openapi.yml
+  url: https://artifacts.apis.io/spicyapi/openapi/spicyapi-openai-compatible-api-openapi.yml
 - filename: spicyapi-tasks-api-openapi.yml
   format: yaml
   label: SpicyAPI Tasks API
   slug: spicyapi-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/openapi/spicyapi-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/spicyapi/openapi/spicyapi-tasks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 14
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/spicya
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/responses\n  method: post\n  operationId: createResponse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/models/{model}:generateContent\n  method: post\n  operationId: geminiGenerateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta/models/{model}:streamGenerateContent\n  method: post\n  operationId: geminiStreamGenerateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos\n  method: post\n  operationId: createVideo\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/videos/{videoId}\n  method: get\n  operationId: retrieveVideo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/videos/{videoId}/content\n  method: get\n  operationId: downloadVideoContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spicyapi/refs/heads/main/agentic-access/spicyapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spicyapi/agentic-access/spicyapi-agentic-access.yml
 summary_line: 24 operations · 14 acting
 tags:
 - Company

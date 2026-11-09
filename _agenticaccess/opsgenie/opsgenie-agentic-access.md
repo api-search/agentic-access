@@ -9,91 +9,91 @@ api_specs:
   label: OpsGenie Account API
   slug: opsgenie-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-account-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-account-api-openapi.yml
 - filename: opsgenie-alerts-api-openapi.yml
   format: yaml
   label: OpsGenie Alerts API
   slug: opsgenie-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-alerts-api-openapi.yml
 - filename: opsgenie-escalations-api-openapi.yml
   format: yaml
   label: OpsGenie Escalations API
   slug: opsgenie-escalations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-escalations-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-escalations-api-openapi.yml
 - filename: opsgenie-heartbeats-api-openapi.yml
   format: yaml
   label: OpsGenie Heartbeats API
   slug: opsgenie-heartbeats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-heartbeats-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-heartbeats-api-openapi.yml
 - filename: opsgenie-incidents-api-openapi.yml
   format: yaml
   label: OpsGenie Incidents API
   slug: opsgenie-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-incidents-api-openapi.yml
 - filename: opsgenie-integrations-api-openapi.yml
   format: yaml
   label: OpsGenie Integrations API
   slug: opsgenie-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-integrations-api-openapi.yml
 - filename: opsgenie-maintenance-api-openapi.yml
   format: yaml
   label: OpsGenie Maintenance API
   slug: opsgenie-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-maintenance-api-openapi.yml
 - filename: opsgenie-notification-rules-api-openapi.yml
   format: yaml
   label: OpsGenie Notification Rules API
   slug: opsgenie-notification-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-notification-rules-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-notification-rules-api-openapi.yml
 - filename: opsgenie-on-call-api-openapi.yml
   format: yaml
   label: OpsGenie On-Call API
   slug: opsgenie-on-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-on-call-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-on-call-api-openapi.yml
 - filename: opsgenie-overrides-api-openapi.yml
   format: yaml
   label: OpsGenie Overrides API
   slug: opsgenie-overrides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-overrides-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-overrides-api-openapi.yml
 - filename: opsgenie-rotations-api-openapi.yml
   format: yaml
   label: OpsGenie Rotations API
   slug: opsgenie-rotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-rotations-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-rotations-api-openapi.yml
 - filename: opsgenie-schedules-api-openapi.yml
   format: yaml
   label: OpsGenie Schedules API
   slug: opsgenie-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-schedules-api-openapi.yml
 - filename: opsgenie-services-api-openapi.yml
   format: yaml
   label: OpsGenie Services API
   slug: opsgenie-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-services-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-services-api-openapi.yml
 - filename: opsgenie-teams-api-openapi.yml
   format: yaml
   label: OpsGenie Teams API
   slug: opsgenie-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-teams-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-teams-api-openapi.yml
 - filename: opsgenie-users-api-openapi.yml
   format: yaml
   label: OpsGenie Users API
   slug: opsgenie-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/openapi/opsgenie-users-api-openapi.yml
+  url: https://artifacts.apis.io/opsgenie/openapi/opsgenie-users-api-openapi.yml
 consequence_counts:
   read: 44
   safety-critical: 6
@@ -187,11 +187,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opsgen
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{identifier}/logs\n  method: get\n  operationId: listTeamLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{identifier}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{identifier}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{identifier}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{identifier}/escalations\n  method: get\n  operationId: listUserEscalations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v2/users/{identifier}/teams\n  method: get\n  operationId: listUserTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{identifier}/schedules\n  method: get\n  operationId: listUserSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsgenie/refs/heads/main/agentic-access/opsgenie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opsgenie/agentic-access/opsgenie-agentic-access.yml
 summary_line: 105 operations · 61 acting · 6 human-in-the-loop
 tags:
 - Alerts
 - Incident Management
 - Monitoring
 - On-Call
+- Incident Response
 ---

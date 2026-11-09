@@ -8,67 +8,67 @@ api_specs:
   label: NATS Messaging API
   slug: nats-messaging-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/properties/nats-messaging-asyncapi.yml
+  url: https://artifacts.apis.io/nats/properties/nats-messaging-asyncapi.yml
 - filename: nats-jetstream-api-asyncapi.yml
   format: yaml
   label: NATS JetStream Management API
   slug: nats-jetstream-management-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/properties/nats-jetstream-api-asyncapi.yml
+  url: https://artifacts.apis.io/nats/properties/nats-jetstream-api-asyncapi.yml
 - filename: nats-accounts-api-openapi.yml
   format: yaml
   label: NATS Accounts API
   slug: nats-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-accounts-api-openapi.yml
 - filename: nats-connections-api-openapi.yml
   format: yaml
   label: NATS Connections API
   slug: nats-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-connections-api-openapi.yml
 - filename: nats-gateways-api-openapi.yml
   format: yaml
   label: NATS Gateways API
   slug: nats-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-gateways-api-openapi.yml
 - filename: nats-health-api-openapi.yml
   format: yaml
   label: NATS Health API
   slug: nats-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-health-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-health-api-openapi.yml
 - filename: nats-jetstream-api-openapi.yml
   format: yaml
   label: NATS JetStream API
   slug: nats-jetstream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-jetstream-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-jetstream-api-openapi.yml
 - filename: nats-leaf-nodes-api-openapi.yml
   format: yaml
   label: NATS Leaf Nodes API
   slug: nats-leaf-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-leaf-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-leaf-nodes-api-openapi.yml
 - filename: nats-routes-api-openapi.yml
   format: yaml
   label: NATS Routes API
   slug: nats-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-routes-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-routes-api-openapi.yml
 - filename: nats-server-api-openapi.yml
   format: yaml
   label: NATS Server API
   slug: nats-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-server-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-server-api-openapi.yml
 - filename: nats-subscriptions-api-openapi.yml
   format: yaml
   label: NATS Subscriptions API
   slug: nats-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/openapi/nats-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/nats/openapi/nats-subscriptions-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -96,7 +96,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nats-monitoring.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /varz\n  method: get\n  operationId: getVarz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connz\n  method: get\n  operationId: getConnz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routez\n  method: get\n  operationId: getRoutez\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gatewayz\n  method: get\n  operationId: getGatewayz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leafz\n  method: get\n  operationId: getLeafz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subsz\n  method: get\n  operationId: getSubsz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jsz\n  method: get\n  operationId: getJsz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accountz\n  method: get\n  operationId: getAccountz\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method: get\n  operationId: getHealthz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ipqueuesz\n  method: get\n  operationId: getIpqueuesz\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nats/refs/heads/main/agentic-access/nats-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nats/agentic-access/nats-agentic-access.yml
 summary_line: 10 operations
 tags:
 - NATS

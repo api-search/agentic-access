@@ -9,61 +9,61 @@ api_specs:
   label: Asapp3 Auto Compose API
   slug: asapp3-autocompose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autocompose-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autocompose-api-openapi.yml
 - filename: asapp3-autosummary-api-openapi.yml
   format: yaml
   label: Asapp3 Auto Summary API
   slug: asapp3-autosummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autosummary-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autosummary-api-openapi.yml
 - filename: asapp3-autotranscribe-api-openapi.yml
   format: yaml
   label: Asapp3 Auto Transcribe API
   slug: asapp3-autotranscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autotranscribe-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autotranscribe-api-openapi.yml
 - filename: asapp3-autotranscribe-media-gateway-api-openapi.yml
   format: yaml
   label: Asapp3 AutoTranscribe Media Gateway API
   slug: asapp3-autotranscribe-media-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-autotranscribe-media-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-autotranscribe-media-gateway-api-openapi.yml
 - filename: asapp3-conversations-api-openapi.yml
   format: yaml
   label: Asapp3 Conversations API
   slug: asapp3-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-conversations-api-openapi.yml
 - filename: asapp3-file-exporter-api-openapi.yml
   format: yaml
   label: Asapp3 File Exporter API
   slug: asapp3-file-exporter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-file-exporter-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-file-exporter-api-openapi.yml
 - filename: asapp3-generativeagent-api-openapi.yml
   format: yaml
   label: Asapp3 Generative Agent API
   slug: asapp3-generativeagent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-generativeagent-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-generativeagent-api-openapi.yml
 - filename: asapp3-health-check-api-openapi.yml
   format: yaml
   label: Asapp3 Health Check API
   slug: asapp3-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-health-check-api-openapi.yml
 - filename: asapp3-knowledge-base-api-openapi.yml
   format: yaml
   label: Asapp3 Knowledge Base API
   slug: asapp3-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-knowledge-base-api-openapi.yml
 - filename: asapp3-metadata-api-openapi.yml
   format: yaml
   label: Asapp3 Metadata API
   slug: asapp3-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/openapi/asapp3-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/asapp3/openapi/asapp3-metadata-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 1
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-26'\nmethod: generated\nsource: openapi/asapp3
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata-ingestion/v1/single-convo-metadata\n  method: post\n  operationId: singleConvoMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata-ingestion/v1/many-convo-metadata\n  method: post\n  operationId: manyConversationMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata-ingestion/v1/single-customer-metadata\n  method: post\n  operationId: singleCustomerMetadata\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata-ingestion/v1/many-customer-metadata\n  method: post\n  operationId: manyCustomerMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mg-autotranscribe/v1/start-streaming\n  method: post\n  operationId: startStreaming\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /mg-autotranscribe/v1/stop-streaming\n  method: post\n  operationId: stopStreaming\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /mg-autotranscribe/v1/twilio-media-stream-url\n  method: get\n  operationId: getTwilioMediaStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asapp3/refs/heads/main/agentic-access/asapp3-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/asapp3/agentic-access/asapp3-agentic-access.yml
 summary_line: 56 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

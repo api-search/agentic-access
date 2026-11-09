@@ -9,73 +9,73 @@ api_specs:
   label: Nomos Authentication API
   slug: nomos-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-authentication-api-openapi.yml
 - filename: nomos-customers-api-openapi.yml
   format: yaml
   label: Nomos Customers API
   slug: nomos-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-customers-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-customers-api-openapi.yml
 - filename: nomos-events-api-openapi.yml
   format: yaml
   label: Nomos Events API
   slug: nomos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-events-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-events-api-openapi.yml
 - filename: nomos-grid-fee-reductions-api-openapi.yml
   format: yaml
   label: Nomos Grid Fee Reductions API
   slug: nomos-grid-fee-reductions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-grid-fee-reductions-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-grid-fee-reductions-api-openapi.yml
 - filename: nomos-invoices-api-openapi.yml
   format: yaml
   label: Nomos Invoices API
   slug: nomos-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-invoices-api-openapi.yml
 - filename: nomos-leads-api-openapi.yml
   format: yaml
   label: Nomos Leads API
   slug: nomos-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-leads-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-leads-api-openapi.yml
 - filename: nomos-market-partners-api-openapi.yml
   format: yaml
   label: Nomos Market Partners API
   slug: nomos-market-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-market-partners-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-market-partners-api-openapi.yml
 - filename: nomos-plans-api-openapi.yml
   format: yaml
   label: Nomos Plans API
   slug: nomos-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-plans-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-plans-api-openapi.yml
 - filename: nomos-prices-api-openapi.yml
   format: yaml
   label: Nomos Prices API
   slug: nomos-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-prices-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-prices-api-openapi.yml
 - filename: nomos-smart-meter-orders-api-openapi.yml
   format: yaml
   label: Nomos Smart Meter Orders API
   slug: nomos-smart-meter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-smart-meter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-smart-meter-orders-api-openapi.yml
 - filename: nomos-subscriptions-api-openapi.yml
   format: yaml
   label: Nomos Subscriptions API
   slug: nomos-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-subscriptions-api-openapi.yml
 - filename: nomos-usage-api-openapi.yml
   format: yaml
   label: Nomos Usage API
   slug: nomos-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/openapi/nomos-usage-api-openapi.yml
+  url: https://artifacts.apis.io/nomos/openapi/nomos-usage-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 22
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nomos-
   - path: /meter-orders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grid-fee-reductions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /grid-fee-reductions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /grid-fee-reductions/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-partners\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/authorize\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/magic_link\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomos/refs/heads/main/agentic-access/nomos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nomos/agentic-access/nomos-agentic-access.yml
 summary_line: 33 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Company
@@ -138,6 +138,7 @@ tags:
 - Metering
 - Smart Meter
 - Germany
-- Authentication
+- OAuth
 - Webhook
+- Authentication
 ---

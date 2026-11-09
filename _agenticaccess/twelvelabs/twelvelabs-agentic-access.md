@@ -9,37 +9,37 @@ api_specs:
   label: TwelveLabs Analyze API
   slug: twelvelabs-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-analyze-api-openapi.yml
 - filename: twelvelabs-embed-api-openapi.yml
   format: yaml
   label: TwelveLabs Embed API
   slug: twelvelabs-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-embed-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-embed-api-openapi.yml
 - filename: twelvelabs-indexes-api-openapi.yml
   format: yaml
   label: TwelveLabs Indexes API
   slug: twelvelabs-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-indexes-api-openapi.yml
 - filename: twelvelabs-search-api-openapi.yml
   format: yaml
   label: TwelveLabs Search API
   slug: twelvelabs-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-search-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-search-api-openapi.yml
 - filename: twelvelabs-tasks-api-openapi.yml
   format: yaml
   label: TwelveLabs Tasks API
   slug: twelvelabs-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-tasks-api-openapi.yml
 - filename: twelvelabs-videos-api-openapi.yml
   format: yaml
   label: TwelveLabs Videos API
   slug: twelvelabs-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/openapi/twelvelabs-videos-api-openapi.yml
+  url: https://artifacts.apis.io/twelvelabs/openapi/twelvelabs-videos-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/twelve
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gist\n  method: post\n  operationId: generateGist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /summarize\n  method: post\n  operationId: summarizeVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embed\n  method: post\n  operationId: createEmbeddings\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embed/tasks\n  method: post\n  operationId: createEmbeddingTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embed/tasks\n  method: get\n  operationId: listEmbeddingTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /embed/tasks/{task_id}\n  method: get\n  operationId: retrieveEmbeddingTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twelvelabs/refs/heads/main/agentic-access/twelvelabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/twelvelabs/agentic-access/twelvelabs-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Artificial Intelligence

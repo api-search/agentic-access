@@ -9,61 +9,61 @@ api_specs:
   label: OpenCart Affiliates API
   slug: opencart-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-affiliates-api-openapi.yml
 - filename: opencart-authentication-api-openapi.yml
   format: yaml
   label: OpenCart Authentication API
   slug: opencart-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-authentication-api-openapi.yml
 - filename: opencart-cart-api-openapi.yml
   format: yaml
   label: OpenCart Cart API
   slug: opencart-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-cart-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-cart-api-openapi.yml
 - filename: opencart-customer-api-openapi.yml
   format: yaml
   label: OpenCart Customer API
   slug: opencart-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-customer-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-customer-api-openapi.yml
 - filename: opencart-orders-api-openapi.yml
   format: yaml
   label: OpenCart Orders API
   slug: opencart-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-orders-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-orders-api-openapi.yml
 - filename: opencart-payment-address-api-openapi.yml
   format: yaml
   label: OpenCart Payment Address API
   slug: opencart-payment-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-payment-address-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-payment-address-api-openapi.yml
 - filename: opencart-payment-methods-api-openapi.yml
   format: yaml
   label: OpenCart Payment Methods API
   slug: opencart-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-payment-methods-api-openapi.yml
 - filename: opencart-shipping-address-api-openapi.yml
   format: yaml
   label: OpenCart Shipping Address API
   slug: opencart-shipping-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-shipping-address-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-shipping-address-api-openapi.yml
 - filename: opencart-shipping-methods-api-openapi.yml
   format: yaml
   label: OpenCart Shipping Methods API
   slug: opencart-shipping-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-shipping-methods-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-shipping-methods-api-openapi.yml
 - filename: opencart-subscriptions-api-openapi.yml
   format: yaml
   label: OpenCart Subscriptions API
   slug: opencart-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/openapi/opencart-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/opencart/openapi/opencart-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 4
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openca
   - path: /shipping_method/getShippingMethods\n  method: get\n  operationId: getShippingMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_method\n  method: post\n  operationId: setPaymentMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_method/getPaymentMethods\n  method: get\n  operationId: getPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order\n  method: post\n  operationId: manageOrder\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /affiliate\n  method: post\n  operationId: setAffiliate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscription\n  method: post\n  operationId: manageSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opencart/refs/heads/main/agentic-access/opencart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opencart/agentic-access/opencart-agentic-access.yml
 summary_line: 16 operations · 12 acting
 tags:
 - E-Commerce

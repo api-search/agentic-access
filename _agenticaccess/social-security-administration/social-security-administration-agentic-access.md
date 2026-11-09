@@ -8,13 +8,13 @@ api_specs:
   label: Social Security Administration Field Offices API
   slug: social-security-administration-field-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/openapi/social-security-administration-field-offices-api-openapi.yml
+  url: https://artifacts.apis.io/social-security-administration/openapi/social-security-administration-field-offices-api-openapi.yml
 - filename: social-security-administration-resident-stations-api-openapi.yml
   format: yaml
   label: Social Security Administration Resident Stations API
   slug: social-security-administration-resident-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/openapi/social-security-administration-resident-stations-api-openapi.yml
+  url: https://artifacts.apis.io/social-security-administration/openapi/social-security-administration-resident-stations-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -40,7 +40,7 @@ source_filename: social-security-administration-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ssa-field-office-openapi.yml, openapi/ssa-resident-station-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /1/query\n  method: get\n  operationId: queryFieldOffices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /0/query\n  method: get\n  operationId: queryResidentStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/agentic-access/social-security-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/social-security-administration/agentic-access/social-security-administration-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Federal Government

@@ -9,31 +9,31 @@ api_specs:
   label: DOAJ Bulk API
   slug: doaj-bulk-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-bulk-api-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-bulk-api-api-openapi.yml
 - filename: doaj-crud-applications-api-openapi.yml
   format: yaml
   label: DOAJ CRUD Applications API
   slug: doaj-crud-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-crud-applications-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-crud-applications-api-openapi.yml
 - filename: doaj-crud-articles-api-openapi.yml
   format: yaml
   label: DOAJ CRUD Articles API
   slug: doaj-crud-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-crud-articles-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-crud-articles-api-openapi.yml
 - filename: doaj-crud-journals-api-openapi.yml
   format: yaml
   label: DOAJ CRUD Journals API
   slug: doaj-crud-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-crud-journals-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-crud-journals-api-openapi.yml
 - filename: doaj-search-api-openapi.yml
   format: yaml
   label: DOAJ Search API
   slug: doaj-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/openapi/doaj-search-api-openapi.yml
+  url: https://artifacts.apis.io/doaj/openapi/doaj-search-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/doaj-o
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bulk/applications\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bulk/articles\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bulk/articles\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bulk/articles/{upload_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/journals/{journal_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/applications/{search_query}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/articles/{search_query}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /api/search/journals/{search_query}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doaj/refs/heads/main/agentic-access/doaj-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/doaj/agentic-access/doaj-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Open Access

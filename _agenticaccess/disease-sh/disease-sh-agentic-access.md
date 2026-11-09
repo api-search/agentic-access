@@ -8,55 +8,55 @@ api_specs:
   label: 'disease.sh COVID-19: Apple API'
   slug: disease-sh-covid-19-apple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-apple-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-apple-api-openapi.yml
 - filename: disease-sh-covid-19-government-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: Government API'
   slug: disease-sh-covid-19-government-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-government-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-government-api-openapi.yml
 - filename: disease-sh-covid-19-jhucsse-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: JHUCSSE API'
   slug: disease-sh-covid-19-jhucsse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-jhucsse-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-jhucsse-api-openapi.yml
 - filename: disease-sh-covid-19-nyt-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: NYT API'
   slug: disease-sh-covid-19-nyt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-nyt-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-nyt-api-openapi.yml
 - filename: disease-sh-covid-19-therapeutics-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: Therapeutics API'
   slug: disease-sh-covid-19-therapeutics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-therapeutics-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-therapeutics-api-openapi.yml
 - filename: disease-sh-covid-19-vaccine-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: Vaccine API'
   slug: disease-sh-covid-19-vaccine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-vaccine-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-vaccine-api-openapi.yml
 - filename: disease-sh-covid-19-variants-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: Variants API'
   slug: disease-sh-covid-19-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-variants-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-variants-api-openapi.yml
 - filename: disease-sh-covid-19-worldometers-api-openapi.yml
   format: yaml
   label: 'disease.sh COVID-19: Worldometers API'
   slug: disease-sh-covid-19-worldometers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-covid-19-worldometers-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-covid-19-worldometers-api-openapi.yml
 - filename: disease-sh-influenza-cdc-api-openapi.yml
   format: yaml
   label: 'disease.sh Influenza: CDC API'
   slug: disease-sh-influenza-cdc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/openapi/disease-sh-influenza-cdc-api-openapi.yml
+  url: https://artifacts.apis.io/disease-sh/openapi/disease-sh-influenza-cdc-api-openapi.yml
 consequence_counts:
   read: 41
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/gov/{country}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/vaccine\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/vaccine/coverage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/vaccine/coverage/countries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/vaccine/coverage/countries/{country}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/vaccine/coverage/states\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/vaccine/coverage/states/{state}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/therapeutics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/variants/countries/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/covid-19/variants/countries/{country}\n \
   \ method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/influenza/cdc/ILINet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/influenza/cdc/USCL\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/influenza/cdc/USPHL\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/agentic-access/disease-sh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/disease-sh/agentic-access/disease-sh-agentic-access.yml
 summary_line: 41 operations
 tags:
 - COVID-19

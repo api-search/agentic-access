@@ -162,7 +162,7 @@ summary_line: 34 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Company
 - B2B Payments
-- FinTech
+- Fintech
 - API Platform
 - Checkout
 - Trade Accounts

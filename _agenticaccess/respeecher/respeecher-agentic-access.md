@@ -9,103 +9,103 @@ api_specs:
   label: Respeecher Space Real-Time TTS API
   slug: respeecher-space-realtime-tts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/asyncapi/respeecher-asyncapi.yml
+  url: https://artifacts.apis.io/respeecher/asyncapi/respeecher-asyncapi.yml
 - filename: respeecher-accents-api-openapi.yml
   format: yaml
   label: Respeecher Accents API
   slug: respeecher-accents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-accents-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-accents-api-openapi.yml
 - filename: respeecher-auth-api-openapi.yml
   format: yaml
   label: Respeecher Auth API
   slug: respeecher-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-auth-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-auth-api-openapi.yml
 - filename: respeecher-calibration-api-openapi.yml
   format: yaml
   label: Respeecher Calibration API
   slug: respeecher-calibration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-calibration-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-calibration-api-openapi.yml
 - filename: respeecher-credits-api-openapi.yml
   format: yaml
   label: Respeecher Credits API
   slug: respeecher-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-credits-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-credits-api-openapi.yml
 - filename: respeecher-folders-api-openapi.yml
   format: yaml
   label: Respeecher Folders API
   slug: respeecher-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-folders-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-folders-api-openapi.yml
 - filename: respeecher-healtz-api-openapi.yml
   format: yaml
   label: Respeecher Healtz API
   slug: respeecher-healtz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-healtz-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-healtz-api-openapi.yml
 - filename: respeecher-models-api-openapi.yml
   format: yaml
   label: Respeecher Models API
   slug: respeecher-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-models-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-models-api-openapi.yml
 - filename: respeecher-narration-styles-api-openapi.yml
   format: yaml
   label: Respeecher Narration Styles API
   slug: respeecher-narration-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-narration-styles-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-narration-styles-api-openapi.yml
 - filename: respeecher-notes-api-openapi.yml
   format: yaml
   label: Respeecher Notes API
   slug: respeecher-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-notes-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-notes-api-openapi.yml
 - filename: respeecher-orders-api-openapi.yml
   format: yaml
   label: Respeecher Orders API
   slug: respeecher-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-orders-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-orders-api-openapi.yml
 - filename: respeecher-projects-api-openapi.yml
   format: yaml
   label: Respeecher Projects API
   slug: respeecher-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-projects-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-projects-api-openapi.yml
 - filename: respeecher-recordings-api-openapi.yml
   format: yaml
   label: Respeecher Recordings API
   slug: respeecher-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-recordings-api-openapi.yml
 - filename: respeecher-stats-api-openapi.yml
   format: yaml
   label: Respeecher Stats API
   slug: respeecher-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-stats-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-stats-api-openapi.yml
 - filename: respeecher-storage-api-openapi.yml
   format: yaml
   label: Respeecher Storage API
   slug: respeecher-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-storage-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-storage-api-openapi.yml
 - filename: respeecher-tts-api-openapi.yml
   format: yaml
   label: Respeecher Tts API
   slug: respeecher-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-tts-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-tts-api-openapi.yml
 - filename: respeecher-voices-api-openapi.yml
   format: yaml
   label: Respeecher Voices API
   slug: respeecher-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/openapi/respeecher-voices-api-openapi.yml
+  url: https://artifacts.apis.io/respeecher/openapi/respeecher-voices-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 25
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/respee
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/stats\n  method: get\n  operationId: get_stats_api_stats_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats/projects\n  method: post\n  operationId: get_project_stats_api_stats_projects_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stats/folders\n  method: post\n  operationId: get_folder_stats_api_stats_folders_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/{file_url}\n  method: get\n  operationId: get_file_api__file_url__get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tts-voices\n  method: get\n  operationId: tts_voice_list_api_tts_voices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/voices\n  method: get\n  operationId: voice_list_api_v2_voices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/voices/search\n  method: get\n  operationId: voice_search_api_v2_voices_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/voices/favorite/{voice_id}\n  method: post\n  operationId: voice_favorite_api_v2_voices_favorite__voice_id__post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/voices/settings\n  method: post\n  operationId: voice_settings_api_v2_voices_settings_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/respeecher/refs/heads/main/agentic-access/respeecher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/respeecher/agentic-access/respeecher-agentic-access.yml
 summary_line: 54 operations · 29 acting
 tags:
 - Voice AI

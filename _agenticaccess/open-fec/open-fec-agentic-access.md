@@ -8,49 +8,49 @@ api_specs:
   label: OpenFEC Candidate API
   slug: open-fec-candidate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-candidate-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-candidate-api-openapi.yml
 - filename: open-fec-candidates-api-openapi.yml
   format: yaml
   label: OpenFEC Candidates API
   slug: open-fec-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-candidates-api-openapi.yml
 - filename: open-fec-committee-api-openapi.yml
   format: yaml
   label: OpenFEC Committee API
   slug: open-fec-committee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-committee-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-committee-api-openapi.yml
 - filename: open-fec-committees-api-openapi.yml
   format: yaml
   label: OpenFEC Committees API
   slug: open-fec-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-committees-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-committees-api-openapi.yml
 - filename: open-fec-elections-api-openapi.yml
   format: yaml
   label: OpenFEC Elections API
   slug: open-fec-elections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-elections-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-elections-api-openapi.yml
 - filename: open-fec-filings-api-openapi.yml
   format: yaml
   label: OpenFEC Filings API
   slug: open-fec-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-filings-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-filings-api-openapi.yml
 - filename: open-fec-names-api-openapi.yml
   format: yaml
   label: OpenFEC Names API
   slug: open-fec-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-names-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-names-api-openapi.yml
 - filename: open-fec-schedules-api-openapi.yml
   format: yaml
   label: OpenFEC Schedules API
   slug: open-fec-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/openapi/open-fec-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/open-fec/openapi/open-fec-schedules-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-f
   \ getCandidate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /candidate/{candidate_id}/totals/\n  method: get\n  operationId: getCandidateTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /candidate/{candidate_id}/committees/\n  method: get\n  operationId: getCandidateCommittees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committees/\n  method: get\n  operationId: listCommittees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee/{committee_id}\n  method: get\n  operationId: getCommittee\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee/{committee_id}/totals/\n  method: get\n  operationId: getCommitteeTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /filings/\n  method: get\n  operationId: listFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/schedule_a/\n  method: get\n  operationId: listScheduleA\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/schedule_b/\n  method: get\n  operationId: listScheduleB\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedules/schedule_e/\n\
   \  method: get\n  operationId: listScheduleE\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /elections/\n  method: get\n  operationId: listElections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names/candidates/\n  method: get\n  operationId: candidateNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /names/committees/\n  method: get\n  operationId: committeeNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/agentic-access/open-fec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-fec/agentic-access/open-fec-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Campaign Finance

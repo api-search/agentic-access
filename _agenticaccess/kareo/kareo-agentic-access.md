@@ -9,37 +9,37 @@ api_specs:
   label: Kareo Administrative API
   slug: kareo-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-administrative-api-openapi.yml
 - filename: kareo-appointments-api-openapi.yml
   format: yaml
   label: Kareo Appointments API
   slug: kareo-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-appointments-api-openapi.yml
 - filename: kareo-billing-api-openapi.yml
   format: yaml
   label: Kareo Billing API
   slug: kareo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-billing-api-openapi.yml
 - filename: kareo-encounters-api-openapi.yml
   format: yaml
   label: Kareo Encounters API
   slug: kareo-encounters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-encounters-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-encounters-api-openapi.yml
 - filename: kareo-patients-api-openapi.yml
   format: yaml
   label: Kareo Patients API
   slug: kareo-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-patients-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-patients-api-openapi.yml
 - filename: kareo-providers-api-openapi.yml
   format: yaml
   label: Kareo Providers API
   slug: kareo-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/openapi/kareo-providers-api-openapi.yml
+  url: https://artifacts.apis.io/kareo/openapi/kareo-providers-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kareo-
   \     - abnormal\n      - high-value\n    audit: required\n- path: /KareoServices.svc/UpdatePatient\n  method: post\n  operationId: updatePatient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /KareoServices.svc/GetPatient\n  method: post\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KareoServices.svc/GetPatients\n  method: post\n  operationId: getPatients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KareoServices.svc/GetAllPatients\n  method: post\n  operationId: getAllPatients\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KareoServices.svc/UpdatePatientsExternalID\n  method: post\n  operationId: updatePatientsExternalID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /KareoServices.svc/GetProviders\n  method: post\n  operationId: getProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KareoServices.svc/GetPractices\n  method: post\n  operationId: getPractices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KareoServices.svc/GetServiceLocations\n\
   \  method: post\n  operationId: getServiceLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /KareoServices.svc/GetProcedureCodes\n  method: post\n  operationId: getProcedureCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/agentic-access/kareo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kareo/agentic-access/kareo-agentic-access.yml
 summary_line: 32 operations · 15 acting
 tags:
 - Healthcare

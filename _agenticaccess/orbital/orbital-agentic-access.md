@@ -9,37 +9,37 @@ api_specs:
   label: Orbital Caches API
   slug: orbital-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-caches-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-caches-api-openapi.yml
 - filename: orbital-connections-api-openapi.yml
   format: yaml
   label: Orbital Connections API
   slug: orbital-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-connections-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-connections-api-openapi.yml
 - filename: orbital-schemas-api-openapi.yml
   format: yaml
   label: Orbital Schemas API
   slug: orbital-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-schemas-api-openapi.yml
 - filename: orbital-services-api-openapi.yml
   format: yaml
   label: Orbital Services API
   slug: orbital-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-services-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-services-api-openapi.yml
 - filename: orbital-taxiql-api-openapi.yml
   format: yaml
   label: Orbital Taxiql API
   slug: orbital-taxiql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-taxiql-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-taxiql-api-openapi.yml
 - filename: orbital-types-api-openapi.yml
   format: yaml
   label: Orbital Types API
   slug: orbital-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/openapi/orbital-types-api-openapi.yml
+  url: https://artifacts.apis.io/orbital/openapi/orbital-types-api-openapi.yml
 consequence_counts:
   read: 12
   write: 6
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/orbita
   \ listSchemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/schemas\n  method: post\n  operationId: createSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/schemas/{schemaId}\n  method: get\n  operationId: getSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/schemas/{schemaId}\n  method: put\n  operationId: updateSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/schemas/{schemaId}\n  method: delete\n  operationId: deleteSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/types\n  method: get\n  operationId: listTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/types/{qualifiedName}\n  method: get\n  operationId: getType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/services/{serviceName}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/agentic-access/orbital-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/orbital/agentic-access/orbital-agentic-access.yml
 summary_line: 18 operations · 6 acting
 tags:
 - Data

@@ -9,49 +9,49 @@ api_specs:
   label: The Hog Company Search API
   slug: the-hog-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-company-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-company-search-api-openapi.yml
 - filename: the-hog-deep-research-api-openapi.yml
   format: yaml
   label: The Hog Deep Research API
   slug: the-hog-deep-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-deep-research-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-deep-research-api-openapi.yml
 - filename: the-hog-enrichments-api-openapi.yml
   format: yaml
   label: The Hog Enrichments API
   slug: the-hog-enrichments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-enrichments-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-enrichments-api-openapi.yml
 - filename: the-hog-monitors-api-openapi.yml
   format: yaml
   label: The Hog Monitors API
   slug: the-hog-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-monitors-api-openapi.yml
 - filename: the-hog-operations-api-openapi.yml
   format: yaml
   label: The Hog Operations API
   slug: the-hog-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-operations-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-operations-api-openapi.yml
 - filename: the-hog-people-search-api-openapi.yml
   format: yaml
   label: The Hog People Search API
   slug: the-hog-people-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-people-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-people-search-api-openapi.yml
 - filename: the-hog-scrapers-api-openapi.yml
   format: yaml
   label: The Hog Scrapers API
   slug: the-hog-scrapers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-scrapers-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-scrapers-api-openapi.yml
 - filename: the-hog-search-api-openapi.yml
   format: yaml
   label: The Hog Search API
   slug: the-hog-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/openapi/the-hog-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-hog/openapi/the-hog-search-api-openapi.yml
 consequence_counts:
   read: 39
   write: 13
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/the-ho
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/platform/scrapers/web/scrape\n  method: post\n  operationId: scrapeWebPage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/platform/scrapers/web/scrape/jobs\n  method: post\n  operationId: createWebScrapeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/platform/scrapers/web/scrape/batch\n  method: post\n  operationId: batchScrapeWebPages\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/search\n  method: post\n  operationId: submitSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/search\n  method: get\n  operationId: listSearches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/search/{id}\n  method: get\n  operationId: getSearchResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-hog/refs/heads/main/agentic-access/the-hog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-hog/agentic-access/the-hog-agentic-access.yml
 summary_line: 52 operations · 13 acting
 tags:
 - Company

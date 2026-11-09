@@ -9,37 +9,37 @@ api_specs:
   label: Datalastic Historical API
   slug: datalastic-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-historical-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-historical-api-openapi.yml
 - filename: datalastic-live-tracking-api-openapi.yml
   format: yaml
   label: Datalastic Live Tracking API
   slug: datalastic-live-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-live-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-live-tracking-api-openapi.yml
 - filename: datalastic-ports-api-openapi.yml
   format: yaml
   label: Datalastic Ports API
   slug: datalastic-ports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-ports-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-ports-api-openapi.yml
 - filename: datalastic-reports-and-usage-api-openapi.yml
   format: yaml
   label: Datalastic Reports and Usage API
   slug: datalastic-reports-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-reports-and-usage-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-reports-and-usage-api-openapi.yml
 - filename: datalastic-vessel-data-api-openapi.yml
   format: yaml
   label: Datalastic Vessel Data API
   slug: datalastic-vessel-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-vessel-data-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-vessel-data-api-openapi.yml
 - filename: datalastic-zone-traffic-api-openapi.yml
   format: yaml
   label: Datalastic Zone Traffic API
   slug: datalastic-zone-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-zone-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-zone-traffic-api-openapi.yml
 consequence_counts:
   read: 11
   write: 1
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/datala
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel_inradius\n  method: get\n  operationId: getVesselsInRadius\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inradius_history\n  method: get\n  operationId: getInRadiusHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel_history\n  method: get\n  operationId: getVesselHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel_info\n  method: get\n  operationId: getVesselInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /vessel_find\n  method: get\n  operationId: findVessels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /port_find\n  method: get\n  operationId: findPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report\n  method: post\n  operationId: submitReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stat\n\
   \  method: get\n  operationId: getUsageStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/agentic-access/datalastic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datalastic/agentic-access/datalastic-agentic-access.yml
 summary_line: 12 operations · 1 acting
 tags:
 - Vessel Tracking

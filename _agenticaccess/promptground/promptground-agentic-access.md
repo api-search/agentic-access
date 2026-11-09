@@ -9,55 +9,55 @@ api_specs:
   label: PromptGround API v1 API
   slug: promptground-api-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-api-v1-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-api-v1-api-openapi.yml
 - filename: promptground-api-v2-api-openapi.yml
   format: yaml
   label: PromptGround API v2 API
   slug: promptground-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-api-v2-api-openapi.yml
 - filename: promptground-invites-api-openapi.yml
   format: yaml
   label: PromptGround Invites API
   slug: promptground-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-invites-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-invites-api-openapi.yml
 - filename: promptground-models-api-openapi.yml
   format: yaml
   label: PromptGround Models API
   slug: promptground-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-models-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-models-api-openapi.yml
 - filename: promptground-payments-api-openapi.yml
   format: yaml
   label: PromptGround Payments API
   slug: promptground-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-payments-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-payments-api-openapi.yml
 - filename: promptground-projects-api-openapi.yml
   format: yaml
   label: PromptGround Projects API
   slug: promptground-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-projects-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-projects-api-openapi.yml
 - filename: promptground-prompts-api-openapi.yml
   format: yaml
   label: PromptGround Prompts API
   slug: promptground-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-prompts-api-openapi.yml
 - filename: promptground-sessions-api-openapi.yml
   format: yaml
   label: PromptGround Sessions API
   slug: promptground-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-sessions-api-openapi.yml
 - filename: promptground-settings-api-openapi.yml
   format: yaml
   label: PromptGround Settings API
   slug: promptground-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/openapi/promptground-settings-api-openapi.yml
+  url: https://artifacts.apis.io/promptground/openapi/promptground-settings-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/prompt
   \  max-ttl: 3600\n    audit: none\n- path: /payments/webhook\n  method: post\n  operationId: stripe_webhook_payments_webhook_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models/supported-models\n  method: get\n  operationId: get_supported_models_models_supported_models_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/models-with-pricing\n  method: get\n  operationId: get_models_with_pricing_models_models_with_pricing_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1/prompt\n  method: post\n  operationId: prompt_v1_prompt_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/prompt/messages\n  method: post\n  operationId: messages_v2_prompt_messages_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/prompt/run\n  method: post\n  operationId: run_prompt_v2_prompt_run_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/promptground/refs/heads/main/agentic-access/promptground-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/promptground/agentic-access/promptground-agentic-access.yml
 summary_line: 36 operations · 21 acting
 tags:
 - Artificial Intelligence

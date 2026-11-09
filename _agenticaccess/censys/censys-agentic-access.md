@@ -9,85 +9,85 @@ api_specs:
   label: Censys Account Management API
   slug: censys-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-account-management-api-openapi.yml
 - filename: censys-adversary-investigation-api-openapi.yml
   format: yaml
   label: Censys Adversary Investigation API
   slug: censys-adversary-investigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-adversary-investigation-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-adversary-investigation-api-openapi.yml
 - filename: censys-asset-graphs-api-openapi.yml
   format: yaml
   label: Censys Asset Graphs API
   slug: censys-asset-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-asset-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-asset-graphs-api-openapi.yml
 - filename: censys-assets-api-openapi.yml
   format: yaml
   label: Censys Assets API
   slug: censys-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-assets-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-assets-api-openapi.yml
 - filename: censys-collections-api-openapi.yml
   format: yaml
   label: Censys Collections API
   slug: censys-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-collections-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-collections-api-openapi.yml
 - filename: censys-excluded-assets-api-openapi.yml
   format: yaml
   label: Censys Excluded Assets API
   slug: censys-excluded-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-excluded-assets-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-excluded-assets-api-openapi.yml
 - filename: censys-global-data-api-openapi.yml
   format: yaml
   label: Censys Global Data API
   slug: censys-global-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-global-data-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-global-data-api-openapi.yml
 - filename: censys-graph-executions-api-openapi.yml
   format: yaml
   label: Censys Graph Executions API
   slug: censys-graph-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-graph-executions-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-graph-executions-api-openapi.yml
 - filename: censys-risks-api-openapi.yml
   format: yaml
   label: Censys Risks API
   slug: censys-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-risks-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-risks-api-openapi.yml
 - filename: censys-seeds-api-openapi.yml
   format: yaml
   label: Censys Seeds API
   slug: censys-seeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-seeds-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-seeds-api-openapi.yml
 - filename: censys-shards-api-openapi.yml
   format: yaml
   label: Censys Shards API
   slug: censys-shards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-shards-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-shards-api-openapi.yml
 - filename: censys-supply-chain-intelligence-api-openapi.yml
   format: yaml
   label: Censys Supply Chain Intelligence API
   slug: censys-supply-chain-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-supply-chain-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-supply-chain-intelligence-api-openapi.yml
 - filename: censys-tags-and-comments-api-openapi.yml
   format: yaml
   label: Censys Tags and Comments API
   slug: censys-tags-and-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-tags-and-comments-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-tags-and-comments-api-openapi.yml
 - filename: censys-threat-hunting-api-openapi.yml
   format: yaml
   label: Censys Threat Hunting API
   slug: censys-threat-hunting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/openapi/censys-threat-hunting-api-openapi.yml
+  url: https://artifacts.apis.io/censys/openapi/censys-threat-hunting-api-openapi.yml
 consequence_counts:
   read: 52
   write: 36
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/censys
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/threat-hunting/host/{ip}/observations/endpoints\n  method: get\n  operationId: v3-threathunting-endpoint-observations-on-host\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/threat-hunting/host/{ip}/observations/fingerprints\n  method: get\n  operationId: v3-threathunting-fingerprint-observations-on-host\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/threat-hunting/host/{ip}/observations/threats\n  method: get\n  operationId: v3-threathunting-threats-on-host\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v3/threat-hunting/scans/discovery\n  method: post\n  operationId: v3-threathunting-scans-discovery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/threat-hunting/scans/{scan_id}\n  method: get\n  operationId: v3-threathunting-scans-get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/threat-hunting/threats\n  method: get\n  operationId: v3-threathunting-threats-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/threat-hunting/value-counts\n  method: post\n  operationId: v3-threathunting-value-counts\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/threat-hunting/web/{webproperty_id}/observations/threats\n  method: get\n  operationId: v3-threathunting-threats-on-web\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/censys/refs/heads/main/agentic-access/censys-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/censys/agentic-access/censys-agentic-access.yml
 summary_line: 88 operations · 36 acting
 tags:
 - Security

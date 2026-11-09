@@ -8,37 +8,37 @@ api_specs:
   label: Qobuz Albums API
   slug: qobuz-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-albums-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-albums-api-openapi.yml
 - filename: qobuz-artists-api-openapi.yml
   format: yaml
   label: Qobuz Artists API
   slug: qobuz-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-artists-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-artists-api-openapi.yml
 - filename: qobuz-authentication-api-openapi.yml
   format: yaml
   label: Qobuz Authentication API
   slug: qobuz-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-authentication-api-openapi.yml
 - filename: qobuz-playlists-api-openapi.yml
   format: yaml
   label: Qobuz Playlists API
   slug: qobuz-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-playlists-api-openapi.yml
 - filename: qobuz-search-api-openapi.yml
   format: yaml
   label: Qobuz Search API
   slug: qobuz-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-search-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-search-api-openapi.yml
 - filename: qobuz-tracks-api-openapi.yml
   format: yaml
   label: Qobuz Tracks API
   slug: qobuz-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/openapi/qobuz-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/qobuz/openapi/qobuz-tracks-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist/get\n  method: get\n  operationId: artistGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /artist/search\n  method: get\n  operationId: artistSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/get\n  method: get\n  operationId: trackGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/search\n  method: get\n  operationId: trackSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track/getFileUrl\n  method: get\n  operationId:\
   \ trackGetFileUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playlist/get\n  method: get\n  operationId: playlistGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /playlist/search\n  method: get\n  operationId: playlistSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/search\n  method: get\n  operationId: catalogSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /favorite/getUserFavorites\n  method: get\n  operationId: favoriteGetUserFavorites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qobuz/refs/heads/main/agentic-access/qobuz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qobuz/agentic-access/qobuz-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Music Streaming

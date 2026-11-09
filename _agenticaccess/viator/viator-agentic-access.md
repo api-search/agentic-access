@@ -9,103 +9,103 @@ api_specs:
   label: Viator Attraction services API
   slug: viator-attraction-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-attraction-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-attraction-services-api-openapi.yml
 - filename: viator-attractions-api-openapi.yml
   format: yaml
   label: Viator Attractions API
   slug: viator-attractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-attractions-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-attractions-api-openapi.yml
 - filename: viator-auxiliary-api-openapi.yml
   format: yaml
   label: Viator Auxiliary API
   slug: viator-auxiliary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-auxiliary-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-auxiliary-api-openapi.yml
 - filename: viator-availability-api-openapi.yml
   format: yaml
   label: Viator Availability API
   slug: viator-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-availability-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-availability-api-openapi.yml
 - filename: viator-booking-services-api-openapi.yml
   format: yaml
   label: Viator Booking services API
   slug: viator-booking-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-booking-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-booking-services-api-openapi.yml
 - filename: viator-bookings-api-openapi.yml
   format: yaml
   label: Viator Bookings API
   slug: viator-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-bookings-api-openapi.yml
 - filename: viator-deprecated-api-openapi.yml
   format: yaml
   label: Viator Deprecated API
   slug: viator-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-deprecated-api-openapi.yml
 - filename: viator-deprecated-services-api-openapi.yml
   format: yaml
   label: Viator Deprecated services API
   slug: viator-deprecated-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-deprecated-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-deprecated-services-api-openapi.yml
 - filename: viator-general-services-api-openapi.yml
   format: yaml
   label: Viator General services API
   slug: viator-general-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-general-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-general-services-api-openapi.yml
 - filename: viator-payments-api-openapi.yml
   format: yaml
   label: Viator Payments API
   slug: viator-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-payments-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-payments-api-openapi.yml
 - filename: viator-product-services-api-openapi.yml
   format: yaml
   label: Viator Product services API
   slug: viator-product-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-product-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-product-services-api-openapi.yml
 - filename: viator-products-api-openapi.yml
   format: yaml
   label: Viator Products API
   slug: viator-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-products-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-products-api-openapi.yml
 - filename: viator-reservation-system-apis-api-openapi.yml
   format: yaml
   label: Viator Reservation system APIs API
   slug: viator-reservation-system-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-reservation-system-apis-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-reservation-system-apis-api-openapi.yml
 - filename: viator-support-services-api-openapi.yml
   format: yaml
   label: Viator Support services API
   slug: viator-support-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-support-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-support-services-api-openapi.yml
 - filename: viator-taxonomy-services-api-openapi.yml
   format: yaml
   label: Viator Taxonomy services API
   slug: viator-taxonomy-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-taxonomy-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-taxonomy-services-api-openapi.yml
 - filename: viator-utility-services-api-openapi.yml
   format: yaml
   label: Viator Utility services API
   slug: viator-utility-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-utility-services-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-utility-services-api-openapi.yml
 - filename: viator-viator-apis-api-openapi.yml
   format: yaml
   label: Viator APIs
   slug: viator-viator-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/openapi/viator-viator-apis-api-openapi.yml
+  url: https://artifacts.apis.io/viator/openapi/viator-viator-apis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 38
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/viator
   \ /taxonomy/attractions\n  method: post\n  operationId: taxonomyAttractions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /util/sitedetails\n  method: get\n  operationId: utilSitedetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/countrymap\n  method: get\n  operationId: utilCountrymap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/guid\n  method: get\n  operationId: utilGuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /util/siteBinaryData\n  method: post\n  operationId: utilSiteBinaryData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/notification/events\n  method: post\n  operationId: eventNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/notification/special-offers\n  method: post\n  operationId: specialOffersNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viator/refs/heads/main/agentic-access/viator-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/viator/agentic-access/viator-agentic-access.yml
 summary_line: 86 operations · 48 acting
 tags:
 - Travel

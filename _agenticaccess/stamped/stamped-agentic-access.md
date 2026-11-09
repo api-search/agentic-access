@@ -9,31 +9,31 @@ api_specs:
   label: Stamped Customer Actions API
   slug: stamped-customer-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-customer-actions-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-customer-actions-api-openapi.yml
 - filename: stamped-customers-api-openapi.yml
   format: yaml
   label: Stamped Customers API
   slug: stamped-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-customers-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-customers-api-openapi.yml
 - filename: stamped-orders-api-openapi.yml
   format: yaml
   label: Stamped Orders API
   slug: stamped-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-orders-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-orders-api-openapi.yml
 - filename: stamped-products-api-openapi.yml
   format: yaml
   label: Stamped Products API
   slug: stamped-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-products-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-products-api-openapi.yml
 - filename: stamped-program-reporting-api-openapi.yml
   format: yaml
   label: Stamped Program Reporting API
   slug: stamped-program-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/openapi/stamped-program-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/stamped/openapi/stamped-program-reporting-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 11
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/stampe
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/merchant/shops/{shopId}/orders/{orderId}\n  method: patch\n  operationId: updateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/merchant/shops/{shopId}/products/{productId}\n  method: delete\n  operationId: deleteProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/merchant/shops/{shopId}/products/{productId}\n\
   \  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/merchant/shops/{shopId}/products/{productId}\n  method: patch\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v3/merchant/shops/{shopId}/customers/lookup\n  method: get\n  operationId: lookupCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/merchant/shops/{shopId}/orders/lookup\n  method: get\n  operationId: lookupOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/merchant/shops/{shopId}/products/lookup\n  method: get\n  operationId: lookupProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stamped/refs/heads/main/agentic-access/stamped-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stamped/agentic-access/stamped-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
 - Company

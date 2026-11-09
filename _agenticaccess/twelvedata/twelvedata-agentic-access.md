@@ -9,91 +9,91 @@ api_specs:
   label: Twelve Data WebSocket Streaming API
   slug: twelvedata-websocket-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/asyncapi/twelvedata-asyncapi.yml
+  url: https://artifacts.apis.io/twelvedata/asyncapi/twelvedata-asyncapi.yml
 - filename: twelvedata-core-data-api-openapi.yml
   format: yaml
   label: Twelve Data Core Data API
   slug: twelvedata-core-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-core-data-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-core-data-api-openapi.yml
 - filename: twelvedata-fundamentals-api-openapi.yml
   format: yaml
   label: Twelve Data Fundamentals API
   slug: twelvedata-fundamentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-fundamentals-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-fundamentals-api-openapi.yml
 - filename: twelvedata-reference-data-api-openapi.yml
   format: yaml
   label: Twelve Data Reference Data API
   slug: twelvedata-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-reference-data-api-openapi.yml
 - filename: twelvedata-technical-indicators-api-openapi.yml
   format: yaml
   label: Twelve Data Technical Indicators API
   slug: twelvedata-technical-indicators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-technical-indicators-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-technical-indicators-api-openapi.yml
 - filename: twelvedata-time-series-api-openapi.yml
   format: yaml
   label: Twelve Data Time Series API
   slug: twelvedata-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-time-series-api-openapi.yml
 - filename: twelvedata-advanced-api-openapi.yml
   format: yaml
   label: Twelve Data Advanced API
   slug: twelvedata-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-advanced-api-openapi.yml
 - filename: twelvedata-analysis-api-openapi.yml
   format: yaml
   label: Twelve Data Analysis API
   slug: twelvedata-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-analysis-api-openapi.yml
 - filename: twelvedata-currencies-api-openapi.yml
   format: yaml
   label: Twelve Data Currencies API
   slug: twelvedata-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-currencies-api-openapi.yml
 - filename: twelvedata-market-data-api-openapi.yml
   format: yaml
   label: Twelve Data Market Data API
   slug: twelvedata-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-market-data-api-openapi.yml
 - filename: twelvedata-money-market-funds-api-openapi.yml
   format: yaml
   label: Twelve Data Money Market Funds API
   slug: twelvedata-money-market-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-money-market-funds-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-money-market-funds-api-openapi.yml
 - filename: twelvedata-mutual-funds-api-openapi.yml
   format: yaml
   label: Twelve Data Mutual Funds API
   slug: twelvedata-mutual-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-mutual-funds-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-mutual-funds-api-openapi.yml
 - filename: twelvedata-regulatory-api-openapi.yml
   format: yaml
   label: Twelve Data Regulatory API
   slug: twelvedata-regulatory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-regulatory-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-regulatory-api-openapi.yml
 - filename: twelvedata-technical-indicator-api-openapi.yml
   format: yaml
   label: Twelve Data Technical Indicator API
   slug: twelvedata-technical-indicator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-technical-indicator-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-technical-indicator-api-openapi.yml
 - filename: twelvedata-etfs-api-openapi.yml
   format: yaml
   label: Twelve Data Etfs API
   slug: twelvedata-etfs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/openapi/twelvedata-etfs-api-openapi.yml
+  url: https://artifacts.apis.io/twelvedata/openapi/twelvedata-etfs-api-openapi.yml
 consequence_counts:
   read: 198
   write: 1
@@ -153,8 +153,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/twelve
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /ht_trendline\n  method: get\n  operationId: GetTimeSeriesHtTrendline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /ht_trendmode\n  method: get\n  operationId: GetTimeSeriesHtTrendMode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /ichimoku\n  method: get\n  operationId: GetTimeSeriesIchimoku\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /kama\n  method: get\n  operationId: GetTimeSeriesKama\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /keltner\n  method: get\n  operationId: GetTimeSeriesKeltner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /kst\n  method: get\n  operationId: GetTimeSeriesKst\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /linearreg\n  method: get\n  operationId: GetTimeSeriesLinearReg\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /linearregangle\n  method: get\n  operationId: GetTimeSeriesLinearRegAngle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n    scope:\n    - '[]'\n- path: /linearregintercept\n  method: get\n  operationId: GetTimeSeriesLinearRegIntercept\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /linearregslope\n  method: get\n  operationId: GetTimeSeriesLinearRegSlope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /ln\n  method: get\n  operationId: GetTimeSeriesLn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n- path: /log10\n  method: get\n  operationId: GetTimeSeriesLog10\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  \    scope:\n    - '[]'\n- path: /ma\n  method: get\n  operationId: GetTimeSeriesMa\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/agentic-access/twelvedata-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/agentic-access/twelvedata-agentic-access.yml
+  \    scope:\n    - '[]'\n- path: /ma\n  method: get\n  operationId: GetTimeSeriesMa\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - '[]'\n\n\n# --- truncated at 32 KB (45 KB total) ---\n# Full source: https://artifacts.apis.io/twelvedata/agentic-access/twelvedata-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/twelvedata/agentic-access/twelvedata-agentic-access.yml
 summary_line: 199 operations · 1 acting
 tags:
 - Market Data

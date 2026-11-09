@@ -7,31 +7,31 @@ api_specs:
   label: Yawplet Accounts API
   slug: yawplet-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-accounts-api-openapi.yml
 - filename: yawplet-discovery-api-openapi.yml
   format: yaml
   label: Yawplet Discovery API
   slug: yawplet-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-discovery-api-openapi.yml
 - filename: yawplet-posts-api-openapi.yml
   format: yaml
   label: Yawplet Posts API
   slug: yawplet-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-posts-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-posts-api-openapi.yml
 - filename: yawplet-webhooks-api-openapi.yml
   format: yaml
   label: Yawplet Webhooks API
   slug: yawplet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-webhooks-api-openapi.yml
 - filename: yawplet-oauth-api-openapi.yml
   format: yaml
   label: Yawplet OAuth API
   slug: yawplet-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/openapi/yawplet-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/yawplet/openapi/yawplet-oauth-api-openapi.yml
 consequence_counts: {}
 description: What calling each yawplet.com operation does, and whether a person should be involved. Read from the x-agentic-access extension in https://yawplet.com/openapi-site.yml.
 human_in_the_loop: 0
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-10-05'\nmethod: authored\nsource: https://yawplet
   \ false\n    notes: Emails a person; a sent email cannot be recalled. The consent page calls it for the human who is approving,\n      not an agent.\n- operationId: decideOAuthConsent\n  method: POST\n  path: /v1/oauth/approve\n  tools: []\n  x-agentic-access:\n    action-class: connected\n    consequence: write\n    human-in-the-loop: required\n    reversible: true\n    notes: Grants an app access to the account. Only the owner, signed in from their email, can approve; agent-grade\n      links are refused. Undo by revoking the tokens (revokeOAuthToken).\n- operationId: exchangeOAuthToken\n  method: POST\n  path: /v1/oauth/token\n  tools: []\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    human-in-the-loop: none\n    reversible: true\n    notes: Issues tokens for an authorization the account owner already approved; it cannot widen what they granted.\n      Revoke with revokeOAuthToken.\n- operationId: revokeOAuthToken\n  method: POST\n  path: /v1/oauth/revoke\n\
   \  tools: []\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    human-in-the-loop: none\n    reversible: false\n    notes: The app loses access until the owner approves it again. A revoked token cannot be restored.\n- operationId: getStatus\n  method: GET\n  path: /v1/status\n  tools:\n  - get_status\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes: Free, no key. Check it to know how long a queued post will wait.\n- operationId: getPricing\n  method: GET\n  path: /v1/pricing\n  tools:\n  - get_pricing\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes: Free, no key. Amounts are micro-dollars.\n- operationId: getPolicy\n  method: GET\n  path: /v1/policy\n  tools:\n  - get_policy\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes:\
   \ Free, no key. Read it before posting; the moderation model applies exactly this document.\nwebhooks:\n- operationId: postOutcomeWebhook\n  method: POST\n  path: null\n  tools: []\n  x-agentic-access:\n    action-class: read\n    consequence: read\n    human-in-the-loop: none\n    reversible: true\n    notes: 'We call you. Receiving it changes nothing on the platform. Verify the signature before acting on it,\n      and dedupe on webhook-id: delivery is at-least-once.'\n  webhook: postOutcome\n  direction: outbound\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yawplet/refs/heads/main/agentic-access/yawplet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yawplet/agentic-access/yawplet-agentic-access.yml
 summary_line: 24 operations
 tags:
 - Agents

@@ -8,37 +8,37 @@ api_specs:
   label: Zudoku Configuration API
   slug: configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/zudoku/openapi/zudoku-configuration-api-openapi.yml
 - filename: zudoku-api-references-api-openapi.yml
   format: yaml
   label: Zudoku API References API
   slug: zudoku-api-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-api-references-api-openapi.yml
+  url: https://artifacts.apis.io/zudoku/openapi/zudoku-api-references-api-openapi.yml
 - filename: zudoku-authentication-api-openapi.yml
   format: yaml
   label: Zudoku Authentication API
   slug: zudoku-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/zudoku/openapi/zudoku-authentication-api-openapi.yml
 - filename: zudoku-navigation-api-openapi.yml
   format: yaml
   label: Zudoku Navigation API
   slug: zudoku-navigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-navigation-api-openapi.yml
+  url: https://artifacts.apis.io/zudoku/openapi/zudoku-navigation-api-openapi.yml
 - filename: zudoku-plugins-api-openapi.yml
   format: yaml
   label: Zudoku Plugins API
   slug: zudoku-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/zudoku/openapi/zudoku-plugins-api-openapi.yml
 - filename: zudoku-theming-api-openapi.yml
   format: yaml
   label: Zudoku Theming API
   slug: zudoku-theming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/openapi/zudoku-theming-api-openapi.yml
+  url: https://artifacts.apis.io/zudoku/openapi/zudoku-theming-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zudoku-configuration-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /config\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/apis\n  method: get\n  operationId: getApiReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/navigation\n  method: get\n  operationId: getNavigation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/authentication\n  method: get\n  operationId: getAuthentication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/theme\n  method: get\n  operationId: getTheme\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/plugins\n  method: get\n  operationId: getPlugins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zudoku/refs/heads/main/agentic-access/zudoku-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zudoku/agentic-access/zudoku-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Developer Tools

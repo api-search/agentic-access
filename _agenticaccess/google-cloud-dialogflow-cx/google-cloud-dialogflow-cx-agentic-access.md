@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud Dialogflow CX Agents API
   slug: google-cloud-dialogflow-cx-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-agents-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-agents-api-openapi.yml
 - filename: google-cloud-dialogflow-cx-flows-api-openapi.yml
   format: yaml
   label: Google Cloud Dialogflow CX Flows API
   slug: google-cloud-dialogflow-cx-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-flows-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-flows-api-openapi.yml
 - filename: google-cloud-dialogflow-cx-intents-api-openapi.yml
   format: yaml
   label: Google Cloud Dialogflow CX Intents API
   slug: google-cloud-dialogflow-cx-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-intents-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-intents-api-openapi.yml
 - filename: google-cloud-dialogflow-cx-sessions-api-openapi.yml
   format: yaml
   label: Google Cloud Dialogflow CX Sessions API
   slug: google-cloud-dialogflow-cx-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/openapi/google-cloud-dialogflow-cx-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dialogflow-cx/openapi/google-cloud-dialogflow-cx-sessions-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}\n  method: get\n  operationId: getAgent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}\n  method: patch\n  operationId: updateAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}\n  method: delete\n  operationId: deleteAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}/flows\n  method: get\n  operationId: listFlows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}/flows\n  method: post\n  operationId: createFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}/intents\n  method: get\n  operationId: listIntents\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}/intents\n  method: post\n  operationId: createIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/agents/{agentId}/sessions/{sessionId}:detectIntent\n  method: post\n  operationId: detectIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dialogflow-cx/refs/heads/main/agentic-access/google-cloud-dialogflow-cx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dialogflow-cx/agentic-access/google-cloud-dialogflow-cx-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Chatbots

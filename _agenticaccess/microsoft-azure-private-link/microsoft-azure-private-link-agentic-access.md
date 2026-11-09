@@ -9,37 +9,37 @@ api_specs:
   label: microsoft-azure-private-link Operations API
   slug: microsoft-azure-private-link-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-operations-api-openapi.yml
 - filename: microsoft-azure-private-link-private-endpoints-api-openapi.yml
   format: yaml
   label: microsoft-azure-private-link Private Endpoints API
   slug: microsoft-azure-private-link-private-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-private-endpoints-api-openapi.yml
 - filename: microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Dns Zone Groups API
   slug: microsoft-azure-private-link-privatednszonegroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-privatednszonegroups-api-openapi.yml
 - filename: microsoft-azure-private-link-privatelinkservice-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Link Service API
   slug: microsoft-azure-private-link-privatelinkservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatelinkservice-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-privatelinkservice-api-openapi.yml
 - filename: microsoft-azure-private-link-privatelinkservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Private Link Services API
   slug: microsoft-azure-private-link-privatelinkservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-privatelinkservices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-privatelinkservices-api-openapi.yml
 - filename: microsoft-azure-private-link-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Private Link Subscriptions API
   slug: microsoft-azure-private-link-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/openapi/microsoft-azure-private-link-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-private-link/openapi/microsoft-azure-private-link-subscriptions-api-openapi.yml
 consequence_counts:
   read: 16
   write: 13
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/micros
   \  method: get\n  operationId: PrivateLinkServices_ListPrivateEndpointConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/checkPrivateLinkServiceVisibility\n  method: post\n  operationId: PrivateLinkServices_CheckPrivateLinkServiceVisibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/locations/{location}/checkPrivateLinkServiceVisibility\n  method: post\n  operationId: PrivateLinkServices_CheckPrivateLinkServiceVisibilityByResourceGroup\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/autoApprovedPrivateLinkServices\n  method: get\n  operationId: PrivateLinkServices_ListAutoApprovedPrivateLinkServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/locations/{location}/autoApprovedPrivateLinkServices\n  method: get\n  operationId: PrivateLinkServices_ListAutoApprovedPrivateLinkServicesByResourceGroup\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/availablePrivateEndpointTypes\n  method: get\n  operationId: AvailablePrivateEndpointTypes_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/locations/{location}/availablePrivateEndpointTypes\n  method: get\n  operationId: AvailablePrivateEndpointTypes_ListByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-private-link/refs/heads/main/agentic-access/microsoft-azure-private-link-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-private-link/agentic-access/microsoft-azure-private-link-agentic-access.yml
 summary_line: 29 operations · 13 acting
 tags:
 - Networking

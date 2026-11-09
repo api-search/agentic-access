@@ -15,37 +15,37 @@ api_specs:
   label: Synopsys Entitlements API
   slug: synopsys-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-entitlements-api-openapi.yml
 - filename: synopsys-issues-api-openapi.yml
   format: yaml
   label: Synopsys Issues API
   slug: synopsys-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-issues-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-issues-api-openapi.yml
 - filename: synopsys-licenses-api-openapi.yml
   format: yaml
   label: Synopsys Licenses API
   slug: synopsys-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-licenses-api-openapi.yml
 - filename: synopsys-projects-api-openapi.yml
   format: yaml
   label: Synopsys Projects API
   slug: synopsys-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-projects-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-projects-api-openapi.yml
 - filename: synopsys-reports-api-openapi.yml
   format: yaml
   label: Synopsys Reports API
   slug: synopsys-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-reports-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-reports-api-openapi.yml
 - filename: synopsys-scans-api-openapi.yml
   format: yaml
   label: Synopsys Scans API
   slug: synopsys-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/openapi/synopsys-scans-api-openapi.yml
+  url: https://artifacts.apis.io/synopsys/openapi/synopsys-scans-api-openapi.yml
 consequence_counts:
   read: 10
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/synops
   \ get\n  operationId: listIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/{issueId}\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /licenses\n  method: post\n  operationId: generateLicense\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /licenses/{licenseId}\n  method: get\n  operationId: downloadLicense\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/projects\n  method:\
   \ get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/branches\n  method: get\n  operationId: listBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: post\n  operationId: generateReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{reportId}\n\
   \  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/runs\n  method: get\n  operationId: listScans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/runs/{runId}\n  method: get\n  operationId: getScan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/agentic-access/synopsys-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/synopsys/agentic-access/synopsys-agentic-access.yml
 summary_line: 12 operations · 2 acting
 tags:
 - Software Security

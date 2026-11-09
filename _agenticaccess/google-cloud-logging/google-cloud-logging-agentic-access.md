@@ -9,55 +9,55 @@ api_specs:
   label: Google Cloud Logging Bucket API
   slug: google-cloud-logging-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-bucket-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-bucket-api-openapi.yml
 - filename: google-cloud-logging-buckets-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Buckets API
   slug: google-cloud-logging-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-buckets-api-openapi.yml
 - filename: google-cloud-logging-entries-copy-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:copy API
   slug: google-cloud-logging-entries-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-copy-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-copy-api-openapi.yml
 - filename: google-cloud-logging-entries-list-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:list API
   slug: google-cloud-logging-entries-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-list-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-list-api-openapi.yml
 - filename: google-cloud-logging-entries-tail-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:tail API
   slug: google-cloud-logging-entries-tail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-tail-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-tail-api-openapi.yml
 - filename: google-cloud-logging-entries-write-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Entries:write API
   slug: google-cloud-logging-entries-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-entries-write-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-write-api-openapi.yml
 - filename: google-cloud-logging-exclusions-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Exclusions API
   slug: google-cloud-logging-exclusions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-exclusions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-exclusions-api-openapi.yml
 - filename: google-cloud-logging-google-cloud-logging-api-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Google Cloud Logging API
   slug: google-cloud-logging-google-cloud-logging-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-google-cloud-logging-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-google-cloud-logging-api-api-openapi.yml
 - filename: google-cloud-logging-sinks-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Sinks API
   slug: google-cloud-logging-sinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/openapi/google-cloud-logging-sinks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-sinks-api-openapi.yml
 consequence_counts:
   read: 6
   write: 9
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/entries:write\n  method: post\n  operationId: writeLogEntries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/{parent}/exclusions\n  method: get\n  operationId: listExclusions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/{parent}/exclusions\n  method: post\n  operationId:\
   \ createExclusion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/{sinkName}\n  method: get\n  operationId: getSink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/{sinkName}\n  method: delete\n  operationId: deleteSink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/{parent}/sinks\n  method: get\n  operationId: listSinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n- path: /v2/{parent}/sinks\n  method: post\n  operationId: createSink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - cloud-platform\n    - logging.admin\n    - logging.read\n    - logging.write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-logging/refs/heads/main/agentic-access/google-cloud-logging-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-logging/agentic-access/google-cloud-logging-agentic-access.yml
 summary_line: 15 operations · 9 acting
 tags:
 - Cloud

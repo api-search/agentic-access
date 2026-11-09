@@ -9,43 +9,43 @@ api_specs:
   label: Uptime.com Checks API
   slug: uptime-com-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-checks-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-checks-api-openapi.yml
 - filename: uptime-com-contacts-api-openapi.yml
   format: yaml
   label: Uptime.com Contacts API
   slug: uptime-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-contacts-api-openapi.yml
 - filename: uptime-com-integrations-api-openapi.yml
   format: yaml
   label: Uptime.com Integrations API
   slug: uptime-com-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-integrations-api-openapi.yml
 - filename: uptime-com-outages-api-openapi.yml
   format: yaml
   label: Uptime.com Outages API
   slug: uptime-com-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-outages-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-outages-api-openapi.yml
 - filename: uptime-com-sla-reports-api-openapi.yml
   format: yaml
   label: Uptime.com SLA Reports API
   slug: uptime-com-sla-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-sla-reports-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-sla-reports-api-openapi.yml
 - filename: uptime-com-status-pages-api-openapi.yml
   format: yaml
   label: Uptime.com Status Pages API
   slug: uptime-com-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-status-pages-api-openapi.yml
 - filename: uptime-com-tags-api-openapi.yml
   format: yaml
   label: Uptime.com Tags API
   slug: uptime-com-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-tags-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-tags-api-openapi.yml
 consequence_counts:
   read: 17
   write: 22
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uptime
   \      - abnormal\n      - high-value\n    audit: required\n- path: /contact-groups/{pk}/\n  method: delete\n  operationId: deleteContactGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/\n  method: post\n  operationId: createIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/{pk}/\n\
   \  method: get\n  operationId: getIntegration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/{pk}/\n  method: delete\n  operationId: deleteIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check-tags/\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check-tags/\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check-tags/{pk}/\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check-tags/{pk}/\n  method: patch\n  operationId: updateTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /check-tags/{pk}/\n  method: delete\n  operationId: deleteTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/agentic-access/uptime-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uptime-com/agentic-access/uptime-com-agentic-access.yml
 summary_line: 39 operations · 22 acting
 tags:
 - Monitoring

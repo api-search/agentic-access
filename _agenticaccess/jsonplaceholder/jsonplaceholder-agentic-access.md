@@ -9,37 +9,37 @@ api_specs:
   label: JSONPlaceholder Albums API
   slug: jsonplaceholder-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-albums-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-albums-api-openapi.yml
 - filename: jsonplaceholder-comments-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Comments API
   slug: jsonplaceholder-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-comments-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-comments-api-openapi.yml
 - filename: jsonplaceholder-photos-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Photos API
   slug: jsonplaceholder-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-photos-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-photos-api-openapi.yml
 - filename: jsonplaceholder-posts-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Posts API
   slug: jsonplaceholder-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-posts-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-posts-api-openapi.yml
 - filename: jsonplaceholder-users-api-openapi.yml
   format: yaml
   label: JSONPlaceholder Users API
   slug: jsonplaceholder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-users-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-users-api-openapi.yml
 - filename: jsonplaceholder-to-dos-api-openapi.yml
   format: yaml
   label: JSONPlaceholder To Dos API
   slug: jsonplaceholder-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/openapi/jsonplaceholder-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/jsonplaceholder/openapi/jsonplaceholder-to-dos-api-openapi.yml
 consequence_counts:
   read: 17
   write: 24
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jsonpl
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: put\n  operationId: replaceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: patch\n  operationId: updateUser\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}/posts\n  method: get\n  operationId: listUserPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/albums\n  method: get\n  operationId: listUserAlbums\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}/todos\n  method: get\n  operationId: listUserTodos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/agentic-access/jsonplaceholder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jsonplaceholder/agentic-access/jsonplaceholder-agentic-access.yml
 summary_line: 41 operations · 24 acting
 tags:
 - Development

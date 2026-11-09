@@ -8,19 +8,19 @@ api_specs:
   label: Administrative Office of the U.S. Courts Cases API
   slug: administrative-office-of-the-u-s-courts-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-cases-api-openapi.yml
+  url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/openapi/administrative-office-of-the-u-s-courts-cases-api-openapi.yml
 - filename: administrative-office-of-the-u-s-courts-parties-api-openapi.yml
   format: yaml
   label: Administrative Office of the U.S. Courts Parties API
   slug: administrative-office-of-the-u-s-courts-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-parties-api-openapi.yml
+  url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/openapi/administrative-office-of-the-u-s-courts-parties-api-openapi.yml
 - filename: administrative-office-of-the-u-s-courts-services-api-openapi.yml
   format: yaml
   label: Administrative Office of the U.S. Courts Services API
   slug: administrative-office-of-the-u-s-courts-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/openapi/administrative-office-of-the-u-s-courts-services-api-openapi.yml
+  url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/openapi/administrative-office-of-the-u-s-courts-services-api-openapi.yml
 consequence_counts:
   write: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pacer-authentication-api-openapi.yml, openapi/pacer-case-locator-pcl-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /services/cso-auth\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/cso-logout\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cases/find\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parties/find\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/administrative-office-of-the-u-s-courts/refs/heads/main/agentic-access/administrative-office-of-the-u-s-courts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/administrative-office-of-the-u-s-courts/agentic-access/administrative-office-of-the-u-s-courts-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Courts

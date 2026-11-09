@@ -9,31 +9,31 @@ api_specs:
   label: Fathom Analytics Account API
   slug: fathom-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-account-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-account-api-openapi.yml
 - filename: fathom-events-api-openapi.yml
   format: yaml
   label: Fathom Analytics Events API
   slug: fathom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-events-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-events-api-openapi.yml
 - filename: fathom-milestones-api-openapi.yml
   format: yaml
   label: Fathom Analytics Milestones API
   slug: fathom-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-milestones-api-openapi.yml
 - filename: fathom-reports-api-openapi.yml
   format: yaml
   label: Fathom Analytics Reports API
   slug: fathom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-reports-api-openapi.yml
 - filename: fathom-sites-api-openapi.yml
   format: yaml
   label: Fathom Analytics Sites API
   slug: fathom-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/openapi/fathom-sites-api-openapi.yml
+  url: https://artifacts.apis.io/fathom/openapi/fathom-sites-api-openapi.yml
 consequence_counts:
   read: 9
   write: 11
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fathom
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site_id}/events/{event_id}/data\n  method: delete\n  operationId: wipeEventData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site_id}/milestones\n  method: get\n  operationId: listMilestones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/milestones\n  method: post\n  operationId: createMilestone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /sites/{site_id}/milestones/{milestone_id}\n  method: get\n  operationId: getMilestone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/milestones/{milestone_id}\n  method: post\n  operationId: updateMilestone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site_id}/milestones/{milestone_id}\n  method: delete\n  operationId: deleteMilestone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /aggregations\n  method: get\n  operationId: getAggregations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_visitors\n  method: get\n  operationId: getCurrentVisitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fathom/refs/heads/main/agentic-access/fathom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fathom/agentic-access/fathom-agentic-access.yml
 summary_line: 20 operations · 11 acting
 tags:
 - Analytics

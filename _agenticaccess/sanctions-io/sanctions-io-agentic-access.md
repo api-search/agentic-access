@@ -9,37 +9,37 @@ api_specs:
   label: sanctions.io Account Management API
   slug: sanctions-io-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-account-management-api-openapi.yml
 - filename: sanctions-io-adverse-media-api-openapi.yml
   format: yaml
   label: sanctions.io Adverse Media API
   slug: sanctions-io-adverse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-adverse-media-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-adverse-media-api-openapi.yml
 - filename: sanctions-io-batch-screening-api-openapi.yml
   format: yaml
   label: sanctions.io Batch Screening API
   slug: sanctions-io-batch-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-batch-screening-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-batch-screening-api-openapi.yml
 - filename: sanctions-io-data-sources-api-openapi.yml
   format: yaml
   label: sanctions.io Data Sources API
   slug: sanctions-io-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-data-sources-api-openapi.yml
 - filename: sanctions-io-monitoring-api-openapi.yml
   format: yaml
   label: sanctions.io Monitoring API
   slug: sanctions-io-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-monitoring-api-openapi.yml
 - filename: sanctions-io-screening-api-openapi.yml
   format: yaml
   label: sanctions.io Screening API
   slug: sanctions-io-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/openapi/sanctions-io-screening-api-openapi.yml
+  url: https://artifacts.apis.io/sanctions-io/openapi/sanctions-io-screening-api-openapi.yml
 consequence_counts:
   read: 17
   write: 12
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sancti
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /company/config/\n  method: get\n  operationId: getCompanyConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/config/\n  method: put\n  operationId: editCompanyConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/\n  method: get\n  operationId: listCompanyUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/\n  method: post\n  operationId: inviteUser\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{user_uuid}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{user_uuid}\n  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/{user_uuid}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plans/\n  method: get\n  operationId: manageSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /searches/count\n  method: get\n  operationId: listScreeningsCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctions-io/refs/heads/main/agentic-access/sanctions-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sanctions-io/agentic-access/sanctions-io-agentic-access.yml
 summary_line: 29 operations · 12 acting
 tags:
 - AML

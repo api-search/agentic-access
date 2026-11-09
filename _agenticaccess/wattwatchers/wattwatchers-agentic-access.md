@@ -9,25 +9,25 @@ api_specs:
   label: Wattwatchers Devices API
   slug: wattwatchers-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-devices-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-devices-api-openapi.yml
 - filename: wattwatchers-long-energy-api-openapi.yml
   format: yaml
   label: Wattwatchers Long Energy API
   slug: wattwatchers-long-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-long-energy-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-long-energy-api-openapi.yml
 - filename: wattwatchers-modbus-api-openapi.yml
   format: yaml
   label: Wattwatchers Modbus API
   slug: wattwatchers-modbus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-modbus-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-modbus-api-openapi.yml
 - filename: wattwatchers-short-energy-api-openapi.yml
   format: yaml
   label: Wattwatchers Short Energy API
   slug: wattwatchers-short-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/openapi/wattwatchers-short-energy-api-openapi.yml
+  url: https://artifacts.apis.io/wattwatchers/openapi/wattwatchers-short-energy-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/wattwa
   \ 300\n      exchange: required\n      purpose-required: true\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - switch-state-change\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/channel-categories\n  method: get\n  operationId: getChannelCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/models\n  method: get\n  operationId: getDeviceModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /short-energy/{device-id}\n  method: get\n  operationId: getShortEnergyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /short-energy/{device-id}/first\n  method: get\n  operationId: getFirstShortEnergyData\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /short-energy/{device-id}/latest\n  method: get\n  operationId: getLatestShortEnergyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /long-energy/{device-id}\n  method: get\n  operationId: getLongEnergyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /long-energy/{device-id}/first\n  method: get\n  operationId: getFirstLongEnergyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /long-energy/{device-id}/latest\n  method: get\n  operationId: getLatestLongEnergyData\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /modbus/{device-id}\n  method: get\n  operationId: getModbusData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /modbus/{device-id}/first\n  method: get\n  operationId: getFirstModbusData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /modbus/{device-id}/latest\n  method: get\n  operationId: getLatestModbusData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\ncuration: updateDevice raised to consequence=physical / human-in-the-loop=required after review; see the\n  curation_note on that operation.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wattwatchers/refs/heads/main/agentic-access/wattwatchers-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wattwatchers/agentic-access/wattwatchers-agentic-access.yml
 summary_line: 14 operations · 1 acting · 1 human-in-the-loop
 tags:
 - Energy

@@ -9,49 +9,49 @@ api_specs:
   label: Dailyhunt Catalog API
   slug: dailyhunt-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-catalog-api-openapi.yml
 - filename: dailyhunt-channels-api-openapi.yml
   format: yaml
   label: Dailyhunt Channels API
   slug: dailyhunt-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-channels-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-channels-api-openapi.yml
 - filename: dailyhunt-content-fetch-api-openapi.yml
   format: yaml
   label: Dailyhunt Content Fetch API
   slug: dailyhunt-content-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-content-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-content-fetch-api-openapi.yml
 - filename: dailyhunt-cricket-api-openapi.yml
   format: yaml
   label: Dailyhunt Cricket API
   slug: dailyhunt-cricket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-cricket-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-cricket-api-openapi.yml
 - filename: dailyhunt-feedback-api-openapi.yml
   format: yaml
   label: Dailyhunt Feedback API
   slug: dailyhunt-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-feedback-api-openapi.yml
 - filename: dailyhunt-languages-api-openapi.yml
   format: yaml
   label: Dailyhunt Languages API
   slug: dailyhunt-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-languages-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-languages-api-openapi.yml
 - filename: dailyhunt-products-api-openapi.yml
   format: yaml
   label: Dailyhunt Products API
   slug: dailyhunt-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-products-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-products-api-openapi.yml
 - filename: dailyhunt-tracking-api-openapi.yml
   format: yaml
   label: Dailyhunt Tracking API
   slug: dailyhunt-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/openapi/dailyhunt-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/dailyhunt/openapi/dailyhunt-tracking-api-openapi.yml
 consequence_counts:
   read: 11
   write: 4
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: generated\nsource: openapi/dailyh
   \ path: /api/v2/syndication/feedback\n  method: post\n  operationId: submitFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/syndication/streams/cricket/score\n  method: get\n  operationId: streamCricketScore\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/syndication/streams/cricket/commentary\n  method: get\n  operationId: streamCricketCommentary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/syndication/languages\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/syndication/tracking\n  method: post\n  operationId: trackViewedItems\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping-catalog/v1/catalog/\n  method: post\n  operationId: createCatalog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping-catalog/v1/catalog/{catalog_id}\n  method: get\n  operationId: getCatalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shopping-catalog/v1/catalog/{catalog_id}/batch\n  method: post\n  operationId: submitProductBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping-catalog/v1/catalog/{catalog_id}/batch/status\n  method: get\n  operationId: getProductBatchStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dailyhunt/refs/heads/main/agentic-access/dailyhunt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dailyhunt/agentic-access/dailyhunt-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Company

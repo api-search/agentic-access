@@ -9,37 +9,37 @@ api_specs:
   label: ACRCloud Audio Files API
   slug: acrcloud-audio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-audio-files-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-audio-files-api-openapi.yml
 - filename: acrcloud-broadcast-monitoring-api-openapi.yml
   format: yaml
   label: ACRCloud Broadcast Monitoring API
   slug: acrcloud-broadcast-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-broadcast-monitoring-api-openapi.yml
 - filename: acrcloud-buckets-api-openapi.yml
   format: yaml
   label: ACRCloud Buckets API
   slug: acrcloud-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-buckets-api-openapi.yml
 - filename: acrcloud-file-scanning-api-openapi.yml
   format: yaml
   label: ACRCloud File Scanning API
   slug: acrcloud-file-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-file-scanning-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-file-scanning-api-openapi.yml
 - filename: acrcloud-identification-api-openapi.yml
   format: yaml
   label: ACRCloud Identification API
   slug: acrcloud-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-identification-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-identification-api-openapi.yml
 - filename: acrcloud-metadata-api-openapi.yml
   format: yaml
   label: ACRCloud Metadata API
   slug: acrcloud-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/openapi/acrcloud-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/acrcloud/openapi/acrcloud-metadata-api-openapi.yml
 consequence_counts:
   read: 8
   write: 13
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/acrclo
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-bd-projects\n  method: get\n  operationId: listBroadcastProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/bm-bd-projects\n  method: post\n  operationId: createBroadcastProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-bd-projects/{id}\n  method: put\n  operationId: updateBroadcastProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-bd-projects/{id}\n  method: delete\n  operationId: deleteBroadcastProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/bm-bd-projects/{id}/result-callback\n  method: post\n  operationId: setResultCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external-metadata/tracks\n  method: get\n  operationId: getExternalMetadataTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrcloud/refs/heads/main/agentic-access/acrcloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/acrcloud/agentic-access/acrcloud-agentic-access.yml
 summary_line: 21 operations · 13 acting
 tags:
 - Audio

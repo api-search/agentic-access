@@ -9,7 +9,7 @@ api_specs:
   label: Google Cloud Workflows Projects API
   slug: google-cloud-workflows-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/openapi/google-cloud-workflows-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-workflows/openapi/google-cloud-workflows-projects-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}\n  method: patch\n  operationId: updateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}\n  method: delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}/executions\n  method: get\n  operationId: listExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}/executions\n  method: post\n  operationId: createExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}/executions/{execution}\n\
   \  method: get\n  operationId: getExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/{location}/workflows/{workflow}/executions/{execution}:cancel\n  method: post\n  operationId: cancelExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-workflows/refs/heads/main/agentic-access/google-cloud-workflows-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-workflows/agentic-access/google-cloud-workflows-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Automation

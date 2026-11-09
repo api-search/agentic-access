@@ -9,79 +9,79 @@ api_specs:
   label: PEAKS (CAES) — Access API
   slug: uc-davis-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-access-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-access-api-openapi.yml
 - filename: uc-davis-documents-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Documents API
   slug: uc-davis-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-documents-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-documents-api-openapi.yml
 - filename: uc-davis-equipment-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Equipment API
   slug: uc-davis-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-equipment-api-openapi.yml
 - filename: uc-davis-keys-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Keys API
   slug: uc-davis-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keys-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-keys-api-openapi.yml
 - filename: uc-davis-keyserials-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — KeySerials API
   slug: uc-davis-keyserials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-keyserials-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-keyserials-api-openapi.yml
 - filename: uc-davis-people-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — People API
   slug: uc-davis-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-people-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-people-api-openapi.yml
 - filename: uc-davis-peopleadmin-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — PeopleAdmin API
   slug: uc-davis-peopleadmin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-peopleadmin-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-peopleadmin-api-openapi.yml
 - filename: uc-davis-spaces-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Spaces API
   slug: uc-davis-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-spaces-api-openapi.yml
 - filename: uc-davis-workstations-api-openapi.yml
   format: yaml
   label: PEAKS (CAES) — Workstations API
   slug: uc-davis-workstations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-workstations-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-workstations-api-openapi.yml
 - filename: uc-davis-collection-api-openapi.yml
   format: yaml
   label: University of California, Davis Collection API
   slug: uc-davis-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-collection-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-collection-api-openapi.yml
 - filename: uc-davis-expert-api-openapi.yml
   format: yaml
   label: University of California, Davis Expert API
   slug: uc-davis-expert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-expert-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-expert-api-openapi.yml
 - filename: uc-davis-item-api-openapi.yml
   format: yaml
   label: University of California, Davis Item API
   slug: uc-davis-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-item-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-item-api-openapi.yml
 - filename: uc-davis-page-search-api-openapi.yml
   format: yaml
   label: University of California, Davis page search API
   slug: uc-davis-page-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/openapi/uc-davis-page-search-api-openapi.yml
+  url: https://artifacts.apis.io/uc-davis/openapi/uc-davis-page-search-api-openapi.yml
 consequence_counts:
   read: 69
   safety-critical: 4
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/uc-dav
   \ post\n  operationId: postApiByTeamNameWorkstationsCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - SpaceMasterAccess\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{teamName}/workstations/Assign\n  method: post\n  operationId: postApiByTeamNameWorkstationsAssign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - SpaceMasterAccess\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{teamName}/workstations/Revoke/{id}\n  method: post\n  operationId: postApiByTeamNameWorkstationsRevokeById\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n\
   \    subject: required\n    scope:\n    - SpaceMasterAccess\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/{teamName}/workstations/Update\n  method: post\n  operationId: postApiByTeamNameWorkstationsUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - SpaceMasterAccess\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{teamName}/workstations/Delete/{id}\n  method: post\n  operationId: postApiByTeamNameWorkstationsDeleteById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - SpaceMasterAccess\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/{teamName}/workstations/GetHistory/{id}\n  method: get\n  operationId: getApiByTeamNameWorkstationsGetHistoryById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - SpaceMasterAccess\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uc-davis/refs/heads/main/agentic-access/uc-davis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uc-davis/agentic-access/uc-davis-agentic-access.yml
 summary_line: 100 operations · 31 acting · 4 human-in-the-loop
 tags:
 - University

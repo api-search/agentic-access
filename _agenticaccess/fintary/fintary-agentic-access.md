@@ -9,61 +9,61 @@ api_specs:
   label: Fintary Agents API
   slug: fintary-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-agents-api-openapi.yml
 - filename: fintary-ams-agents-api-openapi.yml
   format: yaml
   label: Fintary AMS - Agents API
   slug: fintary-ams-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-agents-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-agents-api-openapi.yml
 - filename: fintary-ams-configs-api-openapi.yml
   format: yaml
   label: Fintary AMS - Configs API
   slug: fintary-ams-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-configs-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-configs-api-openapi.yml
 - filename: fintary-ams-customers-api-openapi.yml
   format: yaml
   label: Fintary AMS - Customers API
   slug: fintary-ams-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-customers-api-openapi.yml
 - filename: fintary-ams-policies-api-openapi.yml
   format: yaml
   label: Fintary AMS - Policies API
   slug: fintary-ams-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-policies-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-policies-api-openapi.yml
 - filename: fintary-ams-registry-api-openapi.yml
   format: yaml
   label: Fintary AMS - Registry API
   slug: fintary-ams-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-registry-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-registry-api-openapi.yml
 - filename: fintary-ams-tasks-api-openapi.yml
   format: yaml
   label: Fintary AMS - Tasks API
   slug: fintary-ams-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-ams-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-ams-tasks-api-openapi.yml
 - filename: fintary-analytics-api-openapi.yml
   format: yaml
   label: Fintary Analytics API
   slug: fintary-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-analytics-api-openapi.yml
 - filename: fintary-commission-reports-api-openapi.yml
   format: yaml
   label: Fintary Commission Reports API
   slug: fintary-commission-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-commission-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-commission-reports-api-openapi.yml
 - filename: fintary-documents-api-openapi.yml
   format: yaml
   label: Fintary Documents API
   slug: fintary-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/openapi/fintary-documents-api-openapi.yml
+  url: https://artifacts.apis.io/fintary/openapi/fintary-documents-api-openapi.yml
 consequence_counts:
   read: 44
   write: 37
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fintar
   \ analytics.getReportData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/analytics/reports\n  method: get\n  operationId: analytics.listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/analytics/tasks/{taskId}\n  method: get\n  operationId: analytics.getExportTaskStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/analytics/widgets/defaults\n  method: get\n  operationId: analytics.listDefaultWidgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/analytics/widgets/defaults/restore\n  method: post\n  operationId: analytics.restoreDefaultWidget\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/analytics/widgets\n  method: get\n  operationId: analytics.listWidgets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/comp-reports/data\n  method: get\n  operationId: compReports.getData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi/documents/convert-html-to-pdf\n  method: post\n  operationId: documents.convertHtmlToPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi/documents/upload\n  method: post\n  operationId: documents.upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fintary/refs/heads/main/agentic-access/fintary-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fintary/agentic-access/fintary-agentic-access.yml
 summary_line: 81 operations · 37 acting
 tags:
 - Company

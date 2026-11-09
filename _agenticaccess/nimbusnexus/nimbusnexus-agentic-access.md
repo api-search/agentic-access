@@ -9,337 +9,337 @@ api_specs:
   label: NimbusNexus V1:account:2fa API
   slug: nimbusnexus-v1-account-2fa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-2fa-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-2fa-api-openapi.yml
 - filename: nimbusnexus-v1-account-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account API
   slug: nimbusnexus-v1-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-api-openapi.yml
 - filename: nimbusnexus-v1-account-careers-applications-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account:careers Applications API
   slug: nimbusnexus-v1-account-careers-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-careers-applications-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-careers-applications-api-openapi.yml
 - filename: nimbusnexus-v1-account-notifications-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account:notifications API
   slug: nimbusnexus-v1-account-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-notifications-api-openapi.yml
 - filename: nimbusnexus-v1-account-phone-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account:phone API
   slug: nimbusnexus-v1-account-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-phone-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-phone-api-openapi.yml
 - filename: nimbusnexus-v1-account-region-requests-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account:region Requests API
   slug: nimbusnexus-v1-account-region-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-region-requests-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-region-requests-api-openapi.yml
 - filename: nimbusnexus-v1-account-ssh-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account:ssh API
   slug: nimbusnexus-v1-account-ssh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-ssh-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-ssh-api-openapi.yml
 - filename: nimbusnexus-v1-account-subscriptions-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:account:subscriptions API
   slug: nimbusnexus-v1-account-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-account-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-account-subscriptions-api-openapi.yml
 - filename: nimbusnexus-v1-authz-permission-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:authz:permission API
   slug: nimbusnexus-v1-authz-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-authz-permission-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-authz-permission-api-openapi.yml
 - filename: nimbusnexus-v1-authz-permission-versioning-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:authz:permission:versioning API
   slug: nimbusnexus-v1-authz-permission-versioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-authz-permission-versioning-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-authz-permission-versioning-api-openapi.yml
 - filename: nimbusnexus-v1-authz-resource-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:authz:resource API
   slug: nimbusnexus-v1-authz-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-authz-resource-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-authz-resource-api-openapi.yml
 - filename: nimbusnexus-v1-billing-payment-methods-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:billing:payment Methods API
   slug: nimbusnexus-v1-billing-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-billing-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-billing-payment-methods-api-openapi.yml
 - filename: nimbusnexus-v1-billing-public-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:billing:public API
   slug: nimbusnexus-v1-billing-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-billing-public-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-billing-public-api-openapi.yml
 - filename: nimbusnexus-v1-cinder-backup-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:cinder:backup API
   slug: nimbusnexus-v1-cinder-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-cinder-backup-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-cinder-backup-api-openapi.yml
 - filename: nimbusnexus-v1-cinder-backup-scheduler-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:cinder:backup:scheduler API
   slug: nimbusnexus-v1-cinder-backup-scheduler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-cinder-backup-scheduler-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-cinder-backup-scheduler-api-openapi.yml
 - filename: nimbusnexus-v1-cinder-backup-scheduler-conf-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:cinder:backup:scheduler:conf API
   slug: nimbusnexus-v1-cinder-backup-scheduler-conf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-cinder-backup-scheduler-conf-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-cinder-backup-scheduler-conf-api-openapi.yml
 - filename: nimbusnexus-v1-cinder-storage-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:cinder:storage API
   slug: nimbusnexus-v1-cinder-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-cinder-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-cinder-storage-api-openapi.yml
 - filename: nimbusnexus-v1-designate-ptr-set-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:designate:ptr Set API
   slug: nimbusnexus-v1-designate-ptr-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-designate-ptr-set-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-designate-ptr-set-api-openapi.yml
 - filename: nimbusnexus-v1-designate-record-set-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:designate:record Set API
   slug: nimbusnexus-v1-designate-record-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-designate-record-set-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-designate-record-set-api-openapi.yml
 - filename: nimbusnexus-v1-designate-zones-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:designate:zones API
   slug: nimbusnexus-v1-designate-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-designate-zones-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-designate-zones-api-openapi.yml
 - filename: nimbusnexus-v1-designate-zones-shares-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:designate:zones:shares API
   slug: nimbusnexus-v1-designate-zones-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-designate-zones-shares-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-designate-zones-shares-api-openapi.yml
 - filename: nimbusnexus-v1-external-connections-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:external:connections API
   slug: nimbusnexus-v1-external-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-external-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-external-connections-api-openapi.yml
 - filename: nimbusnexus-v1-glance-image-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:glance:image API
   slug: nimbusnexus-v1-glance-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-glance-image-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-glance-image-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-api-keys-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:api Keys API
   slug: nimbusnexus-v1-keystone-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-api-keys-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-domains-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:domains API
   slug: nimbusnexus-v1-keystone-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-domains-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-domains-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-groups-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:groups API
   slug: nimbusnexus-v1-keystone-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-groups-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-groups-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-projects-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:projects API
   slug: nimbusnexus-v1-keystone-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-projects-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-projects-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-quota-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:quota API
   slug: nimbusnexus-v1-keystone-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-quota-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-quota-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-quota-request-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:quota:request API
   slug: nimbusnexus-v1-keystone-quota-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-quota-request-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-quota-request-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-roles-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:roles API
   slug: nimbusnexus-v1-keystone-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-roles-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-roles-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-trusts-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:trusts API
   slug: nimbusnexus-v1-keystone-trusts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-trusts-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-trusts-api-openapi.yml
 - filename: nimbusnexus-v1-keystone-users-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:keystone:users API
   slug: nimbusnexus-v1-keystone-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-keystone-users-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-keystone-users-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-address-group-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:address Group API
   slug: nimbusnexus-v1-neutron-address-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-address-group-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-address-group-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-bandwidth-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:bandwidth API
   slug: nimbusnexus-v1-neutron-bandwidth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-bandwidth-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-bandwidth-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-floating-ip-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:floating Ip API
   slug: nimbusnexus-v1-neutron-floating-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-floating-ip-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-floating-ip-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-network-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:network API
   slug: nimbusnexus-v1-neutron-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-network-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-network-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-port-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:port API
   slug: nimbusnexus-v1-neutron-port-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-port-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-port-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-qos-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:qos API
   slug: nimbusnexus-v1-neutron-qos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-qos-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-qos-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-qos-bandwidth-limit-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:qos:bandwidth Limit API
   slug: nimbusnexus-v1-neutron-qos-bandwidth-limit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-qos-bandwidth-limit-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-qos-bandwidth-limit-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-qos-dscp-rules-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:qos:dscp Rules API
   slug: nimbusnexus-v1-neutron-qos-dscp-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-qos-dscp-rules-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-qos-dscp-rules-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-qos-minimum-bandwidth-rule-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:qos:minimum Bandwidth Rule API
   slug: nimbusnexus-v1-neutron-qos-minimum-bandwidth-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-qos-minimum-bandwidth-rule-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-qos-minimum-bandwidth-rule-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-rbac-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:rbac API
   slug: nimbusnexus-v1-neutron-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-rbac-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-router-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:router API
   slug: nimbusnexus-v1-neutron-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-router-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-router-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-security-group-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:security Group API
   slug: nimbusnexus-v1-neutron-security-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-security-group-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-security-group-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-subnet-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:subnet API
   slug: nimbusnexus-v1-neutron-subnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-subnet-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-subnet-api-openapi.yml
 - filename: nimbusnexus-v1-neutron-subnet-pool-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:neutron:subnet:pool API
   slug: nimbusnexus-v1-neutron-subnet-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-neutron-subnet-pool-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-neutron-subnet-pool-api-openapi.yml
 - filename: nimbusnexus-v1-nova-flavor-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:nova:flavor API
   slug: nimbusnexus-v1-nova-flavor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-nova-flavor-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-nova-flavor-api-openapi.yml
 - filename: nimbusnexus-v1-nova-instance-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:nova:instance API
   slug: nimbusnexus-v1-nova-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-nova-instance-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-nova-instance-api-openapi.yml
 - filename: nimbusnexus-v1-nova-instance-interface-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:nova:instance Interface API
   slug: nimbusnexus-v1-nova-instance-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-nova-instance-interface-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-nova-instance-interface-api-openapi.yml
 - filename: nimbusnexus-v1-octavia-health-monitors-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:octavia:health Monitors API
   slug: nimbusnexus-v1-octavia-health-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-octavia-health-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-octavia-health-monitors-api-openapi.yml
 - filename: nimbusnexus-v1-octavia-listeners-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:octavia:listeners API
   slug: nimbusnexus-v1-octavia-listeners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-octavia-listeners-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-octavia-listeners-api-openapi.yml
 - filename: nimbusnexus-v1-octavia-loadbalancers-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:octavia:loadbalancers API
   slug: nimbusnexus-v1-octavia-loadbalancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-octavia-loadbalancers-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-octavia-loadbalancers-api-openapi.yml
 - filename: nimbusnexus-v1-octavia-members-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:octavia:members API
   slug: nimbusnexus-v1-octavia-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-octavia-members-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-octavia-members-api-openapi.yml
 - filename: nimbusnexus-v1-octavia-pools-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:octavia:pools API
   slug: nimbusnexus-v1-octavia-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-octavia-pools-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-octavia-pools-api-openapi.yml
 - filename: nimbusnexus-v1-pricing-pricing-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:pricing:pricing API
   slug: nimbusnexus-v1-pricing-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-pricing-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-pricing-pricing-api-openapi.yml
 - filename: nimbusnexus-v1-swift-object-storage-api-openapi.yml
   format: yaml
   label: NimbusNexus V1:swift:object Storage API
   slug: nimbusnexus-v1-swift-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/openapi/nimbusnexus-v1-swift-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/nimbusnexus/openapi/nimbusnexus-v1-swift-object-storage-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 140
@@ -453,8 +453,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/extern
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/quota-request/approve\n  method: post\n  operationId: admin_approve_quota_request_api_v1_quota_request_approve_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/quota-request/reject\n  method: post\n  operationId: admin_reject_quota_request_api_v1_quota_request_reject_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/quota-request/update\n  method: post\n  operationId: admin_mark_quota_request_for_update_api_v1_quota_request_update_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api_keys/access_rules_artifacts\n  method: get\n  operationId: access_rules_artifacts_api_v1_api_keys_access_rules_artifacts_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api_keys/\n  method: post\n  operationId: create_api_key_api_v1_api_keys__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api_keys/list\n  method: get\n  operationId: list_api_keys_api_v1_api_keys_list_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api_keys/{api_key_id}\n  method: delete\n  operationId: delete_api_key_api_v1_api_keys__api_key_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/api_keys/{api_key_id}\n  method: get\n  operationId: get_api_key_api_v1_api_keys__api_key_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api_keys/access_rules/list\n  method: get\n  operationId: list_access_rules_api_v1_api_keys_access_rules_list_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api_keys/access_rules/{access_rule_id}\n  method: get\n  operationId: get_access_rule_api_v1_api_keys_access_rules__access_rule_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (117 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/agentic-access/nimbusnexus-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nimbusnexus/refs/heads/main/agentic-access/nimbusnexus-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api_keys/access_rules/list\n  method: get\n  operationId: list_access_rules_api_v1_api_keys_access_rules_list_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/api_keys/access_rules/{access_rule_id}\n  method: get\n  operationId: get_access_rule_api_v1_api_keys_access_rules__access_rule_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (117 KB total) ---\n# Full source: https://artifacts.apis.io/nimbusnexus/agentic-access/nimbusnexus-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/nimbusnexus/agentic-access/nimbusnexus-agentic-access.yml
 summary_line: 350 operations · 210 acting · 5 human-in-the-loop
 tags:
 - Cloud

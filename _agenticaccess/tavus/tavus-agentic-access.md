@@ -9,73 +9,73 @@ api_specs:
   label: Tavus Conversations API
   slug: tavus-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-conversations-api-openapi.yml
 - filename: tavus-documents-api-openapi.yml
   format: yaml
   label: Tavus Documents API
   slug: tavus-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-documents-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-documents-api-openapi.yml
 - filename: tavus-guardrails-api-openapi.yml
   format: yaml
   label: Tavus Guardrails API
   slug: tavus-guardrails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-guardrails-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-guardrails-api-openapi.yml
 - filename: tavus-objectives-api-openapi.yml
   format: yaml
   label: Tavus Objectives API
   slug: tavus-objectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-objectives-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-objectives-api-openapi.yml
 - filename: tavus-personas-api-openapi.yml
   format: yaml
   label: Tavus Personas API
   slug: tavus-personas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-personas-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-personas-api-openapi.yml
 - filename: tavus-pronunciation-dictionaries-api-openapi.yml
   format: yaml
   label: Tavus Pronunciation Dictionaries API
   slug: tavus-pronunciation-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-pronunciation-dictionaries-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-pronunciation-dictionaries-api-openapi.yml
 - filename: tavus-replacements-api-openapi.yml
   format: yaml
   label: Tavus Replacements API
   slug: tavus-replacements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-replacements-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-replacements-api-openapi.yml
 - filename: tavus-replicas-api-openapi.yml
   format: yaml
   label: Tavus Replicas API
   slug: tavus-replicas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-replicas-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-replicas-api-openapi.yml
 - filename: tavus-transcriptions-api-openapi.yml
   format: yaml
   label: Tavus Transcriptions API
   slug: tavus-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-transcriptions-api-openapi.yml
 - filename: tavus-videos-api-openapi.yml
   format: yaml
   label: Tavus Videos API
   slug: tavus-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-videos-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-videos-api-openapi.yml
 - filename: tavus-voices-api-openapi.yml
   format: yaml
   label: Tavus Voices API
   slug: tavus-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-voices-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-voices-api-openapi.yml
 - filename: tavus-lip-sync-api-openapi.yml
   format: yaml
   label: Tavus Lip Sync API
   slug: tavus-lip-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/openapi/tavus-lip-sync-api-openapi.yml
+  url: https://artifacts.apis.io/tavus/openapi/tavus-lip-sync-api-openapi.yml
 consequence_counts:
   read: 23
   write: 31
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tavus-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/documents/{document_id}/recrawl\n  method: post\n  operationId: recrawlDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/pronunciation-dictionaries\n  method: post\n  operationId: createPronunciationDictionary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/pronunciation-dictionaries\n  method:\
   \ get\n  operationId: listPronunciationDictionaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/pronunciation-dictionaries/{dictionary_id}\n  method: get\n  operationId: getPronunciationDictionary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/pronunciation-dictionaries/{dictionary_id}\n  method: patch\n  operationId: patchPronunciationDictionary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/pronunciation-dictionaries/{dictionary_id}\n  method: delete\n  operationId: deletePronunciationDictionary\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/transcriptions/{transcription_id}\n  method: get\n  operationId: getTranscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/transcriptions/{transcription_id}\n  method: delete\n  operationId: deleteTranscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tavus/refs/heads/main/agentic-access/tavus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tavus/agentic-access/tavus-agentic-access.yml
 summary_line: 54 operations · 31 acting
 tags:
 - Artificial Intelligence

@@ -9,67 +9,67 @@ api_specs:
   label: JupyterHub Activity API
   slug: jupyterhub-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-activity-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-activity-api-openapi.yml
 - filename: jupyterhub-admin-api-openapi.yml
   format: yaml
   label: JupyterHub Admin API
   slug: jupyterhub-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-admin-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-admin-api-openapi.yml
 - filename: jupyterhub-authorizations-api-openapi.yml
   format: yaml
   label: JupyterHub Authorizations API
   slug: jupyterhub-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-authorizations-api-openapi.yml
 - filename: jupyterhub-general-api-openapi.yml
   format: yaml
   label: JupyterHub General API
   slug: jupyterhub-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-general-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-general-api-openapi.yml
 - filename: jupyterhub-groups-api-openapi.yml
   format: yaml
   label: JupyterHub Groups API
   slug: jupyterhub-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-groups-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-groups-api-openapi.yml
 - filename: jupyterhub-proxy-api-openapi.yml
   format: yaml
   label: JupyterHub Proxy API
   slug: jupyterhub-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-proxy-api-openapi.yml
 - filename: jupyterhub-servers-api-openapi.yml
   format: yaml
   label: JupyterHub Servers API
   slug: jupyterhub-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-servers-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-servers-api-openapi.yml
 - filename: jupyterhub-services-api-openapi.yml
   format: yaml
   label: JupyterHub Services API
   slug: jupyterhub-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-services-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-services-api-openapi.yml
 - filename: jupyterhub-tokens-api-openapi.yml
   format: yaml
   label: JupyterHub Tokens API
   slug: jupyterhub-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-tokens-api-openapi.yml
 - filename: jupyterhub-users-api-openapi.yml
   format: yaml
   label: JupyterHub Users API
   slug: jupyterhub-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-users-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-users-api-openapi.yml
 - filename: jupyterhub-oauth2-api-openapi.yml
   format: yaml
   label: JupyterHub O Auth2 API
   slug: jupyterhub-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/openapi/jupyterhub-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/jupyterhub/openapi/jupyterhub-oauth2-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 4
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jupyte
   \  operationId: updateProxy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorizations/token\n  method: post\n  operationId: requestToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /authorizations/token/{token}\n  method: get\n  operationId: identifyToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authorizations/cookie/{cookie_name}/{cookie_value}\n  method: get\n  operationId: identifyCookie\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/authorize\n  method: get\n  operationId: oauth2Authorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/token\n  method: post\n  operationId: oauth2Token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shutdown\n  method: post\n  operationId: shutdownHub\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyterhub/refs/heads/main/agentic-access/jupyterhub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jupyterhub/agentic-access/jupyterhub-agentic-access.yml
 summary_line: 35 operations · 21 acting · 4 human-in-the-loop
 tags:
 - Authentication
@@ -140,5 +140,6 @@ tags:
 - Hub
 - Multi-User
 - Notebooks
+- OAuth
 - Python
 ---

@@ -9,61 +9,61 @@ api_specs:
   label: Spaceship Async Operations API
   slug: spaceship-async-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-async-operations-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-async-operations-api-openapi.yml
 - filename: spaceship-contacts-api-openapi.yml
   format: yaml
   label: Spaceship Contacts API
   slug: spaceship-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-contacts-api-openapi.yml
 - filename: spaceship-contacts-attributes-api-openapi.yml
   format: yaml
   label: Spaceship Contacts attributes API
   slug: spaceship-contacts-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-contacts-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-contacts-attributes-api-openapi.yml
 - filename: spaceship-dns-records-api-openapi.yml
   format: yaml
   label: Spaceship DNS records API
   slug: spaceship-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-dns-records-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-dns-records-api-openapi.yml
 - filename: spaceship-domain-availability-api-openapi.yml
   format: yaml
   label: Spaceship Domain Availability API
   slug: spaceship-domain-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-availability-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-domain-availability-api-openapi.yml
 - filename: spaceship-domain-management-api-openapi.yml
   format: yaml
   label: Spaceship Domain Management API
   slug: spaceship-domain-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-management-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-domain-management-api-openapi.yml
 - filename: spaceship-domain-settings-api-openapi.yml
   format: yaml
   label: Spaceship Domain Settings API
   slug: spaceship-domain-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-settings-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-domain-settings-api-openapi.yml
 - filename: spaceship-domain-transfer-api-openapi.yml
   format: yaml
   label: Spaceship Domain Transfer API
   slug: spaceship-domain-transfer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-domain-transfer-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-domain-transfer-api-openapi.yml
 - filename: spaceship-personal-nameservers-api-openapi.yml
   format: yaml
   label: Spaceship Personal Nameservers API
   slug: spaceship-personal-nameservers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-personal-nameservers-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-personal-nameservers-api-openapi.yml
 - filename: spaceship-sellerhub-api-openapi.yml
   format: yaml
   label: Spaceship SellerHub API
   slug: spaceship-sellerhub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/openapi/spaceship-sellerhub-api-openapi.yml
+  url: https://artifacts.apis.io/spaceship/openapi/spaceship-sellerhub-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 17
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/spaces
   \ get\n  operationId: getSoldDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sellerhub/domains/{domain}\n  method: get\n  operationId: getSellerHubDomain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sellerhub/domains/{domain}\n  method: patch\n  operationId: updateSellerHubDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sellerhub/domains/{domain}\n  method: delete\n  operationId: deleteSellerHubDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sellerhub/safepay-transactions\n  method: get\n  operationId: getSafePayTransactionList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sellerhub/safepay-transactions\n  method: post\n  operationId: createSafePayTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sellerhub/safepay-transactions/{transactionId}\n  method: get\n  operationId: getSafePayTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n \
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sellerhub/verification-records\n  method: get\n  operationId: getVerificationRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaceship/refs/heads/main/agentic-access/spaceship-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spaceship/agentic-access/spaceship-agentic-access.yml
 summary_line: 40 operations · 23 acting
 tags:
 - Company

@@ -9,205 +9,205 @@ api_specs:
   label: first direct Account Access Consents API
   slug: first-direct-account-access-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-account-access-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-account-access-consents-api-openapi.yml
 - filename: first-direct-accounts-api-openapi.yml
   format: yaml
   label: first direct Accounts API
   slug: first-direct-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-accounts-api-openapi.yml
 - filename: first-direct-atm-api-openapi.yml
   format: yaml
   label: first direct ATM API
   slug: first-direct-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-atm-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-atm-api-openapi.yml
 - filename: first-direct-balances-api-openapi.yml
   format: yaml
   label: first direct Balances API
   slug: first-direct-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-balances-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-balances-api-openapi.yml
 - filename: first-direct-bca-api-openapi.yml
   format: yaml
   label: first direct BCA API
   slug: first-direct-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-bca-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-bca-api-openapi.yml
 - filename: first-direct-beneficiaries-api-openapi.yml
   format: yaml
   label: first direct Beneficiaries API
   slug: first-direct-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-beneficiaries-api-openapi.yml
 - filename: first-direct-branch-api-openapi.yml
   format: yaml
   label: first direct Branch API
   slug: first-direct-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-branch-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-branch-api-openapi.yml
 - filename: first-direct-ccc-api-openapi.yml
   format: yaml
   label: first direct CCC API
   slug: first-direct-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-ccc-api-openapi.yml
 - filename: first-direct-direct-debits-api-openapi.yml
   format: yaml
   label: first direct Debits API
   slug: first-direct-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-direct-debits-api-openapi.yml
 - filename: first-direct-domestic-payment-consents-api-openapi.yml
   format: yaml
   label: first direct Domestic Payment Consents API
   slug: first-direct-domestic-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-domestic-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-domestic-payment-consents-api-openapi.yml
 - filename: first-direct-domestic-payments-api-openapi.yml
   format: yaml
   label: first direct Domestic Payments API
   slug: first-direct-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-domestic-payments-api-openapi.yml
 - filename: first-direct-domestic-scheduled-payment-consents-api-openapi.yml
   format: yaml
   label: first direct Domestic Scheduled Payment Consents API
   slug: first-direct-domestic-scheduled-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-domestic-scheduled-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-domestic-scheduled-payment-consents-api-openapi.yml
 - filename: first-direct-domestic-scheduled-payments-api-openapi.yml
   format: yaml
   label: first direct Domestic Scheduled Payments API
   slug: first-direct-domestic-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-domestic-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-domestic-scheduled-payments-api-openapi.yml
 - filename: first-direct-domestic-standing-order-consents-api-openapi.yml
   format: yaml
   label: first direct Domestic Standing Order Consents API
   slug: first-direct-domestic-standing-order-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-domestic-standing-order-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-domestic-standing-order-consents-api-openapi.yml
 - filename: first-direct-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: first direct Domestic Standing Orders API
   slug: first-direct-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-domestic-standing-orders-api-openapi.yml
 - filename: first-direct-file-payment-consents-api-openapi.yml
   format: yaml
   label: first direct File Payment Consents API
   slug: first-direct-file-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-file-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-file-payment-consents-api-openapi.yml
 - filename: first-direct-file-payments-api-openapi.yml
   format: yaml
   label: first direct File Payments API
   slug: first-direct-file-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-file-payments-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-file-payments-api-openapi.yml
 - filename: first-direct-funds-confirmation-consents-api-openapi.yml
   format: yaml
   label: first direct Funds Confirmation Consents API
   slug: first-direct-funds-confirmation-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-funds-confirmation-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-funds-confirmation-consents-api-openapi.yml
 - filename: first-direct-funds-confirmations-api-openapi.yml
   format: yaml
   label: first direct Funds Confirmations API
   slug: first-direct-funds-confirmations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-funds-confirmations-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-funds-confirmations-api-openapi.yml
 - filename: first-direct-international-payment-consents-api-openapi.yml
   format: yaml
   label: first direct International Payment Consents API
   slug: first-direct-international-payment-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-international-payment-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-international-payment-consents-api-openapi.yml
 - filename: first-direct-international-payments-api-openapi.yml
   format: yaml
   label: first direct International Payments API
   slug: first-direct-international-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-international-payments-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-international-payments-api-openapi.yml
 - filename: first-direct-international-scheduled-payments-api-openapi.yml
   format: yaml
   label: first direct International Scheduled Payments API
   slug: first-direct-international-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-international-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-international-scheduled-payments-api-openapi.yml
 - filename: first-direct-international-scheduled-payments-consents-api-openapi.yml
   format: yaml
   label: first direct International Scheduled Payments Consents API
   slug: first-direct-international-scheduled-payments-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-international-scheduled-payments-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-international-scheduled-payments-consents-api-openapi.yml
 - filename: first-direct-international-standing-orders-api-openapi.yml
   format: yaml
   label: first direct International Standing Orders API
   slug: first-direct-international-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-international-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-international-standing-orders-api-openapi.yml
 - filename: first-direct-international-standing-orders-consents-api-openapi.yml
   format: yaml
   label: first direct International Standing Orders Consents API
   slug: first-direct-international-standing-orders-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-international-standing-orders-consents-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-international-standing-orders-consents-api-openapi.yml
 - filename: first-direct-offers-api-openapi.yml
   format: yaml
   label: first direct Offers API
   slug: first-direct-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-offers-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-offers-api-openapi.yml
 - filename: first-direct-parties-api-openapi.yml
   format: yaml
   label: first direct Parties API
   slug: first-direct-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-parties-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-parties-api-openapi.yml
 - filename: first-direct-pca-api-openapi.yml
   format: yaml
   label: first direct PCA API
   slug: first-direct-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-pca-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-pca-api-openapi.yml
 - filename: first-direct-products-api-openapi.yml
   format: yaml
   label: first direct Products API
   slug: first-direct-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-products-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-products-api-openapi.yml
 - filename: first-direct-scheduled-payments-api-openapi.yml
   format: yaml
   label: first direct Scheduled Payments API
   slug: first-direct-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-scheduled-payments-api-openapi.yml
 - filename: first-direct-sme-api-openapi.yml
   format: yaml
   label: first direct SME API
   slug: first-direct-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-sme-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-sme-api-openapi.yml
 - filename: first-direct-standing-orders-api-openapi.yml
   format: yaml
   label: first direct Standing Orders API
   slug: first-direct-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-standing-orders-api-openapi.yml
 - filename: first-direct-statements-api-openapi.yml
   format: yaml
   label: first direct Statements API
   slug: first-direct-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-statements-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-statements-api-openapi.yml
 - filename: first-direct-transactions-api-openapi.yml
   format: yaml
   label: first direct Transactions API
   slug: first-direct-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/openapi/first-direct-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/first-direct/openapi/first-direct-transactions-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 66
@@ -337,7 +337,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/obie-a
   \  method: get\n  operationId: GetInternationalScheduledPaymentsInternationalScheduledPaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-scheduled-payments/{InternationalScheduledPaymentId}/payment-details\n  method: get\n  operationId: GetInternationalScheduledPaymentsInternationalScheduledPaymentIdPaymentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-order-consents\n  method: post\n  operationId: CreateInternationalStandingOrderConsents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /international-standing-order-consents/{ConsentId}\n  method: get\n  operationId: GetInternationalStandingOrderConsentsConsentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-orders\n  method: post\n  operationId: CreateInternationalStandingOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /international-standing-orders/{InternationalStandingOrderPaymentId}\n  method: get\n\
   \  operationId: GetInternationalStandingOrdersInternationalStandingOrderPaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /international-standing-orders/{InternationalStandingOrderPaymentId}/payment-details\n  method: get\n  operationId: GetInternationalStandingOrdersInternationalStandingOrderPaymentIdPaymentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/first-direct/refs/heads/main/agentic-access/first-direct-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/first-direct/agentic-access/first-direct-agentic-access.yml
 summary_line: 86 operations · 20 acting
 tags:
 - Financial Services

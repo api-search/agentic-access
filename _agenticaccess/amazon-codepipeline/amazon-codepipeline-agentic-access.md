@@ -9,19 +9,19 @@ api_specs:
   label: Amazon CodePipeline Executions API
   slug: amazon-codepipeline-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/openapi/amazon-codepipeline-executions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-executions-api-openapi.yml
 - filename: amazon-codepipeline-pipelines-api-openapi.yml
   format: yaml
   label: Amazon CodePipeline Pipelines API
   slug: amazon-codepipeline-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/openapi/amazon-codepipeline-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-pipelines-api-openapi.yml
 - filename: amazon-codepipeline-aws-codepipeline-api-openapi.yml
   format: yaml
   label: Amazon CodePipeline AWS CodePipeline API
   slug: amazon-codepipeline-aws-codepipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/openapi/amazon-codepipeline-aws-codepipeline-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-aws-codepipeline-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 2
@@ -82,10 +82,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodePipeline_20150709.StopPipelineExecution\n  method: post\n  operationId: StopPipelineExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=CodePipeline_20150709.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodePipeline_20150709.UntagResource\n  method:\
   \ post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodePipeline_20150709.UpdateActionType\n  method: post\n  operationId: UpdateActionType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodePipeline_20150709.UpdatePipeline\n  method: post\n  operationId: UpdatePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codepipeline/refs/heads/main/agentic-access/amazon-codepipeline-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codepipeline/agentic-access/amazon-codepipeline-agentic-access.yml
 summary_line: 45 operations · 30 acting · 2 human-in-the-loop
 tags:
 - Amazon
+- Amazon Web Services
 - CI/CD
 - Continuous Delivery
 - Developer Tools

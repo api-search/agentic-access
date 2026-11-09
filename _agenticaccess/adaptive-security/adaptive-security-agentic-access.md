@@ -8,43 +8,43 @@ api_specs:
   label: Adaptive Security Audit Logs API
   slug: adaptive-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-audit-logs-api-openapi.yml
 - filename: adaptive-security-groups-api-openapi.yml
   format: yaml
   label: Adaptive Security Groups API
   slug: adaptive-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-groups-api-openapi.yml
 - filename: adaptive-security-phishing-api-openapi.yml
   format: yaml
   label: Adaptive Security Phishing API
   slug: adaptive-security-phishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-phishing-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-phishing-api-openapi.yml
 - filename: adaptive-security-training-api-openapi.yml
   format: yaml
   label: Adaptive Security Training API
   slug: adaptive-security-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-training-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-training-api-openapi.yml
 - filename: adaptive-security-users-api-openapi.yml
   format: yaml
   label: Adaptive Security Users API
   slug: adaptive-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-users-api-openapi.yml
 - filename: adaptive-security-email-security-api-openapi.yml
   format: yaml
   label: Adaptive Security Email Security API
   slug: adaptive-security-email-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-email-security-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-email-security-api-openapi.yml
 - filename: adaptive-security-webhooks-api-openapi.yml
   format: yaml
   label: Adaptive Security Webhooks API
   slug: adaptive-security-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/openapi/adaptive-security-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-security/openapi/adaptive-security-webhooks-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/adapti
   \ listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/groups/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/groups/{groupId}/users\n  method: get\n  operationId: getGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/phishing/campaigns\n  method: get\n  operationId: listPhishingCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/phishing/campaigns/enrollments\n  method: get\n  operationId: getPhishingEnrollments\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/phishing/campaigns/{campaignId}\n  method: get\n  operationId: getPhishingCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/phishing/campaigns/{campaignId}/simulations\n  method: get\n  operationId: listCampaignSimulations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/phishing/simulations/{simulationId}\n  method: get\n  operationId: getSimulation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/training/campaigns\n  method: get\n  operationId: listTrainingCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/training/campaigns/enrollments\n  method: get\n  operationId: getTrainingCampaignEnrollments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/training/campaigns/{campaignId}\n  method: get\n  operationId: getTrainingCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/agentic-access/adaptive-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-security/agentic-access/adaptive-security-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Company
@@ -83,7 +83,7 @@ tags:
 - Phishing Simulation
 - Deepfake Defense
 - AI Governance
-- Social Engineering
+- Social-Engineering
 - Reporting
 - Compliance
 ---

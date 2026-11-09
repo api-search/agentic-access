@@ -9,61 +9,61 @@ api_specs:
   label: Recharge Addresses API
   slug: recharge-payments-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-addresses-api-openapi.yml
 - filename: recharge-payments-charges-api-openapi.yml
   format: yaml
   label: Recharge Charges API
   slug: recharge-payments-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-charges-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-charges-api-openapi.yml
 - filename: recharge-payments-customers-api-openapi.yml
   format: yaml
   label: Recharge Customers API
   slug: recharge-payments-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-customers-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-customers-api-openapi.yml
 - filename: recharge-payments-discounts-api-openapi.yml
   format: yaml
   label: Recharge Discounts API
   slug: recharge-payments-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-discounts-api-openapi.yml
 - filename: recharge-payments-onetimes-api-openapi.yml
   format: yaml
   label: Recharge Onetimes API
   slug: recharge-payments-onetimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-onetimes-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-onetimes-api-openapi.yml
 - filename: recharge-payments-orders-api-openapi.yml
   format: yaml
   label: Recharge Orders API
   slug: recharge-payments-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-orders-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-orders-api-openapi.yml
 - filename: recharge-payments-payment-methods-api-openapi.yml
   format: yaml
   label: Recharge Payment Methods API
   slug: recharge-payments-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-payment-methods-api-openapi.yml
 - filename: recharge-payments-products-api-openapi.yml
   format: yaml
   label: Recharge Products API
   slug: recharge-payments-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-products-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-products-api-openapi.yml
 - filename: recharge-payments-subscriptions-api-openapi.yml
   format: yaml
   label: Recharge Subscriptions API
   slug: recharge-payments-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-subscriptions-api-openapi.yml
 - filename: recharge-payments-webhooks-api-openapi.yml
   format: yaml
   label: Recharge Webhooks API
   slug: recharge-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/openapi/recharge-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/recharge-payments/openapi/recharge-payments-webhooks-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 21
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rechar
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discounts/{id}\n  method: delete\n  operationId: deleteDiscount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/test\n  method: post\n  operationId:\
   \ testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recharge-payments/refs/heads/main/agentic-access/recharge-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/recharge-payments/agentic-access/recharge-payments-agentic-access.yml
 summary_line: 57 operations · 36 acting
 tags:
 - Subscription

@@ -9,25 +9,25 @@ api_specs:
   label: Cloverly Estimates API
   slug: cloverly-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-estimates-api-openapi.yml
 - filename: cloverly-purchases-api-openapi.yml
   format: yaml
   label: Cloverly Purchases API
   slug: cloverly-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-purchases-api-openapi.yml
 - filename: cloverly-offset-types-api-openapi.yml
   format: yaml
   label: Cloverly Offset Types API
   slug: cloverly-offset-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-offset-types-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-offset-types-api-openapi.yml
 - filename: cloverly-account-api-openapi.yml
   format: yaml
   label: Cloverly Account API
   slug: cloverly-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/openapi/cloverly-account-api-openapi.yml
+  url: https://artifacts.apis.io/cloverly/openapi/cloverly-account-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 7
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clover
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2019-03-beta/purchases/vehicle\n  method: post\n  operationId: purchaseVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2019-03-beta/purchases/flights\n  method: post\n  operationId: purchaseFlight\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2019-03-beta/purchases/electricity\n\
   \  method: post\n  operationId: purchaseElectricity\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2019-03-beta/purchases/carbon\n  method: post\n  operationId: purchaseCarbon\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2019-03-beta/purchases/currency\n  method: post\n  operationId: purchaseCurrency\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloverly/refs/heads/main/agentic-access/cloverly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloverly/agentic-access/cloverly-agentic-access.yml
 summary_line: 22 operations · 15 acting
 tags:
 - Carbon

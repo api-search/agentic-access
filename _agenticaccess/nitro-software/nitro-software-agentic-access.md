@@ -9,19 +9,19 @@ api_specs:
   label: Nitro Software Authentication API
   slug: nitro-software-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-authentication-api-openapi.yml
 - filename: nitro-software-platform-api-openapi.yml
   format: yaml
   label: Nitro Software Platform API
   slug: nitro-software-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-platform-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-platform-api-openapi.yml
 - filename: nitro-software-sign-api-openapi.yml
   format: yaml
   label: Nitro Software Sign API
   slug: nitro-software-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-sign-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-sign-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nitro-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sign/envelopes/{envelopeID}:download-sealed\n  method: get\n  operationId: downloadSealedEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}:download-original\n  method: get\n  operationId: downloadOriginalEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}:download-audit-trail\n  method: get\n  operationId: downloadAuditTrailOfEnvelope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}/participants/signing-urls\n  method: get\n  operationId: listSignerSigningUrls\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/envelopes/{envelopeID}/documents/{documentID}:download-sealed\n  method: get\n  operationId: downloadSealedDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/conversions/{jobID}:download-converted\n  method: get\n  operationId: downloadConvertedFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sign/conversions/{jobID}/status\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobID}\n  method: get\n  operationId: getJobResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jobs/{jobID}/status\n  method: get\n  operationId: getJobStatus_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/agentic-access/nitro-software-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nitro-software/agentic-access/nitro-software-agentic-access.yml
 summary_line: 39 operations · 24 acting
 tags:
 - Company

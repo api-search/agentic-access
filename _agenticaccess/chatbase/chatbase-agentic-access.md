@@ -9,31 +9,31 @@ api_specs:
   label: Chatbase Chat API
   slug: chatbase-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-chat-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-chat-api-openapi.yml
 - filename: chatbase-chatbots-api-openapi.yml
   format: yaml
   label: Chatbase Chatbots API
   slug: chatbase-chatbots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-chatbots-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-chatbots-api-openapi.yml
 - filename: chatbase-contacts-api-openapi.yml
   format: yaml
   label: Chatbase Contacts API
   slug: chatbase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-contacts-api-openapi.yml
 - filename: chatbase-conversations-api-openapi.yml
   format: yaml
   label: Chatbase Conversations API
   slug: chatbase-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-conversations-api-openapi.yml
 - filename: chatbase-leads-api-openapi.yml
   format: yaml
   label: Chatbase Leads API
   slug: chatbase-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-leads-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-leads-api-openapi.yml
 consequence_counts:
   read: 6
   write: 10
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/chatba
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chatbots/{chatbotId}/contacts\n  method: get\n  operationId: listContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chatbots/{chatbotId}/contacts/{contactId}\n  method: get\n  operationId: getContact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chatbots/{chatbotId}/contacts/{contactId}\n  method: patch\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chatbots/{chatbotId}/contacts/{contactId}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chatbots/{chatbotId}/custom-attributes\n  method: post\n  operationId: createCustomAttribute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chatbots/{chatbotId}/custom-attributes\n  method: get\n  operationId: getCustomAttributes\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chatbots/{chatbotId}/custom-attributes/{name}\n  method: put\n  operationId: updateCustomAttribute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/agentic-access/chatbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chatbase/agentic-access/chatbase-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - Artificial Intelligence

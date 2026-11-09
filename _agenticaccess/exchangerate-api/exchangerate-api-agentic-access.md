@@ -8,61 +8,61 @@ api_specs:
   label: ExchangeRate-API Enriched Data API
   slug: exchangerate-api-enriched-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-enriched-data-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-enriched-data-api-openapi.yml
 - filename: exchangerate-api-historical-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Historical Rates API
   slug: exchangerate-api-historical-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-historical-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-historical-rates-api-openapi.yml
 - filename: exchangerate-api-latest-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Latest Rates API
   slug: exchangerate-api-latest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-latest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-latest-rates-api-openapi.yml
 - filename: exchangerate-api-open-access-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Open Access API
   slug: exchangerate-api-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-open-access-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-open-access-api-openapi.yml
 - filename: exchangerate-api-pair-conversion-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Pair Conversion API
   slug: exchangerate-api-pair-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-pair-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-pair-conversion-api-openapi.yml
 - filename: exchangerate-api-quota-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Quota API
   slug: exchangerate-api-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-quota-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-quota-api-openapi.yml
 - filename: exchangerate-api-supported-codes-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Supported Codes API
   slug: exchangerate-api-supported-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-supported-codes-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-supported-codes-api-openapi.yml
 - filename: exchangerate-api-account-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Account API
   slug: exchangerate-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-account-api-openapi.yml
 - filename: exchangerate-api-currencies-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Currencies API
   slug: exchangerate-api-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-currencies-api-openapi.yml
 - filename: exchangerate-api-exchange-rates-api-openapi.yml
   format: yaml
   label: ExchangeRate-API Exchange Rates API
   slug: exchangerate-api-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/openapi/exchangerate-api-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-exchange-rates-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -90,7 +90,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/exchangerate-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /{api_key}/latest/{base_code}\n  method: get\n  operationId: getLatestRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/pair/{base_code}/{target_code}\n  method: get\n  operationId: getPairConversion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/pair/{base_code}/{target_code}/{amount}\n\
   \  method: get\n  operationId: getPairConversionWithAmount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/enriched/{base_code}/{target_code}\n  method: get\n  operationId: getEnrichedPair\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/history/{base_code}/{year}/{month}/{day}\n  method: get\n  operationId: getHistoricalRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/history/{base_code}/{year}/{month}/{day}/{amount}\n  method: get\n  operationId: getHistoricalRatesWithAmount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/codes\n\
   \  method: get\n  operationId: getSupportedCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{api_key}/quota\n  method: get\n  operationId: getQuota\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest/{base_code}\n  method: get\n  operationId: getOpenAccessLatest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/agentic-access/exchangerate-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/exchangerate-api/agentic-access/exchangerate-api-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Foreign Exchange

@@ -9,19 +9,19 @@ api_specs:
   label: TrackingMore Air Waybills API
   slug: trackingmore-air-waybills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-air-waybills-api-openapi.yml
+  url: https://artifacts.apis.io/trackingmore/openapi/trackingmore-air-waybills-api-openapi.yml
 - filename: trackingmore-couriers-api-openapi.yml
   format: yaml
   label: TrackingMore Couriers API
   slug: trackingmore-couriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-couriers-api-openapi.yml
+  url: https://artifacts.apis.io/trackingmore/openapi/trackingmore-couriers-api-openapi.yml
 - filename: trackingmore-trackings-api-openapi.yml
   format: yaml
   label: TrackingMore Trackings API
   slug: trackingmore-trackings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/openapi/trackingmore-trackings-api-openapi.yml
+  url: https://artifacts.apis.io/trackingmore/openapi/trackingmore-trackings-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tracki
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackings/get\n  method: get\n  operationId: getTrackingResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trackings/update/{id}\n  method: put\n  operationId: updateTrackingById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackings/delete/{id}\n  method: delete\n  operationId: deleteTrackingById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackings/retrack/{id}\n  method: post\n  operationId: retrackTrackingById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /couriers/all\n  method: get\n  operationId: getAllCouriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /couriers/detect\n  method: post\n  operationId: detectCourier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /awb\n  method: post\n  operationId: createAirWaybill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trackingmore/refs/heads/main/agentic-access/trackingmore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trackingmore/agentic-access/trackingmore-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - Logistics

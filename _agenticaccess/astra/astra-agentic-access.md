@@ -9,49 +9,49 @@ api_specs:
   label: Astra Accounts API
   slug: astra-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-accounts-api-openapi.yml
 - filename: astra-authorization-api-openapi.yml
   format: yaml
   label: Astra Authorization API
   slug: astra-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-authorization-api-openapi.yml
 - filename: astra-cards-api-openapi.yml
   format: yaml
   label: Astra Cards API
   slug: astra-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-cards-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-cards-api-openapi.yml
 - filename: astra-instant-payment-eligibility-api-openapi.yml
   format: yaml
   label: Astra Instant Payment Eligibility API
   slug: astra-instant-payment-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-instant-payment-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-instant-payment-eligibility-api-openapi.yml
 - filename: astra-payment-instruments-api-openapi.yml
   format: yaml
   label: Astra Payment Instruments API
   slug: astra-payment-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-payment-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-payment-instruments-api-openapi.yml
 - filename: astra-routines-api-openapi.yml
   format: yaml
   label: Astra Routines API
   slug: astra-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-routines-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-routines-api-openapi.yml
 - filename: astra-transfers-api-openapi.yml
   format: yaml
   label: Astra Transfers API
   slug: astra-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-transfers-api-openapi.yml
 - filename: astra-user-api-openapi.yml
   format: yaml
   label: Astra User API
   slug: astra-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/openapi/astra-user-api-openapi.yml
+  url: https://artifacts.apis.io/astra/openapi/astra-user-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/astra-
   \ /v1/transfers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transfers/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transfers/{id}/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transfers/{id}/segments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/upgrade_kyc_type\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user_intent\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user_intent/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{id}/capabilities\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astra/refs/heads/main/agentic-access/astra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/astra/agentic-access/astra-agentic-access.yml
 summary_line: 45 operations · 24 acting
 tags:
 - Company

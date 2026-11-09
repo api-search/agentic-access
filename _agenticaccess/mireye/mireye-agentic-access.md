@@ -9,103 +9,103 @@ api_specs:
   label: Mireye Ask API
   slug: mireye-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-ask-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-ask-api-openapi.yml
 - filename: mireye-ask-site-api-openapi.yml
   format: yaml
   label: Mireye Ask Site API
   slug: mireye-ask-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-ask-site-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-ask-site-api-openapi.yml
 - filename: mireye-auth-api-openapi.yml
   format: yaml
   label: Mireye Auth API
   slug: mireye-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-auth-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-auth-api-openapi.yml
 - filename: mireye-authorize-api-openapi.yml
   format: yaml
   label: Mireye Authorize API
   slug: mireye-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-authorize-api-openapi.yml
 - filename: mireye-feature-requests-api-openapi.yml
   format: yaml
   label: Mireye Feature Requests API
   slug: mireye-feature-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-feature-requests-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-feature-requests-api-openapi.yml
 - filename: mireye-fetch-api-openapi.yml
   format: yaml
   label: Mireye Fetch API
   slug: mireye-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-fetch-api-openapi.yml
 - filename: mireye-healthz-api-openapi.yml
   format: yaml
   label: Mireye Healthz API
   slug: mireye-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-healthz-api-openapi.yml
 - filename: mireye-mcp-api-openapi.yml
   format: yaml
   label: Mireye Mcp API
   slug: mireye-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-mcp-api-openapi.yml
 - filename: mireye-meta-api-openapi.yml
   format: yaml
   label: Mireye Meta API
   slug: mireye-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-meta-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-meta-api-openapi.yml
 - filename: mireye-readyz-api-openapi.yml
   format: yaml
   label: Mireye Readyz API
   slug: mireye-readyz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-readyz-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-readyz-api-openapi.yml
 - filename: mireye-register-api-openapi.yml
   format: yaml
   label: Mireye Register API
   slug: mireye-register-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-register-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-register-api-openapi.yml
 - filename: mireye-revoke-api-openapi.yml
   format: yaml
   label: Mireye Revoke API
   slug: mireye-revoke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-revoke-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-revoke-api-openapi.yml
 - filename: mireye-sites-api-openapi.yml
   format: yaml
   label: Mireye Sites API
   slug: mireye-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-sites-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-sites-api-openapi.yml
 - filename: mireye-token-api-openapi.yml
   format: yaml
   label: Mireye Token API
   slug: mireye-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-token-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-token-api-openapi.yml
 - filename: mireye-users-api-openapi.yml
   format: yaml
   label: Mireye Users API
   slug: mireye-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-users-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-users-api-openapi.yml
 - filename: mireye-well-known-api-openapi.yml
   format: yaml
   label: Mireye .well Known API
   slug: mireye-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-well-known-api-openapi.yml
 - filename: mireye-oauth-api-openapi.yml
   format: yaml
   label: Mireye OAUTH API
   slug: mireye-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/openapi/mireye-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/mireye/openapi/mireye-oauth-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 3
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mireye
   - path: /v1/users/me/settings\n  method: patch\n  operationId: update_settings_v1_users_me_settings_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/me/tokens\n  method: get\n  operationId: list_tokens_v1_users_me_tokens_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me/tokens\n  method: post\n  operationId: create_token_v1_users_me_tokens_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/users/me/tokens/{token_id}\n  method: delete\n  operationId: revoke_token_v1_users_me_tokens__token_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/users/me/tokens/{token_id}/reveal\n  method: post\n  operationId: reveal_token_v1_users_me_tokens__token_id__reveal_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/oauth-authorization-server\n  method: get\n  operationId: oauth_authorization_server_metadata__well_known_oauth_authorization_server_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mireye/refs/heads/main/agentic-access/mireye-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mireye/agentic-access/mireye-agentic-access.yml
 summary_line: 30 operations · 21 acting · 3 human-in-the-loop
 tags:
 - Company

@@ -9,25 +9,25 @@ api_specs:
   label: Zendesk Sell (Sales CRM) API
   slug: sales-crm-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/collections/zendesk-sell.postman_collection.json
+  url: https://artifacts.apis.io/zendesk-sell/collections/zendesk-sell.postman_collection.json
 - filename: zendesk-sell-contacts-api-openapi.yml
   format: yaml
   label: Zendesk Sell Contacts API
   slug: zendesk-sell-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/zendesk-sell/openapi/zendesk-sell-contacts-api-openapi.yml
 - filename: zendesk-sell-deals-api-openapi.yml
   format: yaml
   label: Zendesk Sell Deals API
   slug: zendesk-sell-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-deals-api-openapi.yml
+  url: https://artifacts.apis.io/zendesk-sell/openapi/zendesk-sell-deals-api-openapi.yml
 - filename: zendesk-sell-leads-api-openapi.yml
   format: yaml
   label: Zendesk Sell Leads API
   slug: zendesk-sell-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/openapi/zendesk-sell-leads-api-openapi.yml
+  url: https://artifacts.apis.io/zendesk-sell/openapi/zendesk-sell-leads-api-openapi.yml
 consequence_counts:
   read: 6
   write: 12
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zendes
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/contacts/{id}\n  method: put\n  operationId: updateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/contacts/{id}\n  method: delete\n  operationId: deleteContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/contacts/upsert\n  method: post\n  operationId: upsertContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/deals\n  method: get\n  operationId: listDeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/deals\n  method: post\n  operationId: createDeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/deals/{id}\n  method: get\n  operationId: getDeal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/deals/{id}\n  method: put\n  operationId: updateDeal\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/deals/{id}\n  method: delete\n  operationId: deleteDeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/deals/upsert\n  method: post\n  operationId: upsertDeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zendesk-sell/refs/heads/main/agentic-access/zendesk-sell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zendesk-sell/agentic-access/zendesk-sell-agentic-access.yml
 summary_line: 18 operations · 12 acting
 tags:
 - CRM

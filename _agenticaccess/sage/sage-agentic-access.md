@@ -9,55 +9,55 @@ api_specs:
   label: Sage Bank Accounts API
   slug: sage-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-bank-accounts-api-openapi.yml
 - filename: sage-business-api-openapi.yml
   format: yaml
   label: Sage Business API
   slug: sage-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-business-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-business-api-openapi.yml
 - filename: sage-contacts-api-openapi.yml
   format: yaml
   label: Sage Contacts API
   slug: sage-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-contacts-api-openapi.yml
 - filename: sage-ledger-accounts-api-openapi.yml
   format: yaml
   label: Sage Ledger Accounts API
   slug: sage-ledger-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-ledger-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-ledger-accounts-api-openapi.yml
 - filename: sage-payments-api-openapi.yml
   format: yaml
   label: Sage Payments API
   slug: sage-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-payments-api-openapi.yml
 - filename: sage-products-api-openapi.yml
   format: yaml
   label: Sage Products API
   slug: sage-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-products-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-products-api-openapi.yml
 - filename: sage-purchase-invoices-api-openapi.yml
   format: yaml
   label: Sage Purchase Invoices API
   slug: sage-purchase-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-purchase-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-purchase-invoices-api-openapi.yml
 - filename: sage-sales-invoices-api-openapi.yml
   format: yaml
   label: Sage Sales Invoices API
   slug: sage-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-sales-invoices-api-openapi.yml
 - filename: sage-tax-rates-api-openapi.yml
   format: yaml
   label: Sage Tax Rates API
   slug: sage-tax-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/openapi/sage-tax-rates-api-openapi.yml
+  url: https://artifacts.apis.io/sage/openapi/sage-tax-rates-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 13
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sage-a
   \  method: post\n  operationId: recordPurchasePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bank_accounts\n  method: get\n  operationId: listBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bank_accounts\n  method: post\n  operationId: createBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bank_accounts/{key}\n  method: get\n\
   \  operationId: getBankAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledger_accounts\n  method: get\n  operationId: listLedgerAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/{key}\n  method: get\n  operationId:\
   \ getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{key}\n  method: put\n  operationId: updateProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax_rates\n  method: get\n  operationId: listTaxRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business\n  method: get\n  operationId: getBusinessSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage/refs/heads/main/agentic-access/sage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sage/agentic-access/sage-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - Accounting

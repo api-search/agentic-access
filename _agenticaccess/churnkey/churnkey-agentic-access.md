@@ -9,31 +9,31 @@ api_specs:
   label: Churnkey Billing Contacts API
   slug: churnkey-billing-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-billing-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-billing-contacts-api-openapi.yml
 - filename: churnkey-customers-api-openapi.yml
   format: yaml
   label: Churnkey Customers API
   slug: churnkey-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-customers-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-customers-api-openapi.yml
 - filename: churnkey-data-subject-requests-api-openapi.yml
   format: yaml
   label: Churnkey Data Subject Requests API
   slug: churnkey-data-subject-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-data-subject-requests-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-data-subject-requests-api-openapi.yml
 - filename: churnkey-events-api-openapi.yml
   format: yaml
   label: Churnkey Events API
   slug: churnkey-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-events-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-events-api-openapi.yml
 - filename: churnkey-sessions-api-openapi.yml
   format: yaml
   label: Churnkey Sessions API
   slug: churnkey-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/openapi/churnkey-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/churnkey/openapi/churnkey-sessions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 7
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/churnk
   \  method: post\n  operationId: dsrAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data/dsr/delete\n  method: post\n  operationId: dsrDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/events/new\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /api/events/bulk\n  method: post\n  operationId: createEventsBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/events/customer-update\n  method: post\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/events/customer-update/set-users\n  method: post\n  operationId: setBillingUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/events/customer-update/set-users/bulk\n  method: post\n  operationId: setBillingUsersBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/churnkey/refs/heads/main/agentic-access/churnkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/churnkey/agentic-access/churnkey-agentic-access.yml
 summary_line: 9 operations · 7 acting
 tags:
 - Churn Prevention

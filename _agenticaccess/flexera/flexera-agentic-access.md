@@ -9,193 +9,193 @@ api_specs:
   label: Spot Access Policies API
   slug: flexera-access-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-access-policies-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-access-policies-api-openapi.yml
 - filename: flexera-accounts-api-openapi.yml
   format: yaml
   label: Spot Accounts API
   slug: flexera-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-accounts-api-openapi.yml
 - filename: flexera-audit-api-openapi.yml
   format: yaml
   label: Spot Audit API
   slug: flexera-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-audit-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-audit-api-openapi.yml
 - filename: flexera-billing-accounts-api-openapi.yml
   format: yaml
   label: Spot Billing Accounts API
   slug: flexera-billing-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-billing-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-billing-accounts-api-openapi.yml
 - filename: flexera-billing-engine-setup-api-openapi.yml
   format: yaml
   label: Spot Billing Engine Setup API
   slug: flexera-billing-engine-setup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-billing-engine-setup-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-billing-engine-setup-api-openapi.yml
 - filename: flexera-cloud-credentials-api-openapi.yml
   format: yaml
   label: Spot Cloud Credentials API
   slug: flexera-cloud-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-cloud-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-cloud-credentials-api-openapi.yml
 - filename: flexera-cost-analysis-api-openapi.yml
   format: yaml
   label: Spot Cost Analysis API
   slug: flexera-cost-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-cost-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-cost-analysis-api-openapi.yml
 - filename: flexera-cost-intelligence-api-openapi.yml
   format: yaml
   label: Spot Cost Intelligence API
   slug: flexera-cost-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-cost-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-cost-intelligence-api-openapi.yml
 - filename: flexera-deployments-api-openapi.yml
   format: yaml
   label: Spot Deployments API
   slug: flexera-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-deployments-api-openapi.yml
 - filename: flexera-eco-aws-api-openapi.yml
   format: yaml
   label: Spot Eco AWS API
   slug: flexera-eco-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-eco-aws-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-eco-aws-api-openapi.yml
 - filename: flexera-eco-azure-api-openapi.yml
   format: yaml
   label: Spot Eco Azure API
   slug: flexera-eco-azure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-eco-azure-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-eco-azure-api-openapi.yml
 - filename: flexera-eco-gcp-api-openapi.yml
   format: yaml
   label: Spot Eco GCP API
   slug: flexera-eco-gcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-eco-gcp-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-eco-gcp-api-openapi.yml
 - filename: flexera-elastigroup-aws-api-openapi.yml
   format: yaml
   label: Spot Elastigroup AWS API
   slug: flexera-elastigroup-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-elastigroup-aws-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-elastigroup-aws-api-openapi.yml
 - filename: flexera-elastigroup-azure-api-openapi.yml
   format: yaml
   label: Spot Elastigroup Azure API
   slug: flexera-elastigroup-azure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-elastigroup-azure-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-elastigroup-azure-api-openapi.yml
 - filename: flexera-elastigroup-gcp-api-openapi.yml
   format: yaml
   label: Spot Elastigroup GCP API
   slug: flexera-elastigroup-gcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-elastigroup-gcp-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-elastigroup-gcp-api-openapi.yml
 - filename: flexera-emr-api-openapi.yml
   format: yaml
   label: Spot EMR API
   slug: flexera-emr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-emr-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-emr-api-openapi.yml
 - filename: flexera-families-api-openapi.yml
   format: yaml
   label: Spot Families API
   slug: flexera-families-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-families-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-families-api-openapi.yml
 - filename: flexera-health-check-api-openapi.yml
   format: yaml
   label: Spot Health Check API
   slug: flexera-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-health-check-api-openapi.yml
 - filename: flexera-ocean-aks-api-openapi.yml
   format: yaml
   label: Spot Ocean AKS API
   slug: flexera-ocean-aks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-ocean-aks-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-ocean-aks-api-openapi.yml
 - filename: flexera-ocean-aws-api-openapi.yml
   format: yaml
   label: Spot Ocean AWS API
   slug: flexera-ocean-aws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-ocean-aws-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-ocean-aws-api-openapi.yml
 - filename: flexera-ocean-cd-api-openapi.yml
   format: yaml
   label: Spot Ocean CD API
   slug: flexera-ocean-cd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-ocean-cd-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-ocean-cd-api-openapi.yml
 - filename: flexera-ocean-ecs-api-openapi.yml
   format: yaml
   label: Spot Ocean ECS API
   slug: flexera-ocean-ecs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-ocean-ecs-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-ocean-ecs-api-openapi.yml
 - filename: flexera-ocean-gke-api-openapi.yml
   format: yaml
   label: Spot Ocean GKE API
   slug: flexera-ocean-gke-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-ocean-gke-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-ocean-gke-api-openapi.yml
 - filename: flexera-ocean-spark-api-openapi.yml
   format: yaml
   label: Spot Ocean Spark API
   slug: flexera-ocean-spark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-ocean-spark-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-ocean-spark-api-openapi.yml
 - filename: flexera-organizations-api-openapi.yml
   format: yaml
   label: Spot Organizations API
   slug: flexera-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-organizations-api-openapi.yml
 - filename: flexera-right-sizing-api-openapi.yml
   format: yaml
   label: Spot Right Sizing API
   slug: flexera-right-sizing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-right-sizing-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-right-sizing-api-openapi.yml
 - filename: flexera-rolls-api-openapi.yml
   format: yaml
   label: Spot Rolls API
   slug: flexera-rolls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-rolls-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-rolls-api-openapi.yml
 - filename: flexera-savings-analysis-api-openapi.yml
   format: yaml
   label: Spot Savings Analysis API
   slug: flexera-savings-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-savings-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-savings-analysis-api-openapi.yml
 - filename: flexera-stateful-instances-api-openapi.yml
   format: yaml
   label: Spot Stateful Instances API
   slug: flexera-stateful-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-stateful-instances-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-stateful-instances-api-openapi.yml
 - filename: flexera-subscriptions-api-openapi.yml
   format: yaml
   label: Spot Subscriptions API
   slug: flexera-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-subscriptions-api-openapi.yml
 - filename: flexera-users-api-openapi.yml
   format: yaml
   label: Spot Users API
   slug: flexera-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-users-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-users-api-openapi.yml
 - filename: flexera-virtual-node-groups-api-openapi.yml
   format: yaml
   label: Spot Virtual Node Groups API
   slug: flexera-virtual-node-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/openapi/flexera-virtual-node-groups-api-openapi.yml
+  url: https://artifacts.apis.io/flexera/openapi/flexera-virtual-node-groups-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 54
@@ -269,8 +269,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/spot-a
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/aws/ecs/cluster/{oceanClusterId}\n  method: get\n  operationId: getOceanClusterECS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/aws/ecs/cluster/{oceanClusterId}\n  method: put\n  operationId: updateOceanClusterECS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocean/aws/ecs/cluster/{oceanClusterId}\n  method: delete\n  operationId: deleteOceanClusterECS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocean/gke/cluster\n  method: post\n  operationId: createOceanClusterGKE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocean/gke/cluster\n  method: get\n  operationId: listOceanClustersGKE\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/gke/cluster/{oceanClusterId}\n  method: get\n  operationId: getOceanClusterGKE\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/gke/cluster/{oceanClusterId}\n  method: put\n  operationId: updateOceanClusterGKE\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocean/gke/cluster/{oceanClusterId}\n  method: delete\n  operationId: deleteOceanClusterGKE\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ocean/azure/k8s/cluster\n  method: post\n  operationId: createOceanClusterAKS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /ocean/azure/k8s/cluster\n  method: get\n  operationId: listOceanClustersAKS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/azure/k8s/cluster/{oceanClusterId}\n  method: get\n  operationId: getOceanClusterAKS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/azure/k8s/cluster/{oceanClusterId}\n  method: put\n  operationId: updateOceanClusterAKS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/agentic-access/flexera-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexera/refs/heads/main/agentic-access/flexera-agentic-access.yml
+  \    audit: required\n- path: /ocean/azure/k8s/cluster\n  method: get\n  operationId: listOceanClustersAKS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/azure/k8s/cluster/{oceanClusterId}\n  method: get\n  operationId: getOceanClusterAKS\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ocean/azure/k8s/cluster/{oceanClusterId}\n  method: put\n  operationId: updateOceanClusterAKS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/flexera/agentic-access/flexera-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/flexera/agentic-access/flexera-agentic-access.yml
 summary_line: 119 operations · 65 acting · 1 human-in-the-loop
 tags:
 - Auto-Scaling

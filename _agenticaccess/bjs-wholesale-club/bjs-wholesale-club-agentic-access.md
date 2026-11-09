@@ -9,31 +9,31 @@ api_specs:
   label: BJ's Wholesale Club Clubs API
   slug: bjs-wholesale-club-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-clubs-api-openapi.yml
 - filename: bjs-wholesale-club-inventory-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Inventory API
   slug: bjs-wholesale-club-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-inventory-api-openapi.yml
 - filename: bjs-wholesale-club-membership-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Membership API
   slug: bjs-wholesale-club-membership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-membership-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-membership-api-openapi.yml
 - filename: bjs-wholesale-club-orders-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Orders API
   slug: bjs-wholesale-club-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-orders-api-openapi.yml
 - filename: bjs-wholesale-club-products-api-openapi.yml
   format: yaml
   label: BJ's Wholesale Club Products API
   slug: bjs-wholesale-club-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/openapi/bjs-wholesale-club-products-api-openapi.yml
+  url: https://artifacts.apis.io/bjs-wholesale-club/openapi/bjs-wholesale-club-products-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bjs-wholesale-club-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 5\n    acting: 2\n  by_consequence:\n    read: 5\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{productId}/inventory\n\
   \  method: get\n  operationId: getProductInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /membership/verify\n  method: post\n  operationId: verifyMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clubs\n  method: get\n  operationId: listClubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bjs-wholesale-club/refs/heads/main/agentic-access/bjs-wholesale-club-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bjs-wholesale-club/agentic-access/bjs-wholesale-club-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - E-Commerce

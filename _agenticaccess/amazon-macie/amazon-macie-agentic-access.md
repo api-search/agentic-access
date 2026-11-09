@@ -9,133 +9,133 @@ api_specs:
   label: Amazon Macie Admin API
   slug: amazon-macie-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-admin-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-admin-api-openapi.yml
 - filename: amazon-macie-administrator-api-openapi.yml
   format: yaml
   label: Amazon Macie Administrator API
   slug: amazon-macie-administrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-administrator-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-administrator-api-openapi.yml
 - filename: amazon-macie-allow-lists-api-openapi.yml
   format: yaml
   label: Amazon Macie Allow Lists API
   slug: amazon-macie-allow-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-allow-lists-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-allow-lists-api-openapi.yml
 - filename: amazon-macie-automated-discovery-api-openapi.yml
   format: yaml
   label: Amazon Macie Automated Discovery API
   slug: amazon-macie-automated-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-automated-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-automated-discovery-api-openapi.yml
 - filename: amazon-macie-classification-export-configuration-api-openapi.yml
   format: yaml
   label: Amazon Macie Classification Export Configuration API
   slug: amazon-macie-classification-export-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-classification-export-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-classification-export-configuration-api-openapi.yml
 - filename: amazon-macie-classification-scopes-api-openapi.yml
   format: yaml
   label: Amazon Macie Classification Scopes API
   slug: amazon-macie-classification-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-classification-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-classification-scopes-api-openapi.yml
 - filename: amazon-macie-custom-data-identifiers-api-openapi.yml
   format: yaml
   label: Amazon Macie Custom Data Identifiers API
   slug: amazon-macie-custom-data-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-custom-data-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-custom-data-identifiers-api-openapi.yml
 - filename: amazon-macie-findings-api-openapi.yml
   format: yaml
   label: Amazon Macie Findings API
   slug: amazon-macie-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-findings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-findings-api-openapi.yml
 - filename: amazon-macie-findings-publication-configuration-api-openapi.yml
   format: yaml
   label: Amazon Macie Findings Publication Configuration API
   slug: amazon-macie-findings-publication-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-findings-publication-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-findings-publication-configuration-api-openapi.yml
 - filename: amazon-macie-findingsfilters-api-openapi.yml
   format: yaml
   label: Amazon Macie Findingsfilters API
   slug: amazon-macie-findingsfilters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-findingsfilters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-findingsfilters-api-openapi.yml
 - filename: amazon-macie-invitations-api-openapi.yml
   format: yaml
   label: Amazon Macie Invitations API
   slug: amazon-macie-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-invitations-api-openapi.yml
 - filename: amazon-macie-jobs-api-openapi.yml
   format: yaml
   label: Amazon Macie Jobs API
   slug: amazon-macie-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-jobs-api-openapi.yml
 - filename: amazon-macie-macie-api-openapi.yml
   format: yaml
   label: Amazon Macie API
   slug: amazon-macie-macie-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-macie-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-macie-api-openapi.yml
 - filename: amazon-macie-managed-data-identifiers-api-openapi.yml
   format: yaml
   label: Amazon Macie Managed Data Identifiers API
   slug: amazon-macie-managed-data-identifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-managed-data-identifiers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-managed-data-identifiers-api-openapi.yml
 - filename: amazon-macie-master-api-openapi.yml
   format: yaml
   label: Amazon Macie Master API
   slug: amazon-macie-master-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-master-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-master-api-openapi.yml
 - filename: amazon-macie-members-api-openapi.yml
   format: yaml
   label: Amazon Macie Members API
   slug: amazon-macie-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-members-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-members-api-openapi.yml
 - filename: amazon-macie-resource-profiles-api-openapi.yml
   format: yaml
   label: Amazon Macie Resource Profiles API
   slug: amazon-macie-resource-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-resource-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-resource-profiles-api-openapi.yml
 - filename: amazon-macie-reveal-configuration-api-openapi.yml
   format: yaml
   label: Amazon Macie Reveal Configuration API
   slug: amazon-macie-reveal-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-reveal-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-reveal-configuration-api-openapi.yml
 - filename: amazon-macie-tags-api-openapi.yml
   format: yaml
   label: Amazon Macie Tags API
   slug: amazon-macie-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-tags-api-openapi.yml
 - filename: amazon-macie-templates-api-openapi.yml
   format: yaml
   label: Amazon Macie Templates API
   slug: amazon-macie-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-templates-api-openapi.yml
 - filename: amazon-macie-usage-api-openapi.yml
   format: yaml
   label: Amazon Macie Usage API
   slug: amazon-macie-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-usage-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-usage-api-openapi.yml
 - filename: amazon-macie-data-sources-api-openapi.yml
   format: yaml
   label: Amazon Macie Data Sources API
   slug: amazon-macie-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/openapi/amazon-macie-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-macie/openapi/amazon-macie-data-sources-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 2
@@ -201,9 +201,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/sensitivity-inspections/{id}\n  method: get\n  operationId: GetSensitivityInspectionTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/sensitivity-inspections/{id}\n  method: put\n  operationId: UpdateSensitivityInspectionTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/sensitivity-inspections\n  method: get\n  operationId: ListSensitivityInspectionTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /usage/statistics\n  method: post\n  operationId: GetUsageStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: GetUsageTotals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/agentic-access/amazon-macie-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-macie/agentic-access/amazon-macie-agentic-access.yml
 summary_line: 79 operations · 40 acting · 2 human-in-the-loop
 tags:
+- Amazon Web Services
 - Data Security
 - Sensitive Data
 - Privacy

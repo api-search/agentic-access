@@ -9,19 +9,19 @@ api_specs:
   label: Impossible Cloud Distributors API
   slug: impossible-cloud-distributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-distributors-api-openapi.yml
+  url: https://artifacts.apis.io/impossible-cloud/openapi/impossible-cloud-distributors-api-openapi.yml
 - filename: impossible-cloud-integrations-api-openapi.yml
   format: yaml
   label: Impossible Cloud Integrations API
   slug: impossible-cloud-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/impossible-cloud/openapi/impossible-cloud-integrations-api-openapi.yml
 - filename: impossible-cloud-partners-api-openapi.yml
   format: yaml
   label: Impossible Cloud Partners API
   slug: impossible-cloud-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-partners-api-openapi.yml
+  url: https://artifacts.apis.io/impossible-cloud/openapi/impossible-cloud-partners-api-openapi.yml
 consequence_counts:
   read: 13
   write: 11
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/imposs
   \      - abnormal\n      - high-value\n    audit: required\n- path: /partner/{partnerID}/storage-accounts/{accountID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/{partnerID}/storage-accounts/{accountID}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/{partnerID}/storage-accounts/{accountID}/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/{partnerID}/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage-account\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage-account/list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage-account/{accountID}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage-account/{accountID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage-account/{accountID}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage-account/{accountID}/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage-accounts/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/agentic-access/impossible-cloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/impossible-cloud/agentic-access/impossible-cloud-agentic-access.yml
 summary_line: 24 operations · 11 acting
 tags:
 - Company

@@ -9,19 +9,19 @@ api_specs:
   label: Drconsulta2 Autenticação API
   slug: drconsulta2-autentica-o-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drconsulta2/refs/heads/main/openapi/drconsulta2-autentica-o-api-openapi.yml
+  url: https://artifacts.apis.io/drconsulta2/openapi/drconsulta2-autentica-o-api-openapi.yml
 - filename: drconsulta2-oracle-api-openapi.yml
   format: yaml
   label: Drconsulta2 Oracle API
   slug: drconsulta2-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drconsulta2/refs/heads/main/openapi/drconsulta2-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/drconsulta2/openapi/drconsulta2-oracle-api-openapi.yml
 - filename: drconsulta2-s2-api-openapi.yml
   format: yaml
   label: Drconsulta2 S2 API
   slug: drconsulta2-s2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drconsulta2/refs/heads/main/openapi/drconsulta2-s2-api-openapi.yml
+  url: https://artifacts.apis.io/drconsulta2/openapi/drconsulta2-s2-api-openapi.yml
 consequence_counts:
   read: 1
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-10-24'\nmethod: generated\nsource: openapi/drconsulta2-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 2\n    connected: 1\n  by_consequence:\n    write: 2\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v1/auth/login\n  method: post\n  operationId: auth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sync/prices/from/oracle\n  method: get\n  operationId: b286700b63e6af6b6637d0bc72fafc6d\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sync/product/from/s2\n  method: post\n  operationId: d4cb58f2cce48c09c31b63406cd379b9\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drconsulta2/refs/heads/main/agentic-access/drconsulta2-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/drconsulta2/agentic-access/drconsulta2-agentic-access.yml
 summary_line: 3 operations · 2 acting
 tags:
 - Company

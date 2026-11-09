@@ -9,43 +9,43 @@ api_specs:
   label: Happy Scribe Exports API
   slug: happyscribe-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-exports-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-exports-api-openapi.yml
 - filename: happyscribe-glossaries-and-style-guides-api-openapi.yml
   format: yaml
   label: Happy Scribe Glossaries and Style Guides API
   slug: happyscribe-glossaries-and-style-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-glossaries-and-style-guides-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-glossaries-and-style-guides-api-openapi.yml
 - filename: happyscribe-orders-api-openapi.yml
   format: yaml
   label: Happy Scribe Orders API
   slug: happyscribe-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-orders-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-orders-api-openapi.yml
 - filename: happyscribe-organization-memberships-api-openapi.yml
   format: yaml
   label: Happy Scribe Organization Memberships API
   slug: happyscribe-organization-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-organization-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-organization-memberships-api-openapi.yml
 - filename: happyscribe-organizations-api-openapi.yml
   format: yaml
   label: Happy Scribe Organizations API
   slug: happyscribe-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-organizations-api-openapi.yml
 - filename: happyscribe-transcriptions-api-openapi.yml
   format: yaml
   label: Happy Scribe Transcriptions API
   slug: happyscribe-transcriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-transcriptions-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-transcriptions-api-openapi.yml
 - filename: happyscribe-uploads-api-openapi.yml
   format: yaml
   label: Happy Scribe Uploads API
   slug: happyscribe-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/openapi/happyscribe-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/happyscribe/openapi/happyscribe-uploads-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 10
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/happys
   \      - abnormal\n      - high-value\n    audit: required\n- path: /exports/{id}\n  method: get\n  operationId: getExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: get\n  operationId: listOrganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization_memberships\n  method: get\n  operationId: listOrganizationMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization_memberships\n  method: post\n  operationId: createOrganizationMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n   \
   \   purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization_memberships/{id}\n  method: patch\n  operationId: updateOrganizationMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organization_memberships/{id}\n  method: delete\n  operationId: deleteOrganizationMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /uploads/new\n  method: get\n  operationId: newUpload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /glossaries\n  method: get\n  operationId: listGlossaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /style_guides\n  method: get\n  operationId: listStyleGuides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/happyscribe/refs/heads/main/agentic-access/happyscribe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/happyscribe/agentic-access/happyscribe-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Audio Transcription

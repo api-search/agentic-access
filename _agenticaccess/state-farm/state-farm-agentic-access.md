@@ -9,19 +9,19 @@ api_specs:
   label: State Farm Coverage API
   slug: state-farm-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/state-farm/openapi/state-farm-coverage-api-openapi.yml
 - filename: state-farm-policies-api-openapi.yml
   format: yaml
   label: State Farm Policies API
   slug: state-farm-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-policies-api-openapi.yml
+  url: https://artifacts.apis.io/state-farm/openapi/state-farm-policies-api-openapi.yml
 - filename: state-farm-quotes-api-openapi.yml
   format: yaml
   label: State Farm Quotes API
   slug: state-farm-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/openapi/state-farm-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/state-farm/openapi/state-farm-quotes-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/state-farm-renters-insurance-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /renters/quotes\n  method: post\n  operationId: createRentersQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - renters:policy:read\n    - renters:policy:write\n    - renters:quote\n- path: /renters/quotes/{quoteId}\n\
   \  method: get\n  operationId: getRentersQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - renters:policy:read\n    - renters:policy:write\n    - renters:quote\n- path: /renters/policies\n  method: post\n  operationId: createRentersPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - renters:policy:read\n    - renters:policy:write\n    - renters:quote\n- path: /renters/policies/{policyNumber}\n  method: get\n  operationId: getRentersPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - renters:policy:read\n\
   \    - renters:policy:write\n    - renters:quote\n- path: /renters/coverage-options\n  method: get\n  operationId: listCoverageOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - renters:policy:read\n    - renters:policy:write\n    - renters:quote\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/agentic-access/state-farm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/state-farm/agentic-access/state-farm-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Insurance

@@ -9,97 +9,97 @@ api_specs:
   label: Withings Answers API
   slug: withings-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-answers-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-answers-api-openapi.yml
 - filename: withings-device-api-openapi.yml
   format: yaml
   label: Withings Device API
   slug: withings-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-device-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-device-api-openapi.yml
 - filename: withings-dropshipment-api-openapi.yml
   format: yaml
   label: Withings Dropshipment API
   slug: withings-dropshipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-dropshipment-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-dropshipment-api-openapi.yml
 - filename: withings-heart-api-openapi.yml
   format: yaml
   label: Withings Heart API
   slug: withings-heart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-heart-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-heart-api-openapi.yml
 - filename: withings-measure-api-openapi.yml
   format: yaml
   label: Withings Measure API
   slug: withings-measure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-measure-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-measure-api-openapi.yml
 - filename: withings-notify-api-openapi.yml
   format: yaml
   label: Withings Notify API
   slug: withings-notify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-notify-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-notify-api-openapi.yml
 - filename: withings-nudge-api-openapi.yml
   format: yaml
   label: Withings Nudge API
   slug: withings-nudge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-nudge-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-nudge-api-openapi.yml
 - filename: withings-nudgecampaign-api-openapi.yml
   format: yaml
   label: Withings Nudgecampaign API
   slug: withings-nudgecampaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-nudgecampaign-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-nudgecampaign-api-openapi.yml
 - filename: withings-order-api-openapi.yml
   format: yaml
   label: Withings Order API
   slug: withings-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-order-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-order-api-openapi.yml
 - filename: withings-signature-api-openapi.yml
   format: yaml
   label: Withings Signature API
   slug: withings-signature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-signature-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-signature-api-openapi.yml
 - filename: withings-sleep-api-openapi.yml
   format: yaml
   label: Withings Sleep API
   slug: withings-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-sleep-api-openapi.yml
 - filename: withings-stetho-api-openapi.yml
   format: yaml
   label: Withings Stetho API
   slug: withings-stetho-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-stetho-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-stetho-api-openapi.yml
 - filename: withings-survey-api-openapi.yml
   format: yaml
   label: Withings Survey API
   slug: withings-survey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-survey-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-survey-api-openapi.yml
 - filename: withings-user-api-openapi.yml
   format: yaml
   label: Withings User API
   slug: withings-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-user-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-user-api-openapi.yml
 - filename: withings-oauth2-api-openapi.yml
   format: yaml
   label: Withings Oauth2 API
   slug: withings-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-oauth2-api-openapi.yml
 - filename: withings-raw-data-api-openapi.yml
   format: yaml
   label: Withings Raw Data API
   slug: withings-raw-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/openapi/withings-raw-data-api-openapi.yml
+  url: https://artifacts.apis.io/withings/openapi/withings-raw-data-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 1
@@ -200,7 +200,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/within
   \      - abnormal\n      - high-value\n    audit: required\n- path: 'https://wbsapi.withings.net/v2/user      '\n  method: post\n  operationId: userv2-addtorpm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: https://wbsapi.withings.net/v2/user\n  method: post\n  operationId: userv2-get\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 'https://wbsapi.withings.net/v2/user   '\n  method: post\n  operationId: userv2-getdevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 'https://wbsapi.withings.net/v2/user     '\n  method: post\n  operationId: userv2-getgoals\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 'https://wbsapi.withings.net/v2/user  '\n  method: post\n  operationId: userv2-link\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 'https://wbsapi.withings.net/v2/user    '\n  method: post\n  operationId:\
   \ userv2-unlink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/withings/refs/heads/main/agentic-access/withings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/withings/agentic-access/withings-agentic-access.yml
 summary_line: 62 operations · 61 acting · 3 human-in-the-loop
 tags:
 - Health
@@ -211,7 +211,8 @@ tags:
 - Blood Pressure
 - Activity Tracking
 - Remote Patient Monitoring
-- Authentication
+- OAuth
 - Webhook
 - Wellness
+- Authentication
 ---

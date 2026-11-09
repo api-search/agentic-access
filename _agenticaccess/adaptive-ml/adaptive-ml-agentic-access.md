@@ -9,55 +9,55 @@ api_specs:
   label: Adaptive ML artifacts::rest API
   slug: adaptive-ml-artifacts-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
 - filename: adaptive-ml-chunked-upload-api-openapi.yml
   format: yaml
   label: Adaptive ML Chunked Upload API
   slug: adaptive-ml-chunked-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-chunked-upload-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-chunked-upload-api-openapi.yml
 - filename: adaptive-ml-completions-api-openapi.yml
   format: yaml
   label: Adaptive ML Completions API
   slug: adaptive-ml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-completions-api-openapi.yml
 - filename: adaptive-ml-datasets-api-openapi.yml
   format: yaml
   label: Adaptive ML Datasets API
   slug: adaptive-ml-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-datasets-api-openapi.yml
 - filename: adaptive-ml-embeddings-api-openapi.yml
   format: yaml
   label: Adaptive ML Embeddings API
   slug: adaptive-ml-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-embeddings-api-openapi.yml
 - filename: adaptive-ml-feedback-api-openapi.yml
   format: yaml
   label: Adaptive ML Feedback API
   slug: adaptive-ml-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-feedback-api-openapi.yml
 - filename: adaptive-ml-image-rest-api-openapi.yml
   format: yaml
   label: Adaptive ML image::rest API
   slug: adaptive-ml-image-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-image-rest-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-image-rest-api-openapi.yml
 - filename: adaptive-ml-interactions-api-openapi.yml
   format: yaml
   label: Adaptive ML Interactions API
   slug: adaptive-ml-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-interactions-api-openapi.yml
 - filename: adaptive-ml-recipes-api-openapi.yml
   format: yaml
   label: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-recipes-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/adapti
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/outcome\n  method: post\n  operationId: Add outcome\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /artifacts/{artifact_id}/download\n  method: get\n  operationId: download_artifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/projects/{project}/datasets/{dataset_id}/download\n  method: get\n  operationId: Download dataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v1/projects/{project}/recipes/{recipe}/download\n  method: get\n  operationId: Download recipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/upload/init\n  method: post\n  operationId: Initialize Chunked Upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/upload/part\n  method: post\n  operationId: Upload Part\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/upload/abort\n\
   \  method: delete\n  operationId: Abort Chunked Upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/upload/status\n  method: post\n  operationId: Get Upload Session Status\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/agentic-access/adaptive-ml-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-ml/agentic-access/adaptive-ml-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - Company

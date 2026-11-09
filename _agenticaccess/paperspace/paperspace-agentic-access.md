@@ -9,151 +9,151 @@ api_specs:
   label: Paperspace Machines API
   slug: paperspace-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-machines-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-machines-api-openapi.yml
 - filename: paperspace-deployments-api-openapi.yml
   format: yaml
   label: Paperspace Deployments API
   slug: paperspace-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-deployments-api-openapi.yml
 - filename: paperspace-projects-api-openapi.yml
   format: yaml
   label: Paperspace Projects API
   slug: paperspace-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-projects-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-projects-api-openapi.yml
 - filename: paperspace-datasets-api-openapi.yml
   format: yaml
   label: Paperspace Datasets API
   slug: paperspace-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-datasets-api-openapi.yml
 - filename: paperspace-container-registries-api-openapi.yml
   format: yaml
   label: Paperspace Container Registries API
   slug: paperspace-container-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-container-registries-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-container-registries-api-openapi.yml
 - filename: paperspace-models-api-openapi.yml
   format: yaml
   label: Paperspace Models API
   slug: paperspace-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-models-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-models-api-openapi.yml
 - filename: paperspace-activity-api-openapi.yml
   format: yaml
   label: Paperspace Activity API
   slug: paperspace-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-activity-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-activity-api-openapi.yml
 - filename: paperspace-authentication-api-openapi.yml
   format: yaml
   label: Paperspace Authentication API
   slug: paperspace-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-authentication-api-openapi.yml
 - filename: paperspace-collaborators-api-openapi.yml
   format: yaml
   label: Paperspace Collaborators API
   slug: paperspace-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-collaborators-api-openapi.yml
 - filename: paperspace-custom-templates-api-openapi.yml
   format: yaml
   label: Paperspace Custom Templates API
   slug: paperspace-custom-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-custom-templates-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-custom-templates-api-openapi.yml
 - filename: paperspace-dataset-versions-api-openapi.yml
   format: yaml
   label: Paperspace Dataset Versions API
   slug: paperspace-dataset-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-dataset-versions-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-dataset-versions-api-openapi.yml
 - filename: paperspace-machine-access-api-openapi.yml
   format: yaml
   label: Paperspace Machine Access API
   slug: paperspace-machine-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-machine-access-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-machine-access-api-openapi.yml
 - filename: paperspace-machine-events-api-openapi.yml
   format: yaml
   label: Paperspace Machine Events API
   slug: paperspace-machine-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-machine-events-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-machine-events-api-openapi.yml
 - filename: paperspace-machine-types-api-openapi.yml
   format: yaml
   label: Paperspace Machine Types API
   slug: paperspace-machine-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-machine-types-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-machine-types-api-openapi.yml
 - filename: paperspace-os-templates-api-openapi.yml
   format: yaml
   label: Paperspace OS Templates API
   slug: paperspace-os-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-os-templates-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-os-templates-api-openapi.yml
 - filename: paperspace-private-networks-api-openapi.yml
   format: yaml
   label: Paperspace Private Networks API
   slug: paperspace-private-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-private-networks-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-private-networks-api-openapi.yml
 - filename: paperspace-public-ips-api-openapi.yml
   format: yaml
   label: Paperspace Public IPs API
   slug: paperspace-public-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-public-ips-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-public-ips-api-openapi.yml
 - filename: paperspace-secrets-api-openapi.yml
   format: yaml
   label: Paperspace Secrets API
   slug: paperspace-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-secrets-api-openapi.yml
 - filename: paperspace-shared-drives-api-openapi.yml
   format: yaml
   label: Paperspace Shared Drives API
   slug: paperspace-shared-drives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-shared-drives-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-shared-drives-api-openapi.yml
 - filename: paperspace-snapshots-api-openapi.yml
   format: yaml
   label: Paperspace Snapshots API
   slug: paperspace-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-snapshots-api-openapi.yml
 - filename: paperspace-startup-scripts-api-openapi.yml
   format: yaml
   label: Paperspace Startup Scripts API
   slug: paperspace-startup-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-startup-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-startup-scripts-api-openapi.yml
 - filename: paperspace-storage-providers-api-openapi.yml
   format: yaml
   label: Paperspace Storage Providers API
   slug: paperspace-storage-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-storage-providers-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-storage-providers-api-openapi.yml
 - filename: paperspace-tags-api-openapi.yml
   format: yaml
   label: Paperspace Tags API
   slug: paperspace-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-tags-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-tags-api-openapi.yml
 - filename: paperspace-team-members-api-openapi.yml
   format: yaml
   label: Paperspace Team Members API
   slug: paperspace-team-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-team-members-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-team-members-api-openapi.yml
 - filename: paperspace-team-secrets-api-openapi.yml
   format: yaml
   label: Paperspace Team Secrets API
   slug: paperspace-team-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/openapi/paperspace-team-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/paperspace/openapi/paperspace-team-secrets-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 51
@@ -238,8 +238,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/papers
   - path: /custom-templates\n  method: get\n  operationId: listCustomTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-templates\n  method: post\n  operationId: createCustomTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-templates/{id}\n  method: get\n  operationId: getCustomTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom-templates/{id}\n  method: put\n  operationId: updateCustomTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom-templates/{id}\n  method: delete\n  operationId: deleteCustomTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /startup-scripts\n  method: get\n  operationId: listStartupScripts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /startup-scripts\n  method: post\n  operationId: createStartupScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /startup-scripts/{id}\n  method: get\n  operationId: getStartupScript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /startup-scripts/{id}\n  method: put\n  operationId: updateStartupScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /startup-scripts/{id}\n  method: delete\n  operationId: deleteStartupScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/agentic-access/paperspace-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/agentic-access/paperspace-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/paperspace/agentic-access/paperspace-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/paperspace/agentic-access/paperspace-agentic-access.yml
 summary_line: 113 operations · 62 acting · 2 human-in-the-loop
 tags:
 - GPU

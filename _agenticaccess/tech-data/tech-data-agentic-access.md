@@ -9,61 +9,61 @@ api_specs:
   label: Tech Data Authentication API
   slug: tech-data-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-authentication-api-openapi.yml
 - filename: tech-data-cart-items-api-openapi.yml
   format: yaml
   label: Tech Data Cart Items API
   slug: tech-data-cart-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-cart-items-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-cart-items-api-openapi.yml
 - filename: tech-data-carts-api-openapi.yml
   format: yaml
   label: Tech Data Carts API
   slug: tech-data-carts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-carts-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-carts-api-openapi.yml
 - filename: tech-data-cloud-providers-api-openapi.yml
   format: yaml
   label: Tech Data Cloud Providers API
   slug: tech-data-cloud-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-cloud-providers-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-cloud-providers-api-openapi.yml
 - filename: tech-data-customers-api-openapi.yml
   format: yaml
   label: Tech Data Customers API
   slug: tech-data-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-customers-api-openapi.yml
 - filename: tech-data-orders-api-openapi.yml
   format: yaml
   label: Tech Data Orders API
   slug: tech-data-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-orders-api-openapi.yml
 - filename: tech-data-products-api-openapi.yml
   format: yaml
   label: Tech Data Products API
   slug: tech-data-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-products-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-products-api-openapi.yml
 - filename: tech-data-provisioning-templates-api-openapi.yml
   format: yaml
   label: Tech Data Provisioning Templates API
   slug: tech-data-provisioning-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-provisioning-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-provisioning-templates-api-openapi.yml
 - filename: tech-data-reports-api-openapi.yml
   format: yaml
   label: Tech Data Reports API
   slug: tech-data-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-reports-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-reports-api-openapi.yml
 - filename: tech-data-subscriptions-api-openapi.yml
   format: yaml
   label: Tech Data Subscriptions API
   slug: tech-data-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/openapi/tech-data-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/tech-data/openapi/tech-data-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 23
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tech-d
   \      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/products/{productId}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/products/verticals\n  method: post\n  operationId: getProductVerticals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/provisioning/vendor/{vendorId}\n  method: get\n  operationId: getProvisioningByVendor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/provisioning/template/{templateId}\n  method: get\n  operationId: getProvisioningTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/reports/metadata\n  method: get\n  operationId: getReportsMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/reports/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/reports/{reportId}/data\n  method: get\n  operationId: getReportData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/reports/{reportId}/data/csv\n  method: get\n  operationId: getReportDataCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/customers/{customerId}/subscriptions\n  method: get\n  operationId: listCustomerSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{accountId}/customers/{customerId}/subscriptions/{subscriptionId}\n  method: get\n  operationId: getCustomerSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tech-data/refs/heads/main/agentic-access/tech-data-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tech-data/agentic-access/tech-data-agentic-access.yml
 summary_line: 36 operations · 13 acting
 tags:
 - Cloud

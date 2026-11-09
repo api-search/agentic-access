@@ -9,61 +9,61 @@ api_specs:
   label: Wove Authentication API
   slug: wove-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-authentication-api-openapi.yml
 - filename: wove-documents-api-openapi.yml
   format: yaml
   label: Wove Documents API
   slug: wove-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-documents-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-documents-api-openapi.yml
 - filename: wove-query-bank-api-openapi.yml
   format: yaml
   label: Wove Query Bank API
   slug: wove-query-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-query-bank-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-query-bank-api-openapi.yml
 - filename: wove-rates-api-openapi.yml
   format: yaml
   label: Wove Rates API
   slug: wove-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-rates-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-rates-api-openapi.yml
 - filename: wove-shipments-api-openapi.yml
   format: yaml
   label: Wove Shipments API
   slug: wove-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-shipments-api-openapi.yml
 - filename: wove-sources-api-openapi.yml
   format: yaml
   label: Wove Sources API
   slug: wove-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-sources-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-sources-api-openapi.yml
 - filename: wove-tariffs-api-openapi.yml
   format: yaml
   label: Wove Tariffs API
   slug: wove-tariffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-tariffs-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-tariffs-api-openapi.yml
 - filename: wove-testing-api-openapi.yml
   format: yaml
   label: Wove Testing API
   slug: wove-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-testing-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-testing-api-openapi.yml
 - filename: wove-tms-organizations-api-openapi.yml
   format: yaml
   label: Wove TMS Organizations API
   slug: wove-tms-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-tms-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-tms-organizations-api-openapi.yml
 - filename: wove-webhooks-api-openapi.yml
   format: yaml
   label: Wove Webhooks API
   slug: wove-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/openapi/wove-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wove/openapi/wove-webhooks-api-openapi.yml
 consequence_counts:
   physical: 27
   read: 37
@@ -252,7 +252,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wove-a
   \ getApiV1ExternalWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/external/webhooks\n  method: post\n  operationId: postApiV1ExternalWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/external/webhooks/{webhookId}\n  method: get\n  operationId: getApiV1ExternalWebhooksByWebhookId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/external/webhooks/{webhookId}\n  method: put\n  operationId: putApiV1ExternalWebhooksByWebhookId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/external/webhooks/{webhookId}\n  method: delete\n  operationId: deleteApiV1ExternalWebhooksByWebhookId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/external/webhooks/{webhookId}/test\n  method: post\n  operationId: postApiV1ExternalWebhooksByWebhookIdTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /api/v1/external/webhooks/test\n  method: post\n  operationId: postApiV1ExternalWebhooksTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/external/webhooks/{webhookId}/deliveries\n  method: get\n  operationId: getApiV1ExternalWebhooksByWebhookIdDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wove/refs/heads/main/agentic-access/wove-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wove/agentic-access/wove-agentic-access.yml
 summary_line: 85 operations · 48 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,55 +9,55 @@ api_specs:
   label: BlackSky Budgets API
   slug: blacksky-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-budgets-api-openapi.yml
 - filename: blacksky-catalog-api-openapi.yml
   format: yaml
   label: BlackSky Catalog API
   slug: blacksky-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-catalog-api-openapi.yml
 - filename: blacksky-data-management-api-openapi.yml
   format: yaml
   label: BlackSky Data management API
   slug: blacksky-data-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-data-management-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-data-management-api-openapi.yml
 - filename: blacksky-eulas-api-openapi.yml
   format: yaml
   label: BlackSky EULAs API
   slug: blacksky-eulas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-eulas-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-eulas-api-openapi.yml
 - filename: blacksky-geometries-api-openapi.yml
   format: yaml
   label: BlackSky Geometries API
   slug: blacksky-geometries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-geometries-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-geometries-api-openapi.yml
 - filename: blacksky-glossary-api-openapi.yml
   format: yaml
   label: BlackSky Glossary API
   slug: blacksky-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-glossary-api-openapi.yml
 - filename: blacksky-orders-api-openapi.yml
   format: yaml
   label: BlackSky Orders API
   slug: blacksky-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-orders-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-orders-api-openapi.yml
 - filename: blacksky-processing-api-openapi.yml
   format: yaml
   label: BlackSky Processing API
   slug: blacksky-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-processing-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-processing-api-openapi.yml
 - filename: blacksky-tasking-api-openapi.yml
   format: yaml
   label: BlackSky Tasking API
   slug: blacksky-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/openapi/blacksky-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/blacksky/openapi/blacksky-tasking-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 38
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/blacks
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tasking/orders/feasibility\n  method: post\n  operationId: checkOrderFeasibility\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tasking/orders/opportunities\n  method: post\n  operationId: listV2TaskingOrderOpportunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasking/quotation\n  method: get\n  operationId: listTaskingQuotation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasking/quotation/{quotation-id}\n  method: patch\n  operationId: updateTaskingQuotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tasking/{order-id}/extensions\n  method: get\n  operationId: getOrderAcquisitionDateExtensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tasking/{order-id}/extensions\n  method: post\n  operationId: createExtensionRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blacksky/refs/heads/main/agentic-access/blacksky-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blacksky/agentic-access/blacksky-agentic-access.yml
 summary_line: 57 operations · 19 acting
 tags:
 - Earth Observation

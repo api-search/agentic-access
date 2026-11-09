@@ -9,43 +9,43 @@ api_specs:
   label: Oracle Retail Fulfillment API
   slug: oracle-retail-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-fulfillment-api-openapi.yml
 - filename: oracle-retail-inventory-api-openapi.yml
   format: yaml
   label: Oracle Retail Inventory API
   slug: oracle-retail-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-inventory-api-openapi.yml
 - filename: oracle-retail-items-api-openapi.yml
   format: yaml
   label: Oracle Retail Items API
   slug: oracle-retail-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-items-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-items-api-openapi.yml
 - filename: oracle-retail-orders-api-openapi.yml
   format: yaml
   label: Oracle Retail Orders API
   slug: oracle-retail-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-orders-api-openapi.yml
 - filename: oracle-retail-returns-api-openapi.yml
   format: yaml
   label: Oracle Retail Returns API
   slug: oracle-retail-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-returns-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-returns-api-openapi.yml
 - filename: oracle-retail-suppliers-api-openapi.yml
   format: yaml
   label: Oracle Retail Suppliers API
   slug: oracle-retail-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-suppliers-api-openapi.yml
 - filename: oracle-retail-purchase-orders-api-openapi.yml
   format: yaml
   label: Oracle Retail Purchase Orders API
   slug: oracle-retail-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-purchase-orders-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oracle
   \  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: patch\n  operationId: updateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fulfillment/ship-order\n  method: post\n  operationId: shipOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n- path: /returns\n  method: post\n  operationId: createReturn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/agentic-access/oracle-retail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-retail/agentic-access/oracle-retail-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Retail

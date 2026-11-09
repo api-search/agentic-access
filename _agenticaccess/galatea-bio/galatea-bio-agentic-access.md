@@ -9,61 +9,61 @@ api_specs:
   label: Galatea Bio Auth API
   slug: galatea-bio-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-auth-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-auth-api-openapi.yml
 - filename: galatea-bio-credit-api-openapi.yml
   format: yaml
   label: Galatea Bio Credit API
   slug: galatea-bio-credit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-credit-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-credit-api-openapi.yml
 - filename: galatea-bio-dashboard-api-openapi.yml
   format: yaml
   label: Galatea Bio Dashboard API
   slug: galatea-bio-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-dashboard-api-openapi.yml
 - filename: galatea-bio-data-api-openapi.yml
   format: yaml
   label: Galatea Bio Data API
   slug: galatea-bio-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-data-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-data-api-openapi.yml
 - filename: galatea-bio-exec-api-openapi.yml
   format: yaml
   label: Galatea Bio Exec API
   slug: galatea-bio-exec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-exec-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-exec-api-openapi.yml
 - filename: galatea-bio-internal-api-openapi.yml
   format: yaml
   label: Galatea Bio Internal API
   slug: galatea-bio-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-internal-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-internal-api-openapi.yml
 - filename: galatea-bio-notification-api-openapi.yml
   format: yaml
   label: Galatea Bio Notification API
   slug: galatea-bio-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-notification-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-notification-api-openapi.yml
 - filename: galatea-bio-organizations-api-openapi.yml
   format: yaml
   label: Galatea Bio Organizations API
   slug: galatea-bio-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-organizations-api-openapi.yml
 - filename: galatea-bio-statistics-api-openapi.yml
   format: yaml
   label: Galatea Bio Statistics API
   slug: galatea-bio-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-statistics-api-openapi.yml
 - filename: galatea-bio-users-api-openapi.yml
   format: yaml
   label: Galatea Bio Users API
   slug: galatea-bio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/openapi/galatea-bio-users-api-openapi.yml
+  url: https://artifacts.apis.io/galatea-bio/openapi/galatea-bio-users-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 44
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: generated\nsource: openapi/galate
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/request-new-code\n  method: post\n  operationId: users_request-new-code_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/reset-password\n  method: post\n  operationId: users_reset-password_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n- path: /users/{user_id}\n  method: get\n  operationId: users_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: put\n  operationId: users_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: delete\n  operationId: users_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/resend-invite\n  method: post\n\
   \  operationId: users_resend-invite_create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/galatea-bio/refs/heads/main/agentic-access/galatea-bio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/galatea-bio/agentic-access/galatea-bio-agentic-access.yml
 summary_line: 99 operations · 55 acting · 1 human-in-the-loop
 tags:
 - Genomics

@@ -9,19 +9,19 @@ api_specs:
   label: Black Forest Labs Editing API
   slug: black-forest-labs-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-editing-api-openapi.yml
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-editing-api-openapi.yml
 - filename: black-forest-labs-generation-api-openapi.yml
   format: yaml
   label: Black Forest Labs Generation API
   slug: black-forest-labs-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-generation-api-openapi.yml
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-generation-api-openapi.yml
 - filename: black-forest-labs-utility-api-openapi.yml
   format: yaml
   label: Black Forest Labs Utility API
   slug: black-forest-labs-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/openapi/black-forest-labs-utility-api-openapi.yml
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-utility-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/black-
   \ generateFlux2Flex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/flux-2-max\n  method: post\n  operationId: generateFlux2Max\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/flux-pro-1.0-fill\n  method: post\n  operationId: generateFluxFill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/flux-pro-1.0-expand\n  method: post\n  operationId: generateFluxExpand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/get_result\n  method: get\n  operationId: getResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/my_finetunes\n  method: get\n  operationId: listFinetunes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n-\
   \ path: /v1/finetune_details\n  method: get\n  operationId: getFinetuneDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/delete_finetune\n  method: post\n  operationId: deleteFinetune\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/black-forest-labs/refs/heads/main/agentic-access/black-forest-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/black-forest-labs/agentic-access/black-forest-labs-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - Artificial Intelligence

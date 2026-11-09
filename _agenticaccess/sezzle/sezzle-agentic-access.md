@@ -9,43 +9,43 @@ api_specs:
   label: Sezzle Bearer Authentication API
   slug: sezzle-bearer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-bearer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-bearer-authentication-api-openapi.yml
 - filename: sezzle-customer-api-openapi.yml
   format: yaml
   label: Sezzle Customer API
   slug: sezzle-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-customer-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-customer-api-openapi.yml
 - filename: sezzle-order-api-openapi.yml
   format: yaml
   label: Sezzle Order API
   slug: sezzle-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-order-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-order-api-openapi.yml
 - filename: sezzle-reports-api-openapi.yml
   format: yaml
   label: Sezzle Reports API
   slug: sezzle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-reports-api-openapi.yml
 - filename: sezzle-session-api-openapi.yml
   format: yaml
   label: Sezzle Session API
   slug: sezzle-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-session-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-session-api-openapi.yml
 - filename: sezzle-token-api-openapi.yml
   format: yaml
   label: Sezzle Token API
   slug: sezzle-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-token-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-token-api-openapi.yml
 - filename: sezzle-webhooks-api-openapi.yml
   format: yaml
   label: Sezzle Webhooks API
   slug: sezzle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/openapi/sezzle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sezzle/openapi/sezzle-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 12
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sezzle
   \ required\n- path: /webhooks\n  method: get\n  operationId: getV2Webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhooks_uuid}\n  method: get\n  operationId: getV2Webhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhooks_uuid}\n  method: delete\n  operationId: deleteV2Webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/test\n  method: post\n  operationId: postV2WebhookTest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settlements/summaries\n  method: get\n  operationId: getSettlementSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements/details/{payout_uuid}\n  method: get\n  operationId: getSettlementDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interest/balance\n  method: get\n  operationId: getInterestAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /interest/activity\n  method: get\n  operationId: getInterestAccountActivity\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/agentic-access/sezzle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sezzle/agentic-access/sezzle-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - Buy Now Pay Later

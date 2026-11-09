@@ -9,43 +9,43 @@ api_specs:
   label: Thunder Compute Instances API
   slug: thundercompute-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-instances-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-instances-api-openapi.yml
 - filename: thundercompute-pricing-api-openapi.yml
   format: yaml
   label: Thunder Compute Pricing API
   slug: thundercompute-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-pricing-api-openapi.yml
 - filename: thundercompute-snapshots-api-openapi.yml
   format: yaml
   label: Thunder Compute Snapshots API
   slug: thundercompute-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-snapshots-api-openapi.yml
 - filename: thundercompute-specs-api-openapi.yml
   format: yaml
   label: Thunder Compute Specs API
   slug: thundercompute-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-specs-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-specs-api-openapi.yml
 - filename: thundercompute-ssh-keys-api-openapi.yml
   format: yaml
   label: Thunder Compute SSH Keys API
   slug: thundercompute-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-ssh-keys-api-openapi.yml
 - filename: thundercompute-templates-api-openapi.yml
   format: yaml
   label: Thunder Compute Templates API
   slug: thundercompute-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-templates-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-templates-api-openapi.yml
 - filename: thundercompute-tokens-api-openapi.yml
   format: yaml
   label: Thunder Compute Tokens API
   slug: thundercompute-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/openapi/thundercompute-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/thundercompute/openapi/thundercompute-tokens-api-openapi.yml
 consequence_counts:
   read: 7
   write: 9
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thunde
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /snapshots/{id}\n  method: delete\n  operationId: deleteSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /thunder-templates\n  method: get\n  operationId: getThunderTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keys/add\n  method: post\n  operationId: addSSHKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /keys/list\n  method: get\n  operationId: listSSHKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keys/{id}\n  method: delete\n  operationId: deleteSSHKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: get\n  operationId: listTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: get\n  operationId: getPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /specs\n  method: get\n  operationId:\
   \ getSpecs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thundercompute/refs/heads/main/agentic-access/thundercompute-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thundercompute/agentic-access/thundercompute-agentic-access.yml
 summary_line: 16 operations · 9 acting
 tags:
 - GPU

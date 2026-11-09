@@ -9,103 +9,103 @@ api_specs:
   label: Total Expert Account Endpoints API
   slug: total-expert-account-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-account-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-account-endpoints-api-openapi.yml
 - filename: total-expert-activity-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Activity Endpoints API
   slug: total-expert-activity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-activity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-activity-endpoints-api-openapi.yml
 - filename: total-expert-alm-leads-formerly-lead-opportunities-api-openapi.yml
   format: yaml
   label: Total Expert ALM Leads (formerly Lead Opportunities) API
   slug: total-expert-alm-leads-formerly-lead-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-alm-leads-formerly-lead-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-alm-leads-formerly-lead-opportunities-api-openapi.yml
 - filename: total-expert-authentication-api-openapi.yml
   format: yaml
   label: Total Expert Authentication API
   slug: total-expert-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-authentication-api-openapi.yml
 - filename: total-expert-contact-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Contact Endpoints API
   slug: total-expert-contact-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-contact-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-contact-endpoints-api-openapi.yml
 - filename: total-expert-email-apis-api-openapi.yml
   format: yaml
   label: Total Expert Email APIs API
   slug: total-expert-email-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-email-apis-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-email-apis-api-openapi.yml
 - filename: total-expert-email-unsubscribes-api-openapi.yml
   format: yaml
   label: Total Expert Email Unsubscribes API
   slug: total-expert-email-unsubscribes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-email-unsubscribes-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-email-unsubscribes-api-openapi.yml
 - filename: total-expert-entities-api-openapi.yml
   format: yaml
   label: Total Expert Entities API
   slug: total-expert-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-entities-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-entities-api-openapi.yml
 - filename: total-expert-heartbeat-api-openapi.yml
   format: yaml
   label: Total Expert Heartbeat API
   slug: total-expert-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-heartbeat-api-openapi.yml
 - filename: total-expert-insight-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Insight Endpoints API
   slug: total-expert-insight-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-insight-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-insight-endpoints-api-openapi.yml
 - filename: total-expert-lead-opportunities-new-api-openapi.yml
   format: yaml
   label: Total Expert Lead Opportunities (New) API
   slug: total-expert-lead-opportunities-new-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-lead-opportunities-new-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-lead-opportunities-new-api-openapi.yml
 - filename: total-expert-loan-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Loan Endpoints API
   slug: total-expert-loan-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-loan-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-loan-endpoints-api-openapi.yml
 - filename: total-expert-scenarios-api-openapi.yml
   format: yaml
   label: Total Expert Scenarios API
   slug: total-expert-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-scenarios-api-openapi.yml
 - filename: total-expert-schema-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert Schema Endpoints API
   slug: total-expert-schema-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-schema-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-schema-endpoints-api-openapi.yml
 - filename: total-expert-sms-opting-api-openapi.yml
   format: yaml
   label: Total Expert SMS Opting API
   slug: total-expert-sms-opting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-sms-opting-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-sms-opting-api-openapi.yml
 - filename: total-expert-user-endpoints-api-openapi.yml
   format: yaml
   label: Total Expert User Endpoints API
   slug: total-expert-user-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-user-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-user-endpoints-api-openapi.yml
 - filename: total-expert-webhooks-api-openapi.yml
   format: yaml
   label: Total Expert Webhooks API
   slug: total-expert-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/openapi/total-expert-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/total-expert/openapi/total-expert-webhooks-api-openapi.yml
 consequence_counts:
   read: 72
   write: 57
@@ -164,8 +164,8 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/total-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/scenarios\n  method: get\n  operationId: fetchScenarios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scenarios\n  method: post\n  operationId: createScenarioAsAdmin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/email-domains\n  method: get\n  operationId: fetchEmailDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/email-unsubscribes\n  method: post\n  operationId: createEmailUnsubscribe\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/email-unsubscribes\n  method: get\n  operationId: fetchEmailUnsubscribes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/email-unsubscribes/{email_unsubscribe_id}\n  method: get\n  operationId: fetchEmailUnsubscribe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sms/opt-in\n  method: post\n  operationId: createOptIn\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sms/opt-out\n  method: post\n  operationId: createOptOut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook-actions\n  method: get\n  operationId: fetchWebhookActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook-subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /v1/webhook-subscriptions\n  method: get\n  operationId: fetchWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook-subscriptions/{subscription_id}\n  method: get\n  operationId: fetchWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook-subscriptions/{subscription_id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/agentic-access/total-expert-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/total-expert/refs/heads/main/agentic-access/total-expert-agentic-access.yml
+  \    audit: required\n- path: /v1/webhook-subscriptions\n  method: get\n  operationId: fetchWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook-subscriptions/{subscription_id}\n  method: get\n  operationId: fetchWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook-subscriptions/{subscription_id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/total-expert/agentic-access/total-expert-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/total-expert/agentic-access/total-expert-agentic-access.yml
 summary_line: 129 operations · 57 acting
 tags:
 - Company

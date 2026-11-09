@@ -9,79 +9,79 @@ api_specs:
   label: Qubrid AI Chat Completions API
   slug: qubrid-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-chat-completions-api-openapi.yml
 - filename: qubrid-ai-datasets-api-openapi.yml
   format: yaml
   label: Qubrid AI Datasets API
   slug: qubrid-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-datasets-api-openapi.yml
 - filename: qubrid-ai-documents-api-openapi.yml
   format: yaml
   label: Qubrid AI Documents API
   slug: qubrid-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-documents-api-openapi.yml
 - filename: qubrid-ai-embeddings-api-openapi.yml
   format: yaml
   label: Qubrid AI Embeddings API
   slug: qubrid-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-embeddings-api-openapi.yml
 - filename: qubrid-ai-fine-tuning-jobs-api-openapi.yml
   format: yaml
   label: Qubrid AI Fine-Tuning Jobs API
   slug: qubrid-ai-fine-tuning-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-fine-tuning-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-fine-tuning-jobs-api-openapi.yml
 - filename: qubrid-ai-gpu-catalog-api-openapi.yml
   format: yaml
   label: Qubrid AI GPU Catalog API
   slug: qubrid-ai-gpu-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-gpu-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-gpu-catalog-api-openapi.yml
 - filename: qubrid-ai-instances-api-openapi.yml
   format: yaml
   label: Qubrid AI Instances API
   slug: qubrid-ai-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-instances-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-instances-api-openapi.yml
 - filename: qubrid-ai-knowledge-bases-api-openapi.yml
   format: yaml
   label: Qubrid AI Knowledge Bases API
   slug: qubrid-ai-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-knowledge-bases-api-openapi.yml
 - filename: qubrid-ai-models-api-openapi.yml
   format: yaml
   label: Qubrid AI Models API
   slug: qubrid-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-models-api-openapi.yml
 - filename: qubrid-ai-rag-queries-api-openapi.yml
   format: yaml
   label: Qubrid AI RAG Queries API
   slug: qubrid-ai-rag-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-rag-queries-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-rag-queries-api-openapi.yml
 - filename: qubrid-ai-ssh-keys-api-openapi.yml
   format: yaml
   label: Qubrid AI SSH Keys API
   slug: qubrid-ai-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-ssh-keys-api-openapi.yml
 - filename: qubrid-ai-templates-api-openapi.yml
   format: yaml
   label: Qubrid AI Templates API
   slug: qubrid-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-templates-api-openapi.yml
 - filename: qubrid-ai-finetuned-models-api-openapi.yml
   format: yaml
   label: Qubrid AI Finetuned Models API
   slug: qubrid-ai-finetuned-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/openapi/qubrid-ai-finetuned-models-api-openapi.yml
+  url: https://artifacts.apis.io/qubrid-ai/openapi/qubrid-ai-finetuned-models-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 2
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/qubrid
   \  method: get\n  operationId: listKnowledgeBases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rag/knowledge-bases\n  method: post\n  operationId: createKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rag/knowledge-bases/{knowledge_base_id}\n  method: get\n  operationId: getKnowledgeBase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rag/knowledge-bases/{knowledge_base_id}\n  method: delete\n  operationId: deleteKnowledgeBase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model_id}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rag/query\n  method: post\n  operationId: queryRag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ssh-keys\n  method: get\n  operationId: listSshKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /ssh-keys\n  method: post\n  operationId: createSshKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ssh-keys/{key_id}\n  method: delete\n  operationId: deleteSshKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/agentic-access/qubrid-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qubrid-ai/agentic-access/qubrid-ai-agentic-access.yml
 summary_line: 33 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

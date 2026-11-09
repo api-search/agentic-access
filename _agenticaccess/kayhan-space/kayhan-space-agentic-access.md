@@ -9,121 +9,121 @@ api_specs:
   label: Kayhan Space Authentication API
   slug: kayhan-space-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-authentication-api-openapi.yml
 - filename: kayhan-space-catalog-api-openapi.yml
   format: yaml
   label: Kayhan Space Catalog API
   slug: kayhan-space-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-catalog-api-openapi.yml
 - filename: kayhan-space-conjunction-api-openapi.yml
   format: yaml
   label: Kayhan Space Conjunction API
   slug: kayhan-space-conjunction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-conjunction-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-conjunction-api-openapi.yml
 - filename: kayhan-space-ephemeris-api-openapi.yml
   format: yaml
   label: Kayhan Space Ephemeris API
   slug: kayhan-space-ephemeris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-ephemeris-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-ephemeris-api-openapi.yml
 - filename: kayhan-space-events-api-openapi.yml
   format: yaml
   label: Kayhan Space Events API
   slug: kayhan-space-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-events-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-events-api-openapi.yml
 - filename: kayhan-space-health-api-openapi.yml
   format: yaml
   label: Kayhan Space Health API
   slug: kayhan-space-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-health-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-health-api-openapi.yml
 - filename: kayhan-space-launch-screening-api-openapi.yml
   format: yaml
   label: Kayhan Space Launch Screening API
   slug: kayhan-space-launch-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-launch-screening-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-launch-screening-api-openapi.yml
 - filename: kayhan-space-leop-api-openapi.yml
   format: yaml
   label: Kayhan Space LEOP API
   slug: kayhan-space-leop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-leop-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-leop-api-openapi.yml
 - filename: kayhan-space-maneuver-designer-api-openapi.yml
   format: yaml
   label: Kayhan Space Maneuver Designer API
   slug: kayhan-space-maneuver-designer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-maneuver-designer-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-maneuver-designer-api-openapi.yml
 - filename: kayhan-space-metrics-api-openapi.yml
   format: yaml
   label: Kayhan Space Metrics API
   slug: kayhan-space-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-metrics-api-openapi.yml
 - filename: kayhan-space-mission-planning-api-openapi.yml
   format: yaml
   label: Kayhan Space Mission Planning API
   slug: kayhan-space-mission-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-mission-planning-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-mission-planning-api-openapi.yml
 - filename: kayhan-space-mitigation-api-openapi.yml
   format: yaml
   label: Kayhan Space Mitigation API
   slug: kayhan-space-mitigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-mitigation-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-mitigation-api-openapi.yml
 - filename: kayhan-space-nlp-api-openapi.yml
   format: yaml
   label: Kayhan Space NLP API
   slug: kayhan-space-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-nlp-api-openapi.yml
 - filename: kayhan-space-orbital-determination-api-openapi.yml
   format: yaml
   label: Kayhan Space Orbital Determination API
   slug: kayhan-space-orbital-determination-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-orbital-determination-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-orbital-determination-api-openapi.yml
 - filename: kayhan-space-plot-api-openapi.yml
   format: yaml
   label: Kayhan Space Plot API
   slug: kayhan-space-plot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-plot-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-plot-api-openapi.yml
 - filename: kayhan-space-propagation-api-openapi.yml
   format: yaml
   label: Kayhan Space Propagation API
   slug: kayhan-space-propagation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-propagation-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-propagation-api-openapi.yml
 - filename: kayhan-space-satcat-service-api-api-openapi.yml
   format: yaml
   label: Kayhan Space Satcat Service API
   slug: kayhan-space-satcat-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-satcat-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-satcat-service-api-api-openapi.yml
 - filename: kayhan-space-screening-api-openapi.yml
   format: yaml
   label: Kayhan Space Screening API
   slug: kayhan-space-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-screening-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-screening-api-openapi.yml
 - filename: kayhan-space-state-vector-api-openapi.yml
   format: yaml
   label: Kayhan Space State Vector API
   slug: kayhan-space-state-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-state-vector-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-state-vector-api-openapi.yml
 - filename: kayhan-space-two-line-elements-tles-api-openapi.yml
   format: yaml
   label: Kayhan Space Two Line Elements (TLEs) API
   slug: kayhan-space-two-line-elements-tles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/openapi/kayhan-space-two-line-elements-tles-api-openapi.yml
+  url: https://artifacts.apis.io/kayhan-space/openapi/kayhan-space-two-line-elements-tles-api-openapi.yml
 consequence_counts:
   read: 78
   write: 73
@@ -182,8 +182,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kayhan
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/states\n  method: get\n  operationId: get_state_vector_propagations__id__states_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /propagations/{id}/states\n  method: patch\n  operationId: change_state_vector_propagations__id__states_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/states\n  method: delete\n  operationId: remove_state_vector_propagations__id__states_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/forces\n  method: post\n  operationId: add_propagation_forces_propagations__id__forces_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/forces\n  method: get\n  operationId: get_propagation_forces_propagations__id__forces_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /propagations/{id}/forces\n  method: patch\n  operationId: update_propagation_forces_propagations__id__forces_patch\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/forces\n  method: delete\n  operationId: remove_propagation_forces_propagations__id__forces_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/maneuvers\n  method: post\n  operationId: add_propagation_maneuver_propagations__id__maneuvers_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/maneuvers\n  method: get\n  operationId: get_all_propagation_maneuvers_propagations__id__maneuvers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /propagations/{id}/maneuvers\n  method: delete\n  operationId: remove_all_maneuvers_from_propagation_propagations__id__maneuvers_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/agentic-access/kayhan-space-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kayhan-space/refs/heads/main/agentic-access/kayhan-space-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /propagations/{id}/maneuvers\n  method: get\n  operationId: get_all_propagation_maneuvers_propagations__id__maneuvers_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /propagations/{id}/maneuvers\n  method: delete\n  operationId: remove_all_maneuvers_from_propagation_propagations__id__maneuvers_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/kayhan-space/agentic-access/kayhan-space-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kayhan-space/agentic-access/kayhan-space-agentic-access.yml
 summary_line: 151 operations · 73 acting
 tags:
 - Company

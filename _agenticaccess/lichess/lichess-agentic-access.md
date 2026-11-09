@@ -9,139 +9,139 @@ api_specs:
   label: Lichess Account API
   slug: lichess-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-account-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-account-api-openapi.yml
 - filename: lichess-analysis-api-openapi.yml
   format: yaml
   label: Lichess Analysis API
   slug: lichess-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-analysis-api-openapi.yml
 - filename: lichess-board-api-openapi.yml
   format: yaml
   label: Lichess Board API
   slug: lichess-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-board-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-board-api-openapi.yml
 - filename: lichess-bot-api-openapi.yml
   format: yaml
   label: Lichess Bot API
   slug: lichess-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-bot-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-bot-api-openapi.yml
 - filename: lichess-broadcasts-api-openapi.yml
   format: yaml
   label: Lichess Broadcasts API
   slug: lichess-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-broadcasts-api-openapi.yml
 - filename: lichess-bulk-pairings-api-openapi.yml
   format: yaml
   label: Lichess Bulk pairings API
   slug: lichess-bulk-pairings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-bulk-pairings-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-bulk-pairings-api-openapi.yml
 - filename: lichess-challenges-api-openapi.yml
   format: yaml
   label: Lichess Challenges API
   slug: lichess-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-challenges-api-openapi.yml
 - filename: lichess-external-engine-api-openapi.yml
   format: yaml
   label: Lichess External engine API
   slug: lichess-external-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-external-engine-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-external-engine-api-openapi.yml
 - filename: lichess-fide-api-openapi.yml
   format: yaml
   label: Lichess FIDE API
   slug: lichess-fide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-fide-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-fide-api-openapi.yml
 - filename: lichess-games-api-openapi.yml
   format: yaml
   label: Lichess Games API
   slug: lichess-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-games-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-games-api-openapi.yml
 - filename: lichess-messaging-api-openapi.yml
   format: yaml
   label: Lichess Messaging API
   slug: lichess-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-messaging-api-openapi.yml
 - filename: lichess-opening-explorer-api-openapi.yml
   format: yaml
   label: Lichess Opening Explorer API
   slug: lichess-opening-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-opening-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-opening-explorer-api-openapi.yml
 - filename: lichess-puzzles-api-openapi.yml
   format: yaml
   label: Lichess Puzzles API
   slug: lichess-puzzles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-puzzles-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-puzzles-api-openapi.yml
 - filename: lichess-relations-api-openapi.yml
   format: yaml
   label: Lichess Relations API
   slug: lichess-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-relations-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-relations-api-openapi.yml
 - filename: lichess-simuls-api-openapi.yml
   format: yaml
   label: Lichess Simuls API
   slug: lichess-simuls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-simuls-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-simuls-api-openapi.yml
 - filename: lichess-studies-api-openapi.yml
   format: yaml
   label: Lichess Studies API
   slug: lichess-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-studies-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-studies-api-openapi.yml
 - filename: lichess-tablebase-api-openapi.yml
   format: yaml
   label: Lichess Tablebase API
   slug: lichess-tablebase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tablebase-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-tablebase-api-openapi.yml
 - filename: lichess-teams-api-openapi.yml
   format: yaml
   label: Lichess Teams API
   slug: lichess-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-teams-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-teams-api-openapi.yml
 - filename: lichess-tournaments-arena-api-openapi.yml
   format: yaml
   label: Lichess Tournaments (Arena) API
   slug: lichess-tournaments-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tournaments-arena-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-tournaments-arena-api-openapi.yml
 - filename: lichess-tournaments-swiss-api-openapi.yml
   format: yaml
   label: Lichess Tournaments (Swiss) API
   slug: lichess-tournaments-swiss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tournaments-swiss-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-tournaments-swiss-api-openapi.yml
 - filename: lichess-tv-api-openapi.yml
   format: yaml
   label: Lichess TV API
   slug: lichess-tv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-tv-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-tv-api-openapi.yml
 - filename: lichess-users-api-openapi.yml
   format: yaml
   label: Lichess Users API
   slug: lichess-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-users-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-users-api-openapi.yml
 - filename: lichess-oauth-api-openapi.yml
   format: yaml
   label: Lichess O Auth API
   slug: lichess-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/openapi/lichess-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/lichess/openapi/lichess-oauth-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 105
@@ -240,8 +240,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/liches
   \ gamesByIdsAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/account/playing\n  method: get\n  operationId: apiAccountPlaying\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/stream/game/{id}\n  method: get\n  operationId: streamGame\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/import\n  method: post\n  operationId: gameImport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/games/export/imports\n  method: get\n  operationId: apiImportedGamesUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/games/export/bookmarks\n  method: get\n  operationId: apiExportBookmarks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inbox/{username}\n  method: post\n  operationId: inboxUsername\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - msg:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth\n  method:\
   \ get\n  operationId: oauth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/token\n  method: post\n  operationId: apiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/token\n  method: delete\n  operationId: apiTokenDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/token/test\n  method: post\n  operationId: tokenTest\n  x-agentic-access:\n    action-class:\
-  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /masters\n  method: get\n  operationId: openingExplorerMaster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lichess\n  method: get\n  operationId: openingExplorerLichess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /player\n  method: get\n  operationId: openingExplorerPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/agentic-access/lichess-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lichess/refs/heads/main/agentic-access/lichess-agentic-access.yml
+  \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /masters\n  method: get\n  operationId: openingExplorerMaster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lichess\n  method: get\n  operationId: openingExplorerLichess\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /player\n  method: get\n  operationId: openingExplorerPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/lichess/agentic-access/lichess-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lichess/agentic-access/lichess-agentic-access.yml
 summary_line: 188 operations · 83 acting · 4 human-in-the-loop
 tags:
 - Chess
@@ -253,5 +253,6 @@ tags:
 - Bots
 - Streaming
 - ND-JSON
+- OAuth
 - Authentication
 ---

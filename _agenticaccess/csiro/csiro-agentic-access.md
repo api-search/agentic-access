@@ -9,121 +9,121 @@ api_specs:
   label: CSIRO AAHL API
   slug: csiro-aahl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-aahl-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-aahl-api-openapi.yml
 - filename: csiro-api-v2-admin-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 Admin API
   slug: csiro-api-v2-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-admin-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-admin-api-openapi.yml
 - filename: csiro-api-v2-authentication-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 Authentication API
   slug: csiro-api-v2-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-authentication-api-openapi.yml
 - filename: csiro-api-v2-casda-observations-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 Casda Observations API
   slug: csiro-api-v2-casda-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-casda-observations-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-casda-observations-api-openapi.yml
 - filename: csiro-api-v2-collections-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 Collections API
   slug: csiro-api-v2-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-collections-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-collections-api-openapi.yml
 - filename: csiro-api-v2-dna-sequence-collections-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 DNA Sequence Collections API
   slug: csiro-api-v2-dna-sequence-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-dna-sequence-collections-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-dna-sequence-collections-api-openapi.yml
 - filename: csiro-api-v2-supporting-data-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 Supporting Data API
   slug: csiro-api-v2-supporting-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-supporting-data-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-supporting-data-api-openapi.yml
 - filename: csiro-api-v2-user-profile-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 User Profile API
   slug: csiro-api-v2-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-user-profile-api-openapi.yml
 - filename: csiro-api-v2-user-tasks-api-openapi.yml
   format: yaml
   label: CSIRO Api-V2 User Tasks API
   slug: csiro-api-v2-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-api-v2-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-api-v2-user-tasks-api-openapi.yml
 - filename: csiro-atnf-api-openapi.yml
   format: yaml
   label: CSIRO ATNF API
   slug: csiro-atnf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-atnf-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-atnf-api-openapi.yml
 - filename: csiro-casda-api-openapi.yml
   format: yaml
   label: CSIRO CASDA API
   slug: csiro-casda-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-casda-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-casda-api-openapi.yml
 - filename: csiro-collection-browse-api-openapi.yml
   format: yaml
   label: CSIRO Collection Browse API
   slug: csiro-collection-browse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-collection-browse-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-collection-browse-api-openapi.yml
 - filename: csiro-collection-data-api-openapi.yml
   format: yaml
   label: CSIRO Collection Data API
   slug: csiro-collection-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-collection-data-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-collection-data-api-openapi.yml
 - filename: csiro-collection-download-api-openapi.yml
   format: yaml
   label: CSIRO Collection Download API
   slug: csiro-collection-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-collection-download-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-collection-download-api-openapi.yml
 - filename: csiro-collection-search-api-openapi.yml
   format: yaml
   label: CSIRO Collection Search API
   slug: csiro-collection-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-collection-search-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-collection-search-api-openapi.yml
 - filename: csiro-external-systems-api-openapi.yml
   format: yaml
   label: CSIRO External Systems API
   slug: csiro-external-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-external-systems-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-external-systems-api-openapi.yml
 - filename: csiro-licence-api-openapi.yml
   format: yaml
   label: CSIRO Licence API
   slug: csiro-licence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-licence-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-licence-api-openapi.yml
 - filename: csiro-orcid-api-openapi.yml
   format: yaml
   label: CSIRO ORCID API
   slug: csiro-orcid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-orcid-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-orcid-api-openapi.yml
 - filename: csiro-specimen-images-api-openapi.yml
   format: yaml
   label: CSIRO Specimen Images API
   slug: csiro-specimen-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-specimen-images-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-specimen-images-api-openapi.yml
 - filename: csiro-ui-display-api-openapi.yml
   format: yaml
   label: CSIRO UI Display API
   slug: csiro-ui-display-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/openapi/csiro-ui-display-api-openapi.yml
+  url: https://artifacts.apis.io/csiro/openapi/csiro-ui-display-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 209
@@ -209,8 +209,8 @@ source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/csiro-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/collections/{id}/folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/collections/{id}/folders\n  method: delete\n  operationId: deleteFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/collections/{id}/files\n  method: get\n  operationId: getFilesForFolder\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/collections/{id}/files\n  method: post\n  operationId: uploadFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/collections/{id}/files\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/collections/{id}/files/unlock\n  method: post\n  operationId: modifyFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/collections/{id}/copy\n  method: post\n  operationId: copyCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/collections/{id}/changeCollaborators\n  method: post\n  operationId: changeDepositCollaborators\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at\
-  \ 32 KB (95 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/agentic-access/csiro-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/csiro/refs/heads/main/agentic-access/csiro-agentic-access.yml
+  \ 32 KB (95 KB total) ---\n# Full source: https://artifacts.apis.io/csiro/agentic-access/csiro-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/csiro/agentic-access/csiro-agentic-access.yml
 summary_line: 344 operations · 135 acting
 tags:
 - Company

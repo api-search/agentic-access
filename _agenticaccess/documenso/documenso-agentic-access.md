@@ -9,25 +9,25 @@ api_specs:
   label: Documenso Documents API
   slug: documenso-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-documents-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-documents-api-openapi.yml
 - filename: documenso-fields-api-openapi.yml
   format: yaml
   label: Documenso Fields API
   slug: documenso-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-fields-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-fields-api-openapi.yml
 - filename: documenso-recipients-api-openapi.yml
   format: yaml
   label: Documenso Recipients API
   slug: documenso-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-recipients-api-openapi.yml
 - filename: documenso-templates-api-openapi.yml
   format: yaml
   label: Documenso Templates API
   slug: documenso-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-templates-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-templates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 5
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docume
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{id}/fields/{fieldId}\n  method: patch\n  operationId: updateField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /documents/{id}/fields/{fieldId}\n  method: delete\n  operationId: deleteField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates\n  method: get\n  operationId: getTemplates\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /templates/{templateId}/generate-document\n  method: post\n  operationId: generateDocumentFromTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/agentic-access/documenso-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/documenso/agentic-access/documenso-agentic-access.yml
 summary_line: 18 operations · 13 acting
 tags:
 - E-Signature

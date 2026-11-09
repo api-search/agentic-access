@@ -9,31 +9,31 @@ api_specs:
   label: Fever Authentication API
   slug: fever-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-authentication-api-openapi.yml
 - filename: fever-feverzone-api-openapi.yml
   format: yaml
   label: Fever FeverZone API
   slug: fever-feverzone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-feverzone-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-feverzone-api-openapi.yml
 - filename: fever-order-items-api-openapi.yml
   format: yaml
   label: Fever Order Items API
   slug: fever-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-order-items-api-openapi.yml
 - filename: fever-plans-api-openapi.yml
   format: yaml
   label: Fever Plans API
   slug: fever-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-plans-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-plans-api-openapi.yml
 - filename: fever-sessions-api-openapi.yml
   format: yaml
   label: Fever Sessions API
   slug: fever-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/openapi/fever-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/fever/openapi/fever-sessions-api-openapi.yml
 consequence_counts:
   read: 11
   write: 2
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fever-
   \  method: get\n  operationId: get_search_sales_by_ticket_type_page_feverzone_sales_by_ticket_type_search__search_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feverzone/sales-by-reseller/search\n  method: post\n  operationId: search_resellers_feverzone_sales_by_reseller_search_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feverzone/sales-by-reseller/search/{search_id}\n  method: get\n  operationId: get_resellers_search_page_feverzone_sales_by_reseller_search__search_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/order-items/search\n  method: post\n  operationId: search_order_items_reports_order_items_search_post\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/order-items/search/{search_id}\n  method: get\n  operationId: get_order_items_search_page_reports_order_items_search__search_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/search\n  method: post\n  operationId: search_plans_plans_search_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plans/search/{search_id}\n  method: get\n  operationId: get_plans_search_page_plans_search__search_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/search\n  method: post\n  operationId: search_sessions_sessions_search_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/search/{search_id}\n  method: get\n  operationId: get_sessions_search_page_sessions_search__search_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fever/refs/heads/main/agentic-access/fever-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fever/agentic-access/fever-agentic-access.yml
 summary_line: 13 operations · 2 acting
 tags:
 - Company

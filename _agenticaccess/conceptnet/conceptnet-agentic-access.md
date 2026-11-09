@@ -8,43 +8,43 @@ api_specs:
   label: ConceptNet Concepts API
   slug: conceptnet-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-concepts-api-openapi.yml
 - filename: conceptnet-edges-api-openapi.yml
   format: yaml
   label: ConceptNet Edges API
   slug: conceptnet-edges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-edges-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-edges-api-openapi.yml
 - filename: conceptnet-query-api-openapi.yml
   format: yaml
   label: ConceptNet Query API
   slug: conceptnet-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-query-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-query-api-openapi.yml
 - filename: conceptnet-relations-api-openapi.yml
   format: yaml
   label: ConceptNet Relations API
   slug: conceptnet-relations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-relations-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-relations-api-openapi.yml
 - filename: conceptnet-similarity-api-openapi.yml
   format: yaml
   label: ConceptNet Similarity API
   slug: conceptnet-similarity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-similarity-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-similarity-api-openapi.yml
 - filename: conceptnet-sources-api-openapi.yml
   format: yaml
   label: ConceptNet Sources API
   slug: conceptnet-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-sources-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-sources-api-openapi.yml
 - filename: conceptnet-utilities-api-openapi.yml
   format: yaml
   label: ConceptNet Utilities API
   slug: conceptnet-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/openapi/conceptnet-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/conceptnet/openapi/conceptnet-utilities-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /c/{language}/{term}\n  method: get\n  operationId: getConcept\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /c/{language}/{term}/{sense}\n  method: get\n  operationId: getConceptSense\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /a/{edgeId}\n  method: get\n  operationId: getEdge\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /r/{relation}\n  method: get\n  operationId: getRelation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /s/{sourcePath}\n  method: get\n  operationId: getSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: get\n  operationId: queryEdges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /related/{uri}\n  method: get\n  operationId: getRelatedConcepts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /relatedness\n  method:\
   \ get\n  operationId: getRelatedness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /uri\n  method: get\n  operationId: normalizeUri\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/agentic-access/conceptnet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/conceptnet/agentic-access/conceptnet-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Knowledge Graph

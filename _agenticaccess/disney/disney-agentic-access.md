@@ -8,13 +8,13 @@ api_specs:
   label: Disney API Characters API
   slug: disney-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-characters-api-openapi.yml
+  url: https://artifacts.apis.io/disney/openapi/disney-characters-api-openapi.yml
 - filename: disney-index-api-openapi.yml
   format: yaml
   label: Disney API Index API
   slug: disney-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/openapi/disney-index-api-openapi.yml
+  url: https://artifacts.apis.io/disney/openapi/disney-index-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/disney-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getServiceIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /character\n  method: get\n  operationId: listCharacters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /character/{id}\n  method: get\n  operationId: getCharacterById\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /characters/{id}\n  method: get\n  operationId: getCharactersById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/agentic-access/disney-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/disney/agentic-access/disney-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Entertainment

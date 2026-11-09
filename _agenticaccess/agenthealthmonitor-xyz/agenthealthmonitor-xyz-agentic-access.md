@@ -9,85 +9,85 @@ api_specs:
   label: Agent Health Monitor Admin API
   slug: agenthealthmonitor-xyz-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-admin-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-admin-api-openapi.yml
 - filename: agenthealthmonitor-xyz-alerts-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Alerts API
   slug: agenthealthmonitor-xyz-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-alerts-api-openapi.yml
 - filename: agenthealthmonitor-xyz-billing-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Billing API
   slug: agenthealthmonitor-xyz-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-billing-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-billing-api-openapi.yml
 - filename: agenthealthmonitor-xyz-coupon-access-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Coupon Access API
   slug: agenthealthmonitor-xyz-coupon-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-coupon-access-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-coupon-access-api-openapi.yml
 - filename: agenthealthmonitor-xyz-discovery-info-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Discovery & Info API
   slug: agenthealthmonitor-xyz-discovery-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-discovery-info-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-discovery-info-api-openapi.yml
 - filename: agenthealthmonitor-xyz-health-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Health API
   slug: agenthealthmonitor-xyz-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-health-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-health-api-openapi.yml
 - filename: agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Health & Hygiene API
   slug: agenthealthmonitor-xyz-health-hygiene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-health-hygiene-api-openapi.yml
 - filename: agenthealthmonitor-xyz-optimization-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Optimization API
   slug: agenthealthmonitor-xyz-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-optimization-api-openapi.yml
 - filename: agenthealthmonitor-xyz-outputs-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Outputs API
   slug: agenthealthmonitor-xyz-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-outputs-api-openapi.yml
 - filename: agenthealthmonitor-xyz-protection-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Protection API
   slug: agenthealthmonitor-xyz-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-protection-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-protection-api-openapi.yml
 - filename: agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Scoring & Risk API
   slug: agenthealthmonitor-xyz-scoring-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-scoring-risk-api-openapi.yml
 - filename: agenthealthmonitor-xyz-specs-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Specs API
   slug: agenthealthmonitor-xyz-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-specs-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-specs-api-openapi.yml
 - filename: agenthealthmonitor-xyz-utility-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Utility API
   slug: agenthealthmonitor-xyz-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-utility-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-utility-api-openapi.yml
 - filename: agenthealthmonitor-xyz-verdicts-api-openapi.yml
   format: yaml
   label: Agent Health Monitor Verdicts API
   slug: agenthealthmonitor-xyz-verdicts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/openapi/agenthealthmonitor-xyz-verdicts-api-openapi.yml
+  url: https://artifacts.apis.io/agenthealthmonitor-xyz/openapi/agenthealthmonitor-xyz-verdicts-api-openapi.yml
 consequence_counts:
   read: 66
   write: 14
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agenth
   \ /erc8004-scan/trigger\n  method: post\n  operationId: trigger_erc8004_scan_erc8004_scan_trigger_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /erc8004-scan/status\n  method: get\n  operationId: erc8004_scan_status_erc8004_scan_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /erc8183/status\n  method: get\n  operationId: erc8183_status_erc8183_status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/specs\n  method: post\n  operationId: create_spec_v1_specs_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/outputs\n  method: post\n  operationId: submit_output_v1_outputs_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/verdicts/{verdict_id}\n  method: get\n  operationId: get_verdict_v1_verdicts__verdict_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agenthealthmonitor-xyz/refs/heads/main/agentic-access/agenthealthmonitor-xyz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agenthealthmonitor-xyz/agentic-access/agenthealthmonitor-xyz-agentic-access.yml
 summary_line: 80 operations · 14 acting
 tags:
 - Agents

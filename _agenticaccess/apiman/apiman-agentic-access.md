@@ -9,91 +9,91 @@ api_specs:
   label: Apiman Actions API
   slug: apiman-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-actions-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-actions-api-openapi.yml
 - filename: apiman-blobs-api-openapi.yml
   format: yaml
   label: Apiman Blobs API
   slug: apiman-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-blobs-api-openapi.yml
 - filename: apiman-developers-api-openapi.yml
   format: yaml
   label: Apiman Developers API
   slug: apiman-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-developers-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-developers-api-openapi.yml
 - filename: apiman-devportal-api-openapi.yml
   format: yaml
   label: Apiman Devportal API
   slug: apiman-devportal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-devportal-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-devportal-api-openapi.yml
 - filename: apiman-downloads-api-openapi.yml
   format: yaml
   label: Apiman Downloads API
   slug: apiman-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-downloads-api-openapi.yml
 - filename: apiman-events-api-openapi.yml
   format: yaml
   label: Apiman Events API
   slug: apiman-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-events-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-events-api-openapi.yml
 - filename: apiman-experimental-api-openapi.yml
   format: yaml
   label: Apiman Experimental API
   slug: apiman-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-experimental-api-openapi.yml
 - filename: apiman-gateways-api-openapi.yml
   format: yaml
   label: Apiman Gateways API
   slug: apiman-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-gateways-api-openapi.yml
 - filename: apiman-organizations-api-openapi.yml
   format: yaml
   label: Apiman Organizations API
   slug: apiman-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-organizations-api-openapi.yml
 - filename: apiman-plugins-api-openapi.yml
   format: yaml
   label: Apiman Plugins API
   slug: apiman-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-plugins-api-openapi.yml
 - filename: apiman-policy-definitions-api-openapi.yml
   format: yaml
   label: Apiman Policy Definitions API
   slug: apiman-policy-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-policy-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-policy-definitions-api-openapi.yml
 - filename: apiman-roles-api-openapi.yml
   format: yaml
   label: Apiman Roles API
   slug: apiman-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-roles-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-roles-api-openapi.yml
 - filename: apiman-search-api-openapi.yml
   format: yaml
   label: Apiman Search API
   slug: apiman-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-search-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-search-api-openapi.yml
 - filename: apiman-system-api-openapi.yml
   format: yaml
   label: Apiman System API
   slug: apiman-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-system-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-system-api-openapi.yml
 - filename: apiman-users-api-openapi.yml
   format: yaml
   label: Apiman Users API
   slug: apiman-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/openapi/apiman-users-api-openapi.yml
+  url: https://artifacts.apis.io/apiman/openapi/apiman-users-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 130
@@ -192,8 +192,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apiman
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/apis/{apiId}/image\n  method: delete\n  operationId: deleteApiImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/apis/{apiId}/versions/{version}/policies/{policyId}\n  method: get\n  operationId: getApiPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/apis/{apiId}/versions/{version}/policies/{policyId}\n  method: put\n  operationId: updateApiPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/apis/{apiId}/versions/{version}/policies/{policyId}\n  method: delete\n  operationId: deleteApiPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/clients/{clientId}\n  method: get\n  operationId: getClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/clients/{clientId}\n  method: put\n  operationId: updateClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/clients/{clientId}\n  method: delete\n  operationId: deleteClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/clients/{clientId}/versions/{version}/policies/{policyId}\n  method: get\n  operationId: getClientPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/clients/{clientId}/versions/{version}/policies/{policyId}\n  method: put\n  operationId:\
-  \ updateClientPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/clients/{clientId}/versions/{version}/policies/{policyId}\n  method: delete\n  operationId: deleteClientPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/agentic-access/apiman-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiman/refs/heads/main/agentic-access/apiman-agentic-access.yml
+  \ updateClientPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/clients/{clientId}/versions/{version}/policies/{policyId}\n  method: delete\n  operationId: deleteClientPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://artifacts.apis.io/apiman/agentic-access/apiman-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/apiman/agentic-access/apiman-agentic-access.yml
 summary_line: 199 operations · 69 acting · 2 human-in-the-loop
 tags:
 - API Gateway

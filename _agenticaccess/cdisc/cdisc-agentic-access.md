@@ -9,61 +9,61 @@ api_specs:
   label: cdisc ADaM API
   slug: cdisc-adam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-adam-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-adam-api-openapi.yml
 - filename: cdisc-biomedical-concepts-api-openapi.yml
   format: yaml
   label: cdisc Biomedical Concepts API
   slug: cdisc-biomedical-concepts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-biomedical-concepts-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-biomedical-concepts-api-openapi.yml
 - filename: cdisc-cdash-api-openapi.yml
   format: yaml
   label: cdisc CDASH API
   slug: cdisc-cdash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-cdash-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-cdash-api-openapi.yml
 - filename: cdisc-products-api-openapi.yml
   format: yaml
   label: cdisc Products API
   slug: cdisc-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-products-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-products-api-openapi.yml
 - filename: cdisc-sdtm-api-openapi.yml
   format: yaml
   label: cdisc SDTM API
   slug: cdisc-sdtm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-sdtm-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-sdtm-api-openapi.yml
 - filename: cdisc-terminology-api-openapi.yml
   format: yaml
   label: cdisc Terminology API
   slug: cdisc-terminology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-terminology-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-terminology-api-openapi.yml
 - filename: cdisc-about-api-openapi.yml
   format: yaml
   label: Cdisc About API
   slug: cdisc-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-about-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-about-api-openapi.yml
 - filename: cdisc-analysis-results-standards-ars-api-openapi.yml
   format: yaml
   label: Cdisc Analysis Results Standards (ARS) API
   slug: cdisc-analysis-results-standards-ars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-analysis-results-standards-ars-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-analysis-results-standards-ars-api-openapi.yml
 - filename: cdisc-production-api-openapi.yml
   format: yaml
   label: Cdisc Production API
   slug: cdisc-production-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-production-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-production-api-openapi.yml
 - filename: cdisc-studies-api-openapi.yml
   format: yaml
   label: Cdisc Studies API
   slug: cdisc-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/openapi/cdisc-studies-api-openapi.yml
+  url: https://artifacts.apis.io/cdisc/openapi/cdisc-studies-api-openapi.yml
 consequence_counts:
   read: 45
   write: 14
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/cdisc-
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mdr/sdtm/{version}/classes\n  method: get\n  operationId: listSdtmClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mdr/sdtm/{version}/datasets\n  method: get\n  operationId: listSdtmDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mdr/sdtm/{version}/datasets/{dataset}\n  method: get\n  operationId: getSdtmDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mdr/ct\n  method: get\n  operationId: listTerminologyPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /mdr/ct/{packageDate}/codelists\n  method: get\n  operationId: listCodelists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/studyDefinitions\n  method: post\n  operationId: create_study_v3_studyDefinitions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/studyDefinitions/{studyId}\n  method: put\n  operationId: update_study_v3_studyDefinitions__studyId__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v3/studyDefinitions/{studyId}\n  method: get\n  operationId: read_full_study_v3_studyDefinitions__studyId__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/studyDefinitions/{studyId}/history\n  method: get\n  operationId: read_study_history_v3_studyDefinitions__studyId__history_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/studyDesigns\n  method: get\n  operationId: search_study_design_v3_studyDesigns_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cdisc/refs/heads/main/agentic-access/cdisc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cdisc/agentic-access/cdisc-agentic-access.yml
 summary_line: 59 operations · 14 acting
 tags:
 - Clinical Trials

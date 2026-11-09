@@ -9,91 +9,91 @@ api_specs:
   label: Rollbar Webhooks
   slug: rollbar-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/asyncapi/rollbar-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/rollbar/asyncapi/rollbar-webhooks-asyncapi.yml
 - filename: rollbar-access-tokens-api-openapi.yml
   format: yaml
   label: Rollbar Access Tokens API
   slug: rollbar-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-access-tokens-api-openapi.yml
 - filename: rollbar-deploys-api-openapi.yml
   format: yaml
   label: Rollbar Deploys API
   slug: rollbar-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-deploys-api-openapi.yml
 - filename: rollbar-invites-api-openapi.yml
   format: yaml
   label: Rollbar Invites API
   slug: rollbar-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-invites-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-invites-api-openapi.yml
 - filename: rollbar-items-api-openapi.yml
   format: yaml
   label: Rollbar Items API
   slug: rollbar-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-items-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-items-api-openapi.yml
 - filename: rollbar-items-metrics-api-openapi.yml
   format: yaml
   label: Rollbar Items Metrics API
   slug: rollbar-items-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-items-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-items-metrics-api-openapi.yml
 - filename: rollbar-notifications-api-openapi.yml
   format: yaml
   label: Rollbar Notifications API
   slug: rollbar-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-notifications-api-openapi.yml
 - filename: rollbar-occurrences-api-openapi.yml
   format: yaml
   label: Rollbar Occurrences API
   slug: rollbar-occurrences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-occurrences-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-occurrences-api-openapi.yml
 - filename: rollbar-occurrences-metrics-api-openapi.yml
   format: yaml
   label: Rollbar Occurrences Metrics API
   slug: rollbar-occurrences-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-occurrences-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-occurrences-metrics-api-openapi.yml
 - filename: rollbar-projects-api-openapi.yml
   format: yaml
   label: Rollbar Projects API
   slug: rollbar-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-projects-api-openapi.yml
 - filename: rollbar-resolution-time-metrics-api-openapi.yml
   format: yaml
   label: Rollbar Resolution Time Metrics API
   slug: rollbar-resolution-time-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-resolution-time-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-resolution-time-metrics-api-openapi.yml
 - filename: rollbar-rql-jobs-api-openapi.yml
   format: yaml
   label: Rollbar RQL Jobs API
   slug: rollbar-rql-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-rql-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-rql-jobs-api-openapi.yml
 - filename: rollbar-source-maps-api-openapi.yml
   format: yaml
   label: Rollbar Source Maps API
   slug: rollbar-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-source-maps-api-openapi.yml
 - filename: rollbar-teams-api-openapi.yml
   format: yaml
   label: Rollbar Teams API
   slug: rollbar-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-teams-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-teams-api-openapi.yml
 - filename: rollbar-users-api-openapi.yml
   format: yaml
   label: Rollbar Users API
   slug: rollbar-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/openapi/rollbar-users-api-openapi.yml
+  url: https://artifacts.apis.io/rollbar/openapi/rollbar-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 28
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rollba
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/{teamId}/project/{projectId}\n  method: put\n  operationId: assignProjectToTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/{teamId}/project/{projectId}\n  method: delete\n  operationId: removeProjectFromTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/{teamId}/user/{userId}\n  method: put\n  operationId: assignUserToTeam\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/{teamId}/user/{userId}\n  method: delete\n  operationId: removeUserFromTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/{teamId}/users\n  method: get\n  operationId: listTeamUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listAllUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /user/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/agentic-access/rollbar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rollbar/agentic-access/rollbar-agentic-access.yml
 summary_line: 50 operations · 22 acting
 tags:
 - Error Tracking

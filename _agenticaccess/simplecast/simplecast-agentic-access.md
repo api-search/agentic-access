@@ -9,31 +9,31 @@ api_specs:
   label: Simplecast Analytics API
   slug: simplecast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-analytics-api-openapi.yml
 - filename: simplecast-distribution-api-openapi.yml
   format: yaml
   label: Simplecast Distribution API
   slug: simplecast-distribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-distribution-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-distribution-api-openapi.yml
 - filename: simplecast-episodes-api-openapi.yml
   format: yaml
   label: Simplecast Episodes API
   slug: simplecast-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-episodes-api-openapi.yml
 - filename: simplecast-metadata-api-openapi.yml
   format: yaml
   label: Simplecast Metadata API
   slug: simplecast-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-metadata-api-openapi.yml
 - filename: simplecast-podcasts-api-openapi.yml
   format: yaml
   label: Simplecast Podcasts API
   slug: simplecast-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/openapi/simplecast-podcasts-api-openapi.yml
+  url: https://artifacts.apis.io/simplecast/openapi/simplecast-podcasts-api-openapi.yml
 consequence_counts:
   read: 61
   write: 1
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simple
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/embed/listens\n  method: get\n  operationId: getAnalyticsEmbedListens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/embed/locations\n  method: get\n  operationId: getAnalyticsEmbedLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/embed/speeds\n  method: get\n  operationId: getAnalyticsEmbedSpeeds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /authors/{author_id}\n  method: get\n  operationId: getAuthor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/{keyword_id}\n  method: get\n  operationId: getKeyword\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /links/{link_id}\n  method: get\n  operationId: getLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /current_user\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timezones\n  method: get\n  operationId: listTimezones\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oembed\n  method: get\n  operationId: getOembed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simplecast/refs/heads/main/agentic-access/simplecast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simplecast/agentic-access/simplecast-agentic-access.yml
 summary_line: 62 operations · 1 acting
 tags:
 - Podcasts

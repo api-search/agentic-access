@@ -8,25 +8,25 @@ api_specs:
   label: ELM — Edinburgh Language Models API
   slug: elm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-elm-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-elm-api-openapi.yml
 - filename: university-of-edinburgh-catalogue-api-openapi.yml
   format: yaml
   label: University of Edinburgh Catalogue API
   slug: university-of-edinburgh-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-catalogue-api-openapi.yml
 - filename: university-of-edinburgh-oai-pmh-api-openapi.yml
   format: yaml
   label: University of Edinburgh OAI PMH API
   slug: university-of-edinburgh-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-oai-pmh-api-openapi.yml
 - filename: university-of-edinburgh-repository-api-openapi.yml
   format: yaml
   label: University of Edinburgh Repository API
   slug: university-of-edinburgh-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/openapi/university-of-edinburgh-repository-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-edinburgh/openapi/university-of-edinburgh-repository-api-openapi.yml
 consequence_counts:
   generate: 1
   read: 13
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: derived\nsource: openapi/universi
   \  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: authenticated\n    note: Returns 401 anonymously on this deployment. Agents must hold a University credential.\n- api: Edinburgh DataShare REST API\n  path: /core/bitstreams\n  method: get\n  operationId: listBitstreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: authenticated\n    note: Returns 401 anonymously. Bitstreams are the binary research data — treat egress as sensitive.\n\n- api: Edinburgh Research Archive (ERA) REST API\n  path: /core/communities\n  method: get\n  operationId: listCommunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: Edinburgh Research Archive (ERA) REST API\n  path: /discover/search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n\
   \n- api: Edinburgh DataShare OAI-PMH\n  path: /request\n  method: get\n  operationId: oaiRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n    note: >-\n      Fully anonymous bulk metadata harvesting. Agents must respect resumptionToken flow\n      control and must not treat HTTP 200 as success — OAI returns protocol errors with 200.\n- api: Edinburgh Research Archive (ERA) OAI-PMH\n  path: /request\n  method: get\n  operationId: oaiRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n\n- api: EIDF Data Catalogue API\n  path: /package_search\n  method: get\n  operationId: packageSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n- api: EIDF Data Catalogue API\n  path: /package_show\n  method: get\n  operationId: packageShow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    audience: public\n\n- api: ELM\
   \ — Edinburgh Language Models API\n  path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: connected\n    consequence: generate\n    audience: authenticated\n    human-in-the-loop: required\n    note: >-\n      Generative inference against a University-operated LLM gateway, billed and governed\n      under Edinburgh's own generative-AI guidance. Requires a bearer token, has no public\n      self-service registration, and should not be driven unattended by an agent.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-edinburgh/refs/heads/main/agentic-access/university-of-edinburgh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/university-of-edinburgh/agentic-access/university-of-edinburgh-agentic-access.yml
 summary_line: 14 operations · 1 human-in-the-loop
 tags:
 - University

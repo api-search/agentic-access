@@ -8,31 +8,31 @@ api_specs:
   label: FXRatesAPI Convert API
   slug: fxratesapi-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-convert-api-openapi.yml
+  url: https://artifacts.apis.io/fxratesapi/openapi/fxratesapi-convert-api-openapi.yml
 - filename: fxratesapi-currencies-api-openapi.yml
   format: yaml
   label: FXRatesAPI Currencies API
   slug: fxratesapi-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/fxratesapi/openapi/fxratesapi-currencies-api-openapi.yml
 - filename: fxratesapi-historical-rates-api-openapi.yml
   format: yaml
   label: FXRatesAPI Historical Rates API
   slug: fxratesapi-historical-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-historical-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fxratesapi/openapi/fxratesapi-historical-rates-api-openapi.yml
 - filename: fxratesapi-latest-rates-api-openapi.yml
   format: yaml
   label: FXRatesAPI Latest Rates API
   slug: fxratesapi-latest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-latest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fxratesapi/openapi/fxratesapi-latest-rates-api-openapi.yml
 - filename: fxratesapi-time-series-api-openapi.yml
   format: yaml
   label: FXRatesAPI Time-Series API
   slug: fxratesapi-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/openapi/fxratesapi-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/fxratesapi/openapi/fxratesapi-time-series-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fxratesapi-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /latest\n  method: get\n  operationId: getLatestRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical\n  method: get\n  operationId: getHistoricalRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /timeseries\n  method: get\n  operationId: getTimeSeriesRates\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /convert\n  method: get\n  operationId: convertCurrency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /currencies\n  method: get\n  operationId: listCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fxratesapi/refs/heads/main/agentic-access/fxratesapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fxratesapi/agentic-access/fxratesapi-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Foreign Exchange

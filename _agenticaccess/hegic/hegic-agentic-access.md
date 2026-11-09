@@ -8,43 +8,43 @@ api_specs:
   label: Hegic Accounts API
   slug: hegic-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-accounts-api-openapi.yml
 - filename: hegic-contracts-api-openapi.yml
   format: yaml
   label: Hegic Contracts API
   slug: hegic-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-contracts-api-openapi.yml
 - filename: hegic-fees-api-openapi.yml
   format: yaml
   label: Hegic Fees API
   slug: hegic-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-fees-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-fees-api-openapi.yml
 - filename: hegic-options-api-openapi.yml
   format: yaml
   label: Hegic Options API
   slug: hegic-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-options-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-options-api-openapi.yml
 - filename: hegic-prices-api-openapi.yml
   format: yaml
   label: Hegic Prices API
   slug: hegic-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-prices-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-prices-api-openapi.yml
 - filename: hegic-tokens-api-openapi.yml
   format: yaml
   label: Hegic Tokens API
   slug: hegic-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-tokens-api-openapi.yml
 - filename: hegic-tvl-api-openapi.yml
   format: yaml
   label: Hegic TVL API
   slug: hegic-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/openapi/hegic-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/hegic/openapi/hegic-tvl-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/arbisc
   \ 3600\n    audit: none\n- path: /v2/historicalChainTvl\n  method: get\n  operationId: getHistoricalChainTvl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/historicalChainTvl/{chain}\n  method: get\n  operationId: getHistoricalChainTvlByChain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/chains\n  method: get\n  operationId: getChains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/options\n  method: get\n  operationId: listOptionsDexs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/options/{chain}\n  method: get\n  operationId: listOptionsDexsByChain\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary/options/{protocol}\n  method: get\n  operationId: getOptionsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /overview/fees\n  method: get\n  operationId: listFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /summary/fees/{protocol}\n  method: get\n  operationId: getFeesSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices/current/{coins}\n  method: get\n  operationId: getCurrentPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /prices/historical/{timestamp}/{coins}\n  method: get\n  operationId: getHistoricalPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hegic/refs/heads/main/agentic-access/hegic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hegic/agentic-access/hegic-agentic-access.yml
 summary_line: 17 operations
 tags:
 - DeFi

@@ -9,67 +9,67 @@ api_specs:
   label: TestRail Cases API
   slug: testrail-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-cases-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-cases-api-openapi.yml
 - filename: testrail-configurations-api-openapi.yml
   format: yaml
   label: TestRail Configurations API
   slug: testrail-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-configurations-api-openapi.yml
 - filename: testrail-milestones-api-openapi.yml
   format: yaml
   label: TestRail Milestones API
   slug: testrail-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-milestones-api-openapi.yml
 - filename: testrail-plans-api-openapi.yml
   format: yaml
   label: TestRail Plans API
   slug: testrail-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-plans-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-plans-api-openapi.yml
 - filename: testrail-projects-api-openapi.yml
   format: yaml
   label: TestRail Projects API
   slug: testrail-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-projects-api-openapi.yml
 - filename: testrail-results-api-openapi.yml
   format: yaml
   label: TestRail Results API
   slug: testrail-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-results-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-results-api-openapi.yml
 - filename: testrail-runs-api-openapi.yml
   format: yaml
   label: TestRail Runs API
   slug: testrail-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-runs-api-openapi.yml
 - filename: testrail-sections-api-openapi.yml
   format: yaml
   label: TestRail Sections API
   slug: testrail-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-sections-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-sections-api-openapi.yml
 - filename: testrail-suites-api-openapi.yml
   format: yaml
   label: TestRail Suites API
   slug: testrail-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-suites-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-suites-api-openapi.yml
 - filename: testrail-tests-api-openapi.yml
   format: yaml
   label: TestRail Tests API
   slug: testrail-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-tests-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-tests-api-openapi.yml
 - filename: testrail-users-api-openapi.yml
   format: yaml
   label: TestRail Users API
   slug: testrail-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/openapi/testrail-users-api-openapi.yml
+  url: https://artifacts.apis.io/testrail/openapi/testrail-users-api-openapi.yml
 consequence_counts:
   read: 24
   write: 32
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/testra
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delete_milestone/{milestone_id}\n  method: post\n  operationId: deleteMilestone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get_configs/{project_id}\n  method: get\n  operationId: getConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /add_config_group/{project_id}\n  method: post\n  operationId: addConfigGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /add_config/{config_group_id}\n  method: post\n  operationId: addConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get_users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_user/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_user_by_email\n  method: get\n  operationId: getUserByEmail\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testrail/refs/heads/main/agentic-access/testrail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/testrail/agentic-access/testrail-agentic-access.yml
 summary_line: 56 operations · 32 acting
 tags:
 - Test Runs

@@ -8,25 +8,25 @@ api_specs:
   label: Lufthansa Cargo API
   slug: lufthansa-cargo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-cargo-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-cargo-api-openapi.yml
 - filename: lufthansa-offers-api-openapi.yml
   format: yaml
   label: Lufthansa Offers API
   slug: lufthansa-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-offers-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-offers-api-openapi.yml
 - filename: lufthansa-operations-api-openapi.yml
   format: yaml
   label: Lufthansa Operations API
   slug: lufthansa-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-operations-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-operations-api-openapi.yml
 - filename: lufthansa-reference-data-api-openapi.yml
   format: yaml
   label: Lufthansa Reference Data API
   slug: lufthansa-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/openapi/lufthansa-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/lufthansa/openapi/lufthansa-reference-data-api-openapi.yml
 consequence_counts:
   read: 15
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/luftha
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/seatmaps/{flightNumber}/{origin}/{destination}/{date}/{cabinClass}\n  method: get\n  operationId: OffersSeatmapsDestinationDateCabinClassByFlightNumberAndOriginGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/lounges/{location}\n  method: get\n  operationId: OffersLoungesByLocationGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/flightstatus/{flightNumber}/{date}\n  method: get\n  operationId: OperationsFlightstatusByFlightNumberAndDateGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/flightstatus/route/{origin}/{destination}/{date}\n  method: get\n  operationId: OperationsFlightstatusRouteDateByOriginAndDestinationGet\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/flightstatus/arrivals/{airportCode}/{fromDateTime}\n  method: get\n  operationId: OperationsFlightstatusArrivalsByAirportCodeAndFromDateTimeGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/flightstatus/departures/{airportCode}/{fromDateTime}\n  method: get\n  operationId: OperationsFlightstatusDeparturesByAirportCodeAndFromDateTimeGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operations/schedules/{origin}/{destination}/{fromDateTime}\n  method: get\n  operationId: OperationsSchedulesFromDateTimeByOriginAndDestinationGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cargo/shipmentTracking/{aWBPrefix}-{aWBNumber}\n  method: get\n  operationId: CargoShipmentTrackingByAWBPrefixAndAWBNumberGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cargo/getRoute/{origin}-{destination}/{fromDate}/{productCode}\n  method: get\n  operationId: CargoGetRouteFromDateProductCodeByOriginAndDestinationGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lufthansa/refs/heads/main/agentic-access/lufthansa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lufthansa/agentic-access/lufthansa-agentic-access.yml
 summary_line: 15 operations
 tags:
 - Airlines

@@ -9,13 +9,13 @@ api_specs:
   label: TaskCall Components API
   slug: taskcall-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-components-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-components-api-openapi.yml
 - filename: taskcall-incidents-api-openapi.yml
   format: yaml
   label: TaskCall Incidents API
   slug: taskcall-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-incidents-api-openapi.yml
 consequence_counts:
   read: 4
   write: 20
@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/taskca
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/remove-subscribers\n  method: post\n  operationId: removeSubscribers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/update-status\n  method: post\n  operationId: updateStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/add-impact\n  method: post\n  operationId: addImpact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/remove-impact\n  method: post\n  operationId: removeImpact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/run-workflow\n  method: post\n  operationId: runWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/edit-title\n  method: post\n  operationId: editTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/update-tags\n  method: post\n  operationId: updateTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/agentic-access/taskcall-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/taskcall/agentic-access/taskcall-agentic-access.yml
 summary_line: 24 operations · 20 acting
 tags:
 - Incident Management

@@ -9,37 +9,37 @@ api_specs:
   label: Conductor Admin API
   slug: conductor-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-admin-api-openapi.yml
+  url: https://artifacts.apis.io/conductor/openapi/conductor-admin-api-openapi.yml
 - filename: conductor-event-api-openapi.yml
   format: yaml
   label: Conductor Event API
   slug: conductor-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-event-api-openapi.yml
+  url: https://artifacts.apis.io/conductor/openapi/conductor-event-api-openapi.yml
 - filename: conductor-metadata-task-api-openapi.yml
   format: yaml
   label: Conductor Metadata - Task API
   slug: conductor-metadata-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-metadata-task-api-openapi.yml
+  url: https://artifacts.apis.io/conductor/openapi/conductor-metadata-task-api-openapi.yml
 - filename: conductor-metadata-workflow-api-openapi.yml
   format: yaml
   label: Conductor Metadata - Workflow API
   slug: conductor-metadata-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-metadata-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/conductor/openapi/conductor-metadata-workflow-api-openapi.yml
 - filename: conductor-task-api-openapi.yml
   format: yaml
   label: Conductor Task API
   slug: conductor-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-task-api-openapi.yml
+  url: https://artifacts.apis.io/conductor/openapi/conductor-task-api-openapi.yml
 - filename: conductor-workflow-api-openapi.yml
   format: yaml
   label: Conductor Workflow API
   slug: conductor-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/openapi/conductor-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/conductor/openapi/conductor-workflow-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 1
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conduc
   \  operationId: updateEventHandler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event\n  method: get\n  operationId: getAllEventHandlers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event/{name}\n  method: delete\n  operationId: deleteEventHandler\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/{name}\n  method: get\n  operationId: getEventHandlersForEvent\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/config\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/task/{taskType}\n  method: get\n  operationId: getTaskQueueInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/sweep/requeue/{workflowId}\n  method: post\n  operationId: requeueSweep\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conductor/refs/heads/main/agentic-access/conductor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/conductor/agentic-access/conductor-agentic-access.yml
 summary_line: 39 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Automation

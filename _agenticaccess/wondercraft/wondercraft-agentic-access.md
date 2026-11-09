@@ -9,25 +9,25 @@ api_specs:
   label: Wondercraft Account API
   slug: wondercraft-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-account-api-openapi.yml
+  url: https://artifacts.apis.io/wondercraft/openapi/wondercraft-account-api-openapi.yml
 - filename: wondercraft-audio-generation-api-openapi.yml
   format: yaml
   label: Wondercraft Audio Generation API
   slug: wondercraft-audio-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-audio-generation-api-openapi.yml
+  url: https://artifacts.apis.io/wondercraft/openapi/wondercraft-audio-generation-api-openapi.yml
 - filename: wondercraft-convo-mode-api-openapi.yml
   format: yaml
   label: Wondercraft Convo Mode API
   slug: wondercraft-convo-mode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-convo-mode-api-openapi.yml
+  url: https://artifacts.apis.io/wondercraft/openapi/wondercraft-convo-mode-api-openapi.yml
 - filename: wondercraft-jobs-api-openapi.yml
   format: yaml
   label: Wondercraft Jobs API
   slug: wondercraft-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/openapi/wondercraft-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/wondercraft/openapi/wondercraft-jobs-api-openapi.yml
 consequence_counts:
   read: 3
   write: 4
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wondercraft-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 4\n    connected: 3\n  by_consequence:\n    write: 4\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /podcast\n  method: post\n  operationId: generate_ai_scripted_episode_podcast_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /podcast/scripted\n  method: post\n  operationId: generate_user_scripted_episode_podcast_scripted_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /podcast/convo-mode/ai-scripted\n  method: post\n  operationId: generate_ai_scripted_convo_mode_episode_podcast_convo_mode_ai_scripted_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /podcast/convo-mode/user-scripted\n  method: post\n  operationId: generate_user_scripted_convo_mode_episode_podcast_convo_mode_user_scripted_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /podcast/{job_id}\n  method: get\n  operationId: get_episode_status_podcast__job_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /podcasts\n  method: get\n  operationId: get_podcasts_for_user_podcasts_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify\n  method: get\n  operationId: verify_key_verify_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wondercraft/refs/heads/main/agentic-access/wondercraft-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wondercraft/agentic-access/wondercraft-agentic-access.yml
 summary_line: 7 operations · 4 acting
 tags:
 - Artificial Intelligence

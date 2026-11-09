@@ -9,49 +9,49 @@ api_specs:
   label: Amberflo Customers API
   slug: amberflo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-customers-api-openapi.yml
 - filename: amberflo-event-ingestion-api-openapi.yml
   format: yaml
   label: Amberflo Event Ingestion API
   slug: amberflo-event-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-event-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-event-ingestion-api-openapi.yml
 - filename: amberflo-filtering-rules-api-openapi.yml
   format: yaml
   label: Amberflo Filtering Rules API
   slug: amberflo-filtering-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-filtering-rules-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-filtering-rules-api-openapi.yml
 - filename: amberflo-invoices-api-openapi.yml
   format: yaml
   label: Amberflo Invoices API
   slug: amberflo-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-invoices-api-openapi.yml
 - filename: amberflo-meter-definitions-api-openapi.yml
   format: yaml
   label: Amberflo Meter Definitions API
   slug: amberflo-meter-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-meter-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-meter-definitions-api-openapi.yml
 - filename: amberflo-prepaid-orders-api-openapi.yml
   format: yaml
   label: Amberflo Prepaid Orders API
   slug: amberflo-prepaid-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-prepaid-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-prepaid-orders-api-openapi.yml
 - filename: amberflo-pricing-plans-api-openapi.yml
   format: yaml
   label: Amberflo Pricing Plans API
   slug: amberflo-pricing-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-pricing-plans-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-pricing-plans-api-openapi.yml
 - filename: amberflo-usage-queries-api-openapi.yml
   format: yaml
   label: Amberflo Usage Queries API
   slug: amberflo-usage-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/openapi/amberflo-usage-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amberflo/openapi/amberflo-usage-queries-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amberf
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meter-definition\n  method: put\n  operationId: updateMeterDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meter-definition/{meterApiName}\n  method: get\n  operationId: getMeterDefinitionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meter-definition/{meterApiName}\n  method: delete\n  operationId: deleteMeterDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments-pricing-amberflo-customer-prepaid\n  method: post\n  operationId: createPrepaidOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments-pricing-amberflo-customer-pricing\n  method: post\n  operationId: assignPricingPlan\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usage\n\
   \  method: post\n  operationId: queryUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amberflo/refs/heads/main/agentic-access/amberflo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amberflo/agentic-access/amberflo-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Usage-Based Billing

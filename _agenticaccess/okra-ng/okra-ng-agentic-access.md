@@ -9,79 +9,79 @@ api_specs:
   label: Okra Accounts API
   slug: okra-ng-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-accounts-api-openapi.yml
 - filename: okra-ng-auth-api-openapi.yml
   format: yaml
   label: Okra Auth API
   slug: okra-ng-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-auth-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-auth-api-openapi.yml
 - filename: okra-ng-balance-api-openapi.yml
   format: yaml
   label: Okra Balance API
   slug: okra-ng-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-balance-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-balance-api-openapi.yml
 - filename: okra-ng-identity-api-openapi.yml
   format: yaml
   label: Okra Identity API
   slug: okra-ng-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-identity-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-identity-api-openapi.yml
 - filename: okra-ng-income-api-openapi.yml
   format: yaml
   label: Okra Income API
   slug: okra-ng-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-income-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-income-api-openapi.yml
 - filename: okra-ng-payments-api-openapi.yml
   format: yaml
   label: Okra Payments API
   slug: okra-ng-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-payments-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-payments-api-openapi.yml
 - filename: okra-ng-transactions-api-openapi.yml
   format: yaml
   label: Okra Transactions API
   slug: okra-ng-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-transactions-api-openapi.yml
 - filename: okra-ng-webhooks-api-openapi.yml
   format: yaml
   label: Okra Webhooks API
   slug: okra-ng-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-webhooks-api-openapi.yml
 - filename: okra-ng-banks-api-openapi.yml
   format: yaml
   label: Okra Banks API
   slug: okra-ng-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-banks-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-banks-api-openapi.yml
 - filename: okra-ng-customers-api-openapi.yml
   format: yaml
   label: Okra Customers API
   slug: okra-ng-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-customers-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-customers-api-openapi.yml
 - filename: okra-ng-reports-api-openapi.yml
   format: yaml
   label: Okra Reports API
   slug: okra-ng-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-reports-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-reports-api-openapi.yml
 - filename: okra-ng-verification-api-openapi.yml
   format: yaml
   label: Okra Verification API
   slug: okra-ng-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-verification-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-verification-api-openapi.yml
 - filename: okra-ng-wallet-api-openapi.yml
   format: yaml
   label: Okra Wallet API
   slug: okra-ng-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/openapi/okra-ng-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/okra-ng/openapi/okra-ng-wallet-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 28
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/okra-n
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/kyc/nuban-verify\n  method: post\n  operationId: verifyNuban\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/kyc/nuban-name-verify\n  method: post\n  operationId: verifyNubanName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/kyc/tin-verify\n  method: post\n  operationId: verifyTin\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/kyc/rc-verify\n  method: post\n  operationId: verifyRc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/balance/check\n  method: post\n  operationId: checkWalletBalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /callback/trigger\n  method: post\n  operationId:\
   \ triggerCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/okra-ng/refs/heads/main/agentic-access/okra-ng-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/okra-ng/agentic-access/okra-ng-agentic-access.yml
 summary_line: 39 operations · 11 acting
 tags:
 - Open Banking

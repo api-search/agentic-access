@@ -9,43 +9,43 @@ api_specs:
   label: Instagram Comments API
   slug: instagram-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-comments-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-comments-api-openapi.yml
 - filename: instagram-hashtags-api-openapi.yml
   format: yaml
   label: Instagram Hashtags API
   slug: instagram-hashtags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-hashtags-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-hashtags-api-openapi.yml
 - filename: instagram-insights-api-openapi.yml
   format: yaml
   label: Instagram Insights API
   slug: instagram-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-insights-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-insights-api-openapi.yml
 - filename: instagram-media-api-openapi.yml
   format: yaml
   label: Instagram Media API
   slug: instagram-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-media-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-media-api-openapi.yml
 - filename: instagram-mentions-api-openapi.yml
   format: yaml
   label: Instagram Mentions API
   slug: instagram-mentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-mentions-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-mentions-api-openapi.yml
 - filename: instagram-publishing-api-openapi.yml
   format: yaml
   label: Instagram Publishing API
   slug: instagram-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-publishing-api-openapi.yml
 - filename: instagram-users-api-openapi.yml
   format: yaml
   label: Instagram Users API
   slug: instagram-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/openapi/instagram-users-api-openapi.yml
+  url: https://artifacts.apis.io/instagram/openapi/instagram-users-api-openapi.yml
 consequence_counts:
   read: 17
   write: 8
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instag
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{comment_id}\n  method: delete\n  operationId: deleteComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{comment_id}/replies\n  method: get\n  operationId: getCommentReplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{comment_id}/replies\n  method: post\n  operationId: createCommentReply\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ig_hashtag_search\n  method: get\n  operationId: searchHashtag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{hashtag_id}/top_media\n  method: get\n  operationId: getHashtagTopMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{hashtag_id}/recent_media\n  method: get\n  operationId: getHashtagRecentMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{container_id}\n  method: get\n  operationId: getContainer\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instagram/refs/heads/main/agentic-access/instagram-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instagram/agentic-access/instagram-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
 - Instagram

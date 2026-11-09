@@ -9,79 +9,79 @@ api_specs:
   label: Lightfield Accounts API
   slug: lightfield-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-accounts-api-openapi.yml
 - filename: lightfield-auth-api-openapi.yml
   format: yaml
   label: Lightfield Auth API
   slug: lightfield-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-auth-api-openapi.yml
 - filename: lightfield-contacts-api-openapi.yml
   format: yaml
   label: Lightfield Contacts API
   slug: lightfield-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-contacts-api-openapi.yml
 - filename: lightfield-emails-api-openapi.yml
   format: yaml
   label: Lightfield Emails API
   slug: lightfield-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-emails-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-emails-api-openapi.yml
 - filename: lightfield-files-api-openapi.yml
   format: yaml
   label: Lightfield Files API
   slug: lightfield-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-files-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-files-api-openapi.yml
 - filename: lightfield-lists-api-openapi.yml
   format: yaml
   label: Lightfield Lists API
   slug: lightfield-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-lists-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-lists-api-openapi.yml
 - filename: lightfield-meetings-api-openapi.yml
   format: yaml
   label: Lightfield Meetings API
   slug: lightfield-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-meetings-api-openapi.yml
 - filename: lightfield-members-api-openapi.yml
   format: yaml
   label: Lightfield Members API
   slug: lightfield-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-members-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-members-api-openapi.yml
 - filename: lightfield-notes-api-openapi.yml
   format: yaml
   label: Lightfield Notes API
   slug: lightfield-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-notes-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-notes-api-openapi.yml
 - filename: lightfield-objects-api-openapi.yml
   format: yaml
   label: Lightfield Objects API
   slug: lightfield-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-objects-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-objects-api-openapi.yml
 - filename: lightfield-opportunities-api-openapi.yml
   format: yaml
   label: Lightfield Opportunities API
   slug: lightfield-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-opportunities-api-openapi.yml
 - filename: lightfield-tasks-api-openapi.yml
   format: yaml
   label: Lightfield Tasks API
   slug: lightfield-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-tasks-api-openapi.yml
 - filename: lightfield-workflow-run-api-openapi.yml
   format: yaml
   label: Lightfield Workflow Run API
   slug: lightfield-workflow-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/openapi/lightfield-workflow-run-api-openapi.yml
+  url: https://artifacts.apis.io/lightfield/openapi/lightfield-workflow-run-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 34
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lightf
   \  method: get\n  operationId: object.retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/objects/{entitySlug}/values/{id}\n  method: post\n  operationId: object.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/objects/{entitySlug}\n  method: get\n  operationId: object.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/objects/{entitySlug}/definitions\n  method: get\n  operationId: object.definitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/objects\n  method: get\n  operationId: object.listDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/emails/{id}\n  method: get\n  operationId: email.retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/emails\n  method: get\n  operationId: email.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/emails/send\n  method: post\n  operationId: email.send\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/emails/draft\n  method: post\n  operationId: email.draft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightfield/refs/heads/main/agentic-access/lightfield-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightfield/agentic-access/lightfield-agentic-access.yml
 summary_line: 55 operations · 21 acting
 tags:
 - Company

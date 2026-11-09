@@ -9,31 +9,31 @@ api_specs:
   label: Pixieset Clients API
   slug: pixieset-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-clients-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-clients-api-openapi.yml
 - filename: pixieset-collections-api-openapi.yml
   format: yaml
   label: Pixieset Collections API
   slug: pixieset-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-collections-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-collections-api-openapi.yml
 - filename: pixieset-contracts-api-openapi.yml
   format: yaml
   label: Pixieset Contracts API
   slug: pixieset-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-contracts-api-openapi.yml
 - filename: pixieset-invoices-api-openapi.yml
   format: yaml
   label: Pixieset Invoices API
   slug: pixieset-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-invoices-api-openapi.yml
 - filename: pixieset-sessions-api-openapi.yml
   format: yaml
   label: Pixieset Sessions API
   slug: pixieset-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/openapi/pixieset-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/pixieset/openapi/pixieset-sessions-api-openapi.yml
 consequence_counts:
   read: 19
   write: 3
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pixies
   - path: /invoices/invoice_summary\n  method: get\n  operationId: getInvoiceSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/payments/list/\n  method: get\n  operationId: listInvoicePayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/\n  method: get\n  operationId: listContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{contract_id}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/contracts\n  method: get\n  operationId: listContractTemplates\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/contracts/{template_id}\n  method: get\n  operationId: getContractTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/contracts/{template_id}\n  method: put\n  operationId: updateContractTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collections/{collection_id}\n  method: get\n  operationId: getCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/galleries\n\
   \  method: get\n  operationId: listCollectionGalleries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/clients\n  method: get\n  operationId: listCollectionClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/downloads/\n  method: get\n  operationId: listCollectionDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/{collection_id}/favorites\n  method: get\n  operationId: listCollectionFavorites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixieset/refs/heads/main/agentic-access/pixieset-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pixieset/agentic-access/pixieset-agentic-access.yml
 summary_line: 22 operations · 3 acting
 tags:
 - Photography

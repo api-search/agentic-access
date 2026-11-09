@@ -9,151 +9,151 @@ api_specs:
   label: Recorded Future Intelligence Cloud API
   slug: recorded-future-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-connect-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-connect-api-openapi.yml
 - filename: recorded-future-alert-api-openapi.yml
   format: yaml
   label: Recorded Future Alert API
   slug: alert
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-alert-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-alert-api-openapi.yml
 - filename: recorded-future-analyst-note-api-openapi.yml
   format: yaml
   label: Recorded Future Analyst Note API
   slug: analyst-note
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-analyst-note-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-analyst-note-api-openapi.yml
 - filename: recorded-future-asi-project-api-openapi.yml
   format: yaml
   label: Recorded Future ASI Project API
   slug: asi-project
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-asi-project-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-asi-project-api-openapi.yml
 - filename: recorded-future-autonomous-threat-operations-api-openapi.yml
   format: yaml
   label: Recorded Future Autonomous Threat Operations API
   slug: autonomous-threat-operations
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-autonomous-threat-operations-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-autonomous-threat-operations-api-openapi.yml
 - filename: recorded-future-case-api-openapi.yml
   format: yaml
   label: Recorded Future Case
   slug: case
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-case-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-case-api-openapi.yml
 - filename: recorded-future-collective-insights-api-openapi.yml
   format: yaml
   label: Recorded Future Collective Insights API
   slug: collective-insights
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-collective-insights-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-collective-insights-api-openapi.yml
 - filename: recorded-future-common-platform-enumeration-apis-v0-api-openapi.yml
   format: yaml
   label: Recorded Future Common Platform Enumeration APIs V0
   slug: common-platform-enumeration-apis-v0
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-common-platform-enumeration-apis-v0-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-common-platform-enumeration-apis-v0-api-openapi.yml
 - filename: recorded-future-customer-apis-v0-api-openapi.yml
   format: yaml
   label: Recorded Future Customer APIs V0
   slug: customer-apis-v0
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-customer-apis-v0-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-customer-apis-v0-api-openapi.yml
 - filename: recorded-future-customer-apis-v2-api-openapi.yml
   format: yaml
   label: Recorded Future Customer APIs V2
   slug: customer-apis-v2
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-customer-apis-v2-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-customer-apis-v2-api-openapi.yml
 - filename: recorded-future-detection-rule-api-openapi.yml
   format: yaml
   label: Recorded Future Detection Rule API
   slug: detection-rule
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-detection-rule-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-detection-rule-api-openapi.yml
 - filename: recorded-future-detection-rule-relation-api-openapi.yml
   format: yaml
   label: Recorded Future Detection Rule Relation API
   slug: detection-rule-relation
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-detection-rule-relation-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-detection-rule-relation-api-openapi.yml
 - filename: recorded-future-entity-match-api-openapi.yml
   format: yaml
   label: Recorded Future Entity Match API
   slug: entity-match
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-entity-match-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-entity-match-api-openapi.yml
 - filename: recorded-future-fusion-api-openapi.yml
   format: yaml
   label: Recorded Future Fusion API
   slug: fusion
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-fusion-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-fusion-api-openapi.yml
 - filename: recorded-future-identity-api-openapi.yml
   format: yaml
   label: Recorded Future Identity API
   slug: identity
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-identity-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-identity-api-openapi.yml
 - filename: recorded-future-links-api-openapi.yml
   format: yaml
   label: Recorded Future Links API
   slug: links
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-links-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-links-api-openapi.yml
 - filename: recorded-future-list-api-openapi.yml
   format: yaml
   label: Recorded Future List API
   slug: list
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-list-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-list-api-openapi.yml
 - filename: recorded-future-malware-intelligence-api-openapi.yml
   format: yaml
   label: Recorded Future Malware Intelligence
   slug: malware-intelligence
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-malware-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-malware-intelligence-api-openapi.yml
 - filename: recorded-future-mastercard-riskrecon-api-openapi.yml
   format: yaml
   label: Recorded Future Mastercard Riskrecon API
   slug: mastercard-riskrecon
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-mastercard-riskrecon-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-mastercard-riskrecon-api-openapi.yml
 - filename: recorded-future-payment-fraud-intelligence-api-openapi.yml
   format: yaml
   label: Recorded Future Payment Fraud Intelligence API
   slug: payment-fraud-intelligence
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-payment-fraud-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-payment-fraud-intelligence-api-openapi.yml
 - filename: recorded-future-playbook-alerts-api-openapi.yml
   format: yaml
   label: Recorded Future Playbook Alerts
   slug: playbook-alerts
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-playbook-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-playbook-alerts-api-openapi.yml
 - filename: recorded-future-risk-api-openapi.yml
   format: yaml
   label: Recorded Future Risk API
   slug: risk
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-risk-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-risk-api-openapi.yml
 - filename: recorded-future-sandbox-api-secopsti-api-openapi.yml
   format: yaml
   label: Recorded Future recorded-future-sandbox-api-secopsti
   slug: sandbox-api-secopsti
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-sandbox-api-secopsti-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-sandbox-api-secopsti-api-openapi.yml
 - filename: recorded-future-soar-api-openapi.yml
   format: yaml
   label: Recorded Future Soar API
   slug: soar
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-soar-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-soar-api-openapi.yml
 - filename: recorded-future-threat-api-openapi.yml
   format: yaml
   label: Recorded Future Threat API
   slug: threat
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/openapi/recorded-future-threat-api-openapi.yml
+  url: https://artifacts.apis.io/recorded-future/openapi/recorded-future-threat-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 200
@@ -268,8 +268,8 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/record
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity-match/entity/{id}\n  method: get\n  operationId: entity-lookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity-match/match\n  method: post\n  operationId: entity-match\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/directory/{path}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{path}\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{path}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{path}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files/{path}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/credentials/lookup\n  method: post\n  operationId: lookupCredentials\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/credentials/search\n  method: post\n  operationId: searchCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/detections\n  method: post\n  operationId: getDetections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/hostname/lookup\n  method: post\n  operationId: lookupHostname\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
-  \ token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (77 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/agentic-access/recorded-future-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recorded-future/refs/heads/main/agentic-access/recorded-future-agentic-access.yml
+  \ token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (77 KB total) ---\n# Full source: https://artifacts.apis.io/recorded-future/agentic-access/recorded-future-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/recorded-future/agentic-access/recorded-future-agentic-access.yml
 summary_line: 307 operations · 107 acting · 5 human-in-the-loop
 tags:
 - Cybersecurity

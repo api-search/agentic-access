@@ -9,37 +9,37 @@ api_specs:
   label: Amazon B2B Data Interchange Capabilities API
   slug: amazon-b2b-data-interchange-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-b2b-data-interchange/openapi/amazon-b2b-data-interchange-capabilities-api-openapi.yml
 - filename: amazon-b2b-data-interchange-partnerships-api-openapi.yml
   format: yaml
   label: Amazon B2B Data Interchange Partnerships API
   slug: amazon-b2b-data-interchange-partnerships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-partnerships-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-b2b-data-interchange/openapi/amazon-b2b-data-interchange-partnerships-api-openapi.yml
 - filename: amazon-b2b-data-interchange-profiles-api-openapi.yml
   format: yaml
   label: Amazon B2B Data Interchange Profiles API
   slug: amazon-b2b-data-interchange-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-b2b-data-interchange/openapi/amazon-b2b-data-interchange-profiles-api-openapi.yml
 - filename: amazon-b2b-data-interchange-tags-api-openapi.yml
   format: yaml
   label: Amazon B2B Data Interchange Tags API
   slug: amazon-b2b-data-interchange-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-b2b-data-interchange/openapi/amazon-b2b-data-interchange-tags-api-openapi.yml
 - filename: amazon-b2b-data-interchange-testing-api-openapi.yml
   format: yaml
   label: Amazon B2B Data Interchange Testing API
   slug: amazon-b2b-data-interchange-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-testing-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-b2b-data-interchange/openapi/amazon-b2b-data-interchange-testing-api-openapi.yml
 - filename: amazon-b2b-data-interchange-transformers-api-openapi.yml
   format: yaml
   label: Amazon B2B Data Interchange Transformers API
   slug: amazon-b2b-data-interchange-transformers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/openapi/amazon-b2b-data-interchange-transformers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-b2b-data-interchange/openapi/amazon-b2b-data-interchange-transformers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 10
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aws-b2
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mappings/test\n  method: post\n  operationId: TestMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parsings/test\n  method: post\n  operationId: TestParsing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversions/test\n  method: post\n  operationId: TestConversion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceARN}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceARN}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceARN}\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-b2b-data-interchange/refs/heads/main/agentic-access/amazon-b2b-data-interchange-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-b2b-data-interchange/agentic-access/amazon-b2b-data-interchange-agentic-access.yml
 summary_line: 30 operations · 20 acting
 tags:
 - EDI

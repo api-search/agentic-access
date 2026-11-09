@@ -9,61 +9,61 @@ api_specs:
   label: Blackbird App API
   slug: blackbird-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-app-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-app-api-openapi.yml
 - filename: blackbird-challenges-api-openapi.yml
   format: yaml
   label: Blackbird Challenges API
   slug: blackbird-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-challenges-api-openapi.yml
 - filename: blackbird-check-ins-api-openapi.yml
   format: yaml
   label: Blackbird Check-ins API
   slug: blackbird-check-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-check-ins-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-check-ins-api-openapi.yml
 - filename: blackbird-locations-api-openapi.yml
   format: yaml
   label: Blackbird Locations API
   slug: blackbird-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-locations-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-locations-api-openapi.yml
 - filename: blackbird-memberships-api-openapi.yml
   format: yaml
   label: Blackbird Memberships API
   slug: blackbird-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-memberships-api-openapi.yml
 - filename: blackbird-payments-api-openapi.yml
   format: yaml
   label: Blackbird Payments API
   slug: blackbird-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-payments-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-payments-api-openapi.yml
 - filename: blackbird-restaurants-api-openapi.yml
   format: yaml
   label: Blackbird Restaurants API
   slug: blackbird-restaurants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-restaurants-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-restaurants-api-openapi.yml
 - filename: blackbird-rewards-api-openapi.yml
   format: yaml
   label: Blackbird Rewards API
   slug: blackbird-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-rewards-api-openapi.yml
 - filename: blackbird-specials-api-openapi.yml
   format: yaml
   label: Blackbird Specials API
   slug: blackbird-specials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-specials-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-specials-api-openapi.yml
 - filename: blackbird-users-api-openapi.yml
   format: yaml
   label: Blackbird Users API
   slug: blackbird-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/openapi/blackbird-users-api-openapi.yml
+  url: https://artifacts.apis.io/blackbird/openapi/blackbird-users-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 20
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/blackb
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check_ins\n  method: get\n  operationId: listCheckIns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /check_ins/{id}\n  method: get\n  operationId: getCheckIn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/memberships\n  method: get\n  operationId: listMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_intents\n  method: post\n  operationId: createPaymentIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n\
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_intents\n  method: get\n  operationId: listPaymentIntents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_intents/{id}\n  method: get\n  operationId: getPaymentIntent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_intents/{id}/cancel\n  method: post\n  operationId: cancelPaymentIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /payment_intents/{id}/confirm\n  method: post\n  operationId: confirmPaymentIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_intents/{id}/refund\n  method: post\n  operationId: refundPaymentIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blackbird/refs/heads/main/agentic-access/blackbird-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blackbird/agentic-access/blackbird-agentic-access.yml
 summary_line: 25 operations · 5 acting
 tags:
 - Company

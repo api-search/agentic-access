@@ -8,43 +8,43 @@ api_specs:
   label: Highlightly Catalog API
   slug: highlightly-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-catalog-api-openapi.yml
 - filename: highlightly-highlights-api-openapi.yml
   format: yaml
   label: Highlightly Highlights API
   slug: highlightly-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-highlights-api-openapi.yml
 - filename: highlightly-matches-api-openapi.yml
   format: yaml
   label: Highlightly Matches API
   slug: highlightly-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-matches-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-matches-api-openapi.yml
 - filename: highlightly-odds-api-openapi.yml
   format: yaml
   label: Highlightly Odds API
   slug: highlightly-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-odds-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-odds-api-openapi.yml
 - filename: highlightly-standings-api-openapi.yml
   format: yaml
   label: Highlightly Standings API
   slug: highlightly-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-standings-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-standings-api-openapi.yml
 - filename: highlightly-statistics-api-openapi.yml
   format: yaml
   label: Highlightly Statistics API
   slug: highlightly-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-statistics-api-openapi.yml
 - filename: highlightly-teams-api-openapi.yml
   format: yaml
   label: Highlightly Teams API
   slug: highlightly-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/openapi/highlightly-teams-api-openapi.yml
+  url: https://artifacts.apis.io/highlightly/openapi/highlightly-teams-api-openapi.yml
 consequence_counts:
   read: 24
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/highli
   \ operationId: getFootballStandings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/last-five-games\n  method: get\n  operationId: getFootballLastFiveGames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/head-2-head\n  method: get\n  operationId: getFootballHeadToHead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/lineups/{matchId}\n  method: get\n  operationId: getFootballLineups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/statistics/{matchId}\n  method: get\n  operationId: getFootballMatchStatistics\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/events/{id}\n  method: get\n  operationId: getFootballEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/players\n  method: get\n  operationId: listFootballPlayers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/players/{id}\n  method: get\n  operationId: getFootballPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /football/players/{id}/statistics\n  method: get\n  operationId: getFootballPlayerStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highlightly/refs/heads/main/agentic-access/highlightly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/highlightly/agentic-access/highlightly-agentic-access.yml
 summary_line: 24 operations
 tags:
 - Sports

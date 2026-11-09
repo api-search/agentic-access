@@ -9,37 +9,37 @@ api_specs:
   label: Tamara Captures API
   slug: tamara-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-captures-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-captures-api-openapi.yml
 - filename: tamara-channel-partner-webhooks-api-openapi.yml
   format: yaml
   label: Tamara Channel Partner Webhooks API
   slug: tamara-channel-partner-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-channel-partner-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-channel-partner-webhooks-api-openapi.yml
 - filename: tamara-checkout-sessions-api-openapi.yml
   format: yaml
   label: Tamara Checkout Sessions API
   slug: tamara-checkout-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-checkout-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-checkout-sessions-api-openapi.yml
 - filename: tamara-merchant-api-keys-api-openapi.yml
   format: yaml
   label: Tamara Merchant API Keys API
   slug: tamara-merchant-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-merchant-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-merchant-api-keys-api-openapi.yml
 - filename: tamara-merchant-onboarding-api-openapi.yml
   format: yaml
   label: Tamara Merchant Onboarding API
   slug: tamara-merchant-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-merchant-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-merchant-onboarding-api-openapi.yml
 - filename: tamara-refunds-api-openapi.yml
   format: yaml
   label: Tamara Refunds API
   slug: tamara-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/openapi/tamara-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/tamara/openapi/tamara-refunds-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 3
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/tamara
   \   token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-partners/webhooks/register\n  method: post\n  operationId: registerChannelPartnerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-partners/webhooks\n  method: get\n  operationId: listChannelPartnerWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkout\n  method: post\n  operationId: createCheckoutSession\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-partners/merchant/{merchantId}/api-key\n  method: get\n  operationId: retrieveMerchantApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /channel-partners/merchant-onboarding/create\n  method: post\n  operationId: createMerchantOnboarding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /channel-partners/merchant-onboarding/{onboardingCode}\n  method: get\n  operationId: retrieveMerchantOnboarding\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/simplified-refund/{order_id}\n  method: post\n  operationId: simplifiedRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/refund\n  method: post\n  operationId: refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tamara/refs/heads/main/agentic-access/tamara-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tamara/agentic-access/tamara-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - Buy Now Pay Later

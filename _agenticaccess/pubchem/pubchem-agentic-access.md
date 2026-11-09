@@ -8,19 +8,19 @@ api_specs:
   label: PubChem Compounds API
   slug: pubchem-compounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-compounds-api-openapi.yml
+  url: https://artifacts.apis.io/pubchem/openapi/pubchem-compounds-api-openapi.yml
 - filename: pubchem-structure-search-api-openapi.yml
   format: yaml
   label: PubChem Structure Search API
   slug: pubchem-structure-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-structure-search-api-openapi.yml
+  url: https://artifacts.apis.io/pubchem/openapi/pubchem-structure-search-api-openapi.yml
 - filename: pubchem-utilities-api-openapi.yml
   format: yaml
   label: PubChem Utilities API
   slug: pubchem-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/openapi/pubchem-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/pubchem/openapi/pubchem-utilities-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pug-re
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/inchikey/{inchikey}/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/cid/{cids}/property/{properties}/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/cid/{cids}/synonyms/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/fastsubstructure/smiles/{smiles}/cids/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/fastsuperstructure/cid/{cid}/cids/{format}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/fastsimilarity_2d/cid/{cid}/cids/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/fastidentity/smiles/{smiles}/cids/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compound/fastformula/{formula}/cids/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /standardize/smiles/{smiles}/{format}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pubchem/refs/heads/main/agentic-access/pubchem-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pubchem/agentic-access/pubchem-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Chemistry

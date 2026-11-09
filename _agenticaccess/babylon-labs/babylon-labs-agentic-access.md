@@ -9,67 +9,67 @@ api_specs:
   label: Babylon Labs Shared API
   slug: babylon-labs-shared-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-shared-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-shared-api-openapi.yml
 - filename: babylon-labs-apr-api-openapi.yml
   format: yaml
   label: Babylon Labs Apr API
   slug: babylon-labs-apr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-apr-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-apr-api-openapi.yml
 - filename: babylon-labs-delegation-api-openapi.yml
   format: yaml
   label: Babylon Labs Delegation API
   slug: babylon-labs-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-delegation-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-delegation-api-openapi.yml
 - filename: babylon-labs-delegations-api-openapi.yml
   format: yaml
   label: Babylon Labs Delegations API
   slug: babylon-labs-delegations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-delegations-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-delegations-api-openapi.yml
 - filename: babylon-labs-finality-providers-api-openapi.yml
   format: yaml
   label: Babylon Labs Finality Providers API
   slug: babylon-labs-finality-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-finality-providers-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-finality-providers-api-openapi.yml
 - filename: babylon-labs-global-params-api-openapi.yml
   format: yaml
   label: Babylon Labs Global Params API
   slug: babylon-labs-global-params-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-global-params-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-global-params-api-openapi.yml
 - filename: babylon-labs-network-info-api-openapi.yml
   format: yaml
   label: Babylon Labs Network Info API
   slug: babylon-labs-network-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-network-info-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-network-info-api-openapi.yml
 - filename: babylon-labs-prices-api-openapi.yml
   format: yaml
   label: Babylon Labs Prices API
   slug: babylon-labs-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-prices-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-prices-api-openapi.yml
 - filename: babylon-labs-staker-api-openapi.yml
   format: yaml
   label: Babylon Labs Staker API
   slug: babylon-labs-staker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-staker-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-staker-api-openapi.yml
 - filename: babylon-labs-stats-api-openapi.yml
   format: yaml
   label: Babylon Labs Stats API
   slug: babylon-labs-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-stats-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-stats-api-openapi.yml
 - filename: babylon-labs-unbonding-api-openapi.yml
   format: yaml
   label: Babylon Labs Unbonding API
   slug: babylon-labs-unbonding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/openapi/babylon-labs-unbonding-api-openapi.yml
+  url: https://artifacts.apis.io/babylon-labs/openapi/babylon-labs-unbonding-api-openapi.yml
 consequence_counts:
   read: 18
   write: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/babylo
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stats/staker\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/unbonding\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/unbonding/eligibility\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/apr\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/delegation\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/delegations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/finality-providers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/network-info\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/prices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/staker/stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/stats\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/babylon-labs/refs/heads/main/agentic-access/babylon-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/babylon-labs/agentic-access/babylon-labs-agentic-access.yml
 summary_line: 19 operations · 1 acting
 tags:
 - Company

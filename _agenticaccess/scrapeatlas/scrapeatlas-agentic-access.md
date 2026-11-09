@@ -9,301 +9,301 @@ api_specs:
   label: OD. Media & Technology Account usage API
   slug: scrapeatlas-account-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-account-usage-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-account-usage-api-openapi.yml
 - filename: scrapeatlas-amazon-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Amazon API
   slug: scrapeatlas-amazon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-amazon-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-amazon-api-openapi.yml
 - filename: scrapeatlas-bluesky-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Bluesky API
   slug: scrapeatlas-bluesky-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-bluesky-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-bluesky-api-openapi.yml
 - filename: scrapeatlas-cosmos-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Cosmos API
   slug: scrapeatlas-cosmos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-cosmos-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-cosmos-api-openapi.yml
 - filename: scrapeatlas-couchsurfing-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Couchsurfing API
   slug: scrapeatlas-couchsurfing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-couchsurfing-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-couchsurfing-api-openapi.yml
 - filename: scrapeatlas-dashboard-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Dashboard API
   slug: scrapeatlas-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-dashboard-api-openapi.yml
 - filename: scrapeatlas-depop-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Depop API
   slug: scrapeatlas-depop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-depop-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-depop-api-openapi.yml
 - filename: scrapeatlas-dribbble-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Dribbble API
   slug: scrapeatlas-dribbble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-dribbble-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-dribbble-api-openapi.yml
 - filename: scrapeatlas-etsy-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Etsy API
   slug: scrapeatlas-etsy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-etsy-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-etsy-api-openapi.yml
 - filename: scrapeatlas-facebook-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Facebook API
   slug: scrapeatlas-facebook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-facebook-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-facebook-api-openapi.yml
 - filename: scrapeatlas-facebook-events-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Facebook Events API
   slug: scrapeatlas-facebook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-facebook-events-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-facebook-events-api-openapi.yml
 - filename: scrapeatlas-facebook-marketplace-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Facebook Marketplace API
   slug: scrapeatlas-facebook-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-facebook-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-facebook-marketplace-api-openapi.yml
 - filename: scrapeatlas-github-api-openapi.yml
   format: yaml
   label: OD. Media & Technology GitHub API
   slug: scrapeatlas-github-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-github-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-github-api-openapi.yml
 - filename: scrapeatlas-hacker-news-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Hacker News API
   slug: scrapeatlas-hacker-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-hacker-news-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-hacker-news-api-openapi.yml
 - filename: scrapeatlas-instagram-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Instagram API
   slug: scrapeatlas-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-instagram-api-openapi.yml
 - filename: scrapeatlas-kalshi-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Kalshi API
   slug: scrapeatlas-kalshi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-kalshi-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-kalshi-api-openapi.yml
 - filename: scrapeatlas-kick-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Kick API
   slug: scrapeatlas-kick-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-kick-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-kick-api-openapi.yml
 - filename: scrapeatlas-komi-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Komi API
   slug: scrapeatlas-komi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-komi-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-komi-api-openapi.yml
 - filename: scrapeatlas-kwai-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Kwai API
   slug: scrapeatlas-kwai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-kwai-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-kwai-api-openapi.yml
 - filename: scrapeatlas-linkedin-ads-library-api-openapi.yml
   format: yaml
   label: OD. Media & Technology LinkedIn Ads Library API
   slug: scrapeatlas-linkedin-ads-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-linkedin-ads-library-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-linkedin-ads-library-api-openapi.yml
 - filename: scrapeatlas-linkme-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Linkme API
   slug: scrapeatlas-linkme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-linkme-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-linkme-api-openapi.yml
 - filename: scrapeatlas-linktree-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Linktree API
   slug: scrapeatlas-linktree-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-linktree-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-linktree-api-openapi.yml
 - filename: scrapeatlas-lnk-bio-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Lnk.Bio API
   slug: scrapeatlas-lnk-bio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-lnk-bio-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-lnk-bio-api-openapi.yml
 - filename: scrapeatlas-mastodon-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Mastodon API
   slug: scrapeatlas-mastodon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-mastodon-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-mastodon-api-openapi.yml
 - filename: scrapeatlas-mcp-oauth-api-openapi.yml
   format: yaml
   label: OD. Media & Technology MCP OAuth API
   slug: scrapeatlas-mcp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-mcp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-mcp-oauth-api-openapi.yml
 - filename: scrapeatlas-medium-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Medium API
   slug: scrapeatlas-medium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-medium-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-medium-api-openapi.yml
 - filename: scrapeatlas-meetup-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Meetup API
   slug: scrapeatlas-meetup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-meetup-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-meetup-api-openapi.yml
 - filename: scrapeatlas-meta-ads-library-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Meta Ads Library API
   slug: scrapeatlas-meta-ads-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-meta-ads-library-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-meta-ads-library-api-openapi.yml
 - filename: scrapeatlas-pillar-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Pillar API
   slug: scrapeatlas-pillar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-pillar-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-pillar-api-openapi.yml
 - filename: scrapeatlas-pinterest-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Pinterest API
   slug: scrapeatlas-pinterest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-pinterest-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-pinterest-api-openapi.yml
 - filename: scrapeatlas-polymarket-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Polymarket API
   slug: scrapeatlas-polymarket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-polymarket-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-polymarket-api-openapi.yml
 - filename: scrapeatlas-product-hunt-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Product Hunt API
   slug: scrapeatlas-product-hunt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-product-hunt-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-product-hunt-api-openapi.yml
 - filename: scrapeatlas-quora-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Quora API
   slug: scrapeatlas-quora-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-quora-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-quora-api-openapi.yml
 - filename: scrapeatlas-reddit-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Reddit API
   slug: scrapeatlas-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-reddit-api-openapi.yml
 - filename: scrapeatlas-rumble-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Rumble API
   slug: scrapeatlas-rumble-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-rumble-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-rumble-api-openapi.yml
 - filename: scrapeatlas-skool-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Skool API
   slug: scrapeatlas-skool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-skool-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-skool-api-openapi.yml
 - filename: scrapeatlas-snapchat-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Snapchat API
   slug: scrapeatlas-snapchat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-snapchat-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-snapchat-api-openapi.yml
 - filename: scrapeatlas-substack-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Substack API
   slug: scrapeatlas-substack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-substack-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-substack-api-openapi.yml
 - filename: scrapeatlas-telegram-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Telegram API
   slug: scrapeatlas-telegram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-telegram-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-telegram-api-openapi.yml
 - filename: scrapeatlas-threads-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Threads API
   slug: scrapeatlas-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-threads-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-threads-api-openapi.yml
 - filename: scrapeatlas-tiktok-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Tik Tok API
   slug: scrapeatlas-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-tiktok-api-openapi.yml
 - filename: scrapeatlas-tiktok-shop-api-openapi.yml
   format: yaml
   label: OD. Media & Technology TikTok Shop API
   slug: scrapeatlas-tiktok-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-tiktok-shop-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-tiktok-shop-api-openapi.yml
 - filename: scrapeatlas-tumblr-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Tumblr API
   slug: scrapeatlas-tumblr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-tumblr-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-tumblr-api-openapi.yml
 - filename: scrapeatlas-twitch-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Twitch API
   slug: scrapeatlas-twitch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-twitch-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-twitch-api-openapi.yml
 - filename: scrapeatlas-vinted-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Vinted API
   slug: scrapeatlas-vinted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-vinted-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-vinted-api-openapi.yml
 - filename: scrapeatlas-whatnot-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Whatnot API
   slug: scrapeatlas-whatnot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-whatnot-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-whatnot-api-openapi.yml
 - filename: scrapeatlas-x-twitter-api-openapi.yml
   format: yaml
   label: OD. Media & Technology X (Twitter) API
   slug: scrapeatlas-x-twitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-x-twitter-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-x-twitter-api-openapi.yml
 - filename: scrapeatlas-youtube-api-openapi.yml
   format: yaml
   label: OD. Media & Technology YouTube API
   slug: scrapeatlas-youtube-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-youtube-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-youtube-api-openapi.yml
 - filename: scrapeatlas-linked-in-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Linked In API
   slug: scrapeatlas-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-linked-in-api-openapi.yml
 - filename: scrapeatlas-truthsocial-api-openapi.yml
   format: yaml
   label: OD. Media & Technology Truthsocial API
   slug: scrapeatlas-truthsocial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/openapi/scrapeatlas-truthsocial-api-openapi.yml
+  url: https://artifacts.apis.io/scrapeatlas/openapi/scrapeatlas-truthsocial-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 363
@@ -378,8 +378,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/scrape
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mastodon/hashtag\n  method: get\n  operationId: mastodonHashtag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mastodon/search\n  method: get\n  operationId: mastodonSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mastodon/trends\n  method: get\n  operationId: mastodonTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/mastodon/server\n  method: get\n  operationId: mastodonServer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /v1/medium/profile\n  method: get\n  operationId: mediumProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/profile/posts\n  method: get\n  operationId: mediumProfilePosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/publication\n  method: get\n  operationId: mediumPublication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/publication/posts\n  method: get\n  operationId: mediumPublicationPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/post\n  method: get\n  operationId:\
   \ mediumPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/post/responses\n  method: get\n  operationId: mediumPostResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/tag/posts\n  method: get\n  operationId: mediumTagPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/search\n  method: get\n  operationId: mediumSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/medium/profile/followers\n  method: get\n  operationId: mediumFollowers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (79 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/agentic-access/scrapeatlas-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapeatlas/refs/heads/main/agentic-access/scrapeatlas-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (79 KB total) ---\n# Full source: https://artifacts.apis.io/scrapeatlas/agentic-access/scrapeatlas-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/scrapeatlas/agentic-access/scrapeatlas-agentic-access.yml
 summary_line: 371 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Social Media

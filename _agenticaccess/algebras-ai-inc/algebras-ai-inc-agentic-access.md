@@ -9,55 +9,55 @@ api_specs:
   label: Algebras AI Inc. Authentication API
   slug: algebras-ai-inc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-authentication-api-openapi.yml
 - filename: algebras-ai-inc-common-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Common API
   slug: algebras-ai-inc-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-common-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-common-api-openapi.yml
 - filename: algebras-ai-inc-glossaries-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Glossaries API
   slug: algebras-ai-inc-glossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-glossaries-api-openapi.yml
 - filename: algebras-ai-inc-languages-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Languages API
   slug: algebras-ai-inc-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-languages-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-languages-api-openapi.yml
 - filename: algebras-ai-inc-localization-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Localization API
   slug: algebras-ai-inc-localization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-localization-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-localization-api-openapi.yml
 - filename: algebras-ai-inc-realtime-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Realtime API
   slug: algebras-ai-inc-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-realtime-api-openapi.yml
 - filename: algebras-ai-inc-storage-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Storage API
   slug: algebras-ai-inc-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-storage-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-storage-api-openapi.yml
 - filename: algebras-ai-inc-translation-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Translation API
   slug: algebras-ai-inc-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-translation-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-translation-api-openapi.yml
 - filename: algebras-ai-inc-video-api-openapi.yml
   format: yaml
   label: Algebras AI Inc. Video API
   slug: algebras-ai-inc-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/openapi/algebras-ai-inc-video-api-openapi.yml
+  url: https://artifacts.apis.io/algebras-ai-inc/openapi/algebras-ai-inc-video-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 2
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/algebr
   \ required\n- path: /translation/fluency-batch\n  method: post\n  operationId: postTranslationFluencyBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translation/fluency\n  method: post\n  operationId: postTranslationFluency\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translation/agentic-translate\n  method: post\n  operationId: postTranslationAgenticTranslate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /translation/agentic-translate/{id}\n  method: get\n  operationId: getTranslationAgenticTranslateById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video/translate\n  method: post\n  operationId: postVideoTranslate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video/status/update\n  method: post\n  operationId: postVideoStatusUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/algebras-ai-inc/refs/heads/main/agentic-access/algebras-ai-inc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/algebras-ai-inc/agentic-access/algebras-ai-inc-agentic-access.yml
 summary_line: 44 operations · 24 acting · 2 human-in-the-loop
 tags:
 - Company

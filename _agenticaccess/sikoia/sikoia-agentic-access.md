@@ -9,115 +9,115 @@ api_specs:
   label: Sikoia Adverse Media API
   slug: sikoia-adverse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-adverse-media-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-adverse-media-api-openapi.yml
 - filename: sikoia-affordability-insights-api-openapi.yml
   format: yaml
   label: Sikoia Affordability Insights API
   slug: sikoia-affordability-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-affordability-insights-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-affordability-insights-api-openapi.yml
 - filename: sikoia-authentication-api-openapi.yml
   format: yaml
   label: Sikoia Authentication API
   slug: sikoia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-authentication-api-openapi.yml
 - filename: sikoia-banking-api-openapi.yml
   format: yaml
   label: Sikoia Banking API
   slug: sikoia-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-banking-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-banking-api-openapi.yml
 - filename: sikoia-cases-api-openapi.yml
   format: yaml
   label: Sikoia Cases API
   slug: sikoia-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-cases-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-cases-api-openapi.yml
 - filename: sikoia-checklist-api-openapi.yml
   format: yaml
   label: Sikoia Checklist API
   slug: sikoia-checklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-checklist-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-checklist-api-openapi.yml
 - filename: sikoia-companies-people-api-openapi.yml
   format: yaml
   label: Sikoia Companies & People API
   slug: sikoia-companies-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-companies-people-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-companies-people-api-openapi.yml
 - filename: sikoia-company-credit-report-api-openapi.yml
   format: yaml
   label: Sikoia Company Credit Report API
   slug: sikoia-company-credit-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-company-credit-report-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-company-credit-report-api-openapi.yml
 - filename: sikoia-company-registry-api-openapi.yml
   format: yaml
   label: Sikoia Company Registry API
   slug: sikoia-company-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-company-registry-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-company-registry-api-openapi.yml
 - filename: sikoia-data-sources-api-openapi.yml
   format: yaml
   label: Sikoia Data Sources API
   slug: sikoia-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-data-sources-api-openapi.yml
 - filename: sikoia-documents-api-openapi.yml
   format: yaml
   label: Sikoia Documents API
   slug: sikoia-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-documents-api-openapi.yml
 - filename: sikoia-excel-report-api-openapi.yml
   format: yaml
   label: Sikoia Excel Report API
   slug: sikoia-excel-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-excel-report-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-excel-report-api-openapi.yml
 - filename: sikoia-identity-verification-api-openapi.yml
   format: yaml
   label: Sikoia Identity Verification API
   slug: sikoia-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-identity-verification-api-openapi.yml
 - filename: sikoia-income-employer-verification-api-openapi.yml
   format: yaml
   label: Sikoia Income & Employer Verification API
   slug: sikoia-income-employer-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-income-employer-verification-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-income-employer-verification-api-openapi.yml
 - filename: sikoia-online-data-api-openapi.yml
   format: yaml
   label: Sikoia Online Data API
   slug: sikoia-online-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-online-data-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-online-data-api-openapi.yml
 - filename: sikoia-peps-sanctions-api-openapi.yml
   format: yaml
   label: Sikoia PEPs & Sanctions API
   slug: sikoia-peps-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-peps-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-peps-sanctions-api-openapi.yml
 - filename: sikoia-user-management-api-openapi.yml
   format: yaml
   label: Sikoia User Management API
   slug: sikoia-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-user-management-api-openapi.yml
 - filename: sikoia-validation-checklists-api-openapi.yml
   format: yaml
   label: Sikoia Validation Checklists API
   slug: sikoia-validation-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-validation-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-validation-checklists-api-openapi.yml
 - filename: sikoia-webhooks-api-openapi.yml
   format: yaml
   label: Sikoia Webhooks API
   slug: sikoia-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/openapi/sikoia-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sikoia/openapi/sikoia-webhooks-api-openapi.yml
 consequence_counts:
   read: 41
   write: 30
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sikoia
   \ required\n- path: /v2/webhooks/{webhook_id}\n  method: delete\n  operationId: DELETE_v2-webhooks-webhook_id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/event-types\n  method: get\n  operationId: GET_v2-webhooks-event-types\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/{webhook_id}/requests\n  method: get\n  operationId: GET_v2-webhooks-webhook_id-requests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/secrets\n  method: get\n  operationId: GET_v2-webhooks-secrets\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhooks/secrets\n  method: post\n  operationId: POST_v2-webhooks-secrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/secrets\n  method: delete\n  operationId: DELETE_v2-webhooks-secrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webhooks/secrets/rotate\n  method: patch\n  operationId: PATCH_v2-webhooks-secrets-rotate\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sikoia/refs/heads/main/agentic-access/sikoia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sikoia/agentic-access/sikoia-agentic-access.yml
 summary_line: 71 operations · 30 acting
 tags:
 - Company

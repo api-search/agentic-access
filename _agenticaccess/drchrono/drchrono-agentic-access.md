@@ -9,37 +9,37 @@ api_specs:
   label: drchrono Administrative API
   slug: drchrono-administrative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-administrative-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-administrative-api-openapi.yml
 - filename: drchrono-audit-api-openapi.yml
   format: yaml
   label: drchrono Audit API
   slug: drchrono-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-audit-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-audit-api-openapi.yml
 - filename: drchrono-availability-api-openapi.yml
   format: yaml
   label: drchrono Availability API
   slug: drchrono-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-availability-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-availability-api-openapi.yml
 - filename: drchrono-billing-api-openapi.yml
   format: yaml
   label: drchrono Billing API
   slug: drchrono-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-billing-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-billing-api-openapi.yml
 - filename: drchrono-clinical-api-openapi.yml
   format: yaml
   label: drchrono Clinical API
   slug: drchrono-clinical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-clinical-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-clinical-api-openapi.yml
 - filename: drchrono-practice-management-api-openapi.yml
   format: yaml
   label: drchrono Practice Management API
   slug: drchrono-practice-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/openapi/drchrono-practice-management-api-openapi.yml
+  url: https://artifacts.apis.io/drchrono/openapi/drchrono-practice-management-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 164
@@ -124,8 +124,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drchro
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - clinical:read\n    - clinical:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clinical_note_field_values\n  method: get\n  operationId: clinical_note_field_values_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/inventory_vaccines/{id}\n  method: get\n  operationId: inventory_vaccines_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/patients\n  method: post\n  operationId: patients_create\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - patients:read\n    - patients:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/patients\n  method: get\n  operationId: patients_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - patients:read\n    - patients:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/implantable_devices/{id}\n  method: get\n  operationId: implantable_devices_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/patient_communications/{id}\n  method: put\n  operationId: patient_communications_update\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - clinical:read\n    - clinical:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/patient_communications/{id}\n  method: patch\n  operationId: patient_communications_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - clinical:read\n    - clinical:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/patient_communications/{id}\n  method: get\n  operationId: patient_communications_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/offices\n  method: get\n  operationId: offices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user:read\n    - user:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/prescription_messages/{id}\n  method: get\n  operationId: prescription_messages_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/implantable_devices\n  method: get\n  operationId: implantable_devices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (110 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/agentic-access/drchrono-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/agentic-access/drchrono-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/offices\n  method: get\n  operationId: offices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user:read\n    - user:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/prescription_messages/{id}\n  method: get\n  operationId: prescription_messages_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/implantable_devices\n  method: get\n  operationId: implantable_devices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - clinical:read\n    - clinical:write\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (110 KB total) ---\n# Full source: https://artifacts.apis.io/drchrono/agentic-access/drchrono-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/drchrono/agentic-access/drchrono-agentic-access.yml
 summary_line: 327 operations · 163 acting
 tags:
 - Electronic Health Records

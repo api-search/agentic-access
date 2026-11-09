@@ -9,109 +9,109 @@ api_specs:
   label: Cardlytics Ads API
   slug: cardlytics-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-ads-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-ads-api-openapi.yml
 - filename: cardlytics-ads-controller-api-openapi.yml
   format: yaml
   label: Cardlytics Ads Controller API
   slug: cardlytics-ads-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-ads-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-ads-controller-api-openapi.yml
 - filename: cardlytics-audiencereach-api-openapi.yml
   format: yaml
   label: Cardlytics Audience Reach API
   slug: cardlytics-audiencereach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-audiencereach-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-audiencereach-api-openapi.yml
 - filename: cardlytics-audiences-api-openapi.yml
   format: yaml
   label: Cardlytics Audiences API
   slug: cardlytics-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-audiences-api-openapi.yml
 - filename: cardlytics-authentication-api-openapi.yml
   format: yaml
   label: Cardlytics Authentication API
   slug: cardlytics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-authentication-api-openapi.yml
 - filename: cardlytics-campaigns-api-openapi.yml
   format: yaml
   label: Cardlytics Campaigns API
   slug: cardlytics-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-campaigns-api-openapi.yml
 - filename: cardlytics-customer-controller-api-openapi.yml
   format: yaml
   label: Cardlytics Customer Controller API
   slug: cardlytics-customer-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-customer-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-customer-controller-api-openapi.yml
 - filename: cardlytics-geo-api-openapi.yml
   format: yaml
   label: Cardlytics Geo API
   slug: cardlytics-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-geo-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-geo-api-openapi.yml
 - filename: cardlytics-merchants-api-openapi.yml
   format: yaml
   label: Cardlytics Merchants API
   slug: cardlytics-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-merchants-api-openapi.yml
 - filename: cardlytics-offers-api-openapi.yml
   format: yaml
   label: Cardlytics Offers API
   slug: cardlytics-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-offers-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-offers-api-openapi.yml
 - filename: cardlytics-pricingmodels-api-openapi.yml
   format: yaml
   label: Cardlytics Pricing Models API
   slug: cardlytics-pricingmodels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-pricingmodels-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-pricingmodels-api-openapi.yml
 - filename: cardlytics-redemptions-api-openapi.yml
   format: yaml
   label: Cardlytics Redemptions API
   slug: cardlytics-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-redemptions-api-openapi.yml
 - filename: cardlytics-reports-api-openapi.yml
   format: yaml
   label: Cardlytics Reports API
   slug: cardlytics-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-reports-api-openapi.yml
 - filename: cardlytics-rewards-api-openapi.yml
   format: yaml
   label: Cardlytics Rewards API
   slug: cardlytics-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-rewards-api-openapi.yml
 - filename: cardlytics-session-controller-api-openapi.yml
   format: yaml
   label: Cardlytics Session Controller API
   slug: cardlytics-session-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-session-controller-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-session-controller-api-openapi.yml
 - filename: cardlytics-ad-groups-api-openapi.yml
   format: yaml
   label: Cardlytics Ad Groups API
   slug: cardlytics-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-ad-groups-api-openapi.yml
 - filename: cardlytics-audit-logs-api-openapi.yml
   format: yaml
   label: Cardlytics Audit Logs API
   slug: cardlytics-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-audit-logs-api-openapi.yml
 - filename: cardlytics-purchase-categories-api-openapi.yml
   format: yaml
   label: Cardlytics Purchase Categories API
   slug: cardlytics-purchase-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/openapi/cardlytics-purchase-categories-api-openapi.yml
+  url: https://artifacts.apis.io/cardlytics/openapi/cardlytics-purchase-categories-api-openapi.yml
 consequence_counts:
   read: 52
   safety-critical: 1
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cardly
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n- path: /v7/Rewards/rms/{rmsRewardId}\n  method: get\n  operationId: getV7RewardsRmsByRmsRewardId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n- path: /v7/accounts/{accountId}/ads/{adId}/Rewards\n  method: get\n  operationId: getV7AccountsByAccountIdAdsByAdIdRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n- path: /v7/accounts/{accountId}/Rewards/{rewardId}/validation\n  method: get\n  operationId: getV7AccountsByAccountIdRewardsByRewardIdValidation\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n- path: /v7/Rewards/validation/rule-set\n  method: get\n  operationId: getV7RewardsValidationRuleSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n- path: /v7/accounts/{accountId}/Rewards\n  method: post\n  operationId: postV7AccountsByAccountIdRewards\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n- path: /v2/session/startSession\n  method: post\n  operationId: startSession\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cardlytics/refs/heads/main/agentic-access/cardlytics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cardlytics/agentic-access/cardlytics-agentic-access.yml
 summary_line: 86 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Company

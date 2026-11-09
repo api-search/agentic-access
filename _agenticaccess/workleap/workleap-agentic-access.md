@@ -9,43 +9,43 @@ api_specs:
   label: Workleap Attributes API
   slug: workleap-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-attributes-api-openapi.yml
 - filename: workleap-engagement-api-openapi.yml
   format: yaml
   label: Workleap Engagement API
   slug: workleap-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-engagement-api-openapi.yml
 - filename: workleap-feedback-api-openapi.yml
   format: yaml
   label: Workleap Feedback API
   slug: workleap-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-feedback-api-openapi.yml
 - filename: workleap-goodvibes-api-openapi.yml
   format: yaml
   label: Workleap GoodVibes API
   slug: workleap-goodvibes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-goodvibes-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-goodvibes-api-openapi.yml
 - filename: workleap-groups-api-openapi.yml
   format: yaml
   label: Workleap Groups API
   slug: workleap-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-groups-api-openapi.yml
 - filename: workleap-provisioning-api-openapi.yml
   format: yaml
   label: Workleap Provisioning API
   slug: workleap-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-provisioning-api-openapi.yml
 - filename: workleap-users-api-openapi.yml
   format: yaml
   label: Workleap Users API
   slug: workleap-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/openapi/workleap-users-api-openapi.yml
+  url: https://artifacts.apis.io/workleap/openapi/workleap-users-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/workle
   \    - abnormal\n      - high-value\n    audit: required\n- path: /users/deactivate\n  method: post\n  operationId: deactivateUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{userId}\n  method: delete\n\
   \  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/search\n  method: post\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/avatar\n  method: put\n  operationId: updateUserAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/avatar\n  method: put\n  operationId: updateUserAvatarByEmail\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workleap/refs/heads/main/agentic-access/workleap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/workleap/agentic-access/workleap-agentic-access.yml
 summary_line: 29 operations · 14 acting
 tags:
 - Employee Experience

@@ -9,37 +9,37 @@ api_specs:
   label: SmallStep Authentication API
   slug: smallstep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-authentication-api-openapi.yml
 - filename: smallstep-certificates-api-openapi.yml
   format: yaml
   label: SmallStep Certificates API
   slug: smallstep-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-certificates-api-openapi.yml
 - filename: smallstep-credentials-api-openapi.yml
   format: yaml
   label: SmallStep Credentials API
   slug: smallstep-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-credentials-api-openapi.yml
 - filename: smallstep-device-inventory-api-openapi.yml
   format: yaml
   label: SmallStep Device Inventory API
   slug: smallstep-device-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-device-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-device-inventory-api-openapi.yml
 - filename: smallstep-pki-architecture-api-openapi.yml
   format: yaml
   label: SmallStep PKI Architecture API
   slug: smallstep-pki-architecture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-pki-architecture-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-pki-architecture-api-openapi.yml
 - filename: smallstep-protect-api-openapi.yml
   format: yaml
   label: SmallStep Protect API
   slug: smallstep-protect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/openapi/smallstep-protect-api-openapi.yml
+  url: https://artifacts.apis.io/smallstep/openapi/smallstep-protect-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 30
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/smalls
   \    scope:\n    - put-wifi\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sso\n  method: delete\n  operationId: DeleteIdentityProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - delete-identity-provider\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sso\n  method: get\n  operationId: GetIdentityProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - get-identity-provider\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sso\n  method: put\n  operationId: PutIdentityProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    scope:\n    - put-identity-provider\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sso/clients\n  method: get\n  operationId: ListIdpClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - list-idp-clients\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sso/clients\n  method: post\n  operationId: PostIdpClients\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - post-idp-clients\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sso/clients/{idpClientID}\n  method: delete\n  operationId: DeleteIdpClient\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    scope:\n    - delete-idp-client\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sso/clients/{idpClientID}\n  method: get\n  operationId: GetIdpClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - get-idp-client\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sso/clients/{idpClientID}\n  method: put\n  operationId: PutIdpClient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - put-idp-client\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smallstep/refs/heads/main/agentic-access/smallstep-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smallstep/agentic-access/smallstep-agentic-access.yml
 summary_line: 74 operations · 44 acting · 1 human-in-the-loop
 tags:
 - Company

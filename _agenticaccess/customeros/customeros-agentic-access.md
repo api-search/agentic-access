@@ -9,61 +9,61 @@ api_specs:
   label: CustomerOS Billing API
   slug: customeros-billing-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-billing-api-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-billing-api-api-openapi.yml
 - filename: customeros-customerbase-api-api-openapi.yml
   format: yaml
   label: CustomerOS CustomerBASE API
   slug: customeros-customerbase-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-customerbase-api-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-customerbase-api-api-openapi.yml
 - filename: customeros-domains-api-openapi.yml
   format: yaml
   label: CustomerOS Domains API
   slug: customeros-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-domains-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-domains-api-openapi.yml
 - filename: customeros-email-verification-api-openapi.yml
   format: yaml
   label: CustomerOS Email Verification API
   slug: customeros-email-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-email-verification-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-email-verification-api-openapi.yml
 - filename: customeros-enrichment-api-api-openapi.yml
   format: yaml
   label: CustomerOS Enrichment API
   slug: customeros-enrichment-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-enrichment-api-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-enrichment-api-api-openapi.yml
 - filename: customeros-flows-api-openapi.yml
   format: yaml
   label: CustomerOS Flows API
   slug: customeros-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-flows-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-flows-api-openapi.yml
 - filename: customeros-ip-intelligence-api-openapi.yml
   format: yaml
   label: CustomerOS IP Intelligence API
   slug: customeros-ip-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-ip-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-ip-intelligence-api-openapi.yml
 - filename: customeros-mailboxes-api-openapi.yml
   format: yaml
   label: CustomerOS Mailboxes API
   slug: customeros-mailboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-mailboxes-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-mailboxes-api-openapi.yml
 - filename: customeros-outreach-api-openapi.yml
   format: yaml
   label: CustomerOS Outreach API
   slug: customeros-outreach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-outreach-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-outreach-api-openapi.yml
 - filename: customeros-graph-ql-api-openapi.yml
   format: yaml
   label: CustomerOS Graph QL API
   slug: customeros-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/openapi/customeros-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/customeros/openapi/customeros-graph-ql-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 27
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/custom
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flows/{flow_id}/sequences/{sequence_id}/contacts/{contact_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method: post\n  operationId: graphqlQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /playground\n  method: get\n  operationId: graphqlPlayground\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /outreach/v1/email/tracking\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify/v1/email\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/v1/email/bulk\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify/v1/email/bulk/results/{requestId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/v1/email/bulk/results/{requestId}/download\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/v1/ip\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/customeros/refs/heads/main/agentic-access/customeros-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/customeros/agentic-access/customeros-agentic-access.yml
 summary_line: 57 operations · 30 acting · 1 human-in-the-loop
 tags:
 - CRM

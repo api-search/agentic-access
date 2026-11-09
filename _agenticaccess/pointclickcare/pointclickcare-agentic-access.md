@@ -8,37 +8,37 @@ api_specs:
   label: PointClickCare Assessments API
   slug: pointclickcare-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/pointclickcare/openapi/pointclickcare-assessments-api-openapi.yml
 - filename: pointclickcare-diagnoses-api-openapi.yml
   format: yaml
   label: PointClickCare Diagnoses API
   slug: pointclickcare-diagnoses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-diagnoses-api-openapi.yml
+  url: https://artifacts.apis.io/pointclickcare/openapi/pointclickcare-diagnoses-api-openapi.yml
 - filename: pointclickcare-facilities-api-openapi.yml
   format: yaml
   label: PointClickCare Facilities API
   slug: pointclickcare-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/pointclickcare/openapi/pointclickcare-facilities-api-openapi.yml
 - filename: pointclickcare-medications-api-openapi.yml
   format: yaml
   label: PointClickCare Medications API
   slug: pointclickcare-medications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-medications-api-openapi.yml
+  url: https://artifacts.apis.io/pointclickcare/openapi/pointclickcare-medications-api-openapi.yml
 - filename: pointclickcare-patients-api-openapi.yml
   format: yaml
   label: PointClickCare Patients API
   slug: pointclickcare-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-patients-api-openapi.yml
+  url: https://artifacts.apis.io/pointclickcare/openapi/pointclickcare-patients-api-openapi.yml
 - filename: pointclickcare-vitals-api-openapi.yml
   format: yaml
   label: PointClickCare Vitals API
   slug: pointclickcare-vitals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/openapi/pointclickcare-vitals-api-openapi.yml
+  url: https://artifacts.apis.io/pointclickcare/openapi/pointclickcare-vitals-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pointclickcare-ehr-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /patients\n  method: get\n  operationId: listPatients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}\n  method: get\n  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}/vitals\n  method: get\n  operationId:\
   \ getPatientVitals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}/medications\n  method: get\n  operationId: getPatientMedications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}/medications/mar\n  method: get\n  operationId: getPatientMAR\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}/assessments\n  method: get\n  operationId: listPatientAssessments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patients/{patientId}/diagnoses\n  method: get\n  operationId: getPatientDiagnoses\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /facilities\n  method: get\n  operationId: listFacilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/agentic-access/pointclickcare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pointclickcare/agentic-access/pointclickcare-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Healthcare

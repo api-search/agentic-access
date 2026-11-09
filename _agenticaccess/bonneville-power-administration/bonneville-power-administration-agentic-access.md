@@ -8,79 +8,79 @@ api_specs:
   label: Bonneville Power Administration Customers API
   slug: bonneville-power-administration-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-customers-api-openapi.yml
 - filename: bonneville-power-administration-hydrology-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Hydrology API
   slug: bonneville-power-administration-hydrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-hydrology-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-hydrology-api-openapi.yml
 - filename: bonneville-power-administration-right-of-way-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Right of Way API
   slug: bonneville-power-administration-right-of-way-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-right-of-way-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-right-of-way-api-openapi.yml
 - filename: bonneville-power-administration-service-area-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Service Area API
   slug: bonneville-power-administration-service-area-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-service-area-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-service-area-api-openapi.yml
 - filename: bonneville-power-administration-transmission-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Transmission API
   slug: bonneville-power-administration-transmission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-transmission-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-transmission-api-openapi.yml
 - filename: bonneville-power-administration-catalog-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Catalog API
   slug: bonneville-power-administration-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-catalog-api-openapi.yml
 - filename: bonneville-power-administration-collection-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Collection API
   slug: bonneville-power-administration-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-collection-api-openapi.yml
 - filename: bonneville-power-administration-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Geoservice Beta API
   slug: bonneville-power-administration-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-geoservice-beta-api-openapi.yml
 - filename: bonneville-power-administration-ogcitem-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Item API
   slug: bonneville-power-administration-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcitem-api-openapi.yml
 - filename: bonneville-power-administration-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Item Aggregation API
   slug: bonneville-power-administration-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcitemaggregation-api-openapi.yml
 - filename: bonneville-power-administration-ogcroot-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Root API
   slug: bonneville-power-administration-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcroot-api-openapi.yml
 - filename: bonneville-power-administration-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Ogc Root Conformance API
   slug: bonneville-power-administration-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-ogcrootconformance-api-openapi.yml
 - filename: bonneville-power-administration-queryable-api-openapi.yml
   format: yaml
   label: Bonneville Power Administration Queryable API
   slug: bonneville-power-administration-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/openapi/bonneville-power-administration-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bonneville-power-administration/openapi/bonneville-power-administration-queryable-api-openapi.yml
 consequence_counts:
   read: 25
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/bonnev
   \  method: get\n  operationId: OgcItemController_getConnectedOgcItemsById_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/collections/{collectionId}/aggregations\n  method: get\n  operationId: OgcItemAggregationController_getAggregations_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1\n  method: get\n  operationId: OgcRootController_getSiteRoot_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/conformance\n  method: get\n  operationId: OgcRootConformanceController_getApiConformance_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/search/v1/collections/{collectionId}/queryables\n  method: get\n  operationId: QueryableController_getSiteCollectionQueryables_api/search/v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/BPA_RightofWay_View/FeatureServer/0/query\n  method: get\n  operationId: queryRightOfWay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/BPA_ServiceArea/FeatureServer/0/query\n  method: get\n  operationId: queryServiceArea\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/BPA_TransmissionLines_View/FeatureServer/0/query\n  method: get\n  operationId: queryTransmissionLines\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/BPA_TransmissionStructure_View/FeatureServer/0/query\n  method: get\n  operationId: queryTransmissionStructures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/agentic-access/bonneville-power-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bonneville-power-administration/agentic-access/bonneville-power-administration-agentic-access.yml
 summary_line: 25 operations
 tags:
 - Energy

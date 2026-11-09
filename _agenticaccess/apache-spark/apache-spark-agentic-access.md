@@ -8,13 +8,13 @@ api_specs:
   label: Apache Spark Applications API
   slug: apache-spark-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/openapi/apache-spark-applications-api-openapi.yml
+  url: https://artifacts.apis.io/apache-spark/openapi/apache-spark-applications-api-openapi.yml
 - filename: apache-spark-version-api-openapi.yml
   format: yaml
   label: Apache Spark Version API
   slug: apache-spark-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/openapi/apache-spark-version-api-openapi.yml
+  url: https://artifacts.apis.io/apache-spark/openapi/apache-spark-version-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   - path: /applications/{app-id}/storage/rdd/{rdd-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{base-app-id}/logs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{base-app-id}/{attempt-id}/logs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/statistics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/receivers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/receivers/{stream-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/batches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/batches/{batch-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/batches/{batch-id}/operations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/streaming/batches/{batch-id}/operations/{outputOp-id}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/sql\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/sql/{execution-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{app-id}/environment\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-spark/refs/heads/main/agentic-access/apache-spark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-spark/agentic-access/apache-spark-agentic-access.yml
 summary_line: 26 operations
 tags:
 - Analytics

@@ -9,37 +9,37 @@ api_specs:
   label: Shoppable Catalog API
   slug: shoppable-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-catalog-api-openapi.yml
 - filename: shoppable-checkout-api-openapi.yml
   format: yaml
   label: Shoppable Checkout API
   slug: shoppable-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-checkout-api-openapi.yml
 - filename: shoppable-merchants-api-openapi.yml
   format: yaml
   label: Shoppable Merchants API
   slug: shoppable-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-merchants-api-openapi.yml
 - filename: shoppable-orderdata-api-openapi.yml
   format: yaml
   label: Shoppable OrderData API
   slug: shoppable-orderdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-orderdata-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-orderdata-api-openapi.yml
 - filename: shoppable-orders-api-openapi.yml
   format: yaml
   label: Shoppable Orders API
   slug: shoppable-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-orders-api-openapi.yml
 - filename: shoppable-products-api-openapi.yml
   format: yaml
   label: Shoppable Products API
   slug: shoppable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/openapi/shoppable-products-api-openapi.yml
+  url: https://artifacts.apis.io/shoppable/openapi/shoppable-products-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -73,7 +73,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shoppable-catalog-api-openapi.yml, openapi/shoppable-checkout-api-openapi.yml,\n  openapi/shoppable-merchants-api-openapi.yml, openapi/shoppable-orderdata-api-openapi.yml,\n  openapi/shoppable-orders-api-openapi.yml, openapi/shoppable-products-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 7\n    acting: 1\n  by_consequence:\n    read: 7\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /catalog\n  method: post\n  operationId: catalog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v6/checkout\n  method:\
   \ post\n  operationId: checkout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /merchants\n  method: get\n  operationId: merchants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /merchants/{merchantId}\n  method: get\n  operationId: merchantsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v5/orderData/100/page/0/startdate/{startDate}/enddate/{endDate}\n  method: get\n  operationId: ordersByDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/campaign/{campaignName}\n  method: get\n  operationId: ordersbyCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: post\n  operationId: products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shoppable/refs/heads/main/agentic-access/shoppable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shoppable/agentic-access/shoppable-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - Company

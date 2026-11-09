@@ -9,67 +9,85 @@ api_specs:
   label: AWS CodeBuild AWS CodeBuild API
   slug: aws-codebuild-aws-codebuild-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-api-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-api-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-deletereport-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.DeleteReport… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-deletereport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-deletereport-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-deletereport-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listbuilds-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.ListBuilds… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listbuilds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listbuilds-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listbuilds-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listprojects-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.ListProjects… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listprojects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listprojects-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listprojects-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listreports-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.ListReports… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listreports-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-listreports-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-retrybuild-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.RetryBuild… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-retrybuild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-retrybuild-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-retrybuild-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-startbuild-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.StartBuild… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-startbuild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-startbuild-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-startbuild-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-stopbuild-api-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild 20161006.StopBuild API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-stopbuild-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-stopbuild-api-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-20161006-stopbuild-api-api-openapi.yml
 - filename: aws-codebuild-aws-codebuild-x-amz-target-codebuild-api-openapi.yml
   format: yaml
   label: 'AWS CodeBuild AWS CodeBuild #X Amz Target=CodeBuild… API'
   slug: aws-codebuild-aws-codebuild-x-amz-target-codebuild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-aws-codebuild-x-amz-target-codebuild-api-openapi.yml
 - filename: aws-codebuild-builds-api-openapi.yml
   format: yaml
   label: AWS CodeBuild Builds API
   slug: aws-codebuild-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-builds-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-builds-api-openapi.yml
 - filename: aws-codebuild-projects-api-openapi.yml
   format: yaml
   label: AWS CodeBuild Projects API
   slug: aws-codebuild-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/openapi/aws-codebuild-projects-api-openapi.yml
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-projects-api-openapi.yml
+- filename: aws-codebuild-command-execution-api-openapi.yml
+  format: yaml
+  label: AWS CodeBuild Codebuild Command Execution API
+  slug: aws-codebuild-command-execution-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-command-execution-api-openapi.yml
+- filename: aws-codebuild-fleet-api-openapi.yml
+  format: yaml
+  label: AWS CodeBuild Codebuild Fleet API
+  slug: aws-codebuild-fleet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-fleet-api-openapi.yml
+- filename: aws-codebuild-sandboxe-api-openapi.yml
+  format: yaml
+  label: AWS CodeBuild Codebuild Sandboxe API
+  slug: aws-codebuild-sandboxe-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-codebuild/openapi/aws-codebuild-sandboxe-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 3
@@ -137,9 +155,10 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/amazon
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeBuild_20161006.StopBuild\n  method: post\n  operationId: StopBuild\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=CodeBuild_20161006.StopBuildBatch\n  method: post\n  operationId: StopBuildBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=CodeBuild_20161006.UpdateProject\n\
   \  method: post\n  operationId: UpdateProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeBuild_20161006.UpdateProjectVisibility\n  method: post\n  operationId: UpdateProjectVisibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeBuild_20161006.UpdateReportGroup\n  method: post\n  operationId: UpdateReportGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=CodeBuild_20161006.UpdateWebhook\n  method: post\n  operationId: UpdateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: invokeAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-codebuild/refs/heads/main/agentic-access/aws-codebuild-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-codebuild/agentic-access/aws-codebuild-agentic-access.yml
 summary_line: 52 operations · 38 acting · 3 human-in-the-loop
 tags:
+- Amazon Web Services
 - Builds
 - CI/CD
 - Continuous Integration

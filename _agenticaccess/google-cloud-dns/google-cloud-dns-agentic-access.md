@@ -9,25 +9,25 @@ api_specs:
   label: Google Cloud DNS Changes API
   slug: google-cloud-dns-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-changes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-changes-api-openapi.yml
 - filename: google-cloud-dns-managedzones-api-openapi.yml
   format: yaml
   label: Google Cloud DNS ManagedZones API
   slug: google-cloud-dns-managedzones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-managedzones-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-managedzones-api-openapi.yml
 - filename: google-cloud-dns-policies-api-openapi.yml
   format: yaml
   label: Google Cloud DNS Policies API
   slug: google-cloud-dns-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-policies-api-openapi.yml
 - filename: google-cloud-dns-resource-record-sets-api-openapi.yml
   format: yaml
   label: Google Cloud DNS Resource Record Sets API
   slug: google-cloud-dns-resource-record-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/openapi/google-cloud-dns-resource-record-sets-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-resource-record-sets-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dns-op
   \  - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n- path: /projects/{project}/managedZones/{managedZone}\n  method: delete\n  operationId: deleteManagedZone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n- path: /projects/{project}/managedZones/{managedZone}/rrsets\n  method: get\n  operationId: listResourceRecordSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n- path: /projects/{project}/managedZones/{managedZone}/rrsets\n  method: post\n  operationId: createResourceRecordSet\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n- path: /projects/{project}/managedZones/{managedZone}/changes\n  method: get\n  operationId: listChanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n- path: /projects/{project}/managedZones/{managedZone}/changes\n  method: post\n  operationId: createChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n- path: /projects/{project}/policies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/ndev.clouddns.readwrite\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-dns/refs/heads/main/agentic-access/google-cloud-dns-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-dns/agentic-access/google-cloud-dns-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - DNS

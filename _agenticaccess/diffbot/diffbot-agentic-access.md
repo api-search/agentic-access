@@ -9,127 +9,127 @@ api_specs:
   label: Diffbot Extract API
   slug: diffbot-extract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-extract-openapi.json
+  url: https://artifacts.apis.io/diffbot/openapi/_original/diffbot-extract-openapi.json
 - filename: diffbot-crawl-openapi.json
   format: json
   label: Diffbot Crawl API
   slug: diffbot-crawl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-crawl-openapi.json
+  url: https://artifacts.apis.io/diffbot/openapi/_original/diffbot-crawl-openapi.json
 - filename: diffbot-natural-language-openapi.json
   format: json
   label: Diffbot Natural Language API
   slug: diffbot-natural-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/_original/diffbot-natural-language-openapi.json
+  url: https://artifacts.apis.io/diffbot/openapi/_original/diffbot-natural-language-openapi.json
 - filename: diffbot-knowledge-graph-api-openapi.yml
   format: yaml
   label: Diffbot Knowledge Graph API
   slug: diffbot-knowledge-graph-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-knowledge-graph-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-knowledge-graph-api-openapi.yml
 - filename: diffbot-account-api-openapi.yml
   format: yaml
   label: Diffbot Account API
   slug: diffbot-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-account-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-account-api-openapi.yml
 - filename: diffbot-analyze-api-openapi.yml
   format: yaml
   label: Diffbot Analyze API
   slug: diffbot-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-analyze-api-openapi.yml
 - filename: diffbot-article-api-openapi.yml
   format: yaml
   label: Diffbot Article API
   slug: diffbot-article-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-article-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-article-api-openapi.yml
 - filename: diffbot-bulk-api-openapi.yml
   format: yaml
   label: Diffbot Bulk API
   slug: diffbot-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-bulk-api-openapi.yml
 - filename: diffbot-bulk-enhance-api-openapi.yml
   format: yaml
   label: Diffbot Bulk Enhance API
   slug: diffbot-bulk-enhance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-bulk-enhance-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-bulk-enhance-api-openapi.yml
 - filename: diffbot-combine-api-openapi.yml
   format: yaml
   label: Diffbot Combine API
   slug: diffbot-combine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-combine-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-combine-api-openapi.yml
 - filename: diffbot-custom-api-openapi.yml
   format: yaml
   label: Diffbot Custom API
   slug: diffbot-custom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-custom-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-custom-api-openapi.yml
 - filename: diffbot-discussion-api-openapi.yml
   format: yaml
   label: Diffbot Discussion API
   slug: diffbot-discussion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-discussion-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-discussion-api-openapi.yml
 - filename: diffbot-dql-search-api-openapi.yml
   format: yaml
   label: Diffbot DQL Search API
   slug: diffbot-dql-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-dql-search-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-dql-search-api-openapi.yml
 - filename: diffbot-enhance-api-openapi.yml
   format: yaml
   label: Diffbot Enhance API
   slug: diffbot-enhance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-enhance-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-enhance-api-openapi.yml
 - filename: diffbot-event-api-openapi.yml
   format: yaml
   label: Diffbot Event API
   slug: diffbot-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-event-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-event-api-openapi.yml
 - filename: diffbot-image-api-openapi.yml
   format: yaml
   label: Diffbot Image API
   slug: diffbot-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-image-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-image-api-openapi.yml
 - filename: diffbot-job-api-openapi.yml
   format: yaml
   label: Diffbot Job API
   slug: diffbot-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-job-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-job-api-openapi.yml
 - filename: diffbot-list-api-openapi.yml
   format: yaml
   label: Diffbot List API
   slug: diffbot-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-list-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-list-api-openapi.yml
 - filename: diffbot-product-api-openapi.yml
   format: yaml
   label: Diffbot Product API
   slug: diffbot-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-product-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-product-api-openapi.yml
 - filename: diffbot-video-api-openapi.yml
   format: yaml
   label: Diffbot Video API
   slug: diffbot-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-video-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-video-api-openapi.yml
 - filename: diffbot-web-search-api-openapi.yml
   format: yaml
   label: Diffbot Web Search API
   slug: diffbot-web-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/openapi/diffbot-web-search-api-openapi.yml
+  url: https://artifacts.apis.io/diffbot/openapi/diffbot-web-search-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 44
@@ -175,7 +175,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/diffbo
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/job\n  method: get\n  operationId: job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/list\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /image\n  method: get\n  operationId: image\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job\n  method: get\n  operationId: job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kg/v3/dql\n  method: get\n  operationId: dqlSearch\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kg/v3/enhance\n  method: get\n  operationId: enhance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/\n  method: post\n  operationId: nl\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /product\n  method: get\n  operationId: product\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /video\n  method: get\n  operationId: video\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: get_\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: post\n  operationId: post_\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diffbot/refs/heads/main/agentic-access/diffbot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/diffbot/agentic-access/diffbot-agentic-access.yml
 summary_line: 53 operations · 9 acting
 tags:
 - Extraction

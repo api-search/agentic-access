@@ -9,73 +9,73 @@ api_specs:
   label: Bolt Financial Account API
   slug: bolt-financial-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-account-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-account-api-openapi.yml
 - filename: bolt-financial-callbacks-api-openapi.yml
   format: yaml
   label: Bolt Financial Callbacks API
   slug: bolt-financial-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-callbacks-api-openapi.yml
 - filename: bolt-financial-configuration-api-openapi.yml
   format: yaml
   label: Bolt Financial Configuration API
   slug: bolt-financial-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-configuration-api-openapi.yml
 - filename: bolt-financial-orders-api-openapi.yml
   format: yaml
   label: Bolt Financial Orders API
   slug: bolt-financial-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-orders-api-openapi.yml
 - filename: bolt-financial-payments-api-openapi.yml
   format: yaml
   label: Bolt Financial Payments API
   slug: bolt-financial-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-payments-api-openapi.yml
 - filename: bolt-financial-statements-api-openapi.yml
   format: yaml
   label: Bolt Financial Statements API
   slug: bolt-financial-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-statements-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-statements-api-openapi.yml
 - filename: bolt-financial-subscriptions-api-openapi.yml
   format: yaml
   label: Bolt Financial Subscriptions API
   slug: bolt-financial-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-subscriptions-api-openapi.yml
 - filename: bolt-financial-testing-api-openapi.yml
   format: yaml
   label: Bolt Financial Testing API
   slug: bolt-financial-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-testing-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-testing-api-openapi.yml
 - filename: bolt-financial-tokenizer-api-openapi.yml
   format: yaml
   label: Bolt Financial Tokenizer API
   slug: bolt-financial-tokenizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-tokenizer-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-tokenizer-api-openapi.yml
 - filename: bolt-financial-transactions-api-openapi.yml
   format: yaml
   label: Bolt Financial Transactions API
   slug: bolt-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-transactions-api-openapi.yml
 - filename: bolt-financial-webhooks-api-openapi.yml
   format: yaml
   label: Bolt Financial Webhooks API
   slug: bolt-financial-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-webhooks-api-openapi.yml
 - filename: bolt-financial-oauth-api-openapi.yml
   format: yaml
   label: Bolt Financial O Auth API
   slug: bolt-financial-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/openapi/bolt-financial-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/bolt-financial/openapi/bolt-financial-oauth-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 17
@@ -189,7 +189,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bolt-f
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/merchant/transactions/{REFERENCE}\n  method: get\n  operationId: getTransactionDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/merchant/transactions/{REFERENCE}\n  method: patch\n  operationId: updateTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tokenizer/proxy\n  method: post\n  operationId: proxyTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: queryWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /v1/webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bolt-financial/refs/heads/main/agentic-access/bolt-financial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bolt-financial/agentic-access/bolt-financial-agentic-access.yml
 summary_line: 58 operations · 41 acting
 tags:
 - Company

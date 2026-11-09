@@ -9,49 +9,49 @@ api_specs:
   label: Microsoft Active Directory App Role Assignments API
   slug: active-directory-app-role-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-app-role-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-app-role-assignments-api-openapi.yml
 - filename: active-directory-applications-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Applications API
   slug: active-directory-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-applications-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-applications-api-openapi.yml
 - filename: active-directory-groups-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Groups API
   slug: active-directory-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-groups-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 - filename: active-directory-members-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Members API
   slug: active-directory-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-members-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-members-api-openapi.yml
 - filename: active-directory-owners-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Owners API
   slug: active-directory-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-owners-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-owners-api-openapi.yml
 - filename: active-directory-service-principals-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Service Principals API
   slug: active-directory-service-principals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-service-principals-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-service-principals-api-openapi.yml
 - filename: active-directory-users-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Users API
   slug: active-directory-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-users-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-users-api-openapi.yml
 - filename: active-directory-directory-roles-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Roles API
   slug: microsoft-active-directory-directory-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/openapi/active-directory-directory-roles-api-openapi.yml
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-directory-roles-api-openapi.yml
 consequence_counts:
   read: 14
   write: 11
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/active
   - path: /users\n  method: post\n  operationId: create-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - User.Read\n    - User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n- path: /users/{userId}\n  method: get\n  operationId: get-user\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - User.Read\n    - User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n- path: /users/{userId}\n  method: patch\n  operationId: update-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - User.Read\n    - User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n- path: /users/{userId}\n  method: delete\n  operationId: delete-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - User.Read\n    - User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n- path: /users/{userId}/memberOf\n  method: get\n  operationId: list-user-member-of\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - User.Read\n    -\
   \ User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n- path: /users/{userId}/manager\n  method: get\n  operationId: get-user-manager\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - User.Read\n    - User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n- path: /me\n  method: get\n  operationId: get-me\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - User.Read\n    - User.Read.All\n    - User.ReadBasic.All\n    - User.ReadWrite\n    - User.ReadWrite.All\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/active-directory/refs/heads/main/agentic-access/active-directory-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/active-directory/agentic-access/active-directory-agentic-access.yml
 summary_line: 25 operations · 11 acting
 tags:
 - Active Directory

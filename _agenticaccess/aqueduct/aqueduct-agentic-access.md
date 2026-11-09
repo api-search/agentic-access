@@ -9,61 +9,61 @@ api_specs:
   label: Aqueduct AccountOwner API
   slug: aqueduct-accountowner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-accountowner-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-accountowner-api-openapi.yml
 - filename: aqueduct-bill-api-openapi.yml
   format: yaml
   label: Aqueduct Bill API
   slug: aqueduct-bill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-bill-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-bill-api-openapi.yml
 - filename: aqueduct-invoice-api-openapi.yml
   format: yaml
   label: Aqueduct Invoice API
   slug: aqueduct-invoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoice-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-invoice-api-openapi.yml
 - filename: aqueduct-pricemodel-api-openapi.yml
   format: yaml
   label: Aqueduct PriceModel API
   slug: aqueduct-pricemodel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-pricemodel-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-pricemodel-api-openapi.yml
 - filename: aqueduct-productpurchases-api-openapi.yml
   format: yaml
   label: Aqueduct ProductPurchases API
   slug: aqueduct-productpurchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-productpurchases-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-productpurchases-api-openapi.yml
 - filename: aqueduct-products-api-openapi.yml
   format: yaml
   label: Aqueduct Products API
   slug: aqueduct-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-products-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-products-api-openapi.yml
 - filename: aqueduct-provisioning-api-openapi.yml
   format: yaml
   label: Aqueduct Provisioning API
   slug: aqueduct-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-provisioning-api-openapi.yml
 - filename: aqueduct-subscriptions-api-openapi.yml
   format: yaml
   label: Aqueduct Subscriptions API
   slug: aqueduct-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-subscriptions-api-openapi.yml
 - filename: aqueduct-webhooks-api-openapi.yml
   format: yaml
   label: Aqueduct Webhooks API
   slug: aqueduct-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-webhooks-api-openapi.yml
 - filename: aqueduct-invoice-line-item-api-openapi.yml
   format: yaml
   label: Aqueduct Invoice Line Item API
   slug: aqueduct-invoice-line-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/openapi/aqueduct-invoice-line-item-api-openapi.yml
+  url: https://artifacts.apis.io/aqueduct/openapi/aqueduct-invoice-line-item-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 13
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/aquedu
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricemodels/{pricemodelId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricemodels/{pricemodelId}/preview\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{subscriptionId}\n  method: post\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhookendpoints\n  method: post\n  operationId: createwebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhookendpoints\n  method: get\n  operationId: listwebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /provisioning/{provisioningId}\n  method: get\n  operationId: getProvisioning\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aqueduct/refs/heads/main/agentic-access/aqueduct-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aqueduct/agentic-access/aqueduct-agentic-access.yml
 summary_line: 32 operations · 19 acting
 tags:
 - Company

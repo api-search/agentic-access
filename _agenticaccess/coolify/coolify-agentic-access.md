@@ -9,109 +9,109 @@ api_specs:
   label: Coolify Applications API
   slug: coolify-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-applications-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-applications-api-openapi.yml
 - filename: coolify-cloud-tokens-api-openapi.yml
   format: yaml
   label: Coolify Cloud Tokens API
   slug: coolify-cloud-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-cloud-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-cloud-tokens-api-openapi.yml
 - filename: coolify-databases-api-openapi.yml
   format: yaml
   label: Coolify Databases API
   slug: coolify-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-databases-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-databases-api-openapi.yml
 - filename: coolify-deployments-api-openapi.yml
   format: yaml
   label: Coolify Deployments API
   slug: coolify-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-deployments-api-openapi.yml
 - filename: coolify-disable-api-openapi.yml
   format: yaml
   label: Coolify Disable API
   slug: coolify-disable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-disable-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-disable-api-openapi.yml
 - filename: coolify-enable-api-openapi.yml
   format: yaml
   label: Coolify Enable API
   slug: coolify-enable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-enable-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-enable-api-openapi.yml
 - filename: coolify-github-apps-api-openapi.yml
   format: yaml
   label: Coolify GitHub Apps API
   slug: coolify-github-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-github-apps-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-github-apps-api-openapi.yml
 - filename: coolify-health-api-openapi.yml
   format: yaml
   label: Coolify Health API
   slug: coolify-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-health-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-health-api-openapi.yml
 - filename: coolify-hetzner-api-openapi.yml
   format: yaml
   label: Coolify Hetzner API
   slug: coolify-hetzner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-hetzner-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-hetzner-api-openapi.yml
 - filename: coolify-mcp-api-openapi.yml
   format: yaml
   label: Coolify Mcp API
   slug: coolify-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-mcp-api-openapi.yml
 - filename: coolify-private-keys-api-openapi.yml
   format: yaml
   label: Coolify Private Keys API
   slug: coolify-private-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-private-keys-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-private-keys-api-openapi.yml
 - filename: coolify-projects-api-openapi.yml
   format: yaml
   label: Coolify Projects API
   slug: coolify-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-projects-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-projects-api-openapi.yml
 - filename: coolify-resources-api-openapi.yml
   format: yaml
   label: Coolify Resources API
   slug: coolify-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-resources-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-resources-api-openapi.yml
 - filename: coolify-scheduled-tasks-api-openapi.yml
   format: yaml
   label: Coolify Scheduled Tasks API
   slug: coolify-scheduled-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-scheduled-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-scheduled-tasks-api-openapi.yml
 - filename: coolify-servers-api-openapi.yml
   format: yaml
   label: Coolify Servers API
   slug: coolify-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-servers-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-servers-api-openapi.yml
 - filename: coolify-services-api-openapi.yml
   format: yaml
   label: Coolify Services API
   slug: coolify-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-services-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-services-api-openapi.yml
 - filename: coolify-teams-api-openapi.yml
   format: yaml
   label: Coolify Teams API
   slug: coolify-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-teams-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-teams-api-openapi.yml
 - filename: coolify-version-api-openapi.yml
   format: yaml
   label: Coolify Version API
   slug: coolify-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/openapi/coolify-version-api-openapi.yml
+  url: https://artifacts.apis.io/coolify/openapi/coolify-version-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 62
@@ -196,8 +196,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coolif
   \      max-ttl: 3600\n    audit: none\n- path: /services/{uuid}/scheduled-tasks\n  method: post\n  operationId: create-scheduled-task-by-service-uuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{uuid}/scheduled-tasks/{task_uuid}\n  method: delete\n  operationId: delete-scheduled-task-by-service-uuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{uuid}/scheduled-tasks/{task_uuid}\n  method: patch\n  operationId: update-scheduled-task-by-service-uuid\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{uuid}/scheduled-tasks/{task_uuid}/executions\n  method: get\n  operationId: list-scheduled-task-executions-by-service-uuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/keys\n  method: get\n  operationId: list-private-keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/keys\n  method: post\n  operationId: create-private-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/keys\n  method: patch\n  operationId: update-private-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /security/keys/{uuid}\n  method: get\n  operationId: get-private-key-by-uuid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/keys/{uuid}\n  method: delete\n  operationId: delete-private-key-by-uuid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/agentic-access/coolify-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coolify/refs/heads/main/agentic-access/coolify-agentic-access.yml
+  \      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/coolify/agentic-access/coolify-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coolify/agentic-access/coolify-agentic-access.yml
 summary_line: 136 operations · 74 acting · 1 human-in-the-loop
 tags:
 - Platform-as-a-Service

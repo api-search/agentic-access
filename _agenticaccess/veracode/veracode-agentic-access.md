@@ -9,73 +9,73 @@ api_specs:
   label: Veracode API Credentials API
   slug: veracode-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-api-credentials-api-openapi.yml
 - filename: veracode-applications-api-openapi.yml
   format: yaml
   label: Veracode Applications API
   slug: veracode-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-applications-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-applications-api-openapi.yml
 - filename: veracode-business-units-api-openapi.yml
   format: yaml
   label: Veracode Business Units API
   slug: veracode-business-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-business-units-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-business-units-api-openapi.yml
 - filename: veracode-findings-api-openapi.yml
   format: yaml
   label: Veracode Findings API
   slug: veracode-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-findings-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-findings-api-openapi.yml
 - filename: veracode-manual-penetration-testing-api-openapi.yml
   format: yaml
   label: Veracode Manual Penetration Testing API
   slug: veracode-manual-penetration-testing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-manual-penetration-testing-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-manual-penetration-testing-api-openapi.yml
 - filename: veracode-policy-evaluations-api-openapi.yml
   format: yaml
   label: Veracode Policy Evaluations API
   slug: veracode-policy-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-policy-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-policy-evaluations-api-openapi.yml
 - filename: veracode-reports-api-openapi.yml
   format: yaml
   label: Veracode Reports API
   slug: veracode-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-reports-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-reports-api-openapi.yml
 - filename: veracode-roles-api-openapi.yml
   format: yaml
   label: Veracode Roles API
   slug: veracode-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-roles-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-roles-api-openapi.yml
 - filename: veracode-sandboxes-api-openapi.yml
   format: yaml
   label: Veracode Sandboxes API
   slug: veracode-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-sandboxes-api-openapi.yml
 - filename: veracode-teams-api-openapi.yml
   format: yaml
   label: Veracode Teams API
   slug: veracode-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-teams-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-teams-api-openapi.yml
 - filename: veracode-users-api-openapi.yml
   format: yaml
   label: Veracode Users API
   slug: veracode-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-users-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-users-api-openapi.yml
 - filename: veracode-api-credentials-api-openapi.yml
   format: yaml
   label: Veracode API Credentials API
   slug: veracode-api-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/openapi/veracode-api-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/veracode/openapi/veracode-api-credentials-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 1
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/veraco
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/authn/v2/teams/{teamId}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/authn/v2/teams/{teamId}\n  method: put\n  operationId: updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/authn/v2/teams/{teamId}\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /api/authn/v2/business_units\n  method: get\n  operationId: listBusinessUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/authn/v2/business_units\n  method: post\n  operationId: createBusinessUnit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/authn/v2/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appsec/v1/analytics/report\n  method: post\n  operationId: generateReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /appsec/v1/analytics/report/{reportId}\n  method: get\n  operationId: getReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veracode/refs/heads/main/agentic-access/veracode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veracode/agentic-access/veracode-agentic-access.yml
 summary_line: 33 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Application Security

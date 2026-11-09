@@ -9,31 +9,31 @@ api_specs:
   label: SMART Health IT Bulk Data API
   slug: smarthealthit-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-bulk-data-api-openapi.yml
 - filename: smarthealthit-clinical-records-api-openapi.yml
   format: yaml
   label: SMART Health IT Clinical Records API
   slug: smarthealthit-clinical-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-clinical-records-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-clinical-records-api-openapi.yml
 - filename: smarthealthit-conformance-api-openapi.yml
   format: yaml
   label: SMART Health IT Conformance API
   slug: smarthealthit-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-conformance-api-openapi.yml
 - filename: smarthealthit-patients-api-openapi.yml
   format: yaml
   label: SMART Health IT Patients API
   slug: smarthealthit-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-patients-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-patients-api-openapi.yml
 - filename: smarthealthit-smart-app-launch-api-openapi.yml
   format: yaml
   label: SMART Health IT SMART App Launch API
   slug: smarthealthit-smart-app-launch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/openapi/smarthealthit-smart-app-launch-api-openapi.yml
+  url: https://artifacts.apis.io/smarthealthit/openapi/smarthealthit-smart-app-launch-api-openapi.yml
 consequence_counts:
   read: 14
   write: 1
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smarth
   \  operationId: getPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Observation\n  method: get\n  operationId: searchObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Condition\n  method: get\n  operationId: searchConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /MedicationRequest\n  method: get\n  operationId: searchMedicationRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Encounter\n  method: get\n  operationId: searchEncounters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /AllergyIntolerance\n  method: get\n  operationId: searchAllergyIntolerances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Immunization\n  method: get\n  operationId: searchImmunizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DocumentReference\n  method: get\n  operationId: searchDocumentReferences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/authorize\n  method: get\n  operationId: smartAuthorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/token\n  method: post\n  operationId:\
   \ smartToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /$export\n  method: get\n  operationId: bulkSystemExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Patient/$export\n  method: get\n  operationId: bulkPatientExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Group/{id}/$export\n  method: get\n  operationId: bulkGroupExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthealthit/refs/heads/main/agentic-access/smarthealthit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smarthealthit/agentic-access/smarthealthit-agentic-access.yml
 summary_line: 15 operations · 1 acting
 tags:
 - SMART on FHIR

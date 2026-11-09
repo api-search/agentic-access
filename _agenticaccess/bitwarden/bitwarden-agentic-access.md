@@ -9,37 +9,37 @@ api_specs:
   label: Bitwarden Collections API
   slug: bitwarden-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-collections-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-collections-api-openapi.yml
 - filename: bitwarden-events-api-openapi.yml
   format: yaml
   label: Bitwarden Events API
   slug: bitwarden-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-events-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-events-api-openapi.yml
 - filename: bitwarden-groups-api-openapi.yml
   format: yaml
   label: Bitwarden Groups API
   slug: bitwarden-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-groups-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-groups-api-openapi.yml
 - filename: bitwarden-members-api-openapi.yml
   format: yaml
   label: Bitwarden Members API
   slug: bitwarden-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-members-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-members-api-openapi.yml
 - filename: bitwarden-organization-api-openapi.yml
   format: yaml
   label: Bitwarden Organization API
   slug: bitwarden-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-organization-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-organization-api-openapi.yml
 - filename: bitwarden-policies-api-openapi.yml
   format: yaml
   label: Bitwarden Policies API
   slug: bitwarden-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/openapi/bitwarden-policies-api-openapi.yml
+  url: https://artifacts.apis.io/bitwarden/openapi/bitwarden-policies-api-openapi.yml
 consequence_counts:
   read: 11
   write: 13
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bitwar
   - path: /public/members/{id}/group-ids\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api.organization\n- path: /public/members/{id}/group-ids\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api.organization\n- path: /public/members\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api.organization\n- path: /public/members\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api.organization\n- path: /public/members/{id}/reinvite\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api.organization\n- path: /public/organization/import\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api.organization\n- path: /public/policies/{type}\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api.organization\n- path: /public/policies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api.organization\n- path: /public/policies/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api.organization\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/agentic-access/bitwarden-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitwarden/agentic-access/bitwarden-agentic-access.yml
 summary_line: 24 operations · 13 acting
 tags:
 - Security

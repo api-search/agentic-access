@@ -9,253 +9,253 @@ api_specs:
   label: token-io Account on File API
   slug: token-io-account-on-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-account-on-file-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-account-on-file-api-openapi.yml
 - filename: token-io-accounts-api-openapi.yml
   format: yaml
   label: token-io Accounts API
   slug: token-io-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-accounts-api-openapi.yml
 - filename: token-io-authentication-keys-api-openapi.yml
   format: yaml
   label: token-io Authentication keys API
   slug: token-io-authentication-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-authentication-keys-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-authentication-keys-api-openapi.yml
 - filename: token-io-banks-v1-api-openapi.yml
   format: yaml
   label: token-io Banks v1 API
   slug: token-io-banks-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-banks-v1-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-banks-v1-api-openapi.yml
 - filename: token-io-banks-v2-api-openapi.yml
   format: yaml
   label: token-io Banks v2 API
   slug: token-io-banks-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-banks-v2-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-banks-v2-api-openapi.yml
 - filename: token-io-pay-by-link-api-openapi.yml
   format: yaml
   label: token-io Pay by Link API
   slug: token-io-pay-by-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-pay-by-link-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-pay-by-link-api-openapi.yml
 - filename: token-io-payments-v2-api-openapi.yml
   format: yaml
   label: token-io Payments v2 API
   slug: token-io-payments-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-payments-v2-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-payments-v2-api-openapi.yml
 - filename: token-io-payouts-api-openapi.yml
   format: yaml
   label: token-io Payouts API
   slug: token-io-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-payouts-api-openapi.yml
 - filename: token-io-refunds-api-openapi.yml
   format: yaml
   label: token-io Refunds API
   slug: token-io-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-refunds-api-openapi.yml
 - filename: token-io-reports-api-openapi.yml
   format: yaml
   label: token-io Reports API
   slug: token-io-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-reports-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-reports-api-openapi.yml
 - filename: token-io-requests-for-payments-v1-or-ais-api-openapi.yml
   format: yaml
   label: token-io Requests - for Payments v1 or AIS API
   slug: token-io-requests-for-payments-v1-or-ais-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-requests-for-payments-v1-or-ais-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-requests-for-payments-v1-or-ais-api-openapi.yml
 - filename: token-io-settlement-accounts-api-openapi.yml
   format: yaml
   label: token-io Settlement Accounts API
   slug: token-io-settlement-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-settlement-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-settlement-accounts-api-openapi.yml
 - filename: token-io-sub-tpps-api-openapi.yml
   format: yaml
   label: token-io Sub-TPPs API
   slug: token-io-sub-tpps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-sub-tpps-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-sub-tpps-api-openapi.yml
 - filename: token-io-tokens-api-openapi.yml
   format: yaml
   label: token-io Tokens API
   slug: token-io-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-tokens-api-openapi.yml
 - filename: token-io-transfers-for-payments-v1-api-openapi.yml
   format: yaml
   label: token-io Transfers - for Payments v1 API
   slug: token-io-transfers-for-payments-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-transfers-for-payments-v1-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-transfers-for-payments-v1-api-openapi.yml
 - filename: token-io-variable-recurring-payments-api-openapi.yml
   format: yaml
   label: token-io Variable Recurring Payments API
   slug: token-io-variable-recurring-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-variable-recurring-payments-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-variable-recurring-payments-api-openapi.yml
 - filename: token-io-verification-api-openapi.yml
   format: yaml
   label: token-io Verification API
   slug: token-io-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-verification-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-verification-api-openapi.yml
 - filename: token-io-webhooks-api-openapi.yml
   format: yaml
   label: token-io Webhooks API
   slug: token-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-webhooks-api-openapi.yml
 - filename: token-io-account-verifications-api-openapi.yml
   format: yaml
   label: Token.io Account Verifications API
   slug: token-io-account-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-account-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-account-verifications-api-openapi.yml
 - filename: token-io-bankconfigs-api-openapi.yml
   format: yaml
   label: Token.io Bank Configs API
   slug: token-io-bankconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-bankconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-bankconfigs-api-openapi.yml
 - filename: token-io-banks-api-openapi.yml
   format: yaml
   label: Token.io Banks API
   slug: token-io-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-banks-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-banks-api-openapi.yml
 - filename: token-io-consents-api-openapi.yml
   format: yaml
   label: Token.io Consents API
   slug: token-io-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-consents-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-consents-api-openapi.yml
 - filename: token-io-eidas-api-openapi.yml
   format: yaml
   label: Token.io Eidas API
   slug: token-io-eidas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-eidas-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-eidas-api-openapi.yml
 - filename: token-io-health-api-openapi.yml
   format: yaml
   label: Token.io Health API
   slug: token-io-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-health-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-health-api-openapi.yml
 - filename: token-io-info-api-openapi.yml
   format: yaml
   label: Token.io Info API
   slug: token-io-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-info-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-info-api-openapi.yml
 - filename: token-io-member-api-openapi.yml
   format: yaml
   label: Token.io Member API
   slug: token-io-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-member-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-member-api-openapi.yml
 - filename: token-io-members-api-openapi.yml
   format: yaml
   label: Token.io Members API
   slug: token-io-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-members-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-members-api-openapi.yml
 - filename: token-io-partner-api-openapi.yml
   format: yaml
   label: Token.io Partner API
   slug: token-io-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-partner-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-partner-api-openapi.yml
 - filename: token-io-payment-links-api-openapi.yml
   format: yaml
   label: Token.io Payment Links API
   slug: token-io-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-payment-links-api-openapi.yml
 - filename: token-io-payments-api-openapi.yml
   format: yaml
   label: Token.io Payments API
   slug: token-io-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-payments-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-payments-api-openapi.yml
 - filename: token-io-provider-api-openapi.yml
   format: yaml
   label: Token.io Provider API
   slug: token-io-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-provider-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-provider-api-openapi.yml
 - filename: token-io-qr-code-api-openapi.yml
   format: yaml
   label: Token.io Qr Code API
   slug: token-io-qr-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-qr-code-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-qr-code-api-openapi.yml
 - filename: token-io-refund-api-openapi.yml
   format: yaml
   label: Token.io Refund API
   slug: token-io-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-refund-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-refund-api-openapi.yml
 - filename: token-io-requests-api-openapi.yml
   format: yaml
   label: Token.io Requests API
   slug: token-io-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-requests-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-requests-api-openapi.yml
 - filename: token-io-secrets-api-openapi.yml
   format: yaml
   label: Token.io Secrets API
   slug: token-io-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-secrets-api-openapi.yml
 - filename: token-io-subtpp-api-openapi.yml
   format: yaml
   label: Token.io Sub Tpp API
   slug: token-io-subtpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-subtpp-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-subtpp-api-openapi.yml
 - filename: token-io-tokenized-accounts-api-openapi.yml
   format: yaml
   label: Token.io Tokenized Accounts API
   slug: token-io-tokenized-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-tokenized-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-tokenized-accounts-api-openapi.yml
 - filename: token-io-transfers-api-openapi.yml
   format: yaml
   label: Token.io Transfers API
   slug: token-io-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-transfers-api-openapi.yml
 - filename: token-io-tsp-api-openapi.yml
   format: yaml
   label: Token.io Tsp API
   slug: token-io-tsp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-tsp-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-tsp-api-openapi.yml
 - filename: token-io-virtual-accounts-api-openapi.yml
   format: yaml
   label: Token.io Virtual Accounts API
   slug: token-io-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-virtual-accounts-api-openapi.yml
 - filename: token-io-vrps-api-openapi.yml
   format: yaml
   label: Token.io Vrps API
   slug: token-io-vrps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-vrps-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-vrps-api-openapi.yml
 - filename: token-io-webhook-api-openapi.yml
   format: yaml
   label: Token.io Webhook API
   slug: token-io-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/openapi/token-io-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/token-io/openapi/token-io-webhook-api-openapi.yml
 consequence_counts:
   physical: 28
   read: 129
@@ -444,8 +444,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/token-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/product/restrictions/{restrictionId}\n  method: delete\n  operationId: GatewayService.DeleteRestriction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/product/restrictions/{restrictionId}/rule\n  method: post\n  operationId: GatewayService.CreateRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/product/restrictions/{restrictionId}/rules/{ruleId}\n  method: put\n  operationId: GatewayService.UpdateRule\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/product/restrictions/{restrictionId}/rules/{ruleId}\n  method: delete\n  operationId: GatewayService.DeleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/sub-tpps\n  method: get\n  operationId: GatewayService.RetrieveSubTpps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/sub-tpps\n  method: post\n  operationId: GatewayService.CreateSubTpp\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/sub-tpps/{subTppId}\n  method: get\n  operationId: GatewayService.RetrieveSubTpp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/sub-tpps/{subTppId}\n  method: put\n  operationId: GatewayService.UpdateSubTpp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/sub-tpps/{subTppId}\n  method: delete\n  operationId: GatewayService.DeleteSubTpp\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/sub-tpps/{subTppId}/children\n  method: get\n  operationId: GatewayService.RetrieveSubTppChildren\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/sub-tpps/{subTppId}/documents\n  method: get\n  operationId: GatewayService.GetDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/agentic-access/token-io-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/agentic-access/token-io-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /member/sub-tpps/{subTppId}/children\n  method: get\n  operationId: GatewayService.RetrieveSubTppChildren\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member/sub-tpps/{subTppId}/documents\n  method: get\n  operationId: GatewayService.GetDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://artifacts.apis.io/token-io/agentic-access/token-io-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/token-io/agentic-access/token-io-agentic-access.yml
 summary_line: 215 operations · 86 acting · 3 human-in-the-loop
 tags:
 - Payments

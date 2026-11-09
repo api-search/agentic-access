@@ -9,25 +9,25 @@ api_specs:
   label: Quiver Quantitative Beta API
   slug: quiver-quantitative-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-beta-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-beta-api-openapi.yml
 - filename: quiver-quantitative-tier-1-api-openapi.yml
   format: yaml
   label: Quiver Quantitative Tier 1 API
   slug: quiver-quantitative-tier-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-tier-1-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-tier-1-api-openapi.yml
 - filename: quiver-quantitative-tier-2-api-openapi.yml
   format: yaml
   label: Quiver Quantitative Tier 2 API
   slug: quiver-quantitative-tier-2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-tier-2-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-tier-2-api-openapi.yml
 - filename: quiver-quantitative-tier-new-constructs-ratings-api-openapi.yml
   format: yaml
   label: Quiver Quantitative Tier New Constructs Ratings API
   slug: quiver-quantitative-tier-new-constructs-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/openapi/quiver-quantitative-tier-new-constructs-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/quiver-quantitative/openapi/quiver-quantitative-tier-new-constructs-ratings-api-openapi.yml
 consequence_counts:
   read: 51
   write: 2
@@ -67,11 +67,17 @@ source_yaml: "generated: '2026-09-21'\nmethod: generated\nsource: openapi/quiver
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/live/senatetrading\n  method: get\n  operationId: live_senatetrading_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/live/topshareholders/{ticker}\n  method: get\n  operationId: live_topshareholders_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/personalities\n  method: get\n  operationId: personalities_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/strategies/holdings\n  method: get\n  operationId: strategies_holdings_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/strategies/holdings_infrequent\n  method: get\n  operationId: strategies_holdings_infrequent_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/tickerdata\n  method: get\n  operationId: tickerdata_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/today/eventsbeta\n  method: get\n  operationId: today_eventsbeta_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/token/login/\n  method: post\n  operationId: token_login_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/token/logout/\n  method: post\n  operationId: token_logout_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quiver-quantitative/refs/heads/main/agentic-access/quiver-quantitative-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quiver-quantitative/agentic-access/quiver-quantitative-agentic-access.yml
 summary_line: 53 operations · 2 acting
 tags:
 - Company
 - Data
 - Finance
 - Politics
+- Alternative Data
+- Financial Data
+- Investment Research
+- Market Data
+- Government Data
+- Congressional Trading
 ---

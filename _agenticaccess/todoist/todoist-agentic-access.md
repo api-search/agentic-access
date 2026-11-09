@@ -9,55 +9,55 @@ api_specs:
   label: Todoist Comments API
   slug: todoist-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-comments-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-comments-api-openapi.yml
 - filename: todoist-labels-api-openapi.yml
   format: yaml
   label: Todoist Labels API
   slug: todoist-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-labels-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-labels-api-openapi.yml
 - filename: todoist-projects-api-openapi.yml
   format: yaml
   label: Todoist Projects API
   slug: todoist-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-projects-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-projects-api-openapi.yml
 - filename: todoist-reminders-api-openapi.yml
   format: yaml
   label: Todoist Reminders API
   slug: todoist-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-reminders-api-openapi.yml
 - filename: todoist-sections-api-openapi.yml
   format: yaml
   label: Todoist Sections API
   slug: todoist-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-sections-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-sections-api-openapi.yml
 - filename: todoist-sync-api-openapi.yml
   format: yaml
   label: Todoist Sync API
   slug: todoist-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-sync-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-sync-api-openapi.yml
 - filename: todoist-tasks-api-openapi.yml
   format: yaml
   label: Todoist Tasks API
   slug: todoist-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-tasks-api-openapi.yml
 - filename: todoist-user-api-openapi.yml
   format: yaml
   label: Todoist User API
   slug: todoist-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-user-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-user-api-openapi.yml
 - filename: todoist-workspaces-api-openapi.yml
   format: yaml
   label: Todoist Workspaces API
   slug: todoist-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/openapi/todoist-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/todoist/openapi/todoist-workspaces-api-openapi.yml
 consequence_counts:
   read: 18
   write: 23
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/todois
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reminders/{id}\n  method: get\n  operationId: getReminder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reminders/{id}\n  method: delete\n  operationId: deleteReminder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
   \    max-ttl: 3600\n    audit: none\n- path: /workspaces/{id}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{id}/users\n  method: get\n  operationId: listWorkspaceUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/stats\n  method: get\n  operationId: getUserStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sync\n  method: post\n  operationId: sync\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/agentic-access/todoist-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/todoist/agentic-access/todoist-agentic-access.yml
 summary_line: 41 operations · 23 acting
 tags:
 - Productivity

@@ -9,49 +9,55 @@ api_specs:
   label: Amazon IAM Access Analyzer Access Preview API
   slug: amazon-iam-access-analyzer-access-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-access-preview-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-access-preview-api-openapi.yml
 - filename: amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Analyzed Resource API
   slug: amazon-iam-access-analyzer-analyzed-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-analyzed-resource-api-openapi.yml
 - filename: amazon-iam-access-analyzer-analyzer-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer API
   slug: amazon-iam-access-analyzer-analyzer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-analyzer-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-analyzer-api-openapi.yml
 - filename: amazon-iam-access-analyzer-archive-rule-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Archive Rule API
   slug: amazon-iam-access-analyzer-archive-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-archive-rule-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-archive-rule-api-openapi.yml
 - filename: amazon-iam-access-analyzer-finding-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Finding API
   slug: amazon-iam-access-analyzer-finding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-finding-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-finding-api-openapi.yml
 - filename: amazon-iam-access-analyzer-policy-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Policy API
   slug: amazon-iam-access-analyzer-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-policy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-policy-api-openapi.yml
 - filename: amazon-iam-access-analyzer-resource-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Resource API
   slug: amazon-iam-access-analyzer-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-resource-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-resource-api-openapi.yml
 - filename: amazon-iam-access-analyzer-tags-api-openapi.yml
   format: yaml
   label: Amazon IAM Access Analyzer Tags API
   slug: amazon-iam-access-analyzer-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/openapi/amazon-iam-access-analyzer-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-tags-api-openapi.yml
+- filename: amazon-iam-access-analyzer-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Access Analyzer Iam Access Analyzer Operations API
+  slug: amazon-iam-access-analyzer-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam-access-analyzer/openapi/amazon-iam-access-analyzer-operations-api-openapi.yml
 consequence_counts:
   read: 14
   write: 14
@@ -87,10 +93,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  method: get\n  operationId: GetGeneratedPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/generation\n  method: get\n  operationId: ListPolicyGenerations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /policy/generation\n  method: put\n  operationId: StartPolicyGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /policy/validation\n  method: post\n  operationId: ValidatePolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resource/scan\n  method: post\n  operationId: StartResourceScan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iam-access-analyzer/refs/heads/main/agentic-access/amazon-iam-access-analyzer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iam-access-analyzer/agentic-access/amazon-iam-access-analyzer-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - Access Control
+- Amazon Web Services
 - Compliance
 - Identity and Access Management
 - Policy Management

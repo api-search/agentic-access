@@ -8,19 +8,19 @@ api_specs:
   label: OpenSky Network Flights API
   slug: opensky-flights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-flights-api-openapi.yml
+  url: https://artifacts.apis.io/opensky/openapi/opensky-flights-api-openapi.yml
 - filename: opensky-state-vectors-api-openapi.yml
   format: yaml
   label: OpenSky Network State Vectors API
   slug: opensky-state-vectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-state-vectors-api-openapi.yml
+  url: https://artifacts.apis.io/opensky/openapi/opensky-state-vectors-api-openapi.yml
 - filename: opensky-tracks-api-openapi.yml
   format: yaml
   label: OpenSky Network Tracks API
   slug: opensky-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/openapi/opensky-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/opensky/openapi/opensky-tracks-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/opensky-rest-api.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /states/all\n  method: get\n  operationId: getStateVectorsAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /states/own\n  method: get\n  operationId: getOwnStateVectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/all\n  method: get\n  operationId: getFlightsAll\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/aircraft\n  method: get\n  operationId: getFlightsByAircraft\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/arrival\n  method: get\n  operationId: getFlightsByArrivalAirport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flights/departure\n  method: get\n  operationId: getFlightsByDepartureAirport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracks\n  method: get\n  operationId: getTrackByAircraft\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensky/refs/heads/main/agentic-access/opensky-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opensky/agentic-access/opensky-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Aviation

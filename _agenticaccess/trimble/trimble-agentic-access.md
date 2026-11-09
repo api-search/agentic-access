@@ -9,67 +9,67 @@ api_specs:
   label: Trimble BCF Topics API
   slug: trimble-bcf-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-bcf-topics-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-bcf-topics-api-openapi.yml
 - filename: trimble-files-api-openapi.yml
   format: yaml
   label: Trimble Files API
   slug: trimble-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-files-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-files-api-openapi.yml
 - filename: trimble-geocoding-api-openapi.yml
   format: yaml
   label: Trimble Geocoding API
   slug: trimble-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-geocoding-api-openapi.yml
 - filename: trimble-projects-api-openapi.yml
   format: yaml
   label: Trimble Projects API
   slug: trimble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-projects-api-openapi.yml
 - filename: trimble-routing-api-openapi.yml
   format: yaml
   label: Trimble Routing API
   slug: trimble-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-routing-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-routing-api-openapi.yml
 - filename: trimble-users-api-openapi.yml
   format: yaml
   label: Trimble Users API
   slug: trimble-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-users-api-openapi.yml
 - filename: trimble-catalyst-api-openapi.yml
   format: yaml
   label: Trimble Catalyst API
   slug: trimble-catalyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-catalyst-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-catalyst-api-openapi.yml
 - filename: trimble-corrections-api-openapi.yml
   format: yaml
   label: Trimble Corrections API
   slug: trimble-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-corrections-api-openapi.yml
 - filename: trimble-positioning-api-openapi.yml
   format: yaml
   label: Trimble Positioning API
   slug: trimble-positioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-positioning-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-positioning-api-openapi.yml
 - filename: trimble-receiver-api-openapi.yml
   format: yaml
   label: Trimble Receiver API
   slug: trimble-receiver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-receiver-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-receiver-api-openapi.yml
 - filename: trimble-system-api-openapi.yml
   format: yaml
   label: Trimble System API
   slug: trimble-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-system-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-system-api-openapi.yml
 consequence_counts:
   read: 11
   write: 5
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trimbl
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/files/{fileId}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/topics\n  method: get\n  operationId: listBCFTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/topics\n  method: post\n  operationId: createBCFTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/topics/{topicGuid}\n  method: get\n  operationId: getBCFTopic\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/topics/{topicGuid}\n  method: put\n  operationId: updateBCFTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/members\n  method: get\n  operationId: listProjectMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Service.svc/route\n  method: get\n  operationId: calculateRoute\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Service.svc/mileage\n  method: get\n  operationId: getMileage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Service.svc/geocode\n  method: get\n  operationId: geocodeAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Service.svc/reverseGeocode\n  method: get\n  operationId: reverseGeocode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/agentic-access/trimble-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trimble/agentic-access/trimble-agentic-access.yml
 summary_line: 16 operations · 5 acting
 tags:
 - Construction

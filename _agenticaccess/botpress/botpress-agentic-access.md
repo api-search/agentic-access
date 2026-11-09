@@ -9,37 +9,37 @@ api_specs:
   label: Botpress Admin API
   slug: botpress-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-admin-api-openapi.yml
+  url: https://artifacts.apis.io/botpress/openapi/botpress-admin-api-openapi.yml
 - filename: botpress-conversations-api-openapi.yml
   format: yaml
   label: Botpress Conversations API
   slug: botpress-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/botpress/openapi/botpress-conversations-api-openapi.yml
 - filename: botpress-files-api-openapi.yml
   format: yaml
   label: Botpress Files API
   slug: botpress-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-files-api-openapi.yml
+  url: https://artifacts.apis.io/botpress/openapi/botpress-files-api-openapi.yml
 - filename: botpress-messages-api-openapi.yml
   format: yaml
   label: Botpress Messages API
   slug: botpress-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-messages-api-openapi.yml
+  url: https://artifacts.apis.io/botpress/openapi/botpress-messages-api-openapi.yml
 - filename: botpress-tables-api-openapi.yml
   format: yaml
   label: Botpress Tables API
   slug: botpress-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-tables-api-openapi.yml
+  url: https://artifacts.apis.io/botpress/openapi/botpress-tables-api-openapi.yml
 - filename: botpress-users-api-openapi.yml
   format: yaml
   label: Botpress Users API
   slug: botpress-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/openapi/botpress-users-api-openapi.yml
+  url: https://artifacts.apis.io/botpress/openapi/botpress-users-api-openapi.yml
 consequence_counts:
   read: 13
   write: 18
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/botpre
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tables\n  method: post\n  operationId: createTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/rows\n  method: post\n  operationId: insertTableRows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/rows\n  method: put\n  operationId: updateTableRows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tables/{id}/rows/find\n  method: post\n  operationId: findTableRows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/users/{id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/users/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/botpress/refs/heads/main/agentic-access/botpress-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/botpress/agentic-access/botpress-agentic-access.yml
 summary_line: 31 operations · 18 acting
 tags:
 - Artificial Intelligence

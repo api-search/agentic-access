@@ -9,19 +9,19 @@ api_specs:
   label: Openverse Audio API
   slug: openverse-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-audio-api-openapi.yml
+  url: https://artifacts.apis.io/openverse/openapi/openverse-audio-api-openapi.yml
 - filename: openverse-auth-api-openapi.yml
   format: yaml
   label: Openverse Auth API
   slug: openverse-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-auth-api-openapi.yml
+  url: https://artifacts.apis.io/openverse/openapi/openverse-auth-api-openapi.yml
 - filename: openverse-images-api-openapi.yml
   format: yaml
   label: Openverse Images API
   slug: openverse-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/openapi/openverse-images-api-openapi.yml
+  url: https://artifacts.apis.io/openverse/openapi/openverse-images-api-openapi.yml
 consequence_counts:
   read: 13
   write: 4
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ none\n- path: /v1/audio/stats/\n  method: get\n  operationId: audio_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/auth_tokens/register/\n  method: post\n  operationId: register\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth_tokens/token/\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/\n  method: get\n  operationId: images_search\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/{identifier}/\n  method: get\n  operationId: images_detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/{identifier}/related/\n  method: get\n  operationId: images_related\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/{identifier}/report/\n  method: post\n  operationId: images_report\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/{identifier}/thumb/\n  method: get\n\
   \  operationId: images_thumb\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/oembed/\n  method: get\n  operationId: images_oembed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/stats/\n  method: get\n  operationId: images_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/rate_limit/\n  method: get\n  operationId: key_info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/agentic-access/openverse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openverse/agentic-access/openverse-agentic-access.yml
 summary_line: 17 operations · 4 acting
 tags:
 - Image

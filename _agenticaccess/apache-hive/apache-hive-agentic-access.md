@@ -9,19 +9,19 @@ api_specs:
   label: Apache Hive Databases API
   slug: apache-hive-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-databases-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hive/openapi/apache-hive-databases-api-openapi.yml
 - filename: apache-hive-jobs-api-openapi.yml
   format: yaml
   label: Apache Hive Jobs API
   slug: apache-hive-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hive/openapi/apache-hive-jobs-api-openapi.yml
 - filename: apache-hive-tables-api-openapi.yml
   format: yaml
   label: Apache Hive Tables API
   slug: apache-hive-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/openapi/apache-hive-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hive/openapi/apache-hive-tables-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache-hive-webhcat-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 6\n    acting: 1\n  by_consequence:\n    read: 6\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /ddl/database\n  method: get\n  operationId: listDatabases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ddl/database/{dbName}\n  method: get\n  operationId: getDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ddl/database/{dbName}/table\n\
   \  method: get\n  operationId: listTables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ddl/database/{dbName}/table/{tableName}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ddl/database/{dbName}/table/{tableName}/partition\n  method: get\n  operationId: listPartitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hive\n  method: post\n  operationId: submitHiveJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /jobs/{jobId}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-hive/refs/heads/main/agentic-access/apache-hive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-hive/agentic-access/apache-hive-agentic-access.yml
 summary_line: 7 operations · 1 acting
 tags:
 - Apache

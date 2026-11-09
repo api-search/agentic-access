@@ -9,43 +9,43 @@ api_specs:
   label: XRPay Connected account API
   slug: xrpay-connected-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-connected-account-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-connected-account-api-openapi.yml
 - filename: xrpay-payment-intents-api-openapi.yml
   format: yaml
   label: XRPay Payment intents API
   slug: xrpay-payment-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-payment-intents-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-payment-intents-api-openapi.yml
 - filename: xrpay-payouts-api-openapi.yml
   format: yaml
   label: XRPay Payouts API
   slug: xrpay-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-payouts-api-openapi.yml
 - filename: xrpay-payroll-api-openapi.yml
   format: yaml
   label: XRPay Payroll API
   slug: xrpay-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-payroll-api-openapi.yml
 - filename: xrpay-refunds-api-openapi.yml
   format: yaml
   label: XRPay Refunds API
   slug: xrpay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-refunds-api-openapi.yml
 - filename: xrpay-sandbox-api-openapi.yml
   format: yaml
   label: XRPay Sandbox API
   slug: xrpay-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-sandbox-api-openapi.yml
 - filename: xrpay-webhooks-api-openapi.yml
   format: yaml
   label: XRPay Webhooks API
   slug: xrpay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/openapi/xrpay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xrpay/openapi/xrpay-webhooks-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 21
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/xrpay-
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/payroll/runs/{id}/approve\n  method: post\n  operationId: approvePayrollRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/payroll/runs/{id}/execute\n  method: post\n  operationId: executePayrollRun\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks\n  method:\
   \ get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhooks\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook-deliveries\n  method: get\n  operationId: listWebhookDeliveries\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhook-deliveries\n  method: post\n  operationId: replayWebhookDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/{id}/secret\n  method: post\n  operationId: rotateWebhookSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xrpay/refs/heads/main/agentic-access/xrpay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xrpay/agentic-access/xrpay-agentic-access.yml
 summary_line: 45 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Company

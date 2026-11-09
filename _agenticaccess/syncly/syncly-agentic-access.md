@@ -8,13 +8,13 @@ api_specs:
   label: Syncly Health API
   slug: syncly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-health-api-openapi.yml
+  url: https://artifacts.apis.io/syncly/openapi/syncly-health-api-openapi.yml
 - filename: syncly-well-known-api-openapi.yml
   format: yaml
   label: Syncly .well Known API
   slug: syncly-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/openapi/syncly-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/syncly/openapi/syncly-well-known-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/syncly-social-mcp-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /.well-known/oauth-protected-resource/mcp\n  method: get\n  operationId: oauth_protected_resource__well_known_oauth_protected_resource_mcp_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/oauth-protected-resource\n  method: get\n  operationId: oauth_protected_resource__well_known_oauth_protected_resource_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/openai-apps-challenge\n  method: get\n  operationId: openai_apps_challenge__well_known_openai_apps_challenge_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health_check_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/syncly/refs/heads/main/agentic-access/syncly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/syncly/agentic-access/syncly-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Company

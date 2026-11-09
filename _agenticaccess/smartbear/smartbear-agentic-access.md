@@ -9,31 +9,31 @@ api_specs:
   label: SmartBear Domains API
   slug: smartbear-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-domains-api-openapi.yml
+  url: https://artifacts.apis.io/smartbear/openapi/smartbear-domains-api-openapi.yml
 - filename: smartbear-integrations-api-openapi.yml
   format: yaml
   label: SmartBear Integrations API
   slug: smartbear-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/smartbear/openapi/smartbear-integrations-api-openapi.yml
 - filename: smartbear-organizations-api-openapi.yml
   format: yaml
   label: SmartBear Organizations API
   slug: smartbear-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/smartbear/openapi/smartbear-organizations-api-openapi.yml
 - filename: smartbear-projects-api-openapi.yml
   format: yaml
   label: SmartBear Projects API
   slug: smartbear-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-projects-api-openapi.yml
+  url: https://artifacts.apis.io/smartbear/openapi/smartbear-projects-api-openapi.yml
 - filename: smartbear-apis-api-openapi.yml
   format: yaml
   label: SmartBear APIs API
   slug: smartbear-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/openapi/smartbear-apis-api-openapi.yml
+  url: https://artifacts.apis.io/smartbear/openapi/smartbear-apis-api-openapi.yml
 consequence_counts:
   read: 13
   write: 16
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartb
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org}/members\n  method: get\n  operationId: getOrganizationMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{owner}\n  method: get\n  operationId: getOwnerProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{owner}\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{owner}/{project}\n\
   \  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{owner}/{project}\n  method: delete\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{owner}/{project}/apis\n  method: post\n  operationId: addApiToProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{owner}/{project}/domains\n  method: post\n  operationId: addDomainToProject\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: get\n  operationId: searchApis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/agentic-access/smartbear-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartbear/agentic-access/smartbear-agentic-access.yml
 summary_line: 29 operations · 16 acting
 tags:
 - API Design

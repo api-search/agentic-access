@@ -21,79 +21,79 @@ api_specs:
   label: Encharge Account API
   slug: encharge-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-account-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-account-api-openapi.yml
 - filename: encharge-broadcasts-api-openapi.yml
   format: yaml
   label: Encharge Broadcasts API
   slug: encharge-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-broadcasts-api-openapi.yml
 - filename: encharge-customobjectsschema-api-openapi.yml
   format: yaml
   label: Encharge Custom Objects Schema API
   slug: encharge-customobjectsschema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-customobjectsschema-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-customobjectsschema-api-openapi.yml
 - filename: encharge-folders-api-openapi.yml
   format: yaml
   label: Encharge Folders API
   slug: encharge-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-folders-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-folders-api-openapi.yml
 - filename: encharge-people-api-openapi.yml
   format: yaml
   label: Encharge People API
   slug: encharge-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-people-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-people-api-openapi.yml
 - filename: encharge-personfields-api-openapi.yml
   format: yaml
   label: Encharge Person Fields API
   slug: encharge-personfields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-personfields-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-personfields-api-openapi.yml
 - filename: encharge-segments-api-openapi.yml
   format: yaml
   label: Encharge Segments API
   slug: encharge-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-segments-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-segments-api-openapi.yml
 - filename: encharge-settings-api-openapi.yml
   format: yaml
   label: Encharge Email Domain Settings API
   slug: encharge-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-settings-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-settings-api-openapi.yml
 - filename: encharge-tags-api-openapi.yml
   format: yaml
   label: Encharge Tags API
   slug: encharge-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-tags-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-tags-api-openapi.yml
 - filename: encharge-tags-management-api-openapi.yml
   format: yaml
   label: Encharge Tags Management API
   slug: encharge-tags-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-tags-management-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-tags-management-api-openapi.yml
 - filename: encharge-webhooks-api-openapi.yml
   format: yaml
   label: Encharge Webhooks API
   slug: encharge-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-webhooks-api-openapi.yml
 - filename: encharge-custom-objects-api-openapi.yml
   format: yaml
   label: Encharge Custom Objects API
   slug: encharge-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-custom-objects-api-openapi.yml
 - filename: encharge-email-templates-api-openapi.yml
   format: yaml
   label: Encharge Email Templates API
   slug: encharge-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/openapi/encharge-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/encharge/openapi/encharge-email-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 26
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/enchar
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags-management\n  method: post\n  operationId: CreateAccountTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags-management/counts\n  method: get\n  operationId: GetTagCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags-management/{tag}\n  method: patch\n  operationId: UpdateAccountTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - account:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags-management/{tag}\n  method: delete\n  operationId: DeleteAccountTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - account:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event-subscriptions\n  method: post\n  operationId: CreateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - account:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event-subscriptions/{id}\n  method: delete\n  operationId: DeleteWebhook\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    scope:\n    - account:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/encharge/refs/heads/main/agentic-access/encharge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/encharge/agentic-access/encharge-agentic-access.yml
 summary_line: 69 operations · 43 acting
 tags:
 - Email Marketing

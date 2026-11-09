@@ -9,37 +9,37 @@ api_specs:
   label: Vagaro Appointments API
   slug: vagaro-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-appointments-api-openapi.yml
 - filename: vagaro-authentication-api-openapi.yml
   format: yaml
   label: Vagaro Authentication API
   slug: vagaro-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-authentication-api-openapi.yml
 - filename: vagaro-customers-api-openapi.yml
   format: yaml
   label: Vagaro Customers API
   slug: vagaro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-customers-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-customers-api-openapi.yml
 - filename: vagaro-employee-management-api-openapi.yml
   format: yaml
   label: Vagaro Employee Management API
   slug: vagaro-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employee-management-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-employee-management-api-openapi.yml
 - filename: vagaro-employees-api-openapi.yml
   format: yaml
   label: Vagaro Employees API
   slug: vagaro-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-employees-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-employees-api-openapi.yml
 - filename: vagaro-locations-api-openapi.yml
   format: yaml
   label: Vagaro Locations API
   slug: vagaro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/openapi/vagaro-locations-api-openapi.yml
+  url: https://artifacts.apis.io/vagaro/openapi/vagaro-locations-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vagaro
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /appointments/{appointmentId}\n  method: get\n  operationId: getAppointment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customerId}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees\n  method: get\n  operationId: listEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employeeId}\n\
   \  method: get\n  operationId: getEmployee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employees/{employeeId}/locations/{businessId}/assignment\n  method: put\n  operationId: assignEmployeeToLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employees/{employeeId}/locations/{businessId}/assignment\n  method: delete\n  operationId: unassignEmployeeFromLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{businessId}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vagaro/refs/heads/main/agentic-access/vagaro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vagaro/agentic-access/vagaro-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Salon

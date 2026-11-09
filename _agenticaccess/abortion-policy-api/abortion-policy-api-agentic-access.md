@@ -8,25 +8,25 @@ api_specs:
   label: Abortion Policy API Gestational Limits API
   slug: abortion-policy-api-gestational-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-gestational-limits-api-openapi.yml
 - filename: abortion-policy-api-insurance-coverage-api-openapi.yml
   format: yaml
   label: Abortion Policy API Insurance Coverage API
   slug: abortion-policy-api-insurance-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-insurance-coverage-api-openapi.yml
 - filename: abortion-policy-api-minors-api-openapi.yml
   format: yaml
   label: Abortion Policy API Minors API
   slug: abortion-policy-api-minors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-minors-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-minors-api-openapi.yml
 - filename: abortion-policy-api-waiting-periods-api-openapi.yml
   format: yaml
   label: Abortion Policy API Waiting Periods API
   slug: abortion-policy-api-waiting-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
+  url: https://artifacts.apis.io/abortion-policy-api/openapi/abortion-policy-api-waiting-periods-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aborti
   - path: /gestational_limits/zips/{zip}\n  method: get\n  operationId: getGestationalLimitsByZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insurance_coverage/states\n  method: get\n  operationId: getInsuranceCoverageAllStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insurance_coverage/states/{state}\n  method: get\n  operationId: getInsuranceCoverageByState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /insurance_coverage/zips/{zip}\n  method: get\n  operationId: getInsuranceCoverageByZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /minors/states\n\
   \  method: get\n  operationId: getMinorsAllStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /minors/states/{state}\n  method: get\n  operationId: getMinorsByState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /minors/zips/{zip}\n  method: get\n  operationId: getMinorsByZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /waiting_periods/states\n  method: get\n  operationId: getWaitingPeriodsAllStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /waiting_periods/states/{state}\n  method: get\n  operationId: getWaitingPeriodsByState\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /waiting_periods/zips/{zip}\n  method: get\n  operationId: getWaitingPeriodsByZip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/abortion-policy-api/refs/heads/main/agentic-access/abortion-policy-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/abortion-policy-api/agentic-access/abortion-policy-api-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Abortion

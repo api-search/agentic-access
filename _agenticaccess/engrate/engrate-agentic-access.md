@@ -9,109 +9,109 @@ api_specs:
   label: Engrate Audit Logs API
   slug: engrate-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-audit-logs-api-openapi.yml
 - filename: engrate-benachrichtigung-api-openapi.yml
   format: yaml
   label: Engrate Benachrichtigung API
   slug: engrate-benachrichtigung-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-benachrichtigung-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-benachrichtigung-api-openapi.yml
 - filename: engrate-betrieb-api-openapi.yml
   format: yaml
   label: Engrate Betrieb API
   slug: engrate-betrieb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-betrieb-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-betrieb-api-openapi.yml
 - filename: engrate-clearing-api-openapi.yml
   format: yaml
   label: Engrate Clearing API
   slug: engrate-clearing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-clearing-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-clearing-api-openapi.yml
 - filename: engrate-core-api-openapi.yml
   format: yaml
   label: Engrate Core API
   slug: engrate-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-core-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-core-api-openapi.yml
 - filename: engrate-cost-of-energy-api-openapi.yml
   format: yaml
   label: Engrate Cost Of Energy API
   slug: engrate-cost-of-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-cost-of-energy-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-cost-of-energy-api-openapi.yml
 - filename: engrate-geo-api-openapi.yml
   format: yaml
   label: Engrate Geo API
   slug: engrate-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-geo-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-geo-api-openapi.yml
 - filename: engrate-holidays-api-openapi.yml
   format: yaml
   label: Engrate Holidays API
   slug: engrate-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-holidays-api-openapi.yml
 - filename: engrate-lokationen-api-openapi.yml
   format: yaml
   label: Engrate Lokationen API
   slug: engrate-lokationen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-lokationen-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-lokationen-api-openapi.yml
 - filename: engrate-lokationsb-ndel-api-openapi.yml
   format: yaml
   label: Engrate Lokationsbündel API
   slug: engrate-lokationsb-ndel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-lokationsb-ndel-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-lokationsb-ndel-api-openapi.yml
 - filename: engrate-mabis-api-openapi.yml
   format: yaml
   label: Engrate Mabis API
   slug: engrate-mabis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-mabis-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-mabis-api-openapi.yml
 - filename: engrate-netzbetreiberwechsel-api-openapi.yml
   format: yaml
   label: Engrate Netzbetreiberwechsel API
   slug: engrate-netzbetreiberwechsel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-netzbetreiberwechsel-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-netzbetreiberwechsel-api-openapi.yml
 - filename: engrate-nl-settlement-api-openapi.yml
   format: yaml
   label: Engrate Nl Settlement API
   slug: engrate-nl-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-nl-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-nl-settlement-api-openapi.yml
 - filename: engrate-profiles-api-openapi.yml
   format: yaml
   label: Engrate Profiles API
   slug: engrate-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-profiles-api-openapi.yml
 - filename: engrate-reference-api-openapi.yml
   format: yaml
   label: Engrate Reference API
   slug: engrate-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-reference-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-reference-api-openapi.yml
 - filename: engrate-schedules-api-openapi.yml
   format: yaml
   label: Engrate Schedules API
   slug: engrate-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-schedules-api-openapi.yml
 - filename: engrate-status-request-api-openapi.yml
   format: yaml
   label: Engrate Status Request API
   slug: engrate-status-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-status-request-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-status-request-api-openapi.yml
 - filename: engrate-time-series-api-openapi.yml
   format: yaml
   label: Engrate Time Series API
   slug: engrate-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/openapi/engrate-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/engrate/openapi/engrate-time-series-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 45
@@ -166,7 +166,7 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/engrat
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schedule-management/v1/schedules/{uid}\n  method: get\n  operationId: get_schedule_schedule_management_v1_schedules__uid__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/schedules/{uid}/anomalies\n  method: get\n  operationId: get_schedule_anomalies_schedule_management_v1_schedules__uid__anomalies_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/schedules/{uid}/delivery-status\n  method: get\n  operationId: get_delivery_status_schedule_management_v1_schedules__uid__delivery_status_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/schedules/{uid}/incoming-messages\n  method: get\n  operationId: list_incoming_messages_schedule_management_v1_schedules__uid__incoming_messages_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/schedules/{uid}/reconciliation\n  method: get\n  operationId: get_schedule_reconciliation_schedule_management_v1_schedules__uid__reconciliation_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/schedules/{uid}/versions\n  method: get\n  operationId: list_schedule_versions_schedule_management_v1_schedules__uid__versions_get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/schedules/{uid}/versions/{version_number}\n  method: get\n  operationId: get_schedule_version_schedule_management_v1_schedules__uid__versions__version_number__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schedule-management/v1/send_status_request\n  method: post\n  operationId: send_status_request_schedule_management_v1_send_status_request_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engrate/refs/heads/main/agentic-access/engrate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/engrate/agentic-access/engrate-agentic-access.yml
 summary_line: 54 operations · 9 acting
 tags:
 - Company

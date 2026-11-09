@@ -9,37 +9,37 @@ api_specs:
   label: Userpilot Analytics API
   slug: userpilot-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/userpilot/openapi/userpilot-analytics-api-openapi.yml
 - filename: userpilot-background-jobs-api-openapi.yml
   format: yaml
   label: Userpilot Background Jobs API
   slug: userpilot-background-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-background-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/userpilot/openapi/userpilot-background-jobs-api-openapi.yml
 - filename: userpilot-companies-api-openapi.yml
   format: yaml
   label: Userpilot Companies API
   slug: userpilot-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-companies-api-openapi.yml
+  url: https://artifacts.apis.io/userpilot/openapi/userpilot-companies-api-openapi.yml
 - filename: userpilot-imports-api-openapi.yml
   format: yaml
   label: Userpilot Imports API
   slug: userpilot-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-imports-api-openapi.yml
+  url: https://artifacts.apis.io/userpilot/openapi/userpilot-imports-api-openapi.yml
 - filename: userpilot-track-api-openapi.yml
   format: yaml
   label: Userpilot Track API
   slug: userpilot-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-track-api-openapi.yml
+  url: https://artifacts.apis.io/userpilot/openapi/userpilot-track-api-openapi.yml
 - filename: userpilot-realtime-api-openapi.yml
   format: yaml
   label: Userpilot Realtime API
   slug: userpilot-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/openapi/userpilot-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/userpilot/openapi/userpilot-realtime-api-openapi.yml
 consequence_counts:
   read: 16
   write: 7
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/userpi
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/events_properties\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/flows\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/banners\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/embeds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /api/v1/analytics/exports/lookups/spotlights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/surveys\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/resource_center_modules\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports/lookups/checklists\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/analytics/exports\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/agentic-access/userpilot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/userpilot/agentic-access/userpilot-agentic-access.yml
 summary_line: 23 operations · 7 acting
 tags:
 - Product

@@ -8,19 +8,19 @@ api_specs:
   label: Meteomatics Authentication API
   slug: meteomatics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/meteomatics/openapi/meteomatics-authentication-api-openapi.yml
 - filename: meteomatics-user-api-openapi.yml
   format: yaml
   label: Meteomatics User API
   slug: meteomatics-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-user-api-openapi.yml
+  url: https://artifacts.apis.io/meteomatics/openapi/meteomatics-user-api-openapi.yml
 - filename: meteomatics-weather-data-api-openapi.yml
   format: yaml
   label: Meteomatics Weather Data API
   slug: meteomatics-weather-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/openapi/meteomatics-weather-data-api-openapi.yml
+  url: https://artifacts.apis.io/meteomatics/openapi/meteomatics-weather-data-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/meteomatics-weather-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /user_stats\n  method: get\n  operationId: getUserStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user_stats_json\n  method: get\n  operationId: getUserStatsJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{validdatetime}/{parameters}/{location}/json\n  method:\
   \ get\n  operationId: getWeatherDataJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{validdatetime}/{parameters}/{location}/csv\n  method: get\n  operationId: getWeatherDataCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{validdatetime}/{parameters}/{location}/xml\n  method: get\n  operationId: getWeatherDataXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{validdatetime}/{parameters}/{location}/png\n  method: get\n  operationId: getWeatherDataPng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/token\n  method: get\n  operationId: getToken\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meteomatics/refs/heads/main/agentic-access/meteomatics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meteomatics/agentic-access/meteomatics-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Weather

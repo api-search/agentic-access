@@ -9,31 +9,31 @@ api_specs:
   label: Log10 Feedback API
   slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedback-api-openapi.yml
 - filename: log10-completions-api-openapi.yml
   format: yaml
   label: Log10 Completions API
   slug: log10-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-completions-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-completions-api-openapi.yml
 - filename: log10-feedback-api-openapi.yml
   format: yaml
   label: Log10 Feedback API
   slug: log10-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedback-api-openapi.yml
 - filename: log10-feedbacktasks-api-openapi.yml
   format: yaml
   label: Log10 FeedbackTasks API
   slug: log10-feedbacktasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-feedbacktasks-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-feedbacktasks-api-openapi.yml
 - filename: log10-sessions-api-openapi.yml
   format: yaml
   label: Log10 Sessions API
   slug: log10-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/openapi/log10-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/log10/openapi/log10-sessions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/log10-
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/completions/ungraded\n  method: get\n  operationId: listUngraded\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/feedback/{feedbackId}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/v1/feedback\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/feedback\n  method: post\n  operationId: upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/feedback_task\n  method: get\n  operationId: listFeedbackTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/feedback_task\n  method: post\n  operationId: createFeedbackTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/feedback_task/{taskId}\n  method: get\n  operationId: getFeedbackTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/log10/refs/heads/main/agentic-access/log10-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/log10/agentic-access/log10-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - LLM

@@ -9,67 +9,67 @@ api_specs:
   label: Brex Budget Programs API
   slug: brex-budget-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-budget-programs-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-budget-programs-api-openapi.yml
 - filename: brex-budgets-api-openapi.yml
   format: yaml
   label: Brex Budgets API
   slug: brex-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-budgets-api-openapi.yml
 - filename: brex-spend-limits-api-openapi.yml
   format: yaml
   label: Brex Spend Limits API
   slug: brex-spend-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-spend-limits-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-spend-limits-api-openapi.yml
 - filename: brex-cards-api-openapi.yml
   format: yaml
   label: Brex Cards API
   slug: brex-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-cards-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-cards-api-openapi.yml
 - filename: brex-companies-api-openapi.yml
   format: yaml
   label: Brex Companies API
   slug: brex-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-companies-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-companies-api-openapi.yml
 - filename: brex-cost-centers-api-openapi.yml
   format: yaml
   label: Brex Cost Centers API
   slug: brex-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-cost-centers-api-openapi.yml
 - filename: brex-departments-api-openapi.yml
   format: yaml
   label: Brex Departments API
   slug: brex-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-departments-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-departments-api-openapi.yml
 - filename: brex-legal-entities-api-openapi.yml
   format: yaml
   label: Brex Legal Entities API
   slug: brex-legal-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-legal-entities-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-legal-entities-api-openapi.yml
 - filename: brex-locations-api-openapi.yml
   format: yaml
   label: Brex Locations API
   slug: brex-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-locations-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-locations-api-openapi.yml
 - filename: brex-titles-api-openapi.yml
   format: yaml
   label: Brex Titles API
   slug: brex-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-titles-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-titles-api-openapi.yml
 - filename: brex-users-api-openapi.yml
   format: yaml
   label: Brex Users API
   slug: brex-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-users-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/brex-o
   \ required\n- path: /v2/budgets/{id}\n  method: get\n  operationId: getV2Budget\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/budgets/{id}\n  method: put\n  operationId: updateV2Budget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/budgets/{id}/archive\n  method: post\n  operationId: archiveV2Budget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/spend_limits\n  method: get\n  operationId: listV2SpendLimits\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/spend_limits\n  method: post\n  operationId: createV2SpendLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/spend_limits/{id}\n  method: get\n  operationId: getV2SpendLimit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/spend_limits/{id}\n  method: put\n  operationId: updateV2SpendLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/spend_limits/{id}/archive\n  method: post\n  operationId: archiveV2SpendLimit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/agentic-access/brex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brex/agentic-access/brex-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Bill Pay

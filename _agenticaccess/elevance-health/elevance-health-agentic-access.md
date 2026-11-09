@@ -8,31 +8,31 @@ api_specs:
   label: Elevance Health Claims API
   slug: elevance-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-claims-api-openapi.yml
 - filename: elevance-health-conformance-api-openapi.yml
   format: yaml
   label: Elevance Health Conformance API
   slug: elevance-health-conformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-conformance-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-conformance-api-openapi.yml
 - filename: elevance-health-coverage-api-openapi.yml
   format: yaml
   label: Elevance Health Coverage API
   slug: elevance-health-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-coverage-api-openapi.yml
 - filename: elevance-health-patient-api-openapi.yml
   format: yaml
   label: Elevance Health Patient API
   slug: elevance-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-patient-api-openapi.yml
 - filename: elevance-health-provider-directory-api-openapi.yml
   format: yaml
   label: Elevance Health Provider Directory API
   slug: elevance-health-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/openapi/elevance-health-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/elevance-health/openapi/elevance-health-provider-directory-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/elevan
   - path: /Patient\n  method: get\n  operationId: searchPatient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n- path: /Coverage\n  method: get\n  operationId: searchCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n- path: /Coverage/{id}\n  method: get\n  operationId: readCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n- path: /ExplanationOfBenefit\n  method: get\n  operationId: searchExplanationOfBenefit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n\
   - path: /ExplanationOfBenefit/{id}\n  method: get\n  operationId: readExplanationOfBenefit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n- path: /Claim\n  method: get\n  operationId: searchClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n- path: /Practitioner/{id}\n  method: get\n  operationId: readPractitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - patient/*.read\n- path: /Organization/{id}\n  method: get\n  operationId: readOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n\
   \    - patient/*.read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elevance-health/refs/heads/main/agentic-access/elevance-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elevance-health/agentic-access/elevance-health-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Fortune 500

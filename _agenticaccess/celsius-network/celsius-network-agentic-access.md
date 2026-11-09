@@ -9,25 +9,25 @@ api_specs:
   label: Celsius Network KYC API
   slug: celsius-network-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-kyc-api-openapi.yml
 - filename: celsius-network-users-api-openapi.yml
   format: yaml
   label: Celsius Network Users API
   slug: celsius-network-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-users-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-users-api-openapi.yml
 - filename: celsius-network-utility-api-openapi.yml
   format: yaml
   label: Celsius Network Utility API
   slug: celsius-network-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-utility-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-utility-api-openapi.yml
 - filename: celsius-network-wallet-api-openapi.yml
   format: yaml
   label: Celsius Network Wallet API
   slug: celsius-network-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/openapi/celsius-network-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/celsius-network/openapi/celsius-network-wallet-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/celsiu
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/{coin}/deposit\n  method: get\n  operationId: getDeposit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/{coin}/withdraw\n  method: post\n  operationId: withdraw\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/{coin}/withdrawal-address\n  method: get\n  operationId: getWithdrawalAddressForCoin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/withdrawal-addresses\n  method:\
   \ get\n  operationId: getWithdrawalAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/interest/rates\n  method: get\n  operationId: getInterestRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/countries\n  method: get\n  operationId: getSupportedCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/supported_currencies\n  method: get\n  operationId: getSupportedCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/statistics\n  method: get\n  operationId: getStatistics\n  x-agentic-access:\n    action-class: connected\n  \
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terms-of-use\n  method: put\n  operationId: confirmTermsOfUse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health/echo/{message}\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celsius-network/refs/heads/main/agentic-access/celsius-network-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/celsius-network/agentic-access/celsius-network-agentic-access.yml
 summary_line: 24 operations · 7 acting
 tags:
 - Company

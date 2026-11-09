@@ -9,67 +9,67 @@ api_specs:
   label: Messente Account Balance API
   slug: messente-account-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-account-balance-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-account-balance-api-openapi.yml
 - filename: messente-blacklist-api-openapi.yml
   format: yaml
   label: Messente Blacklist API
   slug: messente-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-blacklist-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-blacklist-api-openapi.yml
 - filename: messente-bulk-messaging-api-openapi.yml
   format: yaml
   label: Messente Bulk Messaging API
   slug: messente-bulk-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-bulk-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-bulk-messaging-api-openapi.yml
 - filename: messente-contacts-api-openapi.yml
   format: yaml
   label: Messente Contacts API
   slug: messente-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-contacts-api-openapi.yml
 - filename: messente-delivery-report-api-openapi.yml
   format: yaml
   label: Messente Delivery Report API
   slug: messente-delivery-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-delivery-report-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-delivery-report-api-openapi.yml
 - filename: messente-groups-api-openapi.yml
   format: yaml
   label: Messente Groups API
   slug: messente-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-groups-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-groups-api-openapi.yml
 - filename: messente-number-lookup-api-openapi.yml
   format: yaml
   label: Messente Number Lookup API
   slug: messente-number-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-number-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-number-lookup-api-openapi.yml
 - filename: messente-number-verification-api-openapi.yml
   format: yaml
   label: Messente Number Verification API
   slug: messente-number-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-number-verification-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-number-verification-api-openapi.yml
 - filename: messente-omnimessage-api-openapi.yml
   format: yaml
   label: Messente Omnimessage API
   slug: messente-omnimessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-omnimessage-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-omnimessage-api-openapi.yml
 - filename: messente-pricing-api-openapi.yml
   format: yaml
   label: Messente Pricing API
   slug: messente-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-pricing-api-openapi.yml
 - filename: messente-statistics-api-openapi.yml
   format: yaml
   label: Messente Statistics API
   slug: messente-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/openapi/messente-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/messente/openapi/messente-statistics-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 12
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/messen
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hlr/sync\n  method: post\n  operationId: fetchInfoSync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /verify/start\n  method: post\n  operationId: verifyNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /verify/pin\n  method: post\n  operationId: verifyPin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /omnimessage\n  method:\
   \ post\n  operationId: sendOmnimessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /omnimessage/{omnimessageId}\n  method: delete\n  operationId: cancelScheduledMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pricelist\n  method: get\n  operationId: getPricelist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prices\n  method: get\n  operationId:\
   \ getPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statistics/reports\n  method: post\n  operationId: createStatisticsReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/messente/refs/heads/main/agentic-access/messente-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/messente/agentic-access/messente-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - CPaaS

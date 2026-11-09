@@ -9,43 +9,43 @@ api_specs:
   label: LiveIntent API references API
   slug: liveintent-api-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-api-references-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-api-references-api-openapi.yml
 - filename: liveintent-audiences-api-openapi.yml
   format: yaml
   label: LiveIntent Audiences API
   slug: liveintent-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-audiences-api-openapi.yml
 - filename: liveintent-eventtrackers-api-openapi.yml
   format: yaml
   label: LiveIntent Eventtrackers API
   slug: liveintent-eventtrackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-eventtrackers-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-eventtrackers-api-openapi.yml
 - filename: liveintent-legacy-api-openapi.yml
   format: yaml
   label: LiveIntent Legacy API
   slug: liveintent-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-legacy-api-openapi.yml
 - filename: liveintent-search-api-openapi.yml
   format: yaml
   label: LiveIntent Search API
   slug: liveintent-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-search-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-search-api-openapi.yml
 - filename: liveintent-trackers-api-openapi.yml
   format: yaml
   label: LiveIntent Trackers API
   slug: liveintent-trackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-trackers-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-trackers-api-openapi.yml
 - filename: liveintent-urltrackers-api-openapi.yml
   format: yaml
   label: LiveIntent Urltrackers API
   slug: liveintent-urltrackers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/openapi/liveintent-urltrackers-api-openapi.yml
+  url: https://artifacts.apis.io/liveintent/openapi/liveintent-urltrackers-api-openapi.yml
 consequence_counts:
   read: 8
   write: 12
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/livein
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trackers\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /urltrackers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-subject-report/{transactionId}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-subject-requests\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-subject-requests/test\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-subject-requests/{transactionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dsr\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oath\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/data-subject-requests\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /submit\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liveintent/refs/heads/main/agentic-access/liveintent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liveintent/agentic-access/liveintent-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Company

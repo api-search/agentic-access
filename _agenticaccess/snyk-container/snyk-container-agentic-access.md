@@ -9,19 +9,19 @@ api_specs:
   label: Snyk Container Projects API
   slug: snyk-container-container-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-container-projects-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-container-projects-api-openapi.yml
 - filename: snyk-container-issues-api-openapi.yml
   format: yaml
   label: Snyk Container Issues API
   slug: snyk-container-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-issues-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-issues-api-openapi.yml
 - filename: snyk-container-targets-api-openapi.yml
   format: yaml
   label: Snyk Container Targets API
   slug: snyk-container-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/openapi/snyk-container-targets-api-openapi.yml
+  url: https://artifacts.apis.io/snyk-container/openapi/snyk-container-targets-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/snyk-c
   \ none\n- path: /orgs/{org_id}/projects/{project_id}\n  method: delete\n  operationId: deleteContainerProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org_id}/issues\n  method: get\n  operationId: listContainerIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org_id}/targets\n  method: get\n  operationId: listTargets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org_id}/targets\n  method: post\n  operationId: createTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org_id}/targets/{target_id}\n  method: get\n  operationId: getTarget\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{org_id}/targets/{target_id}\n  method: delete\n  operationId: deleteTarget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{org_id}/projects/{project_id}/sbom\n  method: get\n  operationId: getProjectSbom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /orgs/{org_id}/packages/issues\n  method: get\n  operationId: listPackageIssues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snyk-container/refs/heads/main/agentic-access/snyk-container-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snyk-container/agentic-access/snyk-container-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Container Images

@@ -9,49 +9,49 @@ api_specs:
   label: Trelica Application Users API
   slug: trelica-application-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-application-users-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-application-users-api-openapi.yml
 - filename: trelica-applications-api-openapi.yml
   format: yaml
   label: Trelica Applications API
   slug: trelica-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-applications-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-applications-api-openapi.yml
 - filename: trelica-assets-api-openapi.yml
   format: yaml
   label: Trelica Assets API
   slug: trelica-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-assets-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-assets-api-openapi.yml
 - filename: trelica-audit-log-api-openapi.yml
   format: yaml
   label: Trelica Audit Log API
   slug: trelica-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-audit-log-api-openapi.yml
 - filename: trelica-contracts-api-openapi.yml
   format: yaml
   label: Trelica Contracts API
   slug: trelica-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-contracts-api-openapi.yml
 - filename: trelica-people-api-openapi.yml
   format: yaml
   label: Trelica People API
   slug: trelica-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-people-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-people-api-openapi.yml
 - filename: trelica-users-scim-api-openapi.yml
   format: yaml
   label: Trelica Users (SCIM) API
   slug: trelica-users-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-users-scim-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-users-scim-api-openapi.yml
 - filename: trelica-workflows-api-openapi.yml
   format: yaml
   label: Trelica Workflows API
   slug: trelica-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/openapi/trelica-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/trelica/openapi/trelica-workflows-api-openapi.yml
 consequence_counts:
   read: 11
   write: 2
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trelic
   \ action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - People.Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/v1/{personId}\n  method: patch\n  operationId: updatePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - People.Write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/v1\n  method: get\n  operationId: listContracts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Contracts.Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/v1/{contractId}\n  method: get\n  operationId: getContract\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Contracts.Read\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/v1\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Workflows.Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/v1\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Assets.Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit/v1\n  method: get\n  operationId: listAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - AuditLog.Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: get\n  operationId: listScimUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Users.Read\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/agentic-access/trelica-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trelica/agentic-access/trelica-agentic-access.yml
 summary_line: 13 operations · 2 acting
 tags:
 - Contract Management

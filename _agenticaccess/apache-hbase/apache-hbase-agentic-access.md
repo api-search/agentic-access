@@ -9,25 +9,25 @@ api_specs:
   label: Apache HBase Regions API
   slug: apache-hbase-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-regions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hbase/openapi/apache-hbase-regions-api-openapi.yml
 - filename: apache-hbase-rows-api-openapi.yml
   format: yaml
   label: Apache HBase Rows API
   slug: apache-hbase-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-rows-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hbase/openapi/apache-hbase-rows-api-openapi.yml
 - filename: apache-hbase-scans-api-openapi.yml
   format: yaml
   label: Apache HBase Scans API
   slug: apache-hbase-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-scans-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hbase/openapi/apache-hbase-scans-api-openapi.yml
 - filename: apache-hbase-tables-api-openapi.yml
   format: yaml
   label: Apache HBase Tables API
   slug: apache-hbase-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/openapi/apache-hbase-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-hbase/openapi/apache-hbase-tables-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tableName}/{rowKey}\n  method: put\n  operationId: putRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tableName}/{rowKey}\n  method: delete\n  operationId: deleteRow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tableName}/{rowKey}/{column}\n  method: get\n  operationId: getCell\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /{tableName}/scanner\n  method: put\n  operationId: createScanner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{tableName}/scanner/{scannerId}\n  method: get\n  operationId: getNextScannerBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tableName}/scanner/{scannerId}\n  method: delete\n  operationId: deleteScanner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /{tableName}/regions\n  method: get\n  operationId: getTableRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-hbase/refs/heads/main/agentic-access/apache-hbase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-hbase/agentic-access/apache-hbase-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Apache

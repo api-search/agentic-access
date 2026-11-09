@@ -9,43 +9,43 @@ api_specs:
   label: Last Mile AI Dataset API
   slug: lastmileai-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-dataset-api-openapi.yml
 - filename: lastmileai-evaluation-api-openapi.yml
   format: yaml
   label: Last Mile AI Evaluation API
   slug: lastmileai-evaluation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-evaluation-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-evaluation-api-openapi.yml
 - filename: lastmileai-experiment-api-openapi.yml
   format: yaml
   label: Last Mile AI Experiment API
   slug: lastmileai-experiment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-experiment-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-experiment-api-openapi.yml
 - filename: lastmileai-fine-tune-job-api-openapi.yml
   format: yaml
   label: Last Mile AI Fine Tune Job API
   slug: lastmileai-fine-tune-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-fine-tune-job-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-fine-tune-job-api-openapi.yml
 - filename: lastmileai-project-api-openapi.yml
   format: yaml
   label: Last Mile AI Project API
   slug: lastmileai-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-project-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-project-api-openapi.yml
 - filename: lastmileai-pseudo-label-job-api-openapi.yml
   format: yaml
   label: Last Mile AI Pseudo Label Job API
   slug: lastmileai-pseudo-label-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-pseudo-label-job-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-pseudo-label-job-api-openapi.yml
 - filename: lastmileai-resource-permission-api-openapi.yml
   format: yaml
   label: Last Mile AI Resource Permission API
   slug: lastmileai-resource-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/openapi/lastmileai-resource-permission-api-openapi.yml
+  url: https://artifacts.apis.io/lastmileai/openapi/lastmileai-resource-permission-api-openapi.yml
 consequence_counts:
   read: 24
   write: 29
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/lastmi
   \ required\n- path: /api/2/auto_eval/project/remove_members\n  method: post\n  operationId: RemoveProjectMembers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2/auto_eval/project/change_member_role\n  method: post\n  operationId: ChangeProjectMemberRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2/auto_eval/project/list_assignable_member_roles\n  method: post\n  operationId: ListAssignableProjectMemberRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/2/auto_eval/project/list_members\n  method: post\n  operationId: ListProjectMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/2/auto_eval/pseudo_label_job/create\n  method: post\n  operationId: CreatePseudoLabelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/2/auto_eval/pseudo_label_job/submit\n  method: post\n  operationId: SubmitPseudoLabelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /api/2/auto_eval/pseudo_label_job/get_status\n  method: post\n  operationId: GetPseudoLabelJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastmileai/refs/heads/main/agentic-access/lastmileai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lastmileai/agentic-access/lastmileai-agentic-access.yml
 summary_line: 53 operations · 29 acting
 tags:
 - Company

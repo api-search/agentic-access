@@ -9,25 +9,25 @@ api_specs:
   label: Speko Agents API
   slug: speko-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-agents-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-agents-api-openapi.yml
 - filename: speko-providers-api-openapi.yml
   format: yaml
   label: Speko Providers API
   slug: speko-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-providers-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-providers-api-openapi.yml
 - filename: speko-telephony-api-openapi.yml
   format: yaml
   label: Speko Telephony API
   slug: speko-telephony-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-telephony-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-telephony-api-openapi.yml
 - filename: speko-voice-api-openapi.yml
   format: yaml
   label: Speko Voice API
   slug: speko-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/openapi/speko-voice-api-openapi.yml
+  url: https://artifacts.apis.io/speko/openapi/speko-voice-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 18
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/speko-
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/calls/{id}/transfers/{transferId}/cancel\n  method: post\n  operationId: cancelWarmTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/callbacks\n  method: get\n  operationId: listScheduledCallbacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/callbacks/{id}\n  method: get\n  operationId: getScheduledCallback\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/callbacks/{id}/cancel\n  method: post\n  operationId: cancelScheduledCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/callbacks/{id}/dispatch\n  method: post\n  operationId: dispatchScheduledCallback\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/sessions/{id}/recording\n  method: get\n  operationId: getSessionRecording\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/sessions/{id}/turns\n  method: post\n  operationId: postSessionTurns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/sessions/{id}/transcript\n  method: get\n  operationId: getSessionTranscript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speko/refs/heads/main/agentic-access/speko-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/speko/agentic-access/speko-agentic-access.yml
 summary_line: 40 operations · 22 acting · 1 human-in-the-loop
 tags:
 - Voice

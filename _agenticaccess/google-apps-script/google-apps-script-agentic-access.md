@@ -9,25 +9,25 @@ api_specs:
   label: Google Apps Script Processes API
   slug: google-apps-script-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-processes-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-processes-api-openapi.yml
 - filename: google-apps-script-processes-listscriptprocesses-api-openapi.yml
   format: yaml
   label: Google Apps Script processes:listScriptProcesses API
   slug: google-apps-script-processes-listscriptprocesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-processes-listscriptprocesses-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-processes-listscriptprocesses-api-openapi.yml
 - filename: google-apps-script-projects-api-openapi.yml
   format: yaml
   label: Google Apps Script Projects API
   slug: google-apps-script-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-projects-api-openapi.yml
 - filename: google-apps-script-scripts-api-openapi.yml
   format: yaml
   label: Google Apps Script Scripts API
   slug: google-apps-script-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/openapi/google-apps-script-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/google-apps-script/openapi/google-apps-script-scripts-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 9
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{scriptId}/deployments/{deploymentId}\n  method: delete\n  operationId: deleteDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{scriptId}/versions\n  method: get\n  operationId: listVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{scriptId}/versions\n\
   \  method: post\n  operationId: createVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{scriptId}/versions/{versionNumber}\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/scripts/{scriptId}:run\n  method: post\n  operationId: runScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/processes\n  method: get\n  operationId: listProcesses\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/processes:listScriptProcesses\n  method: get\n  operationId: listScriptProcesses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/agentic-access/google-apps-script-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-apps-script/agentic-access/google-apps-script-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Apps Script

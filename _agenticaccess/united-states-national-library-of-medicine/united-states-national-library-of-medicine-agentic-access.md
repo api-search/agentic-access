@@ -9,61 +9,61 @@ api_specs:
   label: United States National Library of Medicine Metadata API
   slug: united-states-national-library-of-medicine-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-metadata-api-openapi.yml
 - filename: united-states-national-library-of-medicine-studies-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Studies API
   slug: united-states-national-library-of-medicine-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-studies-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-studies-api-openapi.yml
 - filename: united-states-national-library-of-medicine-blast-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine BLAST API
   slug: united-states-national-library-of-medicine-blast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-blast-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-blast-api-openapi.yml
 - filename: united-states-national-library-of-medicine-fetch-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Fetch API
   slug: united-states-national-library-of-medicine-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-fetch-api-openapi.yml
 - filename: united-states-national-library-of-medicine-gene-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Gene API
   slug: united-states-national-library-of-medicine-gene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-gene-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-gene-api-openapi.yml
 - filename: united-states-national-library-of-medicine-genome-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Genome API
   slug: united-states-national-library-of-medicine-genome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-genome-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-genome-api-openapi.yml
 - filename: united-states-national-library-of-medicine-info-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Info API
   slug: united-states-national-library-of-medicine-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-info-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-info-api-openapi.yml
 - filename: united-states-national-library-of-medicine-link-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Link API
   slug: united-states-national-library-of-medicine-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-link-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-link-api-openapi.yml
 - filename: united-states-national-library-of-medicine-search-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Search API
   slug: united-states-national-library-of-medicine-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-search-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-search-api-openapi.yml
 - filename: united-states-national-library-of-medicine-taxonomy-api-openapi.yml
   format: yaml
   label: United States National Library of Medicine Taxonomy API
   slug: united-states-national-library-of-medicine-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/openapi/united-states-national-library-of-medicine-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-national-library-of-medicine/openapi/united-states-national-library-of-medicine-taxonomy-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ncbi-b
   \ getGeneBySymbol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /taxonomy/taxon/{taxons}\n  method: get\n  operationId: getTaxonomy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /esearch.fcgi\n  method: get\n  operationId: searchDatabase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /efetch.fcgi\n  method: get\n  operationId: fetchRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /esummary.fcgi\n  method: get\n  operationId: getSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /elink.fcgi\n  method: get\n  operationId: getLinkages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /einfo.fcgi\n  method: get\n  operationId: getDatabaseInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /espell.fcgi\n  method: get\n  operationId: checkSpelling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studies\n  method: get\n  operationId: searchStudies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studies/{nctId}\n  method: get\n  operationId: getStudy\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/size\n  method: get\n  operationId: getDatasetSize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studies/metadata\n  method: get\n  operationId: getStudyFieldsMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-national-library-of-medicine/refs/heads/main/agentic-access/united-states-national-library-of-medicine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-states-national-library-of-medicine/agentic-access/united-states-national-library-of-medicine-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Federal Government

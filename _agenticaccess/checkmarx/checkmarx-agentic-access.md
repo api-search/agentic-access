@@ -9,91 +9,91 @@ api_specs:
   label: Checkmarx Applications API
   slug: checkmarx-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-applications-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-applications-api-openapi.yml
 - filename: checkmarx-authentication-api-openapi.yml
   format: yaml
   label: Checkmarx Authentication API
   slug: checkmarx-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-authentication-api-openapi.yml
 - filename: checkmarx-configuration-api-openapi.yml
   format: yaml
   label: Checkmarx Configuration API
   slug: checkmarx-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-configuration-api-openapi.yml
 - filename: checkmarx-engines-api-openapi.yml
   format: yaml
   label: Checkmarx Engines API
   slug: checkmarx-engines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-engines-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-engines-api-openapi.yml
 - filename: checkmarx-groups-api-openapi.yml
   format: yaml
   label: Checkmarx Groups API
   slug: checkmarx-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-groups-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-groups-api-openapi.yml
 - filename: checkmarx-packages-api-openapi.yml
   format: yaml
   label: Checkmarx Packages API
   slug: checkmarx-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-packages-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-packages-api-openapi.yml
 - filename: checkmarx-presets-api-openapi.yml
   format: yaml
   label: Checkmarx Presets API
   slug: checkmarx-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-presets-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-presets-api-openapi.yml
 - filename: checkmarx-projects-api-openapi.yml
   format: yaml
   label: Checkmarx Projects API
   slug: checkmarx-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-projects-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-projects-api-openapi.yml
 - filename: checkmarx-queries-api-openapi.yml
   format: yaml
   label: Checkmarx Queries API
   slug: checkmarx-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-queries-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-queries-api-openapi.yml
 - filename: checkmarx-reports-api-openapi.yml
   format: yaml
   label: Checkmarx Reports API
   slug: checkmarx-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-reports-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-reports-api-openapi.yml
 - filename: checkmarx-results-api-openapi.yml
   format: yaml
   label: Checkmarx Results API
   slug: checkmarx-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-results-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-results-api-openapi.yml
 - filename: checkmarx-risk-reports-api-openapi.yml
   format: yaml
   label: Checkmarx Risk Reports API
   slug: checkmarx-risk-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-risk-reports-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-risk-reports-api-openapi.yml
 - filename: checkmarx-scans-api-openapi.yml
   format: yaml
   label: Checkmarx Scans API
   slug: checkmarx-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-scans-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-scans-api-openapi.yml
 - filename: checkmarx-settings-api-openapi.yml
   format: yaml
   label: Checkmarx Settings API
   slug: checkmarx-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-settings-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-settings-api-openapi.yml
 - filename: checkmarx-teams-api-openapi.yml
   format: yaml
   label: Checkmarx Teams API
   slug: checkmarx-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/openapi/checkmarx-teams-api-openapi.yml
+  url: https://artifacts.apis.io/checkmarx/openapi/checkmarx-teams-api-openapi.yml
 consequence_counts:
   read: 36
   write: 25
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/checkm
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-management/scans\n  method: post\n  operationId: createScan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /risk-management/scans/{scanId}\n  method: get\n  operationId: getScan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-management/risk-reports/{projectId}\n  method: get\n  operationId: getRiskReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-management/risk-reports/{projectId}/vulnerabilities\n\
   \  method: get\n  operationId: listProjectVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-management/risk-reports/{projectId}/packages\n  method: get\n  operationId: listProjectPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /risk-management/risk-reports/{projectId}/licenses\n  method: get\n  operationId: listProjectLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{packageType}/{packageName}/{version}\n  method: get\n  operationId: getPackageDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/projects/{projectId}\n\
   \  method: get\n  operationId: getProjectSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/projects/{projectId}\n  method: put\n  operationId: updateProjectSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/checkmarx/refs/heads/main/agentic-access/checkmarx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/checkmarx/agentic-access/checkmarx-agentic-access.yml
 summary_line: 61 operations · 25 acting
 tags:
 - Application Security

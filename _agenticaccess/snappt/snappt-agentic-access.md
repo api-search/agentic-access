@@ -9,43 +9,43 @@ api_specs:
   label: Snappt Account API
   slug: snappt-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-account-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-account-api-openapi.yml
 - filename: snappt-applicant-sessions-api-openapi.yml
   format: yaml
   label: Snappt Applicant Sessions API
   slug: snappt-applicant-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-applicant-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-applicant-sessions-api-openapi.yml
 - filename: snappt-applicants-api-openapi.yml
   format: yaml
   label: Snappt Applicants API
   slug: snappt-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-applicants-api-openapi.yml
 - filename: snappt-id-verification-api-openapi.yml
   format: yaml
   label: Snappt ID Verification API
   slug: snappt-id-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-id-verification-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-id-verification-api-openapi.yml
 - filename: snappt-internal-idv-api-openapi.yml
   format: yaml
   label: Snappt Internal IDV API
   slug: snappt-internal-idv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-internal-idv-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-internal-idv-api-openapi.yml
 - filename: snappt-properties-api-openapi.yml
   format: yaml
   label: Snappt Properties API
   slug: snappt-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-properties-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-properties-api-openapi.yml
 - filename: snappt-webhooks-api-openapi.yml
   format: yaml
   label: Snappt Webhooks API
   slug: snappt-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/openapi/snappt-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/snappt/openapi/snappt-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 26
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: generated\nsource: openapi/snappt
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /id-verification/send-identity-upload-email\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /id-verification/generate-identity-upload-link\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /id-verification/{propertyShortId}/link\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /id-verification/{propertyShortId}/qr-code\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /id-verification/applicants\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /id-verification/applicants/{idVerificationId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /id-verification/applicants/{idVerificationId}/report\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /session\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snappt/refs/heads/main/agentic-access/snappt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snappt/agentic-access/snappt-agentic-access.yml
 summary_line: 48 operations · 22 acting · 3 human-in-the-loop
 tags:
 - Company

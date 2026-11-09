@@ -8,25 +8,73 @@ api_specs:
   label: Amazon CloudFormation Resources API
   slug: amazon-cloudformation-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-resources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-resources-api-openapi.yml
 - filename: amazon-cloudformation-stacks-api-openapi.yml
   format: yaml
   label: Amazon CloudFormation Stacks API
   slug: amazon-cloudformation-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-stacks-api-openapi.yml
 - filename: amazon-cloudformation-templates-api-openapi.yml
   format: yaml
   label: Amazon CloudFormation Templates API
   slug: amazon-cloudformation-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-templates-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-templates-api-openapi.yml
 - filename: amazon-cloudformation-changesets-api-openapi.yml
   format: yaml
   label: Amazon CloudFormation Changesets API
   slug: amazon-cloudformation-changesets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/openapi/amazon-cloudformation-changesets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-changesets-api-openapi.yml
+- filename: amazon-cloudformation-generated-template-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Generated Template API
+  slug: amazon-cloudformation-generated-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-generated-template-api-openapi.yml
+- filename: amazon-cloudformation-operations-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Operations API
+  slug: amazon-cloudformation-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-operations-api-openapi.yml
+- filename: amazon-cloudformation-resource-scan-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Resource Scan API
+  slug: amazon-cloudformation-resource-scan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-resource-scan-api-openapi.yml
+- filename: amazon-cloudformation-stack-instance-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Stack Instance API
+  slug: amazon-cloudformation-stack-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-stack-instance-api-openapi.yml
+- filename: amazon-cloudformation-stack-refactor-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Stack Refactor API
+  slug: amazon-cloudformation-stack-refactor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-stack-refactor-api-openapi.yml
+- filename: amazon-cloudformation-stack-set-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Stack Set API
+  slug: amazon-cloudformation-stack-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-stack-set-api-openapi.yml
+- filename: amazon-cloudformation-stack-set-operation-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Stack Set Operation API
+  slug: amazon-cloudformation-stack-set-operation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-stack-set-operation-api-openapi.yml
+- filename: amazon-cloudformation-type-api-openapi.yml
+  format: yaml
+  label: Amazon CloudFormation Cloudformation Type API
+  slug: amazon-cloudformation-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudformation/openapi/amazon-cloudformation-type-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,9 +103,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  operationId: UpdateStack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DeleteStack\n  method: get\n  operationId: DeleteStack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ListStacks\n  method: get\n  operationId: ListStacks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateChangeSet\n  method: get\n  operationId: CreateChangeSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeChangeSet\n  method: get\n  operationId: DescribeChangeSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ExecuteChangeSet\n  method: get\n  operationId: ExecuteChangeSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ValidateTemplate\n  method: get\n  operationId: ValidateTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=GetTemplate\n  method: get\n  operationId: GetTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=GetTemplateSummary\n  method: get\n  operationId: GetTemplateSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ListStackResources\n\
   \  method: get\n  operationId: ListStackResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeStackResources\n  method: get\n  operationId: DescribeStackResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudformation/refs/heads/main/agentic-access/amazon-cloudformation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cloudformation/agentic-access/amazon-cloudformation-agentic-access.yml
 summary_line: 13 operations
 tags:
+- Amazon Web Services
 - CloudFormation
 - Infrastructure as Code
 - DevOps

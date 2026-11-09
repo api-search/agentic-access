@@ -9,13 +9,13 @@ api_specs:
   label: Apache HTTP Server Balancer API
   slug: apache-httpd-balancer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-balancer-api-openapi.yml
+  url: https://artifacts.apis.io/apache-httpd/openapi/apache-httpd-balancer-api-openapi.yml
 - filename: apache-httpd-status-api-openapi.yml
   format: yaml
   label: Apache HTTP Server Status API
   slug: apache-httpd-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/openapi/apache-httpd-status-api-openapi.yml
+  url: https://artifacts.apis.io/apache-httpd/openapi/apache-httpd-status-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache-httpd-status-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 3\n    acting: 1\n  by_consequence:\n    read: 3\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /server-status\n  method: get\n  operationId: getServerStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /server-info\n  method: get\n  operationId: getServerInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balancer-manager\n  method:\
   \ get\n  operationId: getBalancerManager\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balancer-manager\n  method: post\n  operationId: updateBalancerMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-httpd/refs/heads/main/agentic-access/apache-httpd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-httpd/agentic-access/apache-httpd-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Apache

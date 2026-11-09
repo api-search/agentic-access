@@ -9,31 +9,31 @@ api_specs:
   label: VividCortex Alerts API
   slug: vividcortex-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-alerts-api-openapi.yml
 - filename: vividcortex-events-api-openapi.yml
   format: yaml
   label: VividCortex Events API
   slug: vividcortex-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-events-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-events-api-openapi.yml
 - filename: vividcortex-hosts-api-openapi.yml
   format: yaml
   label: VividCortex Hosts API
   slug: vividcortex-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-hosts-api-openapi.yml
 - filename: vividcortex-metrics-api-openapi.yml
   format: yaml
   label: VividCortex Metrics API
   slug: vividcortex-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-metrics-api-openapi.yml
 - filename: vividcortex-queries-api-openapi.yml
   format: yaml
   label: VividCortex Queries API
   slug: vividcortex-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/openapi/vividcortex-queries-api-openapi.yml
+  url: https://artifacts.apis.io/vividcortex/openapi/vividcortex-queries-api-openapi.yml
 consequence_counts:
   read: 13
   write: 7
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/vividc
   \    audit: required\n- path: /config/alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/alerts\n  method: post\n  operationId: createAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/alerts/{id}\n  method: put\n  operationId: updateAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/alerts/{id}\n  method: delete\n  operationId: deleteAlert\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/alerts/{id}/config\n  method: get\n  operationId: getAlertConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/alerts/{id}/config\n  method: put\n  operationId: updateAlertConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/destinations\n  method: get\n  operationId: listDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/alert-opts/policy\n  method: get\n  operationId: listAlertPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/alert-opts/durations\n  method: get\n  operationId: listAlertDurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vividcortex/refs/heads/main/agentic-access/vividcortex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vividcortex/agentic-access/vividcortex-agentic-access.yml
 summary_line: 20 operations · 7 acting
 tags:
 - Company

@@ -9,43 +9,43 @@ api_specs:
   label: Teable Attachment API
   slug: teable-attachment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-attachment-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-attachment-api-openapi.yml
 - filename: teable-base-api-openapi.yml
   format: yaml
   label: Teable Base API
   slug: teable-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-base-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-base-api-openapi.yml
 - filename: teable-field-api-openapi.yml
   format: yaml
   label: Teable Field API
   slug: teable-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-field-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-field-api-openapi.yml
 - filename: teable-record-api-openapi.yml
   format: yaml
   label: Teable Record API
   slug: teable-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-record-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-record-api-openapi.yml
 - filename: teable-space-api-openapi.yml
   format: yaml
   label: Teable Space API
   slug: teable-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-space-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-space-api-openapi.yml
 - filename: teable-table-api-openapi.yml
   format: yaml
   label: Teable Table API
   slug: teable-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-table-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-table-api-openapi.yml
 - filename: teable-view-api-openapi.yml
   format: yaml
   label: Teable View API
   slug: teable-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/openapi/teable-view-api-openapi.yml
+  url: https://artifacts.apis.io/teable/openapi/teable-view-api-openapi.yml
 consequence_counts:
   read: 14
   write: 20
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/teable
   \      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{spaceId}\n  method: delete\n  operationId: deleteSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spaces/{spaceId}/collaborators\n  method: get\n  operationId: listSpaceCollaborators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /base/{baseId}/table\n  method: get\n  operationId: getTableList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /base/{baseId}/table\n  method: post\n  operationId: createTable\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /base/{baseId}/table/{tableId}\n  method: get\n  operationId: getTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /base/{baseId}/table/{tableId}\n  method: delete\n  operationId: deleteTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /table/{tableId}/view\n  method: get\n  operationId: getViewList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /table/{tableId}/view\n  method: post\n  operationId: createView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /table/{tableId}/view/{viewId}\n  method: get\n  operationId: getView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /table/{tableId}/view/{viewId}\n  method: delete\n  operationId: deleteView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teable/refs/heads/main/agentic-access/teable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teable/agentic-access/teable-agentic-access.yml
 summary_line: 34 operations · 20 acting
 tags:
 - No-Code

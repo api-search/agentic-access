@@ -9,43 +9,43 @@ api_specs:
   label: Tableau Desktop Authentication API
   slug: tableau-desktop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-authentication-api-openapi.yml
 - filename: tableau-desktop-data-sources-api-openapi.yml
   format: yaml
   label: Tableau Desktop Data Sources API
   slug: tableau-desktop-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-data-sources-api-openapi.yml
 - filename: tableau-desktop-projects-api-openapi.yml
   format: yaml
   label: Tableau Desktop Projects API
   slug: tableau-desktop-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-projects-api-openapi.yml
 - filename: tableau-desktop-server-api-openapi.yml
   format: yaml
   label: Tableau Desktop Server API
   slug: tableau-desktop-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-server-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-server-api-openapi.yml
 - filename: tableau-desktop-sites-api-openapi.yml
   format: yaml
   label: Tableau Desktop Sites API
   slug: tableau-desktop-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-sites-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-sites-api-openapi.yml
 - filename: tableau-desktop-users-api-openapi.yml
   format: yaml
   label: Tableau Desktop Users API
   slug: tableau-desktop-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-users-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-users-api-openapi.yml
 - filename: tableau-desktop-workbooks-api-openapi.yml
   format: yaml
   label: Tableau Desktop Workbooks API
   slug: tableau-desktop-workbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/openapi/tableau-desktop-workbooks-api-openapi.yml
+  url: https://artifacts.apis.io/tableau-desktop/openapi/tableau-desktop-workbooks-api-openapi.yml
 consequence_counts:
   read: 10
   write: 15
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tablea
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/workbooks/{workbookId}\n  method: put\n  operationId: updateWorkbook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{siteId}/workbooks/{workbookId}\n  method: delete\n  operationId: deleteWorkbook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{siteId}/workbooks/{workbookId}/content\n  method: get\n  operationId: downloadWorkbook\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/datasources\n  method: get\n  operationId: queryDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/datasources/{datasourceId}\n  method: get\n  operationId: queryDataSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{siteId}/datasources/{datasourceId}/refresh\n  method: post\n  operationId: refreshDataSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /serverinfo\n  method: get\n  operationId:\
   \ serverInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tableau-desktop/refs/heads/main/agentic-access/tableau-desktop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tableau-desktop/agentic-access/tableau-desktop-agentic-access.yml
 summary_line: 25 operations · 15 acting
 tags:
 - Analytics

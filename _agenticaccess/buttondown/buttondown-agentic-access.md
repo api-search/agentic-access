@@ -9,181 +9,181 @@ api_specs:
   label: Buttondown Accounts API
   slug: buttondown-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-accounts-api-openapi.yml
 - filename: buttondown-advertising-units-api-openapi.yml
   format: yaml
   label: Buttondown Advertising Units API
   slug: buttondown-advertising-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-advertising-units-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-advertising-units-api-openapi.yml
 - filename: buttondown-api-requests-api-openapi.yml
   format: yaml
   label: Buttondown API Requests API
   slug: buttondown-api-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-api-requests-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-api-requests-api-openapi.yml
 - filename: buttondown-attachments-api-openapi.yml
   format: yaml
   label: Buttondown Attachments API
   slug: buttondown-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-attachments-api-openapi.yml
 - filename: buttondown-automations-api-openapi.yml
   format: yaml
   label: Buttondown Automations API
   slug: buttondown-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-automations-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-automations-api-openapi.yml
 - filename: buttondown-books-api-openapi.yml
   format: yaml
   label: Buttondown Books API
   slug: buttondown-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-books-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-books-api-openapi.yml
 - filename: buttondown-bulk-actions-api-openapi.yml
   format: yaml
   label: Buttondown Bulk Actions API
   slug: buttondown-bulk-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-bulk-actions-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-bulk-actions-api-openapi.yml
 - filename: buttondown-comments-api-openapi.yml
   format: yaml
   label: Buttondown Comments API
   slug: buttondown-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-comments-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-comments-api-openapi.yml
 - filename: buttondown-coupons-api-openapi.yml
   format: yaml
   label: Buttondown Coupons API
   slug: buttondown-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-coupons-api-openapi.yml
 - filename: buttondown-emails-api-openapi.yml
   format: yaml
   label: Buttondown Emails API
   slug: buttondown-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-emails-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-emails-api-openapi.yml
 - filename: buttondown-events-api-openapi.yml
   format: yaml
   label: Buttondown Events API
   slug: buttondown-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-events-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-events-api-openapi.yml
 - filename: buttondown-exports-api-openapi.yml
   format: yaml
   label: Buttondown Exports API
   slug: buttondown-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-exports-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-exports-api-openapi.yml
 - filename: buttondown-external-feeds-api-openapi.yml
   format: yaml
   label: Buttondown External Feeds API
   slug: buttondown-external-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-external-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-external-feeds-api-openapi.yml
 - filename: buttondown-forms-api-openapi.yml
   format: yaml
   label: Buttondown Forms API
   slug: buttondown-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-forms-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-forms-api-openapi.yml
 - filename: buttondown-images-api-openapi.yml
   format: yaml
   label: Buttondown Images API
   slug: buttondown-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-images-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-images-api-openapi.yml
 - filename: buttondown-imports-api-openapi.yml
   format: yaml
   label: Buttondown Imports API
   slug: buttondown-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-imports-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-imports-api-openapi.yml
 - filename: buttondown-newsletters-api-openapi.yml
   format: yaml
   label: Buttondown Newsletters API
   slug: buttondown-newsletters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-newsletters-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-newsletters-api-openapi.yml
 - filename: buttondown-notes-api-openapi.yml
   format: yaml
   label: Buttondown Notes API
   slug: buttondown-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-notes-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-notes-api-openapi.yml
 - filename: buttondown-ping-api-openapi.yml
   format: yaml
   label: Buttondown Ping API
   slug: buttondown-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-ping-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-ping-api-openapi.yml
 - filename: buttondown-prices-api-openapi.yml
   format: yaml
   label: Buttondown Prices API
   slug: buttondown-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-prices-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-prices-api-openapi.yml
 - filename: buttondown-public-api-openapi.yml
   format: yaml
   label: Buttondown Public API
   slug: buttondown-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-public-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-public-api-openapi.yml
 - filename: buttondown-segments-api-openapi.yml
   format: yaml
   label: Buttondown Segments API
   slug: buttondown-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-segments-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-segments-api-openapi.yml
 - filename: buttondown-snippets-api-openapi.yml
   format: yaml
   label: Buttondown Snippets API
   slug: buttondown-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-snippets-api-openapi.yml
 - filename: buttondown-subscribers-api-openapi.yml
   format: yaml
   label: Buttondown Subscribers API
   slug: buttondown-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-subscribers-api-openapi.yml
 - filename: buttondown-survey-responses-api-openapi.yml
   format: yaml
   label: Buttondown Survey Responses API
   slug: buttondown-survey-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-survey-responses-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-survey-responses-api-openapi.yml
 - filename: buttondown-surveys-api-openapi.yml
   format: yaml
   label: Buttondown Surveys API
   slug: buttondown-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-surveys-api-openapi.yml
 - filename: buttondown-tags-api-openapi.yml
   format: yaml
   label: Buttondown Tags API
   slug: buttondown-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-tags-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-tags-api-openapi.yml
 - filename: buttondown-users-api-openapi.yml
   format: yaml
   label: Buttondown Users API
   slug: buttondown-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-users-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-users-api-openapi.yml
 - filename: buttondown-webhooks-api-openapi.yml
   format: yaml
   label: Buttondown Webhooks API
   slug: buttondown-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-webhooks-api-openapi.yml
 - filename: buttondown-buttondown-api-api-openapi.yml
   format: yaml
   label: Buttondown Buttondown API
   slug: buttondown-buttondown-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/openapi/buttondown-buttondown-api-api-openapi.yml
+  url: https://artifacts.apis.io/buttondown/openapi/buttondown-buttondown-api-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 62
@@ -263,8 +263,8 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/button
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id_or_email}\n  method: patch\n  operationId: update_subscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id_or_email}/send-reminder\n  method: post\n  operationId: send_reminder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id_or_email}/send-magic-link\n\
   \  method: post\n  operationId: send_magic_link_to_subscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id_or_email}/emails/{email_id}\n  method: post\n  operationId: send_email_to\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id_or_email}/referrals\n  method: get\n  operationId: get_referrals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribers/{id_or_email}/automations\n  method: get\n  operationId: get_automations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscribers/{id_or_email}/automations/{automation_attempt_id}\n  method: patch\n  operationId: update_automation_attempt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscribers/{id_or_email}/stripe-subscriptions\n  method: get\n  operationId: get_stripe_subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /survey_responses\n  method:\
-  \ get\n  operationId: retrieve_survey_responses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /survey_responses\n  method: post\n  operationId: create_survey_response\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /survey_responses/{id}\n  method: patch\n  operationId: update_survey_response\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/agentic-access/buttondown-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/agentic-access/buttondown-agentic-access.yml
+  \ get\n  operationId: retrieve_survey_responses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /survey_responses\n  method: post\n  operationId: create_survey_response\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /survey_responses/{id}\n  method: patch\n  operationId: update_survey_response\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/buttondown/agentic-access/buttondown-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/buttondown/agentic-access/buttondown-agentic-access.yml
 summary_line: 133 operations · 71 acting
 tags:
 - Analytics

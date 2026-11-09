@@ -9,61 +9,61 @@ api_specs:
   label: IBM MQ JMS API
   slug: ibm-mq-jms-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/asyncapi/ibm-mq-messaging-asyncapi.yml
+  url: https://artifacts.apis.io/ibm-mq/asyncapi/ibm-mq-messaging-asyncapi.yml
 - filename: ibm-mq-channels-api-openapi.yml
   format: yaml
   label: IBM MQ Channels API
   slug: ibm-mq-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-channels-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-channels-api-openapi.yml
 - filename: ibm-mq-installations-api-openapi.yml
   format: yaml
   label: IBM MQ Installations API
   slug: ibm-mq-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-installations-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-installations-api-openapi.yml
 - filename: ibm-mq-login-api-openapi.yml
   format: yaml
   label: IBM MQ Login API
   slug: ibm-mq-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-login-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-login-api-openapi.yml
 - filename: ibm-mq-queue-managers-api-openapi.yml
   format: yaml
   label: IBM MQ Queue Managers API
   slug: ibm-mq-queue-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-queue-managers-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-queue-managers-api-openapi.yml
 - filename: ibm-mq-queue-messaging-api-openapi.yml
   format: yaml
   label: IBM MQ Queue Messaging API
   slug: ibm-mq-queue-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-queue-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-queue-messaging-api-openapi.yml
 - filename: ibm-mq-queues-api-openapi.yml
   format: yaml
   label: IBM MQ Queues API
   slug: ibm-mq-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-queues-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-queues-api-openapi.yml
 - filename: ibm-mq-subscriptions-api-openapi.yml
   format: yaml
   label: IBM MQ Subscriptions API
   slug: ibm-mq-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-subscriptions-api-openapi.yml
 - filename: ibm-mq-topic-messaging-api-openapi.yml
   format: yaml
   label: IBM MQ Topic Messaging API
   slug: ibm-mq-topic-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-topic-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-topic-messaging-api-openapi.yml
 - filename: ibm-mq-topics-api-openapi.yml
   format: yaml
   label: IBM MQ Topics API
   slug: ibm-mq-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/openapi/ibm-mq-topics-api-openapi.yml
+  url: https://artifacts.apis.io/ibm-mq/openapi/ibm-mq-topics-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ibm-mq
   \    audit: required\n- path: /admin/installation\n  method: get\n  operationId: listInstallations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messaging/qmgr/{qmgrName}/queue/{queueName}/message\n  method: post\n  operationId: sendMessageToQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messaging/qmgr/{qmgrName}/queue/{queueName}/message\n  method: get\n  operationId: receiveMessageFromQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messaging/qmgr/{qmgrName}/queue/{queueName}/message\n\
   \  method: delete\n  operationId: browseMessageFromQueue\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messaging/qmgr/{qmgrName}/topic/{topicString}/message\n  method: post\n  operationId: publishMessageToTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /login\n  method: delete\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm-mq/refs/heads/main/agentic-access/ibm-mq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibm-mq/agentic-access/ibm-mq-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - Async

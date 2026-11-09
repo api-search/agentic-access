@@ -9,115 +9,115 @@ api_specs:
   label: Dojo Areas API
   slug: dojo-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-areas-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-areas-api-openapi.yml
 - filename: dojo-capabilities-api-openapi.yml
   format: yaml
   label: Dojo Capabilities API
   slug: dojo-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-capabilities-api-openapi.yml
 - filename: dojo-captures-api-openapi.yml
   format: yaml
   label: Dojo Captures API
   slug: dojo-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-captures-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-captures-api-openapi.yml
 - filename: dojo-customers-api-openapi.yml
   format: yaml
   label: Dojo Customers API
   slug: dojo-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-customers-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-customers-api-openapi.yml
 - filename: dojo-events-api-openapi.yml
   format: yaml
   label: Dojo Events API
   slug: dojo-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-events-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-events-api-openapi.yml
 - filename: dojo-flows-api-openapi.yml
   format: yaml
   label: Dojo Flows API
   slug: dojo-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-flows-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-flows-api-openapi.yml
 - filename: dojo-orders-api-openapi.yml
   format: yaml
   label: Dojo Orders API
   slug: dojo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-orders-api-openapi.yml
 - filename: dojo-parties-api-openapi.yml
   format: yaml
   label: Dojo Parties API
   slug: dojo-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-parties-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-parties-api-openapi.yml
 - filename: dojo-payment-intents-api-openapi.yml
   format: yaml
   label: Dojo Payment intents API
   slug: dojo-payment-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-payment-intents-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-payment-intents-api-openapi.yml
 - filename: dojo-refunds-api-openapi.yml
   format: yaml
   label: Dojo Refunds API
   slug: dojo-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-refunds-api-openapi.yml
 - filename: dojo-reservations-api-openapi.yml
   format: yaml
   label: Dojo Reservations API
   slug: dojo-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-reservations-api-openapi.yml
 - filename: dojo-reversal-api-openapi.yml
   format: yaml
   label: Dojo Reversal API
   slug: dojo-reversal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-reversal-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-reversal-api-openapi.yml
 - filename: dojo-setup-intents-api-openapi.yml
   format: yaml
   label: Dojo Setup intents API
   slug: dojo-setup-intents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-setup-intents-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-setup-intents-api-openapi.yml
 - filename: dojo-tables-api-openapi.yml
   format: yaml
   label: Dojo Tables API
   slug: dojo-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-tables-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-tables-api-openapi.yml
 - filename: dojo-tap-to-pay-on-iphone-api-openapi.yml
   format: yaml
   label: Dojo Tap to Pay on iPhone API
   slug: dojo-tap-to-pay-on-iphone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-tap-to-pay-on-iphone-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-tap-to-pay-on-iphone-api-openapi.yml
 - filename: dojo-terminal-sessions-api-openapi.yml
   format: yaml
   label: Dojo Terminal sessions API
   slug: dojo-terminal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-terminal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-terminal-sessions-api-openapi.yml
 - filename: dojo-terminals-api-openapi.yml
   format: yaml
   label: Dojo Terminals API
   slug: dojo-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-terminals-api-openapi.yml
 - filename: dojo-transactions-api-openapi.yml
   format: yaml
   label: Dojo Transactions API
   slug: dojo-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-transactions-api-openapi.yml
 - filename: dojo-webhooks-api-openapi.yml
   format: yaml
   label: Dojo Webhooks API
   slug: dojo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/openapi/dojo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/dojo/openapi/dojo-webhooks-api-openapi.yml
 consequence_counts:
   physical: 18
   read: 30
@@ -260,7 +260,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dojo-a
   \ none\n- path: /webhooks/events\n  method: get\n  operationId: Webhooks_GetAllWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: Webhooks_GetAlSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: Webhooks_Subscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{subscriptionId}/secrets\n  method: get\n  operationId: Webhooks_GetSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{subscriptionId}/secrets\n  method: post\n  operationId: Webhooks_GenerateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{subscriptionId}/secrets/{secretId}/activate\n  method: put\n  operationId: Webhooks_ActivateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{subscriptionId}/secrets/{secretId}\n  method: delete\n  operationId: Webhooks_DeleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{subscriptionId}\n  method: patch\n  operationId: Webhooks_SubscribeUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{subscriptionId}\n  method: delete\n  operationId: Webhooks_DeleteSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/agentic-access/dojo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dojo/agentic-access/dojo-agentic-access.yml
 summary_line: 75 operations · 45 acting
 tags:
 - Payments

@@ -9,19 +9,19 @@ api_specs:
   label: Homeward Buybox API
   slug: homeward-buybox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-buybox-api-openapi.yml
+  url: https://artifacts.apis.io/homeward/openapi/homeward-buybox-api-openapi.yml
 - filename: homeward-finalization-api-openapi.yml
   format: yaml
   label: Homeward Finalization API
   slug: homeward-finalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-finalization-api-openapi.yml
+  url: https://artifacts.apis.io/homeward/openapi/homeward-finalization-api-openapi.yml
 - filename: homeward-offer-requests-api-openapi.yml
   format: yaml
   label: Homeward Offer Requests API
   slug: homeward-offer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/openapi/homeward-offer-requests-api-openapi.yml
+  url: https://artifacts.apis.io/homeward/openapi/homeward-offer-requests-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/homeward-offer-estimate-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    write: 4\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/1.0.0/partner/offer-request/\n  method: post\n  operationId: createOfferRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1.0.0/estimate/sell/{preliminary_offer_id}/\n  method: get\n  operationId:\
   \ getOfferEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1.0.0/partner/offer-request/{offer_request_id}/agent/\n  method: patch\n  operationId: updateOfferRequestAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /buybox/\n  method: post\n  operationId: checkBuyboxEligibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/finalize-lead/{lead_id}/\n  method: post\n  operationId: finalizeOfferRequest\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homeward/refs/heads/main/agentic-access/homeward-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/homeward/agentic-access/homeward-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - Company

@@ -9,97 +9,97 @@ api_specs:
   label: Race Entry Event API
   slug: race-entry-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-event-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-event-api-openapi.yml
 - filename: race-entry-get-category-teams-api-openapi.yml
   format: yaml
   label: Race Entry Get Category Teams API
   slug: race-entry-get-category-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-category-teams-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-category-teams-api-openapi.yml
 - filename: race-entry-get-event-categories-api-openapi.yml
   format: yaml
   label: Race Entry Get Event Categories API
   slug: race-entry-get-event-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-categories-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-event-categories-api-openapi.yml
 - filename: race-entry-get-event-participants-api-openapi.yml
   format: yaml
   label: Race Entry Get Event Participants API
   slug: race-entry-get-event-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-participants-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-event-participants-api-openapi.yml
 - filename: race-entry-get-event-pin-api-openapi.yml
   format: yaml
   label: Race Entry Get Event Pin API
   slug: race-entry-get-event-pin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-pin-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-event-pin-api-openapi.yml
 - filename: race-entry-get-event-questions-api-openapi.yml
   format: yaml
   label: Race Entry Get Event Questions API
   slug: race-entry-get-event-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-questions-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-event-questions-api-openapi.yml
 - filename: race-entry-get-event-teams-api-openapi.yml
   format: yaml
   label: Race Entry Get Event Teams API
   slug: race-entry-get-event-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-event-teams-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-event-teams-api-openapi.yml
 - filename: race-entry-get-events-api-openapi.yml
   format: yaml
   label: Race Entry Get Events API
   slug: race-entry-get-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-get-events-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-get-events-api-openapi.yml
 - filename: race-entry-login-api-openapi.yml
   format: yaml
   label: Race Entry Login API
   slug: race-entry-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-login-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-login-api-openapi.yml
 - filename: race-entry-memberships-api-openapi.yml
   format: yaml
   label: Race Entry Memberships API
   slug: race-entry-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-memberships-api-openapi.yml
 - filename: race-entry-result-api-openapi.yml
   format: yaml
   label: Race Entry Result API
   slug: race-entry-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-result-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-result-api-openapi.yml
 - filename: race-entry-set-event-app-access-api-openapi.yml
   format: yaml
   label: Race Entry Set Event App Access API
   slug: race-entry-set-event-app-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-set-event-app-access-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-set-event-app-access-api-openapi.yml
 - filename: race-entry-set-event-pin-api-openapi.yml
   format: yaml
   label: Race Entry Set Event Pin API
   slug: race-entry-set-event-pin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-set-event-pin-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-set-event-pin-api-openapi.yml
 - filename: race-entry-update-event-participant-api-openapi.yml
   format: yaml
   label: Race Entry Update Event Participant API
   slug: race-entry-update-event-participant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-update-event-participant-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-update-event-participant-api-openapi.yml
 - filename: race-entry-upload-api-openapi.yml
   format: yaml
   label: Race Entry Upload API
   slug: race-entry-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-upload-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-upload-api-openapi.yml
 - filename: race-entry-user-api-openapi.yml
   format: yaml
   label: Race Entry User API
   slug: race-entry-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/openapi/race-entry-user-api-openapi.yml
+  url: https://artifacts.apis.io/race-entry/openapi/race-entry-user-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/race-e
   \ 3600\n    audit: none\n- path: /set_event_pin\n  method: post\n  operationId: setEventPin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /set_event_app_access\n  method: post\n  operationId: setEventAppAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /result/edit\n  method: post\n  operationId: editResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /result/delete\n  method: post\n  operationId: deleteResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /upload/results\n  method: post\n  operationId: uploadResults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memberships/get-clubs\n  method: get\n  operationId: getClubs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /memberships/get-members\n\
   \  method: get\n  operationId: getClubMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/agentic-access/race-entry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/race-entry/agentic-access/race-entry-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Race Timing

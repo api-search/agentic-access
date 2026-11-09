@@ -9,187 +9,187 @@ api_specs:
   label: Revyl App Atlas API
   slug: revyl-app-atlas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-app-atlas-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-app-atlas-api-openapi.yml
 - filename: revyl-app-branches-api-openapi.yml
   format: yaml
   label: Revyl App branches API
   slug: revyl-app-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-app-branches-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-app-branches-api-openapi.yml
 - filename: revyl-apps-api-openapi.yml
   format: yaml
   label: Revyl Apps API
   slug: revyl-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-apps-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-apps-api-openapi.yml
 - filename: revyl-async-test-report-api-openapi.yml
   format: yaml
   label: Revyl Async Test Report API
   slug: revyl-async-test-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-async-test-report-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-async-test-report-api-openapi.yml
 - filename: revyl-build-caches-api-openapi.yml
   format: yaml
   label: Revyl Build Caches API
   slug: revyl-build-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-build-caches-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-build-caches-api-openapi.yml
 - filename: revyl-code-execution-scripts-api-openapi.yml
   format: yaml
   label: Revyl Code Execution Scripts API
   slug: revyl-code-execution-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-code-execution-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-code-execution-scripts-api-openapi.yml
 - filename: revyl-custom-variables-api-openapi.yml
   format: yaml
   label: Revyl Custom Variables API
   slug: revyl-custom-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-custom-variables-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-custom-variables-api-openapi.yml
 - filename: revyl-execution-api-openapi.yml
   format: yaml
   label: Revyl Execution API
   slug: revyl-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-execution-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-execution-api-openapi.yml
 - filename: revyl-explorations-api-openapi.yml
   format: yaml
   label: Revyl Explorations API
   slug: revyl-explorations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-explorations-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-explorations-api-openapi.yml
 - filename: revyl-global-variables-api-openapi.yml
   format: yaml
   label: Revyl Global Variables API
   slug: revyl-global-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-global-variables-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-global-variables-api-openapi.yml
 - filename: revyl-hotreload-api-openapi.yml
   format: yaml
   label: Revyl Hotreload API
   slug: revyl-hotreload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-hotreload-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-hotreload-api-openapi.yml
 - filename: revyl-integrations-github-app-api-openapi.yml
   format: yaml
   label: Revyl Integrations - GitHub App API
   slug: revyl-integrations-github-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-integrations-github-app-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-integrations-github-app-api-openapi.yml
 - filename: revyl-integrations-gitlab-api-openapi.yml
   format: yaml
   label: Revyl Integrations - GitLab API
   slug: revyl-integrations-gitlab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-integrations-gitlab-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-integrations-gitlab-api-openapi.yml
 - filename: revyl-ios-storekit-config-api-openapi.yml
   format: yaml
   label: Revyl iOS StoreKit Config API
   slug: revyl-ios-storekit-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-ios-storekit-config-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-ios-storekit-config-api-openapi.yml
 - filename: revyl-modules-api-openapi.yml
   format: yaml
   label: Revyl Modules API
   slug: revyl-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-modules-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-modules-api-openapi.yml
 - filename: revyl-org-files-api-openapi.yml
   format: yaml
   label: Revyl Org Files API
   slug: revyl-org-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-org-files-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-org-files-api-openapi.yml
 - filename: revyl-org-launch-environment-variables-api-openapi.yml
   format: yaml
   label: Revyl Org Launch Environment Variables API
   slug: revyl-org-launch-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-org-launch-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-org-launch-environment-variables-api-openapi.yml
 - filename: revyl-organization-api-openapi.yml
   format: yaml
   label: Revyl Organization API
   slug: revyl-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-organization-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-organization-api-openapi.yml
 - filename: revyl-project-configuration-api-openapi.yml
   format: yaml
   label: Revyl Project Configuration API
   slug: revyl-project-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-project-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-project-configuration-api-openapi.yml
 - filename: revyl-public-api-openapi.yml
   format: yaml
   label: Revyl Public API
   slug: revyl-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-public-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-public-api-openapi.yml
 - filename: revyl-recording-compilation-api-openapi.yml
   format: yaml
   label: Revyl Recording Compilation API
   slug: revyl-recording-compilation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-recording-compilation-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-recording-compilation-api-openapi.yml
 - filename: revyl-remote-builds-api-openapi.yml
   format: yaml
   label: Revyl Remote Builds API
   slug: revyl-remote-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-remote-builds-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-remote-builds-api-openapi.yml
 - filename: revyl-reports-v3-api-openapi.yml
   format: yaml
   label: Revyl Reports V3 API
   slug: revyl-reports-v3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-reports-v3-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-reports-v3-api-openapi.yml
 - filename: revyl-support-api-openapi.yml
   format: yaml
   label: Revyl Support API
   slug: revyl-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-support-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-support-api-openapi.yml
 - filename: revyl-tags-api-openapi.yml
   format: yaml
   label: Revyl Tags API
   slug: revyl-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-tags-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-tags-api-openapi.yml
 - filename: revyl-tests-api-openapi.yml
   format: yaml
   label: Revyl Tests API
   slug: revyl-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-tests-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-tests-api-openapi.yml
 - filename: revyl-user-api-openapi.yml
   format: yaml
   label: Revyl User API
   slug: revyl-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-user-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-user-api-openapi.yml
 - filename: revyl-workflow-share-api-openapi.yml
   format: yaml
   label: Revyl Workflow Share API
   slug: revyl-workflow-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-workflow-share-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-workflow-share-api-openapi.yml
 - filename: revyl-workflow-status-api-openapi.yml
   format: yaml
   label: Revyl Workflow Status API
   slug: revyl-workflow-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-workflow-status-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-workflow-status-api-openapi.yml
 - filename: revyl-workflows-api-openapi.yml
   format: yaml
   label: Revyl Workflows API
   slug: revyl-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-workflows-api-openapi.yml
 - filename: revyl-yaml-operations-api-openapi.yml
   format: yaml
   label: Revyl YAML Operations API
   slug: revyl-yaml-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/openapi/revyl-yaml-operations-api-openapi.yml
+  url: https://artifacts.apis.io/revyl/openapi/revyl-yaml-operations-api-openapi.yml
 consequence_counts:
   read: 75
   safety-critical: 4
@@ -272,8 +272,8 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/revyl-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/explorations/{run_id}/cancel\n  method: post\n  operationId: cancel_exploration_api_v1_explorations__run_id__cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/explorations/{run_id}/report\n  method: get\n  operationId: get_exploration_report_api_v1_explorations__run_id__report_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/files/\n  method: get\n  operationId: list_org_files_api_v1_files__get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/files/upload-url\n  method: post\n  operationId: get_upload_url_api_v1_files_upload_url_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/files/{file_id}\n  method: delete\n  operationId: delete_org_file_api_v1_files__file_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/files/{file_id}\n  method: put\n  operationId: update_org_file_api_v1_files__file_id__put\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/files/{file_id}/complete-upload\n  method: post\n  operationId: complete_upload_api_v1_files__file_id__complete_upload_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/files/{file_id}/download-url\n  method: get\n  operationId: get_file_download_url_api_v1_files__file_id__download_url_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/files/{file_id}/replace-url\n  method: put\n\
-  \  operationId: get_replace_url_api_v1_files__file_id__replace_url_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (64 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/agentic-access/revyl-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revyl/refs/heads/main/agentic-access/revyl-agentic-access.yml
+  \  operationId: get_replace_url_api_v1_files__file_id__replace_url_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (64 KB total) ---\n# Full source: https://artifacts.apis.io/revyl/agentic-access/revyl-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/revyl/agentic-access/revyl-agentic-access.yml
 summary_line: 184 operations · 109 acting · 4 human-in-the-loop
 tags:
 - Company

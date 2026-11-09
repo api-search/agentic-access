@@ -9,55 +9,55 @@ api_specs:
   label: Harver Accounts API
   slug: harver-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-accounts-api-openapi.yml
 - filename: harver-applications-api-openapi.yml
   format: yaml
   label: Harver Applications API
   slug: harver-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-applications-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-applications-api-openapi.yml
 - filename: harver-candidate-statuses-api-openapi.yml
   format: yaml
   label: Harver Candidate Statuses API
   slug: harver-candidate-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidate-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-candidate-statuses-api-openapi.yml
 - filename: harver-candidateapplications-api-openapi.yml
   format: yaml
   label: Harver Candidate Applications API
   slug: harver-candidateapplications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-candidateapplications-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-candidateapplications-api-openapi.yml
 - filename: harver-scheduling-api-openapi.yml
   format: yaml
   label: Harver Scheduling API
   slug: harver-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-scheduling-api-openapi.yml
 - filename: harver-user-profile-api-openapi.yml
   format: yaml
   label: Harver User Profile API
   slug: harver-user-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-user-profile-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-user-profile-api-openapi.yml
 - filename: harver-vacancies-api-openapi.yml
   format: yaml
   label: Harver Vacancies API
   slug: harver-vacancies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-vacancies-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-vacancies-api-openapi.yml
 - filename: harver-webhook-api-openapi.yml
   format: yaml
   label: Harver Webhook API
   slug: harver-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-webhook-api-openapi.yml
 - filename: harver-oauth-api-openapi.yml
   format: yaml
   label: Harver OAUTH API
   slug: harver-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/openapi/harver-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/harver/openapi/harver-oauth-api-openapi.yml
 consequence_counts:
   read: 29
   write: 25
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/harver
   \  operationId: getVacanciesByVacancyId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vacancies/{vacancyId}\n  method: patch\n  operationId: patchVacanciesByVacancyId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vacancies/{vacancyId}/locations\n  method: patch\n  operationId: patchVacanciesByVacancyIdLocations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vacancies/{vacancyId}/locations-v2\n  method: patch\n\
   \  operationId: patchVacanciesByVacancyIdLocationsV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vacancies/{vacancyId}/regions\n  method: patch\n  operationId: patchVacanciesByVacancyIdRegions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhookPath\n  method: post\n  operationId: postWebhookPath\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/harver/refs/heads/main/agentic-access/harver-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/harver/agentic-access/harver-agentic-access.yml
 summary_line: 54 operations · 25 acting
 tags:
 - Company

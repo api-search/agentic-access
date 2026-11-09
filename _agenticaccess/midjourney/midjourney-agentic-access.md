@@ -9,25 +9,25 @@ api_specs:
   label: midjourney Image Analysis API
   slug: midjourney-image-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-image-analysis-api-openapi.yml
 - filename: midjourney-image-generation-api-openapi.yml
   format: yaml
   label: midjourney Image Generation API
   slug: midjourney-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-image-generation-api-openapi.yml
 - filename: midjourney-image-manipulation-api-openapi.yml
   format: yaml
   label: midjourney Image Manipulation API
   slug: midjourney-image-manipulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-image-manipulation-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-image-manipulation-api-openapi.yml
 - filename: midjourney-jobs-api-openapi.yml
   format: yaml
   label: midjourney Jobs API
   slug: midjourney-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/openapi/midjourney-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/midjourney/openapi/midjourney-jobs-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/midjou
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/variations\n  method: post\n  operationId: createVariationJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/describe\n  method: post\n  operationId: createDescribeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/blend\n  method: post\n  operationId: createBlendJob\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/{jobId}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/{jobId}/cancel\n  method: post\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midjourney/refs/heads/main/agentic-access/midjourney-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/midjourney/agentic-access/midjourney-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - Image Generation

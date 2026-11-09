@@ -9,61 +9,61 @@ api_specs:
   label: National Institutes of Health (NIH) BioSample API
   slug: nih-biosample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-biosample-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-biosample-api-openapi.yml
 - filename: nih-gene-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Gene API
   slug: nih-gene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-gene-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-gene-api-openapi.yml
 - filename: nih-genome-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Genome API
   slug: nih-genome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-genome-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-genome-api-openapi.yml
 - filename: nih-organelle-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Organelle API
   slug: nih-organelle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-organelle-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-organelle-api-openapi.yml
 - filename: nih-prokaryote-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Prokaryote API
   slug: nih-prokaryote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-prokaryote-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-prokaryote-api-openapi.yml
 - filename: nih-stats-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Stats API
   slug: nih-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-stats-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-stats-api-openapi.yml
 - filename: nih-studies-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Studies API
   slug: nih-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-studies-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-studies-api-openapi.yml
 - filename: nih-taxonomy-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Taxonomy API
   slug: nih-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-taxonomy-api-openapi.yml
 - filename: nih-version-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Version API
   slug: nih-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-version-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-version-api-openapi.yml
 - filename: nih-virus-api-openapi.yml
   format: yaml
   label: National Institutes of Health (NIH) Virus API
   slug: nih-virus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/openapi/nih-virus-api-openapi.yml
+  url: https://artifacts.apis.io/nih/openapi/nih-virus-api-openapi.yml
 consequence_counts:
   read: 110
   write: 5
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nih-bi
   \  method: get\n  operationId: virus_annotation_reports_by_taxon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/accession/{accessions}/annotation_report\n  method: get\n  operationId: virus_annotation_reports_by_acessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/annotation_report\n  method: post\n  operationId: virus_annotation_reports_by_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/accession/{accessions}/check\n  method: get\n  operationId: virus_accession_availability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/check\n\
   \  method: post\n  operationId: virus_accession_availability_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virus/taxon/{taxon}/genome/download\n  method: get\n  operationId: virus_genome_download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/accession/{accessions}/genome/download\n  method: get\n  operationId: virus_genome_download_accession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/genome/download\n  method: post\n  operationId: virus_genome_download_post\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/taxon/sars2/protein/{proteins}/download\n  method: get\n  operationId: sars2_protein_download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/taxon/sars2/protein/download\n  method: post\n  operationId: sars2_protein_download_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nih/refs/heads/main/agentic-access/nih-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nih/agentic-access/nih-agentic-access.yml
 summary_line: 115 operations · 5 acting
 tags:
 - Biomedical

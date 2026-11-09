@@ -9,19 +9,19 @@ api_specs:
   label: Indeed Candidates API
   slug: indeed-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/indeed/openapi/indeed-candidates-api-openapi.yml
 - filename: indeed-employers-api-openapi.yml
   format: yaml
   label: Indeed Employers API
   slug: indeed-employers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-employers-api-openapi.yml
+  url: https://artifacts.apis.io/indeed/openapi/indeed-employers-api-openapi.yml
 - filename: indeed-jobs-api-openapi.yml
   format: yaml
   label: Indeed Jobs API
   slug: indeed-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/openapi/indeed-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/indeed/openapi/indeed-jobs-api-openapi.yml
 consequence_counts:
   read: 5
   write: 7
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/indeed
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employers/{employerId}/candidates/{candidateId}\n  method: get\n  operationId: getCandidate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/employers/{employerId}/candidates/{candidateId}/disposition\n  method: put\n  operationId: updateCandidateDisposition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs\n  method: post\n  operationId: createJobPostings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/{jobPostingId}\n  method: get\n  operationId: getJobPosting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/jobs/{jobPostingId}\n  method: put\n  operationId: updateJobPosting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/jobs/{jobPostingId}\n  method: delete\n  operationId: expireJobPosting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v1/employers/{employerId}/jobs\n  method: get\n  operationId: listEmployerJobPostings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/agentic-access/indeed-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/indeed/agentic-access/indeed-agentic-access.yml
 summary_line: 12 operations · 7 acting
 tags:
 - Careers

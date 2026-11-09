@@ -9,25 +9,25 @@ api_specs:
   label: Itron Device Templates API
   slug: itron-device-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-device-templates-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-device-templates-api-openapi.yml
 - filename: itron-devices-api-openapi.yml
   format: yaml
   label: Itron Devices API
   slug: itron-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-devices-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-devices-api-openapi.yml
 - filename: itron-observations-api-openapi.yml
   format: yaml
   label: Itron Observations API
   slug: itron-observations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-observations-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-observations-api-openapi.yml
 - filename: itron-tokens-api-openapi.yml
   format: yaml
   label: Itron Tokens API
   slug: itron-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/openapi/itron-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/itron/openapi/itron-tokens-api-openapi.yml
 consequence_counts:
   read: 8
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/itron-
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/devices\n  method: post\n  operationId: postDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/devices/query\n  method: post\n  operationId: queryDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/devices/{deviceId}/observations\n  method: get\n  operationId: getDeviceObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/devices/{deviceId}/observations\n  method: post\n  operationId: postDeviceObservation\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/devices/{deviceId}/observations/query\n  method: post\n  operationId: queryDeviceObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/observations\n  method: get\n  operationId: getObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/observations/query\n  method: post\n  operationId: queryObservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tokens\n  method: post\n  operationId:\
   \ issueToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/itron/refs/heads/main/agentic-access/itron-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/itron/agentic-access/itron-agentic-access.yml
 summary_line: 13 operations · 5 acting
 tags:
 - Itron

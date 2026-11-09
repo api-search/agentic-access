@@ -9,7 +9,7 @@ api_specs:
   label: Lili API
   slug: lili-lili-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/openapi/lili-lili-api-openapi.yml
+  url: https://artifacts.apis.io/lili/openapi/lili-lili-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/lili-l
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lili/api/v1/partner/payments\n  method: get\n  operationId: paymentList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lili/api/v1/webhooks\n  method: get\n  operationId: getAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lili/api/v1/webhooks\n  method: put\n  operationId: addWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lili/api/v1/webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lili/api/v1/webhooks/{webhookId}\n  method: post\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lili/api/v1/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lili/refs/heads/main/agentic-access/lili-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lili/agentic-access/lili-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Banking

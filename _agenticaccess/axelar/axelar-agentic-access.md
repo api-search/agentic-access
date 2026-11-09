@@ -9,25 +9,25 @@ api_specs:
   label: Axelar Chains API
   slug: axelar-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-chains-api-openapi.yml
+  url: https://artifacts.apis.io/axelar/openapi/axelar-chains-api-openapi.yml
 - filename: axelar-contracts-api-openapi.yml
   format: yaml
   label: Axelar Contracts API
   slug: axelar-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/axelar/openapi/axelar-contracts-api-openapi.yml
 - filename: axelar-health-api-openapi.yml
   format: yaml
   label: Axelar Health API
   slug: axelar-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-health-api-openapi.yml
+  url: https://artifacts.apis.io/axelar/openapi/axelar-health-api-openapi.yml
 - filename: axelar-payloads-api-openapi.yml
   format: yaml
   label: Axelar Payloads API
   slug: axelar-payloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/openapi/axelar-payloads-api-openapi.yml
+  url: https://artifacts.apis.io/axelar/openapi/axelar-payloads-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/axelar
   \ required\n- path: /chains/{chain}/tasks\n  method: get\n  operationId: getTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chains/{chain}/tasks/{taskItemID}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{wasmContractAddress}/broadcasts\n  method: post\n  operationId: broadcastMsgExecuteContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contracts/{wasmContractAddress}/broadcasts/{broadcastID}\n  method: get\n  operationId: getMsgExecuteContractBroadcastStatus\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contracts/{wasmContractAddress}/queries\n  method: post\n  operationId: queryContractState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payloads\n  method: post\n  operationId: storePayload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payloads/{hash}\n  method: get\n  operationId: getPayload\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axelar/refs/heads/main/agentic-access/axelar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/axelar/agentic-access/axelar-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Blockchain

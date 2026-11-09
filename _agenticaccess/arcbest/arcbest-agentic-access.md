@@ -9,55 +9,55 @@ api_specs:
   label: ArcBest Pickups API
   slug: arcbest-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-pickups-api-openapi.yml
 - filename: arcbest-rates-api-openapi.yml
   format: yaml
   label: ArcBest Rates API
   slug: arcbest-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-rates-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-rates-api-openapi.yml
 - filename: arcbest-shipments-api-openapi.yml
   format: yaml
   label: ArcBest Shipments API
   slug: arcbest-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-shipments-api-openapi.yml
 - filename: arcbest-tracking-api-openapi.yml
   format: yaml
   label: ArcBest Tracking API
   slug: arcbest-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-tracking-api-openapi.yml
 - filename: arcbest-authorize-api-openapi.yml
   format: yaml
   label: ArcBest Authorize API
   slug: arcbest-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-authorize-api-openapi.yml
 - filename: arcbest-booking-api-openapi.yml
   format: yaml
   label: ArcBest Booking API
   slug: arcbest-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-booking-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-booking-api-openapi.yml
 - filename: arcbest-order-api-openapi.yml
   format: yaml
   label: ArcBest Order API
   slug: arcbest-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-order-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-order-api-openapi.yml
 - filename: arcbest-quote-api-openapi.yml
   format: yaml
   label: ArcBest Quote API
   slug: arcbest-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-quote-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-quote-api-openapi.yml
 - filename: arcbest-quotes-api-openapi.yml
   format: yaml
   label: ArcBest Quotes API
   slug: arcbest-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/openapi/arcbest-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/arcbest/openapi/arcbest-quotes-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/arcbes
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes\n  method: post\n  operationId: quotesSubmitQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/booking-request/expedite\n  method: post\n  operationId: quotesBookExpediteQuote\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/booking-request/time-critical-forwarding\n  method: post\n  operationId: quotesBookTimeCriticalForwardingQuote\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quotes/booking-request/status\n  method: get\n  operationId: quotesGetBookingStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates/ltl\n  method: post\n  operationId: getLTLRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments\n  method: post\n  operationId: createShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipments\n  method: get\n  operationId: listShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/status-codes\n  method: get\n  operationId: shipmentsGetShipmentStatusCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/search\n  method: post\n  operationId: shipmentsGetShipmentsByReferenceNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/{proNumber}\n  method: get\n  operationId: trackShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arcbest/refs/heads/main/agentic-access/arcbest-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/arcbest/agentic-access/arcbest-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Logistics

@@ -9,49 +9,49 @@ api_specs:
   label: Bluecore Authn API
   slug: bluecore-authn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-authn-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-authn-api-openapi.yml
 - filename: bluecore-campaignsapipublic-api-openapi.yml
   format: yaml
   label: Bluecore CampaignsAPIPublic API
   slug: bluecore-campaignsapipublic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-campaignsapipublic-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-campaignsapipublic-api-openapi.yml
 - filename: bluecore-direct-send-api-openapi.yml
   format: yaml
   label: Bluecore Direct send API
   slug: bluecore-direct-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-direct-send-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-direct-send-api-openapi.yml
 - filename: bluecore-eligibility-api-openapi.yml
   format: yaml
   label: Bluecore Eligibility API
   slug: bluecore-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-eligibility-api-openapi.yml
 - filename: bluecore-profile-api-openapi.yml
   format: yaml
   label: Bluecore Profile API
   slug: bluecore-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-profile-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-profile-api-openapi.yml
 - filename: bluecore-transactional-api-openapi.yml
   format: yaml
   label: Bluecore Transactional API
   slug: bluecore-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-transactional-api-openapi.yml
 - filename: bluecore-get-status-api-openapi.yml
   format: yaml
   label: Bluecore GET STATUS API
   slug: bluecore-get-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-get-status-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-get-status-api-openapi.yml
 - filename: bluecore-send-email-api-openapi.yml
   format: yaml
   label: Bluecore SEND EMAIL API
   slug: bluecore-send-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/openapi/bluecore-send-email-api-openapi.yml
+  url: https://artifacts.apis.io/bluecore/openapi/bluecore-send-email-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/blueco
   \    scope:\n    - customers.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/direct-send-campaigns\n  method: post\n  operationId: CampaignsAPIPublic_CreateDirectSendCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - directsend.write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/direct-send-messages\n  method: post\n  operationId: DirectSend_Send\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - direct_send.api\n    audience: null\n    token:\n      max-ttl: 300\n\
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/eligibility\n  method: get\n  operationId: Eligibility_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - eligibility.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/eligibility_events\n  method: post\n  operationId: Eligibility_Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - eligibility.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /namespaces/{namespace}/transactional-messages/{id}\n  method: get\n  operationId: Transactional_Get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - transactional.api\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /namespaces/{namespace}/transactional-messages/{id}\n  method: post\n  operationId: Transactional_Send\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - transactional.api\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth/token\n  method: post\n  operationId: Authn_GetAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bluecore/refs/heads/main/agentic-access/bluecore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bluecore/agentic-access/bluecore-agentic-access.yml
 summary_line: 9 operations · 6 acting
 tags:
 - Company

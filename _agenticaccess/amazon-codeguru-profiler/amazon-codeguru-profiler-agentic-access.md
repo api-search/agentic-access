@@ -9,19 +9,19 @@ api_specs:
   label: Amazon CodeGuru Profiler Internal API
   slug: amazon-codeguru-profiler-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-profiler/openapi/amazon-codeguru-profiler-internal-api-openapi.yml
 - filename: amazon-codeguru-profiler-tags-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler Tags API
   slug: amazon-codeguru-profiler-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-profiler/openapi/amazon-codeguru-profiler-tags-api-openapi.yml
 - filename: amazon-codeguru-profiler-profiling-groups-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Profiler Profiling Groups API
   slug: amazon-codeguru-profiler-profiling-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/openapi/amazon-codeguru-profiler-profiling-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-profiler/openapi/amazon-codeguru-profiler-profiling-groups-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13
@@ -56,10 +56,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profilingGroups/{profilingGroupName}/policy/{actionGroup}\n  method: put\n  operationId: PutPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profilingGroups/{profilingGroupName}/notificationConfiguration/{channelId}\n  method: delete\n  operationId: RemoveNotificationChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profilingGroups/{profilingGroupName}/policy/{actionGroup}#revisionId\n  method: delete\n\
   \  operationId: RemovePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /internal/profilingGroups/{profilingGroupName}/anomalies/{anomalyInstanceId}/feedback\n  method: post\n  operationId: SubmitFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-profiler/refs/heads/main/agentic-access/amazon-codeguru-profiler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codeguru-profiler/agentic-access/amazon-codeguru-profiler-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Amazon
+- Amazon Web Services
 - Application Performance
 - Profiling
 - DevOps

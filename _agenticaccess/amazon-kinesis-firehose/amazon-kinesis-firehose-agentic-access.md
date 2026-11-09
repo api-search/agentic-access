@@ -9,7 +9,13 @@ api_specs:
   label: Amazon Kinesis Data Firehose Delivery Streams API
   slug: amazon-kinesis-firehose-delivery-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/openapi/amazon-kinesis-firehose-delivery-streams-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kinesis-firehose/openapi/amazon-kinesis-firehose-delivery-streams-api-openapi.yml
+- filename: amazon-kinesis-firehose-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Kinesis Data Firehose Kinesis Firehose Operations API
+  slug: amazon-kinesis-firehose-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kinesis-firehose/openapi/amazon-kinesis-firehose-operations-api-openapi.yml
 consequence_counts:
   read: 2
   write: 5
@@ -38,10 +44,11 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-kinesis-firehose-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 5\n    connected: 2\n  by_consequence:\n    write: 5\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /delivery-streams\n  method: post\n  operationId: CreateDeliveryStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delivery-streams\n  method: get\n  operationId: ListDeliveryStreams\n  x-agentic-access:\n  \
   \  action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /delivery-streams/{DeliveryStreamName}\n  method: get\n  operationId: DescribeDeliveryStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /delivery-streams/{DeliveryStreamName}\n  method: delete\n  operationId: DeleteDeliveryStream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delivery-streams/{DeliveryStreamName}/destination\n  method: put\n  operationId: UpdateDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delivery-streams/{DeliveryStreamName}/records\n  method: post\n  operationId: PutRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delivery-streams/{DeliveryStreamName}/records/batch\n  method: post\n  operationId: PutRecordBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kinesis-firehose/refs/heads/main/agentic-access/amazon-kinesis-firehose-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kinesis-firehose/agentic-access/amazon-kinesis-firehose-agentic-access.yml
 summary_line: 7 operations · 5 acting
 tags:
 - Analytics
+- Amazon Web Services
 - Data Delivery
 - Streaming
 ---

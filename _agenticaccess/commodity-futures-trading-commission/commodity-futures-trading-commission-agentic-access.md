@@ -8,7 +8,7 @@ api_specs:
   label: Commodity Futures Trading Commission COT API
   slug: commodity-futures-trading-commission-cot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/openapi/commodity-futures-trading-commission-cot-api-openapi.yml
+  url: https://artifacts.apis.io/commodity-futures-trading-commission/openapi/commodity-futures-trading-commission-cot-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -36,7 +36,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cftc-cot-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /6dca-aqww.json\n  method: get\n  operationId: getLegacyFuturesOnly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jun7-fc8e.json\n  method: get\n  operationId: getLegacyCombined\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /72hh-3qpy.json\n  method: get\n  operationId: getDisaggregatedFuturesOnly\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kh3c-gbw2.json\n  method: get\n  operationId: getDisaggregatedCombined\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gpe5-46if.json\n  method: get\n  operationId: getTffFuturesOnly\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /yw9f-hn96.json\n  method: get\n  operationId: getTffCombined\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /4zgm-a668.json\n  method: get\n  operationId: getSupplementalCit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/agentic-access/commodity-futures-trading-commission-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/commodity-futures-trading-commission/agentic-access/commodity-futures-trading-commission-agentic-access.yml
 summary_line: 7 operations
 tags:
 - CFTC

@@ -9,55 +9,55 @@ api_specs:
   label: Tango Accounts API
   slug: tango-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-accounts-api-openapi.yml
 - filename: tango-catalog-api-openapi.yml
   format: yaml
   label: Tango Catalog API
   slug: tango-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-catalog-api-openapi.yml
 - filename: tango-customers-api-openapi.yml
   format: yaml
   label: Tango Customers API
   slug: tango-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-customers-api-openapi.yml
 - filename: tango-digital-templates-api-openapi.yml
   format: yaml
   label: Tango Digital Templates API
   slug: tango-digital-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-digital-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-digital-templates-api-openapi.yml
 - filename: tango-funding-api-openapi.yml
   format: yaml
   label: Tango Funding API
   slug: tango-funding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-funding-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-funding-api-openapi.yml
 - filename: tango-line-items-api-openapi.yml
   format: yaml
   label: Tango Line Items API
   slug: tango-line-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-line-items-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-line-items-api-openapi.yml
 - filename: tango-low-balance-alerts-api-openapi.yml
   format: yaml
   label: Tango Low Balance Alerts API
   slug: tango-low-balance-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-low-balance-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-low-balance-alerts-api-openapi.yml
 - filename: tango-orders-api-openapi.yml
   format: yaml
   label: Tango Orders API
   slug: tango-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-orders-api-openapi.yml
 - filename: tango-reference-data-api-openapi.yml
   format: yaml
   label: Tango Reference Data API
   slug: tango-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/openapi/tango-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/tango/openapi/tango-reference-data-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 25
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tango-
   \  method: post\n  operationId: resendLineItem\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digitalTemplates\n  method: get\n  operationId: listDigitalTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digitalTemplates\n  method: post\n  operationId: createDigitalTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digitalTemplates/{etid}\n  method:\
   \ get\n  operationId: getDigitalTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digitalTemplates/{etid}\n  method: patch\n  operationId: updateDigitalTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /digitalTemplates/{etid}\n  method: delete\n  operationId: deleteDigitalTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /exchangerates\n  method: get\n  operationId: getExchangeRates\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rewardCountries\n  method: get\n  operationId: listRewardCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentialtypes\n  method: get\n  operationId: listCredentialTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tango/refs/heads/main/agentic-access/tango-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tango/agentic-access/tango-agentic-access.yml
 summary_line: 44 operations · 19 acting
 tags:
 - Catalog Management

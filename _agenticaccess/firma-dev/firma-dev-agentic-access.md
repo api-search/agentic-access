@@ -9,73 +9,73 @@ api_specs:
   label: Firma.dev Company API
   slug: firma-dev-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-company-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-company-api-openapi.yml
 - filename: firma-dev-custom-fields-api-openapi.yml
   format: yaml
   label: Firma.dev Custom Fields API
   slug: firma-dev-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-custom-fields-api-openapi.yml
 - filename: firma-dev-email-domains-api-openapi.yml
   format: yaml
   label: Firma.dev Email Domains API
   slug: firma-dev-email-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-email-domains-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-email-domains-api-openapi.yml
 - filename: firma-dev-email-templates-api-openapi.yml
   format: yaml
   label: Firma.dev Email Templates API
   slug: firma-dev-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-email-templates-api-openapi.yml
 - filename: firma-dev-jwt-management-api-openapi.yml
   format: yaml
   label: Firma.dev JWT Management API
   slug: firma-dev-jwt-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-jwt-management-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-jwt-management-api-openapi.yml
 - filename: firma-dev-organization-seals-api-openapi.yml
   format: yaml
   label: Firma.dev Organization Seals API
   slug: firma-dev-organization-seals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-organization-seals-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-organization-seals-api-openapi.yml
 - filename: firma-dev-signer-terms-api-openapi.yml
   format: yaml
   label: Firma.dev Signer Terms API
   slug: firma-dev-signer-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-signer-terms-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-signer-terms-api-openapi.yml
 - filename: firma-dev-signing-requests-api-openapi.yml
   format: yaml
   label: Firma.dev Signing Requests API
   slug: firma-dev-signing-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-signing-requests-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-signing-requests-api-openapi.yml
 - filename: firma-dev-templates-api-openapi.yml
   format: yaml
   label: Firma.dev Templates API
   slug: firma-dev-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-templates-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-templates-api-openapi.yml
 - filename: firma-dev-webhooks-api-openapi.yml
   format: yaml
   label: Firma.dev Webhooks API
   slug: firma-dev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-webhooks-api-openapi.yml
 - filename: firma-dev-workspace-settings-api-openapi.yml
   format: yaml
   label: Firma.dev Workspace Settings API
   slug: firma-dev-workspace-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-workspace-settings-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-workspace-settings-api-openapi.yml
 - filename: firma-dev-workspaces-api-openapi.yml
   format: yaml
   label: Firma.dev Workspaces API
   slug: firma-dev-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/openapi/firma-dev-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/firma-dev/openapi/firma-dev-workspaces-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 44
@@ -179,8 +179,8 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/app_fi
   \ /signing-requests/{request_id}/custom-fields/{field_id}\n  method: delete\n  operationId: deleteSigningRequestCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/webhooks/rotate-secret\n  method: post\n  operationId: rotateWorkspaceWebhookSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/webhooks/secret-status\n  method: get\n  operationId: getWorkspaceWebhookSecretStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /signing-requests/{id}/download\n  method: get\n  operationId: downloadSigningRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signing-requests/{id}/signers/{signer_id}/signature\n  method: get\n  operationId: retrieveSignerSignature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signing-requests/{id}/signers/{signer_id}/initials\n  method: get\n  operationId: retrieveSignerInitials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signing-requests/{id}/signers/{signer_id}/stamps/{field_id}\n  method: get\n  operationId: retrieveSignerStamp\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /signing-requests/{id}/signers/{signer_id}/files/{field_id}\n  method: get\n  operationId: retrieveSignerFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/logo\n  method: post\n  operationId: uploadCompanyLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /company/logo\n  method: delete\n  operationId: deleteCompanyLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /workspaces/{id}/logo\n  method: post\n  operationId: uploadWorkspaceLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/logo\n  method: delete\n  operationId: deleteWorkspaceLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/agentic-access/firma-dev-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firma-dev/refs/heads/main/agentic-access/firma-dev-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /workspaces/{id}/logo\n  method: post\n  operationId: uploadWorkspaceLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}/logo\n  method: delete\n  operationId: deleteWorkspaceLogo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/firma-dev/agentic-access/firma-dev-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/firma-dev/agentic-access/firma-dev-agentic-access.yml
 summary_line: 115 operations · 71 acting · 3 human-in-the-loop
 tags:
 - Company

@@ -9,43 +9,43 @@ api_specs:
   label: SEC API Filing Stream API
   slug: sec-api-filing-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/asyncapi/sec-api-asyncapi.yml
+  url: https://artifacts.apis.io/sec-api/asyncapi/sec-api-asyncapi.yml
 - filename: sec-api-extractor-api-openapi.yml
   format: yaml
   label: SEC API Extractor API
   slug: sec-api-extractor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-extractor-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-extractor-api-openapi.yml
 - filename: sec-api-filing-query-api-openapi.yml
   format: yaml
   label: SEC API Filing Query API
   slug: sec-api-filing-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-filing-query-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-filing-query-api-openapi.yml
 - filename: sec-api-form-13f-api-openapi.yml
   format: yaml
   label: SEC API Form 13F API
   slug: sec-api-form-13f-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-form-13f-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-form-13f-api-openapi.yml
 - filename: sec-api-full-text-search-api-openapi.yml
   format: yaml
   label: SEC API Full-Text Search API
   slug: sec-api-full-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-full-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-full-text-search-api-openapi.yml
 - filename: sec-api-insider-trading-api-openapi.yml
   format: yaml
   label: SEC API Insider Trading API
   slug: sec-api-insider-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-insider-trading-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-insider-trading-api-openapi.yml
 - filename: sec-api-xbrl-api-openapi.yml
   format: yaml
   label: SEC API XBRL API
   slug: sec-api-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/openapi/sec-api-xbrl-api-openapi.yml
+  url: https://artifacts.apis.io/sec-api/openapi/sec-api-xbrl-api-openapi.yml
 consequence_counts:
   read: 6
   write: 1
@@ -74,7 +74,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sec-api-extractor-api-openapi.yml, openapi/sec-api-filing-query-api-openapi.yml,\n  openapi/sec-api-form-13f-api-openapi.yml, openapi/sec-api-full-text-search-api-openapi.yml,\n  openapi/sec-api-insider-trading-api-openapi.yml, openapi/sec-api-xbrl-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 6\n    acting: 1\n  by_consequence:\n    read: 6\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /extractor\n  method: get\n  operationId: extractFilingSection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n\
   \  method: post\n  operationId: queryFilings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /form-13f/holdings\n  method: post\n  operationId: query13FHoldings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /form-13f/cover-pages\n  method: post\n  operationId: query13FCoverPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /full-text-search\n  method: post\n  operationId: fullTextSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /insider-trading\n  method: post\n  operationId: queryInsiderTrading\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xbrl-to-json\n  method: get\n  operationId: xbrlToJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sec-api/refs/heads/main/agentic-access/sec-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sec-api/agentic-access/sec-api-agentic-access.yml
 summary_line: 7 operations · 1 acting
 tags:
 - SEC Filings

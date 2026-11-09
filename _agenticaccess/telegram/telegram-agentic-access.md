@@ -9,55 +9,55 @@ api_specs:
   label: Telegram Bot Info API
   slug: telegram-bot-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-bot-info-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-bot-info-api-openapi.yml
 - filename: telegram-chat-management-api-openapi.yml
   format: yaml
   label: Telegram Chat Management API
   slug: telegram-chat-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-chat-management-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-chat-management-api-openapi.yml
 - filename: telegram-getting-updates-api-openapi.yml
   format: yaml
   label: Telegram Getting Updates API
   slug: telegram-getting-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-getting-updates-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-getting-updates-api-openapi.yml
 - filename: telegram-invites-api-openapi.yml
   format: yaml
   label: Telegram Invites API
   slug: telegram-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-invites-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-invites-api-openapi.yml
 - filename: telegram-member-management-api-openapi.yml
   format: yaml
   label: Telegram Member Management API
   slug: telegram-member-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-member-management-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-member-management-api-openapi.yml
 - filename: telegram-message-editing-api-openapi.yml
   format: yaml
   label: Telegram Message Editing API
   slug: telegram-message-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-message-editing-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-message-editing-api-openapi.yml
 - filename: telegram-messaging-api-openapi.yml
   format: yaml
   label: Telegram Messaging API
   slug: telegram-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-messaging-api-openapi.yml
 - filename: telegram-payments-api-openapi.yml
   format: yaml
   label: Telegram Payments API
   slug: telegram-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-payments-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-payments-api-openapi.yml
 - filename: telegram-stickers-api-openapi.yml
   format: yaml
   label: Telegram Stickers API
   slug: telegram-stickers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/openapi/telegram-stickers-api-openapi.yml
+  url: https://artifacts.apis.io/telegram/openapi/telegram-stickers-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 9
@@ -177,7 +177,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/telegr
   \      - abnormal\n      - high-value\n    audit: required\n- path: /answerCallbackQuery\n  method: post\n  operationId: answerCallbackQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sendInvoice\n  method: post\n  operationId: sendInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /answerShippingQuery\n  method: post\n  operationId: answerShippingQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /answerPreCheckoutQuery\n  method: post\n  operationId: answerPreCheckoutQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /createNewStickerSet\n  method: post\n  operationId: createNewStickerSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /addStickerToSet\n  method: post\n  operationId: addStickerToSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/agentic-access/telegram-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/telegram/agentic-access/telegram-agentic-access.yml
 summary_line: 51 operations · 42 acting · 1 human-in-the-loop
 tags:
 - Bots
@@ -186,4 +186,9 @@ tags:
 - Notification
 - Payments
 - Telegram
+- Social
+- Public APIs
+- Chatbots
+- Webhook
+- Mini Apps
 ---

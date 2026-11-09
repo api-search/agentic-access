@@ -9,25 +9,85 @@ api_specs:
   label: Amazon DMS Endpoints API
   slug: amazon-dms-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-endpoints-api-openapi.yml
 - filename: amazon-dms-replication-instances-api-openapi.yml
   format: yaml
   label: Amazon DMS Replication Instances API
   slug: amazon-dms-replication-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-replication-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-replication-instances-api-openapi.yml
 - filename: amazon-dms-replication-tasks-api-openapi.yml
   format: yaml
   label: Amazon DMS Replication Tasks API
   slug: amazon-dms-replication-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-replication-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-replication-tasks-api-openapi.yml
 - filename: amazon-dms-aws-database-migration-service-api-openapi.yml
   format: yaml
   label: Amazon DMS AWS Database Migration Service API
   slug: amazon-dms-aws-database-migration-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/openapi/amazon-dms-aws-database-migration-service-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-aws-database-migration-service-api-openapi.yml
+- filename: amazon-dms-data-migration-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Data Migration API
+  slug: amazon-dms-data-migration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-data-migration-api-openapi.yml
+- filename: amazon-dms-data-provider-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Data Provider API
+  slug: amazon-dms-data-provider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-data-provider-api-openapi.yml
+- filename: amazon-dms-instance-profile-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Instance Profile API
+  slug: amazon-dms-instance-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-instance-profile-api-openapi.yml
+- filename: amazon-dms-metadata-model-assessment-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Metadata Model Assessment API
+  slug: amazon-dms-metadata-model-assessment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-metadata-model-assessment-api-openapi.yml
+- filename: amazon-dms-metadata-model-conversion-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Metadata Model Conversion API
+  slug: amazon-dms-metadata-model-conversion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-metadata-model-conversion-api-openapi.yml
+- filename: amazon-dms-metadata-model-creation-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Metadata Model Creation API
+  slug: amazon-dms-metadata-model-creation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-metadata-model-creation-api-openapi.yml
+- filename: amazon-dms-migration-project-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Migration Project API
+  slug: amazon-dms-migration-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-migration-project-api-openapi.yml
+- filename: amazon-dms-operations-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Operations API
+  slug: amazon-dms-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-operations-api-openapi.yml
+- filename: amazon-dms-replication-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Replication API
+  slug: amazon-dms-replication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-replication-api-openapi.yml
+- filename: amazon-dms-replication-config-api-openapi.yml
+  format: yaml
+  label: Amazon DMS Dms Replication Config API
+  slug: amazon-dms-replication-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dms/openapi/amazon-dms-replication-config-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 1
@@ -106,10 +166,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.ModifyEventSubscription\n  method: post\n  operationId: ModifyEventSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.ModifyReplicationInstance\n  method: post\n  operationId: ModifyReplicationInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.ModifyReplicationSubnetGroup\n  method: post\n  operationId: ModifyReplicationSubnetGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.ModifyReplicationTask\n  method: post\n  operationId: ModifyReplicationTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.MoveReplicationTask\n  method: post\n  operationId: MoveReplicationTask\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.RebootReplicationInstance\n  method: post\n  operationId: RebootReplicationInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.RefreshSchemas\n  method: post\n  operationId: RefreshSchemas\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
-  \    - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.ReloadTables\n  method: post\n  operationId: ReloadTables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/agentic-access/amazon-dms-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-dms/refs/heads/main/agentic-access/amazon-dms-agentic-access.yml
+  \    - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonDMSv20160101.ReloadTables\n  method: post\n  operationId: ReloadTables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-dms/agentic-access/amazon-dms-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-dms/agentic-access/amazon-dms-agentic-access.yml
 summary_line: 75 operations · 74 acting · 2 human-in-the-loop
 tags:
+- Amazon Web Services
 - Data Replication
 - Database
 - Database Migration

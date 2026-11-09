@@ -9,25 +9,25 @@ api_specs:
   label: OpenSanctions Data access API
   slug: opensanctions-data-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-data-access-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-data-access-api-openapi.yml
 - filename: opensanctions-matching-api-openapi.yml
   format: yaml
   label: OpenSanctions Matching API
   slug: opensanctions-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-matching-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-matching-api-openapi.yml
 - filename: opensanctions-reconciliation-api-openapi.yml
   format: yaml
   label: OpenSanctions Reconciliation API
   slug: opensanctions-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-reconciliation-api-openapi.yml
 - filename: opensanctions-system-information-api-openapi.yml
   format: yaml
   label: OpenSanctions System information API
   slug: opensanctions-system-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-system-information-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-system-information-api-openapi.yml
 consequence_counts:
   read: 11
   write: 1
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/opensa
   \  method: get\n  operationId: Fetch_Adjacent_Entities__entities__entity_id__adjacent_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entities/{entity_id}/adjacent/{property_name}\n  method: get\n  operationId: Fetch_Adjacent_by_Property__entities__entity_id__adjacent__property_name__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog\n  method: get\n  operationId: catalog_catalog_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements\n  method: get\n  operationId: statements_statements_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /match/{dataset}\n\
   \  method: post\n  operationId: match_match__dataset__post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/{dataset}\n  method: get\n  operationId: search_search__dataset__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reconcile/{dataset}\n  method: get\n  operationId: reconcile_reconcile__dataset__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /healthz\n  method: get\n  operationId: healthz_healthz_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /readyz\n  method: get\n  operationId: readyz_readyz_get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /algorithms\n  method: get\n  operationId: algorithms_algorithms_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /updatez\n  method: post\n  operationId: force_update_updatez_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/agentic-access/opensanctions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/opensanctions/agentic-access/opensanctions-agentic-access.yml
 summary_line: 12 operations · 1 acting
 tags:
 - Sanctions Screening

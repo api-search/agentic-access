@@ -9,199 +9,199 @@ api_specs:
   label: Armada Admin Settings API
   slug: armada-admin-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-admin-settings-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-admin-settings-api-openapi.yml
 - filename: armada-app-catalog-api-openapi.yml
   format: yaml
   label: Armada App Catalog API
   slug: armada-app-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-app-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-app-catalog-api-openapi.yml
 - filename: armada-catalog-api-openapi.yml
   format: yaml
   label: Armada Catalog API
   slug: armada-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-catalog-api-openapi.yml
 - filename: armada-clusters-api-openapi.yml
   format: yaml
   label: Armada Clusters API
   slug: armada-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-clusters-api-openapi.yml
 - filename: armada-cms-api-openapi.yml
   format: yaml
   label: Armada CMS API
   slug: armada-cms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-cms-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-cms-api-openapi.yml
 - filename: armada-dashboard-api-openapi.yml
   format: yaml
   label: Armada Dashboard API
   slug: armada-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-dashboard-api-openapi.yml
 - filename: armada-data-volumes-api-openapi.yml
   format: yaml
   label: Armada Data Volumes API
   slug: armada-data-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-data-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-data-volumes-api-openapi.yml
 - filename: armada-datasets-api-openapi.yml
   format: yaml
   label: Armada Datasets API
   slug: armada-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-datasets-api-openapi.yml
 - filename: armada-device-discovery-api-openapi.yml
   format: yaml
   label: Armada Device Discovery API
   slug: armada-device-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-device-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-device-discovery-api-openapi.yml
 - filename: armada-endpoints-api-openapi.yml
   format: yaml
   label: Armada Endpoints API
   slug: armada-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-endpoints-api-openapi.yml
 - filename: armada-features-api-openapi.yml
   format: yaml
   label: Armada Features API
   slug: armada-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-features-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-features-api-openapi.yml
 - filename: armada-health-debug-api-openapi.yml
   format: yaml
   label: Armada Health & Debug API
   slug: armada-health-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-health-debug-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-health-debug-api-openapi.yml
 - filename: armada-infra-import-api-openapi.yml
   format: yaml
   label: Armada Infra Import API
   slug: armada-infra-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-infra-import-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-infra-import-api-openapi.yml
 - filename: armada-load-balancers-api-openapi.yml
   format: yaml
   label: Armada Load Balancers API
   slug: armada-load-balancers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-load-balancers-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-load-balancers-api-openapi.yml
 - filename: armada-log-level-api-openapi.yml
   format: yaml
   label: Armada Log Level API
   slug: armada-log-level-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-log-level-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-log-level-api-openapi.yml
 - filename: armada-metal-api-openapi.yml
   format: yaml
   label: Armada Metal API
   slug: armada-metal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-metal-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-metal-api-openapi.yml
 - filename: armada-models-api-openapi.yml
   format: yaml
   label: Armada Models API
   slug: armada-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-models-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-models-api-openapi.yml
 - filename: armada-monetize-api-openapi.yml
   format: yaml
   label: Armada Monetize API
   slug: armada-monetize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-monetize-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-monetize-api-openapi.yml
 - filename: armada-netq-api-openapi.yml
   format: yaml
   label: Armada NetQ API
   slug: armada-netq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-netq-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-netq-api-openapi.yml
 - filename: armada-network-api-openapi.yml
   format: yaml
   label: Armada Network API
   slug: armada-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-network-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-network-api-openapi.yml
 - filename: armada-quotas-api-openapi.yml
   format: yaml
   label: Armada Quotas API
   slug: armada-quotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-quotas-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-quotas-api-openapi.yml
 - filename: armada-s3-api-openapi.yml
   format: yaml
   label: Armada S3 API
   slug: armada-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-s3-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-s3-api-openapi.yml
 - filename: armada-security-groups-api-openapi.yml
   format: yaml
   label: Armada Security Groups API
   slug: armada-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-security-groups-api-openapi.yml
 - filename: armada-servers-api-openapi.yml
   format: yaml
   label: Armada Servers API
   slug: armada-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-servers-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-servers-api-openapi.yml
 - filename: armada-slurm-api-openapi.yml
   format: yaml
   label: Armada Slurm API
   slug: armada-slurm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-slurm-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-slurm-api-openapi.yml
 - filename: armada-storage-api-openapi.yml
   format: yaml
   label: Armada Storage API
   slug: armada-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-storage-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-storage-api-openapi.yml
 - filename: armada-storage-classes-api-openapi.yml
   format: yaml
   label: Armada Storage Classes API
   slug: armada-storage-classes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-storage-classes-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-storage-classes-api-openapi.yml
 - filename: armada-templates-api-openapi.yml
   format: yaml
   label: Armada Templates API
   slug: armada-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-templates-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-templates-api-openapi.yml
 - filename: armada-tenant-common-storage-api-openapi.yml
   format: yaml
   label: Armada Tenant Common Storage API
   slug: armada-tenant-common-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-tenant-common-storage-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-tenant-common-storage-api-openapi.yml
 - filename: armada-tenants-api-openapi.yml
   format: yaml
   label: Armada Tenants API
   slug: armada-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-tenants-api-openapi.yml
 - filename: armada-vpc-api-openapi.yml
   format: yaml
   label: Armada VPC API
   slug: armada-vpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-vpc-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-vpc-api-openapi.yml
 - filename: armada-vms-api-openapi.yml
   format: yaml
   label: Armada V Ms API
   slug: armada-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-vms-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-vms-api-openapi.yml
 - filename: armada-paa-s-api-openapi.yml
   format: yaml
   label: Armada Paa S API
   slug: armada-paa-s-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/openapi/armada-paa-s-api-openapi.yml
+  url: https://artifacts.apis.io/armada/openapi/armada-paa-s-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 102
@@ -285,8 +285,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/armada
   \  method: post\n  operationId: postNetqServersByIdNotificationsSubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /netq/servers/{id}/notifications/unsubscribe\n  method: post\n  operationId: postNetqServersByIdNotificationsUnsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /netq/validate\n  method: post\n  operationId: createTopologyValidation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /netq/validate/{jobid}\n  method: get\n  operationId: getNetqValidateByJobid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/underlay\n  method: get\n  operationId: getUnderlay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/underlay\n  method: post\n  operationId: createUnderlay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant}/network/tenantUnderlay\n  method: post\n  operationId: postTenantsByTenantNetworkTenantUnderlay\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant}/network/underlay/{computeNodeName}\n  method: get\n  operationId: getTenantsByTenantNetworkUnderlayByComputeNodeName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants/{tenant}/network/underlay/{computeNodeName}\n  method: delete\n  operationId: deleteTenantsByTenantNetworkUnderlayByComputeNodeName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
-  \ /tenants/{tenant}/network/overlay\n  method: post\n  operationId: postTenantsByTenantNetworkOverlay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant}/network/vrf-network-status\n  method: get\n  operationId: getTenantsByTenantNetworkVrfNetworkStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/vrf-networks-status\n  method: get\n  operationId: getAllVrfNetworkStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/agentic-access/armada-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/armada/refs/heads/main/agentic-access/armada-agentic-access.yml
+  \ /tenants/{tenant}/network/overlay\n  method: post\n  operationId: postTenantsByTenantNetworkOverlay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tenants/{tenant}/network/vrf-network-status\n  method: get\n  operationId: getTenantsByTenantNetworkVrfNetworkStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network/vrf-networks-status\n  method: get\n  operationId: getAllVrfNetworkStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (56 KB total) ---\n# Full source: https://artifacts.apis.io/armada/agentic-access/armada-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/armada/agentic-access/armada-agentic-access.yml
 summary_line: 189 operations · 87 acting · 1 human-in-the-loop
 tags:
 - Company

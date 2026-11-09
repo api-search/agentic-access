@@ -9,55 +9,55 @@ api_specs:
   label: BrightEdge Auth API
   slug: brightedge-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-auth-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-auth-api-openapi.yml
 - filename: brightedge-authorize-api-openapi.yml
   format: yaml
   label: BrightEdge Authorize API
   slug: brightedge-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-authorize-api-openapi.yml
 - filename: brightedge-feedback-api-openapi.yml
   format: yaml
   label: BrightEdge Feedback API
   slug: brightedge-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-feedback-api-openapi.yml
 - filename: brightedge-oauth-api-openapi.yml
   format: yaml
   label: BrightEdge OAuth API
   slug: brightedge-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-oauth-api-openapi.yml
 - filename: brightedge-ping-api-openapi.yml
   format: yaml
   label: BrightEdge Ping API
   slug: brightedge-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-ping-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-ping-api-openapi.yml
 - filename: brightedge-saml-api-openapi.yml
   format: yaml
   label: BrightEdge SAML API
   slug: brightedge-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-saml-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-saml-api-openapi.yml
 - filename: brightedge-sso-api-openapi.yml
   format: yaml
   label: BrightEdge SSO API
   slug: brightedge-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-sso-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-sso-api-openapi.yml
 - filename: brightedge-token-api-openapi.yml
   format: yaml
   label: BrightEdge Token API
   slug: brightedge-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-token-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-token-api-openapi.yml
 - filename: brightedge-well-known-api-openapi.yml
   format: yaml
   label: BrightEdge .well Known API
   slug: brightedge-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/openapi/brightedge-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/brightedge/openapi/brightedge-well-known-api-openapi.yml
 consequence_counts:
   read: 176
   safety-critical: 2
@@ -130,8 +130,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/bright
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /5.0/dataset/page_cache\n  method: post\n  operationId: get_page_cache_5_0_dataset_page_cache_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /5.0/dataset/page_crawl\n  method: post\n  operationId: crawl_page_content_5_0_dataset_page_crawl_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /5.0/dataset/top_pages\n  method: post\n  operationId: get_top_pages_5_0_dataset_top_pages_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /5.0/dataset/top_keywords_per_page\n\
   \  method: post\n  operationId: get_top_keywords_per_page_5_0_dataset_top_keywords_per_page_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /5.0/dataset/top_keywords\n  method: post\n  operationId: get_top_keywords_per_domain_5_0_dataset_top_keywords_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /5.0/dataset/paa_per_keyword\n  method: post\n  operationId: get_paa_per_keyword_5_0_dataset_paa_per_keyword_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest5/dataset/ping\n  method: get\n  operationId: ping_latest5_dataset_ping_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /latest5/dataset/page_cache\n  method: post\n  operationId: get_page_cache_latest5_dataset_page_cache_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest5/dataset/page_crawl\n  method: post\n  operationId: crawl_page_content_latest5_dataset_page_crawl_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /latest5/dataset/top_pages\n  method: post\n  operationId: get_top_pages_latest5_dataset_top_pages_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /latest5/dataset/top_keywords_per_page\n  method: post\n\
-  \  operationId: get_top_keywords_per_page_latest5_dataset_top_keywords_per_page_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (79 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/agentic-access/brightedge-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightedge/refs/heads/main/agentic-access/brightedge-agentic-access.yml
+  \  operationId: get_top_keywords_per_page_latest5_dataset_top_keywords_per_page_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (79 KB total) ---\n# Full source: https://artifacts.apis.io/brightedge/agentic-access/brightedge-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/brightedge/agentic-access/brightedge-agentic-access.yml
 summary_line: 248 operations · 72 acting · 2 human-in-the-loop
 tags:
 - Company

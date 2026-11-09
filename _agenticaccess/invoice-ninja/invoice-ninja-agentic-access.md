@@ -9,61 +9,61 @@ api_specs:
   label: Invoice Ninja Activities API
   slug: invoice-ninja-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-activities-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-activities-api-openapi.yml
 - filename: invoice-ninja-authentication-api-openapi.yml
   format: yaml
   label: Invoice Ninja Authentication API
   slug: invoice-ninja-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-authentication-api-openapi.yml
 - filename: invoice-ninja-bank-integrations-api-openapi.yml
   format: yaml
   label: Invoice Ninja Bank Integrations API
   slug: invoice-ninja-bank-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-bank-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-bank-integrations-api-openapi.yml
 - filename: invoice-ninja-bank-transaction-rules-api-openapi.yml
   format: yaml
   label: Invoice Ninja Bank Transaction Rules API
   slug: invoice-ninja-bank-transaction-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-bank-transaction-rules-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-bank-transaction-rules-api-openapi.yml
 - filename: invoice-ninja-bank-transactions-api-openapi.yml
   format: yaml
   label: Invoice Ninja Bank Transactions API
   slug: invoice-ninja-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-bank-transactions-api-openapi.yml
 - filename: invoice-ninja-charts-api-openapi.yml
   format: yaml
   label: Invoice Ninja Charts API
   slug: invoice-ninja-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-charts-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-charts-api-openapi.yml
 - filename: invoice-ninja-client-gateway-tokens-api-openapi.yml
   format: yaml
   label: Invoice Ninja Client Gateway Tokens API
   slug: invoice-ninja-client-gateway-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-client-gateway-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-client-gateway-tokens-api-openapi.yml
 - filename: invoice-ninja-companies-api-openapi.yml
   format: yaml
   label: Invoice Ninja Companies API
   slug: invoice-ninja-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-companies-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-companies-api-openapi.yml
 - filename: invoice-ninja-company-gateways-api-openapi.yml
   format: yaml
   label: Invoice Ninja Company Gateways API
   slug: invoice-ninja-company-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-company-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-company-gateways-api-openapi.yml
 - filename: invoice-ninja-settings-api-openapi.yml
   format: yaml
   label: Invoice Ninja Settings API
   slug: invoice-ninja-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/openapi/invoice-ninja-settings-api-openapi.yml
+  url: https://artifacts.apis.io/invoice-ninja/openapi/invoice-ninja-settings-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/invoic
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/{id}/upload\n  method: post\n  operationId: uploadCompanyDocuments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/companies/current\n  method: post\n  operationId: getCurrentCompany\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company_gateways\n  method: get\n  operationId: listCompanyGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company_gateways\n  method: post\n  operationId: createCompanyGateway\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/company_gateways/{id}\n  method: get\n  operationId: getCompanyGateway\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/company_gateways/{id}\n  method: put\n  operationId: updateCompanyGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/settings/passkeys\n  method: get\n  operationId: listPasskeys\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/settings/passkeys\n  method: post\n  operationId: createPasskey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoice-ninja/refs/heads/main/agentic-access/invoice-ninja-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/invoice-ninja/agentic-access/invoice-ninja-agentic-access.yml
 summary_line: 44 operations · 23 acting
 tags:
 - Invoicing

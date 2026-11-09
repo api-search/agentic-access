@@ -9,79 +9,79 @@ api_specs:
   label: Speakeasy Artifacts API
   slug: speakeasy-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-artifacts-api-openapi.yml
 - filename: speakeasy-auth-api-openapi.yml
   format: yaml
   label: Speakeasy Auth API
   slug: speakeasy-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-auth-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-auth-api-openapi.yml
 - filename: speakeasy-codesamples-api-openapi.yml
   format: yaml
   label: Speakeasy CodeSamples API
   slug: speakeasy-codesamples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-codesamples-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-codesamples-api-openapi.yml
 - filename: speakeasy-events-api-openapi.yml
   format: yaml
   label: Speakeasy Events API
   slug: speakeasy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-events-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-events-api-openapi.yml
 - filename: speakeasy-github-api-openapi.yml
   format: yaml
   label: Speakeasy Github API
   slug: speakeasy-github-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-github-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-github-api-openapi.yml
 - filename: speakeasy-organizations-api-openapi.yml
   format: yaml
   label: Speakeasy Organizations API
   slug: speakeasy-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-organizations-api-openapi.yml
 - filename: speakeasy-publishingtokens-api-openapi.yml
   format: yaml
   label: Speakeasy PublishingTokens API
   slug: speakeasy-publishingtokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-publishingtokens-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-publishingtokens-api-openapi.yml
 - filename: speakeasy-reports-api-openapi.yml
   format: yaml
   label: Speakeasy Reports API
   slug: speakeasy-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-reports-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-reports-api-openapi.yml
 - filename: speakeasy-schemastore-api-openapi.yml
   format: yaml
   label: Speakeasy SchemaStore API
   slug: speakeasy-schemastore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-schemastore-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-schemastore-api-openapi.yml
 - filename: speakeasy-subscriptions-api-openapi.yml
   format: yaml
   label: Speakeasy Subscriptions API
   slug: speakeasy-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-subscriptions-api-openapi.yml
 - filename: speakeasy-suggest-api-openapi.yml
   format: yaml
   label: Speakeasy Suggest API
   slug: speakeasy-suggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-suggest-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-suggest-api-openapi.yml
 - filename: speakeasy-workspaces-api-openapi.yml
   format: yaml
   label: Speakeasy Workspaces API
   slug: speakeasy-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-workspaces-api-openapi.yml
 - filename: speakeasy-short-urls-api-openapi.yml
   format: yaml
   label: Speakeasy Short URLs API
   slug: speakeasy-short-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/openapi/speakeasy-short-urls-api-openapi.yml
+  url: https://artifacts.apis.io/speakeasy/openapi/speakeasy-short-urls-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 3
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/speake
   \ none\n- path: /v1/artifacts/namespaces/{namespace_name}/tags\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/artifacts/namespaces/{namespace_name}/tags\n  method: post\n  operationId: postTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/artifacts/namespaces/{namespace_name}/visibility\n  method: post\n  operationId: setVisibility\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/artifacts/remote_sources\n  method: get\n  operationId: listRemoteSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/artifacts/remote_sources\n  method: post\n  operationId: createRemoteSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/oci/v2/{organization_slug}/{workspace_slug}/{namespace_name}/manifests/{revision_reference}\n  method: get\n  operationId: getManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/oci/v2/{organization_slug}/{workspace_slug}/{namespace_name}/blobs/{digest}\n  method: get\n  operationId:\
   \ getBlob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscriptions/{subscriptionID}/{namespaceName}/ignore\n  method: post\n  operationId: ignoreSubscriptionNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/subscriptions/{subscriptionID}/{namespaceName}/activate\n  method: post\n  operationId: activateSubscriptionNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speakeasy/refs/heads/main/agentic-access/speakeasy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/speakeasy/agentic-access/speakeasy-agentic-access.yml
 summary_line: 77 operations · 38 acting · 3 human-in-the-loop
 tags:
 - Artificial Intelligence

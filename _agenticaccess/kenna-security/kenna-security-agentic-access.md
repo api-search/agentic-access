@@ -9,169 +9,169 @@ api_specs:
   label: Kenna Security APPLICATION REPORTING API
   slug: kenna-security-application-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-application-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-application-reporting-api-openapi.yml
 - filename: kenna-security-applications-api-openapi.yml
   format: yaml
   label: Kenna Security APPLICATIONS API
   slug: kenna-security-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-applications-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-applications-api-openapi.yml
 - filename: kenna-security-asset-group-reporting-api-openapi.yml
   format: yaml
   label: Kenna Security ASSET GROUP REPORTING API
   slug: kenna-security-asset-group-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-asset-group-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-asset-group-reporting-api-openapi.yml
 - filename: kenna-security-asset-groups-api-openapi.yml
   format: yaml
   label: Kenna Security ASSET GROUPS API
   slug: kenna-security-asset-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-asset-groups-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-asset-groups-api-openapi.yml
 - filename: kenna-security-asset-tagging-api-openapi.yml
   format: yaml
   label: Kenna Security ASSET TAGGING API
   slug: kenna-security-asset-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-asset-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-asset-tagging-api-openapi.yml
 - filename: kenna-security-assets-api-openapi.yml
   format: yaml
   label: Kenna Security ASSETS API
   slug: kenna-security-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-assets-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-assets-api-openapi.yml
 - filename: kenna-security-audit-logs-api-openapi.yml
   format: yaml
   label: Kenna Security AUDIT LOGS API
   slug: kenna-security-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-audit-logs-api-openapi.yml
 - filename: kenna-security-connector-runs-api-openapi.yml
   format: yaml
   label: Kenna Security CONNECTOR RUNS API
   slug: kenna-security-connector-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-connector-runs-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-connector-runs-api-openapi.yml
 - filename: kenna-security-connectors-api-openapi.yml
   format: yaml
   label: Kenna Security CONNECTORS API
   slug: kenna-security-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-connectors-api-openapi.yml
 - filename: kenna-security-cves-api-openapi.yml
   format: yaml
   label: Kenna Security CVES API
   slug: kenna-security-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-cves-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-cves-api-openapi.yml
 - filename: kenna-security-dashboard-groups-api-openapi.yml
   format: yaml
   label: Kenna Security DASHBOARD GROUPS API
   slug: kenna-security-dashboard-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-dashboard-groups-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-dashboard-groups-api-openapi.yml
 - filename: kenna-security-data-export-api-openapi.yml
   format: yaml
   label: Kenna Security DATA EXPORT API
   slug: kenna-security-data-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-data-export-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-data-export-api-openapi.yml
 - filename: kenna-security-entitlements-api-openapi.yml
   format: yaml
   label: Kenna Security ENTITLEMENTS API
   slug: kenna-security-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-entitlements-api-openapi.yml
 - filename: kenna-security-findings-api-openapi.yml
   format: yaml
   label: Kenna Security FINDINGS API
   slug: kenna-security-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-findings-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-findings-api-openapi.yml
 - filename: kenna-security-fixes-api-openapi.yml
   format: yaml
   label: Kenna Security FIXES API
   slug: kenna-security-fixes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-fixes-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-fixes-api-openapi.yml
 - filename: kenna-security-high-risk-vulnerability-densities-api-openapi.yml
   format: yaml
   label: Kenna Security HIGH RISK VULNERABILITY DENSITIES API
   slug: kenna-security-high-risk-vulnerability-densities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-high-risk-vulnerability-densities-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-high-risk-vulnerability-densities-api-openapi.yml
 - filename: kenna-security-inference-v1-legacy-api-openapi.yml
   format: yaml
   label: Kenna Security INFERENCE V1 (Legacy) API
   slug: kenna-security-inference-v1-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-inference-v1-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-inference-v1-legacy-api-openapi.yml
 - filename: kenna-security-inference-v2-legacy-api-openapi.yml
   format: yaml
   label: Kenna Security INFERENCE V2 (Legacy) API
   slug: kenna-security-inference-v2-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-inference-v2-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-inference-v2-legacy-api-openapi.yml
 - filename: kenna-security-inference-v3-cves-api-openapi.yml
   format: yaml
   label: Kenna Security INFERENCE V3 - Cves API
   slug: kenna-security-inference-v3-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-inference-v3-cves-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-inference-v3-cves-api-openapi.yml
 - filename: kenna-security-inference-v3-osquery-api-openapi.yml
   format: yaml
   label: Kenna Security INFERENCE V3 - Osquery API
   slug: kenna-security-inference-v3-osquery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-inference-v3-osquery-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-inference-v3-osquery-api-openapi.yml
 - filename: kenna-security-integrations-api-openapi.yml
   format: yaml
   label: Kenna Security INTEGRATIONS API
   slug: kenna-security-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-integrations-api-openapi.yml
 - filename: kenna-security-remediation-score-api-openapi.yml
   format: yaml
   label: Kenna Security REMEDIATION SCORE API
   slug: kenna-security-remediation-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-remediation-score-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-remediation-score-api-openapi.yml
 - filename: kenna-security-roles-api-openapi.yml
   format: yaml
   label: Kenna Security ROLES API
   slug: kenna-security-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-roles-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-roles-api-openapi.yml
 - filename: kenna-security-sla-adherence-api-openapi.yml
   format: yaml
   label: Kenna Security SLA ADHERENCE API
   slug: kenna-security-sla-adherence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-sla-adherence-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-sla-adherence-api-openapi.yml
 - filename: kenna-security-stacks-api-openapi.yml
   format: yaml
   label: Kenna Security STACKS API
   slug: kenna-security-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-stacks-api-openapi.yml
 - filename: kenna-security-users-api-openapi.yml
   format: yaml
   label: Kenna Security USERS API
   slug: kenna-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-users-api-openapi.yml
 - filename: kenna-security-vulnerabilities-api-openapi.yml
   format: yaml
   label: Kenna Security VULNERABILITIES API
   slug: kenna-security-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-vulnerabilities-api-openapi.yml
 - filename: kenna-security-vulnerability-intelligence-api-openapi.yml
   format: yaml
   label: Kenna Security VULNERABILITY INTELLIGENCE+ API
   slug: kenna-security-vulnerability-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/openapi/kenna-security-vulnerability-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/kenna-security/openapi/kenna-security-vulnerability-intelligence-api-openapi.yml
 consequence_counts:
   read: 75
   safety-critical: 1
@@ -239,8 +239,8 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/kenna-
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vulnerabilities/bulk_delete\n  method: delete\n  operationId: bulk-delete-vulnerabilities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vulnerabilities/download_data_zip\n  method: get\n  operationId: download-zipped-vuln-data\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities/search\n  method: get\n  operationId: search-vulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /vulnerabilities/validate_search\n  method: get\n  operationId: validate-vulnerability-search-query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities/{id}\n  method: get\n  operationId: show-vulnerability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerabilities/{id}\n  method: delete\n  operationId: delete-vulnerability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vulnerabilities/{id}\n  method: put\n  operationId: update-vulnerability\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vulnerabilities/{id}/scanner_vulnerabilities\n  method: get\n  operationId: show-scanner-vulnerability-details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions\n  method: get\n  operationId: list-vulnerability-definitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/cve_identifiers\n  method: get\n  operationId: list-cve-identifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/history\n\
-  \  method: get\n  operationId: show-cve-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/search\n  method: get\n  operationId: search-for-vulnerability-definitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/trends\n  method: get\n  operationId: trends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/vi_data_snapshot\n  method: get\n  operationId: vi-data-snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/agentic-access/kenna-security-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kenna-security/refs/heads/main/agentic-access/kenna-security-agentic-access.yml
+  \  method: get\n  operationId: show-cve-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/search\n  method: get\n  operationId: search-for-vulnerability-definitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/trends\n  method: get\n  operationId: trends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vulnerability_definitions/vi_data_snapshot\n  method: get\n  operationId: vi-data-snapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/kenna-security/agentic-access/kenna-security-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kenna-security/agentic-access/kenna-security-agentic-access.yml
 summary_line: 120 operations · 45 acting · 1 human-in-the-loop
 tags:
 - Company

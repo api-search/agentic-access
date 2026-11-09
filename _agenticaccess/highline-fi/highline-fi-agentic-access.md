@@ -9,55 +9,55 @@ api_specs:
   label: Highline Auth API
   slug: highline-fi-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-auth-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-auth-api-openapi.yml
 - filename: highline-fi-companies-api-openapi.yml
   format: yaml
   label: Highline Companies API
   slug: highline-fi-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-companies-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-companies-api-openapi.yml
 - filename: highline-fi-connections-api-openapi.yml
   format: yaml
   label: Highline Connections API
   slug: highline-fi-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-connections-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-connections-api-openapi.yml
 - filename: highline-fi-employments-api-openapi.yml
   format: yaml
   label: Highline Employments API
   slug: highline-fi-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-employments-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-employments-api-openapi.yml
 - filename: highline-fi-payment-requests-api-openapi.yml
   format: yaml
   label: Highline Payment Requests API
   slug: highline-fi-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-payment-requests-api-openapi.yml
 - filename: highline-fi-payments-api-openapi.yml
   format: yaml
   label: Highline Payments API
   slug: highline-fi-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-payments-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-payments-api-openapi.yml
 - filename: highline-fi-products-api-openapi.yml
   format: yaml
   label: Highline Products API
   slug: highline-fi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-products-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-products-api-openapi.yml
 - filename: highline-fi-settlements-api-openapi.yml
   format: yaml
   label: Highline Settlements API
   slug: highline-fi-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-settlements-api-openapi.yml
 - filename: highline-fi-users-api-openapi.yml
   format: yaml
   label: Highline Users API
   slug: highline-fi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/openapi/highline-fi-users-api-openapi.yml
+  url: https://artifacts.apis.io/highline-fi/openapi/highline-fi-users-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/highli
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-requests/{payment-request-id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections/{connection-id}/payment-requests\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment-requests/{payment-request-id}/simulate-due-date\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{payment-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment-requests/{payment-request-id}/payments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements\n  method: get\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements/{settlement-id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements/{settlement-id}/report\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/agentic-access/highline-fi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/highline-fi/agentic-access/highline-fi-agentic-access.yml
 summary_line: 27 operations · 11 acting
 tags:
 - Embedded Finance

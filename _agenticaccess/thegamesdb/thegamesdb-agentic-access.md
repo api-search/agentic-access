@@ -8,31 +8,31 @@ api_specs:
   label: TheGamesDB Developers API
   slug: thegamesdb-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-developers-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-developers-api-openapi.yml
 - filename: thegamesdb-games-api-openapi.yml
   format: yaml
   label: TheGamesDB Games API
   slug: thegamesdb-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-games-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-games-api-openapi.yml
 - filename: thegamesdb-genres-api-openapi.yml
   format: yaml
   label: TheGamesDB Genres API
   slug: thegamesdb-genres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-genres-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-genres-api-openapi.yml
 - filename: thegamesdb-platforms-api-openapi.yml
   format: yaml
   label: TheGamesDB Platforms API
   slug: thegamesdb-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-platforms-api-openapi.yml
 - filename: thegamesdb-publishers-api-openapi.yml
   format: yaml
   label: TheGamesDB Publishers API
   slug: thegamesdb-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/openapi/thegamesdb-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/thegamesdb/openapi/thegamesdb-publishers-api-openapi.yml
 consequence_counts:
   read: 26
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thegam
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Games/ByPlatformID\n  method: get\n  operationId: gamesByPlatformID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Games/Images\n  method: get\n  operationId: gamesImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Games/Updates\n  method: get\n  operationId: gamesUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Platforms\n  method: get\n  operationId: platforms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Platforms/ByPlatformID\n  method: get\n  operationId: platformsByPlatformID\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Platforms/ByPlatformName\n  method: get\n  operationId: platformsByPlatformName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Platforms/Images\n  method: get\n  operationId: platformsImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Genres\n  method: get\n  operationId: genres\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/Developers\n  method: get\n  operationId: developers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v1/Publishers\n  method: get\n  operationId: publishers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thegamesdb/refs/heads/main/agentic-access/thegamesdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thegamesdb/agentic-access/thegamesdb-agentic-access.yml
 summary_line: 26 operations
 tags:
 - Database

@@ -9,43 +9,43 @@ api_specs:
   label: FormAssembly Aggregates API
   slug: formassembly-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-aggregates-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-aggregates-api-openapi.yml
 - filename: formassembly-connectors-api-openapi.yml
   format: yaml
   label: FormAssembly Connectors API
   slug: formassembly-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-connectors-api-openapi.yml
 - filename: formassembly-form-elements-api-openapi.yml
   format: yaml
   label: FormAssembly Form Elements API
   slug: formassembly-form-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-form-elements-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-form-elements-api-openapi.yml
 - filename: formassembly-forms-api-openapi.yml
   format: yaml
   label: FormAssembly Forms API
   slug: formassembly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-forms-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-forms-api-openapi.yml
 - filename: formassembly-responses-api-openapi.yml
   format: yaml
   label: FormAssembly Responses API
   slug: formassembly-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-responses-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-responses-api-openapi.yml
 - filename: formassembly-themes-api-openapi.yml
   format: yaml
   label: FormAssembly Themes API
   slug: formassembly-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-themes-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-themes-api-openapi.yml
 - filename: formassembly-oauth2-api-openapi.yml
   format: yaml
   label: FormAssembly O Auth2 API
   slug: formassembly-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/openapi/formassembly-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/formassembly/openapi/formassembly-oauth2-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/formas
   \      - high-value\n    audit: required\n- path: /admin/api_v1/themes/delete/{themeId}.json\n  method: post\n  operationId: deleteTheme\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api_v1/form_elements/index.xml\n  method: get\n  operationId: listFormElements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/api_v1/form_elements/view/{elementId}.xml\n  method: get\n  operationId: getFormElement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/api_v1/form_elements/create.json\n  method: post\n  operationId: createFormElement\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_v1/form_elements/edit/{elementId}.json\n  method: post\n  operationId: updateFormElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/api_v1/form_elements/delete/{elementId}.json\n  method: post\n  operationId: deleteFormElement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /admin/api_v1/aggregates/reset_counters/{formId}.json\n  method: post\n  operationId: resetFormCounters\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formassembly/refs/heads/main/agentic-access/formassembly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/formassembly/agentic-access/formassembly-agentic-access.yml
 summary_line: 25 operations · 14 acting · 1 human-in-the-loop
 tags:
 - Forms

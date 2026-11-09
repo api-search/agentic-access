@@ -9,31 +9,31 @@ api_specs:
   label: Egnyte Groups API
   slug: egnyte-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-groups-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-groups-api-openapi.yml
 - filename: egnyte-links-api-openapi.yml
   format: yaml
   label: Egnyte Links API
   slug: egnyte-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-links-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-links-api-openapi.yml
 - filename: egnyte-permissions-api-openapi.yml
   format: yaml
   label: Egnyte Permissions API
   slug: egnyte-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-permissions-api-openapi.yml
 - filename: egnyte-users-api-openapi.yml
   format: yaml
   label: Egnyte Users API
   slug: egnyte-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-users-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-users-api-openapi.yml
 - filename: egnyte-filesystem-api-openapi.yml
   format: yaml
   label: Egnyte Filesystem API
   slug: egnyte-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/openapi/egnyte-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/egnyte/openapi/egnyte-filesystem-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/egnyte
   \ required\n- path: /v2/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/users/{userId}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/links\n  method: post\n  operationId: createLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/perms/{path}\n  method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/agentic-access/egnyte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/egnyte/agentic-access/egnyte-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - File Sharing

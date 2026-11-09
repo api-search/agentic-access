@@ -9,43 +9,43 @@ api_specs:
   label: Cove.Tool Authentication Token API
   slug: cove.tool-authentication-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-authentication-token-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-authentication-token-api-openapi.yml
 - filename: cove.tool-daylight-analysis-api-openapi.yml
   format: yaml
   label: Cove.Tool Daylight Analysis API
   slug: cove.tool-daylight-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-daylight-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-daylight-analysis-api-openapi.yml
 - filename: cove.tool-energy-codes-api-openapi.yml
   format: yaml
   label: Cove.Tool Energy Codes API
   slug: cove.tool-energy-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-energy-codes-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-energy-codes-api-openapi.yml
 - filename: cove.tool-profiles-api-openapi.yml
   format: yaml
   label: Cove.Tool Profiles API
   slug: cove.tool-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-profiles-api-openapi.yml
 - filename: cove.tool-project-geometry-api-openapi.yml
   format: yaml
   label: Cove.Tool Project Geometry API
   slug: cove.tool-project-geometry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-project-geometry-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-project-geometry-api-openapi.yml
 - filename: cove.tool-projects-api-openapi.yml
   format: yaml
   label: Cove.Tool Projects API
   slug: cove.tool-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-projects-api-openapi.yml
 - filename: cove.tool-user-api-openapi.yml
   format: yaml
   label: Cove.Tool User API
   slug: cove.tool-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/openapi/cove.tool-user-api-openapi.yml
+  url: https://artifacts.apis.io/cove.tool/openapi/cove.tool-user-api-openapi.yml
 consequence_counts:
   read: 7
   write: 7
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/cove.t
   - path: /analysis/{project_id}/stop\n  method: get\n  operationId: getAnalysisByProjectIdStop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /energy-codes\n  method: get\n  operationId: getEnergyCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profiles/{profile_id}\n  method: get\n  operationId: getProfilesByProfileId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /run-values\n  method: post\n  operationId: postRunValues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /projects/{project_id}/geometry\n  method: post\n  operationId: postProjectsByProjectIdGeometry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: getProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/\n  method: post\n  operationId: postProjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/\n  method: get\n  operationId:\
   \ getProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}\n  method: put\n  operationId: putProjectsByProjectId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/signup\n  method: post\n  operationId: postAuthSignup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cove.tool/refs/heads/main/agentic-access/cove.tool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cove.tool/agentic-access/cove.tool-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Company

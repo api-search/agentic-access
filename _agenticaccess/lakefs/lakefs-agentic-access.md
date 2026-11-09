@@ -9,103 +9,103 @@ api_specs:
   label: lakeFS Actions API
   slug: lakefs-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-actions-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-actions-api-openapi.yml
 - filename: lakefs-auth-api-openapi.yml
   format: yaml
   label: lakeFS Auth API
   slug: lakefs-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-auth-api-openapi.yml
 - filename: lakefs-branches-api-openapi.yml
   format: yaml
   label: lakeFS Branches API
   slug: lakefs-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-branches-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-branches-api-openapi.yml
 - filename: lakefs-commits-api-openapi.yml
   format: yaml
   label: lakeFS Commits API
   slug: lakefs-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-commits-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-commits-api-openapi.yml
 - filename: lakefs-config-api-openapi.yml
   format: yaml
   label: lakeFS Config API
   slug: lakefs-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-config-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-config-api-openapi.yml
 - filename: lakefs-experimental-api-openapi.yml
   format: yaml
   label: lakeFS Experimental API
   slug: lakefs-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-experimental-api-openapi.yml
 - filename: lakefs-external-api-openapi.yml
   format: yaml
   label: lakeFS External API
   slug: lakefs-external-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-external-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-external-api-openapi.yml
 - filename: lakefs-import-api-openapi.yml
   format: yaml
   label: lakeFS Import API
   slug: lakefs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-import-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-import-api-openapi.yml
 - filename: lakefs-internal-api-openapi.yml
   format: yaml
   label: lakeFS Internal API
   slug: lakefs-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-internal-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-internal-api-openapi.yml
 - filename: lakefs-metadata-api-openapi.yml
   format: yaml
   label: lakeFS Metadata API
   slug: lakefs-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-metadata-api-openapi.yml
 - filename: lakefs-objects-api-openapi.yml
   format: yaml
   label: lakeFS Objects API
   slug: lakefs-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-objects-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-objects-api-openapi.yml
 - filename: lakefs-pulls-api-openapi.yml
   format: yaml
   label: lakeFS Pulls API
   slug: lakefs-pulls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-pulls-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-pulls-api-openapi.yml
 - filename: lakefs-refs-api-openapi.yml
   format: yaml
   label: lakeFS Refs API
   slug: lakefs-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-refs-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-refs-api-openapi.yml
 - filename: lakefs-repositories-api-openapi.yml
   format: yaml
   label: lakeFS Repositories API
   slug: lakefs-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-repositories-api-openapi.yml
 - filename: lakefs-staging-api-openapi.yml
   format: yaml
   label: lakeFS Staging API
   slug: lakefs-staging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-staging-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-staging-api-openapi.yml
 - filename: lakefs-tags-api-openapi.yml
   format: yaml
   label: lakeFS Tags API
   slug: lakefs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-tags-api-openapi.yml
 - filename: lakefs-health-check-api-openapi.yml
   format: yaml
   label: lakeFS Health Check API
   slug: lakefs-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/openapi/lakefs-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/lakefs/openapi/lakefs-health-check-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 63
@@ -189,8 +189,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lakefs
   \  method: post\n  operationId: uploadObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repository}/branches/{branch}/objects\n  method: delete\n  operationId: deleteObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repository}/branches/{branch}/objects/delete\n  method: post\n  operationId: deleteObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repository}/branches/{branch}/objects/copy\n  method: post\n  operationId: copyObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repository}/refs/{ref}/objects/stat\n  method: get\n  operationId: statObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/branches/{branch}/objects/stat/user_metadata\n  method: put\n  operationId: updateObjectUserMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repositories/{repository}/refs/{ref}/objects/underlyingProperties\n  method: get\n  operationId: getUnderlyingProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/refs/{ref}/objects/ls\n  method: get\n  operationId: listObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/refs/{branch}/symlink\n  method: post\n  operationId: createSymlinkFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /repositories/{repository}/actions/runs\n  method: get\n  operationId: listRepositoryRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/actions/runs/{run_id}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/actions/runs/{run_id}/hooks\n  method: get\n  operationId: listRunHooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/agentic-access/lakefs-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lakefs/refs/heads/main/agentic-access/lakefs-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /repositories/{repository}/actions/runs\n  method: get\n  operationId: listRepositoryRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/actions/runs/{run_id}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repositories/{repository}/actions/runs/{run_id}/hooks\n  method: get\n  operationId: listRunHooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/lakefs/agentic-access/lakefs-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/lakefs/agentic-access/lakefs-agentic-access.yml
 summary_line: 134 operations · 71 acting · 2 human-in-the-loop
 tags:
 - Data Version Control

@@ -9,139 +9,139 @@ api_specs:
   label: Sovereign European Cloud API (SECA) Account API
   slug: eu-sovereign-cloud-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-account-api-openapi.yml
 - filename: eu-sovereign-cloud-api-activity-log-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Activity Log API
   slug: eu-sovereign-cloud-api-activity-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-activity-log-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-activity-log-api-openapi.yml
 - filename: eu-sovereign-cloud-api-block-storage-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Block Storage API
   slug: eu-sovereign-cloud-api-block-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-block-storage-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-block-storage-api-openapi.yml
 - filename: eu-sovereign-cloud-api-cluster-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Cluster API
   slug: eu-sovereign-cloud-api-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-cluster-api-openapi.yml
 - filename: eu-sovereign-cloud-api-image-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Image API
   slug: eu-sovereign-cloud-api-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-image-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-image-api-openapi.yml
 - filename: eu-sovereign-cloud-api-instance-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Instance API
   slug: eu-sovereign-cloud-api-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-instance-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-instance-api-openapi.yml
 - filename: eu-sovereign-cloud-api-internet-gateway-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Internet Gateway API
   slug: eu-sovereign-cloud-api-internet-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-internet-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-internet-gateway-api-openapi.yml
 - filename: eu-sovereign-cloud-api-internet-nat-gateway-instance-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Internet Nat Gateway Instance API
   slug: eu-sovereign-cloud-api-internet-nat-gateway-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-internet-nat-gateway-instance-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-internet-nat-gateway-instance-api-openapi.yml
 - filename: eu-sovereign-cloud-api-network-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Network API
   slug: eu-sovereign-cloud-api-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-network-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-network-api-openapi.yml
 - filename: eu-sovereign-cloud-api-network-load-balancer-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Network Load Balancer API
   slug: eu-sovereign-cloud-api-network-load-balancer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-network-load-balancer-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-network-load-balancer-api-openapi.yml
 - filename: eu-sovereign-cloud-api-nic-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Nic API
   slug: eu-sovereign-cloud-api-nic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-nic-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-nic-api-openapi.yml
 - filename: eu-sovereign-cloud-api-node-pool-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Node Pool API
   slug: eu-sovereign-cloud-api-node-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-node-pool-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-node-pool-api-openapi.yml
 - filename: eu-sovereign-cloud-api-public-ip-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Public Ip API
   slug: eu-sovereign-cloud-api-public-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-public-ip-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-public-ip-api-openapi.yml
 - filename: eu-sovereign-cloud-api-region-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Region API
   slug: eu-sovereign-cloud-api-region-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-region-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-region-api-openapi.yml
 - filename: eu-sovereign-cloud-api-role-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Role API
   slug: eu-sovereign-cloud-api-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-role-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-role-api-openapi.yml
 - filename: eu-sovereign-cloud-api-role-assignment-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Role Assignment API
   slug: eu-sovereign-cloud-api-role-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-role-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-role-assignment-api-openapi.yml
 - filename: eu-sovereign-cloud-api-route-table-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Route Table API
   slug: eu-sovereign-cloud-api-route-table-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-route-table-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-route-table-api-openapi.yml
 - filename: eu-sovereign-cloud-api-security-group-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Security Group API
   slug: eu-sovereign-cloud-api-security-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-security-group-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-security-group-api-openapi.yml
 - filename: eu-sovereign-cloud-api-security-group-rule-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Security Group Rule API
   slug: eu-sovereign-cloud-api-security-group-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-security-group-rule-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-security-group-rule-api-openapi.yml
 - filename: eu-sovereign-cloud-api-sku-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Sku API
   slug: eu-sovereign-cloud-api-sku-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-sku-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-sku-api-openapi.yml
 - filename: eu-sovereign-cloud-api-subnet-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Subnet API
   slug: eu-sovereign-cloud-api-subnet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-subnet-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-subnet-api-openapi.yml
 - filename: eu-sovereign-cloud-api-wellknown-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Wellknown API
   slug: eu-sovereign-cloud-api-wellknown-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-wellknown-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-wellknown-api-openapi.yml
 - filename: eu-sovereign-cloud-api-workspace-api-openapi.yml
   format: yaml
   label: Sovereign European Cloud API (SECA) Workspace API
   slug: eu-sovereign-cloud-api-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/openapi/eu-sovereign-cloud-api-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/eu-sovereign-cloud-api/openapi/eu-sovereign-cloud-api-workspace-api-openapi.yml
 consequence_counts:
   read: 48
   safety-critical: 1
@@ -206,7 +206,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/eu-sov
   \  method: delete\n  operationId: deleteImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant}/workspaces/{workspace}/block-storages\n  method: get\n  operationId: listBlock-Storages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant}/workspaces/{workspace}/block-storages/{name}\n  method: get\n  operationId: getBlock-Storage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant}/workspaces/{workspace}/block-storages/{name}\n  method: put\n  operationId: createOrUpdateBlock-Storage\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant}/workspaces/{workspace}/block-storages/{name}\n  method: delete\n  operationId: deleteBlock-Storage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant}/workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant}/workspaces/{name}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants/{tenant}/workspaces/{name}\n  method: put\n  operationId: createOrUpdateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants/{tenant}/workspaces/{name}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eu-sovereign-cloud-api/refs/heads/main/agentic-access/eu-sovereign-cloud-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eu-sovereign-cloud-api/agentic-access/eu-sovereign-cloud-api-agentic-access.yml
 summary_line: 89 operations · 41 acting · 1 human-in-the-loop
 tags:
 - Company

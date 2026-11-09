@@ -9,31 +9,31 @@ api_specs:
   label: Poggio Labs API Tokens API
   slug: poggio-labs-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-api-tokens-api-openapi.yml
 - filename: poggio-labs-authentication-api-openapi.yml
   format: yaml
   label: Poggio Labs Authentication API
   slug: poggio-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-authentication-api-openapi.yml
 - filename: poggio-labs-goals-api-openapi.yml
   format: yaml
   label: Poggio Labs Goals API
   slug: poggio-labs-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goals-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-goals-api-openapi.yml
 - filename: poggio-labs-organizations-api-openapi.yml
   format: yaml
   label: Poggio Labs Organizations API
   slug: poggio-labs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-organizations-api-openapi.yml
 - filename: poggio-labs-system-api-openapi.yml
   format: yaml
   label: Poggio Labs System API
   slug: poggio-labs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-system-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-system-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/poggio
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/goals/{goalId}\n  method: delete\n  operationId: deleteGoal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/goals/{goalId}/updates\n  method: get\n  operationId: listGoalUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/goals/{goalId}/updates\n  method: post\n  operationId: createGoalUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/goal-labels\n  method: get\n  operationId: listGoalLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/goal-labels\n  method: post\n  operationId: createGoalLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/goal-labels/{labelId}\n  method: get\n  operationId: getGoalLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/goal-labels/{labelId}\n\
   \  method: patch\n  operationId: updateGoalLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/goal-labels/{labelId}\n  method: delete\n  operationId: deleteGoalLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/agentic-access/poggio-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/poggio-labs/agentic-access/poggio-labs-agentic-access.yml
 summary_line: 36 operations · 21 acting · 2 human-in-the-loop
 tags:
 - Company
@@ -108,4 +108,6 @@ tags:
 - Goals
 - Gong
 - Slack
+- Revenue
+- Automation
 ---

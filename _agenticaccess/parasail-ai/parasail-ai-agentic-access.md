@@ -9,43 +9,43 @@ api_specs:
   label: Parasail Batch API
   slug: parasail-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-batch-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-batch-api-openapi.yml
 - filename: parasail-ai-completions-api-openapi.yml
   format: yaml
   label: Parasail Completions API
   slug: parasail-ai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-completions-api-openapi.yml
 - filename: parasail-ai-deployments-api-openapi.yml
   format: yaml
   label: Parasail Deployments API
   slug: parasail-ai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-deployments-api-openapi.yml
 - filename: parasail-ai-embeddings-api-openapi.yml
   format: yaml
   label: Parasail Embeddings API
   slug: parasail-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-embeddings-api-openapi.yml
 - filename: parasail-ai-files-api-openapi.yml
   format: yaml
   label: Parasail Files API
   slug: parasail-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-files-api-openapi.yml
 - filename: parasail-ai-models-api-openapi.yml
   format: yaml
   label: Parasail Models API
   slug: parasail-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-models-api-openapi.yml
 - filename: parasail-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Parasail Chat Completions API
   slug: parasail-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/openapi/parasail-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/parasail-ai/openapi/parasail-ai-chat-completions-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 8
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parasa
   \  method: put\n  operationId: updateDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dedicated/deployments/{deployment_id}\n  method: delete\n  operationId: deleteDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dedicated/deployments/{deployment_id}/pause\n  method: post\n  operationId: pauseDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dedicated/deployments/{deployment_id}/resume\n  method: post\n  operationId: resumeDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embeddings\n  method: post\n  operationId: createEmbedding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parasail-ai/refs/heads/main/agentic-access/parasail-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parasail-ai/agentic-access/parasail-ai-agentic-access.yml
 summary_line: 20 operations · 12 acting
 tags:
 - Artificial Intelligence

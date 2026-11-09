@@ -9,7 +9,31 @@ api_specs:
   label: Amazon Directory Service AWS Directory Service API
   slug: amazon-directory-service-aws-directory-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/openapi/amazon-directory-service-aws-directory-service-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-aws-directory-service-api-openapi.yml
+- filename: amazon-directory-service-ad-assessment-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Ad Assessment API
+  slug: amazon-directory-service-ad-assessment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-ad-assessment-api-openapi.yml
+- filename: amazon-directory-service-ca-enrollment-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Ca Enrollment Policy API
+  slug: amazon-directory-service-ca-enrollment-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-ca-enrollment-policy-api-openapi.yml
+- filename: amazon-directory-service-directory-data-access-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Directory Data Access API
+  slug: amazon-directory-service-directory-data-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-directory-data-access-api-openapi.yml
+- filename: amazon-directory-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Operations API
+  slug: amazon-directory-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-operations-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 7
@@ -108,11 +132,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ post\n  operationId: UpdateDirectorySetup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DirectoryService_20150416.UpdateNumberOfDomainControllers\n  method: post\n  operationId: UpdateNumberOfDomainControllers\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=DirectoryService_20150416.UpdateRadius\n  method: post\n  operationId: UpdateRadius\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DirectoryService_20150416.UpdateSettings\n  method: post\n  operationId: UpdateSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DirectoryService_20150416.UpdateTrust\n  method: post\n  operationId: UpdateTrust\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=DirectoryService_20150416.VerifyTrust\n \
   \ method: post\n  operationId: VerifyTrust\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-directory-service/refs/heads/main/agentic-access/amazon-directory-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-directory-service/agentic-access/amazon-directory-service-agentic-access.yml
 summary_line: 67 operations · 60 acting · 7 human-in-the-loop
 tags:
 - Active Directory
 - Authentication
+- Amazon Web Services
 - Directory Services
 - Identity and Access Management
 ---

@@ -8,55 +8,55 @@ api_specs:
   label: Pulse Grow AllDevices API
   slug: pulse-grow-alldevices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-alldevices-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-alldevices-api-openapi.yml
 - filename: pulse-grow-devices-api-openapi.yml
   format: yaml
   label: Pulse Grow Devices API
   slug: pulse-grow-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-devices-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-devices-api-openapi.yml
 - filename: pulse-grow-hub-api-openapi.yml
   format: yaml
   label: Pulse Grow Hub API
   slug: pulse-grow-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-hub-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-hub-api-openapi.yml
 - filename: pulse-grow-invitation-api-openapi.yml
   format: yaml
   label: Pulse Grow Invitation API
   slug: pulse-grow-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-invitation-api-openapi.yml
 - filename: pulse-grow-prolightreading-api-openapi.yml
   format: yaml
   label: Pulse Grow ProLightReading API
   slug: pulse-grow-prolightreading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-prolightreading-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-prolightreading-api-openapi.yml
 - filename: pulse-grow-sensors-api-openapi.yml
   format: yaml
   label: Pulse Grow Sensors API
   slug: pulse-grow-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-sensors-api-openapi.yml
 - filename: pulse-grow-timelineevent-api-openapi.yml
   format: yaml
   label: Pulse Grow TimeLineEvent API
   slug: pulse-grow-timelineevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-timelineevent-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-timelineevent-api-openapi.yml
 - filename: pulse-grow-triggeredthreshold-api-openapi.yml
   format: yaml
   label: Pulse Grow TriggeredThreshold API
   slug: pulse-grow-triggeredthreshold-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-triggeredthreshold-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-triggeredthreshold-api-openapi.yml
 - filename: pulse-grow-user-api-openapi.yml
   format: yaml
   label: Pulse Grow User API
   slug: pulse-grow-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/openapi/pulse-grow-user-api-openapi.yml
+  url: https://artifacts.apis.io/pulse-grow/openapi/pulse-grow-user-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pulse-
   - path: /invitations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/light-readings/{deviceId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/devices/{deviceId}/trigger-light-reading\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/{sensorId}/recent-data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/{sensorId}/force-read\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /sensors/{sensorId}/data-range\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/ids\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sensors/{sensorId}/details\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/timeline\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/triggered-thresholds\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pulse-grow/refs/heads/main/agentic-access/pulse-grow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pulse-grow/agentic-access/pulse-grow-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Devices

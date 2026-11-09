@@ -9,19 +9,19 @@ api_specs:
   label: Prodigi Orders API
   slug: prodigi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-orders-api-openapi.yml
+  url: https://artifacts.apis.io/prodigi/openapi/prodigi-orders-api-openapi.yml
 - filename: prodigi-products-api-openapi.yml
   format: yaml
   label: Prodigi Products API
   slug: prodigi-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-products-api-openapi.yml
+  url: https://artifacts.apis.io/prodigi/openapi/prodigi-products-api-openapi.yml
 - filename: prodigi-quotes-api-openapi.yml
   format: yaml
   label: Prodigi Quotes API
   slug: prodigi-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/openapi/prodigi-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/prodigi/openapi/prodigi-quotes-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 5
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/prodig
   \ required\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/actions\n  method: get\n  operationId: getOrderActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/actions/cancel\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/actions/updateShippingMethod\n  method: post\n  operationId: updateShippingMethod\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/actions/updateRecipient\n  method: post\n  operationId: updateRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/actions/updateMetadata\n\
   \  method: post\n  operationId: updateMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products/{sku}\n  method: get\n  operationId: getProductDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quotes\n  method: post\n  operationId: createQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prodigi/refs/heads/main/agentic-access/prodigi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prodigi/agentic-access/prodigi-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Print on Demand

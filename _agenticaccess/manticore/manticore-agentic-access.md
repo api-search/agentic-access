@@ -9,19 +9,19 @@ api_specs:
   label: Manticore Search Index API
   slug: manticore-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-index-api-openapi.yml
+  url: https://artifacts.apis.io/manticore/openapi/manticore-index-api-openapi.yml
 - filename: manticore-search-api-openapi.yml
   format: yaml
   label: Manticore Search API
   slug: manticore-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-search-api-openapi.yml
+  url: https://artifacts.apis.io/manticore/openapi/manticore-search-api-openapi.yml
 - filename: manticore-utils-api-openapi.yml
   format: yaml
   label: Manticore Search Utils API
   slug: manticore-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/openapi/manticore-utils-api-openapi.yml
+  url: https://artifacts.apis.io/manticore/openapi/manticore-utils-api-openapi.yml
 consequence_counts:
   read: 1
   write: 9
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mantic
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /insert\n  method: post\n  operationId: insert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /replace\n  method: post\n  operationId: replace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /update\n  method: post\n  operationId: update\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{table}/_update/{id}\n  method: post\n  operationId: partial_replace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /autocomplete\n  method: post\n  operationId: autocomplete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n \
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pq/{table}/search\n  method: post\n  operationId: percolate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sql\n  method: post\n  operationId: sql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manticore/refs/heads/main/agentic-access/manticore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/manticore/agentic-access/manticore-agentic-access.yml
 summary_line: 10 operations · 9 acting
 tags:
 - Search

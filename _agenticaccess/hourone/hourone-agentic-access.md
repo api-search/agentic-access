@@ -9,37 +9,37 @@ api_specs:
   label: Hourone General API
   slug: hourone-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-general-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-general-api-openapi.yml
 - filename: hourone-keys-api-openapi.yml
   format: yaml
   label: Hourone Keys API
   slug: hourone-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-keys-api-openapi.yml
 - filename: hourone-playground-api-openapi.yml
   format: yaml
   label: Hourone Playground API
   slug: hourone-playground-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-playground-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-playground-api-openapi.yml
 - filename: hourone-videos-api-openapi.yml
   format: yaml
   label: Hourone Videos API
   slug: hourone-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-videos-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-videos-api-openapi.yml
 - filename: hourone-voice-preview-api-openapi.yml
   format: yaml
   label: Hourone Voice Preview API
   slug: hourone-voice-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-voice-preview-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-voice-preview-api-openapi.yml
 - filename: hourone-webhook-api-openapi.yml
   format: yaml
   label: Hourone Webhook API
   slug: hourone-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/openapi/hourone-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/hourone/openapi/hourone-webhook-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/houron
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: get_webhooks_webhooks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: create_webhook_webhooks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: get_webhook_webhooks__webhook_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n\
   \  method: put\n  operationId: update_webhook_webhooks__webhook_id__put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: delete_webhook_webhooks__webhook_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/secret\n  method: put\n  operationId: regenerate_webhook_secret_webhooks__webhook_id__secret_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/pause\n  method: put\n  operationId: toggle_pause_state_webhooks__webhook_id__pause_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/toggle-status\n  method: put\n  operationId: toggle_active_state_webhooks__webhook_id__toggle_status_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/agentic-access/hourone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hourone/agentic-access/hourone-agentic-access.yml
 summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,19 +9,19 @@ api_specs:
   label: Cflow Requests API
   slug: cflow-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-requests-api-openapi.yml
+  url: https://artifacts.apis.io/cflow/openapi/cflow-requests-api-openapi.yml
 - filename: cflow-users-api-openapi.yml
   format: yaml
   label: Cflow Users API
   slug: cflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/cflow/openapi/cflow-users-api-openapi.yml
 - filename: cflow-workflows-api-openapi.yml
   format: yaml
   label: Cflow Workflows API
   slug: cflow-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/cflow/openapi/cflow-workflows-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cflow-
   \ updateRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integromat/api/cflow/workflows/{workflowId}/requests/{requestId}\n  method: delete\n  operationId: deleteRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integromat/api/cflow/workflows/{workflowId}/requests/{requestId}/approve\n  method: post\n  operationId: approveRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integromat/api/cflow/workflows/{workflowId}/requests/{requestId}/reject\n  method: post\n  operationId: rejectRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integromat/api/cflow/workflows/{workflowId}/drafts\n  method: post\n  operationId: createDraftRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integromat/api/cflow/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integromat/api/cflow/roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/agentic-access/cflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cflow/agentic-access/cflow-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Automation

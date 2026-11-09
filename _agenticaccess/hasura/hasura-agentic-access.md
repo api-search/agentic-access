@@ -15,49 +15,49 @@ api_specs:
   label: Hasura Healthz API
   slug: hasura-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-healthz-api-openapi.yml
 - filename: hasura-metadata-api-openapi.yml
   format: yaml
   label: Hasura Metadata API
   slug: hasura-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-metadata-api-openapi.yml
 - filename: hasura-query-api-openapi.yml
   format: yaml
   label: Hasura Query API
   slug: hasura-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-query-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-query-api-openapi.yml
 - filename: hasura-source-health-api-openapi.yml
   format: yaml
   label: Hasura Source Health API
   slug: hasura-source-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-source-health-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-source-health-api-openapi.yml
 - filename: hasura-v1alpha1-api-openapi.yml
   format: yaml
   label: Hasura V1alpha1 API
   slug: hasura-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-v1alpha1-api-openapi.yml
 - filename: hasura-v1beta1-api-openapi.yml
   format: yaml
   label: Hasura V1beta1 API
   slug: hasura-v1beta1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-v1beta1-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-v1beta1-api-openapi.yml
 - filename: hasura-version-api-openapi.yml
   format: yaml
   label: Hasura Version API
   slug: hasura-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-version-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-version-api-openapi.yml
 - filename: hasura-graph-ql-api-openapi.yml
   format: yaml
   label: Hasura Graph QL API
   slug: hasura-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/openapi/hasura-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/hasura/openapi/hasura-graph-ql-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hasura
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/metadata\n  method: post\n  operationId: metadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/query\n  method: post\n  operationId: schemaQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1alpha1/pg_dump\n  method: post\n  operationId: pgDump\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/graphql/explain\n  method: post\n  operationId: explain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /healthz\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/source_health\n  method: get\n  operationId: sourceHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v1alpha1/config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/agentic-access/hasura-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hasura/agentic-access/hasura-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Data Access

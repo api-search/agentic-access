@@ -9,49 +9,49 @@ api_specs:
   label: Parade Available Trucks API
   slug: parade-available-trucks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-available-trucks-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-available-trucks-api-openapi.yml
 - filename: parade-bookings-api-openapi.yml
   format: yaml
   label: Parade Bookings API
   slug: parade-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-bookings-api-openapi.yml
 - filename: parade-carrier-onboarding-status-api-openapi.yml
   format: yaml
   label: Parade Carrier Onboarding Status API
   slug: parade-carrier-onboarding-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-carrier-onboarding-status-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-carrier-onboarding-status-api-openapi.yml
 - filename: parade-carrier-synchronization-api-openapi.yml
   format: yaml
   label: Parade Carrier Synchronization API
   slug: parade-carrier-synchronization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-carrier-synchronization-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-carrier-synchronization-api-openapi.yml
 - filename: parade-digital-conversion-api-openapi.yml
   format: yaml
   label: Parade Digital Conversion API
   slug: parade-digital-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-digital-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-digital-conversion-api-openapi.yml
 - filename: parade-load-synchronization-api-openapi.yml
   format: yaml
   label: Parade Load Synchronization API
   slug: parade-load-synchronization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-load-synchronization-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-load-synchronization-api-openapi.yml
 - filename: parade-quotes-api-openapi.yml
   format: yaml
   label: Parade Quotes API
   slug: parade-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-quotes-api-openapi.yml
 - filename: parade-search-api-openapi.yml
   format: yaml
   label: Parade Search API
   slug: parade-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/openapi/parade-search-api-openapi.yml
+  url: https://artifacts.apis.io/parade/openapi/parade-search-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/parade
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ls/syndication/loads/{external_posting_id}\n  method: get\n  operationId: get_load\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ls/syndication/post-truck\n  method: post\n  operationId: add_truck\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /d/carriers/{dot_number}/onboarding-status\n  method: get\n  operationId: get_carrier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /d/carriers-by-mc/{mc_number}/onboarding-status\n\
   \  method: get\n  operationId: get_carrier_by_mc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ls/syndication/drop\n  method: post\n  operationId: drop_load\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syndication/loads\n  method: get\n  operationId: search_loads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /your-digital-conversion-notification-webhook\n  method: post\n  operationId: digital_conversion_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /your-carrier-sync-webhook\n  method: post\n  operationId: carrier_sync_webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parade/refs/heads/main/agentic-access/parade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parade/agentic-access/parade-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Company

@@ -9,85 +9,85 @@ api_specs:
   label: Cloudflare R2 Buckets API
   slug: cloudflare-r2-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-buckets-api-openapi.yml
 - filename: cloudflare-r2-cors-api-openapi.yml
   format: yaml
   label: Cloudflare R2 CORS API
   slug: cloudflare-r2-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-cors-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-cors-api-openapi.yml
 - filename: cloudflare-r2-credential-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Credential Management API
   slug: cloudflare-r2-credential-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-credential-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-credential-management-api-openapi.yml
 - filename: cloudflare-r2-lifecycle-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Lifecycle API
   slug: cloudflare-r2-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-lifecycle-api-openapi.yml
 - filename: cloudflare-r2-maintenance-configuration-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Maintenance Configuration API
   slug: cloudflare-r2-maintenance-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-maintenance-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-maintenance-configuration-api-openapi.yml
 - filename: cloudflare-r2-multipart-upload-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Multipart Upload API
   slug: cloudflare-r2-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-multipart-upload-api-openapi.yml
 - filename: cloudflare-r2-namespace-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Namespace Management API
   slug: cloudflare-r2-namespace-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-namespace-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-namespace-management-api-openapi.yml
 - filename: cloudflare-r2-objects-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Objects API
   slug: cloudflare-r2-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-objects-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-objects-api-openapi.yml
 - filename: cloudflare-r2-r2-account-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Account API
   slug: cloudflare-r2-r2-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-account-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-account-api-openapi.yml
 - filename: cloudflare-r2-r2-bucket-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Bucket API
   slug: cloudflare-r2-r2-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-bucket-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-bucket-api-openapi.yml
 - filename: cloudflare-r2-r2-catalog-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Catalog Management API
   slug: cloudflare-r2-r2-catalog-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-catalog-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-catalog-management-api-openapi.yml
 - filename: cloudflare-r2-r2-object-api-openapi.yml
   format: yaml
   label: Cloudflare R2 R2 Object API
   slug: cloudflare-r2-r2-object-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-r2-object-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-r2-object-api-openapi.yml
 - filename: cloudflare-r2-table-maintenance-configuration-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Table Maintenance Configuration API
   slug: cloudflare-r2-table-maintenance-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-table-maintenance-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-table-maintenance-configuration-api-openapi.yml
 - filename: cloudflare-r2-table-management-api-openapi.yml
   format: yaml
   label: Cloudflare R2 Table Management API
   slug: cloudflare-r2-table-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/openapi/cloudflare-r2-table-management-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-r2/openapi/cloudflare-r2-table-management-api-openapi.yml
 consequence_counts:
   read: 30
   safety-critical: 2
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudf
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}?delete\n  method: post\n  operationId: delete-objects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}/{key}?uploads\n  method: post\n  operationId: create-multipart-upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}/{key}?partNumber={partNumber}&uploadId={uploadId}\n\
   \  method: put\n  operationId: upload-part\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}/{key}?uploadId={uploadId}\n  method: post\n  operationId: complete-multipart-upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}/{key}?uploadId={uploadId}\n  method: delete\n  operationId: abort-multipart-upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}/{key}?uploadId={uploadId}\n  method: get\n  operationId: list-parts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket}?uploads\n  method: get\n  operationId: list-multipart-uploads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-r2/refs/heads/main/agentic-access/cloudflare-r2-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-r2/agentic-access/cloudflare-r2-agentic-access.yml
 summary_line: 67 operations · 37 acting · 2 human-in-the-loop
 tags:
 - Object Storage

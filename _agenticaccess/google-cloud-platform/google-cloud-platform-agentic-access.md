@@ -9,43 +9,43 @@ api_specs:
   label: Google Cloud Platform Folders API
   slug: google-cloud-platform-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-folders-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-folders-api-openapi.yml
 - filename: google-cloud-platform-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Operations API
   slug: google-cloud-platform-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-operations-api-openapi.yml
 - filename: google-cloud-platform-organizations-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Organizations API
   slug: google-cloud-platform-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-organizations-api-openapi.yml
 - filename: google-cloud-platform-projects-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Projects API
   slug: google-cloud-platform-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-projects-api-openapi.yml
 - filename: google-cloud-platform-tagbindings-api-openapi.yml
   format: yaml
   label: Google Cloud Platform TagBindings API
   slug: google-cloud-platform-tagbindings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagbindings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-tagbindings-api-openapi.yml
 - filename: google-cloud-platform-tagkeys-api-openapi.yml
   format: yaml
   label: Google Cloud Platform TagKeys API
   slug: google-cloud-platform-tagkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tagkeys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-tagkeys-api-openapi.yml
 - filename: google-cloud-platform-tag-values-api-openapi.yml
   format: yaml
   label: Google Cloud Platform Tag Values API
   slug: google-cloud-platform-tag-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/openapi/google-cloud-platform-tag-values-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-platform/openapi/google-cloud-platform-tag-values-api-openapi.yml
 consequence_counts:
   read: 12
   write: 16
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloud-
   \    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/{name}\n  method: get\n  operationId: cloudresourcemanager.operations.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/tagKeys\n  method: get\n  operationId: cloudresourcemanager.tagKeys.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/tagKeys\n  method: post\n  operationId: cloudresourcemanager.tagKeys.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/tagValues\n  method: get\n  operationId: cloudresourcemanager.tagValues.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/tagValues\n  method: post\n  operationId: cloudresourcemanager.tagValues.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/tagBindings\n  method: get\n  operationId: cloudresourcemanager.tagBindings.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n- path: /v3/tagBindings\n  method: post\n  operationId: cloudresourcemanager.tagBindings.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n    - https://www.googleapis.com/auth/cloud-platform.read-only\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/agentic-access/google-cloud-platform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-platform/agentic-access/google-cloud-platform-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - API Management

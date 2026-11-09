@@ -9,25 +9,25 @@ api_specs:
   label: Unisys Combined Isolation API
   slug: unisys-combined-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-combined-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-combined-isolation-api-openapi.yml
 - filename: unisys-endpoint-isolation-api-openapi.yml
   format: yaml
   label: Unisys Endpoint Isolation API
   slug: unisys-endpoint-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-endpoint-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-endpoint-isolation-api-openapi.yml
 - filename: unisys-roles-api-openapi.yml
   format: yaml
   label: Unisys Roles API
   slug: unisys-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-roles-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-roles-api-openapi.yml
 - filename: unisys-user-isolation-api-openapi.yml
   format: yaml
   label: Unisys User Isolation API
   slug: unisys-user-isolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/openapi/unisys-user-isolation-api-openapi.yml
+  url: https://artifacts.apis.io/unisys/openapi/unisys-user-isolation-api-openapi.yml
 consequence_counts:
   read: 1
   write: 6
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unisys-stealth-ecoapi-openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 1\n    acting: 6\n  by_consequence:\n    read: 1\n    write: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /api/roles\n  method: get\n  operationId: getStealthRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/endpoint/isolate\n  method: post\n  operationId: isolateEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/endpoint/unisolate\n  method: post\n  operationId: unisolateEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/isolate\n  method: post\n  operationId: isolateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/user/unisolate\n  method: post\n  operationId: unisolateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/isolate\n  method: post\n  operationId: isolateMachineAndUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/unisolate\n  method: post\n  operationId: unisolateMachineAndUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unisys/refs/heads/main/agentic-access/unisys-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unisys/agentic-access/unisys-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
 - Fortune 1000

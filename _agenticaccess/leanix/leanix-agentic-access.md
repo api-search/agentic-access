@@ -9,31 +9,31 @@ api_specs:
   label: LeanIX Configurations API
   slug: leanix-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-configurations-api-openapi.yml
 - filename: leanix-examples-api-openapi.yml
   format: yaml
   label: LeanIX Examples API
   slug: leanix-examples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-examples-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-examples-api-openapi.yml
 - filename: leanix-fastsynchronizationruns-api-openapi.yml
   format: yaml
   label: LeanIX Fast Synchronization Runs API
   slug: leanix-fastsynchronizationruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-fastsynchronizationruns-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-fastsynchronizationruns-api-openapi.yml
 - filename: leanix-storages-api-openapi.yml
   format: yaml
   label: LeanIX Storages API
   slug: leanix-storages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-storages-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-storages-api-openapi.yml
 - filename: leanix-synchronizationruns-api-openapi.yml
   format: yaml
   label: LeanIX Synchronization Runs API
   slug: leanix-synchronizationruns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/openapi/leanix-synchronizationruns-api-openapi.yml
+  url: https://artifacts.apis.io/leanix/openapi/leanix-synchronizationruns-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/leanix
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synchronizationRuns/withUrlInput\n  method: post\n  operationId: createSynchronizationRunWithUrlInput\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synchronizationRuns/withExecutionGroupAndUrlInput\n  method: post\n  operationId: createSynchronizationRunWithExecutionGroupAndUrlInput\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synchronizationRuns/withExecutionGroup\n\
   \  method: post\n  operationId: createSynchronizationRunWithExecutionGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fastSynchronizationRuns\n  method: post\n  operationId: createSynchronizationFastRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fastSynchronizationRuns/withConfig\n  method: post\n  operationId: createSynchronizationFastRunWithConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storages/azure\n  method: get\n  operationId: createInAzure\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leanix/refs/heads/main/agentic-access/leanix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/leanix/agentic-access/leanix-agentic-access.yml
 summary_line: 22 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Enterprise Architecture

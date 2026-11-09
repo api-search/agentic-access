@@ -9,67 +9,67 @@ api_specs:
   label: Lattice Competencies API
   slug: lattice-competencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-competencies-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-competencies-api-openapi.yml
 - filename: lattice-departments-api-openapi.yml
   format: yaml
   label: Lattice Departments API
   slug: lattice-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-departments-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-departments-api-openapi.yml
 - filename: lattice-feedbacks-api-openapi.yml
   format: yaml
   label: Lattice Feedbacks API
   slug: lattice-feedbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-feedbacks-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-feedbacks-api-openapi.yml
 - filename: lattice-goal-updates-api-openapi.yml
   format: yaml
   label: Lattice Goal Updates API
   slug: lattice-goal-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-goal-updates-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-goal-updates-api-openapi.yml
 - filename: lattice-goals-api-openapi.yml
   format: yaml
   label: Lattice Goals API
   slug: lattice-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-goals-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-goals-api-openapi.yml
 - filename: lattice-me-api-openapi.yml
   format: yaml
   label: Lattice Me API
   slug: lattice-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-me-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-me-api-openapi.yml
 - filename: lattice-review-cycles-api-openapi.yml
   format: yaml
   label: Lattice Review Cycles API
   slug: lattice-review-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-review-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-review-cycles-api-openapi.yml
 - filename: lattice-reviewees-api-openapi.yml
   format: yaml
   label: Lattice Reviewees API
   slug: lattice-reviewees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-reviewees-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-reviewees-api-openapi.yml
 - filename: lattice-reviews-api-openapi.yml
   format: yaml
   label: Lattice Reviews API
   slug: lattice-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-reviews-api-openapi.yml
 - filename: lattice-tags-api-openapi.yml
   format: yaml
   label: Lattice Tags API
   slug: lattice-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-tags-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-tags-api-openapi.yml
 - filename: lattice-users-api-openapi.yml
   format: yaml
   label: Lattice Users API
   slug: lattice-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/openapi/lattice-users-api-openapi.yml
+  url: https://artifacts.apis.io/lattice/openapi/lattice-users-api-openapi.yml
 consequence_counts:
   read: 23
   write: 6
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lattic
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviewCycle/{id}\n  method: get\n  operationId: getReviewCycle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviewCycle/{id}/reviewees\n  method: get\n  operationId: listReviewCycleReviewees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviewCycle/{id}/reviews\n  method: get\n  operationId: listReviewCycleReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviewee/{id}/reviews\n  method: get\n  operationId: listRevieweeReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag/{id}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competency/{id}\n  method: get\n  operationId: getCompetency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/goals\n  method: get\n  operationId: listUserGoals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/directReports\n  method: get\n  operationId: listUserDirectReports\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/tasks\n  method: get\n  operationId: listUserTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/{id}/customAttributes\n  method: get\n  operationId: listUserCustomAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/agentic-access/lattice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lattice/agentic-access/lattice-agentic-access.yml
 summary_line: 29 operations · 6 acting
 tags:
 - Human Resources

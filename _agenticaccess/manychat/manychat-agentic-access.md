@@ -9,25 +9,25 @@ api_specs:
   label: ManyChat Page API
   slug: manychat-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-page-api-openapi.yml
+  url: https://artifacts.apis.io/manychat/openapi/manychat-page-api-openapi.yml
 - filename: manychat-sending-api-openapi.yml
   format: yaml
   label: ManyChat Sending API
   slug: manychat-sending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-sending-api-openapi.yml
+  url: https://artifacts.apis.io/manychat/openapi/manychat-sending-api-openapi.yml
 - filename: manychat-subscriber-api-openapi.yml
   format: yaml
   label: ManyChat Subscriber API
   slug: manychat-subscriber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-subscriber-api-openapi.yml
+  url: https://artifacts.apis.io/manychat/openapi/manychat-subscriber-api-openapi.yml
 - filename: manychat-template-api-openapi.yml
   format: yaml
   label: ManyChat Template API
   slug: manychat-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/openapi/manychat-template-api-openapi.yml
+  url: https://artifacts.apis.io/manychat/openapi/manychat-template-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 13
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/manych
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/removeTagByName\n  method: post\n  operationId: removeSubscriberTagByName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/setCustomField\n  method: post\n  operationId: setCustomField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/setCustomFields\n  method: post\n  operationId: setCustomFields\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/setCustomFieldByName\n  method: post\n  operationId: setCustomFieldByName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/verifyBySignedRequest\n  method: post\n  operationId: verifyBySignedRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/createSubscriber\n\
   \  method: post\n  operationId: createSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fb/subscriber/updateSubscriber\n  method: post\n  operationId: updateSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manychat/refs/heads/main/agentic-access/manychat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/manychat/agentic-access/manychat-agentic-access.yml
 summary_line: 35 operations · 22 acting
 tags:
 - Chat Marketing

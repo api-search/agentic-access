@@ -9,73 +9,73 @@ api_specs:
   label: Hex Cells API
   slug: hex-cells-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-cells-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-cells-api-openapi.yml
 - filename: hex-collections-api-openapi.yml
   format: yaml
   label: Hex Collections API
   slug: hex-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-collections-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-collections-api-openapi.yml
 - filename: hex-context-api-openapi.yml
   format: yaml
   label: Hex Context API
   slug: hex-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-context-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-context-api-openapi.yml
 - filename: hex-data-connections-api-openapi.yml
   format: yaml
   label: Hex Data Connections API
   slug: hex-data-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-data-connections-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-data-connections-api-openapi.yml
 - filename: hex-embedding-api-openapi.yml
   format: yaml
   label: Hex Embedding API
   slug: hex-embedding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-embedding-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-embedding-api-openapi.yml
 - filename: hex-groups-api-openapi.yml
   format: yaml
   label: Hex Groups API
   slug: hex-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-groups-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-groups-api-openapi.yml
 - filename: hex-guides-api-openapi.yml
   format: yaml
   label: Hex Guides API
   slug: hex-guides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-guides-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-guides-api-openapi.yml
 - filename: hex-projects-api-openapi.yml
   format: yaml
   label: Hex Projects API
   slug: hex-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-projects-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-projects-api-openapi.yml
 - filename: hex-semantic-projects-models-api-openapi.yml
   format: yaml
   label: Hex Semantic (projects|models) API
   slug: hex-semantic-projects-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-semantic-projects-models-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-semantic-projects-models-api-openapi.yml
 - filename: hex-threads-api-openapi.yml
   format: yaml
   label: Hex Threads API
   slug: hex-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-threads-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-threads-api-openapi.yml
 - filename: hex-users-api-openapi.yml
   format: yaml
   label: Hex Users API
   slug: hex-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-users-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-users-api-openapi.yml
 - filename: hex-suggestions-api-openapi.yml
   format: yaml
   label: Hex Suggestions API
   slug: hex-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/openapi/hex-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/hex/openapi/hex-suggestions-api-openapi.yml
 consequence_counts:
   read: 23
   write: 29
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hex-op
   \  operationId: ListThreads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{id}\n  method: get\n  operationId: GetThread\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{threadId}/messages\n  method: get\n  operationId: GetThreadMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/threads/{id}/followup\n  method: post\n  operationId: ContinueThread\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/me\n\
   \  method: get\n  operationId: Me\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: get\n  operationId: ListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/deactivate\n  method: post\n  operationId: DeactivateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/context/topics\n  method: get\n  operationId: ListTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/guides/draft/list\n  method:\
   \ get\n  operationId: ListDraftGuides\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/agentic-access/hex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hex/agentic-access/hex-agentic-access.yml
 summary_line: 52 operations · 29 acting
 tags:
 - Company

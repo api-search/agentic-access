@@ -9,25 +9,25 @@ api_specs:
   label: Cuboh Locations API
   slug: cuboh-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cuboh/openapi/cuboh-locations-api-openapi.yml
 - filename: cuboh-menu-api-openapi.yml
   format: yaml
   label: Cuboh Menu API
   slug: cuboh-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-menu-api-openapi.yml
+  url: https://artifacts.apis.io/cuboh/openapi/cuboh-menu-api-openapi.yml
 - filename: cuboh-orders-api-openapi.yml
   format: yaml
   label: Cuboh Orders API
   slug: cuboh-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cuboh/openapi/cuboh-orders-api-openapi.yml
 - filename: cuboh-webhooks-api-openapi.yml
   format: yaml
   label: Cuboh Webhooks API
   slug: cuboh-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/openapi/cuboh-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cuboh/openapi/cuboh-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 7
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cuboh-
   \  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/external-integration/merchant/{external_integration_merchant_uuid}/menus/{external_menu_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/external-integration/merchant/{external_integration_merchant_uuid}/validate/{external_menu_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/external-integration/merchant/{external_integration_merchant_uuid}/validate/{external_menu_id}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/external-integration/merchant/{external_integration_merchant_uuid}/item/status-update\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/external-integration/merchant/{external_integration_merchant_uuid}/status\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/external-integration/merchant/{external_integration_merchant_uuid}/orders\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuboh/refs/heads/main/agentic-access/cuboh-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cuboh/agentic-access/cuboh-agentic-access.yml
 summary_line: 20 operations · 13 acting
 tags:
 - Restaurant

@@ -9,37 +9,37 @@ api_specs:
   label: Table Format Commits API
   slug: table-format-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-commits-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-commits-api-openapi.yml
 - filename: table-format-configuration-api-openapi.yml
   format: yaml
   label: Table Format Configuration API
   slug: table-format-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-configuration-api-openapi.yml
 - filename: table-format-namespaces-api-openapi.yml
   format: yaml
   label: Table Format Namespaces API
   slug: table-format-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-namespaces-api-openapi.yml
 - filename: table-format-tables-api-openapi.yml
   format: yaml
   label: Table Format Tables API
   slug: table-format-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-tables-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-tables-api-openapi.yml
 - filename: table-format-views-api-openapi.yml
   format: yaml
   label: Table Format Views API
   slug: table-format-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-views-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-views-api-openapi.yml
 - filename: table-format-oauth2-api-openapi.yml
   format: yaml
   label: Table Format O Auth2 API
   slug: table-format-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/openapi/table-format-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/table-format/openapi/table-format-oauth2-api-openapi.yml
 consequence_counts:
   read: 7
   write: 11
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/namespaces/{namespace}/tables/{table}\n  method: delete\n  operationId: dropTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/namespaces/{namespace}/tables/{table}/metrics\n  method: post\n  operationId: reportMetrics\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/namespaces/{namespace}/views\n  method: get\n  operationId: listViews\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog\n- path: /v1/namespaces/{namespace}/views\n  method: post\n  operationId: createView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/namespaces/{namespace}/views/{view}\n  method: get\n  operationId: loadView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - catalog\n- path: /v1/namespaces/{namespace}/views/{view}\n  method: delete\n  operationId: dropView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n- path: /v1/transactions/commit\n  method: post\n  operationId: commitTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - catalog\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/agentic-access/table-format-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/table-format/agentic-access/table-format-agentic-access.yml
 summary_line: 18 operations · 11 acting
 tags:
 - Data Lakehouse

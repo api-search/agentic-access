@@ -9,61 +9,61 @@ api_specs:
   label: Duffel Ancillaries API
   slug: duffel-ancillaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-ancillaries-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-ancillaries-api-openapi.yml
 - filename: duffel-offer-requests-api-openapi.yml
   format: yaml
   label: Duffel Offer Requests API
   slug: duffel-offer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-offer-requests-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-offer-requests-api-openapi.yml
 - filename: duffel-offers-api-openapi.yml
   format: yaml
   label: Duffel Offers API
   slug: duffel-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-offers-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-offers-api-openapi.yml
 - filename: duffel-order-cancellations-api-openapi.yml
   format: yaml
   label: Duffel Order Cancellations API
   slug: duffel-order-cancellations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-order-cancellations-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-order-cancellations-api-openapi.yml
 - filename: duffel-order-changes-api-openapi.yml
   format: yaml
   label: Duffel Order Changes API
   slug: duffel-order-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-order-changes-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-order-changes-api-openapi.yml
 - filename: duffel-orders-api-openapi.yml
   format: yaml
   label: Duffel Orders API
   slug: duffel-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-orders-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-orders-api-openapi.yml
 - filename: duffel-payments-api-openapi.yml
   format: yaml
   label: Duffel Payments API
   slug: duffel-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-payments-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-payments-api-openapi.yml
 - filename: duffel-seat-maps-api-openapi.yml
   format: yaml
   label: Duffel Seat Maps API
   slug: duffel-seat-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-seat-maps-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-seat-maps-api-openapi.yml
 - filename: duffel-stays-api-openapi.yml
   format: yaml
   label: Duffel Stays API
   slug: duffel-stays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-stays-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-stays-api-openapi.yml
 - filename: duffel-webhooks-api-openapi.yml
   format: yaml
   label: Duffel Webhooks API
   slug: duffel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/openapi/duffel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/duffel/openapi/duffel-webhooks-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 20
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/duffel
   \ createStaysBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stays/bookings\n  method: get\n  operationId: listStaysBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stays/bookings/{id}\n  method: get\n  operationId: getStaysBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stays/bookings/{id}/actions/cancel\n  method: post\n  operationId: cancelStaysBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /air/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /air/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /air/webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /air/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /air/webhooks/{id}/actions/ping\n  method: post\n  operationId: pingWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duffel/refs/heads/main/agentic-access/duffel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/duffel/agentic-access/duffel-agentic-access.yml
 summary_line: 39 operations · 19 acting
 tags:
 - Travel

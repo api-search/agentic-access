@@ -8,25 +8,25 @@ api_specs:
   label: Mobula Market API
   slug: mobula-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-market-api-openapi.yml
+  url: https://artifacts.apis.io/mobula/openapi/mobula-market-api-openapi.yml
 - filename: mobula-metadata-api-openapi.yml
   format: yaml
   label: Mobula Metadata API
   slug: mobula-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/mobula/openapi/mobula-metadata-api-openapi.yml
 - filename: mobula-search-api-openapi.yml
   format: yaml
   label: Mobula Search API
   slug: mobula-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-search-api-openapi.yml
+  url: https://artifacts.apis.io/mobula/openapi/mobula-search-api-openapi.yml
 - filename: mobula-wallet-api-openapi.yml
   format: yaml
   label: Mobula Wallet API
   slug: mobula-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/openapi/mobula-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/mobula/openapi/mobula-wallet-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mobula-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /market/data\n  method: get\n  operationId: getMarketData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/multi-data\n  method: get\n  operationId: getMarketMultiData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/history\n  method: get\n  operationId: getMarketHistory\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/pairs\n  method: get\n  operationId: getMarketPairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/pair\n  method: get\n  operationId: getMarketPairOhlcv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/portfolio\n  method: get\n  operationId: getWalletPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /wallet/history\n  method: get\n  operationId: getWalletHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/transactions\n  method: get\n  operationId: getWalletTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/query\n  method: get\n  operationId: marketQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobula/refs/heads/main/agentic-access/mobula-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mobula/agentic-access/mobula-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Cryptocurrency

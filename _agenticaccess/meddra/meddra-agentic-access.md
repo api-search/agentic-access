@@ -8,91 +8,91 @@ api_specs:
   label: Meddra Data Impact API
   slug: meddra-dataimpact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-dataimpact-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-dataimpact-api-openapi.yml
 - filename: meddra-details-api-openapi.yml
   format: yaml
   label: Meddra Details API
   slug: meddra-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-details-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-details-api-openapi.yml
 - filename: meddra-download-api-openapi.yml
   format: yaml
   label: Meddra Download API
   slug: meddra-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-download-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-download-api-openapi.yml
 - filename: meddra-export-api-openapi.yml
   format: yaml
   label: Meddra Export API
   slug: meddra-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-export-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-export-api-openapi.yml
 - filename: meddra-gettop-api-openapi.yml
   format: yaml
   label: Meddra Get Top API
   slug: meddra-gettop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-gettop-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-gettop-api-openapi.yml
 - filename: meddra-hierarchy-api-openapi.yml
   format: yaml
   label: Meddra Hierarchy API
   slug: meddra-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-hierarchy-api-openapi.yml
 - filename: meddra-history-api-openapi.yml
   format: yaml
   label: Meddra History API
   slug: meddra-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-history-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-history-api-openapi.yml
 - filename: meddra-language-api-openapi.yml
   format: yaml
   label: Meddra Language API
   slug: meddra-language-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-language-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-language-api-openapi.yml
 - filename: meddra-release-api-openapi.yml
   format: yaml
   label: Meddra Release API
   slug: meddra-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-release-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-release-api-openapi.yml
 - filename: meddra-search-api-openapi.yml
   format: yaml
   label: Meddra Search API
   slug: meddra-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-search-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-search-api-openapi.yml
 - filename: meddra-smq-api-openapi.yml
   format: yaml
   label: Meddra SMQ API
   slug: meddra-smq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-smq-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-smq-api-openapi.yml
 - filename: meddra-status-api-openapi.yml
   format: yaml
   label: Meddra Status API
   slug: meddra-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-status-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-status-api-openapi.yml
 - filename: meddra-svalidation-api-openapi.yml
   format: yaml
   label: Meddra S Validation API
   slug: meddra-svalidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-svalidation-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-svalidation-api-openapi.yml
 - filename: meddra-type-api-openapi.yml
   format: yaml
   label: Meddra Type API
   slug: meddra-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-type-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-type-api-openapi.yml
 - filename: meddra-versionr-api-openapi.yml
   format: yaml
   label: Meddra Version R API
   slug: meddra-versionr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/openapi/meddra-versionr-api-openapi.yml
+  url: https://artifacts.apis.io/meddra/openapi/meddra-versionr-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: generated\nsource: openapi/meddra
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - meddraapi\n    x-review-note: 'Reclassified by hand: the heuristic reads POST as a mutation. This operation POSTs a query body\n      and returns dictionary data; the MedDRA API has no write surface.'\n- path: /api/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - meddraapi\n- path: /api/sv\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - meddraapi\n    x-review-note: 'Reclassified by hand: the heuristic reads POST as a mutation.\
   \ This operation POSTs a query body\n      and returns dictionary data; the MedDRA API has no write surface.'\n- path: /api/type\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - meddraapi\n    x-review-note: 'Reclassified by hand: the heuristic reads POST as a mutation. This operation POSTs a query body\n      and returns dictionary data; the MedDRA API has no write surface.'\n- path: /api/vr\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - meddraapi\n    x-review-note:\
   \ 'Reclassified by hand: the heuristic reads POST as a mutation. This operation POSTs a query body\n      and returns dictionary data; the MedDRA API has no write surface.'\nreview:\n  reviewed: '2026-09-17'\n  by: API Evangelist enrichment pass\n  note: 'The generator classifies every POST as an acting/write operation. That is wrong for MedDRA: ten of its sixteen\n    operations are POSTs that carry a JSON query body (search terms, code lists, version pairs) and return dictionary\n    data. Nothing in this API creates, updates or deletes anything on the MSSO side, so all sixteen are reclassified\n    connected/read. The one operation that deserves extra care is GET /api/downld/... , which retrieves MedDRA distribution\n    files - the constraint there is the MedDRA licence, not a write consequence.'\n  operations_reclassified: 10\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/agentic-access/meddra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meddra/agentic-access/meddra-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Medical Terminology

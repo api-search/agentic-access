@@ -9,49 +9,49 @@ api_specs:
   label: WegoWise Apartments API
   slug: wegowise-apartments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-apartments-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-apartments-api-openapi.yml
 - filename: wegowise-areas-api-openapi.yml
   format: yaml
   label: WegoWise Areas API
   slug: wegowise-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-areas-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-areas-api-openapi.yml
 - filename: wegowise-buildings-api-openapi.yml
   format: yaml
   label: WegoWise Buildings API
   slug: wegowise-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-buildings-api-openapi.yml
 - filename: wegowise-developments-api-openapi.yml
   format: yaml
   label: WegoWise Developments API
   slug: wegowise-developments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-developments-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-developments-api-openapi.yml
 - filename: wegowise-meters-api-openapi.yml
   format: yaml
   label: WegoWise Meters API
   slug: wegowise-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-meters-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-meters-api-openapi.yml
 - filename: wegowise-usage-data-api-openapi.yml
   format: yaml
   label: WegoWise Usage Data API
   slug: wegowise-usage-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-usage-data-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-usage-data-api-openapi.yml
 - filename: wegowise-utility-companies-api-openapi.yml
   format: yaml
   label: WegoWise Utility Companies API
   slug: wegowise-utility-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-utility-companies-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-utility-companies-api-openapi.yml
 - filename: wegowise-utility-logins-api-openapi.yml
   format: yaml
   label: WegoWise Utility Logins API
   slug: wegowise-utility-logins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/openapi/wegowise-utility-logins-api-openapi.yml
+  url: https://artifacts.apis.io/wegowise/openapi/wegowise-utility-logins-api-openapi.yml
 consequence_counts:
   read: 17
   write: 16
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wegowi
   \  operationId: getDataMeter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/wego_data/meters/{id}\n  method: put\n  operationId: updateDataMeter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/wego_data/meters/{id}\n  method: delete\n  operationId: deleteDataMeter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/wego_data/utility_logins/{id}\n  method: get\n  operationId: getUtilityLogin\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/wego_data/utility_logins/{id}\n  method: patch\n  operationId: updateUtilityLogin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/wego_data/meters/{id}/raw_data\n  method: get\n  operationId: getDataMeterRawData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/wego_data/meters/{id}/raw_data\n  method: post\n  operationId: createDataMeterRawData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/wego_data/meters/{id}/latest_datum\n  method: get\n  operationId: getLatestDatum\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wegowise/refs/heads/main/agentic-access/wegowise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wegowise/agentic-access/wegowise-agentic-access.yml
 summary_line: 33 operations · 16 acting
 tags:
 - Benchmarking

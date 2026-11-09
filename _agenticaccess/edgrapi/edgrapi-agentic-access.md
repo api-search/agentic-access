@@ -9,73 +9,73 @@ api_specs:
   label: Paper and Beyond Activist API
   slug: edgrapi-activist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-activist-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-activist-api-openapi.yml
 - filename: edgrapi-events-api-openapi.yml
   format: yaml
   label: Paper and Beyond Events API
   slug: edgrapi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-events-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-events-api-openapi.yml
 - filename: edgrapi-filings-api-openapi.yml
   format: yaml
   label: Paper and Beyond Filings API
   slug: edgrapi-filings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-filings-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-filings-api-openapi.yml
 - filename: edgrapi-fundamentals-api-openapi.yml
   format: yaml
   label: Paper and Beyond Fundamentals API
   slug: edgrapi-fundamentals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-fundamentals-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-fundamentals-api-openapi.yml
 - filename: edgrapi-government-api-openapi.yml
   format: yaml
   label: Paper and Beyond Government API
   slug: edgrapi-government-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-government-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-government-api-openapi.yml
 - filename: edgrapi-holdings-api-openapi.yml
   format: yaml
   label: Paper and Beyond Holdings API
   slug: edgrapi-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-holdings-api-openapi.yml
 - filename: edgrapi-insider-api-openapi.yml
   format: yaml
   label: Paper and Beyond Insider API
   slug: edgrapi-insider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-insider-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-insider-api-openapi.yml
 - filename: edgrapi-meta-api-openapi.yml
   format: yaml
   label: Paper and Beyond Meta API
   slug: edgrapi-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-meta-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-meta-api-openapi.yml
 - filename: edgrapi-reference-api-openapi.yml
   format: yaml
   label: Paper and Beyond Reference API
   slug: edgrapi-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-reference-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-reference-api-openapi.yml
 - filename: edgrapi-search-api-openapi.yml
   format: yaml
   label: Paper and Beyond Search API
   slug: edgrapi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-search-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-search-api-openapi.yml
 - filename: edgrapi-webhooks-api-openapi.yml
   format: yaml
   label: Paper and Beyond Webhooks API
   slug: edgrapi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-webhooks-api-openapi.yml
 - filename: edgrapi-xbrl-api-openapi.yml
   format: yaml
   label: Paper and Beyond Xbrl API
   slug: edgrapi-xbrl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/openapi/edgrapi-xbrl-api-openapi.yml
+  url: https://artifacts.apis.io/edgrapi/openapi/edgrapi-xbrl-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 29
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-10-16'\nmethod: generated\nsource: openapi/edgrap
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subsidiaries/{ident}\n  method: get\n  operationId: company_subsidiaries_v1_subsidiaries__ident__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: webhook_list_v1_webhooks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: webhook_create_v1_webhooks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /v1/webhooks/{wid}\n  method: delete\n  operationId: webhook_delete_v1_webhooks__wid__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{wid}/test\n  method: post\n  operationId: webhook_test_v1_webhooks__wid__test_post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{wid}/deliveries\n  method: get\n  operationId: webhook_deliveries_v1_webhooks__wid__deliveries_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edgrapi/refs/heads/main/agentic-access/edgrapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/edgrapi/agentic-access/edgrapi-agentic-access.yml
 summary_line: 33 operations · 4 acting
 tags:
 - Company

@@ -9,151 +9,151 @@ api_specs:
   label: Yoxel Account API
   slug: aurinko-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-account-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-account-api-openapi.yml
 - filename: aurinko-accounts-api-openapi.yml
   format: yaml
   label: Yoxel Accounts API
   slug: aurinko-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-accounts-api-openapi.yml
 - filename: aurinko-auth-api-openapi.yml
   format: yaml
   label: Yoxel Auth API
   slug: aurinko-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-auth-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-auth-api-openapi.yml
 - filename: aurinko-availability-api-openapi.yml
   format: yaml
   label: Yoxel Availability API
   slug: aurinko-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-availability-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-availability-api-openapi.yml
 - filename: aurinko-booking-api-openapi.yml
   format: yaml
   label: Yoxel Booking API
   slug: aurinko-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-booking-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-booking-api-openapi.yml
 - filename: aurinko-calendars-api-openapi.yml
   format: yaml
   label: Yoxel Calendars API
   slug: aurinko-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-calendars-api-openapi.yml
 - filename: aurinko-calsync-api-openapi.yml
   format: yaml
   label: Yoxel Cal Sync API
   slug: aurinko-calsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-calsync-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-calsync-api-openapi.yml
 - filename: aurinko-contacts-api-openapi.yml
   format: yaml
   label: Yoxel Contacts API
   slug: aurinko-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-contacts-api-openapi.yml
 - filename: aurinko-contsync-api-openapi.yml
   format: yaml
   label: Yoxel Cont Sync API
   slug: aurinko-contsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-contsync-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-contsync-api-openapi.yml
 - filename: aurinko-drafts-api-openapi.yml
   format: yaml
   label: Yoxel Drafts API
   slug: aurinko-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-drafts-api-openapi.yml
 - filename: aurinko-emailfolders-api-openapi.yml
   format: yaml
   label: Yoxel Email Folders API
   slug: aurinko-emailfolders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-emailfolders-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-emailfolders-api-openapi.yml
 - filename: aurinko-emailsync-api-openapi.yml
   format: yaml
   label: Yoxel Email Sync API
   slug: aurinko-emailsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-emailsync-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-emailsync-api-openapi.yml
 - filename: aurinko-emailtracking-api-openapi.yml
   format: yaml
   label: Yoxel Email Tracking API
   slug: aurinko-emailtracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-emailtracking-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-emailtracking-api-openapi.yml
 - filename: aurinko-events-api-openapi.yml
   format: yaml
   label: Yoxel Events API
   slug: aurinko-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-events-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-events-api-openapi.yml
 - filename: aurinko-followuprobot-api-openapi.yml
   format: yaml
   label: Yoxel Follow Up Robot API
   slug: aurinko-followuprobot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-followuprobot-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-followuprobot-api-openapi.yml
 - filename: aurinko-freebusyschedule-api-openapi.yml
   format: yaml
   label: Yoxel Free Busy Schedule API
   slug: aurinko-freebusyschedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-freebusyschedule-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-freebusyschedule-api-openapi.yml
 - filename: aurinko-groupbooking-api-openapi.yml
   format: yaml
   label: Yoxel Group Booking API
   slug: aurinko-groupbooking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-groupbooking-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-groupbooking-api-openapi.yml
 - filename: aurinko-managed-accounts-api-openapi.yml
   format: yaml
   label: Yoxel Managed accounts API
   slug: aurinko-managed-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-managed-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-managed-accounts-api-openapi.yml
 - filename: aurinko-messages-api-openapi.yml
   format: yaml
   label: Yoxel Messages API
   slug: aurinko-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-messages-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-messages-api-openapi.yml
 - filename: aurinko-services-api-openapi.yml
   format: yaml
   label: Yoxel Services API
   slug: aurinko-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-services-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-services-api-openapi.yml
 - filename: aurinko-tasklists-api-openapi.yml
   format: yaml
   label: Yoxel Task Lists API
   slug: aurinko-tasklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-tasklists-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-tasklists-api-openapi.yml
 - filename: aurinko-tasks-api-openapi.yml
   format: yaml
   label: Yoxel Tasks API
   slug: aurinko-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-tasks-api-openapi.yml
 - filename: aurinko-tasksync-api-openapi.yml
   format: yaml
   label: Yoxel Task Sync API
   slug: aurinko-tasksync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-tasksync-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-tasksync-api-openapi.yml
 - filename: aurinko-user-api-openapi.yml
   format: yaml
   label: Yoxel User API
   slug: aurinko-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-user-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-user-api-openapi.yml
 - filename: aurinko-webhooks-api-openapi.yml
   format: yaml
   label: Yoxel Webhooks API
   slug: aurinko-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/openapi/aurinko-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aurinko/openapi/aurinko-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 64
@@ -232,8 +232,8 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/aurink
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/accounts/{id}\n  method: delete\n  operationId: logoutAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/accounts/{id}/managed\n  method: post\n  operationId: copyAsManaged\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user/logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account\n  method: get\n  operationId: getMyAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account\n  method: delete\n  operationId: deleteAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/token\n  method: delete\n  operationId: deleteToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession:\
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/am/accounts\n  method: post\n  operationId: upsertPersonal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/am/accounts\n  method: get\n  operationId: getAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/am/accounts/{id}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/am/accounts/{id}\n  method: delete\n  operationId: amAccountDelete\n  x-agentic-access:\n    action-class: acting\n    consequence:\
-  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/am/svc_accounts\n  method: post\n  operationId: upsertServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/am/svc_accounts\n  method: get\n  operationId: getSvcAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/agentic-access/aurinko-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aurinko/refs/heads/main/agentic-access/aurinko-agentic-access.yml
+  \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/am/svc_accounts\n  method: post\n  operationId: upsertServiceAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/am/svc_accounts\n  method: get\n  operationId: getSvcAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/aurinko/agentic-access/aurinko-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/aurinko/agentic-access/aurinko-agentic-access.yml
 summary_line: 134 operations · 70 acting · 1 human-in-the-loop
 tags:
 - Company

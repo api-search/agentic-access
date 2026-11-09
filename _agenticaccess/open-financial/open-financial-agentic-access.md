@@ -9,61 +9,61 @@ api_specs:
   label: Open (open.money) Accounts API
   slug: open-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-accounts-api-openapi.yml
 - filename: open-financial-constants-api-openapi.yml
   format: yaml
   label: Open (open.money) Constants API
   slug: open-financial-constants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-constants-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-constants-api-openapi.yml
 - filename: open-financial-events-api-openapi.yml
   format: yaml
   label: Open (open.money) Events API
   slug: open-financial-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-events-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-events-api-openapi.yml
 - filename: open-financial-icp-api-openapi.yml
   format: yaml
   label: Open (open.money) Icp API
   slug: open-financial-icp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-icp-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-icp-api-openapi.yml
 - filename: open-financial-kycs-api-openapi.yml
   format: yaml
   label: Open (open.money) Kycs API
   slug: open-financial-kycs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-kycs-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-kycs-api-openapi.yml
 - filename: open-financial-pg-api-openapi.yml
   format: yaml
   label: Open (open.money) Pg API
   slug: open-financial-pg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-pg-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-pg-api-openapi.yml
 - filename: open-financial-pg-settlements-api-openapi.yml
   format: yaml
   label: Open (open.money) Pg Settlements API
   slug: open-financial-pg-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-pg-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-pg-settlements-api-openapi.yml
 - filename: open-financial-refund-api-openapi.yml
   format: yaml
   label: Open (open.money) Refund API
   slug: open-financial-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-refund-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-refund-api-openapi.yml
 - filename: open-financial-transfers-api-openapi.yml
   format: yaml
   label: Open (open.money) Transfers API
   slug: open-financial-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-transfers-api-openapi.yml
 - filename: open-financial-verifications-api-openapi.yml
   format: yaml
   label: Open (open.money) Verifications API
   slug: open-financial-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/openapi/open-financial-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/open-financial/openapi/open-financial-verifications-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 18
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/open-f
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts\n  method: post\n  operationId: accounts-virtual-transfer-wallet-create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kycs/name-match\n  method: post\n  operationId: verifications-pan-vs-account-verification-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    \
   \  - high-value\n    audit: required\n- path: /pg_settlements/sub_accounts\n  method: post\n  operationId: sub-account-onboarding-api\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts\n  method: post\n  operationId: accounts-virtual-collection-tool-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts\n  method: post\n  operationId: accounts-virtual-collection-wallet-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-financial/refs/heads/main/agentic-access/open-financial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-financial/agentic-access/open-financial-agentic-access.yml
 summary_line: 39 operations · 21 acting
 tags:
 - Connected Banking

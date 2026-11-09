@@ -9,67 +9,67 @@ api_specs:
   label: Triton Inference Server CUDA Shared Memory API
   slug: triton-cuda-shared-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-cuda-shared-memory-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-cuda-shared-memory-api-openapi.yml
 - filename: triton-health-api-openapi.yml
   format: yaml
   label: Triton Inference Server Health API
   slug: triton-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-health-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-health-api-openapi.yml
 - filename: triton-inference-api-openapi.yml
   format: yaml
   label: Triton Inference Server Inference API
   slug: triton-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-inference-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-inference-api-openapi.yml
 - filename: triton-logging-api-openapi.yml
   format: yaml
   label: Triton Inference Server Logging API
   slug: triton-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-logging-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-logging-api-openapi.yml
 - filename: triton-metrics-api-openapi.yml
   format: yaml
   label: Triton Inference Server Metrics API
   slug: triton-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-metrics-api-openapi.yml
 - filename: triton-model-metadata-api-openapi.yml
   format: yaml
   label: Triton Inference Server Model Metadata API
   slug: triton-model-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-model-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-model-metadata-api-openapi.yml
 - filename: triton-model-repository-api-openapi.yml
   format: yaml
   label: Triton Inference Server Model Repository API
   slug: triton-model-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-model-repository-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-model-repository-api-openapi.yml
 - filename: triton-server-metadata-api-openapi.yml
   format: yaml
   label: Triton Inference Server Metadata API
   slug: triton-server-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-server-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-server-metadata-api-openapi.yml
 - filename: triton-statistics-api-openapi.yml
   format: yaml
   label: Triton Inference Server Statistics API
   slug: triton-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-statistics-api-openapi.yml
 - filename: triton-system-shared-memory-api-openapi.yml
   format: yaml
   label: Triton Inference Server System Shared Memory API
   slug: triton-system-shared-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-system-shared-memory-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-system-shared-memory-api-openapi.yml
 - filename: triton-trace-api-openapi.yml
   format: yaml
   label: Triton Inference Server Trace API
   slug: triton-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/openapi/triton-trace-api-openapi.yml
+  url: https://artifacts.apis.io/triton/openapi/triton-trace-api-openapi.yml
 consequence_counts:
   read: 18
   write: 14
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/triton
   \  method: get\n  operationId: systemSharedMemoryStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/systemsharedmemory/region/{region_name}/register\n  method: post\n  operationId: systemSharedMemoryRegister\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/systemsharedmemory/region/{region_name}/unregister\n  method: post\n  operationId: systemSharedMemoryUnregister\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v2/systemsharedmemory/unregister\n  method: post\n  operationId: systemSharedMemoryUnregisterAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/cudasharedmemory/status\n  method: get\n  operationId: cudaSharedMemoryStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/cudasharedmemory/region/{region_name}/register\n  method: post\n  operationId: cudaSharedMemoryRegister\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v2/cudasharedmemory/region/{region_name}/unregister\n  method: post\n  operationId: cudaSharedMemoryUnregister\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/cudasharedmemory/unregister\n  method: post\n  operationId: cudaSharedMemoryUnregisterAll\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/agentic-access/triton-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/triton/agentic-access/triton-agentic-access.yml
 summary_line: 32 operations · 14 acting
 tags:
 - Artificial Intelligence

@@ -9,43 +9,43 @@ api_specs:
   label: Nmbrs Absences API
   slug: nmbrs-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-absences-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-absences-api-openapi.yml
 - filename: nmbrs-companies-api-openapi.yml
   format: yaml
   label: Nmbrs Companies API
   slug: nmbrs-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-companies-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-companies-api-openapi.yml
 - filename: nmbrs-employees-api-openapi.yml
   format: yaml
   label: Nmbrs Employees API
   slug: nmbrs-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employees-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-employees-api-openapi.yml
 - filename: nmbrs-employments-api-openapi.yml
   format: yaml
   label: Nmbrs Employments API
   slug: nmbrs-employments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-employments-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-employments-api-openapi.yml
 - filename: nmbrs-salaries-api-openapi.yml
   format: yaml
   label: Nmbrs Salaries API
   slug: nmbrs-salaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-salaries-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-salaries-api-openapi.yml
 - filename: nmbrs-wage-components-api-openapi.yml
   format: yaml
   label: Nmbrs Wage Components API
   slug: nmbrs-wage-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-wage-components-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-wage-components-api-openapi.yml
 - filename: nmbrs-pay-runs-api-openapi.yml
   format: yaml
   label: Nmbrs Pay Runs API
   slug: nmbrs-pay-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/openapi/nmbrs-pay-runs-api-openapi.yml
+  url: https://artifacts.apis.io/nmbrs/openapi/nmbrs-pay-runs-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nmbrs-
   \  method: get\n  operationId: getEmployee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/employees/{employeeId}/employments\n  method: get\n  operationId: listEmployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/employees/{employeeId}/salaries\n  method: get\n  operationId: listSalaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/employees/{employeeId}/wagecomponents\n  method: get\n  operationId: listWageComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/employees/{employeeId}/wagecomponents\n  method: post\n  operationId: createWageComponent\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/companies/{companyId}/payruns\n  method: get\n  operationId: listPayruns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/employees/{employeeId}/absences\n  method: get\n  operationId: listAbsences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/employees/{employeeId}/absences\n  method: post\n  operationId: createAbsence\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nmbrs/refs/heads/main/agentic-access/nmbrs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nmbrs/agentic-access/nmbrs-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Human Resources

@@ -9,55 +9,55 @@ api_specs:
   label: Streamkap Authentication API
   slug: streamkap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-authentication-api-openapi.yml
 - filename: streamkap-connectors-api-openapi.yml
   format: yaml
   label: Streamkap Connectors API
   slug: streamkap-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-connectors-api-openapi.yml
 - filename: streamkap-destinations-api-openapi.yml
   format: yaml
   label: Streamkap Destinations API
   slug: streamkap-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-destinations-api-openapi.yml
 - filename: streamkap-kafka-access-api-openapi.yml
   format: yaml
   label: Streamkap Kafka Access API
   slug: streamkap-kafka-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-kafka-access-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-kafka-access-api-openapi.yml
 - filename: streamkap-pipelines-api-openapi.yml
   format: yaml
   label: Streamkap Pipelines API
   slug: streamkap-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-pipelines-api-openapi.yml
 - filename: streamkap-sources-api-openapi.yml
   format: yaml
   label: Streamkap Sources API
   slug: streamkap-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-sources-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-sources-api-openapi.yml
 - filename: streamkap-tags-api-openapi.yml
   format: yaml
   label: Streamkap Tags API
   slug: streamkap-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-tags-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-tags-api-openapi.yml
 - filename: streamkap-topics-api-openapi.yml
   format: yaml
   label: Streamkap Topics API
   slug: streamkap-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-topics-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-topics-api-openapi.yml
 - filename: streamkap-transforms-api-openapi.yml
   format: yaml
   label: Streamkap Transforms API
   slug: streamkap-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/openapi/streamkap-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/streamkap/openapi/streamkap-transforms-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 15
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stream
   \  operationId: getTransform\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transforms/{id}\n  method: delete\n  operationId: deleteTransform\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transforms/deploy-live\n  method: post\n  operationId: deployTransformLive\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topics\n  method: get\n  operationId: listTopics\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics\n  method: post\n  operationId: createTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topics/{id}/messages\n  method: get\n  operationId: getTopicMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kafka-access/users\n  method: get\n  operationId: listKafkaUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kafka-access/users\n  method: post\n  operationId: createKafkaUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamkap/refs/heads/main/agentic-access/streamkap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/streamkap/agentic-access/streamkap-agentic-access.yml
 summary_line: 32 operations · 17 acting
 tags:
 - Streaming

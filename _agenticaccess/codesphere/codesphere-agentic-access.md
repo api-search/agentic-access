@@ -9,61 +9,61 @@ api_specs:
   label: Codesphere Clusters API
   slug: codesphere-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-clusters-api-openapi.yml
 - filename: codesphere-domains-api-openapi.yml
   format: yaml
   label: Codesphere Domains API
   slug: codesphere-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-domains-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-domains-api-openapi.yml
 - filename: codesphere-managed-services-api-openapi.yml
   format: yaml
   label: Codesphere Managed Services API
   slug: codesphere-managed-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-managed-services-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-managed-services-api-openapi.yml
 - filename: codesphere-metadata-api-openapi.yml
   format: yaml
   label: Codesphere Metadata API
   slug: codesphere-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-metadata-api-openapi.yml
 - filename: codesphere-organizations-api-openapi.yml
   format: yaml
   label: Codesphere Organizations API
   slug: codesphere-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-organizations-api-openapi.yml
 - filename: codesphere-ssh-api-openapi.yml
   format: yaml
   label: Codesphere Ssh API
   slug: codesphere-ssh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-ssh-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-ssh-api-openapi.yml
 - filename: codesphere-teams-api-openapi.yml
   format: yaml
   label: Codesphere Teams API
   slug: codesphere-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-teams-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-teams-api-openapi.yml
 - filename: codesphere-usage-api-openapi.yml
   format: yaml
   label: Codesphere Usage API
   slug: codesphere-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-usage-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-usage-api-openapi.yml
 - filename: codesphere-vault-api-openapi.yml
   format: yaml
   label: Codesphere Vault API
   slug: codesphere-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-vault-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-vault-api-openapi.yml
 - filename: codesphere-workspaces-api-openapi.yml
   format: yaml
   label: Codesphere Workspaces API
   slug: codesphere-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/openapi/codesphere-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/codesphere/openapi/codesphere-workspaces-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 30
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/codesp
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/git/head\n  method: get\n  operationId: workspaces-gitHead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/git/pull/{remote}/{branch}\n  method: post\n  operationId: workspaces-gitPull-2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/git/pull/{remote}\n  method: post\n  operationId: workspaces-gitPull-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/git/pull\n  method: post\n  operationId: workspaces-gitPull\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/logs/{stage}/{step}\n  method: get\n  operationId: workspaces-logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/logs/run/{step}/server/{server}\n  method: get\n  operationId: workspaces-serverLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/logs/run/{step}/replica/{replica}\n  method: get\n  operationId: workspaces-replicaLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/teams/{teamId}/resources/landscape-service/summary\n  method: get\n  operationId: usage-getUsageSummaryLandscape\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/teams/{teamId}/resources/landscape-service/{resourceId}/events\n  method: get\n  operationId: usage-getLandscapeServiceEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codesphere/refs/heads/main/agentic-access/codesphere-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/codesphere/agentic-access/codesphere-agentic-access.yml
 summary_line: 80 operations · 50 acting · 1 human-in-the-loop
 tags:
 - Company

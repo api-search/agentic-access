@@ -9,61 +9,61 @@ api_specs:
   label: Tapfiliate Affiliate Groups API
   slug: tapfiliate-affiliate-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliate-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-affiliate-groups-api-openapi.yml
 - filename: tapfiliate-affiliate-prospects-api-openapi.yml
   format: yaml
   label: Tapfiliate Affiliate Prospects API
   slug: tapfiliate-affiliate-prospects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliate-prospects-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-affiliate-prospects-api-openapi.yml
 - filename: tapfiliate-affiliates-api-openapi.yml
   format: yaml
   label: Tapfiliate Affiliates API
   slug: tapfiliate-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-affiliates-api-openapi.yml
 - filename: tapfiliate-balances-api-openapi.yml
   format: yaml
   label: Tapfiliate Balances API
   slug: tapfiliate-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-balances-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-balances-api-openapi.yml
 - filename: tapfiliate-clicks-api-openapi.yml
   format: yaml
   label: Tapfiliate Clicks API
   slug: tapfiliate-clicks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-clicks-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-clicks-api-openapi.yml
 - filename: tapfiliate-commissions-api-openapi.yml
   format: yaml
   label: Tapfiliate Commissions API
   slug: tapfiliate-commissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-commissions-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-commissions-api-openapi.yml
 - filename: tapfiliate-conversions-api-openapi.yml
   format: yaml
   label: Tapfiliate Conversions API
   slug: tapfiliate-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-conversions-api-openapi.yml
 - filename: tapfiliate-customers-api-openapi.yml
   format: yaml
   label: Tapfiliate Customers API
   slug: tapfiliate-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-customers-api-openapi.yml
 - filename: tapfiliate-payments-api-openapi.yml
   format: yaml
   label: Tapfiliate Payments API
   slug: tapfiliate-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-payments-api-openapi.yml
 - filename: tapfiliate-programs-api-openapi.yml
   format: yaml
   label: Tapfiliate Programs API
   slug: tapfiliate-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/openapi/tapfiliate-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tapfiliate/openapi/tapfiliate-programs-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 36
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tapfil
   \  method: get\n  operationId: listAllBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{id}/\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{id}/\n  method: delete\n  operationId: cancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /payments/\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clicks/\n  method: get\n  operationId: listClicks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clicks/\n  method: post\n  operationId: createClick\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clicks/{id}/\n  method: get\n\
   \  operationId: getClick\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tapfiliate/refs/heads/main/agentic-access/tapfiliate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tapfiliate/agentic-access/tapfiliate-agentic-access.yml
 summary_line: 77 operations · 41 acting
 tags:
 - Affiliate Marketing

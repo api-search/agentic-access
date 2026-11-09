@@ -9,61 +9,61 @@ api_specs:
   label: Hustle Access Token API
   slug: hustle-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-access-token-api-openapi.yml
 - filename: hustle-agents-api-openapi.yml
   format: yaml
   label: Hustle Agents API
   slug: hustle-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-agents-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-agents-api-openapi.yml
 - filename: hustle-custom-fields-api-openapi.yml
   format: yaml
   label: Hustle Custom Fields API
   slug: hustle-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-custom-fields-api-openapi.yml
 - filename: hustle-groups-api-openapi.yml
   format: yaml
   label: Hustle Groups API
   slug: hustle-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-groups-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-groups-api-openapi.yml
 - filename: hustle-integrations-api-openapi.yml
   format: yaml
   label: Hustle Integrations API
   slug: hustle-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-integrations-api-openapi.yml
 - filename: hustle-leads-api-openapi.yml
   format: yaml
   label: Hustle Leads API
   slug: hustle-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-leads-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-leads-api-openapi.yml
 - filename: hustle-messages-api-openapi.yml
   format: yaml
   label: Hustle Messages API
   slug: hustle-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-messages-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-messages-api-openapi.yml
 - filename: hustle-organizations-api-openapi.yml
   format: yaml
   label: Hustle Organizations API
   slug: hustle-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-organizations-api-openapi.yml
 - filename: hustle-tags-api-openapi.yml
   format: yaml
   label: Hustle Tags API
   slug: hustle-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-tags-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-tags-api-openapi.yml
 - filename: hustle-webhooks-api-openapi.yml
   format: yaml
   label: Hustle Webhooks API
   slug: hustle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/openapi/hustle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hustle/openapi/hustle-webhooks-api-openapi.yml
 consequence_counts:
   read: 9
   write: 14
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/hustle
   \    audit: none\n- path: /leads\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leads\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /tags\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_registrations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_registrations\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /webhook_registrations/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_registrations/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook_registrations/mock_event\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hustle/refs/heads/main/agentic-access/hustle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hustle/agentic-access/hustle-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - Company
@@ -108,5 +108,6 @@ tags:
 - Marketing
 - Civic Engagement
 - Webhook
+- OAuth
 - Authentication
 ---

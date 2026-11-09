@@ -9,13 +9,13 @@ api_specs:
   label: Amazon IoT Greengrass API
   slug: amazon-iot-greengrass-greengrass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-greengrass-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-greengrass-api-openapi.yml
 - filename: amazon-iot-greengrass-tags-api-openapi.yml
   format: yaml
   label: Amazon IoT Greengrass Tags API
   slug: amazon-iot-greengrass-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-tags-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 15
@@ -67,9 +67,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /greengrass/v2/components/{arn}/versions\n  method: get\n  operationId: ListComponentVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /greengrass/v2/components\n  method: get\n  operationId: ListComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /greengrass/v2/coreDevices\n  method: get\n  operationId: ListCoreDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /greengrass/v2/coreDevices/{coreDeviceThingName}/effectiveDeployments\n  method: get\n  operationId: ListEffectiveDeployments\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /greengrass/v2/coreDevices/{coreDeviceThingName}/installedComponents\n  method: get\n  operationId: ListInstalledComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /greengrass/v2/resolveComponentCandidates\n\
   \  method: post\n  operationId: ResolveComponentCandidates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/agentic-access/amazon-iot-greengrass-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-greengrass/agentic-access/amazon-iot-greengrass-agentic-access.yml
 summary_line: 29 operations · 14 acting
 tags:
+- Amazon Web Services
 - Edge Computing
 - IoT
 - Lambda

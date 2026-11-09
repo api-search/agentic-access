@@ -9,31 +9,31 @@ api_specs:
   label: Pipecat Agents API
   slug: pipecat-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/pipecat-ai/openapi/pipecat-ai-agents-api-openapi.yml
 - filename: pipecat-ai-builds-api-openapi.yml
   format: yaml
   label: Pipecat Builds API
   slug: pipecat-ai-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-builds-api-openapi.yml
+  url: https://artifacts.apis.io/pipecat-ai/openapi/pipecat-ai-builds-api-openapi.yml
 - filename: pipecat-ai-organization-api-openapi.yml
   format: yaml
   label: Pipecat Organization API
   slug: pipecat-ai-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-organization-api-openapi.yml
+  url: https://artifacts.apis.io/pipecat-ai/openapi/pipecat-ai-organization-api-openapi.yml
 - filename: pipecat-ai-secrets-api-openapi.yml
   format: yaml
   label: Pipecat Secrets API
   slug: pipecat-ai-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/pipecat-ai/openapi/pipecat-ai-secrets-api-openapi.yml
 - filename: pipecat-ai-sessions-api-openapi.yml
   format: yaml
   label: Pipecat Sessions API
   slug: pipecat-ai-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/openapi/pipecat-ai-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/pipecat-ai/openapi/pipecat-ai-sessions-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pipeca
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets\n  method: post\n  operationId: createSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secrets/{name}\n  method: get\n  operationId: getSecret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /secrets/{name}\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /secrets/{name}/{key}\n  method: delete\n  operationId: deleteSecretKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /properties\n  method: get\n  operationId: getProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties\n  method: patch\n  operationId: updateProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /regions\n  method: get\n  operationId: listRegions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipecat-ai/refs/heads/main/agentic-access/pipecat-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pipecat-ai/agentic-access/pipecat-ai-agentic-access.yml
 summary_line: 24 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

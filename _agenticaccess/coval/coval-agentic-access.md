@@ -9,151 +9,151 @@ api_specs:
   label: Coval Agents API
   slug: coval-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-agents-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-agents-api-openapi.yml
 - filename: coval-api-keys-api-openapi.yml
   format: yaml
   label: Coval API Keys API
   slug: coval-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-api-keys-api-openapi.yml
 - filename: coval-audio-api-openapi.yml
   format: yaml
   label: Coval Audio API
   slug: coval-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-audio-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-audio-api-openapi.yml
 - filename: coval-conversations-api-openapi.yml
   format: yaml
   label: Coval Conversations API
   slug: coval-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-conversations-api-openapi.yml
 - filename: coval-dashboards-api-openapi.yml
   format: yaml
   label: Coval Dashboards API
   slug: coval-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-dashboards-api-openapi.yml
 - filename: coval-metric-outputs-api-openapi.yml
   format: yaml
   label: Coval Metric Outputs API
   slug: coval-metric-outputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-metric-outputs-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-metric-outputs-api-openapi.yml
 - filename: coval-metrics-api-openapi.yml
   format: yaml
   label: Coval Metrics API
   slug: coval-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-metrics-api-openapi.yml
 - filename: coval-monitor-events-api-openapi.yml
   format: yaml
   label: Coval Monitor Events API
   slug: coval-monitor-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-monitor-events-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-monitor-events-api-openapi.yml
 - filename: coval-monitors-api-openapi.yml
   format: yaml
   label: Coval Monitors API
   slug: coval-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-monitors-api-openapi.yml
 - filename: coval-mutations-api-openapi.yml
   format: yaml
   label: Coval Mutations API
   slug: coval-mutations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-mutations-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-mutations-api-openapi.yml
 - filename: coval-organization-conversations-config-api-openapi.yml
   format: yaml
   label: Coval Organization Conversations Config API
   slug: coval-organization-conversations-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-organization-conversations-config-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-organization-conversations-config-api-openapi.yml
 - filename: coval-personas-api-openapi.yml
   format: yaml
   label: Coval Personas API
   slug: coval-personas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-personas-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-personas-api-openapi.yml
 - filename: coval-reports-api-openapi.yml
   format: yaml
   label: Coval Reports API
   slug: coval-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-reports-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-reports-api-openapi.yml
 - filename: coval-review-annotations-api-openapi.yml
   format: yaml
   label: Coval Review Annotations API
   slug: coval-review-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-review-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-review-annotations-api-openapi.yml
 - filename: coval-review-projects-api-openapi.yml
   format: yaml
   label: Coval Review Projects API
   slug: coval-review-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-review-projects-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-review-projects-api-openapi.yml
 - filename: coval-run-templates-api-openapi.yml
   format: yaml
   label: Coval Run Templates API
   slug: coval-run-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-run-templates-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-run-templates-api-openapi.yml
 - filename: coval-runs-api-openapi.yml
   format: yaml
   label: Coval Runs API
   slug: coval-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-runs-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-runs-api-openapi.yml
 - filename: coval-scheduled-runs-api-openapi.yml
   format: yaml
   label: Coval Scheduled Runs API
   slug: coval-scheduled-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-scheduled-runs-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-scheduled-runs-api-openapi.yml
 - filename: coval-simulations-api-openapi.yml
   format: yaml
   label: Coval Simulations API
   slug: coval-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-simulations-api-openapi.yml
 - filename: coval-tags-api-openapi.yml
   format: yaml
   label: Coval Tags API
   slug: coval-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-tags-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-tags-api-openapi.yml
 - filename: coval-test-cases-api-openapi.yml
   format: yaml
   label: Coval Test Cases API
   slug: coval-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-test-cases-api-openapi.yml
 - filename: coval-test-sets-api-openapi.yml
   format: yaml
   label: Coval Test Sets API
   slug: coval-test-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-test-sets-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-test-sets-api-openapi.yml
 - filename: coval-traces-api-openapi.yml
   format: yaml
   label: Coval Traces API
   slug: coval-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-traces-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-traces-api-openapi.yml
 - filename: coval-webhooks-api-openapi.yml
   format: yaml
   label: Coval Webhooks API
   slug: coval-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-webhooks-api-openapi.yml
 - filename: coval-widgets-api-openapi.yml
   format: yaml
   label: Coval Widgets API
   slug: coval-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/openapi/coval-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/coval/openapi/coval-widgets-api-openapi.yml
 consequence_counts:
   read: 66
   write: 85
@@ -213,8 +213,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/coval-
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /run-templates\n  method: post\n  operationId: createRunTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /run-templates/{run_template_id}\n  method: get\n  operationId: getRunTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /run-templates/{run_template_id}\n  method: patch\n  operationId: updateRunTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /run-templates/{run_template_id}\n  method: delete\n  operationId: deleteRunTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runs\n  method: get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs\n  method: post\n  operationId: launchRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runs/{run_id}\n  method: get\n  operationId: getRun\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{run_id}\n  method: delete\n  operationId: deleteRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runs/{run_id}\n  method: patch\n  operationId: updateRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scheduled-runs\n  method: get\n  operationId: listScheduledRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n  \
-  \    max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/agentic-access/coval-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/agentic-access/coval-agentic-access.yml
+  \    max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/coval/agentic-access/coval-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/coval/agentic-access/coval-agentic-access.yml
 summary_line: 151 operations · 85 acting
 tags:
 - Company

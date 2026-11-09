@@ -9,73 +9,73 @@ api_specs:
   label: SimpleTexting Campaigns API
   slug: simpletexting-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-campaigns-api-openapi.yml
 - filename: simpletexting-contact-lists-api-openapi.yml
   format: yaml
   label: SimpleTexting Contact Lists API
   slug: simpletexting-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-contact-lists-api-openapi.yml
 - filename: simpletexting-contact-segments-api-openapi.yml
   format: yaml
   label: SimpleTexting Contact Segments API
   slug: simpletexting-contact-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contact-segments-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-contact-segments-api-openapi.yml
 - filename: simpletexting-contacts-api-openapi.yml
   format: yaml
   label: SimpleTexting Contacts API
   slug: simpletexting-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-contacts-api-openapi.yml
 - filename: simpletexting-contacts-batch-operations-api-openapi.yml
   format: yaml
   label: SimpleTexting Contacts - Batch Operations API
   slug: simpletexting-contacts-batch-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-contacts-batch-operations-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-contacts-batch-operations-api-openapi.yml
 - filename: simpletexting-custom-fields-api-openapi.yml
   format: yaml
   label: SimpleTexting Custom Fields API
   slug: simpletexting-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-custom-fields-api-openapi.yml
 - filename: simpletexting-media-items-api-openapi.yml
   format: yaml
   label: SimpleTexting Media Items API
   slug: simpletexting-media-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-media-items-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-media-items-api-openapi.yml
 - filename: simpletexting-messages-api-openapi.yml
   format: yaml
   label: SimpleTexting Messages API
   slug: simpletexting-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-messages-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-messages-api-openapi.yml
 - filename: simpletexting-tenant-api-openapi.yml
   format: yaml
   label: SimpleTexting Tenant API
   slug: simpletexting-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-tenant-api-openapi.yml
 - filename: simpletexting-webhooks-api-openapi.yml
   format: yaml
   label: SimpleTexting Webhooks API
   slug: simpletexting-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-webhooks-api-openapi.yml
 - filename: simpletexting-tenant-phones-api-openapi.yml
   format: yaml
   label: SimpleTexting Tenant phones API
   slug: simpletexting-tenant-phones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-tenant-phones-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-tenant-phones-api-openapi.yml
 - filename: simpletexting-webhook-reports-api-openapi.yml
   format: yaml
   label: SimpleTexting Webhook Reports API
   slug: simpletexting-webhook-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/openapi/simpletexting-webhook-reports-api-openapi.yml
+  url: https://artifacts.apis.io/simpletexting/openapi/simpletexting-webhook-reports-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/simple
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/phones\n  method: get\n  operationId: getTenantPhones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/unsubscribe\n  method: post\n  operationId: unsubscribeMessageReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /report/incoming\n  method: post\n  operationId: incomingMessageReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /report/delivery\n  method: post\n  operationId: deliveryMessageReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/{webhookId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpletexting/refs/heads/main/agentic-access/simpletexting-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simpletexting/agentic-access/simpletexting-agentic-access.yml
 summary_line: 38 operations · 22 acting
 tags:
 - SMS

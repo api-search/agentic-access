@@ -9,67 +9,67 @@ api_specs:
   label: SMSAPI Blacklist API
   slug: smsapi-blacklist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-blacklist-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-blacklist-api-openapi.yml
 - filename: smsapi-contacts-api-openapi.yml
   format: yaml
   label: SMSAPI Contacts API
   slug: smsapi-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-contacts-api-openapi.yml
 - filename: smsapi-hlr-api-openapi.yml
   format: yaml
   label: SMSAPI HLR API
   slug: smsapi-hlr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-hlr-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-hlr-api-openapi.yml
 - filename: smsapi-mms-api-openapi.yml
   format: yaml
   label: SMSAPI MMS API
   slug: smsapi-mms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-mms-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-mms-api-openapi.yml
 - filename: smsapi-profile-api-openapi.yml
   format: yaml
   label: SMSAPI Profile API
   slug: smsapi-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-profile-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-profile-api-openapi.yml
 - filename: smsapi-sender-names-api-openapi.yml
   format: yaml
   label: SMSAPI Sender Names API
   slug: smsapi-sender-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-sender-names-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-sender-names-api-openapi.yml
 - filename: smsapi-short-urls-api-openapi.yml
   format: yaml
   label: SMSAPI Short URLs API
   slug: smsapi-short-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-short-urls-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-short-urls-api-openapi.yml
 - filename: smsapi-sms-api-openapi.yml
   format: yaml
   label: SMSAPI SMS API
   slug: smsapi-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-sms-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-sms-api-openapi.yml
 - filename: smsapi-subusers-api-openapi.yml
   format: yaml
   label: SMSAPI Subusers API
   slug: smsapi-subusers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-subusers-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-subusers-api-openapi.yml
 - filename: smsapi-vms-api-openapi.yml
   format: yaml
   label: SMSAPI VMS API
   slug: smsapi-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-vms-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-vms-api-openapi.yml
 - filename: smsapi-2-fa-api-openapi.yml
   format: yaml
   label: SMSAPI 2 FA API
   slug: smsapi-2-fa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/openapi/smsapi-2-fa-api-openapi.yml
+  url: https://artifacts.apis.io/smsapi/openapi/smsapi-2-fa-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 10
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smsapi
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subusers/{subuserId}\n  method: delete\n  operationId: deleteSubuser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hlr.do\n  method: post\n  operationId: hlrLookup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blacklist/phone_numbers\n\
   \  method: get\n  operationId: listBlacklist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /blacklist/phone_numbers\n  method: post\n  operationId: addBlacklistNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /blacklist/phone_numbers/{phoneNumber}\n  method: delete\n  operationId: removeBlacklistNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /short_urls/links\n  method: get\n  operationId: listShortUrls\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /short_urls/links\n  method: post\n  operationId: createShortUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smsapi/refs/heads/main/agentic-access/smsapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smsapi/agentic-access/smsapi-agentic-access.yml
 summary_line: 31 operations · 21 acting
 tags:
 - Messaging

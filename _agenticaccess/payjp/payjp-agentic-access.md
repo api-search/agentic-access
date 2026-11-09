@@ -9,85 +9,85 @@ api_specs:
   label: PAY.JP 3D Secure API
   slug: payjp-3d-secure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-3d-secure-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-3d-secure-api-openapi.yml
 - filename: payjp-account-api-openapi.yml
   format: yaml
   label: PAY.JP Account API
   slug: payjp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-account-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-account-api-openapi.yml
 - filename: payjp-balances-api-openapi.yml
   format: yaml
   label: PAY.JP Balances API
   slug: payjp-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-balances-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-balances-api-openapi.yml
 - filename: payjp-cards-api-openapi.yml
   format: yaml
   label: PAY.JP Cards API
   slug: payjp-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-cards-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-cards-api-openapi.yml
 - filename: payjp-charges-api-openapi.yml
   format: yaml
   label: PAY.JP Charges API
   slug: payjp-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-charges-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-charges-api-openapi.yml
 - filename: payjp-customers-api-openapi.yml
   format: yaml
   label: PAY.JP Customers API
   slug: payjp-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-customers-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-customers-api-openapi.yml
 - filename: payjp-events-api-openapi.yml
   format: yaml
   label: PAY.JP Events API
   slug: payjp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-events-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-events-api-openapi.yml
 - filename: payjp-plans-api-openapi.yml
   format: yaml
   label: PAY.JP Plans API
   slug: payjp-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-plans-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-plans-api-openapi.yml
 - filename: payjp-platform-api-openapi.yml
   format: yaml
   label: PAY.JP Platform API
   slug: payjp-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-platform-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-platform-api-openapi.yml
 - filename: payjp-statements-api-openapi.yml
   format: yaml
   label: PAY.JP Statements API
   slug: payjp-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-statements-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-statements-api-openapi.yml
 - filename: payjp-subscriptions-api-openapi.yml
   format: yaml
   label: PAY.JP Subscriptions API
   slug: payjp-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-subscriptions-api-openapi.yml
 - filename: payjp-terms-api-openapi.yml
   format: yaml
   label: PAY.JP Terms API
   slug: payjp-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-terms-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-terms-api-openapi.yml
 - filename: payjp-tokens-api-openapi.yml
   format: yaml
   label: PAY.JP Tokens API
   slug: payjp-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-tokens-api-openapi.yml
 - filename: payjp-transfers-api-openapi.yml
   format: yaml
   label: PAY.JP Transfers API
   slug: payjp-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/openapi/payjp-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/payjp/openapi/payjp-transfers-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 29
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/payjp-
   \  method: post\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terms\n  method: get\n  operationId: listTerms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terms/{id}\n  method: get\n  operationId: retrieveTerm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/{id}\n  method: get\n  operationId: retrieveToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/{id}/tds_finish\n  method: post\n  operationId: finishTokenThreeDSecure\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers\n  method: get\n  operationId: listTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/{id}\n  method: get\n  operationId: retrieveTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/{id}/details\n  method: get\n  operationId: listTransferDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payjp/refs/heads/main/agentic-access/payjp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/payjp/agentic-access/payjp-agentic-access.yml
 summary_line: 59 operations · 30 acting
 tags:
 - Payments

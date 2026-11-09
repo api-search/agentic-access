@@ -9,13 +9,13 @@ api_specs:
   label: Tako Agent API
   slug: tako-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-agent-api-openapi.yml
+  url: https://artifacts.apis.io/tako/openapi/tako-agent-api-openapi.yml
 - filename: tako-tako-api-openapi.yml
   format: yaml
   label: Tako API
   slug: tako-tako-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/openapi/tako-tako-api-openapi.yml
+  url: https://artifacts.apis.io/tako/openapi/tako-tako-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 2
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tako-a
   \ true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/agent/retrieval/runs/{run_id}\n  method: get\n  operationId: getRetrievalAgentRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/answer\n  method: post\n  operationId: answer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /beta/graph/search\n  method: get\n  operationId: graphSearch\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/graph/related\n  method: get\n  operationId: graphRelated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /beta/graph/node/{id}\n  method: get\n  operationId: graphNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contents\n  method: post\n  operationId: contents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/thin_viz/create/\n  method: post\n  operationId: createCard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tako/refs/heads/main/agentic-access/tako-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tako/agentic-access/tako-agentic-access.yml
 summary_line: 13 operations · 5 acting · 2 human-in-the-loop
 tags:
 - Company

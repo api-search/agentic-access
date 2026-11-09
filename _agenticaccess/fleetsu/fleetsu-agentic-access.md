@@ -9,115 +9,115 @@ api_specs:
   label: Fleetsu Accounts API
   slug: fleetsu-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-accounts-api-openapi.yml
 - filename: fleetsu-assets-api-openapi.yml
   format: yaml
   label: Fleetsu Assets API
   slug: fleetsu-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-assets-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-assets-api-openapi.yml
 - filename: fleetsu-devices-api-openapi.yml
   format: yaml
   label: Fleetsu Devices API
   slug: fleetsu-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-devices-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-devices-api-openapi.yml
 - filename: fleetsu-driver-api-openapi.yml
   format: yaml
   label: Fleetsu Driver API
   slug: fleetsu-driver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-driver-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-driver-api-openapi.yml
 - filename: fleetsu-events-api-openapi.yml
   format: yaml
   label: Fleetsu Events API
   slug: fleetsu-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-events-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-events-api-openapi.yml
 - filename: fleetsu-faults-api-openapi.yml
   format: yaml
   label: Fleetsu Faults API
   slug: fleetsu-faults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-faults-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-faults-api-openapi.yml
 - filename: fleetsu-fences-api-openapi.yml
   format: yaml
   label: Fleetsu Fences API
   slug: fleetsu-fences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-fences-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-fences-api-openapi.yml
 - filename: fleetsu-general-api-openapi.yml
   format: yaml
   label: Fleetsu General API
   slug: fleetsu-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-general-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-general-api-openapi.yml
 - filename: fleetsu-groups-api-openapi.yml
   format: yaml
   label: Fleetsu Groups API
   slug: fleetsu-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-groups-api-openapi.yml
 - filename: fleetsu-installs-api-openapi.yml
   format: yaml
   label: Fleetsu Installs API
   slug: fleetsu-installs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-installs-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-installs-api-openapi.yml
 - filename: fleetsu-kpi-api-openapi.yml
   format: yaml
   label: Fleetsu KPI API
   slug: fleetsu-kpi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-kpi-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-kpi-api-openapi.yml
 - filename: fleetsu-logbooks-api-openapi.yml
   format: yaml
   label: Fleetsu Logbooks API
   slug: fleetsu-logbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-logbooks-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-logbooks-api-openapi.yml
 - filename: fleetsu-maps-api-openapi.yml
   format: yaml
   label: Fleetsu Maps API
   slug: fleetsu-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-maps-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-maps-api-openapi.yml
 - filename: fleetsu-reports-api-openapi.yml
   format: yaml
   label: Fleetsu Reports API
   slug: fleetsu-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-reports-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-reports-api-openapi.yml
 - filename: fleetsu-subscriptions-api-openapi.yml
   format: yaml
   label: Fleetsu Subscriptions API
   slug: fleetsu-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-subscriptions-api-openapi.yml
 - filename: fleetsu-tags-api-openapi.yml
   format: yaml
   label: Fleetsu Tags API
   slug: fleetsu-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-tags-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-tags-api-openapi.yml
 - filename: fleetsu-trips-api-openapi.yml
   format: yaml
   label: Fleetsu Trips API
   slug: fleetsu-trips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-trips-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-trips-api-openapi.yml
 - filename: fleetsu-user-api-openapi.yml
   format: yaml
   label: Fleetsu User API
   slug: fleetsu-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-user-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-user-api-openapi.yml
 - filename: fleetsu-users-api-openapi.yml
   format: yaml
   label: Fleetsu Users API
   slug: fleetsu-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/openapi/fleetsu-users-api-openapi.yml
+  url: https://artifacts.apis.io/fleetsu/openapi/fleetsu-users-api-openapi.yml
 consequence_counts:
   read: 265
   write: 96
@@ -176,8 +176,8 @@ source_yaml: "generated: '2026-10-22'\nmethod: generated\nsource: openapi/fleets
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/devices/{deviceId}/subscriptions/{subscriptionKey}\n  method: get\n  operationId: getV1DevicesByDeviceidSubscriptionsBySubscriptionkey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/devices/{deviceId}/subscriptions/{subscriptionKey}\n  method: post\n  operationId: postV1DevicesByDeviceidSubscriptionsBySubscriptionkey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/devices/{deviceId}/subscriptions/{subscriptionKey}\n  method: delete\n  operationId: deleteV1DevicesByDeviceidSubscriptionsBySubscriptionkey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/driverid/assets\n  method: get\n  operationId: getV1DriveridAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/drivers\n  method: get\n  operationId: getV1Drivers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/drivers\n  method: post\n  operationId: postV1Drivers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/drivers/{driverId}\n\
   \  method: get\n  operationId: getV1DriversByDriverid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/drivers/{driverId}\n  method: post\n  operationId: postV1DriversByDriverid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/drivers/{driverId}/attachments\n  method: get\n  operationId: getV1DriversByDriveridAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/drivers/{driverId}/attachments\n  method: post\n  operationId: postV1DriversByDriveridAttachments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
-  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/drivers/{driverId}/attachments/{driverAttachmentId}\n  method: post\n  operationId: postV1DriversByDriveridAttachmentsByDriverattachmentid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (94 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/agentic-access/fleetsu-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fleetsu/refs/heads/main/agentic-access/fleetsu-agentic-access.yml
+  \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/drivers/{driverId}/attachments/{driverAttachmentId}\n  method: post\n  operationId: postV1DriversByDriveridAttachmentsByDriverattachmentid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (94 KB total) ---\n# Full source: https://artifacts.apis.io/fleetsu/agentic-access/fleetsu-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/fleetsu/agentic-access/fleetsu-agentic-access.yml
 summary_line: 361 operations · 96 acting
 tags:
 - Company

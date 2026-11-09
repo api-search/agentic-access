@@ -9,145 +9,145 @@ api_specs:
   label: Switch Labs Analytics API
   slug: switchlabs-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-analytics-api-openapi.yml
 - filename: switchlabs-articles-api-openapi.yml
   format: yaml
   label: Switch Labs Articles API
   slug: switchlabs-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-articles-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-articles-api-openapi.yml
 - filename: switchlabs-attachments-api-openapi.yml
   format: yaml
   label: Switch Labs Attachments API
   slug: switchlabs-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-attachments-api-openapi.yml
 - filename: switchlabs-automations-api-openapi.yml
   format: yaml
   label: Switch Labs Automations API
   slug: switchlabs-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-automations-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-automations-api-openapi.yml
 - filename: switchlabs-business-hours-api-openapi.yml
   format: yaml
   label: Switch Labs Business Hours API
   slug: switchlabs-business-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-business-hours-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-business-hours-api-openapi.yml
 - filename: switchlabs-campaigns-api-openapi.yml
   format: yaml
   label: Switch Labs Campaigns API
   slug: switchlabs-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-campaigns-api-openapi.yml
 - filename: switchlabs-collections-api-openapi.yml
   format: yaml
   label: Switch Labs Collections API
   slug: switchlabs-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-collections-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-collections-api-openapi.yml
 - filename: switchlabs-conversations-api-openapi.yml
   format: yaml
   label: Switch Labs Conversations API
   slug: switchlabs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-conversations-api-openapi.yml
 - filename: switchlabs-customers-api-openapi.yml
   format: yaml
   label: Switch Labs Customers API
   slug: switchlabs-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-customers-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-customers-api-openapi.yml
 - filename: switchlabs-deals-api-openapi.yml
   format: yaml
   label: Switch Labs Deals API
   slug: switchlabs-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-deals-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-deals-api-openapi.yml
 - filename: switchlabs-events-api-openapi.yml
   format: yaml
   label: Switch Labs Events API
   slug: switchlabs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-events-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-events-api-openapi.yml
 - filename: switchlabs-help-center-api-openapi.yml
   format: yaml
   label: Switch Labs Help Center API
   slug: switchlabs-help-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-help-center-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-help-center-api-openapi.yml
 - filename: switchlabs-integrations-api-openapi.yml
   format: yaml
   label: Switch Labs Integrations API
   slug: switchlabs-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-integrations-api-openapi.yml
 - filename: switchlabs-macros-api-openapi.yml
   format: yaml
   label: Switch Labs Macros API
   slug: switchlabs-macros-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-macros-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-macros-api-openapi.yml
 - filename: switchlabs-marketing-lists-api-openapi.yml
   format: yaml
   label: Switch Labs Marketing Lists API
   slug: switchlabs-marketing-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-marketing-lists-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-marketing-lists-api-openapi.yml
 - filename: switchlabs-notifications-api-openapi.yml
   format: yaml
   label: Switch Labs Notifications API
   slug: switchlabs-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-notifications-api-openapi.yml
 - filename: switchlabs-saved-views-api-openapi.yml
   format: yaml
   label: Switch Labs Saved Views API
   slug: switchlabs-saved-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-saved-views-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-saved-views-api-openapi.yml
 - filename: switchlabs-search-api-openapi.yml
   format: yaml
   label: Switch Labs Search API
   slug: switchlabs-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-search-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-search-api-openapi.yml
 - filename: switchlabs-sequences-api-openapi.yml
   format: yaml
   label: Switch Labs Sequences API
   slug: switchlabs-sequences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-sequences-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-sequences-api-openapi.yml
 - filename: switchlabs-sla-api-openapi.yml
   format: yaml
   label: Switch Labs SLA API
   slug: switchlabs-sla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-sla-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-sla-api-openapi.yml
 - filename: switchlabs-tags-api-openapi.yml
   format: yaml
   label: Switch Labs Tags API
   slug: switchlabs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-tags-api-openapi.yml
 - filename: switchlabs-tickets-api-openapi.yml
   format: yaml
   label: Switch Labs Tickets API
   slug: switchlabs-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-tickets-api-openapi.yml
 - filename: switchlabs-users-api-openapi.yml
   format: yaml
   label: Switch Labs Users API
   slug: switchlabs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-users-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-users-api-openapi.yml
 - filename: switchlabs-webhooks-api-openapi.yml
   format: yaml
   label: Switch Labs Webhooks API
   slug: switchlabs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/openapi/switchlabs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/switchlabs/openapi/switchlabs-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 45
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/crm-sw
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /marketing-lists/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /marketing-lists/{id}/members\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketing-lists/{id}/members\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /marketing-lists/{id}/members\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deals\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /deals/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deals/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switchlabs/refs/heads/main/agentic-access/switchlabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/switchlabs/agentic-access/switchlabs-agentic-access.yml
 summary_line: 107 operations · 62 acting
 tags:
 - Company

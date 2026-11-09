@@ -9,13 +9,13 @@ api_specs:
   label: Nected Dev API
   slug: nected-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-dev-api-openapi.yml
+  url: https://artifacts.apis.io/nected/openapi/nected-dev-api-openapi.yml
 - filename: nected-nected-api-openapi.yml
   format: yaml
   label: Nected API
   slug: nected-nected-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/openapi/nected-nected-api-openapi.yml
+  url: https://artifacts.apis.io/nected/openapi/nected-nected-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nected
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dev/usage\n  method: get\n  operationId: checkUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/audit/audit/search\n  method: get\n  operationId: searchAuditLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/audit/audit/{logId}\n  method: get\n  operationId: getAuditLog\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/{entityType}\n  method: get\n  operationId: listEntities\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/{entityType}/{entityId}\n  method: get\n  operationId: getEntity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/variable\n  method: get\n  operationId: listGlobalVariables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/variable\n  method: post\n  operationId: createGlobalVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dev/variable/{name}\n  method: get\n  operationId: getGlobalVariable\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dev/variable/{name}\n  method: patch\n  operationId: updateGlobalVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dev/variable/{name}\n  method: delete\n  operationId: deleteGlobalVariable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nected/refs/heads/main/agentic-access/nected-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nected/agentic-access/nected-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Low-Code

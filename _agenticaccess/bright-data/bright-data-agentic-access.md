@@ -9,97 +9,97 @@ api_specs:
   label: Bright Data Access API
   slug: bright-data-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-access-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-access-api-openapi.yml
 - filename: bright-data-archive-api-openapi.yml
   format: yaml
   label: Bright Data Archive API
   slug: bright-data-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-archive-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-archive-api-openapi.yml
 - filename: bright-data-billing-api-openapi.yml
   format: yaml
   label: Bright Data Billing API
   slug: bright-data-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-billing-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-billing-api-openapi.yml
 - filename: bright-data-datasets-api-openapi.yml
   format: yaml
   label: Bright Data Datasets API
   slug: bright-data-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-datasets-api-openapi.yml
 - filename: bright-data-delivery-api-openapi.yml
   format: yaml
   label: Bright Data Delivery API
   slug: bright-data-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-delivery-api-openapi.yml
 - filename: bright-data-lookup-api-openapi.yml
   format: yaml
   label: Bright Data Lookup API
   slug: bright-data-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-lookup-api-openapi.yml
 - filename: bright-data-proxies-api-openapi.yml
   format: yaml
   label: Bright Data Proxies API
   slug: bright-data-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-proxies-api-openapi.yml
 - filename: bright-data-scrape-api-openapi.yml
   format: yaml
   label: Bright Data Scrape API
   slug: bright-data-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-scrape-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-scrape-api-openapi.yml
 - filename: bright-data-sessions-api-openapi.yml
   format: yaml
   label: Bright Data Sessions API
   slug: bright-data-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-sessions-api-openapi.yml
 - filename: bright-data-shield-api-openapi.yml
   format: yaml
   label: Bright Data Shield API
   slug: bright-data-shield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-shield-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-shield-api-openapi.yml
 - filename: bright-data-snapshots-api-openapi.yml
   format: yaml
   label: Bright Data Snapshots API
   slug: bright-data-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-snapshots-api-openapi.yml
 - filename: bright-data-tokens-api-openapi.yml
   format: yaml
   label: Bright Data Tokens API
   slug: bright-data-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-tokens-api-openapi.yml
 - filename: bright-data-unlock-api-openapi.yml
   format: yaml
   label: Bright Data Unlock API
   slug: bright-data-unlock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-unlock-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-unlock-api-openapi.yml
 - filename: bright-data-zones-api-openapi.yml
   format: yaml
   label: Bright Data Zones API
   slug: bright-data-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-zones-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-zones-api-openapi.yml
 - filename: bright-data-ips-api-openapi.yml
   format: yaml
   label: Bright Data I Ps API
   slug: bright-data-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/openapi/bright-data-ips-api-openapi.yml
+  url: https://artifacts.apis.io/bright-data/openapi/bright-data-ips-api-openapi.yml
 - filename: bright-data-scraping-browser-asyncapi.yml
   format: yaml
   label: Bright Data Scraping Browser (Browser API) CDP WebSocket
   slug: bright-data-scraping-browser-cdp
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/asyncapi/bright-data-scraping-browser-asyncapi.yml
+  url: https://artifacts.apis.io/bright-data/asyncapi/bright-data-scraping-browser-asyncapi.yml
 consequence_counts:
   physical: 1
   read: 29
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bright
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/v3/snapshot/{snapshot_id}/rerun\n  method: post\n  operationId: rerunSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/v3/snapshot/{snapshot_id}\n  method: get\n  operationId: downloadSnapshot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/v3/snapshot/{snapshot_id}/deliver\n  method: post\n  operationId: deliverSnapshot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /request\n  method: post\n  operationId: unlockSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unblocker/req\n  method: post\n  operationId: unlockAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unblocker/get_result\n  method: get\n \
   \ operationId: getUnlockResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/agentic-access/bright-data-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bright-data/agentic-access/bright-data-agentic-access.yml
 summary_line: 56 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Web Data

@@ -9,37 +9,37 @@ api_specs:
   label: National Highway Traffic Safety Administration Equipment API
   slug: national-highway-traffic-safety-administration-equipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-equipment-api-openapi.yml
+  url: https://artifacts.apis.io/national-highway-traffic-safety-administration/openapi/national-highway-traffic-safety-administration-equipment-api-openapi.yml
 - filename: national-highway-traffic-safety-administration-makes-and-models-api-openapi.yml
   format: yaml
   label: National Highway Traffic Safety Administration Makes and Models API
   slug: national-highway-traffic-safety-administration-makes-and-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-makes-and-models-api-openapi.yml
+  url: https://artifacts.apis.io/national-highway-traffic-safety-administration/openapi/national-highway-traffic-safety-administration-makes-and-models-api-openapi.yml
 - filename: national-highway-traffic-safety-administration-manufacturers-api-openapi.yml
   format: yaml
   label: National Highway Traffic Safety Administration Manufacturers API
   slug: national-highway-traffic-safety-administration-manufacturers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-manufacturers-api-openapi.yml
+  url: https://artifacts.apis.io/national-highway-traffic-safety-administration/openapi/national-highway-traffic-safety-administration-manufacturers-api-openapi.yml
 - filename: national-highway-traffic-safety-administration-reference-api-openapi.yml
   format: yaml
   label: National Highway Traffic Safety Administration Reference API
   slug: national-highway-traffic-safety-administration-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-reference-api-openapi.yml
+  url: https://artifacts.apis.io/national-highway-traffic-safety-administration/openapi/national-highway-traffic-safety-administration-reference-api-openapi.yml
 - filename: national-highway-traffic-safety-administration-vehicle-types-api-openapi.yml
   format: yaml
   label: National Highway Traffic Safety Administration Vehicle Types API
   slug: national-highway-traffic-safety-administration-vehicle-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-vehicle-types-api-openapi.yml
+  url: https://artifacts.apis.io/national-highway-traffic-safety-administration/openapi/national-highway-traffic-safety-administration-vehicle-types-api-openapi.yml
 - filename: national-highway-traffic-safety-administration-vin-decoding-api-openapi.yml
   format: yaml
   label: National Highway Traffic Safety Administration VIN Decoding API
   slug: national-highway-traffic-safety-administration-vin-decoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/openapi/national-highway-traffic-safety-administration-vin-decoding-api-openapi.yml
+  url: https://artifacts.apis.io/national-highway-traffic-safety-administration/openapi/national-highway-traffic-safety-administration-vin-decoding-api-openapi.yml
 consequence_counts:
   read: 23
   write: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nation
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetMakesForVehicleType/{vehicleType}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetModelsForMake/{makeName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetModelsForMakeId/{makeId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetModelsForMakeYear/make/{make}/modelyear/{modelyear}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetModelsForMakeIdYear/makeId/{makeId}/modelyear/{modelyear}\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetVehicleTypesForMake/{makeName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetVehicleTypesForMakeId/{makeId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetVehicleVariableList\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetVehicleVariableValuesList/{variable}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetEquipmentPlantCodes\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetParts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetCanadianVehicleSpecifications/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/national-highway-traffic-safety-administration/refs/heads/main/agentic-access/national-highway-traffic-safety-administration-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/national-highway-traffic-safety-administration/agentic-access/national-highway-traffic-safety-administration-agentic-access.yml
 summary_line: 24 operations · 1 acting
 tags:
 - Federal Government

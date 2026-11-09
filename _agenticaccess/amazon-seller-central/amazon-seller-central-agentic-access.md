@@ -9,121 +9,121 @@ api_specs:
   label: Amazon Selling Partner API Catalog API
   slug: amazon-seller-central-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-catalog-api-openapi.yml
 - filename: amazon-seller-central-feeds-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Feeds API
   slug: amazon-seller-central-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-feeds-api-openapi.yml
 - filename: amazon-seller-central-finances-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Finances API
   slug: amazon-seller-central-finances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-finances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-finances-api-openapi.yml
 - filename: amazon-seller-central-listings-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Listings API
   slug: amazon-seller-central-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-listings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-listings-api-openapi.yml
 - filename: amazon-seller-central-notifications-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Notifications API
   slug: amazon-seller-central-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-notifications-api-openapi.yml
 - filename: amazon-seller-central-reports-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Reports API
   slug: amazon-seller-central-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-reports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-reports-api-openapi.yml
 - filename: amazon-seller-central-shipping-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Shipping API
   slug: amazon-seller-central-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-shipping-api-openapi.yml
 - filename: amazon-seller-central-tokens-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Tokens API
   slug: amazon-seller-central-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-tokens-api-openapi.yml
 - filename: amazon-seller-central-definitions-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Definitions API
   slug: amazon-seller-central-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-definitions-api-openapi.yml
 - filename: amazon-seller-central-fbainbound-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Fba Inbound API
   slug: amazon-seller-central-fbainbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-fbainbound-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-fbainbound-api-openapi.yml
 - filename: amazon-seller-central-fbainventory-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Fba Inventory API
   slug: amazon-seller-central-fbainventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-fbainventory-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-fbainventory-api-openapi.yml
 - filename: amazon-seller-central-fbaoutbound-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Fba Outbound API
   slug: amazon-seller-central-fbaoutbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-fbaoutbound-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-fbaoutbound-api-openapi.yml
 - filename: amazon-seller-central-fees-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Fees API
   slug: amazon-seller-central-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-fees-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-fees-api-openapi.yml
 - filename: amazon-seller-central-getorder-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Get Order API
   slug: amazon-seller-central-getorder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-getorder-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-getorder-api-openapi.yml
 - filename: amazon-seller-central-ordersv0-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Orders V0 API
   slug: amazon-seller-central-ordersv0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-ordersv0-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-ordersv0-api-openapi.yml
 - filename: amazon-seller-central-productpricing-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Product Pricing API
   slug: amazon-seller-central-productpricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-productpricing-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-productpricing-api-openapi.yml
 - filename: amazon-seller-central-sales-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Sales API
   slug: amazon-seller-central-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-sales-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-sales-api-openapi.yml
 - filename: amazon-seller-central-searchorders-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Search Orders API
   slug: amazon-seller-central-searchorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-searchorders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-searchorders-api-openapi.yml
 - filename: amazon-seller-central-sellers-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Sellers API
   slug: amazon-seller-central-sellers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-sellers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-sellers-api-openapi.yml
 - filename: amazon-seller-central-shipment-api-openapi.yml
   format: yaml
   label: Amazon Selling Partner API Shipment API
   slug: amazon-seller-central-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/openapi/amazon-seller-central-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-seller-central/openapi/amazon-seller-central-shipment-api-openapi.yml
 consequence_counts:
   physical: 32
   read: 88
@@ -308,8 +308,8 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/amazon
   \ /listings/2021-08-01/items/{sellerId}/{sku}\n  method: get\n  operationId: getListingsItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/2021-08-01/items/{sellerId}/{sku}\n  method: patch\n  operationId: patchListingsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listings/2021-08-01/items/{sellerId}/{sku}\n  method: put\n  operationId: putListingsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /listings/2021-08-01/items/{sellerId}\n  method: get\n  operationId: searchListingsItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/2021-08-01/restrictions\n  method: get\n  operationId: getListingsRestrictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/v1/subscriptions\n  method: get\n  operationId: getSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/v1/subscriptions/{notificationType}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/v1/subscriptions/{notificationType}\n\
   \  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/v1/subscriptions/{notificationType}/{subscriptionId}\n  method: get\n  operationId: getSubscriptionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications/v1/subscriptions/{notificationType}/{subscriptionId}\n  method: delete\n  operationId: deleteSubscriptionById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
-  \ required\n- path: /notifications/v1/subscriptions/{notificationType}/testNotification\n  method: post\n  operationId: sendTestNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/v1/destinations\n  method: get\n  operationId: getDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/agentic-access/amazon-seller-central-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-seller-central/refs/heads/main/agentic-access/amazon-seller-central-agentic-access.yml
+  \ required\n- path: /notifications/v1/subscriptions/{notificationType}/testNotification\n  method: post\n  operationId: sendTestNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notifications/v1/destinations\n  method: get\n  operationId: getDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-seller-central/agentic-access/amazon-seller-central-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-seller-central/agentic-access/amazon-seller-central-agentic-access.yml
 summary_line: 152 operations · 64 acting
 tags:
 - E-Commerce

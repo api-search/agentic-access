@@ -9,19 +9,19 @@ api_specs:
   label: Swagger Codegen Clients API
   slug: swagger-codegen-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-clients-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-clients-api-openapi.yml
 - filename: swagger-codegen-documentation-api-openapi.yml
   format: yaml
   label: Swagger Codegen Documentation API
   slug: swagger-codegen-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-documentation-api-openapi.yml
 - filename: swagger-codegen-servers-api-openapi.yml
   format: yaml
   label: Swagger Codegen Servers API
   slug: swagger-codegen-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/openapi/swagger-codegen-servers-api-openapi.yml
+  url: https://artifacts.apis.io/swagger-codegen/openapi/swagger-codegen-servers-api-openapi.yml
 consequence_counts:
   read: 17
   write: 8
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/swagge
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /options\n  method: get\n  operationId: listOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gen/download/{fileId}\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gen/servers/{framework}\n  method: get\n  operationId: getServerOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gen/servers/{framework}\n  method: post\n  operationId: generateServerForLanguage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gen/servers\n  method: get\n  operationId: serverOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /servers\n  method: get\n  operationId: serverLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model\n  method: post\n  operationId: generateModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /render\n  method: post\n  operationId: renderTemplate\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swagger-codegen/refs/heads/main/agentic-access/swagger-codegen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/swagger-codegen/agentic-access/swagger-codegen-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
 - Client Library

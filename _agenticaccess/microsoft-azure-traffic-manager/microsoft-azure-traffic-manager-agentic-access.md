@@ -9,31 +9,31 @@ api_specs:
   label: Azure Traffic Manager Endpoints API
   slug: microsoft-azure-traffic-manager-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-endpoints-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
   format: yaml
   label: Azure Traffic Manager GeographicHierarchies API
   slug: microsoft-azure-traffic-manager-geographichierarchies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-heatmap-api-openapi.yml
   format: yaml
   label: Azure Traffic Manager HeatMap API
   slug: microsoft-azure-traffic-manager-heatmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-heatmap-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-heatmap-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-profiles-api-openapi.yml
   format: yaml
   label: Azure Traffic Manager Profiles API
   slug: microsoft-azure-traffic-manager-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-profiles-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
   format: yaml
   label: Azure Traffic Manager UserMetrics API
   slug: microsoft-azure-traffic-manager-usermetrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/openapi/microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
 consequence_counts:
   read: 7
   write: 8
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  method: put\n  operationId: endpoints_createOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/{endpointType}/{endpointName}\n  method: delete\n  operationId: endpoints_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/trafficmanagerprofiles/{profileName}/heatMaps/default\n\
   \  method: get\n  operationId: heatMap_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /providers/Microsoft.Network/trafficManagerGeographicHierarchies/default\n  method: get\n  operationId: geographicHierarchies_getDefault\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficManagerUserMetricsKeys/default\n  method: get\n  operationId: trafficManagerUserMetricsKeys_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficManagerUserMetricsKeys/default\n\
   \  method: put\n  operationId: trafficManagerUserMetricsKeys_createOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Network/trafficManagerUserMetricsKeys/default\n  method: delete\n  operationId: trafficManagerUserMetricsKeys_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/agentic-access/microsoft-azure-traffic-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-traffic-manager/agentic-access/microsoft-azure-traffic-manager-agentic-access.yml
 summary_line: 15 operations · 8 acting
 tags:
 - DNS Load Balancing

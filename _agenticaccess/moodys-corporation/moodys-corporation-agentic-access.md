@@ -9,55 +9,55 @@ api_specs:
   label: Moody's Corporation Authentication API
   slug: moodys-corporation-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-authentication-api-openapi.yml
 - filename: moodys-corporation-baskets-api-openapi.yml
   format: yaml
   label: Moody's Corporation Baskets API
   slug: moodys-corporation-baskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-baskets-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-baskets-api-openapi.yml
 - filename: moodys-corporation-catalog-api-openapi.yml
   format: yaml
   label: Moody's Corporation Catalog API
   slug: moodys-corporation-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-catalog-api-openapi.yml
 - filename: moodys-corporation-health-api-openapi.yml
   format: yaml
   label: Moody's Corporation Health API
   slug: moodys-corporation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-health-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-health-api-openapi.yml
 - filename: moodys-corporation-jobs-api-openapi.yml
   format: yaml
   label: Moody's Corporation Jobs API
   slug: moodys-corporation-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-jobs-api-openapi.yml
 - filename: moodys-corporation-orders-api-openapi.yml
   format: yaml
   label: Moody's Corporation Orders API
   slug: moodys-corporation-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-orders-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-orders-api-openapi.yml
 - filename: moodys-corporation-reference-api-openapi.yml
   format: yaml
   label: Moody's Corporation Reference API
   slug: moodys-corporation-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-reference-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-reference-api-openapi.yml
 - filename: moodys-corporation-search-api-openapi.yml
   format: yaml
   label: Moody's Corporation Search API
   slug: moodys-corporation-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-search-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-search-api-openapi.yml
 - filename: moodys-corporation-series-api-openapi.yml
   format: yaml
   label: Moody's Corporation Series API
   slug: moodys-corporation-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/openapi/moodys-corporation-series-api-openapi.yml
+  url: https://artifacts.apis.io/moodys-corporation/openapi/moodys-corporation-series-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/moodys
   \ /jobs/{jobId}/output\n  method: get\n  operationId: downloadJobOutput\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /orders/{orderId}/download\n  method: get\n  operationId: downloadOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/token\n  method: post\n  operationId: getAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /frequencies\n  method: get\n  operationId: listFrequencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vintages\n  method: get\n  operationId: listVintages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /filetypes\n  method: get\n  operationId: listFileTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /series\n  method: get\n  operationId: getSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /multi-series\n  method: post\n  operationId: getMultiSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moodys-corporation/refs/heads/main/agentic-access/moodys-corporation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moodys-corporation/agentic-access/moodys-corporation-agentic-access.yml
 summary_line: 23 operations · 7 acting
 tags:
 - Analytics

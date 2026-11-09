@@ -9,55 +9,55 @@ api_specs:
   label: Quandela Api - Job Token API
   slug: quandela-api-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-job-token-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-job-token-api-openapi.yml
 - filename: quandela-api-perceval-job-api-openapi.yml
   format: yaml
   label: Quandela Api - Perceval Job API
   slug: quandela-api-perceval-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-perceval-job-api-openapi.yml
 - filename: quandela-api-perceval-job-token-api-openapi.yml
   format: yaml
   label: Quandela Api - Perceval Job Token API
   slug: quandela-api-perceval-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-token-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-perceval-job-token-api-openapi.yml
 - filename: quandela-qrng-api-openapi.yml
   format: yaml
   label: Quandela QRNG API
   slug: quandela-qrng-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qrng-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-qrng-api-openapi.yml
 - filename: quandela-quantumtoolbox-api-openapi.yml
   format: yaml
   label: Quandela Quantum Toolbox API
   slug: quandela-quantumtoolbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quantumtoolbox-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-quantumtoolbox-api-openapi.yml
 - filename: quandela-health-api-openapi.yml
   format: yaml
   label: Quandela Health API
   slug: quandela-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-health-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-health-api-openapi.yml
 - filename: quandela-openapi-json-api-openapi.yml
   format: yaml
   label: Quandela Openapi.json API
   slug: quandela-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-openapi-json-api-openapi.yml
 - filename: quandela-qt-openapi-json-api-openapi.yml
   format: yaml
   label: Quandela Qt Openapi.json API
   slug: quandela-qt-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qt-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-qt-openapi-json-api-openapi.yml
 - filename: quandela-quandela-cloud-api-api-openapi.yml
   format: yaml
   label: Quandela Quandela Cloud API
   slug: quandela-quandela-cloud-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quandela-cloud-api-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-quandela-cloud-api-api-openapi.yml
 consequence_counts:
   read: 28
   safety-critical: 3
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/quande
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qt/cvarvqe/{job_id}/status\n  method: get\n  operationId: get_qt_cvarvqe_by_job_id_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qt/graphDSI\n  method: post\n  operationId: post_qt_graphDSI\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qt/graphDSI/estimate\n  method: post\n  operationId: post_qt_graphDSI_estimate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /qt/graphDSI/{job_id}/results\n  method: get\n  operationId: get_qt_graphDSI_by_job_id_results\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qt/graphDSI/{job_id}/status\n  method: get\n  operationId: get_qt_graphDSI_by_job_id_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qt/graphIsomorphism\n  method: post\n  operationId: post_qt_graphIsomorphism\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qt/graphIsomorphism/estimate\n  method: post\n  operationId: post_qt_graphIsomorphism_estimate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /qt/graphIsomorphism/{job_id}/results\n  method: get\n  operationId: get_qt_graphIsomorphism_by_job_id_results\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /qt/graphIsomorphism/{job_id}/status\n  method: get\n  operationId: get_qt_graphIsomorphism_by_job_id_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/agentic-access/quandela-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quandela/agentic-access/quandela-agentic-access.yml
 summary_line: 59 operations · 31 acting · 3 human-in-the-loop
 tags:
 - Quantum Computing

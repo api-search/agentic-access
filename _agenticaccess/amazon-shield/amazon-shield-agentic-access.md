@@ -9,7 +9,31 @@ api_specs:
   label: Amazon Shield Amazon Shield REST API
   slug: amazon-shield-amazon-shield-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/openapi/amazon-shield-amazon-shield-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-shield/openapi/amazon-shield-amazon-shield-rest-api-api-openapi.yml
+- filename: amazon-shield-application-layer-automatic-response-api-openapi.yml
+  format: yaml
+  label: Amazon Shield Shield Application Layer Automatic Response API
+  slug: amazon-shield-application-layer-automatic-response-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-shield/openapi/amazon-shield-application-layer-automatic-response-api-openapi.yml
+- filename: amazon-shield-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Shield Shield Operations API
+  slug: amazon-shield-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-shield/openapi/amazon-shield-operations-api-openapi.yml
+- filename: amazon-shield-protection-group-api-openapi.yml
+  format: yaml
+  label: Amazon Shield Shield Protection Group API
+  slug: amazon-shield-protection-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-shield/openapi/amazon-shield-protection-group-api-openapi.yml
+- filename: amazon-shield-resource-api-openapi.yml
+  format: yaml
+  label: Amazon Shield Shield Resource API
+  slug: amazon-shield-resource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-shield/openapi/amazon-shield-resource-api-openapi.yml
 consequence_counts:
   read: 1
   write: 6
@@ -39,9 +63,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#CreateProtectionGroup\n  method: post\n  operationId: createProtectionGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#CreateSubscription\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeAttack\n  method: post\n\
   \  operationId: describeAttack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeProtection\n  method: post\n  operationId: describeProtection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeSubscription\n  method: post\n  operationId: describeSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /#ListProtections\n  method: post\n  operationId: listProtections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-shield/refs/heads/main/agentic-access/amazon-shield-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-shield/agentic-access/amazon-shield-agentic-access.yml
 summary_line: 7 operations · 6 acting
 tags:
+- Amazon Web Services
 - DDoS Protection
 - Networking
 - Security

@@ -9,37 +9,37 @@ api_specs:
   label: EmailOctopus Automation API
   slug: emailoctopus-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-automation-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-automation-api-openapi.yml
 - filename: emailoctopus-campaign-api-openapi.yml
   format: yaml
   label: EmailOctopus Campaign API
   slug: emailoctopus-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-campaign-api-openapi.yml
 - filename: emailoctopus-contact-api-openapi.yml
   format: yaml
   label: EmailOctopus Contact API
   slug: emailoctopus-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-contact-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-contact-api-openapi.yml
 - filename: emailoctopus-field-api-openapi.yml
   format: yaml
   label: EmailOctopus Field API
   slug: emailoctopus-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-field-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-field-api-openapi.yml
 - filename: emailoctopus-list-api-openapi.yml
   format: yaml
   label: EmailOctopus List API
   slug: emailoctopus-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-list-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-list-api-openapi.yml
 - filename: emailoctopus-tag-api-openapi.yml
   format: yaml
   label: EmailOctopus Tag API
   slug: emailoctopus-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/openapi/emailoctopus-tag-api-openapi.yml
+  url: https://artifacts.apis.io/emailoctopus/openapi/emailoctopus-tag-api-openapi.yml
 consequence_counts:
   read: 10
   write: 15
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/emailo
   \ /lists\n  method: get\n  operationId: api_lists_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists\n  method: post\n  operationId: api_lists_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_id}\n  method: get\n  operationId: api_lists_list_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{list_id}\n  method: put\n  operationId: api_lists_list_id_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_id}\n  method: delete\n  operationId: api_lists_list_id_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_id}/tags\n  method: get\n  operationId: api_lists_list_idtags_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{list_id}/tags\n  method: post\n  operationId: api_lists_list_idtags_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_id}/tags/{tag}\n  method: put\n  operationId: api_lists_list_idtags_tag_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{list_id}/tags/{tag}\n  method: delete\n  operationId: api_lists_list_idtags_tag_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/agentic-access/emailoctopus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/emailoctopus/agentic-access/emailoctopus-agentic-access.yml
 summary_line: 25 operations · 15 acting
 tags:
 - Email

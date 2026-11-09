@@ -9,55 +9,55 @@ api_specs:
   label: Wallarm Applications API
   slug: wallarm-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-applications-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-applications-api-openapi.yml
 - filename: wallarm-attacks-api-openapi.yml
   format: yaml
   label: Wallarm Attacks API
   slug: wallarm-attacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-attacks-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-attacks-api-openapi.yml
 - filename: wallarm-integrations-api-openapi.yml
   format: yaml
   label: Wallarm Integrations API
   slug: wallarm-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-integrations-api-openapi.yml
 - filename: wallarm-ip-lists-api-openapi.yml
   format: yaml
   label: Wallarm IP Lists API
   slug: wallarm-ip-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-ip-lists-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-ip-lists-api-openapi.yml
 - filename: wallarm-nodes-api-openapi.yml
   format: yaml
   label: Wallarm Nodes API
   slug: wallarm-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-nodes-api-openapi.yml
 - filename: wallarm-rules-api-openapi.yml
   format: yaml
   label: Wallarm Rules API
   slug: wallarm-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-rules-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-rules-api-openapi.yml
 - filename: wallarm-triggers-api-openapi.yml
   format: yaml
   label: Wallarm Triggers API
   slug: wallarm-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-triggers-api-openapi.yml
 - filename: wallarm-user-api-openapi.yml
   format: yaml
   label: Wallarm User API
   slug: wallarm-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-user-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-user-api-openapi.yml
 - filename: wallarm-vulnerabilities-api-openapi.yml
   format: yaml
   label: Wallarm Vulnerabilities API
   slug: wallarm-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/openapi/wallarm-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/wallarm/openapi/wallarm-vulnerabilities-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/wallar
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/objects/hint\n  method: post\n  operationId: listRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/objects/hint/create\n  method: post\n  operationId: createRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/objects/hint/delete\n  method: post\n  operationId: deleteRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/objects/action\n  method: post\n  operationId: listRuleConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/objects/trigger\n  method: post\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/objects/trigger/create\n  method: post\n  operationId: createTrigger\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/user\n  method: post\n  operationId:\
   \ getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/objects/vuln\n  method: post\n  operationId: listVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/agentic-access/wallarm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wallarm/agentic-access/wallarm-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - API Security

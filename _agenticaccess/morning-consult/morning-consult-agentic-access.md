@@ -9,25 +9,25 @@ api_specs:
   label: Morning Consult AI API
   slug: morning-consult-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-ai-api-openapi.yml
+  url: https://artifacts.apis.io/morning-consult/openapi/morning-consult-ai-api-openapi.yml
 - filename: morning-consult-authentication-api-openapi.yml
   format: yaml
   label: Morning Consult Authentication API
   slug: morning-consult-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/morning-consult/openapi/morning-consult-authentication-api-openapi.yml
 - filename: morning-consult-data-api-openapi.yml
   format: yaml
   label: Morning Consult Data API
   slug: morning-consult-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-data-api-openapi.yml
+  url: https://artifacts.apis.io/morning-consult/openapi/morning-consult-data-api-openapi.yml
 - filename: morning-consult-lookup-api-openapi.yml
   format: yaml
   label: Morning Consult Lookup API
   slug: morning-consult-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/openapi/morning-consult-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/morning-consult/openapi/morning-consult-lookup-api-openapi.yml
 consequence_counts:
   read: 21
   write: 5
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mornin
   \  method: get\n  operationId: getDataSourceQuestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/syndicated/questions/{question_id}\n  method: get\n  operationId: getSurveysSyndicatedQuestionsByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data_sources/{data_source_id}/countries/{country_code}/questions/{question_id}\n  method: get\n  operationId: getDataSourceQuestion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/syndicated/scores\n  method: get\n  operationId: getSurveysSyndicatedScores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /surveys/syndicated/scores/{score_id}/countries\n  method: get\n  operationId: getSurveysSyndicatedScoreCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /surveys/syndicated/timeseries/batch/{request_id}\n  method: get\n  operationId: getSurveysSyndicatedTimeseriesBatchStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scores\n  method: get\n  operationId: getScores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scores/{score_id}/data_sources\n  method: get\n  operationId: getScoreDataSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /responses/bulk/{request_id}\n\
   \  method: get\n  operationId: getResponsesBulkStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scores/bulk/{request_id}\n  method: get\n  operationId: getScoresBulkStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morning-consult/refs/heads/main/agentic-access/morning-consult-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/morning-consult/agentic-access/morning-consult-agentic-access.yml
 summary_line: 26 operations · 5 acting
 tags:
 - Company

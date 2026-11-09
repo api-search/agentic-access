@@ -8,31 +8,31 @@ api_specs:
   label: Google AdSense Management Accounts API
   slug: google-adsense-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-accounts-api-openapi.yml
 - filename: google-adsense-adclients-api-openapi.yml
   format: yaml
   label: Google AdSense Management Adclients API
   slug: google-adsense-adclients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-adclients-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-adclients-api-openapi.yml
 - filename: google-adsense-payments-api-openapi.yml
   format: yaml
   label: Google AdSense Management Payments API
   slug: google-adsense-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-payments-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-payments-api-openapi.yml
 - filename: google-adsense-reports-generate-api-openapi.yml
   format: yaml
   label: Google AdSense Management Reports:generate API
   slug: google-adsense-reports-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-reports-generate-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-reports-generate-api-openapi.yml
 - filename: google-adsense-ad-units-api-openapi.yml
   format: yaml
   label: Google AdSense Management Ad Units API
   slug: google-adsense-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/openapi/google-adsense-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-adsense/openapi/google-adsense-ad-units-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/adsense\n- path: /v2/{parent}/adclients\n  method: get\n  operationId: listAdClients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    -\
   \ https://www.googleapis.com/auth/adsense\n- path: /v2/{parent}/adunits\n  method: get\n  operationId: listAdUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/adsense\n- path: /v2/{account}/reports:generate\n  method: get\n  operationId: generateReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/adsense\n- path: /v2/{parent}/payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/adsense\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-adsense/refs/heads/main/agentic-access/google-adsense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-adsense/agentic-access/google-adsense-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Ad Units

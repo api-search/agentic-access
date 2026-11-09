@@ -8,25 +8,25 @@ api_specs:
   label: BIS Data availability queries API
   slug: bis-data-availability-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-data-availability-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-data-availability-queries-api-openapi.yml
 - filename: bis-data-queries-api-openapi.yml
   format: yaml
   label: BIS Data queries API
   slug: bis-data-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-data-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-data-queries-api-openapi.yml
 - filename: bis-item-queries-api-openapi.yml
   format: yaml
   label: BIS Item queries API
   slug: bis-item-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-item-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-item-queries-api-openapi.yml
 - filename: bis-structure-queries-api-openapi.yml
   format: yaml
   label: BIS Structure queries API
   slug: bis-structure-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/openapi/bis-structure-queries-api-openapi.yml
+  url: https://artifacts.apis.io/bis/openapi/bis-structure-queries-api-openapi.yml
 consequence_counts:
   read: 18
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -56,7 +56,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bis-st
   - path: /allowedconstraint/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /structure/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conceptscheme/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /codelist/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categoryscheme/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hierarchicalcodelist/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencyscheme/{agencyID}/{resourceID}/{version}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conceptscheme/{agencyID}/{resourceID}/{version}/{itemID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /codelist/{agencyID}/{resourceID}/{version}/{itemID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categoryscheme/{agencyID}/{resourceID}/{version}/{itemID}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hierarchicalcodelist/{agencyID}/{resourceID}/{version}/{itemID}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/agentic-access/bis-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bis/agentic-access/bis-agentic-access.yml
 summary_line: 18 operations
 tags:
 - Financial Statistics

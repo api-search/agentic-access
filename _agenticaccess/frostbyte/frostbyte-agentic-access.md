@@ -9,61 +9,61 @@ api_specs:
   label: Frostbyte Agent Infrastructure API
   slug: frostbyte-agent-infrastructure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-agent-infrastructure-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-agent-infrastructure-api-openapi.yml
 - filename: frostbyte-communication-api-openapi.yml
   format: yaml
   label: Frostbyte Communication API
   slug: frostbyte-communication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-communication-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-communication-api-openapi.yml
 - filename: frostbyte-crypto-prices-api-openapi.yml
   format: yaml
   label: Frostbyte Crypto Prices API
   slug: frostbyte-crypto-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-crypto-prices-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-crypto-prices-api-openapi.yml
 - filename: frostbyte-data-analytics-api-openapi.yml
   format: yaml
   label: Frostbyte Data & Analytics API
   slug: frostbyte-data-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-data-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-data-analytics-api-openapi.yml
 - filename: frostbyte-defi-crypto-api-openapi.yml
   format: yaml
   label: Frostbyte DeFi & Crypto API
   slug: frostbyte-defi-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-defi-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-defi-crypto-api-openapi.yml
 - filename: frostbyte-gaming-api-openapi.yml
   format: yaml
   label: Frostbyte Gaming API
   slug: frostbyte-gaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-gaming-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-gaming-api-openapi.yml
 - filename: frostbyte-gateway-api-openapi.yml
   format: yaml
   label: Frostbyte Gateway API
   slug: frostbyte-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-gateway-api-openapi.yml
 - filename: frostbyte-ip-geolocation-api-openapi.yml
   format: yaml
   label: Frostbyte IP Geolocation API
   slug: frostbyte-ip-geolocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-ip-geolocation-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-ip-geolocation-api-openapi.yml
 - filename: frostbyte-other-api-openapi.yml
   format: yaml
   label: Frostbyte Other API
   slug: frostbyte-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-other-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-other-api-openapi.yml
 - filename: frostbyte-security-api-openapi.yml
   format: yaml
   label: Frostbyte Security API
   slug: frostbyte-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/openapi/frostbyte-security-api-openapi.yml
+  url: https://artifacts.apis.io/frostbyte/openapi/frostbyte-security-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 74
@@ -168,8 +168,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/frostb
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/frostbyte-wallet/v1/chains\n  method: get\n  operationId: frostbyte-wallet_get_v1_chains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/frostbyte-wallet/v1/chains/gas\n  method: get\n  operationId: frostbyte-wallet_get_v1_chains_gas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/frostbyte-wallet/v1/referral/stats\n  method: get\n  operationId: frostbyte-wallet_get_v1_referral_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fair-games/api/games/dice\n  method: post\n  operationId: fair-games_post_api_games_dice\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fair-games/api/games/coinflip\n  method: post\n  operationId: fair-games_post_api_games_coinflip\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fair-games/api/games/roulette\n  method: post\n  operationId: fair-games_post_api_games_roulette\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /api/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/keys/create\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/keys/balance\n  method: get\n  operationId: checkBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/credits/topup\n  method: post\n  operationId: topupUsdc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/credits/topup-xmr\n  method: post\n  operationId: topupXmr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payments/info\n  method: get\n  operationId: paymentInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/agentic-access/frostbyte-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frostbyte/refs/heads/main/agentic-access/frostbyte-agentic-access.yml
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/credits/topup-xmr\n  method: post\n  operationId: topupXmr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/payments/info\n  method: get\n  operationId: paymentInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (52 KB total) ---\n# Full source: https://artifacts.apis.io/frostbyte/agentic-access/frostbyte-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/frostbyte/agentic-access/frostbyte-agentic-access.yml
 summary_line: 167 operations · 93 acting
 tags:
 - Developer Tools

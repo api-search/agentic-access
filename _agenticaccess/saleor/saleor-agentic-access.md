@@ -9,7 +9,7 @@ api_specs:
   label: Saleor GraphQL API
   slug: saleor-saleor-graphql-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/openapi/saleor-saleor-graphql-api-api-openapi.yml
+  url: https://artifacts.apis.io/saleor/openapi/saleor-saleor-graphql-api-api-openapi.yml
 consequence_counts:
   read: 1
   write: 1
@@ -37,7 +37,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/saleor-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    acting: 1\n    connected: 1\n  by_consequence:\n    write: 1\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: post\n  operationId: executeGraphQL\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: get\n  operationId: executeGraphQLGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saleor/refs/heads/main/agentic-access/saleor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/saleor/agentic-access/saleor-agentic-access.yml
 summary_line: 2 operations · 1 acting
 tags:
 - Commerce

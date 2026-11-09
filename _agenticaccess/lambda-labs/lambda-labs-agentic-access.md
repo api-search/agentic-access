@@ -9,61 +9,61 @@ api_specs:
   label: Lambda Inference API
   slug: inference-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/asyncapi/lambda-labs-asyncapi.yml
+  url: https://artifacts.apis.io/lambda-labs/asyncapi/lambda-labs-asyncapi.yml
 - filename: lambda-labs-audit-events-api-openapi.yml
   format: yaml
   label: Lambda Audit Events API
   slug: lambda-labs-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-audit-events-api-openapi.yml
 - filename: lambda-labs-fabric-api-openapi.yml
   format: yaml
   label: Lambda Fabric API
   slug: lambda-labs-fabric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-fabric-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-fabric-api-openapi.yml
 - filename: lambda-labs-filesystems-api-openapi.yml
   format: yaml
   label: Lambda Filesystems API
   slug: lambda-labs-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-filesystems-api-openapi.yml
 - filename: lambda-labs-firewalls-api-openapi.yml
   format: yaml
   label: Lambda Firewalls API
   slug: lambda-labs-firewalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-firewalls-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-firewalls-api-openapi.yml
 - filename: lambda-labs-images-api-openapi.yml
   format: yaml
   label: Lambda Images API
   slug: lambda-labs-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-images-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-images-api-openapi.yml
 - filename: lambda-labs-instances-api-openapi.yml
   format: yaml
   label: Lambda Instances API
   slug: lambda-labs-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-instances-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-instances-api-openapi.yml
 - filename: lambda-labs-regions-api-openapi.yml
   format: yaml
   label: Lambda Regions API
   slug: lambda-labs-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-regions-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-regions-api-openapi.yml
 - filename: lambda-labs-ssh-keys-api-openapi.yml
   format: yaml
   label: Lambda SSH keys API
   slug: lambda-labs-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-ssh-keys-api-openapi.yml
 - filename: lambda-labs-support-tickets-api-openapi.yml
   format: yaml
   label: Lambda Support Tickets API
   slug: lambda-labs-support-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/openapi/lambda-labs-support-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/lambda-labs/openapi/lambda-labs-support-tickets-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lambda
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets\n  method: get\n  operationId: listTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets\n  method: post\n  operationId: createTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}\n  method: get\n  operationId: getTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets/{ticket_id}\n  method: patch\n  operationId: updateTicket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}/attachments\n  method: get\n  operationId: listAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/tickets/{ticket_id}/attachments\n  method: post\n  operationId: initiateAttachmentUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}/attachments/{attachment_id}\n  method: delete\n  operationId: deleteAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}/attachments/{attachment_id}/complete\n  method: post\n  operationId: completeAttachmentUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tickets/{ticket_id}/attachments/{attachment_id}/download\n  method: get\n  operationId: getAttachmentDownloadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lambda-labs/refs/heads/main/agentic-access/lambda-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lambda-labs/agentic-access/lambda-labs-agentic-access.yml
 summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

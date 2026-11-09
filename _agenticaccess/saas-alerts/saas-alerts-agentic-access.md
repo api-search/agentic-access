@@ -8,13 +8,13 @@ api_specs:
   label: SaaS Alerts Events API
   slug: saas-alerts-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-events-api-openapi.yml
+  url: https://artifacts.apis.io/saas-alerts/openapi/saas-alerts-events-api-openapi.yml
 - filename: saas-alerts-reports-api-openapi.yml
   format: yaml
   label: SaaS Alerts Reports API
   slug: saas-alerts-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/openapi/saas-alerts-reports-api-openapi.yml
+  url: https://artifacts.apis.io/saas-alerts/openapi/saas-alerts-reports-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/saas-alerts-events-api-openapi.yml, openapi/saas-alerts-reports-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /reports/events\n  method: get\n  operationId: listSecurityEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/event/query\n  method: post\n  operationId: querySecurityEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /reports/alerts\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/customers\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/saas-alerts/refs/heads/main/agentic-access/saas-alerts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/saas-alerts/agentic-access/saas-alerts-agentic-access.yml
 summary_line: 5 operations
 tags:
 - MSP

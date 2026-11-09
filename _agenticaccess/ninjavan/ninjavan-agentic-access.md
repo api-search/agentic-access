@@ -9,31 +9,31 @@ api_specs:
   label: Ninja Van OAuth API
   slug: ninjavan-oauth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-oauth-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-oauth-api-api-openapi.yml
 - filename: ninjavan-order-api-api-openapi.yml
   format: yaml
   label: Ninja Van Order API
   slug: ninjavan-order-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-order-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-order-api-api-openapi.yml
 - filename: ninjavan-pudo-api-api-openapi.yml
   format: yaml
   label: Ninja Van PUDO API
   slug: ninjavan-pudo-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-pudo-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-pudo-api-api-openapi.yml
 - filename: ninjavan-tariff-api-api-openapi.yml
   format: yaml
   label: Ninja Van Tariff API
   slug: ninjavan-tariff-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-tariff-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-tariff-api-api-openapi.yml
 - filename: ninjavan-tracking-api-api-openapi.yml
   format: yaml
   label: Ninja Van Tracking API
   slug: ninjavan-tracking-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/openapi/ninjavan-tracking-api-api-openapi.yml
+  url: https://artifacts.apis.io/ninjavan/openapi/ninjavan-tracking-api-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ninjav
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2.0/reports/waybill\n  method: get\n  operationId: generateWaybill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2.0/reports/international-waybills\n  method: get\n  operationId: generateInternationalWaybill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2.0/pudos\n  method: get\n  operationId: listNinjaPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/send-orders/drop-off\n\
   \  method: post\n  operationId: triggerShipperDropOff\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.0/send-orders/{trackingId}\n  method: get\n  operationId: scanParcelForDropOff\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/public/price\n  method: post\n  operationId: getPriceEstimate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/orders/tracking-events/{trackingNumber}\n  method: get\n  operationId: getTrackingEventsForParcel\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.0/orders/tracking-events\n  method: get\n  operationId: getTrackingEventsForParcels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ninjavan/refs/heads/main/agentic-access/ninjavan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ninjavan/agentic-access/ninjavan-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Logistics

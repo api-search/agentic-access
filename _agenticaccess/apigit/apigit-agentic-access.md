@@ -9,25 +9,25 @@ api_specs:
   label: APIGit Mocks API
   slug: apigit-mocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-mocks-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-mocks-api-openapi.yml
 - filename: apigit-repositories-api-openapi.yml
   format: yaml
   label: APIGit Repositories API
   slug: apigit-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-repositories-api-openapi.yml
 - filename: apigit-tests-api-openapi.yml
   format: yaml
   label: APIGit Tests API
   slug: apigit-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-tests-api-openapi.yml
 - filename: apigit-apis-api-openapi.yml
   format: yaml
   label: APIGit APIs API
   slug: apigit-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-apis-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apigit-api.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 3\n    acting: 2\n  by_consequence:\n    read: 3\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /repos\n  method: get\n  operationId: listRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos\n  method: post\n  operationId: createRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/{repoId}/api\n  method: get\n  operationId: getApiDefinition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/{repoId}/mock\n  method: post\n  operationId: startMockServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/{repoId}/tests\n  method: get\n  operationId: listTests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/agentic-access/apigit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apigit/agentic-access/apigit-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - API Design

@@ -9,7 +9,7 @@ api_specs:
   label: JANUS Machine Market Repos API
   slug: janus-machine-market-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/openapi/janus-machine-market-repos-api-openapi.yml
+  url: https://artifacts.apis.io/janus-machine-market/openapi/janus-machine-market-repos-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 2
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/janus-machine-market-pr-review-github-ingress-openapi.yml, openapi/janus-machine-market-search-github-ingress-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 2\n    connected: 2\n  by_consequence:\n    write: 1\n    read: 2\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /repos/Hawkar-usls/JANUS-MACHINE-MARKET/issues\n  method: post\n  operationId: createJanusFirstFreePRReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /repos/Hawkar-usls/JANUS-MACHINE-MARKET/issues/{issue_number}/comments\n  method: get\n  operationId: getJanusPRReviewResultComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repos/Hawkar-usls/JANUS-MACHINE-MARKET/issues\n  method: post\n  operationId: createJanusFirstFreeSearchOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repos/Hawkar-usls/JANUS-MACHINE-MARKET/issues/{issue_number}/comments\n  method: get\n  operationId: getJanusSearchResultComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/janus-machine-market/refs/heads/main/agentic-access/janus-machine-market-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/janus-machine-market/agentic-access/janus-machine-market-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
 - AI Agents

@@ -9,25 +9,25 @@ api_specs:
   label: Coupa Invoices API
   slug: coupa-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-invoices-api-openapi.yml
 - filename: coupa-purchase-orders-api-openapi.yml
   format: yaml
   label: Coupa Purchase Orders API
   slug: coupa-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-purchase-orders-api-openapi.yml
 - filename: coupa-requisitions-api-openapi.yml
   format: yaml
   label: Coupa Requisitions API
   slug: coupa-requisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-requisitions-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-requisitions-api-openapi.yml
 - filename: coupa-suppliers-api-openapi.yml
   format: yaml
   label: Coupa Suppliers API
   slug: coupa-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/openapi/coupa-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/coupa/openapi/coupa-suppliers-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 8
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/coupa-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /requisitions/{id}\n  method: put\n  operationId: updateRequisition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requisitions/{id}\n  method: delete\n  operationId: deleteRequisition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requisitions/submit_for_approval\n  method: post\n  operationId: submitRequisitionForApproval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /requisitions/{id}/update_and_submit_for_approval\n  method: put\n  operationId: updateAndSubmitRequisition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suppliers\n  method: get\n  operationId: listSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers\n  method: post\n  operationId: createSupplier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /suppliers/{id}\n  method: get\n  operationId: getSupplier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suppliers/{id}\n  method: put\n  operationId: updateSupplier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/agentic-access/coupa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coupa/agentic-access/coupa-agentic-access.yml
 summary_line: 27 operations · 19 acting
 tags:
 - BSM

@@ -9,43 +9,43 @@ api_specs:
   label: Hyperline Billable Events API
   slug: hyperline-billable-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-billable-events-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-billable-events-api-openapi.yml
 - filename: hyperline-customers-api-openapi.yml
   format: yaml
   label: Hyperline Customers API
   slug: hyperline-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-customers-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-customers-api-openapi.yml
 - filename: hyperline-invoices-api-openapi.yml
   format: yaml
   label: Hyperline Invoices API
   slug: hyperline-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-invoices-api-openapi.yml
 - filename: hyperline-payments-api-openapi.yml
   format: yaml
   label: Hyperline Payments API
   slug: hyperline-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-payments-api-openapi.yml
 - filename: hyperline-products-api-openapi.yml
   format: yaml
   label: Hyperline Products API
   slug: hyperline-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-products-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-products-api-openapi.yml
 - filename: hyperline-subscriptions-api-openapi.yml
   format: yaml
   label: Hyperline Subscriptions API
   slug: hyperline-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-subscriptions-api-openapi.yml
 - filename: hyperline-webhooks-api-openapi.yml
   format: yaml
   label: Hyperline Webhooks API
   slug: hyperline-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-webhooks-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 15
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hyperl
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices/{id}/download\n  method: get\n  operationId: downloadInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{id}/refund\n  method: post\n  operationId: refundTransaction\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints\n  method: get\n  operationId: listWebhookEndpoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook-endpoints\n  method: post\n  operationId: createWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints/{id}\n  method: patch\n  operationId: updateWebhookEndpoint\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-endpoints/{id}\n  method: delete\n  operationId: deleteWebhookEndpoint\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhook-messages\n  method: get\n  operationId: listWebhookMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/agentic-access/hyperline-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hyperline/agentic-access/hyperline-agentic-access.yml
 summary_line: 42 operations · 27 acting
 tags:
 - Billing

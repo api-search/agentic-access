@@ -9,91 +9,91 @@ api_specs:
   label: Argilla Authentication API
   slug: argilla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-authentication-api-openapi.yml
 - filename: argilla-datasets-api-openapi.yml
   format: yaml
   label: Argilla Datasets API
   slug: argilla-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-datasets-api-openapi.yml
 - filename: argilla-fields-api-openapi.yml
   format: yaml
   label: Argilla Fields API
   slug: argilla-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-fields-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-fields-api-openapi.yml
 - filename: argilla-info-api-openapi.yml
   format: yaml
   label: Argilla Info API
   slug: argilla-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-info-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-info-api-openapi.yml
 - filename: argilla-jobs-api-openapi.yml
   format: yaml
   label: Argilla Jobs API
   slug: argilla-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-jobs-api-openapi.yml
 - filename: argilla-metadata-properties-api-openapi.yml
   format: yaml
   label: Argilla metadata properties API
   slug: argilla-metadata-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-metadata-properties-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-metadata-properties-api-openapi.yml
 - filename: argilla-questions-api-openapi.yml
   format: yaml
   label: Argilla Questions API
   slug: argilla-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-questions-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-questions-api-openapi.yml
 - filename: argilla-records-api-openapi.yml
   format: yaml
   label: Argilla Records API
   slug: argilla-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-records-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-records-api-openapi.yml
 - filename: argilla-responses-api-openapi.yml
   format: yaml
   label: Argilla Responses API
   slug: argilla-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-responses-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-responses-api-openapi.yml
 - filename: argilla-settings-api-openapi.yml
   format: yaml
   label: Argilla Settings API
   slug: argilla-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-settings-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-settings-api-openapi.yml
 - filename: argilla-suggestions-api-openapi.yml
   format: yaml
   label: Argilla Suggestions API
   slug: argilla-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-suggestions-api-openapi.yml
 - filename: argilla-users-api-openapi.yml
   format: yaml
   label: Argilla Users API
   slug: argilla-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-users-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-users-api-openapi.yml
 - filename: argilla-vectors-settings-api-openapi.yml
   format: yaml
   label: Argilla Vectors Settings API
   slug: argilla-vectors-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-vectors-settings-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-vectors-settings-api-openapi.yml
 - filename: argilla-webhooks-api-openapi.yml
   format: yaml
   label: Argilla Webhooks API
   slug: argilla-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-webhooks-api-openapi.yml
 - filename: argilla-workspaces-api-openapi.yml
   format: yaml
   label: Argilla Workspaces API
   slug: argilla-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/openapi/argilla-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/argilla/openapi/argilla-workspaces-api-openapi.yml
 consequence_counts:
   read: 31
   write: 42
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/argill
   \      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}/ping\n  method: post\n  operationId: ping_webhook_webhooks__webhook_id__ping_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}\n  method: get\n  operationId: get_workspace_workspaces__workspace_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}\n  method: delete\n  operationId: delete_workspace_workspaces__workspace_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: post\n  operationId: create_workspace_workspaces_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/workspaces\n  method: get\n  operationId: list_workspaces_me_me_workspaces_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/users\n  method: get\n  operationId: list_workspace_users_workspaces__workspace_id__users_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/users\n  method:\
   \ post\n  operationId: create_workspace_user_workspaces__workspace_id__users_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}/users/{user_id}\n  method: delete\n  operationId: delete_workspace_user_workspaces__workspace_id__users__user_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/argilla/refs/heads/main/agentic-access/argilla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/argilla/agentic-access/argilla-agentic-access.yml
 summary_line: 73 operations · 42 acting
 tags:
 - Data Annotation

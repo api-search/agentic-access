@@ -9,19 +9,61 @@ api_specs:
   label: Amazon CloudTrail Event Data Stores API
   slug: amazon-cloudtrail-event-data-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-event-data-stores-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-event-data-stores-api-openapi.yml
 - filename: amazon-cloudtrail-events-api-openapi.yml
   format: yaml
   label: Amazon CloudTrail Events API
   slug: amazon-cloudtrail-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-events-api-openapi.yml
 - filename: amazon-cloudtrail-trails-api-openapi.yml
   format: yaml
   label: Amazon CloudTrail Trails API
   slug: amazon-cloudtrail-trails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/openapi/amazon-cloudtrail-trails-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-trails-api-openapi.yml
+- filename: amazon-cloudtrail-channel-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Channel API
+  slug: amazon-cloudtrail-channel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-channel-api-openapi.yml
+- filename: amazon-cloudtrail-dashboard-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Dashboard API
+  slug: amazon-cloudtrail-dashboard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-dashboard-api-openapi.yml
+- filename: amazon-cloudtrail-import-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Import API
+  slug: amazon-cloudtrail-import-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-import-api-openapi.yml
+- filename: amazon-cloudtrail-operations-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Operations API
+  slug: amazon-cloudtrail-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-operations-api-openapi.yml
+- filename: amazon-cloudtrail-query-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Query API
+  slug: amazon-cloudtrail-query-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-query-api-openapi.yml
+- filename: amazon-cloudtrail-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Resource Policy API
+  slug: amazon-cloudtrail-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-resource-policy-api-openapi.yml
+- filename: amazon-cloudtrail-tag-api-openapi.yml
+  format: yaml
+  label: Amazon CloudTrail Cloudtrail Tag API
+  slug: amazon-cloudtrail-tag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudtrail/openapi/amazon-cloudtrail-tag-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -50,9 +92,10 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon-cloudtrail-event-data-stores-api-openapi.yml, openapi/amazon-cloudtrail-events-api-openapi.yml,\n  openapi/amazon-cloudtrail-trails-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 3\n    connected: 3\n  by_consequence:\n    write: 3\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /event-data-stores\n  method: post\n  operationId: CreateEventDataStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n- path: /event-data-stores\n  method: get\n  operationId: ListEventDataStores\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/lookup\n  method: post\n  operationId: LookupEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trails\n  method: post\n  operationId: CreateTrail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trails\n  method: get\n  operationId: DescribeTrails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /trails/{trailName}\n  method: delete\n  operationId: DeleteTrail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/agentic-access/amazon-cloudtrail-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cloudtrail/agentic-access/amazon-cloudtrail-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
+- Amazon Web Services
 - CloudTrail
 - Audit
 - Compliance

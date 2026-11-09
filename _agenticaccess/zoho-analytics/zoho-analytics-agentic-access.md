@@ -9,67 +9,67 @@ api_specs:
   label: Zoho Analytics Bulk Export - Asynchronous API
   slug: zoho-analytics-bulk-export-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-export-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Export - Synchronous API
   slug: zoho-analytics-bulk-export-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-asynchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Asynchronous API
   slug: zoho-analytics-bulk-import-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-batch-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Batch API
   slug: zoho-analytics-bulk-import-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
 - filename: zoho-analytics-bulk-import-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Synchronous API
   slug: zoho-analytics-bulk-import-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
 - filename: zoho-analytics-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Data APIs API
   slug: zoho-analytics-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-data-apis-api-openapi.yml
 - filename: zoho-analytics-embed-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Embed APIs API
   slug: zoho-analytics-embed-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-embed-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-embed-apis-api-openapi.yml
 - filename: zoho-analytics-metadata-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Metadata APIs API
   slug: zoho-analytics-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-metadata-apis-api-openapi.yml
 - filename: zoho-analytics-modeling-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Modeling APIs API
   slug: zoho-analytics-modeling-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-modeling-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-modeling-apis-api-openapi.yml
 - filename: zoho-analytics-sharing-collaboration-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Sharing & Collaboration APIs API
   slug: zoho-analytics-sharing-collaboration-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
 - filename: zoho-analytics-user-management-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics User Management APIs API
   slug: zoho-analytics-user-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-user-management-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-user-management-apis-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 58
@@ -163,8 +163,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bulk-a
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/reports/{report-id}\n  method: put\n  operationId: updateReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/views/{view-id}/saveas\n  method: post\n  operationId: saveAsView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/views/movetofolder\n  method: put\n  operationId: moveViewsToFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/views/{view-id}\n  method: put\n  operationId: renameView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.update\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/views/{view-id}\n  method: delete\n  operationId:\
   \ deleteView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/trash/{view-id}\n  method: post\n  operationId: restoreTrashView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/trash/{view-id}\n  method: delete\n  operationId: deleteTrashView\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n  \
-  \  - ZohoAnalytics.modeling.delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (60 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/agentic-access/zoho-analytics-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/agentic-access/zoho-analytics-agentic-access.yml
+  \  - ZohoAnalytics.modeling.delete\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restapi/v2/workspaces/{workspace-id}/folders\n  method: post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - ZohoAnalytics.modeling.create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (60 KB total) ---\n# Full source: https://artifacts.apis.io/zoho-analytics/agentic-access/zoho-analytics-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zoho-analytics/agentic-access/zoho-analytics-agentic-access.yml
 summary_line: 161 operations · 103 acting · 1 human-in-the-loop
 tags:
 - Business Intelligence

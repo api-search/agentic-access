@@ -9,25 +9,25 @@ api_specs:
   label: Google Safe Browsing fullHashes:find API
   slug: google-safe-browsing-fullhashes-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-fullhashes-find-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-fullhashes-find-api-openapi.yml
 - filename: google-safe-browsing-threatlists-api-openapi.yml
   format: yaml
   label: Google Safe Browsing Threat Lists API
   slug: google-safe-browsing-threatlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatlists-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-threatlists-api-openapi.yml
 - filename: google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
   format: yaml
   label: Google Safe Browsing Threat List Updates:fetch API
   slug: google-safe-browsing-threatlistupdates-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
 - filename: google-safe-browsing-threatmatches-find-api-openapi.yml
   format: yaml
   label: Google Safe Browsing Threat Matches:find API
   slug: google-safe-browsing-threatmatches-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatmatches-find-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-threatmatches-find-api-openapi.yml
 consequence_counts:
   read: 3
   write: 1
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google-safe-browsing-fullhashes-find-api-openapi.yml, openapi/google-safe-browsing-threatlists-api-openapi.yml,\n  openapi/google-safe-browsing-threatlistupdates-fetch-api-openapi.yml, openapi/google-safe-browsing-threatmatches-find-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 3\n    acting: 1\n  by_consequence:\n    read: 3\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /fullHashes:find\n  method: post\n  operationId: findFullHashes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threatLists\n  method:\
   \ get\n  operationId: listThreatLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threatListUpdates:fetch\n  method: post\n  operationId: fetchThreatListUpdates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /threatMatches:find\n  method: post\n  operationId: findThreatMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/agentic-access/google-safe-browsing-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-safe-browsing/agentic-access/google-safe-browsing-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Google

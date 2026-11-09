@@ -9,25 +9,25 @@ api_specs:
   label: Google Sheets API
   slug: google-sheets-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-sheets-api-openapi.yml
 - filename: google-sheets-spreadsheets-api-openapi.yml
   format: yaml
   label: Google Sheets Spreadsheets API
   slug: google-sheets-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-spreadsheets-api-openapi.yml
 - filename: google-sheets-values-api-openapi.yml
   format: yaml
   label: Google Sheets Values API
   slug: google-sheets-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-values-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-values-api-openapi.yml
 - filename: google-sheets-developer-metadata-api-openapi.yml
   format: yaml
   label: Google Sheets Developer Metadata API
   slug: google-sheets-developer-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-developer-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-developer-metadata-api-openapi.yml
 consequence_counts:
   read: 6
   write: 11
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spreadsheets/{spreadsheetId}/values:batchGet\n  method: get\n  operationId: batchGetValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spreadsheets/{spreadsheetId}/values:batchUpdate\n  method: post\n  operationId: batchUpdateValues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spreadsheets/{spreadsheetId}/values:batchClear\n  method: post\n  operationId: batchClearValues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spreadsheets/{spreadsheetId}/values:batchGetByDataFilter\n  method: post\n  operationId: batchGetValuesByDataFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /spreadsheets/{spreadsheetId}/values:batchUpdateByDataFilter\n  method: post\n  operationId: batchUpdateValuesByDataFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /spreadsheets/{spreadsheetId}/values:batchClearByDataFilter\n  method: post\n  operationId: batchClearValuesByDataFilter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/agentic-access/google-sheets-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-sheets/agentic-access/google-sheets-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Google Workspace

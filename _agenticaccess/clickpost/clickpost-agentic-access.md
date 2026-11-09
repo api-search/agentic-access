@@ -9,43 +9,43 @@ api_specs:
   label: ClickPost Cancellation API
   slug: clickpost-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-cancellation-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-cancellation-api-openapi.yml
 - filename: clickpost-label-api-openapi.yml
   format: yaml
   label: ClickPost Label API
   slug: clickpost-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-label-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-label-api-openapi.yml
 - filename: clickpost-order-api-openapi.yml
   format: yaml
   label: ClickPost Order API
   slug: clickpost-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-order-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-order-api-openapi.yml
 - filename: clickpost-pickup-api-openapi.yml
   format: yaml
   label: ClickPost Pickup API
   slug: clickpost-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-pickup-api-openapi.yml
 - filename: clickpost-recommendation-api-openapi.yml
   format: yaml
   label: ClickPost Recommendation API
   slug: clickpost-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-recommendation-api-openapi.yml
 - filename: clickpost-serviceability-api-openapi.yml
   format: yaml
   label: ClickPost Serviceability API
   slug: clickpost-serviceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-serviceability-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-serviceability-api-openapi.yml
 - filename: clickpost-tracking-api-openapi.yml
   format: yaml
   label: ClickPost Tracking API
   slug: clickpost-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-tracking-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 3
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/clickp
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/mps\n  method: post\n  operationId: createMpsOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{order_id}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/register\n  method: post\n  operationId: registerTracking\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking/{awb}\n  method: get\n  operationId: getTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serviceability/pincode\n  method: post\n  operationId: checkServiceability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cancellation\n  method: post\n  operationId: cancelShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /label/{order_id}\n  method: get\n  operationId: getLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pickup-request\n  method: post\n  operationId: requestPickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/agentic-access/clickpost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clickpost/agentic-access/clickpost-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
 - Carrier

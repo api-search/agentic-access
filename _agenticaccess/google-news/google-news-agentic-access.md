@@ -8,19 +8,19 @@ api_specs:
   label: Google News RSS Headlines API
   slug: google-news-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/google-news-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/google-news/openapi/google-news-headlines-api-openapi.yml
 - filename: google-news-search-api-openapi.yml
   format: yaml
   label: Google News RSS Search API
   slug: google-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/google-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-news/openapi/google-news-search-api-openapi.yml
 - filename: google-news-topics-api-openapi.yml
   format: yaml
   label: Google News RSS Topics API
   slug: google-news-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/openapi/google-news-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-news/openapi/google-news-topics-api-openapi.yml
 consequence_counts:
   read: 4
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 4\n  by_consequence:\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /rss\n  method: get\n  operationId: getTopHeadlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rss/headlines/section/topic/{topic}\n  method: get\n  operationId: getTopicHeadlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rss/headlines/section/geo/{location}\n  method: get\n \
   \ operationId: getLocationHeadlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rss/search\n  method: get\n  operationId: searchNews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-news/refs/heads/main/agentic-access/google-news-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-news/agentic-access/google-news-agentic-access.yml
 summary_line: 4 operations
 tags:
 - Aggregation

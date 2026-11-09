@@ -9,67 +9,67 @@ api_specs:
   label: Teelaunch Account API
   slug: teelaunch-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-account-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-account-api-openapi.yml
 - filename: teelaunch-account-payment-api-openapi.yml
   format: yaml
   label: Teelaunch Account Payment API
   slug: teelaunch-account-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-account-payment-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-account-payment-api-openapi.yml
 - filename: teelaunch-account-settings-api-openapi.yml
   format: yaml
   label: Teelaunch Account Settings API
   slug: teelaunch-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-account-settings-api-openapi.yml
 - filename: teelaunch-blank-api-openapi.yml
   format: yaml
   label: Teelaunch Blank API
   slug: teelaunch-blank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-blank-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-blank-api-openapi.yml
 - filename: teelaunch-blank-category-api-openapi.yml
   format: yaml
   label: Teelaunch Blank Category API
   slug: teelaunch-blank-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-blank-category-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-blank-category-api-openapi.yml
 - filename: teelaunch-orders-api-openapi.yml
   format: yaml
   label: Teelaunch Orders API
   slug: teelaunch-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-orders-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-orders-api-openapi.yml
 - filename: teelaunch-platform-store-product-variants-api-openapi.yml
   format: yaml
   label: Teelaunch Platform Store Product Variants API
   slug: teelaunch-platform-store-product-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-platform-store-product-variants-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-platform-store-product-variants-api-openapi.yml
 - filename: teelaunch-platform-store-products-api-openapi.yml
   format: yaml
   label: Teelaunch Platform Store Products API
   slug: teelaunch-platform-store-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-platform-store-products-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-platform-store-products-api-openapi.yml
 - filename: teelaunch-platform-stores-api-openapi.yml
   format: yaml
   label: Teelaunch Platform Stores API
   slug: teelaunch-platform-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-platform-stores-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-platform-stores-api-openapi.yml
 - filename: teelaunch-platforms-api-openapi.yml
   format: yaml
   label: Teelaunch Platforms API
   slug: teelaunch-platforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-platforms-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-platforms-api-openapi.yml
 - filename: teelaunch-products-api-openapi.yml
   format: yaml
   label: Teelaunch Products API
   slug: teelaunch-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/openapi/teelaunch-products-api-openapi.yml
+  url: https://artifacts.apis.io/teelaunch/openapi/teelaunch-products-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 24
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/teelau
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{platformStoreId}/products/{id}\n  method: get\n  operationId: 3fa7a6faf46bb48fd6a78c2a133d7cf8\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{platformStoreId}/products\n  method: get\n  operationId: aeb6e9973ad802d72917350ef1b41e2d\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/{platformStoreId}/products/{id}/ignore\n  method: post\n  operationId: 2636ded800a48cf2f66eefa4db1cf915\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /stores/{platformStoreId}/products/{id}/unignore\n  method: post\n  operationId: 9f1bf75602027f29bba07b1ffb89d345\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: cbd3820f1c54e85489d86c79c20ec741\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/{id}\n  method: get\n  operationId: 163fa1b107c906fbd20e5a804078dfa4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teelaunch/refs/heads/main/agentic-access/teelaunch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/teelaunch/agentic-access/teelaunch-agentic-access.yml
 summary_line: 36 operations · 12 acting
 tags:
 - Print on Demand

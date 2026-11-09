@@ -8,25 +8,25 @@ api_specs:
   label: Federal Emergency Management Agency Assistance API
   slug: federal-emergency-management-agency-assistance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/openapi/federal-emergency-management-agency-assistance-api-openapi.yml
+  url: https://artifacts.apis.io/federal-emergency-management-agency/openapi/federal-emergency-management-agency-assistance-api-openapi.yml
 - filename: federal-emergency-management-agency-disasters-api-openapi.yml
   format: yaml
   label: Federal Emergency Management Agency Disasters API
   slug: federal-emergency-management-agency-disasters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/openapi/federal-emergency-management-agency-disasters-api-openapi.yml
+  url: https://artifacts.apis.io/federal-emergency-management-agency/openapi/federal-emergency-management-agency-disasters-api-openapi.yml
 - filename: federal-emergency-management-agency-metadata-api-openapi.yml
   format: yaml
   label: Federal Emergency Management Agency Metadata API
   slug: federal-emergency-management-agency-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/openapi/federal-emergency-management-agency-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/federal-emergency-management-agency/openapi/federal-emergency-management-agency-metadata-api-openapi.yml
 - filename: federal-emergency-management-agency-nfip-api-openapi.yml
   format: yaml
   label: Federal Emergency Management Agency NFIP API
   slug: federal-emergency-management-agency-nfip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/openapi/federal-emergency-management-agency-nfip-api-openapi.yml
+  url: https://artifacts.apis.io/federal-emergency-management-agency/openapi/federal-emergency-management-agency-nfip-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openfe
   \ /v1/DeclarationDenials\n  method: get\n  operationId: listDeclarationDenials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/PublicAssistanceFundedProjectsDetails\n  method: get\n  operationId: listPublicAssistanceFundedProjectsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/IndividualAssistanceHousingRegistrantsLargeDisasters\n  method: get\n  operationId: listIndividualAssistanceHousingRegistrants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/HazardMitigationGrantProgramDisasterSummaries\n  method: get\n  operationId: listHazardMitigationGrantProgramDisasterSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/FimaNfipPolicies\n  method: get\n  operationId: listFimaNfipPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/FimaNfipClaims\n  method: get\n  operationId: listFimaNfipClaims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/NfipCommunityStatusBook\n  method: get\n  operationId: listNfipCommunityStatusBook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/OpenFemaDataSets\n  method: get\n  operationId: listOpenFemaDataSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/FemaRegions\n\
   \  method: get\n  operationId: listFemaRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/federal-emergency-management-agency/refs/heads/main/agentic-access/federal-emergency-management-agency-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/federal-emergency-management-agency/agentic-access/federal-emergency-management-agency-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Disasters

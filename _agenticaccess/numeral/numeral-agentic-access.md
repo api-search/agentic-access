@@ -9,37 +9,37 @@ api_specs:
   label: Numeral Customers API
   slug: numeral-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-customers-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-customers-api-openapi.yml
 - filename: numeral-health-api-openapi.yml
   format: yaml
   label: Numeral Health API
   slug: numeral-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-health-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-health-api-openapi.yml
 - filename: numeral-products-api-openapi.yml
   format: yaml
   label: Numeral Products API
   slug: numeral-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-products-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-products-api-openapi.yml
 - filename: numeral-refunds-api-openapi.yml
   format: yaml
   label: Numeral Refunds API
   slug: numeral-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-refunds-api-openapi.yml
 - filename: numeral-tax-calculations-api-openapi.yml
   format: yaml
   label: Numeral Tax Calculations API
   slug: numeral-tax-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-tax-calculations-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-tax-calculations-api-openapi.yml
 - filename: numeral-transactions-api-openapi.yml
   format: yaml
   label: Numeral Transactions API
   slug: numeral-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/numera
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax/products\n  method: post\n  operationId: createProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tax/products/{reference_product_id}\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tax/products/{reference_product_id}\n  method: delete\n  operationId: deleteProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax/customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax/customers/{customer_id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /tax/customers/{customer_id}\n  method: delete\n  operationId: deleteCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tax/ping\n  method: get\n  operationId: pingHealthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/agentic-access/numeral-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/numeral/agentic-access/numeral-agentic-access.yml
 summary_line: 16 operations · 10 acting
 tags:
 - Sales Tax

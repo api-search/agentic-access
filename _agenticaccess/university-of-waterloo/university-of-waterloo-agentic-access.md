@@ -9,73 +9,73 @@ api_specs:
   label: University of Waterloo AcademicOrganizations API
   slug: university-of-waterloo-academicorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-academicorganizations-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-academicorganizations-api-openapi.yml
 - filename: university-of-waterloo-account-api-openapi.yml
   format: yaml
   label: University of Waterloo Account API
   slug: university-of-waterloo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-account-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-account-api-openapi.yml
 - filename: university-of-waterloo-classschedules-api-openapi.yml
   format: yaml
   label: University of Waterloo ClassSchedules API
   slug: university-of-waterloo-classschedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-classschedules-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-classschedules-api-openapi.yml
 - filename: university-of-waterloo-courses-api-openapi.yml
   format: yaml
   label: University of Waterloo Courses API
   slug: university-of-waterloo-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-courses-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-courses-api-openapi.yml
 - filename: university-of-waterloo-examschedules-api-openapi.yml
   format: yaml
   label: University of Waterloo ExamSchedules API
   slug: university-of-waterloo-examschedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-examschedules-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-examschedules-api-openapi.yml
 - filename: university-of-waterloo-foodservices-api-openapi.yml
   format: yaml
   label: University of Waterloo FoodServices API
   slug: university-of-waterloo-foodservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-foodservices-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-foodservices-api-openapi.yml
 - filename: university-of-waterloo-holidaydates-api-openapi.yml
   format: yaml
   label: University of Waterloo HolidayDates API
   slug: university-of-waterloo-holidaydates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-holidaydates-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-holidaydates-api-openapi.yml
 - filename: university-of-waterloo-importantdates-api-openapi.yml
   format: yaml
   label: University of Waterloo ImportantDates API
   slug: university-of-waterloo-importantdates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-importantdates-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-importantdates-api-openapi.yml
 - filename: university-of-waterloo-locations-api-openapi.yml
   format: yaml
   label: University of Waterloo Locations API
   slug: university-of-waterloo-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-locations-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-locations-api-openapi.yml
 - filename: university-of-waterloo-subjects-api-openapi.yml
   format: yaml
   label: University of Waterloo Subjects API
   slug: university-of-waterloo-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-subjects-api-openapi.yml
 - filename: university-of-waterloo-terms-api-openapi.yml
   format: yaml
   label: University of Waterloo Terms API
   slug: university-of-waterloo-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-terms-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-terms-api-openapi.yml
 - filename: university-of-waterloo-wcms-api-openapi.yml
   format: yaml
   label: University of Waterloo Wcms API
   slug: university-of-waterloo-wcms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/openapi/university-of-waterloo-wcms-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-waterloo/openapi/university-of-waterloo-wcms-api-openapi.yml
 consequence_counts:
   read: 46
   write: 2
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/univer
   \ none\n- path: /v3/Subjects/associatedto/{organizationCode}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Terms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Terms/current\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Terms/{code}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/{id}\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/latestnews/{maxItems}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/latestevents/{maxItems}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/latestposts/{maxItems}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/{id}/news\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/{id}/posts\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/Wcms/{id}/events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-waterloo/refs/heads/main/agentic-access/university-of-waterloo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/university-of-waterloo/agentic-access/university-of-waterloo-agentic-access.yml
 summary_line: 48 operations · 2 acting
 tags:
 - Education

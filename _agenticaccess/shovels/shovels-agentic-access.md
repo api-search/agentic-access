@@ -8,37 +8,37 @@ api_specs:
   label: Shovels Addresses API
   slug: shovels-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-addresses-api-openapi.yml
 - filename: shovels-contractors-api-openapi.yml
   format: yaml
   label: Shovels Contractors API
   slug: shovels-contractors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-contractors-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-contractors-api-openapi.yml
 - filename: shovels-geography-api-openapi.yml
   format: yaml
   label: Shovels Geography API
   slug: shovels-geography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-geography-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-geography-api-openapi.yml
 - filename: shovels-lists-api-openapi.yml
   format: yaml
   label: Shovels Lists API
   slug: shovels-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-lists-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-lists-api-openapi.yml
 - filename: shovels-meta-api-openapi.yml
   format: yaml
   label: Shovels Meta API
   slug: shovels-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-meta-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-meta-api-openapi.yml
 - filename: shovels-permits-api-openapi.yml
   format: yaml
   label: Shovels Permits API
   slug: shovels-permits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/openapi/shovels-permits-api-openapi.yml
+  url: https://artifacts.apis.io/shovels/openapi/shovels-permits-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shovel
   \ 3600\n    audit: none\n- path: /cities/search\n  method: get\n  operationId: searchCities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cities/{geo_id}\n  method: get\n  operationId: getCityById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cities/{geo_id}/metrics/current\n  method: get\n  operationId: getCityMetricsCurrent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /counties/search\n  method: get\n  operationId: searchCounties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jurisdictions/search\n  method: get\n  operationId: searchJurisdictions\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /states/search\n  method: get\n  operationId: searchStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zipcodes/search\n  method: get\n  operationId: searchZipcodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta/release-date\n  method: get\n  operationId: getMetaReleaseDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n \
   \ method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/agentic-access/shovels-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shovels/agentic-access/shovels-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Construction

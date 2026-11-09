@@ -9,37 +9,37 @@ api_specs:
   label: Triton One Accounts API
   slug: triton-one-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/triton-one/openapi/triton-one-accounts-api-openapi.yml
 - filename: triton-one-addresswatchlists-api-openapi.yml
   format: yaml
   label: Triton One AddressWatchLists API
   slug: triton-one-addresswatchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-addresswatchlists-api-openapi.yml
+  url: https://artifacts.apis.io/triton-one/openapi/triton-one-addresswatchlists-api-openapi.yml
 - filename: triton-one-assets-api-openapi.yml
   format: yaml
   label: Triton One Assets API
   slug: triton-one-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-assets-api-openapi.yml
+  url: https://artifacts.apis.io/triton-one/openapi/triton-one-assets-api-openapi.yml
 - filename: triton-one-endpoints-api-openapi.yml
   format: yaml
   label: Triton One Endpoints API
   slug: triton-one-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/triton-one/openapi/triton-one-endpoints-api-openapi.yml
 - filename: triton-one-subscriptions-api-openapi.yml
   format: yaml
   label: Triton One Subscriptions API
   slug: triton-one-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/triton-one/openapi/triton-one-subscriptions-api-openapi.yml
 - filename: triton-one-tokens-api-openapi.yml
   format: yaml
   label: Triton One Tokens API
   slug: triton-one-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/openapi/triton-one-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/triton-one/openapi/triton-one-tokens-api-openapi.yml
 consequence_counts:
   read: 7
   write: 16
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/triton
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tokens/{tokenUuid}/deactivate\n  method: put\n  operationId: deactivateToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/address_watch_lists\n  method: get\n  operationId: listAddressWatchLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/subscriptions/{subscriptionUuid}/address_watch_lists\n  method: post\n  operationId: createAddressWatchList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/address_watch_lists/{watchListUuid}\n  method: delete\n  operationId: deleteAddressWatchList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: callDigitalAssetsRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: callRpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/agentic-access/triton-one-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/triton-one/agentic-access/triton-one-agentic-access.yml
 summary_line: 23 operations · 16 acting
 tags:
 - Solana

@@ -9,43 +9,43 @@ api_specs:
   label: MyCase Case Stages API
   slug: mycase-case-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-case-stages-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-case-stages-api-openapi.yml
 - filename: mycase-cases-api-openapi.yml
   format: yaml
   label: MyCase Cases API
   slug: mycase-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-cases-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-cases-api-openapi.yml
 - filename: mycase-companies-api-openapi.yml
   format: yaml
   label: MyCase Companies API
   slug: mycase-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-companies-api-openapi.yml
 - filename: mycase-contacts-api-openapi.yml
   format: yaml
   label: MyCase Contacts API
   slug: mycase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-contacts-api-openapi.yml
 - filename: mycase-documents-api-openapi.yml
   format: yaml
   label: MyCase Documents API
   slug: mycase-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-documents-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-documents-api-openapi.yml
 - filename: mycase-events-api-openapi.yml
   format: yaml
   label: MyCase Events API
   slug: mycase-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-events-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-events-api-openapi.yml
 - filename: mycase-firm-api-openapi.yml
   format: yaml
   label: MyCase Firm API
   slug: mycase-firm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/openapi/mycase-firm-api-openapi.yml
+  url: https://artifacts.apis.io/mycase/openapi/mycase-firm-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -80,7 +80,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mycase-open-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 5\n    acting: 3\n  by_consequence:\n    read: 5\n    physical: 1\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /firm\n  method: get\n  operationId: getFirm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /case_stages\n  method: get\n  operationId: getCaseStages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies\n  method: get\n \
   \ operationId: getCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clients/{clientId}/cases\n  method: get\n  operationId: getCasesForClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases/{caseId}/client_relationships\n  method: post\n  operationId: createClientRelationshipForCase\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cases/{caseId}/documents\n  method: post\n  operationId: createDocumentForCase\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cases/{caseId}/documents_folder\n  method: get\n  operationId: getCaseDocumentsFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}\n  method: patch\n  operationId: updateEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mycase/refs/heads/main/agentic-access/mycase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mycase/agentic-access/mycase-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Billing
@@ -94,9 +94,10 @@ tags:
 - Legal Practice Management
 - Legal Tech
 - Matter Management
-- Authentication
+- OAuth
 - Payments
 - Practice Management
 - Time Tracking
 - Webhook
+- Authentication
 ---

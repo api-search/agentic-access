@@ -9,25 +9,25 @@ api_specs:
   label: Flexpa Access Tokens API
   slug: flexpa-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-access-tokens-api-openapi.yml
 - filename: flexpa-claims-data-api-openapi.yml
   format: yaml
   label: Flexpa Claims Data API
   slug: flexpa-claims-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-claims-data-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-claims-data-api-openapi.yml
 - filename: flexpa-fhir-api-openapi.yml
   format: yaml
   label: Flexpa FHIR API
   slug: flexpa-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-fhir-api-openapi.yml
 - filename: flexpa-link-api-openapi.yml
   format: yaml
   label: Flexpa Link API
   slug: flexpa-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/openapi/flexpa-link-api-openapi.yml
+  url: https://artifacts.apis.io/flexpa/openapi/flexpa-link-api-openapi.yml
 consequence_counts:
   read: 13
   write: 2
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flexpa
   \  method: get\n  operationId: patientSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/Patient/{id}/$pdf\n  method: get\n  operationId: patientPdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/Coverage\n  method: get\n  operationId: searchCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/Coverage/{id}\n  method: get\n  operationId: readCoverage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/ExplanationOfBenefit\n  method: get\n  operationId: searchExplanationOfBenefit\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/ExplanationOfBenefit/{id}\n  method: get\n  operationId: readExplanationOfBenefit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/Practitioner\n  method: get\n  operationId: searchPractitioner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/Organization\n  method: get\n  operationId: searchOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fhir/ViewDefinition/$run\n  method: post\n  operationId: runViewDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/agentic-access/flexpa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flexpa/agentic-access/flexpa-agentic-access.yml
 summary_line: 15 operations · 2 acting
 tags:
 - Healthcare

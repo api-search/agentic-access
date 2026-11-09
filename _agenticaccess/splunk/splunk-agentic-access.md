@@ -9,19 +9,19 @@ api_specs:
   label: Splunk Data Inputs API
   slug: splunk-data-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-data-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-data-inputs-api-openapi.yml
 - filename: splunk-index-api-openapi.yml
   format: yaml
   label: Splunk Index API
   slug: splunk-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-index-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-index-api-openapi.yml
 - filename: splunk-search-api-openapi.yml
   format: yaml
   label: Splunk Search API
   slug: splunk-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-search-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-search-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/splunk
   \ required\n- path: /services/data/inputs/tcp/cooked\n  method: get\n  operationId: listTcpCookedInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/data/inputs/tcp/raw\n  method: get\n  operationId: listTcpRawInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/data/inputs/udp\n  method: get\n  operationId: listUdpInputs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/data/inputs/http\n  method: get\n  operationId: listHttpInputTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/data/inputs/http\n  method: post\n  operationId:\
   \ createHttpInputToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/collector/event\n  method: post\n  operationId: sendEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/collector/raw\n  method: post\n  operationId: sendRawEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/collector/ack\n  method: post\n  operationId: checkAckStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/agentic-access/splunk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/splunk/agentic-access/splunk-agentic-access.yml
 summary_line: 26 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Analytics

@@ -9,49 +9,49 @@ api_specs:
   label: Xendit Balance API
   slug: xendit-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-balance-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-balance-api-openapi.yml
 - filename: xendit-customers-api-openapi.yml
   format: yaml
   label: Xendit Customers API
   slug: xendit-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-customers-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-customers-api-openapi.yml
 - filename: xendit-invoices-api-openapi.yml
   format: yaml
   label: Xendit Invoices API
   slug: xendit-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-invoices-api-openapi.yml
 - filename: xendit-payment-requests-api-openapi.yml
   format: yaml
   label: Xendit Payment Requests API
   slug: xendit-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-payment-requests-api-openapi.yml
 - filename: xendit-payment-tokens-api-openapi.yml
   format: yaml
   label: Xendit Payment Tokens API
   slug: xendit-payment-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-payment-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-payment-tokens-api-openapi.yml
 - filename: xendit-payouts-api-openapi.yml
   format: yaml
   label: Xendit Payouts API
   slug: xendit-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-payouts-api-openapi.yml
 - filename: xendit-refunds-api-openapi.yml
   format: yaml
   label: Xendit Refunds API
   slug: xendit-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-refunds-api-openapi.yml
 - filename: xendit-transactions-api-openapi.yml
   format: yaml
   label: Xendit Transactions API
   slug: xendit-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-transactions-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 10
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xendit
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transaction_id}\n  method: get\n  operationId: getTransactionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /customers\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers\n  method: get\n  operationId: getCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_id}\n  method: get\n  operationId: getCustomerById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{customer_id}\n  method: patch\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds\n  method: post\n  operationId: createRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /refunds/{refund_id}\n  method: get\n  operationId: getRefundById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/agentic-access/xendit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/xendit/agentic-access/xendit-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Payments

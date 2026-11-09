@@ -9,79 +9,79 @@ api_specs:
   label: Xero Accounting API
   slug: xero-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-accounting-api-openapi.yml
 - filename: xero-asset-api-openapi.yml
   format: yaml
   label: Xero Asset API
   slug: xero-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-asset-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-asset-api-openapi.yml
 - filename: xero-files-api-openapi.yml
   format: yaml
   label: Xero Files API
   slug: xero-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-files-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-files-api-openapi.yml
 - filename: xero-finance-api-openapi.yml
   format: yaml
   label: Xero Finance API
   slug: xero-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-finance-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-finance-api-openapi.yml
 - filename: xero-identity-api-openapi.yml
   format: yaml
   label: Xero Identity API
   slug: xero-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-identity-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-identity-api-openapi.yml
 - filename: xero-payrollau-api-openapi.yml
   format: yaml
   label: Xero PayrollAu API
   slug: xero-payrollau-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrollau-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-payrollau-api-openapi.yml
 - filename: xero-payrollnz-api-openapi.yml
   format: yaml
   label: Xero PayrollNz API
   slug: xero-payrollnz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrollnz-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-payrollnz-api-openapi.yml
 - filename: xero-payrolluk-api-openapi.yml
   format: yaml
   label: Xero PayrollUk API
   slug: xero-payrolluk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-payrolluk-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-payrolluk-api-openapi.yml
 - filename: xero-project-api-openapi.yml
   format: yaml
   label: Xero Project API
   slug: xero-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-project-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-project-api-openapi.yml
 - filename: xero-accountdata-api-openapi.yml
   format: yaml
   label: Xero Account Data API
   slug: xero-accountdata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-accountdata-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-accountdata-api-openapi.yml
 - filename: xero-feedconnections-api-openapi.yml
   format: yaml
   label: Xero Feed Connections API
   slug: xero-feedconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-feedconnections-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-feedconnections-api-openapi.yml
 - filename: xero-app-store-api-openapi.yml
   format: yaml
   label: Xero App Store API
   slug: xero-app-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-app-store-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-app-store-api-openapi.yml
 - filename: xero-bank-feeds-api-openapi.yml
   format: yaml
   label: Xero Bank Feeds API
   slug: xero-bank-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/openapi/xero-bank-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/xero/openapi/xero-bank-feeds-api-openapi.yml
 consequence_counts:
   physical: 41
   read: 252
@@ -266,8 +266,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/xero-a
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /CreditNotes/{CreditNoteID}/History\n  method: get\n  operationId: getCreditNoteHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounting.transactions\n    - accounting.transactions.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /CreditNotes/{CreditNoteID}/History\n  method: put\n  operationId: createCreditNoteHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounting.transactions\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Currencies\n  method: get\n  operationId: getCurrencies\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    scope:\n    - accounting.settings\n    - accounting.settings.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Currencies\n  method: put\n  operationId: createCurrency\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounting.settings\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Employees\n  method: get\n  operationId: getEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounting.settings\n    - accounting.settings.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Employees\n  method: put\n  operationId: createEmployees\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounting.settings\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Employees\n  method: post\n  operationId: updateOrCreateEmployees\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounting.settings\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Employees/{EmployeeID}\n  method: get\n  operationId: getEmployee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounting.settings\n    - accounting.settings.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ExpenseClaims\n  method: get\n  operationId: getExpenseClaims\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    scope:\n    - accounting.transactions\n    - accounting.transactions.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ExpenseClaims\n  method: put\n  operationId: createExpenseClaims\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounting.transactions\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ExpenseClaims/{ExpenseClaimID}\n  method: get\n  operationId: getExpenseClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounting.transactions\n    - accounting.transactions.read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (155 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/agentic-access/xero-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/agentic-access/xero-agentic-access.yml
+  \ read\n    subject: optional\n    scope:\n    - accounting.transactions\n    - accounting.transactions.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ExpenseClaims\n  method: put\n  operationId: createExpenseClaims\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - accounting.transactions\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ExpenseClaims/{ExpenseClaimID}\n  method: get\n  operationId: getExpenseClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounting.transactions\n    - accounting.transactions.read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (155 KB total) ---\n# Full source: https://artifacts.apis.io/xero/agentic-access/xero-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/xero/agentic-access/xero-agentic-access.yml
 summary_line: 466 operations · 214 acting
 tags:
 - Accounting

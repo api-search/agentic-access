@@ -9,79 +9,79 @@ api_specs:
   label: Airship Push API
   slug: airship-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-push-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-push-api-openapi.yml
 - filename: airship-segments-api-openapi.yml
   format: yaml
   label: Airship Segments API
   slug: airship-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-segments-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-segments-api-openapi.yml
 - filename: airship-reports-api-openapi.yml
   format: yaml
   label: Airship Reports API
   slug: airship-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-reports-api-openapi.yml
 - filename: airship-channels-api-openapi.yml
   format: yaml
   label: Airship Channels API
   slug: airship-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-channels-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-channels-api-openapi.yml
 - filename: airship-custom-events-api-openapi.yml
   format: yaml
   label: Airship Custom Events API
   slug: airship-custom-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-custom-events-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-custom-events-api-openapi.yml
 - filename: airship-lists-api-openapi.yml
   format: yaml
   label: Airship Lists API
   slug: airship-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-lists-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-lists-api-openapi.yml
 - filename: airship-message-center-api-openapi.yml
   format: yaml
   label: Airship Message Center API
   slug: airship-message-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-message-center-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-message-center-api-openapi.yml
 - filename: airship-named-users-api-openapi.yml
   format: yaml
   label: Airship Named Users API
   slug: airship-named-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-named-users-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-named-users-api-openapi.yml
 - filename: airship-push-api-openapi.yml
   format: yaml
   label: Airship Push API
   slug: airship-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-push-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-push-api-openapi.yml
 - filename: airship-reports-api-openapi.yml
   format: yaml
   label: Airship Reports API
   slug: airship-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-reports-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-reports-api-openapi.yml
 - filename: airship-schedules-api-openapi.yml
   format: yaml
   label: Airship Schedules API
   slug: airship-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-schedules-api-openapi.yml
 - filename: airship-segments-api-openapi.yml
   format: yaml
   label: Airship Segments API
   slug: airship-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-segments-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-segments-api-openapi.yml
 - filename: airship-templates-api-openapi.yml
   format: yaml
   label: Airship Templates API
   slug: airship-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/openapi/airship-templates-api-openapi.yml
+  url: https://artifacts.apis.io/airship/openapi/airship-templates-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/airshi
   \  method: post\n  operationId: createCustomEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - psh\n- path: /api/reports/sends\n  method: get\n  operationId: reportSends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - psh\n- path: /api/reports/opens\n  method: get\n  operationId: reportOpens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - psh\n- path: /api/templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - psh\n- path: /api/templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - psh\n- path: /api/templates/{template_id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - psh\n- path: /api/templates/{template_id}\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n    scope:\n    - psh\n- path: /api/user/messages/{push_id}\n  method: delete\n  operationId: deleteUserMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - psh\n- path: /api/user/messages/batch-delete\n  method: post\n  operationId: batchDeleteUserMessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - psh\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airship/refs/heads/main/agentic-access/airship-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airship/agentic-access/airship-agentic-access.yml
 summary_line: 29 operations · 16 acting
 tags:
 - Notification

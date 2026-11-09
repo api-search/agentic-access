@@ -8,19 +8,19 @@ api_specs:
   label: Axiom Controller Datasets API
   slug: axiom-controller-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/axiom-controller/openapi/axiom-controller-datasets-api-openapi.yml
 - filename: axiom-controller-edge-api-openapi.yml
   format: yaml
   label: Axiom Controller Edge API
   slug: axiom-controller-edge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-edge-api-openapi.yml
+  url: https://artifacts.apis.io/axiom-controller/openapi/axiom-controller-edge-api-openapi.yml
 - filename: axiom-controller-ingest-api-openapi.yml
   format: yaml
   label: Axiom Controller Ingest API
   slug: axiom-controller-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/openapi/axiom-controller-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/axiom-controller/openapi/axiom-controller-ingest-api-openapi.yml
 consequence_counts:
   physical: 4
   write: 1
@@ -69,7 +69,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/axiom-controller-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 5\n  by_consequence:\n    write: 1\n    physical: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /ingest/{dataset}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{dataset}/ingest\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edge/query\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edge/query/batch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edge/metrics\n  method:\
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/agentic-access/axiom-controller-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/axiom-controller/agentic-access/axiom-controller-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
 - Analytics

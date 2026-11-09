@@ -9,73 +9,73 @@ api_specs:
   label: E2B Events API
   slug: e2b-dev-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-events-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-events-api-openapi.yml
 - filename: e2b-dev-sandboxes-api-openapi.yml
   format: yaml
   label: E2B Sandboxes API
   slug: e2b-dev-sandboxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-sandboxes-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-sandboxes-api-openapi.yml
 - filename: e2b-dev-tags-api-openapi.yml
   format: yaml
   label: E2B Tags API
   slug: e2b-dev-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-tags-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-tags-api-openapi.yml
 - filename: e2b-dev-templates-api-openapi.yml
   format: yaml
   label: E2B Templates API
   slug: e2b-dev-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-templates-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-templates-api-openapi.yml
 - filename: e2b-dev-volumes-api-openapi.yml
   format: yaml
   label: E2B Volumes API
   slug: e2b-dev-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-volumes-api-openapi.yml
 - filename: e2b-dev-webhooks-api-openapi.yml
   format: yaml
   label: E2B Webhooks API
   slug: e2b-dev-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-webhooks-api-openapi.yml
 - filename: e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
   format: yaml
   label: E2B Sandbox Events And Webhooks API
   slug: e2b-dev-e2b-sandbox-events-and-webhooks-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-e2b-sandbox-events-and-webhooks-api-api-openapi.yml
 - filename: e2b-dev-envd-api-openapi.yml
   format: yaml
   label: E2B Envd API
   slug: e2b-dev-envd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-envd-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-envd-api-openapi.yml
 - filename: e2b-dev-filesystem-api-openapi.yml
   format: yaml
   label: E2B Filesystem API
   slug: e2b-dev-filesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-filesystem-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-filesystem-api-openapi.yml
 - filename: e2b-dev-process-api-openapi.yml
   format: yaml
   label: E2B Process API
   slug: e2b-dev-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-process-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-process-api-openapi.yml
 - filename: e2b-dev-secrets-api-openapi.yml
   format: yaml
   label: E2B Secrets API
   slug: e2b-dev-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-secrets-api-openapi.yml
 - filename: e2b-dev-teams-api-openapi.yml
   format: yaml
   label: E2B Teams API
   slug: e2b-dev-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/openapi/e2b-dev-teams-api-openapi.yml
+  url: https://artifacts.apis.io/e2b-dev/openapi/e2b-dev-teams-api-openapi.yml
 consequence_counts:
   read: 31
   safety-critical: 1
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/e2b-ap
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/webhooks/{webhookID}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumecontent/{volumeID}/path\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumecontent/{volumeID}/path\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumecontent/{volumeID}/path\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumecontent/{volumeID}/dir\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /volumecontent/{volumeID}/dir\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /volumecontent/{volumeID}/file\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /volumecontent/{volumeID}/file\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/agentic-access/e2b-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/e2b-dev/agentic-access/e2b-dev-agentic-access.yml
 summary_line: 67 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

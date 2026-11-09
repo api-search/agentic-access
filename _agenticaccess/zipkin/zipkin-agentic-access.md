@@ -9,37 +9,37 @@ api_specs:
   label: Zipkin Autocomplete API
   slug: zipkin-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/zipkin/openapi/zipkin-autocomplete-api-openapi.yml
 - filename: zipkin-dependencies-api-openapi.yml
   format: yaml
   label: Zipkin Dependencies API
   slug: zipkin-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/zipkin/openapi/zipkin-dependencies-api-openapi.yml
 - filename: zipkin-health-api-openapi.yml
   format: yaml
   label: Zipkin Health API
   slug: zipkin-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-health-api-openapi.yml
+  url: https://artifacts.apis.io/zipkin/openapi/zipkin-health-api-openapi.yml
 - filename: zipkin-services-api-openapi.yml
   format: yaml
   label: Zipkin Services API
   slug: zipkin-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-services-api-openapi.yml
+  url: https://artifacts.apis.io/zipkin/openapi/zipkin-services-api-openapi.yml
 - filename: zipkin-spans-api-openapi.yml
   format: yaml
   label: Zipkin Spans API
   slug: zipkin-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-spans-api-openapi.yml
+  url: https://artifacts.apis.io/zipkin/openapi/zipkin-spans-api-openapi.yml
 - filename: zipkin-traces-api-openapi.yml
   format: yaml
   label: Zipkin Traces API
   slug: zipkin-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/openapi/zipkin-traces-api-openapi.yml
+  url: https://artifacts.apis.io/zipkin/openapi/zipkin-traces-api-openapi.yml
 consequence_counts:
   read: 8
   write: 1
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/zipkin-api-v2.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 8\n    acting: 1\n  by_consequence:\n    read: 8\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/v2/services\n  method: get\n  operationId: getServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/spans\n  method: get\n  operationId: getSpanNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/spans\n  method: post\n  operationId:\
   \ reportSpans\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/traces\n  method: get\n  operationId: getTraces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/trace/{traceId}\n  method: get\n  operationId: getTrace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/dependencies\n  method: get\n  operationId: getDependencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/autocompleteKeys\n  method: get\n  operationId:\
   \ getAutocompleteKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/autocompleteValues\n  method: get\n  operationId: getAutocompleteValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/agentic-access/zipkin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zipkin/agentic-access/zipkin-agentic-access.yml
 summary_line: 9 operations · 1 acting
 tags:
 - Distributed Tracing

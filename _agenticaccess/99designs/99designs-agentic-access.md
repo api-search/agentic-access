@@ -9,31 +9,31 @@ api_specs:
   label: 99designs Briefs API
   slug: 99designs-briefs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-briefs-api-openapi.yml
+  url: https://artifacts.apis.io/99designs/openapi/99designs-briefs-api-openapi.yml
 - filename: 99designs-coupons-api-openapi.yml
   format: yaml
   label: 99designs Coupons API
   slug: 99designs-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/99designs/openapi/99designs-coupons-api-openapi.yml
 - filename: 99designs-designers-api-openapi.yml
   format: yaml
   label: 99designs Designers API
   slug: 99designs-designers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-designers-api-openapi.yml
+  url: https://artifacts.apis.io/99designs/openapi/99designs-designers-api-openapi.yml
 - filename: 99designs-products-api-openapi.yml
   format: yaml
   label: 99designs Products API
   slug: 99designs-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-products-api-openapi.yml
+  url: https://artifacts.apis.io/99designs/openapi/99designs-products-api-openapi.yml
 - filename: 99designs-orders-api-openapi.yml
   format: yaml
   label: 99designs Orders API
   slug: 99designs-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/openapi/99designs-orders-api-openapi.yml
+  url: https://artifacts.apis.io/99designs/openapi/99designs-orders-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/99designs-briefs-api-openapi.yml, openapi/99designs-coupons-api-openapi.yml,\n  openapi/99designs-designers-api-openapi.yml, openapi/99designs-orders-api-openapi.yml, openapi/99designs-products-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    write: 2\n    read: 5\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /briefs\n  method: post\n  operationId: createBrief\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /coupons\n  method: post\n  operationId: createCoupon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /designers\n  method: post\n  operationId: searchDesigners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /designers/{designerId}\n  method: get\n  operationId: getDesigner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /designers/{designerId}/reviews\n  method: get\n  operationId: getDesignerReviews\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /designers/{designerId}/designs\n  method: get\n  operationId: getDesignerDesigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/99designs/refs/heads/main/agentic-access/99designs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/99designs/agentic-access/99designs-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Company

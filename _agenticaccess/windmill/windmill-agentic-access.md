@@ -9,355 +9,355 @@ api_specs:
   label: Windmill Admin API
   slug: windmill-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-admin-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-admin-api-openapi.yml
 - filename: windmill-agent-workers-api-openapi.yml
   format: yaml
   label: Windmill Agent Workers API
   slug: windmill-agent-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-agent-workers-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-agent-workers-api-openapi.yml
 - filename: windmill-app-api-openapi.yml
   format: yaml
   label: Windmill App API
   slug: windmill-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-app-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-app-api-openapi.yml
 - filename: windmill-asset-api-openapi.yml
   format: yaml
   label: Windmill Asset API
   slug: windmill-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-asset-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-asset-api-openapi.yml
 - filename: windmill-audit-api-openapi.yml
   format: yaml
   label: Windmill Audit API
   slug: windmill-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-audit-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-audit-api-openapi.yml
 - filename: windmill-azure-trigger-api-openapi.yml
   format: yaml
   label: Windmill Azure Trigger API
   slug: windmill-azure-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-azure-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-azure-trigger-api-openapi.yml
 - filename: windmill-capture-api-openapi.yml
   format: yaml
   label: Windmill Capture API
   slug: windmill-capture-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-capture-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-capture-api-openapi.yml
 - filename: windmill-concurrencygroups-api-openapi.yml
   format: yaml
   label: Windmill Concurrency Groups API
   slug: windmill-concurrencygroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-concurrencygroups-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-concurrencygroups-api-openapi.yml
 - filename: windmill-config-api-openapi.yml
   format: yaml
   label: Windmill Config API
   slug: windmill-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-config-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-config-api-openapi.yml
 - filename: windmill-documentation-api-openapi.yml
   format: yaml
   label: Windmill Documentation API
   slug: windmill-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-documentation-api-openapi.yml
 - filename: windmill-draft-api-openapi.yml
   format: yaml
   label: Windmill Draft API
   slug: windmill-draft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-draft-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-draft-api-openapi.yml
 - filename: windmill-email-trigger-api-openapi.yml
   format: yaml
   label: Windmill Email Trigger API
   slug: windmill-email-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-email-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-email-trigger-api-openapi.yml
 - filename: windmill-favorite-api-openapi.yml
   format: yaml
   label: Windmill Favorite API
   slug: windmill-favorite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-favorite-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-favorite-api-openapi.yml
 - filename: windmill-flow-api-openapi.yml
   format: yaml
   label: Windmill Flow API
   slug: windmill-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-flow-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-flow-api-openapi.yml
 - filename: windmill-flow-conversations-api-openapi.yml
   format: yaml
   label: Windmill Flow Conversations API
   slug: windmill-flow-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-flow-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-flow-conversations-api-openapi.yml
 - filename: windmill-folder-api-openapi.yml
   format: yaml
   label: Windmill Folder API
   slug: windmill-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-folder-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-folder-api-openapi.yml
 - filename: windmill-gcp-trigger-api-openapi.yml
   format: yaml
   label: Windmill Gcp Trigger API
   slug: windmill-gcp-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-gcp-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-gcp-trigger-api-openapi.yml
 - filename: windmill-git-sync-api-openapi.yml
   format: yaml
   label: Windmill Git Sync API
   slug: windmill-git-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-git-sync-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-git-sync-api-openapi.yml
 - filename: windmill-granular-acl-api-openapi.yml
   format: yaml
   label: Windmill Granular Acl API
   slug: windmill-granular-acl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-granular-acl-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-granular-acl-api-openapi.yml
 - filename: windmill-group-api-openapi.yml
   format: yaml
   label: Windmill Group API
   slug: windmill-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-group-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-group-api-openapi.yml
 - filename: windmill-health-api-openapi.yml
   format: yaml
   label: Windmill Health API
   slug: windmill-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-health-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-health-api-openapi.yml
 - filename: windmill-helpers-api-openapi.yml
   format: yaml
   label: Windmill Helpers API
   slug: windmill-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-helpers-api-openapi.yml
 - filename: windmill-http-trigger-api-openapi.yml
   format: yaml
   label: Windmill HTTP Trigger API
   slug: windmill-http-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-http-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-http-trigger-api-openapi.yml
 - filename: windmill-indexsearch-api-openapi.yml
   format: yaml
   label: Windmill Index Search API
   slug: windmill-indexsearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-indexsearch-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-indexsearch-api-openapi.yml
 - filename: windmill-input-api-openapi.yml
   format: yaml
   label: Windmill Input API
   slug: windmill-input-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-input-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-input-api-openapi.yml
 - filename: windmill-integration-api-openapi.yml
   format: yaml
   label: Windmill Integration API
   slug: windmill-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-integration-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-integration-api-openapi.yml
 - filename: windmill-job-api-openapi.yml
   format: yaml
   label: Windmill Job API
   slug: windmill-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-job-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-job-api-openapi.yml
 - filename: windmill-kafka-trigger-api-openapi.yml
   format: yaml
   label: Windmill Kafka Trigger API
   slug: windmill-kafka-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-kafka-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-kafka-trigger-api-openapi.yml
 - filename: windmill-mcp-api-openapi.yml
   format: yaml
   label: Windmill MCP API
   slug: windmill-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-mcp-api-openapi.yml
 - filename: windmill-mcp-oauth-api-openapi.yml
   format: yaml
   label: Windmill MCP OAUTH API
   slug: windmill-mcp-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-mcp-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-mcp-oauth-api-openapi.yml
 - filename: windmill-metrics-api-openapi.yml
   format: yaml
   label: Windmill Metrics API
   slug: windmill-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-metrics-api-openapi.yml
 - filename: windmill-mqtt-trigger-api-openapi.yml
   format: yaml
   label: Windmill Mqtt Trigger API
   slug: windmill-mqtt-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-mqtt-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-mqtt-trigger-api-openapi.yml
 - filename: windmill-native-trigger-api-openapi.yml
   format: yaml
   label: Windmill Native Trigger API
   slug: windmill-native-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-native-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-native-trigger-api-openapi.yml
 - filename: windmill-nats-trigger-api-openapi.yml
   format: yaml
   label: Windmill Nats Trigger API
   slug: windmill-nats-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-nats-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-nats-trigger-api-openapi.yml
 - filename: windmill-npm-proxy-api-openapi.yml
   format: yaml
   label: Windmill Npm Proxy API
   slug: windmill-npm-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-npm-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-npm-proxy-api-openapi.yml
 - filename: windmill-oidc-api-openapi.yml
   format: yaml
   label: Windmill Oidc API
   slug: windmill-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-oidc-api-openapi.yml
 - filename: windmill-path-autocomplete-api-openapi.yml
   format: yaml
   label: Windmill Path Autocomplete API
   slug: windmill-path-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-path-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-path-autocomplete-api-openapi.yml
 - filename: windmill-postgres-trigger-api-openapi.yml
   format: yaml
   label: Windmill Postgres Trigger API
   slug: windmill-postgres-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-postgres-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-postgres-trigger-api-openapi.yml
 - filename: windmill-raw-app-api-openapi.yml
   format: yaml
   label: Windmill Raw App API
   slug: windmill-raw-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-raw-app-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-raw-app-api-openapi.yml
 - filename: windmill-resource-api-openapi.yml
   format: yaml
   label: Windmill Resource API
   slug: windmill-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-resource-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-resource-api-openapi.yml
 - filename: windmill-schedule-api-openapi.yml
   format: yaml
   label: Windmill Schedule API
   slug: windmill-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-schedule-api-openapi.yml
 - filename: windmill-script-api-openapi.yml
   format: yaml
   label: Windmill Script API
   slug: windmill-script-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-script-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-script-api-openapi.yml
 - filename: windmill-service-logs-api-openapi.yml
   format: yaml
   label: Windmill Service Logs API
   slug: windmill-service-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-service-logs-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-service-logs-api-openapi.yml
 - filename: windmill-setting-api-openapi.yml
   format: yaml
   label: Windmill Setting API
   slug: windmill-setting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-setting-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-setting-api-openapi.yml
 - filename: windmill-settings-api-openapi.yml
   format: yaml
   label: Windmill Settings API
   slug: windmill-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-settings-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-settings-api-openapi.yml
 - filename: windmill-sqs-trigger-api-openapi.yml
   format: yaml
   label: Windmill Sqs Trigger API
   slug: windmill-sqs-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-sqs-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-sqs-trigger-api-openapi.yml
 - filename: windmill-teams-api-openapi.yml
   format: yaml
   label: Windmill Teams API
   slug: windmill-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-teams-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-teams-api-openapi.yml
 - filename: windmill-token-api-openapi.yml
   format: yaml
   label: Windmill Token API
   slug: windmill-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-token-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-token-api-openapi.yml
 - filename: windmill-trigger-api-openapi.yml
   format: yaml
   label: Windmill Trigger API
   slug: windmill-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-trigger-api-openapi.yml
 - filename: windmill-user-api-openapi.yml
   format: yaml
   label: Windmill User API
   slug: windmill-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-user-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-user-api-openapi.yml
 - filename: windmill-variable-api-openapi.yml
   format: yaml
   label: Windmill Variable API
   slug: windmill-variable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-variable-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-variable-api-openapi.yml
 - filename: windmill-volume-api-openapi.yml
   format: yaml
   label: Windmill Volume API
   slug: windmill-volume-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-volume-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-volume-api-openapi.yml
 - filename: windmill-websocket-trigger-api-openapi.yml
   format: yaml
   label: Windmill Websocket Trigger API
   slug: windmill-websocket-trigger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-websocket-trigger-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-websocket-trigger-api-openapi.yml
 - filename: windmill-worker-api-openapi.yml
   format: yaml
   label: Windmill Worker API
   slug: windmill-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-worker-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-worker-api-openapi.yml
 - filename: windmill-workspace-api-openapi.yml
   format: yaml
   label: Windmill Workspace API
   slug: windmill-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-workspace-api-openapi.yml
 - filename: windmill-workspace-dependencies-api-openapi.yml
   format: yaml
   label: Windmill Workspace Dependencies API
   slug: windmill-workspace-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-workspace-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-workspace-dependencies-api-openapi.yml
 - filename: windmill-workspace-integration-api-openapi.yml
   format: yaml
   label: Windmill Workspace Integration API
   slug: windmill-workspace-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-workspace-integration-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-workspace-integration-api-openapi.yml
 - filename: windmill-oauth-api-openapi.yml
   format: yaml
   label: Windmill OAUTH API
   slug: windmill-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-oauth-api-openapi.yml
 - filename: windmill-open-api-api-openapi.yml
   format: yaml
   label: Windmill Open API
   slug: windmill-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/openapi/windmill-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/windmill/openapi/windmill-open-api-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 370
@@ -506,8 +506,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/windmi
   \      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /w/{workspace}/favorites/star\n  method: post\n  operationId: star\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /w/{workspace}/favorites/unstar\n  method: post\n  operationId: unstar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/hub/list\n  method: get\n  operationId: listHubFlows\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flows/hub/get/{id}\n  method: get\n  operationId: getHubFlowById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/list_paths\n  method: get\n  operationId: listFlowPaths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/list_search\n  method: get\n  operationId: listSearchFlow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/list\n  method: get\n  operationId: listFlows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /w/{workspace}/flows/history/p/{path}\n  method: get\n  operationId: getFlowHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/get_latest_version/{path}\n  method: get\n  operationId: getFlowLatestVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/list_paths_from_workspace_runnable/{runnable_kind}/{path}\n  method: get\n  operationId: listFlowPathsFromWorkspaceRunnable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/get/v/{version}\n  method: get\n  operationId: getFlowVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
-  \      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/history_update/v/{version}\n  method: post\n  operationId: updateFlowHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /w/{workspace}/flows/get/{path}\n  method: get\n  operationId: getFlowByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/deployment_status/p/{path}\n  method: get\n  operationId: getFlowDeploymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (212 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/agentic-access/windmill-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/agentic-access/windmill-agentic-access.yml
+  \      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/history_update/v/{version}\n  method: post\n  operationId: updateFlowHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /w/{workspace}/flows/get/{path}\n  method: get\n  operationId: getFlowByPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /w/{workspace}/flows/deployment_status/p/{path}\n  method: get\n  operationId: getFlowDeploymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (212 KB total) ---\n# Full source: https://artifacts.apis.io/windmill/agentic-access/windmill-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/windmill/agentic-access/windmill-agentic-access.yml
 summary_line: 721 operations · 351 acting · 6 human-in-the-loop
 tags:
 - Automation

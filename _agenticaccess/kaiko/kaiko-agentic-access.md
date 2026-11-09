@@ -8,25 +8,25 @@ api_specs:
   label: Kaiko Canton Oracle API
   slug: kaiko-canton-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-canton-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-canton-oracle-api-openapi.yml
 - filename: kaiko-index-reference-data-api-openapi.yml
   format: yaml
   label: Kaiko Index Reference Data API
   slug: kaiko-index-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-index-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-index-reference-data-api-openapi.yml
 - filename: kaiko-indices-api-openapi.yml
   format: yaml
   label: Kaiko Indices API
   slug: kaiko-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-indices-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-indices-api-openapi.yml
 - filename: kaiko-supply-api-openapi.yml
   format: yaml
   label: Kaiko Supply API
   slug: kaiko-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/openapi/kaiko-supply-api-openapi.yml
+  url: https://artifacts.apis.io/kaiko/openapi/kaiko-supply-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kaiko-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /data/canton/oracle/price/btc-usd\n  method: get\n  operationId: getCantonOracleBtcUsdPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/canton/oracle/brr/btc-usd\n  method: get\n  operationId: getCantonOracleBtcUsdBrr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/index_reference_data.v1/rates\n\
   \  method: get\n  operationId: getIndexReferenceRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/index.v1/digital_asset_rates_compo\n  method: get\n  operationId: getIndexDigitalAssetRatesComposition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/supply.v2/top\n  method: get\n  operationId: getTopSupplyAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/agentic-access/kaiko-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kaiko/agentic-access/kaiko-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Web3

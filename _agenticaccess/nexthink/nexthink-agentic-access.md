@@ -9,49 +9,49 @@ api_specs:
   label: Nexthink Campaigns API
   slug: nexthink-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-campaigns-api-openapi.yml
 - filename: nexthink-device-deletions-api-openapi.yml
   format: yaml
   label: Nexthink Device Deletions API
   slug: nexthink-device-deletions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-device-deletions-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-device-deletions-api-openapi.yml
 - filename: nexthink-enrichment-api-openapi.yml
   format: yaml
   label: Nexthink Enrichment API
   slug: nexthink-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-enrichment-api-openapi.yml
 - filename: nexthink-execute-api-openapi.yml
   format: yaml
   label: Nexthink Execute API
   slug: nexthink-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-execute-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-execute-api-openapi.yml
 - filename: nexthink-export-api-openapi.yml
   format: yaml
   label: Nexthink Export API
   slug: nexthink-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-export-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-export-api-openapi.yml
 - filename: nexthink-handoff-api-api-openapi.yml
   format: yaml
   label: Nexthink Handoff API
   slug: nexthink-handoff-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-handoff-api-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-handoff-api-api-openapi.yml
 - filename: nexthink-remote-actions-api-openapi.yml
   format: yaml
   label: Nexthink Remote actions API
   slug: nexthink-remote-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-remote-actions-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-remote-actions-api-openapi.yml
 - filename: nexthink-workflows-api-openapi.yml
   format: yaml
   label: Nexthink Workflows API
   slug: nexthink-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/openapi/nexthink-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/nexthink/openapi/nexthink-workflows-api-openapi.yml
 consequence_counts:
   read: 6
   write: 11
@@ -84,7 +84,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/nexthi
   \  method: get\n  operationId: getRemoteActionByNqlId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/spark/handoff\n  method: post\n  operationId: handleHandoffRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows/execute\n  method: post\n  operationId: executeEA\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/workflows/execute\n  method: post\n  operationId: executeEAWithExternalIds\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows/workflows/{workflowUuid}/execution/{executionUuid}/trigger\n  method: post\n  operationId: triggerThinklet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/workflows\n  method: get\n  operationId: getAllWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/workflows/details\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexthink/refs/heads/main/agentic-access/nexthink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nexthink/agentic-access/nexthink-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Company

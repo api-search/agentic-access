@@ -9,31 +9,31 @@ api_specs:
   label: SSL/TLS Certificates API
   slug: ssl-tls-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-certificates-api-openapi.yml
 - filename: ssl-tls-domains-api-openapi.yml
   format: yaml
   label: SSL/TLS Domains API
   slug: ssl-tls-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-domains-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-domains-api-openapi.yml
 - filename: ssl-tls-monitoring-api-openapi.yml
   format: yaml
   label: SSL/TLS Monitoring API
   slug: ssl-tls-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-monitoring-api-openapi.yml
 - filename: ssl-tls-orders-api-openapi.yml
   format: yaml
   label: SSL/TLS Orders API
   slug: ssl-tls-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-orders-api-openapi.yml
 - filename: ssl-tls-revocation-api-openapi.yml
   format: yaml
   label: SSL/TLS Revocation API
   slug: ssl-tls-revocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-revocation-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-revocation-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ssl-tl
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /certificates/{certificateId}\n  method: get\n  operationId: getCertificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates/{certificateId}/download\n  method: get\n  operationId: downloadCertificate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /certificates/{certificateId}/renew\n  method: post\n  operationId: renewCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /certificates/{certificateId}/revoke\n  method: post\n  operationId: revokeCertificate\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/challenges/{challengeId}/verify\n  method: post\n  operationId: verifyChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains\n  method: get\n  operationId: listDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /monitoring/expiring\n  method: get\n  operationId: getExpiringCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/agentic-access/ssl-tls-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ssl-tls/agentic-access/ssl-tls-agentic-access.yml
 summary_line: 11 operations · 4 acting · 1 human-in-the-loop
 tags:
 - SSL/TLS

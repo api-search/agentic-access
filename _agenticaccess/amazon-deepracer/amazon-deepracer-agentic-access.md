@@ -9,25 +9,25 @@ api_specs:
   label: Amazon DeepRacer Cars API
   slug: amazon-deepracer-cars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-cars-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-cars-api-openapi.yml
 - filename: amazon-deepracer-leaderboards-api-openapi.yml
   format: yaml
   label: Amazon DeepRacer Leaderboards API
   slug: amazon-deepracer-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-leaderboards-api-openapi.yml
 - filename: amazon-deepracer-models-api-openapi.yml
   format: yaml
   label: Amazon DeepRacer Models API
   slug: amazon-deepracer-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-models-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-models-api-openapi.yml
 - filename: amazon-deepracer-tracks-api-openapi.yml
   format: yaml
   label: Amazon DeepRacer Tracks API
   slug: amazon-deepracer-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/openapi/amazon-deepracer-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-deepracer/openapi/amazon-deepracer-tracks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -57,10 +57,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  operationId: updateCar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /20201101/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /20201101/models/{modelArn}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /20201101/models/{modelArn}\n  method: delete\n  operationId: deleteModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /20201101/leaderboards\n  method: get\n  operationId: listLeaderboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /20201101/leaderboards/{arn}\n  method: get\n  operationId: getLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /20201101/leaderboards/{arn}/rankings\n  method: get\n  operationId: listLeaderboardSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /20201101/tracks\n  method: get\n  operationId: listTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-deepracer/refs/heads/main/agentic-access/amazon-deepracer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-deepracer/agentic-access/amazon-deepracer-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Autonomous Vehicles
+- Amazon Web Services
 - Machine Learning
 - Reinforcement Learning
 - Robotics

@@ -9,223 +9,223 @@ api_specs:
   label: Mux Animated Images API
   slug: mux-com-animated-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-animated-images-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-animated-images-api-openapi.yml
 - filename: mux-com-annotations-api-openapi.yml
   format: yaml
   label: Mux Annotations API
   slug: mux-com-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-annotations-api-openapi.yml
 - filename: mux-com-ask-questions-api-openapi.yml
   format: yaml
   label: Mux Ask Questions API
   slug: mux-com-ask-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-ask-questions-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-ask-questions-api-openapi.yml
 - filename: mux-com-assets-api-openapi.yml
   format: yaml
   label: Mux Assets API
   slug: mux-com-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-assets-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-assets-api-openapi.yml
 - filename: mux-com-captions-and-transcripts-api-openapi.yml
   format: yaml
   label: Mux Captions and Transcripts API
   slug: mux-com-captions-and-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-captions-and-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-captions-and-transcripts-api-openapi.yml
 - filename: mux-com-delivery-usage-api-openapi.yml
   format: yaml
   label: Mux Delivery Usage API
   slug: mux-com-delivery-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-delivery-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-delivery-usage-api-openapi.yml
 - filename: mux-com-dimensions-api-openapi.yml
   format: yaml
   label: Mux Dimensions API
   slug: mux-com-dimensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-dimensions-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-dimensions-api-openapi.yml
 - filename: mux-com-direct-uploads-api-openapi.yml
   format: yaml
   label: Mux Direct Uploads API
   slug: mux-com-direct-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-direct-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-direct-uploads-api-openapi.yml
 - filename: mux-com-drm-configurations-api-openapi.yml
   format: yaml
   label: Mux DRM Configurations API
   slug: mux-com-drm-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-drm-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-drm-configurations-api-openapi.yml
 - filename: mux-com-edit-captions-api-openapi.yml
   format: yaml
   label: Mux Edit Captions API
   slug: mux-com-edit-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-edit-captions-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-edit-captions-api-openapi.yml
 - filename: mux-com-errors-api-openapi.yml
   format: yaml
   label: Mux Errors API
   slug: mux-com-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-errors-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-errors-api-openapi.yml
 - filename: mux-com-exports-api-openapi.yml
   format: yaml
   label: Mux Exports API
   slug: mux-com-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-exports-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-exports-api-openapi.yml
 - filename: mux-com-filters-api-openapi.yml
   format: yaml
   label: Mux Filters API
   slug: mux-com-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-filters-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-filters-api-openapi.yml
 - filename: mux-com-find-key-moments-api-openapi.yml
   format: yaml
   label: Mux Find Key Moments API
   slug: mux-com-find-key-moments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-find-key-moments-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-find-key-moments-api-openapi.yml
 - filename: mux-com-generate-chapters-api-openapi.yml
   format: yaml
   label: Mux Generate Chapters API
   slug: mux-com-generate-chapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-generate-chapters-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-generate-chapters-api-openapi.yml
 - filename: mux-com-incidents-api-openapi.yml
   format: yaml
   label: Mux Incidents API
   slug: mux-com-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-incidents-api-openapi.yml
 - filename: mux-com-jobs-api-openapi.yml
   format: yaml
   label: Mux Jobs API
   slug: mux-com-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-jobs-api-openapi.yml
 - filename: mux-com-live-streams-api-openapi.yml
   format: yaml
   label: Mux Live Streams API
   slug: mux-com-live-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-live-streams-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-live-streams-api-openapi.yml
 - filename: mux-com-metrics-api-openapi.yml
   format: yaml
   label: Mux Metrics API
   slug: mux-com-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-metrics-api-openapi.yml
 - filename: mux-com-moderate-api-openapi.yml
   format: yaml
   label: Mux Moderate API
   slug: mux-com-moderate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-moderate-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-moderate-api-openapi.yml
 - filename: mux-com-monitoring-api-openapi.yml
   format: yaml
   label: Mux Monitoring API
   slug: mux-com-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-monitoring-api-openapi.yml
 - filename: mux-com-playback-id-api-openapi.yml
   format: yaml
   label: Mux Playback ID API
   slug: mux-com-playback-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-playback-id-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-playback-id-api-openapi.yml
 - filename: mux-com-playback-restrictions-api-openapi.yml
   format: yaml
   label: Mux Playback Restrictions API
   slug: mux-com-playback-restrictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-playback-restrictions-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-playback-restrictions-api-openapi.yml
 - filename: mux-com-signing-keys-api-openapi.yml
   format: yaml
   label: Mux Signing Keys API
   slug: mux-com-signing-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-signing-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-signing-keys-api-openapi.yml
 - filename: mux-com-storyboards-api-openapi.yml
   format: yaml
   label: Mux Storyboards API
   slug: mux-com-storyboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-storyboards-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-storyboards-api-openapi.yml
 - filename: mux-com-streaming-api-openapi.yml
   format: yaml
   label: Mux Streaming API
   slug: mux-com-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-streaming-api-openapi.yml
 - filename: mux-com-summarize-api-openapi.yml
   format: yaml
   label: Mux Summarize API
   slug: mux-com-summarize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-summarize-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-summarize-api-openapi.yml
 - filename: mux-com-thumbnails-api-openapi.yml
   format: yaml
   label: Mux Thumbnails API
   slug: mux-com-thumbnails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-thumbnails-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-thumbnails-api-openapi.yml
 - filename: mux-com-transcription-vocabularies-api-openapi.yml
   format: yaml
   label: Mux Transcription Vocabularies API
   slug: mux-com-transcription-vocabularies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-transcription-vocabularies-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-transcription-vocabularies-api-openapi.yml
 - filename: mux-com-translate-captions-api-openapi.yml
   format: yaml
   label: Mux Translate Captions API
   slug: mux-com-translate-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-translate-captions-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-translate-captions-api-openapi.yml
 - filename: mux-com-url-signing-keys-api-openapi.yml
   format: yaml
   label: Mux URL Signing Keys API
   slug: mux-com-url-signing-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-url-signing-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-url-signing-keys-api-openapi.yml
 - filename: mux-com-utilities-api-openapi.yml
   format: yaml
   label: Mux Utilities API
   slug: mux-com-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-utilities-api-openapi.yml
 - filename: mux-com-video-views-api-openapi.yml
   format: yaml
   label: Mux Video Views API
   slug: mux-com-video-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-video-views-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-video-views-api-openapi.yml
 - filename: mux-com-view-and-viewer-counts-api-openapi.yml
   format: yaml
   label: Mux View and Viewer Counts API
   slug: mux-com-view-and-viewer-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-view-and-viewer-counts-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-view-and-viewer-counts-api-openapi.yml
 - filename: mux-com-playback-ids-api-openapi.yml
   format: yaml
   label: Mux Playback IDs API
   slug: mux-com-playback-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-playback-ids-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-playback-ids-api-openapi.yml
 - filename: mux-com-mux-api-api-openapi.yml
   format: yaml
   label: Mux API
   slug: mux-com-mux-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-mux-api-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-mux-api-api-openapi.yml
 - filename: mux-com-realtime-api-openapi.yml
   format: yaml
   label: Mux Realtime API
   slug: mux-com-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/openapi/mux-com-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/mux-com/openapi/mux-com-realtime-api-openapi.yml
 consequence_counts:
   read: 72
   safety-critical: 2
@@ -298,8 +298,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mux-op
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/v1/signing-keys\n  method: get\n  operationId: list-signing-keys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/v1/signing-keys/{SIGNING_KEY_ID}\n  method: get\n  operationId: get-signing-key\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /system/v1/signing-keys/{SIGNING_KEY_ID}\n  method: delete\n  operationId: delete-signing-key\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /robots/v0/jobs\n  method: get\n  operationId: list-jobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots/v0/jobs/{JOB_ID}/cancel\n  method: post\n  operationId: cancel-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /robots/v0/jobs/ask-questions\n  method: post\n  operationId: create-ask-questions-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /robots/v0/jobs/ask-questions/{JOB_ID}\n  method:\
   \ get\n  operationId: get-ask-questions-job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots/v0/jobs/edit-captions\n  method: post\n  operationId: create-edit-captions-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /robots/v0/jobs/edit-captions/{JOB_ID}\n  method: get\n  operationId: get-edit-captions-job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots/v0/jobs/find-key-moments\n  method: post\n  operationId: create-find-key-moments-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /robots/v0/jobs/find-key-moments/{JOB_ID}\n  method: get\n  operationId: get-find-key-moments-job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots/v0/jobs/generate-chapters\n  method: post\n  operationId: create-generate-chapters-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/agentic-access/mux-com-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mux-com/refs/heads/main/agentic-access/mux-com-agentic-access.yml
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /robots/v0/jobs/find-key-moments/{JOB_ID}\n  method: get\n  operationId: get-find-key-moments-job\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /robots/v0/jobs/generate-chapters\n  method: post\n  operationId: create-generate-chapters-job\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/mux-com/agentic-access/mux-com-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mux-com/agentic-access/mux-com-agentic-access.yml
 summary_line: 124 operations · 52 acting · 2 human-in-the-loop
 tags:
 - Video Infrastructure

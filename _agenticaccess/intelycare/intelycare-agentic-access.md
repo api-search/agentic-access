@@ -8,25 +8,25 @@ api_specs:
   label: IntelyCare Check In / Check Out API
   slug: intelycare-check-in-check-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-check-in-check-out-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-check-in-check-out-api-openapi.yml
 - filename: intelycare-shift-api-openapi.yml
   format: yaml
   label: IntelyCare Shift API
   slug: intelycare-shift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-shift-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-shift-api-openapi.yml
 - filename: intelycare-webhook-events-api-openapi.yml
   format: yaml
   label: IntelyCare Webhook Events API
   slug: intelycare-webhook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-webhook-events-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-webhook-events-api-openapi.yml
 - filename: intelycare-time-card-api-openapi.yml
   format: yaml
   label: IntelyCare Time Card API
   slug: intelycare-time-card-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/openapi/intelycare-time-card-api-openapi.yml
+  url: https://artifacts.apis.io/intelycare/openapi/intelycare-time-card-api-openapi.yml
 consequence_counts:
   write: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: generated\nsource: openapi/intelycare-external-scheduling-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 6\n  by_consequence:\n    write: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /api/shifts\n  method: post\n  operationId: shift_create_api_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/shifts/{shiftId}\n  method: put\n  operationId: shift_update_api_v1\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/shifts/{shiftId}\n  method: delete\n  operationId: shift_delete_api_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/timecards\n  method: post\n  operationId: timecard_create_api_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/timecards\n  method: put\n  operationId:\
   \ update_timecard_api_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clockinout/{platform_type}\n  method: post\n  operationId: check_in_out_api_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/intelycare/refs/heads/main/agentic-access/intelycare-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/intelycare/agentic-access/intelycare-agentic-access.yml
 summary_line: 6 operations · 6 acting
 tags:
 - Healthcare

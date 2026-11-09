@@ -9,25 +9,25 @@ api_specs:
   label: Stacker Accounts API
   slug: stacker-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-accounts-api-openapi.yml
 - filename: stacker-hello-api-openapi.yml
   format: yaml
   label: Stacker Hello API
   slug: stacker-hello-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-hello-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-hello-api-openapi.yml
 - filename: stacker-objects-api-openapi.yml
   format: yaml
   label: Stacker Objects API
   slug: stacker-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-objects-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-objects-api-openapi.yml
 - filename: stacker-records-api-openapi.yml
   format: yaml
   label: Stacker Records API
   slug: stacker-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/openapi/stacker-records-api-openapi.yml
+  url: https://artifacts.apis.io/stacker/openapi/stacker-records-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/stacke
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/objects/\n  method: get\n  operationId: listObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/objects/{object_sid}/action-buttons/\n  method: get\n  operationId: listActionButtons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/objects/{object_sid}/search/\n  method: post\n  operationId: searchRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/objects/{object_sid}/records/\n  method: post\n  operationId: createRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/objects/{object_sid}/records/{record_sid}/\n  method: get\n  operationId: getRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/external/objects/{object_sid}/records/{record_sid}/\n  method: patch\n  operationId: updateRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/objects/{object_sid}/records/{record_sid}/\n  method: delete\n  operationId: deleteRecord\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/external/objects/{object_sid}/bulk-records/\n  method: post\n  operationId: bulkUpsertRecords\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stacker/refs/heads/main/agentic-access/stacker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stacker/agentic-access/stacker-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Application Development

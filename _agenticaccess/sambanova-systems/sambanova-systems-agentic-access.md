@@ -9,73 +9,73 @@ api_specs:
   label: SambaNova Systems Audio API
   slug: sambanova-systems-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-audio-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-audio-api-openapi.yml
 - filename: sambanova-systems-chat-completions-api-openapi.yml
   format: yaml
   label: SambaNova Systems Chat completions API
   slug: sambanova-systems-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-chat-completions-api-openapi.yml
 - filename: sambanova-systems-completions-api-openapi.yml
   format: yaml
   label: SambaNova Systems Completions API
   slug: sambanova-systems-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-completions-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-completions-api-openapi.yml
 - filename: sambanova-systems-embeddings-api-openapi.yml
   format: yaml
   label: SambaNova Systems Embeddings API
   slug: sambanova-systems-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-embeddings-api-openapi.yml
 - filename: sambanova-systems-file-management-api-openapi.yml
   format: yaml
   label: SambaNova Systems File Management API
   slug: sambanova-systems-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-file-management-api-openapi.yml
 - filename: sambanova-systems-main-agent-api-openapi.yml
   format: yaml
   label: SambaNova Systems Main Agent API
   slug: sambanova-systems-main-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-main-agent-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-main-agent-api-openapi.yml
 - filename: sambanova-systems-main-agent-interactive-api-openapi.yml
   format: yaml
   label: SambaNova Systems Main Agent Interactive API
   slug: sambanova-systems-main-agent-interactive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-main-agent-interactive-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-main-agent-interactive-api-openapi.yml
 - filename: sambanova-systems-messages-api-openapi.yml
   format: yaml
   label: SambaNova Systems Messages API
   slug: sambanova-systems-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-messages-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-messages-api-openapi.yml
 - filename: sambanova-systems-models-api-openapi.yml
   format: yaml
   label: SambaNova Systems Models API
   slug: sambanova-systems-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-models-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-models-api-openapi.yml
 - filename: sambanova-systems-responses-api-openapi.yml
   format: yaml
   label: SambaNova Systems Responses API
   slug: sambanova-systems-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-responses-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-responses-api-openapi.yml
 - filename: sambanova-systems-subagents-api-openapi.yml
   format: yaml
   label: SambaNova Systems Subagents API
   slug: sambanova-systems-subagents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-subagents-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-subagents-api-openapi.yml
 - filename: sambanova-systems-subagents-interactive-api-openapi.yml
   format: yaml
   label: SambaNova Systems Subagents Interactive API
   slug: sambanova-systems-subagents-interactive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/openapi/sambanova-systems-subagents-interactive-api-openapi.yml
+  url: https://artifacts.apis.io/sambanova-systems/openapi/sambanova-systems-subagents-interactive-api-openapi.yml
 consequence_counts:
   read: 3
   write: 18
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/samban
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/count_tokens\n  method: post\n  operationId: countMessageTokens\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embeddings\n  method: post\n  operationId: createEmbedding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/transcriptions\n  method: post\n  operationId: createTranscription\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /audio/translations\n  method: post\n  operationId: createTranslation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: getModelList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{model_id}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sambanova-systems/refs/heads/main/agentic-access/sambanova-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sambanova-systems/agentic-access/sambanova-systems-agentic-access.yml
 summary_line: 21 operations · 18 acting
 tags:
 - Company
@@ -121,4 +121,6 @@ tags:
 - Generative AI
 - Agents
 - Embeddings
+- Platform
+- Enterprise
 ---

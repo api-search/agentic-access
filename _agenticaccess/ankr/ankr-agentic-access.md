@@ -9,43 +9,43 @@ api_specs:
   label: ankr Metrics API
   slug: ankr-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-metrics-api-openapi.yml
 - filename: ankr-nft-api-openapi.yml
   format: yaml
   label: ankr NFT API
   slug: ankr-nft-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-nft-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-nft-api-openapi.yml
 - filename: ankr-query-api-openapi.yml
   format: yaml
   label: ankr Query API
   slug: ankr-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-query-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-query-api-openapi.yml
 - filename: ankr-ratio-api-openapi.yml
   format: yaml
   label: ankr Ratio API
   slug: ankr-ratio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-ratio-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-ratio-api-openapi.yml
 - filename: ankr-tasks-api-openapi.yml
   format: yaml
   label: ankr Tasks API
   slug: ankr-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-tasks-api-openapi.yml
 - filename: ankr-token-api-openapi.yml
   format: yaml
   label: ankr Token API
   slug: ankr-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-token-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-token-api-openapi.yml
 - filename: ankr-validators-api-openapi.yml
   format: yaml
   label: ankr Validators API
   slug: ankr-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/openapi/ankr-validators-api-openapi.yml
+  url: https://artifacts.apis.io/ankr/openapi/ankr-validators-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ankr-a
   \  max-ttl: 3600\n    audit: none\n- path: /v1/tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tasks/{taskId}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /\n  method: post\n  operationId: callRpc\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/metrics\n  method: get\n  operationId: getStakingMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/metrics/{token}\n  method: get\n  operationId: getStakingMetricsByToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/ratio/{token}\n  method: get\n  operationId: getTrustlessRatio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/validators/{chain}\n  method: get\n  operationId: getValidators\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/agentic-access/ankr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ankr/agentic-access/ankr-agentic-access.yml
 summary_line: 26 operations · 20 acting
 tags:
 - Web3

@@ -9,37 +9,37 @@ api_specs:
   label: Silverpop Authentication API
   slug: silverpop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-authentication-api-openapi.yml
 - filename: silverpop-campaigns-api-openapi.yml
   format: yaml
   label: Silverpop Campaigns API
   slug: silverpop-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-campaigns-api-openapi.yml
 - filename: silverpop-contacts-api-openapi.yml
   format: yaml
   label: Silverpop Contacts API
   slug: silverpop-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-contacts-api-openapi.yml
 - filename: silverpop-programs-api-openapi.yml
   format: yaml
   label: Silverpop Programs API
   slug: silverpop-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-programs-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-programs-api-openapi.yml
 - filename: silverpop-reports-api-openapi.yml
   format: yaml
   label: Silverpop Reports API
   slug: silverpop-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-reports-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-reports-api-openapi.yml
 - filename: silverpop-transactional-api-openapi.yml
   format: yaml
   label: Silverpop Transactional API
   slug: silverpop-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/openapi/silverpop-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/silverpop/openapi/silverpop-transactional-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/silver
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/mailings/{mailing_id}\n  method: get\n  operationId: getCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/mailings/{mailing_id}/schedule\n  method: post\n  operationId: scheduleCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/transact/xmlapi\n  method: post\n  operationId: sendTransactionalMessage\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/reports/mailings/{mailing_id}/summary\n  method: get\n  operationId: getCampaignSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/reports/mailings/{mailing_id}/opens\n  method: get\n  operationId: getCampaignOpens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/reports/mailings/{mailing_id}/clicks\n  method: get\n  operationId: getCampaignClicks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /rest/programs\n  method: get\n  operationId: listPrograms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/programs/{program_id}\n  method: get\n  operationId: getProgram\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/silverpop/refs/heads/main/agentic-access/silverpop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/silverpop/agentic-access/silverpop-agentic-access.yml
 summary_line: 17 operations · 7 acting
 tags:
 - Email Marketing

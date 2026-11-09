@@ -9,49 +9,49 @@ api_specs:
   label: Quix Streaming Reader API (Real-time)
   slug: streaming-reader-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/asyncapi/quix-asyncapi.yml
+  url: https://artifacts.apis.io/quix/asyncapi/quix-asyncapi.yml
 - filename: quix-definitions-api-openapi.yml
   format: yaml
   label: Quix Definitions API
   slug: quix-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-definitions-api-openapi.yml
 - filename: quix-deployments-api-openapi.yml
   format: yaml
   label: Quix Deployments API
   slug: quix-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-deployments-api-openapi.yml
 - filename: quix-event-data-api-openapi.yml
   format: yaml
   label: Quix Event Data API
   slug: quix-event-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-event-data-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-event-data-api-openapi.yml
 - filename: quix-parameter-data-api-openapi.yml
   format: yaml
   label: Quix Parameter Data API
   slug: quix-parameter-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-parameter-data-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-parameter-data-api-openapi.yml
 - filename: quix-streams-api-openapi.yml
   format: yaml
   label: Quix Streams API
   slug: quix-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-streams-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-streams-api-openapi.yml
 - filename: quix-topics-api-openapi.yml
   format: yaml
   label: Quix Topics API
   slug: quix-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-topics-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-topics-api-openapi.yml
 - filename: quix-workspaces-api-openapi.yml
   format: yaml
   label: Quix Workspaces API
   slug: quix-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/openapi/quix-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/quix/openapi/quix-workspaces-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 5
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quix-o
   \  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics\n  method: get\n  operationId: getTopics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /topics\n  method: post\n  operationId: createTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /topics/{topicId}\n  method: delete\n\
   \  operationId: deleteTopic\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments\n  method: get\n  operationId: getDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments\n  method: post\n  operationId: createDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentId}\n  method: get\n  operationId: getDeployment\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/{deploymentId}/start\n  method: put\n  operationId: startDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployments/{deploymentId}/stop\n  method: put\n  operationId: stopDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quix/refs/heads/main/agentic-access/quix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quix/agentic-access/quix-agentic-access.yml
 summary_line: 16 operations · 11 acting · 1 human-in-the-loop
 tags:
 - Stream Processing

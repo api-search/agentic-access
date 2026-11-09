@@ -9,55 +9,55 @@ api_specs:
   label: Riot Awareness API
   slug: riot-awareness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-awareness-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-awareness-api-openapi.yml
 - filename: riot-breaches-api-openapi.yml
   format: yaml
   label: Riot Breaches API
   slug: riot-breaches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-breaches-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-breaches-api-openapi.yml
 - filename: riot-general-api-openapi.yml
   format: yaml
   label: Riot General API
   slug: riot-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-general-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-general-api-openapi.yml
 - filename: riot-groups-api-openapi.yml
   format: yaml
   label: Riot Groups API
   slug: riot-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-groups-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-groups-api-openapi.yml
 - filename: riot-inbox-api-openapi.yml
   format: yaml
   label: Riot Inbox API
   slug: riot-inbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-inbox-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-inbox-api-openapi.yml
 - filename: riot-scim-api-openapi.yml
   format: yaml
   label: Riot SCIM API
   slug: riot-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-scim-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-scim-api-openapi.yml
 - filename: riot-simulation-api-openapi.yml
   format: yaml
   label: Riot Simulation API
   slug: riot-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-simulation-api-openapi.yml
 - filename: riot-slash-api-openapi.yml
   format: yaml
   label: Riot Slash API
   slug: riot-slash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-slash-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-slash-api-openapi.yml
 - filename: riot-sonar-api-openapi.yml
   format: yaml
   label: Riot Sonar API
   slug: riot-sonar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/openapi/riot-sonar-api-openapi.yml
+  url: https://artifacts.apis.io/riot/openapi/riot-sonar-api-openapi.yml
 consequence_counts:
   read: 62
   write: 18
@@ -110,7 +110,7 @@ source_yaml: "generated: '2026-09-22'\nmethod: generated\nsource: openapi/riot-a
   \ read\n    subject: optional\n    scope:\n    - simulation:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/breaches\n  method: get\n  operationId: breaches_get_paginated_FAUE35Y\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - breaches:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/breaches/statistics\n  method: get\n  operationId: breaches_get_statistics_FAUE35Y\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - breaches:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/breaches/{breach_id}/compromised-employees\n  method: get\n  operationId: breaches_get_breach_compromised_employees_FAUE35Y\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - breaches:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/campaigns\n  method:\
   \ get\n  operationId: campaigns_get_paginated_CWCTX3I\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - simulation:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/campaigns/statistics\n  method: get\n  operationId: campaigns_get_statistics_CWCTX3I\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - simulation:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/campaigns/{campaign_id}/attacks\n  method: get\n  operationId: attacks_get_paginated_KCLEOEQ\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - simulation:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/domains\n  method: get\n  operationId: domains_get_paginated_domains_OOWLIAA\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n\
   \    - workspace:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/riot/refs/heads/main/agentic-access/riot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/riot/agentic-access/riot-agentic-access.yml
 summary_line: 80 operations · 18 acting
 tags:
 - Cybersecurity

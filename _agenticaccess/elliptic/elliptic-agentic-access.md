@@ -9,91 +9,91 @@ api_specs:
   label: Elliptic Assets API
   slug: elliptic-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-assets-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-assets-api-openapi.yml
 - filename: elliptic-count-analyses-api-openapi.yml
   format: yaml
   label: Elliptic Count Analyses API
   slug: elliptic-count-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-count-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-count-analyses-api-openapi.yml
 - filename: elliptic-criteria-api-openapi.yml
   format: yaml
   label: Elliptic Criteria API
   slug: elliptic-criteria-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-criteria-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-criteria-api-openapi.yml
 - filename: elliptic-customers-api-openapi.yml
   format: yaml
   label: Elliptic Customers API
   slug: elliptic-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-customers-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-customers-api-openapi.yml
 - filename: elliptic-health-api-openapi.yml
   format: yaml
   label: Elliptic Health API
   slug: elliptic-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-health-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-health-api-openapi.yml
 - filename: elliptic-risk-rules-api-openapi.yml
   format: yaml
   label: Elliptic Risk Rules API
   slug: elliptic-risk-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-risk-rules-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-risk-rules-api-openapi.yml
 - filename: elliptic-sanctions-api-openapi.yml
   format: yaml
   label: Elliptic Sanctions API
   slug: elliptic-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-sanctions-api-openapi.yml
 - filename: elliptic-screenings-api-openapi.yml
   format: yaml
   label: Elliptic Screenings API
   slug: elliptic-screenings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-screenings-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-screenings-api-openapi.yml
 - filename: elliptic-transaction-analyses-api-openapi.yml
   format: yaml
   label: Elliptic Transaction Analyses API
   slug: elliptic-transaction-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-transaction-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-transaction-analyses-api-openapi.yml
 - filename: elliptic-transaction-workflow-api-openapi.yml
   format: yaml
   label: Elliptic Transaction Workflow API
   slug: elliptic-transaction-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-transaction-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-transaction-workflow-api-openapi.yml
 - filename: elliptic-tron-nodeintelligence-api-openapi.yml
   format: yaml
   label: Elliptic Tron NodeIntelligence API
   slug: elliptic-tron-nodeintelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-tron-nodeintelligence-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-tron-nodeintelligence-api-openapi.yml
 - filename: elliptic-users-api-openapi.yml
   format: yaml
   label: Elliptic Users API
   slug: elliptic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-users-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-users-api-openapi.yml
 - filename: elliptic-wallet-analyses-api-openapi.yml
   format: yaml
   label: Elliptic Wallet Analyses API
   slug: elliptic-wallet-analyses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-analyses-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-wallet-analyses-api-openapi.yml
 - filename: elliptic-wallet-analyses-count-api-openapi.yml
   format: yaml
   label: Elliptic Wallet Analyses Count API
   slug: elliptic-wallet-analyses-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-analyses-count-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-wallet-analyses-count-api-openapi.yml
 - filename: elliptic-wallet-workflow-api-openapi.yml
   format: yaml
   label: Elliptic Wallet Workflow API
   slug: elliptic-wallet-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/openapi/elliptic-wallet-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/elliptic/openapi/elliptic-wallet-workflow-api-openapi.yml
 consequence_counts:
   read: 25
   write: 14
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ellipt
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet\n  method: post\n  operationId: postWallet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet\n  method: get\n  operationId: getWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/{wallet_analysis_id}\n  method: get\n  operationId: getWalletByWalletAnalysisId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/{wallet_analysis_id}/screenings/{screening_id}\n  method: get\n  operationId: getWalletByWalletAnalysisIdScreeningsByScreeningId\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/count\n  method: get\n  operationId: getWalletCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet/workflow_status\n  method: post\n  operationId: postWalletWorkflowStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wallet/assigned_team_user\n  method: post\n  operationId: postWalletAssignedTeamUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elliptic/refs/heads/main/agentic-access/elliptic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/elliptic/agentic-access/elliptic-agentic-access.yml
 summary_line: 39 operations · 14 acting
 tags:
 - Blockchain

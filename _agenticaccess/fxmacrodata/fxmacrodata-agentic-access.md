@@ -9,67 +9,67 @@ api_specs:
   label: FXMacroData Announcements API
   slug: fxmacrodata-announcements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-announcements-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-announcements-api-openapi.yml
 - filename: fxmacrodata-calendar-api-openapi.yml
   format: yaml
   label: FXMacroData Calendar API
   slug: fxmacrodata-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-calendar-api-openapi.yml
 - filename: fxmacrodata-commodities-api-openapi.yml
   format: yaml
   label: FXMacroData Commodities API
   slug: fxmacrodata-commodities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-commodities-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-commodities-api-openapi.yml
 - filename: fxmacrodata-data-catalogue-api-openapi.yml
   format: yaml
   label: FXMacroData Data Catalogue API
   slug: fxmacrodata-data-catalogue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-data-catalogue-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-data-catalogue-api-openapi.yml
 - filename: fxmacrodata-factors-api-openapi.yml
   format: yaml
   label: FXMacroData Factors API
   slug: fxmacrodata-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-factors-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-factors-api-openapi.yml
 - filename: fxmacrodata-fx-markets-api-openapi.yml
   format: yaml
   label: FXMacroData Fx Markets API
   slug: fxmacrodata-fx-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-fx-markets-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-fx-markets-api-openapi.yml
 - filename: fxmacrodata-health-api-openapi.yml
   format: yaml
   label: FXMacroData Health API
   slug: fxmacrodata-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-health-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-health-api-openapi.yml
 - filename: fxmacrodata-monetary-policy-api-openapi.yml
   format: yaml
   label: FXMacroData Monetary Policy API
   slug: fxmacrodata-monetary-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-monetary-policy-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-monetary-policy-api-openapi.yml
 - filename: fxmacrodata-predictions-api-openapi.yml
   format: yaml
   label: FXMacroData Predictions API
   slug: fxmacrodata-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-predictions-api-openapi.yml
 - filename: fxmacrodata-press-releases-api-openapi.yml
   format: yaml
   label: FXMacroData Press Releases API
   slug: fxmacrodata-press-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-press-releases-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-press-releases-api-openapi.yml
 - filename: fxmacrodata-settlement-api-openapi.yml
   format: yaml
   label: FXMacroData Settlement API
   slug: fxmacrodata-settlement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/openapi/fxmacrodata-settlement-api-openapi.yml
+  url: https://artifacts.apis.io/fxmacrodata/openapi/fxmacrodata-settlement-api-openapi.yml
 consequence_counts:
   read: 36
   write: 1
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/fxmacr
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/cot/{currency}\n  method: get\n  operationId: get_cot_data_v1_cot__currency__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/commodities/latest\n  method: get\n  operationId: get_all_commodity_latest_values_v1_commodities_latest_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/commodities/{indicator}\n  method: get\n  operationId: get_commodity_indicator_data_v1_commodities__indicator__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settlement/contracts\n  method: get\n  operationId: list_settlement_contracts_v1_settlement_contracts_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settlement/keys\n  method: get\n  operationId: settlement_keys_v1_settlement_keys_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settlement/contracts/{contract_id}\n  method: get\n  operationId: settle_contract_v1_settlement_contracts__contract_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/settlement/{currency}/{indicator}\n  method: get\n  operationId: settle_series_v1_settlement__currency___indicator__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/announcements/changes\n  method: get\n\
   \  operationId: get_announcement_changes_v1_announcements_changes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stream/events\n  method: get\n  operationId: stream_events_v1_stream_events_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fxmacrodata/refs/heads/main/agentic-access/fxmacrodata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fxmacrodata/agentic-access/fxmacrodata-agentic-access.yml
 summary_line: 37 operations · 1 acting
 tags:
 - Company

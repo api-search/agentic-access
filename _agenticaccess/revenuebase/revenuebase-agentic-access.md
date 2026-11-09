@@ -9,37 +9,37 @@ api_specs:
   label: RevenueBase Account API
   slug: revenuebase-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-account-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-account-api-openapi.yml
 - filename: revenuebase-email-api-openapi.yml
   format: yaml
   label: RevenueBase Email API
   slug: revenuebase-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-email-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-email-api-openapi.yml
 - filename: revenuebase-jobs-api-openapi.yml
   format: yaml
   label: RevenueBase Jobs API
   slug: revenuebase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-jobs-api-openapi.yml
 - filename: revenuebase-organization-api-openapi.yml
   format: yaml
   label: RevenueBase Organization API
   slug: revenuebase-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-organization-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-organization-api-openapi.yml
 - filename: revenuebase-health-api-openapi.yml
   format: yaml
   label: RevenueBase Health API
   slug: revenuebase-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-health-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-health-api-openapi.yml
 - filename: revenuebase-contact-api-openapi.yml
   format: yaml
   label: RevenueBase Contact API
   slug: revenuebase-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/openapi/revenuebase-contact-api-openapi.yml
+  url: https://artifacts.apis.io/revenuebase/openapi/revenuebase-contact-api-openapi.yml
 consequence_counts:
   read: 4
   write: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/revenu
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/verify\n  method: post\n  operationId: verify_email_v2_email_verify_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/email/verify/batch\n  method: post\n  operationId: verify_email_batch_v2_email_verify_batch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v2/jobs\n  method: get\n  operationId: list_jobs_v2_jobs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobs/{process_id}\n  method: get\n  operationId: get_job_v2_jobs__process_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/jobs/{process_id}/cancel\n  method: post\n  operationId: cancel_job_v2_jobs__process_id__cancel_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/jobs/{process_id}/download\n  method: get\n  operationId: download_job_v2_jobs__process_id__download_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/organization/resolve\n  method: post\n  operationId: resolve_company_v2_organization_resolve_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/organization/discover\n  method: post\n  operationId: discover_company_v2_organization_discover_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revenuebase/refs/heads/main/agentic-access/revenuebase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/revenuebase/agentic-access/revenuebase-agentic-access.yml
 summary_line: 10 operations · 6 acting
 tags:
 - Company

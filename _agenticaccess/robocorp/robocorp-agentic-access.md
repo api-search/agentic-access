@@ -9,73 +9,73 @@ api_specs:
   label: Robocorp Assets API
   slug: robocorp-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-assets-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-assets-api-openapi.yml
 - filename: robocorp-assistants-api-openapi.yml
   format: yaml
   label: Robocorp Assistants API
   slug: robocorp-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-assistants-api-openapi.yml
 - filename: robocorp-process-runs-api-openapi.yml
   format: yaml
   label: Robocorp Process Runs API
   slug: robocorp-process-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-process-runs-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-process-runs-api-openapi.yml
 - filename: robocorp-processes-api-openapi.yml
   format: yaml
   label: Robocorp Processes API
   slug: robocorp-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-processes-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-processes-api-openapi.yml
 - filename: robocorp-step-runs-api-openapi.yml
   format: yaml
   label: Robocorp Step Runs API
   slug: robocorp-step-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-step-runs-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-step-runs-api-openapi.yml
 - filename: robocorp-task-packages-api-openapi.yml
   format: yaml
   label: Robocorp Task Packages API
   slug: robocorp-task-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-task-packages-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-task-packages-api-openapi.yml
 - filename: robocorp-vault-api-openapi.yml
   format: yaml
   label: Robocorp Vault API
   slug: robocorp-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-vault-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-vault-api-openapi.yml
 - filename: robocorp-webhooks-api-openapi.yml
   format: yaml
   label: Robocorp Webhooks API
   slug: robocorp-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-webhooks-api-openapi.yml
 - filename: robocorp-work-items-api-openapi.yml
   format: yaml
   label: Robocorp Work Items API
   slug: robocorp-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-work-items-api-openapi.yml
 - filename: robocorp-worker-groups-api-openapi.yml
   format: yaml
   label: Robocorp Worker Groups API
   slug: robocorp-worker-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-worker-groups-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-worker-groups-api-openapi.yml
 - filename: robocorp-workers-api-openapi.yml
   format: yaml
   label: Robocorp Workers API
   slug: robocorp-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-workers-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-workers-api-openapi.yml
 - filename: robocorp-workspace-api-openapi.yml
   format: yaml
   label: Robocorp Workspace API
   slug: robocorp-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/openapi/robocorp-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/robocorp/openapi/robocorp-workspace-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 1
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/roboco
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/task-packages\n  method: post\n  operationId: createTaskPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}/task-packages/{package_id}\n  method: get\n  operationId: getTaskPackage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/task-packages/{package_id}\n  method: post\n  operationId: updateTaskPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}/task-packages/{package_id}\n  method: delete\n  operationId: deleteTaskPackage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}/assistants\n  method: get\n  operationId: listAssistants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_id}/assistants\n  method: post\n  operationId: createAssistant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_id}/assistants/{assistant_id}\n  method: get\n  operationId: getAssistant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/robocorp/refs/heads/main/agentic-access/robocorp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/robocorp/agentic-access/robocorp-agentic-access.yml
 summary_line: 44 operations · 22 acting · 1 human-in-the-loop
 tags:
 - RPA

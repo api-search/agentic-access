@@ -8,97 +8,97 @@ api_specs:
   label: EIA AEO API
   slug: eia-aeo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-aeo-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-aeo-api-openapi.yml
 - filename: eia-coal-api-openapi.yml
   format: yaml
   label: EIA COAL API
   slug: eia-coal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-coal-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-coal-api-openapi.yml
 - filename: eia-crud-imports-api-openapi.yml
   format: yaml
   label: EIA CRUD IMPORTS API
   slug: eia-crud-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-crud-imports-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-crud-imports-api-openapi.yml
 - filename: eia-dbf-api-openapi.yml
   format: yaml
   label: EIA DBF API
   slug: eia-dbf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-dbf-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-dbf-api-openapi.yml
 - filename: eia-elec-api-openapi.yml
   format: yaml
   label: EIA ELEC API
   slug: eia-elec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-elec-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-elec-api-openapi.yml
 - filename: eia-emiss-api-openapi.yml
   format: yaml
   label: EIA EMISS API
   slug: eia-emiss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-emiss-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-emiss-api-openapi.yml
 - filename: eia-ieo-api-openapi.yml
   format: yaml
   label: EIA IEO API
   slug: eia-ieo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-ieo-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-ieo-api-openapi.yml
 - filename: eia-intl-api-openapi.yml
   format: yaml
   label: EIA INTL API
   slug: eia-intl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-intl-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-intl-api-openapi.yml
 - filename: eia-ng-api-openapi.yml
   format: yaml
   label: EIA NG API
   slug: eia-ng-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-ng-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-ng-api-openapi.yml
 - filename: eia-nuc-status-api-openapi.yml
   format: yaml
   label: EIA NUC STATUS API
   slug: eia-nuc-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-nuc-status-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-nuc-status-api-openapi.yml
 - filename: eia-root-api-openapi.yml
   format: yaml
   label: EIA Root API
   slug: eia-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-root-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-root-api-openapi.yml
 - filename: eia-rto-api-openapi.yml
   format: yaml
   label: EIA RTO API
   slug: eia-rto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-rto-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-rto-api-openapi.yml
 - filename: eia-seds-api-openapi.yml
   format: yaml
   label: EIA SEDS API
   slug: eia-seds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-seds-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-seds-api-openapi.yml
 - filename: eia-sep-api-openapi.yml
   format: yaml
   label: EIA SEP API
   slug: eia-sep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-sep-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-sep-api-openapi.yml
 - filename: eia-steo-api-openapi.yml
   format: yaml
   label: EIA STEO API
   slug: eia-steo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-steo-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-steo-api-openapi.yml
 - filename: eia-total-api-openapi.yml
   format: yaml
   label: EIA TOTAL API
   slug: eia-total-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/openapi/eia-total-api-openapi.yml
+  url: https://artifacts.apis.io/eia/openapi/eia-total-api-openapi.yml
 consequence_counts:
   read: 278
 description: 'Recommended x-agentic-access execution contracts for EIA APIv2. Machine-classified from the OpenAPI, then CURATED: the heuristic pass raised the 53 POST /data operations to acting/write (and, on keyword matches such as shipments, sales, price and outages, to physical or safety-critical with human-in-the-loop). That is wrong for this API. EIA APIv2 is entirely read-only - the POST form of a /data route is a query whose parameters travel in a DataParams JSON body instead of the URL, and it returns the same DataResponse as the GET form. All 278 operations are therefore connected/read. Verified against the spec (components/requestBodies/dataParams) and EIA''s technical documentation.'
@@ -156,8 +156,8 @@ source_yaml: "generated: '2026-07-27'\nmethod: generated\nsource: openapi/eia-ap
   \ length, offset) used to avoid URL length limits. It creates nothing.\n- path: /v2/coal/shipments/mine-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/mine-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/mine-aggregates/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/mine-aggregates/data\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 3600\n    audit: none\n    note: POST on a /data route is a READ query - the request body is the\
   \ DataParams schema (data, facets,\n      frequency, start, end, sort, length, offset) used to avoid URL length limits. It creates nothing.\n- path: /v2/coal/shipments/mine-state-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/mine-state-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/mine-state-aggregates/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/mine-state-aggregates/data\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    audience: null\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n    note: POST on a /data route is a READ query - the request body is the DataParams schema (data, facets,\n      frequency, start, end, sort, length, offset) used to avoid URL length limits. It creates nothing.\n- path: /v2/coal/shipments/plant-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-aggregates/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-aggregates/data\n  method: post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    audience: null\n    token:\n      max-ttl: 3600\n    audit: none\n    note: POST on a /data route is a READ query - the request body is the DataParams schema (data, facets,\n      frequency, start, end, sort, length, offset) used to avoid URL length limits. It creates nothing.\n- path: /v2/coal/shipments/plant-state-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-state-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (69 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/agentic-access/eia-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eia/refs/heads/main/agentic-access/eia-agentic-access.yml
+  \    subject: optional\n    audience: null\n    token:\n      max-ttl: 3600\n    audit: none\n    note: POST on a /data route is a READ query - the request body is the DataParams schema (data, facets,\n      frequency, start, end, sort, length, offset) used to avoid URL length limits. It creates nothing.\n- path: /v2/coal/shipments/plant-state-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-state-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (69 KB total) ---\n# Full source: https://artifacts.apis.io/eia/agentic-access/eia-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/eia/agentic-access/eia-agentic-access.yml
 summary_line: 278 operations
 tags:
 - Energy

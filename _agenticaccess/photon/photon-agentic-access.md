@@ -7,19 +7,19 @@ api_specs:
   label: Photon Agent discovery API
   slug: photon-agent-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-agent-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/photon/openapi/photon-agent-discovery-api-openapi.yml
 - filename: photon-newsletter-api-openapi.yml
   format: yaml
   label: Photon Newsletter API
   slug: photon-newsletter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-newsletter-api-openapi.yml
+  url: https://artifacts.apis.io/photon/openapi/photon-newsletter-api-openapi.yml
 - filename: photon-onboarding-api-openapi.yml
   format: yaml
   label: Photon Onboarding API
   slug: photon-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/openapi/photon-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/photon/openapi/photon-onboarding-api-openapi.yml
 consequence_counts: {}
 description: ''
 human_in_the_loop: 0
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live fetches of h
   \ This is the escalation boundary the agentic-access model asks\n    for, expressed in prose by the provider itself.\nmcp:\n  status: planned-not-available\n  evidence: >-\n    \"A unified MCP server for Photon is planned but not yet available. In the\n    interim, agents can call the same site endpoints used by the browser\n    onboarding funnel.\" - https://photonhealth.com/llms.txt (verbatim)\n  note: First-party confirmation that no MCP server exists; see mcp/photon-mcp.yml deployment.mode = none.\naction_classes:\n- surface: photonhealth.com website API\n  operations: [getOnboardingSchema, getOpenApiSpec, getWellKnownOpenApiSpec, getApiCatalog]\n  action_class: read\n  consequence: none\n  escalation: none\n  note: Unauthenticated discovery reads; safe for autonomous agent use.\n- surface: photonhealth.com website API\n  operations: [createOrResumeOnboardingSession, saveOnboardingStep]\n  action_class: write\n  consequence: low\n  escalation: user-consent\n  note: Creates/updates\
   \ a lead record. Photon's own policy requires explicit user consent.\n- surface: photonhealth.com website API\n  operations: [submitOnboardingSession, createNewsletterSignup]\n  action_class: write\n  consequence: medium\n  escalation: user-consent\n  note: Submits the user's identity and contact details to Photon; triggers sales or verification follow-up. Not reversible by the agent.\n- surface: Clinical API (GraphQL)\n  operations: [createPrescription, createOrder, rerouteOrder]\n  action_class: write\n  consequence: high\n  escalation: human-authorization\n  note: >-\n    Prescribing is gated on write:prescription, which is issued only to verified\n    prescribers via a user access token - not obtainable by an M2M agent. The\n    provider's strongest control, enforced in the token model rather than in\n    documentation.\ngaps:\n- The agent surface is on the MARKETING host. The Clinical API (clinical-api.photon.health) serves no llms.txt, no api-catalog and no Link headers - an agent\
   \ that starts at the API host finds none of this.\n- No agent card at either well-known path on any host.\n- No MCP server yet (provider-confirmed as planned).\n- No rate-limit signal on any surface (see rate-limits/photon-rate-limits.yml).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photon/refs/heads/main/agentic-access/photon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/photon/agentic-access/photon-agentic-access.yml
 summary_line: 0 operations
 tags:
 - Healthcare
@@ -60,5 +60,6 @@ tags:
 - Clinical API
 - Digital Health
 - Benefit Check
+- OAuth
 - Authentication
 ---

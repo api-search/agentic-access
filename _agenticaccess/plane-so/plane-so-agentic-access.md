@@ -9,67 +9,67 @@ api_specs:
   label: Plane Cycle Work Items API
   slug: plane-so-cycle-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-cycle-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-cycle-work-items-api-openapi.yml
 - filename: plane-so-cycles-api-openapi.yml
   format: yaml
   label: Plane Cycles API
   slug: plane-so-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-cycles-api-openapi.yml
 - filename: plane-so-labels-api-openapi.yml
   format: yaml
   label: Plane Labels API
   slug: plane-so-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-labels-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-labels-api-openapi.yml
 - filename: plane-so-members-api-openapi.yml
   format: yaml
   label: Plane Members API
   slug: plane-so-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-members-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-members-api-openapi.yml
 - filename: plane-so-module-work-items-api-openapi.yml
   format: yaml
   label: Plane Module Work Items API
   slug: plane-so-module-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-module-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-module-work-items-api-openapi.yml
 - filename: plane-so-modules-api-openapi.yml
   format: yaml
   label: Plane Modules API
   slug: plane-so-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-modules-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-modules-api-openapi.yml
 - filename: plane-so-projects-api-openapi.yml
   format: yaml
   label: Plane Projects API
   slug: plane-so-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-projects-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-projects-api-openapi.yml
 - filename: plane-so-states-api-openapi.yml
   format: yaml
   label: Plane States API
   slug: plane-so-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-states-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-states-api-openapi.yml
 - filename: plane-so-work-item-comments-api-openapi.yml
   format: yaml
   label: Plane Work Item Comments API
   slug: plane-so-work-item-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-item-comments-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-work-item-comments-api-openapi.yml
 - filename: plane-so-work-item-links-api-openapi.yml
   format: yaml
   label: Plane Work Item Links API
   slug: plane-so-work-item-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-item-links-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-work-item-links-api-openapi.yml
 - filename: plane-so-work-items-api-openapi.yml
   format: yaml
   label: Plane Work Items API
   slug: plane-so-work-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/openapi/plane-so-work-items-api-openapi.yml
+  url: https://artifacts.apis.io/plane-so/openapi/plane-so-work-items-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -119,7 +119,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/plane-
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_slug}/projects/{project_id}/states/{state_id}/\n  method: delete\n  operationId: deleteState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_slug}/projects/{project_id}/labels/\n  method: get\n  operationId: listLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_slug}/projects/{project_id}/labels/\n  method: post\n  operationId: createLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_slug}/projects/{project_id}/labels/{label_id}/\n  method: get\n  operationId: getLabel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspace_slug}/projects/{project_id}/labels/{label_id}/\n  method: patch\n  operationId: updateLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_slug}/projects/{project_id}/labels/{label_id}/\n  method: delete\n  operationId: deleteLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspace_slug}/projects/{project_id}/members/\n  method: get\n  operationId: listProjectMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plane-so/refs/heads/main/agentic-access/plane-so-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/plane-so/agentic-access/plane-so-agentic-access.yml
 summary_line: 48 operations · 29 acting
 tags:
 - Project Management

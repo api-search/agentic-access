@@ -9,19 +9,19 @@ api_specs:
   label: Hibachi Capital API
   slug: hibachi-capital-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-capital-api-openapi.yml
+  url: https://artifacts.apis.io/hibachi/openapi/hibachi-capital-api-openapi.yml
 - filename: hibachi-market-api-openapi.yml
   format: yaml
   label: Hibachi Market API
   slug: hibachi-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-market-api-openapi.yml
+  url: https://artifacts.apis.io/hibachi/openapi/hibachi-market-api-openapi.yml
 - filename: hibachi-trade-api-openapi.yml
   format: yaml
   label: Hibachi Trade API
   slug: hibachi-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/openapi/hibachi-trade-api-openapi.yml
+  url: https://artifacts.apis.io/hibachi/openapi/hibachi-trade-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 19
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hibach
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trade/account/leverage\n  method: post\n  operationId: setLeverage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /trade/orders/history\n  method: get\n  operationId: getOrdersHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/exchange-info\n  method: get\n  operationId: getExchangeInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/inventory\n  method:\
   \ get\n  operationId: getInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/prices\n  method: get\n  operationId: getPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/stats\n  method: get\n  operationId: getStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/trades\n  method: get\n  operationId: getMarketTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/klines\n  method: get\n  operationId: getKlines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/open-interest\n  method: get\n  operationId: getOpenInterest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/orderbook\n  method: get\n  operationId: getOrderbook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/data/funding-rates\n  method: get\n  operationId: getFundingRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exchange/utc-timestamp\n  method: get\n  operationId: getUtcTimestamp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hibachi/refs/heads/main/agentic-access/hibachi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hibachi/agentic-access/hibachi-agentic-access.yml
 summary_line: 27 operations · 8 acting
 tags:
 - Company

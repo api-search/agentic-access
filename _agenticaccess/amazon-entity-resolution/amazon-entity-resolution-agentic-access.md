@@ -9,19 +9,49 @@ api_specs:
   label: Amazon Entity Resolution Matchingworkflows API
   slug: amazon-entity-resolution-matchingworkflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-matchingworkflows-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-matchingworkflows-api-openapi.yml
 - filename: amazon-entity-resolution-schemas-api-openapi.yml
   format: yaml
   label: Amazon Entity Resolution Schemas API
   slug: amazon-entity-resolution-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-schemas-api-openapi.yml
 - filename: amazon-entity-resolution-tags-api-openapi.yml
   format: yaml
   label: Amazon Entity Resolution Tags API
   slug: amazon-entity-resolution-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/openapi/amazon-entity-resolution-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-tags-api-openapi.yml
+- filename: amazon-entity-resolution-idmappingworkflows-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Entity Resolution Idmappingworkflows API
+  slug: amazon-entity-resolution-idmappingworkflows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-idmappingworkflows-api-openapi.yml
+- filename: amazon-entity-resolution-idnamespaces-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Entity Resolution Idnamespaces API
+  slug: amazon-entity-resolution-idnamespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-idnamespaces-api-openapi.yml
+- filename: amazon-entity-resolution-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Entity Resolution Jobs API
+  slug: amazon-entity-resolution-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-jobs-api-openapi.yml
+- filename: amazon-entity-resolution-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Entity Resolution Operations API
+  slug: amazon-entity-resolution-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-operations-api-openapi.yml
+- filename: amazon-entity-resolution-policies-api-openapi.yml
+  format: yaml
+  label: Amazon Entity Resolution Entity Resolution Policies API
+  slug: amazon-entity-resolution-policies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-entity-resolution/openapi/amazon-entity-resolution-policies-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -53,7 +83,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  method: post\n  operationId: StartMatchingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas\n  method: post\n  operationId: CreateSchemaMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas\n  method: get\n  operationId: ListSchemaMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schemas/{schemaName}\n  method: delete\n  operationId: DeleteSchemaMapping\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schemas/{schemaName}\n  method: get\n  operationId: GetSchemaMapping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-entity-resolution/refs/heads/main/agentic-access/amazon-entity-resolution-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-entity-resolution/agentic-access/amazon-entity-resolution-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
 - Amazon Web Services

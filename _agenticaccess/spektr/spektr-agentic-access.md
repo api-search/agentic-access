@@ -9,55 +9,55 @@ api_specs:
   label: Spektr Action API
   slug: spektr-action-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-action-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-action-api-api-openapi.yml
 - filename: spektr-events-api-api-openapi.yml
   format: yaml
   label: Spektr Events API
   slug: spektr-events-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-events-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-events-api-api-openapi.yml
 - filename: spektr-execution-api-api-openapi.yml
   format: yaml
   label: Spektr Execution API
   slug: spektr-execution-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-execution-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-execution-api-api-openapi.yml
 - filename: spektr-import-api-api-openapi.yml
   format: yaml
   label: Spektr Import API
   slug: spektr-import-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-import-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-import-api-api-openapi.yml
 - filename: spektr-orchestration-api-api-openapi.yml
   format: yaml
   label: Spektr Orchestration API
   slug: spektr-orchestration-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-orchestration-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-orchestration-api-api-openapi.yml
 - filename: spektr-records-api-api-openapi.yml
   format: yaml
   label: Spektr Records API
   slug: spektr-records-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-records-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-records-api-api-openapi.yml
 - filename: spektr-transaction-definitions-api-openapi.yml
   format: yaml
   label: Spektr Transaction Definitions API
   slug: spektr-transaction-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transaction-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transaction-definitions-api-openapi.yml
 - filename: spektr-transactions-api-openapi.yml
   format: yaml
   label: Spektr Transactions API
   slug: spektr-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-transactions-api-openapi.yml
 - filename: spektr-workspace-fields-api-api-openapi.yml
   format: yaml
   label: Spektr Workspace Fields API
   slug: spektr-workspace-fields-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/openapi/spektr-workspace-fields-api-api-openapi.yml
+  url: https://artifacts.apis.io/spektr/openapi/spektr-workspace-fields-api-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 24
@@ -220,7 +220,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spektr
   \      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/transaction-definitions/{id}\n  method: delete\n  operationId: TransactionDefinitionController_delete_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/transactions/batch\n  method: post\n  operationId: TransactionsController_ingestBatch_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/fields\n  method: post\n  operationId:\
   \ WorkspaceFieldsController_create_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/fields\n  method: get\n  operationId: WorkspaceFieldsController_getAll_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fields/{id}\n  method: get\n  operationId: WorkspaceFieldsController_getById_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/fields/{id}\n  method: patch\n  operationId: WorkspaceFieldsController_update_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/fields/{id}\n  method: delete\n  operationId: WorkspaceFieldsController_delete_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spektr/refs/heads/main/agentic-access/spektr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spektr/agentic-access/spektr-agentic-access.yml
 summary_line: 35 operations · 24 acting · 24 human-in-the-loop
 tags:
 - Company

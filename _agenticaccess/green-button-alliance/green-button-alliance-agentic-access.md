@@ -9,49 +9,49 @@ api_specs:
   label: Green Button Alliance Application Information API
   slug: green-button-alliance-applicationinformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-applicationinformation-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-applicationinformation-api-openapi.yml
 - filename: green-button-alliance-authorization-api-openapi.yml
   format: yaml
   label: Green Button Alliance Authorization API
   slug: green-button-alliance-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-authorization-api-openapi.yml
 - filename: green-button-alliance-batch-api-openapi.yml
   format: yaml
   label: Green Button Alliance Batch API
   slug: green-button-alliance-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-batch-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-batch-api-openapi.yml
 - filename: green-button-alliance-datacustodian-integration-api-openapi.yml
   format: yaml
   label: Green Button Alliance DataCustodian Integration API
   slug: green-button-alliance-datacustodian-integration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-datacustodian-integration-api-openapi.yml
 - filename: green-button-alliance-oauth2-client-management-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Client Management API
   slug: green-button-alliance-oauth2-client-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-client-management-api-openapi.yml
 - filename: green-button-alliance-oauth2-standard-api-openapi.yml
   format: yaml
   label: Green Button Alliance OAuth2 Standard API
   slug: green-button-alliance-oauth2-standard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oauth2-standard-api-openapi.yml
 - filename: green-button-alliance-oidc-api-openapi.yml
   format: yaml
   label: Green Button Alliance OIDC API
   slug: green-button-alliance-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-oidc-api-openapi.yml
 - filename: green-button-alliance-usagepoint-api-openapi.yml
   format: yaml
   label: Green Button Alliance Usage Point API
   slug: green-button-alliance-usagepoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/openapi/green-button-alliance-usagepoint-api-openapi.yml
+  url: https://artifacts.apis.io/green-button-alliance/openapi/green-button-alliance-usagepoint-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/green-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/oauth2/clients/{clientId}/metrics\n  method: get\n  operationId: getApiV1Oauth2ClientsByClientIdMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/authorize\n  method: get\n  operationId: getOauth2Authorize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/token\n  method: post\n  operationId: postOauth2Token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/introspect\n  method: post\n  operationId: postOauth2Introspect\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/revoke\n  method: post\n  operationId: postOauth2Revoke\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /userinfo\n  method: get\n  operationId: getUserinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - openid\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userinfo\n  method: post\n  operationId: postUserinfo\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - openid\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /espi/1_1/resource/UsagePoint\n  method: get\n  operationId: findUsagePoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /espi/1_1/resource/UsagePoint/{usagePointId}\n  method: get\n  operationId: getUsagePoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-button-alliance/refs/heads/main/agentic-access/green-button-alliance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/green-button-alliance/agentic-access/green-button-alliance-agentic-access.yml
 summary_line: 23 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Energy

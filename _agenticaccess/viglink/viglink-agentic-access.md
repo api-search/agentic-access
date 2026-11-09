@@ -9,49 +9,49 @@ api_specs:
   label: VigLink (Sovrn Commerce) Account API
   slug: viglink-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-account-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-account-api-openapi.yml
 - filename: viglink-ai-orchestration-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Ai Orchestration API
   slug: viglink-ai-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-ai-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-ai-orchestration-api-openapi.yml
 - filename: viglink-bid-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Bid API
   slug: viglink-bid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-bid-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-bid-api-openapi.yml
 - filename: viglink-link-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Link API
   slug: viglink-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-link-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-link-api-openapi.yml
 - filename: viglink-merchant-group-summaries-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Merchant Group Summaries API
   slug: viglink-merchant-group-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-merchant-group-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-merchant-group-summaries-api-openapi.yml
 - filename: viglink-product-coupons-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Product Coupons API
   slug: viglink-product-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-product-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-product-coupons-api-openapi.yml
 - filename: viglink-reports-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) reports API
   slug: viglink-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-reports-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-reports-api-openapi.yml
 - filename: viglink-sites-api-openapi.yml
   format: yaml
   label: VigLink (Sovrn Commerce) Sites API
   slug: viglink-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/openapi/viglink-sites-api-openapi.yml
+  url: https://artifacts.apis.io/viglink/openapi/viglink-sites-api-openapi.yml
 consequence_counts:
   read: 15
   write: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/viglin
   \      - abnormal\n      - high-value\n    audit: required\n- path: /summaries/delta\n  method: get\n  operationId: getSummariesDelta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /product\n  method: get\n  operationId: getProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/transactions\n  method: get\n  operationId: getReportsTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/merchants\n  method: get\n  operationId: getReportsMerchants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/merchantsbydate\n  method: get\n  operationId:\
   \ getReportsMerchantsbydate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/links\n  method: get\n  operationId: getReportsLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/pages\n  method: get\n  operationId: getReportsPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/merchandise\n  method: get\n  operationId: getReportsMerchandise\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/networks\n  method: get\n  operationId: getReportsNetworks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/cuids\n  method: get\n  operationId: getReportsCuids\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site-api-key}/compare/prices/{market}/by/accuracy\n  method: get\n  operationId: getSitesBySiteApiKeyComparePricesByMarketByAccuracy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viglink/refs/heads/main/agentic-access/viglink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/viglink/agentic-access/viglink-agentic-access.yml
 summary_line: 16 operations · 1 acting
 tags:
 - Affiliate Marketing

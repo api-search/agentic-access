@@ -9,43 +9,43 @@ api_specs:
   label: Marqo Documents API
   slug: marqo-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-documents-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-documents-api-openapi.yml
 - filename: marqo-embeddings-api-openapi.yml
   format: yaml
   label: Marqo Embeddings API
   slug: marqo-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-embeddings-api-openapi.yml
 - filename: marqo-indexes-api-openapi.yml
   format: yaml
   label: Marqo Indexes API
   slug: marqo-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-indexes-api-openapi.yml
 - filename: marqo-models-api-openapi.yml
   format: yaml
   label: Marqo Models API
   slug: marqo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-models-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-models-api-openapi.yml
 - filename: marqo-recommendations-api-openapi.yml
   format: yaml
   label: Marqo Recommendations API
   slug: marqo-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-recommendations-api-openapi.yml
 - filename: marqo-search-api-openapi.yml
   format: yaml
   label: Marqo Search API
   slug: marqo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-search-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-search-api-openapi.yml
 - filename: marqo-telemetry-api-openapi.yml
   format: yaml
   label: Marqo Telemetry API
   slug: marqo-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/openapi/marqo-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/marqo/openapi/marqo-telemetry-api-openapi.yml
 consequence_counts:
   read: 9
   write: 7
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/marqo-
   \    audit: required\n- path: /indexes/{index_name}/settings\n  method: get\n  operationId: getIndexSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{index_name}/stats\n  method: get\n  operationId: getIndexStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/eject\n  method: delete\n  operationId: ejectModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /indexes/{index_name}/recommend\n  method: post\n  operationId: recommend\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{index_name}/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: root\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: health\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /memory\n  method: get\n  operationId: memory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marqo/refs/heads/main/agentic-access/marqo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/marqo/agentic-access/marqo-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Vector Search

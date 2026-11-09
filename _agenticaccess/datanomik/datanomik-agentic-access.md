@@ -9,61 +9,61 @@ api_specs:
   label: Datanomik Accounts API
   slug: datanomik-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-accounts-api-openapi.yml
 - filename: datanomik-applications-api-openapi.yml
   format: yaml
   label: Datanomik Applications API
   slug: datanomik-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-applications-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-applications-api-openapi.yml
 - filename: datanomik-balances-api-openapi.yml
   format: yaml
   label: Datanomik Balances API
   slug: datanomik-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-balances-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-balances-api-openapi.yml
 - filename: datanomik-general-owners-api-openapi.yml
   format: yaml
   label: Datanomik General Owners API
   slug: datanomik-general-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-general-owners-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-general-owners-api-openapi.yml
 - filename: datanomik-investments-api-openapi.yml
   format: yaml
   label: Datanomik Investments API
   slug: datanomik-investments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-investments-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-investments-api-openapi.yml
 - filename: datanomik-links-api-openapi.yml
   format: yaml
   label: Datanomik Links API
   slug: datanomik-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-links-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-links-api-openapi.yml
 - filename: datanomik-payment-slips-api-openapi.yml
   format: yaml
   label: Datanomik Payment Slips API
   slug: datanomik-payment-slips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-payment-slips-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-payment-slips-api-openapi.yml
 - filename: datanomik-payments-api-openapi.yml
   format: yaml
   label: Datanomik Payments API
   slug: datanomik-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-payments-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-payments-api-openapi.yml
 - filename: datanomik-pix-transactions-api-openapi.yml
   format: yaml
   label: Datanomik Pix Transactions API
   slug: datanomik-pix-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-pix-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-pix-transactions-api-openapi.yml
 - filename: datanomik-transactions-api-openapi.yml
   format: yaml
   label: Datanomik Transactions API
   slug: datanomik-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/openapi/datanomik-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/datanomik/openapi/datanomik-transactions-api-openapi.yml
 consequence_counts:
   read: 20
   write: 1
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/datano
   - path: /v1/investments/movements/{movementId}/receipt\n  method: get\n  operationId: get_v1-investments-movements-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/investments/movements\n  method: get\n  operationId: get_v1-investments-movements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/investments/history\n  method: get\n  operationId: list-investments-history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/investments\n  method: get\n  operationId: list-investments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/links/sync/assets/{linkId}\n\
   \  method: post\n  operationId: list-assets-copy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payment-slips\n  method: get\n  operationId: get_v1-payments-2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentId}/receipt\n  method: get\n  operationId: get_v1-payments-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments\n  method: get\n  operationId: get_v1-payments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pix-transactions/{pixTransactionId}/receipt\n  method: get\n  operationId: get_v1-pix-transactions-1\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pix-transactions\n  method: get\n  operationId: get_v1-pix-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/transactions\n  method: post\n  operationId: create-manual-transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/transactions\n  method: get\n  operationId: list-remunerated-account-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/agentic-access/datanomik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/datanomik/agentic-access/datanomik-agentic-access.yml
 summary_line: 21 operations · 1 acting
 tags:
 - Company

@@ -8,85 +8,85 @@ api_specs:
   label: SpaceX (Community API) Capsules API
   slug: spacex-capsules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-capsules-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-capsules-api-openapi.yml
 - filename: spacex-company-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Company API
   slug: spacex-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-company-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-company-api-openapi.yml
 - filename: spacex-cores-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Cores API
   slug: spacex-cores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-cores-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-cores-api-openapi.yml
 - filename: spacex-crew-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Crew API
   slug: spacex-crew-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-crew-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-crew-api-openapi.yml
 - filename: spacex-dragons-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Dragons API
   slug: spacex-dragons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-dragons-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-dragons-api-openapi.yml
 - filename: spacex-history-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) History API
   slug: spacex-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-history-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-history-api-openapi.yml
 - filename: spacex-landpads-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Landpads API
   slug: spacex-landpads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-landpads-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-landpads-api-openapi.yml
 - filename: spacex-launches-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Launches API
   slug: spacex-launches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-launches-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-launches-api-openapi.yml
 - filename: spacex-launchpads-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Launchpads API
   slug: spacex-launchpads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-launchpads-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-launchpads-api-openapi.yml
 - filename: spacex-payloads-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Payloads API
   slug: spacex-payloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-payloads-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-payloads-api-openapi.yml
 - filename: spacex-roadster-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Roadster API
   slug: spacex-roadster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-roadster-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-roadster-api-openapi.yml
 - filename: spacex-rockets-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Rockets API
   slug: spacex-rockets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-rockets-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-rockets-api-openapi.yml
 - filename: spacex-ships-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Ships API
   slug: spacex-ships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-ships-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-ships-api-openapi.yml
 - filename: spacex-starlink-api-openapi.yml
   format: yaml
   label: SpaceX (Community API) Starlink API
   slug: spacex-starlink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/openapi/spacex-starlink-api-openapi.yml
+  url: https://artifacts.apis.io/spacex/openapi/spacex-starlink-api-openapi.yml
 consequence_counts:
   read: 43
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spacex
   \ getRoadster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/roadster/query\n  method: post\n  operationId: queryRoadster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/rockets\n  method: get\n  operationId: listRockets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/rockets/{id}\n  method: get\n  operationId: getRocket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/rockets/query\n  method: post\n  operationId: queryRockets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v4/ships\n  method: get\n  operationId: listShips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/ships/{id}\n  method: get\n  operationId: getShip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/ships/query\n  method: post\n  operationId: queryShips\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/starlink\n  method: get\n  operationId: listStarlinkSatellites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/starlink/{id}\n  method: get\n  operationId: getStarlinkSatellite\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/starlink/query\n  method: post\n  operationId: queryStarlinkSatellites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spacex/refs/heads/main/agentic-access/spacex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spacex/agentic-access/spacex-agentic-access.yml
 summary_line: 43 operations
 tags:
 - Space

@@ -3,18 +3,120 @@ acting_count: 13
 action_class_counts:
   acting: 13
 api_specs:
+- filename: playfab-client-openapi.yml
+  format: yaml
+  label: PlayFab Client API
+  slug: playfab-client-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-client-openapi.yml
+- filename: playfab-server-openapi.yml
+  format: yaml
+  label: PlayFab Server API
+  slug: playfab-server-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-server-openapi.yml
+- filename: playfab-admin-openapi.yml
+  format: yaml
+  label: PlayFab Admin API
+  slug: playfab-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-admin-openapi.yml
+- filename: playfab-authentication-openapi.yml
+  format: yaml
+  label: PlayFab Authentication API
+  slug: playfab-entity-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-authentication-openapi.yml
+- filename: playfab-cloudscript-openapi.yml
+  format: yaml
+  label: PlayFab CloudScript API
+  slug: playfab-cloudscript-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-cloudscript-openapi.yml
+- filename: playfab-multiplayer-openapi.yml
+  format: yaml
+  label: PlayFab Multiplayer API
+  slug: playfab-multiplayer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-multiplayer-openapi.yml
+- filename: playfab-economy-openapi.yml
+  format: yaml
+  label: PlayFab Economy (Catalog / Inventory) API
+  slug: playfab-economy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-economy-openapi.yml
+- filename: playfab-data-openapi.yml
+  format: yaml
+  label: PlayFab Data API
+  slug: playfab-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-data-openapi.yml
+- filename: playfab-groups-openapi.yml
+  format: yaml
+  label: PlayFab Groups API
+  slug: playfab-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-groups-openapi.yml
+- filename: playfab-profiles-openapi.yml
+  format: yaml
+  label: PlayFab Profiles API
+  slug: playfab-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-profiles-openapi.yml
+- filename: playfab-events-openapi.yml
+  format: yaml
+  label: PlayFab Events API
+  slug: playfab-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-events-openapi.yml
+- filename: playfab-insights-openapi.yml
+  format: yaml
+  label: PlayFab Insights API
+  slug: playfab-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-insights-openapi.yml
+- filename: playfab-localization-openapi.yml
+  format: yaml
+  label: PlayFab Localization API
+  slug: playfab-localization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-localization-openapi.yml
+- filename: playfab-addon-openapi.yml
+  format: yaml
+  label: PlayFab Addon API
+  slug: playfab-addon-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-addon-openapi.yml
+- filename: playfab-experimentation-openapi.yml
+  format: yaml
+  label: PlayFab Experimentation API
+  slug: playfab-experimentation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-experimentation-openapi.yml
+- filename: playfab-leaderboards-openapi.yml
+  format: yaml
+  label: PlayFab Leaderboards API
+  slug: playfab-leaderboards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-leaderboards-openapi.yml
+- filename: playfab-progression-openapi.yml
+  format: yaml
+  label: PlayFab Progression API
+  slug: playfab-progression-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/playfab/openapi/playfab-progression-openapi.yml
 - filename: playfab-account-api-openapi.yml
   format: yaml
   label: PlayFab Account API
   slug: playfab-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-account-api-openapi.yml
+  url: https://artifacts.apis.io/playfab/openapi/playfab-account-api-openapi.yml
 - filename: playfab-authentication-api-openapi.yml
   format: yaml
   label: PlayFab Authentication API
   slug: playfab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/openapi/playfab-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/playfab/openapi/playfab-authentication-api-openapi.yml
 consequence_counts:
   write: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -44,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/playfa
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/LoginWithApple\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/LoginWithGoogleAccount\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/LoginWithSteam\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/LoginWithXbox\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/RegisterPlayFabUser\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/GetTitlePublicKey\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/GetPhotonAuthenticationToken\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Client/SetPlayerSecret\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/agentic-access/playfab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/playfab/agentic-access/playfab-agentic-access.yml
 summary_line: 13 operations · 13 acting
 tags:
 - Authentication

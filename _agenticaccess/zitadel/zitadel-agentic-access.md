@@ -9,43 +9,43 @@ api_specs:
   label: Zitadel Applications API
   slug: zitadel-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-applications-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-applications-api-openapi.yml
 - filename: zitadel-identity-providers-api-openapi.yml
   format: yaml
   label: Zitadel Identity Providers API
   slug: zitadel-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-identity-providers-api-openapi.yml
 - filename: zitadel-organizations-api-openapi.yml
   format: yaml
   label: Zitadel Organizations API
   slug: zitadel-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-organizations-api-openapi.yml
 - filename: zitadel-policies-api-openapi.yml
   format: yaml
   label: Zitadel Policies API
   slug: zitadel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-policies-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-policies-api-openapi.yml
 - filename: zitadel-projects-api-openapi.yml
   format: yaml
   label: Zitadel Projects API
   slug: zitadel-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-projects-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-projects-api-openapi.yml
 - filename: zitadel-roles-api-openapi.yml
   format: yaml
   label: Zitadel Roles API
   slug: zitadel-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-roles-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-roles-api-openapi.yml
 - filename: zitadel-users-api-openapi.yml
   format: yaml
   label: Zitadel Users API
   slug: zitadel-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-users-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-users-api-openapi.yml
 consequence_counts:
   read: 14
   write: 18
@@ -82,13 +82,14 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zitade
   \      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/users/{userId}\n  method: get\n  operationId: getUserById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/users/{userId}\n  method: delete\n  operationId: removeUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/users/{userId}/deactivate\n  method: post\n  operationId: deactivateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /management/v1/users/{userId}/reactivate\n  method: post\n  operationId: reactivateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/users/{userId}/lock\n  method: post\n  operationId: lockUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/users/{userId}/unlock\n  method: post\n  operationId: unlockUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/users/{userId}/email\n  method: put\n  operationId: updateUserEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/users/{userId}/memberships/_search\n  method: post\n  operationId: listUserMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/agentic-access/zitadel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/zitadel/agentic-access/zitadel-agentic-access.yml
 summary_line: 32 operations · 18 acting
 tags:
 - Authentication
 - Authorization
 - Identity and Access Management
 - Open Source
+- OAuth
 - OpenID Connect
 - Identity Federation
 ---

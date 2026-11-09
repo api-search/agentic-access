@@ -9,19 +9,19 @@ api_specs:
   label: Amazon QLDB Journal S3 Exports API
   slug: amazon-qldb-journal-s3-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-journal-s3-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-qldb/openapi/amazon-qldb-journal-s3-exports-api-openapi.yml
 - filename: amazon-qldb-ledgers-api-openapi.yml
   format: yaml
   label: Amazon QLDB Ledgers API
   slug: amazon-qldb-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-qldb/openapi/amazon-qldb-ledgers-api-openapi.yml
 - filename: amazon-qldb-tags-api-openapi.yml
   format: yaml
   label: Amazon QLDB Tags API
   slug: amazon-qldb-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/openapi/amazon-qldb-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-qldb/openapi/amazon-qldb-tags-api-openapi.yml
 consequence_counts:
   read: 11
   write: 9
@@ -54,10 +54,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      max-ttl: 3600\n    audit: none\n- path: /ledgers/{name}/digest\n  method: post\n  operationId: GetDigest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledgers/{name}/revision\n  method: post\n  operationId: GetRevision\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledgers/{name}/journal-kinesis-streams\n  method: get\n  operationId: ListJournalKinesisStreamsForLedger\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledgers/{name}/journal-kinesis-streams\n  method: post\n  operationId: StreamJournalToKinesis\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ledgers/{name}/permissions-mode\n  method: patch\n  operationId: UpdateLedgerPermissionsMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-qldb/refs/heads/main/agentic-access/amazon-qldb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-qldb/agentic-access/amazon-qldb-agentic-access.yml
 summary_line: 20 operations · 9 acting
 tags:
+- Amazon Web Services
 - Blockchain
 - Database
 - Ledger
+- Defunct
 ---

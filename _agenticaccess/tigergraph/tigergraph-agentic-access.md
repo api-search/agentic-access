@@ -9,31 +9,31 @@ api_specs:
   label: TigerGraph Authentication API
   slug: tigergraph-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-authentication-api-openapi.yml
 - filename: tigergraph-data-api-openapi.yml
   format: yaml
   label: TigerGraph Data API
   slug: tigergraph-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-data-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-data-api-openapi.yml
 - filename: tigergraph-query-api-openapi.yml
   format: yaml
   label: TigerGraph Query API
   slug: tigergraph-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-query-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-query-api-openapi.yml
 - filename: tigergraph-schema-api-openapi.yml
   format: yaml
   label: TigerGraph Schema API
   slug: tigergraph-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-schema-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-schema-api-openapi.yml
 - filename: tigergraph-system-api-openapi.yml
   format: yaml
   label: TigerGraph System API
   slug: tigergraph-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/openapi/tigergraph-system-api-openapi.yml
+  url: https://artifacts.apis.io/tigergraph/openapi/tigergraph-system-api-openapi.yml
 consequence_counts:
   read: 13
   write: 9
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tigerg
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restpp/graph/{graph_name}/edges/{source_type}/{source_id}\n  method: get\n  operationId: listEdges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restpp/graph/{graph_name}/edges/{source_type}/{source_id}/{edge_type}/{target_type}/{target_id}\n  method: get\n  operationId: getEdge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restpp/graph/{graph_name}/edges/{source_type}/{source_id}/{edge_type}/{target_type}/{target_id}\n  method: delete\n  operationId: deleteEdge\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restpp/query/{graph_name}/{query_name}\n  method: get\n  operationId: runInstalledQueryGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restpp/query/{graph_name}/{query_name}\n  method: post\n  operationId: runInstalledQueryPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restpp/interpreted_query/{graph_name}\n  method: post\n  operationId: runInterpretedQuery\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /restpp/path/{graph_name}\n  method: get\n  operationId: shortestPath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restpp/allpaths/{graph_name}\n  method: get\n  operationId: allPaths\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restpp/statistics/{graph_name}\n  method: get\n  operationId: getStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tigergraph/refs/heads/main/agentic-access/tigergraph-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tigergraph/agentic-access/tigergraph-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Graph Database

@@ -9,37 +9,37 @@ api_specs:
   label: Typesense Analytics Events API
   slug: typesense-analytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-analytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-analytics-events-api-openapi.yml
 - filename: typesense-analytics-operations-api-openapi.yml
   format: yaml
   label: Typesense Analytics Operations API
   slug: typesense-analytics-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-analytics-operations-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-analytics-operations-api-openapi.yml
 - filename: typesense-analytics-rules-api-openapi.yml
   format: yaml
   label: Typesense Analytics Rules API
   slug: typesense-analytics-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-analytics-rules-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-analytics-rules-api-openapi.yml
 - filename: typesense-cluster-management-api-openapi.yml
   format: yaml
   label: Typesense Cluster Management API
   slug: typesense-cluster-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-cluster-management-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-cluster-management-api-openapi.yml
 - filename: typesense-configuration-changes-api-openapi.yml
   format: yaml
   label: Typesense Configuration Changes API
   slug: typesense-configuration-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-configuration-changes-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-configuration-changes-api-openapi.yml
 - filename: typesense-server-configuration-parameters-api-openapi.yml
   format: yaml
   label: Typesense Server Configuration Parameters API
   slug: typesense-server-configuration-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/openapi/typesense-server-configuration-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/typesense/openapi/typesense-server-configuration-parameters-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/typese
   \      human-in-the-loop: required\n    audit: required\n- path: /clusters/{clusterId}/generate-api-key\n  method: post\n  operationId: generateApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{clusterId}/configuration-changes\n  method: post\n  operationId: createConfigurationChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{clusterId}/configuration-changes\n  method: get\n  operationId: listConfigurationChanges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/configuration-changes/{changeId}\n  method: get\n  operationId: getConfigurationChange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{clusterId}/configuration-changes/{changeId}\n  method: patch\n  operationId: updateConfigurationChange\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{clusterId}/typesense-server-configuration-parameters\n  method: get\n  operationId: getServerConfigurationParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /clusters/{clusterId}/typesense-server-configuration-parameters\n  method: patch\n  operationId: updateServerConfigurationParameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/agentic-access/typesense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/typesense/agentic-access/typesense-agentic-access.yml
 summary_line: 21 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Full-Text Search

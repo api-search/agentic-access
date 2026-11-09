@@ -9,109 +9,109 @@ api_specs:
   label: Transifex Activity Reports API
   slug: transifex-activity-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-activity-reports-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-activity-reports-api-openapi.yml
 - filename: transifex-context-screenshots-api-openapi.yml
   format: yaml
   label: Transifex Context Screenshots API
   slug: transifex-context-screenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-context-screenshots-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-context-screenshots-api-openapi.yml
 - filename: transifex-glossaries-api-openapi.yml
   format: yaml
   label: Transifex Glossaries API
   slug: transifex-glossaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-glossaries-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-glossaries-api-openapi.yml
 - filename: transifex-i18n-formats-api-openapi.yml
   format: yaml
   label: Transifex I18n Formats API
   slug: transifex-i18n-formats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-i18n-formats-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-i18n-formats-api-openapi.yml
 - filename: transifex-languages-api-openapi.yml
   format: yaml
   label: Transifex Languages API
   slug: transifex-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-languages-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-languages-api-openapi.yml
 - filename: transifex-organizations-api-openapi.yml
   format: yaml
   label: Transifex Organizations API
   slug: transifex-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-organizations-api-openapi.yml
 - filename: transifex-project-webhooks-api-openapi.yml
   format: yaml
   label: Transifex Project Webhooks API
   slug: transifex-project-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-project-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-project-webhooks-api-openapi.yml
 - filename: transifex-projects-api-openapi.yml
   format: yaml
   label: Transifex Projects API
   slug: transifex-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-projects-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-projects-api-openapi.yml
 - filename: transifex-resource-string-comments-api-openapi.yml
   format: yaml
   label: Transifex Resource String Comments API
   slug: transifex-resource-string-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-resource-string-comments-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-resource-string-comments-api-openapi.yml
 - filename: transifex-resource-strings-api-openapi.yml
   format: yaml
   label: Transifex Resource Strings API
   slug: transifex-resource-strings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-resource-strings-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-resource-strings-api-openapi.yml
 - filename: transifex-resource-translations-api-openapi.yml
   format: yaml
   label: Transifex Resource Translations API
   slug: transifex-resource-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-resource-translations-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-resource-translations-api-openapi.yml
 - filename: transifex-resources-api-openapi.yml
   format: yaml
   label: Transifex Resources API
   slug: transifex-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-resources-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-resources-api-openapi.yml
 - filename: transifex-statistics-api-openapi.yml
   format: yaml
   label: Transifex Statistics API
   slug: transifex-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-statistics-api-openapi.yml
 - filename: transifex-tasks-api-openapi.yml
   format: yaml
   label: Transifex Tasks API
   slug: transifex-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-tasks-api-openapi.yml
 - filename: transifex-team-memberships-api-openapi.yml
   format: yaml
   label: Transifex Team Memberships API
   slug: transifex-team-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-team-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-team-memberships-api-openapi.yml
 - filename: transifex-teams-api-openapi.yml
   format: yaml
   label: Transifex Teams API
   slug: transifex-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-teams-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-teams-api-openapi.yml
 - filename: transifex-translation-memory-api-openapi.yml
   format: yaml
   label: Transifex Translation Memory API
   slug: transifex-translation-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-translation-memory-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-translation-memory-api-openapi.yml
 - filename: transifex-users-api-openapi.yml
   format: yaml
   label: Transifex Users API
   slug: transifex-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/openapi/transifex-users-api-openapi.yml
+  url: https://artifacts.apis.io/transifex/openapi/transifex-users-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 56
@@ -240,7 +240,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/transi
   \ - high-value\n    audit: required\n- path: /teams/{team_id}/managers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/relationships/managers\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/relationships/managers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/relationships/managers\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/relationships/managers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tmx_async_downloads\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tmx_async_downloads/{tmx_async_download_id}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tmx_async_uploads\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tmx_async_uploads/{tmx_async_upload_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transifex/refs/heads/main/agentic-access/transifex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/transifex/agentic-access/transifex-agentic-access.yml
 summary_line: 113 operations · 57 acting
 tags:
 - Localization

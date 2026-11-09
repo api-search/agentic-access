@@ -9,79 +9,79 @@ api_specs:
   label: Fifth Third Bancorp Auth API
   slug: fifth-third-bancorp-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-auth-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-auth-api-openapi.yml
 - filename: fifth-third-bancorp-combined-transfers-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Combined Transfers API
   slug: fifth-third-bancorp-combined-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-combined-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-combined-transfers-api-openapi.yml
 - filename: fifth-third-bancorp-custodial-accounts-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Custodial Accounts API
   slug: fifth-third-bancorp-custodial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-custodial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-custodial-accounts-api-openapi.yml
 - filename: fifth-third-bancorp-customer-products-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Customer Products API
   slug: fifth-third-bancorp-customer-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-customer-products-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-customer-products-api-openapi.yml
 - filename: fifth-third-bancorp-customers-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Customers API
   slug: fifth-third-bancorp-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-customers-api-openapi.yml
 - filename: fifth-third-bancorp-pools-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Pools API
   slug: fifth-third-bancorp-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-pools-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-pools-api-openapi.yml
 - filename: fifth-third-bancorp-products-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Products API
   slug: fifth-third-bancorp-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-products-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-products-api-openapi.yml
 - filename: fifth-third-bancorp-returns-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Returns API
   slug: fifth-third-bancorp-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-returns-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-returns-api-openapi.yml
 - filename: fifth-third-bancorp-sandbox-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Sandbox API
   slug: fifth-third-bancorp-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-sandbox-api-openapi.yml
 - filename: fifth-third-bancorp-synthetic-accounts-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Synthetic Accounts API
   slug: fifth-third-bancorp-synthetic-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-synthetic-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-synthetic-accounts-api-openapi.yml
 - filename: fifth-third-bancorp-transactions-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Transactions API
   slug: fifth-third-bancorp-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-transactions-api-openapi.yml
 - filename: fifth-third-bancorp-transfers-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Transfers API
   slug: fifth-third-bancorp-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-transfers-api-openapi.yml
 - filename: fifth-third-bancorp-virtual-reference-numbers-api-openapi.yml
   format: yaml
   label: Fifth Third Bancorp Virtual Reference Numbers API
   slug: fifth-third-bancorp-virtual-reference-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/openapi/fifth-third-bancorp-virtual-reference-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/fifth-third-bancorp/openapi/fifth-third-bancorp-virtual-reference-numbers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 34
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/newlin
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_reference_numbers/{uid}/lock\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virtual_reference_numbers/{uid}/unlock\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /returns\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /returns\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /returns/{uid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /combined_transfers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /combined_transfers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /combined_transfers/{uid}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/agentic-access/fifth-third-bancorp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fifth-third-bancorp/agentic-access/fifth-third-bancorp-agentic-access.yml
 summary_line: 53 operations · 19 acting
 tags:
 - Banking

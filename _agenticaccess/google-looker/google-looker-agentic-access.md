@@ -9,19 +9,19 @@ api_specs:
   label: Google Looker Authentication API
   slug: google-looker-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/google-looker/openapi/google-looker-authentication-api-openapi.yml
 - filename: google-looker-looks-api-openapi.yml
   format: yaml
   label: Google Looker Looks API
   slug: google-looker-looks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-looks-api-openapi.yml
+  url: https://artifacts.apis.io/google-looker/openapi/google-looker-looks-api-openapi.yml
 - filename: google-looker-users-api-openapi.yml
   format: yaml
   label: Google Looker Users API
   slug: google-looker-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/openapi/google-looker-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-looker/openapi/google-looker-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 1\n    connected: 4\n  by_consequence:\n    write: 1\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: getAllUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /looks\n  method: get\n  operationId: getAllLooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /looks/{look_id}/run/{result_format}\n  method: get\n  operationId: runLook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-looker/refs/heads/main/agentic-access/google-looker-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-looker/agentic-access/google-looker-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Analytics

@@ -9,97 +9,109 @@ api_specs:
   label: FarmDash Agent Hub Account API
   slug: farmdash-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-account-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-account-api-openapi.yml
 - filename: farmdash-autopilot-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Autopilot API
   slug: farmdash-autopilot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-autopilot-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-autopilot-api-openapi.yml
 - filename: farmdash-delegation-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Delegation API
   slug: farmdash-delegation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-delegation-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-delegation-api-openapi.yml
 - filename: farmdash-execution-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Execution API
   slug: farmdash-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-execution-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-execution-api-openapi.yml
 - filename: farmdash-executionauthority-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Execution Authority API
   slug: farmdash-executionauthority-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-executionauthority-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-executionauthority-api-openapi.yml
 - filename: farmdash-history-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub History API
   slug: farmdash-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-history-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-history-api-openapi.yml
 - filename: farmdash-intelligence-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Intelligence API
   slug: farmdash-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-intelligence-api-openapi.yml
 - filename: farmdash-planning-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Planning API
   slug: farmdash-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-planning-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-planning-api-openapi.yml
 - filename: farmdash-proof-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Proof API
   slug: farmdash-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-proof-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-proof-api-openapi.yml
 - filename: farmdash-reputation-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Reputation API
   slug: farmdash-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-reputation-api-openapi.yml
 - filename: farmdash-research-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Research API
   slug: farmdash-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-research-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-research-api-openapi.yml
 - filename: farmdash-risk-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Risk API
   slug: farmdash-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-risk-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-risk-api-openapi.yml
 - filename: farmdash-session-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Session API
   slug: farmdash-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-session-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-session-api-openapi.yml
 - filename: farmdash-strategy-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Strategy API
   slug: farmdash-strategy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-strategy-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-strategy-api-openapi.yml
 - filename: farmdash-swap-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Swap API
   slug: farmdash-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-swap-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-swap-api-openapi.yml
 - filename: farmdash-wallet-api-openapi.yml
   format: yaml
   label: FarmDash Agent Hub Wallet API
   slug: farmdash-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/openapi/farmdash-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-wallet-api-openapi.yml
+- filename: farmdash-agent-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Agent API
+  slug: farmdash-agent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-agent-api-openapi.yml
+- filename: farmdash-payments-api-openapi.yml
+  format: yaml
+  label: FarmDash Agent Hub Payments API
+  slug: farmdash-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/farmdash/openapi/farmdash-payments-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 44
@@ -182,7 +194,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/farmda
   \ 3600\n    audit: none\n- path: /v1/agent/session\n  method: get\n  operationId: findSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/session\n  method: post\n  operationId: manageSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/futures/analyze-strategy\n  method: post\n  operationId: analyzeStrategy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/agent/futures/position-sizing\n\
   \  method: post\n  operationId: calculatePositionSize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/quote\n  method: get\n  operationId: getSwapQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/simulate\n  method: post\n  operationId: simulateSwapExecution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/swap\n  method: post\n  operationId: executeSwap\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/confirm\n  method: post\n  operationId: confirmSwap\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farmdash/refs/heads/main/agentic-access/farmdash-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/farmdash/agentic-access/farmdash-agentic-access.yml
 summary_line: 73 operations · 29 acting · 2 human-in-the-loop
 tags:
 - DeFi
@@ -200,5 +212,4 @@ tags:
 - Hyperliquid
 - Wallet Intelligence
 - zero custody
-- A2A
 ---

@@ -9,55 +9,55 @@ api_specs:
   label: Skimmer Bodies of Water API
   slug: skimmer-pool-bodies-of-water-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-bodies-of-water-api-openapi.yml
 - filename: skimmer-pool-customers-api-openapi.yml
   format: yaml
   label: Skimmer Customers API
   slug: skimmer-pool-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-customers-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-customers-api-openapi.yml
 - filename: skimmer-pool-invoices-api-openapi.yml
   format: yaml
   label: Skimmer Invoices API
   slug: skimmer-pool-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-invoices-api-openapi.yml
 - filename: skimmer-pool-products-api-openapi.yml
   format: yaml
   label: Skimmer Products API
   slug: skimmer-pool-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-products-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-products-api-openapi.yml
 - filename: skimmer-pool-quotes-api-openapi.yml
   format: yaml
   label: Skimmer Quotes API
   slug: skimmer-pool-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-quotes-api-openapi.yml
 - filename: skimmer-pool-routes-api-openapi.yml
   format: yaml
   label: Skimmer Routes API
   slug: skimmer-pool-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-routes-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-routes-api-openapi.yml
 - filename: skimmer-pool-service-locations-api-openapi.yml
   format: yaml
   label: Skimmer Service Locations API
   slug: skimmer-pool-service-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-service-locations-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-service-locations-api-openapi.yml
 - filename: skimmer-pool-users-api-openapi.yml
   format: yaml
   label: Skimmer Users API
   slug: skimmer-pool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-users-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-users-api-openapi.yml
 - filename: skimmer-pool-work-orders-api-openapi.yml
   format: yaml
   label: Skimmer Work Orders API
   slug: skimmer-pool-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/openapi/skimmer-pool-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/skimmer-pool/openapi/skimmer-pool-work-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 28
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/skimme
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Products/search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Products/prices\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Products/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Products/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ProductCategories\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ProductCategories\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ProductCategories\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ProductCategories/search\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ProductCategories/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ProductCategories/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skimmer-pool/refs/heads/main/agentic-access/skimmer-pool-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/skimmer-pool/agentic-access/skimmer-pool-agentic-access.yml
 summary_line: 50 operations · 22 acting
 tags:
 - Pool Service

@@ -9,139 +9,139 @@ api_specs:
   label: Dynatrace Entities API
   slug: dynatrace-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-entities-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-entities-api-openapi.yml
 - filename: dynatrace-environments-api-openapi.yml
   format: yaml
   label: Dynatrace Environments API
   slug: dynatrace-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-environments-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-environments-api-openapi.yml
 - filename: dynatrace-events-api-openapi.yml
   format: yaml
   label: Dynatrace Events API
   slug: dynatrace-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-events-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-events-api-openapi.yml
 - filename: dynatrace-groups-api-openapi.yml
   format: yaml
   label: Dynatrace Groups API
   slug: dynatrace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-groups-api-openapi.yml
 - filename: dynatrace-logs-api-openapi.yml
   format: yaml
   label: Dynatrace Logs API
   slug: dynatrace-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-logs-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-logs-api-openapi.yml
 - filename: dynatrace-metrics-api-openapi.yml
   format: yaml
   label: Dynatrace Metrics API
   slug: dynatrace-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-metrics-api-openapi.yml
 - filename: dynatrace-permissions-api-openapi.yml
   format: yaml
   label: Dynatrace Permissions API
   slug: dynatrace-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-permissions-api-openapi.yml
 - filename: dynatrace-problems-api-openapi.yml
   format: yaml
   label: Dynatrace Problems API
   slug: dynatrace-problems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-problems-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-problems-api-openapi.yml
 - filename: dynatrace-users-api-openapi.yml
   format: yaml
   label: Dynatrace Users API
   slug: dynatrace-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-users-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-users-api-openapi.yml
 - filename: dynatrace-account-audits-api-openapi.yml
   format: yaml
   label: Dynatrace Account Audits API
   slug: dynatrace-account-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-audits-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-account-audits-api-openapi.yml
 - filename: dynatrace-account-limits-api-openapi.yml
   format: yaml
   label: Dynatrace Account limits API
   slug: dynatrace-account-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-limits-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-account-limits-api-openapi.yml
 - filename: dynatrace-account-settings-api-openapi.yml
   format: yaml
   label: Dynatrace Account Settings API
   slug: dynatrace-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-account-settings-api-openapi.yml
 - filename: dynatrace-dynatrace-platform-subscription-api-openapi.yml
   format: yaml
   label: Dynatrace Dynatrace Platform Subscription API
   slug: dynatrace-dynatrace-platform-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-dynatrace-platform-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-dynatrace-platform-subscription-api-openapi.yml
 - filename: dynatrace-environment-management-api-openapi.yml
   format: yaml
   label: Dynatrace Environment management API
   slug: dynatrace-environment-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-environment-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-environment-management-api-openapi.yml
 - filename: dynatrace-group-management-api-openapi.yml
   format: yaml
   label: Dynatrace Group management API
   slug: dynatrace-group-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-group-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-group-management-api-openapi.yml
 - filename: dynatrace-notifications-api-openapi.yml
   format: yaml
   label: Dynatrace Notifications API
   slug: dynatrace-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-notifications-api-openapi.yml
 - filename: dynatrace-permission-management-api-openapi.yml
   format: yaml
   label: Dynatrace Permission management API
   slug: dynatrace-permission-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-permission-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-permission-management-api-openapi.yml
 - filename: dynatrace-platform-tokens-api-openapi.yml
   format: yaml
   label: Dynatrace Platform tokens API
   slug: dynatrace-platform-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-platform-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-platform-tokens-api-openapi.yml
 - filename: dynatrace-policy-management-api-openapi.yml
   format: yaml
   label: Dynatrace Policy management API
   slug: dynatrace-policy-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-policy-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-policy-management-api-openapi.yml
 - filename: dynatrace-reference-data-api-openapi.yml
   format: yaml
   label: Dynatrace Reference data API
   slug: dynatrace-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-reference-data-api-openapi.yml
 - filename: dynatrace-service-user-management-api-openapi.yml
   format: yaml
   label: Dynatrace Service user management API
   slug: dynatrace-service-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-service-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-service-user-management-api-openapi.yml
 - filename: dynatrace-user-management-api-openapi.yml
   format: yaml
   label: Dynatrace User management API
   slug: dynatrace-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-user-management-api-openapi.yml
 - filename: dynatrace-workload-identity-federation-api-openapi.yml
   format: yaml
   label: Dynatrace Workload Identity Federation API
   slug: dynatrace-workload-identity-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/openapi/dynatrace-workload-identity-federation-api-openapi.yml
+  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-workload-identity-federation-api-openapi.yml
 consequence_counts:
   read: 71
   safety-critical: 21
@@ -309,8 +309,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/dynatr
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iam/v1/repo/account/{account-id}/boundaries/{policy-boundary-uuid}\n  method: get\n  operationId: getPolicyBoundary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iam/v1/repo/account/{account-id}/boundaries/{policy-boundary-uuid}\n  method: put\n  operationId: putPolicyBoundary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iam/v1/repo/account/{account-id}/boundaries/{policy-boundary-uuid}\n\
   \  method: delete\n  operationId: deletePolicyBoundary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iam/v1/repo/{level-type}/{level-id}/limits\n  method: get\n  operationId: getLimitsForLevel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /problems\n  method: get\n  operationId: listProblems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /problems/{problemId}\n  method: get\n  operationId: getProblem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /problems/{problemId}/close\n  method: post\n  operationId: closeProblem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /problems/{problemId}/comments\n  method: get\n  operationId: listProblemComments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /problems/{problemId}/comments\n  method: post\n  operationId: createProblemComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /problems/{problemId}/comments/{commentId}\n\
-  \  method: get\n  operationId: getProblemComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /problems/{problemId}/comments/{commentId}\n  method: put\n  operationId: updateProblemComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/agentic-access/dynatrace-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/agentic-access/dynatrace-agentic-access.yml
+  \  method: get\n  operationId: getProblemComment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /problems/{problemId}/comments/{commentId}\n  method: put\n  operationId: updateProblemComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/dynatrace/agentic-access/dynatrace-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/dynatrace/agentic-access/dynatrace-agentic-access.yml
 summary_line: 133 operations · 62 acting · 21 human-in-the-loop
 tags:
 - AI Operations

@@ -9,31 +9,37 @@ api_specs:
   label: Amazon Mainframe Modernization Applications API
   slug: amazon-mainframe-modernization-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-applications-api-openapi.yml
 - filename: amazon-mainframe-modernization-engine-versions-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Engine Versions API
   slug: amazon-mainframe-modernization-engine-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-engine-versions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-engine-versions-api-openapi.yml
 - filename: amazon-mainframe-modernization-environments-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Environments API
   slug: amazon-mainframe-modernization-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-environments-api-openapi.yml
 - filename: amazon-mainframe-modernization-signed-bi-url-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Signed Bi Url API
   slug: amazon-mainframe-modernization-signed-bi-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-signed-bi-url-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-signed-bi-url-api-openapi.yml
 - filename: amazon-mainframe-modernization-tags-api-openapi.yml
   format: yaml
   label: Amazon Mainframe Modernization Tags API
   slug: amazon-mainframe-modernization-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/openapi/amazon-mainframe-modernization-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-tags-api-openapi.yml
+- filename: amazon-mainframe-modernization-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Mainframe Modernization Mainframe Modernization Operations API
+  slug: amazon-mainframe-modernization-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mainframe-modernization/openapi/amazon-mainframe-modernization-operations-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -85,9 +91,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{applicationId}/datasets\n  method: get\n  operationId: ListDataSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engine-versions\n  method: get\n  operationId: ListEngineVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}/start\n  method: post\n  operationId: StartApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}/batch-job\n  method: post\n  operationId: StartBatchJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /applications/{applicationId}/stop\n  method: post\n  operationId: StopApplication\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mainframe-modernization/refs/heads/main/agentic-access/amazon-mainframe-modernization-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mainframe-modernization/agentic-access/amazon-mainframe-modernization-agentic-access.yml
 summary_line: 33 operations · 15 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - COBOL
 - Mainframe
 - Migration

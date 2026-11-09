@@ -9,31 +9,31 @@ api_specs:
   label: Shotstack Create API
   slug: shotstack-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-create-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-create-api-openapi.yml
 - filename: shotstack-edit-api-openapi.yml
   format: yaml
   label: Shotstack Edit API
   slug: shotstack-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-edit-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-edit-api-openapi.yml
 - filename: shotstack-ingest-api-openapi.yml
   format: yaml
   label: Shotstack Ingest API
   slug: shotstack-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-ingest-api-openapi.yml
 - filename: shotstack-serve-api-openapi.yml
   format: yaml
   label: Shotstack Serve API
   slug: shotstack-serve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-serve-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-serve-api-openapi.yml
 - filename: shotstack-templates-api-openapi.yml
   format: yaml
   label: Shotstack Templates API
   slug: shotstack-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/openapi/shotstack-templates-api-openapi.yml
+  url: https://artifacts.apis.io/shotstack/openapi/shotstack-templates-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shotst
   \ required\n- path: /serve/v1/assets/render/{id}\n  method: get\n  operationId: getAssetsByRender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /serve/v1/assets\n  method: post\n  operationId: transferAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/v1/templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /edit/v1/templates\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/v1/templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edit/v1/templates/{id}\n  method: put\n  operationId: updateTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/v1/templates/{id}\n  method: delete\n  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /edit/v1/templates/render\n  method: post\n  operationId: renderTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shotstack/refs/heads/main/agentic-access/shotstack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shotstack/agentic-access/shotstack-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Video

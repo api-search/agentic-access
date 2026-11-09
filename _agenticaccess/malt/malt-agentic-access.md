@@ -9,25 +9,25 @@ api_specs:
   label: Malt Fee Invoices API
   slug: malt-fee-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-fee-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-fee-invoices-api-openapi.yml
 - filename: malt-invoices-api-openapi.yml
   format: yaml
   label: Malt Invoices API
   slug: malt-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-invoices-api-openapi.yml
 - filename: malt-payments-api-openapi.yml
   format: yaml
   label: Malt Payments API
   slug: malt-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-payments-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-payments-api-openapi.yml
 - filename: malt-scim-api-openapi.yml
   format: yaml
   label: Malt SCIM API
   slug: malt-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-scim-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-scim-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: generated\nsource: openapi/malt-e
   \  method: get\n  operationId: getInvoicePdf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /freelancer/payments\n  method: get\n  operationId: findPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /freelancer/fee-invoices\n  method: get\n  operationId: findFeeInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /freelancer/fee-invoices/{id}\n  method: get\n  operationId: getFeeInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /freelancer/fee-invoices/{id}/pdf\n  method: get\n  operationId: getFeeInvoicePdf\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: get\n  operationId: findUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{userId}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /scim/v2/Users/{userId}\n  method: get\n  operationId: getUserById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users/{userId}\n  method: patch\n  operationId: modifyUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{userId}\n  method: put\n  operationId: replaceUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/agentic-access/malt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/malt/agentic-access/malt-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Company

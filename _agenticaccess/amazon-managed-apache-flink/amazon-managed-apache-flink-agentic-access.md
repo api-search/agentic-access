@@ -9,7 +9,13 @@ api_specs:
   label: Amazon Managed Service for Apache Flink Amazon Kinesis Analytics API
   slug: amazon-managed-apache-flink-amazon-kinesis-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/openapi/amazon-managed-apache-flink-amazon-kinesis-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-amazon-kinesis-analytics-api-openapi.yml
+- filename: amazon-managed-apache-flink-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink Managed Apache Flink Operations API
+  slug: amazon-managed-apache-flink-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-operations-api-openapi.yml
 consequence_counts:
   read: 4
   safety-critical: 1
@@ -61,10 +67,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.StopApplication\n  method: post\n  operationId: StopApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.TagResource\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.UntagResource\n  method: post\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.UpdateApplication\n  method: post\n  operationId: UpdateApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=KinesisAnalytics_20180523.UpdateApplicationMaintenanceConfiguration\n  method: post\n  operationId: UpdateApplicationMaintenanceConfiguration\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-apache-flink/refs/heads/main/agentic-access/amazon-managed-apache-flink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-apache-flink/agentic-access/amazon-managed-apache-flink-agentic-access.yml
 summary_line: 31 operations · 27 acting · 1 human-in-the-loop
 tags:
 - Apache Flink
+- Amazon Web Services
 - Big Data
 - Real-Time Processing
 - Streaming Analytics

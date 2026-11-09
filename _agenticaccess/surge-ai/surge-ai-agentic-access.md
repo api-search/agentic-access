@@ -9,19 +9,19 @@ api_specs:
   label: Surge AI Projects API
   slug: surge-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/openapi/surge-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/surge-ai/openapi/surge-ai-projects-api-openapi.yml
 - filename: surge-ai-tasks-api-openapi.yml
   format: yaml
   label: Surge AI Tasks API
   slug: surge-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/openapi/surge-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/surge-ai/openapi/surge-ai-tasks-api-openapi.yml
 - filename: surge-ai-teams-api-openapi.yml
   format: yaml
   label: Surge AI Teams API
   slug: surge-ai-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/openapi/surge-ai-teams-api-openapi.yml
+  url: https://artifacts.apis.io/surge-ai/openapi/surge-ai-teams-api-openapi.yml
 consequence_counts:
   read: 8
   write: 10
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/surge-
   \      - high-value\n    audit: required\n- path: /projects/{project_id}/resume\n  method: post\n  operationId: resumeProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/cancel\n  method: post\n  operationId: cancelProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/tasks\n\
   \  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/tasks/create_tasks\n  method: post\n  operationId: createTasksBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{task_id}/create-response\n  method: post\n  operationId: createTaskResponse\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}/gold-standards\n  method: post\n  operationId: setTaskGoldStandards\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/surge-ai/refs/heads/main/agentic-access/surge-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/surge-ai/agentic-access/surge-ai-agentic-access.yml
 summary_line: 18 operations · 10 acting
 tags:
 - Human Data

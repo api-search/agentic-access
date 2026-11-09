@@ -9,139 +9,139 @@ api_specs:
   label: Broad Institute Billing V2 API
   slug: broad-institute-billingv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-billingv2-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-billingv2-api-openapi.yml
 - filename: broad-institute-cromiam-engine-for-job-manager-api-openapi.yml
   format: yaml
   label: Broad Institute CromIAM Engine (for Job Manager) API
   slug: broad-institute-cromiam-engine-for-job-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-cromiam-engine-for-job-manager-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-cromiam-engine-for-job-manager-api-openapi.yml
 - filename: broad-institute-cromiam-workflows-for-admin-api-openapi.yml
   format: yaml
   label: Broad Institute CromIAM Workflows (for Admin) API
   slug: broad-institute-cromiam-workflows-for-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-cromiam-workflows-for-admin-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-cromiam-workflows-for-admin-api-openapi.yml
 - filename: broad-institute-cromiam-workflows-for-job-manager-api-openapi.yml
   format: yaml
   label: Broad Institute CromIAM Workflows (for Job Manager) API
   slug: broad-institute-cromiam-workflows-for-job-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-cromiam-workflows-for-job-manager-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-cromiam-workflows-for-job-manager-api-openapi.yml
 - filename: broad-institute-entities-api-openapi.yml
   format: yaml
   label: Broad Institute Entities API
   slug: broad-institute-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-entities-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-entities-api-openapi.yml
 - filename: broad-institute-ga4gh-tool-registry-api-openapi.yml
   format: yaml
   label: Broad Institute GA4GH Tool Registry API
   slug: broad-institute-ga4gh-tool-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-ga4gh-tool-registry-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-ga4gh-tool-registry-api-openapi.yml
 - filename: broad-institute-groups-api-openapi.yml
   format: yaml
   label: Broad Institute Groups API
   slug: broad-institute-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-groups-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-groups-api-openapi.yml
 - filename: broad-institute-method-configurations-api-openapi.yml
   format: yaml
   label: Broad Institute Method Configurations API
   slug: broad-institute-method-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-method-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-method-configurations-api-openapi.yml
 - filename: broad-institute-method-repository-api-openapi.yml
   format: yaml
   label: Broad Institute Method Repository API
   slug: broad-institute-method-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-method-repository-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-method-repository-api-openapi.yml
 - filename: broad-institute-nih-api-openapi.yml
   format: yaml
   label: Broad Institute NIH API
   slug: broad-institute-nih-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-nih-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-nih-api-openapi.yml
 - filename: broad-institute-notifications-api-openapi.yml
   format: yaml
   label: Broad Institute Notifications API
   slug: broad-institute-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-notifications-api-openapi.yml
 - filename: broad-institute-oauth-api-openapi.yml
   format: yaml
   label: Broad Institute OAuth API
   slug: broad-institute-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-oauth-api-openapi.yml
 - filename: broad-institute-profile-api-openapi.yml
   format: yaml
   label: Broad Institute Profile API
   slug: broad-institute-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-profile-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-profile-api-openapi.yml
 - filename: broad-institute-service-perimeters-api-openapi.yml
   format: yaml
   label: Broad Institute Service Perimeters API
   slug: broad-institute-service-perimeters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-service-perimeters-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-service-perimeters-api-openapi.yml
 - filename: broad-institute-static-notebooks-api-openapi.yml
   format: yaml
   label: Broad Institute Static Notebooks API
   slug: broad-institute-static-notebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-static-notebooks-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-static-notebooks-api-openapi.yml
 - filename: broad-institute-status-api-openapi.yml
   format: yaml
   label: Broad Institute Status API
   slug: broad-institute-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-status-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-status-api-openapi.yml
 - filename: broad-institute-submissions-api-openapi.yml
   format: yaml
   label: Broad Institute Submissions API
   slug: broad-institute-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-submissions-api-openapi.yml
 - filename: broad-institute-terms-of-service-api-openapi.yml
   format: yaml
   label: Broad Institute Terms of Service API
   slug: broad-institute-terms-of-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-terms-of-service-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-terms-of-service-api-openapi.yml
 - filename: broad-institute-users-api-openapi.yml
   format: yaml
   label: Broad Institute Users API
   slug: broad-institute-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-users-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-users-api-openapi.yml
 - filename: broad-institute-version-api-openapi.yml
   format: yaml
   label: Broad Institute Version API
   slug: broad-institute-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-version-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-version-api-openapi.yml
 - filename: broad-institute-womtool-api-openapi.yml
   format: yaml
   label: Broad Institute Womtool API
   slug: broad-institute-womtool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-womtool-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-womtool-api-openapi.yml
 - filename: broad-institute-workspaces-api-openapi.yml
   format: yaml
   label: Broad Institute Workspaces API
   slug: broad-institute-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-workspaces-api-openapi.yml
 - filename: broad-institute-workspacesv2-api-openapi.yml
   format: yaml
   label: Broad Institute Workspaces V2 API
   slug: broad-institute-workspacesv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/openapi/broad-institute-workspacesv2-api-openapi.yml
+  url: https://artifacts.apis.io/broad-institute/openapi/broad-institute-workspacesv2-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 88
@@ -207,8 +207,8 @@ source_yaml: "generated: '2026-10-15'\nmethod: generated\nsource: openapi/broad-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/importJob/{jobId}\n  method: get\n  operationId: importJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/flexibleImportEntities\n  method: post\n  operationId: flexibleImportEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/lock\n  method:\
   \ put\n  operationId: lockWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/method_configs/{configNamespace}/{configName}\n  method: get\n  operationId: getWorkspaceMethodConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/method_configs/{configNamespace}/{configName}\n  method: put\n  operationId: overwriteWorkspaceMethodConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n    \
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/method_configs/{configNamespace}/{configName}\n  method: post\n  operationId: updateWorkspaceMethodConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workspaces/{workspaceNamespace}/{workspaceName}/method_configs/{configNamespace}/{configName}\n  method: delete\n  operationId: deleteWorkspaceMethodConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (51 KB\
-  \ total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/agentic-access/broad-institute-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/broad-institute/refs/heads/main/agentic-access/broad-institute-agentic-access.yml
+  \ total) ---\n# Full source: https://artifacts.apis.io/broad-institute/agentic-access/broad-institute-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/broad-institute/agentic-access/broad-institute-agentic-access.yml
 summary_line: 173 operations · 85 acting
 tags:
 - Biotechnology

@@ -9,73 +9,73 @@ api_specs:
   label: Oden Technologies Dashboards API
   slug: oden-technologies-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-dashboards-api-openapi.yml
 - filename: oden-technologies-intervals-api-openapi.yml
   format: yaml
   label: Oden Technologies Intervals API
   slug: oden-technologies-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-intervals-api-openapi.yml
 - filename: oden-technologies-machine-groups-api-openapi.yml
   format: yaml
   label: Oden Technologies Machine Groups API
   slug: oden-technologies-machine-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-machine-groups-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-machine-groups-api-openapi.yml
 - filename: oden-technologies-maintenance-work-orders-api-openapi.yml
   format: yaml
   label: Oden Technologies Maintenance Work Orders API
   slug: oden-technologies-maintenance-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-maintenance-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-maintenance-work-orders-api-openapi.yml
 - filename: oden-technologies-metric-groups-api-openapi.yml
   format: yaml
   label: Oden Technologies Metric Groups API
   slug: oden-technologies-metric-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-metric-groups-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-metric-groups-api-openapi.yml
 - filename: oden-technologies-oql-api-openapi.yml
   format: yaml
   label: Oden Technologies OQL API
   slug: oden-technologies-oql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-oql-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-oql-api-openapi.yml
 - filename: oden-technologies-product-attributes-api-openapi.yml
   format: yaml
   label: Oden Technologies Product Attributes API
   slug: oden-technologies-product-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-product-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-product-attributes-api-openapi.yml
 - filename: oden-technologies-product-mappings-api-openapi.yml
   format: yaml
   label: Oden Technologies Product Mappings API
   slug: oden-technologies-product-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-product-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-product-mappings-api-openapi.yml
 - filename: oden-technologies-products-api-openapi.yml
   format: yaml
   label: Oden Technologies Products API
   slug: oden-technologies-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-products-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-products-api-openapi.yml
 - filename: oden-technologies-quality-test-api-openapi.yml
   format: yaml
   label: Oden Technologies Quality Test API
   slug: oden-technologies-quality-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-quality-test-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-quality-test-api-openapi.yml
 - filename: oden-technologies-scrap-yield-data-api-openapi.yml
   format: yaml
   label: Oden Technologies Scrap/Yield Data API
   slug: oden-technologies-scrap-yield-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-scrap-yield-data-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-scrap-yield-data-api-openapi.yml
 - filename: oden-technologies-targets-api-openapi.yml
   format: yaml
   label: Oden Technologies Targets API
   slug: oden-technologies-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/openapi/oden-technologies-targets-api-openapi.yml
+  url: https://artifacts.apis.io/oden-technologies/openapi/oden-technologies-targets-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/oden-t
   \      - high-value\n    audit: required\n- path: /v2/quality_tests/delete\n  method: post\n  operationId: bulk_delete_quality_tests\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/quality_schema/search\n  method: post\n  operationId: search_quality_schemas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scrap_yield/search\n  method: post\n  operationId: search_scrap_yield\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/scrap_yield/set\n  method: post\n  operationId: set_scrap_yield\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/scrap_yield/delete\n  method: post\n  operationId: delete_scrap_yield\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/target/search\n  method: post\n  operationId: search_targets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/target/set\n  method: post\n  operationId: set_target\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oden-technologies/refs/heads/main/agentic-access/oden-technologies-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oden-technologies/agentic-access/oden-technologies-agentic-access.yml
 summary_line: 35 operations · 22 acting
 tags:
 - Company

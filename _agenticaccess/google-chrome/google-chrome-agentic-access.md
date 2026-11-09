@@ -9,37 +9,37 @@ api_specs:
   label: Google Chrome App Details API
   slug: google-chrome-app-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-app-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-app-details-api-openapi.yml
 - filename: google-chrome-reports-api-openapi.yml
   format: yaml
   label: Google Chrome Reports API
   slug: google-chrome-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-reports-api-openapi.yml
 - filename: google-chrome-telemetry-devices-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Devices API
   slug: google-chrome-telemetry-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-devices-api-openapi.yml
 - filename: google-chrome-telemetry-events-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Events API
   slug: google-chrome-telemetry-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-events-api-openapi.yml
 - filename: google-chrome-telemetry-notification-configs-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Notification Configs API
   slug: google-chrome-telemetry-notification-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
 - filename: google-chrome-telemetry-users-api-openapi.yml
   format: yaml
   label: Google Chrome Telemetry Users API
   slug: google-chrome-telemetry-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/openapi/google-chrome-telemetry-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-users-api-openapi.yml
 consequence_counts:
   read: 16
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \    - https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n- path: /customers/{customerId}/reports:findInstalledAppDevices\n  method: get\n  operationId: findInstalledAppDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/chrome.management.appdetails.readonly\n    - https://www.googleapis.com/auth/chrome.management.reports.readonly\n    - https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n- path: /customers/{customerId}/reports:countChromeDevicesReachingAutoExpirationDate\n  method: get\n  operationId: countChromeDevicesReachingAutoExpirationDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/chrome.management.appdetails.readonly\n    - https://www.googleapis.com/auth/chrome.management.reports.readonly\n\
   \    - https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n- path: /customers/{customerId}/reports:countChromeBrowsersNeedingAttention\n  method: get\n  operationId: countChromeBrowsersNeedingAttention\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/chrome.management.appdetails.readonly\n    - https://www.googleapis.com/auth/chrome.management.reports.readonly\n    - https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n- path: /customers/{customerId}/reports:countChromeDevicesThatNeedOsUpdate\n  method: get\n  operationId: countChromeDevicesThatNeedOsUpdate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/chrome.management.appdetails.readonly\n    - https://www.googleapis.com/auth/chrome.management.reports.readonly\n\
   \    - https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n- path: /customers/{customerId}/reports:countChromeHardwareFleetDevices\n  method: get\n  operationId: countChromeHardwareFleetDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/chrome.management.appdetails.readonly\n    - https://www.googleapis.com/auth/chrome.management.reports.readonly\n    - https://www.googleapis.com/auth/chrome.management.telemetry.readonly\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/agentic-access/google-chrome-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-chrome/agentic-access/google-chrome-agentic-access.yml
 summary_line: 18 operations · 2 acting
 tags:
 - Browser

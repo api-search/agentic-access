@@ -9,37 +9,37 @@ api_specs:
   label: Open Charge Map Comment API
   slug: openchargemap-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/openapi/openchargemap-comment-api-openapi.yml
+  url: https://artifacts.apis.io/openchargemap/openapi/openchargemap-comment-api-openapi.yml
 - filename: openchargemap-mediaitem-api-openapi.yml
   format: yaml
   label: Open Charge Map Mediaitem API
   slug: openchargemap-mediaitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/openapi/openchargemap-mediaitem-api-openapi.yml
+  url: https://artifacts.apis.io/openchargemap/openapi/openchargemap-mediaitem-api-openapi.yml
 - filename: openchargemap-poi-api-openapi.yml
   format: yaml
   label: Open Charge Map Poi API
   slug: openchargemap-poi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/openapi/openchargemap-poi-api-openapi.yml
+  url: https://artifacts.apis.io/openchargemap/openapi/openchargemap-poi-api-openapi.yml
 - filename: openchargemap-profile-api-openapi.yml
   format: yaml
   label: Open Charge Map Profile API
   slug: openchargemap-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/openapi/openchargemap-profile-api-openapi.yml
+  url: https://artifacts.apis.io/openchargemap/openapi/openchargemap-profile-api-openapi.yml
 - filename: openchargemap-open-api-api-openapi.yml
   format: yaml
   label: Open Charge Map Open API
   slug: openchargemap-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/openapi/openchargemap-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/openchargemap/openapi/openchargemap-open-api-api-openapi.yml
 - filename: openchargemap-reference-data-api-openapi.yml
   format: yaml
   label: Open Charge Map Reference Data API
   slug: openchargemap-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/openapi/openchargemap-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/openchargemap/openapi/openchargemap-reference-data-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 3\n    acting: 3\n  by_consequence:\n    read: 3\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /poi\n  method: get\n  operationId: get-poi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /referencedata\n  method: get\n  operationId: get-referencedata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/authenticate\n  method: post\n  operationId: post-authenticate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /comment\n  method: post\n  operationId: post-comment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mediaitem\n  method: post\n  operationId: post-mediaitem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /openapi\n  method: get\n  operationId:\
   \ get-openapi\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openchargemap/refs/heads/main/agentic-access/openchargemap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openchargemap/agentic-access/openchargemap-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
 - Electric Vehicles

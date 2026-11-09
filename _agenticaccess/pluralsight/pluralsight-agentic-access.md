@@ -9,79 +9,79 @@ api_specs:
   label: Pluralsight Catalog API
   slug: pluralsight-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-catalog-api-openapi.yml
 - filename: pluralsight-coding-metrics-api-openapi.yml
   format: yaml
   label: Pluralsight Coding Metrics API
   slug: pluralsight-coding-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-coding-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-coding-metrics-api-openapi.yml
 - filename: pluralsight-collaboration-metrics-api-openapi.yml
   format: yaml
   label: Pluralsight Collaboration Metrics API
   slug: pluralsight-collaboration-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-collaboration-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-collaboration-metrics-api-openapi.yml
 - filename: pluralsight-commits-api-openapi.yml
   format: yaml
   label: Pluralsight Commits API
   slug: pluralsight-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-commits-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-commits-api-openapi.yml
 - filename: pluralsight-dora-metrics-api-openapi.yml
   format: yaml
   label: Pluralsight DORA Metrics API
   slug: pluralsight-dora-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-dora-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-dora-metrics-api-openapi.yml
 - filename: pluralsight-integrations-api-openapi.yml
   format: yaml
   label: Pluralsight Integrations API
   slug: pluralsight-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-integrations-api-openapi.yml
 - filename: pluralsight-licensing-api-openapi.yml
   format: yaml
   label: Pluralsight Licensing API
   slug: pluralsight-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-licensing-api-openapi.yml
 - filename: pluralsight-pull-requests-api-openapi.yml
   format: yaml
   label: Pluralsight Pull Requests API
   slug: pluralsight-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-pull-requests-api-openapi.yml
 - filename: pluralsight-reports-api-openapi.yml
   format: yaml
   label: Pluralsight Reports API
   slug: pluralsight-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-reports-api-openapi.yml
 - filename: pluralsight-repos-api-openapi.yml
   format: yaml
   label: Pluralsight Repos API
   slug: pluralsight-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-repos-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-repos-api-openapi.yml
 - filename: pluralsight-tickets-api-openapi.yml
   format: yaml
   label: Pluralsight Tickets API
   slug: pluralsight-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-tickets-api-openapi.yml
 - filename: pluralsight-users-api-openapi.yml
   format: yaml
   label: Pluralsight Users API
   slug: pluralsight-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-users-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-users-api-openapi.yml
 - filename: pluralsight-graph-ql-api-openapi.yml
   format: yaml
   label: Pluralsight Graph QL API
   slug: pluralsight-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/openapi/pluralsight-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/pluralsight/openapi/pluralsight-graph-ql-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/channe
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: downloadUserReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /course-completion\n  method: get\n  operationId: downloadCourseCompletionReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /course-usage\n  method: get\n  operationId: downloadCourseUsageReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /graphql\n  method: post\n  operationId: manageRoleIQ\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n \
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql\n  method: post\n  operationId: querySkillsAssessment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /graphql\n  method: post\n  operationId: queryTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql\n  method: post\n  operationId: manageTeams\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql\n  method: post\n  operationId: manageUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pluralsight/refs/heads/main/agentic-access/pluralsight-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pluralsight/agentic-access/pluralsight-agentic-access.yml
 summary_line: 36 operations · 19 acting · 1 human-in-the-loop
 tags:
 - Courses

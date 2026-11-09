@@ -9,43 +9,43 @@ api_specs:
   label: Spinwheel Bank Accounts API
   slug: spinwheel-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-bank-accounts-api-openapi.yml
 - filename: spinwheel-credit-data-api-openapi.yml
   format: yaml
   label: Spinwheel Credit Data API
   slug: spinwheel-credit-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-credit-data-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-credit-data-api-openapi.yml
 - filename: spinwheel-liabilities-api-openapi.yml
   format: yaml
   label: Spinwheel Liabilities API
   slug: spinwheel-liabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-liabilities-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-liabilities-api-openapi.yml
 - filename: spinwheel-payments-api-openapi.yml
   format: yaml
   label: Spinwheel Payments API
   slug: spinwheel-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-payments-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-payments-api-openapi.yml
 - filename: spinwheel-reference-api-openapi.yml
   format: yaml
   label: Spinwheel Reference API
   slug: spinwheel-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-reference-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-reference-api-openapi.yml
 - filename: spinwheel-users-api-openapi.yml
   format: yaml
   label: Spinwheel Users API
   slug: spinwheel-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-users-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-users-api-openapi.yml
 - filename: spinwheel-webhooks-api-openapi.yml
   format: yaml
   label: Spinwheel Webhooks API
   slug: spinwheel-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/openapi/spinwheel-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spinwheel/openapi/spinwheel-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 13
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spinwh
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/connect/phone\n  method: post\n  operationId: connectUserPhone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/connect/network-token\n  method: post\n  operationId: connectUserNetworkToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhookId}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/agentic-access/spinwheel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spinwheel/agentic-access/spinwheel-agentic-access.yml
 summary_line: 36 operations · 23 acting
 tags:
 - Fintech

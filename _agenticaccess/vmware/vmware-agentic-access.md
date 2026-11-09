@@ -9,91 +9,91 @@ api_specs:
   label: VMware Clusters API
   slug: vmware-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-clusters-api-openapi.yml
 - filename: vmware-content-library-api-openapi.yml
   format: yaml
   label: VMware Content Library API
   slug: vmware-content-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-content-library-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-content-library-api-openapi.yml
 - filename: vmware-datastores-api-openapi.yml
   format: yaml
   label: VMware Datastores API
   slug: vmware-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-datastores-api-openapi.yml
 - filename: vmware-folders-api-openapi.yml
   format: yaml
   label: VMware Folders API
   slug: vmware-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-folders-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-folders-api-openapi.yml
 - filename: vmware-hosts-api-openapi.yml
   format: yaml
   label: VMware Hosts API
   slug: vmware-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-hosts-api-openapi.yml
 - filename: vmware-networks-api-openapi.yml
   format: yaml
   label: VMware Networks API
   slug: vmware-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-networks-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-networks-api-openapi.yml
 - filename: vmware-resource-pools-api-openapi.yml
   format: yaml
   label: VMware Resource Pools API
   slug: vmware-resource-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-resource-pools-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-resource-pools-api-openapi.yml
 - filename: vmware-session-api-openapi.yml
   format: yaml
   label: VMware Session API
   slug: vmware-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-session-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-session-api-openapi.yml
 - filename: vmware-storage-policies-api-openapi.yml
   format: yaml
   label: VMware Storage Policies API
   slug: vmware-storage-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-storage-policies-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-storage-policies-api-openapi.yml
 - filename: vmware-tagging-api-openapi.yml
   format: yaml
   label: VMware Tagging API
   slug: vmware-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-tagging-api-openapi.yml
 - filename: vmware-vm-guest-api-openapi.yml
   format: yaml
   label: VMware VM Guest API
   slug: vmware-vm-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-guest-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-vm-guest-api-openapi.yml
 - filename: vmware-vm-hardware-api-openapi.yml
   format: yaml
   label: VMware VM Hardware API
   slug: vmware-vm-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-vm-hardware-api-openapi.yml
 - filename: vmware-vm-power-api-openapi.yml
   format: yaml
   label: VMware VM Power API
   slug: vmware-vm-power-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vm-power-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-vm-power-api-openapi.yml
 - filename: vmware-vms-api-openapi.yml
   format: yaml
   label: VMware V Ms API
   slug: vmware-vms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-vms-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-vms-api-openapi.yml
 - filename: vmware-data-centers-api-openapi.yml
   format: yaml
   label: VMware Data Centers API
   slug: vmware-data-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/openapi/vmware-data-centers-api-openapi.yml
+  url: https://artifacts.apis.io/vmware/openapi/vmware-data-centers-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 3
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vmware
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /content/library/{library_id}\n  method: get\n  operationId: getContentLibrary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/library/{library_id}\n  method: delete\n  operationId: deleteContentLibrary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vcenter/storage/policies\n  method: get\n  operationId: listStoragePolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /cis/tagging/category\n  method: get\n  operationId: listTagCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cis/tagging/category\n  method: post\n  operationId: createTagCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cis/tagging/tag\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cis/tagging/tag\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cis/tagging/tag-association?action=attach\n  method: post\n  operationId: attachTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/agentic-access/vmware-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vmware/agentic-access/vmware-agentic-access.yml
 summary_line: 49 operations · 22 acting · 3 human-in-the-loop
 tags:
 - Cloud Computing

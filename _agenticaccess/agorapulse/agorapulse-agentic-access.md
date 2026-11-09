@@ -9,157 +9,157 @@ api_specs:
   label: Agorapulse Calendar Notes API
   slug: agorapulse-calendar-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-calendar-notes-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-calendar-notes-api-openapi.yml
 - filename: agorapulse-agorapulse-api-api-openapi.yml
   format: yaml
   label: Agorapulse Webhooks API
   slug: agorapulse-agorapulse-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-agorapulse-api-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-agorapulse-api-api-openapi.yml
 - filename: agorapulse-competitor-api-openapi.yml
   format: yaml
   label: Agorapulse Competitor API
   slug: agorapulse-competitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-competitor-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-competitor-api-openapi.yml
 - filename: agorapulse-conversations-api-openapi.yml
   format: yaml
   label: Agorapulse Conversations API
   slug: agorapulse-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-conversations-api-openapi.yml
 - filename: agorapulse-drafts-api-openapi.yml
   format: yaml
   label: Agorapulse Drafts API
   slug: agorapulse-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-drafts-api-openapi.yml
 - filename: agorapulse-groups-api-openapi.yml
   format: yaml
   label: Agorapulse Groups API
   slug: agorapulse-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-groups-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-groups-api-openapi.yml
 - filename: agorapulse-health-api-openapi.yml
   format: yaml
   label: Agorapulse Health API
   slug: agorapulse-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-health-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-health-api-openapi.yml
 - filename: agorapulse-items-api-openapi.yml
   format: yaml
   label: Agorapulse Items API
   slug: agorapulse-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-items-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-items-api-openapi.yml
 - filename: agorapulse-media-api-openapi.yml
   format: yaml
   label: Agorapulse Media API
   slug: agorapulse-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-media-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-media-api-openapi.yml
 - filename: agorapulse-organizations-api-openapi.yml
   format: yaml
   label: Agorapulse Organizations API
   slug: agorapulse-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-organizations-api-openapi.yml
 - filename: agorapulse-pinterest-boards-api-openapi.yml
   format: yaml
   label: Agorapulse Pinterest boards API
   slug: agorapulse-pinterest-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-pinterest-boards-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-pinterest-boards-api-openapi.yml
 - filename: agorapulse-profiles-api-openapi.yml
   format: yaml
   label: Agorapulse Profiles API
   slug: agorapulse-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-profiles-api-openapi.yml
 - filename: agorapulse-replies-api-openapi.yml
   format: yaml
   label: Agorapulse Replies API
   slug: agorapulse-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-replies-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-replies-api-openapi.yml
 - filename: agorapulse-reports-api-openapi.yml
   format: yaml
   label: Agorapulse Reports API
   slug: agorapulse-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-reports-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-reports-api-openapi.yml
 - filename: agorapulse-workspaces-api-openapi.yml
   format: yaml
   label: Agorapulse Workspaces API
   slug: agorapulse-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-workspaces-api-openapi.yml
 - filename: agorapulse-inbox-conversations-api-openapi.yml
   format: yaml
   label: Agorapulse Inbox conversations API
   slug: agorapulse-inbox-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-inbox-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-inbox-conversations-api-openapi.yml
 - filename: agorapulse-inbox-items-api-openapi.yml
   format: yaml
   label: Agorapulse Inbox items API
   slug: agorapulse-inbox-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-inbox-items-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-inbox-items-api-openapi.yml
 - filename: agorapulse-inbox-reply-api-openapi.yml
   format: yaml
   label: Agorapulse Inbox reply API
   slug: agorapulse-inbox-reply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-inbox-reply-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-inbox-reply-api-openapi.yml
 - filename: agorapulse-open-api-api-openapi.yml
   format: yaml
   label: Agorapulse Open API
   slug: agorapulse-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-open-api-api-openapi.yml
 - filename: agorapulse-organization-api-openapi.yml
   format: yaml
   label: Agorapulse Organization API
   slug: agorapulse-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-organization-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-organization-api-openapi.yml
 - filename: agorapulse-profile-api-openapi.yml
   format: yaml
   label: Agorapulse Profile API
   slug: agorapulse-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-profile-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-profile-api-openapi.yml
 - filename: agorapulse-report-api-openapi.yml
   format: yaml
   label: Agorapulse Report API
   slug: agorapulse-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-report-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-report-api-openapi.yml
 - filename: agorapulse-simple-drafts-api-openapi.yml
   format: yaml
   label: Agorapulse Simple Drafts API
   slug: agorapulse-simple-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-simple-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-simple-drafts-api-openapi.yml
 - filename: agorapulse-simple-scheduling-api-openapi.yml
   format: yaml
   label: Agorapulse Simple Scheduling API
   slug: agorapulse-simple-scheduling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-simple-scheduling-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-simple-scheduling-api-openapi.yml
 - filename: agorapulse-studio-media-api-openapi.yml
   format: yaml
   label: Agorapulse Studio Media API
   slug: agorapulse-studio-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-studio-media-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-studio-media-api-openapi.yml
 - filename: agorapulse-workspace-api-openapi.yml
   format: yaml
   label: Agorapulse Workspace API
   slug: agorapulse-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/openapi/agorapulse-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/agorapulse/openapi/agorapulse-workspace-api-openapi.yml
 consequence_counts:
   read: 15
   write: 7
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/agorap
   \ 3600\n    audit: none\n- path: /v1.0/publishing/organizations/{organizationId}/workspaces/{workspaceId}/profiles/{profileUid}/pinterest/boards\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/core/organizations/{organizationId}/workspaces/{workspaceId}/profiles\n  method: get\n  operationId: getWorkspaceProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/inbox/organizations/{organizationId}/workspaces/{workspaceId}/accounts/{accountUid}/reply\n  method: post\n  operationId: create1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      -\
   \ high-value\n    audit: required\n- path: /v1.0/report/organizations/{organizationId}/workspaces/{workspaceId}/profiles/{profileUid}/insights/audience\n  method: get\n  operationId: getAudience\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/report/organizations/{organizationId}/workspaces/{workspaceId}/profiles/{profileUid}/insights/communitymanagement\n  method: get\n  operationId: getCommunityManagement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/report/organizations/{organizationId}/workspaces/{workspaceId}/profiles/{profileUid}/insights/content\n  method: get\n  operationId: getContentReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/core/organizations/{organizationId}/workspaces\n\
   \  method: get\n  operationId: getOrganizationWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agorapulse/refs/heads/main/agentic-access/agorapulse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agorapulse/agentic-access/agorapulse-agentic-access.yml
 summary_line: 22 operations · 7 acting
 tags:
 - Social Media Management

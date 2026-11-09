@@ -9,43 +9,43 @@ api_specs:
   label: Jawg Maps Isochrone API
   slug: jawg-maps-isochrone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-isochrone-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-isochrone-api-openapi.yml
 - filename: jawg-maps-matrix-api-openapi.yml
   format: yaml
   label: Jawg Maps Matrix API
   slug: jawg-maps-matrix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-matrix-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-matrix-api-openapi.yml
 - filename: jawg-maps-places-api-openapi.yml
   format: yaml
   label: Jawg Maps Places API
   slug: jawg-maps-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-places-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-places-api-openapi.yml
 - filename: jawg-maps-routing-api-openapi.yml
   format: yaml
   label: Jawg Maps Routing API
   slug: jawg-maps-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-routing-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-routing-api-openapi.yml
 - filename: jawg-maps-static-maps-api-openapi.yml
   format: yaml
   label: Jawg Maps Static Maps API
   slug: jawg-maps-static-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-static-maps-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-static-maps-api-openapi.yml
 - filename: jawg-maps-styles-api-openapi.yml
   format: yaml
   label: Jawg Maps Styles API
   slug: jawg-maps-styles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-styles-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-styles-api-openapi.yml
 - filename: jawg-maps-tiles-api-openapi.yml
   format: yaml
   label: Jawg Maps Tiles API
   slug: jawg-maps-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/openapi/jawg-maps-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/jawg-maps/openapi/jawg-maps-tiles-api-openapi.yml
 consequence_counts:
   read: 9
   write: 4
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jawg-m
   \  method: get\n  operationId: getStyleJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /styles/{styleId}/tilejson.json\n  method: get\n  operationId: getTileJson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/v1/search\n  method: get\n  operationId: geocodeSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/v1/autocomplete\n  method: get\n  operationId: geocodeAutocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/v1/reverse\n  method: get\n  operationId: geocodeReverse\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/v1/place/{id}\n  method: get\n  operationId: getPlaceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routing/route\n  method: post\n  operationId: computeRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routing/optimized_route\n  method: post\n  operationId: computeOptimizedRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /routing/sources_to_targets\n  method: post\n  operationId: computeMatrix\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /routing/isochrone\n  method: post\n  operationId: computeIsochrone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /static\n  method: get\n  operationId: getStaticMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jawg-maps/refs/heads/main/agentic-access/jawg-maps-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jawg-maps/agentic-access/jawg-maps-agentic-access.yml
 summary_line: 13 operations · 4 acting
 tags:
 - Maps

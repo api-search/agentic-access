@@ -9,43 +9,43 @@ api_specs:
   label: Pie Insurance Appetite API
   slug: pie-insurance-appetite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-appetite-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-appetite-api-openapi.yml
 - filename: pie-insurance-classcodesearch-api-openapi.yml
   format: yaml
   label: Pie Insurance ClassCodeSearch API
   slug: pie-insurance-classcodesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-classcodesearch-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-classcodesearch-api-openapi.yml
 - filename: pie-insurance-eligibility-api-openapi.yml
   format: yaml
   label: Pie Insurance Eligibility API
   slug: pie-insurance-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-eligibility-api-openapi.yml
 - filename: pie-insurance-priceindication-api-openapi.yml
   format: yaml
   label: Pie Insurance PriceIndication API
   slug: pie-insurance-priceindication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-priceindication-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-priceindication-api-openapi.yml
 - filename: pie-insurance-quotedocument-api-openapi.yml
   format: yaml
   label: Pie Insurance QuoteDocument API
   slug: pie-insurance-quotedocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotedocument-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotedocument-api-openapi.yml
 - filename: pie-insurance-quotepdf-api-openapi.yml
   format: yaml
   label: Pie Insurance QuotePdf API
   slug: pie-insurance-quotepdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotepdf-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotepdf-api-openapi.yml
 - filename: pie-insurance-quotes-api-openapi.yml
   format: yaml
   label: Pie Insurance Quotes API
   slug: pie-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotes-api-openapi.yml
 consequence_counts:
   read: 4
   write: 7
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pie-in
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PriceIndication/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /PriceIndication\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /QuoteDocument/{quoteId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /QuotePdf/{quoteId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Quotes\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Quotes/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Quotes/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n \
   \   audit: required\n- path: /Appetite\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Appetite\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/agentic-access/pie-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pie-insurance/agentic-access/pie-insurance-agentic-access.yml
 summary_line: 11 operations · 7 acting
 tags:
 - Insurance

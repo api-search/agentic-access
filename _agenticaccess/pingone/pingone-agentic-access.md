@@ -15,31 +15,31 @@ api_specs:
   label: PingOne Applications API
   slug: pingone-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-applications-api-openapi.yml
 - filename: pingone-authentication-api-openapi.yml
   format: yaml
   label: PingOne Authentication API
   slug: pingone-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-authentication-api-openapi.yml
 - filename: pingone-environments-api-openapi.yml
   format: yaml
   label: PingOne Environments API
   slug: pingone-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-environments-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-environments-api-openapi.yml
 - filename: pingone-populations-api-openapi.yml
   format: yaml
   label: PingOne Populations API
   slug: pingone-populations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-populations-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-populations-api-openapi.yml
 - filename: pingone-users-api-openapi.yml
   format: yaml
   label: PingOne Users API
   slug: pingone-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/openapi/pingone-users-api-openapi.yml
+  url: https://artifacts.apis.io/pingone/openapi/pingone-users-api-openapi.yml
 consequence_counts:
   read: 6
   write: 11
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pingon
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}/users/{userId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}/users/{userId}/password\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /environments/{environmentId}/applications\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments/{environmentId}/applications\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}/applications/{applicationId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /environments/{environmentId}/applications/{applicationId}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /environments/{environmentId}/applications/{applicationId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pingone/refs/heads/main/agentic-access/pingone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pingone/agentic-access/pingone-agentic-access.yml
 summary_line: 17 operations · 11 acting
 tags:
 - Identity

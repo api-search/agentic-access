@@ -9,103 +9,103 @@ api_specs:
   label: F5 Load Balancer Config API
   slug: f5-load-balancer-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-config-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-config-api-openapi.yml
 - filename: f5-load-balancer-data-groups-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Data Groups API
   slug: f5-load-balancer-data-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-data-groups-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-data-groups-api-openapi.yml
 - filename: f5-load-balancer-declarations-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Declarations API
   slug: f5-load-balancer-declarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-declarations-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-declarations-api-openapi.yml
 - filename: f5-load-balancer-info-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Info API
   slug: f5-load-balancer-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-info-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-info-api-openapi.yml
 - filename: f5-load-balancer-inspect-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Inspect API
   slug: f5-load-balancer-inspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-inspect-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-inspect-api-openapi.yml
 - filename: f5-load-balancer-irules-api-openapi.yml
   format: yaml
   label: F5 Load Balancer iRules API
   slug: f5-load-balancer-irules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-irules-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-irules-api-openapi.yml
 - filename: f5-load-balancer-monitors-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Monitors API
   slug: f5-load-balancer-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-monitors-api-openapi.yml
 - filename: f5-load-balancer-nodes-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Nodes API
   slug: f5-load-balancer-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-nodes-api-openapi.yml
 - filename: f5-load-balancer-policies-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Policies API
   slug: f5-load-balancer-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-policies-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-policies-api-openapi.yml
 - filename: f5-load-balancer-pool-members-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Pool Members API
   slug: f5-load-balancer-pool-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-pool-members-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-pool-members-api-openapi.yml
 - filename: f5-load-balancer-pools-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Pools API
   slug: f5-load-balancer-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-pools-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-pools-api-openapi.yml
 - filename: f5-load-balancer-profiles-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Profiles API
   slug: f5-load-balancer-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-profiles-api-openapi.yml
 - filename: f5-load-balancer-snat-pools-api-openapi.yml
   format: yaml
   label: F5 Load Balancer SNAT Pools API
   slug: f5-load-balancer-snat-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-snat-pools-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-snat-pools-api-openapi.yml
 - filename: f5-load-balancer-ssl-certificates-api-openapi.yml
   format: yaml
   label: F5 Load Balancer SSL Certificates API
   slug: f5-load-balancer-ssl-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-ssl-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-ssl-certificates-api-openapi.yml
 - filename: f5-load-balancer-system-api-openapi.yml
   format: yaml
   label: F5 Load Balancer System API
   slug: f5-load-balancer-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-system-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-system-api-openapi.yml
 - filename: f5-load-balancer-tasks-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Tasks API
   slug: f5-load-balancer-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-tasks-api-openapi.yml
 - filename: f5-load-balancer-virtual-servers-api-openapi.yml
   format: yaml
   label: F5 Load Balancer Virtual Servers API
   slug: f5-load-balancer-virtual-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/openapi/f5-load-balancer-virtual-servers-api-openapi.yml
+  url: https://artifacts.apis.io/f5-load-balancer/openapi/f5-load-balancer-virtual-servers-api-openapi.yml
 consequence_counts:
   read: 34
   write: 19
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/f5-loa
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/monitor/tcp\n  method: get\n  operationId: listTcpMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/profile/http\n  method: get\n  operationId: listHttpProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/profile/tcp\n  method: get\n  operationId: listTcpProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/profile/client-ssl\n  method: get\n  operationId: listClientSslProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /ltm/policy\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/rule\n  method: get\n  operationId: listIRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sys/file/ssl-cert\n  method: get\n  operationId: listSslCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/data-group/internal\n  method: get\n  operationId: listInternalDataGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ltm/snatpool\n  method: get\n  operationId: listSnatPools\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sys\n  method: get\n  operationId: getSystemInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sys/version\n  method: get\n  operationId: getSystemVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sys/device\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/agentic-access/f5-load-balancer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/f5-load-balancer/agentic-access/f5-load-balancer-agentic-access.yml
 summary_line: 53 operations · 19 acting
 tags:
 - Application Delivery

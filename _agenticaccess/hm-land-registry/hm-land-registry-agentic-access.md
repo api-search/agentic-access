@@ -9,85 +9,85 @@ api_specs:
   label: HM Land Registry Application information API
   slug: hm-land-registry-application-information-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-application-information-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-application-information-api-api-openapi.yml
 - filename: hm-land-registry-attach-a-document-api-openapi.yml
   format: yaml
   label: HM Land Registry Attach a document API
   slug: hm-land-registry-attach-a-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-attach-a-document-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-attach-a-document-api-openapi.yml
 - filename: hm-land-registry-attach-a-message-api-openapi.yml
   format: yaml
   label: HM Land Registry Attach a message API
   slug: hm-land-registry-attach-a-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-attach-a-message-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-attach-a-message-api-openapi.yml
 - filename: hm-land-registry-datasets-api-openapi.yml
   format: yaml
   label: HM Land Registry Datasets API
   slug: hm-land-registry-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-datasets-api-openapi.yml
 - filename: hm-land-registry-download-a-document-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Download a document API
   slug: hm-land-registry-download-a-document-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-download-a-document-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-download-a-document-api-api-openapi.yml
 - filename: hm-land-registry-draft-titles-api-openapi.yml
   format: yaml
   label: HM Land Registry Draft Titles API
   slug: hm-land-registry-draft-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-draft-titles-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-draft-titles-api-openapi.yml
 - filename: hm-land-registry-ecd-api-openapi.yml
   format: yaml
   label: HM Land Registry ECD API
   slug: hm-land-registry-ecd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-ecd-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-ecd-api-openapi.yml
 - filename: hm-land-registry-notifications-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Notifications API
   slug: hm-land-registry-notifications-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-notifications-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-notifications-api-api-openapi.yml
 - filename: hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
   format: yaml
   label: HM Land Registry Official Search of Whole with Data API
   slug: hm-land-registry-official-search-of-whole-with-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-official-search-of-whole-with-data-api-openapi.yml
 - filename: hm-land-registry-registered-proprietor-names-api-openapi.yml
   format: yaml
   label: HM Land Registry Registered Proprietor Names API
   slug: hm-land-registry-registered-proprietor-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-registered-proprietor-names-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-registered-proprietor-names-api-openapi.yml
 - filename: hm-land-registry-send-a-document-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Send a document API
   slug: hm-land-registry-send-a-document-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-send-a-document-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-send-a-document-api-api-openapi.yml
 - filename: hm-land-registry-submit-an-application-api-api-openapi.yml
   format: yaml
   label: HM Land Registry Submit an application API
   slug: hm-land-registry-submit-an-application-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-submit-an-application-api-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-submit-an-application-api-api-openapi.yml
 - filename: hm-land-registry-title-api-openapi.yml
   format: yaml
   label: HM Land Registry Title API
   slug: hm-land-registry-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-title-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-title-api-openapi.yml
 - filename: hm-land-registry-titles-api-openapi.yml
   format: yaml
   label: HM Land Registry Titles API
   slug: hm-land-registry-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/openapi/hm-land-registry-titles-api-openapi.yml
+  url: https://artifacts.apis.io/hm-land-registry/openapi/hm-land-registry-titles-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 18
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: generated\nsource: openapi/hm-lan
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/applications/{application_request_id}/messages\n  method: post\n  operationId: attach_a_message_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/notifications\n  method: get\n  operationId: get_notifications_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/notifications/acknowledge\n  method: post\n  operationId: acknowledge_notifications_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{dataset_name}\n  method: get\n  operationId: getDataset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{dataset_name}/{file_name}\n  method: get\n  operationId: getDatasetFileDownloadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/history/{dataset_name}\n  method: get\n  operationId: getDatasetHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hm-land-registry/refs/heads/main/agentic-access/hm-land-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hm-land-registry/agentic-access/hm-land-registry-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - Real Estate

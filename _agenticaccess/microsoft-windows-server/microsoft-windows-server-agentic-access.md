@@ -9,19 +9,19 @@ api_specs:
   label: Microsoft Windows Server Application Pools API
   slug: microsoft-windows-server-application-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-application-pools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-windows-server/openapi/microsoft-windows-server-application-pools-api-openapi.yml
 - filename: microsoft-windows-server-applications-api-openapi.yml
   format: yaml
   label: Microsoft Windows Server Applications API
   slug: microsoft-windows-server-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-applications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-windows-server/openapi/microsoft-windows-server-applications-api-openapi.yml
 - filename: microsoft-windows-server-websites-api-openapi.yml
   format: yaml
   label: Microsoft Windows Server Websites API
   slug: microsoft-windows-server-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-websites-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-windows-server/openapi/microsoft-windows-server-websites-api-openapi.yml
 consequence_counts:
   read: 6
   write: 9
@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/iis-ad
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webserver/webapps/{id}\n  method: delete\n  operationId: deleteApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webserver/application-pools\n  method: get\n  operationId: listApplicationPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webserver/application-pools\n  method: post\n  operationId: createApplicationPool\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webserver/application-pools/{id}\n  method: get\n  operationId: getApplicationPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/webserver/application-pools/{id}\n  method: patch\n  operationId: updateApplicationPool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/webserver/application-pools/{id}\n  method: delete\n  operationId: deleteApplicationPool\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/agentic-access/microsoft-windows-server-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-windows-server/agentic-access/microsoft-windows-server-agentic-access.yml
 summary_line: 15 operations · 9 acting
 tags:
 - Data Center

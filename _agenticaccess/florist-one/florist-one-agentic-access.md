@@ -9,25 +9,25 @@ api_specs:
   label: Florist One Affiliate API
   slug: florist-one-affiliate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-affiliate-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-affiliate-api-openapi.yml
 - filename: florist-one-flowershop-api-openapi.yml
   format: yaml
   label: Florist One FlowerShop API
   slug: florist-one-flowershop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-flowershop-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-flowershop-api-openapi.yml
 - filename: florist-one-giftbaskets-api-openapi.yml
   format: yaml
   label: Florist One GiftBaskets API
   slug: florist-one-giftbaskets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-giftbaskets-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-giftbaskets-api-openapi.yml
 - filename: florist-one-shopping-cart-api-openapi.yml
   format: yaml
   label: Florist One Shopping Cart API
   slug: florist-one-shopping-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/openapi/florist-one-shopping-cart-api-openapi.yml
+  url: https://artifacts.apis.io/florist-one/openapi/florist-one-shopping-cart-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 7
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/floris
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flowershop/placeorder\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flowershop/getorderinfo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /giftbaskets/getproducts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /giftbaskets/gettotal\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /giftbaskets/placeorder\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shoppingcart\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shoppingcart\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shoppingcart\n  method: delete\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /affiliate/legalagreement\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/florist-one/refs/heads/main/agentic-access/florist-one-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/florist-one/agentic-access/florist-one-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Delivery

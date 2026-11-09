@@ -9,31 +9,31 @@ api_specs:
   label: Freshteam Applicants API
   slug: freshteam-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/freshteam/openapi/freshteam-applicants-api-openapi.yml
 - filename: freshteam-employees-api-openapi.yml
   format: yaml
   label: Freshteam Employees API
   slug: freshteam-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-employees-api-openapi.yml
+  url: https://artifacts.apis.io/freshteam/openapi/freshteam-employees-api-openapi.yml
 - filename: freshteam-job-postings-api-openapi.yml
   format: yaml
   label: Freshteam Job Postings API
   slug: freshteam-job-postings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-job-postings-api-openapi.yml
+  url: https://artifacts.apis.io/freshteam/openapi/freshteam-job-postings-api-openapi.yml
 - filename: freshteam-onboarding-api-openapi.yml
   format: yaml
   label: Freshteam Onboarding API
   slug: freshteam-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/freshteam/openapi/freshteam-onboarding-api-openapi.yml
 - filename: freshteam-time-off-api-openapi.yml
   format: yaml
   label: Freshteam Time-off API
   slug: freshteam-time-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/openapi/freshteam-time-off-api-openapi.yml
+  url: https://artifacts.apis.io/freshteam/openapi/freshteam-time-off-api-openapi.yml
 consequence_counts:
   read: 17
   write: 8
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fresht
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time_offs/{id}/cancel\n  method: put\n  operationId: cancelTimeOff\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /time_off_types\n  method: get\n  operationId: listTimeOffTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_postings\n  method: get\n  operationId: listJobPostings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /job_postings/{id}\n  method: get\n  operationId: getJobPosting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_posting_fields\n  method: get\n  operationId: listJobPostingFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_postings/{id}/applicants\n  method: post\n  operationId: createApplicant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /candidate_sources\n  method: get\n  operationId: listCandidateSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /candidate_sources\n  method: post\n  operationId: createCandidateSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /new_hires\n  method: post\n  operationId: createNewHire\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /new_hires/{id}\n  method: get\n  operationId: getNewHire\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshteam/refs/heads/main/agentic-access/freshteam-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freshteam/agentic-access/freshteam-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
 - Human Resources

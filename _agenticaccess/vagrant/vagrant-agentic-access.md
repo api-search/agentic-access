@@ -9,31 +9,31 @@ api_specs:
   label: Vagrant Boxes API
   slug: vagrant-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-boxes-api-openapi.yml
 - filename: vagrant-providers-api-openapi.yml
   format: yaml
   label: Vagrant Providers API
   slug: vagrant-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-providers-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-providers-api-openapi.yml
 - filename: vagrant-registries-api-openapi.yml
   format: yaml
   label: Vagrant Registries API
   slug: vagrant-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-registries-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-registries-api-openapi.yml
 - filename: vagrant-search-api-openapi.yml
   format: yaml
   label: Vagrant Search API
   slug: vagrant-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-search-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-search-api-openapi.yml
 - filename: vagrant-versions-api-openapi.yml
   format: yaml
   label: Vagrant Versions API
   slug: vagrant-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/openapi/vagrant-versions-api-openapi.yml
+  url: https://artifacts.apis.io/vagrant/openapi/vagrant-versions-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vagran
   \      max-ttl: 3600\n    audit: none\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/versions\n  method: post\n  operationId: createVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/version/{version}\n  method: get\n  operationId: readVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/version/{version}\n  method: delete\n  operationId: deleteVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/version/{version}/providers\n  method: get\n  operationId: listProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/version/{version}/providers\n  method: post\n  operationId: createProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/version/{version}/provider/{provider}\n  method: get\n  operationId: readProvider\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vagrant/2023-01-01/registry/{registry}/box/{box}/version/{version}/provider/{provider}\n  method: delete\n  operationId: deleteProvider\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/agentic-access/vagrant-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vagrant/agentic-access/vagrant-agentic-access.yml
 summary_line: 33 operations · 20 acting · 1 human-in-the-loop
 tags:
 - DevOps

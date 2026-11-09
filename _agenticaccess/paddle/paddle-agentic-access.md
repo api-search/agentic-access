@@ -9,85 +9,85 @@ api_specs:
   label: Paddle Addresses API
   slug: paddle-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-addresses-api-openapi.yml
 - filename: paddle-adjustments-api-openapi.yml
   format: yaml
   label: Paddle Adjustments API
   slug: paddle-adjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-adjustments-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-adjustments-api-openapi.yml
 - filename: paddle-businesses-api-openapi.yml
   format: yaml
   label: Paddle Businesses API
   slug: paddle-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-businesses-api-openapi.yml
 - filename: paddle-customers-api-openapi.yml
   format: yaml
   label: Paddle Customers API
   slug: paddle-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-customers-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-customers-api-openapi.yml
 - filename: paddle-discounts-api-openapi.yml
   format: yaml
   label: Paddle Discounts API
   slug: paddle-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-discounts-api-openapi.yml
 - filename: paddle-event-types-api-openapi.yml
   format: yaml
   label: Paddle Event Types API
   slug: paddle-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-event-types-api-openapi.yml
 - filename: paddle-events-api-openapi.yml
   format: yaml
   label: Paddle Events API
   slug: paddle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-events-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-events-api-openapi.yml
 - filename: paddle-notification-settings-api-openapi.yml
   format: yaml
   label: Paddle Notification Settings API
   slug: paddle-notification-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-notification-settings-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-notification-settings-api-openapi.yml
 - filename: paddle-notifications-api-openapi.yml
   format: yaml
   label: Paddle Notifications API
   slug: paddle-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-notifications-api-openapi.yml
 - filename: paddle-prices-api-openapi.yml
   format: yaml
   label: Paddle Prices API
   slug: paddle-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-prices-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-prices-api-openapi.yml
 - filename: paddle-products-api-openapi.yml
   format: yaml
   label: Paddle Products API
   slug: paddle-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-products-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-products-api-openapi.yml
 - filename: paddle-reports-api-openapi.yml
   format: yaml
   label: Paddle Reports API
   slug: paddle-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-reports-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-reports-api-openapi.yml
 - filename: paddle-subscriptions-api-openapi.yml
   format: yaml
   label: Paddle Subscriptions API
   slug: paddle-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-subscriptions-api-openapi.yml
 - filename: paddle-transactions-api-openapi.yml
   format: yaml
   label: Paddle Transactions API
   slug: paddle-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/openapi/paddle-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paddle/openapi/paddle-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 28
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/paddle
   \  - abnormal\n      - high-value\n    audit: required\n- path: /notification-settings\n  method: get\n  operationId: list-notification-settings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notification-settings\n  method: post\n  operationId: create-notification-setting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notification-settings/{notification_setting_id}\n  method: get\n  operationId: get-notification-setting\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notification-settings/{notification_setting_id}\n  method: patch\n  operationId:\
   \ update-notification-setting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /notification-settings/{notification_setting_id}\n  method: delete\n  operationId: delete-notification-setting\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: list-events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event-types\n  method: get\n  operationId: list-event-types\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paddle/refs/heads/main/agentic-access/paddle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paddle/agentic-access/paddle-agentic-access.yml
 summary_line: 53 operations · 25 acting
 tags:
 - Billing

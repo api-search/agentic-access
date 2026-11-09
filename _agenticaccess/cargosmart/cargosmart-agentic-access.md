@@ -9,31 +9,31 @@ api_specs:
   label: CargoSmart Bookings API
   slug: cargosmart-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-bookings-api-openapi.yml
 - filename: cargosmart-containers-api-openapi.yml
   format: yaml
   label: CargoSmart Containers API
   slug: cargosmart-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-containers-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-containers-api-openapi.yml
 - filename: cargosmart-documents-api-openapi.yml
   format: yaml
   label: CargoSmart Documents API
   slug: cargosmart-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-documents-api-openapi.yml
 - filename: cargosmart-shipments-api-openapi.yml
   format: yaml
   label: CargoSmart Shipments API
   slug: cargosmart-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-shipments-api-openapi.yml
 - filename: cargosmart-vessels-api-openapi.yml
   format: yaml
   label: CargoSmart Vessels API
   slug: cargosmart-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-vessels-api-openapi.yml
 consequence_counts:
   read: 7
   write: 1
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cargosmart-shipment-tracking-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 7\n    acting: 1\n  by_consequence:\n    read: 7\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /tracking/v1/containers/{containerId}\n  method: get\n  operationId: trackContainer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tracking/v1/containers\n  method: get\n  operationId: listContainerTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /tracking/v1/shipments/{billOfLadingNumber}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessels/v1/schedules\n  method: get\n  operationId: searchVesselSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessels/v1/{vesselIMO}/position\n  method: get\n  operationId: getVesselPosition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/v1\n  method: post\n  operationId: createBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bookings/v1\n  method: get\n  operationId: listBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/v1/bills-of-lading/{blNumber}\n  method: get\n  operationId: getBillOfLading\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/agentic-access/cargosmart-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cargosmart/agentic-access/cargosmart-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - Booking

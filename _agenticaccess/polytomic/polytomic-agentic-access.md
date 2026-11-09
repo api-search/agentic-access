@@ -9,127 +9,127 @@ api_specs:
   label: Polytomic Subpackage Bulk Sync API
   slug: polytomic-subpackage-bulksync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-bulksync-api-openapi.yml
 - filename: polytomic-subpackage-bulksync-subpackage-bulksync-executions-api-openapi.yml
   format: yaml
   label: Polytomic subpackage_bulkSync.subpackage_bulkSync/executions API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-executions-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-executions-api-openapi.yml
 - filename: polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Bulk Sync.subpackage Bulk Sync/schedules API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-schedules-api-openapi.yml
 - filename: polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Bulk Sync.subpackage Bulk Sync/schemas API
   slug: polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-bulksync-subpackage-bulksync-schemas-api-openapi.yml
 - filename: polytomic-subpackage-connections-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Connections API
   slug: polytomic-subpackage-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-connections-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-connections-api-openapi.yml
 - filename: polytomic-subpackage-entities-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Entities API
   slug: polytomic-subpackage-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-entities-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-entities-api-openapi.yml
 - filename: polytomic-subpackage-events-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Events API
   slug: polytomic-subpackage-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-events-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-events-api-openapi.yml
 - filename: polytomic-subpackage-identity-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Identity API
   slug: polytomic-subpackage-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-identity-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-identity-api-openapi.yml
 - filename: polytomic-subpackage-jobs-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Jobs API
   slug: polytomic-subpackage-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-jobs-api-openapi.yml
 - filename: polytomic-subpackage-models-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Models API
   slug: polytomic-subpackage-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-models-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-models-api-openapi.yml
 - filename: polytomic-subpackage-modelsync-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Model Sync API
   slug: polytomic-subpackage-modelsync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-modelsync-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-modelsync-api-openapi.yml
 - filename: polytomic-subpackage-modelsync-subpackage-modelsync-executions-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Model Sync.subpackage Model Sync/executions API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-modelsync-subpackage-modelsync-executions-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-modelsync-subpackage-modelsync-executions-api-openapi.yml
 - filename: polytomic-subpackage-modelsync-subpackage-modelsync-targets-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Model Sync.subpackage Model Sync/targets API
   slug: polytomic-subpackage-modelsync-subpackage-modelsync-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-modelsync-subpackage-modelsync-targets-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-modelsync-subpackage-modelsync-targets-api-openapi.yml
 - filename: polytomic-subpackage-notifications-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Notifications API
   slug: polytomic-subpackage-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-notifications-api-openapi.yml
 - filename: polytomic-subpackage-organization-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Organization API
   slug: polytomic-subpackage-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-organization-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-organization-api-openapi.yml
 - filename: polytomic-subpackage-permissions-subpackage-permissions-policies-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Permissions.subpackage Permissions/policies API
   slug: polytomic-subpackage-permissions-subpackage-permissions-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-permissions-subpackage-permissions-policies-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-permissions-subpackage-permissions-policies-api-openapi.yml
 - filename: polytomic-subpackage-permissions-subpackage-permissions-roles-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Permissions.subpackage Permissions/roles API
   slug: polytomic-subpackage-permissions-subpackage-permissions-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-permissions-subpackage-permissions-roles-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-permissions-subpackage-permissions-roles-api-openapi.yml
 - filename: polytomic-subpackage-queryrunner-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Query Runner API
   slug: polytomic-subpackage-queryrunner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-queryrunner-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-queryrunner-api-openapi.yml
 - filename: polytomic-subpackage-schemas-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Schemas API
   slug: polytomic-subpackage-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-schemas-api-openapi.yml
 - filename: polytomic-subpackage-users-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Users API
   slug: polytomic-subpackage-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-users-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-users-api-openapi.yml
 - filename: polytomic-subpackage-webhooks-api-openapi.yml
   format: yaml
   label: Polytomic Subpackage Webhooks API
   slug: polytomic-subpackage-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/openapi/polytomic-subpackage-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/polytomic/openapi/polytomic-subpackage-webhooks-api-openapi.yml
 consequence_counts:
   read: 66
   safety-critical: 2
@@ -202,8 +202,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/polyto
   \  method: post\n  operationId: run-query\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/queries/{id}\n  method: get\n  operationId: get-query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/connections/{connection_id}/schemas/{schema_id}/fields\n  method: post\n  operationId: upsert-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/connections/{connection_id}/schemas/{schema_id}/fields/{field_id}\n\
   \  method: delete\n  operationId: delete-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/connections/{connection_id}/schemas/{schema_id}/fields/{field_id}\n  method: patch\n  operationId: patch-field\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/connections/{connection_id}/schemas/{schema_id}/primary_keys\n  method: put\n  operationId: set-primary-keys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/connections/{connection_id}/schemas/{schema_id}/primary_keys\n  method: delete\n  operationId: reset-primary-keys\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/connections/{id}/schemas/refresh\n  method: post\n  operationId: refresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/connections/{id}/schemas/status\n  method: get\n  operationId:\
-  \ get-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/connections/{id}/schemas/{schema_id}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/connections/{id}/schemas/{schema_id}/records\n  method: get\n  operationId: get-records\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organization/users\n  method: get\n  operationId: list-current-org-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/agentic-access/polytomic-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polytomic/refs/heads/main/agentic-access/polytomic-agentic-access.yml
+  \ get-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/connections/{id}/schemas/{schema_id}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/connections/{id}/schemas/{schema_id}/records\n  method: get\n  operationId: get-records\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/organization/users\n  method: get\n  operationId: list-current-org-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (36 KB total) ---\n# Full source: https://artifacts.apis.io/polytomic/agentic-access/polytomic-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/polytomic/agentic-access/polytomic-agentic-access.yml
 summary_line: 128 operations · 62 acting · 2 human-in-the-loop
 tags:
 - Data Integration

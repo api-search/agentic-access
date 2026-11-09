@@ -9,13 +9,13 @@ api_specs:
   label: Onsi Members API
   slug: onsi-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-members-api-openapi.yml
+  url: https://artifacts.apis.io/onsi/openapi/onsi-members-api-openapi.yml
 - filename: onsi-pay-api-openapi.yml
   format: yaml
   label: Onsi Pay API
   slug: onsi-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/openapi/onsi-pay-api-openapi.yml
+  url: https://artifacts.apis.io/onsi/openapi/onsi-pay-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 10
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/onsi-o
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pay/withdrawals/intent\n  method: post\n  operationId: createWithdrawalIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pay/withdrawals/complete\n  method: post\n  operationId: completeWithdrawal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pay/members/{memberId}/withdrawals\n  method: get\n  operationId: getMemberWithdrawals\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pay/run\n  method: post\n  operationId: uploadPayRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pay/cycles\n  method: get\n  operationId: getPayCycles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pay/cycles/{id}\n  method: get\n  operationId: getPayCycle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pay/cycles/{id}/deductions\n  method: get\n  operationId: getPayCycleDeductions\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pay/withdrawals\n  method: get\n  operationId: getWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onsi/refs/heads/main/agentic-access/onsi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/onsi/agentic-access/onsi-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Company

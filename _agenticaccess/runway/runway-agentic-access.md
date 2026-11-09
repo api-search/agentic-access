@@ -9,97 +9,97 @@ api_specs:
   label: Runway Avatars API
   slug: runway-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-avatars-api-openapi.yml
 - filename: runway-character-performance-api-openapi.yml
   format: yaml
   label: Runway Character Performance API
   slug: runway-character-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-character-performance-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-character-performance-api-openapi.yml
 - filename: runway-documents-api-openapi.yml
   format: yaml
   label: Runway Documents API
   slug: runway-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-documents-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-documents-api-openapi.yml
 - filename: runway-frame-interpolation-api-openapi.yml
   format: yaml
   label: Runway Frame Interpolation API
   slug: runway-frame-interpolation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-frame-interpolation-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-frame-interpolation-api-openapi.yml
 - filename: runway-image-to-video-api-openapi.yml
   format: yaml
   label: Runway Image to Video API
   slug: runway-image-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-image-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-image-to-video-api-openapi.yml
 - filename: runway-lip-sync-api-openapi.yml
   format: yaml
   label: Runway Lip Sync API
   slug: runway-lip-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-lip-sync-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-lip-sync-api-openapi.yml
 - filename: runway-realtime-sessions-api-openapi.yml
   format: yaml
   label: Runway Realtime Sessions API
   slug: runway-realtime-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-realtime-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-realtime-sessions-api-openapi.yml
 - filename: runway-sound-effects-api-openapi.yml
   format: yaml
   label: Runway Sound Effects API
   slug: runway-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-sound-effects-api-openapi.yml
 - filename: runway-tasks-api-openapi.yml
   format: yaml
   label: Runway Tasks API
   slug: runway-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-tasks-api-openapi.yml
 - filename: runway-text-to-image-api-openapi.yml
   format: yaml
   label: Runway Text to Image API
   slug: runway-text-to-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-text-to-image-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-text-to-image-api-openapi.yml
 - filename: runway-text-to-video-api-openapi.yml
   format: yaml
   label: Runway Text to Video API
   slug: runway-text-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-text-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-text-to-video-api-openapi.yml
 - filename: runway-uploads-api-openapi.yml
   format: yaml
   label: Runway Uploads API
   slug: runway-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-uploads-api-openapi.yml
 - filename: runway-video-to-video-api-openapi.yml
   format: yaml
   label: Runway Video to Video API
   slug: runway-video-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-video-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-video-to-video-api-openapi.yml
 - filename: runway-video-upscale-api-openapi.yml
   format: yaml
   label: Runway Video Upscale API
   slug: runway-video-upscale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-video-upscale-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-video-upscale-api-openapi.yml
 - filename: runway-organization-api-openapi.yml
   format: yaml
   label: Runway Organization API
   slug: runway-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-organization-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-organization-api-openapi.yml
 - filename: runway-text-to-speech-api-openapi.yml
   format: yaml
   label: Runway Text To Speech API
   slug: runway-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/openapi/runway-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/runway/openapi/runway-text-to-speech-api-openapi.yml
 consequence_counts:
   read: 2
   write: 15
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/runway
   - path: /lip_sync\n  method: post\n  operationId: createLipSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /video_upscale\n  method: post\n  operationId: createVideoUpscale\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /frame_interpolation\n  method: post\n  operationId: createFrameInterpolation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sound_effect\n  method: post\n  operationId: createSoundEffect\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /uploads\n  method: post\n  operationId:\
   \ createUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/agentic-access/runway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/runway/agentic-access/runway-agentic-access.yml
 summary_line: 17 operations · 15 acting
 tags:
 - Video Generation

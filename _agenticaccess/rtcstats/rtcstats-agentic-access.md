@@ -9,7 +9,7 @@ api_specs:
   label: rtcStats API
   slug: rtcstats-rtcstats-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/openapi/rtcstats-rtcstats-api-api-openapi.yml
+  url: https://artifacts.apis.io/rtcstats/openapi/rtcstats-rtcstats-api-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: generated\nsource: openapi/rtcsta
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/enrich\n  method: post\n  operationId: enrich\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/mcp\n  method: post\n  operationId: mcpStreamablePost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1.0/quota\n  method: get\n  operationId: quota\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/observations\n  method: get\n  operationId: observations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/sessions/{rtcstatsId}\n  method: get\n  operationId: session\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1.0/sessions/{rtcstatsId}\n  method: delete\n  operationId: deleteSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/agentic-access/rtcstats-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rtcstats/agentic-access/rtcstats-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - WebRTC

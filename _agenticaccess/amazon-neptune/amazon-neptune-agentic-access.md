@@ -9,169 +9,169 @@ api_specs:
   label: Amazon Neptune Amazon Neptune Management API
   slug: amazon-neptune-amazon-neptune-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-amazon-neptune-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-amazon-neptune-management-api-api-openapi.yml
 - filename: amazon-neptune-data-processing-api-openapi.yml
   format: yaml
   label: Amazon Neptune Data Processing API
   slug: amazon-neptune-data-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-data-processing-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-data-processing-api-openapi.yml
 - filename: amazon-neptune-db-clusters-api-openapi.yml
   format: yaml
   label: Amazon Neptune DB Clusters API
   slug: amazon-neptune-db-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-db-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-db-clusters-api-openapi.yml
 - filename: amazon-neptune-db-instances-api-openapi.yml
   format: yaml
   label: Amazon Neptune DB Instances API
   slug: amazon-neptune-db-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-db-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-db-instances-api-openapi.yml
 - filename: amazon-neptune-engine-api-openapi.yml
   format: yaml
   label: Amazon Neptune Engine API
   slug: amazon-neptune-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-engine-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-engine-api-openapi.yml
 - filename: amazon-neptune-events-api-openapi.yml
   format: yaml
   label: Amazon Neptune Events API
   slug: amazon-neptune-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-events-api-openapi.yml
 - filename: amazon-neptune-global-clusters-api-openapi.yml
   format: yaml
   label: Amazon Neptune Global Clusters API
   slug: amazon-neptune-global-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-global-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-global-clusters-api-openapi.yml
 - filename: amazon-neptune-graph-snapshots-api-openapi.yml
   format: yaml
   label: Amazon Neptune Graph Snapshots API
   slug: amazon-neptune-graph-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-graph-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-graph-snapshots-api-openapi.yml
 - filename: amazon-neptune-graphs-api-openapi.yml
   format: yaml
   label: Amazon Neptune Graphs API
   slug: amazon-neptune-graphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-graphs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-graphs-api-openapi.yml
 - filename: amazon-neptune-gremlin-api-openapi.yml
   format: yaml
   label: Amazon Neptune Gremlin API
   slug: amazon-neptune-gremlin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-gremlin-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-gremlin-api-openapi.yml
 - filename: amazon-neptune-import-tasks-api-openapi.yml
   format: yaml
   label: Amazon Neptune Import Tasks API
   slug: amazon-neptune-import-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-import-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-import-tasks-api-openapi.yml
 - filename: amazon-neptune-inference-endpoints-api-openapi.yml
   format: yaml
   label: Amazon Neptune Inference Endpoints API
   slug: amazon-neptune-inference-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-inference-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-inference-endpoints-api-openapi.yml
 - filename: amazon-neptune-loader-api-openapi.yml
   format: yaml
   label: Amazon Neptune Loader API
   slug: amazon-neptune-loader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-loader-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-loader-api-openapi.yml
 - filename: amazon-neptune-maintenance-api-openapi.yml
   format: yaml
   label: Amazon Neptune Maintenance API
   slug: amazon-neptune-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-maintenance-api-openapi.yml
 - filename: amazon-neptune-ml-api-openapi.yml
   format: yaml
   label: Amazon Neptune ML API
   slug: amazon-neptune-ml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-ml-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-ml-api-openapi.yml
 - filename: amazon-neptune-model-training-api-openapi.yml
   format: yaml
   label: Amazon Neptune Model Training API
   slug: amazon-neptune-model-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-model-training-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-model-training-api-openapi.yml
 - filename: amazon-neptune-model-transform-api-openapi.yml
   format: yaml
   label: Amazon Neptune Model Transform API
   slug: amazon-neptune-model-transform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-model-transform-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-model-transform-api-openapi.yml
 - filename: amazon-neptune-parameter-groups-api-openapi.yml
   format: yaml
   label: Amazon Neptune Parameter Groups API
   slug: amazon-neptune-parameter-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-parameter-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-parameter-groups-api-openapi.yml
 - filename: amazon-neptune-private-graph-endpoints-api-openapi.yml
   format: yaml
   label: Amazon Neptune Private Graph Endpoints API
   slug: amazon-neptune-private-graph-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-private-graph-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-private-graph-endpoints-api-openapi.yml
 - filename: amazon-neptune-property-graph-stream-api-openapi.yml
   format: yaml
   label: Amazon Neptune Property Graph Stream API
   slug: amazon-neptune-property-graph-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-property-graph-stream-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-property-graph-stream-api-openapi.yml
 - filename: amazon-neptune-query-api-openapi.yml
   format: yaml
   label: Amazon Neptune Query API
   slug: amazon-neptune-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-query-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-query-api-openapi.yml
 - filename: amazon-neptune-snapshots-api-openapi.yml
   format: yaml
   label: Amazon Neptune Snapshots API
   slug: amazon-neptune-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-snapshots-api-openapi.yml
 - filename: amazon-neptune-sparql-api-openapi.yml
   format: yaml
   label: Amazon Neptune SPARQL API
   slug: amazon-neptune-sparql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-sparql-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-sparql-api-openapi.yml
 - filename: amazon-neptune-sparql-stream-api-openapi.yml
   format: yaml
   label: Amazon Neptune SPARQL Stream API
   slug: amazon-neptune-sparql-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-sparql-stream-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-sparql-stream-api-openapi.yml
 - filename: amazon-neptune-status-api-openapi.yml
   format: yaml
   label: Amazon Neptune Status API
   slug: amazon-neptune-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-status-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-status-api-openapi.yml
 - filename: amazon-neptune-streams-api-openapi.yml
   format: yaml
   label: Amazon Neptune Streams API
   slug: amazon-neptune-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-streams-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-streams-api-openapi.yml
 - filename: amazon-neptune-subnet-groups-api-openapi.yml
   format: yaml
   label: Amazon Neptune Subnet Groups API
   slug: amazon-neptune-subnet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-subnet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-subnet-groups-api-openapi.yml
 - filename: amazon-neptune-open-cypher-api-openapi.yml
   format: yaml
   label: Amazon Neptune open Cypher API
   slug: amazon-neptune-open-cypher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/openapi/amazon-neptune-open-cypher-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-open-cypher-api-openapi.yml
 consequence_counts:
   read: 61
   safety-critical: 7
@@ -269,10 +269,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=ListTagsForResource\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribeDBEngineVersions\n  method: get\n  operationId: describeDBEngineVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=CreateGlobalCluster\n  method: post\n  operationId: createGlobalCluster\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?Action=DescribeGlobalClusters\n  method: get\n  operationId:\
   \ describeGlobalClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=DescribePendingMaintenanceActions\n  method: get\n  operationId: describePendingMaintenanceActions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /?Action=ApplyPendingMaintenanceAction\n  method: post\n  operationId: applyPendingMaintenanceAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ml/dataprocessing\n  method: post\n  operationId: createDataProcessingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ml/dataprocessing\n  method: get\n  operationId: listDataProcessingJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ml/dataprocessing/{id}\n  method: get\n  operationId: getDataProcessingJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ml/dataprocessing/{id}\n  method: delete\n  operationId: stopDataProcessingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n   \
-  \   human-in-the-loop: required\n    audit: required\n- path: /ml/modeltraining\n  method: post\n  operationId: createModelTrainingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ml/modeltraining\n  method: get\n  operationId: listModelTrainingJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ml/modeltraining/{id}\n  method: get\n  operationId: getModelTrainingJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/agentic-access/amazon-neptune-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-neptune/refs/heads/main/agentic-access/amazon-neptune-agentic-access.yml
+  \   human-in-the-loop: required\n    audit: required\n- path: /ml/modeltraining\n  method: post\n  operationId: createModelTrainingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ml/modeltraining\n  method: get\n  operationId: listModelTrainingJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ml/modeltraining/{id}\n  method: get\n  operationId: getModelTrainingJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (37 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-neptune/agentic-access/amazon-neptune-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-neptune/agentic-access/amazon-neptune-agentic-access.yml
 summary_line: 130 operations · 69 acting · 7 human-in-the-loop
 tags:
+- Amazon Web Services
 - Database
 - Graph Database
 - Gremlin

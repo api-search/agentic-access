@@ -8,19 +8,19 @@ api_specs:
   label: Norfolk Southern Gate Receipts API
   slug: norfolk-southern-gate-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-gate-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/norfolk-southern/openapi/norfolk-southern-gate-receipts-api-openapi.yml
 - filename: norfolk-southern-shipment-status-api-openapi.yml
   format: yaml
   label: Norfolk Southern Shipment Status API
   slug: norfolk-southern-shipment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-shipment-status-api-openapi.yml
+  url: https://artifacts.apis.io/norfolk-southern/openapi/norfolk-southern-shipment-status-api-openapi.yml
 - filename: norfolk-southern-trip-plan-api-openapi.yml
   format: yaml
   label: Norfolk Southern Trip Plan API
   slug: norfolk-southern-trip-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/openapi/norfolk-southern-trip-plan-api-openapi.yml
+  url: https://artifacts.apis.io/norfolk-southern/openapi/norfolk-southern-trip-plan-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/norfolk-southern-shipment-status-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /shipments/status\n  method: get\n  operationId: getShipmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/tripplan\n  method: get\n  operationId: getTripPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gatereceipts\n  method: get\n  operationId:\
   \ getGateReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/norfolk-southern/refs/heads/main/agentic-access/norfolk-southern-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/norfolk-southern/agentic-access/norfolk-southern-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Freight

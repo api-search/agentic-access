@@ -9,19 +9,19 @@ api_specs:
   label: Tripetto Forms API
   slug: tripetto-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-forms-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-forms-api-openapi.yml
 - filename: tripetto-responses-api-openapi.yml
   format: yaml
   label: Tripetto Responses API
   slug: tripetto-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-responses-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-responses-api-openapi.yml
 - filename: tripetto-webhooks-api-openapi.yml
   format: yaml
   label: Tripetto Webhooks API
   slug: tripetto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/openapi/tripetto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tripetto/openapi/tripetto-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tripet
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/api/forms/{formId}\n  method: get\n  operationId: getForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/api/forms/{formId}\n  method: put\n  operationId: updateForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/api/forms/{formId}\n  method: delete\n  operationId: deleteForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /app/api/forms/{formId}/responses\n  method: get\n  operationId: listFormResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/api/forms/{formId}/responses/{responseId}\n  method: get\n  operationId: getFormResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/api/forms/{formId}/webhooks\n  method: get\n  operationId: listFormWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/api/forms/{formId}/webhooks\n  method: post\n  operationId: createFormWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/api/forms/{formId}/webhooks/{webhookId}\n  method: delete\n  operationId: deleteFormWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tripetto/refs/heads/main/agentic-access/tripetto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tripetto/agentic-access/tripetto-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Forms

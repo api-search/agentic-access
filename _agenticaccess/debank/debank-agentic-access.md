@@ -9,61 +9,61 @@ api_specs:
   label: DeBank Account API
   slug: debank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-account-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-account-api-openapi.yml
 - filename: debank-app-protocol-api-openapi.yml
   format: yaml
   label: DeBank App Protocol API
   slug: debank-app-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-app-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-app-protocol-api-openapi.yml
 - filename: debank-chain-api-openapi.yml
   format: yaml
   label: DeBank Chain API
   slug: debank-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-chain-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-chain-api-openapi.yml
 - filename: debank-cloud-api-openapi.yml
   format: yaml
   label: DeBank Cloud API
   slug: debank-cloud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-cloud-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-cloud-api-openapi.yml
 - filename: debank-official-api-openapi.yml
   format: yaml
   label: DeBank Official API
   slug: debank-official-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-official-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-official-api-openapi.yml
 - filename: debank-pool-api-openapi.yml
   format: yaml
   label: DeBank Pool API
   slug: debank-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-pool-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-pool-api-openapi.yml
 - filename: debank-protocol-api-openapi.yml
   format: yaml
   label: DeBank Protocol API
   slug: debank-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-protocol-api-openapi.yml
 - filename: debank-token-api-openapi.yml
   format: yaml
   label: DeBank Token API
   slug: debank-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-token-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-token-api-openapi.yml
 - filename: debank-user-api-openapi.yml
   format: yaml
   label: DeBank User API
   slug: debank-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-user-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-user-api-openapi.yml
 - filename: debank-wallet-api-openapi.yml
   format: yaml
   label: DeBank Wallet API
   slug: debank-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/openapi/debank-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/debank/openapi/debank-wallet-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 38
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/debank
   \ none\n- path: /v1/user/protocol\n  method: get\n  operationId: get_user_protocol\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/simple_protocol_list\n  method: get\n  operationId: get_user_simple_protocol_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/token\n  method: get\n  operationId: get_user_token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/token_authorized_list\n  method: get\n  operationId: get_user_token_authorized_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/token_list\n  method: get\n  operationId: get_user_token_list\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/total_balance\n  method: get\n  operationId: get_user_total_balance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/total_net_curve\n  method: get\n  operationId: get_total_chain_net_curve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/user/used_chain_list\n  method: get\n  operationId: get_user_chain_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet/explain_tx\n  method: post\n  operationId: post_explain_tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/wallet/gas_market\n  method: get\n  operationId: get_gas_market\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/wallet/pre_exec_tx\n  method: post\n  operationId: post_pre_exec_tx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/debank/refs/heads/main/agentic-access/debank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/debank/agentic-access/debank-agentic-access.yml
 summary_line: 42 operations · 4 acting
 tags:
 - Web3
@@ -124,6 +124,7 @@ tags:
 - token-data
 - NFT
 - Ethereum
-- Authentication
+- OAuth
 - Market Data
+- Authentication
 ---

@@ -9,79 +9,79 @@ api_specs:
   label: Ripio Book API
   slug: ripio-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-book-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-book-api-openapi.yml
 - filename: ripio-cryptocurrency-deposits-api-openapi.yml
   format: yaml
   label: Ripio Cryptocurrency Deposits API
   slug: ripio-cryptocurrency-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-cryptocurrency-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-cryptocurrency-deposits-api-openapi.yml
 - filename: ripio-cryptocurrency-withdrawals-api-openapi.yml
   format: yaml
   label: Ripio Cryptocurrency Withdrawals API
   slug: ripio-cryptocurrency-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-cryptocurrency-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-cryptocurrency-withdrawals-api-openapi.yml
 - filename: ripio-general-endpoints-api-openapi.yml
   format: yaml
   label: Ripio General endpoints API
   slug: ripio-general-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-general-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-general-endpoints-api-openapi.yml
 - filename: ripio-orders-api-openapi.yml
   format: yaml
   label: Ripio Orders API
   slug: ripio-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-orders-api-openapi.yml
 - filename: ripio-public-api-openapi.yml
   format: yaml
   label: Ripio Public API
   slug: ripio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-public-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-public-api-openapi.yml
 - filename: ripio-ticker-api-openapi.yml
   format: yaml
   label: Ripio Ticker API
   slug: ripio-ticker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-ticker-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-ticker-api-openapi.yml
 - filename: ripio-ticket-api-openapi.yml
   format: yaml
   label: Ripio Ticket API
   slug: ripio-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-ticket-api-openapi.yml
 - filename: ripio-transactions-api-openapi.yml
   format: yaml
   label: Ripio Transactions API
   slug: ripio-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-transactions-api-openapi.yml
 - filename: ripio-user-api-openapi.yml
   format: yaml
   label: Ripio User API
   slug: ripio-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-user-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-user-api-openapi.yml
 - filename: ripio-wallets-api-openapi.yml
   format: yaml
   label: Ripio Wallets API
   slug: ripio-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-wallets-api-openapi.yml
 - filename: ripio-websocket-api-api-openapi.yml
   format: yaml
   label: Ripio WebSocket API
   slug: ripio-websocket-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-api-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-websocket-api-api-openapi.yml
 - filename: ripio-websocket-stream-api-openapi.yml
   format: yaml
   label: Ripio WebSocket Stream API
   slug: ripio-websocket-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-stream-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-websocket-stream-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 38
@@ -162,7 +162,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ripio-
   \ max-ttl: 3600\n    audit: none\n- path: /ticket\n  method: post\n  operationId: GetWebSocketTicket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/sync\n  method: post\n  operationId: SyncTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - Read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/balances\n  method: get\n  operationId: ListBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/balances/{date}\n  method: get\n  operationId: GetUserBalanceOnDate\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/trading-fees\n  method: get\n  operationId: GetUserPairFee\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/statement\n  method: get\n  operationId: GetStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/statement/{currency_code}\n  method: get\n  operationId: GetStatementByCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user/trades\n  method: get\n  operationId: GetUserTrades\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/is-internal\n  method: get\n  operationId: IsInternalWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets\n  method: get\n  operationId: GetUserWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallets/{currency_code}/{network}\n  method: get\n  operationId: GetUserWalletAndCreateIfNotExists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - Read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/agentic-access/ripio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ripio/agentic-access/ripio-agentic-access.yml
 summary_line: 47 operations · 9 acting
 tags:
 - Company

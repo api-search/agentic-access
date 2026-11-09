@@ -9,31 +9,31 @@ api_specs:
   label: Mendix Apps API
   slug: mendix-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-apps-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-apps-api-openapi.yml
 - filename: mendix-environments-api-openapi.yml
   format: yaml
   label: Mendix Environments API
   slug: mendix-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-environments-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-environments-api-openapi.yml
 - filename: mendix-logs-api-openapi.yml
   format: yaml
   label: Mendix Logs API
   slug: mendix-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-logs-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-logs-api-openapi.yml
 - filename: mendix-packages-api-openapi.yml
   format: yaml
   label: Mendix Packages API
   slug: mendix-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-packages-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-packages-api-openapi.yml
 - filename: mendix-tags-api-openapi.yml
   format: yaml
   label: Mendix Tags API
   slug: mendix-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/openapi/mendix-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mendix/openapi/mendix-tags-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mendix
   \      max-ttl: 3600\n    audit: none\n- path: /apps/{AppId}/environments/{Mode}/settings\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{AppId}/environments/{Mode}/scale\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{AppId}/environments/{Mode}/tags\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{AppId}/environments/{Mode}/tags\n  method: post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{AppId}/environments/{Mode}/tags\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{AppId}/environments/{Mode}/logs/{Date}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{AppId}/environments/{Mode}/access-logs/{Date}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mendix/refs/heads/main/agentic-access/mendix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mendix/agentic-access/mendix-agentic-access.yml
 summary_line: 20 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Low-Code

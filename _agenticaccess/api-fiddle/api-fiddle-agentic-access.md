@@ -9,31 +9,31 @@ api_specs:
   label: API-Fiddle Export API
   slug: api-fiddle-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-export-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-export-api-openapi.yml
 - filename: api-fiddle-projects-api-openapi.yml
   format: yaml
   label: API-Fiddle Projects API
   slug: api-fiddle-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-projects-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-projects-api-openapi.yml
 - filename: api-fiddle-sharing-api-openapi.yml
   format: yaml
   label: API-Fiddle Sharing API
   slug: api-fiddle-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-sharing-api-openapi.yml
 - filename: api-fiddle-specifications-api-openapi.yml
   format: yaml
   label: API-Fiddle Specifications API
   slug: api-fiddle-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-specifications-api-openapi.yml
 - filename: api-fiddle-workspaces-api-openapi.yml
   format: yaml
   label: API-Fiddle Workspaces API
   slug: api-fiddle-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/openapi/api-fiddle-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/api-fiddle/openapi/api-fiddle-workspaces-api-openapi.yml
 consequence_counts:
   read: 7
   write: 12
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/api-fi
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}\n  method: put\n  operationId: updateWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: delete\n  operationId: deleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/sharing\n  method: get\n  operationId: listSharing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/sharing\n  method: post\n  operationId: shareProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/sharing/{sharingId}\n  method: delete\n  operationId: removeSharing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/export\n  method: post\n  operationId: exportProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-fiddle/refs/heads/main/agentic-access/api-fiddle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/api-fiddle/agentic-access/api-fiddle-agentic-access.yml
 summary_line: 19 operations · 12 acting
 tags:
 - API Design

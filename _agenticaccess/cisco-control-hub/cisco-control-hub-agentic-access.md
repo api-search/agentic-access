@@ -9,43 +9,43 @@ api_specs:
   label: Cisco Control Hub Devices API
   slug: cisco-control-hub-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-devices-api-openapi.yml
 - filename: cisco-control-hub-licenses-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Licenses API
   slug: cisco-control-hub-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-licenses-api-openapi.yml
 - filename: cisco-control-hub-locations-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Locations API
   slug: cisco-control-hub-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-locations-api-openapi.yml
 - filename: cisco-control-hub-organizations-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Organizations API
   slug: cisco-control-hub-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-organizations-api-openapi.yml
 - filename: cisco-control-hub-people-api-openapi.yml
   format: yaml
   label: Cisco Control Hub People API
   slug: cisco-control-hub-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-people-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-people-api-openapi.yml
 - filename: cisco-control-hub-workspaces-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Workspaces API
   slug: cisco-control-hub-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-workspaces-api-openapi.yml
 - filename: cisco-control-hub-admin-audit-events-api-openapi.yml
   format: yaml
   label: Cisco Control Hub Admin Audit Events API
   slug: cisco-control-hub-admin-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-control-hub/openapi/cisco-control-hub-admin-audit-events-api-openapi.yml
 consequence_counts:
   read: 11
   write: 6
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{personId}\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{personId}\n  method: put\n  operationId: updatePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{personId}\n  method: delete\n  operationId: deletePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /licenses\n  method: get\n  operationId: listLicenses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /licenses/{licenseId}\n  method: get\n  operationId: getLicense\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: post\n  operationId: createLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/{locationId}\n\
   \  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{locationId}\n  method: put\n  operationId: updateLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-control-hub/refs/heads/main/agentic-access/cisco-control-hub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-control-hub/agentic-access/cisco-control-hub-agentic-access.yml
 summary_line: 17 operations · 6 acting
 tags:
 - Administration

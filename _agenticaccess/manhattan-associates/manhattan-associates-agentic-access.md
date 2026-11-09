@@ -9,37 +9,37 @@ api_specs:
   label: manhattan-associates Inbound API
   slug: manhattan-associates-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inbound-api-openapi.yml
 - filename: manhattan-associates-inventory-api-openapi.yml
   format: yaml
   label: manhattan-associates Inventory API
   slug: manhattan-associates-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inventory-api-openapi.yml
 - filename: manhattan-associates-orders-api-openapi.yml
   format: yaml
   label: manhattan-associates Orders API
   slug: manhattan-associates-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-orders-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-orders-api-openapi.yml
 - filename: manhattan-associates-outbound-api-openapi.yml
   format: yaml
   label: manhattan-associates Outbound API
   slug: manhattan-associates-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-outbound-api-openapi.yml
 - filename: manhattan-associates-promising-api-openapi.yml
   format: yaml
   label: manhattan-associates Promising API
   slug: manhattan-associates-promising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-promising-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-promising-api-openapi.yml
 - filename: manhattan-associates-returns-api-openapi.yml
   format: yaml
   label: manhattan-associates Returns API
   slug: manhattan-associates-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-returns-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-returns-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 7
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/manhat
   \      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receipts/{receiptId}\n  method: get\n  operationId: getReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory\n  method: get\n  operationId: getWarehouseInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outbound/orders\n  method: get\n  operationId: listOutboundOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /outbound/orders\n  method: post\n  operationId: createOutboundOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n   \
   \ subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outbound/orders/{orderId}/ship\n  method: post\n  operationId: shipOutboundOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers\n  method: post\n  operationId: createInventoryTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/agentic-access/manhattan-associates-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/manhattan-associates/agentic-access/manhattan-associates-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Logistics

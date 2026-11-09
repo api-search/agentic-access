@@ -9,19 +9,19 @@ api_specs:
   label: Akka Bootstrap API
   slug: akka-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/akka/openapi/akka-bootstrap-api-openapi.yml
 - filename: akka-cluster-api-openapi.yml
   format: yaml
   label: Akka Cluster API
   slug: akka-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/akka/openapi/akka-cluster-api-openapi.yml
 - filename: akka-health-api-openapi.yml
   format: yaml
   label: Akka Health API
   slug: akka-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/openapi/akka-health-api-openapi.yml
+  url: https://artifacts.apis.io/akka/openapi/akka-health-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/akka-management.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 5\n    acting: 2\n  by_consequence:\n    read: 5\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /alive\n  method: get\n  operationId: getAlive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ready\n  method: get\n  operationId: getReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster/members\n  method: get\n  operationId: getClusterMembers\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster/members/{address}\n  method: get\n  operationId: getClusterMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cluster/members/{address}\n  method: put\n  operationId: updateClusterMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cluster/members/{address}\n  method: delete\n  operationId: downClusterMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bootstrap/seed-nodes\n  method: get\n  operationId: getSeedNodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/agentic-access/akka-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/akka/agentic-access/akka-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - Actor Model

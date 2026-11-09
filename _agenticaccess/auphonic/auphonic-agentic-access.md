@@ -9,37 +9,37 @@ api_specs:
   label: Auphonic Info API
   slug: auphonic-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-info-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-info-api-openapi.yml
 - filename: auphonic-presets-api-openapi.yml
   format: yaml
   label: Auphonic Presets API
   slug: auphonic-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-presets-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-presets-api-openapi.yml
 - filename: auphonic-productions-api-openapi.yml
   format: yaml
   label: Auphonic Productions API
   slug: auphonic-productions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-productions-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-productions-api-openapi.yml
 - filename: auphonic-services-api-openapi.yml
   format: yaml
   label: Auphonic Services API
   slug: auphonic-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-services-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-services-api-openapi.yml
 - filename: auphonic-simple-api-api-openapi.yml
   format: yaml
   label: Auphonic Simple API
   slug: auphonic-simple-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-simple-api-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-simple-api-api-openapi.yml
 - filename: auphonic-user-api-openapi.yml
   format: yaml
   label: Auphonic User API
   slug: auphonic-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/openapi/auphonic-user-api-openapi.yml
+  url: https://artifacts.apis.io/auphonic/openapi/auphonic-user-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 17
@@ -176,7 +176,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/auphon
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/preset/{uuid}/webhook.json\n  method: post\n  operationId: setPresetWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/preset/{uuid}/webhook.json\n  method: delete\n  operationId: deletePresetWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/services.json\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/service/{uuid}/ls.json\n  method: get\n  operationId: listServiceFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/service/connect.json\n  method: post\n  operationId: connectService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/info.json\n  method: get\n  operationId: getAllInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/info/{subject}.json\n  method: get\n  operationId: getInfo\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user.json\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/download/{dtype}/{uuid}/{filename}\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/auphonic/refs/heads/main/agentic-access/auphonic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/auphonic/agentic-access/auphonic-agentic-access.yml
 summary_line: 60 operations · 45 acting · 17 human-in-the-loop
 tags:
 - Audio

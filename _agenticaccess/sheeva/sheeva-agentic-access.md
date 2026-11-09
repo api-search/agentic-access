@@ -9,91 +9,91 @@ api_specs:
   label: Sheeva Authentication API
   slug: sheeva-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-authentication-api-openapi.yml
 - filename: sheeva-credit-cards-api-openapi.yml
   format: yaml
   label: Sheeva Credit Cards API
   slug: sheeva-credit-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-credit-cards-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-credit-cards-api-openapi.yml
 - filename: sheeva-driver-alerts-api-openapi.yml
   format: yaml
   label: Sheeva Driver Alerts API
   slug: sheeva-driver-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-driver-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-driver-alerts-api-openapi.yml
 - filename: sheeva-driver-api-openapi.yml
   format: yaml
   label: Sheeva Driver API
   slug: sheeva-driver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-driver-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-driver-api-openapi.yml
 - filename: sheeva-feedback-api-openapi.yml
   format: yaml
   label: Sheeva Feedback API
   slug: sheeva-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-feedback-api-openapi.yml
 - filename: sheeva-loyalty-api-openapi.yml
   format: yaml
   label: Sheeva Loyalty API
   slug: sheeva-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-loyalty-api-openapi.yml
 - filename: sheeva-parking-api-openapi.yml
   format: yaml
   label: Sheeva Parking API
   slug: sheeva-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-parking-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-parking-api-openapi.yml
 - filename: sheeva-payments-api-openapi.yml
   format: yaml
   label: Sheeva Payments API
   slug: sheeva-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-payments-api-openapi.yml
 - filename: sheeva-service-hubs-points-of-interest-api-openapi.yml
   format: yaml
   label: Sheeva Service Hubs (Points Of Interest) API
   slug: sheeva-service-hubs-points-of-interest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-service-hubs-points-of-interest-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-service-hubs-points-of-interest-api-openapi.yml
 - filename: sheeva-session-api-openapi.yml
   format: yaml
   label: Sheeva Session API
   slug: sheeva-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-session-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-session-api-openapi.yml
 - filename: sheeva-transactions-api-openapi.yml
   format: yaml
   label: Sheeva Transactions API
   slug: sheeva-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-transactions-api-openapi.yml
 - filename: sheeva-upi-api-openapi.yml
   format: yaml
   label: Sheeva UPI API
   slug: sheeva-upi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-upi-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-upi-api-openapi.yml
 - filename: sheeva-vehicle-api-openapi.yml
   format: yaml
   label: Sheeva Vehicle API
   slug: sheeva-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-vehicle-api-openapi.yml
 - filename: sheeva-vehicle-events-api-openapi.yml
   format: yaml
   label: Sheeva Vehicle Events API
   slug: sheeva-vehicle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-vehicle-events-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-vehicle-events-api-openapi.yml
 - filename: sheeva-webhooks-api-openapi.yml
   format: yaml
   label: Sheeva Webhooks API
   slug: sheeva-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/openapi/sheeva-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sheeva/openapi/sheeva-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 25
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sheeva
   \  purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/partner-apis/vehicles\n  method: get\n  operationId: searchVehicles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/partner-apis/vehicles\n  method: post\n  operationId: registerVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/partner-apis/vehicles/{vin}\n  method: get\n  operationId: getAVehicle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/partner-apis/vehicles/{vin}\n\
   \  method: patch\n  operationId: updateVehicle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/partner-apis/vehicles/{vin}/drivers\n  method: get\n  operationId: getDriversByVin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vehicle-events\n  method: post\n  operationId: vehicleEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/partner-apis/webhooks/status-updates\n  method: post\n  operationId: registerStatusWebhook\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/partner-apis/webhooks\n  method: get\n  operationId: getRegisteredWebHooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/partner-apis/webhooks/{webhook-id}\n  method: delete\n  operationId: deleteAWebHook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sheeva/refs/heads/main/agentic-access/sheeva-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sheeva/agentic-access/sheeva-agentic-access.yml
 summary_line: 53 operations · 28 acting
 tags:
 - Company

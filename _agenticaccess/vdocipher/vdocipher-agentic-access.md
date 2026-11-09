@@ -9,37 +9,37 @@ api_specs:
   label: VdoCipher Folders API
   slug: vdocipher-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-folders-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-folders-api-openapi.yml
 - filename: vdocipher-meta-api-openapi.yml
   format: yaml
   label: VdoCipher Meta API
   slug: vdocipher-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-meta-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-meta-api-openapi.yml
 - filename: vdocipher-playback-api-openapi.yml
   format: yaml
   label: VdoCipher Playback API
   slug: vdocipher-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-playback-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-playback-api-openapi.yml
 - filename: vdocipher-tags-api-openapi.yml
   format: yaml
   label: VdoCipher Tags API
   slug: vdocipher-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-tags-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-tags-api-openapi.yml
 - filename: vdocipher-upload-api-openapi.yml
   format: yaml
   label: VdoCipher Upload API
   slug: vdocipher-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-upload-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-upload-api-openapi.yml
 - filename: vdocipher-videos-api-openapi.yml
   format: yaml
   label: VdoCipher Videos API
   slug: vdocipher-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/openapi/vdocipher-videos-api-openapi.yml
+  url: https://artifacts.apis.io/vdocipher/openapi/vdocipher-videos-api-openapi.yml
 consequence_counts:
   read: 7
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vdocip
   \ post\n  operationId: createFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/folders/search\n  method: post\n  operationId: searchFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{videoId}/files\n  method: get\n  operationId: listVideoFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /meta/{videoId}\n  method: get\n  operationId: getVideoMeta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{videoId}/otp\n\
   \  method: post\n  operationId: generateOtp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos\n  method: put\n  operationId: obtainUploadCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos\n  method: get\n  operationId: listVideos\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{videoId}\n  method: get\n  operationId: getVideoStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/{videoId}\n  method: post\n  operationId: editVideoMeta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/{videoId}\n  method: delete\n  operationId: deleteVideos\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vdocipher/refs/heads/main/agentic-access/vdocipher-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vdocipher/agentic-access/vdocipher-agentic-access.yml
 summary_line: 12 operations · 5 acting
 tags:
 - Video

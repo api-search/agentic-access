@@ -9,127 +9,127 @@ api_specs:
   label: BurstIQ BlastAI APIs API
   slug: burstiq-blastai-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-blastai-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-blastai-apis-api-openapi.yml
 - filename: burstiq-customer-directory-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Customer Directory APIs API
   slug: burstiq-customer-directory-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-customer-directory-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-customer-directory-apis-api-openapi.yml
 - filename: burstiq-data-pipeline-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Data Pipeline APIs API
   slug: burstiq-data-pipeline-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-data-pipeline-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-data-pipeline-apis-api-openapi.yml
 - filename: burstiq-data-pipeline-field-mapping-step-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Data Pipeline Field Mapping Step APIs API
   slug: burstiq-data-pipeline-field-mapping-step-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-data-pipeline-field-mapping-step-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-data-pipeline-field-mapping-step-apis-api-openapi.yml
 - filename: burstiq-data-pipeline-js-transform-step-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Data Pipeline JS Transform Step APIs API
   slug: burstiq-data-pipeline-js-transform-step-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-data-pipeline-js-transform-step-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-data-pipeline-js-transform-step-apis-api-openapi.yml
 - filename: burstiq-data-pipeline-rule-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Data Pipeline Rule APIs API
   slug: burstiq-data-pipeline-rule-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-data-pipeline-rule-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-data-pipeline-rule-apis-api-openapi.yml
 - filename: burstiq-data-pipeline-ruleset-step-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Data Pipeline RuleSet Step APIs API
   slug: burstiq-data-pipeline-ruleset-step-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-data-pipeline-ruleset-step-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-data-pipeline-ruleset-step-apis-api-openapi.yml
 - filename: burstiq-dbschema-apis-api-openapi.yml
   format: yaml
   label: BurstIQ DbSchema APIs API
   slug: burstiq-dbschema-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-dbschema-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-dbschema-apis-api-openapi.yml
 - filename: burstiq-dictionary-metadata-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Dictionary Metadata APIs API
   slug: burstiq-dictionary-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-dictionary-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-dictionary-metadata-apis-api-openapi.yml
 - filename: burstiq-edge-definition-metadata-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Edge Definition Metadata APIs API
   slug: burstiq-edge-definition-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-edge-definition-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-edge-definition-metadata-apis-api-openapi.yml
 - filename: burstiq-glossary-metadata-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Glossary Metadata APIs API
   slug: burstiq-glossary-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-glossary-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-glossary-metadata-apis-api-openapi.yml
 - filename: burstiq-graph-chain-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Graph Chain APIs API
   slug: burstiq-graph-chain-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-graph-chain-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-graph-chain-apis-api-openapi.yml
 - filename: burstiq-job-manager-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Job Manager APIs API
   slug: burstiq-job-manager-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-job-manager-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-job-manager-apis-api-openapi.yml
 - filename: burstiq-metadata-util-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Metadata Util APIs API
   slug: burstiq-metadata-util-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-metadata-util-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-metadata-util-apis-api-openapi.yml
 - filename: burstiq-metrics-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Metrics APIs API
   slug: burstiq-metrics-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-metrics-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-metrics-apis-api-openapi.yml
 - filename: burstiq-odata-v4-apis-api-openapi.yml
   format: yaml
   label: BurstIQ OData v4 APIs API
   slug: burstiq-odata-v4-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-odata-v4-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-odata-v4-apis-api-openapi.yml
 - filename: burstiq-sdz-specific-term-apis-api-openapi.yml
   format: yaml
   label: BurstIQ SDZ Specific Term APIs API
   slug: burstiq-sdz-specific-term-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-sdz-specific-term-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-sdz-specific-term-apis-api-openapi.yml
 - filename: burstiq-system-wallet-apis-api-openapi.yml
   format: yaml
   label: BurstIQ System Wallet APIs API
   slug: burstiq-system-wallet-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-system-wallet-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-system-wallet-apis-api-openapi.yml
 - filename: burstiq-user-group-apis-api-openapi.yml
   format: yaml
   label: BurstIQ User Group APIs API
   slug: burstiq-user-group-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-user-group-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-user-group-apis-api-openapi.yml
 - filename: burstiq-user-wallet-apis-api-openapi.yml
   format: yaml
   label: BurstIQ User Wallet APIs API
   slug: burstiq-user-wallet-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-user-wallet-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-user-wallet-apis-api-openapi.yml
 - filename: burstiq-wallet-apis-api-openapi.yml
   format: yaml
   label: BurstIQ Wallet APIs API
   slug: burstiq-wallet-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/openapi/burstiq-wallet-apis-api-openapi.yml
+  url: https://artifacts.apis.io/burstiq/openapi/burstiq-wallet-apis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 86
@@ -203,8 +203,8 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bursti
   \      - high-value\n    audit: required\n- path: /api/jobs/{chain}/smartcontracts/{sdoId}/{func}\n  method: post\n  operationId: postExecuteSmartContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/{chain}/export\n  method: post\n  operationId: postExportFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/{chain}/drop\n  method: post\n  operationId: postDropChain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/sdz/wipe\n  method: post\n  operationId: postWipeSDZ\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/sdz/reset\n  method: post\n  operationId: postResetSDZ\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/jobs/download\n  method: post\n  operationId: postDownloadFile\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/dictionary\n  method: post\n  operationId: postDictionaryFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/jobs/dbschema\n  method: post\n  operationId: postDbSchemaFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/graphchain/{chain}/{sdoId}/edges\n\
-  \  method: post\n  operationId: postCreateEdge_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/graphchain/{chain}/smartcontracts\n  method: post\n  operationId: postCreateSmartContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/agentic-access/burstiq-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/burstiq/refs/heads/main/agentic-access/burstiq-agentic-access.yml
+  \  method: post\n  operationId: postCreateEdge_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/graphchain/{chain}/smartcontracts\n  method: post\n  operationId: postCreateSmartContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (49 KB total) ---\n# Full source: https://artifacts.apis.io/burstiq/agentic-access/burstiq-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/burstiq/agentic-access/burstiq-agentic-access.yml
 summary_line: 171 operations · 85 acting · 1 human-in-the-loop
 tags:
 - Company

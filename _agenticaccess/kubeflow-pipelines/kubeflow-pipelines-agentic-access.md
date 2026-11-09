@@ -9,31 +9,31 @@ api_specs:
   label: Kubeflow Pipelines Experiments API
   slug: kubeflow-pipelines-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow-pipelines/openapi/kubeflow-pipelines-experiments-api-openapi.yml
 - filename: kubeflow-pipelines-health-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines Health API
   slug: kubeflow-pipelines-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-health-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow-pipelines/openapi/kubeflow-pipelines-health-api-openapi.yml
 - filename: kubeflow-pipelines-pipelines-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines API
   slug: kubeflow-pipelines-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow-pipelines/openapi/kubeflow-pipelines-pipelines-api-openapi.yml
 - filename: kubeflow-pipelines-runs-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines Runs API
   slug: kubeflow-pipelines-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-runs-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow-pipelines/openapi/kubeflow-pipelines-runs-api-openapi.yml
 - filename: kubeflow-pipelines-pipeline-versions-api-openapi.yml
   format: yaml
   label: Kubeflow Pipelines Pipeline Versions API
   slug: kubeflow-pipelines-pipeline-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/openapi/kubeflow-pipelines-pipeline-versions-api-openapi.yml
+  url: https://artifacts.apis.io/kubeflow-pipelines/openapi/kubeflow-pipelines-pipeline-versions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubefl
   \ listPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v2beta1/pipelines\n  method: post\n  operationId: createPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/pipelines/{pipeline_id}\n  method: get\n  operationId: getPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v2beta1/pipelines/{pipeline_id}\n  method: delete\n  operationId: deletePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/pipelines/{pipeline_id}/versions\n  method: get\n  operationId: listPipelineVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/v2beta1/pipelines/{pipeline_id}/versions\n  method: post\n  operationId: createPipelineVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/pipelines/upload\n  method: post\n  operationId: uploadPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/v2beta1/runs\n  method: get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubeflow-pipelines/refs/heads/main/agentic-access/kubeflow-pipelines-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubeflow-pipelines/agentic-access/kubeflow-pipelines-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Data Science

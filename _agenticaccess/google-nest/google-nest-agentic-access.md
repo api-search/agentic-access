@@ -9,19 +9,19 @@ api_specs:
   label: Google Nest Smart Device Management Devices API
   slug: google-nest-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/google-nest-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-nest/openapi/google-nest-devices-api-openapi.yml
 - filename: google-nest-rooms-api-openapi.yml
   format: yaml
   label: Google Nest Smart Device Management Rooms API
   slug: google-nest-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/google-nest-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/google-nest/openapi/google-nest-rooms-api-openapi.yml
 - filename: google-nest-structures-api-openapi.yml
   format: yaml
   label: Google Nest Smart Device Management Structures API
   slug: google-nest-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/openapi/google-nest-structures-api-openapi.yml
+  url: https://artifacts.apis.io/google-nest/openapi/google-nest-structures-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /enterprises/{enterpriseId}/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprises/{enterpriseId}/devices/{deviceId}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /enterprises/{enterpriseId}/devices/{deviceId}:executeCommand\n  method: post\n  operationId: executeDeviceCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enterprises/{enterpriseId}/structures\n  method: get\n  operationId: listStructures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /enterprises/{enterpriseId}/structures/{structureId}/rooms\n  method: get\n  operationId: listRooms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-nest/refs/heads/main/agentic-access/google-nest-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-nest/agentic-access/google-nest-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Camera

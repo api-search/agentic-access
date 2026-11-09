@@ -9,79 +9,79 @@ api_specs:
   label: Earnipay App API
   slug: earnipay-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-app-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-app-api-openapi.yml
 - filename: earnipay-app-provider-api-openapi.yml
   format: yaml
   label: Earnipay APP Provider API
   slug: earnipay-app-provider-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-app-provider-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-app-provider-api-openapi.yml
 - filename: earnipay-authentication-api-openapi.yml
   format: yaml
   label: Earnipay Authentication API
   slug: earnipay-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-authentication-api-openapi.yml
 - filename: earnipay-bank-api-openapi.yml
   format: yaml
   label: Earnipay Bank API
   slug: earnipay-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-bank-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-bank-api-openapi.yml
 - filename: earnipay-business-api-openapi.yml
   format: yaml
   label: Earnipay Business API
   slug: earnipay-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-business-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-business-api-openapi.yml
 - filename: earnipay-customers-api-openapi.yml
   format: yaml
   label: Earnipay Customers API
   slug: earnipay-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-customers-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-customers-api-openapi.yml
 - filename: earnipay-invoices-api-openapi.yml
   format: yaml
   label: Earnipay Invoices API
   slug: earnipay-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-invoices-api-openapi.yml
 - filename: earnipay-irn-generator-api-openapi.yml
   format: yaml
   label: Earnipay IRN Generator API
   slug: earnipay-irn-generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-irn-generator-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-irn-generator-api-openapi.yml
 - filename: earnipay-payment-details-api-openapi.yml
   format: yaml
   label: Earnipay Payment Details API
   slug: earnipay-payment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-payment-details-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-payment-details-api-openapi.yml
 - filename: earnipay-products-api-openapi.yml
   format: yaml
   label: Earnipay Products API
   slug: earnipay-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-products-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-products-api-openapi.yml
 - filename: earnipay-qr-code-generator-api-openapi.yml
   format: yaml
   label: Earnipay QR Code Generator API
   slug: earnipay-qr-code-generator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-qr-code-generator-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-qr-code-generator-api-openapi.yml
 - filename: earnipay-team-api-openapi.yml
   format: yaml
   label: Earnipay Team API
   slug: earnipay-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-team-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-team-api-openapi.yml
 - filename: earnipay-users-api-openapi.yml
   format: yaml
   label: Earnipay Users API
   slug: earnipay-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/openapi/earnipay-users-api-openapi.yml
+  url: https://artifacts.apis.io/earnipay/openapi/earnipay-users-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 50
@@ -261,7 +261,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/earnip
   \  method: post\n  operationId: TeamController_inviteTeamMember_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/team\n  method: get\n  operationId: TeamController_getTeam_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/team/invitations/{token}/accept\n  method: post\n  operationId: TeamController_acceptInvitation_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n\
   \    audit: required\n- path: /v1/team/invitations/{id}\n  method: delete\n  operationId: TeamController_revokeInvitation_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/team/members/{id}/role\n  method: patch\n  operationId: TeamController_updateMemberRole_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/team/members/{id}\n  method: delete\n  operationId: TeamController_removeMember_v1\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/banks/list\n  method: get\n  operationId: BankController_getBankList_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/banks/verify-account\n  method: post\n  operationId: BankController_verifyBankAccount_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/earnipay/refs/heads/main/agentic-access/earnipay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/earnipay/agentic-access/earnipay-agentic-access.yml
 summary_line: 69 operations · 50 acting · 50 human-in-the-loop
 tags:
 - Company

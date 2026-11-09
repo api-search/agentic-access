@@ -9,25 +9,25 @@ api_specs:
   label: Mintlify Agent API
   slug: mintlify-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-agent-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-agent-api-openapi.yml
 - filename: mintlify-analytics-api-openapi.yml
   format: yaml
   label: Mintlify Analytics API
   slug: mintlify-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-analytics-api-openapi.yml
 - filename: mintlify-assistant-api-openapi.yml
   format: yaml
   label: Mintlify Assistant API
   slug: mintlify-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-assistant-api-openapi.yml
 - filename: mintlify-update-api-openapi.yml
   format: yaml
   label: Mintlify Update API
   slug: mintlify-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/openapi/mintlify-update-api-openapi.yml
+  url: https://artifacts.apis.io/mintlify/openapi/mintlify-update-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mintlify-agent-api-openapi.yml, openapi/mintlify-analytics-api-openapi.yml,\n  openapi/mintlify-assistant-api-openapi.yml, openapi/mintlify-update-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    write: 3\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/agent/{projectId}/job\n  method: post\n  operationId: createAgentJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/agent/{projectId}/job/{id}\n  method: get\n  operationId: getAgentJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/analytics/feedback\n  method: get\n  operationId: getFeedback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/analytics/conversations\n  method: get\n  operationId: getConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /discovery/v2/assistant/{domain}/message\n  method: post\n  operationId: createAssistantMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discovery/v1/search/{domain}\n  method: post\n  operationId: searchDocs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/project/update/{projectId}\n  method: post\n  operationId: triggerUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/project/update-status/{statusId}\n  method: get\n  operationId: getUpdateStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mintlify/refs/heads/main/agentic-access/mintlify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mintlify/agentic-access/mintlify-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Documentation

@@ -9,25 +9,25 @@ api_specs:
   label: Tesla Authentication API
   slug: tesla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-authentication-api-openapi.yml
 - filename: tesla-media-control-api-openapi.yml
   format: yaml
   label: Tesla Media Control API
   slug: tesla-media-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-media-control-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-media-control-api-openapi.yml
 - filename: tesla-vehicle-commands-api-openapi.yml
   format: yaml
   label: Tesla Vehicle Commands API
   slug: tesla-vehicle-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-vehicle-commands-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-vehicle-commands-api-openapi.yml
 - filename: tesla-vehicles-api-openapi.yml
   format: yaml
   label: Tesla Vehicles API
   slug: tesla-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-vehicles-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 11
@@ -194,7 +194,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tesla-
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/vehicles/{vehicle_id}/command/set_preconditioning_max\n  method: post\n  operationId: SetMaxDefrost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/vehicles/{vehicle_id}/command/window_control\n  method: post\n  operationId: WindowControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/1/vehicles/{vehicle_id}/command/trigger_homelink\n  method:\
   \ post\n  operationId: TriggerHomelink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/vehicles/{vehicle_id}/command/set_vehicle_name\n  method: post\n  operationId: SetVehicleName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/vehicles/{vehicle_id}/command/remote_boombox\n  method: post\n  operationId: RemoteBoombox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/agentic-access/tesla-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tesla/agentic-access/tesla-agentic-access.yml
 summary_line: 65 operations · 54 acting · 14 human-in-the-loop
 tags:
 - Automobiles

@@ -9,37 +9,37 @@ api_specs:
   label: Keyframe Labs LLM models API
   slug: keyframe-labs-llm-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-llm-models-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-llm-models-api-openapi.yml
 - filename: keyframe-labs-meet-bots-api-openapi.yml
   format: yaml
   label: Keyframe Labs Meet bots API
   slug: keyframe-labs-meet-bots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-meet-bots-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-meet-bots-api-openapi.yml
 - filename: keyframe-labs-sessions-api-openapi.yml
   format: yaml
   label: Keyframe Labs Sessions API
   slug: keyframe-labs-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-sessions-api-openapi.yml
 - filename: keyframe-labs-voices-api-openapi.yml
   format: yaml
   label: Keyframe Labs Voices API
   slug: keyframe-labs-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-voices-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-voices-api-openapi.yml
 - filename: keyframe-labs-avatars-api-openapi.yml
   format: yaml
   label: Keyframe Labs Avatars API
   slug: keyframe-labs-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-avatars-api-openapi.yml
 - filename: keyframe-labs-generations-api-openapi.yml
   format: yaml
   label: Keyframe Labs Generations API
   slug: keyframe-labs-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/openapi/keyframe-labs-generations-api-openapi.yml
+  url: https://artifacts.apis.io/keyframe-labs/openapi/keyframe-labs-generations-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 1
@@ -77,7 +77,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/keyframe-labs-sessions-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    write: 2\n    safety-critical: 1\n    read: 5\n  human_in_the_loop_required: 1\noperations:\n- path: /sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions\n  method: delete\n  operationId: stopMeetBot\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /meet-bot\n  method: post\n  operationId: createMeetBot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meet-bot/{bot_id}\n  method: get\n  operationId: getMeetBotStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voices\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voices/{voice_id}\n  method: get\n  operationId: getVoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llm-models\n  method: get\n  operationId: listLlmModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llm-models/{model_id}\n  method: get\n  operationId: getLlmModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/agentic-access/keyframe-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keyframe-labs/agentic-access/keyframe-labs-agentic-access.yml
 summary_line: 8 operations · 3 acting · 1 human-in-the-loop
 tags:
 - Company

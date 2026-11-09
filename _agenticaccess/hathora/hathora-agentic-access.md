@@ -9,67 +9,67 @@ api_specs:
   label: Hathora AppsV2 API
   slug: hathora-appsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-appsv2-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-appsv2-api-openapi.yml
 - filename: hathora-authv1-api-openapi.yml
   format: yaml
   label: Hathora AuthV1 API
   slug: hathora-authv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-authv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-authv1-api-openapi.yml
 - filename: hathora-billingv1-api-openapi.yml
   format: yaml
   label: Hathora BillingV1 API
   slug: hathora-billingv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-billingv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-billingv1-api-openapi.yml
 - filename: hathora-buildsv3-api-openapi.yml
   format: yaml
   label: Hathora BuildsV3 API
   slug: hathora-buildsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-buildsv3-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-buildsv3-api-openapi.yml
 - filename: hathora-deploymentsv3-api-openapi.yml
   format: yaml
   label: Hathora DeploymentsV3 API
   slug: hathora-deploymentsv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-deploymentsv3-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-deploymentsv3-api-openapi.yml
 - filename: hathora-discoveryv2-api-openapi.yml
   format: yaml
   label: Hathora DiscoveryV2 API
   slug: hathora-discoveryv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-discoveryv2-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-discoveryv2-api-openapi.yml
 - filename: hathora-logsv1-api-openapi.yml
   format: yaml
   label: Hathora LogsV1 API
   slug: hathora-logsv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-logsv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-logsv1-api-openapi.yml
 - filename: hathora-processesv3-api-openapi.yml
   format: yaml
   label: Hathora ProcessesV3 API
   slug: hathora-processesv3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-processesv3-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-processesv3-api-openapi.yml
 - filename: hathora-roomsv2-api-openapi.yml
   format: yaml
   label: Hathora RoomsV2 API
   slug: hathora-roomsv2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-roomsv2-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-roomsv2-api-openapi.yml
 - filename: hathora-tokensv1-api-openapi.yml
   format: yaml
   label: Hathora TokensV1 API
   slug: hathora-tokensv1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-tokensv1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-tokensv1-api-openapi.yml
 - filename: hathora-metrics-v1-api-openapi.yml
   format: yaml
   label: Hathora Metrics V1 API
   slug: hathora-metrics-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/openapi/hathora-metrics-v1-api-openapi.yml
+  url: https://artifacts.apis.io/hathora/openapi/hathora-metrics-v1-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hathor
   \  method: get\n  operationId: GetMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/v1/balance\n  method: get\n  operationId: GetBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/v1/invoices\n  method: get\n  operationId: GetInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/v1/paymentmethod\n  method: get\n  operationId: GetPaymentMethod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/v1/customerportalurl\n  method: post\n  operationId: InitStripeCustomerPortalUrl\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/v1/{orgId}/list\n  method: get\n  operationId: GetOrgTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/v1/{orgId}/create\n  method: post\n  operationId: CreateOrgToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/v1/{orgId}/revoke/{orgTokenId}\n  method: put\n  operationId: RevokeOrgToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hathora/refs/heads/main/agentic-access/hathora-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hathora/agentic-access/hathora-agentic-access.yml
 summary_line: 36 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Game Servers

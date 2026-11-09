@@ -9,157 +9,157 @@ api_specs:
   label: SantéVet Appareil API
   slug: santevet-appareil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-appareil-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-appareil-api-openapi.yml
 - filename: santevet-civilite-api-openapi.yml
   format: yaml
   label: SantéVet Civilite API
   slug: santevet-civilite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-civilite-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-civilite-api-openapi.yml
 - filename: santevet-contratraisonannulation-api-openapi.yml
   format: yaml
   label: SantéVet Contrat Raison Annulation API
   slug: santevet-contratraisonannulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-contratraisonannulation-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-contratraisonannulation-api-openapi.yml
 - filename: santevet-espece-api-openapi.yml
   format: yaml
   label: SantéVet Espece API
   slug: santevet-espece-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-espece-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-espece-api-openapi.yml
 - filename: santevet-fractionnement-api-openapi.yml
   format: yaml
   label: SantéVet Fractionnement API
   slug: santevet-fractionnement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-fractionnement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-fractionnement-api-openapi.yml
 - filename: santevet-langue-api-openapi.yml
   format: yaml
   label: SantéVet Langue API
   slug: santevet-langue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-langue-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-langue-api-openapi.yml
 - filename: santevet-motifnonremboursement-api-openapi.yml
   format: yaml
   label: SantéVet Motif Non Remboursement API
   slug: santevet-motifnonremboursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-motifnonremboursement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-motifnonremboursement-api-openapi.yml
 - filename: santevet-motifperiode-api-openapi.yml
   format: yaml
   label: SantéVet Motif Periode API
   slug: santevet-motifperiode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-motifperiode-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-motifperiode-api-openapi.yml
 - filename: santevet-originecommerciale-api-openapi.yml
   format: yaml
   label: SantéVet Origine Commerciale API
   slug: santevet-originecommerciale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-originecommerciale-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-originecommerciale-api-openapi.yml
 - filename: santevet-origineconnaissance-api-openapi.yml
   format: yaml
   label: SantéVet Origine Connaissance API
   slug: santevet-origineconnaissance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-origineconnaissance-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-origineconnaissance-api-openapi.yml
 - filename: santevet-pays-api-openapi.yml
   format: yaml
   label: SantéVet Pays API
   slug: santevet-pays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-pays-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-pays-api-openapi.yml
 - filename: santevet-race-api-openapi.yml
   format: yaml
   label: SantéVet Race API
   slug: santevet-race-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-race-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-race-api-openapi.yml
 - filename: santevet-reimbursement-api-openapi.yml
   format: yaml
   label: SantéVet Reimbursement API
   slug: santevet-reimbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-reimbursement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-reimbursement-api-openapi.yml
 - filename: santevet-sinistremotifretour-api-openapi.yml
   format: yaml
   label: SantéVet Sinistre Motif Retour API
   slug: santevet-sinistremotifretour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-sinistremotifretour-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-sinistremotifretour-api-openapi.yml
 - filename: santevet-statutsocialpartenaire-api-openapi.yml
   format: yaml
   label: SantéVet Statut Social Partenaire API
   slug: santevet-statutsocialpartenaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-statutsocialpartenaire-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-statutsocialpartenaire-api-openapi.yml
 - filename: santevet-svdefcontratassurance-api-openapi.yml
   format: yaml
   label: SantéVet Sv Def Contrat Assurance API
   slug: santevet-svdefcontratassurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svdefcontratassurance-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svdefcontratassurance-api-openapi.yml
 - filename: santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
   format: yaml
   label: SantéVet Sv Def Option Appliquee Au Def Contrat API
   slug: santevet-svdefoptionappliqueeaudefcontrat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svdefoptionappliqueeaudefcontrat-api-openapi.yml
 - filename: santevet-svgrouperace-api-openapi.yml
   format: yaml
   label: SantéVet Sv Groupe Race API
   slug: santevet-svgrouperace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svgrouperace-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svgrouperace-api-openapi.yml
 - filename: santevet-svmarquetel-api-openapi.yml
   format: yaml
   label: SantéVet Sv Marque Tel API
   slug: santevet-svmarquetel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svmarquetel-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svmarquetel-api-openapi.yml
 - filename: santevet-svpromo-api-openapi.yml
   format: yaml
   label: SantéVet Sv Promo API
   slug: santevet-svpromo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svpromo-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svpromo-api-openapi.yml
 - filename: santevet-svtarifscontrat-api-openapi.yml
   format: yaml
   label: SantéVet Sv Tarifs Contrat API
   slug: santevet-svtarifscontrat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-svtarifscontrat-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-svtarifscontrat-api-openapi.yml
 - filename: santevet-typeidentifiantofficielpartenaire-api-openapi.yml
   format: yaml
   label: SantéVet Type Identifiant Officiel Partenaire API
   slug: santevet-typeidentifiantofficielpartenaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typeidentifiantofficielpartenaire-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typeidentifiantofficielpartenaire-api-openapi.yml
 - filename: santevet-typeoption-api-openapi.yml
   format: yaml
   label: SantéVet Type Option API
   slug: santevet-typeoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typeoption-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typeoption-api-openapi.yml
 - filename: santevet-typepartenaire-api-openapi.yml
   format: yaml
   label: SantéVet Type Partenaire API
   slug: santevet-typepartenaire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typepartenaire-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typepartenaire-api-openapi.yml
 - filename: santevet-typereglement-api-openapi.yml
   format: yaml
   label: SantéVet Type Reglement API
   slug: santevet-typereglement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typereglement-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typereglement-api-openapi.yml
 - filename: santevet-typesinistre-api-openapi.yml
   format: yaml
   label: SantéVet Type Sinistre API
   slug: santevet-typesinistre-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/openapi/santevet-typesinistre-api-openapi.yml
+  url: https://artifacts.apis.io/santevet/openapi/santevet-typesinistre-api-openapi.yml
 consequence_counts:
   read: 58
   write: 6
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/santev
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partners/official-identifier-types\n  method: get\n  operationId: getTypeIdentifiantOfficielPartenaireCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/official-identifier-types/{id}\n  method: get\n  operationId: getTypeIdentifiantOfficielPartenaireItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /options/types\n  method: get\n  operationId: getTypeOptionCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /options/types/{id}\n\
   \  method: get\n  operationId: getTypeOptionItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/types\n  method: get\n  operationId: getTypePartenaireCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partners/types/{id}\n  method: get\n  operationId: getTypePartenaireItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment/types\n  method: get\n  operationId: getTypeReglementCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment/types/{id}\n  method: get\n  operationId: getTypeReglementItem\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims/types\n  method: get\n  operationId: getTypeSinistreCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /claims/types/{id}\n  method: get\n  operationId: getTypeSinistreItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/santevet/refs/heads/main/agentic-access/santevet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/santevet/agentic-access/santevet-agentic-access.yml
 summary_line: 64 operations · 6 acting
 tags:
 - Insurance

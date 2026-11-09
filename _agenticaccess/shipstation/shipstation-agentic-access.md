@@ -9,61 +9,61 @@ api_specs:
   label: ShipStation Accounts API
   slug: shipstation-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-accounts-api-openapi.yml
 - filename: shipstation-carriers-api-openapi.yml
   format: yaml
   label: ShipStation Carriers API
   slug: shipstation-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-carriers-api-openapi.yml
 - filename: shipstation-customers-api-openapi.yml
   format: yaml
   label: ShipStation Customers API
   slug: shipstation-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-customers-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-customers-api-openapi.yml
 - filename: shipstation-fulfillments-api-openapi.yml
   format: yaml
   label: ShipStation Fulfillments API
   slug: shipstation-fulfillments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-fulfillments-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-fulfillments-api-openapi.yml
 - filename: shipstation-orders-api-openapi.yml
   format: yaml
   label: ShipStation Orders API
   slug: shipstation-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-orders-api-openapi.yml
 - filename: shipstation-products-api-openapi.yml
   format: yaml
   label: ShipStation Products API
   slug: shipstation-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-products-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-products-api-openapi.yml
 - filename: shipstation-shipments-api-openapi.yml
   format: yaml
   label: ShipStation Shipments API
   slug: shipstation-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-shipments-api-openapi.yml
 - filename: shipstation-stores-api-openapi.yml
   format: yaml
   label: ShipStation Stores API
   slug: shipstation-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-stores-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-stores-api-openapi.yml
 - filename: shipstation-warehouses-api-openapi.yml
   format: yaml
   label: ShipStation Warehouses API
   slug: shipstation-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-warehouses-api-openapi.yml
 - filename: shipstation-webhooks-api-openapi.yml
   format: yaml
   label: ShipStation Webhooks API
   slug: shipstation-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/openapi/shipstation-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipstation/openapi/shipstation-webhooks-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 19
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/shipst
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stores/refreshstore\n  method: post\n  operationId: refreshStore\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /warehouses\n  method: get\n  operationId: listWarehouses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /warehouses\n  method: post\n  operationId: createWarehouse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /warehouses/{warehouseId}\n  method: get\n  operationId: getWarehouse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /warehouses/{warehouseId}\n  method: put\n  operationId: updateWarehouse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /warehouses/{warehouseId}\n  method: delete\n  operationId: deleteWarehouse\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n\
   \  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: subscribeToWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: unsubscribeFromWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipstation/refs/heads/main/agentic-access/shipstation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shipstation/agentic-access/shipstation-agentic-access.yml
 summary_line: 37 operations · 18 acting
 tags:
 - ShipStation

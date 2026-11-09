@@ -9,55 +9,55 @@ api_specs:
   label: Uplisting Account API
   slug: uplisting-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-account-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-account-api-openapi.yml
 - filename: uplisting-availability-api-openapi.yml
   format: yaml
   label: Uplisting Availability API
   slug: uplisting-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-availability-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-availability-api-openapi.yml
 - filename: uplisting-bookings-api-openapi.yml
   format: yaml
   label: Uplisting Bookings API
   slug: uplisting-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-bookings-api-openapi.yml
 - filename: uplisting-calendar-api-openapi.yml
   format: yaml
   label: Uplisting Calendar API
   slug: uplisting-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-calendar-api-openapi.yml
 - filename: uplisting-guests-api-openapi.yml
   format: yaml
   label: Uplisting Guests API
   slug: uplisting-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-guests-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-guests-api-openapi.yml
 - filename: uplisting-messages-api-openapi.yml
   format: yaml
   label: Uplisting Messages API
   slug: uplisting-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-messages-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-messages-api-openapi.yml
 - filename: uplisting-properties-api-openapi.yml
   format: yaml
   label: Uplisting Properties API
   slug: uplisting-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-properties-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-properties-api-openapi.yml
 - filename: uplisting-rates-api-openapi.yml
   format: yaml
   label: Uplisting Rates API
   slug: uplisting-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-rates-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-rates-api-openapi.yml
 - filename: uplisting-webhooks-api-openapi.yml
   format: yaml
   label: Uplisting Webhooks API
   slug: uplisting-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/openapi/uplisting-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/uplisting/openapi/uplisting-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uplist
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /properties/{propertyId}/rates\n  method: put\n  operationId: updateRates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /guests\n  method: get\n  operationId: listGuests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /guests/{guestId}\n  method: get\n  operationId: getGuest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{bookingId}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bookings/{bookingId}/messages\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uplisting/refs/heads/main/agentic-access/uplisting-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uplisting/agentic-access/uplisting-agentic-access.yml
 summary_line: 18 operations · 7 acting
 tags:
 - Vacation Rentals

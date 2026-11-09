@@ -9,73 +9,73 @@ api_specs:
   label: Adaptris /adapter API
   slug: adaptris-adapter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-adapter-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-adapter-api-openapi.yml
 - filename: adaptris-adapter-component-checker-api-openapi.yml
   format: yaml
   label: Adaptris /adapter/component Checker API
   slug: adaptris-adapter-component-checker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-adapter-component-checker-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-adapter-component-checker-api-openapi.yml
 - filename: adaptris-adapter-failed-messages-api-openapi.yml
   format: yaml
   label: Adaptris /adapter/failed Messages API
   slug: adaptris-adapter-failed-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-adapter-failed-messages-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-adapter-failed-messages-api-openapi.yml
 - filename: adaptris-adapter-metrics-api-openapi.yml
   format: yaml
   label: Adaptris /adapter/metrics API
   slug: adaptris-adapter-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-adapter-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-adapter-metrics-api-openapi.yml
 - filename: adaptris-adapter-platform-api-openapi.yml
   format: yaml
   label: Adaptris /adapter/platform API
   slug: adaptris-adapter-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-adapter-platform-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-adapter-platform-api-openapi.yml
 - filename: adaptris-channel-api-openapi.yml
   format: yaml
   label: Adaptris /channel API
   slug: adaptris-channel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-channel-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-channel-api-openapi.yml
 - filename: adaptris-channel-failed-messages-api-openapi.yml
   format: yaml
   label: Adaptris /channel/failed Messages API
   slug: adaptris-channel-failed-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-channel-failed-messages-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-channel-failed-messages-api-openapi.yml
 - filename: adaptris-channel-metrics-api-openapi.yml
   format: yaml
   label: Adaptris /channel/metrics API
   slug: adaptris-channel-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-channel-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-channel-metrics-api-openapi.yml
 - filename: adaptris-deprecated-api-openapi.yml
   format: yaml
   label: Adaptris Deprecated API
   slug: adaptris-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-deprecated-api-openapi.yml
 - filename: adaptris-workflow-api-openapi.yml
   format: yaml
   label: Adaptris /workflow API
   slug: adaptris-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-workflow-api-openapi.yml
 - filename: adaptris-workflow-failed-messages-api-openapi.yml
   format: yaml
   label: Adaptris /workflow/failed Messages API
   slug: adaptris-workflow-failed-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-workflow-failed-messages-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-workflow-failed-messages-api-openapi.yml
 - filename: adaptris-workflow-metrics-api-openapi.yml
   format: yaml
   label: Adaptris /workflow/metrics API
   slug: adaptris-workflow-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/openapi/adaptris-workflow-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/adaptris/openapi/adaptris-workflow-metrics-api-openapi.yml
 consequence_counts:
   read: 106
   write: 29
@@ -134,8 +134,8 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/interl
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/adapter/{adapter}/channel/{channel}/workflow/{workflow}/metrics/message-metrics\n  method: get\n  operationId: getMessageMetricsStatistics_8\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/metadata-statistics-ids\n  method: get\n  operationId: messageMetadataStatisticsIds_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/message-metrics-ids\n\
   \  method: get\n  operationId: messageMetricsStatisticsIds_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/message-metrics/{id}\n  method: get\n  operationId: getMessageMetricsStatistics_11\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/message-metrics/{id}\n  method: delete\n  operationId: clearMessageMetricsStatistics_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/metadata-statistics/{id}\n\
   \  method: get\n  operationId: getMetadataStatistics_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/metadata-statistics/{id}\n  method: delete\n  operationId: clearMetadataStatistics_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external/adapter/{url}/{jmxUid}/channel/{channel}/workflow/{workflow}/metrics/message-metrics\n  method: get\n  operationId: getMessageMetricsStatistics_10\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/channel/{url}/{jmxUid}/{channel}\n\
-  \  method: get\n  operationId: get_6\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/channel/{url}/{jmxUid}/count\n  method: get\n  operationId: count_4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/channel/{url}/{jmxUid}\n  method: get\n  operationId: list_5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/agentic-access/adaptris-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptris/refs/heads/main/agentic-access/adaptris-agentic-access.yml
+  \  method: get\n  operationId: get_6\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/channel/{url}/{jmxUid}/count\n  method: get\n  operationId: count_4\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external/channel/{url}/{jmxUid}\n  method: get\n  operationId: list_5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/adaptris/agentic-access/adaptris-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/adaptris/agentic-access/adaptris-agentic-access.yml
 summary_line: 135 operations · 29 acting
 tags:
 - Company

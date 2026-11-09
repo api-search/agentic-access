@@ -9,13 +9,13 @@ api_specs:
   label: Reonomy Property API
   slug: reonomy-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-property-api-openapi.yml
+  url: https://artifacts.apis.io/reonomy/openapi/reonomy-property-api-openapi.yml
 - filename: reonomy-search-api-openapi.yml
   format: yaml
   label: Reonomy Search API
   slug: reonomy-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/openapi/reonomy-search-api-openapi.yml
+  url: https://artifacts.apis.io/reonomy/openapi/reonomy-search-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/reonomy-property-api-openapi.yml, openapi/reonomy-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /property/{property_id}\n  method: get\n  operationId: getProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /property/bulk\n  method: post\n  operationId: getPropertiesBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /search/summaries\n  method: post\n  operationId: searchSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/property-shapes\n  method: post\n  operationId: searchPropertyShapes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resolve/property\n  method: post\n  operationId: resolveProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reonomy/refs/heads/main/agentic-access/reonomy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reonomy/agentic-access/reonomy-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Commercial Real Estate

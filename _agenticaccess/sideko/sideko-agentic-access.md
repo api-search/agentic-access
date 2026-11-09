@@ -9,49 +9,49 @@ api_specs:
   label: Sideko API Projects API
   slug: sideko-api-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-api-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-api-projects-api-openapi.yml
 - filename: sideko-api-versions-api-openapi.yml
   format: yaml
   label: Sideko API Versions API
   slug: sideko-api-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-api-versions-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-api-versions-api-openapi.yml
 - filename: sideko-authentication-api-openapi.yml
   format: yaml
   label: Sideko Authentication API
   slug: sideko-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-authentication-api-openapi.yml
 - filename: sideko-documentation-api-openapi.yml
   format: yaml
   label: Sideko Documentation API
   slug: sideko-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-documentation-api-openapi.yml
 - filename: sideko-linting-api-openapi.yml
   format: yaml
   label: Sideko Linting API
   slug: sideko-linting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-linting-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-linting-api-openapi.yml
 - filename: sideko-mcp-generation-api-openapi.yml
   format: yaml
   label: Sideko MCP Generation API
   slug: sideko-mcp-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-mcp-generation-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-mcp-generation-api-openapi.yml
 - filename: sideko-mock-servers-api-openapi.yml
   format: yaml
   label: Sideko Mock Servers API
   slug: sideko-mock-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-mock-servers-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-mock-servers-api-openapi.yml
 - filename: sideko-sdk-generation-api-openapi.yml
   format: yaml
   label: Sideko SDK Generation API
   slug: sideko-sdk-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/openapi/sideko-sdk-generation-api-openapi.yml
+  url: https://artifacts.apis.io/sideko/openapi/sideko-sdk-generation-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sideko
   \  method: get\n  operationId: listDocumentationSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-projects/{projectId}/docs\n  method: post\n  operationId: deployDocumentationSite\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-projects/{projectId}/mock-servers\n  method: get\n  operationId: listMockServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-projects/{projectId}/mock-servers\n  method: post\n  operationId: deployMockServer\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api-projects/{projectId}/mock-servers/{serverId}\n  method: delete\n  operationId: deleteMockServer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/api-keys\n  method: get\n  operationId: listApiKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/api-keys\n  method: post\n  operationId: createApiKey\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/api-keys/{keyId}\n  method: delete\n  operationId: deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sideko/refs/heads/main/agentic-access/sideko-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sideko/agentic-access/sideko-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - CLI

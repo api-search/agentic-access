@@ -9,19 +9,19 @@ api_specs:
   label: Microsoft Bicep Deployments API
   slug: microsoft-bicep-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-deployments-api-openapi.yml
 - filename: microsoft-bicep-template-spec-versions-api-openapi.yml
   format: yaml
   label: Microsoft Bicep Template Spec Versions API
   slug: microsoft-bicep-template-spec-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
 - filename: microsoft-bicep-template-specs-api-openapi.yml
   format: yaml
   label: Microsoft Bicep Template Specs API
   slug: microsoft-bicep-template-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-specs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-template-specs-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 9
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  method: get\n  operationId: TemplateSpecs_ListByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/providers/Microsoft.Resources/templateSpecs\n  method: get\n  operationId: TemplateSpecs_ListBySubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/templateSpecs/{templateSpecName}/versions/{templateSpecVersion}\n  method: put\n  operationId: TemplateSpecVersions_CreateOrUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/templateSpecs/{templateSpecName}/versions/{templateSpecVersion}\n  method: get\n  operationId: TemplateSpecVersions_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/templateSpecs/{templateSpecName}/versions/{templateSpecVersion}\n  method: delete\n  operationId: TemplateSpecVersions_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Resources/templateSpecs/{templateSpecName}/versions\n  method: get\n  operationId: TemplateSpecVersions_List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/agentic-access/microsoft-bicep-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bicep/agentic-access/microsoft-bicep-agentic-access.yml
 summary_line: 23 operations · 14 acting
 tags:
 - ArmTemplates

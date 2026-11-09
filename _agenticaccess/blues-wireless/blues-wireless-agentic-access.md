@@ -9,79 +9,79 @@ api_specs:
   label: Blues Alert API
   slug: blues-wireless-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-alert-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-alert-api-openapi.yml
 - filename: blues-wireless-authorization-api-openapi.yml
   format: yaml
   label: Blues Authorization API
   slug: blues-wireless-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-authorization-api-openapi.yml
 - filename: blues-wireless-billing-account-api-openapi.yml
   format: yaml
   label: Blues Billing Account API
   slug: blues-wireless-billing-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-billing-account-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-billing-account-api-openapi.yml
 - filename: blues-wireless-device-api-openapi.yml
   format: yaml
   label: Blues Device API
   slug: blues-wireless-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-device-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-device-api-openapi.yml
 - filename: blues-wireless-event-api-openapi.yml
   format: yaml
   label: Blues Event API
   slug: blues-wireless-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-event-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-event-api-openapi.yml
 - filename: blues-wireless-external-devices-api-openapi.yml
   format: yaml
   label: Blues external devices API
   slug: blues-wireless-external-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-external-devices-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-external-devices-api-openapi.yml
 - filename: blues-wireless-jobs-api-openapi.yml
   format: yaml
   label: Blues Jobs API
   slug: blues-wireless-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-jobs-api-openapi.yml
 - filename: blues-wireless-monitor-api-openapi.yml
   format: yaml
   label: Blues Monitor API
   slug: blues-wireless-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-monitor-api-openapi.yml
 - filename: blues-wireless-organization-api-openapi.yml
   format: yaml
   label: Blues Organization API
   slug: blues-wireless-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-organization-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-organization-api-openapi.yml
 - filename: blues-wireless-project-api-openapi.yml
   format: yaml
   label: Blues Project API
   slug: blues-wireless-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-project-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-project-api-openapi.yml
 - filename: blues-wireless-route-api-openapi.yml
   format: yaml
   label: Blues Route API
   slug: blues-wireless-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-route-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-route-api-openapi.yml
 - filename: blues-wireless-usage-api-openapi.yml
   format: yaml
   label: Blues Usage API
   slug: blues-wireless-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-usage-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-usage-api-openapi.yml
 - filename: blues-wireless-webhook-api-openapi.yml
   format: yaml
   label: Blues Webhook API
   slug: blues-wireless-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/openapi/blues-wireless-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/blues-wireless/openapi/blues-wireless-webhook-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 66
@@ -160,8 +160,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blues-
   \      - high-value\n    audit: required\n- path: /v1/projects/{projectOrProductUID}/jobs\n  method: get\n  operationId: GetJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/jobs\n  method: post\n  operationId: CreateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectOrProductUID}/jobs/{jobUID}\n  method: delete\n  operationId: DeleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/projects/{projectOrProductUID}/jobs/{jobUID}\n  method: get\n  operationId: GetJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/jobs/{jobUID}/run\n  method: post\n  operationId: RunJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectOrProductUID}/jobs/{jobUID}/runs\n  method: get\n  operationId: GetJobRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/jobs/runs/{reportUID}\n  method: delete\n  operationId: DeleteJobRun\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectOrProductUID}/jobs/runs/{reportUID}\n  method: get\n  operationId: GetJobRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/jobs/runs/{reportUID}/cancel\n  method: post\n  operationId: CancelJobRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectOrProductUID}/members\n  method: get\n  operationId:\
-  \ GetProjectMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/monitors\n  method: get\n  operationId: GetMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/monitors\n  method: post\n  operationId: CreateMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/agentic-access/blues-wireless-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blues-wireless/refs/heads/main/agentic-access/blues-wireless-agentic-access.yml
+  \ GetProjectMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/monitors\n  method: get\n  operationId: GetMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{projectOrProductUID}/monitors\n  method: post\n  operationId: CreateMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/blues-wireless/agentic-access/blues-wireless-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/blues-wireless/agentic-access/blues-wireless-agentic-access.yml
 summary_line: 128 operations · 62 acting · 2 human-in-the-loop
 tags:
 - IoT

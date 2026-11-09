@@ -9,43 +9,43 @@ api_specs:
   label: Meilisearch Documents API
   slug: meilisearch-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-documents-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-documents-api-openapi.yml
 - filename: meilisearch-health-api-openapi.yml
   format: yaml
   label: Meilisearch Health API
   slug: meilisearch-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-health-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-health-api-openapi.yml
 - filename: meilisearch-indexes-api-openapi.yml
   format: yaml
   label: Meilisearch Indexes API
   slug: meilisearch-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-indexes-api-openapi.yml
 - filename: meilisearch-keys-api-openapi.yml
   format: yaml
   label: Meilisearch Keys API
   slug: meilisearch-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-keys-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-keys-api-openapi.yml
 - filename: meilisearch-search-api-openapi.yml
   format: yaml
   label: Meilisearch Search API
   slug: meilisearch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-search-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-search-api-openapi.yml
 - filename: meilisearch-settings-api-openapi.yml
   format: yaml
   label: Meilisearch Settings API
   slug: meilisearch-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-settings-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-settings-api-openapi.yml
 - filename: meilisearch-tasks-api-openapi.yml
   format: yaml
   label: Meilisearch Tasks API
   slug: meilisearch-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/openapi/meilisearch-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/meilisearch/openapi/meilisearch-tasks-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/meilis
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{indexUid}/similar\n  method: post\n  operationId: postIndexesByIndexUidSimilar\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{indexUid}/settings\n  method: get\n  operationId: getIndexesByIndexUidSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{indexUid}/settings\n  method: patch\n  operationId: patchIndexesByIndexUidSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{indexUid}/settings\n  method: delete\n  operationId: deleteIndexesByIndexUidSettings\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tasks\n  method: get\n  operationId: getTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskUid}\n  method: get\n  operationId: getTasksByTaskUid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/cancel\n  method: post\n  operationId:\
   \ postTasksCancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/delete\n  method: post\n  operationId: postTasksDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meilisearch/refs/heads/main/agentic-access/meilisearch-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meilisearch/agentic-access/meilisearch-agentic-access.yml
 summary_line: 33 operations · 17 acting · 1 human-in-the-loop
 tags:
 - AI Search

@@ -9,103 +9,103 @@ api_specs:
   label: Infinite Audience A2A API
   slug: infiniteaudience-ai-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-a2a-api-openapi.yml
 - filename: infiniteaudience-ai-account-api-openapi.yml
   format: yaml
   label: Infinite Audience Account API
   slug: infiniteaudience-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-account-api-openapi.yml
 - filename: infiniteaudience-ai-audiences-api-openapi.yml
   format: yaml
   label: Infinite Audience Audiences API
   slug: infiniteaudience-ai-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-audiences-api-openapi.yml
 - filename: infiniteaudience-ai-auth-api-openapi.yml
   format: yaml
   label: Infinite Audience Auth API
   slug: infiniteaudience-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-auth-api-openapi.yml
 - filename: infiniteaudience-ai-campaigns-api-openapi.yml
   format: yaml
   label: Infinite Audience Campaigns API
   slug: infiniteaudience-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-campaigns-api-openapi.yml
 - filename: infiniteaudience-ai-deliveries-api-openapi.yml
   format: yaml
   label: Infinite Audience Deliveries API
   slug: infiniteaudience-ai-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-deliveries-api-openapi.yml
 - filename: infiniteaudience-ai-discovery-api-openapi.yml
   format: yaml
   label: Infinite Audience Discovery API
   slug: infiniteaudience-ai-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-discovery-api-openapi.yml
 - filename: infiniteaudience-ai-enrichment-api-openapi.yml
   format: yaml
   label: Infinite Audience Enrichment API
   slug: infiniteaudience-ai-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-enrichment-api-openapi.yml
 - filename: infiniteaudience-ai-integrations-api-openapi.yml
   format: yaml
   label: Infinite Audience Integrations API
   slug: infiniteaudience-ai-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-integrations-api-openapi.yml
 - filename: infiniteaudience-ai-mcp-api-openapi.yml
   format: yaml
   label: Infinite Audience MCP API
   slug: infiniteaudience-ai-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-mcp-api-openapi.yml
 - filename: infiniteaudience-ai-oauth-api-openapi.yml
   format: yaml
   label: Infinite Audience OAuth API
   slug: infiniteaudience-ai-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-oauth-api-openapi.yml
 - filename: infiniteaudience-ai-partnerships-api-openapi.yml
   format: yaml
   label: Infinite Audience Partnerships API
   slug: infiniteaudience-ai-partnerships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-partnerships-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-partnerships-api-openapi.yml
 - filename: infiniteaudience-ai-segments-api-openapi.yml
   format: yaml
   label: Infinite Audience Segments API
   slug: infiniteaudience-ai-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-segments-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-segments-api-openapi.yml
 - filename: infiniteaudience-ai-settings-api-openapi.yml
   format: yaml
   label: Infinite Audience Settings API
   slug: infiniteaudience-ai-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-settings-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-settings-api-openapi.yml
 - filename: infiniteaudience-ai-triggers-api-openapi.yml
   format: yaml
   label: Infinite Audience Triggers API
   slug: infiniteaudience-ai-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-triggers-api-openapi.yml
 - filename: infiniteaudience-ai-webhooks-api-openapi.yml
   format: yaml
   label: Infinite Audience Webhooks API
   slug: infiniteaudience-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-webhooks-api-openapi.yml
 - filename: infiniteaudience-ai-workflows-api-openapi.yml
   format: yaml
   label: Infinite Audience Workflows API
   slug: infiniteaudience-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/openapi/infiniteaudience-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-workflows-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 57
@@ -244,8 +244,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/infini
   \  method: get\n  operationId: getAccountBilling\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/auto-recharge\n  method: get\n  operationId: getAccountAutoRecharge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/auto-recharge\n  method: put\n  operationId: updateAccountAutoRecharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/credits\n  method: get\n  operationId: getAccountCredits\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/invoices\n  method: get\n  operationId: getAccountInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/payment-method/setup\n  method: post\n  operationId: createAccountPaymentMethodSetup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/topups\n  method: post\n  operationId: createAccountTopUp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/topups/{requestId}\n  method: get\n  operationId: getAccountTopUp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/topups/{requestId}/recheck\n  method: post\n  operationId: recheckAccountTopUp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/payment-method/portal\n  method: post\n  operationId: createAccountPaymentMethodPortal\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
-  \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/contract/change\n  method: post\n  operationId: changeAccountContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/contract/cancel\n  method: post\n  operationId: cancelAccountContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/agentic-access/infiniteaudience-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infiniteaudience-ai/refs/heads/main/agentic-access/infiniteaudience-ai-agentic-access.yml
+  \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/contract/change\n  method: post\n  operationId: changeAccountContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/contract/cancel\n  method: post\n  operationId: cancelAccountContract\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (38 KB total) ---\n# Full source: https://artifacts.apis.io/infiniteaudience-ai/agentic-access/infiniteaudience-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/infiniteaudience-ai/agentic-access/infiniteaudience-ai-agentic-access.yml
 summary_line: 131 operations · 74 acting · 8 human-in-the-loop
 tags:
 - Company

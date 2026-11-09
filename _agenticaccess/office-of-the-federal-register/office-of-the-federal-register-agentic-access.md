@@ -8,49 +8,49 @@ api_specs:
   label: Office of the Federal Register Agencies API
   slug: office-of-the-federal-register-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-agencies-api-openapi.yml
 - filename: office-of-the-federal-register-documents-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Documents API
   slug: office-of-the-federal-register-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-documents-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-documents-api-openapi.yml
 - filename: office-of-the-federal-register-documents-json-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Documents.json API
   slug: office-of-the-federal-register-documents-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-documents-json-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-documents-json-api-openapi.yml
 - filename: office-of-the-federal-register-images-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Images API
   slug: office-of-the-federal-register-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-images-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-images-api-openapi.yml
 - filename: office-of-the-federal-register-issues-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Issues API
   slug: office-of-the-federal-register-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-issues-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-issues-api-openapi.yml
 - filename: office-of-the-federal-register-public-inspection-documents-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Public Inspection Documents API
   slug: office-of-the-federal-register-public-inspection-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-public-inspection-documents-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-public-inspection-documents-api-openapi.yml
 - filename: office-of-the-federal-register-public-inspection-documents-json-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Public Inspection Documents.json API
   slug: office-of-the-federal-register-public-inspection-documents-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-public-inspection-documents-json-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-public-inspection-documents-json-api-openapi.yml
 - filename: office-of-the-federal-register-suggested-searches-api-openapi.yml
   format: yaml
   label: Office of the Federal Register Suggested Searches API
   slug: office-of-the-federal-register-suggested-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/openapi/office-of-the-federal-register-suggested-searches-api-openapi.yml
+  url: https://artifacts.apis.io/office-of-the-federal-register/openapi/office-of-the-federal-register-suggested-searches-api-openapi.yml
 consequence_counts:
   read: 13
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/office
   \  method: get\n  operationId: getDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/facets/{facet}\n  method: get\n  operationId: getDocumentFacets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /issues/{publication_date}.json\n  method: get\n  operationId: getIssue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-inspection-documents.json\n  method: get\n  operationId: searchPublicInspectionDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-inspection-documents/{document_number}.json\n  method: get\n  operationId: getPublicInspectionDocument\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public-inspection-documents/current.json\n  method: get\n  operationId: getCurrentPublicInspectionDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies\n  method: get\n  operationId: listAgencies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agencies/{slug}\n  method: get\n  operationId: getAgency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{identifier}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /suggested_searches\n  method: get\n  operationId: listSuggestedSearches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /suggested_searches/{slug}\n  method: get\n  operationId: getSuggestedSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/office-of-the-federal-register/refs/heads/main/agentic-access/office-of-the-federal-register-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/office-of-the-federal-register/agentic-access/office-of-the-federal-register-agentic-access.yml
 summary_line: 13 operations
 tags:
 - Federal Government

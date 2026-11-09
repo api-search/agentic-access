@@ -9,61 +9,61 @@ api_specs:
   label: Aladdin Studio Analytics API
   slug: aladdin-studio-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-analytics-api-openapi.yml
 - filename: aladdin-studio-connections-api-openapi.yml
   format: yaml
   label: Aladdin Studio Connections API
   slug: aladdin-studio-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-connections-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-connections-api-openapi.yml
 - filename: aladdin-studio-datasets-api-openapi.yml
   format: yaml
   label: Aladdin Studio Datasets API
   slug: aladdin-studio-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-datasets-api-openapi.yml
 - filename: aladdin-studio-orders-api-openapi.yml
   format: yaml
   label: Aladdin Studio Orders API
   slug: aladdin-studio-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-orders-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-orders-api-openapi.yml
 - filename: aladdin-studio-portfolios-api-openapi.yml
   format: yaml
   label: Aladdin Studio Portfolios API
   slug: aladdin-studio-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-portfolios-api-openapi.yml
 - filename: aladdin-studio-positions-api-openapi.yml
   format: yaml
   label: Aladdin Studio Positions API
   slug: aladdin-studio-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-positions-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-positions-api-openapi.yml
 - filename: aladdin-studio-queries-api-openapi.yml
   format: yaml
   label: Aladdin Studio Queries API
   slug: aladdin-studio-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-queries-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-queries-api-openapi.yml
 - filename: aladdin-studio-research-api-openapi.yml
   format: yaml
   label: Aladdin Studio Research API
   slug: aladdin-studio-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-research-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-research-api-openapi.yml
 - filename: aladdin-studio-risk-api-openapi.yml
   format: yaml
   label: Aladdin Studio Risk API
   slug: aladdin-studio-risk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-risk-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-risk-api-openapi.yml
 - filename: aladdin-studio-securities-api-openapi.yml
   format: yaml
   label: Aladdin Studio Securities API
   slug: aladdin-studio-securities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/openapi/aladdin-studio-securities-api-openapi.yml
+  url: https://artifacts.apis.io/aladdin-studio/openapi/aladdin-studio-securities-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 11
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aladdi
   \ executeQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connections/{connectionId}/datasets\n  method: get\n  operationId: listDatasets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios\n  method: get\n  operationId: listPortfolios\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}\n  method: get\n  operationId: getPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}/positions\n\
   \  method: get\n  operationId: getPortfolioPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}/risk\n  method: get\n  operationId: getPortfolioRisk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securities/{securityId}\n  method: get\n  operationId: getSecurity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /securities/{securityId}/research\n  method: get\n  operationId: getSecurityResearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolioId}/analytics\n  method: get\n  operationId: getPortfolioAnalytics\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aladdin-studio/refs/heads/main/agentic-access/aladdin-studio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aladdin-studio/agentic-access/aladdin-studio-agentic-access.yml
 summary_line: 13 operations · 2 acting
 tags:
 - Finance

@@ -9,79 +9,79 @@ api_specs:
   label: Apache Ignite Cluster Configuration API
   slug: apache-ignite-clusterconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clusterconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-clusterconfiguration-api-openapi.yml
 - filename: apache-ignite-clustermetric-api-openapi.yml
   format: yaml
   label: Apache Ignite Cluster Metric API
   slug: apache-ignite-clustermetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-clustermetric-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-clustermetric-api-openapi.yml
 - filename: apache-ignite-compute-api-openapi.yml
   format: yaml
   label: Apache Ignite Compute API
   slug: apache-ignite-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-compute-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-compute-api-openapi.yml
 - filename: apache-ignite-deployment-api-openapi.yml
   format: yaml
   label: Apache Ignite Deployment API
   slug: apache-ignite-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-deployment-api-openapi.yml
 - filename: apache-ignite-nodemanagement-api-openapi.yml
   format: yaml
   label: Apache Ignite Node Management API
   slug: apache-ignite-nodemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodemanagement-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-nodemanagement-api-openapi.yml
 - filename: apache-ignite-nodemetric-api-openapi.yml
   format: yaml
   label: Apache Ignite Node Metric API
   slug: apache-ignite-nodemetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-nodemetric-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-nodemetric-api-openapi.yml
 - filename: apache-ignite-recovery-api-openapi.yml
   format: yaml
   label: Apache Ignite Recovery API
   slug: apache-ignite-recovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-recovery-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-recovery-api-openapi.yml
 - filename: apache-ignite-sql-api-openapi.yml
   format: yaml
   label: Apache Ignite Sql API
   slug: apache-ignite-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-sql-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-sql-api-openapi.yml
 - filename: apache-ignite-system-api-openapi.yml
   format: yaml
   label: Apache Ignite System API
   slug: apache-ignite-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-system-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-system-api-openapi.yml
 - filename: apache-ignite-topology-api-openapi.yml
   format: yaml
   label: Apache Ignite Topology API
   slug: apache-ignite-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-topology-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-topology-api-openapi.yml
 - filename: apache-ignite-transactions-api-openapi.yml
   format: yaml
   label: Apache Ignite Transactions API
   slug: apache-ignite-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-transactions-api-openapi.yml
 - filename: apache-ignite-cluster-management-api-openapi.yml
   format: yaml
   label: Apache Ignite Cluster Management API
   slug: apache-ignite-cluster-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-cluster-management-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-cluster-management-api-openapi.yml
 - filename: apache-ignite-node-configuration-api-openapi.yml
   format: yaml
   label: Apache Ignite Node Configuration API
   slug: apache-ignite-node-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/openapi/apache-ignite-node-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ignite/openapi/apache-ignite-node-configuration-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 28
@@ -178,7 +178,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/recovery/zone/partitions/restartWithCleanup\n  method: post\n  operationId: restartZonePartitionsWithCleanup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /management/v1/recovery/zone/state/global\n  method: get\n  operationId: getZoneGlobalPartitionStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/recovery/zone/state/local\n  method: get\n  operationId: getZoneLocalPartitionStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/plan/clear-cache\n  method: get\n  operationId: clearCache\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries\n  method: get\n  operationId: queries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries/{queryId}\n  method: get\n  operationId: query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/sql/queries/{queryId}\n  method: delete\n  operationId: killQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /management/v1/transactions\n  method: get\n  operationId: transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/transactions/{transactionId}\n  method: get\n  operationId: transaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /management/v1/transactions/{transactionId}\n  method: delete\n  operationId: killTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-ignite/refs/heads/main/agentic-access/apache-ignite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-ignite/agentic-access/apache-ignite-agentic-access.yml
 summary_line: 50 operations · 22 acting · 7 human-in-the-loop
 tags:
 - Caching

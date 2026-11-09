@@ -9,43 +9,43 @@ api_specs:
   label: Limrun Analytics API
   slug: limrun-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-analytics-api-openapi.yml
 - filename: limrun-android-instances-api-openapi.yml
   format: yaml
   label: Limrun Android Instances API
   slug: limrun-android-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-android-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-android-instances-api-openapi.yml
 - filename: limrun-assets-api-openapi.yml
   format: yaml
   label: Limrun Assets API
   slug: limrun-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-assets-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-assets-api-openapi.yml
 - filename: limrun-downloads-api-openapi.yml
   format: yaml
   label: Limrun Downloads API
   slug: limrun-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-downloads-api-openapi.yml
 - filename: limrun-gradle-instances-api-openapi.yml
   format: yaml
   label: Limrun Gradle Instances API
   slug: limrun-gradle-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-gradle-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-gradle-instances-api-openapi.yml
 - filename: limrun-ios-instances-api-openapi.yml
   format: yaml
   label: Limrun Ios Instances API
   slug: limrun-ios-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-ios-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-ios-instances-api-openapi.yml
 - filename: limrun-xcode-instances-api-openapi.yml
   format: yaml
   label: Limrun Xcode Instances API
   slug: limrun-xcode-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/openapi/limrun-xcode-instances-api-openapi.yml
+  url: https://artifacts.apis.io/limrun/openapi/limrun-xcode-instances-api-openapi.yml
 consequence_counts:
   read: 15
   write: 11
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/limrun
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/gradle_instances\n  method: get\n  operationId: listGradleInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gradle_instances\n  method: post\n  operationId: createGradleInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/gradle_instances/{id}\n  method: get\n  operationId: getGradleInstance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gradle_instances/{id}\n  method: delete\n  operationId: deleteGradleInstance\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/xcode_instances/{id}/build_logs\n  method: get\n  operationId: listXcodeInstanceBuildLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/xcode_instances/{id}/bazel_build_logs\n  method: get\n  operationId: listBazelInstanceBuildLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/assets/{assetId}\n  method: get\n  operationId: getAsset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/assets/{assetId}\n\
   \  method: delete\n  operationId: deleteAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/assets\n  method: get\n  operationId: listAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/assets\n  method: put\n  operationId: putAsset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limrun/refs/heads/main/agentic-access/limrun-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/limrun/agentic-access/limrun-agentic-access.yml
 summary_line: 26 operations · 11 acting
 tags:
 - Company

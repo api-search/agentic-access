@@ -9,37 +9,37 @@ api_specs:
   label: UrbanFox Cases API
   slug: urbanfox-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-cases-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-cases-api-openapi.yml
 - filename: urbanfox-end-user-accounts-api-openapi.yml
   format: yaml
   label: UrbanFox End User Accounts API
   slug: urbanfox-end-user-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-end-user-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-end-user-accounts-api-openapi.yml
 - filename: urbanfox-metrics-api-openapi.yml
   format: yaml
   label: UrbanFox Metrics API
   slug: urbanfox-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-metrics-api-openapi.yml
 - filename: urbanfox-snippet-api-openapi.yml
   format: yaml
   label: UrbanFox Snippet API
   slug: urbanfox-snippet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-snippet-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-snippet-api-openapi.yml
 - filename: urbanfox-tenants-api-openapi.yml
   format: yaml
   label: UrbanFox Tenants API
   slug: urbanfox-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-tenants-api-openapi.yml
 - filename: urbanfox-oauth-api-openapi.yml
   format: yaml
   label: UrbanFox O Auth API
   slug: urbanfox-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/openapi/urbanfox-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/urbanfox/openapi/urbanfox-oauth-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/urbanf
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{tenant_slug}/enduseraccounts/{website_account_id}\n  method: delete\n  operationId: deleteEndUserAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - delete:enduseraccount\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{tenant_slug}/enduseraccounts\n  method: get\n  operationId: getEndUserAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:enduseraccounts\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{tenant_slug}/enduseraccounts\n  method: post\n  operationId: postEndUserAccount\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    scope:\n    - create:enduseraccount\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{tenant_slug}/metrics\n  method: get\n  operationId: getMetricsAggregate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:metrics\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{tenant_slug}/snippet\n  method: get\n  operationId: getSnippet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:snippet\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/oauth/token\n  method: post\n  operationId: postOAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urbanfox/refs/heads/main/agentic-access/urbanfox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/urbanfox/agentic-access/urbanfox-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Fraud Prevention

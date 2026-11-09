@@ -8,25 +8,25 @@ api_specs:
   label: PowerShell Metadata API
   slug: powershell-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-metadata-api-openapi.yml
 - filename: powershell-packages-api-openapi.yml
   format: yaml
   label: PowerShell Packages API
   slug: powershell-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-packages-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-packages-api-openapi.yml
 - filename: powershell-search-api-openapi.yml
   format: yaml
   label: PowerShell Search API
   slug: powershell-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-search-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-search-api-openapi.yml
 - filename: powershell-updates-api-openapi.yml
   format: yaml
   label: PowerShell Updates API
   slug: powershell-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/openapi/powershell-updates-api-openapi.yml
+  url: https://artifacts.apis.io/powershell/openapi/powershell-updates-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/powershell-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /$metadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Packages\n  method: get\n  operationId: listPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Packages(Id='{id}',Version='{version}')\n  method: get\n  operationId: getPackage\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Search()\n  method: get\n  operationId: searchPackages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /FindPackagesById()\n  method: get\n  operationId: findPackagesById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetUpdates()\n  method: get\n  operationId: getUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershell/refs/heads/main/agentic-access/powershell-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/powershell/agentic-access/powershell-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Automation

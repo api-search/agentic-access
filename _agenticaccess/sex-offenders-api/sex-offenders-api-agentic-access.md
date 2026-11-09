@@ -8,7 +8,7 @@ api_specs:
   label: Sex Offenders API Sex Offenders API
   slug: sex-offenders-api-sex-offenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/openapi/sex-offenders-api-sex-offenders-api-openapi.yml
+  url: https://artifacts.apis.io/sex-offenders-api/openapi/sex-offenders-api-sex-offenders-api-openapi.yml
 consequence_counts:
   read: 2
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -34,7 +34,7 @@ source_filename: sex-offenders-api-agentic-access.yml
 source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: generated\nsource: openapi/sex-offenders-api-sex-offenders-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 2\n  by_action_class:\n    connected: 2\n  by_consequence:\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /sex-offenders/records\n  method: get\n  operationId: getSexOffenderRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sex-offenders/location\n  method: get\n  operationId: getSexOffendersByLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/agentic-access/sex-offenders-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sex-offenders-api/agentic-access/sex-offenders-api-agentic-access.yml
 summary_line: 2 operations
 tags:
 - Sex Offenders

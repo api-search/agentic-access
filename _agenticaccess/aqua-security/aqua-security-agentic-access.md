@@ -9,37 +9,37 @@ api_specs:
   label: Aqua Security Authentication API
   slug: aqua-security-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-authentication-api-openapi.yml
 - filename: aqua-security-containers-api-openapi.yml
   format: yaml
   label: Aqua Security Containers API
   slug: aqua-security-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-containers-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-containers-api-openapi.yml
 - filename: aqua-security-images-api-openapi.yml
   format: yaml
   label: Aqua Security Images API
   slug: aqua-security-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-images-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-images-api-openapi.yml
 - filename: aqua-security-policies-api-openapi.yml
   format: yaml
   label: Aqua Security Policies API
   slug: aqua-security-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-policies-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-policies-api-openapi.yml
 - filename: aqua-security-registries-api-openapi.yml
   format: yaml
   label: Aqua Security Registries API
   slug: aqua-security-registries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-registries-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-registries-api-openapi.yml
 - filename: aqua-security-users-api-openapi.yml
   format: yaml
   label: Aqua Security Users API
   slug: aqua-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/openapi/aqua-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/aqua-security/openapi/aqua-security-users-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aqua-s
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images\n  method: post\n  operationId: registerImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/images/{registry}/{image_name}/{image_tag}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/images/{registry}/{image_name}/{image_tag}\n  method: delete\n  operationId: deleteImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /v1/containers\n  method: get\n  operationId: listContainers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/securitypolicies\n  method: get\n  operationId: listPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/securitypolicies\n  method: post\n  operationId: createPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/registries\n  method: get\n  operationId: listRegistries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/agentic-access/aqua-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aqua-security/agentic-access/aqua-security-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Cloud-Native

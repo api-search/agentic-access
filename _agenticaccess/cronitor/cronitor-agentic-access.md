@@ -9,97 +9,97 @@ api_specs:
   label: Cronitor Groups API
   slug: cronitor-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-groups-api-openapi.yml
 - filename: cronitor-notifications-api-openapi.yml
   format: yaml
   label: Cronitor Notifications API
   slug: cronitor-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-notifications-api-openapi.yml
 - filename: cronitor-aggregates-api-openapi.yml
   format: yaml
   label: Cronitor Aggregates API
   slug: cronitor-aggregates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-aggregates-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-aggregates-api-openapi.yml
 - filename: cronitor-environments-api-openapi.yml
   format: yaml
   label: Cronitor Environments API
   slug: cronitor-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-environments-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-environments-api-openapi.yml
 - filename: cronitor-integrations-api-openapi.yml
   format: yaml
   label: Cronitor Integrations API
   slug: cronitor-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-integrations-api-openapi.yml
 - filename: cronitor-issues-api-openapi.yml
   format: yaml
   label: Cronitor Issues API
   slug: cronitor-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-issues-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-issues-api-openapi.yml
 - filename: cronitor-keys-api-openapi.yml
   format: yaml
   label: Cronitor Keys API
   slug: cronitor-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-keys-api-openapi.yml
 - filename: cronitor-maintenance-windows-api-openapi.yml
   format: yaml
   label: Cronitor Maintenance Windows API
   slug: cronitor-maintenance-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-maintenance-windows-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-maintenance-windows-api-openapi.yml
 - filename: cronitor-metrics-api-openapi.yml
   format: yaml
   label: Cronitor Metrics API
   slug: cronitor-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-metrics-api-openapi.yml
 - filename: cronitor-monitors-api-openapi.yml
   format: yaml
   label: Cronitor Monitors API
   slug: cronitor-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-monitors-api-openapi.yml
 - filename: cronitor-search-api-openapi.yml
   format: yaml
   label: Cronitor Search API
   slug: cronitor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-search-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-search-api-openapi.yml
 - filename: cronitor-site-errors-api-openapi.yml
   format: yaml
   label: Cronitor Site Errors API
   slug: cronitor-site-errors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-site-errors-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-site-errors-api-openapi.yml
 - filename: cronitor-sites-api-openapi.yml
   format: yaml
   label: Cronitor Sites API
   slug: cronitor-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-sites-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-sites-api-openapi.yml
 - filename: cronitor-statuspage-components-api-openapi.yml
   format: yaml
   label: Cronitor Statuspage Components API
   slug: cronitor-statuspage-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-statuspage-components-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-statuspage-components-api-openapi.yml
 - filename: cronitor-statuspages-api-openapi.yml
   format: yaml
   label: Cronitor Statuspages API
   slug: cronitor-statuspages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-statuspages-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-statuspages-api-openapi.yml
 - filename: cronitor-telemetry-api-openapi.yml
   format: yaml
   label: Cronitor Telemetry API
   slug: cronitor-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/openapi/cronitor-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cronitor/openapi/cronitor-telemetry-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cronit
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/monitors/{monitorKey}\n  method: get\n  operationId: getMonitor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/monitors/{monitorKey}\n  method: delete\n  operationId: deleteMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/monitors/{monitorKey}/pause/{hours}\n  method: get\n  operationId: pauseMonitor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/monitors/clone\n\
   \  method: post\n  operationId: cloneMonitor\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/search\n  method: get\n  operationId: searchMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /p/{apiKey}/{monitorKey}\n  method: get\n  operationId: sendTelemetryEventGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /p/{apiKey}/{monitorKey}\n  method: post\n  operationId: sendTelemetryEventPost\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /p/{apiKey}/{monitorKey}\n  method: head\n  operationId: sendTelemetryEventHead\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{monitorKey}\n  method: get\n  operationId: sendAnonymousTelemetryEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cronitor/refs/heads/main/agentic-access/cronitor-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cronitor/agentic-access/cronitor-agentic-access.yml
 summary_line: 24 operations · 12 acting
 tags:
 - Monitoring

@@ -9,43 +9,43 @@ api_specs:
   label: Baremetrics Annotations API
   slug: baremetrics-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-annotations-api-openapi.yml
 - filename: baremetrics-charges-api-openapi.yml
   format: yaml
   label: Baremetrics Charges API
   slug: baremetrics-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-charges-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-charges-api-openapi.yml
 - filename: baremetrics-customers-api-openapi.yml
   format: yaml
   label: Baremetrics Customers API
   slug: baremetrics-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-customers-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-customers-api-openapi.yml
 - filename: baremetrics-events-api-openapi.yml
   format: yaml
   label: Baremetrics Events API
   slug: baremetrics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-events-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-events-api-openapi.yml
 - filename: baremetrics-metrics-api-openapi.yml
   format: yaml
   label: Baremetrics Metrics API
   slug: baremetrics-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-metrics-api-openapi.yml
 - filename: baremetrics-plans-api-openapi.yml
   format: yaml
   label: Baremetrics Plans API
   slug: baremetrics-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-plans-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-plans-api-openapi.yml
 - filename: baremetrics-subscriptions-api-openapi.yml
   format: yaml
   label: Baremetrics Subscriptions API
   slug: baremetrics-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/openapi/baremetrics-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/baremetrics/openapi/baremetrics-subscriptions-api-openapi.yml
 consequence_counts:
   read: 12
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bareme
   \  method: get\n  operationId: list-customers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{source_id}/customers/{oid}\n  method: get\n  operationId: show-customer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{source_id}/subscriptions\n  method: get\n  operationId: list-subscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{source_id}/subscriptions/{oid}\n  method: get\n  operationId: show-subscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{source_id}/events\n  method: get\n  operationId: list-events\n  x-agentic-access:\n   \
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metrics/{metric}\n  method: get\n  operationId: show-metric\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{source_id}/plans\n  method: get\n  operationId: list-plans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/{source_id}/plans/{oid}\n  method: get\n  operationId: show-plan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/annotations\n  method: get\n  operationId: list-annotations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /v1/annotations\n  method: post\n  operationId: create-annotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/annotations/{id}\n  method: get\n  operationId: show-annotation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/annotations/{id}\n  method: delete\n  operationId: delete-annotation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baremetrics/refs/heads/main/agentic-access/baremetrics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/baremetrics/agentic-access/baremetrics-agentic-access.yml
 summary_line: 14 operations · 2 acting
 tags:
 - Subscription Analytics

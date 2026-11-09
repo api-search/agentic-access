@@ -8,25 +8,25 @@ api_specs:
   label: Karumi Analytics API
   slug: karumi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-analytics-api-openapi.yml
 - filename: karumi-sessions-api-openapi.yml
   format: yaml
   label: Karumi Sessions API
   slug: karumi-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-sessions-api-openapi.yml
 - filename: karumi-targets-api-openapi.yml
   format: yaml
   label: Karumi Targets API
   slug: karumi-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-targets-api-openapi.yml
 - filename: karumi-chat-onboarding-api-openapi.yml
   format: yaml
   label: Karumi Chat onboarding API
   slug: karumi-chat-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-chat-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-chat-onboarding-api-openapi.yml
 consequence_counts:
   read: 9
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/karumi-public-api-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 9\n  by_consequence:\n    read: 9\n  human_in_the_loop_required: 0\noperations:\n- path: /sessions\n  method: get\n  operationId: list_sessions_sessions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/meeting-events\n  method: get\n  operationId: list_meeting_events_sessions_meeting_events_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}\n\
   \  method: get\n  operationId: get_session_sessions__session_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/insights\n  method: get\n  operationId: get_session_insights_sessions__session_id__insights_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/recording\n  method: get\n  operationId: download_session_recording_sessions__session_id__recording_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics\n  method: get\n  operationId: get_analytics_analytics_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /analytics/timeline\n  method: get\n  operationId: get_analytics_timeline_analytics_timeline_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /targets\n  method: get\n  operationId: list_targets_targets_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /targets/{target_id}\n  method: get\n  operationId: get_target_targets__target_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/agentic-access/karumi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/karumi/agentic-access/karumi-agentic-access.yml
 summary_line: 9 operations
 tags:
 - Company

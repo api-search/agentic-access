@@ -9,43 +9,43 @@ api_specs:
   label: Copper Activities API
   slug: copper-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-activities-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-activities-api-openapi.yml
 - filename: copper-companies-api-openapi.yml
   format: yaml
   label: Copper Companies API
   slug: copper-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-companies-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-companies-api-openapi.yml
 - filename: copper-leads-api-openapi.yml
   format: yaml
   label: Copper Leads API
   slug: copper-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-leads-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-leads-api-openapi.yml
 - filename: copper-opportunities-api-openapi.yml
   format: yaml
   label: Copper Opportunities API
   slug: copper-opportunities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-opportunities-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-opportunities-api-openapi.yml
 - filename: copper-people-api-openapi.yml
   format: yaml
   label: Copper People API
   slug: copper-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-people-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-people-api-openapi.yml
 - filename: copper-tasks-api-openapi.yml
   format: yaml
   label: Copper Tasks API
   slug: copper-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-tasks-api-openapi.yml
 - filename: copper-webhooks-api-openapi.yml
   format: yaml
   label: Copper Webhooks API
   slug: copper-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/openapi/copper-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/copper/openapi/copper-webhooks-api-openapi.yml
 consequence_counts:
   read: 12
   write: 19
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/copper
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /people/{id}\n  method: delete\n  operationId: deletePerson\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/search\n  method: post\n  operationId: searchTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{id}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{id}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/agentic-access/copper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/copper/agentic-access/copper-agentic-access.yml
 summary_line: 31 operations · 19 acting
 tags:
 - Activities

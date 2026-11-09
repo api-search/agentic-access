@@ -9,37 +9,37 @@ api_specs:
   label: Lamini Embeddings API
   slug: lamini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-embeddings-api-openapi.yml
 - filename: lamini-classifier-api-openapi.yml
   format: yaml
   label: Lamini Classifier API
   slug: lamini-classifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-classifier-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-classifier-api-openapi.yml
 - filename: lamini-completions-api-openapi.yml
   format: yaml
   label: Lamini Completions API
   slug: lamini-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-completions-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-completions-api-openapi.yml
 - filename: lamini-memory-rag-api-openapi.yml
   format: yaml
   label: Lamini memory rag API
   slug: lamini-memory-rag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-memory-rag-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-memory-rag-api-openapi.yml
 - filename: lamini-model-management-api-openapi.yml
   format: yaml
   label: Lamini model management API
   slug: lamini-model-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-model-management-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-model-management-api-openapi.yml
 - filename: lamini-train-api-openapi.yml
   format: yaml
   label: Lamini Train API
   slug: lamini-train-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/openapi/lamini-train-api-openapi.yml
+  url: https://artifacts.apis.io/lamini/openapi/lamini-train-api-openapi.yml
 consequence_counts:
   read: 3
   write: 9
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lamini
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/train/jobs/{job_id}\n  method: get\n  operationId: getTrainingJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/train/jobs/{job_id}/cancel\n  method: post\n  operationId: cancelTrainingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/train/jobs/{job_id}/resume\n  method: post\n  operationId: resumeTrainingJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/train/jobs/cancel\n  method: post\n  operationId: cancelAllTrainingJobs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/classifier/{model_id}/classification\n  method: post\n  operationId: classify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/classifier/{model_id}/prediction\n  method: post\n  operationId: predict\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lamini/refs/heads/main/agentic-access/lamini-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lamini/agentic-access/lamini-agentic-access.yml
 summary_line: 12 operations · 9 acting
 tags:
 - Artificial Intelligence

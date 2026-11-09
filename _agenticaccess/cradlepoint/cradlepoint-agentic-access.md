@@ -9,55 +9,55 @@ api_specs:
   label: Cradlepoint Accounts API
   slug: cradlepoint-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-accounts-api-openapi.yml
 - filename: cradlepoint-alertpushdestinations-api-openapi.yml
   format: yaml
   label: Cradlepoint AlertPushDestinations API
   slug: cradlepoint-alertpushdestinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alertpushdestinations-api-openapi.yml
 - filename: cradlepoint-alerts-api-openapi.yml
   format: yaml
   label: Cradlepoint Alerts API
   slug: cradlepoint-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alerts-api-openapi.yml
 - filename: cradlepoint-groups-api-openapi.yml
   format: yaml
   label: Cradlepoint Groups API
   slug: cradlepoint-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-groups-api-openapi.yml
 - filename: cradlepoint-locations-api-openapi.yml
   format: yaml
   label: Cradlepoint Locations API
   slug: cradlepoint-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-locations-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-locations-api-openapi.yml
 - filename: cradlepoint-netdevices-api-openapi.yml
   format: yaml
   label: Cradlepoint NetDevices API
   slug: cradlepoint-netdevices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-netdevices-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-netdevices-api-openapi.yml
 - filename: cradlepoint-routers-api-openapi.yml
   format: yaml
   label: Cradlepoint Routers API
   slug: cradlepoint-routers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-routers-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-routers-api-openapi.yml
 - filename: cradlepoint-activity-logs-api-openapi.yml
   format: yaml
   label: Cradlepoint Activity Logs API
   slug: cradlepoint-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-activity-logs-api-openapi.yml
 - filename: cradlepoint-alert-rules-api-openapi.yml
   format: yaml
   label: Cradlepoint Alert Rules API
   slug: cradlepoint-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/openapi/cradlepoint-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/cradlepoint/openapi/cradlepoint-alert-rules-api-openapi.yml
 consequence_counts:
   read: 11
   write: 3
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cradle
   \  method: get\n  operationId: listActivityLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alerts/\n  method: get\n  operationId: listAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alert_rules/\n  method: get\n  operationId: listAlertRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alert_rules/\n  method: post\n  operationId: createAlertRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /alert_push_destinations/\n\
   \  method: get\n  operationId: listAlertPushDestinations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alert_push_destinations/\n  method: post\n  operationId: createAlertPushDestination\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routers/\n  method: get\n  operationId: listRouters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routers/{id}/\n\
   \  method: get\n  operationId: getRouter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /routers/{id}/\n  method: patch\n  operationId: updateRouter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /net_devices/\n  method: get\n  operationId: listNetDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historical_locations/\n  method: get\n  operationId: listHistoricalLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cradlepoint/refs/heads/main/agentic-access/cradlepoint-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cradlepoint/agentic-access/cradlepoint-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Wireless WAN

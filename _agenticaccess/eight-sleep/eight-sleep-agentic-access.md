@@ -9,43 +9,43 @@ api_specs:
   label: Eight Sleep Alarms API
   slug: eight-sleep-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-alarms-api-openapi.yml
 - filename: eight-sleep-authentication-api-openapi.yml
   format: yaml
   label: Eight Sleep Authentication API
   slug: eight-sleep-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-authentication-api-openapi.yml
 - filename: eight-sleep-base-api-openapi.yml
   format: yaml
   label: Eight Sleep Base API
   slug: eight-sleep-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-base-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-base-api-openapi.yml
 - filename: eight-sleep-device-api-openapi.yml
   format: yaml
   label: Eight Sleep Device API
   slug: eight-sleep-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-device-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-device-api-openapi.yml
 - filename: eight-sleep-temperature-api-openapi.yml
   format: yaml
   label: Eight Sleep Temperature API
   slug: eight-sleep-temperature-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-temperature-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-temperature-api-openapi.yml
 - filename: eight-sleep-trends-api-openapi.yml
   format: yaml
   label: Eight Sleep Trends API
   slug: eight-sleep-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-trends-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-trends-api-openapi.yml
 - filename: eight-sleep-user-api-openapi.yml
   format: yaml
   label: Eight Sleep User API
   slug: eight-sleep-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/openapi/eight-sleep-user-api-openapi.yml
+  url: https://artifacts.apis.io/eight-sleep/openapi/eight-sleep-user-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eight-
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/away-mode\n  method: put\n  operationId: setAwayMode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/trends\n  method: get\n  operationId: getTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/base\n  method: get\n  operationId: getBase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/base/angle\n  method: post\n  operationId:\
   \ setBaseAngle\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/users/{userId}/alarms\n  method: get\n  operationId: getAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}/alarms/{alarmId}\n  method: put\n  operationId: updateAlarm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/{userId}/routines\n  method: get\n  operationId: getRoutines\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eight-sleep/refs/heads/main/agentic-access/eight-sleep-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/eight-sleep/agentic-access/eight-sleep-agentic-access.yml
 summary_line: 13 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Sleep

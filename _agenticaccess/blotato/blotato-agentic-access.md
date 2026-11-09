@@ -9,25 +9,67 @@ api_specs:
   label: Blotato Accounts API
   slug: blotato-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-accounts-api-openapi.yml
 - filename: blotato-media-api-openapi.yml
   format: yaml
   label: Blotato Media API
   slug: blotato-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-media-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-media-api-openapi.yml
 - filename: blotato-posts-api-openapi.yml
   format: yaml
   label: Blotato Posts API
   slug: blotato-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-posts-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-posts-api-openapi.yml
 - filename: blotato-visuals-api-openapi.yml
   format: yaml
   label: Blotato Visuals API
   slug: blotato-visuals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/openapi/blotato-visuals-api-openapi.yml
+  url: https://artifacts.apis.io/blotato/openapi/blotato-visuals-api-openapi.yml
+- filename: blotato-analytics-api-openapi.yml
+  format: yaml
+  label: Blotato Analytics API
+  slug: blotato-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-analytics-api-openapi.yml
+- filename: blotato-automations-api-openapi.yml
+  format: yaml
+  label: Blotato Automations API
+  slug: blotato-automations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-automations-api-openapi.yml
+- filename: blotato-billing-api-openapi.yml
+  format: yaml
+  label: Blotato Billing API
+  slug: blotato-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-billing-api-openapi.yml
+- filename: blotato-comments-api-openapi.yml
+  format: yaml
+  label: Blotato Comments API
+  slug: blotato-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-comments-api-openapi.yml
+- filename: blotato-messaging-api-openapi.yml
+  format: yaml
+  label: Blotato Messaging API
+  slug: blotato-messaging-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-messaging-api-openapi.yml
+- filename: blotato-publishing-api-openapi.yml
+  format: yaml
+  label: Blotato Publishing API
+  slug: blotato-publishing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-publishing-api-openapi.yml
+- filename: blotato-video-api-openapi.yml
+  format: yaml
+  label: Blotato Video API
+  slug: blotato-video-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-video-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -57,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blotat
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /posts/{postSubmissionId}\n  method: get\n  operationId: getPostStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me/accounts/{accountId}/subaccounts\n  method: get\n  operationId: listSubaccounts\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /social/pinterest/boards\n  method: get\n  operationId: listPinterestBoards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/templates\n  method: get\n  operationId: listVisualTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /videos/from-templates\n  method: post\n  operationId: createVisual\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos/creations/{id}\n  method: get\n  operationId: getVisualStatus\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/agentic-access/blotato-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blotato/agentic-access/blotato-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Social Media

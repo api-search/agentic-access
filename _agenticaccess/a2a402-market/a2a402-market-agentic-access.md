@@ -9,73 +9,73 @@ api_specs:
   label: A2A402 Agents API
   slug: a2a402-market-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-agents-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-agents-api-openapi.yml
 - filename: a2a402-market-bids-api-openapi.yml
   format: yaml
   label: A2A402 Bids API
   slug: a2a402-market-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-bids-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-bids-api-openapi.yml
 - filename: a2a402-market-contracts-api-openapi.yml
   format: yaml
   label: A2A402 Contracts API
   slug: a2a402-market-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-contracts-api-openapi.yml
 - filename: a2a402-market-deliveries-api-openapi.yml
   format: yaml
   label: A2A402 Deliveries API
   slug: a2a402-market-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-deliveries-api-openapi.yml
 - filename: a2a402-market-economy-api-openapi.yml
   format: yaml
   label: A2A402 Economy API
   slug: a2a402-market-economy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-economy-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-economy-api-openapi.yml
 - filename: a2a402-market-health-api-openapi.yml
   format: yaml
   label: A2A402 Health API
   slug: a2a402-market-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-health-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-health-api-openapi.yml
 - filename: a2a402-market-human-api-openapi.yml
   format: yaml
   label: A2A402 Human API
   slug: a2a402-market-human-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-human-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-human-api-openapi.yml
 - filename: a2a402-market-jobs-api-openapi.yml
   format: yaml
   label: A2A402 Jobs API
   slug: a2a402-market-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-jobs-api-openapi.yml
 - filename: a2a402-market-lounge-api-openapi.yml
   format: yaml
   label: A2A402 Lounge API
   slug: a2a402-market-lounge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-lounge-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-lounge-api-openapi.yml
 - filename: a2a402-market-need-api-openapi.yml
   format: yaml
   label: A2A402 Need API
   slug: a2a402-market-need-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-need-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-need-api-openapi.yml
 - filename: a2a402-market-payments-api-openapi.yml
   format: yaml
   label: A2A402 Payments API
   slug: a2a402-market-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-payments-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-payments-api-openapi.yml
 - filename: a2a402-market-reputation-api-openapi.yml
   format: yaml
   label: A2A402 Reputation API
   slug: a2a402-market-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/openapi/a2a402-market-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/a2a402-market/openapi/a2a402-market-reputation-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 13
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/a2a402
   \ none\n- path: /economy/activity\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /economy/graph\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lounge/messages\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lounge/messages\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /need\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human/auth/signup\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human/auth/login\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human/auth/logout\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /human/agents/link\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /human/agents/{agentId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/a2a402-market/refs/heads/main/agentic-access/a2a402-market-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/a2a402-market/agentic-access/a2a402-market-agentic-access.yml
 summary_line: 34 operations · 21 acting
 tags:
 - Company

@@ -9,37 +9,37 @@ api_specs:
   label: Pandium Connector Calls API
   slug: pandium-connector-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-connector-calls-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-connector-calls-api-openapi.yml
 - filename: pandium-integrations-api-openapi.yml
   format: yaml
   label: Pandium Integrations API
   slug: pandium-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-integrations-api-openapi.yml
 - filename: pandium-runs-api-openapi.yml
   format: yaml
   label: Pandium Runs API
   slug: pandium-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-runs-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-runs-api-openapi.yml
 - filename: pandium-tenant-metadata-api-openapi.yml
   format: yaml
   label: Pandium Tenant Metadata API
   slug: pandium-tenant-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-tenant-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-tenant-metadata-api-openapi.yml
 - filename: pandium-tenants-api-openapi.yml
   format: yaml
   label: Pandium Tenants API
   slug: pandium-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-tenants-api-openapi.yml
 - filename: pandium-builds-api-openapi.yml
   format: yaml
   label: Pandium Builds API
   slug: pandium-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/openapi/pandium-builds-api-openapi.yml
+  url: https://artifacts.apis.io/pandium/openapi/pandium-builds-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 1
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/pandiu
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tenants/{tenant_id}/connectors/{connector_name}/soap\n  method: post\n  operationId: proxy_connector_call_soap_v2_tenants__tenant_id__connectors__connector_name__soap_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tenants/{tenant_id}/connectors/{connector_name}/xml\n  method: post\n  operationId: proxy_connector_call_xml_v2_tenants__tenant_id__connectors__connector_name__xml_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tenants/{tenant_id}/metadata\n  method: get\n  operationId: get_metadata_v2_tenants__tenant_id__metadata_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tenants/{tenant_id}/metadata\n  method: patch\n  operationId: patch_metadata_v2_tenants__tenant_id__metadata_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/tenants/{tenant_id}/runs\n  method: get\n  operationId: get_tenant_runs_v2_tenants__tenant_id__runs_get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/tenants/{tenant_id}/sync\n  method: post\n  operationId: sync_by_tenant_id_v2_tenants__tenant_id__sync_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pandium/refs/heads/main/agentic-access/pandium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pandium/agentic-access/pandium-agentic-access.yml
 summary_line: 29 operations · 14 acting · 1 human-in-the-loop
 tags:
 - B2B

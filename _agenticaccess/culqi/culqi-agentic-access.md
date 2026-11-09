@@ -9,73 +9,73 @@ api_specs:
   label: Culqi Cards API
   slug: culqi-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-cards-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-cards-api-openapi.yml
 - filename: culqi-charges-api-openapi.yml
   format: yaml
   label: Culqi Charges API
   slug: culqi-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-charges-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-charges-api-openapi.yml
 - filename: culqi-customers-api-openapi.yml
   format: yaml
   label: Culqi Customers API
   slug: culqi-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-customers-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-customers-api-openapi.yml
 - filename: culqi-events-api-openapi.yml
   format: yaml
   label: Culqi Events API
   slug: culqi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-events-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-events-api-openapi.yml
 - filename: culqi-iins-api-openapi.yml
   format: yaml
   label: Culqi Iins API
   slug: culqi-iins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-iins-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-iins-api-openapi.yml
 - filename: culqi-orders-api-openapi.yml
   format: yaml
   label: Culqi Orders API
   slug: culqi-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-orders-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-orders-api-openapi.yml
 - filename: culqi-plans-api-openapi.yml
   format: yaml
   label: Culqi Plans API
   slug: culqi-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-plans-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-plans-api-openapi.yml
 - filename: culqi-refunds-api-openapi.yml
   format: yaml
   label: Culqi Refunds API
   slug: culqi-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-refunds-api-openapi.yml
 - filename: culqi-subscriptions-api-openapi.yml
   format: yaml
   label: Culqi Subscriptions API
   slug: culqi-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-subscriptions-api-openapi.yml
 - filename: culqi-tokens-api-openapi.yml
   format: yaml
   label: Culqi Tokens API
   slug: culqi-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-tokens-api-openapi.yml
 - filename: culqi-transfers-api-openapi.yml
   format: yaml
   label: Culqi Transfers API
   slug: culqi-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-transfers-api-openapi.yml
 - filename: culqi-3-ds-api-openapi.yml
   format: yaml
   label: Culqi 3 DS API
   slug: culqi-3-ds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/openapi/culqi-3-ds-api-openapi.yml
+  url: https://artifacts.apis.io/culqi/openapi/culqi-3-ds-api-openapi.yml
 consequence_counts:
   read: 21
   write: 25
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/culqi-
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - money-movement\n      - high-value\n      - abnormal\n    audit: required\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: get\n  operationId: getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: patch\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{id}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n \
   \ operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iins/{iin}\n  method: get\n  operationId: getIin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers\n  method: get\n  operationId: listTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/{id}\n  method: get\n  operationId: getTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/agentic-access/culqi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/culqi/agentic-access/culqi-agentic-access.yml
 summary_line: 46 operations · 25 acting · 7 human-in-the-loop
 tags:
 - Payments

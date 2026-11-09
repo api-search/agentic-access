@@ -9,115 +9,115 @@ api_specs:
   label: BlindInsight Accounts API
   slug: blindinsight-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-accounts-api-openapi.yml
 - filename: blindinsight-blindllm-api-openapi.yml
   format: yaml
   label: BlindInsight Blindllm API
   slug: blindinsight-blindllm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-blindllm-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-blindllm-api-openapi.yml
 - filename: blindinsight-blindllm-queries-api-openapi.yml
   format: yaml
   label: BlindInsight Blindllm Queries API
   slug: blindinsight-blindllm-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-blindllm-queries-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-blindllm-queries-api-openapi.yml
 - filename: blindinsight-csrf-api-openapi.yml
   format: yaml
   label: BlindInsight Csrf API
   slug: blindinsight-csrf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-csrf-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-csrf-api-openapi.yml
 - filename: blindinsight-datasets-api-openapi.yml
   format: yaml
   label: BlindInsight Datasets API
   slug: blindinsight-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-datasets-api-openapi.yml
 - filename: blindinsight-delete-jobs-api-openapi.yml
   format: yaml
   label: BlindInsight Delete Jobs API
   slug: blindinsight-delete-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-delete-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-delete-jobs-api-openapi.yml
 - filename: blindinsight-files-api-openapi.yml
   format: yaml
   label: BlindInsight Files API
   slug: blindinsight-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-files-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-files-api-openapi.yml
 - filename: blindinsight-grants-api-openapi.yml
   format: yaml
   label: BlindInsight Grants API
   slug: blindinsight-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-grants-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-grants-api-openapi.yml
 - filename: blindinsight-identities-api-openapi.yml
   format: yaml
   label: BlindInsight Identities API
   slug: blindinsight-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-identities-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-identities-api-openapi.yml
 - filename: blindinsight-jobs-api-openapi.yml
   format: yaml
   label: BlindInsight Jobs API
   slug: blindinsight-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-jobs-api-openapi.yml
 - filename: blindinsight-materials-api-openapi.yml
   format: yaml
   label: BlindInsight Materials API
   slug: blindinsight-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-materials-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-materials-api-openapi.yml
 - filename: blindinsight-organizations-api-openapi.yml
   format: yaml
   label: BlindInsight Organizations API
   slug: blindinsight-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-organizations-api-openapi.yml
 - filename: blindinsight-records-api-openapi.yml
   format: yaml
   label: BlindInsight Records API
   slug: blindinsight-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-records-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-records-api-openapi.yml
 - filename: blindinsight-requests-api-openapi.yml
   format: yaml
   label: BlindInsight Requests API
   slug: blindinsight-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-requests-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-requests-api-openapi.yml
 - filename: blindinsight-schemas-api-openapi.yml
   format: yaml
   label: BlindInsight Schemas API
   slug: blindinsight-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-schemas-api-openapi.yml
 - filename: blindinsight-status-api-openapi.yml
   format: yaml
   label: BlindInsight Status API
   slug: blindinsight-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-status-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-status-api-openapi.yml
 - filename: blindinsight-token-api-openapi.yml
   format: yaml
   label: BlindInsight Token API
   slug: blindinsight-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-token-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-token-api-openapi.yml
 - filename: blindinsight-users-api-openapi.yml
   format: yaml
   label: BlindInsight Users API
   slug: blindinsight-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-users-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-users-api-openapi.yml
 - filename: blindinsight-ws-api-openapi.yml
   format: yaml
   label: BlindInsight Ws API
   slug: blindinsight-ws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/openapi/blindinsight-ws-api-openapi.yml
+  url: https://artifacts.apis.io/blindinsight/openapi/blindinsight-ws-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 45
@@ -212,8 +212,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/blindi
   \ required\n- path: /api/records/{id}/\n  method: get\n  operationId: records_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/records/{id}/\n  method: put\n  operationId: records_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/records/{id}/\n  method: patch\n  operationId: records_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/records/{id}/\n  method: delete\n  operationId:\
   \ records_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/records/decrypt/\n  method: post\n  operationId: records_decrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/records/ingest/\n  method: post\n  operationId: records_ingest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/records/search/\n  method: post\n  operationId: records_search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/requests/\n  method: get\n  operationId: requests_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/requests/\n  method: post\n  operationId: requests_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/requests/{id}/\n  method: get\n  operationId: requests_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
-  \ none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/agentic-access/blindinsight-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blindinsight/refs/heads/main/agentic-access/blindinsight-agentic-access.yml
+  \ none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/blindinsight/agentic-access/blindinsight-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/blindinsight/agentic-access/blindinsight-agentic-access.yml
 summary_line: 127 operations · 82 acting · 4 human-in-the-loop
 tags:
 - Company

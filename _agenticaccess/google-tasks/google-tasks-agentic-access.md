@@ -9,13 +9,13 @@ api_specs:
   label: Google Tasks Lists API
   slug: google-tasks-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-lists-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-lists-api-openapi.yml
 - filename: google-tasks-users-api-openapi.yml
   format: yaml
   label: Google Tasks Users API
   slug: google-tasks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/openapi/google-tasks-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tasks.
   \    audit: required\n- path: /users/@me/lists/{taskListId}\n  method: delete\n  operationId: deleteTaskList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{taskListId}/tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{taskListId}/tasks\n  method: post\n  operationId: insertTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{taskListId}/tasks/{taskId}\n\
   \  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lists/{taskListId}/tasks/{taskId}\n  method: put\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{taskListId}/tasks/{taskId}\n  method: delete\n  operationId: deleteTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{taskListId}/tasks/{taskId}/move\n  method: post\n  operationId: moveTask\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lists/{taskListId}/clear\n  method: post\n  operationId: clearTasks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/agentic-access/google-tasks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-tasks/agentic-access/google-tasks-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - Google

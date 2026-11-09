@@ -9,31 +9,31 @@ api_specs:
   label: Sysco Accounts API
   slug: sysco-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-accounts-api-openapi.yml
 - filename: sysco-deliveries-api-openapi.yml
   format: yaml
   label: Sysco Deliveries API
   slug: sysco-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-deliveries-api-openapi.yml
 - filename: sysco-orders-api-openapi.yml
   format: yaml
   label: Sysco Orders API
   slug: sysco-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-orders-api-openapi.yml
 - filename: sysco-pricing-api-openapi.yml
   format: yaml
   label: Sysco Pricing API
   slug: sysco-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-pricing-api-openapi.yml
 - filename: sysco-products-api-openapi.yml
   format: yaml
   label: Sysco Products API
   slug: sysco-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/openapi/sysco-products-api-openapi.yml
+  url: https://artifacts.apis.io/sysco/openapi/sysco-products-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sysco-
   \ get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deliveries\n  method: get\n  operationId: listDeliveries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deliveries/{deliveryId}\n  method: get\n  operationId: getDelivery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: get\n  operationId: listPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sysco/refs/heads/main/agentic-access/sysco-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sysco/agentic-access/sysco-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Fortune 100

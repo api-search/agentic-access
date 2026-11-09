@@ -9,91 +9,91 @@ api_specs:
   label: Natural AI Agent Keys API
   slug: natural-ai-agent-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-agent-keys-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-agent-keys-api-openapi.yml
 - filename: natural-ai-agents-api-openapi.yml
   format: yaml
   label: Natural AI Agents API
   slug: natural-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-agents-api-openapi.yml
 - filename: natural-ai-api-keys-api-openapi.yml
   format: yaml
   label: Natural AI API Keys API
   slug: natural-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-api-keys-api-openapi.yml
 - filename: natural-ai-approvals-api-openapi.yml
   format: yaml
   label: Natural AI Approvals API
   slug: natural-ai-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-approvals-api-openapi.yml
 - filename: natural-ai-customers-api-openapi.yml
   format: yaml
   label: Natural AI Customers API
   slug: natural-ai-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-customers-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-customers-api-openapi.yml
 - filename: natural-ai-events-api-openapi.yml
   format: yaml
   label: Natural AI Events API
   slug: natural-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-events-api-openapi.yml
 - filename: natural-ai-external-accounts-api-openapi.yml
   format: yaml
   label: Natural AI External Accounts API
   slug: natural-ai-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-external-accounts-api-openapi.yml
 - filename: natural-ai-invitations-api-openapi.yml
   format: yaml
   label: Natural AI Invitations API
   slug: natural-ai-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-invitations-api-openapi.yml
 - filename: natural-ai-parties-api-openapi.yml
   format: yaml
   label: Natural AI Parties API
   slug: natural-ai-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-parties-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-parties-api-openapi.yml
 - filename: natural-ai-payments-api-openapi.yml
   format: yaml
   label: Natural AI Payments API
   slug: natural-ai-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-payments-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-payments-api-openapi.yml
 - filename: natural-ai-transactions-api-openapi.yml
   format: yaml
   label: Natural AI Transactions API
   slug: natural-ai-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-transactions-api-openapi.yml
 - filename: natural-ai-transfers-api-openapi.yml
   format: yaml
   label: Natural AI Transfers API
   slug: natural-ai-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-transfers-api-openapi.yml
 - filename: natural-ai-wallets-api-openapi.yml
   format: yaml
   label: Natural AI Wallets API
   slug: natural-ai-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-wallets-api-openapi.yml
 - filename: natural-ai-webhooks-api-openapi.yml
   format: yaml
   label: Natural AI Webhooks API
   slug: natural-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-webhooks-api-openapi.yml
 - filename: natural-ai-payment-requests-api-openapi.yml
   format: yaml
   label: Natural AI Payment Requests API
   slug: natural-ai-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/openapi/natural-ai-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/natural-ai/openapi/natural-ai-payment-requests-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 33
@@ -234,7 +234,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/natura
   \  method: post\n  operationId: webhooks.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: webhooks.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: webhooks.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: patch\n  operationId: webhooks.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: webhooks.remove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/rotate-secret\n  method: post\n  operationId: webhooks.rotateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: get\n  operationId: events.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventId}\n  method: get\n  operationId: events.get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/natural-ai/refs/heads/main/agentic-access/natural-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/natural-ai/agentic-access/natural-ai-agentic-access.yml
 summary_line: 76 operations · 43 acting · 6 human-in-the-loop
 tags:
 - Company

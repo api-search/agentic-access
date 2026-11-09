@@ -9,97 +9,97 @@ api_specs:
   label: Freshdesk Webhook API
   slug: webhook-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/asyncapi/freshdesk-webhook-api-asyncapi.yml
+  url: https://artifacts.apis.io/freshdesk/asyncapi/freshdesk-webhook-api-asyncapi.yml
 - filename: freshdesk-agents-api-openapi.yml
   format: yaml
   label: freshdesk Agents API
   slug: freshdesk-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-agents-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-agents-api-openapi.yml
 - filename: freshdesk-business-hours-api-openapi.yml
   format: yaml
   label: freshdesk Business Hours API
   slug: freshdesk-business-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-business-hours-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-business-hours-api-openapi.yml
 - filename: freshdesk-companies-api-openapi.yml
   format: yaml
   label: freshdesk Companies API
   slug: freshdesk-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-companies-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-companies-api-openapi.yml
 - filename: freshdesk-contacts-api-openapi.yml
   format: yaml
   label: freshdesk Contacts API
   slug: freshdesk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-contacts-api-openapi.yml
 - filename: freshdesk-conversations-api-openapi.yml
   format: yaml
   label: freshdesk Conversations API
   slug: freshdesk-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-conversations-api-openapi.yml
 - filename: freshdesk-email-configs-api-openapi.yml
   format: yaml
   label: freshdesk Email Configs API
   slug: freshdesk-email-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-email-configs-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-email-configs-api-openapi.yml
 - filename: freshdesk-groups-api-openapi.yml
   format: yaml
   label: freshdesk Groups API
   slug: freshdesk-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-groups-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-groups-api-openapi.yml
 - filename: freshdesk-products-api-openapi.yml
   format: yaml
   label: freshdesk Products API
   slug: freshdesk-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-products-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-products-api-openapi.yml
 - filename: freshdesk-roles-api-openapi.yml
   format: yaml
   label: freshdesk Roles API
   slug: freshdesk-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-roles-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-roles-api-openapi.yml
 - filename: freshdesk-satisfaction-ratings-api-openapi.yml
   format: yaml
   label: freshdesk Satisfaction Ratings API
   slug: freshdesk-satisfaction-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-satisfaction-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-satisfaction-ratings-api-openapi.yml
 - filename: freshdesk-search-api-openapi.yml
   format: yaml
   label: freshdesk Search API
   slug: freshdesk-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-search-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-search-api-openapi.yml
 - filename: freshdesk-sla-policies-api-openapi.yml
   format: yaml
   label: freshdesk SLA Policies API
   slug: freshdesk-sla-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-sla-policies-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-sla-policies-api-openapi.yml
 - filename: freshdesk-solutions-api-openapi.yml
   format: yaml
   label: freshdesk Solutions API
   slug: freshdesk-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-solutions-api-openapi.yml
 - filename: freshdesk-tickets-api-openapi.yml
   format: yaml
   label: freshdesk Tickets API
   slug: freshdesk-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-tickets-api-openapi.yml
 - filename: freshdesk-time-entries-api-openapi.yml
   format: yaml
   label: freshdesk Time Entries API
   slug: freshdesk-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/openapi/freshdesk-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/freshdesk/openapi/freshdesk-time-entries-api-openapi.yml
 consequence_counts:
   read: 38
   write: 44
@@ -150,7 +150,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freshd
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/folders/{folder_id}\n  method: delete\n  operationId: deleteSolutionFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/folders/{folder_id}/articles\n  method: get\n  operationId: listSolutionArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solutions/folders/{folder_id}/articles\n  method: post\n  operationId: createSolutionArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/articles/{article_id}\n  method: get\n  operationId: getSolutionArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /solutions/articles/{article_id}\n  method: put\n  operationId: updateSolutionArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /solutions/articles/{article_id}\n  method: delete\n  operationId: deleteSolutionArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/tickets\n  method: get\n  operationId: searchTickets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/contacts\n  method: get\n  operationId: searchContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/companies\n  method: get\n  operationId: searchCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshdesk/refs/heads/main/agentic-access/freshdesk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freshdesk/agentic-access/freshdesk-agentic-access.yml
 summary_line: 82 operations · 44 acting
 tags:
 - Automation

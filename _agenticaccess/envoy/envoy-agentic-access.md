@@ -9,73 +9,73 @@ api_specs:
   label: Envoy Certificates API
   slug: envoy-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-certificates-api-openapi.yml
 - filename: envoy-clusters-api-openapi.yml
   format: yaml
   label: Envoy Clusters API
   slug: envoy-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-clusters-api-openapi.yml
 - filename: envoy-configuration-api-openapi.yml
   format: yaml
   label: Envoy Configuration API
   slug: envoy-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-configuration-api-openapi.yml
 - filename: envoy-health-api-openapi.yml
   format: yaml
   label: Envoy Health API
   slug: envoy-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-health-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-health-api-openapi.yml
 - filename: envoy-listeners-api-openapi.yml
   format: yaml
   label: Envoy Listeners API
   slug: envoy-listeners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-listeners-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-listeners-api-openapi.yml
 - filename: envoy-logging-api-openapi.yml
   format: yaml
   label: Envoy Logging API
   slug: envoy-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-logging-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-logging-api-openapi.yml
 - filename: envoy-models-api-openapi.yml
   format: yaml
   label: Envoy Models API
   slug: envoy-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-models-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-models-api-openapi.yml
 - filename: envoy-runtime-api-openapi.yml
   format: yaml
   label: Envoy Runtime API
   slug: envoy-runtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-runtime-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-runtime-api-openapi.yml
 - filename: envoy-server-api-openapi.yml
   format: yaml
   label: Envoy Server API
   slug: envoy-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-server-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-server-api-openapi.yml
 - filename: envoy-statistics-api-openapi.yml
   format: yaml
   label: Envoy Statistics API
   slug: envoy-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-statistics-api-openapi.yml
 - filename: envoy-text-completions-api-openapi.yml
   format: yaml
   label: Envoy Text Completions API
   slug: envoy-text-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-text-completions-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-text-completions-api-openapi.yml
 - filename: envoy-chat-completions-api-openapi.yml
   format: yaml
   label: Envoy Chat Completions API
   slug: envoy-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/openapi/envoy-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/envoy/openapi/envoy-chat-completions-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 2
@@ -122,7 +122,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/envoy-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /drain_listeners\n  method: post\n  operationId: drainListeners\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quitquitquit\n  method: post\n  operationId: shutdownServer\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /certs\n  method: get\n  operationId: getCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /memory\n  method: get\n  operationId: getMemory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hot_restart_version\n  method: get\n  operationId: getHotRestartVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reset_counters\n  method: post\n  operationId: resetCounters\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/completions\n  method: post\n  operationId: createCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/agentic-access/envoy-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/envoy/agentic-access/envoy-agentic-access.yml
 summary_line: 23 operations · 9 acting · 2 human-in-the-loop
 tags:
 - Envoy

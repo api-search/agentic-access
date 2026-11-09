@@ -9,85 +9,85 @@ api_specs:
   label: Bendigo and Adelaide Bank Accounts API
   slug: bendigo-and-adelaide-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-accounts-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-attachments-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Attachments API
   slug: bendigo-and-adelaide-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-attachments-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Balances API
   slug: bendigo-and-adelaide-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-balances-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Direct Debits API
   slug: bendigo-and-adelaide-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-direct-debits-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Scheduled Payments API
   slug: bendigo-and-adelaide-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Account Transactions API
   slug: bendigo-and-adelaide-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-account-transactions-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Accounts API
   slug: bendigo-and-adelaide-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-accounts-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Payees API
   slug: bendigo-and-adelaide-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-payees-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-banking-products-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Banking Products API
   slug: bendigo-and-adelaide-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-banking-products-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-categories-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Categories API
   slug: bendigo-and-adelaide-bank-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-categories-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-categories-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-tags-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Tags API
   slug: bendigo-and-adelaide-bank-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-tags-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-tags-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-transactions-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Transactions API
   slug: bendigo-and-adelaide-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-transactions-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Utility endpoints API
   slug: bendigo-and-adelaide-bank-utility-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-utility-endpoints-api-openapi.yml
 - filename: bendigo-and-adelaide-bank-webhooks-api-openapi.yml
   format: yaml
   label: Bendigo and Adelaide Bank Webhooks API
   slug: bendigo-and-adelaide-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/openapi/bendigo-and-adelaide-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bendigo-and-adelaide-bank/openapi/bendigo-and-adelaide-bank-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 33
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/bendig
   \ get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: get\n  operationId: getTransactionsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: getAccountsByAccountIdTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/ping\n  method: get\n  operationId: getUtilPing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: postWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhooksById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhooksById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /webhooks/{webhookId}/ping\n  method: post\n  operationId: postWebhooksByWebhookIdPing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/logs\n  method: get\n  operationId: getWebhooksByWebhookIdLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bendigo-and-adelaide-bank/refs/heads/main/agentic-access/bendigo-and-adelaide-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bendigo-and-adelaide-bank/agentic-access/bendigo-and-adelaide-bank-agentic-access.yml
 summary_line: 39 operations · 6 acting
 tags:
 - Finance

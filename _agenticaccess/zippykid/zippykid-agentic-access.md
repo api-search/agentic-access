@@ -9,49 +9,49 @@ api_specs:
   label: ZippyKid Account API
   slug: zippykid-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-account-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-account-api-openapi.yml
 - filename: zippykid-activity-api-openapi.yml
   format: yaml
   label: ZippyKid Activity API
   slug: zippykid-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-activity-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-activity-api-openapi.yml
 - filename: zippykid-auth-api-openapi.yml
   format: yaml
   label: ZippyKid Auth API
   slug: zippykid-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-auth-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-auth-api-openapi.yml
 - filename: zippykid-collaborators-api-openapi.yml
   format: yaml
   label: ZippyKid Collaborators API
   slug: zippykid-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-collaborators-api-openapi.yml
 - filename: zippykid-http-api-openapi.yml
   format: yaml
   label: 'ZippyKid http: API'
   slug: zippykid-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-http-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-http-api-openapi.yml
 - filename: zippykid-mu-plugins-api-openapi.yml
   format: yaml
   label: ZippyKid Mu Plugins API
   slug: zippykid-mu-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-mu-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-mu-plugins-api-openapi.yml
 - filename: zippykid-sites-api-openapi.yml
   format: yaml
   label: ZippyKid Sites API
   slug: zippykid-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-sites-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-sites-api-openapi.yml
 - filename: zippykid-zones-api-openapi.yml
   format: yaml
   label: ZippyKid Zones API
   slug: zippykid-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/openapi/zippykid-zones-api-openapi.yml
+  url: https://artifacts.apis.io/zippykid/openapi/zippykid-zones-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 57
@@ -166,8 +166,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/zippyk
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/domains/{id}\n  method: delete\n  operationId: deleteSitesBySiteIdDomainsById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site_id}/domains/{id}/primary\n  method: put\n  operationId: putSitesBySiteIdDomainsByIdPrimary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site_id}/ftp\n  method: get\n  operationId: getSitesBySiteIdFtp\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/ftp/{username}\n  method: get\n  operationId: getSitesBySiteIdFtpByUsername\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/ftp/password/{username}\n  method: post\n  operationId: postSitesBySiteIdFtpPasswordByUsername\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /sites/{site_id}/jetpack\n  method: get\n  operationId: getSitesBySiteIdJetpack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{site_id}/jetpack\n  method: post\n  operationId: postSitesBySiteIdJetpack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{site_id}/statistics\n  method: get\n  operationId: getSitesBySiteIdStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{id}/tags\n  method: post\n  operationId: postSitesByIdTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/agentic-access/zippykid-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zippykid/refs/heads/main/agentic-access/zippykid-agentic-access.yml
+  \    audit: required\n\n\n# --- truncated at 32 KB (46 KB total) ---\n# Full source: https://artifacts.apis.io/zippykid/agentic-access/zippykid-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/zippykid/agentic-access/zippykid-agentic-access.yml
 summary_line: 149 operations · 92 acting · 7 human-in-the-loop
 tags:
 - Company

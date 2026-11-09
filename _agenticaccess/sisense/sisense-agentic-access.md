@@ -9,37 +9,37 @@ api_specs:
   label: Sisense Authentication API
   slug: sisense-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-authentication-api-openapi.yml
 - filename: sisense-dashboards-api-openapi.yml
   format: yaml
   label: Sisense Dashboards API
   slug: sisense-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-dashboards-api-openapi.yml
 - filename: sisense-data-security-api-openapi.yml
   format: yaml
   label: Sisense Data Security API
   slug: sisense-data-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-data-security-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-data-security-api-openapi.yml
 - filename: sisense-elasticubes-api-openapi.yml
   format: yaml
   label: Sisense Elasticubes API
   slug: sisense-elasticubes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-elasticubes-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-elasticubes-api-openapi.yml
 - filename: sisense-groups-api-openapi.yml
   format: yaml
   label: Sisense Groups API
   slug: sisense-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-groups-api-openapi.yml
 - filename: sisense-users-api-openapi.yml
   format: yaml
   label: Sisense Users API
   slug: sisense-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/openapi/sisense-users-api-openapi.yml
+  url: https://artifacts.apis.io/sisense/openapi/sisense-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sisens
   \  method: patch\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{id}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /elasticubes/getElasticubes\n  method: get\n  operationId: listElasticubes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /elasticubes/{server}/{elasticube}/datasecurity\n  method: get\n  operationId: getDataSecurityRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /elasticubes/{server}/{elasticube}/datasecurity\n  method: post\n  operationId: createDataSecurityRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sisense/refs/heads/main/agentic-access/sisense-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sisense/agentic-access/sisense-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Analytics

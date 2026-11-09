@@ -8,37 +8,37 @@ api_specs:
   label: 1Forge Forex Stream
   slug: 1forge-forex-stream
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/asyncapi/1forge-forex-stream-asyncapi.yml
+  url: https://artifacts.apis.io/1forge/asyncapi/1forge-forex-stream-asyncapi.yml
 - filename: 1forge-convert-api-openapi.yml
   format: yaml
   label: 1Forge Convert API
   slug: 1forge-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-convert-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-convert-api-openapi.yml
 - filename: 1forge-market-status-api-openapi.yml
   format: yaml
   label: 1Forge Market Status API
   slug: 1forge-market-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-market-status-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-market-status-api-openapi.yml
 - filename: 1forge-quota-api-openapi.yml
   format: yaml
   label: 1Forge Quota API
   slug: 1forge-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quota-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-quota-api-openapi.yml
 - filename: 1forge-quotes-api-openapi.yml
   format: yaml
   label: 1Forge Quotes API
   slug: 1forge-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-quotes-api-openapi.yml
 - filename: 1forge-symbols-api-openapi.yml
   format: yaml
   label: 1Forge Symbols API
   slug: 1forge-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-symbols-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -65,7 +65,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/1forge-forex-data-api.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /quotes\n  method: get\n  operationId: getQuotes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /convert\n  method: get\n  operationId: convertCurrency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /symbols\n  method: get\n  operationId: getSymbols\n  x-agentic-access:\n \
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market_status\n  method: get\n  operationId: getMarketStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quota\n  method: get\n  operationId: getQuota\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/agentic-access/1forge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/1forge/agentic-access/1forge-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Foreign Exchange

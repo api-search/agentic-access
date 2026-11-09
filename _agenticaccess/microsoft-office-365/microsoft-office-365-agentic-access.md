@@ -9,25 +9,25 @@ api_specs:
   label: Microsoft Office 365 Calendar API
   slug: microsoft-office-365-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-calendar-api-openapi.yml
 - filename: microsoft-office-365-groups-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Groups API
   slug: microsoft-office-365-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-groups-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-groups-api-openapi.yml
 - filename: microsoft-office-365-mail-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Mail API
   slug: microsoft-office-365-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-mail-api-openapi.yml
 - filename: microsoft-office-365-users-api-openapi.yml
   format: yaml
   label: Microsoft Office 365 Users API
   slug: microsoft-office-365-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/openapi/microsoft-office-365-users-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office-365/openapi/microsoft-office-365-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ none\n- path: /me/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/events\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/events/{event-id}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/events/{event-id}\n  method: patch\n  operationId: updateEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/events/{event-id}\n  method: delete\n  operationId: deleteEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/calendars\n  method: get\n  operationId: listCalendars\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/calendarView\n  method: get\n  operationId: getCalendarView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/events/{event-id}/accept\n  method: post\n  operationId: acceptEvent\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/events/{event-id}/decline\n  method: post\n  operationId: declineEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/agentic-access/microsoft-office-365-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-office-365/agentic-access/microsoft-office-365-agentic-access.yml
 summary_line: 31 operations · 17 acting
 tags:
 - Cloud

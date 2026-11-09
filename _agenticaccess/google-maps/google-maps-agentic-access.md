@@ -8,43 +8,97 @@ api_specs:
   label: Google Maps Platform Autocomplete API
   slug: google-maps-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-autocomplete-api-openapi.yml
 - filename: google-maps-directions-api-openapi.yml
   format: yaml
   label: Google Maps Platform Directions API
   slug: google-maps-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-directions-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-openapi.yml
 - filename: google-maps-geocoding-api-openapi.yml
   format: yaml
   label: Google Maps Platform Geocoding API
   slug: google-maps-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-openapi.yml
 - filename: google-maps-nearby-search-api-openapi.yml
   format: yaml
   label: Google Maps Platform Nearby Search API
   slug: google-maps-nearby-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-nearby-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-nearby-search-api-openapi.yml
 - filename: google-maps-photos-api-openapi.yml
   format: yaml
   label: Google Maps Platform Photos API
   slug: google-maps-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-photos-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-photos-api-openapi.yml
 - filename: google-maps-place-details-api-openapi.yml
   format: yaml
   label: Google Maps Platform Place Details API
   slug: google-maps-place-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-place-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-place-details-api-openapi.yml
 - filename: google-maps-text-search-api-openapi.yml
   format: yaml
   label: Google Maps Platform Text Search API
   slug: google-maps-text-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/openapi/google-maps-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-text-search-api-openapi.yml
+- filename: google-maps-directions-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Directions API
+  slug: google-maps-directions-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-api-openapi.yml
+- filename: google-maps-distance-matrix-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Distance Matrix API
+  slug: google-maps-distance-matrix-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-distance-matrix-api-api-openapi.yml
+- filename: google-maps-elevation-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Elevation API
+  slug: google-maps-elevation-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-elevation-api-api-openapi.yml
+- filename: google-maps-geocoding-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Geocoding API
+  slug: google-maps-geocoding-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-api-openapi.yml
+- filename: google-maps-geolocation-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Geolocation API
+  slug: google-maps-geolocation-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geolocation-api-api-openapi.yml
+- filename: google-maps-places-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Places API
+  slug: google-maps-places-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-places-api-api-openapi.yml
+- filename: google-maps-roads-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Roads API
+  slug: google-maps-roads-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-roads-api-api-openapi.yml
+- filename: google-maps-street-view-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Street View API
+  slug: google-maps-street-view-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-api-api-openapi.yml
+- filename: google-maps-time-zone-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Time Zone API
+  slug: google-maps-time-zone-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-time-zone-api-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +126,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google-maps-autocomplete-api-openapi.yml, openapi/google-maps-directions-api-openapi.yml,\n  openapi/google-maps-geocoding-api-openapi.yml, openapi/google-maps-nearby-search-api-openapi.yml,\n  openapi/google-maps-photos-api-openapi.yml, openapi/google-maps-place-details-api-openapi.yml,\n  openapi/google-maps-text-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /places:autocomplete\n  method: post\n  operationId: autocompletePlaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /directions/json\n  method: get\n  operationId: getDirections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geocode/json\n  method: get\n  operationId: geocode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places:searchNearby\n  method: post\n  operationId: searchPlacesNearby\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/{placeId}/photos/{photoReference}/media\n  method: get\n  operationId: getPlacePhoto\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places/{placeId}\n  method: get\n  operationId: getPlaceDetails\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /places:searchText\n  method: post\n  operationId: searchPlacesText\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-maps/refs/heads/main/agentic-access/google-maps-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-maps/agentic-access/google-maps-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Environment

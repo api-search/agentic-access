@@ -9,31 +9,31 @@ api_specs:
   label: Platzi Fake Store API Auth API
   slug: platzi-fake-store-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-auth-api-openapi.yml
 - filename: platzi-fake-store-api-categories-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Categories API
   slug: platzi-fake-store-api-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-categories-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-categories-api-openapi.yml
 - filename: platzi-fake-store-api-files-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Files API
   slug: platzi-fake-store-api-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-files-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-files-api-openapi.yml
 - filename: platzi-fake-store-api-products-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Products API
   slug: platzi-fake-store-api-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-products-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-products-api-openapi.yml
 - filename: platzi-fake-store-api-users-api-openapi.yml
   format: yaml
   label: Platzi Fake Store API Users API
   slug: platzi-fake-store-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/openapi/platzi-fake-store-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/platzi-fake-store-api/openapi/platzi-fake-store-api-users-api-openapi.yml
 consequence_counts:
   read: 13
   write: 12
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/platzi
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/is-available\n  method: post\n  operationId: checkEmailAvailability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/profile\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/refresh-token\n  method: post\n  operationId: refreshToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/upload\n \
   \ method: post\n  operationId: uploadFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/{filename}\n  method: get\n  operationId: getFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/platzi-fake-store-api/refs/heads/main/agentic-access/platzi-fake-store-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/platzi-fake-store-api/agentic-access/platzi-fake-store-api-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - E-Commerce

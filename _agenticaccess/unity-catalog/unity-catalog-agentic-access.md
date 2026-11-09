@@ -9,79 +9,79 @@ api_specs:
   label: Unity Catalog Catalogs API
   slug: unity-catalog-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-catalogs-api-openapi.yml
 - filename: unity-catalog-credentials-api-openapi.yml
   format: yaml
   label: Unity Catalog Credentials API
   slug: unity-catalog-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-credentials-api-openapi.yml
 - filename: unity-catalog-deltacommits-api-openapi.yml
   format: yaml
   label: Unity Catalog Delta Commits API
   slug: unity-catalog-deltacommits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-deltacommits-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-deltacommits-api-openapi.yml
 - filename: unity-catalog-external-locations-api-openapi.yml
   format: yaml
   label: Unity Catalog External Locations API
   slug: unity-catalog-external-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-external-locations-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-external-locations-api-openapi.yml
 - filename: unity-catalog-functions-api-openapi.yml
   format: yaml
   label: Unity Catalog Functions API
   slug: unity-catalog-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-functions-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-functions-api-openapi.yml
 - filename: unity-catalog-grants-api-openapi.yml
   format: yaml
   label: Unity Catalog Grants API
   slug: unity-catalog-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-grants-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-grants-api-openapi.yml
 - filename: unity-catalog-metastores-api-openapi.yml
   format: yaml
   label: Unity Catalog Metastores API
   slug: unity-catalog-metastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-metastores-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-metastores-api-openapi.yml
 - filename: unity-catalog-schemas-api-openapi.yml
   format: yaml
   label: Unity Catalog Schemas API
   slug: unity-catalog-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-schemas-api-openapi.yml
 - filename: unity-catalog-tables-api-openapi.yml
   format: yaml
   label: Unity Catalog Tables API
   slug: unity-catalog-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-tables-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-tables-api-openapi.yml
 - filename: unity-catalog-temporarycredentials-api-openapi.yml
   format: yaml
   label: Unity Catalog Temporary Credentials API
   slug: unity-catalog-temporarycredentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-temporarycredentials-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-temporarycredentials-api-openapi.yml
 - filename: unity-catalog-volumes-api-openapi.yml
   format: yaml
   label: Unity Catalog Volumes API
   slug: unity-catalog-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-volumes-api-openapi.yml
 - filename: unity-catalog-model-versions-api-openapi.yml
   format: yaml
   label: Unity Catalog Model Versions API
   slug: unity-catalog-model-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-model-versions-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-model-versions-api-openapi.yml
 - filename: unity-catalog-registered-models-api-openapi.yml
   format: yaml
   label: Unity Catalog Registered Models API
   slug: unity-catalog-registered-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/openapi/unity-catalog-registered-models-api-openapi.yml
+  url: https://artifacts.apis.io/unity-catalog/openapi/unity-catalog-registered-models-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 21
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/unityc
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /credentials/{name}\n  method: patch\n  operationId: updateCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /credentials/{name}\n  method: delete\n  operationId: deleteCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external-locations\n  method: post\n  operationId: createExternalLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /external-locations\n  method: get\n  operationId: listExternalLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external-locations/{name}\n  method: get\n  operationId: getExternalLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /external-locations/{name}\n  method: delete\n  operationId: deleteExternalLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /external-locations/{name}\n  method: patch\n  operationId: updateExternalLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /delta/preview/commits\n  method: get\n  operationId: getCommits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /delta/preview/commits\n  method: post\n  operationId: commit\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unity-catalog/refs/heads/main/agentic-access/unity-catalog-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unity-catalog/agentic-access/unity-catalog-agentic-access.yml
 summary_line: 54 operations · 33 acting
 tags:
 - Data

@@ -9,91 +9,91 @@ api_specs:
   label: Numbers Online Account API
   slug: numbers-online-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-account-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-account-api-openapi.yml
 - filename: numbers-online-community-reporting-api-openapi.yml
   format: yaml
   label: Numbers Online Community reporting API
   slug: numbers-online-community-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-community-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-community-reporting-api-openapi.yml
 - filename: numbers-online-inbound-api-openapi.yml
   format: yaml
   label: Numbers Online Inbound API
   slug: numbers-online-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-inbound-api-openapi.yml
 - filename: numbers-online-lookup-api-openapi.yml
   format: yaml
   label: Numbers Online Lookup API
   slug: numbers-online-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-lookup-api-openapi.yml
 - filename: numbers-online-mcp-api-openapi.yml
   format: yaml
   label: Numbers Online MCP API
   slug: numbers-online-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-mcp-api-openapi.yml
 - filename: numbers-online-msp-api-openapi.yml
   format: yaml
   label: Numbers Online MSP API
   slug: numbers-online-msp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-msp-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-msp-api-openapi.yml
 - filename: numbers-online-outbound-api-openapi.yml
   format: yaml
   label: Numbers Online Outbound API
   slug: numbers-online-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-outbound-api-openapi.yml
 - filename: numbers-online-parsing-api-openapi.yml
   format: yaml
   label: Numbers Online Parsing API
   slug: numbers-online-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-parsing-api-openapi.yml
 - filename: numbers-online-pbx-api-openapi.yml
   format: yaml
   label: Numbers Online PBX API
   slug: numbers-online-pbx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-pbx-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-pbx-api-openapi.yml
 - filename: numbers-online-receipts-api-openapi.yml
   format: yaml
   label: Numbers Online Receipts API
   slug: numbers-online-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-receipts-api-openapi.yml
 - filename: numbers-online-reference-api-openapi.yml
   format: yaml
   label: Numbers Online Reference API
   slug: numbers-online-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-reference-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-reference-api-openapi.yml
 - filename: numbers-online-sbc-sip-api-openapi.yml
   format: yaml
   label: Numbers Online SBC / SIP API
   slug: numbers-online-sbc-sip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-sbc-sip-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-sbc-sip-api-openapi.yml
 - filename: numbers-online-system-api-openapi.yml
   format: yaml
   label: Numbers Online System API
   slug: numbers-online-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-system-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-system-api-openapi.yml
 - filename: numbers-online-trust-api-openapi.yml
   format: yaml
   label: Numbers Online Trust API
   slug: numbers-online-trust-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-trust-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-trust-api-openapi.yml
 - filename: numbers-online-webhooks-api-openapi.yml
   format: yaml
   label: Numbers Online Webhooks API
   slug: numbers-online-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/openapi/numbers-online-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/numbers-online/openapi/numbers-online-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 21
@@ -168,7 +168,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/number
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/publickey\n  method: get\n  operationId: publicKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/report\n  method: post\n  operationId: reportNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/parse\n  method: post\n  operationId: parsePhoneNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/parse/bulk\n  method: post\n  operationId: parsePhoneNumbersBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/scrub\n  method: post\n  operationId: scrubList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numbers-online/refs/heads/main/agentic-access/numbers-online-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/numbers-online/agentic-access/numbers-online-agentic-access.yml
 summary_line: 56 operations · 35 acting · 3 human-in-the-loop
 tags:
 - Phone Intelligence

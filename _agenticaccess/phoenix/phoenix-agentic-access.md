@@ -9,103 +9,103 @@ api_specs:
   label: Arize Phoenix Annotation Configs API
   slug: phoenix-annotation-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-annotation-configs-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-annotation-configs-api-openapi.yml
 - filename: phoenix-annotations-api-openapi.yml
   format: yaml
   label: Arize Phoenix Annotations API
   slug: phoenix-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-annotations-api-openapi.yml
 - filename: phoenix-arize-phoenix-version-api-openapi.yml
   format: yaml
   label: Arize Phoenix Arize Phoenix Version API
   slug: phoenix-arize-phoenix-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-arize-phoenix-version-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-arize-phoenix-version-api-openapi.yml
 - filename: phoenix-auth-api-openapi.yml
   format: yaml
   label: Arize Phoenix Auth API
   slug: phoenix-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-auth-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-auth-api-openapi.yml
 - filename: phoenix-chat-api-openapi.yml
   format: yaml
   label: Arize Phoenix Chat API
   slug: phoenix-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-chat-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-chat-api-openapi.yml
 - filename: phoenix-datasets-api-openapi.yml
   format: yaml
   label: Arize Phoenix Datasets API
   slug: phoenix-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-datasets-api-openapi.yml
 - filename: phoenix-experiments-api-openapi.yml
   format: yaml
   label: Arize Phoenix Experiments API
   slug: phoenix-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-experiments-api-openapi.yml
 - filename: phoenix-healthz-api-openapi.yml
   format: yaml
   label: Arize Phoenix Healthz API
   slug: phoenix-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-healthz-api-openapi.yml
 - filename: phoenix-projects-api-openapi.yml
   format: yaml
   label: Arize Phoenix Projects API
   slug: phoenix-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-projects-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-projects-api-openapi.yml
 - filename: phoenix-prompts-api-openapi.yml
   format: yaml
   label: Arize Phoenix Prompts API
   slug: phoenix-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-prompts-api-openapi.yml
 - filename: phoenix-readyz-api-openapi.yml
   format: yaml
   label: Arize Phoenix Readyz API
   slug: phoenix-readyz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-readyz-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-readyz-api-openapi.yml
 - filename: phoenix-secrets-api-openapi.yml
   format: yaml
   label: Arize Phoenix Secrets API
   slug: phoenix-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-secrets-api-openapi.yml
 - filename: phoenix-sessions-api-openapi.yml
   format: yaml
   label: Arize Phoenix Sessions API
   slug: phoenix-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-sessions-api-openapi.yml
 - filename: phoenix-spans-api-openapi.yml
   format: yaml
   label: Arize Phoenix Spans API
   slug: phoenix-spans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-spans-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-spans-api-openapi.yml
 - filename: phoenix-traces-api-openapi.yml
   format: yaml
   label: Arize Phoenix Traces API
   slug: phoenix-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-traces-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-traces-api-openapi.yml
 - filename: phoenix-users-api-openapi.yml
   format: yaml
   label: Arize Phoenix Users API
   slug: phoenix-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-users-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-users-api-openapi.yml
 - filename: phoenix-oauth2-api-openapi.yml
   format: yaml
   label: Arize Phoenix Oauth2 API
   slug: phoenix-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/openapi/phoenix-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/phoenix/openapi/phoenix-oauth2-api-openapi.yml
 consequence_counts:
   read: 41
   safety-critical: 2
@@ -172,7 +172,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/phoeni
   \ - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/{idp_name}/login\n  method: post\n  operationId: login_oauth2__idp_name__login_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/{idp_name}/login\n  method: get\n  operationId: login_oauth2__idp_name__login_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oauth2/{idp_name}/tokens\n  method: get\n  operationId: create_tokens_oauth2__idp_name__tokens_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{agent_id}/sessions/{session_id}/chat\n  method: post\n\
   \  operationId: chat_agents__agent_id__sessions__session_id__chat_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{agent_id}/sessions/{session_id}/summary\n  method: post\n  operationId: summarize_endpoint_agents__agent_id__sessions__session_id__summary_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /arize_phoenix_version\n  method: get\n  operationId: version_arize_phoenix_version_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /healthz\n  method: get\n  operationId: check_healthz_healthz_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /readyz\n  method: get\n  operationId: check_readyz_readyz_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phoenix/refs/heads/main/agentic-access/phoenix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phoenix/agentic-access/phoenix-agentic-access.yml
 summary_line: 84 operations · 43 acting · 2 human-in-the-loop
 tags:
 - LLM Observability

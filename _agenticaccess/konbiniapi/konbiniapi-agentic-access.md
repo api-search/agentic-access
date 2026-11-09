@@ -8,31 +8,31 @@ api_specs:
   label: KonbiniAPI Instagram API
   slug: konbiniapi-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-instagram-api-openapi.yml
 - filename: konbiniapi-tiktok-api-openapi.yml
   format: yaml
   label: KonbiniAPI TikTok API
   slug: konbiniapi-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-tiktok-api-openapi.yml
 - filename: konbiniapi-x-api-openapi.yml
   format: yaml
   label: KonbiniAPI X API
   slug: konbiniapi-x-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-x-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-x-api-openapi.yml
 - filename: konbiniapi-reddit-api-openapi.yml
   format: yaml
   label: KonbiniAPI Reddit API
   slug: konbiniapi-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-reddit-api-openapi.yml
 - filename: konbiniapi-linked-in-api-openapi.yml
   format: yaml
   label: KonbiniAPI Linked In API
   slug: konbiniapi-linked-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/openapi/konbiniapi-linked-in-api-openapi.yml
+  url: https://artifacts.apis.io/konbiniapi/openapi/konbiniapi-linked-in-api-openapi.yml
 consequence_counts:
   read: 67
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/konbin
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tiktok/audios/{audioId}/videos\n  method: get\n  operationId: tiktokGetAudioVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tiktok/search\n  method: get\n  operationId: tiktokSearchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tiktok/search/users\n  method: get\n  operationId: tiktokSearchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tiktok/search/videos\n  method: get\n  operationId: tiktokSearchVideos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n    \
   \  max-ttl: 3600\n    audit: none\n- path: /v1/x/users/{username}\n  method: get\n  operationId: xGetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x/users/{username}/posts\n  method: get\n  operationId: xGetUserPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x/users/{username}/highlights\n  method: get\n  operationId: xGetUserHighlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x/posts/{postId}\n  method: get\n  operationId: xGetPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x/communities/{communityId}\n  method: get\n  operationId:\
   \ xGetCommunity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x/communities/{communityId}/posts\n  method: get\n  operationId: xGetCommunityPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/x/communities/{communityId}/media\n  method: get\n  operationId: xGetCommunityMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/konbiniapi/refs/heads/main/agentic-access/konbiniapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/konbiniapi/agentic-access/konbiniapi-agentic-access.yml
 summary_line: 67 operations
 tags:
 - Social Media

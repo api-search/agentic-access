@@ -9,151 +9,151 @@ api_specs:
   label: Department of Energy AEO API
   slug: doe-aeo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-aeo-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-aeo-api-openapi.yml
 - filename: doe-coal-api-openapi.yml
   format: yaml
   label: Department of Energy COAL API
   slug: doe-coal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-coal-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-coal-api-openapi.yml
 - filename: doe-crud-imports-api-openapi.yml
   format: yaml
   label: Department of Energy CRUD_IMPORTS API
   slug: doe-crud-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-crud-imports-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-crud-imports-api-openapi.yml
 - filename: doe-dbf-api-openapi.yml
   format: yaml
   label: Department of Energy DBF API
   slug: doe-dbf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-dbf-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-dbf-api-openapi.yml
 - filename: doe-elec-api-openapi.yml
   format: yaml
   label: Department of Energy ELEC API
   slug: doe-elec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-elec-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-elec-api-openapi.yml
 - filename: doe-emiss-api-openapi.yml
   format: yaml
   label: Department of Energy EMISS API
   slug: doe-emiss-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-emiss-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-emiss-api-openapi.yml
 - filename: doe-ieo-api-openapi.yml
   format: yaml
   label: Department of Energy IEO API
   slug: doe-ieo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-ieo-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-ieo-api-openapi.yml
 - filename: doe-intl-api-openapi.yml
   format: yaml
   label: Department of Energy INTL API
   slug: doe-intl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-intl-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-intl-api-openapi.yml
 - filename: doe-ng-api-openapi.yml
   format: yaml
   label: Department of Energy NG API
   slug: doe-ng-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-ng-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-ng-api-openapi.yml
 - filename: doe-nuc-status-api-openapi.yml
   format: yaml
   label: Department of Energy NUC_STATUS API
   slug: doe-nuc-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-nuc-status-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-nuc-status-api-openapi.yml
 - filename: doe-root-api-openapi.yml
   format: yaml
   label: Department of Energy Root API
   slug: doe-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-root-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-root-api-openapi.yml
 - filename: doe-rto-api-openapi.yml
   format: yaml
   label: Department of Energy RTO API
   slug: doe-rto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-rto-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-rto-api-openapi.yml
 - filename: doe-seds-api-openapi.yml
   format: yaml
   label: Department of Energy SEDS API
   slug: doe-seds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-seds-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-seds-api-openapi.yml
 - filename: doe-sep-api-openapi.yml
   format: yaml
   label: Department of Energy SEP API
   slug: doe-sep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-sep-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-sep-api-openapi.yml
 - filename: doe-steo-api-openapi.yml
   format: yaml
   label: Department of Energy STEO API
   slug: doe-steo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-steo-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-steo-api-openapi.yml
 - filename: doe-total-api-openapi.yml
   format: yaml
   label: Department of Energy TOTAL API
   slug: doe-total-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-total-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-total-api-openapi.yml
 - filename: doe-co2-emissions-api-openapi.yml
   format: yaml
   label: Department of Energy Co2 Emissions API
   slug: doe-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-co2-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-co2-emissions-api-openapi.yml
 - filename: doe-eia-open-data-api-v2-api-openapi.yml
   format: yaml
   label: Department of Energy EIA Open Data API V2 API
   slug: doe-eia-open-data-api-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-eia-open-data-api-v2-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-eia-open-data-api-v2-api-openapi.yml
 - filename: doe-electricity-api-openapi.yml
   format: yaml
   label: Department of Energy Electricity API
   slug: doe-electricity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-electricity-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-electricity-api-openapi.yml
 - filename: doe-international-api-openapi.yml
   format: yaml
   label: Department of Energy International API
   slug: doe-international-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-international-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-international-api-openapi.yml
 - filename: doe-natural-gas-api-openapi.yml
   format: yaml
   label: Department of Energy Natural Gas API
   slug: doe-natural-gas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-natural-gas-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-natural-gas-api-openapi.yml
 - filename: doe-nuclear-outages-api-openapi.yml
   format: yaml
   label: Department of Energy Nuclear Outages API
   slug: doe-nuclear-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-nuclear-outages-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-nuclear-outages-api-openapi.yml
 - filename: doe-petroleum-api-openapi.yml
   format: yaml
   label: Department of Energy Petroleum API
   slug: doe-petroleum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-petroleum-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-petroleum-api-openapi.yml
 - filename: doe-seriesid-api-openapi.yml
   format: yaml
   label: Department of Energy Seriesid API
   slug: doe-seriesid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-seriesid-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-seriesid-api-openapi.yml
 - filename: doe-total-energy-api-openapi.yml
   format: yaml
   label: Department of Energy Total Energy API
   slug: doe-total-energy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/openapi/doe-total-energy-api-openapi.yml
+  url: https://artifacts.apis.io/doe/openapi/doe-total-energy-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 225
@@ -267,8 +267,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/eia-op
   \ path: /v2/coal/shipments/plant-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-aggregates/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-aggregates/data\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v2/coal/shipments/plant-state-aggregates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-state-aggregates/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-state-aggregates/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/plant-state-aggregates/data\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/coal/shipments/receipts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/receipts/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/receipts/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/coal/shipments/receipts/data\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n     \
-  \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/coal/shipments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/crude-oil-imports\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/crude-oil-imports/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/crude-oil-imports/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/agentic-access/doe-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/agentic-access/doe-agentic-access.yml
+  \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/coal/shipments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/crude-oil-imports\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/crude-oil-imports/facet\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/crude-oil-imports/data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (63 KB total) ---\n# Full source: https://artifacts.apis.io/doe/agentic-access/doe-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/doe/agentic-access/doe-agentic-access.yml
 summary_line: 278 operations · 53 acting · 4 human-in-the-loop
 tags:
 - Energy

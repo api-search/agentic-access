@@ -9,7 +9,49 @@ api_specs:
   label: Amazon Amplify Apps API
   slug: amazon-amplify-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/openapi/amazon-amplify-apps-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-apps-api-openapi.yml
+- filename: amazon-amplify-backendenvironments-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Backendenvironments API
+  slug: amazon-amplify-backendenvironments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-backendenvironments-api-openapi.yml
+- filename: amazon-amplify-branches-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Branches API
+  slug: amazon-amplify-branches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-branches-api-openapi.yml
+- filename: amazon-amplify-domains-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Domains API
+  slug: amazon-amplify-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-domains-api-openapi.yml
+- filename: amazon-amplify-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Jobs API
+  slug: amazon-amplify-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-jobs-api-openapi.yml
+- filename: amazon-amplify-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Operations API
+  slug: amazon-amplify-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-operations-api-openapi.yml
+- filename: amazon-amplify-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Tags API
+  slug: amazon-amplify-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-tags-api-openapi.yml
+- filename: amazon-amplify-webhooks-api-openapi.yml
+  format: yaml
+  label: Amazon Amplify Amplify Webhooks API
+  slug: amazon-amplify-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-amplify/openapi/amazon-amplify-webhooks-api-openapi.yml
 consequence_counts:
   read: 8
   write: 10
@@ -41,9 +83,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps\n  method: post\n  operationId: createApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{appId}\n  method: post\n  operationId: updateApp\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}/branches\n  method: get\n  operationId: listBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{appId}/branches\n  method: post\n  operationId: createBranch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apps/{appId}/domains\n  method: get\n  operationId: listDomainAssociations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apps/{appId}/domains\n  method: post\n  operationId: createDomainAssociation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-amplify/refs/heads/main/agentic-access/amazon-amplify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-amplify/agentic-access/amazon-amplify-agentic-access.yml
 summary_line: 18 operations · 10 acting
 tags:
+- Amazon Web Services
 - Frontend
 - Full-Stack
 - Hosting

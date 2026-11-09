@@ -9,169 +9,175 @@ api_specs:
   label: Amazon Interactive Video Service BatchGetChannel API
   slug: amazon-interactive-video-service-batchgetchannel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-batchgetchannel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-batchgetchannel-api-openapi.yml
 - filename: amazon-interactive-video-service-batchgetstreamkey-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service BatchGetStreamKey API
   slug: amazon-interactive-video-service-batchgetstreamkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-batchgetstreamkey-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-batchgetstreamkey-api-openapi.yml
 - filename: amazon-interactive-video-service-batchstartviewersessionrevocation-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service BatchStartViewerSessionRevocation API
   slug: amazon-interactive-video-service-batchstartviewersessionrevocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-batchstartviewersessionrevocation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-batchstartviewersessionrevocation-api-openapi.yml
 - filename: amazon-interactive-video-service-createchannel-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service CreateChannel API
   slug: amazon-interactive-video-service-createchannel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-createchannel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-createchannel-api-openapi.yml
 - filename: amazon-interactive-video-service-createrecordingconfiguration-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service CreateRecordingConfiguration API
   slug: amazon-interactive-video-service-createrecordingconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-createrecordingconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-createrecordingconfiguration-api-openapi.yml
 - filename: amazon-interactive-video-service-createstreamkey-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service CreateStreamKey API
   slug: amazon-interactive-video-service-createstreamkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-createstreamkey-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-createstreamkey-api-openapi.yml
 - filename: amazon-interactive-video-service-deletechannel-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service DeleteChannel API
   slug: amazon-interactive-video-service-deletechannel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-deletechannel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-deletechannel-api-openapi.yml
 - filename: amazon-interactive-video-service-deleteplaybackkeypair-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service DeletePlaybackKeyPair API
   slug: amazon-interactive-video-service-deleteplaybackkeypair-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-deleteplaybackkeypair-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-deleteplaybackkeypair-api-openapi.yml
 - filename: amazon-interactive-video-service-deleterecordingconfiguration-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service DeleteRecordingConfiguration API
   slug: amazon-interactive-video-service-deleterecordingconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-deleterecordingconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-deleterecordingconfiguration-api-openapi.yml
 - filename: amazon-interactive-video-service-deletestreamkey-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service DeleteStreamKey API
   slug: amazon-interactive-video-service-deletestreamkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-deletestreamkey-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-deletestreamkey-api-openapi.yml
 - filename: amazon-interactive-video-service-getchannel-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service GetChannel API
   slug: amazon-interactive-video-service-getchannel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-getchannel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-getchannel-api-openapi.yml
 - filename: amazon-interactive-video-service-getplaybackkeypair-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service GetPlaybackKeyPair API
   slug: amazon-interactive-video-service-getplaybackkeypair-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-getplaybackkeypair-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-getplaybackkeypair-api-openapi.yml
 - filename: amazon-interactive-video-service-getrecordingconfiguration-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service GetRecordingConfiguration API
   slug: amazon-interactive-video-service-getrecordingconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-getrecordingconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-getrecordingconfiguration-api-openapi.yml
 - filename: amazon-interactive-video-service-getstream-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service GetStream API
   slug: amazon-interactive-video-service-getstream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-getstream-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-getstream-api-openapi.yml
 - filename: amazon-interactive-video-service-getstreamkey-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service GetStreamKey API
   slug: amazon-interactive-video-service-getstreamkey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-getstreamkey-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-getstreamkey-api-openapi.yml
 - filename: amazon-interactive-video-service-getstreamsession-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service GetStreamSession API
   slug: amazon-interactive-video-service-getstreamsession-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-getstreamsession-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-getstreamsession-api-openapi.yml
 - filename: amazon-interactive-video-service-importplaybackkeypair-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ImportPlaybackKeyPair API
   slug: amazon-interactive-video-service-importplaybackkeypair-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-importplaybackkeypair-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-importplaybackkeypair-api-openapi.yml
 - filename: amazon-interactive-video-service-listchannels-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ListChannels API
   slug: amazon-interactive-video-service-listchannels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-listchannels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-listchannels-api-openapi.yml
 - filename: amazon-interactive-video-service-listplaybackkeypairs-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ListPlaybackKeyPairs API
   slug: amazon-interactive-video-service-listplaybackkeypairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-listplaybackkeypairs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-listplaybackkeypairs-api-openapi.yml
 - filename: amazon-interactive-video-service-listrecordingconfigurations-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ListRecordingConfigurations API
   slug: amazon-interactive-video-service-listrecordingconfigurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-listrecordingconfigurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-listrecordingconfigurations-api-openapi.yml
 - filename: amazon-interactive-video-service-liststreamkeys-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ListStreamKeys API
   slug: amazon-interactive-video-service-liststreamkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-liststreamkeys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-liststreamkeys-api-openapi.yml
 - filename: amazon-interactive-video-service-liststreams-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ListStreams API
   slug: amazon-interactive-video-service-liststreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-liststreams-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-liststreams-api-openapi.yml
 - filename: amazon-interactive-video-service-liststreamsessions-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service ListStreamSessions API
   slug: amazon-interactive-video-service-liststreamsessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-liststreamsessions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-liststreamsessions-api-openapi.yml
 - filename: amazon-interactive-video-service-putmetadata-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service PutMetadata API
   slug: amazon-interactive-video-service-putmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-putmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-putmetadata-api-openapi.yml
 - filename: amazon-interactive-video-service-startviewersessionrevocation-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service StartViewerSessionRevocation API
   slug: amazon-interactive-video-service-startviewersessionrevocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-startviewersessionrevocation-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-startviewersessionrevocation-api-openapi.yml
 - filename: amazon-interactive-video-service-stopstream-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service StopStream API
   slug: amazon-interactive-video-service-stopstream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-stopstream-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-stopstream-api-openapi.yml
 - filename: amazon-interactive-video-service-tags-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service Tags API
   slug: amazon-interactive-video-service-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-tags-api-openapi.yml
 - filename: amazon-interactive-video-service-updatechannel-api-openapi.yml
   format: yaml
   label: Amazon Interactive Video Service UpdateChannel API
   slug: amazon-interactive-video-service-updatechannel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/openapi/amazon-interactive-video-service-updatechannel-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-updatechannel-api-openapi.yml
+- filename: amazon-interactive-video-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Interactive Video Service Interactive Video Service Operations API
+  slug: amazon-interactive-video-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-interactive-video-service/openapi/amazon-interactive-video-service-operations-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -218,9 +224,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ /ListStreams\n  method: post\n  operationId: ListStreams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ListStreamSessions\n  method: post\n  operationId: ListStreamSessions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /PutMetadata\n  method: post\n  operationId: PutMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /StartViewerSessionRevocation\n  method: post\n  operationId: StartViewerSessionRevocation\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /StopStream\n  method: post\n  operationId: StopStream\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UpdateChannel\n  method: post\n  operationId: UpdateChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-interactive-video-service/refs/heads/main/agentic-access/amazon-interactive-video-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-interactive-video-service/agentic-access/amazon-interactive-video-service-agentic-access.yml
 summary_line: 30 operations · 19 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Live Streaming
 - Media
 - Video

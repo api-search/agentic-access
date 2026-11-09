@@ -9,37 +9,37 @@ api_specs:
   label: Amazon Fargate Account Settings API
   slug: amazon-fargate-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-account-settings-api-openapi.yml
 - filename: amazon-fargate-clusters-api-openapi.yml
   format: yaml
   label: Amazon Fargate Clusters API
   slug: amazon-fargate-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-clusters-api-openapi.yml
 - filename: amazon-fargate-services-api-openapi.yml
   format: yaml
   label: Amazon Fargate Services API
   slug: amazon-fargate-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-services-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-services-api-openapi.yml
 - filename: amazon-fargate-tagging-api-openapi.yml
   format: yaml
   label: Amazon Fargate Tagging API
   slug: amazon-fargate-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-tagging-api-openapi.yml
 - filename: amazon-fargate-task-definitions-api-openapi.yml
   format: yaml
   label: Amazon Fargate Task Definitions API
   slug: amazon-fargate-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-task-definitions-api-openapi.yml
 - filename: amazon-fargate-tasks-api-openapi.yml
   format: yaml
   label: Amazon Fargate Tasks API
   slug: amazon-fargate-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/openapi/amazon-fargate-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-fargate/openapi/amazon-fargate-tasks-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -82,9 +82,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#DescribeTaskDefinition\n  method: post\n  operationId: describeTaskDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListTaskDefinitions\n  method: post\n  operationId: listTaskDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#DeregisterTaskDefinition\n  method: post\n  operationId: deregisterTaskDefinition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#RunTask\n  method: post\n  operationId: runTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#StopTask\n  method: post\n  operationId: stopTask\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#DescribeTasks\n  method: post\n  operationId: describeTasks\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#ListTasks\n  method: post\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-fargate/refs/heads/main/agentic-access/amazon-fargate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-fargate/agentic-access/amazon-fargate-agentic-access.yml
 summary_line: 21 operations · 15 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Compute
 - Containers
 - ECS

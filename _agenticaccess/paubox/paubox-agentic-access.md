@@ -9,73 +9,73 @@ api_specs:
   label: Paubox Analytics API
   slug: paubox-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-analytics-api-openapi.yml
 - filename: paubox-campaign-mailings-api-openapi.yml
   format: yaml
   label: Paubox Campaign Mailings API
   slug: paubox-campaign-mailings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-campaign-mailings-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-campaign-mailings-api-openapi.yml
 - filename: paubox-drip-campaigns-api-openapi.yml
   format: yaml
   label: Paubox Drip Campaigns API
   slug: paubox-drip-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-drip-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-drip-campaigns-api-openapi.yml
 - filename: paubox-dynamic-templates-api-openapi.yml
   format: yaml
   label: Paubox Dynamic Templates API
   slug: paubox-dynamic-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-dynamic-templates-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-dynamic-templates-api-openapi.yml
 - filename: paubox-form-management-api-openapi.yml
   format: yaml
   label: Paubox Form management API
   slug: paubox-form-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-form-management-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-form-management-api-openapi.yml
 - filename: paubox-forms-api-openapi.yml
   format: yaml
   label: Paubox Forms API
   slug: paubox-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-forms-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-forms-api-openapi.yml
 - filename: paubox-messages-api-openapi.yml
   format: yaml
   label: Paubox Messages API
   slug: paubox-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-messages-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-messages-api-openapi.yml
 - filename: paubox-submissions-api-openapi.yml
   format: yaml
   label: Paubox Submissions API
   slug: paubox-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-submissions-api-openapi.yml
 - filename: paubox-subscribers-api-openapi.yml
   format: yaml
   label: Paubox Subscribers API
   slug: paubox-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-subscribers-api-openapi.yml
 - filename: paubox-subscription-lists-api-openapi.yml
   format: yaml
   label: Paubox Subscription Lists API
   slug: paubox-subscription-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscription-lists-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-subscription-lists-api-openapi.yml
 - filename: paubox-subscriptions-api-openapi.yml
   format: yaml
   label: Paubox Subscriptions API
   slug: paubox-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-subscriptions-api-openapi.yml
 - filename: paubox-tracking-links-api-openapi.yml
   format: yaml
   label: Paubox Tracking Links API
   slug: paubox-tracking-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/openapi/paubox-tracking-links-api-openapi.yml
+  url: https://artifacts.apis.io/paubox/openapi/paubox-tracking-links-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 27
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/paubox
   \  method: post\n  operationId: unsubscribeSubscribers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/bulk_global_subscribe\n  method: post\n  operationId: bulkGlobalSubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/bulk_global_unsubscribe\n  method: post\n  operationId: bulkGlobalUnsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/dynamic_bulk_subscribe\n  method: post\n  operationId: dynamicBulkSubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/dynamic_bulk_unsubscribe\n  method: post\n  operationId: dynamicBulkUnsubscribe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tracking_links\n  method: get\n  operationId: getTrackingLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paubox/refs/heads/main/agentic-access/paubox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paubox/agentic-access/paubox-agentic-access.yml
 summary_line: 64 operations · 37 acting
 tags:
 - Email

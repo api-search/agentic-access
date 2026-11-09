@@ -9,55 +9,55 @@ api_specs:
   label: Jupyter Config API
   slug: jupyter-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-config-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-config-api-openapi.yml
 - filename: jupyter-contents-api-openapi.yml
   format: yaml
   label: Jupyter Contents API
   slug: jupyter-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-contents-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-contents-api-openapi.yml
 - filename: jupyter-jupyter-server-rest-api-api-openapi.yml
   format: yaml
   label: Jupyter Server REST API
   slug: jupyter-jupyter-server-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-jupyter-server-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-jupyter-server-rest-api-api-openapi.yml
 - filename: jupyter-kernels-api-openapi.yml
   format: yaml
   label: Jupyter Kernels API
   slug: jupyter-kernels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-kernels-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-kernels-api-openapi.yml
 - filename: jupyter-kernelspecs-api-openapi.yml
   format: yaml
   label: Jupyter Kernelspecs API
   slug: jupyter-kernelspecs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-kernelspecs-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-kernelspecs-api-openapi.yml
 - filename: jupyter-me-api-openapi.yml
   format: yaml
   label: Jupyter Me API
   slug: jupyter-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-me-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-me-api-openapi.yml
 - filename: jupyter-sessions-api-openapi.yml
   format: yaml
   label: Jupyter Sessions API
   slug: jupyter-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-sessions-api-openapi.yml
 - filename: jupyter-status-api-openapi.yml
   format: yaml
   label: Jupyter Status API
   slug: jupyter-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-status-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-status-api-openapi.yml
 - filename: jupyter-terminals-api-openapi.yml
   format: yaml
   label: Jupyter Terminals API
   slug: jupyter-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/openapi/jupyter-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/jupyter/openapi/jupyter-terminals-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jupyte
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/kernels/{kernel_id}/restart\n  method: post\n  operationId: restartKernel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/kernelspecs\n  method: get\n  operationId: listKernelSpecs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/terminals\n  method: get\n  operationId: listTerminals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /api/terminals\n  method: post\n  operationId: createTerminal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/terminals/{terminal_id}\n  method: get\n  operationId: getTerminal\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/terminals/{terminal_id}\n  method: delete\n  operationId: closeTerminal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/config/{section_name}\n  method:\
   \ get\n  operationId: getConfigSection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/config/{section_name}\n  method: patch\n  operationId: updateConfigSection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jupyter/refs/heads/main/agentic-access/jupyter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jupyter/agentic-access/jupyter-agentic-access.yml
 summary_line: 30 operations · 17 acting · 1 human-in-the-loop
 tags:
 - Data Science

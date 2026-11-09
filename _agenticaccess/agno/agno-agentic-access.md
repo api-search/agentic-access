@@ -9,127 +9,127 @@ api_specs:
   label: Agno A2A API
   slug: agno-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-a2a-api-openapi.yml
 - filename: agno-agents-api-openapi.yml
   format: yaml
   label: Agno Agents API
   slug: agno-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-agents-api-openapi.yml
 - filename: agno-agui-api-openapi.yml
   format: yaml
   label: Agno AGUI API
   slug: agno-agui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-agui-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-agui-api-openapi.yml
 - filename: agno-approvals-api-openapi.yml
   format: yaml
   label: Agno Approvals API
   slug: agno-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-approvals-api-openapi.yml
 - filename: agno-components-api-openapi.yml
   format: yaml
   label: Agno Components API
   slug: agno-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-components-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-components-api-openapi.yml
 - filename: agno-core-api-openapi.yml
   format: yaml
   label: Agno Core API
   slug: agno-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-core-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-core-api-openapi.yml
 - filename: agno-database-api-openapi.yml
   format: yaml
   label: Agno Database API
   slug: agno-database-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-database-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-database-api-openapi.yml
 - filename: agno-evals-api-openapi.yml
   format: yaml
   label: Agno Evals API
   slug: agno-evals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-evals-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-evals-api-openapi.yml
 - filename: agno-health-api-openapi.yml
   format: yaml
   label: Agno Health API
   slug: agno-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-health-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-health-api-openapi.yml
 - filename: agno-home-api-openapi.yml
   format: yaml
   label: Agno Home API
   slug: agno-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-home-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-home-api-openapi.yml
 - filename: agno-knowledge-api-openapi.yml
   format: yaml
   label: Agno Knowledge API
   slug: agno-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-knowledge-api-openapi.yml
 - filename: agno-memory-api-openapi.yml
   format: yaml
   label: Agno Memory API
   slug: agno-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-memory-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-memory-api-openapi.yml
 - filename: agno-metrics-api-openapi.yml
   format: yaml
   label: Agno Metrics API
   slug: agno-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-metrics-api-openapi.yml
 - filename: agno-registry-api-openapi.yml
   format: yaml
   label: Agno Registry API
   slug: agno-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-registry-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-registry-api-openapi.yml
 - filename: agno-schedules-api-openapi.yml
   format: yaml
   label: Agno Schedules API
   slug: agno-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-schedules-api-openapi.yml
 - filename: agno-sessions-api-openapi.yml
   format: yaml
   label: Agno Sessions API
   slug: agno-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-sessions-api-openapi.yml
 - filename: agno-slack-api-openapi.yml
   format: yaml
   label: Agno Slack API
   slug: agno-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-slack-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-slack-api-openapi.yml
 - filename: agno-teams-api-openapi.yml
   format: yaml
   label: Agno Teams API
   slug: agno-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-teams-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-teams-api-openapi.yml
 - filename: agno-traces-api-openapi.yml
   format: yaml
   label: Agno Traces API
   slug: agno-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-traces-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-traces-api-openapi.yml
 - filename: agno-workflows-api-openapi.yml
   format: yaml
   label: Agno Workflows API
   slug: agno-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-workflows-api-openapi.yml
 - filename: agno-whats-app-api-openapi.yml
   format: yaml
   label: Agno Whats App API
   slug: agno-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/openapi/agno-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/agno/openapi/agno-whats-app-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 60
@@ -218,8 +218,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agno-a
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/rename\n  method: post\n  operationId: rename_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /slack/events\n  method: post\n  operationId: slack_events_simple_team\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /slack/interactions\n  method: post\n  operationId: slack_interactions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/runs\n  method: post\n  operationId: create_team_run\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/runs\n  method: get\n  operationId: list_team_runs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/runs/{run_id}/cancel\n  method: post\n  operationId: cancel_team_run\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams\n  method: get\n  operationId: get_teams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}\n  method: get\n  operationId: get_team\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/runs/{run_id}\n  method: get\n  operationId: get_team_run\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces\n  method: get\n  operationId: get_traces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
-  - path: /traces/filter-schema\n  method: get\n  operationId: get_traces_filter_schema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/{trace_id}\n  method: get\n  operationId: get_trace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trace_session_stats\n  method: get\n  operationId: get_trace_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/search\n  method: post\n  operationId: search_traces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/agentic-access/agno-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agno/refs/heads/main/agentic-access/agno-agentic-access.yml
+  - path: /traces/filter-schema\n  method: get\n  operationId: get_traces_filter_schema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/{trace_id}\n  method: get\n  operationId: get_trace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trace_session_stats\n  method: get\n  operationId: get_trace_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traces/search\n  method: post\n  operationId: search_traces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/agno/agentic-access/agno-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/agno/agentic-access/agno-agentic-access.yml
 summary_line: 117 operations · 57 acting · 1 human-in-the-loop
 tags:
 - AI Agents

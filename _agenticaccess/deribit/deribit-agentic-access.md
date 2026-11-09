@@ -14,73 +14,73 @@ api_specs:
   label: Deribit Account Management API
   slug: deribit-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-account-management-api-openapi.yml
 - filename: deribit-authentication-api-openapi.yml
   format: yaml
   label: Deribit Authentication API
   slug: deribit-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-authentication-api-openapi.yml
 - filename: deribit-block-rfq-api-openapi.yml
   format: yaml
   label: Deribit Block RFQ API
   slug: deribit-block-rfq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-block-rfq-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-block-rfq-api-openapi.yml
 - filename: deribit-block-trade-api-openapi.yml
   format: yaml
   label: Deribit Block Trade API
   slug: deribit-block-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-block-trade-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-block-trade-api-openapi.yml
 - filename: deribit-combo-books-api-openapi.yml
   format: yaml
   label: Deribit Combo Books API
   slug: deribit-combo-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-combo-books-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-combo-books-api-openapi.yml
 - filename: deribit-market-data-api-openapi.yml
   format: yaml
   label: Deribit Market Data API
   slug: deribit-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-market-data-api-openapi.yml
 - filename: deribit-portfolio-management-api-openapi.yml
   format: yaml
   label: Deribit Portfolio Management API
   slug: deribit-portfolio-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-portfolio-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-portfolio-management-api-openapi.yml
 - filename: deribit-session-management-api-openapi.yml
   format: yaml
   label: Deribit Session Management API
   slug: deribit-session-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-session-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-session-management-api-openapi.yml
 - filename: deribit-subscription-management-api-openapi.yml
   format: yaml
   label: Deribit Subscription Management API
   slug: deribit-subscription-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-subscription-management-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-subscription-management-api-openapi.yml
 - filename: deribit-supporting-api-openapi.yml
   format: yaml
   label: Deribit Supporting API
   slug: deribit-supporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-supporting-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-supporting-api-openapi.yml
 - filename: deribit-trading-api-openapi.yml
   format: yaml
   label: Deribit Trading API
   slug: deribit-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-trading-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-trading-api-openapi.yml
 - filename: deribit-wallet-api-openapi.yml
   format: yaml
   label: Deribit Wallet API
   slug: deribit-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/openapi/deribit-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/deribit/openapi/deribit-wallet-api-openapi.yml
 consequence_counts:
   read: 351
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -139,8 +139,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/deribi
   \ 3600\n    audit: none\n- path: /private/get_current_deposit_address\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/withdraw\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/cancel_withdrawal\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/get_withdrawals\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/get_address_book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /private/add_to_address_book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/remove_from_address_book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/update_in_address_book\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/save_address_beneficiary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/get_address_beneficiary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /private/delete_address_beneficiary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/list_address_beneficiaries\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/submit_transfer_to_subaccount\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/submit_transfer_between_subaccounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /private/submit_transfer_to_user\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (65 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/agentic-access/deribit-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deribit/refs/heads/main/agentic-access/deribit-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (65 KB total) ---\n# Full source: https://artifacts.apis.io/deribit/agentic-access/deribit-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/deribit/agentic-access/deribit-agentic-access.yml
 summary_line: 351 operations
 tags:
 - Derivatives

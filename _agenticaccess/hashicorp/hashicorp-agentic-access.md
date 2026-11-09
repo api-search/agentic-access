@@ -9,25 +9,25 @@ api_specs:
   label: HashiCorp Auth API
   slug: hashicorp-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-auth-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-auth-api-openapi.yml
 - filename: hashicorp-identity-api-openapi.yml
   format: yaml
   label: HashiCorp Identity API
   slug: hashicorp-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-identity-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-identity-api-openapi.yml
 - filename: hashicorp-secrets-api-openapi.yml
   format: yaml
   label: HashiCorp Secrets API
   slug: hashicorp-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-secrets-api-openapi.yml
 - filename: hashicorp-system-api-openapi.yml
   format: yaml
   label: HashiCorp System API
   slug: hashicorp-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/openapi/hashicorp-system-api-openapi.yml
+  url: https://artifacts.apis.io/hashicorp/openapi/hashicorp-system-api-openapi.yml
 consequence_counts:
   read: 115
   safety-critical: 17
@@ -175,8 +175,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hashic
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/oidc/role/{name}\n  method: delete\n  operationId: deleteIdentityOidcRoleName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/oidc/scope\n  method: get\n  operationId: getIdentityOidcScope\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/oidc/scope/{name}\n  method: get\n  operationId: getIdentityOidcScopeName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /identity/oidc/scope/{name}\n  method: post\n  operationId: postIdentityOidcScopeName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/oidc/scope/{name}\n  method: delete\n  operationId: deleteIdentityOidcScopeName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/oidc/token/{name}\n  method: get\n  operationId: getIdentityOidcTokenName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /identity/persona\n  method: post\n  operationId: postIdentityPersona\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/persona/id\n  method: get\n  operationId: getIdentityPersonaId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/persona/id/{id}\n  method: get\n  operationId: getIdentityPersonaIdId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /identity/persona/id/{id}\n  method: post\n  operationId: postIdentityPersonaIdId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/persona/id/{id}\n  method: delete\n  operationId: deleteIdentityPersonaIdId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secret/config\n  method: get\n  operationId: getSecretConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (77 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/agentic-access/hashicorp-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hashicorp/refs/heads/main/agentic-access/hashicorp-agentic-access.yml
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identity/persona/id/{id}\n  method: delete\n  operationId: deleteIdentityPersonaIdId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /secret/config\n  method: get\n  operationId: getSecretConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (77 KB total) ---\n# Full source: https://artifacts.apis.io/hashicorp/agentic-access/hashicorp-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hashicorp/agentic-access/hashicorp-agentic-access.yml
 summary_line: 264 operations · 149 acting · 17 human-in-the-loop
 tags:
 - Cloud

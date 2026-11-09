@@ -9,61 +9,61 @@ api_specs:
   label: fatsecret Exercise Diary API
   slug: fatsecret-exercise-diary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-exercise-diary-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-exercise-diary-api-openapi.yml
 - filename: fatsecret-food-diary-api-openapi.yml
   format: yaml
   label: fatsecret Food Diary API
   slug: fatsecret-food-diary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-food-diary-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-food-diary-api-openapi.yml
 - filename: fatsecret-foods-api-openapi.yml
   format: yaml
   label: fatsecret Foods API
   slug: fatsecret-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-foods-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-foods-api-openapi.yml
 - filename: fatsecret-image-recognition-api-openapi.yml
   format: yaml
   label: fatsecret Image Recognition API
   slug: fatsecret-image-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-image-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-image-recognition-api-openapi.yml
 - filename: fatsecret-natural-language-processing-api-openapi.yml
   format: yaml
   label: fatsecret Natural Language Processing API
   slug: fatsecret-natural-language-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-natural-language-processing-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-natural-language-processing-api-openapi.yml
 - filename: fatsecret-profile-foods-api-openapi.yml
   format: yaml
   label: fatsecret Profile Foods API
   slug: fatsecret-profile-foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-foods-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-profile-foods-api-openapi.yml
 - filename: fatsecret-profile-meals-api-openapi.yml
   format: yaml
   label: fatsecret Profile Meals API
   slug: fatsecret-profile-meals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-profile-meals-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-profile-meals-api-openapi.yml
 - filename: fatsecret-recipes-api-openapi.yml
   format: yaml
   label: fatsecret Recipes API
   slug: fatsecret-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-recipes-api-openapi.yml
 - filename: fatsecret-reference-api-openapi.yml
   format: yaml
   label: fatsecret Reference API
   slug: fatsecret-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-reference-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-reference-api-openapi.yml
 - filename: fatsecret-weight-tracking-api-openapi.yml
   format: yaml
   label: fatsecret Weight Tracking API
   slug: fatsecret-weight-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/openapi/fatsecret-weight-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/fatsecret/openapi/fatsecret-weight-tracking-api-openapi.yml
 consequence_counts:
   read: 17
   write: 6
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fatsec
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /food-entries/v2\n  method: post\n  operationId: createFoodEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /food-entries/month/v2\n  method: get\n  operationId: getFoodEntriesMonth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exercise-entries/v2\n  method: get\n  operationId: getExerciseEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /exercise-entries/v2\n  method: post\n  operationId: commitExerciseEntries\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /weights/v2\n  method: get\n  operationId: getWeights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weights/v2\n  method: post\n  operationId: updateWeight\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /saved-meals/v2\n  method: get\n  operationId: listSavedMeals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /saved-meals/v2\n  method: post\n  operationId: createSavedMeal\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fatsecret/refs/heads/main/agentic-access/fatsecret-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fatsecret/agentic-access/fatsecret-agentic-access.yml
 summary_line: 23 operations · 6 acting
 tags:
 - Artificial Intelligence

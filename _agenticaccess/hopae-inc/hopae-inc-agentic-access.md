@@ -9,55 +9,55 @@ api_specs:
   label: Hopae, Inc. Console - API Keys API
   slug: hopae-inc-console-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-console-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-console-api-keys-api-openapi.yml
 - filename: hopae-inc-providers-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Providers API
   slug: hopae-inc-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-providers-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-providers-api-openapi.yml
 - filename: hopae-inc-token-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Token API
   slug: hopae-inc-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-token-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-token-api-openapi.yml
 - filename: hopae-inc-verifications-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Verifications API
   slug: hopae-inc-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-verifications-api-openapi.yml
 - filename: hopae-inc-workspace-api-activation-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Activation API
   slug: hopae-inc-workspace-api-activation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-activation-api-openapi.yml
 - filename: hopae-inc-workspace-api-apps-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Apps API
   slug: hopae-inc-workspace-api-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-apps-api-openapi.yml
 - filename: hopae-inc-workspace-api-production-tests-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Production Tests API
   slug: hopae-inc-workspace-api-production-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-production-tests-api-openapi.yml
 - filename: hopae-inc-workspace-api-workflows-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workflows API
   slug: hopae-inc-workspace-api-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workflows-api-openapi.yml
 - filename: hopae-inc-workspace-api-workspace-api-openapi.yml
   format: yaml
   label: Hopae, Inc. Workspace API - Workspace API
   slug: hopae-inc-workspace-api-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/hopae-inc/openapi/hopae-inc-workspace-api-workspace-api-openapi.yml
 consequence_counts:
   read: 18
   safety-critical: 21
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/hopae-
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/console/api-keys/{id}\n  method: delete\n  operationId: ConsoleController_deleteApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/apps/{id}/rotate-client-secret\n  method: post\n  operationId: WorkspaceAppsController_rotateClientSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/verifications/{verificationId}/evidence\n\
   \  method: get\n  operationId: VerificationController_getVerificationEvidence\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/verifications/{verificationId}/userinfo\n  method: get\n  operationId: VerificationController_getVerificationUserinfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/verifications/dc-request\n  method: post\n  operationId: VerificationController_createDcRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/providers/{providerId}/configuration\n  method: get\n  operationId:\
   \ ProvidersController_getProviderConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hopae-inc/refs/heads/main/agentic-access/hopae-inc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hopae-inc/agentic-access/hopae-inc-agentic-access.yml
 summary_line: 42 operations · 24 acting · 21 human-in-the-loop
 tags:
 - Company

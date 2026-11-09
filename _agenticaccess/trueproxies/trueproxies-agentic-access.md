@@ -9,31 +9,31 @@ api_specs:
   label: TrueProxies Analytics API
   slug: trueproxies-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-analytics-api-openapi.yml
 - filename: trueproxies-catalog-api-openapi.yml
   format: yaml
   label: TrueProxies Catalog API
   slug: trueproxies-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-catalog-api-openapi.yml
 - filename: trueproxies-invoices-api-openapi.yml
   format: yaml
   label: TrueProxies Invoices API
   slug: trueproxies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-invoices-api-openapi.yml
 - filename: trueproxies-me-api-openapi.yml
   format: yaml
   label: TrueProxies Me API
   slug: trueproxies-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-me-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-me-api-openapi.yml
 - filename: trueproxies-services-api-openapi.yml
   format: yaml
   label: TrueProxies Services API
   slug: trueproxies-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/openapi/trueproxies-services-api-openapi.yml
+  url: https://artifacts.apis.io/trueproxies/openapi/trueproxies-services-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/truepr
   \ post_v1_services_id_endpoints\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/services/{id}/live-metrics\n  method: get\n  operationId: get_v1_services_id_live_metrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services/{id}/rotate-password\n  method: post\n  operationId: post_v1_services_id_rotate_password\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/services/{id}/secret\n  method: get\n  operationId:\
   \ get_v1_services_id_secret\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services/{id}/usage\n  method: get\n  operationId: get_v1_services_id_usage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services/{id}/whitelist\n  method: get\n  operationId: get_v1_services_id_whitelist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services/{id}/whitelist\n  method: post\n  operationId: post_v1_services_id_whitelist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/services/{id}/whitelist/{entryId}\n  method: delete\n  operationId: delete_v1_services_id_whitelist_entryId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trueproxies/refs/heads/main/agentic-access/trueproxies-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trueproxies/agentic-access/trueproxies-agentic-access.yml
 summary_line: 21 operations · 7 acting
 tags:
 - Proxies

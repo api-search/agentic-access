@@ -9,67 +9,67 @@ api_specs:
   label: CFX Labs Cash API
   slug: cfx-labs-cash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-cash-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-cash-api-openapi.yml
 - filename: cfx-labs-deposit-api-openapi.yml
   format: yaml
   label: CFX Labs Deposit API
   slug: cfx-labs-deposit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-deposit-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-deposit-api-openapi.yml
 - filename: cfx-labs-deposit-memos-api-openapi.yml
   format: yaml
   label: CFX Labs Deposit Memos API
   slug: cfx-labs-deposit-memos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-deposit-memos-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-deposit-memos-api-openapi.yml
 - filename: cfx-labs-escrow-transfers-api-openapi.yml
   format: yaml
   label: CFX Labs Escrow Transfers API
   slug: cfx-labs-escrow-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-escrow-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-escrow-transfers-api-openapi.yml
 - filename: cfx-labs-identity-api-openapi.yml
   format: yaml
   label: CFX Labs Identity API
   slug: cfx-labs-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-identity-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-identity-api-openapi.yml
 - filename: cfx-labs-identity-documents-api-openapi.yml
   format: yaml
   label: CFX Labs Identity Documents API
   slug: cfx-labs-identity-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-identity-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-identity-documents-api-openapi.yml
 - filename: cfx-labs-ledger-accounts-api-openapi.yml
   format: yaml
   label: CFX Labs Ledger Accounts API
   slug: cfx-labs-ledger-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-ledger-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-ledger-accounts-api-openapi.yml
 - filename: cfx-labs-payment-instruments-api-openapi.yml
   format: yaml
   label: CFX Labs Payment Instruments API
   slug: cfx-labs-payment-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-payment-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-payment-instruments-api-openapi.yml
 - filename: cfx-labs-products-api-openapi.yml
   format: yaml
   label: CFX Labs Products API
   slug: cfx-labs-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-products-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-products-api-openapi.yml
 - filename: cfx-labs-transfer-requests-api-openapi.yml
   format: yaml
   label: CFX Labs Transfer Requests API
   slug: cfx-labs-transfer-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-transfer-requests-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-transfer-requests-api-openapi.yml
 - filename: cfx-labs-us-bank-ach-api-openapi.yml
   format: yaml
   label: CFX Labs US Bank ACH API
   slug: cfx-labs-us-bank-ach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/openapi/cfx-labs-us-bank-ach-api-openapi.yml
+  url: https://artifacts.apis.io/cfx-labs/openapi/cfx-labs-us-bank-ach-api-openapi.yml
 consequence_counts:
   physical: 20
   read: 25
@@ -213,7 +213,7 @@ source_yaml: "generated: '2026-10-08'\nmethod: generated\nsource: openapi/cash-d
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/identity/{identityId}/documents/{documentId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/identity/{identityId}/documents/{documentId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/identity/{identityId}/ledger-accounts\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/identity/{identityId}/ledger-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/identity/{identityId}/ledger-accounts/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/identity/{identityId}/ledger-accounts/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/identity/{identityId}/products\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cfx-labs/refs/heads/main/agentic-access/cfx-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cfx-labs/agentic-access/cfx-labs-agentic-access.yml
 summary_line: 53 operations · 28 acting
 tags:
 - Fintech

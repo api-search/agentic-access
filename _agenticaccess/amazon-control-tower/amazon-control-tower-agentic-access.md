@@ -9,25 +9,25 @@ api_specs:
   label: Amazon Control Tower Baselines API
   slug: amazon-control-tower-baselines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-baselines-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-baselines-api-openapi.yml
 - filename: amazon-control-tower-controls-api-openapi.yml
   format: yaml
   label: Amazon Control Tower Controls API
   slug: amazon-control-tower-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-controls-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-controls-api-openapi.yml
 - filename: amazon-control-tower-landing-zones-api-openapi.yml
   format: yaml
   label: Amazon Control Tower Landing Zones API
   slug: amazon-control-tower-landing-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-landing-zones-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-landing-zones-api-openapi.yml
 - filename: amazon-control-tower-tags-api-openapi.yml
   format: yaml
   label: Amazon Control Tower Tags API
   slug: amazon-control-tower-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/openapi/amazon-control-tower-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-control-tower/openapi/amazon-control-tower-tags-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 17
@@ -151,9 +151,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /get-landingzone\n  method: post\n  operationId: getLandingZone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-landingzones\n  method: post\n  operationId: listLandingZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /update-landingzone\n  method: post\n  operationId: updateLandingZone\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit:\
   \ required\n- path: /reset-landingzone\n  method: post\n  operationId: resetLandingZone\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /get-landingzone-operation\n  method: post\n  operationId: getLandingZoneOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /list-landingzone-operations\n  method: post\n  operationId: listLandingZoneOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-control-tower/refs/heads/main/agentic-access/amazon-control-tower-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-control-tower/agentic-access/amazon-control-tower-agentic-access.yml
 summary_line: 28 operations · 17 acting · 17 human-in-the-loop
 tags:
+- Amazon Web Services
 - Compliance
 - Governance
 - Landing Zone

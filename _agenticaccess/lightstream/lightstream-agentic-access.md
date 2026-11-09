@@ -9,61 +9,61 @@ api_specs:
   label: Lightstream BackendAuthenticationService API
   slug: lightstream-backendauthenticationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-backendauthenticationservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-backendauthenticationservice-api-openapi.yml
 - filename: lightstream-collectionservice-api-openapi.yml
   format: yaml
   label: Lightstream CollectionService API
   slug: lightstream-collectionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-collectionservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-collectionservice-api-openapi.yml
 - filename: lightstream-destinationservice-api-openapi.yml
   format: yaml
   label: Lightstream DestinationService API
   slug: lightstream-destinationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-destinationservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-destinationservice-api-openapi.yml
 - filename: lightstream-layerservice-api-openapi.yml
   format: yaml
   label: Lightstream LayerService API
   slug: lightstream-layerservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layerservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-layerservice-api-openapi.yml
 - filename: lightstream-layoutservice-api-openapi.yml
   format: yaml
   label: Lightstream LayoutService API
   slug: lightstream-layoutservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-layoutservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-layoutservice-api-openapi.yml
 - filename: lightstream-projectservice-api-openapi.yml
   format: yaml
   label: Lightstream ProjectService API
   slug: lightstream-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-projectservice-api-openapi.yml
 - filename: lightstream-publicauthenticationservice-api-openapi.yml
   format: yaml
   label: Lightstream PublicAuthenticationService API
   slug: lightstream-publicauthenticationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-publicauthenticationservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-publicauthenticationservice-api-openapi.yml
 - filename: lightstream-sourceservice-api-openapi.yml
   format: yaml
   label: Lightstream SourceService API
   slug: lightstream-sourceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-sourceservice-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-sourceservice-api-openapi.yml
 - filename: lightstream-authentication-service-api-openapi.yml
   format: yaml
   label: Lightstream Authentication Service API
   slug: lightstream-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-authentication-service-api-openapi.yml
 - filename: lightstream-event-service-api-openapi.yml
   format: yaml
   label: Lightstream Event Service API
   slug: lightstream-event-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/openapi/lightstream-event-service-api-openapi.yml
+  url: https://artifacts.apis.io/lightstream/openapi/lightstream-event-service-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 2
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lights
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /collection/{collectionId}/source\n  method: get\n  operationId: SourceService_GetSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collection/{collectionId}/source\n  method: post\n  operationId: SourceService_CreateSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collection/{collectionId}/source/{sourceId}\n  method:\
   \ get\n  operationId: SourceService_GetSource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collection/{collectionId}/source/{sourceId}\n  method: delete\n  operationId: SourceService_DeleteSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /collection/{collectionId}/source/{sourceId}\n  method: patch\n  operationId: SourceService_UpdateSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /r/{serviceId}/{code}\n\
   \  method: get\n  operationId: PublicAuthenticationService_GuestCodeRedirect\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightstream/refs/heads/main/agentic-access/lightstream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightstream/agentic-access/lightstream-agentic-access.yml
 summary_line: 45 operations · 30 acting · 2 human-in-the-loop
 tags:
 - Company

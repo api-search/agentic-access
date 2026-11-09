@@ -9,97 +9,97 @@ api_specs:
   label: SAP Event Mesh API
   slug: sap-event-mesh-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/asyncapi/sap-event-mesh-asyncapi.yml
+  url: https://artifacts.apis.io/sap/asyncapi/sap-event-mesh-asyncapi.yml
 - filename: sap-addresses-api-openapi.yml
   format: yaml
   label: SAP Addresses API
   slug: sap-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-addresses-api-openapi.yml
 - filename: sap-artifacts-api-openapi.yml
   format: yaml
   label: SAP Artifacts API
   slug: sap-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-artifacts-api-openapi.yml
 - filename: sap-authentication-api-openapi.yml
   format: yaml
   label: SAP Authentication API
   slug: sap-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-authentication-api-openapi.yml
 - filename: sap-bank-accounts-api-openapi.yml
   format: yaml
   label: SAP Bank Accounts API
   slug: sap-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-bank-accounts-api-openapi.yml
 - filename: sap-business-partners-api-openapi.yml
   format: yaml
   label: SAP Business Partners API
   slug: sap-business-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-business-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-business-partners-api-openapi.yml
 - filename: sap-configurations-api-openapi.yml
   format: yaml
   label: SAP Configurations API
   slug: sap-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-configurations-api-openapi.yml
 - filename: sap-deployments-api-openapi.yml
   format: yaml
   label: SAP Deployments API
   slug: sap-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-deployments-api-openapi.yml
 - filename: sap-executions-api-openapi.yml
   format: yaml
   label: SAP Executions API
   slug: sap-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-executions-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-executions-api-openapi.yml
 - filename: sap-invoices-api-openapi.yml
   format: yaml
   label: SAP Invoices API
   slug: sap-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-invoices-api-openapi.yml
 - filename: sap-items-api-openapi.yml
   format: yaml
   label: SAP Items API
   slug: sap-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-items-api-openapi.yml
 - filename: sap-journal-entries-api-openapi.yml
   format: yaml
   label: SAP Journal Entries API
   slug: sap-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-journal-entries-api-openapi.yml
 - filename: sap-orders-api-openapi.yml
   format: yaml
   label: SAP Orders API
   slug: sap-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-orders-api-openapi.yml
 - filename: sap-roles-api-openapi.yml
   format: yaml
   label: SAP Roles API
   slug: sap-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-roles-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-roles-api-openapi.yml
 - filename: sap-scenarios-api-openapi.yml
   format: yaml
   label: SAP Scenarios API
   slug: sap-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-scenarios-api-openapi.yml
 - filename: sap-tax-numbers-api-openapi.yml
   format: yaml
   label: SAP Tax Numbers API
   slug: sap-tax-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/openapi/sap-tax-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/sap/openapi/sap-tax-numbers-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 19
@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-ai
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_BusinessPartner\n  method: post\n  operationId: createBusinessPartner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /A_BusinessPartner('{BusinessPartner}')\n  method: get\n  operationId: getBusinessPartner\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_BusinessPartner('{BusinessPartner}')\n  method: patch\n  operationId: updateBusinessPartner\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /A_BusinessPartnerAddress\n  method: get\n  operationId: listBusinessPartnerAddresses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_BusinessPartnerBank\n  method: get\n  operationId: listBusinessPartnerBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_BusinessPartnerRole\n  method: get\n  operationId: listBusinessPartnerRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /A_BusinessPartnerTaxNumber\n  method: get\n  operationId: listBusinessPartnerTaxNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/agentic-access/sap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap/agentic-access/sap-agentic-access.yml
 summary_line: 33 operations · 14 acting · 1 human-in-the-loop
 tags:
 - SAP

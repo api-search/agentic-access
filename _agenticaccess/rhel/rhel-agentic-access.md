@@ -8,31 +8,31 @@ api_specs:
   label: Red Hat Enterprise Linux Advisories API
   slug: rhel-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-advisories-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-advisories-api-openapi.yml
 - filename: rhel-oval-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux OVAL API
   slug: rhel-oval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-oval-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-oval-api-openapi.yml
 - filename: rhel-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Subscriptions API
   slug: rhel-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-subscriptions-api-openapi.yml
 - filename: rhel-systems-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux Systems API
   slug: rhel-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-systems-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-systems-api-openapi.yml
 - filename: rhel-cves-api-openapi.yml
   format: yaml
   label: Red Hat Enterprise Linux CV Es API
   slug: rhel-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/openapi/rhel-cves-api-openapi.yml
+  url: https://artifacts.apis.io/rhel/openapi/rhel-cves-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rhel-security-data-openapi.yml, openapi/rhel-subscription-management-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /cve.json\n  method: get\n  operationId: listCVEs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cve/{cveId}.json\n  method: get\n  operationId: getCVE\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cvrf/{advisoryId}.json\n\
   \  method: get\n  operationId: getAdvisory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oval/com.redhat.rhsa-RHEL{majorVersion}.xml.bz2\n  method: get\n  operationId: getOVALStream\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems\n  method: get\n  operationId: listSystems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /systems/{uuid}\n  method: get\n  operationId: getSystem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /allocations\n  method: get\n  operationId: listAllocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rhel/refs/heads/main/agentic-access/rhel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rhel/agentic-access/rhel-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Automation

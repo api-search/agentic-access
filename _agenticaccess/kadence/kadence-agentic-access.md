@@ -9,67 +9,67 @@ api_specs:
   label: Kadence Bookable Day API
   slug: kadence-bookable-day-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-bookable-day-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-bookable-day-api-openapi.yml
 - filename: kadence-bookable-onsite-pass-api-openapi.yml
   format: yaml
   label: Kadence Bookable Onsite Pass API
   slug: kadence-bookable-onsite-pass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-bookable-onsite-pass-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-bookable-onsite-pass-api-openapi.yml
 - filename: kadence-bookable-space-api-openapi.yml
   format: yaml
   label: Kadence Bookable Space API
   slug: kadence-bookable-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-bookable-space-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-bookable-space-api-openapi.yml
 - filename: kadence-booking-api-openapi.yml
   format: yaml
   label: Kadence Booking API
   slug: kadence-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-booking-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-booking-api-openapi.yml
 - filename: kadence-building-api-openapi.yml
   format: yaml
   label: Kadence Building API
   slug: kadence-building-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-building-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-building-api-openapi.yml
 - filename: kadence-floor-api-openapi.yml
   format: yaml
   label: Kadence Floor API
   slug: kadence-floor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-floor-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-floor-api-openapi.yml
 - filename: kadence-neighborhood-api-openapi.yml
   format: yaml
   label: Kadence Neighborhood API
   slug: kadence-neighborhood-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-neighborhood-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-neighborhood-api-openapi.yml
 - filename: kadence-space-api-openapi.yml
   format: yaml
   label: Kadence Space API
   slug: kadence-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-space-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-space-api-openapi.yml
 - filename: kadence-user-api-openapi.yml
   format: yaml
   label: Kadence User API
   slug: kadence-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-user-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-user-api-openapi.yml
 - filename: kadence-visit-api-openapi.yml
   format: yaml
   label: Kadence Visit API
   slug: kadence-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-visit-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-visit-api-openapi.yml
 - filename: kadence-visitor-api-openapi.yml
   format: yaml
   label: Kadence Visitor API
   slug: kadence-visitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/openapi/kadence-visitor-api-openapi.yml
+  url: https://artifacts.apis.io/kadence/openapi/kadence-visitor-api-openapi.yml
 consequence_counts:
   read: 21
   write: 6
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/kadenc
   \ 3600\n    audit: none\n- path: /v1/public/neighborhoods/{id}\n  method: get\n  operationId: api_v1publicneighborhoods_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/spaces\n  method: get\n  operationId: api_v1publicspaces_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/spaces/{id}\n  method: get\n  operationId: api_v1publicspaces_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/users\n  method: get\n  operationId: api_v1publicusers_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/users/{id}\n\
   \  method: get\n  operationId: api_v1publicusers_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/users/{id}\n  method: patch\n  operationId: api_v1publicusers_id_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/public/users/{id}/photo\n  method: post\n  operationId: api_v1publicusers_idphoto_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/public/visits\n  method: get\n  operationId:\
   \ api_v1publicvisits_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/visits/{id}\n  method: get\n  operationId: api_v1publicvisits_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/visitors\n  method: get\n  operationId: api_v1publicvisitors_get_collection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/public/visitors/{id}\n  method: get\n  operationId: api_v1publicvisitors_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/agentic-access/kadence-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kadence/agentic-access/kadence-agentic-access.yml
 summary_line: 27 operations · 6 acting
 tags:
 - Company
@@ -115,5 +115,6 @@ tags:
 - Visitor Management
 - Workplace Analytics
 - Facilities
+- OAuth
 - Authentication
 ---

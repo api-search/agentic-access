@@ -9,37 +9,37 @@ api_specs:
   label: Sandbox Banking Adapters API
   slug: sandbox-banking-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/sandbox-banking/openapi/sandbox-banking-adapters-api-openapi.yml
 - filename: sandbox-banking-field-mappings-api-openapi.yml
   format: yaml
   label: Sandbox Banking Field Mappings API
   slug: sandbox-banking-field-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-field-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/sandbox-banking/openapi/sandbox-banking-field-mappings-api-openapi.yml
 - filename: sandbox-banking-integrations-api-openapi.yml
   format: yaml
   label: Sandbox Banking Integrations API
   slug: sandbox-banking-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/sandbox-banking/openapi/sandbox-banking-integrations-api-openapi.yml
 - filename: sandbox-banking-run-history-api-openapi.yml
   format: yaml
   label: Sandbox Banking Run History API
   slug: sandbox-banking-run-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-run-history-api-openapi.yml
+  url: https://artifacts.apis.io/sandbox-banking/openapi/sandbox-banking-run-history-api-openapi.yml
 - filename: sandbox-banking-service-requests-api-openapi.yml
   format: yaml
   label: Sandbox Banking Service Requests API
   slug: sandbox-banking-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/sandbox-banking/openapi/sandbox-banking-service-requests-api-openapi.yml
 - filename: sandbox-banking-value-mappings-api-openapi.yml
   format: yaml
   label: Sandbox Banking Value Mappings API
   slug: sandbox-banking-value-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/openapi/sandbox-banking-value-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/sandbox-banking/openapi/sandbox-banking-value-mappings-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sandbo
   \   - abnormal\n      - high-value\n    audit: required\n- path: /integrations/{integrationId}/run\n  method: post\n  operationId: runIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/{integrationId}/service-requests\n  method: get\n  operationId: listServiceRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/{integrationId}/service-requests\n  method: post\n  operationId: createServiceRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /integrations/{integrationId}/field-mappings\n  method: get\n  operationId: listFieldMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/{integrationId}/field-mappings\n  method: post\n  operationId: createFieldMapping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /value-mappings\n  method: get\n  operationId: listValueMappings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /value-mappings\n  method: post\n  operationId: createValueMapping\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /run-history\n  method: get\n  operationId: listRunHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /run-history/{runId}\n  method: get\n  operationId: getRunHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /adapters\n  method: get\n  operationId: listAdapters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sandbox-banking/refs/heads/main/agentic-access/sandbox-banking-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sandbox-banking/agentic-access/sandbox-banking-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - API Integration

@@ -9,31 +9,31 @@ api_specs:
   label: Uncapped Applicants API
   slug: uncapped-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/uncapped/openapi/uncapped-applicants-api-openapi.yml
 - filename: uncapped-applications-api-openapi.yml
   format: yaml
   label: Uncapped Applications API
   slug: uncapped-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-applications-api-openapi.yml
+  url: https://artifacts.apis.io/uncapped/openapi/uncapped-applications-api-openapi.yml
 - filename: uncapped-authentication-api-openapi.yml
   format: yaml
   label: Uncapped Authentication API
   slug: uncapped-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/uncapped/openapi/uncapped-authentication-api-openapi.yml
 - filename: uncapped-estimations-api-openapi.yml
   format: yaml
   label: Uncapped Estimations API
   slug: uncapped-estimations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-estimations-api-openapi.yml
+  url: https://artifacts.apis.io/uncapped/openapi/uncapped-estimations-api-openapi.yml
 - filename: uncapped-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Uncapped Webhook Subscriptions API
   slug: uncapped-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/openapi/uncapped-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/uncapped/openapi/uncapped-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 9
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/uncapp
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /estimations/pre-offers/batch\n  method: post\n  operationId: handlePreOfferEstimationBatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /webhooks/subscriptions/{eventType}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /webhooks/subscriptions/{eventType}\n  method: patch\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - read\n    - write\n- path: /applications/{applicationId}\n  method: get\n  operationId: getApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /applicants/{partnerApplicantId}/signals\n  method: get\n  operationId: getSignals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n    scope:\n    - read\n    - write\n- path: /applicants/{partnerApplicantId}/estimations/pre-offers\n  method: get\n  operationId: getPreOfferEstimations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /applicants/{partnerApplicantId}/applications\n  method: get\n  operationId: getApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uncapped/refs/heads/main/agentic-access/uncapped-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uncapped/agentic-access/uncapped-agentic-access.yml
 summary_line: 14 operations · 9 acting
 tags:
 - Company

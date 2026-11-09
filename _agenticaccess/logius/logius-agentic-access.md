@@ -9,73 +9,73 @@ api_specs:
   label: Logius Announce API
   slug: logius-announce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-announce-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-announce-api-openapi.yml
 - filename: logius-contracts-api-openapi.yml
   format: yaml
   label: Logius Contracts API
   slug: logius-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-contracts-api-openapi.yml
 - filename: logius-domains-api-openapi.yml
   format: yaml
   label: Logius Domains API
   slug: logius-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-domains-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-domains-api-openapi.yml
 - filename: logius-events-api-openapi.yml
   format: yaml
   label: Logius Events API
   slug: logius-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-events-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-events-api-openapi.yml
 - filename: logius-manager-api-openapi.yml
   format: yaml
   label: Logius Manager API
   slug: logius-manager-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-manager-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-manager-api-openapi.yml
 - filename: logius-peers-api-openapi.yml
   format: yaml
   label: Logius Peers API
   slug: logius-peers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-peers-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-peers-api-openapi.yml
 - filename: logius-services-api-openapi.yml
   format: yaml
   label: Logius Services API
   slug: logius-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-services-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-services-api-openapi.yml
 - filename: logius-subscriptions-api-openapi.yml
   format: yaml
   label: Logius Subscriptions API
   slug: logius-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-subscriptions-api-openapi.yml
 - filename: logius-terugmelding-api-openapi.yml
   format: yaml
   label: Logius Terugmelding API
   slug: logius-terugmelding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-terugmelding-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-terugmelding-api-openapi.yml
 - filename: logius-terugmeldingstatus-api-openapi.yml
   format: yaml
   label: Logius Terugmelding Status API
   slug: logius-terugmeldingstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-terugmeldingstatus-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-terugmeldingstatus-api-openapi.yml
 - filename: logius-token-api-openapi.yml
   format: yaml
   label: Logius Token API
   slug: logius-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-token-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-token-api-openapi.yml
 - filename: logius-well-known-api-openapi.yml
   format: yaml
   label: Logius .well Known API
   slug: logius-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/openapi/logius-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/logius/openapi/logius-well-known-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/logius
   \ | events.consume)\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: subscriptions_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - (events.publish | events.consume)\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: subscriptions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - events.consume\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{uuid}\n  method: get\n  operationId: subscription_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - (events.publish | events.consume)\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /subscriptions/{uuid}\n  method: put\n  operationId: subscription_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - events.consume\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{uuid}\n  method: patch\n  operationId: subscription_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - events.consume\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{uuid}\n  method: delete\n  operationId: subscription_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - events.consume\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terugmelding\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /terugmelding\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terugmeldingStatus\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logius/refs/heads/main/agentic-access/logius-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/logius/agentic-access/logius-agentic-access.yml
 summary_line: 24 operations · 13 acting · 1 human-in-the-loop
 tags:
 - Company

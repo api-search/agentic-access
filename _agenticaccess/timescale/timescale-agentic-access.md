@@ -9,67 +9,67 @@ api_specs:
   label: Timescale Analytics API
   slug: timescale-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-analytics-api-openapi.yml
 - filename: timescale-auth-api-openapi.yml
   format: yaml
   label: Timescale Auth API
   slug: timescale-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-auth-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-auth-api-openapi.yml
 - filename: timescale-feedback-api-openapi.yml
   format: yaml
   label: Timescale Feedback API
   slug: timescale-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-feedback-api-openapi.yml
 - filename: timescale-health-api-openapi.yml
   format: yaml
   label: Timescale Health API
   slug: timescale-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-health-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-health-api-openapi.yml
 - filename: timescale-invites-api-openapi.yml
   format: yaml
   label: Timescale Invites API
   slug: timescale-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-invites-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-invites-api-openapi.yml
 - filename: timescale-pricing-api-openapi.yml
   format: yaml
   label: Timescale Pricing API
   slug: timescale-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-pricing-api-openapi.yml
 - filename: timescale-projects-api-openapi.yml
   format: yaml
   label: Timescale Projects API
   slug: timescale-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-projects-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-projects-api-openapi.yml
 - filename: timescale-read-replica-sets-api-openapi.yml
   format: yaml
   label: Timescale Read Replica Sets API
   slug: timescale-read-replica-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-read-replica-sets-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-read-replica-sets-api-openapi.yml
 - filename: timescale-services-api-openapi.yml
   format: yaml
   label: Timescale Services API
   slug: timescale-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-services-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-services-api-openapi.yml
 - filename: timescale-spaces-api-openapi.yml
   format: yaml
   label: Timescale Spaces API
   slug: timescale-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-spaces-api-openapi.yml
 - filename: timescale-vpcs-api-openapi.yml
   format: yaml
   label: Timescale VP Cs API
   slug: timescale-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/openapi/timescale-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/timescale/openapi/timescale-vpcs-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 30
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/timesc
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/vpcs/{vpc_id}\n  method: get\n  operationId: getVPC\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/vpcs/{vpc_id}\n  method: delete\n  operationId: deleteVPC\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/vpcs/{vpc_id}/rename\n  method: post\n  operationId: renameVPC\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /projects/{project_id}/vpcs/{vpc_id}/peerings\n  method: get\n  operationId: getVPCPeerings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/vpcs/{vpc_id}/peerings\n  method: post\n  operationId: createVPCPeering\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{project_id}/vpcs/{vpc_id}/peerings/{peering_id}\n  method: get\n  operationId: getVPCPeering\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{project_id}/vpcs/{vpc_id}/peerings/{peering_id}\n  method:\
   \ delete\n  operationId: deleteVPCPeering\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timescale/refs/heads/main/agentic-access/timescale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/timescale/agentic-access/timescale-agentic-access.yml
 summary_line: 83 operations · 53 acting · 4 human-in-the-loop
 tags:
 - Company

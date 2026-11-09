@@ -9,67 +9,67 @@ api_specs:
   label: Chase Rewards Balance API
   slug: rewards-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-rewards-balance-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-rewards-balance-api-openapi.yml
 - filename: chase-accounts-api-openapi.yml
   format: yaml
   label: Chase Accounts API
   slug: chase-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-accounts-api-openapi.yml
 - filename: chase-consents-api-openapi.yml
   format: yaml
   label: Chase Consents API
   slug: chase-consents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-consents-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-consents-api-openapi.yml
 - filename: chase-customers-api-openapi.yml
   format: yaml
   label: Chase Customers API
   slug: chase-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-customers-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-customers-api-openapi.yml
 - filename: chase-enrollments-api-openapi.yml
   format: yaml
   label: Chase Enrollments API
   slug: chase-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-enrollments-api-openapi.yml
 - filename: chase-merchants-api-openapi.yml
   format: yaml
   label: Chase Merchants API
   slug: chase-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-merchants-api-openapi.yml
 - filename: chase-orders-api-openapi.yml
   format: yaml
   label: Chase Orders API
   slug: chase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-orders-api-openapi.yml
 - filename: chase-refunds-api-openapi.yml
   format: yaml
   label: Chase Refunds API
   slug: chase-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-refunds-api-openapi.yml
 - filename: chase-statements-api-openapi.yml
   format: yaml
   label: Chase Statements API
   slug: chase-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-statements-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-statements-api-openapi.yml
 - filename: chase-tax-forms-api-openapi.yml
   format: yaml
   label: Chase Tax Forms API
   slug: chase-tax-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-tax-forms-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-tax-forms-api-openapi.yml
 - filename: chase-transactions-api-openapi.yml
   format: yaml
   label: Chase Transactions API
   slug: chase-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/openapi/chase-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/chase/openapi/chase-transactions-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 13
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/chase-
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/capture\n  method: post\n  operationId: captureOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/reverse\n  method: post\n  operationId: reverseOrder\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{orderId}/refunds\n  method: post\n  operationId: refundOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /balances\n  method: post\n  operationId: getRewardsBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/statements\n\
   \  method: get\n  operationId: listStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/tax-forms\n  method: get\n  operationId: listTaxForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: listAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/agentic-access/chase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/chase/agentic-access/chase-agentic-access.yml
 summary_line: 23 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Account Aggregation

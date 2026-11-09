@@ -9,55 +9,55 @@ api_specs:
   label: Vonage Video API Archives API
   slug: vonage-video-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-archives-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-archives-api-openapi.yml
 - filename: vonage-video-broadcasts-api-openapi.yml
   format: yaml
   label: Vonage Video API Broadcasts API
   slug: vonage-video-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-broadcasts-api-openapi.yml
 - filename: vonage-video-captions-api-openapi.yml
   format: yaml
   label: Vonage Video API Captions API
   slug: vonage-video-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-captions-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-captions-api-openapi.yml
 - filename: vonage-video-moderation-api-openapi.yml
   format: yaml
   label: Vonage Video API Moderation API
   slug: vonage-video-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-moderation-api-openapi.yml
 - filename: vonage-video-render-api-openapi.yml
   format: yaml
   label: Vonage Video API Render API
   slug: vonage-video-render-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-render-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-render-api-openapi.yml
 - filename: vonage-video-sessions-api-openapi.yml
   format: yaml
   label: Vonage Video API Sessions API
   slug: vonage-video-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-sessions-api-openapi.yml
 - filename: vonage-video-signaling-api-openapi.yml
   format: yaml
   label: Vonage Video API Signaling API
   slug: vonage-video-signaling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-signaling-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-signaling-api-openapi.yml
 - filename: vonage-video-sip-api-openapi.yml
   format: yaml
   label: Vonage Video API SIP API
   slug: vonage-video-sip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-sip-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-sip-api-openapi.yml
 - filename: vonage-video-streams-api-openapi.yml
   format: yaml
   label: Vonage Video API Streams API
   slug: vonage-video-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/openapi/vonage-video-streams-api-openapi.yml
+  url: https://artifacts.apis.io/vonage-video/openapi/vonage-video-streams-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/vonage
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{applicationId}/captions/{captionsId}/start\n  method: post\n  operationId: startCaptions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{applicationId}/captions/{captionsId}/stop\n  method: post\n  operationId: stopCaptions\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /project/{applicationId}/render\n  method: get\n  operationId: listRenders\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project/{applicationId}/render\n  method: post\n  operationId: startRender\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project/{applicationId}/render/{renderId}\n  method: get\n  operationId: getRender\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project/{applicationId}/render/{renderId}\n  method: delete\n  operationId: stopRender\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n\
   \      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/agentic-access/vonage-video-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vonage-video/agentic-access/vonage-video-agentic-access.yml
 summary_line: 33 operations · 24 acting · 4 human-in-the-loop
 tags:
 - Video

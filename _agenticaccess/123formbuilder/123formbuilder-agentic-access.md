@@ -9,31 +9,31 @@ api_specs:
   label: 123FormBuilder Accounts API
   slug: 123formbuilder-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-accounts-api-openapi.yml
 - filename: 123formbuilder-forms-api-openapi.yml
   format: yaml
   label: 123FormBuilder Forms API
   slug: 123formbuilder-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-forms-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-forms-api-openapi.yml
 - filename: 123formbuilder-groups-api-openapi.yml
   format: yaml
   label: 123FormBuilder Groups API
   slug: 123formbuilder-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-groups-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-groups-api-openapi.yml
 - filename: 123formbuilder-login-api-openapi.yml
   format: yaml
   label: 123FormBuilder Login API
   slug: 123formbuilder-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-login-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-login-api-openapi.yml
 - filename: 123formbuilder-users-api-openapi.yml
   format: yaml
   label: 123FormBuilder Users API
   slug: 123formbuilder-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/openapi/123formbuilder-users-api-openapi.yml
+  url: https://artifacts.apis.io/123formbuilder/openapi/123formbuilder-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 17
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/123for
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/forms\n  method: get\n  operationId: groups-get-all-forms-in-a-group\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{group_id}/share\n  method: post\n  operationId: groups-share-a-group-with-a-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/unshare\n  method: post\n  operationId: groups-unshare-a-group-from-a-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: users-get-info-about-master-user-and-subusers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: users-create-a-new-subuser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{identifier}\n  method: put\n  operationId: users-update-user\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /accounts\n  method: post\n  operationId: accounts-create-new-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{user_id}\n  method: put\n  operationId: accounts-update-account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/123formbuilder/refs/heads/main/agentic-access/123formbuilder-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/123formbuilder/agentic-access/123formbuilder-agentic-access.yml
 summary_line: 26 operations · 17 acting
 tags:
 - Online Forms

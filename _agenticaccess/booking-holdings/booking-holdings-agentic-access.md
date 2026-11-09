@@ -8,55 +8,55 @@ api_specs:
   label: Booking Holdings Accommodations API
   slug: booking-holdings-accommodations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-accommodations-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-accommodations-api-openapi.yml
 - filename: booking-holdings-attachments-api-openapi.yml
   format: yaml
   label: Booking Holdings Attachments API
   slug: booking-holdings-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-attachments-api-openapi.yml
 - filename: booking-holdings-cars-api-openapi.yml
   format: yaml
   label: Booking Holdings Cars API
   slug: booking-holdings-cars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-cars-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-cars-api-openapi.yml
 - filename: booking-holdings-common-languages-api-openapi.yml
   format: yaml
   label: Booking Holdings Common/languages API
   slug: booking-holdings-common-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-common-languages-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-common-languages-api-openapi.yml
 - filename: booking-holdings-common-locations-api-openapi.yml
   format: yaml
   label: Booking Holdings Common/locations API
   slug: booking-holdings-common-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-common-locations-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-common-locations-api-openapi.yml
 - filename: booking-holdings-common-payments-api-openapi.yml
   format: yaml
   label: Booking Holdings Common/payments API
   slug: booking-holdings-common-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-common-payments-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-common-payments-api-openapi.yml
 - filename: booking-holdings-conversations-api-openapi.yml
   format: yaml
   label: Booking Holdings Conversations API
   slug: booking-holdings-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-conversations-api-openapi.yml
 - filename: booking-holdings-messages-api-openapi.yml
   format: yaml
   label: Booking Holdings Messages API
   slug: booking-holdings-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-messages-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-messages-api-openapi.yml
 - filename: booking-holdings-orders-api-openapi.yml
   format: yaml
   label: Booking Holdings Orders API
   slug: booking-holdings-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/openapi/booking-holdings-orders-api-openapi.yml
+  url: https://artifacts.apis.io/booking-holdings/openapi/booking-holdings-orders-api-openapi.yml
 consequence_counts:
   physical: 11
   write: 28
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bookin
   - path: /messages/conversations\n  method: post\n  operationId: messagesConversations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/latest\n  method: post\n  operationId: messagesLatest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/latest/confirm\n  method: post\n  operationId: messagesLatestConfirm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/attachments/upload\n  method: post\n  operationId: messagesAttachmentsUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/attachments/download\n  method: post\n  operationId: messagesAttachmentsDownload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/attachments/metadata\n  method: post\n  operationId: messagesAttachmentsMetadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/agentic-access/booking-holdings-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/booking-holdings/agentic-access/booking-holdings-agentic-access.yml
 summary_line: 39 operations · 39 acting
 tags:
 - Accommodation

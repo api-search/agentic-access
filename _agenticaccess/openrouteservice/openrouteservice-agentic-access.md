@@ -9,55 +9,55 @@ api_specs:
   label: OpenRouteService Directions API
   slug: openrouteservice-directions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-directions-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-directions-api-openapi.yml
 - filename: openrouteservice-elevation-api-openapi.yml
   format: yaml
   label: OpenRouteService Elevation API
   slug: openrouteservice-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-elevation-api-openapi.yml
 - filename: openrouteservice-geocoding-api-openapi.yml
   format: yaml
   label: OpenRouteService Geocoding API
   slug: openrouteservice-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-geocoding-api-openapi.yml
 - filename: openrouteservice-health-api-openapi.yml
   format: yaml
   label: OpenRouteService Health API
   slug: openrouteservice-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-health-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-health-api-openapi.yml
 - filename: openrouteservice-isochrones-api-openapi.yml
   format: yaml
   label: OpenRouteService Isochrones API
   slug: openrouteservice-isochrones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-isochrones-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-isochrones-api-openapi.yml
 - filename: openrouteservice-matrix-api-openapi.yml
   format: yaml
   label: OpenRouteService Matrix API
   slug: openrouteservice-matrix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-matrix-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-matrix-api-openapi.yml
 - filename: openrouteservice-optimization-api-openapi.yml
   format: yaml
   label: OpenRouteService Optimization API
   slug: openrouteservice-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-optimization-api-openapi.yml
 - filename: openrouteservice-poi-api-openapi.yml
   format: yaml
   label: OpenRouteService POI API
   slug: openrouteservice-poi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-poi-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-poi-api-openapi.yml
 - filename: openrouteservice-snapping-api-openapi.yml
   format: yaml
   label: OpenRouteService Snapping API
   slug: openrouteservice-snapping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/openapi/openrouteservice-snapping-api-openapi.yml
+  url: https://artifacts.apis.io/openrouteservice/openapi/openrouteservice-snapping-api-openapi.yml
 consequence_counts:
   read: 16
   write: 1
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openro
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /elevation/point\n  method: post\n  operationId: postElevationPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /elevation/line\n  method: post\n  operationId: getElevationLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geocode/search\n  method: get\n  operationId: geocodeSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geocode/reverse\n  method: get\n  operationId: geocodeReverse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geocode/autocomplete\n\
   \  method: get\n  operationId: geocodeAutocomplete\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/status\n  method: get\n  operationId: getStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/isochrones/{profile}\n  method: post\n  operationId: getIsochrones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/matrix/{profile}\n  method: post\n  operationId: getMatrix\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /optimization\n  method: post\n  operationId: getOptimization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pois\n  method: post\n  operationId: getPOIs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/snap/{profile}\n  method: post\n  operationId: snapCoordinates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openrouteservice/refs/heads/main/agentic-access/openrouteservice-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openrouteservice/agentic-access/openrouteservice-agentic-access.yml
 summary_line: 17 operations · 1 acting
 tags:
 - Routing

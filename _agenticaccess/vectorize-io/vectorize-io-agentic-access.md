@@ -9,49 +9,49 @@ api_specs:
   label: Vectorize AI Platform Connectors API
   slug: vectorize-io-ai-platform-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-ai-platform-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-ai-platform-connectors-api-openapi.yml
 - filename: vectorize-io-destination-connectors-api-openapi.yml
   format: yaml
   label: Vectorize Destination Connectors API
   slug: vectorize-io-destination-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-destination-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-destination-connectors-api-openapi.yml
 - filename: vectorize-io-extraction-api-openapi.yml
   format: yaml
   label: Vectorize Extraction API
   slug: vectorize-io-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-extraction-api-openapi.yml
 - filename: vectorize-io-files-api-openapi.yml
   format: yaml
   label: Vectorize Files API
   slug: vectorize-io-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-files-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-files-api-openapi.yml
 - filename: vectorize-io-pipelines-api-openapi.yml
   format: yaml
   label: Vectorize Pipelines API
   slug: vectorize-io-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-pipelines-api-openapi.yml
 - filename: vectorize-io-source-connectors-api-openapi.yml
   format: yaml
   label: Vectorize Source Connectors API
   slug: vectorize-io-source-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-source-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-source-connectors-api-openapi.yml
 - filename: vectorize-io-uploads-api-openapi.yml
   format: yaml
   label: Vectorize Uploads API
   slug: vectorize-io-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-uploads-api-openapi.yml
 - filename: vectorize-io-workspaces-api-openapi.yml
   format: yaml
   label: Vectorize Workspaces API
   slug: vectorize-io-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/openapi/vectorize-io-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/vectorize-io/openapi/vectorize-io-workspaces-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vector
   \  method: patch\n  operationId: updateUserInSourceConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{organizationId}/connectors/sources/{sourceConnectorId}/users\n  method: delete\n  operationId: deleteUserFromSourceConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{organizationId}/uploads/{connectorId}/files\n  method: get\n  operationId: getUploadFilesFromConnector\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /org/{organizationId}/uploads/{connectorId}/files\n  method: put\n  operationId: startFileUploadToConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{organizationId}/uploads/{connectorId}/files/{fileName}\n  method: delete\n  operationId: deleteFileFromConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/{organizationId}/workspaces\n  method: get\n  operationId: getWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/{organizationId}/workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspaceById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vectorize-io/refs/heads/main/agentic-access/vectorize-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vectorize-io/agentic-access/vectorize-io-agentic-access.yml
 summary_line: 37 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

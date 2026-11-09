@@ -8,25 +8,25 @@ api_specs:
   label: WalletConnect Relay (SDK-mediated)
   slug: walletconnect-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/asyncapi/reown-asyncapi.yml
+  url: https://artifacts.apis.io/reown/asyncapi/reown-asyncapi.yml
 - filename: reown-chains-api-openapi.yml
   format: yaml
   label: Reown Chains API
   slug: reown-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-chains-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-chains-api-openapi.yml
 - filename: reown-listings-api-openapi.yml
   format: yaml
   label: Reown Listings API
   slug: reown-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-listings-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-listings-api-openapi.yml
 - filename: reown-logos-api-openapi.yml
   format: yaml
   label: Reown Logos API
   slug: reown-logos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-logos-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-logos-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reown-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /v3/wallets\n  method: get\n  operationId: listWallets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/dapps\n  method: get\n  operationId: listDapps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/hybrid\n  method: get\n  operationId: listHybrid\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/all\n  method: get\n  operationId: listAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/chains\n  method: get\n  operationId: listChains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/logo/{size}/{image_id}\n  method: get\n  operationId: getLogo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/agentic-access/reown-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reown/agentic-access/reown-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Web3

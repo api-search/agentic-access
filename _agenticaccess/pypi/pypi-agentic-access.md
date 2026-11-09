@@ -9,19 +9,19 @@ api_specs:
   label: PyPI Downloads API
   slug: pypi-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/openapi/pypi-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/pypi/openapi/pypi-downloads-api-openapi.yml
 - filename: pypi-projects-api-openapi.yml
   format: yaml
   label: PyPI Projects API
   slug: pypi-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/openapi/pypi-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pypi/openapi/pypi-projects-api-openapi.yml
 - filename: pypi-provenance-api-openapi.yml
   format: yaml
   label: PyPI Provenance API
   slug: pypi-provenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/openapi/pypi-provenance-api-openapi.yml
+  url: https://artifacts.apis.io/pypi/openapi/pypi-provenance-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pypi-i
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrity/{project}/{version}/{filename}/provenance\n  method: get\n  operationId: getFileProvenance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pypi/{project}/json\n  method: get\n  operationId: getProjectMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pypi/{project}/{version}/json\n  method: get\n  operationId: getProjectVersionMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/recent\n  method: get\n  operationId: getRecentDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/overall\n  method: get\n  operationId: getOverallDownloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/python_major\n  method: get\n  operationId: getDownloadsByPythonMajor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/python_minor\n  method: get\n  operationId: getDownloadsByPythonMinor\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /packages/{package}/system\n  method: get\n  operationId: getDownloadsBySystem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /legacy/\n  method: post\n  operationId: uploadDistribution\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pypi/refs/heads/main/agentic-access/pypi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pypi/agentic-access/pypi-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - Developer Tools

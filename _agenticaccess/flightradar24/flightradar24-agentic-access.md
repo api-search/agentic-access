@@ -8,49 +8,49 @@ api_specs:
   label: Flightradar24 Airlines API
   slug: flightradar24-airlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-airlines-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-airlines-api-openapi.yml
 - filename: flightradar24-airports-api-openapi.yml
   format: yaml
   label: Flightradar24 Airports API
   slug: flightradar24-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-airports-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-airports-api-openapi.yml
 - filename: flightradar24-flight-summary-api-openapi.yml
   format: yaml
   label: Flightradar24 Flight Summary API
   slug: flightradar24-flight-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-flight-summary-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-flight-summary-api-openapi.yml
 - filename: flightradar24-flight-tracks-api-openapi.yml
   format: yaml
   label: Flightradar24 Flight Tracks API
   slug: flightradar24-flight-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-flight-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-flight-tracks-api-openapi.yml
 - filename: flightradar24-historic-events-api-openapi.yml
   format: yaml
   label: Flightradar24 Historic Events API
   slug: flightradar24-historic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-historic-events-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-historic-events-api-openapi.yml
 - filename: flightradar24-historic-positions-api-openapi.yml
   format: yaml
   label: Flightradar24 Historic Positions API
   slug: flightradar24-historic-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-historic-positions-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-historic-positions-api-openapi.yml
 - filename: flightradar24-live-positions-api-openapi.yml
   format: yaml
   label: Flightradar24 Live Positions API
   slug: flightradar24-live-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-live-positions-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-live-positions-api-openapi.yml
 - filename: flightradar24-usage-api-openapi.yml
   format: yaml
   label: Flightradar24 Usage API
   slug: flightradar24-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/openapi/flightradar24-usage-api-openapi.yml
+  url: https://artifacts.apis.io/flightradar24/openapi/flightradar24-usage-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ get\n  operationId: getHistoricFlightEventsLight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historic/flight-events/full\n  method: get\n  operationId: getHistoricFlightEventsFull\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flight-summary/light\n  method: get\n  operationId: getFlightSummaryLight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flight-summary/full\n  method: get\n  operationId: getFlightSummaryFull\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flight-summary/count\n  method: get\n  operationId: getFlightSummaryCount\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flight-tracks\n  method: get\n  operationId: getFlightTracks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/airports/{code}/light\n  method: get\n  operationId: getAirportLight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/airports/{code}/full\n  method: get\n  operationId: getAirportFull\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /static/airlines/{icao}/light\n  method: get\n  operationId: getAirlineLight\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: getUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightradar24/refs/heads/main/agentic-access/flightradar24-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flightradar24/agentic-access/flightradar24-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Aviation

@@ -9,55 +9,55 @@ api_specs:
   label: Hyperscience Audit Logs API
   slug: hyperscience-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-audit-logs-api-openapi.yml
 - filename: hyperscience-cases-api-openapi.yml
   format: yaml
   label: Hyperscience Cases API
   slug: hyperscience-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-cases-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-cases-api-openapi.yml
 - filename: hyperscience-documents-api-openapi.yml
   format: yaml
   label: Hyperscience Documents API
   slug: hyperscience-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-documents-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-documents-api-openapi.yml
 - filename: hyperscience-flow-runs-api-openapi.yml
   format: yaml
   label: Hyperscience Flow Runs API
   slug: hyperscience-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-flow-runs-api-openapi.yml
 - filename: hyperscience-flows-api-openapi.yml
   format: yaml
   label: Hyperscience Flows API
   slug: hyperscience-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-flows-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-flows-api-openapi.yml
 - filename: hyperscience-layouts-api-openapi.yml
   format: yaml
   label: Hyperscience Layouts API
   slug: hyperscience-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-layouts-api-openapi.yml
 - filename: hyperscience-pages-api-openapi.yml
   format: yaml
   label: Hyperscience Pages API
   slug: hyperscience-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-pages-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-pages-api-openapi.yml
 - filename: hyperscience-submissions-api-openapi.yml
   format: yaml
   label: Hyperscience Submissions API
   slug: hyperscience-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-submissions-api-openapi.yml
 - filename: hyperscience-version-api-openapi.yml
   format: yaml
   label: Hyperscience Version API
   slug: hyperscience-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/openapi/hyperscience-version-api-openapi.yml
+  url: https://artifacts.apis.io/hyperscience/openapi/hyperscience-version-api-openapi.yml
 consequence_counts:
   read: 16
   write: 4
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hypers
   \  operationId: listDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{document_id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages\n  method: get\n  operationId: listPages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pages/{page_id}\n  method: get\n  operationId: getPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases\n  method: get\n  operationId: listCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /cases/{case_id}\n  method: get\n  operationId: getCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flows\n  method: post\n  operationId: createFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flows/{flow_id}\n  method: get\n  operationId: getFlow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flow_runs\n  method: post\n  operationId: createFlowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /flow_runs/{flow_run_id}\n  method: get\n  operationId: getFlowRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/agentic-access/hyperscience-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hyperscience/agentic-access/hyperscience-agentic-access.yml
 summary_line: 20 operations · 4 acting
 tags:
 - Artificial Intelligence

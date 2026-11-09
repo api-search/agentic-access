@@ -9,37 +9,37 @@ api_specs:
   label: Adlumin At-Risk Assets API
   slug: adlumininc-at-risk-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-at-risk-assets-api-openapi.yml
+  url: https://artifacts.apis.io/adlumininc/openapi/adlumininc-at-risk-assets-api-openapi.yml
 - filename: adlumininc-compliance-api-openapi.yml
   format: yaml
   label: Adlumin Compliance API
   slug: adlumininc-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/adlumininc/openapi/adlumininc-compliance-api-openapi.yml
 - filename: adlumininc-detections-api-openapi.yml
   format: yaml
   label: Adlumin Detections API
   slug: adlumininc-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-detections-api-openapi.yml
+  url: https://artifacts.apis.io/adlumininc/openapi/adlumininc-detections-api-openapi.yml
 - filename: adlumininc-endpoint-api-openapi.yml
   format: yaml
   label: Adlumin Endpoint API
   slug: adlumininc-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/adlumininc/openapi/adlumininc-endpoint-api-openapi.yml
 - filename: adlumininc-firewall-api-openapi.yml
   format: yaml
   label: Adlumin Firewall API
   slug: adlumininc-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/adlumininc/openapi/adlumininc-firewall-api-openapi.yml
 - filename: adlumininc-network-api-openapi.yml
   format: yaml
   label: Adlumin Network API
   slug: adlumininc-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/openapi/adlumininc-network-api-openapi.yml
+  url: https://artifacts.apis.io/adlumininc/openapi/adlumininc-network-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: generated\nsource: openapi/adlumininc-api-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 10\n    acting: 1\n  by_consequence:\n    read: 10\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /detections\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /acknowledge_detections\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /at_risk_groups\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /at_risk_shares\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /at_risk_systems\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /endpoint_data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /complete_endpoint_data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /device_data\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /network_data\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /firewall\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance_insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adlumininc/refs/heads/main/agentic-access/adlumininc-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adlumininc/agentic-access/adlumininc-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - Security

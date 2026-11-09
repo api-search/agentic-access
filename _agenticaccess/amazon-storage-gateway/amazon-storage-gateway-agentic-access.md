@@ -9,13 +9,25 @@ api_specs:
   label: Amazon Storage Gateway Amazon Storage Gateway REST API
   slug: amazon-storage-gateway-amazon-storage-gateway-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/openapi/amazon-storage-gateway-amazon-storage-gateway-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-storage-gateway/openapi/amazon-storage-gateway-amazon-storage-gateway-rest-api-api-openapi.yml
 - filename: amazon-storage-gateway-aws-storage-gateway-api-openapi.yml
   format: yaml
   label: Amazon Storage Gateway AWS Storage Gateway API
   slug: amazon-storage-gateway-aws-storage-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/openapi/amazon-storage-gateway-aws-storage-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-storage-gateway/openapi/amazon-storage-gateway-aws-storage-gateway-api-openapi.yml
+- filename: amazon-storage-gateway-cache-report-api-openapi.yml
+  format: yaml
+  label: Amazon Storage Gateway Storage Gateway Cache Report API
+  slug: amazon-storage-gateway-cache-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-storage-gateway/openapi/amazon-storage-gateway-cache-report-api-openapi.yml
+- filename: amazon-storage-gateway-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Storage Gateway Storage Gateway Operations API
+  slug: amazon-storage-gateway-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-storage-gateway/openapi/amazon-storage-gateway-operations-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 3
@@ -93,10 +105,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ post\n  operationId: DescribeUploadBuffer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.DescribeVTLDevices\n  method: post\n  operationId: DescribeVTLDevices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.DescribeWorkingStorage\n  method: post\n  operationId: DescribeWorkingStorage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.DetachVolume\n  method: post\n  operationId: DetachVolume\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.DisableGateway\n  method: post\n  operationId: DisableGateway\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.DisassociateFileSystem\n  method:\
   \ post\n  operationId: DisassociateFileSystem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.JoinDomain\n  method: post\n  operationId: JoinDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=StorageGateway_20130630.ListAutomaticTapeCreationPolicies\n  method: post\n  operationId: ListAutomaticTapeCreationPolicies\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
-  \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/agentic-access/amazon-storage-gateway-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/agentic-access/amazon-storage-gateway-agentic-access.yml
+  \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-storage-gateway/agentic-access/amazon-storage-gateway-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-storage-gateway/agentic-access/amazon-storage-gateway-agentic-access.yml
 summary_line: 95 operations · 81 acting · 3 human-in-the-loop
 tags:
+- Amazon Web Services
 - Backup
 - File Storage
 - Gateways

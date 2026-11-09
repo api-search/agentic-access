@@ -9,43 +9,43 @@ api_specs:
   label: SlashID Identity Management API
   slug: slashid-identity-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-identity-management-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-identity-management-api-openapi.yml
 - filename: slashid-oidc-discovery-api-openapi.yml
   format: yaml
   label: SlashID OIDC discovery API
   slug: slashid-oidc-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-oidc-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-oidc-discovery-api-openapi.yml
 - filename: slashid-organization-sso-config-api-openapi.yml
   format: yaml
   label: SlashID Organization SSO config API
   slug: slashid-organization-sso-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-organization-sso-config-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-organization-sso-config-api-openapi.yml
 - filename: slashid-organization-webhooks-api-openapi.yml
   format: yaml
   label: SlashID Organization Webhooks API
   slug: slashid-organization-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-organization-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-organization-webhooks-api-openapi.yml
 - filename: slashid-super-admin-management-api-openapi.yml
   format: yaml
   label: SlashID Super Admin Management API
   slug: slashid-super-admin-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-super-admin-management-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-super-admin-management-api-openapi.yml
 - filename: slashid-tokens-api-openapi.yml
   format: yaml
   label: SlashID Tokens API
   slug: slashid-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-tokens-api-openapi.yml
 - filename: slashid-workflows-api-openapi.yml
   format: yaml
   label: SlashID Workflows API
   slug: slashid-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/openapi/slashid-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/slashid/openapi/slashid-workflows-api-openapi.yml
 consequence_counts:
   read: 61
   safety-critical: 6
@@ -138,8 +138,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/slashi
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/attributes/{bucket_name}\n  method: patch\n  operationId: PatchOrganizationsAttributesBucketName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/attributes/{bucket_name}\n  method: put\n  operationId: PutOrganizationsAttributesBucketName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/attributes/{bucket_name}\n  method: get\n\
   \  operationId: GetOrganizationsAttributesBucketName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/attributes/{bucket_name}\n  method: delete\n  operationId: DeleteOrganizationsAttributesBucketName\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/suborganizations\n  method: get\n  operationId: GetOrganizationsSuborganizations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/suborganizations\n  method: post\n  operationId: PostOrganizationsSuborganizations\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/api-keys\n  method: put\n  operationId: PutOrganizationsApiKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/config\n  method: get\n  operationId: GetOrganizationsConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/config\n  method: patch\n  operationId: PatchOrganizationsConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
-  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/quota/current-tier\n  method: get\n  operationId: GetOrganizationsQuotaCurrentTier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/quota/all-tiers\n  method: get\n  operationId: GetOrganizationsQuotaAllTiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/quota/usage\n  method: get\n  operationId: GetOrganizationsQuotaUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/agentic-access/slashid-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/agentic-access/slashid-agentic-access.yml
+  \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/quota/current-tier\n  method: get\n  operationId: GetOrganizationsQuotaCurrentTier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/quota/all-tiers\n  method: get\n  operationId: GetOrganizationsQuotaAllTiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/quota/usage\n  method: get\n  operationId: GetOrganizationsQuotaUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (48 KB total) ---\n# Full source: https://artifacts.apis.io/slashid/agentic-access/slashid-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/slashid/agentic-access/slashid-agentic-access.yml
 summary_line: 156 operations · 95 acting · 6 human-in-the-loop
 tags:
 - Identity
@@ -149,6 +149,7 @@ tags:
 - Passkeys
 - User Management
 - CIAM
+- OAuth
 - OpenID Connect
 - SSO
 - RBAC

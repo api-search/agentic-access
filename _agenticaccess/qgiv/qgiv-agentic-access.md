@@ -9,61 +9,61 @@ api_specs:
   label: Qgiv Account Settings API
   slug: qgiv-account-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-account-settings-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-account-settings-api-openapi.yml
 - filename: qgiv-custom-amounts-api-openapi.yml
   format: yaml
   label: Qgiv Custom Amounts API
   slug: qgiv-custom-amounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-custom-amounts-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-custom-amounts-api-openapi.yml
 - filename: qgiv-custom-fields-api-openapi.yml
   format: yaml
   label: Qgiv Custom Fields API
   slug: qgiv-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-custom-fields-api-openapi.yml
 - filename: qgiv-events-api-openapi.yml
   format: yaml
   label: Qgiv Events API
   slug: qgiv-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-events-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-events-api-openapi.yml
 - filename: qgiv-mappings-api-openapi.yml
   format: yaml
   label: Qgiv Mappings API
   slug: qgiv-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-mappings-api-openapi.yml
 - filename: qgiv-recurring-api-openapi.yml
   format: yaml
   label: Qgiv Recurring API
   slug: qgiv-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-recurring-api-openapi.yml
 - filename: qgiv-refunds-api-openapi.yml
   format: yaml
   label: Qgiv Refunds API
   slug: qgiv-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-refunds-api-openapi.yml
 - filename: qgiv-registrations-api-openapi.yml
   format: yaml
   label: Qgiv Registrations API
   slug: qgiv-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-registrations-api-openapi.yml
 - filename: qgiv-statements-api-openapi.yml
   format: yaml
   label: Qgiv Statements API
   slug: qgiv-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-statements-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-statements-api-openapi.yml
 - filename: qgiv-transactions-api-openapi.yml
   format: yaml
   label: Qgiv Transactions API
   slug: qgiv-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/openapi/qgiv-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/qgiv/openapi/qgiv-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 25
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/qgiv-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/refunds/{id}\n  method: post\n  operationId: getRefund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reporting/registrations/last/{limit}\n  method: post\n  operationId: getLastRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/registrations/dates/{begin}:{end}\n  method: post\n  operationId: getRegistrationsByDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/registrations/{id}\n  method: post\n  operationId: getRegistration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/statements/list\n  method: post\n  operationId: listStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/statements/latest\n  method: post\n  operationId: getLatestStatements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/statements/{id}\n  method: post\n  operationId: getStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/transactions/last/{limit}\n\
   \  method: get\n  operationId: getLastTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/transactions/after/{transactionId}\n  method: get\n  operationId: getTransactionsAfterId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/transactions/dates/{begin}:{end}\n  method: get\n  operationId: getTransactionsByDateRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reporting/transactions/{id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qgiv/refs/heads/main/agentic-access/qgiv-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qgiv/agentic-access/qgiv-agentic-access.yml
 summary_line: 34 operations · 9 acting
 tags:
 - Non-Profit

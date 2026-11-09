@@ -9,31 +9,31 @@ api_specs:
   label: Accelevents Attendees API
   slug: accelevents-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-attendees-api-openapi.yml
 - filename: accelevents-events-api-openapi.yml
   format: yaml
   label: Accelevents Events API
   slug: accelevents-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-events-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-events-api-openapi.yml
 - filename: accelevents-orders-api-openapi.yml
   format: yaml
   label: Accelevents Orders API
   slug: accelevents-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-orders-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-orders-api-openapi.yml
 - filename: accelevents-sessions-api-openapi.yml
   format: yaml
   label: Accelevents Sessions API
   slug: accelevents-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-sessions-api-openapi.yml
 - filename: accelevents-tickets-api-openapi.yml
   format: yaml
   label: Accelevents Tickets API
   slug: accelevents-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-tickets-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accele
   \    audit: none\n- path: /events/{eventUrl}/staff/allAttendees\n  method: get\n  operationId: getAllAttendees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventUrl}/staff/people\n  method: get\n  operationId: getPeopleList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventUrl}/staff/orders\n  method: get\n  operationId: getTicketingOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventUrl}/staff/salesData\n  method: get\n  operationId: getTicketingSalesData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventUrl}/staff/ticketHolders/{barcodeId}\n\
   \  method: patch\n  operationId: updateTicketHolderByBarcode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{eventUrl}/staff/exchangeTicketType\n  method: post\n  operationId: exchangeTicketType\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{eventUrl}/staff/sessions\n  method: get\n  operationId: getSessionsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventUrl}/staff/sessions/{sessionId}\n\
   \  method: patch\n  operationId: updateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events/{eventUrl}/staff/speakers\n  method: get\n  operationId: getSpeakersList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{eventUrl}/staff/speakers\n  method: post\n  operationId: createSpeaker\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/agentic-access/accelevents-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/accelevents/agentic-access/accelevents-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Event Management

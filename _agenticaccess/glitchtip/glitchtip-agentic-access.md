@@ -9,109 +9,109 @@ api_specs:
   label: GlitchTip Accept API
   slug: glitchtip-accept-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-accept-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-accept-api-openapi.yml
 - filename: glitchtip-api-tokens-api-openapi.yml
   format: yaml
   label: GlitchTip Api Tokens API
   slug: glitchtip-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-api-tokens-api-openapi.yml
 - filename: glitchtip-embed-api-openapi.yml
   format: yaml
   label: GlitchTip Embed API
   slug: glitchtip-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-embed-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-embed-api-openapi.yml
 - filename: glitchtip-generate-recovery-codes-api-openapi.yml
   format: yaml
   label: GlitchTip Generate Recovery Codes API
   slug: glitchtip-generate-recovery-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-generate-recovery-codes-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-generate-recovery-codes-api-openapi.yml
 - filename: glitchtip-glitchtip-api-api-openapi.yml
   format: yaml
   label: GlitchTip API
   slug: glitchtip-glitchtip-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-glitchtip-api-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-glitchtip-api-api-openapi.yml
 - filename: glitchtip-import-api-openapi.yml
   format: yaml
   label: GlitchTip Import API
   slug: glitchtip-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-import-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-import-api-openapi.yml
 - filename: glitchtip-instance-license-api-openapi.yml
   format: yaml
   label: GlitchTip Instance License API
   slug: glitchtip-instance-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-instance-license-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-instance-license-api-openapi.yml
 - filename: glitchtip-issues-api-openapi.yml
   format: yaml
   label: GlitchTip Issues API
   slug: glitchtip-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-issues-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-issues-api-openapi.yml
 - filename: glitchtip-organizations-api-openapi.yml
   format: yaml
   label: GlitchTip Organizations API
   slug: glitchtip-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-organizations-api-openapi.yml
 - filename: glitchtip-projects-api-openapi.yml
   format: yaml
   label: GlitchTip Projects API
   slug: glitchtip-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-projects-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-projects-api-openapi.yml
 - filename: glitchtip-security-api-openapi.yml
   format: yaml
   label: GlitchTip Security API
   slug: glitchtip-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-security-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-security-api-openapi.yml
 - filename: glitchtip-settings-api-openapi.yml
   format: yaml
   label: GlitchTip Settings API
   slug: glitchtip-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-settings-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-settings-api-openapi.yml
 - filename: glitchtip-store-api-openapi.yml
   format: yaml
   label: GlitchTip Store API
   slug: glitchtip-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-store-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-store-api-openapi.yml
 - filename: glitchtip-stripe-api-openapi.yml
   format: yaml
   label: GlitchTip Stripe API
   slug: glitchtip-stripe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-stripe-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-stripe-api-openapi.yml
 - filename: glitchtip-teams-api-openapi.yml
   format: yaml
   label: GlitchTip Teams API
   slug: glitchtip-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-teams-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-teams-api-openapi.yml
 - filename: glitchtip-users-api-openapi.yml
   format: yaml
   label: GlitchTip Users API
   slug: glitchtip-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-users-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-users-api-openapi.yml
 - filename: glitchtip-wizard-api-openapi.yml
   format: yaml
   label: GlitchTip Wizard API
   slug: glitchtip-wizard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-wizard-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-wizard-api-openapi.yml
 - filename: glitchtip-wizard-set-token-api-openapi.yml
   format: yaml
   label: GlitchTip Wizard Set Token API
   slug: glitchtip-wizard-set-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/openapi/glitchtip-wizard-set-token-api-openapi.yml
+  url: https://artifacts.apis.io/glitchtip/openapi/glitchtip-wizard-set-token-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 79
@@ -186,8 +186,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/glitch
   \ path: /api/0/stripe/organizations/{organization_slug}/create-stripe-subscription-checkout/\n  method: post\n  operationId: apps_stripe_api_create_stripe_session\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/0/stripe/organizations/{organization_slug}/create-billing-portal/\n  method: post\n  operationId: apps_stripe_api_stripe_billing_portal_session\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/0/stripe/subscriptions/\n  method: post\n  operationId:\
   \ apps_stripe_api_stripe_create_subscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/0/stripe/subscriptions/{organization_slug}/events_count/period/\n  method: get\n  operationId: apps_stripe_api_subscription_events_count_for_period\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/0/stripe/subscriptions/{organization_slug}/events_count/daily/\n  method: get\n  operationId: apps_stripe_api_subscription_events_count_daily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/0/organizations/{organization_slug}/repos/\n  method:\
   \ get\n  operationId: apps_sourcecode_api_list_repositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/0/organizations/{organization_slug}/repos/\n  method: post\n  operationId: apps_sourcecode_api_create_repository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/0/organizations/{organization_slug}/artifactbundle/assemble/\n  method: post\n  operationId: apps_sourcecode_api_artifact_bundle_assemble\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
-  \      - high-value\n    audit: required\n- path: /api/0/teams/{organization_slug}/{team_slug}/\n  method: get\n  operationId: apps_teams_api_get_team\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/0/teams/{organization_slug}/{team_slug}/\n  method: put\n  operationId: apps_teams_api_update_team\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/agentic-access/glitchtip-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/agentic-access/glitchtip-agentic-access.yml
+  \      - high-value\n    audit: required\n- path: /api/0/teams/{organization_slug}/{team_slug}/\n  method: get\n  operationId: apps_teams_api_get_team\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/0/teams/{organization_slug}/{team_slug}/\n  method: put\n  operationId: apps_teams_api_update_team\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://artifacts.apis.io/glitchtip/agentic-access/glitchtip-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/glitchtip/agentic-access/glitchtip-agentic-access.yml
 summary_line: 156 operations · 77 acting
 tags:
 - Error Tracking

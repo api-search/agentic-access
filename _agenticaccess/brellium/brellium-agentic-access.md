@@ -9,55 +9,55 @@ api_specs:
   label: Brellium Audits API
   slug: brellium-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-audits-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-audits-api-openapi.yml
 - filename: brellium-auth-api-openapi.yml
   format: yaml
   label: Brellium Auth API
   slug: brellium-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-auth-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-auth-api-openapi.yml
 - filename: brellium-coding-api-openapi.yml
   format: yaml
   label: Brellium Coding API
   slug: brellium-coding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-coding-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-coding-api-openapi.yml
 - filename: brellium-documents-api-openapi.yml
   format: yaml
   label: Brellium Documents API
   slug: brellium-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-documents-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-documents-api-openapi.yml
 - filename: brellium-documents-multiple-api-openapi.yml
   format: yaml
   label: Brellium Documents Multiple API
   slug: brellium-documents-multiple-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-documents-multiple-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-documents-multiple-api-openapi.yml
 - filename: brellium-link-providers-api-openapi.yml
   format: yaml
   label: Brellium Link Providers API
   slug: brellium-link-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-link-providers-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-link-providers-api-openapi.yml
 - filename: brellium-question-sets-api-openapi.yml
   format: yaml
   label: Brellium Question Sets API
   slug: brellium-question-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-question-sets-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-question-sets-api-openapi.yml
 - filename: brellium-update-audits-flags-api-openapi.yml
   format: yaml
   label: Brellium Update Audits Flags API
   slug: brellium-update-audits-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-update-audits-flags-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-update-audits-flags-api-openapi.yml
 - filename: brellium-users-api-openapi.yml
   format: yaml
   label: Brellium Users API
   slug: brellium-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/openapi/brellium-users-api-openapi.yml
+  url: https://artifacts.apis.io/brellium/openapi/brellium-users-api-openapi.yml
 consequence_counts:
   read: 8
   write: 9
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/brelli
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents-multiple\n  method: post\n  operationId: postDocumentsMultiple\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /link-providers\n  method: post\n  operationId: postLinkProviders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /question-sets\n  method: get\n  operationId: getQuestionSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /update-audits-flags\n\
   \  method: post\n  operationId: postUpdateAuditsFlags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: post\n  operationId: postUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: getUsersByUserId\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: post\n  operationId: postUsersByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: delete\n  operationId: deleteUsersByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brellium/refs/heads/main/agentic-access/brellium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brellium/agentic-access/brellium-agentic-access.yml
 summary_line: 17 operations · 9 acting
 tags:
 - Company

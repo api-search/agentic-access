@@ -9,49 +9,49 @@ api_specs:
   label: Azuqua Account API
   slug: azuqua-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-account-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-account-api-openapi.yml
 - filename: azuqua-accounts-api-openapi.yml
   format: yaml
   label: Azuqua Accounts API
   slug: azuqua-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-accounts-api-openapi.yml
 - filename: azuqua-connectors-api-openapi.yml
   format: yaml
   label: Azuqua Connectors API
   slug: azuqua-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-connectors-api-openapi.yml
 - filename: azuqua-flo-api-openapi.yml
   format: yaml
   label: Azuqua Flo API
   slug: azuqua-flo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-flo-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-flo-api-openapi.yml
 - filename: azuqua-folder-api-openapi.yml
   format: yaml
   label: Azuqua Folder API
   slug: azuqua-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-folder-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-folder-api-openapi.yml
 - filename: azuqua-folders-api-openapi.yml
   format: yaml
   label: Azuqua Folders API
   slug: azuqua-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-folders-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-folders-api-openapi.yml
 - filename: azuqua-org-api-openapi.yml
   format: yaml
   label: Azuqua Org API
   slug: azuqua-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-org-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-org-api-openapi.yml
 - filename: azuqua-user-api-openapi.yml
   format: yaml
   label: Azuqua User API
   slug: azuqua-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/openapi/azuqua-user-api-openapi.yml
+  url: https://artifacts.apis.io/azuqua/openapi/azuqua-user-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/azuqua
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/folder/{folder_id}\n  method: put\n  operationId: update-folder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/folder/{folder_id}/flos\n  method: get\n  operationId: read-flos-in-folder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/folder/{folder_id}/user/{user_id}/permissions\n  method: put\n  operationId: add-user-to-tab-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/folder/{folder_id}/users\n  method: get\n  operationId: read-folder-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/folders\n  method: get\n  operationId: get-folders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/org\n  method: get\n  operationId: read-organization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/org\n  method: put\n  operationId: update-org\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/org/flos\n  method: get\n  operationId: get-flos-in-organization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/org/user/{user_id}/permissions\n  method: put\n  operationId: update-user-role\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/user/orgs\n  method: get\n  operationId: read-user-orgs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azuqua/refs/heads/main/agentic-access/azuqua-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azuqua/agentic-access/azuqua-agentic-access.yml
 summary_line: 28 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company

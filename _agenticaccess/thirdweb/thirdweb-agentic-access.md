@@ -9,55 +9,55 @@ api_specs:
   label: thirdweb Authentication API
   slug: thirdweb-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-authentication-api-openapi.yml
 - filename: thirdweb-contracts-api-openapi.yml
   format: yaml
   label: thirdweb Contracts API
   slug: thirdweb-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-contracts-api-openapi.yml
 - filename: thirdweb-engine-api-openapi.yml
   format: yaml
   label: thirdweb Engine API
   slug: thirdweb-engine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-engine-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-engine-api-openapi.yml
 - filename: thirdweb-insight-api-openapi.yml
   format: yaml
   label: thirdweb Insight API
   slug: thirdweb-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-insight-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-insight-api-openapi.yml
 - filename: thirdweb-nebula-api-openapi.yml
   format: yaml
   label: thirdweb Nebula API
   slug: thirdweb-nebula-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-nebula-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-nebula-api-openapi.yml
 - filename: thirdweb-payments-api-openapi.yml
   format: yaml
   label: thirdweb Payments API
   slug: thirdweb-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-payments-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-payments-api-openapi.yml
 - filename: thirdweb-tokens-api-openapi.yml
   format: yaml
   label: thirdweb Tokens API
   slug: thirdweb-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-tokens-api-openapi.yml
 - filename: thirdweb-transactions-api-openapi.yml
   format: yaml
   label: thirdweb Transactions API
   slug: thirdweb-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-transactions-api-openapi.yml
 - filename: thirdweb-wallets-api-openapi.yml
   format: yaml
   label: thirdweb Wallets API
   slug: thirdweb-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/openapi/thirdweb-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/thirdweb/openapi/thirdweb-wallets-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 19
@@ -138,7 +138,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thirdw
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tokens/erc20/{ownerAddress}\n  method: get\n  operationId: insightGetErc20Balances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/nfts/balance/{ownerAddress}\n  method: get\n  operationId: insightGetNftBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: insightListWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: insightCreateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /chat\n  method: post\n  operationId: nebulaChat\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /execute\n  method: post\n  operationId: nebulaExecute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /session\n  method: post\n  operationId: nebulaCreateSession\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/agentic-access/thirdweb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thirdweb/agentic-access/thirdweb-agentic-access.yml
 summary_line: 42 operations · 23 acting
 tags:
 - Web3

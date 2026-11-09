@@ -9,85 +9,85 @@ api_specs:
   label: MindCloud API Keys API
   slug: mindcloud-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-api-keys-api-openapi.yml
 - filename: mindcloud-child-companies-api-openapi.yml
   format: yaml
   label: MindCloud Child Companies API
   slug: mindcloud-child-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-child-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-child-companies-api-openapi.yml
 - filename: mindcloud-companies-api-openapi.yml
   format: yaml
   label: MindCloud Companies API
   slug: mindcloud-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-companies-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-companies-api-openapi.yml
 - filename: mindcloud-connections-api-openapi.yml
   format: yaml
   label: MindCloud Connections API
   slug: mindcloud-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-connections-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-connections-api-openapi.yml
 - filename: mindcloud-embedded-api-openapi.yml
   format: yaml
   label: MindCloud Embedded API
   slug: mindcloud-embedded-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-embedded-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-embedded-api-openapi.yml
 - filename: mindcloud-environments-api-openapi.yml
   format: yaml
   label: MindCloud Environments API
   slug: mindcloud-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-environments-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-environments-api-openapi.yml
 - filename: mindcloud-me-api-openapi.yml
   format: yaml
   label: MindCloud Me API
   slug: mindcloud-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-me-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-me-api-openapi.yml
 - filename: mindcloud-members-api-openapi.yml
   format: yaml
   label: MindCloud Members API
   slug: mindcloud-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-members-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-members-api-openapi.yml
 - filename: mindcloud-meta-api-openapi.yml
   format: yaml
   label: MindCloud Meta API
   slug: mindcloud-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-meta-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-meta-api-openapi.yml
 - filename: mindcloud-roles-api-openapi.yml
   format: yaml
   label: MindCloud Roles API
   slug: mindcloud-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-roles-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-roles-api-openapi.yml
 - filename: mindcloud-runs-api-openapi.yml
   format: yaml
   label: MindCloud Runs API
   slug: mindcloud-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-runs-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-runs-api-openapi.yml
 - filename: mindcloud-universal-api-openapi.yml
   format: yaml
   label: MindCloud Universal API
   slug: mindcloud-universal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-universal-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-universal-api-openapi.yml
 - filename: mindcloud-usage-api-openapi.yml
   format: yaml
   label: MindCloud Usage API
   slug: mindcloud-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-usage-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-usage-api-openapi.yml
 - filename: mindcloud-workflows-api-openapi.yml
   format: yaml
   label: MindCloud Workflows API
   slug: mindcloud-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/openapi/mindcloud-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/mindcloud/openapi/mindcloud-workflows-api-openapi.yml
 consequence_counts:
   read: 56
   safety-critical: 6
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/connec
   \    audit: none\n- path: /v2/universal/apps/{appSlug}/actions/{actionSlug}/run\n  method: post\n  operationId: v2-run-universal-action\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/embedded/end-users/{endUserId}/connect-links\n  method: post\n  operationId: v2-create-embedded-connect-link\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - embedded:create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/embedded/end-users/{endUserId}/connections\n  method: get\n  operationId: v2-list-embedded-end-user-connections\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    scope:\n    - embedded:view\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/child-companies\n  method: get\n  operationId: v2-list-child-companies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - child_company:access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/child-companies\n  method: post\n  operationId: v2-create-child-company\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - child_company:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/child-companies/{companyId}\n  method: get\n  operationId: v2-get-child-company\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    scope:\n    - child_company:access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/child-companies/{companyId}\n  method: delete\n  operationId: v2-release-child-company\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - child_company:manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/openapi.json\n  method: get\n  operationId: v2-get-openapi-document\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindcloud/refs/heads/main/agentic-access/mindcloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mindcloud/agentic-access/mindcloud-agentic-access.yml
 summary_line: 98 operations · 42 acting · 6 human-in-the-loop
 tags:
 - Integration Platform

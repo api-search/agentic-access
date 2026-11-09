@@ -9,37 +9,37 @@ api_specs:
   label: S2 Dev Access Tokens API
   slug: s2-dev-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-access-tokens-api-openapi.yml
 - filename: s2-dev-basins-api-openapi.yml
   format: yaml
   label: S2 Dev Basins API
   slug: s2-dev-basins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-basins-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-basins-api-openapi.yml
 - filename: s2-dev-locations-api-openapi.yml
   format: yaml
   label: S2 Dev Locations API
   slug: s2-dev-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-locations-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-locations-api-openapi.yml
 - filename: s2-dev-metrics-api-openapi.yml
   format: yaml
   label: S2 Dev Metrics API
   slug: s2-dev-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-metrics-api-openapi.yml
 - filename: s2-dev-records-api-openapi.yml
   format: yaml
   label: S2 Dev Records API
   slug: s2-dev-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-records-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-records-api-openapi.yml
 - filename: s2-dev-streams-api-openapi.yml
   format: yaml
   label: S2 Dev Streams API
   slug: s2-dev-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-streams-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-streams-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/s2-dev
   \ post\n  operationId: create_stream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{stream}\n  method: get\n  operationId: get_stream_config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{stream}\n  method: put\n  operationId: ensure_stream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{stream}\n  method: delete\n  operationId: delete_stream\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{stream}\n  method: patch\n  operationId: reconfigure_stream\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{stream}/records\n  method: get\n  operationId: read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{stream}/records\n  method: post\n  operationId: append\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{stream}/records/tail\n  method: get\n  operationId: check_tail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/agentic-access/s2-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/s2-dev/agentic-access/s2-dev-agentic-access.yml
 summary_line: 24 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Company

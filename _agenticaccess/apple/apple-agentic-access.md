@@ -9,19 +9,19 @@ api_specs:
   label: Apple Apps API
   slug: apple-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/apple-apps-api-openapi.yml
+  url: https://artifacts.apis.io/apple/openapi/apple-apps-api-openapi.yml
 - filename: apple-beta-testers-api-openapi.yml
   format: yaml
   label: Apple Beta Testers API
   slug: apple-beta-testers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/apple-beta-testers-api-openapi.yml
+  url: https://artifacts.apis.io/apple/openapi/apple-beta-testers-api-openapi.yml
 - filename: apple-builds-api-openapi.yml
   format: yaml
   label: Apple Builds API
   slug: apple-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/openapi/apple-builds-api-openapi.yml
+  url: https://artifacts.apis.io/apple/openapi/apple-builds-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/app-st
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/betaGroups\n  method: get\n  operationId: listBetaGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/betaGroups\n  method: post\n  operationId: createBetaGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/betaGroups/{id}\n  method: get\n  operationId: readBetaGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/betaGroups/{id}\n  method: patch\n  operationId: modifyBetaGroup\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/betaGroups/{id}\n  method: delete\n  operationId: deleteBetaGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/betaGroups/{id}/betaTesters\n  method: get\n  operationId: listBetaGroupBetaTesters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/betaGroups/{id}/relationships/betaTesters\n  method: post\n  operationId: addBetaTestersToBetaGroup\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/betaGroups/{id}/relationships/betaTesters\n  method: delete\n  operationId: removeBetaTestersFromBetaGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/agentic-access/apple-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apple/agentic-access/apple-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Apple

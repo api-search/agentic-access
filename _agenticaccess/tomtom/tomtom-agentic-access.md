@@ -9,91 +9,91 @@ api_specs:
   label: TomTom Additional Data API
   slug: tomtom-additional-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-additional-data-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-additional-data-api-openapi.yml
 - filename: tomtom-batch-routing-api-openapi.yml
   format: yaml
   label: TomTom Batch Routing API
   slug: tomtom-batch-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-batch-routing-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-batch-routing-api-openapi.yml
 - filename: tomtom-copyrights-api-openapi.yml
   format: yaml
   label: TomTom Copyrights API
   slug: tomtom-copyrights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-copyrights-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-copyrights-api-openapi.yml
 - filename: tomtom-filters-api-openapi.yml
   format: yaml
   label: TomTom Filters API
   slug: tomtom-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-filters-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-filters-api-openapi.yml
 - filename: tomtom-geocoding-api-openapi.yml
   format: yaml
   label: TomTom Geocoding API
   slug: tomtom-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-geocoding-api-openapi.yml
 - filename: tomtom-raster-api-openapi.yml
   format: yaml
   label: TomTom Raster API
   slug: tomtom-raster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-raster-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-raster-api-openapi.yml
 - filename: tomtom-reachable-range-api-openapi.yml
   format: yaml
   label: TomTom Reachable Range API
   slug: tomtom-reachable-range-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-reachable-range-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-reachable-range-api-openapi.yml
 - filename: tomtom-reverse-geocoding-api-openapi.yml
   format: yaml
   label: TomTom Reverse Geocoding API
   slug: tomtom-reverse-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-reverse-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-reverse-geocoding-api-openapi.yml
 - filename: tomtom-routing-api-openapi.yml
   format: yaml
   label: TomTom Routing API
   slug: tomtom-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-routing-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-routing-api-openapi.yml
 - filename: tomtom-search-api-openapi.yml
   format: yaml
   label: TomTom Search API
   slug: tomtom-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-search-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-search-api-openapi.yml
 - filename: tomtom-traffic-flow-api-openapi.yml
   format: yaml
   label: TomTom Traffic Flow API
   slug: tomtom-traffic-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-traffic-flow-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-traffic-flow-api-openapi.yml
 - filename: tomtom-traffic-incidents-api-openapi.yml
   format: yaml
   label: TomTom Traffic Incidents API
   slug: tomtom-traffic-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-traffic-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-traffic-incidents-api-openapi.yml
 - filename: tomtom-traffic-tiles-api-openapi.yml
   format: yaml
   label: TomTom Traffic Tiles API
   slug: tomtom-traffic-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-traffic-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-traffic-tiles-api-openapi.yml
 - filename: tomtom-vector-api-openapi.yml
   format: yaml
   label: TomTom Vector API
   slug: tomtom-vector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-vector-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-vector-api-openapi.yml
 - filename: tomtom-wms-wmts-api-openapi.yml
   format: yaml
   label: TomTom WMS / WMTS API
   slug: tomtom-wms-wmts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/openapi/tomtom-wms-wmts-api-openapi.yml
+  url: https://artifacts.apis.io/tomtom/openapi/tomtom-wms-wmts-api-openapi.yml
 consequence_counts:
   read: 33
   write: 6
@@ -130,7 +130,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tomtom
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/{versionNumber}/search/{query}.{ext}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/{versionNumber}/searchAlongRoute/{query}.{ext}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/{versionNumber}/structuredGeocode.{ext}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traffic/services/{versionNumber}/incidentDetails\n  method: get\n  operationId:\
   \ getIncidentDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traffic/services/{versionNumber}/incidentViewport/{boundingBox}/{overview}/{copyright}/{zoom}/{format}\n  method: get\n  operationId: getIncidentViewport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traffic/services/{versionNumber}/incidentTile/{style}/{zoom}/{x}/{y}.{format}\n  method: get\n  operationId: getRasterIncidentTile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traffic/services/{versionNumber}/flowSegmentData/{style}/{zoom}/json\n  method: get\n  operationId: getFlowSegmentData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /traffic/map/{versionNumber}/tile/flow/{style}/{zoom}/{x}/{y}.{format}\n  method: get\n  operationId: getRasterFlowTile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /traffic/map/{versionNumber}/tile/flow/{zoom}/{x}/{y}.pbf\n  method: get\n  operationId: getVectorFlowTile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tomtom/refs/heads/main/agentic-access/tomtom-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tomtom/agentic-access/tomtom-agentic-access.yml
 summary_line: 39 operations · 6 acting
 tags:
 - Maps

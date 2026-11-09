@@ -9,49 +9,109 @@ api_specs:
   label: Amazon MediaConnect Bridges API
   slug: amazon-mediaconnect-bridges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-bridges-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-bridges-api-openapi.yml
 - filename: amazon-mediaconnect-entitlements-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Entitlements API
   slug: amazon-mediaconnect-entitlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-entitlements-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-entitlements-api-openapi.yml
 - filename: amazon-mediaconnect-flows-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Flows API
   slug: amazon-mediaconnect-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-flows-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-flows-api-openapi.yml
 - filename: amazon-mediaconnect-gateway-instances-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Gateway Instances API
   slug: amazon-mediaconnect-gateway-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-gateway-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-gateway-instances-api-openapi.yml
 - filename: amazon-mediaconnect-gateways-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Gateways API
   slug: amazon-mediaconnect-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-gateways-api-openapi.yml
 - filename: amazon-mediaconnect-offerings-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Offerings API
   slug: amazon-mediaconnect-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-offerings-api-openapi.yml
 - filename: amazon-mediaconnect-reservations-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Reservations API
   slug: amazon-mediaconnect-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-reservations-api-openapi.yml
 - filename: amazon-mediaconnect-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaConnect Tags API
   slug: amazon-mediaconnect-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/openapi/amazon-mediaconnect-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-tags-api-openapi.yml
+- filename: amazon-mediaconnect-destinationendpoint-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Destinationendpoint API
+  slug: amazon-mediaconnect-destinationendpoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-destinationendpoint-api-openapi.yml
+- filename: amazon-mediaconnect-mediastreams-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Mediastreams API
+  slug: amazon-mediaconnect-mediastreams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-mediastreams-api-openapi.yml
+- filename: amazon-mediaconnect-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Operations API
+  slug: amazon-mediaconnect-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-operations-api-openapi.yml
+- filename: amazon-mediaconnect-outputs-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Outputs API
+  slug: amazon-mediaconnect-outputs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-outputs-api-openapi.yml
+- filename: amazon-mediaconnect-routerinput-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Routerinput API
+  slug: amazon-mediaconnect-routerinput-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-routerinput-api-openapi.yml
+- filename: amazon-mediaconnect-routernetworkinterface-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Routernetworkinterface API
+  slug: amazon-mediaconnect-routernetworkinterface-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-routernetworkinterface-api-openapi.yml
+- filename: amazon-mediaconnect-routeroutput-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Routeroutput API
+  slug: amazon-mediaconnect-routeroutput-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-routeroutput-api-openapi.yml
+- filename: amazon-mediaconnect-source-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Source API
+  slug: amazon-mediaconnect-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-source-api-openapi.yml
+- filename: amazon-mediaconnect-sourceendpoint-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Sourceendpoint API
+  slug: amazon-mediaconnect-sourceendpoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-sourceendpoint-api-openapi.yml
+- filename: amazon-mediaconnect-sources-api-openapi.yml
+  format: yaml
+  label: Amazon MediaConnect Mediaconnect Sources API
+  slug: amazon-mediaconnect-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediaconnect/openapi/amazon-mediaconnect-sources-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -115,9 +175,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/flows/{flowArn}/entitlements/{entitlementArn}\n  method: put\n  operationId: UpdateFlowEntitlement\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/flows/start/{flowArn}\n  method: post\n  operationId: StartFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v1/flows/stop/{flowArn}\n  method: post\n  operationId: StopFlow\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/bridges/{bridgeArn}/state\n  method: put\n  operationId: UpdateBridgeState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n   \
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediaconnect/refs/heads/main/agentic-access/amazon-mediaconnect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediaconnect/agentic-access/amazon-mediaconnect-agentic-access.yml
 summary_line: 50 operations · 36 acting · 2 human-in-the-loop
 tags:
+- Amazon Web Services
 - Broadcasting
 - Live Streaming
 - Media

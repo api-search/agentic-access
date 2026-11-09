@@ -15,67 +15,67 @@ api_specs:
   label: TalentLMS Batch Actions API
   slug: talentlms-batch-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-batch-actions-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-batch-actions-api-openapi.yml
 - filename: talentlms-branch-api-openapi.yml
   format: yaml
   label: TalentLMS Branch API
   slug: talentlms-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-branch-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-branch-api-openapi.yml
 - filename: talentlms-category-api-openapi.yml
   format: yaml
   label: TalentLMS Category API
   slug: talentlms-category-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-category-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-category-api-openapi.yml
 - filename: talentlms-course-api-openapi.yml
   format: yaml
   label: TalentLMS Course API
   slug: talentlms-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-course-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-course-api-openapi.yml
 - filename: talentlms-group-api-openapi.yml
   format: yaml
   label: TalentLMS Group API
   slug: talentlms-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-group-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-group-api-openapi.yml
 - filename: talentlms-learning-paths-api-openapi.yml
   format: yaml
   label: TalentLMS Learning Paths API
   slug: talentlms-learning-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-learning-paths-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-learning-paths-api-openapi.yml
 - filename: talentlms-portal-api-openapi.yml
   format: yaml
   label: TalentLMS Portal API
   slug: talentlms-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-portal-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-portal-api-openapi.yml
 - filename: talentlms-task-api-openapi.yml
   format: yaml
   label: TalentLMS Task API
   slug: talentlms-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-task-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-task-api-openapi.yml
 - filename: talentlms-timeline-api-openapi.yml
   format: yaml
   label: TalentLMS Timeline API
   slug: talentlms-timeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-timeline-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-timeline-api-openapi.yml
 - filename: talentlms-unit-api-openapi.yml
   format: yaml
   label: TalentLMS Unit API
   slug: talentlms-unit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-unit-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-unit-api-openapi.yml
 - filename: talentlms-user-api-openapi.yml
   format: yaml
   label: TalentLMS User API
   slug: talentlms-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/openapi/talentlms-user-api-openapi.yml
+  url: https://artifacts.apis.io/talentlms/openapi/talentlms-user-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 32
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/talent
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/branches/{id}/status\n  method: put\n  operationId: updateBranchStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/users/{id}/groups\n  method: get\n  operationId: getUserGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /api/v2/users/{id}/branches\n  method: get\n  operationId: getUserBranches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/users/{id}/courses\n  method: get\n  operationId: getUserCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/users/{id}/resources\n  method: get\n  operationId: getUserResources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/users/{id}/gamification\n  method: get\n  operationId: getUserGamification\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/groups/{id}/courses\n\
   \  method: get\n  operationId: getGroupCourses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/users/{id}/certificates\n  method: get\n  operationId: getUserCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/talentlms/refs/heads/main/agentic-access/talentlms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/talentlms/agentic-access/talentlms-agentic-access.yml
 summary_line: 63 operations · 31 acting · 2 human-in-the-loop
 tags:
 - LMS

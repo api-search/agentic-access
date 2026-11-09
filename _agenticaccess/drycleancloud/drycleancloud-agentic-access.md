@@ -9,43 +9,43 @@ api_specs:
   label: CleanCloud Business and Reporting API
   slug: drycleancloud-business-and-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-business-and-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-business-and-reporting-api-openapi.yml
 - filename: drycleancloud-customers-api-openapi.yml
   format: yaml
   label: CleanCloud Customers API
   slug: drycleancloud-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-customers-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-customers-api-openapi.yml
 - filename: drycleancloud-messaging-api-openapi.yml
   format: yaml
   label: CleanCloud Messaging API
   slug: drycleancloud-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-messaging-api-openapi.yml
 - filename: drycleancloud-orders-api-openapi.yml
   format: yaml
   label: CleanCloud Orders API
   slug: drycleancloud-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-orders-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-orders-api-openapi.yml
 - filename: drycleancloud-payments-api-openapi.yml
   format: yaml
   label: CleanCloud Payments API
   slug: drycleancloud-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-payments-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-payments-api-openapi.yml
 - filename: drycleancloud-pickup-and-delivery-api-openapi.yml
   format: yaml
   label: CleanCloud Pickup and Delivery API
   slug: drycleancloud-pickup-and-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-pickup-and-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-pickup-and-delivery-api-openapi.yml
 - filename: drycleancloud-products-api-openapi.yml
   format: yaml
   label: CleanCloud Products API
   slug: drycleancloud-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-products-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-products-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 21
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/drycle
   \  method: post\n  operationId: deletePickup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getPickups\n  method: post\n  operationId: getPickups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getDates\n  method: post\n  operationId: getDates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getSlots\n  method: post\n  operationId: getSlots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getRoute\n  method: post\n  operationId: getRoute\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /driverLocation\n  method: post\n  operationId: driverLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getProducts\n  method: post\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getPriceLists\n  method: post\n  operationId: getPriceLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /getInventory\n  method: post\n  operationId: getInventory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/agentic-access/drycleancloud-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/drycleancloud/agentic-access/drycleancloud-agentic-access.yml
 summary_line: 44 operations · 23 acting · 1 human-in-the-loop
 tags:
 - Dry Cleaning

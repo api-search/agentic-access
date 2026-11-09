@@ -9,49 +9,49 @@ api_specs:
   label: Entity Sport Authentication API
   slug: entitysport-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-authentication-api-openapi.yml
 - filename: entitysport-competitions-api-openapi.yml
   format: yaml
   label: Entity Sport Competitions API
   slug: entitysport-competitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-competitions-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-competitions-api-openapi.yml
 - filename: entitysport-fantasy-api-openapi.yml
   format: yaml
   label: Entity Sport Fantasy API
   slug: entitysport-fantasy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-fantasy-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-fantasy-api-openapi.yml
 - filename: entitysport-matches-api-openapi.yml
   format: yaml
   label: Entity Sport Matches API
   slug: entitysport-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-matches-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-matches-api-openapi.yml
 - filename: entitysport-odds-api-openapi.yml
   format: yaml
   label: Entity Sport Odds API
   slug: entitysport-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-odds-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-odds-api-openapi.yml
 - filename: entitysport-players-api-openapi.yml
   format: yaml
   label: Entity Sport Players API
   slug: entitysport-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-players-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-players-api-openapi.yml
 - filename: entitysport-scorecards-api-openapi.yml
   format: yaml
   label: Entity Sport Scorecards API
   slug: entitysport-scorecards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-scorecards-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-scorecards-api-openapi.yml
 - filename: entitysport-teams-api-openapi.yml
   format: yaml
   label: Entity Sport Teams API
   slug: entitysport-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/openapi/entitysport-teams-api-openapi.yml
+  url: https://artifacts.apis.io/entitysport/openapi/entitysport-teams-api-openapi.yml
 consequence_counts:
   read: 14
   write: 1
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/entity
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competitions\n  method: get\n  operationId: listCompetitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competitions/{cid}\n  method: get\n  operationId: getCompetition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competitions/{cid}/matches\n  method: get\n  operationId: listCompetitionMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competitions/{cid}/standings\n  method: get\n  operationId: getCompetitionStandings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /matches\n  method: get\n  operationId: listMatches\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{mid}/info\n  method: get\n  operationId: getMatchInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{mid}/live\n  method: get\n  operationId: getMatchLive\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{mid}/scorecard\n  method: get\n  operationId: getMatchScorecard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{mid}/squads\n  method: get\n  operationId: getMatchSquads\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{mid}/point\n  method: get\n  operationId: getMatchFantasyPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /matches/{mid}/odds\n  method: get\n  operationId: getMatchOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /players/{pid}\n  method: get\n  operationId: getPlayer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{tid}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/agentic-access/entitysport-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/entitysport/agentic-access/entitysport-agentic-access.yml
 summary_line: 15 operations · 1 acting
 tags:
 - Sports Data

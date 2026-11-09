@@ -9,55 +9,55 @@ api_specs:
   label: MobileAPI.dev API Token Auth API
   slug: mobileapi-dev-api-token-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-api-token-auth-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-api-token-auth-api-openapi.yml
 - filename: mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Demo X7k9m2p4 API
   slug: mobileapi-dev-demo-x7k9m2p4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-demo-x7k9m2p4-api-openapi.yml
 - filename: mobileapi-dev-devices-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Devices API
   slug: mobileapi-dev-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-devices-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-devices-api-openapi.yml
 - filename: mobileapi-dev-images-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Images API
   slug: mobileapi-dev-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-images-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-images-api-openapi.yml
 - filename: mobileapi-dev-manufacturers-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Manufacturers API
   slug: mobileapi-dev-manufacturers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-manufacturers-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-manufacturers-api-openapi.yml
 - filename: mobileapi-dev-me-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Me API
   slug: mobileapi-dev-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-me-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-me-api-openapi.yml
 - filename: mobileapi-dev-payment-successful-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Payment Successful API
   slug: mobileapi-dev-payment-successful-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-payment-successful-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-payment-successful-api-openapi.yml
 - filename: mobileapi-dev-status-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Status API
   slug: mobileapi-dev-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-status-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-status-api-openapi.yml
 - filename: mobileapi-dev-firewall-api-openapi.yml
   format: yaml
   label: MobileAPI.dev Firewall API
   slug: mobileapi-dev-firewall-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/openapi/mobileapi-dev-firewall-api-openapi.yml
+  url: https://artifacts.apis.io/mobileapi-dev/openapi/mobileapi-dev-firewall-api-openapi.yml
 consequence_counts:
   read: 56
   write: 1
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mobile
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}/misc/\n  method: get\n  operationId: devices_misc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}/network/\n  method: get\n  operationId: devices_network\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}/platform/\n  method: get\n  operationId: devices_platform\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}/selfie-camera/\n  method: get\n  operationId: devices_selfie_camera\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}/sound/\n\
   \  method: get\n  operationId: devices_sound\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{id}/thumb.png/\n  method: get\n  operationId: devices_thumb.png_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /images/{id}/\n  method: get\n  operationId: images_read\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manufacturers/\n  method: get\n  operationId: manufacturers_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /manufacturers/{id}/\n  method: get\n  operationId: manufacturers_read\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/\n  method: get\n  operationId: me_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_successful\n  method: get\n  operationId: payment_successful_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment_successful/\n  method: get\n  operationId: payment_successful_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status/\n  method: get\n  operationId: status_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobileapi-dev/refs/heads/main/agentic-access/mobileapi-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mobileapi-dev/agentic-access/mobileapi-dev-agentic-access.yml
 summary_line: 57 operations · 1 acting
 tags:
 - Data API

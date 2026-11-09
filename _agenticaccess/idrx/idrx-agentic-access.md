@@ -9,19 +9,19 @@ api_specs:
   label: IDRX Onboarding API
   slug: idrx-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/idrx/openapi/idrx-onboarding-api-openapi.yml
 - filename: idrx-transaction-api-openapi.yml
   format: yaml
   label: IDRX Transaction API
   slug: idrx-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/idrx/openapi/idrx-transaction-api-openapi.yml
 - filename: idrx-idrx-api-api-openapi.yml
   format: yaml
   label: IDRX API
   slug: idrx-idrx-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/openapi/idrx-idrx-api-api-openapi.yml
+  url: https://artifacts.apis.io/idrx/openapi/idrx-idrx-api-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/idrx-o
   \     max-ttl: 3600\n    audit: none\n- path: /api/auth/delete-bank-account/{bankId}\n  method: delete\n  operationId: deleteBankAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transaction/mint-request\n  method: post\n  operationId: createMintRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transaction/redeem-request\n  method: post\n  operationId: createRedeemRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transaction/bridge-request\n  method: post\n  operationId: createBridgeRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/transaction/method\n  method: get\n  operationId: getBankMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transaction/user-transaction-history\n  method: get\n  operationId: getTransactionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/transaction/rates\n  method: get\n  operationId: getRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/transaction/get-additional-fees\n  method: get\n  operationId: getAdditionalFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idrx/refs/heads/main/agentic-access/idrx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/idrx/agentic-access/idrx-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Stablecoins

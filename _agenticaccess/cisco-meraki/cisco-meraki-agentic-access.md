@@ -9,121 +9,121 @@ api_specs:
   label: Cisco Meraki Administered API
   slug: cisco-meraki-administered-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-administered-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-administered-api-openapi.yml
 - filename: cisco-meraki-appliance-api-openapi.yml
   format: yaml
   label: Cisco Meraki Appliance API
   slug: cisco-meraki-appliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-appliance-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-appliance-api-openapi.yml
 - filename: cisco-meraki-camera-api-openapi.yml
   format: yaml
   label: Cisco Meraki Camera API
   slug: cisco-meraki-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-camera-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-camera-api-openapi.yml
 - filename: cisco-meraki-campusgateway-api-openapi.yml
   format: yaml
   label: Cisco Meraki Campus Gateway API
   slug: cisco-meraki-campusgateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-campusgateway-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-campusgateway-api-openapi.yml
 - filename: cisco-meraki-cellulargateway-api-openapi.yml
   format: yaml
   label: Cisco Meraki Cellular Gateway API
   slug: cisco-meraki-cellulargateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-cellulargateway-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-cellulargateway-api-openapi.yml
 - filename: cisco-meraki-devices-api-openapi.yml
   format: yaml
   label: Cisco Meraki Devices API
   slug: cisco-meraki-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-devices-api-openapi.yml
 - filename: cisco-meraki-insight-api-openapi.yml
   format: yaml
   label: Cisco Meraki Insight API
   slug: cisco-meraki-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-insight-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-insight-api-openapi.yml
 - filename: cisco-meraki-licensing-api-openapi.yml
   format: yaml
   label: Cisco Meraki Licensing API
   slug: cisco-meraki-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-licensing-api-openapi.yml
 - filename: cisco-meraki-networks-api-openapi.yml
   format: yaml
   label: Cisco Meraki Networks API
   slug: cisco-meraki-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-networks-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-networks-api-openapi.yml
 - filename: cisco-meraki-organizations-api-openapi.yml
   format: yaml
   label: Cisco Meraki Organizations API
   slug: cisco-meraki-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-organizations-api-openapi.yml
 - filename: cisco-meraki-sensor-api-openapi.yml
   format: yaml
   label: Cisco Meraki Sensor API
   slug: cisco-meraki-sensor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-sensor-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-sensor-api-openapi.yml
 - filename: cisco-meraki-sm-api-openapi.yml
   format: yaml
   label: Cisco Meraki Sm API
   slug: cisco-meraki-sm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-sm-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-sm-api-openapi.yml
 - filename: cisco-meraki-spaces-api-openapi.yml
   format: yaml
   label: Cisco Meraki Spaces API
   slug: cisco-meraki-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-spaces-api-openapi.yml
 - filename: cisco-meraki-switch-api-openapi.yml
   format: yaml
   label: Cisco Meraki Switch API
   slug: cisco-meraki-switch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-switch-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-switch-api-openapi.yml
 - filename: cisco-meraki-wireless-api-openapi.yml
   format: yaml
   label: Cisco Meraki Wireless API
   slug: cisco-meraki-wireless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wireless-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-wireless-api-openapi.yml
 - filename: cisco-meraki-wirelesscontroller-api-openapi.yml
   format: yaml
   label: Cisco Meraki Wireless Controller API
   slug: cisco-meraki-wirelesscontroller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-wirelesscontroller-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-wirelesscontroller-api-openapi.yml
 - filename: cisco-meraki-deployments-api-openapi.yml
   format: yaml
   label: Cisco Meraki Deployments API
   slug: cisco-meraki-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-deployments-api-openapi.yml
 - filename: cisco-meraki-firewall-applications-api-openapi.yml
   format: yaml
   label: Cisco Meraki Firewall Applications API
   slug: cisco-meraki-firewall-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-firewall-applications-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-firewall-applications-api-openapi.yml
 - filename: cisco-meraki-policies-api-openapi.yml
   format: yaml
   label: Cisco Meraki Policies API
   slug: cisco-meraki-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-policies-api-openapi.yml
 - filename: cisco-meraki-reports-api-openapi.yml
   format: yaml
   label: Cisco Meraki Reports API
   slug: cisco-meraki-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-reports-api-openapi.yml
 consequence_counts:
   physical: 86
   read: 555
@@ -312,8 +312,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cisco-
   \    - sdwan:config:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/appliance/staticRoutes/{staticRouteId}\n  method: get\n  operationId: getNetworkApplianceStaticRoute\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sdwan:config:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/appliance/staticRoutes/{staticRouteId}\n  method: put\n  operationId: updateNetworkApplianceStaticRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sdwan:config:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/appliance/staticRoutes/{staticRouteId}\n\
   \  method: delete\n  operationId: deleteNetworkApplianceStaticRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sdwan:config:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/appliance/trafficShaping\n  method: get\n  operationId: getNetworkApplianceTrafficShaping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sdwan:config:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/appliance/trafficShaping\n  method: put\n  operationId: updateNetworkApplianceTrafficShaping\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sdwan:config:write\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/appliance/trafficShaping/customPerformanceClasses\n  method: get\n  operationId: getNetworkApplianceTrafficShapingCustomPerformanceClasses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sdwan:config:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /networks/{networkId}/appliance/trafficShaping/customPerformanceClasses\n  method: post\n  operationId: createNetworkApplianceTrafficShapingCustomPerformanceClass\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - sdwan:config:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /networks/{networkId}/appliance/trafficShaping/customPerformanceClasses/{customPerformanceClassId}\n\
-  \  method: get\n  operationId: getNetworkApplianceTrafficShapingCustomPerformanceClass\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sdwan:config:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (367 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/agentic-access/cisco-meraki-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/agentic-access/cisco-meraki-agentic-access.yml
+  \  method: get\n  operationId: getNetworkApplianceTrafficShapingCustomPerformanceClass\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sdwan:config:read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (367 KB total) ---\n# Full source: https://artifacts.apis.io/cisco-meraki/agentic-access/cisco-meraki-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cisco-meraki/agentic-access/cisco-meraki-agentic-access.yml
 summary_line: 1023 operations · 468 acting · 14 human-in-the-loop
 tags:
 - Networking

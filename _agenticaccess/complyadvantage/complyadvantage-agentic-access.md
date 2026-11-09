@@ -9,157 +9,157 @@ api_specs:
   label: ComplyAdvantage Case Management API
   slug: complyadvantage-case-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-case-management-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-case-management-api-openapi.yml
 - filename: complyadvantage-monitored-searches-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Monitored Searches API
   slug: complyadvantage-monitored-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-monitored-searches-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-monitored-searches-api-openapi.yml
 - filename: complyadvantage-searches-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Searches API
   slug: complyadvantage-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-searches-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-searches-api-openapi.yml
 - filename: complyadvantage-users-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Users API
   slug: complyadvantage-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-users-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-users-api-openapi.yml
 - filename: complyadvantage-accounts-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Accounts API
   slug: complyadvantage-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-accounts-api-openapi.yml
 - filename: complyadvantage-alerts-risks-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Alerts & Risks API
   slug: complyadvantage-alerts-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-alerts-risks-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-alerts-risks-api-openapi.yml
 - filename: complyadvantage-audit-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Audit API
   slug: complyadvantage-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-audit-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-audit-api-openapi.yml
 - filename: complyadvantage-authentication-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Authentication API
   slug: complyadvantage-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-authentication-api-openapi.yml
 - filename: complyadvantage-batch-processing-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Batch Processing API
   slug: complyadvantage-batch-processing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-batch-processing-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-batch-processing-api-openapi.yml
 - filename: complyadvantage-case-workflows-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Case Workflows API
   slug: complyadvantage-case-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-case-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-case-workflows-api-openapi.yml
 - filename: complyadvantage-cases-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Cases API
   slug: complyadvantage-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-cases-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-cases-api-openapi.yml
 - filename: complyadvantage-clients-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Clients API
   slug: complyadvantage-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-clients-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-clients-api-openapi.yml
 - filename: complyadvantage-custom-fields-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Custom Fields API
   slug: complyadvantage-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-custom-fields-api-openapi.yml
 - filename: complyadvantage-custom-lists-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Custom Lists API
   slug: complyadvantage-custom-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-custom-lists-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-custom-lists-api-openapi.yml
 - filename: complyadvantage-customers-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Customers API
   slug: complyadvantage-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-customers-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-customers-api-openapi.yml
 - filename: complyadvantage-email-configurations-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Email Configurations API
   slug: complyadvantage-email-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-email-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-email-configurations-api-openapi.yml
 - filename: complyadvantage-enrichment-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Enrichment API
   slug: complyadvantage-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-enrichment-api-openapi.yml
 - filename: complyadvantage-exports-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Exports API
   slug: complyadvantage-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-exports-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-exports-api-openapi.yml
 - filename: complyadvantage-iam-api-openapi.yml
   format: yaml
   label: ComplyAdvantage IAM API
   slug: complyadvantage-iam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-iam-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-iam-api-openapi.yml
 - filename: complyadvantage-labels-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Labels API
   slug: complyadvantage-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-labels-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-labels-api-openapi.yml
 - filename: complyadvantage-onboarding-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Onboarding API
   slug: complyadvantage-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-onboarding-api-openapi.yml
 - filename: complyadvantage-payment-screening-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Payment Screening API
   slug: complyadvantage-payment-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-payment-screening-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-payment-screening-api-openapi.yml
 - filename: complyadvantage-regulatory-reporting-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Regulatory Reporting API
   slug: complyadvantage-regulatory-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-regulatory-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-regulatory-reporting-api-openapi.yml
 - filename: complyadvantage-screening-configurations-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Screening Configurations API
   slug: complyadvantage-screening-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-screening-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-screening-configurations-api-openapi.yml
 - filename: complyadvantage-transactions-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Transactions API
   slug: complyadvantage-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-transactions-api-openapi.yml
 - filename: complyadvantage-webhooks-api-openapi.yml
   format: yaml
   label: ComplyAdvantage Webhooks API
   slug: complyadvantage-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/openapi/complyadvantage-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/complyadvantage/openapi/complyadvantage-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 91
@@ -253,8 +253,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/comply
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v2/notifications/configurations/email/{identifier}\n  method: patch\n  operationId: notificationPatchEmailConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists\n  method: get\n  operationId: meshEnrichmentServiceListLookupLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/enrichment/lookup-lists\n  method: post\n  operationId: meshEnrichmentServiceCreateLookupList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists/{identifier}\n  method: get\n  operationId: meshEnrichmentServiceGetLookupList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/enrichment/lookup-lists/{identifier}\n  method: patch\n  operationId: meshEnrichmentServiceUpdateLookupList\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists/{identifier}/draft\n  method: delete\n  operationId: meshEnrichmentServiceDeleteLookupListVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists/{identifier}/promote-draft\n  method: post\n  operationId: meshEnrichmentServicePostPromoteDraft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists/{identifier}/versions\n  method: get\n  operationId: meshEnrichmentServiceListLookupListVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/enrichment/lookup-lists/{identifier}/versions\n  method: post\n  operationId: meshEnrichmentServiceCreateLookupListVersion\n  x-agentic-access:\n\
-  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists/{identifier}/versions/{version_identifier}/download\n  method: get\n  operationId: meshEnrichmentServiceListLookupListVersionItemsDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/agentic-access/complyadvantage-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/complyadvantage/refs/heads/main/agentic-access/complyadvantage-agentic-access.yml
+  \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v3/enrichment/lookup-lists/{identifier}/versions/{version_identifier}/download\n  method: get\n  operationId: meshEnrichmentServiceListLookupListVersionItemsDownload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://artifacts.apis.io/complyadvantage/agentic-access/complyadvantage-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/complyadvantage/agentic-access/complyadvantage-agentic-access.yml
 summary_line: 184 operations · 93 acting · 2 human-in-the-loop
 tags:
 - AML

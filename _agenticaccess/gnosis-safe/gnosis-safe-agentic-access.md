@@ -9,73 +9,73 @@ api_specs:
   label: Safe (Gnosis Safe) about API
   slug: gnosis-safe-about-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-about-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-about-api-openapi.yml
 - filename: gnosis-safe-analytics-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) analytics API
   slug: gnosis-safe-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-analytics-api-openapi.yml
 - filename: gnosis-safe-contracts-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Contracts API
   slug: gnosis-safe-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-contracts-api-openapi.yml
 - filename: gnosis-safe-data-decoder-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Data Decoder API
   slug: gnosis-safe-data-decoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-data-decoder-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-data-decoder-api-openapi.yml
 - filename: gnosis-safe-delegates-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Delegates API
   slug: gnosis-safe-delegates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-delegates-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-delegates-api-openapi.yml
 - filename: gnosis-safe-messages-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Messages API
   slug: gnosis-safe-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-messages-api-openapi.yml
 - filename: gnosis-safe-modules-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Modules API
   slug: gnosis-safe-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-modules-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-modules-api-openapi.yml
 - filename: gnosis-safe-owners-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Owners API
   slug: gnosis-safe-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-owners-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-owners-api-openapi.yml
 - filename: gnosis-safe-safes-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Safes API
   slug: gnosis-safe-safes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-safes-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-safes-api-openapi.yml
 - filename: gnosis-safe-tokens-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Tokens API
   slug: gnosis-safe-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-tokens-api-openapi.yml
 - filename: gnosis-safe-transactions-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Transactions API
   slug: gnosis-safe-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-transactions-api-openapi.yml
 - filename: gnosis-safe-tx-service-api-openapi.yml
   format: yaml
   label: Safe (Gnosis Safe) Tx Service API
   slug: gnosis-safe-tx-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/openapi/gnosis-safe-tx-service-api-openapi.yml
+  url: https://artifacts.apis.io/gnosis-safe/openapi/gnosis-safe-tx-service-api-openapi.yml
 consequence_counts:
   read: 43
   write: 16
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gnosis
   \    audit: none\n- path: /tx-service/eth/api/v2/multisig-transactions/{safe_tx_hash}/\n  method: delete\n  operationId: multisig_transactions_destroy_2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tx-service/eth/api/v2/owners/{address}/safes/\n  method: get\n  operationId: owners_safes_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tx-service/eth/api/v2/safes/{address}/all-transactions/\n  method: get\n  operationId: safes_all_transactions_list_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tx-service/eth/api/v2/safes/{address}/balances/\n\
   \  method: get\n  operationId: safes_balances_retrieve_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tx-service/eth/api/v2/safes/{address}/collectibles/\n  method: get\n  operationId: safes_collectibles_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tx-service/eth/api/v2/safes/{address}/multisig-transactions/\n  method: get\n  operationId: safes_multisig_transactions_list_2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tx-service/eth/api/v2/safes/{address}/multisig-transactions/\n  method: post\n  operationId: safes_multisig_transactions_create_2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gnosis-safe/refs/heads/main/agentic-access/gnosis-safe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gnosis-safe/agentic-access/gnosis-safe-agentic-access.yml
 summary_line: 59 operations · 16 acting
 tags:
 - Multisig

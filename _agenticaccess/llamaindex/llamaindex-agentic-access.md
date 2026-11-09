@@ -9,109 +9,109 @@ api_specs:
   label: llamaindex Data Sources API
   slug: llamaindex-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-data-sources-api-openapi.yml
 - filename: llamaindex-extraction-agents-api-openapi.yml
   format: yaml
   label: llamaindex Extraction Agents API
   slug: llamaindex-extraction-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-extraction-agents-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-extraction-agents-api-openapi.yml
 - filename: llamaindex-extraction-jobs-api-openapi.yml
   format: yaml
   label: llamaindex Extraction Jobs API
   slug: llamaindex-extraction-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-extraction-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-extraction-jobs-api-openapi.yml
 - filename: llamaindex-files-api-openapi.yml
   format: yaml
   label: llamaindex Files API
   slug: llamaindex-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-files-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-files-api-openapi.yml
 - filename: llamaindex-index-data-sources-api-openapi.yml
   format: yaml
   label: llamaindex Index Data Sources API
   slug: llamaindex-index-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-index-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-index-data-sources-api-openapi.yml
 - filename: llamaindex-index-files-api-openapi.yml
   format: yaml
   label: llamaindex Index Files API
   slug: llamaindex-index-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-index-files-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-index-files-api-openapi.yml
 - filename: llamaindex-index-retrieval-api-openapi.yml
   format: yaml
   label: llamaindex Index Retrieval API
   slug: llamaindex-index-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-index-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-index-retrieval-api-openapi.yml
 - filename: llamaindex-index-status-api-openapi.yml
   format: yaml
   label: llamaindex Index Status API
   slug: llamaindex-index-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-index-status-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-index-status-api-openapi.yml
 - filename: llamaindex-indexes-api-openapi.yml
   format: yaml
   label: llamaindex Indexes API
   slug: llamaindex-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-indexes-api-openapi.yml
 - filename: llamaindex-jobs-api-openapi.yml
   format: yaml
   label: llamaindex Jobs API
   slug: llamaindex-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-jobs-api-openapi.yml
 - filename: llamaindex-parsing-api-openapi.yml
   format: yaml
   label: llamaindex Parsing API
   slug: llamaindex-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-parsing-api-openapi.yml
 - filename: llamaindex-pipeline-data-sinks-api-openapi.yml
   format: yaml
   label: llamaindex Pipeline Data Sinks API
   slug: llamaindex-pipeline-data-sinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-pipeline-data-sinks-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-pipeline-data-sinks-api-openapi.yml
 - filename: llamaindex-pipeline-data-sources-api-openapi.yml
   format: yaml
   label: llamaindex Pipeline Data Sources API
   slug: llamaindex-pipeline-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-pipeline-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-pipeline-data-sources-api-openapi.yml
 - filename: llamaindex-pipeline-files-api-openapi.yml
   format: yaml
   label: llamaindex Pipeline Files API
   slug: llamaindex-pipeline-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-pipeline-files-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-pipeline-files-api-openapi.yml
 - filename: llamaindex-pipeline-jobs-api-openapi.yml
   format: yaml
   label: llamaindex Pipeline Jobs API
   slug: llamaindex-pipeline-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-pipeline-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-pipeline-jobs-api-openapi.yml
 - filename: llamaindex-pipelines-api-openapi.yml
   format: yaml
   label: llamaindex Pipelines API
   slug: llamaindex-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-pipelines-api-openapi.yml
 - filename: llamaindex-projects-api-openapi.yml
   format: yaml
   label: llamaindex Projects API
   slug: llamaindex-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-projects-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-projects-api-openapi.yml
 - filename: llamaindex-retrieval-api-openapi.yml
   format: yaml
   label: llamaindex Retrieval API
   slug: llamaindex-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/openapi/llamaindex-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/llamaindex/openapi/llamaindex-retrieval-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 2
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/llamai
   \  method: get\n  operationId: listPipelines\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines\n  method: post\n  operationId: createPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipelineId}\n  method: get\n  operationId: getPipeline\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}\n  method: delete\n  operationId: deletePipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pipelines/{pipelineId}/sync\n  method: post\n  operationId: syncPipeline\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /projects/{projectId}\n  method: get\n  operationId: getProject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pipelines/{pipelineId}/retrieve\n  method: post\n  operationId: runSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llamaindex/refs/heads/main/agentic-access/llamaindex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/llamaindex/agentic-access/llamaindex-agentic-access.yml
 summary_line: 42 operations · 20 acting · 2 human-in-the-loop
 tags:
 - Agents

@@ -9,25 +9,25 @@ api_specs:
   label: Y42 Manifest API
   slug: y42-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/y42/openapi/y42-manifest-api-openapi.yml
 - filename: y42-orchestration-api-openapi.yml
   format: yaml
   label: Y42 Orchestration API
   slug: y42-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/y42/openapi/y42-orchestration-api-openapi.yml
 - filename: y42-runs-api-openapi.yml
   format: yaml
   label: Y42 Runs API
   slug: y42-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-runs-api-openapi.yml
+  url: https://artifacts.apis.io/y42/openapi/y42-runs-api-openapi.yml
 - filename: y42-spaces-api-openapi.yml
   format: yaml
   label: Y42 Spaces API
   slug: y42-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/openapi/y42-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/y42/openapi/y42-spaces-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/y42-op
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/github-backend/{org_slug}/space/{slug}\n  method: get\n  operationId: getSpace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1/github-backend/{org_slug}/space/{slug}\n  method: delete\n  operationId: deleteSpace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/github-backend/{org_slug}/space/{slug}/credentials\n  method: patch\n  operationId: updateSpaceCredentials\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/1/credential/{org_slug}/{space_slug}/connections\n  method: post\n  operationId: createConnection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/4/orchestrations/{org_slug}/{space_slug}\n  method: post\n  operationId: triggerOrchestration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/4/orchestrations/{org_slug}/{space_slug}/run\n  method: get\n  operationId: getOrchestrationRun\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/4/orchestrations/{org_slug}/{space_slug}/runs\n  method: get\n  operationId: listOrchestrationRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1/job-info-service/{org_slug}/{space_slug}/latest-jobs\n  method: get\n  operationId: getLatestJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/1/dbt/{org_slug}/{space_slug}/manifest\n  method: get\n  operationId: getManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/y42/refs/heads/main/agentic-access/y42-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/y42/agentic-access/y42-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - DataOps

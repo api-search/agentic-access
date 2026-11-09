@@ -9,91 +9,91 @@ api_specs:
   label: Sematext Alert Notifications API
   slug: sematext-alert-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-alert-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-alert-notifications-api-openapi.yml
 - filename: sematext-alerts-api-openapi.yml
   format: yaml
   label: Sematext Alerts API
   slug: sematext-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-alerts-api-openapi.yml
 - filename: sematext-app-guests-api-openapi.yml
   format: yaml
   label: Sematext App guests API
   slug: sematext-app-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-app-guests-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-app-guests-api-openapi.yml
 - filename: sematext-app-ips-api-openapi.yml
   format: yaml
   label: Sematext App IPs API
   slug: sematext-app-ips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-app-ips-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-app-ips-api-openapi.yml
 - filename: sematext-app-tokens-api-openapi.yml
   format: yaml
   label: Sematext App tokens API
   slug: sematext-app-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-app-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-app-tokens-api-openapi.yml
 - filename: sematext-apps-api-openapi.yml
   format: yaml
   label: Sematext Apps API
   slug: sematext-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-apps-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-apps-api-openapi.yml
 - filename: sematext-billing-api-openapi.yml
   format: yaml
   label: Sematext Billing API
   slug: sematext-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-billing-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-billing-api-openapi.yml
 - filename: sematext-experience-app-api-openapi.yml
   format: yaml
   label: Sematext Experience App API
   slug: sematext-experience-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-experience-app-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-experience-app-api-openapi.yml
 - filename: sematext-logs-app-api-openapi.yml
   format: yaml
   label: Sematext Logs App API
   slug: sematext-logs-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-logs-app-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-logs-app-api-openapi.yml
 - filename: sematext-logs-app-usage-api-openapi.yml
   format: yaml
   label: Sematext Logs App usage API
   slug: sematext-logs-app-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-logs-app-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-logs-app-usage-api-openapi.yml
 - filename: sematext-monitoring-app-api-openapi.yml
   format: yaml
   label: Sematext Monitoring App API
   slug: sematext-monitoring-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-monitoring-app-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-monitoring-app-api-openapi.yml
 - filename: sematext-notifications-api-openapi.yml
   format: yaml
   label: Sematext Notifications API
   slug: sematext-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-notifications-api-openapi.yml
 - filename: sematext-reset-password-api-openapi.yml
   format: yaml
   label: Sematext Reset Password API
   slug: sematext-reset-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-reset-password-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-reset-password-api-openapi.yml
 - filename: sematext-subscriptions-api-openapi.yml
   format: yaml
   label: Sematext Subscriptions API
   slug: sematext-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-subscriptions-api-openapi.yml
 - filename: sematext-tags-api-openapi.yml
   format: yaml
   label: Sematext Tags API
   slug: sematext-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/openapi/sematext-tags-api-openapi.yml
+  url: https://artifacts.apis.io/sematext/openapi/sematext-tags-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 34
@@ -228,8 +228,8 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/semate
   \    audit: none\n- path: /users-web/api/v3/apps\n  method: post\n  operationId: createExperienceApp_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - global\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users-web/api/v3/apps/{appId}/notifications/alerts\n  method: post\n  operationId: getAlertNotificationsForAppUsingPOST\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - global\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users-web/api/v3/apps/users\n  method: get\n  operationId: listAppsUsersUsingGET_1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - global\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users-web/api/v3/apps/{appId}/report/send\n\
   \  method: post\n  operationId: sendAppReportUsingPOST\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - global\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users-web/api/v3/subscriptions\n  method: get\n  operationId: listUsingGET_5\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - global\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users-web/api/v3/apps/{anyStateAppId}/description\n  method: put\n  operationId: updateDescriptionUsingPUT\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - global\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logsene-reports/api/v3/apps\n  method: post\n  operationId: createLogseneApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - global\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logsene-reports/api/v3/apps/{appId}/usage/{from}/{to}\n  method: get\n  operationId: getForRangeUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - global\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /spm-reports/api/v3/apps/{appIds}/metrics/filters\n  method: get\n  operationId: getUsingGET\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - global\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/agentic-access/sematext-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sematext/refs/heads/main/agentic-access/sematext-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/sematext/agentic-access/sematext-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/sematext/agentic-access/sematext-agentic-access.yml
 summary_line: 94 operations · 60 acting · 10 human-in-the-loop
 tags:
 - Company

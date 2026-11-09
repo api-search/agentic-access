@@ -9,121 +9,121 @@ api_specs:
   label: Amazon API Gateway Authorizers API
   slug: aws-api-gateway-authorizers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-authorizers-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-authorizers-api-openapi.yml
 - filename: aws-api-gateway-connections-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Connections API
   slug: aws-api-gateway-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-connections-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-connections-api-openapi.yml
 - filename: aws-api-gateway-deployments-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Deployments API
   slug: aws-api-gateway-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-deployments-api-openapi.yml
 - filename: aws-api-gateway-integrations-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Integrations API
   slug: aws-api-gateway-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-integrations-api-openapi.yml
 - filename: aws-api-gateway-methods-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Methods API
   slug: aws-api-gateway-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-methods-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-methods-api-openapi.yml
 - filename: aws-api-gateway-resources-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Resources API
   slug: aws-api-gateway-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-resources-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-resources-api-openapi.yml
 - filename: aws-api-gateway-routes-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Routes API
   slug: aws-api-gateway-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-routes-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-routes-api-openapi.yml
 - filename: aws-api-gateway-stages-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Stages API
   slug: aws-api-gateway-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-stages-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-stages-api-openapi.yml
 - filename: amazon-api-gateway-websocket-asyncapi.yml
   format: yaml
   label: Amazon API Gateway WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/asyncapi/amazon-api-gateway-websocket-asyncapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/asyncapi/amazon-api-gateway-websocket-asyncapi.yml
 - filename: aws-api-gateway-api-keys-api-openapi.yml
   format: yaml
   label: Amazon API Gateway API Keys API
   slug: aws-api-gateway-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-api-keys-api-openapi.yml
 - filename: aws-api-gateway-base-path-mappings-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Base Path Mappings API
   slug: aws-api-gateway-base-path-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-base-path-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-base-path-mappings-api-openapi.yml
 - filename: aws-api-gateway-documentation-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Documentation API
   slug: aws-api-gateway-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-documentation-api-openapi.yml
 - filename: aws-api-gateway-domain-names-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Domain Names API
   slug: aws-api-gateway-domain-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-domain-names-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-domain-names-api-openapi.yml
 - filename: aws-api-gateway-gateway-responses-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Gateway Responses API
   slug: aws-api-gateway-gateway-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-gateway-responses-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-gateway-responses-api-openapi.yml
 - filename: aws-api-gateway-models-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Models API
   slug: aws-api-gateway-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-models-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-models-api-openapi.yml
 - filename: aws-api-gateway-request-validators-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Request Validators API
   slug: aws-api-gateway-request-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-request-validators-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-request-validators-api-openapi.yml
 - filename: aws-api-gateway-usage-plans-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Usage Plans API
   slug: aws-api-gateway-usage-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-usage-plans-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-usage-plans-api-openapi.yml
 - filename: aws-api-gateway-apis-api-openapi.yml
   format: yaml
   label: Amazon API Gateway APIS API
   slug: aws-api-gateway-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-apis-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-apis-api-openapi.yml
 - filename: aws-api-gateway-rest-apis-api-openapi.yml
   format: yaml
   label: Amazon API Gateway REST APIs API
   slug: aws-api-gateway-rest-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-rest-apis-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-rest-apis-api-openapi.yml
 - filename: aws-api-gateway-vpclinks-api-openapi.yml
   format: yaml
   label: Amazon API Gateway Vpclinks API
   slug: aws-api-gateway-vpclinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/openapi/aws-api-gateway-vpclinks-api-openapi.yml
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-vpclinks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 30
@@ -187,10 +187,11 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/aws-ap
   \ 3600\n    audit: none\n- path: /usageplans/{usageplan_id}\n  method: patch\n  operationId: UpdateUsagePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usageplans/{usageplan_id}\n  method: delete\n  operationId: DeleteUsagePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpclinks\n  method: get\n  operationId: GetVpcLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vpclinks\n  method: post\n  operationId:\
   \ CreateVpcLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpclinks/{vpclink_id}\n  method: get\n  operationId: GetVpcLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vpclinks/{vpclink_id}\n  method: patch\n  operationId: UpdateVpcLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vpclinks/{vpclink_id}\n  method: delete\n  operationId: DeleteVpcLink\n  x-agentic-access:\n    action-class: acting\n  \
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/agentic-access/aws-api-gateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aws-api-gateway/agentic-access/aws-api-gateway-agentic-access.yml
 summary_line: 65 operations · 35 acting
 tags:
 - API Gateway
+- Amazon Web Services
 - Cloud
 - REST
 - HTTP

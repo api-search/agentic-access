@@ -15,25 +15,25 @@ api_specs:
   label: Neuphonic Agents API
   slug: neuphonic-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-agents-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-agents-api-openapi.yml
 - filename: neuphonic-ping-api-openapi.yml
   format: yaml
   label: Neuphonic Ping API
   slug: neuphonic-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-ping-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-ping-api-openapi.yml
 - filename: neuphonic-sse-api-openapi.yml
   format: yaml
   label: Neuphonic Sse API
   slug: neuphonic-sse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-sse-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-sse-api-openapi.yml
 - filename: neuphonic-voices-api-openapi.yml
   format: yaml
   label: Neuphonic Voices API
   slug: neuphonic-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/openapi/neuphonic-voices-api-openapi.yml
+  url: https://artifacts.apis.io/neuphonic/openapi/neuphonic-voices-api-openapi.yml
 consequence_counts:
   read: 4
   write: 8
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/neupho
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sse/auth\n  method: post\n  operationId: swap_api_key_for_jwt_token_sse_auth_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sse/speak/{lang_code}\n  method: post\n  operationId: sse_generator_sse_speak__lang_code__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents\n  method: get\n  operationId: list_all_agents_agents_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n     \
   \ max-ttl: 3600\n    audit: none\n- path: /agents\n  method: post\n  operationId: create_agent_agents_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{agent_id}\n  method: get\n  operationId: get_agent_agents__agent_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{agent_id}\n  method: delete\n  operationId: delete_agent_agents__agent_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /agents/{agent_id}/token\n  method: post\n  operationId: get_livekit_token_agents__agent_id__token_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neuphonic/refs/heads/main/agentic-access/neuphonic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/neuphonic/agentic-access/neuphonic-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Text-to-Speech

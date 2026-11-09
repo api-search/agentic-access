@@ -9,133 +9,133 @@ api_specs:
   label: SNHP Arena API
   slug: snhp-dev-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-arena-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-arena-api-openapi.yml
 - filename: snhp-dev-auctions-api-openapi.yml
   format: yaml
   label: SNHP Auctions API
   slug: snhp-dev-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-auctions-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-auctions-api-openapi.yml
 - filename: snhp-dev-billing-api-openapi.yml
   format: yaml
   label: SNHP Billing API
   slug: snhp-dev-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-billing-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-billing-api-openapi.yml
 - filename: snhp-dev-block-api-openapi.yml
   format: yaml
   label: SNHP Block API
   slug: snhp-dev-block-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-block-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-block-api-openapi.yml
 - filename: snhp-dev-discovery-api-openapi.yml
   format: yaml
   label: SNHP Discovery API
   slug: snhp-dev-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-discovery-api-openapi.yml
 - filename: snhp-dev-divorce-api-openapi.yml
   format: yaml
   label: SNHP Divorce API
   slug: snhp-dev-divorce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-divorce-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-divorce-api-openapi.yml
 - filename: snhp-dev-health-api-openapi.yml
   format: yaml
   label: SNHP Health API
   slug: snhp-dev-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-health-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-health-api-openapi.yml
 - filename: snhp-dev-helper-api-openapi.yml
   format: yaml
   label: SNHP Helper API
   slug: snhp-dev-helper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-helper-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-helper-api-openapi.yml
 - filename: snhp-dev-hit-api-openapi.yml
   format: yaml
   label: SNHP Hit API
   slug: snhp-dev-hit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-hit-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-hit-api-openapi.yml
 - filename: snhp-dev-mechanism-api-openapi.yml
   format: yaml
   label: SNHP Mechanism API
   slug: snhp-dev-mechanism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-mechanism-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-mechanism-api-openapi.yml
 - filename: snhp-dev-mpp-api-openapi.yml
   format: yaml
   label: SNHP Mpp API
   slug: snhp-dev-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-mpp-api-openapi.yml
 - filename: snhp-dev-negotiation-api-openapi.yml
   format: yaml
   label: SNHP Negotiation API
   slug: snhp-dev-negotiation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-negotiation-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-negotiation-api-openapi.yml
 - filename: snhp-dev-notary-api-openapi.yml
   format: yaml
   label: SNHP Notary API
   slug: snhp-dev-notary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-notary-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-notary-api-openapi.yml
 - filename: snhp-dev-offer-api-openapi.yml
   format: yaml
   label: SNHP Offer API
   slug: snhp-dev-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-offer-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-offer-api-openapi.yml
 - filename: snhp-dev-par-api-openapi.yml
   format: yaml
   label: SNHP Par API
   slug: snhp-dev-par-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-par-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-par-api-openapi.yml
 - filename: snhp-dev-rent-api-openapi.yml
   format: yaml
   label: SNHP Rent API
   slug: snhp-dev-rent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-rent-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-rent-api-openapi.yml
 - filename: snhp-dev-snhp-evolution-arena-api-openapi.yml
   format: yaml
   label: SNHP SNHP Evolution Arena API
   slug: snhp-dev-snhp-evolution-arena-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-snhp-evolution-arena-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-snhp-evolution-arena-api-openapi.yml
 - filename: snhp-dev-stats-api-openapi.yml
   format: yaml
   label: SNHP Stats API
   slug: snhp-dev-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-stats-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-stats-api-openapi.yml
 - filename: snhp-dev-store-api-openapi.yml
   format: yaml
   label: SNHP Store API
   slug: snhp-dev-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-store-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-store-api-openapi.yml
 - filename: snhp-dev-telemetry-api-openapi.yml
   format: yaml
   label: SNHP Telemetry API
   slug: snhp-dev-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-telemetry-api-openapi.yml
 - filename: snhp-dev-vend-api-openapi.yml
   format: yaml
   label: SNHP Vend API
   slug: snhp-dev-vend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-vend-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-vend-api-openapi.yml
 - filename: snhp-dev-world-api-openapi.yml
   format: yaml
   label: SNHP World API
   slug: snhp-dev-world-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/openapi/snhp-dev-world-api-openapi.yml
+  url: https://artifacts.apis.io/snhp-dev/openapi/snhp-dev-world-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 45
@@ -216,7 +216,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/snhp-d
   \      - high-value\n    audit: required\n- path: /v1/rent/metros\n  method: get\n  operationId: rent_metros_v1_rent_metros_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/rent/check\n  method: post\n  operationId: rent_check_v1_rent_check_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/helper/situations\n  method: get\n  operationId: helper_situations_v1_helper_situations_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/helper/ask\n  method: post\n  operationId: helper_ask_v1_helper_ask_post\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/helper/privacy\n  method: get\n  operationId: helper_privacy_v1_helper_privacy_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/helper/outcome\n  method: post\n  operationId: helper_outcome_v1_helper_outcome_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snhp-dev/refs/heads/main/agentic-access/snhp-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snhp-dev/agentic-access/snhp-dev-agentic-access.yml
 summary_line: 105 operations · 60 acting · 1 human-in-the-loop
 tags:
 - Negotiation

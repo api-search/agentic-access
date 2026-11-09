@@ -9,121 +9,121 @@ api_specs:
   label: Xquik Account API
   slug: xquik-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-account-api-openapi.yml
 - filename: xquik-api-api-keys-api-openapi.yml
   format: yaml
   label: Xquik API Keys API
   slug: xquik-api-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-api-keys-api-openapi.yml
 - filename: xquik-api-articles-api-openapi.yml
   format: yaml
   label: Xquik Articles API
   slug: xquik-api-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-articles-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-articles-api-openapi.yml
 - filename: xquik-api-communities-api-openapi.yml
   format: yaml
   label: Xquik Communities API
   slug: xquik-api-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-communities-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-communities-api-openapi.yml
 - filename: xquik-api-composition-api-openapi.yml
   format: yaml
   label: Xquik Composition API
   slug: xquik-api-composition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-composition-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-composition-api-openapi.yml
 - filename: xquik-api-draws-api-openapi.yml
   format: yaml
   label: Xquik Draws API
   slug: xquik-api-draws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-draws-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-draws-api-openapi.yml
 - filename: xquik-api-events-api-openapi.yml
   format: yaml
   label: Xquik Events API
   slug: xquik-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-events-api-openapi.yml
 - filename: xquik-api-extractions-api-openapi.yml
   format: yaml
   label: Xquik Extractions API
   slug: xquik-api-extractions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-extractions-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-extractions-api-openapi.yml
 - filename: xquik-api-guest-wallets-api-openapi.yml
   format: yaml
   label: Xquik Guest Wallets API
   slug: xquik-api-guest-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-guest-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-guest-wallets-api-openapi.yml
 - filename: xquik-api-lists-api-openapi.yml
   format: yaml
   label: Xquik Lists API
   slug: xquik-api-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-lists-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-lists-api-openapi.yml
 - filename: xquik-api-media-api-openapi.yml
   format: yaml
   label: Xquik Media API
   slug: xquik-api-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-media-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-media-api-openapi.yml
 - filename: xquik-api-monitors-api-openapi.yml
   format: yaml
   label: Xquik Monitors API
   slug: xquik-api-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-monitors-api-openapi.yml
 - filename: xquik-api-subscribe-api-openapi.yml
   format: yaml
   label: Xquik Subscribe API
   slug: xquik-api-subscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-subscribe-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-subscribe-api-openapi.yml
 - filename: xquik-api-support-api-openapi.yml
   format: yaml
   label: Xquik Support API
   slug: xquik-api-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-support-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-support-api-openapi.yml
 - filename: xquik-api-trends-api-openapi.yml
   format: yaml
   label: Xquik Trends API
   slug: xquik-api-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-trends-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-trends-api-openapi.yml
 - filename: xquik-api-tweets-api-openapi.yml
   format: yaml
   label: Xquik Tweets API
   slug: xquik-api-tweets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-tweets-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-tweets-api-openapi.yml
 - filename: xquik-api-users-api-openapi.yml
   format: yaml
   label: Xquik Users API
   slug: xquik-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-users-api-openapi.yml
 - filename: xquik-api-webhooks-api-openapi.yml
   format: yaml
   label: Xquik Webhooks API
   slug: xquik-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-webhooks-api-openapi.yml
 - filename: xquik-api-x-accounts-api-openapi.yml
   format: yaml
   label: Xquik X Accounts API
   slug: xquik-api-x-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-x-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-x-accounts-api-openapi.yml
 - filename: xquik-api-x-write-api-openapi.yml
   format: yaml
   label: Xquik X Write API
   slug: xquik-api-x-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/openapi/xquik-api-x-write-api-openapi.yml
+  url: https://artifacts.apis.io/xquik-api/openapi/xquik-api-x-write-api-openapi.yml
 consequence_counts:
   read: 71
   write: 56
@@ -186,8 +186,8 @@ source_yaml: "generated: 2026-08-01\nmethod: declared\npublisher: Xquik\nsource:
   \ optional\n      token:\n        max-ttl: 3600\n      audit: none\n  - path: /api/v1/support/tickets/{id}\n    method: patch\n    operationId: updateTicketStatus\n    x-agentic-access:\n      action-class: acting\n      consequence: write\n      subject: required\n      audience: https://xquik.com\n      token:\n        max-ttl: 900\n        purpose-required: true\n      escalation:\n        human-in-the-loop: required\n        triggers:\n          - external-side-effect\n      audit: required\n  - path: /api/v1/support/tickets/{id}/messages\n    method: post\n    operationId: addTicketMessage\n    x-agentic-access:\n      action-class: acting\n      consequence: write\n      subject: required\n      audience: https://xquik.com\n      token:\n        max-ttl: 900\n        purpose-required: true\n      escalation:\n        human-in-the-loop: required\n        triggers:\n          - external-side-effect\n      audit: required\n  - path: /api/v1/guest-wallets\n    method: post\n    operationId:\
   \ createGuestWallet\n    x-agentic-access:\n      action-class: acting\n      consequence: write\n      subject: required\n      audience: https://xquik.com\n      token:\n        max-ttl: 900\n        purpose-required: true\n      escalation:\n        human-in-the-loop: required\n        triggers:\n          - external-side-effect\n      audit: required\n  - path: /api/v1/guest-wallets/topups\n    method: post\n    operationId: topUpGuestWallet\n    x-agentic-access:\n      action-class: acting\n      consequence: write\n      subject: required\n      audience: https://xquik.com\n      token:\n        max-ttl: 900\n        purpose-required: true\n      escalation:\n        human-in-the-loop: required\n        triggers:\n          - external-side-effect\n      audit: required\n  - path: /api/v1/guest-wallets/status\n    method: get\n    operationId: getGuestWalletStatus\n    x-agentic-access:\n      action-class: connected\n      consequence: read\n      subject: optional\n      token:\n\
   \        max-ttl: 3600\n      audit: none\n  - path: /api/v1/credits\n    method: get\n    operationId: getCredits\n    x-agentic-access:\n      action-class: connected\n      consequence: read\n      subject: optional\n      token:\n        max-ttl: 3600\n      audit: none\n  - path: /api/v1/credits/topup\n    method: post\n    operationId: topUpCredits\n    x-agentic-access:\n      action-class: acting\n      consequence: write\n      subject: required\n      audience: https://xquik.com\n      token:\n        max-ttl: 900\n        purpose-required: true\n      escalation:\n        human-in-the-loop: required\n        triggers:\n          - external-side-effect\n      audit: required\n  - path: /api/v1/credits/topup/status\n    method: get\n    operationId: getCreditTopupStatus\n    x-agentic-access:\n      action-class: connected\n      consequence: read\n      subject: optional\n      token:\n        max-ttl: 3600\n      audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/agentic-access/xquik-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xquik-api/refs/heads/main/agentic-access/xquik-agentic-access.yml
+  # Full source: https://artifacts.apis.io/xquik-api/agentic-access/xquik-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/xquik-api/agentic-access/xquik-agentic-access.yml
 summary_line: 127 operations · 56 acting · 56 human-in-the-loop
 tags:
 - social-media-data

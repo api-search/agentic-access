@@ -9,55 +9,55 @@ api_specs:
   label: Shopify Webhooks
   slug: shopify-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/asyncapi/shopify-admin-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/shopify-admin/asyncapi/shopify-admin-webhooks-asyncapi.yml
 - filename: shopify-admin-collections-api-openapi.yml
   format: yaml
   label: Shopify Admin API Collections API
   slug: shopify-admin-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-collections-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-collections-api-openapi.yml
 - filename: shopify-admin-customers-api-openapi.yml
   format: yaml
   label: Shopify Admin API Customers API
   slug: shopify-admin-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-customers-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-customers-api-openapi.yml
 - filename: shopify-admin-inventory-api-openapi.yml
   format: yaml
   label: Shopify Admin API Inventory API
   slug: shopify-admin-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-inventory-api-openapi.yml
 - filename: shopify-admin-locations-api-openapi.yml
   format: yaml
   label: Shopify Admin API Locations API
   slug: shopify-admin-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-locations-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-locations-api-openapi.yml
 - filename: shopify-admin-orders-api-openapi.yml
   format: yaml
   label: Shopify Admin API Orders API
   slug: shopify-admin-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-orders-api-openapi.yml
 - filename: shopify-admin-products-api-openapi.yml
   format: yaml
   label: Shopify Admin API Products API
   slug: shopify-admin-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-products-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-products-api-openapi.yml
 - filename: shopify-admin-shop-api-openapi.yml
   format: yaml
   label: Shopify Admin API Shop API
   slug: shopify-admin-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-shop-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-shop-api-openapi.yml
 - filename: shopify-admin-webhooks-api-openapi.yml
   format: yaml
   label: Shopify Admin API Webhooks API
   slug: shopify-admin-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/openapi/shopify-admin-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-admin/openapi/shopify-admin-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 13
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shopif
   \ abnormal\n      - high-value\n    audit: required\n- path: /orders/{order_id}/cancel.json\n  method: post\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory_items.json\n  method: get\n  operationId: listInventoryItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory_levels.json\n  method: get\n  operationId: listInventoryLevels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations.json\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks.json\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks.json\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}.json\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /shop.json\n  method: get\n  operationId: getShop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collects.json\n  method: get\n  operationId: listCollects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_collections.json\n  method: get\n  operationId: listCustomCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify-admin/refs/heads/main/agentic-access/shopify-admin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shopify-admin/agentic-access/shopify-admin-agentic-access.yml
 summary_line: 22 operations · 9 acting
 tags:
 - Commerce

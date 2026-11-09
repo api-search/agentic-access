@@ -9,175 +9,175 @@ api_specs:
   label: AngelCam Active Service API
   slug: angelcam-active-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-active-service-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-active-service-api-openapi.yml
 - filename: angelcam-angelcameras-api-openapi.yml
   format: yaml
   label: AngelCam Angelcameras API
   slug: angelcam-angelcameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-angelcameras-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-angelcameras-api-openapi.yml
 - filename: angelcam-arrow-clients-api-openapi.yml
   format: yaml
   label: AngelCam Arrow Clients API
   slug: angelcam-arrow-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-arrow-clients-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-arrow-clients-api-openapi.yml
 - filename: angelcam-audio-message-api-openapi.yml
   format: yaml
   label: AngelCam Audio Message API
   slug: angelcam-audio-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-audio-message-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-audio-message-api-openapi.yml
 - filename: angelcam-broadcasting-api-openapi.yml
   format: yaml
   label: AngelCam Broadcasting API
   slug: angelcam-broadcasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-broadcasting-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-broadcasting-api-openapi.yml
 - filename: angelcam-camera-api-openapi.yml
   format: yaml
   label: AngelCam Camera API
   slug: angelcam-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-camera-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-camera-api-openapi.yml
 - filename: angelcam-camera-guest-api-openapi.yml
   format: yaml
   label: AngelCam Camera Guest API
   slug: angelcam-camera-guest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-camera-guest-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-camera-guest-api-openapi.yml
 - filename: angelcam-camera-stream-detection-api-openapi.yml
   format: yaml
   label: AngelCam Camera Stream Detection API
   slug: angelcam-camera-stream-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-camera-stream-detection-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-camera-stream-detection-api-openapi.yml
 - filename: angelcam-client-api-openapi.yml
   format: yaml
   label: AngelCam Client API
   slug: angelcam-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-client-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-client-api-openapi.yml
 - filename: angelcam-clip-api-openapi.yml
   format: yaml
   label: AngelCam Clip API
   slug: angelcam-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-clip-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-clip-api-openapi.yml
 - filename: angelcam-event-api-openapi.yml
   format: yaml
   label: AngelCam Event API
   slug: angelcam-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-event-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-event-api-openapi.yml
 - filename: angelcam-incidents-api-openapi.yml
   format: yaml
   label: AngelCam Incidents API
   slug: angelcam-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-incidents-api-openapi.yml
 - filename: angelcam-location-api-openapi.yml
   format: yaml
   label: AngelCam Location API
   slug: angelcam-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-location-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-location-api-openapi.yml
 - filename: angelcam-order-api-openapi.yml
   format: yaml
   label: AngelCam Order API
   slug: angelcam-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-order-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-order-api-openapi.yml
 - filename: angelcam-public-camera-api-openapi.yml
   format: yaml
   label: AngelCam Public Camera API
   slug: angelcam-public-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-public-camera-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-public-camera-api-openapi.yml
 - filename: angelcam-recording-api-openapi.yml
   format: yaml
   label: AngelCam Recording API
   slug: angelcam-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-recording-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-recording-api-openapi.yml
 - filename: angelcam-rts-messages-api-openapi.yml
   format: yaml
   label: AngelCam Rts Messages API
   slug: angelcam-rts-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-messages-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-messages-api-openapi.yml
 - filename: angelcam-rts-notification-methods-api-openapi.yml
   format: yaml
   label: AngelCam Rts Notification Methods API
   slug: angelcam-rts-notification-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-notification-methods-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-notification-methods-api-openapi.yml
 - filename: angelcam-rts-notification-rules-api-openapi.yml
   format: yaml
   label: AngelCam Rts Notification Rules API
   slug: angelcam-rts-notification-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-notification-rules-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-notification-rules-api-openapi.yml
 - filename: angelcam-rts-settings-api-openapi.yml
   format: yaml
   label: AngelCam Rts Settings API
   slug: angelcam-rts-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-rts-settings-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-rts-settings-api-openapi.yml
 - filename: angelcam-sensor-api-openapi.yml
   format: yaml
   label: AngelCam Sensor API
   slug: angelcam-sensor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-sensor-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-sensor-api-openapi.yml
 - filename: angelcam-service-api-openapi.yml
   format: yaml
   label: AngelCam Service API
   slug: angelcam-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-service-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-service-api-openapi.yml
 - filename: angelcam-shared-camera-api-openapi.yml
   format: yaml
   label: AngelCam Shared Camera API
   slug: angelcam-shared-camera-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-shared-camera-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-shared-camera-api-openapi.yml
 - filename: angelcam-shared-camera-clip-api-openapi.yml
   format: yaml
   label: AngelCam Shared Camera Clip API
   slug: angelcam-shared-camera-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-shared-camera-clip-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-shared-camera-clip-api-openapi.yml
 - filename: angelcam-shared-camera-recording-api-openapi.yml
   format: yaml
   label: AngelCam Shared Camera Recording API
   slug: angelcam-shared-camera-recording-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-shared-camera-recording-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-shared-camera-recording-api-openapi.yml
 - filename: angelcam-space-api-openapi.yml
   format: yaml
   label: AngelCam Space API
   slug: angelcam-space-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-space-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-space-api-openapi.yml
 - filename: angelcam-speakers-api-openapi.yml
   format: yaml
   label: AngelCam Speakers API
   slug: angelcam-speakers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-speakers-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-speakers-api-openapi.yml
 - filename: angelcam-stream-controls-api-openapi.yml
   format: yaml
   label: AngelCam Stream Controls API
   slug: angelcam-stream-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-stream-controls-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-stream-controls-api-openapi.yml
 - filename: angelcam-user-api-openapi.yml
   format: yaml
   label: AngelCam User API
   slug: angelcam-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/openapi/angelcam-user-api-openapi.yml
+  url: https://artifacts.apis.io/angelcam/openapi/angelcam-user-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 71
@@ -286,8 +286,8 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/angelc
   \    subject: optional\n    scope:\n    - messages_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/messages/{message_id}/\n  method: get\n  operationId: rts-message-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - messages_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/messages/{message_id}/\n  method: put\n  operationId: rts-message-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - messages_manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rts/notifications/methods/\n  method: get\n  operationId: rts-notifications-methods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - notifications_methods_access\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/notifications/methods/\n  method: post\n  operationId: rts-notification-method-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - notifications_methods_manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rts/notifications/methods/{method_id}/\n  method: get\n  operationId: rts-notification-method-detail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - notifications_methods_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/notifications/methods/{method_id}/\n  method: put\n  operationId: rts-notification-method-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n \
   \   - notifications_methods_manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rts/notifications/rules/\n  method: get\n  operationId: rts-notifications-rules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - notifications_rules_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/notifications/rules/\n  method: post\n  operationId: rts-notification-rule-create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - notifications_rules_manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rts/notifications/rules/{rule_id}/\n  method: get\n  operationId: rts-notification-rule-detail\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - notifications_rules_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/notifications/rules/{rule_id}/\n  method: put\n  operationId: rts-notification-rule-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - notifications_rules_manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sensors/\n  method: get\n  operationId: my-sensors-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sensor_access\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/agentic-access/angelcam-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/angelcam/refs/heads/main/agentic-access/angelcam-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - notifications_rules_access\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rts/notifications/rules/{rule_id}/\n  method: put\n  operationId: rts-notification-rule-update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - notifications_rules_manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sensors/\n  method: get\n  operationId: my-sensors-list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - sensor_access\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/angelcam/agentic-access/angelcam-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/angelcam/agentic-access/angelcam-agentic-access.yml
 summary_line: 124 operations · 53 acting · 8 human-in-the-loop
 tags:
 - Company

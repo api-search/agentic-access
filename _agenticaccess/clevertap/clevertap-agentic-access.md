@@ -9,25 +9,25 @@ api_specs:
   label: CleverTap Campaigns API
   slug: clevertap-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-campaigns-api-openapi.yml
 - filename: clevertap-events-api-openapi.yml
   format: yaml
   label: CleverTap Events API
   slug: clevertap-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-events-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-events-api-openapi.yml
 - filename: clevertap-profiles-api-openapi.yml
   format: yaml
   label: CleverTap Profiles API
   slug: clevertap-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-profiles-api-openapi.yml
 - filename: clevertap-reports-api-openapi.yml
   format: yaml
   label: CleverTap Reports API
   slug: clevertap-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/openapi/clevertap-reports-api-openapi.yml
+  url: https://artifacts.apis.io/clevertap/openapi/clevertap-reports-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 1
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/clever
   \  - abnormal\n      - high-value\n    audit: required\n- path: /1/targets/stop.json\n  method: post\n  operationId: stopCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /1/targets/result.json\n  method: get\n  operationId: getCampaignResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/upload\n  method: post\n  operationId: upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /1/events.json\n  method: post\n  operationId: queryEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/upload\n  method: post\n  operationId: upload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/profile.json\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/profiles.json\n  method: post\n  operationId: queryProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/disassociate\n\
   \  method: post\n  operationId: disassociateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1/counts/event.json\n  method: post\n  operationId: getEventCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1/counts/profile.json\n  method: post\n  operationId: getProfileCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/agentic-access/clevertap-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/clevertap/agentic-access/clevertap-agentic-access.yml
 summary_line: 11 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Audiences

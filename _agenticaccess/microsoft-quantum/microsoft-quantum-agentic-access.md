@@ -9,31 +9,31 @@ api_specs:
   label: Microsoft Azure Quantum Offerings API
   slug: microsoft-quantum-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-offerings-api-openapi.yml
 - filename: microsoft-quantum-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Operations API
   slug: microsoft-quantum-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-operations-api-openapi.yml
 - filename: microsoft-quantum-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Subscriptions API
   slug: microsoft-quantum-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-subscriptions-api-openapi.yml
 - filename: microsoft-quantum-suiteoffers-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum SuiteOffers API
   slug: microsoft-quantum-suiteoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
 - filename: microsoft-quantum-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Workspaces API
   slug: microsoft-quantum-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-workspaces-api-openapi.yml
 consequence_counts:
   read: 14
   write: 13
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}\n  method: patch\n  operationId: Workspaces_UpdateTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}\n  method: delete\n  operationId: Workspaces_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/listKeys\n  method: post\n  operationId: Workspaces_ListKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Quantum/workspaces/{workspaceName}/regenerateKey\n  method: post\n  operationId: Workspaces_RegenerateKeys\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/agentic-access/microsoft-quantum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-quantum/agentic-access/microsoft-quantum-agentic-access.yml
 summary_line: 27 operations · 13 acting
 tags:
 - Quantum

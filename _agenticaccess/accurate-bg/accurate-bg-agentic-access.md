@@ -9,55 +9,55 @@ api_specs:
   label: Accurate Background Adjudication API
   slug: accurate-bg-adjudication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-adjudication-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-adjudication-api-openapi.yml
 - filename: accurate-bg-candidates-api-openapi.yml
   format: yaml
   label: Accurate Background Candidates API
   slug: accurate-bg-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-candidates-api-openapi.yml
 - filename: accurate-bg-documents-api-openapi.yml
   format: yaml
   label: Accurate Background Documents API
   slug: accurate-bg-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-documents-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-documents-api-openapi.yml
 - filename: accurate-bg-notifications-api-openapi.yml
   format: yaml
   label: Accurate Background Notifications API
   slug: accurate-bg-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-notifications-api-openapi.yml
 - filename: accurate-bg-orders-api-openapi.yml
   format: yaml
   label: Accurate Background Orders API
   slug: accurate-bg-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-orders-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-orders-api-openapi.yml
 - filename: accurate-bg-packages-api-openapi.yml
   format: yaml
   label: Accurate Background Packages API
   slug: accurate-bg-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-packages-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-packages-api-openapi.yml
 - filename: accurate-bg-reports-api-openapi.yml
   format: yaml
   label: Accurate Background Reports API
   slug: accurate-bg-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-reports-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-reports-api-openapi.yml
 - filename: accurate-bg-utility-api-openapi.yml
   format: yaml
   label: Accurate Background Utility API
   slug: accurate-bg-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-utility-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-utility-api-openapi.yml
 - filename: accurate-bg-verifications-api-openapi.yml
   format: yaml
   label: Accurate Background Verifications API
   slug: accurate-bg-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/openapi/accurate-bg-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/accurate-bg/openapi/accurate-bg-verifications-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 15
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accura
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document/{id}/download\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/{id}/adjudicate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{id}/reassess\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n \
   \     exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{id}/location\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{id}/verification-attempts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notification/subject\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /alive\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/agentic-access/accurate-bg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/accurate-bg/agentic-access/accurate-bg-agentic-access.yml
 summary_line: 26 operations · 11 acting
 tags:
 - Background Checks

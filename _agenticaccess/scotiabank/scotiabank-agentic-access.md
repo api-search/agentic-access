@@ -9,43 +9,43 @@ api_specs:
   label: Scotiabank Account Validation API
   slug: scotiabank-account-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-account-validation-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-account-validation-api-openapi.yml
 - filename: scotiabank-accounts-api-openapi.yml
   format: yaml
   label: Scotiabank Accounts API
   slug: scotiabank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-accounts-api-openapi.yml
 - filename: scotiabank-eft-payments-api-openapi.yml
   format: yaml
   label: Scotiabank EFT Payments API
   slug: scotiabank-eft-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-eft-payments-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-eft-payments-api-openapi.yml
 - filename: scotiabank-payment-tracking-api-openapi.yml
   format: yaml
   label: Scotiabank Payment Tracking API
   slug: scotiabank-payment-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-payment-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-payment-tracking-api-openapi.yml
 - filename: scotiabank-real-time-payments-api-openapi.yml
   format: yaml
   label: Scotiabank Real-Time Payments API
   slug: scotiabank-real-time-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-real-time-payments-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-real-time-payments-api-openapi.yml
 - filename: scotiabank-request-for-payment-api-openapi.yml
   format: yaml
   label: Scotiabank Request for Payment API
   slug: scotiabank-request-for-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-request-for-payment-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-request-for-payment-api-openapi.yml
 - filename: scotiabank-wire-payments-api-openapi.yml
   format: yaml
   label: Scotiabank Wire Payments API
   slug: scotiabank-wire-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/openapi/scotiabank-wire-payments-api-openapi.yml
+  url: https://artifacts.apis.io/scotiabank/openapi/scotiabank-wire-payments-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 6
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/scotia
   \      - high-value\n    audit: required\n- path: /v1/payments/eft\n  method: post\n  operationId: createEFTPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/eft/{payment_id}\n  method: get\n  operationId: getEFTPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/eft/{payment_id}\n  method: patch\n  operationId: updateEFTPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/eft/{payment_id}\n  method: delete\n  operationId: deleteEFTPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts\n  method: get\n  operationId: listAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/balance\n  method: get\n  operationId: getAccountBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/{account_id}/transactions\n\
   \  method: get\n  operationId: listAccountTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/validate\n  method: post\n  operationId: validateAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments/track/{reference_id}\n  method: get\n  operationId: trackPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/agentic-access/scotiabank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scotiabank/agentic-access/scotiabank-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - Banking

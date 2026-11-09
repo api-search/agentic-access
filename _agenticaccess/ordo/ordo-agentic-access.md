@@ -9,43 +9,43 @@ api_specs:
   label: Ordo Account Data - Client Hosted API
   slug: ordo-account-data-client-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-data-client-hosted-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-account-data-client-hosted-api-openapi.yml
 - filename: ordo-account-verification-client-hosted-api-openapi.yml
   format: yaml
   label: Ordo Account Verification - Client Hosted API
   slug: ordo-account-verification-client-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-account-verification-client-hosted-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-account-verification-client-hosted-api-openapi.yml
 - filename: ordo-bank-accounts-api-openapi.yml
   format: yaml
   label: Ordo Bank accounts API
   slug: ordo-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-bank-accounts-api-openapi.yml
 - filename: ordo-client-hosted-api-openapi.yml
   format: yaml
   label: Ordo Client hosted API
   slug: ordo-client-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-client-hosted-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-client-hosted-api-openapi.yml
 - filename: ordo-create-a-mandate-api-openapi.yml
   format: yaml
   label: Ordo Create a mandate API
   slug: ordo-create-a-mandate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-create-a-mandate-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-create-a-mandate-api-openapi.yml
 - filename: ordo-ordo-hosted-api-openapi.yml
   format: yaml
   label: Ordo Hosted API
   slug: ordo-ordo-hosted-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-ordo-hosted-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-ordo-hosted-api-openapi.yml
 - filename: ordo-retrieve-mandate-details-api-openapi.yml
   format: yaml
   label: Ordo Retrieve mandate details API
   slug: ordo-retrieve-mandate-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/openapi/ordo-retrieve-mandate-details-api-openapi.yml
+  url: https://artifacts.apis.io/ordo/openapi/ordo-retrieve-mandate-details-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 29
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/ordo-a
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smartRequests/{smartRequestId}\n  method: get\n  operationId: GetSmartRequestAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smartRequests/smartRequestMessages\n  method: get\n  operationId: GetSmartRequestsAsync\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smartRequests/withdrawSmartRequestMessageBDR\n  method: post\n  operationId: PostWithdrawSmartRequestBDRAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n  \
   \    purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smartRequests/newSmartRequestMessage\n  method: post\n  operationId: PostSmartRequestAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smartRequests/withdrawSmartRequestMessage\n  method: post\n  operationId: PostWithdrawSmartRequestAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /smartRequests/grantExtensionMessage\n  method: post\n  operationId: PostSmartRequestMessagesGrantDueDateAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smartRequests/declineExtensionMessage\n  method: post\n  operationId: PostSmartRequestMessagesDeclineDueDateAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ordo/refs/heads/main/agentic-access/ordo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ordo/agentic-access/ordo-agentic-access.yml
 summary_line: 54 operations · 25 acting
 tags:
 - Payments

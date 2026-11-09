@@ -9,37 +9,43 @@ api_specs:
   label: Amazon Application Discovery Service Agents API
   slug: amazon-application-discovery-service-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-agents-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-agents-api-openapi.yml
 - filename: amazon-application-discovery-service-applications-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Applications API
   slug: amazon-application-discovery-service-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-applications-api-openapi.yml
 - filename: amazon-application-discovery-service-configurations-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Configurations API
   slug: amazon-application-discovery-service-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-configurations-api-openapi.yml
 - filename: amazon-application-discovery-service-exports-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Exports API
   slug: amazon-application-discovery-service-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-exports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-exports-api-openapi.yml
 - filename: amazon-application-discovery-service-imports-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Imports API
   slug: amazon-application-discovery-service-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-imports-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-imports-api-openapi.yml
 - filename: amazon-application-discovery-service-tags-api-openapi.yml
   format: yaml
   label: Amazon Application Discovery Service Tags API
   slug: amazon-application-discovery-service-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/openapi/amazon-application-discovery-service-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-tags-api-openapi.yml
+- filename: amazon-application-discovery-service-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Application Discovery Service Application Discovery Service Operations API
+  slug: amazon-application-discovery-service-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-application-discovery-service/openapi/amazon-application-discovery-service-operations-api-openapi.yml
 consequence_counts:
   read: 3
   safety-critical: 2
@@ -90,11 +96,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    audit: required\n- path: /v1/startImportTask\n  method: post\n  operationId: startImportTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/describeImportTasks\n  method: post\n  operationId: describeImportTasks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/batchDeleteImportData\n  method: post\n  operationId: batchDeleteImportData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/createTags\n  method: post\n  operationId: createTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/deleteTags\n  method: post\n  operationId: deleteTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/describeTags\n  method: post\n  operationId: describeTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n   \
   \ escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-application-discovery-service/refs/heads/main/agentic-access/amazon-application-discovery-service-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-application-discovery-service/agentic-access/amazon-application-discovery-service-agentic-access.yml
 summary_line: 26 operations · 23 acting · 2 human-in-the-loop
 tags:
 - Amazon Application Discovery Service
 - Migration
 - Discovery
 - Infrastructure
+- Amazon Web Services
 ---

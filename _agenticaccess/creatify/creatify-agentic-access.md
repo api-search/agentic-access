@@ -9,61 +9,61 @@ api_specs:
   label: Creatify AI Avatar API
   slug: creatify-ai-avatar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-ai-avatar-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-ai-avatar-api-openapi.yml
 - filename: creatify-ai-editing-api-openapi.yml
   format: yaml
   label: Creatify AI Editing API
   slug: creatify-ai-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-ai-editing-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-ai-editing-api-openapi.yml
 - filename: creatify-ai-shorts-api-openapi.yml
   format: yaml
   label: Creatify AI Shorts API
   slug: creatify-ai-shorts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-ai-shorts-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-ai-shorts-api-openapi.yml
 - filename: creatify-custom-templates-api-openapi.yml
   format: yaml
   label: Creatify Custom Templates API
   slug: creatify-custom-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-custom-templates-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-custom-templates-api-openapi.yml
 - filename: creatify-link-to-video-api-openapi.yml
   format: yaml
   label: Creatify Link-to-Video API
   slug: creatify-link-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-link-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-link-to-video-api-openapi.yml
 - filename: creatify-music-api-openapi.yml
   format: yaml
   label: Creatify Music API
   slug: creatify-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-music-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-music-api-openapi.yml
 - filename: creatify-personas-api-openapi.yml
   format: yaml
   label: Creatify Personas API
   slug: creatify-personas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-personas-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-personas-api-openapi.yml
 - filename: creatify-product-to-video-api-openapi.yml
   format: yaml
   label: Creatify Product-to-Video API
   slug: creatify-product-to-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-product-to-video-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-product-to-video-api-openapi.yml
 - filename: creatify-text-to-speech-api-openapi.yml
   format: yaml
   label: Creatify Text-to-Speech API
   slug: creatify-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-text-to-speech-api-openapi.yml
 - filename: creatify-voices-api-openapi.yml
   format: yaml
   label: Creatify Voices API
   slug: creatify-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/openapi/creatify-voices-api-openapi.yml
+  url: https://artifacts.apis.io/creatify/openapi/creatify-voices-api-openapi.yml
 consequence_counts:
   read: 18
   write: 13
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/creati
   \  audit: none\n- path: /voices/\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voices/paginated/\n  method: get\n  operationId: listVoicesPaginated\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /music_categories/\n  method: get\n  operationId: listMusicCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /musics/\n  method: get\n  operationId: listMusics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai_editing/\n  method: post\n  operationId: createAiEditing\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai_editing/{id}/\n  method: get\n  operationId: getAiEditing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inspiration_jobs/\n  method: get\n  operationId: listInspirationJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inspiration_jobs/\n  method: post\n  operationId: createInspirationJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/agentic-access/creatify-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/creatify/agentic-access/creatify-agentic-access.yml
 summary_line: 31 operations · 13 acting
 tags:
 - AI Avatars

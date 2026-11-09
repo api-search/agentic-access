@@ -9,49 +9,49 @@ api_specs:
   label: Verisoul Account API
   slug: verisoul-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-account-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-account-api-openapi.yml
 - filename: verisoul-email-api-openapi.yml
   format: yaml
   label: Verisoul Email API
   slug: verisoul-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-email-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-email-api-openapi.yml
 - filename: verisoul-enrollment-api-openapi.yml
   format: yaml
   label: Verisoul Enrollment API
   slug: verisoul-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-enrollment-api-openapi.yml
 - filename: verisoul-list-api-openapi.yml
   format: yaml
   label: Verisoul List API
   slug: verisoul-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-list-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-list-api-openapi.yml
 - filename: verisoul-phone-api-openapi.yml
   format: yaml
   label: Verisoul Phone API
   slug: verisoul-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-phone-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-phone-api-openapi.yml
 - filename: verisoul-public-api-openapi.yml
   format: yaml
   label: Verisoul Public API
   slug: verisoul-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-public-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-public-api-openapi.yml
 - filename: verisoul-session-api-openapi.yml
   format: yaml
   label: Verisoul Session API
   slug: verisoul-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-session-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-session-api-openapi.yml
 - filename: verisoul-verification-api-openapi.yml
   format: yaml
   label: Verisoul Verification API
   slug: verisoul-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/openapi/verisoul-verification-api-openapi.yml
+  url: https://artifacts.apis.io/verisoul/openapi/verisoul-verification-api-openapi.yml
 consequence_counts:
   read: 10
   write: 16
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/*-open
   \ method: POST, path: '/list/{list_name}/account/{account_id}', source: openapi/verisoul-list-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  - {id: removeAccountFromList, method: DELETE, path: '/list/{list_name}/account/{account_id}', source: openapi/verisoul-list-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  # --- Phone ---\n  - {id: verifyPhone, method: POST, path: '/phone', source: openapi/verisoul-phone-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  # --- Email Intelligence ---\n  - {id: submitEmail, method: POST, path: '/email', source: openapi/verisoul-email-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  - {id: submitEmailBatch, method: POST, path: '/email', source: openapi/verisoul-email-batch-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  # --- ID Check ---\n\
   \  - {id: createIDCheckSession, method: GET, path: '/liveness/session', source: openapi/verisoul-idcheck-openapi.json, action_class: connected, consequence: read, token_ttl: 3600}\n  - {id: redirectToIDCheck, method: GET, path: '/public/liveness-redirect', source: openapi/verisoul-idcheck-openapi.json, action_class: connected, consequence: read, token_ttl: 3600}\n  - {id: enrollIDCheck, method: POST, path: '/liveness/enroll', source: openapi/verisoul-idcheck-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  - {id: verifyID, method: POST, path: '/liveness/verify-id', source: openapi/verisoul-idcheck-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  # --- Face Match ---\n  - {id: createFaceMatchSession, method: GET, path: '/liveness/session', source: openapi/verisoul-facematch-openapi.json, action_class: connected, consequence: read, token_ttl: 3600}\n  - {id: redirectToFaceMatch, method: GET, path: '/public/liveness-redirect',\
   \ source: openapi/verisoul-facematch-openapi.json, action_class: connected, consequence: read, token_ttl: 3600}\n  - {id: enrollFaceMatch, method: POST, path: '/liveness/enroll', source: openapi/verisoul-facematch-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  - {id: verifyFace, method: POST, path: '/liveness/verify-face', source: openapi/verisoul-facematch-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n  - {id: verifyIdentityFaceMatch, method: POST, path: '/liveness/verify-identity', source: openapi/verisoul-facematch-openapi.json, action_class: acting, consequence: write, token_ttl: 900, audit: required}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verisoul/refs/heads/main/agentic-access/verisoul-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/verisoul/agentic-access/verisoul-agentic-access.yml
 summary_line: 26 operations · 16 acting
 tags:
 - Company

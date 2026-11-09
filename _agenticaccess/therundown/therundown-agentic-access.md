@@ -8,85 +8,85 @@ api_specs:
   label: The Rundown V1 Delta API
   slug: therundown-v1-delta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-delta-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v1-delta-api-openapi.yml
 - filename: therundown-v1-events-api-openapi.yml
   format: yaml
   label: The Rundown V1 Events API
   slug: therundown-v1-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-events-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v1-events-api-openapi.yml
 - filename: therundown-v1-lines-api-openapi.yml
   format: yaml
   label: The Rundown V1 Lines API
   slug: therundown-v1-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-lines-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v1-lines-api-openapi.yml
 - filename: therundown-v1-reference-api-openapi.yml
   format: yaml
   label: The Rundown V1 Reference API
   slug: therundown-v1-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-reference-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v1-reference-api-openapi.yml
 - filename: therundown-v1-sports-api-openapi.yml
   format: yaml
   label: The Rundown V1 Sports API
   slug: therundown-v1-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-sports-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v1-sports-api-openapi.yml
 - filename: therundown-v1-websocket-api-openapi.yml
   format: yaml
   label: The Rundown V1 WebSocket API
   slug: therundown-v1-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v1-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v1-websocket-api-openapi.yml
 - filename: therundown-v2-events-api-openapi.yml
   format: yaml
   label: The Rundown V2 Events API
   slug: therundown-v2-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-events-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-events-api-openapi.yml
 - filename: therundown-v2-markets-api-openapi.yml
   format: yaml
   label: The Rundown V2 Markets API
   slug: therundown-v2-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-markets-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-markets-api-openapi.yml
 - filename: therundown-v2-players-api-openapi.yml
   format: yaml
   label: The Rundown V2 Players API
   slug: therundown-v2-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-players-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-players-api-openapi.yml
 - filename: therundown-v2-reference-api-openapi.yml
   format: yaml
   label: The Rundown V2 Reference API
   slug: therundown-v2-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-reference-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-reference-api-openapi.yml
 - filename: therundown-v2-sports-api-openapi.yml
   format: yaml
   label: The Rundown V2 Sports API
   slug: therundown-v2-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-sports-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-sports-api-openapi.yml
 - filename: therundown-v2-stats-api-openapi.yml
   format: yaml
   label: The Rundown V2 Stats API
   slug: therundown-v2-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-stats-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-stats-api-openapi.yml
 - filename: therundown-v2-teams-api-openapi.yml
   format: yaml
   label: The Rundown V2 Teams API
   slug: therundown-v2-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-teams-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-teams-api-openapi.yml
 - filename: therundown-v2-websocket-api-openapi.yml
   format: yaml
   label: The Rundown V2 WebSocket API
   slug: therundown-v2-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/openapi/therundown-v2-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/therundown/openapi/therundown-v2-websocket-api-openapi.yml
 consequence_counts:
   read: 60
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/therun
   \ /api/v1/sports/{sportID}/openers/{date}\n  method: get\n  operationId: v1GetOpenersBySportAndDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sports/{sportID}/closing/{date}\n  method: get\n  operationId: v1GetClosingBySportAndDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/delta\n  method: get\n  operationId: v1GetDelta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/deltaV2\n  method: get\n  operationId: v1GetDeltaV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/affiliates\n  method: get\n  operationId: v1GetAffiliates\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sportsbooks\n  method: get\n  operationId: v1GetSportsbooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/season_types\n  method: get\n  operationId: v1GetSeasonTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/ws\n  method: get\n  operationId: v1WebSocket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sports/{sportID}/widget/events\n  method: get\n  operationId: v1GetWidgetEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sports/{sportID}/widget/opening\n  method: get\n  operationId: v1GetWidgetOpening\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/sports/{sportID}/widget/closing\n  method: get\n  operationId: v1GetWidgetClosing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/therundown/refs/heads/main/agentic-access/therundown-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/therundown/agentic-access/therundown-agentic-access.yml
 summary_line: 60 operations
 tags:
 - Sports

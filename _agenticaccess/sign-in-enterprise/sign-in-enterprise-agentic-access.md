@@ -9,85 +9,85 @@ api_specs:
   label: Sign In Enterprise Batches API
   slug: sign-in-enterprise-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-batches-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-batches-api-openapi.yml
 - filename: sign-in-enterprise-capacities-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Capacities API
   slug: sign-in-enterprise-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-capacities-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-capacities-api-openapi.yml
 - filename: sign-in-enterprise-groupvisits-api-openapi.yml
   format: yaml
   label: Sign In Enterprise GroupVisits API
   slug: sign-in-enterprise-groupvisits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-groupvisits-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-groupvisits-api-openapi.yml
 - filename: sign-in-enterprise-hosts-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Hosts API
   slug: sign-in-enterprise-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-hosts-api-openapi.yml
 - filename: sign-in-enterprise-invites-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Invites API
   slug: sign-in-enterprise-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-invites-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-invites-api-openapi.yml
 - filename: sign-in-enterprise-locations-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Locations API
   slug: sign-in-enterprise-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-locations-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-locations-api-openapi.yml
 - filename: sign-in-enterprise-packages-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Packages API
   slug: sign-in-enterprise-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-packages-api-openapi.yml
 - filename: sign-in-enterprise-parking-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Parking API
   slug: sign-in-enterprise-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-parking-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-parking-api-openapi.yml
 - filename: sign-in-enterprise-registrations-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Registrations API
   slug: sign-in-enterprise-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-registrations-api-openapi.yml
 - filename: sign-in-enterprise-users-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Users API
   slug: sign-in-enterprise-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-users-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-users-api-openapi.yml
 - filename: sign-in-enterprise-watchlists-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-watchlists-api-openapi.yml
 - filename: sign-in-enterprise-audit-logs-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Audit Logs API
   slug: sign-in-enterprise-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
 - filename: sign-in-enterprise-email-templates-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Email Templates API
   slug: sign-in-enterprise-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-email-templates-api-openapi.yml
 - filename: sign-in-enterprise-sign-ins-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Sign Ins API
   slug: sign-in-enterprise-sign-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
 consequence_counts:
   read: 25
   write: 18
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/sign-i
   \   subject: required\n    scope:\n    - all\n    - visitors:*\n    - visitors:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /parking_lots\n  method: get\n  operationId: getParkingLots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin:webhooks\n    - all\n    - email_templates:*\n    - email_templates:read\n    - email_templates:write\n    - hosts:*\n    - hosts:read\n    - hosts:write\n    - locations:*\n    - locations:read\n    - locations:write\n    - openid\n    - parking:*\n    - parking:read\n    - parking:write\n    - users:*\n    - users:read\n    - users:write\n    - visitors:*\n    - visitors:read\n    - visitors:write\n    - watchlists:*\n    - watchlists:read\n    - watchlists:write\n- path: /parking_lots/{parking_lot_id}/parking_stalls\n\
   \  method: get\n  operationId: getParkingStalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin:webhooks\n    - all\n    - email_templates:*\n    - email_templates:read\n    - email_templates:write\n    - hosts:*\n    - hosts:read\n    - hosts:write\n    - locations:*\n    - locations:read\n    - locations:write\n    - openid\n    - parking:*\n    - parking:read\n    - parking:write\n    - users:*\n    - users:read\n    - users:write\n    - visitors:*\n    - visitors:read\n    - visitors:write\n    - watchlists:*\n    - watchlists:read\n    - watchlists:write\n- path: /parking_lots/{parking_lot_id}/available_stalls\n  method: get\n  operationId: getParkingLotAvailableStalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - admin:webhooks\n    - all\n \
   \   - email_templates:*\n    - email_templates:read\n    - email_templates:write\n    - hosts:*\n    - hosts:read\n    - hosts:write\n    - locations:*\n    - locations:read\n    - locations:write\n    - openid\n    - parking:*\n    - parking:read\n    - parking:write\n    - users:*\n    - users:read\n    - users:write\n    - visitors:*\n    - visitors:read\n    - visitors:write\n    - watchlists:*\n    - watchlists:read\n    - watchlists:write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/agentic-access/sign-in-enterprise-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sign-in-enterprise/agentic-access/sign-in-enterprise-agentic-access.yml
 summary_line: 43 operations · 18 acting
 tags:
 - Company

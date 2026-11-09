@@ -9,31 +9,31 @@ api_specs:
   label: AgentQL Query Data API
   slug: agentql-query-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-data-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-query-data-api-openapi.yml
 - filename: agentql-query-document-api-openapi.yml
   format: yaml
   label: AgentQL Query Document API
   slug: agentql-query-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-query-document-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-query-document-api-openapi.yml
 - filename: agentql-remote-browser-api-openapi.yml
   format: yaml
   label: AgentQL Remote Browser API
   slug: agentql-remote-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-remote-browser-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-remote-browser-api-openapi.yml
 - filename: agentql-agentql-rest-api-api-openapi.yml
   format: yaml
   label: AgentQL AgentQL REST API
   slug: agentql-agentql-rest-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-agentql-rest-api-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-agentql-rest-api-api-openapi.yml
 - filename: agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
   format: yaml
   label: AgentQL AgentQL Tetra (Remote Chrome Browser) API
   slug: agentql-agentql-tetra-remote-chrome-browser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/openapi/agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
+  url: https://artifacts.apis.io/agentql/openapi/agentql-agentql-tetra-remote-chrome-browser-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1
@@ -61,7 +61,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/agentql-query-data-api-openapi.yml, openapi/agentql-query-document-api-openapi.yml,\n  openapi/agentql-remote-browser-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 2\n    acting: 1\n  by_consequence:\n    read: 2\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /query-data\n  method: post\n  operationId: queryWebPageData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query-document\n  method: post\n  operationId: queryDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tetra/sessions\n  method: post\n  operationId: createRemoteBrowserSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentql/refs/heads/main/agentic-access/agentql-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentql/agentic-access/agentql-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
 - Agents

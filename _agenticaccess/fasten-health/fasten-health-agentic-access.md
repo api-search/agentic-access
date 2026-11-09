@@ -9,7 +9,7 @@ api_specs:
   label: Fasten Health Bridge API
   slug: fasten-health-bridge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/openapi/fasten-health-bridge-api-openapi.yml
+  url: https://artifacts.apis.io/fasten-health/openapi/fasten-health-bridge-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/fasten
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bridge/org\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bridge/org_connection/{orgConnectionId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bridge/vault_connection/revoke\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n- path: /bridge/connect\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bridge/reconnect\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bridge/fhir/ehi-export\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bridge/fhir/ehi-export/{taskId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bridge/fhir/ehi-export/{taskId}/download/{fileId}\n  method:\
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /support/request\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/agentic-access/fasten-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fasten-health/agentic-access/fasten-health-agentic-access.yml
 summary_line: 12 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Healthcare

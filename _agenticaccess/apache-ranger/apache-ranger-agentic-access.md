@@ -9,31 +9,31 @@ api_specs:
   label: Apache Ranger Audit API
   slug: apache-ranger-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-audit-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-audit-api-openapi.yml
 - filename: apache-ranger-groups-api-openapi.yml
   format: yaml
   label: Apache Ranger Groups API
   slug: apache-ranger-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-groups-api-openapi.yml
 - filename: apache-ranger-policies-api-openapi.yml
   format: yaml
   label: Apache Ranger Policies API
   slug: apache-ranger-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-policies-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-policies-api-openapi.yml
 - filename: apache-ranger-services-api-openapi.yml
   format: yaml
   label: Apache Ranger Services API
   slug: apache-ranger-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-services-api-openapi.yml
 - filename: apache-ranger-users-api-openapi.yml
   format: yaml
   label: Apache Ranger Users API
   slug: apache-ranger-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-users-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-users-api-openapi.yml
 consequence_counts:
   read: 7
   write: 6
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \   audit: required\n- path: /plugins/services\n  method: get\n  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plugins/services\n  method: post\n  operationId: createService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plugins/services/{id}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plugins/services/{id}\n  method: delete\n  operationId: deleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xusers/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /xusers/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xusers/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audit/access\n  method: get\n  operationId: getAccessAudit\n \
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/agentic-access/apache-ranger-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-ranger/agentic-access/apache-ranger-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Access Control

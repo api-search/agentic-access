@@ -9,55 +9,55 @@ api_specs:
   label: Tremendous Campaigns API
   slug: tremendous-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-campaigns-api-openapi.yml
 - filename: tremendous-funding-sources-api-openapi.yml
   format: yaml
   label: Tremendous Funding Sources API
   slug: tremendous-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-funding-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-funding-sources-api-openapi.yml
 - filename: tremendous-invoices-api-openapi.yml
   format: yaml
   label: Tremendous Invoices API
   slug: tremendous-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-invoices-api-openapi.yml
 - filename: tremendous-members-api-openapi.yml
   format: yaml
   label: Tremendous Members API
   slug: tremendous-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-members-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-members-api-openapi.yml
 - filename: tremendous-orders-api-openapi.yml
   format: yaml
   label: Tremendous Orders API
   slug: tremendous-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-orders-api-openapi.yml
 - filename: tremendous-organizations-api-openapi.yml
   format: yaml
   label: Tremendous Organizations API
   slug: tremendous-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-organizations-api-openapi.yml
 - filename: tremendous-products-api-openapi.yml
   format: yaml
   label: Tremendous Products API
   slug: tremendous-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-products-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-products-api-openapi.yml
 - filename: tremendous-rewards-api-openapi.yml
   format: yaml
   label: Tremendous Rewards API
   slug: tremendous-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-rewards-api-openapi.yml
 - filename: tremendous-webhooks-api-openapi.yml
   format: yaml
   label: Tremendous Webhooks API
   slug: tremendous-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 14
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tremen
   \ none\n- path: /members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members\n  method: post\n  operationId: createMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoices/{id}\n  method: get\n  operationId: getInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method:\
   \ get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/simulate\n  method: post\n  operationId: simulateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/agentic-access/tremendous-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tremendous/agentic-access/tremendous-agentic-access.yml
 summary_line: 22 operations · 8 acting
 tags:
 - Employee Incentives

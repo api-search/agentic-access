@@ -9,67 +9,67 @@ api_specs:
   label: BoldSign Branding API
   slug: boldsign-branding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-branding-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-branding-api-openapi.yml
 - filename: boldsign-contacts-api-openapi.yml
   format: yaml
   label: BoldSign Contacts API
   slug: boldsign-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-contacts-api-openapi.yml
 - filename: boldsign-custom-field-api-openapi.yml
   format: yaml
   label: BoldSign Custom Field API
   slug: boldsign-custom-field-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-custom-field-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-custom-field-api-openapi.yml
 - filename: boldsign-document-api-openapi.yml
   format: yaml
   label: BoldSign Document API
   slug: boldsign-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-document-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-document-api-openapi.yml
 - filename: boldsign-groupcontacts-api-openapi.yml
   format: yaml
   label: BoldSign GroupContacts API
   slug: boldsign-groupcontacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-groupcontacts-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-groupcontacts-api-openapi.yml
 - filename: boldsign-identity-verification-api-openapi.yml
   format: yaml
   label: BoldSign Identity Verification API
   slug: boldsign-identity-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-identity-verification-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-identity-verification-api-openapi.yml
 - filename: boldsign-plan-api-openapi.yml
   format: yaml
   label: BoldSign Plan API
   slug: boldsign-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-plan-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-plan-api-openapi.yml
 - filename: boldsign-sender-identities-api-openapi.yml
   format: yaml
   label: BoldSign Sender Identities API
   slug: boldsign-sender-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-sender-identities-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-sender-identities-api-openapi.yml
 - filename: boldsign-teams-api-openapi.yml
   format: yaml
   label: BoldSign Teams API
   slug: boldsign-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-teams-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-teams-api-openapi.yml
 - filename: boldsign-template-api-openapi.yml
   format: yaml
   label: BoldSign Template API
   slug: boldsign-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-template-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-template-api-openapi.yml
 - filename: boldsign-user-api-openapi.yml
   format: yaml
   label: BoldSign User API
   slug: boldsign-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/openapi/boldsign-user-api-openapi.yml
+  url: https://artifacts.apis.io/boldsign/openapi/boldsign-user-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 26
@@ -204,7 +204,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/boldsi
   \  method: post\n  operationId: createEmbeddedPreviewUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/create\n  method: post\n  operationId: CreateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/update\n  method: put\n  operationId: UpdateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/users/resendInvitation\n  method: post\n  operationId: ResendInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/cancelInvitation\n  method: post\n  operationId: CancelInvitation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/list\n  method: get\n  operationId: ListUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/users/get\n  method: get\n  operationId: GetUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/updateMetaData\n  method: put\n  operationId: updateMetaData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users/changeTeam\n  method: put\n  operationId: ChangeTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boldsign/refs/heads/main/agentic-access/boldsign-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boldsign/agentic-access/boldsign-agentic-access.yml
 summary_line: 85 operations · 59 acting · 2 human-in-the-loop
 tags:
 - E-Signature

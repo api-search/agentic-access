@@ -9,85 +9,85 @@ api_specs:
   label: Loop Artifacts API
   slug: loop-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-artifacts-api-openapi.yml
 - filename: loop-artifacts-schema-validated-api-openapi.yml
   format: yaml
   label: Loop Artifacts Schema Validated API
   slug: loop-artifacts-schema-validated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-artifacts-schema-validated-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-artifacts-schema-validated-api-openapi.yml
 - filename: loop-business-exceptions-api-openapi.yml
   format: yaml
   label: Loop Business Exceptions API
   slug: loop-business-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-business-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-business-exceptions-api-openapi.yml
 - filename: loop-factoring-relationships-api-openapi.yml
   format: yaml
   label: Loop Factoring Relationships API
   slug: loop-factoring-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-factoring-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-factoring-relationships-api-openapi.yml
 - filename: loop-invoicing-relationships-api-openapi.yml
   format: yaml
   label: Loop Invoicing Relationships API
   slug: loop-invoicing-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-invoicing-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-invoicing-relationships-api-openapi.yml
 - filename: loop-onboarding-api-loop-com-api-openapi.yml
   format: yaml
   label: Loop Onboarding.api.loop.com API
   slug: loop-onboarding-api-loop-com-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-onboarding-api-loop-com-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-onboarding-api-loop-com-api-openapi.yml
 - filename: loop-organizations-api-openapi.yml
   format: yaml
   label: Loop Organizations API
   slug: loop-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-organizations-api-openapi.yml
 - filename: loop-payable-allocations-api-openapi.yml
   format: yaml
   label: Loop Payable Allocations API
   slug: loop-payable-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payable-allocations-api-openapi.yml
 - filename: loop-payable-invoice-reviews-api-openapi.yml
   format: yaml
   label: Loop Payable Invoice Reviews API
   slug: loop-payable-invoice-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-invoice-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payable-invoice-reviews-api-openapi.yml
 - filename: loop-payable-invoices-api-openapi.yml
   format: yaml
   label: Loop Payable Invoices API
   slug: loop-payable-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payable-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payable-invoices-api-openapi.yml
 - filename: loop-payments-api-openapi.yml
   format: yaml
   label: Loop Payments API
   slug: loop-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-payments-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-payments-api-openapi.yml
 - filename: loop-ping-api-openapi.yml
   format: yaml
   label: Loop Ping API
   slug: loop-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-ping-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-ping-api-openapi.yml
 - filename: loop-receivable-invoices-api-openapi.yml
   format: yaml
   label: Loop Receivable Invoices API
   slug: loop-receivable-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-receivable-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-receivable-invoices-api-openapi.yml
 - filename: loop-shipment-jobs-api-openapi.yml
   format: yaml
   label: Loop Shipment Jobs API
   slug: loop-shipment-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/openapi/loop-shipment-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/loop/openapi/loop-shipment-jobs-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 26
@@ -172,7 +172,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/loop-o
   \ max-ttl: 3600\n    audit: none\n- path: /v1/payable-invoices/{qid}\n  method: get\n  operationId: PayableInvoices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payable-invoices/{qid}/review\n  method: get\n  operationId: PayableInvoiceReview_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments\n  method: get\n  operationId: Payments_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{qid}\n  method: get\n  operationId: Payments_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ping\n  method: get\n  operationId: Ping_ping\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/receivable-invoices\n  method: get\n  operationId: ReceivableInvoices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/receivable-invoices/{qid}\n  method: get\n  operationId: ReceivableInvoices_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/receivable-invoices/{qid}\n  method: delete\n  operationId: ReceivableInvoices_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /v1/receivable-invoices/{qid}/void\n  method: put\n  operationId: ReceivableInvoices_void\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/shipment-jobs\n  method: get\n  operationId: ShipmentJobs_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/shipment-jobs/{qid}\n  method: get\n  operationId: ShipmentJobs_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/agentic-access/loop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loop/agentic-access/loop-agentic-access.yml
 summary_line: 41 operations · 15 acting
 tags:
 - Company

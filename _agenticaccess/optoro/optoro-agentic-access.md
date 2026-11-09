@@ -9,127 +9,127 @@ api_specs:
   label: Optoro Catalog Entry Updates API
   slug: optoro-catalog-entry-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-catalog-entry-updates-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-catalog-entry-updates-api-openapi.yml
 - filename: optoro-dispositions-api-openapi.yml
   format: yaml
   label: Optoro Dispositions API
   slug: optoro-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-dispositions-api-openapi.yml
 - filename: optoro-drop-shipment-cancellation-api-openapi.yml
   format: yaml
   label: Optoro Drop Shipment Cancellation API
   slug: optoro-drop-shipment-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-drop-shipment-cancellation-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-drop-shipment-cancellation-api-openapi.yml
 - filename: optoro-drop-shipment-confirmation-api-openapi.yml
   format: yaml
   label: Optoro Drop Shipment Confirmation API
   slug: optoro-drop-shipment-confirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-drop-shipment-confirmation-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-drop-shipment-confirmation-api-openapi.yml
 - filename: optoro-drop-shipment-partial-cancellation-api-openapi.yml
   format: yaml
   label: Optoro Drop Shipment Partial Cancellation API
   slug: optoro-drop-shipment-partial-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-drop-shipment-partial-cancellation-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-drop-shipment-partial-cancellation-api-openapi.yml
 - filename: optoro-exchange-orders-api-openapi.yml
   format: yaml
   label: Optoro Exchange Orders API
   slug: optoro-exchange-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-exchange-orders-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-exchange-orders-api-openapi.yml
 - filename: optoro-external-bin-changes-api-openapi.yml
   format: yaml
   label: Optoro External Bin Changes API
   slug: optoro-external-bin-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-external-bin-changes-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-external-bin-changes-api-openapi.yml
 - filename: optoro-facilities-api-openapi.yml
   format: yaml
   label: Optoro Facilities API
   slug: optoro-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-facilities-api-openapi.yml
 - filename: optoro-final-dispositions-api-openapi.yml
   format: yaml
   label: Optoro Final Dispositions API
   slug: optoro-final-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-final-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-final-dispositions-api-openapi.yml
 - filename: optoro-forward-orders-api-openapi.yml
   format: yaml
   label: Optoro Forward Orders API
   slug: optoro-forward-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-forward-orders-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-forward-orders-api-openapi.yml
 - filename: optoro-inventory-receipt-api-openapi.yml
   format: yaml
   label: Optoro Inventory Receipt API
   slug: optoro-inventory-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-inventory-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-inventory-receipt-api-openapi.yml
 - filename: optoro-listings-api-openapi.yml
   format: yaml
   label: Optoro Listings API
   slug: optoro-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-listings-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-listings-api-openapi.yml
 - filename: optoro-orders-api-openapi.yml
   format: yaml
   label: Optoro Orders API
   slug: optoro-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-orders-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-orders-api-openapi.yml
 - filename: optoro-outbound-asn-api-openapi.yml
   format: yaml
   label: Optoro Outbound Asn API
   slug: optoro-outbound-asn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-outbound-asn-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-outbound-asn-api-openapi.yml
 - filename: optoro-returns-portal-orders-api-openapi.yml
   format: yaml
   label: Optoro Returns Portal Orders API
   slug: optoro-returns-portal-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-returns-portal-orders-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-returns-portal-orders-api-openapi.yml
 - filename: optoro-rmas-api-openapi.yml
   format: yaml
   label: Optoro Rmas API
   slug: optoro-rmas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-rmas-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-rmas-api-openapi.yml
 - filename: optoro-shipments-api-openapi.yml
   format: yaml
   label: Optoro Shipments API
   slug: optoro-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-shipments-api-openapi.yml
 - filename: optoro-sku-api-openapi.yml
   format: yaml
   label: Optoro Sku API
   slug: optoro-sku-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-sku-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-sku-api-openapi.yml
 - filename: optoro-vendor-updates-api-openapi.yml
   format: yaml
   label: Optoro Vendor Updates API
   slug: optoro-vendor-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-vendor-updates-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-vendor-updates-api-openapi.yml
 - filename: optoro-asns-api-openapi.yml
   format: yaml
   label: Optoro Asns API
   slug: optoro-asns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-asns-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-asns-api-openapi.yml
 - filename: optoro-oauth-api-openapi.yml
   format: yaml
   label: Optoro OAUTH API
   slug: optoro-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/openapi/optoro-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/optoro/openapi/optoro-oauth-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 9
@@ -218,7 +218,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: generated\nsource: openapi/optoro
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /final_dispositions\n  method: post\n  operationId: final_dispositions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /forward_orders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /inventory_receipt\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outbound_asn\n  method: post\n  operationId: outbound_asns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /returns_portal_orders\n  method: post\n  operationId: returns_portal_orders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rmas\n  method: post\n  operationId: rmas\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendor_updates\n  method: post\n  operationId: vendorUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sku/{parent_sku}/variants\n  method: get\n  operationId: variants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optoro/refs/heads/main/agentic-access/optoro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/optoro/agentic-access/optoro-agentic-access.yml
 summary_line: 32 operations · 23 acting
 tags:
 - Returns Management

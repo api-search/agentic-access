@@ -9,133 +9,133 @@ api_specs:
   label: Emory University Annotation API
   slug: emory-annotation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-annotation-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-annotation-api-openapi.yml
 - filename: emory-api-key-api-openapi.yml
   format: yaml
   label: Emory University API Key API
   slug: emory-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-api-key-api-openapi.yml
 - filename: emory-assetstore-api-openapi.yml
   format: yaml
   label: Emory University Assetstore API
   slug: emory-assetstore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-assetstore-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-assetstore-api-openapi.yml
 - filename: emory-collection-api-openapi.yml
   format: yaml
   label: Emory University Collection API
   slug: emory-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-collection-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-collection-api-openapi.yml
 - filename: emory-dicomweb-assetstore-api-openapi.yml
   format: yaml
   label: Emory University Dicomweb Assetstore API
   slug: emory-dicomweb-assetstore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-dicomweb-assetstore-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-dicomweb-assetstore-api-openapi.yml
 - filename: emory-file-api-openapi.yml
   format: yaml
   label: Emory University File API
   slug: emory-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-file-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-file-api-openapi.yml
 - filename: emory-files-api-openapi.yml
   format: yaml
   label: Emory University Files API
   slug: emory-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-files-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-files-api-openapi.yml
 - filename: emory-folder-api-openapi.yml
   format: yaml
   label: Emory University Folder API
   slug: emory-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-folder-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-folder-api-openapi.yml
 - filename: emory-group-api-openapi.yml
   format: yaml
   label: Emory University Group API
   slug: emory-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-group-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-group-api-openapi.yml
 - filename: emory-histomicsui-api-openapi.yml
   format: yaml
   label: Emory University Histomicsui API
   slug: emory-histomicsui-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-histomicsui-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-histomicsui-api-openapi.yml
 - filename: emory-homepage-api-openapi.yml
   format: yaml
   label: Emory University Homepage API
   slug: emory-homepage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-homepage-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-homepage-api-openapi.yml
 - filename: emory-item-api-openapi.yml
   format: yaml
   label: Emory University Item API
   slug: emory-item-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-item-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-item-api-openapi.yml
 - filename: emory-job-api-openapi.yml
   format: yaml
   label: Emory University Job API
   slug: emory-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-job-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-job-api-openapi.yml
 - filename: emory-large-image-api-openapi.yml
   format: yaml
   label: Emory University Large Image API
   slug: emory-large-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-large-image-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-large-image-api-openapi.yml
 - filename: emory-notification-api-openapi.yml
   format: yaml
   label: Emory University Notification API
   slug: emory-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-notification-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-notification-api-openapi.yml
 - filename: emory-resource-api-openapi.yml
   format: yaml
   label: Emory University Resource API
   slug: emory-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-resource-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-resource-api-openapi.yml
 - filename: emory-slicer-cli-web-api-openapi.yml
   format: yaml
   label: Emory University Slicer Cli Web API
   slug: emory-slicer-cli-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-slicer-cli-web-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-slicer-cli-web-api-openapi.yml
 - filename: emory-system-api-openapi.yml
   format: yaml
   label: Emory University System API
   slug: emory-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-system-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-system-api-openapi.yml
 - filename: emory-tcga-api-openapi.yml
   format: yaml
   label: Emory University Tcga API
   slug: emory-tcga-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-tcga-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-tcga-api-openapi.yml
 - filename: emory-token-api-openapi.yml
   format: yaml
   label: Emory University Token API
   slug: emory-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-token-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-token-api-openapi.yml
 - filename: emory-user-api-openapi.yml
   format: yaml
   label: Emory University User API
   slug: emory-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-user-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-user-api-openapi.yml
 - filename: emory-worker-api-openapi.yml
   format: yaml
   label: Emory University Worker API
   slug: emory-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/openapi/emory-worker-api-openapi.yml
+  url: https://artifacts.apis.io/emory/openapi/emory-worker-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 158
@@ -224,8 +224,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/emory-
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder/{id}/copy\n  method: post\n  operationId: folder_copyFolder_post_id_copy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder/{id}/details\n  method: get\n  operationId: folder_getFolderDetails_id_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder/{id}/download\n  method: get\n  operationId: folder_downloadFolder_id_download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder/{id}/metadata\n  method: delete\n  operationId: folder_deleteMetadata_delete_id_metadata\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder/{id}/metadata\n  method: put\n  operationId: folder_setMetadata_put_id_metadata\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /folder/{id}/move\n  method: put\n  operationId: folder_moveFolder_put_id_move\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n   \
   \ audit: required\n- path: /folder/{id}/position\n  method: get\n  operationId: folder_findPosition_id_position\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder/{id}/rootpath\n  method: get\n  operationId: folder_rootpath_id_rootpath\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder/{id}/yaml_config/{name}\n  method: get\n  operationId: folder_getYAMLConfigFile_id_yaml_config_name\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /folder/{id}/yaml_config/{name}\n  method: put\n  operationId: folder_putYAMLConfigFile_put_id_yaml_config_name\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
-  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group\n  method: get\n  operationId: group_find_group\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group\n  method: post\n  operationId: group_createGroup_post_group\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (105 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/agentic-access/emory-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/agentic-access/emory-agentic-access.yml
+  \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /group\n  method: get\n  operationId: group_find_group\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /group\n  method: post\n  operationId: group_createGroup_post_group\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (105 KB total) ---\n# Full source: https://artifacts.apis.io/emory/agentic-access/emory-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/emory/agentic-access/emory-agentic-access.yml
 summary_line: 344 operations · 186 acting · 4 human-in-the-loop
 tags:
 - University

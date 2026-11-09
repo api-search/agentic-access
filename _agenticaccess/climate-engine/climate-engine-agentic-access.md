@@ -9,43 +9,43 @@ api_specs:
   label: Climate Engine Home API
   slug: climate-engine-home-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-home-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-home-api-openapi.yml
 - filename: climate-engine-metadata-api-openapi.yml
   format: yaml
   label: Climate Engine Metadata API
   slug: climate-engine-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-metadata-api-openapi.yml
 - filename: climate-engine-reports-api-openapi.yml
   format: yaml
   label: Climate Engine Reports API
   slug: climate-engine-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-reports-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-reports-api-openapi.yml
 - filename: climate-engine-raster-export-api-openapi.yml
   format: yaml
   label: Climate Engine Raster/export API
   slug: climate-engine-raster-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-export-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-raster-export-api-openapi.yml
 - filename: climate-engine-raster-mapid-api-openapi.yml
   format: yaml
   label: Climate Engine Raster/mapid API
   slug: climate-engine-raster-mapid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-raster-mapid-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-raster-mapid-api-openapi.yml
 - filename: climate-engine-zonal-stats-api-openapi.yml
   format: yaml
   label: Climate Engine Zonal Stats API
   slug: climate-engine-zonal-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-zonal-stats-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-zonal-stats-api-openapi.yml
 - filename: climate-engine-time-series-api-openapi.yml
   format: yaml
   label: Climate Engine Time Series API
   slug: climate-engine-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/openapi/climate-engine-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/climate-engine/openapi/climate-engine-time-series-api-openapi.yml
 consequence_counts:
   read: 10
   write: 13
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/climat
   \  method: post\n  operationId: zonalStatsGroupByFeatureCollection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /zonal_stats/temporal_dataset/coordinates\n  method: get\n  operationId: zonalStatsTemporalDatasetCoordinates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /raster/mapid/values\n  method: get\n  operationId: rasterMapidValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /raster/export/values\n  method: post\n  operationId: rasterExportValues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /raster/export/task_update\n  method: get\n  operationId: rasterExportTaskUpdate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /raster/export/task_queue\n  method: get\n  operationId: rasterExportTaskQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/drought/coordinates\n  method: post\n  operationId: reportsDroughtCoordinates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /reports/vegetation_production/coordinates\n  method: post\n  operationId: reportsVegetationProductionCoordinates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/site_characterization/coordinates\n  method: post\n  operationId: reportsSiteCharacterizationCoordinates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/climate-engine/refs/heads/main/agentic-access/climate-engine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/climate-engine/agentic-access/climate-engine-agentic-access.yml
 summary_line: 23 operations · 13 acting
 tags:
 - Climate

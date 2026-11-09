@@ -9,175 +9,175 @@ api_specs:
   label: Workday Business Processes 03/11/2023 API
   slug: workday-business-processes-03-11-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-03-11-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-03-11-2023-api-openapi.yml
 - filename: workday-business-processes-03-15-2021-api-openapi.yml
   format: yaml
   label: Workday Business Processes 03/15/2021 API
   slug: workday-business-processes-03-15-2021-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-03-15-2021-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-03-15-2021-api-openapi.yml
 - filename: workday-business-processes-03-18-2026-api-openapi.yml
   format: yaml
   label: Workday Business Processes 03/18/2026 API
   slug: workday-business-processes-03-18-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-03-18-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-03-18-2026-api-openapi.yml
 - filename: workday-business-processes-04-01-2023-api-openapi.yml
   format: yaml
   label: Workday Business Processes 04/01/2023 API
   slug: workday-business-processes-04-01-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-04-01-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-04-01-2023-api-openapi.yml
 - filename: workday-business-processes-04-02-2022-api-openapi.yml
   format: yaml
   label: Workday Business Processes 04/02/2022 API
   slug: workday-business-processes-04-02-2022-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-04-02-2022-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-04-02-2022-api-openapi.yml
 - filename: workday-business-processes-04-24-2023-api-openapi.yml
   format: yaml
   label: Workday Business Processes 04/24/2023 API
   slug: workday-business-processes-04-24-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-04-24-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-04-24-2023-api-openapi.yml
 - filename: workday-business-processes-05-17-2025-api-openapi.yml
   format: yaml
   label: Workday Business Processes 05/17/2025 API
   slug: workday-business-processes-05-17-2025-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-05-17-2025-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-05-17-2025-api-openapi.yml
 - filename: workday-business-processes-06-08-2026-api-openapi.yml
   format: yaml
   label: Workday Business Processes 06/08/2026 API
   slug: workday-business-processes-06-08-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-06-08-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-06-08-2026-api-openapi.yml
 - filename: workday-business-processes-06-15-2024-api-openapi.yml
   format: yaml
   label: Workday Business Processes 06/15/2024 API
   slug: workday-business-processes-06-15-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-06-15-2024-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-06-15-2024-api-openapi.yml
 - filename: workday-business-processes-06-15-2026-api-openapi.yml
   format: yaml
   label: Workday Business Processes 06/15/2026 API
   slug: workday-business-processes-06-15-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-06-15-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-06-15-2026-api-openapi.yml
 - filename: workday-business-processes-06-30-2026-api-openapi.yml
   format: yaml
   label: Workday Business Processes 06/30/2026 API
   slug: workday-business-processes-06-30-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-06-30-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-06-30-2026-api-openapi.yml
 - filename: workday-business-processes-07-15-2023-api-openapi.yml
   format: yaml
   label: Workday Business Processes 07/15/2023 API
   slug: workday-business-processes-07-15-2023-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-07-15-2023-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-07-15-2023-api-openapi.yml
 - filename: workday-business-processes-08-06-2022-api-openapi.yml
   format: yaml
   label: Workday Business Processes 08/06/2022 API
   slug: workday-business-processes-08-06-2022-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-08-06-2022-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-08-06-2022-api-openapi.yml
 - filename: workday-business-processes-08-17-2026-api-openapi.yml
   format: yaml
   label: Workday Business Processes 08/17/2026 API
   slug: workday-business-processes-08-17-2026-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-08-17-2026-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-08-17-2026-api-openapi.yml
 - filename: workday-business-processes-09-01-2021-api-openapi.yml
   format: yaml
   label: Workday Business Processes 09/01/2021 API
   slug: workday-business-processes-09-01-2021-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-09-01-2021-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-09-01-2021-api-openapi.yml
 - filename: workday-business-processes-09-09-2021-api-openapi.yml
   format: yaml
   label: Workday Business Processes 09/09/2021 API
   slug: workday-business-processes-09-09-2021-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-09-09-2021-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-09-09-2021-api-openapi.yml
 - filename: workday-business-processes-09-19-2022-api-openapi.yml
   format: yaml
   label: Workday Business Processes 09/19/2022 API
   slug: workday-business-processes-09-19-2022-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-09-19-2022-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-09-19-2022-api-openapi.yml
 - filename: workday-business-processes-09-28-2024-api-openapi.yml
   format: yaml
   label: Workday Business Processes 09/28/2024 API
   slug: workday-business-processes-09-28-2024-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-09-28-2024-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-09-28-2024-api-openapi.yml
 - filename: workday-business-processes-12-06-2025-api-openapi.yml
   format: yaml
   label: Workday Business Processes 12/06/2025 API
   slug: workday-business-processes-12-06-2025-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-12-06-2025-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-12-06-2025-api-openapi.yml
 - filename: workday-business-processes-12-15-2025-api-openapi.yml
   format: yaml
   label: Workday Business Processes 12/15/2025 API
   slug: workday-business-processes-12-15-2025-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-12-15-2025-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-12-15-2025-api-openapi.yml
 - filename: workday-business-processes-approvals-api-openapi.yml
   format: yaml
   label: Workday Business Processes Approvals API
   slug: workday-business-processes-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-approvals-api-openapi.yml
 - filename: workday-business-processes-business-process-definitions-api-openapi.yml
   format: yaml
   label: Workday Business Processes Business Process Definitions API
   slug: workday-business-processes-business-process-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-business-process-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-business-process-definitions-api-openapi.yml
 - filename: workday-business-processes-event-task-definitions-api-openapi.yml
   format: yaml
   label: Workday Business Processes Event Task Definitions API
   slug: workday-business-processes-event-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-event-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-event-task-definitions-api-openapi.yml
 - filename: workday-business-processes-events-api-openapi.yml
   format: yaml
   label: Workday Business Processes Events API
   slug: workday-business-processes-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-events-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-events-api-openapi.yml
 - filename: workday-business-processes-eventsteps-api-openapi.yml
   format: yaml
   label: Workday Business Processes Event Steps API
   slug: workday-business-processes-eventsteps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-eventsteps-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-eventsteps-api-openapi.yml
 - filename: workday-business-processes-inbox-items-api-openapi.yml
   format: yaml
   label: Workday Business Processes Inbox Items API
   slug: workday-business-processes-inbox-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-inbox-items-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-inbox-items-api-openapi.yml
 - filename: workday-business-processes-process-instances-api-openapi.yml
   format: yaml
   label: Workday Business Processes Process Instances API
   slug: workday-business-processes-process-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-process-instances-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-process-instances-api-openapi.yml
 - filename: workday-business-processes-prompt-values-api-openapi.yml
   format: yaml
   label: Workday Business Processes Prompt Values API
   slug: workday-business-processes-prompt-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-prompt-values-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-prompt-values-api-openapi.yml
 - filename: workday-business-processes-types-api-openapi.yml
   format: yaml
   label: Workday Business Processes Types API
   slug: workday-business-processes-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/openapi/workday-business-processes-types-api-openapi.yml
+  url: https://artifacts.apis.io/workday-business-processes/openapi/workday-business-processes-types-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 124
@@ -287,8 +287,8 @@ source_yaml: "generated: '2026-10-03'\nmethod: generated\nsource: openapi/workda
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: 2022.32/events/{ID}/inProgressSteps\n  method: get\n  operationId: get202232EventsByIDInProgressSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2022.32/eventSteps/{ID}/deny\n  method: post\n  operationId: post202232EventStepsByIDDeny\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 2022.32/events/{ID}/remainingSteps\n  method: get\n  operationId: get202232EventsByIDRemainingSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2022.32/events/{ID}\n  method: get\n  operationId: get202232EventsByID\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2022.32/eventSteps/{ID}/approve\n  method: post\n  operationId: post202232EventStepsByIDApprove\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 2022.32/eventSteps/{ID}/sendBack\n  method: post\n  operationId: post202232EventStepsByIDSendBack\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: 2022.32/eventSteps\n  method:\
   \ get\n  operationId: get202232EventSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2022.32/events/{ID}/completedSteps\n  method: get\n  operationId: get202232EventsByIDCompletedSteps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2022.32/eventSteps/{ID}\n  method: get\n  operationId: get202232EventStepsByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2026.33/types/{ID}\n  method: get\n  operationId: get202633TypesByID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2026.33/types/{ID}/attachmentCategories\n  method: get\n  operationId: get202633TypesByIDAttachmentCategories\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2026.33/events/{ID}/rescind\n  method: post\n  operationId: post202633EventsByIDRescind\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/agentic-access/workday-business-processes-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workday-business-processes/refs/heads/main/agentic-access/workday-business-processes-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: 2026.33/events/{ID}/rescind\n  method: post\n  operationId: post202633EventsByIDRescind\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://artifacts.apis.io/workday-business-processes/agentic-access/workday-business-processes-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/workday-business-processes/agentic-access/workday-business-processes-agentic-access.yml
 summary_line: 201 operations · 77 acting
 tags:
 - Business Processes

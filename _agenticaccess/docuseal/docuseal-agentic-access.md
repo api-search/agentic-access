@@ -9,19 +9,19 @@ api_specs:
   label: DocuSeal Submissions API
   slug: docuseal-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-submissions-api-openapi.yml
 - filename: docuseal-submitters-api-openapi.yml
   format: yaml
   label: DocuSeal Submitters API
   slug: docuseal-submitters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-submitters-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-submitters-api-openapi.yml
 - filename: docuseal-templates-api-openapi.yml
   format: yaml
   label: DocuSeal Templates API
   slug: docuseal-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/openapi/docuseal-templates-api-openapi.yml
+  url: https://artifacts.apis.io/docuseal/openapi/docuseal-templates-api-openapi.yml
 consequence_counts:
   read: 7
   write: 15
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docuse
   \      - high-value\n    audit: required\n- path: /submitters\n  method: get\n  operationId: getSubmitters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /templates/{id}/documents\n  method: put\n  operationId: addDocumentToTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/{id}/clone\n  method: post\n  operationId: cloneTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/html\n \
   \ method: post\n  operationId: createTemplateFromHtml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/docx\n  method: post\n  operationId: createTemplateFromDocx\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /templates/pdf\n  method: post\n  operationId: createTemplateFromPdf\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /templates/merge\n  method: post\n  operationId: mergeTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docuseal/refs/heads/main/agentic-access/docuseal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docuseal/agentic-access/docuseal-agentic-access.yml
 summary_line: 22 operations · 15 acting
 tags:
 - E-Signature

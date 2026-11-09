@@ -9,25 +9,25 @@ api_specs:
   label: OANDA Accounts API
   slug: oanda-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/oanda/openapi/oanda-accounts-api-openapi.yml
 - filename: oanda-instruments-api-openapi.yml
   format: yaml
   label: OANDA Instruments API
   slug: oanda-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/oanda/openapi/oanda-instruments-api-openapi.yml
 - filename: oanda-pricing-api-openapi.yml
   format: yaml
   label: OANDA Pricing API
   slug: oanda-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/oanda/openapi/oanda-pricing-api-openapi.yml
 - filename: oanda-users-api-openapi.yml
   format: yaml
   label: OANDA Users API
   slug: oanda-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/openapi/oanda-users-api-openapi.yml
+  url: https://artifacts.apis.io/oanda/openapi/oanda-users-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 31
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/oanda-
   \   subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountID}/orders/{orderSpecifier}/clientExtensions\n  method: put\n  operationId: setOrderClientExtensions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instruments/{instrument}/candles\n  method: get\n  operationId: getInstrumentCandles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments/{instrument}/price\n\
   \  method: get\n  operationId: getInstrumentPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments/{instrument}/price/range\n  method: get\n  operationId: getInstrumentPriceRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments/{instrument}/orderBook\n  method: get\n  operationId: getInstrumentsByInstrumentOrderBook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instruments/{instrument}/positionBook\n  method: get\n  operationId: getInstrumentsByInstrumentPositionBook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: get\n\
   \  operationId: getBasePrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing/range\n  method: get\n  operationId: getPriceRange\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userSpecifier}\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userSpecifier}/externalInfo\n  method: get\n  operationId: getExternalUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oanda/refs/heads/main/agentic-access/oanda-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oanda/agentic-access/oanda-agentic-access.yml
 summary_line: 40 operations · 9 acting
 tags:
 - Foreign Exchange

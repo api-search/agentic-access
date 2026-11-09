@@ -9,79 +9,79 @@ api_specs:
   label: FrankieOne Audit API
   slug: frankieone-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-audit-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-audit-api-openapi.yml
 - filename: frankieone-hostedurl-api-openapi.yml
   format: yaml
   label: FrankieOne HostedURL API
   slug: frankieone-hostedurl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-hostedurl-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-hostedurl-api-openapi.yml
 - filename: frankieone-idv-api-openapi.yml
   format: yaml
   label: FrankieOne IDV API
   slug: frankieone-idv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-idv-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-idv-api-openapi.yml
 - filename: frankieone-individual-documents-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Documents API
   slug: frankieone-individual-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-documents-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-documents-api-openapi.yml
 - filename: frankieone-individual-entities-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Entities API
   slug: frankieone-individual-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-entities-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-entities-api-openapi.yml
 - filename: frankieone-individual-entity-elements-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Entity Elements API
   slug: frankieone-individual-entity-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-entity-elements-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-entity-elements-api-openapi.yml
 - filename: frankieone-individual-profiles-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Profiles API
   slug: frankieone-individual-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-profiles-api-openapi.yml
 - filename: frankieone-individual-results-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Results API
   slug: frankieone-individual-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-results-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-results-api-openapi.yml
 - filename: frankieone-individual-risks-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Risks API
   slug: frankieone-individual-risks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-risks-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-risks-api-openapi.yml
 - filename: frankieone-individual-workflows-api-openapi.yml
   format: yaml
   label: FrankieOne Individual Workflows API
   slug: frankieone-individual-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-individual-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-individual-workflows-api-openapi.yml
 - filename: frankieone-matchlists-api-openapi.yml
   format: yaml
   label: FrankieOne Matchlists API
   slug: frankieone-matchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-matchlists-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-matchlists-api-openapi.yml
 - filename: frankieone-monitoring-api-openapi.yml
   format: yaml
   label: FrankieOne Monitoring API
   slug: frankieone-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-monitoring-api-openapi.yml
 - filename: frankieone-search-api-openapi.yml
   format: yaml
   label: FrankieOne Search API
   slug: frankieone-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/openapi/frankieone-search-api-openapi.yml
+  url: https://artifacts.apis.io/frankieone/openapi/frankieone-search-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/franki
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/matchlists/{matchlistName}/entries\n  method: get\n  operationId: getMatchlistEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - kyc:api\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/matchlists/{matchlistName}/entries/{entryId}\n  method: patch\n  operationId: updateMatchlistEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - kyc:api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/matchlists/{matchlistName}/entries/{entryId}\n  method: get\n  operationId: getMatchlistEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    scope:\n    - kyc:api\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/matchlists/{matchlistName}/entries/addEntity\n  method: post\n  operationId: addMatchlistEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - kyc:api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/matchlists/{matchlistName}/entries/removeEntity\n  method: patch\n  operationId: removeMatchlistEntity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - kyc:api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/individuals/{entityId}/monitor\n  method: patch\n  operationId:\
   \ patchMonitoring\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - kyc:api\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/search/serviceprofiles\n  method: post\n  operationId: searchProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - kyc:api\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frankieone/refs/heads/main/agentic-access/frankieone-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/frankieone/agentic-access/frankieone-agentic-access.yml
 summary_line: 50 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Identity Verification

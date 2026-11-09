@@ -9,13 +9,13 @@ api_specs:
   label: Relace Code API
   slug: relace-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-code-api-openapi.yml
+  url: https://artifacts.apis.io/relace/openapi/relace-code-api-openapi.yml
 - filename: relace-repo-api-openapi.yml
   format: yaml
   label: Relace Repo API
   slug: relace-repo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-repo-api-openapi.yml
+  url: https://artifacts.apis.io/relace/openapi/relace-repo-api-openapi.yml
 consequence_counts:
   read: 1
   write: 10
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/relace
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/code/rank\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/code/rank\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/code/embed\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/repo\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/repo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/repo/{repo_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/repo/{repo_id}/update\n  method: post\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/repo/{repo_id}/retrieve\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/repo/{repo_id}/search\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/agentic-access/relace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/relace/agentic-access/relace-agentic-access.yml
 summary_line: 11 operations · 10 acting
 tags:
 - Company

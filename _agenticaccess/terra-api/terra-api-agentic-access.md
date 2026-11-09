@@ -9,61 +9,61 @@ api_specs:
   label: Terra Activity API
   slug: terra-api-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-activity-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-activity-api-openapi.yml
 - filename: terra-api-athlete-api-openapi.yml
   format: yaml
   label: Terra Athlete API
   slug: terra-api-athlete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-athlete-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-athlete-api-openapi.yml
 - filename: terra-api-authentication-api-openapi.yml
   format: yaml
   label: Terra Authentication API
   slug: terra-api-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-authentication-api-openapi.yml
 - filename: terra-api-body-api-openapi.yml
   format: yaml
   label: Terra Body API
   slug: terra-api-body-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-body-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-body-api-openapi.yml
 - filename: terra-api-daily-api-openapi.yml
   format: yaml
   label: Terra Daily API
   slug: terra-api-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-daily-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-daily-api-openapi.yml
 - filename: terra-api-integrations-api-openapi.yml
   format: yaml
   label: Terra Integrations API
   slug: terra-api-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-integrations-api-openapi.yml
 - filename: terra-api-menstruation-api-openapi.yml
   format: yaml
   label: Terra Menstruation API
   slug: terra-api-menstruation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-menstruation-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-menstruation-api-openapi.yml
 - filename: terra-api-nutrition-api-openapi.yml
   format: yaml
   label: Terra Nutrition API
   slug: terra-api-nutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-nutrition-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-nutrition-api-openapi.yml
 - filename: terra-api-sleep-api-openapi.yml
   format: yaml
   label: Terra Sleep API
   slug: terra-api-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-sleep-api-openapi.yml
 - filename: terra-api-users-api-openapi.yml
   format: yaml
   label: Terra Users API
   slug: terra-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/openapi/terra-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/terra-api/openapi/terra-api-users-api-openapi.yml
 consequence_counts:
   read: 12
   write: 4
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/terra-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/generateAuthToken\n  method: post\n  operationId: generateAuthToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/deauthenticateUser\n  method: delete\n  operationId: deauthenticateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /body\n  method: get\n  operationId: getBody\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /daily\n  method: get\n  operationId: getDaily\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrations/detailed\n  method: get\n  operationId: listDetailedIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /menstruation\n  method: get\n  operationId: getMenstruation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /nutrition\n  method: get\n  operationId: getNutrition\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sleep\n  method: get\n  operationId: getSleep\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userInfo\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bulkUserInfo\n  method: post\n  operationId: bulkUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/terra-api/refs/heads/main/agentic-access/terra-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/terra-api/agentic-access/terra-api-agentic-access.yml
 summary_line: 16 operations · 4 acting
 tags:
 - Wearables

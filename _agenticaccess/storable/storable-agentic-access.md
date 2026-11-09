@@ -9,67 +9,67 @@ api_specs:
   label: Storable Delinquency & Auctions API
   slug: storable-delinquency-auctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-delinquency-auctions-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-delinquency-auctions-api-openapi.yml
 - filename: storable-documents-esign-api-openapi.yml
   format: yaml
   label: Storable Documents & eSign API
   slug: storable-documents-esign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-documents-esign-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-documents-esign-api-openapi.yml
 - filename: storable-gate-access-api-openapi.yml
   format: yaml
   label: Storable Gate Access API
   slug: storable-gate-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-gate-access-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-gate-access-api-openapi.yml
 - filename: storable-insurance-api-openapi.yml
   format: yaml
   label: Storable Insurance API
   slug: storable-insurance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-insurance-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-insurance-api-openapi.yml
 - filename: storable-leads-reservations-api-openapi.yml
   format: yaml
   label: Storable Leads & Reservations API
   slug: storable-leads-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-leads-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-leads-reservations-api-openapi.yml
 - filename: storable-ledgers-payments-api-openapi.yml
   format: yaml
   label: Storable Ledgers & Payments API
   slug: storable-ledgers-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-ledgers-payments-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-ledgers-payments-api-openapi.yml
 - filename: storable-move-ins-outs-api-openapi.yml
   format: yaml
   label: Storable Move Ins & Outs API
   slug: storable-move-ins-outs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-move-ins-outs-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-move-ins-outs-api-openapi.yml
 - filename: storable-reporting-api-openapi.yml
   format: yaml
   label: Storable Reporting API
   slug: storable-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-reporting-api-openapi.yml
 - filename: storable-tasks-api-openapi.yml
   format: yaml
   label: Storable Tasks API
   slug: storable-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-tasks-api-openapi.yml
 - filename: storable-tenants-api-openapi.yml
   format: yaml
   label: Storable Tenants API
   slug: storable-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-tenants-api-openapi.yml
 - filename: storable-units-rates-api-openapi.yml
   format: yaml
   label: Storable Units & Rates API
   slug: storable-units-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/openapi/storable-units-rates-api-openapi.yml
+  url: https://artifacts.apis.io/storable/openapi/storable-units-rates-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 37
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/storab
   \  method: get\n  operationId: getDelinquencyEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{facility_id}/delinquency_events/{id}/{verb}\n  method: patch\n  operationId: transitionDelinquencyEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{facility_id}/auctions/scheduled\n  method: get\n  operationId: listScheduledAuctions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{company_id}/active_auctions\n  method: get\n  operationId: listActiveCompanyAuctions\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{facility_id}/report_requests\n  method: post\n  operationId: createFacilityReportRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{facility_id}/report_requests/{id}\n  method: get\n  operationId: getFacilityReportRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{facility_id}/report_requests/{id}/completed_json\n  method: get\n  operationId: getFacilityReportRequestResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{company_id}/report_requests\n\
   \  method: post\n  operationId: createCompanyReportRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/storable/refs/heads/main/agentic-access/storable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/storable/agentic-access/storable-agentic-access.yml
 summary_line: 69 operations · 32 acting · 1 human-in-the-loop
 tags:
 - Self Storage

@@ -9,145 +9,145 @@ api_specs:
   label: Cordial account attributes API
   slug: cordial-account-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-account-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-account-attributes-api-openapi.yml
 - filename: cordial-account-lists-api-openapi.yml
   format: yaml
   label: Cordial account lists API
   slug: cordial-account-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-account-lists-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-account-lists-api-openapi.yml
 - filename: cordial-account-monitor-export-api-openapi.yml
   format: yaml
   label: Cordial account monitor export API
   slug: cordial-account-monitor-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-account-monitor-export-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-account-monitor-export-api-openapi.yml
 - filename: cordial-alerts-api-openapi.yml
   format: yaml
   label: Cordial Alerts API
   slug: cordial-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-alerts-api-openapi.yml
 - filename: cordial-analytics-audiences-api-openapi.yml
   format: yaml
   label: Cordial analytics audiences API
   slug: cordial-analytics-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-analytics-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-analytics-audiences-api-openapi.yml
 - filename: cordial-analytics-messages-api-openapi.yml
   format: yaml
   label: Cordial analytics messages API
   slug: cordial-analytics-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-analytics-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-analytics-messages-api-openapi.yml
 - filename: cordial-audiencecount-api-openapi.yml
   format: yaml
   label: Cordial Audiencecount API
   slug: cordial-audiencecount-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-audiencecount-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-audiencecount-api-openapi.yml
 - filename: cordial-automation-templates-api-openapi.yml
   format: yaml
   label: Cordial automation templates API
   slug: cordial-automation-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-automation-templates-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-automation-templates-api-openapi.yml
 - filename: cordial-batch-messages-api-openapi.yml
   format: yaml
   label: Cordial batch messages API
   slug: cordial-batch-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-batch-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-batch-messages-api-openapi.yml
 - filename: cordial-contact-activities-api-openapi.yml
   format: yaml
   label: Cordial contact activities API
   slug: cordial-contact-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-activities-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-activities-api-openapi.yml
 - filename: cordial-contact-activity-exports-api-openapi.yml
   format: yaml
   label: Cordial contact activity exports API
   slug: cordial-contact-activity-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-activity-exports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-activity-exports-api-openapi.yml
 - filename: cordial-contact-exports-api-openapi.yml
   format: yaml
   label: Cordial contact exports API
   slug: cordial-contact-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-exports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-exports-api-openapi.yml
 - filename: cordial-contact-imports-api-openapi.yml
   format: yaml
   label: Cordial contact imports API
   slug: cordial-contact-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contact-imports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contact-imports-api-openapi.yml
 - filename: cordial-contacts-api-openapi.yml
   format: yaml
   label: Cordial Contacts API
   slug: cordial-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-contacts-api-openapi.yml
 - filename: cordial-data-jobs-api-openapi.yml
   format: yaml
   label: Cordial data jobs API
   slug: cordial-data-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-data-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-data-jobs-api-openapi.yml
 - filename: cordial-jobs-api-openapi.yml
   format: yaml
   label: Cordial Jobs API
   slug: cordial-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-jobs-api-openapi.yml
 - filename: cordial-message-content-includes-api-openapi.yml
   format: yaml
   label: Cordial message content includes API
   slug: cordial-message-content-includes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-message-content-includes-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-message-content-includes-api-openapi.yml
 - filename: cordial-orchestrations-api-openapi.yml
   format: yaml
   label: Cordial Orchestrations API
   slug: cordial-orchestrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-orchestrations-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-orchestrations-api-openapi.yml
 - filename: cordial-orders-api-openapi.yml
   format: yaml
   label: Cordial Orders API
   slug: cordial-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-orders-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-orders-api-openapi.yml
 - filename: cordial-ordersimport-api-openapi.yml
   format: yaml
   label: Cordial Ordersimport API
   slug: cordial-ordersimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-ordersimport-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-ordersimport-api-openapi.yml
 - filename: cordial-productimports-api-openapi.yml
   format: yaml
   label: Cordial Productimports API
   slug: cordial-productimports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-productimports-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-productimports-api-openapi.yml
 - filename: cordial-products-api-openapi.yml
   format: yaml
   label: Cordial Products API
   slug: cordial-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-products-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-products-api-openapi.yml
 - filename: cordial-programs-api-openapi.yml
   format: yaml
   label: Cordial Programs API
   slug: cordial-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-programs-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-programs-api-openapi.yml
 - filename: cordial-supplements-api-openapi.yml
   format: yaml
   label: Cordial Supplements API
   slug: cordial-supplements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/openapi/cordial-supplements-api-openapi.yml
+  url: https://artifacts.apis.io/cordial/openapi/cordial-supplements-api-openapi.yml
 consequence_counts:
   physical: 22
   read: 65
@@ -317,8 +317,8 @@ source_yaml: "generated: '2026-08-14'\nmethod: generated\nsource: openapi/cordia
   \    audit: required\n- path: /v1/contactimports\n  method: post\n  operationId: createImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/contactimports\n  method: post\n  operationId: createImportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contacts/{primary_key}/downloadprofile\n  method: post\n  operationId: buildcontactprofile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n    \
   \  human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contacts\n  method: post\n  operationId: addContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contacts\n  method: get\n  operationId: getContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contacts/{primary_key}\n  method: put\n  operationId: updateContacts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/contacts/{primary_key}\n  method: get\n  operationId: getsinglecontact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/contacts/{primary_key}\n  method: delete\n  operationId: deletesinglecontact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contacts/{primary_key}/unsubscribe/{channel}\n  method: put\n  operationId: unsubscribecontact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
-  - path: /v1/contacts/{primary_key}/cart\n  method: post\n  operationId: savecartcontact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contacts/{primary_key}/cart\n  method: put\n  operationId: updatecartcontact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/agentic-access/cordial-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cordial/refs/heads/main/agentic-access/cordial-agentic-access.yml
+  - path: /v1/contacts/{primary_key}/cart\n  method: post\n  operationId: savecartcontact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/contacts/{primary_key}/cart\n  method: put\n  operationId: updatecartcontact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://artifacts.apis.io/cordial/agentic-access/cordial-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cordial/agentic-access/cordial-agentic-access.yml
 summary_line: 189 operations · 124 acting
 tags:
 - Company

@@ -9,13 +9,13 @@ api_specs:
   label: Geckoboard Datasets API
   slug: geckoboard-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/geckoboard/openapi/geckoboard-datasets-api-openapi.yml
 - filename: geckoboard-health-api-openapi.yml
   format: yaml
   label: Geckoboard Health API
   slug: geckoboard-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/openapi/geckoboard-health-api-openapi.yml
+  url: https://artifacts.apis.io/geckoboard/openapi/geckoboard-health-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/geckoboard-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 1\n    acting: 4\n  by_consequence:\n    read: 1\n    write: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: ping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datasets/{id}\n  method: put\n  operationId: findOrCreateDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{id}\n  method: delete\n  operationId: deleteDataset\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{id}/data\n  method: post\n  operationId: appendData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{id}/data\n  method: put\n  operationId: replaceData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geckoboard/refs/heads/main/agentic-access/geckoboard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/geckoboard/agentic-access/geckoboard-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - Dashboards

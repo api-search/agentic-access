@@ -9,25 +9,25 @@ api_specs:
   label: Oracle Transportation Management Carriers API
   slug: oracle-transportation-management-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-carriers-api-openapi.yml
 - filename: oracle-transportation-management-locations-api-openapi.yml
   format: yaml
   label: Oracle Transportation Management Locations API
   slug: oracle-transportation-management-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-locations-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-locations-api-openapi.yml
 - filename: oracle-transportation-management-rates-api-openapi.yml
   format: yaml
   label: Oracle Transportation Management Rates API
   slug: oracle-transportation-management-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-rates-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-rates-api-openapi.yml
 - filename: oracle-transportation-management-shipment-orders-api-openapi.yml
   format: yaml
   label: Oracle Transportation Management Shipment Orders API
   slug: oracle-transportation-management-shipment-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/openapi/oracle-transportation-management-shipment-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-transportation-management/openapi/oracle-transportation-management-shipment-orders-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 6
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oracle
   \    exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipment-orders/{gid}\n  method: get\n  operationId: getShipmentOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipment-orders/{gid}\n  method: put\n  operationId: updateShipmentOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shipment-orders/{gid}\n  method: delete\n  operationId: deleteShipmentOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /carriers\n  method: get\n  operationId: listCarriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /carriers/{gid}\n  method: get\n  operationId: getCarrier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates\n  method: get\n  operationId: listRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-transportation-management/refs/heads/main/agentic-access/oracle-transportation-management-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-transportation-management/agentic-access/oracle-transportation-management-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Logistics

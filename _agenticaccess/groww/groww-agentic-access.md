@@ -9,37 +9,37 @@ api_specs:
   label: Groww Authentication API
   slug: groww-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-authentication-api-openapi.yml
 - filename: groww-historical-data-api-openapi.yml
   format: yaml
   label: Groww Historical Data API
   slug: groww-historical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-historical-data-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-historical-data-api-openapi.yml
 - filename: groww-live-data-api-openapi.yml
   format: yaml
   label: Groww Live Data API
   slug: groww-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-live-data-api-openapi.yml
 - filename: groww-margin-api-openapi.yml
   format: yaml
   label: Groww Margin API
   slug: groww-margin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-margin-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-margin-api-openapi.yml
 - filename: groww-orders-api-openapi.yml
   format: yaml
   label: Groww Orders API
   slug: groww-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-orders-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-orders-api-openapi.yml
 - filename: groww-portfolio-api-openapi.yml
   format: yaml
   label: Groww Portfolio API
   slug: groww-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/openapi/groww-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/groww/openapi/groww-portfolio-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 16
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/groww-
   \ audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/order/list\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order/detail/{groww_order_id}\n  method: get\n  operationId: getOrderDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order/status/{groww_order_id}\n  method: get\n  operationId: getOrderStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order/status/reference/{order_reference_id}\n  method: get\n  operationId:\
   \ getOrderStatusByReference\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/order/trades/{groww_order_id}\n  method: get\n  operationId: getOrderTrades\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/holdings/user\n  method: get\n  operationId: getHoldings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/positions/user\n  method: get\n  operationId: getPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/positions/trading-symbol\n  method: get\n  operationId: getPositionByTradingSymbol\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groww/refs/heads/main/agentic-access/groww-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/groww/agentic-access/groww-agentic-access.yml
 summary_line: 20 operations · 4 acting
 tags:
 - Company

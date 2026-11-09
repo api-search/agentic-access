@@ -9,37 +9,37 @@ api_specs:
   label: Ternary Anomaly Detection API
   slug: ternary-anomaly-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-anomaly-detection-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-anomaly-detection-api-openapi.yml
 - filename: ternary-commitments-api-openapi.yml
   format: yaml
   label: Ternary Commitments API
   slug: ternary-commitments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-commitments-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-commitments-api-openapi.yml
 - filename: ternary-cost-allocation-api-openapi.yml
   format: yaml
   label: Ternary Cost Allocation API
   slug: ternary-cost-allocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-cost-allocation-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-cost-allocation-api-openapi.yml
 - filename: ternary-forecasting-api-openapi.yml
   format: yaml
   label: Ternary Forecasting API
   slug: ternary-forecasting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-forecasting-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-forecasting-api-openapi.yml
 - filename: ternary-kubernetes-api-openapi.yml
   format: yaml
   label: Ternary Kubernetes API
   slug: ternary-kubernetes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-kubernetes-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-kubernetes-api-openapi.yml
 - filename: ternary-reporting-api-openapi.yml
   format: yaml
   label: Ternary Reporting API
   slug: ternary-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/openapi/ternary-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/ternary/openapi/ternary-reporting-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ternar
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/budgets/{budget_id}\n  method: put\n  operationId: updateBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/budgets/{budget_id}\n  method: delete\n  operationId: deleteBudget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports\n  method: get\n  operationId: listReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reports\n  method: post\n  operationId: createReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reports/{report_id}/data\n  method: post\n  operationId: runReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kubernetes/pod-labels\n  method: get\n  operationId: listKubernetesPodLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kubernetes/pod-labels\n\
   \  method: put\n  operationId: updateKubernetesPodLabels\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/agentic-access/ternary-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ternary/agentic-access/ternary-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Cloud Cost Management

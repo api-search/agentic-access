@@ -9,61 +9,61 @@ api_specs:
   label: NVIDIA NIM Completions API
   slug: nvidia-nim-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-completions-api-openapi.yml
 - filename: nvidia-nim-embeddings-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Embeddings API
   slug: nvidia-nim-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-embeddings-api-openapi.yml
 - filename: nvidia-nim-reranking-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Reranking API
   slug: nvidia-nim-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-reranking-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-reranking-api-openapi.yml
 - filename: nvidia-nim-models-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Models API
   slug: nvidia-nim-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-models-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-models-api-openapi.yml
 - filename: nvidia-nim-health-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Health API
   slug: nvidia-nim-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-health-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-health-api-openapi.yml
 - filename: nvidia-nim-biology-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Biology (BioNeMo) API
   slug: nvidia-nim-biology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-biology-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-biology-api-openapi.yml
 - filename: nvidia-nim-asr-api-openapi.yml
   format: yaml
   label: NVIDIA NIM ASR API
   slug: nvidia-nim-asr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-asr-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-asr-api-openapi.yml
 - filename: nvidia-nim-images-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Images API
   slug: nvidia-nim-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-images-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-images-api-openapi.yml
 - filename: nvidia-nim-tts-api-openapi.yml
   format: yaml
   label: NVIDIA NIM TTS API
   slug: nvidia-nim-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-tts-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-tts-api-openapi.yml
 - filename: nvidia-nim-chat-completions-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Chat Completions API
   slug: nvidia-nim-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-chat-completions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 11
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nvidia
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/health/live\n  method: get\n  operationId: getLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/health/ready\n  method: get\n  operationId: getReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/metrics\n  method: get\n  operationId: getMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/genai/{publisher}/{model}\n  method: post\n  operationId: generateImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models/{model_id}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/ranking\n  method: post\n  operationId: rankPassages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/audio/transcriptions\n  method: post\n  operationId: createTranscription\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/audio/speech\n  method: post\n  operationId: createSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chat/completions\n  method: post\n  operationId: createVisionChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/agentic-access/nvidia-nim-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nvidia-nim/agentic-access/nvidia-nim-agentic-access.yml
 summary_line: 16 operations · 11 acting
 tags:
 - Artificial Intelligence

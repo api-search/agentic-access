@@ -4,186 +4,174 @@ action_class_counts:
   acting: 33
   connected: 48
 api_specs:
+- filename: canva-assets-api-openapi.yml
+  format: yaml
+  label: Canva Assets API
+  slug: canva-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-assets-api-openapi.yml
+- filename: canva-autofills-api-openapi.yml
+  format: yaml
+  label: Canva Autofills API
+  slug: canva-autofills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-autofills-api-openapi.yml
+- filename: canva-brand-templates-api-openapi.yml
+  format: yaml
+  label: Canva Brand Templates API
+  slug: canva-brand-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-brand-templates-api-openapi.yml
+- filename: canva-comments-api-openapi.yml
+  format: yaml
+  label: Canva Comments API
+  slug: canva-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-comments-api-openapi.yml
+- filename: canva-designs-api-openapi.yml
+  format: yaml
+  label: Canva Designs API
+  slug: canva-designs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-designs-api-openapi.yml
+- filename: canva-exports-api-openapi.yml
+  format: yaml
+  label: Canva Exports API
+  slug: canva-exports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-exports-api-openapi.yml
+- filename: canva-folders-api-openapi.yml
+  format: yaml
+  label: Canva Folders API
+  slug: canva-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-folders-api-openapi.yml
+- filename: canva-resizes-api-openapi.yml
+  format: yaml
+  label: Canva Resizes API
+  slug: canva-resizes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-resizes-api-openapi.yml
+- filename: canva-users-api-openapi.yml
+  format: yaml
+  label: Canva Users API
+  slug: canva-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-users-api-openapi.yml
 - filename: canva-connect-api-openapi.yml
   format: yaml
   label: Canva Connect API
   slug: canva-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-connect-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-connect-api-openapi.yml
 - filename: canva-analytics-api-openapi.yml
   format: yaml
   label: Canva Analytics API
   slug: canva-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-analytics-api-openapi.yml
 - filename: canva-app-api-openapi.yml
   format: yaml
   label: Canva App API
   slug: canva-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-app-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-app-api-openapi.yml
 - filename: canva-asset-api-openapi.yml
   format: yaml
   label: Canva Asset API
   slug: canva-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-asset-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-asset-api-openapi.yml
 - filename: canva-autofill-api-openapi.yml
   format: yaml
   label: Canva Autofill API
   slug: canva-autofill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-autofill-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-autofill-api-openapi.yml
 - filename: canva-brand-template-api-openapi.yml
   format: yaml
   label: Canva Brand Template API
   slug: canva-brand-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-brand-template-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-brand-template-api-openapi.yml
 - filename: canva-comment-api-openapi.yml
   format: yaml
   label: Canva Comment API
   slug: canva-comment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-comment-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-comment-api-openapi.yml
 - filename: canva-design-api-openapi.yml
   format: yaml
   label: Canva Design API
   slug: canva-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-design-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-design-api-openapi.yml
 - filename: canva-design-import-api-openapi.yml
   format: yaml
   label: Canva Design Import API
   slug: canva-design-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-design-import-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-design-import-api-openapi.yml
 - filename: canva-export-api-openapi.yml
   format: yaml
   label: Canva Export API
   slug: canva-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-export-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-export-api-openapi.yml
 - filename: canva-folder-api-openapi.yml
   format: yaml
   label: Canva Folder API
   slug: canva-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-folder-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-folder-api-openapi.yml
 - filename: canva-merge-api-openapi.yml
   format: yaml
   label: Canva Merge API
   slug: canva-merge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-merge-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-merge-api-openapi.yml
 - filename: canva-oidc-api-openapi.yml
   format: yaml
   label: Canva Oidc API
   slug: canva-oidc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oidc-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-oidc-api-openapi.yml
 - filename: canva-resize-api-openapi.yml
   format: yaml
   label: Canva Resize API
   slug: canva-resize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-resize-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-resize-api-openapi.yml
 - filename: canva-user-api-openapi.yml
   format: yaml
   label: Canva User API
   slug: canva-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-user-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-user-api-openapi.yml
 - filename: canva-oauth-api-openapi.yml
   format: yaml
   label: Canva O Auth API
   slug: canva-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-oauth-api-openapi.yml
 - filename: canva-design-generation-api-openapi.yml
   format: yaml
   label: Canva Design Generation API
   slug: canva-design-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-design-generation-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-design-generation-api-openapi.yml
 - filename: canva-image-generation-api-openapi.yml
   format: yaml
   label: Canva Image Generation API
   slug: canva-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-image-generation-api-openapi.yml
 - filename: canva-image-transformation-api-openapi.yml
   format: yaml
   label: Canva Image Transformation API
   slug: canva-image-transformation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-image-transformation-api-openapi.yml
-- filename: canva-api-specification-api-openapi.yml
-  format: yaml
-  label: Canva API Specification API
-  slug: canva-api-specification-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-api-specification-api-openapi.yml
-- filename: canva-audit-event-api-openapi.yml
-  format: yaml
-  label: Canva Audit Event API
-  slug: canva-audit-event-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-audit-event-api-openapi.yml
-- filename: canva-group-api-openapi.yml
-  format: yaml
-  label: Canva Group API
-  slug: canva-group-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-group-api-openapi.yml
-- filename: canva-group-member-api-openapi.yml
-  format: yaml
-  label: Canva Group Member API
-  slug: canva-group-member-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-group-member-api-openapi.yml
-- filename: canva-invitation-api-openapi.yml
-  format: yaml
-  label: Canva Invitation API
-  slug: canva-invitation-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-invitation-api-openapi.yml
-- filename: canva-key-api-openapi.yml
-  format: yaml
-  label: Canva Key API
-  slug: canva-key-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-key-api-openapi.yml
-- filename: canva-order-cost-api-openapi.yml
-  format: yaml
-  label: Canva Order Cost API
-  slug: canva-order-cost-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-order-cost-api-openapi.yml
-- filename: canva-order-event-api-openapi.yml
-  format: yaml
-  label: Canva Order Event API
-  slug: canva-order-event-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-order-event-api-openapi.yml
-- filename: canva-organization-api-openapi.yml
-  format: yaml
-  label: Canva Organization API
-  slug: canva-organization-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-organization-api-openapi.yml
-- filename: canva-team-api-openapi.yml
-  format: yaml
-  label: Canva Team API
-  slug: canva-team-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-team-api-openapi.yml
-- filename: canva-team-member-api-openapi.yml
-  format: yaml
-  label: Canva Team Member API
-  slug: canva-team-member-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/openapi/canva-team-member-api-openapi.yml
+  url: https://artifacts.apis.io/canva/openapi/canva-image-transformation-api-openapi.yml
 consequence_counts:
   read: 48
   safety-critical: 1
@@ -245,7 +233,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/canva-
   \      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/oidc/jwks\n  method: get\n  operationId: getOidcJwks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/oidc/userinfo\n  method: get\n  operationId: userInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - email\n    - openid\n    - profile\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/resizes\n  method: post\n  operationId: createDesignResizeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - design:content:read\n    - design:content:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/resizes/{jobId}\n  method: get\n  operationId: getDesignResizeJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - design:content:read\n    - design:content:write\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resizes\n  method: post\n  operationId: createDesignResizeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - design:content:read\n    - design:content:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resizes/{jobId}\n  method: get\n  operationId: getDesignResizeJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - design:content:read\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me\n  method: get\n  operationId: usersMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me/capabilities\n  method: get\n  operationId: getUserCapabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - profile:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me/profile\n  method: get\n  operationId: getUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - profile:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/me\n  method: get\n  operationId: getUsersMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/agentic-access/canva-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/canva/agentic-access/canva-agentic-access.yml
 summary_line: 81 operations · 33 acting · 1 human-in-the-loop
 tags:
 - Application

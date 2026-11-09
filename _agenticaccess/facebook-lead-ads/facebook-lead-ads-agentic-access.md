@@ -9,37 +9,37 @@ api_specs:
   label: Facebook Lead Ads Bulk Leads API
   slug: facebook-lead-ads-bulk-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-bulk-leads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-bulk-leads-api-openapi.yml
 - filename: facebook-lead-ads-leadgen-forms-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Leadgen Forms API
   slug: facebook-lead-ads-leadgen-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-leadgen-forms-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-leadgen-forms-api-openapi.yml
 - filename: facebook-lead-ads-leads-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Leads API
   slug: facebook-lead-ads-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-leads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-leads-api-openapi.yml
 - filename: facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Meta Marketing API Lead Ads API
   slug: facebook-lead-ads-meta-marketing-api-lead-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-meta-marketing-api-lead-ads-api-openapi.yml
 - filename: facebook-lead-ads-subscribed-apps-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Subscribed Apps API
   slug: facebook-lead-ads-subscribed-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-subscribed-apps-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-subscribed-apps-api-openapi.yml
 - filename: facebook-lead-ads-subscriptions-api-openapi.yml
   format: yaml
   label: Facebook Lead Ads Subscriptions API
   slug: facebook-lead-ads-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/openapi/facebook-lead-ads-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-lead-ads/openapi/facebook-lead-ads-subscriptions-api-openapi.yml
 consequence_counts:
   read: 6
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/facebo
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{form-id}\n  method: get\n  operationId: getLeadGenForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{form-id}/leads\n  method: get\n  operationId: listLeadsForForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{lead-id}\n  method: get\n  operationId: getLead\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{ad-id}/leads\n  method: get\n  operationId: listLeadsForAd\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{form-id}/bulk_leads\n  method: get\n  operationId: bulkDownloadLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{app-id}/subscriptions\n  method: post\n  operationId: subscribeAppWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n- path: /{page-id}/subscribed_apps\n  method: post\n  operationId: pageSubscribedApps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - leads_retrieval\n    - pages_manage_ads\n    - pages_show_list\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-lead-ads/refs/heads/main/agentic-access/facebook-lead-ads-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/facebook-lead-ads/agentic-access/facebook-lead-ads-agentic-access.yml
 summary_line: 9 operations · 3 acting
 tags:
 - Advertising

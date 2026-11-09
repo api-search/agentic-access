@@ -9,37 +9,37 @@ api_specs:
   label: Cloud Studio IoT Access tokens API
   slug: cloudstudioiot-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/openapi/cloudstudioiot-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/cloudstudioiot/openapi/cloudstudioiot-access-tokens-api-openapi.yml
 - filename: cloudstudioiot-alarms-api-openapi.yml
   format: yaml
   label: Cloud Studio IoT Alarms API
   slug: cloudstudioiot-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/openapi/cloudstudioiot-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudstudioiot/openapi/cloudstudioiot-alarms-api-openapi.yml
 - filename: cloudstudioiot-alerts-api-openapi.yml
   format: yaml
   label: Cloud Studio IoT Alerts API
   slug: cloudstudioiot-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/openapi/cloudstudioiot-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudstudioiot/openapi/cloudstudioiot-alerts-api-openapi.yml
 - filename: cloudstudioiot-endpoint-data-api-openapi.yml
   format: yaml
   label: Cloud Studio IoT Endpoint data API
   slug: cloudstudioiot-endpoint-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/openapi/cloudstudioiot-endpoint-data-api-openapi.yml
+  url: https://artifacts.apis.io/cloudstudioiot/openapi/cloudstudioiot-endpoint-data-api-openapi.yml
 - filename: cloudstudioiot-geozones-api-openapi.yml
   format: yaml
   label: Cloud Studio IoT Geozones API
   slug: cloudstudioiot-geozones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/openapi/cloudstudioiot-geozones-api-openapi.yml
+  url: https://artifacts.apis.io/cloudstudioiot/openapi/cloudstudioiot-geozones-api-openapi.yml
 - filename: cloudstudioiot-instance-api-openapi.yml
   format: yaml
   label: Cloud Studio IoT Instance API
   slug: cloudstudioiot-instance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/openapi/cloudstudioiot-instance-api-openapi.yml
+  url: https://artifacts.apis.io/cloudstudioiot/openapi/cloudstudioiot-instance-api-openapi.yml
 consequence_counts:
   read: 13
   write: 2
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-10-05'\nmethod: generated\nsource: openapi/clouds
   \ none\n- path: /api/v2/alarms\n  method: get\n  operationId: listAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/alarms/incremental/{sequenceNumber}\n  method: get\n  operationId: listAlarmsIncremental\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/alarms/{alarmID}\n  method: get\n  operationId: getAlarm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/endpointData\n  method: get\n  operationId: listEndpointData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/endpointData/incremental/{sequenceNumber}\n  method: get\n  operationId:\
   \ listEndpointDataIncremental\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/endpointData/multiple\n  method: get\n  operationId: getLatestEndpointData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/geozones\n  method: get\n  operationId: listGeozones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/geozones/incremental/{sequenceNumber}\n  method: get\n  operationId: listGeozonesIncremental\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/geozones/{geozoneID}\n  method: get\n  operationId: getGeozone\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/instance/mapping/{sequenceNumber}\n  method: get\n  operationId: getInstanceMapping\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudstudioiot/refs/heads/main/agentic-access/cloudstudioiot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudstudioiot/agentic-access/cloudstudioiot-agentic-access.yml
 summary_line: 15 operations · 2 acting
 tags:
 - Company

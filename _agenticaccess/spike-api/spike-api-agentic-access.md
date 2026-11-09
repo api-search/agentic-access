@@ -9,67 +9,67 @@ api_specs:
   label: Spike Auth API
   slug: spike-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-auth-api-openapi.yml
 - filename: spike-api-lab-reports-api-openapi.yml
   format: yaml
   label: Spike Lab Reports API
   slug: spike-api-lab-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-lab-reports-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-lab-reports-api-openapi.yml
 - filename: spike-api-nutrition-ai-api-openapi.yml
   format: yaml
   label: Spike Nutrition AI API
   slug: spike-api-nutrition-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-nutrition-ai-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-nutrition-ai-api-openapi.yml
 - filename: spike-api-provider-integrations-api-openapi.yml
   format: yaml
   label: Spike Provider Integrations API
   slug: spike-api-provider-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-provider-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-provider-integrations-api-openapi.yml
 - filename: spike-api-provider-records-api-openapi.yml
   format: yaml
   label: Spike Provider Records API
   slug: spike-api-provider-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-provider-records-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-provider-records-api-openapi.yml
 - filename: spike-api-sdk-push-api-openapi.yml
   format: yaml
   label: Spike SDK Push API
   slug: spike-api-sdk-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-sdk-push-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-sdk-push-api-openapi.yml
 - filename: spike-api-sleep-api-openapi.yml
   format: yaml
   label: Spike Sleep API
   slug: spike-api-sleep-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-sleep-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-sleep-api-openapi.yml
 - filename: spike-api-statistics-api-openapi.yml
   format: yaml
   label: Spike Statistics API
   slug: spike-api-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-statistics-api-openapi.yml
 - filename: spike-api-time-series-api-openapi.yml
   format: yaml
   label: Spike Time Series API
   slug: spike-api-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-time-series-api-openapi.yml
 - filename: spike-api-users-api-openapi.yml
   format: yaml
   label: Spike Users API
   slug: spike-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-users-api-openapi.yml
 - filename: spike-api-workouts-api-openapi.yml
   format: yaml
   label: Spike Workouts API
   slug: spike-api-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/openapi/spike-api-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/spike-api/openapi/spike-api-workouts-api-openapi.yml
 consequence_counts:
   read: 23
   write: 16
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/spike-
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/statistics/interpolation\n  method: get\n  operationId: queryStatisticsInterpolation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/timeseries\n  method: get\n  operationId: queryTimeSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/timeseries/samples\n  method: get\n  operationId: queryTimeSeriesSamples\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/timeseries/split\n  method: get\n  operationId: queryTimeSeriesSplit\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applicationinfo\n  method: get\n  operationId: getApplicationInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userinfo\n  method: get\n  operationId: getUserInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /userproperties\n  method: get\n  operationId: getUserProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/workouts\n  method: get\n  operationId: listWorkouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queries/workouts/{workout_id}\n  method: get\n  operationId: getWorkout\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spike-api/refs/heads/main/agentic-access/spike-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/spike-api/agentic-access/spike-api-agentic-access.yml
 summary_line: 39 operations · 16 acting
 tags:
 - Health Data

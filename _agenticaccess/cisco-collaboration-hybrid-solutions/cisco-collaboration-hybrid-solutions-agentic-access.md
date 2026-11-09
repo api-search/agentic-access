@@ -9,37 +9,37 @@ api_specs:
   label: Cisco Collaboration Hybrid Solutions Devices API
   slug: cisco-collaboration-hybrid-solutions-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-devices-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/openapi/cisco-collaboration-hybrid-solutions-devices-api-openapi.yml
 - filename: cisco-collaboration-hybrid-solutions-memberships-api-openapi.yml
   format: yaml
   label: Cisco Collaboration Hybrid Solutions Memberships API
   slug: cisco-collaboration-hybrid-solutions-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/openapi/cisco-collaboration-hybrid-solutions-memberships-api-openapi.yml
 - filename: cisco-collaboration-hybrid-solutions-messages-api-openapi.yml
   format: yaml
   label: Cisco Collaboration Hybrid Solutions Messages API
   slug: cisco-collaboration-hybrid-solutions-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-messages-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/openapi/cisco-collaboration-hybrid-solutions-messages-api-openapi.yml
 - filename: cisco-collaboration-hybrid-solutions-rooms-api-openapi.yml
   format: yaml
   label: Cisco Collaboration Hybrid Solutions Rooms API
   slug: cisco-collaboration-hybrid-solutions-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/openapi/cisco-collaboration-hybrid-solutions-rooms-api-openapi.yml
 - filename: cisco-collaboration-hybrid-solutions-teams-api-openapi.yml
   format: yaml
   label: Cisco Collaboration Hybrid Solutions Teams API
   slug: cisco-collaboration-hybrid-solutions-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-teams-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/openapi/cisco-collaboration-hybrid-solutions-teams-api-openapi.yml
 - filename: cisco-collaboration-hybrid-solutions-webhooks-api-openapi.yml
   format: yaml
   label: Cisco Collaboration Hybrid Solutions Webhooks API
   slug: cisco-collaboration-hybrid-solutions-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/openapi/cisco-collaboration-hybrid-solutions-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/openapi/cisco-collaboration-hybrid-solutions-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 11
@@ -89,7 +89,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cisco-
   - path: /teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{teamId}\n  method: put\n  operationId: updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{teamId}\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /webhooks/{webhookId}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-collaboration-hybrid-solutions/refs/heads/main/agentic-access/cisco-collaboration-hybrid-solutions-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cisco-collaboration-hybrid-solutions/agentic-access/cisco-collaboration-hybrid-solutions-agentic-access.yml
 summary_line: 25 operations · 14 acting
 tags:
 - Calling

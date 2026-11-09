@@ -8,31 +8,31 @@ api_specs:
   label: Radio Mast Analytics API
   slug: radio-mast-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-analytics-api-openapi.yml
 - filename: radio-mast-listener-pools-api-openapi.yml
   format: yaml
   label: Radio Mast Listener Pools API
   slug: radio-mast-listener-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-listener-pools-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-listener-pools-api-openapi.yml
 - filename: radio-mast-radio-mast-api-api-openapi.yml
   format: yaml
   label: Radio Mast Radio Mast API
   slug: radio-mast-radio-mast-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-mast-api-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-radio-mast-api-api-openapi.yml
 - filename: radio-mast-radio-stations-api-openapi.yml
   format: yaml
   label: Radio Mast Radio Stations API
   slug: radio-mast-radio-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-stations-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-radio-stations-api-openapi.yml
 - filename: radio-mast-radio-streams-api-openapi.yml
   format: yaml
   label: Radio Mast Radio Streams API
   slug: radio-mast-radio-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/openapi/radio-mast-radio-streams-api-openapi.yml
+  url: https://artifacts.apis.io/radio-mast/openapi/radio-mast-radio-streams-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/radio-mast-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /radiostreams/radiomast/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /radiostreams/external/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /radiostations/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/listener-sessions/time-series/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/listener-sessions/aggregate/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/reports/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listener-pools/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radio-mast/refs/heads/main/agentic-access/radio-mast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/radio-mast/agentic-access/radio-mast-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Radio

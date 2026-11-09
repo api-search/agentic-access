@@ -8,43 +8,43 @@ api_specs:
   label: RACQ Bank Banking Account Balances API
   slug: racq-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-account-balances-api-openapi.yml
 - filename: racq-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: RACQ Bank Banking Account Direct Debits API
   slug: racq-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-account-direct-debits-api-openapi.yml
 - filename: racq-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: RACQ Bank Banking Account Scheduled Payments API
   slug: racq-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: racq-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: RACQ Bank Banking Account Transactions API
   slug: racq-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-account-transactions-api-openapi.yml
 - filename: racq-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: RACQ Bank Banking Accounts API
   slug: racq-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-accounts-api-openapi.yml
 - filename: racq-bank-banking-payees-api-openapi.yml
   format: yaml
   label: RACQ Bank Banking Payees API
   slug: racq-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-payees-api-openapi.yml
 - filename: racq-bank-banking-products-api-openapi.yml
   format: yaml
   label: RACQ Bank Banking Products API
   slug: racq-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/openapi/racq-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/racq-bank/openapi/racq-bank-banking-products-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/racq-b
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/payments/plans\n  method: get\n  operationId: listInstalmentPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/payments/plans\n  method: get\n  operationId: listInstalmentPlansBulk\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/transactions\n  method: get\n  operationId: listBankingTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}/transactions/{transactionId}\n  method: get\n  operationId: getBankingTransactionDetail\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts\n  method: get\n  operationId: listBankingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/accounts/{accountId}\n  method: get\n  operationId: getBankingAccountDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees\n  method: get\n  operationId: listBankingPayees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/payees/{payeeId}\n  method: get\n  operationId: getBankingPayeeDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /banking/products\n  method: get\n  operationId: listBankingProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /banking/products/{productId}\n  method: get\n  operationId: getBankingProductDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/racq-bank/refs/heads/main/agentic-access/racq-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/racq-bank/agentic-access/racq-bank-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Finance

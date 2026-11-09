@@ -9,61 +9,61 @@ api_specs:
   label: Trimble Agriculture Boundaries API
   slug: trimble-agriculture-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-boundaries-api-openapi.yml
 - filename: trimble-agriculture-crop-zones-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Crop Zones API
   slug: trimble-agriculture-crop-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-crop-zones-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-crop-zones-api-openapi.yml
 - filename: trimble-agriculture-equipment-activities-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Equipment Activities API
   slug: trimble-agriculture-equipment-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-equipment-activities-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-equipment-activities-api-openapi.yml
 - filename: trimble-agriculture-farms-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Farms API
   slug: trimble-agriculture-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-farms-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-farms-api-openapi.yml
 - filename: trimble-agriculture-fields-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Fields API
   slug: trimble-agriculture-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-fields-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-fields-api-openapi.yml
 - filename: trimble-agriculture-imagery-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Imagery API
   slug: trimble-agriculture-imagery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-imagery-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-imagery-api-openapi.yml
 - filename: trimble-agriculture-materials-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Materials API
   slug: trimble-agriculture-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-materials-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-materials-api-openapi.yml
 - filename: trimble-agriculture-organizations-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Organizations API
   slug: trimble-agriculture-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-organizations-api-openapi.yml
 - filename: trimble-agriculture-prescriptions-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Prescriptions API
   slug: trimble-agriculture-prescriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-prescriptions-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-prescriptions-api-openapi.yml
 - filename: trimble-agriculture-work-orders-api-openapi.yml
   format: yaml
   label: Trimble Agriculture Work Orders API
   slug: trimble-agriculture-work-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/openapi/trimble-agriculture-work-orders-api-openapi.yml
+  url: https://artifacts.apis.io/trimble-agriculture/openapi/trimble-agriculture-work-orders-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/trimbl
   - path: /organizations/{organizationId}/prescriptions/{prescriptionId}\n  method: get\n  operationId: getPrescriptionById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/prescriptions/{prescriptionId}\n  method: delete\n  operationId: deletePrescription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/materials\n  method: get\n  operationId: listMaterials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/materials\n  method: post\n  operationId: createMaterial\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/imagery\n  method: get\n  operationId: listImagery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/imagery\n  method: post\n  operationId: uploadImagery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/boundaries\n  method: get\n  operationId: listBoundaries\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trimble-agriculture/refs/heads/main/agentic-access/trimble-agriculture-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trimble-agriculture/agentic-access/trimble-agriculture-agentic-access.yml
 summary_line: 31 operations · 13 acting
 tags:
 - Agriculture

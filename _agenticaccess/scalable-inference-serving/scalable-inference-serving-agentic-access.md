@@ -9,25 +9,25 @@ api_specs:
   label: Scalable Inference Serving Health API
   slug: scalable-inference-serving-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-health-api-openapi.yml
+  url: https://artifacts.apis.io/scalable-inference-serving/openapi/scalable-inference-serving-health-api-openapi.yml
 - filename: scalable-inference-serving-inference-api-openapi.yml
   format: yaml
   label: Scalable Inference Serving Inference API
   slug: scalable-inference-serving-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-inference-api-openapi.yml
+  url: https://artifacts.apis.io/scalable-inference-serving/openapi/scalable-inference-serving-inference-api-openapi.yml
 - filename: scalable-inference-serving-metadata-api-openapi.yml
   format: yaml
   label: Scalable Inference Serving Metadata API
   slug: scalable-inference-serving-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/scalable-inference-serving/openapi/scalable-inference-serving-metadata-api-openapi.yml
 - filename: scalable-inference-serving-models-api-openapi.yml
   format: yaml
   label: Scalable Inference Serving Models API
   slug: scalable-inference-serving-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/openapi/scalable-inference-serving-models-api-openapi.yml
+  url: https://artifacts.apis.io/scalable-inference-serving/openapi/scalable-inference-serving-models-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kserve-open-inference-protocol-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 7\n    acting: 2\n  by_consequence:\n    read: 7\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/health/live\n  method: get\n  operationId: CheckServerLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/health/ready\n  method: get\n  operationId: CheckServerReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v2/models/{model_name}/ready\n  method: get\n  operationId: CheckModelReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}/versions/{model_version}/ready\n  method: get\n  operationId: CheckModelVersionReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2\n  method: get\n  operationId: GetServerMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}\n  method: get\n  operationId: GetModelMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}/versions/{model_version}\n  method:\
   \ get\n  operationId: GetModelVersionMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}/infer\n  method: post\n  operationId: RunInference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/models/{model_name}/versions/{model_version}/infer\n  method: post\n  operationId: RunModelVersionInference\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalable-inference-serving/refs/heads/main/agentic-access/scalable-inference-serving-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/scalable-inference-serving/agentic-access/scalable-inference-serving-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Artificial Intelligence

@@ -9,67 +9,67 @@ api_specs:
   label: Boltic Certificates API
   slug: boltic-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-certificates-api-openapi.yml
 - filename: boltic-consumers-api-openapi.yml
   format: yaml
   label: Boltic Consumers API
   slug: boltic-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-consumers-api-openapi.yml
 - filename: boltic-destinations-api-openapi.yml
   format: yaml
   label: Boltic Destinations API
   slug: boltic-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-destinations-api-openapi.yml
 - filename: boltic-events-api-openapi.yml
   format: yaml
   label: Boltic Events API
   slug: boltic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-events-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-events-api-openapi.yml
 - filename: boltic-executions-api-openapi.yml
   format: yaml
   label: Boltic Executions API
   slug: boltic-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-executions-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-executions-api-openapi.yml
 - filename: boltic-plugins-api-openapi.yml
   format: yaml
   label: Boltic Plugins API
   slug: boltic-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-plugins-api-openapi.yml
 - filename: boltic-routes-api-openapi.yml
   format: yaml
   label: Boltic Routes API
   slug: boltic-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-routes-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-routes-api-openapi.yml
 - filename: boltic-services-api-openapi.yml
   format: yaml
   label: Boltic Services API
   slug: boltic-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-services-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-services-api-openapi.yml
 - filename: boltic-stream-sources-api-openapi.yml
   format: yaml
   label: Boltic Stream Sources API
   slug: boltic-stream-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-stream-sources-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-stream-sources-api-openapi.yml
 - filename: boltic-triggers-api-openapi.yml
   format: yaml
   label: Boltic Triggers API
   slug: boltic-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-triggers-api-openapi.yml
 - filename: boltic-workflows-api-openapi.yml
   format: yaml
   label: Boltic Workflows API
   slug: boltic-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-workflows-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 28
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/boltic
   \ delete\n  operationId: deleteWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/execute\n  method: post\n  operationId: executeWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/activate\n  method: post\n  operationId: activateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/deactivate\n  method: post\n  operationId: deactivateWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{workflowId}/executions\n  method: get\n  operationId: listExecutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /executions/{executionId}\n  method: get\n  operationId: getExecution\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /executions/{executionId}/cancel\n  method: post\n  operationId: cancelExecution\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /triggers\n  method: get\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/agentic-access/boltic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/boltic/agentic-access/boltic-agentic-access.yml
 summary_line: 64 operations · 36 acting
 tags:
 - Automation

@@ -9,55 +9,55 @@ api_specs:
   label: Drift Accounts API
   slug: drift-com-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-accounts-api-openapi.yml
 - filename: drift-com-app-admin-api-openapi.yml
   format: yaml
   label: Drift App Admin API
   slug: drift-com-app-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-app-admin-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-app-admin-api-openapi.yml
 - filename: drift-com-contacts-api-openapi.yml
   format: yaml
   label: Drift Contacts API
   slug: drift-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-contacts-api-openapi.yml
 - filename: drift-com-conversations-and-messages-api-openapi.yml
   format: yaml
   label: Drift Conversations and Messages API
   slug: drift-com-conversations-and-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-conversations-and-messages-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-conversations-and-messages-api-openapi.yml
 - filename: drift-com-data-privacy-api-openapi.yml
   format: yaml
   label: Drift Data Privacy API
   slug: drift-com-data-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-data-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-data-privacy-api-openapi.yml
 - filename: drift-com-playbooks-api-openapi.yml
   format: yaml
   label: Drift Playbooks API
   slug: drift-com-playbooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-playbooks-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-playbooks-api-openapi.yml
 - filename: drift-com-scim-api-api-openapi.yml
   format: yaml
   label: Drift SCIM API
   slug: drift-com-scim-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-scim-api-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-scim-api-api-openapi.yml
 - filename: drift-com-teams-api-openapi.yml
   format: yaml
   label: Drift Teams API
   slug: drift-com-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-teams-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-teams-api-openapi.yml
 - filename: drift-com-users-api-openapi.yml
   format: yaml
   label: Drift Users API
   slug: drift-com-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/openapi/drift-com-users-api-openapi.yml
+  url: https://artifacts.apis.io/drift-com/openapi/drift-com-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 22
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/drift-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app/uninstall\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /app/token_info\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gdpr/retrieve\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /gdpr/delete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/Users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/Users\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/Users\n  method: put\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/Users\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/Users/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drift-com/refs/heads/main/agentic-access/drift-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/drift-com/agentic-access/drift-com-agentic-access.yml
 summary_line: 41 operations · 19 acting
 tags:
 - Conversational Marketing

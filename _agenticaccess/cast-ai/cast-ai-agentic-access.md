@@ -9,103 +9,103 @@ api_specs:
   label: CAST AI AI Enabler API
   slug: cast-ai-ai-enabler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-ai-enabler-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-ai-enabler-api-openapi.yml
 - filename: cast-ai-allocation-groups-api-openapi.yml
   format: yaml
   label: CAST AI Allocation Groups API
   slug: cast-ai-allocation-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-allocation-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-allocation-groups-api-openapi.yml
 - filename: cast-ai-autoscaler-api-openapi.yml
   format: yaml
   label: CAST AI Autoscaler API
   slug: cast-ai-autoscaler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-autoscaler-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-autoscaler-api-openapi.yml
 - filename: cast-ai-cluster-actions-api-openapi.yml
   format: yaml
   label: CAST AI Cluster Actions API
   slug: cast-ai-cluster-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-cluster-actions-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-cluster-actions-api-openapi.yml
 - filename: cast-ai-cost-reports-api-openapi.yml
   format: yaml
   label: CAST AI Cost Reports API
   slug: cast-ai-cost-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-cost-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-cost-reports-api-openapi.yml
 - filename: cast-ai-external-clusters-api-openapi.yml
   format: yaml
   label: CAST AI External Clusters API
   slug: cast-ai-external-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-external-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-external-clusters-api-openapi.yml
 - filename: cast-ai-hibernation-schedules-api-openapi.yml
   format: yaml
   label: CAST AI Hibernation Schedules API
   slug: cast-ai-hibernation-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-hibernation-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-hibernation-schedules-api-openapi.yml
 - filename: cast-ai-insights-api-openapi.yml
   format: yaml
   label: CAST AI Insights API
   slug: cast-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-insights-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-insights-api-openapi.yml
 - filename: cast-ai-inventory-api-openapi.yml
   format: yaml
   label: CAST AI Inventory API
   slug: cast-ai-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-inventory-api-openapi.yml
 - filename: cast-ai-node-configuration-api-openapi.yml
   format: yaml
   label: CAST AI Node Configuration API
   slug: cast-ai-node-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-node-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-node-configuration-api-openapi.yml
 - filename: cast-ai-node-templates-api-openapi.yml
   format: yaml
   label: CAST AI Node Templates API
   slug: cast-ai-node-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-node-templates-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-node-templates-api-openapi.yml
 - filename: cast-ai-operations-api-openapi.yml
   format: yaml
   label: CAST AI Operations API
   slug: cast-ai-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-operations-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-operations-api-openapi.yml
 - filename: cast-ai-policies-api-openapi.yml
   format: yaml
   label: CAST AI Policies API
   slug: cast-ai-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-policies-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-policies-api-openapi.yml
 - filename: cast-ai-pricing-api-openapi.yml
   format: yaml
   label: CAST AI Pricing API
   slug: cast-ai-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-pricing-api-openapi.yml
 - filename: cast-ai-scheduled-rebalancing-api-openapi.yml
   format: yaml
   label: CAST AI Scheduled Rebalancing API
   slug: cast-ai-scheduled-rebalancing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-scheduled-rebalancing-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-scheduled-rebalancing-api-openapi.yml
 - filename: cast-ai-settings-api-openapi.yml
   format: yaml
   label: CAST AI Settings API
   slug: cast-ai-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-settings-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-settings-api-openapi.yml
 - filename: cast-ai-workload-optimization-api-openapi.yml
   format: yaml
   label: CAST AI Workload Optimization API
   slug: cast-ai-workload-optimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/openapi/cast-ai-workload-optimization-api-openapi.yml
+  url: https://artifacts.apis.io/cast-ai/openapi/cast-ai-workload-optimization-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 1
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cast-a
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/insights/best-practices/filters\n  method: get\n  operationId: InsightsAPI_GetBestPracticesReportFilters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /security/insights/images/{tagId}/digests\n  method: get\n  operationId: InsightsAPI_GetContainerImageDigests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hibernation/schedules\n  method: post\n  operationId: HibernationSchedulesAPI_CreateHibernationSchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/api-keys/{apiKeyId}\n  method: put\n  operationId: SettingsAPI_UpsertAPIKeySettings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /llm/providers\n  method: get\n  operationId: AIEnablerProvidersAPI_GetProviders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /llm/providers\n  method: post\n  operationId: AIEnablerProvidersAPI_RegisterProviders\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/prom\n  method: get\n  operationId: MetricsAPI_GetClusterMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/nodes\n  method: get\n  operationId: MetricsAPI_GetNodeMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/workloads\n  method: get\n  operationId: MetricsAPI_GetWorkloadMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/allocation-groups\n  method: get\n  operationId: MetricsAPI_GetAllocationGroupMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/agentic-access/cast-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cast-ai/agentic-access/cast-ai-agentic-access.yml
 summary_line: 38 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Auto-Scaling

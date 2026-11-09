@@ -8,49 +8,49 @@ api_specs:
   label: Lighthouse Demand API
   slug: lighthouse-travel-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-demand-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-demand-api-openapi.yml
 - filename: lighthouse-travel-hotels-api-openapi.yml
   format: yaml
   label: Lighthouse Hotels API
   slug: lighthouse-travel-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-hotels-api-openapi.yml
 - filename: lighthouse-travel-market-insight-api-openapi.yml
   format: yaml
   label: Lighthouse Market Insight API
   slug: lighthouse-travel-market-insight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-market-insight-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-market-insight-api-openapi.yml
 - filename: lighthouse-travel-markets-api-openapi.yml
   format: yaml
   label: Lighthouse Markets API
   slug: lighthouse-travel-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-markets-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-markets-api-openapi.yml
 - filename: lighthouse-travel-parity-api-openapi.yml
   format: yaml
   label: Lighthouse Parity API
   slug: lighthouse-travel-parity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-parity-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-parity-api-openapi.yml
 - filename: lighthouse-travel-ranking-api-openapi.yml
   format: yaml
   label: Lighthouse Ranking API
   slug: lighthouse-travel-ranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-ranking-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-ranking-api-openapi.yml
 - filename: lighthouse-travel-rates-api-openapi.yml
   format: yaml
   label: Lighthouse Rates API
   slug: lighthouse-travel-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-rates-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-rates-api-openapi.yml
 - filename: lighthouse-travel-reviews-api-openapi.yml
   format: yaml
   label: Lighthouse Reviews API
   slug: lighthouse-travel-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/openapi/lighthouse-travel-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/lighthouse-travel/openapi/lighthouse-travel-reviews-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/lighth
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /roomtyperates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historic/rates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /historic/roomtyperates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /demand\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ranking\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rankingsummaries\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reviews\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parities\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parityinsight\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketinsight\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketinsight/searches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lighthouse-travel/refs/heads/main/agentic-access/lighthouse-travel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lighthouse-travel/agentic-access/lighthouse-travel-agentic-access.yml
 summary_line: 14 operations
 tags:
 - Hospitality

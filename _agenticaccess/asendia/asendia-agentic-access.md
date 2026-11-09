@@ -9,97 +9,97 @@ api_specs:
   label: Asendia Close Shipment API
   slug: asendia-closeshipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-closeshipment-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-closeshipment-api-openapi.yml
 - filename: asendia-consolidation-api-openapi.yml
   format: yaml
   label: Asendia Consolidation API
   slug: asendia-consolidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-consolidation-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-consolidation-api-openapi.yml
 - filename: asendia-dpdtracking-api-openapi.yml
   format: yaml
   label: Asendia DPD Tracking API
   slug: asendia-dpdtracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-dpdtracking-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-dpdtracking-api-openapi.yml
 - filename: asendia-dws-api-openapi.yml
   format: yaml
   label: Asendia DWS API
   slug: asendia-dws-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-dws-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-dws-api-openapi.yml
 - filename: asendia-externalinvoiceimport-api-openapi.yml
   format: yaml
   label: Asendia External Invoice Import API
   slug: asendia-externalinvoiceimport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-externalinvoiceimport-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-externalinvoiceimport-api-openapi.yml
 - filename: asendia-fulfillment-api-openapi.yml
   format: yaml
   label: Asendia Fulfillment API
   slug: asendia-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-fulfillment-api-openapi.yml
 - filename: asendia-idmailinterface-api-openapi.yml
   format: yaml
   label: Asendia ID Mail Interface API
   slug: asendia-idmailinterface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-idmailinterface-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-idmailinterface-api-openapi.yml
 - filename: asendia-npi-api-openapi.yml
   format: yaml
   label: Asendia NPI API
   slug: asendia-npi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-npi-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-npi-api-openapi.yml
 - filename: asendia-parcel-api-openapi.yml
   format: yaml
   label: Asendia Parcel API
   slug: asendia-parcel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-parcel-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-parcel-api-openapi.yml
 - filename: asendia-pudolocator-api-openapi.yml
   format: yaml
   label: Asendia Pudo Locator API
   slug: asendia-pudolocator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-pudolocator-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-pudolocator-api-openapi.yml
 - filename: asendia-puttolight-api-openapi.yml
   format: yaml
   label: Asendia Put To Light API
   slug: asendia-puttolight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-puttolight-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-puttolight-api-openapi.yml
 - filename: asendia-receptaclesorting-api-openapi.yml
   format: yaml
   label: Asendia Receptacle Sorting API
   slug: asendia-receptaclesorting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-receptaclesorting-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-receptaclesorting-api-openapi.yml
 - filename: asendia-servicenow-api-openapi.yml
   format: yaml
   label: Asendia Service Now API
   slug: asendia-servicenow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-servicenow-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-servicenow-api-openapi.yml
 - filename: asendia-shippingplatform-api-openapi.yml
   format: yaml
   label: Asendia Shipping Platform API
   slug: asendia-shippingplatform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-shippingplatform-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-shippingplatform-api-openapi.yml
 - filename: asendia-shippingplatformbulk-api-openapi.yml
   format: yaml
   label: Asendia Shipping Platform Bulk API
   slug: asendia-shippingplatformbulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-shippingplatformbulk-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-shippingplatformbulk-api-openapi.yml
 - filename: asendia-tracking-api-openapi.yml
   format: yaml
   label: Asendia Tracking API
   slug: asendia-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/openapi/asendia-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/asendia/openapi/asendia-tracking-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 17
@@ -217,7 +217,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/asendi
   \      human-in-the-loop: required\n    audit: required\n- path: /api/A1/v1.0/ShippingPlatform/ShippingRate\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/A1/v1.0/ShippingPlatform/PreAlertDispatch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/A1/v1.0/ShippingPlatform/PreAlertDispatchWithReceptacle\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n\
   \      human-in-the-loop: required\n    audit: required\n- path: /api/A1/v1.0/ShippingPlatform/CloseDirectShipmentDispatch\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/A1/v1.0/ShippingPlatformBulk/Package\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/A1/v1.0/Tracking/Detail\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/A1/v1.0/Tracking/Milestone\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/A1/v2.0/Tracking/Detail\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/A1/v2.0/Tracking/Milestone\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asendia/refs/heads/main/agentic-access/asendia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/asendia/agentic-access/asendia-agentic-access.yml
 summary_line: 50 operations · 33 acting · 4 human-in-the-loop
 tags:
 - Company

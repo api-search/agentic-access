@@ -9,37 +9,37 @@ api_specs:
   label: Podbean Analytics API
   slug: podbean-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-analytics-api-openapi.yml
 - filename: podbean-authentication-api-openapi.yml
   format: yaml
   label: Podbean Authentication API
   slug: podbean-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-authentication-api-openapi.yml
 - filename: podbean-episode-api-openapi.yml
   format: yaml
   label: Podbean Episode API
   slug: podbean-episode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-episode-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-episode-api-openapi.yml
 - filename: podbean-file-upload-api-openapi.yml
   format: yaml
   label: Podbean File Upload API
   slug: podbean-file-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-file-upload-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-file-upload-api-openapi.yml
 - filename: podbean-podcast-api-openapi.yml
   format: yaml
   label: Podbean Podcast API
   slug: podbean-podcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-podcast-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-podcast-api-openapi.yml
 - filename: podbean-o-embed-api-openapi.yml
   format: yaml
   label: Podbean o Embed API
   slug: podbean-o-embed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/openapi/podbean-o-embed-api-openapi.yml
+  url: https://artifacts.apis.io/podbean/openapi/podbean-o-embed-api-openapi.yml
 consequence_counts:
   read: 10
   write: 6
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podbea
   - path: /episodes\n  method: get\n  operationId: listEpisodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes\n  method: post\n  operationId: publishEpisode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /episodes/{id}\n  method: get\n  operationId: getEpisode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /episodes/{id}\n  method: post\n  operationId: updateEpisode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n  \
   \    human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /episodes/{id}/delete\n  method: post\n  operationId: deleteEpisode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /files/uploadAuthorize\n  method: get\n  operationId: authorizeFileUpload\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /medias\n  method: get\n  operationId: listMedia\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /oembed\n  method: get\n  operationId: oembed\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/podcastReports\n  method: get\n  operationId: getPodcastDownloadReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/podcastEngagementReports\n  method: get\n  operationId: getPodcastEngagementReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/advertiseReports\n  method: get\n  operationId: getAdvertiseReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podbean/refs/heads/main/agentic-access/podbean-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/podbean/agentic-access/podbean-agentic-access.yml
 summary_line: 16 operations · 6 acting
 tags:
 - Podcasts

@@ -9,7 +9,7 @@ api_specs:
   label: Liquid Agent Liquid Agent API
   slug: liquidagent-ai-liquid-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidagent-ai/refs/heads/main/openapi/liquidagent-ai-liquid-agent-api-openapi.yml
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-liquid-agent-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 8
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/liquid
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/rebalance\n  method: post\n  operationId: post_v1_rebalance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/send\n  method: post\n  operationId: post_v1_send\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/signals\n  method: get\n  operationId: getV1Signals\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/publish\n  method: post\n  operationId: postV1Publish\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/gas/solana\n  method: get\n  operationId: getV1GasSolana\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gas/solana\n  method: post\n  operationId: postV1GasSolana\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/gas\n  method: get\n  operationId: getV1Gas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/gas\n  method: post\n  operationId: postV1Gas\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquidagent-ai/refs/heads/main/agentic-access/liquidagent-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liquidagent-ai/agentic-access/liquidagent-ai-agentic-access.yml
 summary_line: 17 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Tokenized Stocks

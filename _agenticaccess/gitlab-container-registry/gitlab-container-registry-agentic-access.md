@@ -9,13 +9,13 @@ api_specs:
   label: GitLab Container Registry Repositories API
   slug: gitlab-container-registry-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/openapi/gitlab-container-registry-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab-container-registry/openapi/gitlab-container-registry-repositories-api-openapi.yml
 - filename: gitlab-container-registry-tags-api-openapi.yml
   format: yaml
   label: GitLab Container Registry Tags API
   slug: gitlab-container-registry-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/openapi/gitlab-container-registry-tags-api-openapi.yml
+  url: https://artifacts.apis.io/gitlab-container-registry/openapi/gitlab-container-registry-tags-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gitlab
   \    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /groups/{id}/registry/repositories\n  method: get\n  operationId: listGroupRegistryRepositories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /projects/{id}/registry/repositories/{repository_id}\n  method: delete\n  operationId: deleteProjectRegistryRepository\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n- path: /projects/{id}/registry/repositories/{repository_id}/tags\n  method: get\n  operationId: listRepositoryTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /projects/{id}/registry/repositories/{repository_id}/tags\n  method: delete\n  operationId: deleteRepositoryTagsBulk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n- path: /projects/{id}/registry/repositories/{repository_id}/tags/{tag_name}\n  method: get\n  operationId: getRepositoryTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - api\n- path: /projects/{id}/registry/repositories/{repository_id}/tags/{tag_name}\n  method: delete\n  operationId: deleteRepositoryTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/agentic-access/gitlab-container-registry-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gitlab-container-registry/agentic-access/gitlab-container-registry-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Container Images

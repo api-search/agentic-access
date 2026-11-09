@@ -9,13 +9,13 @@ api_specs:
   label: TensorFlow Inference API
   slug: tensorflow-inference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/openapi/tensorflow-inference-api-openapi.yml
+  url: https://artifacts.apis.io/tensorflow/openapi/tensorflow-inference-api-openapi.yml
 - filename: tensorflow-models-api-openapi.yml
   format: yaml
   label: TensorFlow Models API
   slug: tensorflow-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/openapi/tensorflow-models-api-openapi.yml
+  url: https://artifacts.apis.io/tensorflow/openapi/tensorflow-models-api-openapi.yml
 consequence_counts:
   read: 5
   write: 6
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tensor
   \ audit: none\n- path: /v1/models/{model_name}/labels/{label}\n  method: get\n  operationId: getModelLabelStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models/{model_name}/metadata\n  method: get\n  operationId: getModelMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models/{model_name}/versions/{version}/metadata\n  method: get\n  operationId: getModelVersionMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models/{model_name}:classify\n  method: post\n  operationId: classifyModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/{model_name}/versions/{version}:classify\n  method: post\n  operationId: classifyModelVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/{model_name}:regress\n  method: post\n  operationId: regressModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/{model_name}/versions/{version}:regress\n  method: post\n  operationId: regressModelVersion\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/{model_name}:predict\n  method: post\n  operationId: predictModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/{model_name}/versions/{version}:predict\n  method: post\n  operationId: predictModelVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/agentic-access/tensorflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tensorflow/agentic-access/tensorflow-agentic-access.yml
 summary_line: 11 operations · 6 acting
 tags:
 - Artificial Intelligence

@@ -9,73 +9,73 @@ api_specs:
   label: Takealot Create a batch API
   slug: takealot-create-a-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-create-a-batch-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-create-a-batch-api-openapi.yml
 - filename: takealot-create-an-offer-api-openapi.yml
   format: yaml
   label: Takealot Create an offer API
   slug: takealot-create-an-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-create-an-offer-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-create-an-offer-api-openapi.yml
 - filename: takealot-get-a-batch-api-openapi.yml
   format: yaml
   label: Takealot Get a batch API
   slug: takealot-get-a-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-get-a-batch-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-get-a-batch-api-openapi.yml
 - filename: takealot-get-an-offer-api-openapi.yml
   format: yaml
   label: Takealot Get an offer API
   slug: takealot-get-an-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-get-an-offer-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-get-an-offer-api-openapi.yml
 - filename: takealot-get-offers-api-openapi.yml
   format: yaml
   label: Takealot Get offers API
   slug: takealot-get-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-get-offers-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-get-offers-api-openapi.yml
 - filename: takealot-get-offers-count-api-openapi.yml
   format: yaml
   label: Takealot Get offers count API
   slug: takealot-get-offers-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-get-offers-count-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-get-offers-count-api-openapi.yml
 - filename: takealot-get-stock-counts-api-openapi.yml
   format: yaml
   label: Takealot Get stock counts API
   slug: takealot-get-stock-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-get-stock-counts-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-get-stock-counts-api-openapi.yml
 - filename: takealot-get-stock-health-api-openapi.yml
   format: yaml
   label: Takealot Get stock health API
   slug: takealot-get-stock-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-get-stock-health-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-get-stock-health-api-openapi.yml
 - filename: takealot-sales-summary-api-openapi.yml
   format: yaml
   label: Takealot sales summary API
   slug: takealot-sales-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-sales-summary-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-sales-summary-api-openapi.yml
 - filename: takealot-update-an-offer-api-openapi.yml
   format: yaml
   label: Takealot Update an offer API
   slug: takealot-update-an-offer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-update-an-offer-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-update-an-offer-api-openapi.yml
 - filename: takealot-view-sales-api-openapi.yml
   format: yaml
   label: Takealot view sales API
   slug: takealot-view-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-view-sales-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-view-sales-api-openapi.yml
 - filename: takealot-view-sales-orders-api-openapi.yml
   format: yaml
   label: Takealot view sales orders API
   slug: takealot-view-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/openapi/takealot-view-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/takealot/openapi/takealot-view-sales-orders-api-openapi.yml
 consequence_counts:
   read: 11
   write: 5
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/takeal
   \  operationId: get_offer_by_identifier_query_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/offers/offer\n  method: patch\n  operationId: update_offer_by_identifier_query_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/offers/offer\n  method: post\n  operationId: create_offer_by_identifier_query_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/offers/batch\n  method: post\n  operationId: create_batch_v2\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/offers/batch/{batch_id}\n  method: get\n  operationId: get_batch_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{version}/offers/stock_counts\n  method: get\n  operationId: get_total_and_unbalanced_stock_at_tal_counts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{version}/offers/stock_health_stats\n  method: get\n  operationId: get_stock_health_stats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n   \
   \ audit: none\n- path: /{version}/sales\n  method: get\n  operationId: view_sales\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{version}/sales/summary\n  method: get\n  operationId: get_sales_summary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{version}/sales/orders\n  method: get\n  operationId: get_sales_orders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{version}/sales/orders/{order_id}/customer_invoices\n  method: get\n  operationId: get_sales_order_customer_invoices_credit_notes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/takealot/refs/heads/main/agentic-access/takealot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/takealot/agentic-access/takealot-agentic-access.yml
 summary_line: 16 operations · 5 acting
 tags:
 - Commerce
@@ -118,7 +118,7 @@ tags:
 - Order
 - Sales
 - Stock Management
-- fulfilment
+- Fulfilment
 - Logistics
 - Food Delivery
 - South Africa

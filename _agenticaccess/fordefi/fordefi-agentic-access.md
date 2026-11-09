@@ -9,103 +9,103 @@ api_specs:
   label: Fordefi Address Book API
   slug: fordefi-address-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-address-book-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-address-book-api-openapi.yml
 - filename: fordefi-assets-api-openapi.yml
   format: yaml
   label: Fordefi Assets API
   slug: fordefi-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-assets-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-assets-api-openapi.yml
 - filename: fordefi-audit-log-api-openapi.yml
   format: yaml
   label: Fordefi Audit Log API
   slug: fordefi-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-audit-log-api-openapi.yml
 - filename: fordefi-authorization-tokens-api-openapi.yml
   format: yaml
   label: Fordefi Authorization Tokens API
   slug: fordefi-authorization-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-authorization-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-authorization-tokens-api-openapi.yml
 - filename: fordefi-batch-transactions-api-openapi.yml
   format: yaml
   label: Fordefi Batch Transactions API
   slug: fordefi-batch-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-batch-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-batch-transactions-api-openapi.yml
 - filename: fordefi-blockchains-api-openapi.yml
   format: yaml
   label: Fordefi Blockchains API
   slug: fordefi-blockchains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-blockchains-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-blockchains-api-openapi.yml
 - filename: fordefi-enclave-keys-api-openapi.yml
   format: yaml
   label: Fordefi Enclave Keys API
   slug: fordefi-enclave-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-enclave-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-enclave-keys-api-openapi.yml
 - filename: fordefi-end-users-api-openapi.yml
   format: yaml
   label: Fordefi End Users API
   slug: fordefi-end-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-end-users-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-end-users-api-openapi.yml
 - filename: fordefi-exports-api-openapi.yml
   format: yaml
   label: Fordefi Exports API
   slug: fordefi-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-exports-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-exports-api-openapi.yml
 - filename: fordefi-organizations-api-openapi.yml
   format: yaml
   label: Fordefi Organizations API
   slug: fordefi-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-organizations-api-openapi.yml
 - filename: fordefi-swaps-api-openapi.yml
   format: yaml
   label: Fordefi Swaps API
   slug: fordefi-swaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-swaps-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-swaps-api-openapi.yml
 - filename: fordefi-transactions-api-openapi.yml
   format: yaml
   label: Fordefi Transactions API
   slug: fordefi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-transactions-api-openapi.yml
 - filename: fordefi-user-groups-api-openapi.yml
   format: yaml
   label: Fordefi User Groups API
   slug: fordefi-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-user-groups-api-openapi.yml
 - filename: fordefi-users-api-openapi.yml
   format: yaml
   label: Fordefi Users API
   slug: fordefi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-users-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-users-api-openapi.yml
 - filename: fordefi-vault-groups-api-openapi.yml
   format: yaml
   label: Fordefi Vault Groups API
   slug: fordefi-vault-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-vault-groups-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-vault-groups-api-openapi.yml
 - filename: fordefi-vaults-api-openapi.yml
   format: yaml
   label: Fordefi Vaults API
   slug: fordefi-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-vaults-api-openapi.yml
 - filename: fordefi-webhooks-api-openapi.yml
   format: yaml
   label: Fordefi Webhooks API
   slug: fordefi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/openapi/fordefi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fordefi/openapi/fordefi-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 32
@@ -164,7 +164,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/fordef
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/vaults/{id}/name\n  method: put\n  operationId: rename_vault_api_v1_vaults__id__name_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/vaults/{id}/addresses\n  method: post\n  operationId: create_address_api_v1_vaults__id__addresses_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/vaults/{id}/addresses\n  method: get\n  operationId: list_vault_addresses_api_v1_vaults__id__addresses_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/vaults/addresses/{id}/name\n  method: put\n  operationId: rename_vault_address_api_v1_vaults_addresses__id__name_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/test\n  method: post\n  operationId: test_webhook_api_v1_webhooks_test_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/trigger/transaction/{id}\n  method: post\n  operationId: trigger_transaction_webhook_api_v1_webhooks_trigger_transaction__id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhooks/trigger/audit-log/{id}\n  method: post\n  operationId: trigger_audit_log_webhook_api_v1_webhooks_trigger_audit_log__id__post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fordefi/refs/heads/main/agentic-access/fordefi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fordefi/agentic-access/fordefi-agentic-access.yml
 summary_line: 75 operations · 43 acting
 tags:
 - Company

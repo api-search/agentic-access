@@ -9,97 +9,97 @@ api_specs:
   label: Allica Bank Account Access API
   slug: allica-bank-account-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-account-access-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-account-access-api-openapi.yml
 - filename: allica-bank-accounts-api-openapi.yml
   format: yaml
   label: Allica Bank Accounts API
   slug: allica-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-accounts-api-openapi.yml
 - filename: allica-bank-balances-api-openapi.yml
   format: yaml
   label: Allica Bank Balances API
   slug: allica-bank-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-balances-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-balances-api-openapi.yml
 - filename: allica-bank-beneficiaries-api-openapi.yml
   format: yaml
   label: Allica Bank Beneficiaries API
   slug: allica-bank-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-beneficiaries-api-openapi.yml
 - filename: allica-bank-direct-debits-api-openapi.yml
   format: yaml
   label: Allica Bank Direct Debits API
   slug: allica-bank-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-direct-debits-api-openapi.yml
 - filename: allica-bank-domestic-payments-api-openapi.yml
   format: yaml
   label: Allica Bank Domestic Payments API
   slug: allica-bank-domestic-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-domestic-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-domestic-payments-api-openapi.yml
 - filename: allica-bank-domestic-scheduled-payments-api-openapi.yml
   format: yaml
   label: Allica Bank Domestic Scheduled Payments API
   slug: allica-bank-domestic-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-domestic-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-domestic-scheduled-payments-api-openapi.yml
 - filename: allica-bank-domestic-standing-orders-api-openapi.yml
   format: yaml
   label: Allica Bank Domestic Standing Orders API
   slug: allica-bank-domestic-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-domestic-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-domestic-standing-orders-api-openapi.yml
 - filename: allica-bank-file-payments-api-openapi.yml
   format: yaml
   label: Allica Bank File Payments API
   slug: allica-bank-file-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-file-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-file-payments-api-openapi.yml
 - filename: allica-bank-offers-api-openapi.yml
   format: yaml
   label: Allica Bank Offers API
   slug: allica-bank-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-offers-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-offers-api-openapi.yml
 - filename: allica-bank-parties-api-openapi.yml
   format: yaml
   label: Allica Bank Parties API
   slug: allica-bank-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-parties-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-parties-api-openapi.yml
 - filename: allica-bank-payment-details-api-openapi.yml
   format: yaml
   label: Allica Bank Payment Details API
   slug: allica-bank-payment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-payment-details-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-payment-details-api-openapi.yml
 - filename: allica-bank-products-api-openapi.yml
   format: yaml
   label: Allica Bank Products API
   slug: allica-bank-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-products-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-products-api-openapi.yml
 - filename: allica-bank-scheduled-payments-api-openapi.yml
   format: yaml
   label: Allica Bank Scheduled Payments API
   slug: allica-bank-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-scheduled-payments-api-openapi.yml
 - filename: allica-bank-standing-orders-api-openapi.yml
   format: yaml
   label: Allica Bank Standing Orders API
   slug: allica-bank-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-standing-orders-api-openapi.yml
 - filename: allica-bank-transactions-api-openapi.yml
   format: yaml
   label: Allica Bank Transactions API
   slug: allica-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/openapi/allica-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/allica-bank/openapi/allica-bank-transactions-api-openapi.yml
 consequence_counts:
   physical: 9
   read: 26
@@ -185,7 +185,7 @@ source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/allica
   \    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /file-payment-consents\n  method: post\n  operationId: CreateFilePaymentConsents\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /file-payment-consents/{ConsentId}\n  method: get\n  operationId: GetFilePaymentConsentsConsentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /file-payment-consents/{ConsentId}/file\n  method: post\n  operationId: CreateFilePaymentConsentsConsentIdFile\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /file-payments\n  method: post\n  operationId: CreateFilePayments\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - payments\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /file-payments/{FilePaymentId}\n  method: get\n  operationId: GetFilePaymentsFilePaymentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - payments\n  \
   \  token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allica-bank/refs/heads/main/agentic-access/allica-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allica-bank/agentic-access/allica-bank-agentic-access.yml
 summary_line: 37 operations · 11 acting
 tags:
 - Financial Services

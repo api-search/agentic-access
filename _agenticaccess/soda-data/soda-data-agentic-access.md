@@ -9,91 +9,91 @@ api_specs:
   label: Soda Attributes API
   slug: soda-data-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-attributes-api-openapi.yml
 - filename: soda-data-checks-api-openapi.yml
   format: yaml
   label: Soda Checks API
   slug: soda-data-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-checks-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-checks-api-openapi.yml
 - filename: soda-data-contracts-api-openapi.yml
   format: yaml
   label: Soda Contracts API
   slug: soda-data-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-contracts-api-openapi.yml
 - filename: soda-data-data-standards-api-openapi.yml
   format: yaml
   label: Soda Data Standards API
   slug: soda-data-data-standards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-data-standards-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-data-standards-api-openapi.yml
 - filename: soda-data-datasets-api-openapi.yml
   format: yaml
   label: Soda Datasets API
   slug: soda-data-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-datasets-api-openapi.yml
 - filename: soda-data-discovered-datasets-api-openapi.yml
   format: yaml
   label: Soda Discovered Datasets API
   slug: soda-data-discovered-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-discovered-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-discovered-datasets-api-openapi.yml
 - filename: soda-data-incidents-api-openapi.yml
   format: yaml
   label: Soda Incidents API
   slug: soda-data-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-incidents-api-openapi.yml
 - filename: soda-data-licensing-api-openapi.yml
   format: yaml
   label: Soda Licensing API
   slug: soda-data-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-licensing-api-openapi.yml
 - filename: soda-data-notification-rules-api-openapi.yml
   format: yaml
   label: Soda Notification Rules API
   slug: soda-data-notification-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-notification-rules-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-notification-rules-api-openapi.yml
 - filename: soda-data-runners-api-openapi.yml
   format: yaml
   label: Soda Runners API
   slug: soda-data-runners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-runners-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-runners-api-openapi.yml
 - filename: soda-data-scans-api-openapi.yml
   format: yaml
   label: Soda Scans API
   slug: soda-data-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-scans-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-scans-api-openapi.yml
 - filename: soda-data-secrets-api-openapi.yml
   format: yaml
   label: Soda Secrets API
   slug: soda-data-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-secrets-api-openapi.yml
 - filename: soda-data-users-api-openapi.yml
   format: yaml
   label: Soda Users API
   slug: soda-data-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-users-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-users-api-openapi.yml
 - filename: soda-data-utility-api-openapi.yml
   format: yaml
   label: Soda Utility API
   slug: soda-data-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-utility-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-utility-api-openapi.yml
 - filename: soda-data-data-sources-api-openapi.yml
   format: yaml
   label: Soda Data Sources API
   slug: soda-data-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/openapi/soda-data-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/soda-data/openapi/soda-data-data-sources-api-openapi.yml
 consequence_counts:
   read: 44
   safety-critical: 1
@@ -161,8 +161,8 @@ source_yaml: "generated: '2026-08-29'\nmethod: generated\nsource: openapi/soda-d
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/runners/{runnerId}\n  method: delete\n  operationId: DELETE/api/v1/runners/{runnerId}\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/scans/{scanId}\n  method: get\n  operationId: GET/api/v1/scans/{scanId}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/scans/{scanId}\n  method: delete\n  operationId: DELETE/api/v1/scans/{scanId}\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n- path: /api/v1/scans/{scanId}/logs\n  method: get\n  operationId: GET/api/v1/scans/{scanId}/logs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/secrets\n  method: get\n  operationId: GET/api/v1/secrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/secrets\n  method: post\n  operationId: POST/api/v1/secrets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/secrets/{secretId}\n  method: post\n  operationId: POST/api/v1/secrets/{secretId}\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/secrets/{secretId}\n  method: delete\n  operationId: DELETE/api/v1/secrets/{secretId}\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/secretsPublicKey\n  method: get\n  operationId: GET/api/v1/secretsPublicKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/userGroups\n  method: get\n  operationId: GET/api/v1/userGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
-  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/userGroups\n  method: post\n  operationId: POST/api/v1/userGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/userGroups/{userGroupId}\n  method: get\n  operationId: GET/api/v1/userGroups/{userGroupId}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/agentic-access/soda-data-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soda-data/refs/heads/main/agentic-access/soda-data-agentic-access.yml
+  \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/userGroups\n  method: post\n  operationId: POST/api/v1/userGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/userGroups/{userGroupId}\n  method: get\n  operationId: GET/api/v1/userGroups/{userGroupId}\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/soda-data/agentic-access/soda-data-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/soda-data/agentic-access/soda-data-agentic-access.yml
 summary_line: 103 operations · 59 acting · 1 human-in-the-loop
 tags:
 - AIOps

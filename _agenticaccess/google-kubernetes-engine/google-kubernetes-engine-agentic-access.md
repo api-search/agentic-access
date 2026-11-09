@@ -9,31 +9,31 @@ api_specs:
   label: Google Kubernetes Engine Clusters API
   slug: google-kubernetes-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-clusters-api-openapi.yml
 - filename: google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine Google Kubernetes Engine API
   slug: google-kubernetes-engine-google-kubernetes-engine-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-google-kubernetes-engine-api-api-openapi.yml
 - filename: google-kubernetes-engine-operations-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine Operations API
   slug: google-kubernetes-engine-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-operations-api-openapi.yml
 - filename: google-kubernetes-engine-serverconfig-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine ServerConfig API
   slug: google-kubernetes-engine-serverconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-serverconfig-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-serverconfig-api-openapi.yml
 - filename: google-kubernetes-engine-node-pools-api-openapi.yml
   format: yaml
   label: Google Kubernetes Engine Node Pools API
   slug: google-kubernetes-engine-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/openapi/google-kubernetes-engine-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/google-kubernetes-engine/openapi/google-kubernetes-engine-node-pools-api-openapi.yml
 consequence_counts:
   read: 5
   write: 18
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \      max-ttl: 3600\n    audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/nodePools\n  method: post\n  operationId: createNodePool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{name}:setSize\n  method: post\n  operationId: setNodePoolSize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{name}:setAutoscaling\n  method: post\n  operationId:\
   \ setNodePoolAutoscaling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{name}:rollback\n  method: post\n  operationId: rollbackNodePool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{parent}/operations\n  method: get\n  operationId: listOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n- path: /v1/{name}:cancel\n  method: post\n  operationId: cancelOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - https://www.googleapis.com/auth/cloud-platform\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-kubernetes-engine/refs/heads/main/agentic-access/google-kubernetes-engine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-kubernetes-engine/agentic-access/google-kubernetes-engine-agentic-access.yml
 summary_line: 23 operations · 18 acting
 tags:
 - Cloud-Native

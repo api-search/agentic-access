@@ -9,37 +9,37 @@ api_specs:
   label: Ledger Investing Cashflow Models API
   slug: ledger-investing-cashflow-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-cashflow-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-cashflow-models-api-openapi.yml
 - filename: ledger-investing-development-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Development Models API
   slug: ledger-investing-development-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-development-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-development-models-api-openapi.yml
 - filename: ledger-investing-forecast-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Forecast Models API
   slug: ledger-investing-forecast-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-forecast-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-forecast-models-api-openapi.yml
 - filename: ledger-investing-tail-models-api-openapi.yml
   format: yaml
   label: Ledger Investing Tail Models API
   slug: ledger-investing-tail-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-tail-models-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-tail-models-api-openapi.yml
 - filename: ledger-investing-tasks-api-openapi.yml
   format: yaml
   label: Ledger Investing Tasks API
   slug: ledger-investing-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-tasks-api-openapi.yml
 - filename: ledger-investing-triangles-api-openapi.yml
   format: yaml
   label: Ledger Investing Triangles API
   slug: ledger-investing-triangles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/openapi/ledger-investing-triangles-api-openapi.yml
+  url: https://artifacts.apis.io/ledger-investing/openapi/ledger-investing-triangles-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 3
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/ledger
   \     exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /cashflow-model\n  method: get\n  operationId: listCashflowModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cashflow-model\n  method: post\n  operationId: createCashflowModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cashflow-model-type\n  method: get\n  operationId: listCashflowModelTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cashflow-model/{id}\n  method:\
   \ get\n  operationId: getCashflowModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cashflow-model/{id}\n  method: delete\n  operationId: deleteCashflowModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cashflow-model/{id}/predict\n  method: post\n  operationId: predictCashflowModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/{task_id}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/agentic-access/ledger-investing-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ledger-investing/agentic-access/ledger-investing-agentic-access.yml
 summary_line: 32 operations · 17 acting · 3 human-in-the-loop
 tags:
 - Company

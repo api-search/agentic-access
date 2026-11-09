@@ -9,151 +9,151 @@ api_specs:
   label: Conekta Api Keys API
   slug: conekta-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-api-keys-api-openapi.yml
 - filename: conekta-balances-api-openapi.yml
   format: yaml
   label: Conekta Balances API
   slug: conekta-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-balances-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-balances-api-openapi.yml
 - filename: conekta-charges-api-openapi.yml
   format: yaml
   label: Conekta Charges API
   slug: conekta-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-charges-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-charges-api-openapi.yml
 - filename: conekta-companies-api-openapi.yml
   format: yaml
   label: Conekta Companies API
   slug: conekta-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-companies-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-companies-api-openapi.yml
 - filename: conekta-customers-api-openapi.yml
   format: yaml
   label: Conekta Customers API
   slug: conekta-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-customers-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-customers-api-openapi.yml
 - filename: conekta-discounts-api-openapi.yml
   format: yaml
   label: Conekta Discounts API
   slug: conekta-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-discounts-api-openapi.yml
 - filename: conekta-events-api-openapi.yml
   format: yaml
   label: Conekta Events API
   slug: conekta-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-events-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-events-api-openapi.yml
 - filename: conekta-logs-api-openapi.yml
   format: yaml
   label: Conekta Logs API
   slug: conekta-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-logs-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-logs-api-openapi.yml
 - filename: conekta-orders-api-openapi.yml
   format: yaml
   label: Conekta Orders API
   slug: conekta-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-orders-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-orders-api-openapi.yml
 - filename: conekta-payment-link-api-openapi.yml
   format: yaml
   label: Conekta Payment Link API
   slug: conekta-payment-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-payment-link-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-payment-link-api-openapi.yml
 - filename: conekta-payment-methods-api-openapi.yml
   format: yaml
   label: Conekta Payment Methods API
   slug: conekta-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-payment-methods-api-openapi.yml
 - filename: conekta-payout-orders-api-openapi.yml
   format: yaml
   label: Conekta Payout Orders API
   slug: conekta-payout-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-payout-orders-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-payout-orders-api-openapi.yml
 - filename: conekta-plans-api-openapi.yml
   format: yaml
   label: Conekta Plans API
   slug: conekta-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-plans-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-plans-api-openapi.yml
 - filename: conekta-products-api-openapi.yml
   format: yaml
   label: Conekta Products API
   slug: conekta-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-products-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-products-api-openapi.yml
 - filename: conekta-shipping-contacts-api-openapi.yml
   format: yaml
   label: Conekta Shipping Contacts API
   slug: conekta-shipping-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-shipping-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-shipping-contacts-api-openapi.yml
 - filename: conekta-shippings-api-openapi.yml
   format: yaml
   label: Conekta Shippings API
   slug: conekta-shippings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-shippings-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-shippings-api-openapi.yml
 - filename: conekta-subscriptions-api-openapi.yml
   format: yaml
   label: Conekta Subscriptions API
   slug: conekta-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-subscriptions-api-openapi.yml
 - filename: conekta-subscriptions-customer-portal-api-openapi.yml
   format: yaml
   label: Conekta Subscriptions - Customer Portal API
   slug: conekta-subscriptions-customer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-subscriptions-customer-portal-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-subscriptions-customer-portal-api-openapi.yml
 - filename: conekta-taxes-api-openapi.yml
   format: yaml
   label: Conekta Taxes API
   slug: conekta-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-taxes-api-openapi.yml
 - filename: conekta-tokens-api-openapi.yml
   format: yaml
   label: Conekta Tokens API
   slug: conekta-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-tokens-api-openapi.yml
 - filename: conekta-transactions-api-openapi.yml
   format: yaml
   label: Conekta Transactions API
   slug: conekta-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-transactions-api-openapi.yml
 - filename: conekta-transfers-api-openapi.yml
   format: yaml
   label: Conekta Transfers API
   slug: conekta-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-transfers-api-openapi.yml
 - filename: conekta-webhook-keys-api-openapi.yml
   format: yaml
   label: Conekta Webhook keys API
   slug: conekta-webhook-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-webhook-keys-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-webhook-keys-api-openapi.yml
 - filename: conekta-webhooks-api-openapi.yml
   format: yaml
   label: Conekta Webhooks API
   slug: conekta-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-webhooks-api-openapi.yml
 - filename: conekta-anti-fraud-api-openapi.yml
   format: yaml
   label: Conekta anti Fraud API
   slug: conekta-anti-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/openapi/conekta-anti-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/conekta/openapi/conekta-anti-fraud-api-openapi.yml
 consequence_counts:
   physical: 35
   read: 41
@@ -338,8 +338,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/conekt
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/subscription\n  method: put\n  operationId: updateSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/subscription/cancel\n  method: post\n  operationId: cancelSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/subscription/events\n  method: get\n  operationId: getSubscriptionEvents\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customers/{id}/subscription/pause\n  method: post\n  operationId: pauseSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /customers/{id}/subscription/resume\n  method: post\n  operationId: resumeSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}/tax_lines\n  method: post\n  operationId: ordersCreateTaxes\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}/tax_lines/{tax_id}\n  method: delete\n  operationId: ordersDeleteTaxes\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}/tax_lines/{tax_id}\n  method: put\n  operationId: ordersUpdateTaxes\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n\
-  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/agentic-access/conekta-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/agentic-access/conekta-agentic-access.yml
+  \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: getTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{id}\n  method: get\n  operationId: getTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (35 KB total) ---\n# Full source: https://artifacts.apis.io/conekta/agentic-access/conekta-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/conekta/agentic-access/conekta-agentic-access.yml
 summary_line: 113 operations · 72 acting
 tags:
 - Payments

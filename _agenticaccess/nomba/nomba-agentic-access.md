@@ -9,79 +9,79 @@ api_specs:
   label: Nomba Accounts API
   slug: nomba-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-accounts-api-openapi.yml
 - filename: nomba-authentication-api-openapi.yml
   format: yaml
   label: Nomba Authentication API
   slug: nomba-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-authentication-api-openapi.yml
 - filename: nomba-card-charge-api-openapi.yml
   format: yaml
   label: Nomba Card Charge API
   slug: nomba-card-charge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-card-charge-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-card-charge-api-openapi.yml
 - filename: nomba-checkout-orders-api-openapi.yml
   format: yaml
   label: Nomba Checkout Orders API
   slug: nomba-checkout-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-checkout-orders-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-checkout-orders-api-openapi.yml
 - filename: nomba-corridors-api-openapi.yml
   format: yaml
   label: Nomba Corridors API
   slug: nomba-corridors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-corridors-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-corridors-api-openapi.yml
 - filename: nomba-exchange-rates-api-openapi.yml
   format: yaml
   label: Nomba Exchange Rates API
   slug: nomba-exchange-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-exchange-rates-api-openapi.yml
 - filename: nomba-order-management-api-openapi.yml
   format: yaml
   label: Nomba Order Management API
   slug: nomba-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-order-management-api-openapi.yml
 - filename: nomba-payouts-api-openapi.yml
   format: yaml
   label: Nomba Payouts API
   slug: nomba-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-payouts-api-openapi.yml
 - filename: nomba-saved-cards-api-openapi.yml
   format: yaml
   label: Nomba Saved Cards API
   slug: nomba-saved-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-saved-cards-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-saved-cards-api-openapi.yml
 - filename: nomba-tokenized-cards-api-openapi.yml
   format: yaml
   label: Nomba Tokenized Cards API
   slug: nomba-tokenized-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-tokenized-cards-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-tokenized-cards-api-openapi.yml
 - filename: nomba-transactions-api-openapi.yml
   format: yaml
   label: Nomba Transactions API
   slug: nomba-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-transactions-api-openapi.yml
 - filename: nomba-transfers-api-openapi.yml
   format: yaml
   label: Nomba Transfers API
   slug: nomba-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-transfers-api-openapi.yml
 - filename: nomba-virtual-accounts-api-openapi.yml
   format: yaml
   label: Nomba Virtual Accounts API
   slug: nomba-virtual-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/openapi/nomba-virtual-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nomba/openapi/nomba-virtual-accounts-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 12
@@ -189,7 +189,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nomba-
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transfers/bank\n  method: post\n  operationId: transferToBank\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/transfers/wallet\n  method: post\n  operationId: transferBetweenAccounts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/virtual\n  method:\
   \ post\n  operationId: createVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/virtual/filter\n  method: post\n  operationId: filterVirtualAccounts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/virtual/{accountRef}\n  method: get\n  operationId: fetchVirtualAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/accounts/virtual/{accountRef}\n  method: put\n  operationId:\
   \ updateVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/accounts/virtual/{identifier}\n  method: delete\n  operationId: expireVirtualAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/agentic-access/nomba-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nomba/agentic-access/nomba-agentic-access.yml
 summary_line: 32 operations · 20 acting · 1 human-in-the-loop
 tags:
 - Payments

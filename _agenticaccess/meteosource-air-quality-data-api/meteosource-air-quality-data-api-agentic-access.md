@@ -8,19 +8,19 @@ api_specs:
   label: MeteoSource Air Quality Data API Locations API
   slug: meteosource-air-quality-data-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-locations-api-openapi.yml
+  url: https://artifacts.apis.io/meteosource-air-quality-data-api/openapi/meteosource-air-quality-data-api-locations-api-openapi.yml
 - filename: meteosource-air-quality-data-api-weather-api-openapi.yml
   format: yaml
   label: MeteoSource Air Quality Data API Weather API
   slug: meteosource-air-quality-data-api-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-weather-api-openapi.yml
+  url: https://artifacts.apis.io/meteosource-air-quality-data-api/openapi/meteosource-air-quality-data-api-weather-api-openapi.yml
 - filename: meteosource-air-quality-data-api-weather-maps-api-openapi.yml
   format: yaml
   label: MeteoSource Air Quality Data API Weather maps API
   slug: meteosource-air-quality-data-api-weather-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/openapi/meteosource-air-quality-data-api-weather-maps-api-openapi.yml
+  url: https://artifacts.apis.io/meteosource-air-quality-data-api/openapi/meteosource-air-quality-data-api-weather-maps-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -48,7 +48,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/meteosource-air-quality-data-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /free/point\n  method: get\n  operationId: getFreePointWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flexi/point\n  method: get\n  operationId: getFlexiPointWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flexi/air_quality\n  method: get\n\
   \  operationId: getAirQuality\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /free/find_places\n  method: get\n  operationId: findPlaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /free/find_places_prefix\n  method: get\n  operationId: findPlacesByPrefix\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /free/nearest_place\n  method: get\n  operationId: findNearestPlace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /flexi/map\n  method: get\n  operationId: getMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /flexi/time_machine\n  method: get\n  operationId: getTimeMachine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meteosource-air-quality-data-api/refs/heads/main/agentic-access/meteosource-air-quality-data-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meteosource-air-quality-data-api/agentic-access/meteosource-air-quality-data-api-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Air Quality

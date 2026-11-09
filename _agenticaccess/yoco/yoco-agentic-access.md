@@ -9,31 +9,31 @@ api_specs:
   label: Yoco Checkout API
   slug: yoco-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-checkout-api-openapi.yml
 - filename: yoco-payment-links-api-openapi.yml
   format: yaml
   label: Yoco Payment Links API
   slug: yoco-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-payment-links-api-openapi.yml
 - filename: yoco-payments-api-openapi.yml
   format: yaml
   label: Yoco Payments API
   slug: yoco-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-payments-api-openapi.yml
 - filename: yoco-refunds-api-openapi.yml
   format: yaml
   label: Yoco Refunds API
   slug: yoco-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-refunds-api-openapi.yml
 - filename: yoco-webhooks-api-openapi.yml
   format: yaml
   label: Yoco Webhooks API
   slug: yoco-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 6
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/yoco-o
   \ getCheckout\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /checkouts/{checkoutId}/refund\n  method: post\n  operationId: refundCheckout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payments/{paymentId}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/refunds/{refundId}\n  method: get\n  operationId: getRefund\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/payment_links/{paymentLinkId}\n  method: get\n  operationId: getPaymentLink\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/agentic-access/yoco-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/yoco/agentic-access/yoco-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Payments

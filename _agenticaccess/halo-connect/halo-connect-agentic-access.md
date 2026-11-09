@@ -9,31 +9,31 @@ api_specs:
   label: Halo Connect FHIR API
   slug: halo-connect-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-fhir-api-openapi.yml
 - filename: halo-connect-registered-queries-api-openapi.yml
   format: yaml
   label: Halo Connect Registered Queries API
   slug: halo-connect-registered-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-registered-queries-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-registered-queries-api-openapi.yml
 - filename: halo-connect-sites-api-openapi.yml
   format: yaml
   label: Halo Connect Sites API
   slug: halo-connect-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sites-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-sites-api-openapi.yml
 - filename: halo-connect-sql-passthrough-api-openapi.yml
   format: yaml
   label: Halo Connect SQL Passthrough API
   slug: halo-connect-sql-passthrough-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-sql-passthrough-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-sql-passthrough-api-openapi.yml
 - filename: halo-connect-tokens-api-openapi.yml
   format: yaml
   label: Halo Connect Tokens API
   slug: halo-connect-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/openapi/halo-connect-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/halo-connect/openapi/halo-connect-tokens-api-openapi.yml
 consequence_counts:
   read: 18
   write: 11
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/halo-c
   \ none\n- path: /desktop/sites/{siteId}/queries/{queryId}/results/{pageNumber}\n  method: get\n  operationId: getResultPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/immediate\n  method: post\n  operationId: createImmediateQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integrator/sites/{siteId}/queries/async\n  method: post\n  operationId: createAsyncQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /integrator/sites/{siteId}/queries/{queryId}\n  method: get\n  operationId: getQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/status\n  method: post\n  operationId: getQueryStatusBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/{queryId}/results/{pageNumber}\n  method: get\n  operationId: getResultPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/sites/{siteId}/queries/{queryId}/results/{pageNumber}/stream\n  method: get\n  operationId: streamResultPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /integrator/token\n  method: post\n  operationId: obtainToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/halo-connect/refs/heads/main/agentic-access/halo-connect-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/halo-connect/agentic-access/halo-connect-agentic-access.yml
 summary_line: 29 operations · 11 acting
 tags:
 - Healthcare

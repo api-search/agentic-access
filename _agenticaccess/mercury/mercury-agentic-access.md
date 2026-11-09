@@ -9,55 +9,55 @@ api_specs:
   label: Mercury Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/asyncapi/mercury-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/mercury/asyncapi/mercury-webhooks-asyncapi.yml
 - filename: mercury-accounts-api-openapi.yml
   format: yaml
   label: Mercury Accounts API
   slug: mercury-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-accounts-api-openapi.yml
 - filename: mercury-cards-api-openapi.yml
   format: yaml
   label: Mercury Cards API
   slug: mercury-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-cards-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-cards-api-openapi.yml
 - filename: mercury-payments-api-openapi.yml
   format: yaml
   label: Mercury Payments API
   slug: mercury-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-payments-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-payments-api-openapi.yml
 - filename: mercury-recipients-api-openapi.yml
   format: yaml
   label: Mercury Recipients API
   slug: mercury-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-recipients-api-openapi.yml
 - filename: mercury-statements-api-openapi.yml
   format: yaml
   label: Mercury Statements API
   slug: mercury-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-statements-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-statements-api-openapi.yml
 - filename: mercury-transactions-api-openapi.yml
   format: yaml
   label: Mercury Transactions API
   slug: mercury-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-transactions-api-openapi.yml
 - filename: mercury-treasury-api-openapi.yml
   format: yaml
   label: Mercury Treasury API
   slug: mercury-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-treasury-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-treasury-api-openapi.yml
 - filename: mercury-webhooks-api-openapi.yml
   format: yaml
   label: Mercury Webhooks API
   slug: mercury-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/openapi/mercury-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mercury/openapi/mercury-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mercur
   \  - abnormal\n      - high-value\n    audit: required\n- path: /account/{id}/recipients\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/{id}/transactions/{transactionId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /treasury\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /webhooks\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /webhooks/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/agentic-access/mercury-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mercury/agentic-access/mercury-agentic-access.yml
 summary_line: 19 operations · 8 acting
 tags:
 - Banking

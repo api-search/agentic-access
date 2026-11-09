@@ -9,55 +9,55 @@ api_specs:
   label: Vitally Accounts API
   slug: vitally-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-accounts-api-openapi.yml
 - filename: vitally-admins-api-openapi.yml
   format: yaml
   label: Vitally Admins API
   slug: vitally-admins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-admins-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-admins-api-openapi.yml
 - filename: vitally-conversations-api-openapi.yml
   format: yaml
   label: Vitally Conversations API
   slug: vitally-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-conversations-api-openapi.yml
 - filename: vitally-custom-objects-api-openapi.yml
   format: yaml
   label: Vitally Custom Objects API
   slug: vitally-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-custom-objects-api-openapi.yml
 - filename: vitally-notes-api-openapi.yml
   format: yaml
   label: Vitally Notes API
   slug: vitally-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-notes-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-notes-api-openapi.yml
 - filename: vitally-nps-responses-api-openapi.yml
   format: yaml
   label: Vitally NPS Responses API
   slug: vitally-nps-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-nps-responses-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-nps-responses-api-openapi.yml
 - filename: vitally-organizations-api-openapi.yml
   format: yaml
   label: Vitally Organizations API
   slug: vitally-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-organizations-api-openapi.yml
 - filename: vitally-tasks-api-openapi.yml
   format: yaml
   label: Vitally Tasks API
   slug: vitally-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-tasks-api-openapi.yml
 - filename: vitally-users-api-openapi.yml
   format: yaml
   label: Vitally Users API
   slug: vitally-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/openapi/vitally-users-api-openapi.yml
+  url: https://artifacts.apis.io/vitally/openapi/vitally-users-api-openapi.yml
 consequence_counts:
   read: 17
   write: 14
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/vitall
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations\n  method: get\n  operationId: listConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /conversations\n  method: post\n  operationId: createConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /npsResponses\n  method: get\n  operationId: listNpsResponses\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /npsResponses/{npsResponseId}\n  method: get\n  operationId: getNpsResponse\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admins\n  method: get\n  operationId: listAdmins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customObjects\n  method: get\n  operationId: listCustomObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /customObjects\n  method: post\n  operationId: createCustomObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vitally/refs/heads/main/agentic-access/vitally-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vitally/agentic-access/vitally-agentic-access.yml
 summary_line: 31 operations · 14 acting
 tags:
 - Company

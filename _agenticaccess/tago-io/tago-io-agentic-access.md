@@ -9,133 +9,133 @@ api_specs:
   label: TagoIO Access Management API
   slug: tago-io-access-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-access-management-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-access-management-api-openapi.yml
 - filename: tago-io-account-api-openapi.yml
   format: yaml
   label: TagoIO Account API
   slug: tago-io-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-account-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-account-api-openapi.yml
 - filename: tago-io-backup-api-openapi.yml
   format: yaml
   label: TagoIO Backup API
   slug: tago-io-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-backup-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-backup-api-openapi.yml
 - filename: tago-io-configuration-param-api-openapi.yml
   format: yaml
   label: TagoIO Configuration Param API
   slug: tago-io-configuration-param-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-configuration-param-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-configuration-param-api-openapi.yml
 - filename: tago-io-dashboards-api-openapi.yml
   format: yaml
   label: TagoIO Dashboards API
   slug: tago-io-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-dashboards-api-openapi.yml
 - filename: tago-io-device-data-api-openapi.yml
   format: yaml
   label: TagoIO Device Data API
   slug: tago-io-device-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-device-data-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-device-data-api-openapi.yml
 - filename: tago-io-device-tokens-api-openapi.yml
   format: yaml
   label: TagoIO Device Tokens API
   slug: tago-io-device-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-device-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-device-tokens-api-openapi.yml
 - filename: tago-io-devices-api-openapi.yml
   format: yaml
   label: TagoIO Devices API
   slug: tago-io-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-devices-api-openapi.yml
 - filename: tago-io-dictionary-api-openapi.yml
   format: yaml
   label: TagoIO Dictionary API
   slug: tago-io-dictionary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-dictionary-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-dictionary-api-openapi.yml
 - filename: tago-io-entity-api-openapi.yml
   format: yaml
   label: TagoIO Entity API
   slug: tago-io-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-entity-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-entity-api-openapi.yml
 - filename: tago-io-entity-data-api-openapi.yml
   format: yaml
   label: TagoIO Entity Data API
   slug: tago-io-entity-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-entity-data-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-entity-data-api-openapi.yml
 - filename: tago-io-files-api-openapi.yml
   format: yaml
   label: TagoIO Files API
   slug: tago-io-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-files-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-files-api-openapi.yml
 - filename: tago-io-immutable-device-api-openapi.yml
   format: yaml
   label: TagoIO Immutable Device API
   slug: tago-io-immutable-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-immutable-device-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-immutable-device-api-openapi.yml
 - filename: tago-io-import-export-api-openapi.yml
   format: yaml
   label: TagoIO Import/Export API
   slug: tago-io-import-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-import-export-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-import-export-api-openapi.yml
 - filename: tago-io-network-ingest-api-openapi.yml
   format: yaml
   label: TagoIO Network Ingest API
   slug: tago-io-network-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-network-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-network-ingest-api-openapi.yml
 - filename: tago-io-notifications-api-openapi.yml
   format: yaml
   label: TagoIO Notifications API
   slug: tago-io-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-notifications-api-openapi.yml
 - filename: tago-io-profile-api-openapi.yml
   format: yaml
   label: TagoIO Profile API
   slug: tago-io-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-profile-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-profile-api-openapi.yml
 - filename: tago-io-statistics-billing-api-openapi.yml
   format: yaml
   label: TagoIO Statistics / Billing API
   slug: tago-io-statistics-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-statistics-billing-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-statistics-billing-api-openapi.yml
 - filename: tago-io-tago-run-api-openapi.yml
   format: yaml
   label: TagoIO Tago RUN API
   slug: tago-io-tago-run-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-tago-run-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-tago-run-api-openapi.yml
 - filename: tago-io-upload-api-openapi.yml
   format: yaml
   label: TagoIO Upload API
   slug: tago-io-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-upload-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-upload-api-openapi.yml
 - filename: tago-io-users-api-openapi.yml
   format: yaml
   label: TagoIO Users API
   slug: tago-io-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-users-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-users-api-openapi.yml
 - filename: tago-io-widgets-api-openapi.yml
   format: yaml
   label: TagoIO Widgets API
   slug: tago-io-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/openapi/tago-io-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/tago-io/openapi/tago-io-widgets-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 42
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tago-i
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dictionary/{slug_or_dictionary_id}/{language}\n  method: get\n  operationId: getDictionaryLanguageDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/profile/token\n  method: post\n  operationId: generateProfileToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/keys/{type}\n  method: get\n  operationId: getTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /integration/network/resolve/{serieNumber}/{AuthorizationKey}\n  method: get\n  operationId: getDeviceTokenWithSerialNumberAuthorization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/network/resolve/{serieNumber}\n  method: get\n  operationId: getDeviceTokenWithSerialNumber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /integration/network/{deviceID}/params\n  method: post\n  operationId: editDeviceConfigurationParameter\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /integration/network/data\n\
   \  method: post\n  operationId: sendDataUsingNetwork\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tago-io/refs/heads/main/agentic-access/tago-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tago-io/agentic-access/tago-io-agentic-access.yml
 summary_line: 107 operations · 65 acting
 tags:
 - IoT

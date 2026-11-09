@@ -9,85 +9,85 @@ api_specs:
   label: Sage HR Documents API
   slug: sage-hr-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-documents-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-documents-api-openapi.yml
 - filename: sage-hr-employee-api-openapi.yml
   format: yaml
   label: Sage HR Employee API
   slug: sage-hr-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-employee-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-employee-api-openapi.yml
 - filename: sage-hr-integrations-api-openapi.yml
   format: yaml
   label: Sage HR Integrations API
   slug: sage-hr-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-integrations-api-openapi.yml
 - filename: sage-hr-kit-days-api-openapi.yml
   format: yaml
   label: Sage HR KIT days API
   slug: sage-hr-kit-days-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-kit-days-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-kit-days-api-openapi.yml
 - filename: sage-hr-leave-management-api-openapi.yml
   format: yaml
   label: Sage HR Leave management API
   slug: sage-hr-leave-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-leave-management-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-leave-management-api-openapi.yml
 - filename: sage-hr-offboarding-api-openapi.yml
   format: yaml
   label: Sage HR Offboarding API
   slug: sage-hr-offboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-offboarding-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-offboarding-api-openapi.yml
 - filename: sage-hr-onboarding-api-openapi.yml
   format: yaml
   label: Sage HR Onboarding API
   slug: sage-hr-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-onboarding-api-openapi.yml
 - filename: sage-hr-performance-api-openapi.yml
   format: yaml
   label: Sage HR Performance API
   slug: sage-hr-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-performance-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-performance-api-openapi.yml
 - filename: sage-hr-policies-api-openapi.yml
   format: yaml
   label: Sage HR Policies API
   slug: sage-hr-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-policies-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-policies-api-openapi.yml
 - filename: sage-hr-positions-api-openapi.yml
   format: yaml
   label: Sage HR Positions API
   slug: sage-hr-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-positions-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-positions-api-openapi.yml
 - filename: sage-hr-recruitment-api-openapi.yml
   format: yaml
   label: Sage HR Recruitment API
   slug: sage-hr-recruitment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-recruitment-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-recruitment-api-openapi.yml
 - filename: sage-hr-teams-api-openapi.yml
   format: yaml
   label: Sage HR Teams API
   slug: sage-hr-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-teams-api-openapi.yml
 - filename: sage-hr-terminations-reasons-api-openapi.yml
   format: yaml
   label: Sage HR Terminations reasons API
   slug: sage-hr-terminations-reasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-terminations-reasons-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-terminations-reasons-api-openapi.yml
 - filename: sage-hr-timesheets-api-openapi.yml
   format: yaml
   label: Sage HR Timesheets API
   slug: sage-hr-timesheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/openapi/sage-hr-timesheets-api-openapi.yml
+  url: https://artifacts.apis.io/sage-hr/openapi/sage-hr-timesheets-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 28
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sage-h
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vikarina/terminated-employees\n  method: post\n  operationId: Integrations_transferTerminationInfoToVikarina\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /vikarina/unused-days\n  method: post\n  operationId: Integrations_transferUnusedVacationDaysToVikarina\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vikarina/leave-types\n  method: post\n  operationId: Integrations_transferLeaveInformationToVikarina\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vikarina/timesheets\n  method: post\n  operationId: Integrations_transferTimeScheduleInformation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      -\
   \ abnormal\n      - high-value\n    audit: required\n- path: /vikarina/bonuses\n  method: post\n  operationId: Integrations_sendBonusesToVikarina\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/agentic-access/sage-hr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sage-hr/agentic-access/sage-hr-agentic-access.yml
 summary_line: 53 operations · 25 acting · 2 human-in-the-loop
 tags:
 - Human Resources

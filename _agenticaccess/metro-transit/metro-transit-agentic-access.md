@@ -9,25 +9,25 @@ api_specs:
   label: Metro Transit Alerts API
   slug: metro-transit-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/openapi/metro-transit-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/metro-transit/openapi/metro-transit-alerts-api-openapi.yml
 - filename: metro-transit-nextrip-api-openapi.yml
   format: yaml
   label: Metro Transit NexTrip API
   slug: metro-transit-nextrip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/openapi/metro-transit-nextrip-api-openapi.yml
+  url: https://artifacts.apis.io/metro-transit/openapi/metro-transit-nextrip-api-openapi.yml
 - filename: metro-transit-planner-api-openapi.yml
   format: yaml
   label: Metro Transit Planner API
   slug: metro-transit-planner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/openapi/metro-transit-planner-api-openapi.yml
+  url: https://artifacts.apis.io/metro-transit/openapi/metro-transit-planner-api-openapi.yml
 - filename: metro-transit-schedule-api-openapi.yml
   format: yaml
   label: Metro Transit Schedule API
   slug: metro-transit-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/openapi/metro-transit-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/metro-transit/openapi/metro-transit-schedule-api-openapi.yml
 consequence_counts:
   read: 18
   write: 6
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/metro-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tripplanner/moreinfo\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tripplanner/nearestlandmark\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tripplanner/nearestparkandrides\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tripplanner/plantrip\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tripplanner/routelandmarks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tripplanner/servicenearby\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tripplanner/suggest/{text}/{location}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/agentic-access/metro-transit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/metro-transit/agentic-access/metro-transit-agentic-access.yml
 summary_line: 24 operations · 6 acting
 tags:
 - Minneapolis

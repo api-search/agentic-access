@@ -9,55 +9,55 @@ api_specs:
   label: Brandtrack Accounts API
   slug: brandtrack-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-accounts-api-openapi.yml
 - filename: brandtrack-groups-api-openapi.yml
   format: yaml
   label: Brandtrack Groups API
   slug: brandtrack-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-groups-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-groups-api-openapi.yml
 - filename: brandtrack-locations-api-openapi.yml
   format: yaml
   label: Brandtrack Locations API
   slug: brandtrack-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-locations-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-locations-api-openapi.yml
 - filename: brandtrack-other-api-openapi.yml
   format: yaml
   label: Brandtrack Other API
   slug: brandtrack-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-other-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-other-api-openapi.yml
 - filename: brandtrack-partner-api-openapi.yml
   format: yaml
   label: Brandtrack Partner API
   slug: brandtrack-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-partner-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-partner-api-openapi.yml
 - filename: brandtrack-roles-api-openapi.yml
   format: yaml
   label: Brandtrack Roles API
   slug: brandtrack-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-roles-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-roles-api-openapi.yml
 - filename: brandtrack-subscriptions-api-openapi.yml
   format: yaml
   label: Brandtrack Subscriptions API
   slug: brandtrack-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-subscriptions-api-openapi.yml
 - filename: brandtrack-users-api-openapi.yml
   format: yaml
   label: Brandtrack Users API
   slug: brandtrack-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-users-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-users-api-openapi.yml
 - filename: brandtrack-zones-api-openapi.yml
   format: yaml
   label: Brandtrack Zones API
   slug: brandtrack-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/openapi/brandtrack-zones-api-openapi.yml
+  url: https://artifacts.apis.io/brandtrack/openapi/brandtrack-zones-api-openapi.yml
 consequence_counts:
   read: 14
   write: 18
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/brandt
   \ updateAZoneSmartData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/groups\n  method: post\n  operationId: createANewGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/groups/{id}\n  method: get\n  operationId: getAGroupByItsID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/groups/{id}\n  method: patch\n  operationId: updateAGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/groups/{id}\n  method: delete\n  operationId: deleteAGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/roles\n  method: get\n  operationId: listAllRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business_categories\n\
   \  method: get\n  operationId: listAllBusinessCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /partner/accounts/register\n  method: post\n  operationId: createAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /partner/users/{id}/token\n  method: post\n  operationId: createsANewTokenForRequestedUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandtrack/refs/heads/main/agentic-access/brandtrack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brandtrack/agentic-access/brandtrack-agentic-access.yml
 summary_line: 32 operations · 18 acting
 tags:
 - Company

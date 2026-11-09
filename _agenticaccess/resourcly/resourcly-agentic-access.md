@@ -9,133 +9,133 @@ api_specs:
   label: Resourcly Analytics API
   slug: resourcly-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-analytics-api-openapi.yml
 - filename: resourcly-auth-api-openapi.yml
   format: yaml
   label: Resourcly Auth API
   slug: resourcly-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-auth-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-auth-api-openapi.yml
 - filename: resourcly-bom-comparisons-api-openapi.yml
   format: yaml
   label: Resourcly Bom Comparisons API
   slug: resourcly-bom-comparisons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-bom-comparisons-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-bom-comparisons-api-openapi.yml
 - filename: resourcly-boms-api-openapi.yml
   format: yaml
   label: Resourcly Boms API
   slug: resourcly-boms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-boms-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-boms-api-openapi.yml
 - filename: resourcly-business-api-openapi.yml
   format: yaml
   label: Resourcly Business API
   slug: resourcly-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-business-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-business-api-openapi.yml
 - filename: resourcly-documents-api-openapi.yml
   format: yaml
   label: Resourcly Documents API
   slug: resourcly-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-documents-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-documents-api-openapi.yml
 - filename: resourcly-drive-api-openapi.yml
   format: yaml
   label: Resourcly Drive API
   slug: resourcly-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-drive-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-drive-api-openapi.yml
 - filename: resourcly-duplicates-api-openapi.yml
   format: yaml
   label: Resourcly Duplicates API
   slug: resourcly-duplicates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-duplicates-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-duplicates-api-openapi.yml
 - filename: resourcly-email-api-openapi.yml
   format: yaml
   label: Resourcly Email API
   slug: resourcly-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-email-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-email-api-openapi.yml
 - filename: resourcly-feedback-api-openapi.yml
   format: yaml
   label: Resourcly Feedback API
   slug: resourcly-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-feedback-api-openapi.yml
 - filename: resourcly-health-api-openapi.yml
   format: yaml
   label: Resourcly Health API
   slug: resourcly-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-health-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-health-api-openapi.yml
 - filename: resourcly-imports-api-openapi.yml
   format: yaml
   label: Resourcly Imports API
   slug: resourcly-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-imports-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-imports-api-openapi.yml
 - filename: resourcly-inventory-api-openapi.yml
   format: yaml
   label: Resourcly Inventory API
   slug: resourcly-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-inventory-api-openapi.yml
 - filename: resourcly-items-api-openapi.yml
   format: yaml
   label: Resourcly Items API
   slug: resourcly-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-items-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-items-api-openapi.yml
 - filename: resourcly-release-notes-api-openapi.yml
   format: yaml
   label: Resourcly Release Notes API
   slug: resourcly-release-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-release-notes-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-release-notes-api-openapi.yml
 - filename: resourcly-search-api-openapi.yml
   format: yaml
   label: Resourcly Search API
   slug: resourcly-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-search-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-search-api-openapi.yml
 - filename: resourcly-storage-api-openapi.yml
   format: yaml
   label: Resourcly Storage API
   slug: resourcly-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-storage-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-storage-api-openapi.yml
 - filename: resourcly-supplier-data-requests-api-openapi.yml
   format: yaml
   label: Resourcly Supplier Data Requests API
   slug: resourcly-supplier-data-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-supplier-data-requests-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-supplier-data-requests-api-openapi.yml
 - filename: resourcly-supplier-portal-api-openapi.yml
   format: yaml
   label: Resourcly Supplier Portal API
   slug: resourcly-supplier-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-supplier-portal-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-supplier-portal-api-openapi.yml
 - filename: resourcly-suppliers-api-openapi.yml
   format: yaml
   label: Resourcly Suppliers API
   slug: resourcly-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-suppliers-api-openapi.yml
 - filename: resourcly-upload-api-openapi.yml
   format: yaml
   label: Resourcly Upload API
   slug: resourcly-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-upload-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-upload-api-openapi.yml
 - filename: resourcly-data-sources-api-openapi.yml
   format: yaml
   label: Resourcly Data Sources API
   slug: resourcly-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/openapi/resourcly-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/resourcly/openapi/resourcly-data-sources-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 68
@@ -214,8 +214,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/resour
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/list\n  method: get\n  operationId: getStorageList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /storage/objects\n  method: delete\n  operationId: deleteStorageObjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/paste\n  method: post\n  operationId: postStoragePaste\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /storage/prepare-upload\n  method: post\n  operationId: postStoragePrepareUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /storage/rename\n  method: put\n  operationId: putStorageRename\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supplier-data-requests\n  method: get\n  operationId: getV1SupplierDataRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplier-data-requests/{id}\n  method:\
   \ get\n  operationId: getV1SupplierDataRequestsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/supplier-data-requests/{id}/extend-expiry\n  method: post\n  operationId: postV1SupplierDataRequestsByIdExtendExpiry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supplier-data-requests/{id}/reset-passcode\n  method: post\n  operationId: postV1SupplierDataRequestsByIdResetPasscode\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n   \
-  \   human-in-the-loop: required\n    audit: required\n- path: /v1/supplier-data-requests/{id}/review\n  method: post\n  operationId: postV1SupplierDataRequestsByIdReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supplier/request/{id}\n  method: get\n  operationId: getV1SupplierRequestById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/agentic-access/resourcly-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resourcly/refs/heads/main/agentic-access/resourcly-agentic-access.yml
+  \   human-in-the-loop: required\n    audit: required\n- path: /v1/supplier-data-requests/{id}/review\n  method: post\n  operationId: postV1SupplierDataRequestsByIdReview\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/supplier/request/{id}\n  method: get\n  operationId: getV1SupplierRequestById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (34 KB total) ---\n# Full source: https://artifacts.apis.io/resourcly/agentic-access/resourcly-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/resourcly/agentic-access/resourcly-agentic-access.yml
 summary_line: 121 operations · 53 acting · 2 human-in-the-loop
 tags:
 - Company

@@ -15,43 +15,43 @@ api_specs:
   label: NOWPayments Authentication API
   slug: now-payments-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-authentication-api-openapi.yml
 - filename: now-payments-currencies-api-openapi.yml
   format: yaml
   label: NOWPayments Currencies API
   slug: now-payments-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-currencies-api-openapi.yml
 - filename: now-payments-estimates-api-openapi.yml
   format: yaml
   label: NOWPayments Estimates API
   slug: now-payments-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-estimates-api-openapi.yml
 - filename: now-payments-invoices-api-openapi.yml
   format: yaml
   label: NOWPayments Invoices API
   slug: now-payments-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-invoices-api-openapi.yml
 - filename: now-payments-payments-api-openapi.yml
   format: yaml
   label: NOWPayments Payments API
   slug: now-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-payments-api-openapi.yml
 - filename: now-payments-payouts-api-openapi.yml
   format: yaml
   label: NOWPayments Payouts API
   slug: now-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-payouts-api-openapi.yml
 - filename: now-payments-status-api-openapi.yml
   format: yaml
   label: NOWPayments Status API
   slug: now-payments-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-status-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-status-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 8
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /min-amount\n  method: get\n  operationId: getMinimumPaymentAmount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment\n  method: post\n  operationId: createPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payment/{payment_id}\n\
   \  method: get\n  operationId: getPaymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invoice\n  method: post\n  operationId: createInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth\n  method: post\n  operationId: authenticate\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payout\n\
   \  method: post\n  operationId: createPayout\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payout/{payout_id}\n  method: get\n  operationId: getPayoutStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /balance\n  method: get\n  operationId: getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/agentic-access/now-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/now-payments/agentic-access/now-payments-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Crypto Payments

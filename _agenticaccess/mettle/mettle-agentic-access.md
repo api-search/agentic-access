@@ -8,37 +8,37 @@ api_specs:
   label: Mettle ATM API
   slug: mettle-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-atm-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-atm-api-openapi.yml
 - filename: mettle-bca-api-openapi.yml
   format: yaml
   label: Mettle BCA API
   slug: mettle-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-bca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-bca-api-openapi.yml
 - filename: mettle-branch-api-openapi.yml
   format: yaml
   label: Mettle Branch API
   slug: mettle-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-branch-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-branch-api-openapi.yml
 - filename: mettle-ccc-api-openapi.yml
   format: yaml
   label: Mettle CCC API
   slug: mettle-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-ccc-api-openapi.yml
 - filename: mettle-pca-api-openapi.yml
   format: yaml
   label: Mettle PCA API
   slug: mettle-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-pca-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-pca-api-openapi.yml
 - filename: mettle-sme-api-openapi.yml
   format: yaml
   label: Mettle SME API
   slug: mettle-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/openapi/mettle-sme-api-openapi.yml
+  url: https://artifacts.apis.io/mettle/openapi/mettle-sme-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: generated\nsource: openapi/mettle-open-data-api-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 12\n  by_action_class:\n    connected: 12\n  by_consequence:\n    read: 12\n  human_in_the_loop_required: 0\noperations:\n- path: /branches\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /branches\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /atms\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /atms\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal-current-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal-current-accounts\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business-current-accounts\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /business-current-accounts\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /unsecured-sme-loans\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unsecured-sme-loans\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial-credit-cards\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial-credit-cards\n  method: head\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mettle/refs/heads/main/agentic-access/mettle-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mettle/agentic-access/mettle-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Financial Services

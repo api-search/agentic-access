@@ -9,43 +9,43 @@ api_specs:
   label: SimScale Geometry API
   slug: simscale-geometry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-geometry-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-geometry-api-openapi.yml
 - filename: simscale-mesh-operations-api-openapi.yml
   format: yaml
   label: SimScale Mesh Operations API
   slug: simscale-mesh-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-mesh-operations-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-mesh-operations-api-openapi.yml
 - filename: simscale-projects-api-openapi.yml
   format: yaml
   label: SimScale Projects API
   slug: simscale-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-projects-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-projects-api-openapi.yml
 - filename: simscale-reports-api-openapi.yml
   format: yaml
   label: SimScale Reports API
   slug: simscale-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-reports-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-reports-api-openapi.yml
 - filename: simscale-simulation-runs-api-openapi.yml
   format: yaml
   label: SimScale Simulation Runs API
   slug: simscale-simulation-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-simulation-runs-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-simulation-runs-api-openapi.yml
 - filename: simscale-simulations-api-openapi.yml
   format: yaml
   label: SimScale Simulations API
   slug: simscale-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-simulations-api-openapi.yml
 - filename: simscale-storage-api-openapi.yml
   format: yaml
   label: SimScale Storage API
   slug: simscale-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/openapi/simscale-storage-api-openapi.yml
+  url: https://artifacts.apis.io/simscale/openapi/simscale-storage-api-openapi.yml
 consequence_counts:
   read: 11
   write: 10
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simsca
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/projects/{project_id}/simulations/{simulation_id}\n  method: put\n  operationId: updateSimulation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/projects/{project_id}/mesh-operations\n  method: get\n  operationId: listMeshOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/projects/{project_id}/mesh-operations\n  method: post\n  operationId: createMeshOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v0/projects/{project_id}/mesh-operations/{mesh_operation_id}\n  method: get\n  operationId: getMeshOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/projects/{project_id}/mesh-operations/{mesh_operation_id}/start\n  method: post\n  operationId: startMeshOperation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/projects/{project_id}/simulations/{simulation_id}/runs\n  method: get\n  operationId: listSimulationRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /v0/projects/{project_id}/simulations/{simulation_id}/runs\n  method: post\n  operationId: createSimulationRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/projects/{project_id}/simulations/{simulation_id}/runs/{run_id}\n  method: get\n  operationId: getSimulationRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/projects/{project_id}/simulations/{simulation_id}/runs/{run_id}/results\n  method: get\n  operationId: getSimulationResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simscale/refs/heads/main/agentic-access/simscale-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simscale/agentic-access/simscale-agentic-access.yml
 summary_line: 21 operations · 10 acting
 tags:
 - CAE

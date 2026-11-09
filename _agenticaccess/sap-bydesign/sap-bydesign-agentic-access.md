@@ -9,49 +9,49 @@ api_specs:
   label: SAP Business ByDesign Analytics API
   slug: sap-bydesign-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-analytics-api-openapi.yml
 - filename: sap-bydesign-crm-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign CRM API
   slug: sap-bydesign-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-crm-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-crm-api-openapi.yml
 - filename: sap-bydesign-financials-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Financials API
   slug: sap-bydesign-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-financials-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-financials-api-openapi.yml
 - filename: sap-bydesign-master-data-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Master Data API
   slug: sap-bydesign-master-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-master-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-master-data-api-openapi.yml
 - filename: sap-bydesign-procurement-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Procurement API
   slug: sap-bydesign-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-procurement-api-openapi.yml
 - filename: sap-bydesign-projects-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Projects API
   slug: sap-bydesign-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-projects-api-openapi.yml
 - filename: sap-bydesign-sales-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Sales API
   slug: sap-bydesign-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-sales-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-sales-api-openapi.yml
 - filename: sap-bydesign-supply-chain-api-openapi.yml
   format: yaml
   label: SAP Business ByDesign Supply Chain API
   slug: sap-bydesign-supply-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/openapi/sap-bydesign-supply-chain-api-openapi.yml
+  url: https://artifacts.apis.io/sap-bydesign/openapi/sap-bydesign-supply-chain-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-by
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sap/byd/odata/cust/v1/khproject/ProjectCollection\n  method: get\n  operationId: queryProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sap/byd/odata/cust/v1/khlead/LeadCollection\n  method: get\n  operationId: queryLeads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sap/byd/odata/cust/v1/khopportunity/OpportunityCollection\n  method: get\n  operationId: queryOpportunities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n  \
   \  audit: none\n- path: /sap/byd/odata/cust/v1/khpayment/PaymentCollection\n  method: get\n  operationId: queryPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sap/byd/odata/cust/v1/khhousebankaccount/HouseBankAccountQueryByElements\n  method: get\n  operationId: queryHouseBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sap/byd/odata/ana_businessanalytics_analytics.svc/$metadata\n  method: get\n  operationId: getAnalyticsMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sap/byd/odata/ana_businessanalytics_analytics.svc/{ReportEntitySet}\n  method: get\n  operationId: queryAnalyticsReport\n  x-agentic-access:\n    action-class: connected\n \
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sap/byd/odata/\n  method: get\n  operationId: listODataServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-bydesign/refs/heads/main/agentic-access/sap-bydesign-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-bydesign/agentic-access/sap-bydesign-agentic-access.yml
 summary_line: 26 operations · 7 acting
 tags:
 - ERP

@@ -9,43 +9,43 @@ api_specs:
   label: LawVu Contracts API
   slug: lawvu-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-contracts-api-openapi.yml
 - filename: lawvu-fields-api-openapi.yml
   format: yaml
   label: LawVu Fields API
   slug: lawvu-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-fields-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-fields-api-openapi.yml
 - filename: lawvu-files-api-openapi.yml
   format: yaml
   label: LawVu Files API
   slug: lawvu-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-files-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-files-api-openapi.yml
 - filename: lawvu-invoices-api-openapi.yml
   format: yaml
   label: LawVu Invoices API
   slug: lawvu-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-invoices-api-openapi.yml
 - filename: lawvu-matters-api-openapi.yml
   format: yaml
   label: LawVu Matters API
   slug: lawvu-matters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-matters-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-matters-api-openapi.yml
 - filename: lawvu-teams-api-openapi.yml
   format: yaml
   label: LawVu Teams API
   slug: lawvu-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-teams-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-teams-api-openapi.yml
 - filename: lawvu-users-api-openapi.yml
   format: yaml
   label: LawVu Users API
   slug: lawvu-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/openapi/lawvu-users-api-openapi.yml
+  url: https://artifacts.apis.io/lawvu/openapi/lawvu-users-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 60
@@ -109,7 +109,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lawvu-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/users\n  method: get\n  operationId: get-v1-matters-matterid-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/externalid/{externalId}\n  method: get\n  operationId: get-v1-matters-externalid-externalid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/fields\n  method: get\n  operationId: get-v1-matters-matterid-fields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/matters/{matterId}/fields\n  method: patch\n  operationId: patch-v1-matters-matterid-fields\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/matters/{matterId}/invoices\n  method: get\n  operationId: get-v1-matters-matterid-invoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/statusMessages\n  method: post\n  operationId: post-v1-matters-matterid-statusmessages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /v1/matters/tasks\n  method: get\n  operationId: get-v1-matters-tasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/tasktemplates\n  method: get\n  operationId: get-v1-matters-tasktemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matters/{matterId}/taskTemplates\n  method: post\n  operationId: post-v1-matters-matterid-tasktemplates\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/agentic-access/lawvu-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lawvu/agentic-access/lawvu-agentic-access.yml
 summary_line: 105 operations · 45 acting
 tags:
 - Company

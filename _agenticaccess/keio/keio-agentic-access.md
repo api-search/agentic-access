@@ -7,13 +7,13 @@ api_specs:
   label: Keio University IIIF API
   slug: keio-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-api-openapi.yml
+  url: https://artifacts.apis.io/keio/openapi/keio-iiif-api-openapi.yml
 - filename: keio-metadata-harvesting-api-openapi.yml
   format: yaml
   label: Keio University Metadata Harvesting API
   slug: keio-metadata-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-metadata-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/keio/openapi/keio-metadata-harvesting-api-openapi.yml
 consequence_counts: {}
 description: 'What an AI agent arriving at Keio University can actually do. The finding is mixed in an interesting way: the institution publishes none of the modern agent-facing conventions and, on its main web estate, not even the old ones — but the two surfaces it does operate are among the friendliest an agent could ask for, because they are anonymous, standards-described and self-describing. An agent that knows OAI-PMH or IIIF can consume Keio''s scholarly and digitised holdings today with no key, no negotiation and no account.'
 human_in_the_loop: 0
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: derived\nauthorship: API Evangeli
   \    present: false\n    note: No Model Context Protocol server, manifest or endpoint found on any Keio host.\n  - name: Agent card (/.well-known/agent.json)\n    present: false\n    note: >-\n      Not found, and deliberately not derived. Agent cards are search-only in this pipeline; one is\n      never written on a provider's behalf.\n  - name: OpenAPI published by Keio\n    present: false\n    note: >-\n      Keio publishes no OpenAPI, no AsyncAPI, no apis.json and no WADL. The two contracts in this\n      repository were written by API Evangelist from probes and are marked as such in their\n      x-provenance blocks.\n\nagent_consumable_today:\n  - surface: KOARA OAI-PMH\n    baseURL: https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/oai.php\n    x-operator: institution\n    why: >-\n      Anonymous, no key, no rate limit encountered, responses self-describe against a published\n      schema, and the full set hierarchy is enumerable in one call. An agent can harvest the entire\n\
   \      scholarly record of the university without asking anyone.\n    caveat: >-\n      Protocol errors arrive with HTTP 200 and the failure inside the XML body. An agent branching\n      on status code alone will silently mistake failures for successes.\n  - surface: IIIF Presentation and Image APIs\n    baseURL: https://dcollections.lib.keio.ac.jp/sites/default/files/iiif/\n    x-operator: institution\n    why: >-\n      Anonymous JSON-LD, IIIF-conformant, with an image service that answers arbitrary region, size\n      and rotation requests. An agent can retrieve and reason over 656 folios of the Gutenberg\n      42-line Bible without an account.\n    caveat: >-\n      Archive codes are undocumented. Manifest URLs must be resolved from the site's HTML, which is\n      the one real barrier to autonomous discovery on this surface.\n\nagent_blocked:\n  - surface: keio.figshare.com\n    status: 202\n    detail: >-\n      Returns HTTP 202 with a zero-byte body to a scripted client — a bot\
   \ interstitial. Recorded as\n      a fact about the platform's edge, not about Keio.\n  - surface: www.linkedin.com/school/keio-university/\n    status: 999\n    detail: LinkedIn's standard bot rejection. The pointer is live for a human; not a dead link.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/agentic-access/keio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/keio/agentic-access/keio-agentic-access.yml
 summary_line: 0 operations
 tags:
 - Education

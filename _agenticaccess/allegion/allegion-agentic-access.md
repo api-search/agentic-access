@@ -9,31 +9,31 @@ api_specs:
   label: Allegion Access Codes API
   slug: allegion-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-access-codes-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-access-codes-api-openapi.yml
 - filename: allegion-commands-api-openapi.yml
   format: yaml
   label: Allegion Commands API
   slug: allegion-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-commands-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-commands-api-openapi.yml
 - filename: allegion-devices-api-openapi.yml
   format: yaml
   label: Allegion Devices API
   slug: allegion-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-devices-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-devices-api-openapi.yml
 - filename: allegion-mobile-credentials-api-openapi.yml
   format: yaml
   label: Allegion Mobile Credentials API
   slug: allegion-mobile-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-mobile-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-mobile-credentials-api-openapi.yml
 - filename: allegion-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Allegion Webhook Subscriptions API
   slug: allegion-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/engage
   \    audit: required\n- path: /devices/{deviceId}/access-codes/{accessCodeId}\n  method: get\n  operationId: getAccessCode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /devices/{deviceId}/access-codes/{accessCodeId}\n  method: put\n  operationId: updateAccessCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/{deviceId}/access-codes/{accessCodeId}\n  method: delete\n  operationId: deleteAccessCode\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n   \
   \   - high-value\n    audit: required\n- path: /devices/{deviceId}/commands/{commandId}\n  method: get\n  operationId: getCommand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/subscriptions/{subscriptionId}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/agentic-access/allegion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/allegion/agentic-access/allegion-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
 - Access Control
@@ -78,8 +78,9 @@ tags:
 - IoT
 - Security
 - Webhook
-- Authentication
+- OAuth
 - Schlage
 - Von Duprin
 - ENGAGE
+- Authentication
 ---

@@ -9,91 +9,91 @@ api_specs:
   label: CloudTalk Agents API
   slug: cloudtalk-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-agents-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-agents-api-openapi.yml
 - filename: cloudtalk-bulks-api-openapi.yml
   format: yaml
   label: CloudTalk Bulks API
   slug: cloudtalk-bulks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-bulks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-bulks-api-openapi.yml
 - filename: cloudtalk-calls-api-openapi.yml
   format: yaml
   label: CloudTalk Calls API
   slug: cloudtalk-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-calls-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-calls-api-openapi.yml
 - filename: cloudtalk-campaigns-api-openapi.yml
   format: yaml
   label: CloudTalk Campaigns API
   slug: cloudtalk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-campaigns-api-openapi.yml
 - filename: cloudtalk-contacts-api-openapi.yml
   format: yaml
   label: CloudTalk Contacts API
   slug: cloudtalk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-contacts-api-openapi.yml
 - filename: cloudtalk-conversation-intelligence-api-openapi.yml
   format: yaml
   label: CloudTalk Conversation Intelligence API
   slug: cloudtalk-conversation-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-conversation-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-conversation-intelligence-api-openapi.yml
 - filename: cloudtalk-cuecard-api-openapi.yml
   format: yaml
   label: CloudTalk CueCard API
   slug: cloudtalk-cuecard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-cuecard-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-cuecard-api-openapi.yml
 - filename: cloudtalk-groups-api-openapi.yml
   format: yaml
   label: CloudTalk Groups API
   slug: cloudtalk-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-groups-api-openapi.yml
 - filename: cloudtalk-numbers-api-openapi.yml
   format: yaml
   label: CloudTalk Numbers API
   slug: cloudtalk-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-numbers-api-openapi.yml
 - filename: cloudtalk-sms-api-openapi.yml
   format: yaml
   label: CloudTalk Sms API
   slug: cloudtalk-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-sms-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-sms-api-openapi.yml
 - filename: cloudtalk-voiceagent-api-openapi.yml
   format: yaml
   label: CloudTalk VoiceAgent API
   slug: cloudtalk-voiceagent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-voiceagent-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-voiceagent-api-openapi.yml
 - filename: cloudtalk-contact-tags-api-openapi.yml
   format: yaml
   label: CloudTalk Contact tags API
   slug: cloudtalk-contact-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-contact-tags-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-contact-tags-api-openapi.yml
 - filename: cloudtalk-dialer-api-openapi.yml
   format: yaml
   label: CloudTalk Dialer API
   slug: cloudtalk-dialer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-dialer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-dialer-api-openapi.yml
 - filename: cloudtalk-utilities-api-openapi.yml
   format: yaml
   label: CloudTalk Utilities API
   slug: cloudtalk-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-utilities-api-openapi.yml
 - filename: cloudtalk-webhooks-api-openapi.yml
   format: yaml
   label: CloudTalk Webhooks API
   slug: cloudtalk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/openapi/cloudtalk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudtalk/openapi/cloudtalk-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 23
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/cloudt
   \  audit: none\n- path: /tags/index.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/add.json\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/edit/{id}.json\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/delete/{id}.json\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ai/calls/{callId}/summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/calls/{callId}/overall-sentiment\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/calls/{callId}/talk-listen-ratio\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/calls/{callId}/topics\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/calls/{callId}/transcription\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/calls/{callId}/smart-notes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ai/calls/{callId}/details-link\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /voice-agent/calls\n  method: post\n  operationId: createVoiceAgentCall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudtalk/refs/heads/main/agentic-access/cloudtalk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudtalk/agentic-access/cloudtalk-agentic-access.yml
 summary_line: 56 operations · 33 acting
 tags:
 - Company

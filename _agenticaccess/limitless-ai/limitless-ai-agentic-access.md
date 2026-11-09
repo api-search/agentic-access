@@ -9,25 +9,25 @@ api_specs:
   label: Limitless Chats API
   slug: limitless-ai-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-chats-api-openapi.yml
+  url: https://artifacts.apis.io/limitless-ai/openapi/limitless-ai-chats-api-openapi.yml
 - filename: limitless-ai-download-audio-api-openapi.yml
   format: yaml
   label: Limitless Download Audio API
   slug: limitless-ai-download-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-download-audio-api-openapi.yml
+  url: https://artifacts.apis.io/limitless-ai/openapi/limitless-ai-download-audio-api-openapi.yml
 - filename: limitless-ai-lifelogs-api-openapi.yml
   format: yaml
   label: Limitless Lifelogs API
   slug: limitless-ai-lifelogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-lifelogs-api-openapi.yml
+  url: https://artifacts.apis.io/limitless-ai/openapi/limitless-ai-lifelogs-api-openapi.yml
 - filename: limitless-ai-limitless-developer-api-api-openapi.yml
   format: yaml
   label: Limitless Developer API
   slug: limitless-ai-limitless-developer-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/openapi/limitless-ai-limitless-developer-api-api-openapi.yml
+  url: https://artifacts.apis.io/limitless-ai/openapi/limitless-ai-limitless-developer-api-api-openapi.yml
 consequence_counts:
   read: 6
   write: 2
@@ -56,7 +56,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/limitless-ai-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 6\n    acting: 2\n  by_consequence:\n    read: 6\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lifelogs\n  method: get\n  operationId: getLifelogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lifelogs/{id}\n  method: get\n  operationId: getLifelog\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/lifelogs/{id}\n  method: delete\n  operationId: deleteLifelog\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/chats\n  method: get\n  operationId: getChats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/chats/{id}\n  method: get\n  operationId: getChat\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/chats/{id}\n  method: delete\n  operationId: deleteChat\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/download-audio\n  method: get\n  operationId: downloadAudio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limitless-ai/refs/heads/main/agentic-access/limitless-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/limitless-ai/agentic-access/limitless-ai-agentic-access.yml
 summary_line: 8 operations · 2 acting
 tags:
 - Artificial Intelligence

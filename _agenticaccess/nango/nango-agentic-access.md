@@ -9,31 +9,31 @@ api_specs:
   label: Nango Actions API
   slug: nango-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-actions-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-actions-api-openapi.yml
 - filename: nango-connections-api-openapi.yml
   format: yaml
   label: Nango Connections API
   slug: nango-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-connections-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-connections-api-openapi.yml
 - filename: nango-integrations-api-openapi.yml
   format: yaml
   label: Nango Integrations API
   slug: nango-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-integrations-api-openapi.yml
 - filename: nango-proxy-api-openapi.yml
   format: yaml
   label: Nango Proxy API
   slug: nango-proxy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-proxy-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-proxy-api-openapi.yml
 - filename: nango-syncs-api-openapi.yml
   format: yaml
   label: Nango Syncs API
   slug: nango-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/openapi/nango-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/nango/openapi/nango-syncs-api-openapi.yml
 consequence_counts:
   read: 7
   write: 14
@@ -66,13 +66,14 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nango-
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syncs/records\n  method: get\n  operationId: getSyncRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /syncs/trigger\n  method: post\n  operationId: triggerSync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /syncs/status\n  method: get\n  operationId: getSyncStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /actions/trigger\n  method: post\n  operationId: triggerAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/{path}\n  method: get\n  operationId: proxyGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /proxy/{path}\n  method: post\n  operationId: proxyPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/{path}\n  method: put\n  operationId: proxyPut\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/{path}\n  method: patch\n  operationId: proxyPatch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /proxy/{path}\n  method: delete\n  operationId: proxyDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nango/refs/heads/main/agentic-access/nango-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nango/agentic-access/nango-agentic-access.yml
 summary_line: 21 operations · 14 acting
 tags:
 - AI Agents
 - Integration
-- Authentication
+- OAuth
 - Syncing
 - Unified API
 - Webhook
+- Authentication
 ---

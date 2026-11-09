@@ -9,55 +9,55 @@ api_specs:
   label: iBanFirst Accounts API
   slug: ibanfirst-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-accounts-api-openapi.yml
 - filename: ibanfirst-beneficiaries-api-openapi.yml
   format: yaml
   label: iBanFirst Beneficiaries API
   slug: ibanfirst-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-beneficiaries-api-openapi.yml
 - filename: ibanfirst-documents-api-openapi.yml
   format: yaml
   label: iBanFirst Documents API
   slug: ibanfirst-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-documents-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-documents-api-openapi.yml
 - filename: ibanfirst-financial-movements-api-openapi.yml
   format: yaml
   label: iBanFirst Financial movements API
   slug: ibanfirst-financial-movements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-financial-movements-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-financial-movements-api-openapi.yml
 - filename: ibanfirst-fixed-forward-payment-contract-api-openapi.yml
   format: yaml
   label: iBanFirst Fixed forward payment contract API
   slug: ibanfirst-fixed-forward-payment-contract-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-fixed-forward-payment-contract-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-fixed-forward-payment-contract-api-openapi.yml
 - filename: ibanfirst-logs-api-openapi.yml
   format: yaml
   label: iBanFirst Logs API
   slug: ibanfirst-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-logs-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-logs-api-openapi.yml
 - filename: ibanfirst-payments-api-openapi.yml
   format: yaml
   label: iBanFirst Payments API
   slug: ibanfirst-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-payments-api-openapi.yml
 - filename: ibanfirst-spot-trades-api-openapi.yml
   format: yaml
   label: iBanFirst Spot trades API
   slug: ibanfirst-spot-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-spot-trades-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-spot-trades-api-openapi.yml
 - filename: ibanfirst-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: iBanFirst Webhook subscriptions API
   slug: ibanfirst-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/openapi/ibanfirst-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/ibanfirst/openapi/ibanfirst-webhook-subscriptions-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 22
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/ibanfi
   \      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: postWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: getWebhooksByWebhookId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhookId}\n  method: patch\n  operationId: patchWebhooksByWebhookId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhooksByWebhookId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/rotate-secret\n  method: post\n  operationId: postWebhooksByWebhookIdRotateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/failed-notifications\n  method:\
   \ get\n  operationId: getWebhooksByWebhookIdFailedNotifications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibanfirst/refs/heads/main/agentic-access/ibanfirst-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibanfirst/agentic-access/ibanfirst-agentic-access.yml
 summary_line: 38 operations · 16 acting
 tags:
 - Company
@@ -146,7 +146,7 @@ tags:
 - Foreign Exchange
 - B2B Payments
 - Treasury
-- multi-currency-accounts
+- Multi‑Currency Accounts
 - SEPA
 - PSD2
 - Open Banking

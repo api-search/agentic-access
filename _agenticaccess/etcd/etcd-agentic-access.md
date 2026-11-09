@@ -8,37 +8,37 @@ api_specs:
   label: Etcd Auth API
   slug: etcd-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-auth-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-auth-api-openapi.yml
 - filename: etcd-cluster-api-openapi.yml
   format: yaml
   label: Etcd Cluster API
   slug: etcd-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-cluster-api-openapi.yml
 - filename: etcd-kv-api-openapi.yml
   format: yaml
   label: Etcd KV API
   slug: etcd-kv-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-kv-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-kv-api-openapi.yml
 - filename: etcd-lease-api-openapi.yml
   format: yaml
   label: Etcd Lease API
   slug: etcd-lease-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-lease-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-lease-api-openapi.yml
 - filename: etcd-maintenance-api-openapi.yml
   format: yaml
   label: Etcd Maintenance API
   slug: etcd-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-maintenance-api-openapi.yml
 - filename: etcd-watch-api-openapi.yml
   format: yaml
   label: Etcd Watch API
   slug: etcd-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/openapi/etcd-watch-api-openapi.yml
+  url: https://artifacts.apis.io/etcd/openapi/etcd-watch-api-openapi.yml
 consequence_counts:
   physical: 1
   safety-critical: 4
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/etcd-h
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/role/get\n  method: post\n  operationId: authRoleGet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/role/delete\n  method: post\n  operationId: authRoleDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/role/list\n  method: post\n  operationId: authRoleList\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/role/grant\n  method: post\n  operationId: authRoleGrantPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auth/role/revoke\n  method: post\n  operationId: authRoleRevokePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etcd/refs/heads/main/agentic-access/etcd-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/etcd/agentic-access/etcd-agentic-access.yml
 summary_line: 38 operations · 38 acting · 4 human-in-the-loop
 tags:
 - Cloud-Native

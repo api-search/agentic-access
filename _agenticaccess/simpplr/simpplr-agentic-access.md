@@ -9,67 +9,67 @@ api_specs:
   label: Simpplr Alerts API
   slug: simpplr-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-alerts-api-openapi.yml
 - filename: simpplr-analytics-api-openapi.yml
   format: yaml
   label: Simpplr Analytics API
   slug: simpplr-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-analytics-api-openapi.yml
 - filename: simpplr-audience-api-openapi.yml
   format: yaml
   label: Simpplr Audience API
   slug: simpplr-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-audience-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-audience-api-openapi.yml
 - filename: simpplr-blogs-api-openapi.yml
   format: yaml
   label: Simpplr Blogs API
   slug: simpplr-blogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-blogs-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-blogs-api-openapi.yml
 - filename: simpplr-carousels-api-openapi.yml
   format: yaml
   label: Simpplr Carousels API
   slug: simpplr-carousels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-carousels-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-carousels-api-openapi.yml
 - filename: simpplr-contents-api-openapi.yml
   format: yaml
   label: Simpplr Contents API
   slug: simpplr-contents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-contents-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-contents-api-openapi.yml
 - filename: simpplr-notifications-api-openapi.yml
   format: yaml
   label: Simpplr Notifications API
   slug: simpplr-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-notifications-api-openapi.yml
 - filename: simpplr-people-api-openapi.yml
   format: yaml
   label: Simpplr People API
   slug: simpplr-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-people-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-people-api-openapi.yml
 - filename: simpplr-search-api-openapi.yml
   format: yaml
   label: Simpplr Search API
   slug: simpplr-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-search-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-search-api-openapi.yml
 - filename: simpplr-simpplr-api-gw-search-people-by-id-api-openapi.yml
   format: yaml
   label: Simpplr Simpplr Api Gw Search People By Id API
   slug: simpplr-simpplr-api-gw-search-people-by-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-simpplr-api-gw-search-people-by-id-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-simpplr-api-gw-search-people-by-id-api-openapi.yml
 - filename: simpplr-sites-api-openapi.yml
   format: yaml
   label: Simpplr Sites API
   slug: simpplr-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/openapi/simpplr-sites-api-openapi.yml
+  url: https://artifacts.apis.io/simpplr/openapi/simpplr-sites-api-openapi.yml
 consequence_counts:
   read: 45
   write: 29
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/simppl
   \    audit: required\n- path: /sites/{site-id}/member/{member-id}\n  method: delete\n  operationId: remove-a-member-from-a-site\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contents/site/{site-id}/page\n  method: post\n  operationId: create-page\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /?\n  method: get\n  operationId: search-for-people-by-people-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/views\n\
   \  method: get\n  operationId: app-adoption-2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contents/approval\n  method: get\n  operationId: fetch-all-content-for-approval\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contents/content/{content_id}/validate\n  method: post\n  operationId: validate-a-content\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contents/site/{site_id}/content/{content_id}/approval\n  method: post\n  operationId: content-approval\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /contents/video\n  method: get\n  operationId: fetch-video-metadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpplr/refs/heads/main/agentic-access/simpplr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simpplr/agentic-access/simpplr-agentic-access.yml
 summary_line: 74 operations · 29 acting
 tags:
 - Company

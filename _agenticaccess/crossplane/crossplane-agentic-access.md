@@ -9,43 +9,43 @@ api_specs:
   label: Crossplane CompositeResourceDefinitions API
   slug: crossplane-compositeresourcedefinitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-compositeresourcedefinitions-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-compositeresourcedefinitions-api-openapi.yml
 - filename: crossplane-compositions-api-openapi.yml
   format: yaml
   label: Crossplane Compositions API
   slug: crossplane-compositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-compositions-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-compositions-api-openapi.yml
 - filename: crossplane-configurations-api-openapi.yml
   format: yaml
   label: Crossplane Configurations API
   slug: crossplane-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-configurations-api-openapi.yml
 - filename: crossplane-deploymentruntimeconfigs-api-openapi.yml
   format: yaml
   label: Crossplane DeploymentRuntimeConfigs API
   slug: crossplane-deploymentruntimeconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-deploymentruntimeconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-deploymentruntimeconfigs-api-openapi.yml
 - filename: crossplane-environmentconfigs-api-openapi.yml
   format: yaml
   label: Crossplane EnvironmentConfigs API
   slug: crossplane-environmentconfigs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-environmentconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-environmentconfigs-api-openapi.yml
 - filename: crossplane-functions-api-openapi.yml
   format: yaml
   label: Crossplane Functions API
   slug: crossplane-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-functions-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-functions-api-openapi.yml
 - filename: crossplane-providers-api-openapi.yml
   format: yaml
   label: Crossplane Providers API
   slug: crossplane-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/openapi/crossplane-providers-api-openapi.yml
+  url: https://artifacts.apis.io/crossplane/openapi/crossplane-providers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 14
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/crossp
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/pkg.crossplane.io/v1/configurations\n  method: get\n  operationId: listConfigurations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/pkg.crossplane.io/v1/configurations\n  method: post\n  operationId: createConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/pkg.crossplane.io/v1/configurations/{name}\n  method: get\n  operationId: getConfiguration\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/pkg.crossplane.io/v1/configurations/{name}\n  method: delete\n  operationId: deleteConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/pkg.crossplane.io/v1beta1/deploymentruntimeconfigs\n  method: get\n  operationId: listDeploymentRuntimeConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/pkg.crossplane.io/v1beta1/deploymentruntimeconfigs\n  method: post\n  operationId: createDeploymentRuntimeConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /apis/pkg.crossplane.io/v1beta1/deploymentruntimeconfigs/{name}\n  method: get\n  operationId: getDeploymentRuntimeConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /apis/pkg.crossplane.io/v1beta1/deploymentruntimeconfigs/{name}\n  method: delete\n  operationId: deleteDeploymentRuntimeConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/agentic-access/crossplane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crossplane/agentic-access/crossplane-agentic-access.yml
 summary_line: 31 operations · 17 acting
 tags:
 - Apache 2.0

@@ -9,157 +9,157 @@ api_specs:
   label: Decision Anchor Agent API
   slug: decision-anchor-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-agent-api-openapi.yml
 - filename: decision-anchor-com-ara-api-openapi.yml
   format: yaml
   label: Decision Anchor ARA API
   slug: decision-anchor-com-ara-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-ara-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-ara-api-openapi.yml
 - filename: decision-anchor-com-asa-api-openapi.yml
   format: yaml
   label: Decision Anchor ASA API
   slug: decision-anchor-com-asa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-asa-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-asa-api-openapi.yml
 - filename: decision-anchor-com-bilateral-api-openapi.yml
   format: yaml
   label: Decision Anchor Bilateral API
   slug: decision-anchor-com-bilateral-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-bilateral-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-bilateral-api-openapi.yml
 - filename: decision-anchor-com-classification-api-openapi.yml
   format: yaml
   label: Decision Anchor Classification API
   slug: decision-anchor-com-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-classification-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-classification-api-openapi.yml
 - filename: decision-anchor-com-dab-api-openapi.yml
   format: yaml
   label: Decision Anchor DAB API
   slug: decision-anchor-com-dab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dab-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dab-api-openapi.yml
 - filename: decision-anchor-com-dap-account-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP Account API
   slug: decision-anchor-com-dap-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-account-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-account-api-openapi.yml
 - filename: decision-anchor-com-dap-agent-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP Agent API
   slug: decision-anchor-com-dap-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-agent-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-agent-api-openapi.yml
 - filename: decision-anchor-com-dap-asa-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP ASA API
   slug: decision-anchor-com-dap-asa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-asa-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-asa-api-openapi.yml
 - filename: decision-anchor-com-dap-auth-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP Auth API
   slug: decision-anchor-com-dap-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-auth-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-auth-api-openapi.yml
 - filename: decision-anchor-com-dap-dab-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP DAB API
   slug: decision-anchor-com-dap-dab-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-dab-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-dab-api-openapi.yml
 - filename: decision-anchor-com-dap-dashboard-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP Dashboard API
   slug: decision-anchor-com-dap-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-dashboard-api-openapi.yml
 - filename: decision-anchor-com-dap-dur-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP DUR API
   slug: decision-anchor-com-dap-dur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-dur-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-dur-api-openapi.yml
 - filename: decision-anchor-com-dap-policy-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP Policy API
   slug: decision-anchor-com-dap-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-policy-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-policy-api-openapi.yml
 - filename: decision-anchor-com-dap-trial-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP Trial API
   slug: decision-anchor-com-dap-trial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-trial-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-trial-api-openapi.yml
 - filename: decision-anchor-com-dap-tsl-api-openapi.yml
   format: yaml
   label: Decision Anchor DAP TSL API
   slug: decision-anchor-com-dap-tsl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dap-tsl-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dap-tsl-api-openapi.yml
 - filename: decision-anchor-com-dd-api-openapi.yml
   format: yaml
   label: Decision Anchor DD API
   slug: decision-anchor-com-dd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dd-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dd-api-openapi.yml
 - filename: decision-anchor-com-dur-api-openapi.yml
   format: yaml
   label: Decision Anchor DUR API
   slug: decision-anchor-com-dur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-dur-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-dur-api-openapi.yml
 - filename: decision-anchor-com-earned-dac-api-openapi.yml
   format: yaml
   label: Decision Anchor Earned DAC API
   slug: decision-anchor-com-earned-dac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-earned-dac-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-earned-dac-api-openapi.yml
 - filename: decision-anchor-com-ise-api-openapi.yml
   format: yaml
   label: Decision Anchor ISE API
   slug: decision-anchor-com-ise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-ise-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-ise-api-openapi.yml
 - filename: decision-anchor-com-payment-api-openapi.yml
   format: yaml
   label: Decision Anchor Payment API
   slug: decision-anchor-com-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-payment-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-payment-api-openapi.yml
 - filename: decision-anchor-com-pricing-api-openapi.yml
   format: yaml
   label: Decision Anchor Pricing API
   slug: decision-anchor-com-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-pricing-api-openapi.yml
 - filename: decision-anchor-com-retention-api-openapi.yml
   format: yaml
   label: Decision Anchor Retention API
   slug: decision-anchor-com-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-retention-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-retention-api-openapi.yml
 - filename: decision-anchor-com-sdac-api-openapi.yml
   format: yaml
   label: Decision Anchor S DAC API
   slug: decision-anchor-com-sdac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-sdac-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-sdac-api-openapi.yml
 - filename: decision-anchor-com-trial-api-openapi.yml
   format: yaml
   label: Decision Anchor Trial API
   slug: decision-anchor-com-trial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-trial-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-trial-api-openapi.yml
 - filename: decision-anchor-com-tsl-api-openapi.yml
   format: yaml
   label: Decision Anchor TSL API
   slug: decision-anchor-com-tsl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/openapi/decision-anchor-com-tsl-api-openapi.yml
+  url: https://artifacts.apis.io/decision-anchor-com/openapi/decision-anchor-com-tsl-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 66
@@ -250,7 +250,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/decisi
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dap/agent/{agent_id}/report/export\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dap/tsl/human-share\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dap/tsl/human-shares\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dap/asa/subscription/{agent_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /dap/asa/subscription/{agent_id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dap/asa/snapshot/{agent_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dap/asa/verify/{agent_id}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dap/dur/summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dap/dur/export\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dap/trial/status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/agent/token/recover\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/decision-anchor-com/refs/heads/main/agentic-access/decision-anchor-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/decision-anchor-com/agentic-access/decision-anchor-com-agentic-access.yml
 summary_line: 116 operations · 50 acting · 1 human-in-the-loop
 tags:
 - Agents

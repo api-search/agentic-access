@@ -9,43 +9,43 @@ api_specs:
   label: Miriel Documents API
   slug: miriel-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-documents-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-documents-api-openapi.yml
 - filename: miriel-learn-api-openapi.yml
   format: yaml
   label: Miriel Learn API
   slug: miriel-learn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-learn-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-learn-api-openapi.yml
 - filename: miriel-monitoring-api-openapi.yml
   format: yaml
   label: Miriel Monitoring API
   slug: miriel-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-monitoring-api-openapi.yml
 - filename: miriel-policies-api-openapi.yml
   format: yaml
   label: Miriel Policies API
   slug: miriel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-policies-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-policies-api-openapi.yml
 - filename: miriel-projects-api-openapi.yml
   format: yaml
   label: Miriel Projects API
   slug: miriel-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-projects-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-projects-api-openapi.yml
 - filename: miriel-query-api-openapi.yml
   format: yaml
   label: Miriel Query API
   slug: miriel-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-query-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-query-api-openapi.yml
 - filename: miriel-users-api-openapi.yml
   format: yaml
   label: Miriel Users API
   slug: miriel-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/openapi/miriel-users-api-openapi.yml
+  url: https://artifacts.apis.io/miriel/openapi/miriel-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 12
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/miriel
   \ path: /api/v2/get_projects\n  method: post\n  operationId: getProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/create_project\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/delete_project\n  method: post\n  operationId: deleteProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/query\n  method: post\n  operationId: query\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/create_user\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/get_users\n  method: post\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/delete_user\n  method: post\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n  \
   \    - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miriel/refs/heads/main/agentic-access/miriel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/miriel/agentic-access/miriel-agentic-access.yml
 summary_line: 21 operations · 12 acting
 tags:
 - Company

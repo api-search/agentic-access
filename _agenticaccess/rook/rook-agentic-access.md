@@ -9,19 +9,19 @@ api_specs:
   label: Rook Buckets API
   slug: rook-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-buckets-api-openapi.yml
 - filename: rook-multipart-uploads-api-openapi.yml
   format: yaml
   label: Rook Multipart Uploads API
   slug: rook-multipart-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-multipart-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-multipart-uploads-api-openapi.yml
 - filename: rook-objects-api-openapi.yml
   format: yaml
   label: Rook Objects API
   slug: rook-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/openapi/rook-objects-api-openapi.yml
+  url: https://artifacts.apis.io/rook/openapi/rook-objects-api-openapi.yml
 consequence_counts:
   read: 6
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rook-c
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}\n  method: head\n  operationId: headBucket\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket}\n  method: delete\n  operationId: deleteBucket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}\n  method: get\n  operationId: listObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket}/{key}\n  method: put\n  operationId: putObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n   \
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}/{key}\n  method: get\n  operationId: getObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket}/{key}\n  method: head\n  operationId: headObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket}/{key}\n  method: delete\n  operationId: deleteObject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket}?uploads\n  method: get\n \
   \ operationId: listMultipartUploads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket}/{key}?uploads\n  method: post\n  operationId: createMultipartUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rook/refs/heads/main/agentic-access/rook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rook/agentic-access/rook-agentic-access.yml
 summary_line: 11 operations · 5 acting
 tags:
 - Block Storage

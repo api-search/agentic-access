@@ -9,25 +9,25 @@ api_specs:
   label: ToolJet Applications API
   slug: tooljet-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-applications-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-applications-api-openapi.yml
 - filename: tooljet-groups-api-openapi.yml
   format: yaml
   label: ToolJet Groups API
   slug: tooljet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-groups-api-openapi.yml
 - filename: tooljet-users-api-openapi.yml
   format: yaml
   label: ToolJet Users API
   slug: tooljet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-users-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-users-api-openapi.yml
 - filename: tooljet-workspaces-api-openapi.yml
   format: yaml
   label: ToolJet Workspaces API
   slug: tooljet-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-workspaces-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/toolje
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /push-git/{appId}/{versionId}\n  method: post\n  operationId: pushGit\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /auto-deploy/{appIdOrSlug}\n  method: post\n  operationId: autoDeploy\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /save-version/{appIdOrSlug}\n  method: post\n  operationId: saveVersion\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/{workspaceId}/groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspaceId}/groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/{workspaceId}/groups/{groupId}\n  method: get\n  operationId: getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspace/{workspaceId}/groups/{groupId}\n  method: patch\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace/{workspaceId}/groups/{groupId}\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/agentic-access/tooljet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tooljet/agentic-access/tooljet-agentic-access.yml
 summary_line: 23 operations · 15 acting
 tags:
 - Low-Code

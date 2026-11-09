@@ -9,31 +9,31 @@ api_specs:
   label: Fauna Event Streaming API
   slug: event-streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/asyncapi/fauna-event-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/fauna/asyncapi/fauna-event-streaming-asyncapi.yml
 - filename: fauna-eventfeeds-api-openapi.yml
   format: yaml
   label: fauna EventFeeds API
   slug: fauna-eventfeeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-eventfeeds-api-openapi.yml
+  url: https://artifacts.apis.io/fauna/openapi/fauna-eventfeeds-api-openapi.yml
 - filename: fauna-query-api-openapi.yml
   format: yaml
   label: fauna Query API
   slug: fauna-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-query-api-openapi.yml
+  url: https://artifacts.apis.io/fauna/openapi/fauna-query-api-openapi.yml
 - filename: fauna-schema-api-openapi.yml
   format: yaml
   label: fauna Schema API
   slug: fauna-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-schema-api-openapi.yml
+  url: https://artifacts.apis.io/fauna/openapi/fauna-schema-api-openapi.yml
 - filename: fauna-graph-ql-api-openapi.yml
   format: yaml
   label: Fauna Graph QL API
   slug: fauna-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/openapi/fauna-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/fauna/openapi/fauna-graph-ql-api-openapi.yml
 consequence_counts:
   read: 2
   write: 8
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fauna-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schema/1/files\n  method: get\n  operationId: getSchemaFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/1/update\n  method: post\n  operationId: updateSchemaFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schema/1/validate\n  method: post\n  operationId: validateSchemaFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schema/1/status\n  method: get\n  operationId: getStagedSchemaStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /schema/1/staged/commit\n  method: post\n  operationId: commitStagedSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /schema/1/staged/abandon\n  method: post\n  operationId: abandonStagedSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql\n  method: post\n  operationId: executeGraphQLQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import\n  method: post\n  operationId: importGraphQLSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fauna/refs/heads/main/agentic-access/fauna-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fauna/agentic-access/fauna-agentic-access.yml
 summary_line: 10 operations · 8 acting
 tags:
 - Database

@@ -8,13 +8,13 @@ api_specs:
   label: Tivo Content API
   slug: tivo-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-content-api-openapi.yml
+  url: https://artifacts.apis.io/tivo/openapi/tivo-content-api-openapi.yml
 - filename: tivo-lookup-api-openapi.yml
   format: yaml
   label: Tivo Lookup API
   slug: tivo-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/openapi/tivo-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/tivo/openapi/tivo-lookup-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tivo-video-metadata-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /v3/content/search\n  method: get\n  operationId: searchContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/content/{contentId}\n  method: get\n  operationId: lookupContentById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/content/{contentId}/images\n  method:\
   \ get\n  operationId: getContentImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/content/{contentId}/seasons\n  method: get\n  operationId: getContentSeasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/content/{contentId}/episodes\n  method: get\n  operationId: getContentEpisodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/people/{personId}\n  method: get\n  operationId: lookupPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tivo/refs/heads/main/agentic-access/tivo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tivo/agentic-access/tivo-agentic-access.yml
 summary_line: 6 operations
 tags:
 - Entertainment

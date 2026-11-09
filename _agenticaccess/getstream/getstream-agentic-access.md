@@ -9,31 +9,31 @@ api_specs:
   label: Stream Product:chat API
   slug: getstream-product-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-chat-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-chat-api-openapi.yml
 - filename: getstream-product-common-api-openapi.yml
   format: yaml
   label: Stream Product:common API
   slug: getstream-product-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-common-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-common-api-openapi.yml
 - filename: getstream-product-feeds-api-openapi.yml
   format: yaml
   label: Stream Product:feeds API
   slug: getstream-product-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-feeds-api-openapi.yml
 - filename: getstream-product-moderation-api-openapi.yml
   format: yaml
   label: Stream Product:moderation API
   slug: getstream-product-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-moderation-api-openapi.yml
 - filename: getstream-product-video-api-openapi.yml
   format: yaml
   label: Stream Product:video API
   slug: getstream-product-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/openapi/getstream-product-video-api-openapi.yml
+  url: https://artifacts.apis.io/getstream/openapi/getstream-product-video-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 223
@@ -223,8 +223,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/getstr
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/{message_id}/reminders\n  method: post\n  operationId: CreateReminder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /messages/{parent_id}/replies\n  method: get\n  operationId: GetReplies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /messages/history\n  method: post\n  operationId: QueryMessageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /moderation/ban\n  method: delete\n  operationId: Unban\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /moderation/ban\n  method: post\n  operationId: Ban\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /moderation/flag\n  method: post\n  operationId: Flag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /moderation/flags/message\n  method: get\n  operationId: QueryMessageFlags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /moderation/mute\n  method: post\n  operationId: MuteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /moderation/mute/channel\n  method: post\n  operationId: MuteChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n\n\n# --- truncated at 32 KB (199 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/agentic-access/getstream-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/agentic-access/getstream-agentic-access.yml
+  \    audit: required\n\n\n# --- truncated at 32 KB (199 KB total) ---\n# Full source: https://artifacts.apis.io/getstream/agentic-access/getstream-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/getstream/agentic-access/getstream-agentic-access.yml
 summary_line: 659 operations · 436 acting · 18 human-in-the-loop
 tags:
 - Chat

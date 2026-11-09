@@ -9,55 +9,85 @@ api_specs:
   label: Amazon AppSync Api Keys API
   slug: amazon-appsync-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-api-keys-api-openapi.yml
 - filename: amazon-appsync-data-sources-api-openapi.yml
   format: yaml
   label: Amazon AppSync Data Sources API
   slug: amazon-appsync-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-data-sources-api-openapi.yml
 - filename: amazon-appsync-domain-names-api-openapi.yml
   format: yaml
   label: Amazon AppSync Domain Names API
   slug: amazon-appsync-domain-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-domain-names-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-domain-names-api-openapi.yml
 - filename: amazon-appsync-functions-api-openapi.yml
   format: yaml
   label: Amazon AppSync Functions API
   slug: amazon-appsync-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-functions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-functions-api-openapi.yml
 - filename: amazon-appsync-graphql-apis-api-openapi.yml
   format: yaml
   label: Amazon AppSync GraphQL APIs API
   slug: amazon-appsync-graphql-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-graphql-apis-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-graphql-apis-api-openapi.yml
 - filename: amazon-appsync-resolvers-api-openapi.yml
   format: yaml
   label: Amazon AppSync Resolvers API
   slug: amazon-appsync-resolvers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-resolvers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-resolvers-api-openapi.yml
 - filename: amazon-appsync-schema-api-openapi.yml
   format: yaml
   label: Amazon AppSync Schema API
   slug: amazon-appsync-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-schema-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-schema-api-openapi.yml
 - filename: amazon-appsync-tags-api-openapi.yml
   format: yaml
   label: Amazon AppSync Tags API
   slug: amazon-appsync-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-tags-api-openapi.yml
 - filename: amazon-appsync-types-api-openapi.yml
   format: yaml
   label: Amazon AppSync Types API
   slug: amazon-appsync-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/openapi/amazon-appsync-types-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-types-api-openapi.yml
+- filename: amazon-appsync-apicaches-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apicaches API
+  slug: amazon-appsync-apicaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apicaches-api-openapi.yml
+- filename: amazon-appsync-apis-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Apis API
+  slug: amazon-appsync-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apis-api-openapi.yml
+- filename: amazon-appsync-channelnamespaces-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Channelnamespaces API
+  slug: amazon-appsync-channelnamespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-channelnamespaces-api-openapi.yml
+- filename: amazon-appsync-operations-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Operations API
+  slug: amazon-appsync-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-operations-api-openapi.yml
+- filename: amazon-appsync-sourceapiassociations-api-openapi.yml
+  format: yaml
+  label: Amazon AppSync Appsync Sourceapiassociations API
+  slug: amazon-appsync-sourceapiassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-sourceapiassociations-api-openapi.yml
 consequence_counts:
   read: 17
   write: 27
@@ -98,11 +128,12 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/domainnames/{domainName}/apiassociation\n  method: delete\n  operationId: disassociateApi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/domainnames/{domainName}/apiassociation\n  method: get\n  operationId: getApiAssociation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{resourceArn}\n  method: get\n  operationId: listTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/{resourceArn}\n  method: post\n  operationId:\
   \ tagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/{resourceArn}\n  method: delete\n  operationId: untagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/apis/{apiId}/graphql\n  method: post\n  operationId: evaluateMappingTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1/apis/{apiId}/introspection\n  method: get\n  operationId: getIntrospectionSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-appsync/refs/heads/main/agentic-access/amazon-appsync-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-appsync/agentic-access/amazon-appsync-agentic-access.yml
 summary_line: 44 operations · 27 acting
 tags:
 - Amazon AppSync
 - GraphQL
 - API Management
 - Serverless
+- Amazon Web Services
 ---

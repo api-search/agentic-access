@@ -41,5 +41,4 @@ tags:
 - Image Conversion
 - SVG
 - Design Tools
-- API
 ---

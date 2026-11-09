@@ -9,31 +9,73 @@ api_specs:
   label: Google Cloud Storage BucketAccessControls API
   slug: gcp-cloud-storage-bucketaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-buckets-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Buckets API
   slug: gcp-cloud-storage-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-buckets-api-openapi.yml
 - filename: gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
   format: yaml
   label: Google Cloud Storage DefaultObjectAccessControls API
   slug: gcp-cloud-storage-defaultobjectaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
   format: yaml
   label: Google Cloud Storage ObjectAccessControls API
   slug: gcp-cloud-storage-objectaccesscontrols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
 - filename: gcp-cloud-storage-objects-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Objects API
   slug: gcp-cloud-storage-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/openapi/gcp-cloud-storage-objects-api-openapi.yml
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
+- filename: gcp-cloud-storage-anywherecaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Anywhere Caches API
+  slug: gcp-cloud-storage-anywherecaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-anywherecaches-api-openapi.yml
+- filename: gcp-cloud-storage-folders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Folders API
+  slug: gcp-cloud-storage-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-folders-api-openapi.yml
+- filename: gcp-cloud-storage-managedfolders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Managed Folders API
+  slug: gcp-cloud-storage-managedfolders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-managedfolders-api-openapi.yml
+- filename: gcp-cloud-storage-notifications-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Notifications API
+  slug: gcp-cloud-storage-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-notifications-api-openapi.yml
+- filename: gcp-cloud-storage-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Operations API
+  slug: gcp-cloud-storage-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-operations-api-openapi.yml
+- filename: gcp-cloud-storage-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Projects API
+  slug: gcp-cloud-storage-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-projects-api-openapi.yml
+- filename: gcp-cloud-storage-rapidcaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Rapid Caches API
+  slug: gcp-cloud-storage-rapidcaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-rapidcaches-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 13
@@ -142,7 +184,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gcp-cl
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /b/{bucket}/o/{object}/acl\n  method: post\n  operationId: insertObjectAccessControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /b/{bucket}/o/{object}/acl/{entity}\n  method: get\n  operationId: getObjectAccessControl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /b/{bucket}/o/{object}/acl/{entity}\n  method: put\n  operationId: updateObjectAccessControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required:\
   \ true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /b/{bucket}/o/{object}/acl/{entity}\n  method: patch\n  operationId: patchObjectAccessControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /b/{bucket}/o/{object}/acl/{entity}\n  method: delete\n  operationId: deleteObjectAccessControl\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /channels/stop\n  method: post\n  operationId:\
   \ stopChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gcp-cloud-storage/refs/heads/main/agentic-access/gcp-cloud-storage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gcp-cloud-storage/agentic-access/gcp-cloud-storage-agentic-access.yml
 summary_line: 38 operations · 26 acting · 13 human-in-the-loop
 tags:
 - Archival

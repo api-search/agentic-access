@@ -9,7 +9,7 @@ api_specs:
   label: Amazon SimpleDB Amazon SimpleDB API
   slug: amazon-simpledb-amazon-simpledb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-amazon-simpledb-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simpledb/openapi/amazon-simpledb-amazon-simpledb-api-openapi.yml
 consequence_counts:
   read: 10
   write: 10
@@ -42,9 +42,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=GetAttributes\n  method: get\n  operationId: GET_GetAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=GetAttributes\n  method: post\n  operationId: POST_GetAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=ListDomains\n  method: get\n  operationId: GET_ListDomains\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=ListDomains\n  method: post\n  operationId: POST_ListDomains\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=PutAttributes\n  method: get\n  operationId: GET_PutAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=PutAttributes\n  method: post\n  operationId: POST_PutAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=Select\n  method: get\n  operationId: GET_Select\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=Select\n  method: post\n  operationId: POST_Select\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/agentic-access/amazon-simpledb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-simpledb/agentic-access/amazon-simpledb-agentic-access.yml
 summary_line: 20 operations · 10 acting
 tags:
+- Amazon Web Services
 - Cloud Storage
 - Data Storage
 - Database

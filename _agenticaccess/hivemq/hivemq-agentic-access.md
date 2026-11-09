@@ -15,19 +15,19 @@ api_specs:
   label: HiveMQ Data Hub API
   slug: hivemq-data-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-data-hub-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-data-hub-api-openapi.yml
 - filename: hivemq-management-api-openapi.yml
   format: yaml
   label: HiveMQ Management API
   slug: hivemq-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-management-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-management-api-openapi.yml
 - filename: hivemq-mqtt-api-openapi.yml
   format: yaml
   label: HiveMQ Mqtt API
   slug: hivemq-mqtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/openapi/hivemq-mqtt-api-openapi.yml
+  url: https://artifacts.apis.io/hivemq/openapi/hivemq-mqtt-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 1
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hivemq
   \ path: /data-hub/schemas\n  method: post\n  operationId: createDataHubSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-hub/schemas/{schemaId}\n  method: get\n  operationId: getDataHubSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-hub/schemas/{schemaId}\n  method: delete\n  operationId: deleteDataHubSchema\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-hub/policies\n  method: get\n\
   \  operationId: listDataHubPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-hub/policies\n  method: post\n  operationId: createDataHubPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-hub/policies/{policyId}\n  method: get\n  operationId: getDataHubPolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data-hub/policies/{policyId}\n  method: put\n  operationId: updateDataHubPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /data-hub/policies/{policyId}\n  method: delete\n  operationId: deleteDataHubPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/agentic-access/hivemq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hivemq/agentic-access/hivemq-agentic-access.yml
 summary_line: 30 operations · 14 acting · 1 human-in-the-loop
 tags:
 - MQTT

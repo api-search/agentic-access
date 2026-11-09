@@ -9,31 +9,31 @@ api_specs:
   label: Monta Authentication API
   slug: monta-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-authentication-api-openapi.yml
 - filename: monta-charge-points-api-openapi.yml
   format: yaml
   label: Monta Charge Points API
   slug: monta-charge-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-charge-points-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-charge-points-api-openapi.yml
 - filename: monta-charges-api-openapi.yml
   format: yaml
   label: Monta Charges API
   slug: monta-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-charges-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-charges-api-openapi.yml
 - filename: monta-utilities-api-openapi.yml
   format: yaml
   label: Monta Utilities API
   slug: monta-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-utilities-api-openapi.yml
 - filename: monta-wallet-transactions-api-openapi.yml
   format: yaml
   label: Monta Wallet Transactions API
   slug: monta-wallet-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/openapi/monta-wallet-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/monta/openapi/monta-wallet-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 13
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/monta-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /evse/{id}/status\n  method: get\n  operationId: getEvseStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /charges\n  method: get\n  operationId: listCharges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /charges\n  method: post\n  operationId: startCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /charges/{id}\n  method: get\n\
   \  operationId: getCharge\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /charges/{id}/stop\n  method: post\n  operationId: stopCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /charges/{id}/kwh-consumption\n  method: get\n  operationId: getChargeKwhConsumption\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wallet-transactions\n  method: get\n  operationId: listWalletTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /wallet-transactions/{id}\n  method: get\n  operationId: getWalletTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal-wallet\n  method: get\n  operationId: getPersonalWallet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /open-data-locations\n  method: get\n  operationId: listOpenDataLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /detect-location\n  method: get\n  operationId: detectLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/monta/refs/heads/main/agentic-access/monta-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/monta/agentic-access/monta-agentic-access.yml
 summary_line: 17 operations · 4 acting · 1 human-in-the-loop
 tags:
 - EV Charging

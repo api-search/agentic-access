@@ -9,73 +9,73 @@ api_specs:
   label: PayWithMyBank (Trustly) accounts API
   slug: paywithmybank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-accounts-api-openapi.yml
 - filename: paywithmybank-countries-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) countries API
   slug: paywithmybank-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-countries-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-countries-api-openapi.yml
 - filename: paywithmybank-customers-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Customers API
   slug: paywithmybank-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-customers-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-customers-api-openapi.yml
 - filename: paywithmybank-identity-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Identity API
   slug: paywithmybank-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-identity-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-identity-api-openapi.yml
 - filename: paywithmybank-networkcheckapi-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Network Check API
   slug: paywithmybank-networkcheckapi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-networkcheckapi-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-networkcheckapi-api-openapi.yml
 - filename: paywithmybank-payments-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Payments API
   slug: paywithmybank-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-payments-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-payments-api-openapi.yml
 - filename: paywithmybank-transactions-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Transactions API
   slug: paywithmybank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-transactions-api-openapi.yml
 - filename: paywithmybank-verifycustomer-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Verify Customer API
   slug: paywithmybank-verifycustomer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-verifycustomer-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-verifycustomer-api-openapi.yml
 - filename: paywithmybank-api-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) API
   slug: paywithmybank-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-api-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-api-api-openapi.yml
 - filename: paywithmybank-account-data-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Account Data API
   slug: paywithmybank-account-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-account-data-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-account-data-api-openapi.yml
 - filename: paywithmybank-dispute-management-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Dispute Management API
   slug: paywithmybank-dispute-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-dispute-management-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-dispute-management-api-openapi.yml
 - filename: paywithmybank-payment-providers-api-openapi.yml
   format: yaml
   label: PayWithMyBank (Trustly) Payment Providers API
   slug: paywithmybank-payment-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/openapi/paywithmybank-payment-providers-api-openapi.yml
+  url: https://artifacts.apis.io/paywithmybank/openapi/paywithmybank-payment-providers-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 17
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/paywit
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions\n  method: get\n  operationId: list-transactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transactionId}/capture/preAuth\n  method: post\n  operationId: post-transactions-transactionId-capture-preauth\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/reclaim\n  method: post\n  operationId: post-transactions-transactionId-reclaim\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/refresh\n  method: post\n  operationId: post-transactions-refresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transactions/{transactionId}/refund\n  method: post\n  operationId: post-transactions-refund\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /transactions/{transactionId}\n  method: get\n  operationId: get-transaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transactions/{transactionId}/payment/customer/verify\n  method: get\n  operationId: get-verify-customer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paywithmybank/refs/heads/main/agentic-access/paywithmybank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paywithmybank/agentic-access/paywithmybank-agentic-access.yml
 summary_line: 31 operations · 14 acting
 tags:
 - Company

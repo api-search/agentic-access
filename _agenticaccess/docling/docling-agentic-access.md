@@ -9,25 +9,25 @@ api_specs:
   label: Docling Async API
   slug: docling-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-async-api-openapi.yml
+  url: https://artifacts.apis.io/docling/openapi/docling-async-api-openapi.yml
 - filename: docling-convert-api-openapi.yml
   format: yaml
   label: Docling Convert API
   slug: docling-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-convert-api-openapi.yml
+  url: https://artifacts.apis.io/docling/openapi/docling-convert-api-openapi.yml
 - filename: docling-system-api-openapi.yml
   format: yaml
   label: Docling System API
   slug: docling-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-system-api-openapi.yml
+  url: https://artifacts.apis.io/docling/openapi/docling-system-api-openapi.yml
 - filename: docling-tasks-api-openapi.yml
   format: yaml
   label: Docling Tasks API
   slug: docling-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/openapi/docling-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/docling/openapi/docling-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/doclin
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/convert/file\n  method: post\n  operationId: convertFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/convert/source/async\n  method: post\n  operationId: convertSourceAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/convert/file/async\n \
   \ method: post\n  operationId: convertFileAsync\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/status/poll/{task_id}\n  method: get\n  operationId: pollTaskStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/result/{task_id}\n  method: get\n  operationId: getTaskResult\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: getHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi.json\n\
   \  method: get\n  operationId: getOpenApiSpec\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/agentic-access/docling-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/docling/agentic-access/docling-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Documents

@@ -8,43 +8,43 @@ api_specs:
   label: Luciq Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/asyncapi/instabug-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/instabug/asyncapi/instabug-webhooks-asyncapi.yml
 - filename: instabug-app-hangs-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) App Hangs API
   slug: instabug-app-hangs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-app-hangs-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-app-hangs-api-openapi.yml
 - filename: instabug-applications-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Applications API
   slug: instabug-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-applications-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-applications-api-openapi.yml
 - filename: instabug-bugs-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Bugs API
   slug: instabug-bugs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-bugs-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-bugs-api-openapi.yml
 - filename: instabug-crashes-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Crashes API
   slug: instabug-crashes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-crashes-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-crashes-api-openapi.yml
 - filename: instabug-occurrences-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Occurrences API
   slug: instabug-occurrences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-occurrences-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-occurrences-api-openapi.yml
 - filename: instabug-reviews-api-openapi.yml
   format: yaml
   label: Instabug (Luciq) Reviews API
   slug: instabug-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/openapi/instabug-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/instabug/openapi/instabug-reviews-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/instabug-mcp-server-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /applications\n  method: get\n  operationId: listApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/crashes\n  method: get\n  operationId: listCrashes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/crashes/{number}\n\
   \  method: get\n  operationId: getCrashDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/crashes/{number}/patterns\n  method: get\n  operationId: getCrashPatterns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/crashes/{number}/occurrences\n  method: get\n  operationId: listOccurrenceTokens\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/crashes/{number}/occurrences/{ulid}\n  method: get\n  operationId: getOccurrenceDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/app-hangs\n\
   \  method: get\n  operationId: listAppHangs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/bugs\n  method: get\n  operationId: listBugs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{slug}/bugs/{number}\n  method: get\n  operationId: getBugDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /applications/{application_token}/reviews\n  method: get\n  operationId: listReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/agentic-access/instabug-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instabug/agentic-access/instabug-agentic-access.yml
 summary_line: 10 operations
 tags:
 - AI Agents

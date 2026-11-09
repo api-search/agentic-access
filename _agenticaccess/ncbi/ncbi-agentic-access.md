@@ -9,79 +9,79 @@ api_specs:
   label: National Center for Biotechnology Information (NCBI) BioSample API
   slug: ncbi-biosample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-biosample-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-biosample-api-openapi.yml
 - filename: ncbi-gene-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Gene API
   slug: ncbi-gene-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-gene-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-gene-api-openapi.yml
 - filename: ncbi-genome-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Genome API
   slug: ncbi-genome-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-genome-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-genome-api-openapi.yml
 - filename: ncbi-organelle-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Organelle API
   slug: ncbi-organelle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-organelle-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-organelle-api-openapi.yml
 - filename: ncbi-prokaryote-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Prokaryote API
   slug: ncbi-prokaryote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-prokaryote-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-prokaryote-api-openapi.yml
 - filename: ncbi-taxonomy-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Taxonomy API
   slug: ncbi-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-taxonomy-api-openapi.yml
 - filename: ncbi-version-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Version API
   slug: ncbi-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-version-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-version-api-openapi.yml
 - filename: ncbi-virus-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Virus API
   slug: ncbi-virus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-virus-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-virus-api-openapi.yml
 - filename: ncbi-blast-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) BLAST API
   slug: ncbi-blast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-blast-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-blast-api-openapi.yml
 - filename: ncbi-fetch-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Fetch API
   slug: ncbi-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-fetch-api-openapi.yml
 - filename: ncbi-info-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Info API
   slug: ncbi-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-info-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-info-api-openapi.yml
 - filename: ncbi-link-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Link API
   slug: ncbi-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-link-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-link-api-openapi.yml
 - filename: ncbi-search-api-openapi.yml
   format: yaml
   label: National Center for Biotechnology Information (NCBI) Search API
   slug: ncbi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/openapi/ncbi-search-api-openapi.yml
+  url: https://artifacts.apis.io/ncbi/openapi/ncbi-search-api-openapi.yml
 consequence_counts:
   read: 102
   write: 5
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/ncbi-b
   \ 3600\n    audit: none\n- path: /virus\n  method: post\n  operationId: virus_reports_by_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/taxon/{taxon}/annotation_report\n  method: get\n  operationId: virus_annotation_reports_by_taxon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/accession/{accessions}/annotation_report\n  method: get\n  operationId: virus_annotation_reports_by_acessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/annotation_report\n  method: post\n  operationId: virus_annotation_reports_by_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /virus/accession/{accessions}/check\n  method: get\n  operationId: virus_accession_availability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/check\n  method: post\n  operationId: virus_accession_availability_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /virus/taxon/{taxon}/genome/download\n  method: get\n  operationId: virus_genome_download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/accession/{accessions}/genome/download\n  method: get\n  operationId: virus_genome_download_accession\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/genome/download\n  method: post\n  operationId: virus_genome_download_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/taxon/sars2/protein/{proteins}/download\n  method: get\n  operationId: sars2_protein_download\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /virus/taxon/sars2/protein/download\n  method: post\n  operationId: sars2_protein_download_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ncbi/refs/heads/main/agentic-access/ncbi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ncbi/agentic-access/ncbi-agentic-access.yml
 summary_line: 107 operations · 5 acting
 tags:
 - Bioinformatics

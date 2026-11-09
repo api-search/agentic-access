@@ -15,49 +15,49 @@ api_specs:
   label: Gladia AudioToText API
   slug: gladia-audiototext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-audiototext-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-audiototext-api-openapi.yml
 - filename: gladia-file-management-api-openapi.yml
   format: yaml
   label: Gladia File Management API
   slug: gladia-file-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-file-management-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-file-management-api-openapi.yml
 - filename: gladia-job-history-api-openapi.yml
   format: yaml
   label: Gladia Job History API
   slug: gladia-job-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-job-history-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-job-history-api-openapi.yml
 - filename: gladia-live-v2-api-openapi.yml
   format: yaml
   label: Gladia Live V2 API
   slug: gladia-live-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-live-v2-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-live-v2-api-openapi.yml
 - filename: gladia-pre-recorded-v2-api-openapi.yml
   format: yaml
   label: Gladia Pre-recorded V2 API
   slug: gladia-pre-recorded-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-pre-recorded-v2-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-pre-recorded-v2-api-openapi.yml
 - filename: gladia-transcription-v1-api-openapi.yml
   format: yaml
   label: Gladia Transcription V1 API
   slug: gladia-transcription-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v1-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-transcription-v1-api-openapi.yml
 - filename: gladia-transcription-v2-api-openapi.yml
   format: yaml
   label: Gladia Transcription V2 API
   slug: gladia-transcription-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-transcription-v2-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-transcription-v2-api-openapi.yml
 - filename: gladia-open-router-api-openapi.yml
   format: yaml
   label: Gladia Open Router API
   slug: gladia-open-router-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/openapi/gladia-open-router-api-openapi.yml
+  url: https://artifacts.apis.io/gladia/openapi/gladia-open-router-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 10
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gladia
   \ HistoryController_getList_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/live\n  method: post\n  operationId: StreamingController_initStreamingSession_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/live\n  method: get\n  operationId: StreamingController_getStreamingJobs_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/live/{id}\n  method: get\n  operationId: StreamingController_getStreamingJob_v2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/live/{id}\n  method: delete\n  operationId: StreamingController_deleteStreamingJob_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/live/{id}\n  method: patch\n  operationId: StreamingController_patchRequestParams_v2\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v2/live/{id}/file\n  method: get\n  operationId: StreamingController_getAudio_v2\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/models\n  method: get\n  operationId: ModelsController_list_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/agentic-access/gladia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gladia/agentic-access/gladia-agentic-access.yml
 summary_line: 21 operations · 10 acting · 10 human-in-the-loop
 tags:
 - Speech-to-Text

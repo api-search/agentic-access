@@ -8,13 +8,13 @@ api_specs:
   label: Geofabrik Downloads API
   slug: geofabrik-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/openapi/geofabrik-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/geofabrik/openapi/geofabrik-downloads-api-openapi.yml
 - filename: geofabrik-index-api-openapi.yml
   format: yaml
   label: Geofabrik Index API
   slug: geofabrik-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/openapi/geofabrik-index-api-openapi.yml
+  url: https://artifacts.apis.io/geofabrik/openapi/geofabrik-index-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -41,7 +41,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/geofabrik-download-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /index-v1.json\n  method: get\n  operationId: getIndexFull\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /index-v1-nogeom.json\n  method: get\n  operationId: getIndexNoGeom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{region}/{area}-latest.osm.pbf\n  method: get\n\
   \  operationId: downloadPbf\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{region}/{area}-latest-free.shp.zip\n  method: get\n  operationId: downloadShapefile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{region}/{area}-updates/state.txt\n  method: get\n  operationId: getUpdateState\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geofabrik/refs/heads/main/agentic-access/geofabrik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/geofabrik/agentic-access/geofabrik-agentic-access.yml
 summary_line: 5 operations
 tags:
 - OpenStreetMap

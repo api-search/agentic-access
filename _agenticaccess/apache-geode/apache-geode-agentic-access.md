@@ -9,25 +9,25 @@ api_specs:
   label: Apache Geode Administration API
   slug: apache-geode-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-administration-api-openapi.yml
+  url: https://artifacts.apis.io/apache-geode/openapi/apache-geode-administration-api-openapi.yml
 - filename: apache-geode-functions-api-openapi.yml
   format: yaml
   label: Apache Geode Functions API
   slug: apache-geode-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-functions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-geode/openapi/apache-geode-functions-api-openapi.yml
 - filename: apache-geode-queries-api-openapi.yml
   format: yaml
   label: Apache Geode Queries API
   slug: apache-geode-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-queries-api-openapi.yml
+  url: https://artifacts.apis.io/apache-geode/openapi/apache-geode-queries-api-openapi.yml
 - filename: apache-geode-regions-api-openapi.yml
   format: yaml
   label: Apache Geode Regions API
   slug: apache-geode-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/openapi/apache-geode-regions-api-openapi.yml
+  url: https://artifacts.apis.io/apache-geode/openapi/apache-geode-regions-api-openapi.yml
 consequence_counts:
   read: 9
   write: 5
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /geode/v1/{region}/{key}\n  method: delete\n  operationId: deleteRegionEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /geode/v1/queries\n  method: get\n  operationId: listQueries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geode/v1/queries\n  method: post\n  operationId: createQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /geode/v1/queries/adhoc\n  method: get\n  operationId: executeAdhocQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geode/v1/functions\n  method: get\n  operationId: listFunctions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geode/v1/functions/{functionId}\n  method: post\n  operationId: executeFunction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /geode/v1/ping\n  method: get\n  operationId: pingCluster\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n  \
   \  subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geode/v1/servers\n  method: get\n  operationId: listServers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-geode/refs/heads/main/agentic-access/apache-geode-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-geode/agentic-access/apache-geode-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Apache

@@ -9,25 +9,25 @@ api_specs:
   label: Quenza Clients API
   slug: quenza-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-clients-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-clients-api-openapi.yml
 - filename: quenza-groups-api-openapi.yml
   format: yaml
   label: Quenza Groups API
   slug: quenza-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-groups-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-groups-api-openapi.yml
 - filename: quenza-members-api-openapi.yml
   format: yaml
   label: Quenza Members API
   slug: quenza-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-members-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-members-api-openapi.yml
 - filename: quenza-tasks-api-openapi.yml
   format: yaml
   label: Quenza Tasks API
   slug: quenza-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/openapi/quenza-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/quenza/openapi/quenza-tasks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 8
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quenza
   \      - abnormal\n      - high-value\n    audit: required\n- path: /clients/{client}/unarchive\n  method: post\n  operationId: developers.v1.clients.unarchive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: post\n  operationId: developers.v1.groups.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group}/members\n  method: post\n  operationId: developers.v1.groups.members.attach\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members\n  method: get\n  operationId: developers.v1.members.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members\n  method: post\n  operationId: developers.v1.members.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{professional}\n  method: patch\n  operationId: developers.v1.members.update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks\n  method: get\n  operationId: developers.v1.tasks.list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quenza/refs/heads/main/agentic-access/quenza-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quenza/agentic-access/quenza-agentic-access.yml
 summary_line: 12 operations · 8 acting
 tags:
 - Coaching

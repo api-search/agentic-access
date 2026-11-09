@@ -9,49 +9,49 @@ api_specs:
   label: Vyne Dental Eligibility and Benefits API (Onederful)
   slug: eligibility-and-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-eligibility-api-openapi.yml
 - filename: vynedental-async-api-openapi.yml
   format: yaml
   label: Vyne Dental Async API
   slug: vynedental-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-async-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-async-api-openapi.yml
 - filename: vynedental-edi-api-openapi.yml
   format: yaml
   label: Vyne Dental EDI API
   slug: vynedental-edi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-edi-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-edi-api-openapi.yml
 - filename: vynedental-eligibility-response-api-openapi.yml
   format: yaml
   label: Vyne Dental Eligibility Response API
   slug: vynedental-eligibility-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-eligibility-response-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-eligibility-response-api-openapi.yml
 - filename: vynedental-eligibility-status-api-openapi.yml
   format: yaml
   label: Vyne Dental Eligibility Status API
   slug: vynedental-eligibility-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-eligibility-status-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-eligibility-status-api-openapi.yml
 - filename: vynedental-enhanced-eligibility-api-openapi.yml
   format: yaml
   label: Vyne Dental Enhanced Eligibility API
   slug: vynedental-enhanced-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-enhanced-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-enhanced-eligibility-api-openapi.yml
 - filename: vynedental-oauth2-api-openapi.yml
   format: yaml
   label: Vyne Dental Oauth2 API
   slug: vynedental-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-oauth2-api-openapi.yml
 - filename: vynedental-well-known-api-openapi.yml
   format: yaml
   label: Vyne Dental .well Known API
   slug: vynedental-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/openapi/vynedental-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/vynedental/openapi/vynedental-well-known-api-openapi.yml
 consequence_counts:
   read: 5
   write: 12
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-10-13'\nmethod: generated\nsource: openapi/vynede
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /eligibility\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enhanced-eligibility\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /enhanced-eligibility/targeted\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /eligibility-status/{onederfulId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /edi/eligibility\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/token\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /oauth2/token/invalidate\n\
   \  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/jwks.json\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vynedental/refs/heads/main/agentic-access/vynedental-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vynedental/agentic-access/vynedental-agentic-access.yml
 summary_line: 17 operations · 12 acting
 tags:
 - Company

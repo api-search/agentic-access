@@ -9,91 +9,91 @@ api_specs:
   label: Tray.ai Authentication API
   slug: tray-ai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-authentication-api-openapi.yml
 - filename: tray-ai-authentications-api-openapi.yml
   format: yaml
   label: Tray.ai Authentications API
   slug: tray-ai-authentications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-authentications-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-authentications-api-openapi.yml
 - filename: tray-ai-call-connector-api-openapi.yml
   format: yaml
   label: Tray.ai Call Connector API
   slug: tray-ai-call-connector-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-call-connector-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-call-connector-api-openapi.yml
 - filename: tray-ai-connectors-api-openapi.yml
   format: yaml
   label: Tray.ai Connectors API
   slug: tray-ai-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-connectors-api-openapi.yml
 - filename: tray-ai-deployments-api-openapi.yml
   format: yaml
   label: Tray.ai Deployments API
   slug: tray-ai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-deployments-api-openapi.yml
 - filename: tray-ai-projects-api-openapi.yml
   format: yaml
   label: Tray.ai Projects API
   slug: tray-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-projects-api-openapi.yml
 - filename: tray-ai-solution-instances-api-openapi.yml
   format: yaml
   label: Tray.ai Solution Instances API
   slug: tray-ai-solution-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solution-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-solution-instances-api-openapi.yml
 - filename: tray-ai-solutions-api-openapi.yml
   format: yaml
   label: Tray.ai Solutions API
   slug: tray-ai-solutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-solutions-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-solutions-api-openapi.yml
 - filename: tray-ai-triggers-api-openapi.yml
   format: yaml
   label: Tray.ai Triggers API
   slug: tray-ai-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-triggers-api-openapi.yml
 - filename: tray-ai-users-api-openapi.yml
   format: yaml
   label: Tray.ai Users API
   slug: tray-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-users-api-openapi.yml
 - filename: tray-ai-workflows-api-openapi.yml
   format: yaml
   label: Tray.ai Workflows API
   slug: tray-ai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-workflows-api-openapi.yml
 - filename: tray-ai-workspaces-api-openapi.yml
   format: yaml
   label: Tray.ai Workspaces API
   slug: tray-ai-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-workspaces-api-openapi.yml
 - filename: tray-ai-agent-groups-api-openapi.yml
   format: yaml
   label: Tray.ai Agent Groups API
   slug: tray-ai-agent-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-agent-groups-api-openapi.yml
 - filename: tray-ai-agent-instances-api-openapi.yml
   format: yaml
   label: Tray.ai Agent Instances API
   slug: tray-ai-agent-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-agent-instances-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-agent-instances-api-openapi.yml
 - filename: tray-ai-permissions-api-openapi.yml
   format: yaml
   label: Tray.ai Permissions API
   slug: tray-ai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/openapi/tray-ai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/tray-ai/openapi/tray-ai-permissions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 41
@@ -198,8 +198,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tray-a
   \ audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql#exportWorkflows\n  method: post\n  operationId: exportWorkflows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphql#importWorkflows\n  method: post\n  operationId: importWorkflows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: '/                  '\n  method: post\n  operationId: import-workflows\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: '/                   '\n  method: post\n  operationId: export-workflows\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces\n  method: get\n  operationId: listWorkspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: getWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/users\n  method: get\n  operationId: listWorkspaceUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/v1/workspaces\n  method: get\n  operationId: get-workspaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/v1/workspaces/{workspaceId}\n  method: get\n  operationId: get-workspace-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/v1/workspaces/{workspaceId}/users\n  method: get\n  operationId: list-users-in-workspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\
-  \n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/agentic-access/tray-ai-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/agentic-access/tray-ai-agentic-access.yml
+  \n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/tray-ai/agentic-access/tray-ai-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/tray-ai/agentic-access/tray-ai-agentic-access.yml
 summary_line: 105 operations · 64 acting · 6 human-in-the-loop
 tags:
 - Automation

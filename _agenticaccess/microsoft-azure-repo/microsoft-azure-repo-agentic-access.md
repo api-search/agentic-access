@@ -9,55 +9,55 @@ api_specs:
   label: Azure Repos Commits API
   slug: microsoft-azure-repo-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-commits-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-commits-api-openapi.yml
 - filename: microsoft-azure-repo-items-api-openapi.yml
   format: yaml
   label: Azure Repos Items API
   slug: microsoft-azure-repo-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-items-api-openapi.yml
 - filename: microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Request Reviewers API
   slug: microsoft-azure-repo-pull-request-reviewers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
 - filename: microsoft-azure-repo-pull-request-threads-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Request Threads API
   slug: microsoft-azure-repo-pull-request-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
 - filename: microsoft-azure-repo-pull-requests-api-openapi.yml
   format: yaml
   label: Azure Repos Pull Requests API
   slug: microsoft-azure-repo-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
 - filename: microsoft-azure-repo-pushes-api-openapi.yml
   format: yaml
   label: Azure Repos Pushes API
   slug: microsoft-azure-repo-pushes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-pushes-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-pushes-api-openapi.yml
 - filename: microsoft-azure-repo-refs-api-openapi.yml
   format: yaml
   label: Azure Repos Refs API
   slug: microsoft-azure-repo-refs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-refs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-refs-api-openapi.yml
 - filename: microsoft-azure-repo-repositories-api-openapi.yml
   format: yaml
   label: Azure Repos Repositories API
   slug: microsoft-azure-repo-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-repositories-api-openapi.yml
 - filename: microsoft-azure-repo-stats-api-openapi.yml
   format: yaml
   label: Azure Repos Stats API
   slug: microsoft-azure-repo-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/openapi/microsoft-azure-repo-stats-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-repo/openapi/microsoft-azure-repo-stats-api-openapi.yml
 consequence_counts:
   read: 14
   write: 10
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /git/repositories/{repositoryId}/pullrequests/{pullRequestId}/commits\n  method: get\n  operationId: pullRequestCommits_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/commits\n  method: get\n  operationId: commits_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/commits/{commitId}\n  method: get\n  operationId: commits_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/refs\n\
   \  method: get\n  operationId: refs_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/refs\n  method: post\n  operationId: refs_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /git/repositories/{repositoryId}/pushes\n  method: get\n  operationId: pushes_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/pushes\n  method: post\n  operationId: pushes_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /git/repositories/{repositoryId}/pushes/{pushId}\n  method: get\n  operationId: pushes_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/items\n  method: get\n  operationId: items_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /git/repositories/{repositoryId}/stats/branches\n  method: get\n  operationId: stats_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-repo/refs/heads/main/agentic-access/microsoft-azure-repo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-repo/agentic-access/microsoft-azure-repo-agentic-access.yml
 summary_line: 24 operations · 10 acting
 tags:
 - Developer Tools

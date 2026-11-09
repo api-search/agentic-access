@@ -8,25 +8,25 @@ api_specs:
   label: Nubela Company API
   slug: nubela-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-company-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-company-api-openapi.yml
 - filename: nubela-competitor-api-openapi.yml
   format: yaml
   label: Nubela Competitor API
   slug: nubela-competitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-competitor-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-competitor-api-openapi.yml
 - filename: nubela-customer-api-openapi.yml
   format: yaml
   label: Nubela Customer API
   slug: nubela-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-customer-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-customer-api-openapi.yml
 - filename: nubela-employee-api-openapi.yml
   format: yaml
   label: Nubela Employee API
   slug: nubela-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-employee-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-employee-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -54,7 +54,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nubela-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 11\n  by_action_class:\n    connected: 11\n  by_consequence:\n    read: 11\n  human_in_the_loop_required: 0\noperations:\n- path: /customer/listing\n  method: get\n  operationId: listCustomers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /competitor/listing\n  method: get\n  operationId: listCompetitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/logo\n  method: get\n  operationId: getCompanyLogo\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/details\n  method: get\n  operationId: getCompanyDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/employee-count\n  method: get\n  operationId: getCompanyEmployeeCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/updates\n  method: get\n  operationId: getCompanyUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /company/funding\n  method: get\n  operationId: getCompanyFunding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /company/website\n  method: get\n  operationId: resolveCompanyWebsite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee/work-email\n  method: get\n  operationId: getEmployeeWorkEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee/profile\n  method: get\n  operationId: getEmployeeProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /employee/similar\n  method: get\n  operationId: getSimilarEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/agentic-access/nubela-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nubela/agentic-access/nubela-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Companies

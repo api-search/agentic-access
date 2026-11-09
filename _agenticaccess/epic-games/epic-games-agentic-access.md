@@ -9,55 +9,55 @@ api_specs:
   label: Epic Games Achievements API
   slug: epic-games-achievements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-achievements-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-achievements-api-openapi.yml
 - filename: epic-games-auth-api-openapi.yml
   format: yaml
   label: Epic Games Auth API
   slug: epic-games-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-auth-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-auth-api-openapi.yml
 - filename: epic-games-connect-api-openapi.yml
   format: yaml
   label: Epic Games Connect API
   slug: epic-games-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-connect-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-connect-api-openapi.yml
 - filename: epic-games-ecom-api-openapi.yml
   format: yaml
   label: Epic Games Ecom API
   slug: epic-games-ecom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-ecom-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-ecom-api-openapi.yml
 - filename: epic-games-leaderboards-api-openapi.yml
   format: yaml
   label: Epic Games Leaderboards API
   slug: epic-games-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-leaderboards-api-openapi.yml
 - filename: epic-games-playerdatastorage-api-openapi.yml
   format: yaml
   label: Epic Games PlayerDataStorage API
   slug: epic-games-playerdatastorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-playerdatastorage-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-playerdatastorage-api-openapi.yml
 - filename: epic-games-sanctions-api-openapi.yml
   format: yaml
   label: Epic Games Sanctions API
   slug: epic-games-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-sanctions-api-openapi.yml
 - filename: epic-games-stats-api-openapi.yml
   format: yaml
   label: Epic Games Stats API
   slug: epic-games-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-stats-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-stats-api-openapi.yml
 - filename: epic-games-titlestorage-api-openapi.yml
   format: yaml
   label: Epic Games TitleStorage API
   slug: epic-games-titlestorage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/openapi/epic-games-titlestorage-api-openapi.yml
+  url: https://artifacts.apis.io/epic-games/openapi/epic-games-titlestorage-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 12
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/epic-g
   \      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /title-storage/v1/{deploymentId}/file/{filename}\n  method: get\n  operationId: getTitleStorageFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/v1/{deploymentId}/users/{productUserId}/stats\n  method: get\n  operationId: listUserStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stats/v1/{deploymentId}/users/{productUserId}/stats\n  method: post\n  operationId: ingestUserStats\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n \
   \     human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /achievements/v2/{deploymentId}/definitions\n  method: get\n  operationId: listAchievementDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /achievements/v2/{deploymentId}/users/{productUserId}/achievements\n  method: get\n  operationId: listPlayerAchievements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leaderboards/v1/{deploymentId}/definitions\n  method: get\n  operationId: listLeaderboardDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leaderboards/v1/{deploymentId}/leaderboard/{leaderboardId}/ranks\n  method: get\n  operationId:\
   \ getLeaderboardRanks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sanctions/v1/{deploymentId}/sanctions\n  method: get\n  operationId: listSanctions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ecom/v1/identities/{accountId}/entitlements\n  method: get\n  operationId: listEntitlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epic-games/refs/heads/main/agentic-access/epic-games-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/epic-games/agentic-access/epic-games-agentic-access.yml
 summary_line: 17 operations · 5 acting · 1 human-in-the-loop
 tags:
 - Achievements

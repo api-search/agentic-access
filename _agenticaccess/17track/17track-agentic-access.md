@@ -9,13 +9,13 @@ api_specs:
   label: 17TRACK Tracking API
   slug: 17track-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/openapi/17track-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/17track/openapi/17track-tracking-api-openapi.yml
 - filename: 17track-webhooks-api-openapi.yml
   format: yaml
   label: 17TRACK Webhooks API
   slug: 17track-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/openapi/17track-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/17track/openapi/17track-webhooks-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/17trac
   \ getTrackInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gettracklist\n  method: post\n  operationId: getTrackList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stoptrack\n  method: post\n  operationId: stopTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /retrack\n  method: post\n  operationId: retrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deletetrack\n  method: post\n  operationId: deleteTrack\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /changecarrier\n  method: post\n  operationId: changeCarrier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /changeinfo\n  method: post\n  operationId: changeInfo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /push\n  method: post\n  operationId: pushNotification\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/17track/refs/heads/main/agentic-access/17track-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/17track/agentic-access/17track-agentic-access.yml
 summary_line: 9 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Shipping

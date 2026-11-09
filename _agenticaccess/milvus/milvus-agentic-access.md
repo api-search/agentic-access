@@ -9,37 +9,37 @@ api_specs:
   label: Milvus Collections API
   slug: milvus-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-collections-api-openapi.yml
+  url: https://artifacts.apis.io/milvus/openapi/milvus-collections-api-openapi.yml
 - filename: milvus-entities-api-openapi.yml
   format: yaml
   label: Milvus Entities API
   slug: milvus-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-entities-api-openapi.yml
+  url: https://artifacts.apis.io/milvus/openapi/milvus-entities-api-openapi.yml
 - filename: milvus-indexes-api-openapi.yml
   format: yaml
   label: Milvus Indexes API
   slug: milvus-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/milvus/openapi/milvus-indexes-api-openapi.yml
 - filename: milvus-partitions-api-openapi.yml
   format: yaml
   label: Milvus Partitions API
   slug: milvus-partitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-partitions-api-openapi.yml
+  url: https://artifacts.apis.io/milvus/openapi/milvus-partitions-api-openapi.yml
 - filename: milvus-roles-api-openapi.yml
   format: yaml
   label: Milvus Roles API
   slug: milvus-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-roles-api-openapi.yml
+  url: https://artifacts.apis.io/milvus/openapi/milvus-roles-api-openapi.yml
 - filename: milvus-users-api-openapi.yml
   format: yaml
   label: Milvus Users API
   slug: milvus-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/openapi/milvus-users-api-openapi.yml
+  url: https://artifacts.apis.io/milvus/openapi/milvus-users-api-openapi.yml
 consequence_counts:
   read: 10
   write: 19
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/milvus
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vectordb/indexes/list\n  method: post\n  operationId: listIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/vectordb/indexes/describe\n  method: post\n  operationId: describeIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vectordb/partitions/create\n  method: post\n  operationId: createPartition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vectordb/partitions/drop\n  method: post\n  operationId: dropPartition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vectordb/partitions/list\n  method: post\n  operationId: listPartitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/vectordb/roles/create\n  method: post\n  operationId: createRole\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vectordb/roles/list\n  method: post\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/vectordb/users/create\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/vectordb/users/list\n  method: post\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/agentic-access/milvus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/milvus/agentic-access/milvus-agentic-access.yml
 summary_line: 29 operations · 19 acting
 tags:
 - Vector Search

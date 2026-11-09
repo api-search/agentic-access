@@ -9,13 +9,13 @@ api_specs:
   label: Moxe Health Claims API
   slug: moxe-health-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-claims-api-openapi.yml
+  url: https://artifacts.apis.io/moxe-health/openapi/moxe-health-claims-api-openapi.yml
 - filename: moxe-health-patient-api-openapi.yml
   format: yaml
   label: Moxe Health Patient API
   slug: moxe-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/openapi/moxe-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/moxe-health/openapi/moxe-health-patient-api-openapi.yml
 consequence_counts:
   read: 2
   write: 2
@@ -44,7 +44,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/moxe-health-chart-retrieval-initiate-openapi.json, openapi/moxe-health-chart-retrieval-status-openapi.json,\n  openapi/moxe-health-claim-management-initiate-openapi.json, openapi/moxe-health-claim-management-status-openapi.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 2\n    connected: 2\n  by_consequence:\n    write: 2\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/patient-chart-request\n  method: post\n  operationId: initiateChartRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:patient-chart-request\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/patient-chart-request/{moxeRequestId}/status\n  method: get\n  operationId: getChartRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:patient-chart-request\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/claim-management-request\n  method: post\n  operationId: initiateClaimManagementRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:claim-management-request\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/claim-management-request/{moxeRequestId}/status\n  method: get\n  operationId: getClaimManagementRequestStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:claim-management-request\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moxe-health/refs/heads/main/agentic-access/moxe-health-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moxe-health/agentic-access/moxe-health-agentic-access.yml
 summary_line: 4 operations · 2 acting
 tags:
 - Healthcare

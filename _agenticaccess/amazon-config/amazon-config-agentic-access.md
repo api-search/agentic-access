@@ -9,7 +9,19 @@ api_specs:
   label: Amazon Config AWS Config API
   slug: amazon-config-aws-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/openapi/amazon-config-aws-config-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-aws-config-api-openapi.yml
+- filename: amazon-config-connector-api-openapi.yml
+  format: yaml
+  label: Amazon Config Config Connector API
+  slug: amazon-config-connector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-connector-api-openapi.yml
+- filename: amazon-config-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Config Config Operations API
+  slug: amazon-config-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-config/openapi/amazon-config-operations-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 25
@@ -102,11 +114,12 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ none\n- path: /#X-Amz-Target=StarlingDoveService.GetComplianceDetailsByResource\n  method: post\n  operationId: GetComplianceDetailsByResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetComplianceSummaryByConfigRule\n  method: post\n  operationId: GetComplianceSummaryByConfigRule\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetComplianceSummaryByResourceType\n  method: post\n  operationId: GetComplianceSummaryByResourceType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetConformancePackComplianceDetails\n  method: post\n  operationId: GetConformancePackComplianceDetails\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetConformancePackComplianceSummary\n  method: post\n  operationId: GetConformancePackComplianceSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetCustomRulePolicy\n  method: post\n  operationId: GetCustomRulePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetDiscoveredResourceCounts\n  method: post\n  operationId: GetDiscoveredResourceCounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetOrganizationConfigRuleDetailedStatus\n\
   \  method: post\n  operationId: GetOrganizationConfigRuleDetailedStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetOrganizationConformancePackDetailedStatus\n  method: post\n  operationId: GetOrganizationConformancePackDetailedStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetOrganizationCustomRulePolicy\n  method: post\n  operationId: GetOrganizationCustomRulePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetResourceConfigHistory\n  method: post\n  operationId: GetResourceConfigHistory\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetResourceEvaluationSummary\n  method: post\n  operationId: GetResourceEvaluationSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetStoredQuery\n  method: post\n  operationId: GetStoredQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/agentic-access/amazon-config-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-config/refs/heads/main/agentic-access/amazon-config-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetResourceEvaluationSummary\n  method: post\n  operationId: GetResourceEvaluationSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=StarlingDoveService.GetStoredQuery\n  method: post\n  operationId: GetStoredQuery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-config/agentic-access/amazon-config-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-config/agentic-access/amazon-config-agentic-access.yml
 summary_line: 92 operations · 67 acting · 1 human-in-the-loop
 tags:
 - Auditing
+- Amazon Web Services
 - Compliance
 - Configuration Management
 - Governance

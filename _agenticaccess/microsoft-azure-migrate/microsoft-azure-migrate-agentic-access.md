@@ -9,13 +9,13 @@ api_specs:
   label: Azure Migrate Operations API
   slug: microsoft-azure-migrate-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-migrate/openapi/microsoft-azure-migrate-operations-api-openapi.yml
 - filename: microsoft-azure-migrate-projects-api-openapi.yml
   format: yaml
   label: Azure Migrate Projects API
   slug: microsoft-azure-migrate-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/openapi/microsoft-azure-migrate-projects-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-migrate/openapi/microsoft-azure-migrate-projects-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Migrate/migrateProjects\n  method: get\n  operationId: listMigrateprojectsByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Migrate/migrateProjects/{name}\n  method: get\n  operationId: getMigrateprojects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Migrate/migrateProjects/{name}\n\
   \  method: put\n  operationId: createOrUpdateMigrateprojects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Migrate/migrateProjects/{name}\n  method: patch\n  operationId: updateMigrateprojects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Migrate/migrateProjects/{name}\n\
   \  method: delete\n  operationId: deleteMigrateprojects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-migrate/refs/heads/main/agentic-access/microsoft-azure-migrate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-migrate/agentic-access/microsoft-azure-migrate-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Cloud Migration

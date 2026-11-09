@@ -9,121 +9,121 @@ api_specs:
   label: HM Courts & Tribunals Service Admin API
   slug: hmcts-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-admin-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-admin-api-openapi.yml
 - filename: hmcts-application-codes-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Application Codes API
   slug: hmcts-application-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-application-codes-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-application-codes-api-openapi.yml
 - filename: hmcts-application-list-entries-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Application List Entries API
   slug: hmcts-application-list-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-application-list-entries-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-application-list-entries-api-openapi.yml
 - filename: hmcts-application-list-entry-results-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Application List Entry Results API
   slug: hmcts-application-list-entry-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-application-list-entry-results-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-application-list-entry-results-api-openapi.yml
 - filename: hmcts-application-lists-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Application Lists API
   slug: hmcts-application-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-application-lists-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-application-lists-api-openapi.yml
 - filename: hmcts-caseworkers-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Caseworkers API
   slug: hmcts-caseworkers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-caseworkers-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-caseworkers-api-openapi.yml
 - filename: hmcts-court-locations-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Court Locations API
   slug: hmcts-court-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-court-locations-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-court-locations-api-openapi.yml
 - filename: hmcts-criminal-justice-areas-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Criminal Justice Areas API
   slug: hmcts-criminal-justice-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-criminal-justice-areas-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-criminal-justice-areas-api-openapi.yml
 - filename: hmcts-data-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Data API
   slug: hmcts-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-data-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-data-api-openapi.yml
 - filename: hmcts-display-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Display API
   slug: hmcts-display-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-display-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-display-api-openapi.yml
 - filename: hmcts-internal-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Internal API
   slug: hmcts-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-internal-api-openapi.yml
 - filename: hmcts-jobs-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Jobs API
   slug: hmcts-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-jobs-api-openapi.yml
 - filename: hmcts-notification-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Notification API
   slug: hmcts-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-notification-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-notification-api-openapi.yml
 - filename: hmcts-reports-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Reports API
   slug: hmcts-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-reports-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-reports-api-openapi.yml
 - filename: hmcts-result-codes-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Result Codes API
   slug: hmcts-result-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-result-codes-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-result-codes-api-openapi.yml
 - filename: hmcts-root-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Root API
   slug: hmcts-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-root-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-root-api-openapi.yml
 - filename: hmcts-standard-applicants-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Standard Applicants API
   slug: hmcts-standard-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-standard-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-standard-applicants-api-openapi.yml
 - filename: hmcts-subscription-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Subscription API
   slug: hmcts-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-subscription-api-openapi.yml
 - filename: hmcts-validation-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Validation API
   slug: hmcts-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-validation-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-validation-api-openapi.yml
 - filename: hmcts-validation-rules-api-openapi.yml
   format: yaml
   label: HM Courts & Tribunals Service Validation Rules API
   slug: hmcts-validation-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/openapi/hmcts-validation-rules-api-openapi.yml
+  url: https://artifacts.apis.io/hmcts/openapi/hmcts-validation-rules-api-openapi.yml
 consequence_counts:
   read: 42
   safety-critical: 2
@@ -188,7 +188,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/hmcts-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client-subscriptions/{clientSubscriptionId}/secret/rotate\n  method: post\n  operationId: rotateClientSubscriptionSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /client-subscriptions/{clientSubscriptionId}/documents/{documentId}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: getRoot\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/validation/validate\n  method: post\n  operationId:\
   \ validateDraftResults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/validation/rules\n  method: get\n  operationId: listValidationRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/validation/rules/{ruleId}\n  method: get\n  operationId: getValidationRuleById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/validation/rules/{ruleId}\n  method: patch\n  operationId: updateValidationRule\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hmcts/refs/heads/main/agentic-access/hmcts-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hmcts/agentic-access/hmcts-agentic-access.yml
 summary_line: 78 operations · 36 acting · 2 human-in-the-loop
 tags:
 - Company

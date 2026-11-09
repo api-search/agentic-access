@@ -9,67 +9,67 @@ api_specs:
   label: Adafruit IO Activities API
   slug: adafruit-io-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-activities-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-activities-api-openapi.yml
 - filename: adafruit-io-blocks-api-openapi.yml
   format: yaml
   label: Adafruit IO Blocks API
   slug: adafruit-io-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-blocks-api-openapi.yml
 - filename: adafruit-io-dashboards-api-openapi.yml
   format: yaml
   label: Adafruit IO Dashboards API
   slug: adafruit-io-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-dashboards-api-openapi.yml
 - filename: adafruit-io-data-api-openapi.yml
   format: yaml
   label: Adafruit IO Data API
   slug: adafruit-io-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-data-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-data-api-openapi.yml
 - filename: adafruit-io-feeds-api-openapi.yml
   format: yaml
   label: Adafruit IO Feeds API
   slug: adafruit-io-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-feeds-api-openapi.yml
 - filename: adafruit-io-groups-api-openapi.yml
   format: yaml
   label: Adafruit IO Groups API
   slug: adafruit-io-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-groups-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-groups-api-openapi.yml
 - filename: adafruit-io-permissions-api-openapi.yml
   format: yaml
   label: Adafruit IO Permissions API
   slug: adafruit-io-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-permissions-api-openapi.yml
 - filename: adafruit-io-tokens-api-openapi.yml
   format: yaml
   label: Adafruit IO Tokens API
   slug: adafruit-io-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-tokens-api-openapi.yml
 - filename: adafruit-io-triggers-api-openapi.yml
   format: yaml
   label: Adafruit IO Triggers API
   slug: adafruit-io-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-triggers-api-openapi.yml
 - filename: adafruit-io-users-api-openapi.yml
   format: yaml
   label: Adafruit IO Users API
   slug: adafruit-io-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-users-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-users-api-openapi.yml
 - filename: adafruit-io-webhooks-api-openapi.yml
   format: yaml
   label: Adafruit IO Webhooks API
   slug: adafruit-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/openapi/adafruit-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/adafruit-io/openapi/adafruit-io-webhooks-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 29
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/adafru
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{username}/{type}/{type_id}/acl\n  method: post\n  operationId: createPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{username}/{type}/{type_id}/acl/{id}\n  method: get\n  operationId: getPermission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{username}/{type}/{type_id}/acl/{id}\n  method: put\n  operationId: replacePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /{username}/{type}/{type_id}/acl/{id}\n  method: patch\n  operationId: updatePermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{username}/{type}/{type_id}/acl/{id}\n  method: delete\n  operationId: destroyPermission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/feed/:token\n  method: post\n  operationId: createWebhookFeedData\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/feed/:token/raw\n  method: post\n  operationId: createRawWebhookFeedData\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adafruit-io/refs/heads/main/agentic-access/adafruit-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/adafruit-io/agentic-access/adafruit-io-agentic-access.yml
 summary_line: 71 operations · 42 acting
 tags:
 - IoT

@@ -9,19 +9,19 @@ api_specs:
   label: ConvertAPI Conversion API
   slug: convertapi-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-conversion-api-openapi.yml
 - filename: convertapi-file-server-api-openapi.yml
   format: yaml
   label: ConvertAPI File Server API
   slug: convertapi-file-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-file-server-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-file-server-api-openapi.yml
 - filename: convertapi-user-api-openapi.yml
   format: yaml
   label: ConvertAPI User API
   slug: convertapi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-user-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-user-api-openapi.yml
 consequence_counts:
   read: 4
   write: 316
@@ -81,8 +81,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/heic/to/tiff\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/heic/to/webp\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/heif/to/jpg\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/heif/to/pdf\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/html/to/docx\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/html/to/jpg\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/html/to/md\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/html/to/pdf\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /convert/html/to/png\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (96 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/agentic-access/convertapi-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/agentic-access/convertapi-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (96 KB total) ---\n# Full source: https://artifacts.apis.io/convertapi/agentic-access/convertapi-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/convertapi/agentic-access/convertapi-agentic-access.yml
 summary_line: 320 operations · 316 acting
 tags:
 - File Conversion

@@ -8,31 +8,31 @@ api_specs:
   label: MarginEdge Categories API
   slug: marginedge-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-categories-api-openapi.yml
+  url: https://artifacts.apis.io/marginedge/openapi/marginedge-categories-api-openapi.yml
 - filename: marginedge-orders-api-openapi.yml
   format: yaml
   label: MarginEdge Orders API
   slug: marginedge-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-orders-api-openapi.yml
+  url: https://artifacts.apis.io/marginedge/openapi/marginedge-orders-api-openapi.yml
 - filename: marginedge-products-api-openapi.yml
   format: yaml
   label: MarginEdge Products API
   slug: marginedge-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-products-api-openapi.yml
+  url: https://artifacts.apis.io/marginedge/openapi/marginedge-products-api-openapi.yml
 - filename: marginedge-restaurant-units-api-openapi.yml
   format: yaml
   label: MarginEdge Restaurant Units API
   slug: marginedge-restaurant-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-restaurant-units-api-openapi.yml
+  url: https://artifacts.apis.io/marginedge/openapi/marginedge-restaurant-units-api-openapi.yml
 - filename: marginedge-vendors-api-openapi.yml
   format: yaml
   label: MarginEdge Vendors API
   slug: marginedge-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/openapi/marginedge-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/marginedge/openapi/marginedge-vendors-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/marginedge-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /categories\n  method: get\n  operationId: getCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders\n  method: get\n  operationId: getOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrderDetail\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products\n  method: get\n  operationId: getProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restaurantUnits\n  method: get\n  operationId: getRestaurantUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restaurantUnits/groupCategories\n  method: get\n  operationId: getRestaurantUnitGroupCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /restaurantUnits/groups\n  method: get\n  operationId: getRestaurantUnitGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /vendors\n  method: get\n  operationId: getVendors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors/{vendorId}/vendorItems\n  method: get\n  operationId: getVendorItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendors/{vendorId}/vendorItems/{vendorItemCode}/packaging\n  method: get\n  operationId: getVendorItemsPackaging\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marginedge/refs/heads/main/agentic-access/marginedge-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/marginedge/agentic-access/marginedge-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Restaurant

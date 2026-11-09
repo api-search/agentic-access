@@ -9,61 +9,61 @@ api_specs:
   label: Coram Ai Alerts API
   slug: coram-ai-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-alerts-api-openapi.yml
 - filename: coram-ai-camera-groups-api-openapi.yml
   format: yaml
   label: Coram Ai Camera Groups API
   slug: coram-ai-camera-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-camera-groups-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-camera-groups-api-openapi.yml
 - filename: coram-ai-cameras-api-openapi.yml
   format: yaml
   label: Coram Ai Cameras API
   slug: coram-ai-cameras-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-cameras-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-cameras-api-openapi.yml
 - filename: coram-ai-doors-api-openapi.yml
   format: yaml
   label: Coram Ai Doors API
   slug: coram-ai-doors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-doors-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-doors-api-openapi.yml
 - filename: coram-ai-events-api-openapi.yml
   format: yaml
   label: Coram Ai Events API
   slug: coram-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-events-api-openapi.yml
 - filename: coram-ai-locations-api-openapi.yml
   format: yaml
   label: Coram Ai Locations API
   slug: coram-ai-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-locations-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-locations-api-openapi.yml
 - filename: coram-ai-nvrs-api-openapi.yml
   format: yaml
   label: Coram Ai Nvrs API
   slug: coram-ai-nvrs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-nvrs-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-nvrs-api-openapi.yml
 - filename: coram-ai-reunification-api-openapi.yml
   format: yaml
   label: Coram Ai Reunification API
   slug: coram-ai-reunification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-reunification-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-reunification-api-openapi.yml
 - filename: coram-ai-credentials-api-openapi.yml
   format: yaml
   label: Coram Ai Credentials API
   slug: coram-ai-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-credentials-api-openapi.yml
 - filename: coram-ai-permissions-api-openapi.yml
   format: yaml
   label: Coram Ai Permissions API
   slug: coram-ai-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/openapi/coram-ai-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/coram-ai/openapi/coram-ai-permissions-api-openapi.yml
 consequence_counts:
   read: 11
   safety-critical: 1
@@ -107,7 +107,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/coram-
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/locations\n  method: get\n  operationId: list_locations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/locations\n  method: post\n  operationId: create_locations\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/access-control/events/{event_id}/clip\n  method: get\n  operationId: GetEventClip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/access-control/doors\n  method: get\n  operationId: list_access_control_doors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/access-control/events\n  method: get\n  operationId: list_access_control_events\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/access-control/doors/{door_id}/unlock\n  method: post\n  operationId: unlock_access_control_door\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/reunification/imports\n  method: post\n  operationId: create_reunification_import\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reunification/imports/status\n  method: get\n  operationId: get_reunification_import_status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coram-ai/refs/heads/main/agentic-access/coram-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coram-ai/agentic-access/coram-ai-agentic-access.yml
 summary_line: 26 operations · 15 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,79 +9,79 @@ api_specs:
   label: Qonto Cards API
   slug: qonto-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-cards-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-cards-api-openapi.yml
 - filename: qonto-client-invoices-api-openapi.yml
   format: yaml
   label: Qonto Client Invoices API
   slug: qonto-client-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-client-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-client-invoices-api-openapi.yml
 - filename: qonto-internal-transfers-api-openapi.yml
   format: yaml
   label: Qonto Internal Transfers API
   slug: qonto-internal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-internal-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-internal-transfers-api-openapi.yml
 - filename: qonto-international-transfers-api-openapi.yml
   format: yaml
   label: Qonto International Transfers API
   slug: qonto-international-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-international-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-international-transfers-api-openapi.yml
 - filename: qonto-organizations-accounts-api-openapi.yml
   format: yaml
   label: Qonto Organizations & Accounts API
   slug: qonto-organizations-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-organizations-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-organizations-accounts-api-openapi.yml
 - filename: qonto-payment-links-api-openapi.yml
   format: yaml
   label: Qonto Payment Links API
   slug: qonto-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-payment-links-api-openapi.yml
 - filename: qonto-sepa-direct-debit-api-openapi.yml
   format: yaml
   label: Qonto SEPA Direct Debit API
   slug: qonto-sepa-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-direct-debit-api-openapi.yml
 - filename: qonto-sepa-transfers-api-openapi.yml
   format: yaml
   label: Qonto SEPA Transfers API
   slug: qonto-sepa-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-transfers-api-openapi.yml
 - filename: qonto-supplier-invoices-api-openapi.yml
   format: yaml
   label: Qonto Supplier Invoices API
   slug: qonto-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-supplier-invoices-api-openapi.yml
 - filename: qonto-terminals-api-openapi.yml
   format: yaml
   label: Qonto Terminals API
   slug: qonto-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-terminals-api-openapi.yml
 - filename: qonto-webhooks-api-openapi.yml
   format: yaml
   label: Qonto Webhooks API
   slug: qonto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-webhooks-api-openapi.yml
 - filename: qonto-oauth-api-openapi.yml
   format: yaml
   label: Qonto O Auth API
   slug: qonto-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-oauth-api-openapi.yml
 - filename: qonto-transactions-and-statements-api-openapi.yml
   format: yaml
   label: Qonto Transactions and Statements API
   slug: qonto-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-transactions-and-statements-api-openapi.yml
 consequence_counts:
   read: 17
   write: 16
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/qonto-
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/payment_links\n  method: get\n  operationId: listPaymentLinks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/payment_links\n  method: post\n  operationId: createPaymentLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/terminals\n  method: get\n  operationId: listTerminals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/terminal_payments\n  method: post\n  operationId: createTerminalPayment\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: required\n      triggers:\n      - always\n    audit: required\n- path: /v2/webhook_subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/webhook_subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    audit: required\n- path: /v2/webhook_subscriptions/{id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/agentic-access/qonto-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qonto/agentic-access/qonto-agentic-access.yml
 summary_line: 33 operations · 16 acting · 7 human-in-the-loop
 tags:
 - Business Banking

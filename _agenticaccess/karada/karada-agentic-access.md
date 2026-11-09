@@ -9,91 +9,91 @@ api_specs:
   label: Karada AI Admin API
   slug: karada-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-admin-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-admin-api-openapi.yml
 - filename: karada-auth-api-openapi.yml
   format: yaml
   label: Karada AI Auth API
   slug: karada-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-auth-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-auth-api-openapi.yml
 - filename: karada-billing-api-openapi.yml
   format: yaml
   label: Karada AI Billing API
   slug: karada-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-billing-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-billing-api-openapi.yml
 - filename: karada-deployments-api-openapi.yml
   format: yaml
   label: Karada AI Deployments API
   slug: karada-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-deployments-api-openapi.yml
 - filename: karada-feedback-api-openapi.yml
   format: yaml
   label: Karada AI Feedback API
   slug: karada-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-feedback-api-openapi.yml
 - filename: karada-gateway-api-openapi.yml
   format: yaml
   label: Karada AI Gateway API
   slug: karada-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-gateway-api-openapi.yml
 - filename: karada-marketplace-api-openapi.yml
   format: yaml
   label: Karada AI Marketplace API
   slug: karada-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-marketplace-api-openapi.yml
 - filename: karada-mcp-api-openapi.yml
   format: yaml
   label: Karada AI MCP API
   slug: karada-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-mcp-api-openapi.yml
 - filename: karada-newsletter-api-openapi.yml
   format: yaml
   label: Karada AI Newsletter API
   slug: karada-newsletter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-newsletter-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-newsletter-api-openapi.yml
 - filename: karada-pricing-api-openapi.yml
   format: yaml
   label: Karada AI Pricing API
   slug: karada-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-pricing-api-openapi.yml
 - filename: karada-projects-api-openapi.yml
   format: yaml
   label: Karada AI Projects API
   slug: karada-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-projects-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-projects-api-openapi.yml
 - filename: karada-registry-api-openapi.yml
   format: yaml
   label: Karada AI Registry API
   slug: karada-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-registry-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-registry-api-openapi.yml
 - filename: karada-system-api-openapi.yml
   format: yaml
   label: Karada AI System API
   slug: karada-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-system-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-system-api-openapi.yml
 - filename: karada-teams-api-openapi.yml
   format: yaml
   label: Karada AI Teams API
   slug: karada-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-teams-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-teams-api-openapi.yml
 - filename: karada-user-api-openapi.yml
   format: yaml
   label: Karada AI User API
   slug: karada-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/openapi/karada-user-api-openapi.yml
+  url: https://artifacts.apis.io/karada/openapi/karada-user-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 31
@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-10-18'\nmethod: generated\nsource: openapi/karada
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/gateway/tools\n  method: get\n  operationId: listGatewayTools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/gateway/tools\n  method: post\n  operationId: connectGatewayTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/gateway/tools/{id}\n  method: patch\n  operationId: updateGatewayTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /api/v1/gateway/tools/{id}\n  method: delete\n  operationId: deleteGatewayTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/gateway/tools/{id}/secret\n  method: put\n  operationId: setGatewayToolSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/gateway/agent\n  method: post\n  operationId: executeDefaultGatewayAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n     \
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/gateway/{id}/agent\n  method: post\n  operationId: executeGatewayAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karada/refs/heads/main/agentic-access/karada-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/karada/agentic-access/karada-agentic-access.yml
 summary_line: 74 operations · 43 acting
 tags:
 - Company

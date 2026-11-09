@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Composer Environments API
   slug: google-cloud-composer-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-environments-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-environments-api-openapi.yml
 - filename: google-cloud-composer-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Composer Operations API
   slug: google-cloud-composer-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-operations-api-openapi.yml
 - filename: google-cloud-composer-image-versions-api-openapi.yml
   format: yaml
   label: Google Cloud Composer image versions API
   slug: google-cloud-composer-image-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/openapi/google-cloud-composer-image-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-image-versions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/environments/{environmentId}\n  method: get\n  operationId: getEnvironment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/environments/{environmentId}\n  method: patch\n  operationId: updateEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/environments/{environmentId}\n  method: delete\n  operationId: deleteEnvironment\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/locations/{location}/imageVersions\n  method: get\n  operationId: listImageVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/operations\n  method: get\n  operationId: listOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/locations/{location}/operations/{operationId}\n  method: get\n  operationId: getOperation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-composer/refs/heads/main/agentic-access/google-cloud-composer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-composer/agentic-access/google-cloud-composer-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Apache Airflow

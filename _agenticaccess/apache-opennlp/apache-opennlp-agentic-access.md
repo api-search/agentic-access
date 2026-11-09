@@ -9,61 +9,61 @@ api_specs:
   label: Apache OpenNLP Chunking API
   slug: apache-opennlp-chunking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-chunking-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-chunking-api-openapi.yml
 - filename: apache-opennlp-document-categorization-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Document Categorization API
   slug: apache-opennlp-document-categorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-document-categorization-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-document-categorization-api-openapi.yml
 - filename: apache-opennlp-language-detection-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Language Detection API
   slug: apache-opennlp-language-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-language-detection-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-language-detection-api-openapi.yml
 - filename: apache-opennlp-lemmatization-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Lemmatization API
   slug: apache-opennlp-lemmatization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-lemmatization-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-lemmatization-api-openapi.yml
 - filename: apache-opennlp-models-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Models API
   slug: apache-opennlp-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-models-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-models-api-openapi.yml
 - filename: apache-opennlp-named-entity-recognition-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Named Entity Recognition API
   slug: apache-opennlp-named-entity-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-named-entity-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-named-entity-recognition-api-openapi.yml
 - filename: apache-opennlp-parsing-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Parsing API
   slug: apache-opennlp-parsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-parsing-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-parsing-api-openapi.yml
 - filename: apache-opennlp-pos-tagging-api-openapi.yml
   format: yaml
   label: Apache OpenNLP POS Tagging API
   slug: apache-opennlp-pos-tagging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-pos-tagging-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-pos-tagging-api-openapi.yml
 - filename: apache-opennlp-sentence-detection-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Sentence Detection API
   slug: apache-opennlp-sentence-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-sentence-detection-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-sentence-detection-api-openapi.yml
 - filename: apache-opennlp-tokenization-api-openapi.yml
   format: yaml
   label: Apache OpenNLP Tokenization API
   slug: apache-opennlp-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/openapi/apache-opennlp-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/apache-opennlp/openapi/apache-opennlp-tokenization-api-openapi.yml
 consequence_counts:
   read: 3
   write: 8
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apache
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lemmatize\n  method: post\n  operationId: lemmatize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /models/{modelId}\n  method: get\n  operationId: getModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ner\n  method: post\n  operationId: findNamedEntities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /parse\n  method: post\n  operationId: parseText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /pos/tag\n  method: post\n  operationId: tagPartsOfSpeech\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /detect/sentences\n  method: post\n  operationId: detectSentences\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokenize\n  method: post\n  operationId: tokenize\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-opennlp/refs/heads/main/agentic-access/apache-opennlp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-opennlp/agentic-access/apache-opennlp-agentic-access.yml
 summary_line: 11 operations · 8 acting
 tags:
 - Machine Learning

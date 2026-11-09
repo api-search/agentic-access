@@ -8,37 +8,37 @@ api_specs:
   label: Ambee Air Quality API
   slug: ambee-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-air-quality-api-openapi.yml
 - filename: ambee-fire-api-openapi.yml
   format: yaml
   label: Ambee Fire API
   slug: ambee-fire-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-fire-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-fire-api-openapi.yml
 - filename: ambee-ndvi-api-openapi.yml
   format: yaml
   label: Ambee NDVI API
   slug: ambee-ndvi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-ndvi-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-ndvi-api-openapi.yml
 - filename: ambee-pollen-api-openapi.yml
   format: yaml
   label: Ambee Pollen API
   slug: ambee-pollen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-pollen-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-pollen-api-openapi.yml
 - filename: ambee-soil-api-openapi.yml
   format: yaml
   label: Ambee Soil API
   slug: ambee-soil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-soil-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-soil-api-openapi.yml
 - filename: ambee-weather-api-openapi.yml
   format: yaml
   label: Ambee Weather API
   slug: ambee-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/openapi/ambee-weather-api-openapi.yml
+  url: https://artifacts.apis.io/ambee/openapi/ambee-weather-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ambee-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /history/pollen/by-lat-lng\n  method: get\n  operationId: getPollenHistoryByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecast/pollen/by-lat-lng\n  method: get\n  operationId: getPollenForecastByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forecast/v2/pollen/120hr/by-lat-lng\n  method: get\n  operationId: getPollen120hrForecastByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/latest/by-lat-lng\n  method: get\n  operationId: getWeatherLatestByLatLng\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/history/by-lat-lng\n  method: get\n  operationId: getWeatherHistoryByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/forecast/by-lat-lng\n  method: get\n  operationId: getWeatherForecastByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fire/latest/by-lat-lng\n  method: get\n  operationId: getFireLatestByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fire/risk/by-lat-lng\n  method: get\n  operationId: getFireRiskByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /soil/latest/by-lat-lng\n  method: get\n  operationId: getSoilLatestByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /soil/history/by-lat-lng\n  method: get\n  operationId: getSoilHistoryByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ndvi/latest/by-lat-lng\n  method: get\n  operationId: getNdviLatestByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ndvi/history/by-lat-lng\n  method: get\n  operationId: getNdviHistoryByLatLng\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ambee/refs/heads/main/agentic-access/ambee-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ambee/agentic-access/ambee-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Environmental Intelligence

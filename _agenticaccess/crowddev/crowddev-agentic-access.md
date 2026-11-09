@@ -9,97 +9,97 @@ api_specs:
   label: Crowd.dev Advisories API
   slug: crowddev-advisories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-advisories-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-advisories-api-openapi.yml
 - filename: crowddev-affiliations-api-openapi.yml
   format: yaml
   label: Crowd.dev Affiliations API
   slug: crowddev-affiliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-affiliations-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-affiliations-api-openapi.yml
 - filename: crowddev-contacts-api-openapi.yml
   format: yaml
   label: Crowd.dev Contacts API
   slug: crowddev-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-contacts-api-openapi.yml
 - filename: crowddev-dashboard-api-openapi.yml
   format: yaml
   label: Crowd.dev Dashboard API
   slug: crowddev-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-dashboard-api-openapi.yml
 - filename: crowddev-maintainer-roles-api-openapi.yml
   format: yaml
   label: Crowd.dev Maintainer Roles API
   slug: crowddev-maintainer-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-maintainer-roles-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-maintainer-roles-api-openapi.yml
 - filename: crowddev-member-affiliations-api-api-openapi.yml
   format: yaml
   label: Crowd.dev Member Affiliations API
   slug: crowddev-member-affiliations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-affiliations-api-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-member-affiliations-api-api-openapi.yml
 - filename: crowddev-member-identities-api-openapi.yml
   format: yaml
   label: Crowd.dev Member Identities API
   slug: crowddev-member-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-identities-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-member-identities-api-openapi.yml
 - filename: crowddev-member-organizations-api-api-openapi.yml
   format: yaml
   label: Crowd.dev Member Organizations API
   slug: crowddev-member-organizations-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-member-organizations-api-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-member-organizations-api-api-openapi.yml
 - filename: crowddev-members-api-openapi.yml
   format: yaml
   label: Crowd.dev Members API
   slug: crowddev-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-members-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-members-api-openapi.yml
 - filename: crowddev-organizations-api-openapi.yml
   format: yaml
   label: Crowd.dev Organizations API
   slug: crowddev-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-organizations-api-openapi.yml
 - filename: crowddev-packages-api-openapi.yml
   format: yaml
   label: Crowd.dev Packages API
   slug: crowddev-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-packages-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-packages-api-openapi.yml
 - filename: crowddev-project-affiliations-api-openapi.yml
   format: yaml
   label: Crowd.dev Project Affiliations API
   slug: crowddev-project-affiliations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-project-affiliations-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-project-affiliations-api-openapi.yml
 - filename: crowddev-stewardship-actions-api-openapi.yml
   format: yaml
   label: Crowd.dev Stewardship Actions API
   slug: crowddev-stewardship-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardship-actions-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-stewardship-actions-api-openapi.yml
 - filename: crowddev-stewardship-api-openapi.yml
   format: yaml
   label: Crowd.dev Stewardship API
   slug: crowddev-stewardship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardship-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-stewardship-api-openapi.yml
 - filename: crowddev-stewardships-api-openapi.yml
   format: yaml
   label: Crowd.dev Stewardships API
   slug: crowddev-stewardships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-stewardships-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-stewardships-api-openapi.yml
 - filename: crowddev-work-experiences-api-openapi.yml
   format: yaml
   label: Crowd.dev Work Experiences API
   slug: crowddev-work-experiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/openapi/crowddev-work-experiences-api-openapi.yml
+  url: https://artifacts.apis.io/crowddev/openapi/crowddev-work-experiences-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 32
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/crowdd
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /akrites/stewardships/{id}/status\n  method: patch\n  operationId: updateStewardshipStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{memberId}/work-experiences\n  method: get\n  operationId: getMemberWorkExperiences\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - read:work-experiences\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /members/{memberId}/work-experiences\n  method: post\n  operationId: createMemberWorkExperience\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - write:work-experiences\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{memberId}/work-experiences/{workExperienceId}\n  method: put\n  operationId: updateMemberWorkExperience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:work-experiences\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{memberId}/work-experiences/{workExperienceId}\n  method: patch\n  operationId: verifyMemberWorkExperience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:work-experiences\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{memberId}/work-experiences/{workExperienceId}\n  method: delete\n  operationId: deleteMemberWorkExperience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write:work-experiences\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crowddev/refs/heads/main/agentic-access/crowddev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/crowddev/agentic-access/crowddev-agentic-access.yml
 summary_line: 56 operations · 24 acting · 1 human-in-the-loop
 tags:
 - Company

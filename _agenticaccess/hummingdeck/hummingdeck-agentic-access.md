@@ -9,73 +9,73 @@ api_specs:
   label: HummingDeck Companies API
   slug: hummingdeck-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-companies-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-companies-api-openapi.yml
 - filename: hummingdeck-contacts-api-openapi.yml
   format: yaml
   label: HummingDeck Contacts API
   slug: hummingdeck-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-contacts-api-openapi.yml
 - filename: hummingdeck-decisions-api-openapi.yml
   format: yaml
   label: HummingDeck Decisions API
   slug: hummingdeck-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-decisions-api-openapi.yml
 - filename: hummingdeck-decks-api-openapi.yml
   format: yaml
   label: HummingDeck Decks API
   slug: hummingdeck-decks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-decks-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-decks-api-openapi.yml
 - filename: hummingdeck-emails-api-openapi.yml
   format: yaml
   label: HummingDeck Emails API
   slug: hummingdeck-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-emails-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-emails-api-openapi.yml
 - filename: hummingdeck-hooks-api-openapi.yml
   format: yaml
   label: HummingDeck Hooks API
   slug: hummingdeck-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-hooks-api-openapi.yml
 - filename: hummingdeck-me-api-openapi.yml
   format: yaml
   label: HummingDeck Me API
   slug: hummingdeck-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-me-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-me-api-openapi.yml
 - filename: hummingdeck-room-labels-api-openapi.yml
   format: yaml
   label: HummingDeck Room Labels API
   slug: hummingdeck-room-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-room-labels-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-room-labels-api-openapi.yml
 - filename: hummingdeck-room-views-api-openapi.yml
   format: yaml
   label: HummingDeck Room Views API
   slug: hummingdeck-room-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-room-views-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-room-views-api-openapi.yml
 - filename: hummingdeck-rooms-api-openapi.yml
   format: yaml
   label: HummingDeck Rooms API
   slug: hummingdeck-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-rooms-api-openapi.yml
 - filename: hummingdeck-shares-api-openapi.yml
   format: yaml
   label: HummingDeck Shares API
   slug: hummingdeck-shares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-shares-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-shares-api-openapi.yml
 - filename: hummingdeck-views-api-openapi.yml
   format: yaml
   label: HummingDeck Views API
   slug: hummingdeck-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/openapi/hummingdeck-views-api-openapi.yml
+  url: https://artifacts.apis.io/hummingdeck/openapi/hummingdeck-views-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 16
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-10-24'\nmethod: generated\nsource: openapi/hummin
   \ max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /decks\n  method: get\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /decks\n  method: post\n  operationId: uploadDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /decks/{deckId}/replace\n  method: post\n  operationId: replaceDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /decisions\n  method: get\n  operationId: listDecisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /emails\n  method: get\n  operationId: listEmailCaptures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies\n  method: get\n  operationId: searchCompanies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies\n  method: post\n  operationId: findOrCreateCompany\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /contacts\n  method: get\n  operationId: searchContacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /contacts\n  method: post\n  operationId: findOrCreateContact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hummingdeck/refs/heads/main/agentic-access/hummingdeck-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hummingdeck/agentic-access/hummingdeck-agentic-access.yml
 summary_line: 48 operations · 32 acting
 tags:
 - Document Sharing
@@ -136,6 +136,6 @@ tags:
 - Digital Sales Rooms
 - Data Rooms
 - Client Portals
-- Integrations
+- Integration
 - Secure Sharing
 ---

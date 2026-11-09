@@ -8,7 +8,7 @@ api_specs:
   label: Cables Tools API
   slug: cables-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/openapi/cables-tools-api-openapi.yml
+  url: https://artifacts.apis.io/cables/openapi/cables-tools-api-openapi.yml
 consequence_counts:
   write: 168
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,14 +67,14 @@ source_yaml: "generated: '2026-09-18'\nmethod: generated\nsource: openapi/cables
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/reddit-trend-detection\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/reddit-growth-forecast\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/reddit-anomaly-detection\n  method: post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/reddit-post-comparison\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/reddit-community-clustering\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/linkedin-sentiment-analysis\n  method:\
   \ post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/predict-linkedin-engagement\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/classify-linkedin-topics\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (52 KB total) ---\n\
-  # Full source: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/agentic-access/cables-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cables/refs/heads/main/agentic-access/cables-agentic-access.yml
+  # Full source: https://artifacts.apis.io/cables/agentic-access/cables-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/cables/agentic-access/cables-agentic-access.yml
 summary_line: 168 operations · 168 acting
 tags:
 - MCP Server
 - Agent-Native
 - x402
-- pay-per-call
+- Pay-per-call
 - Machine Learning
 - tensorflow-js
 - Natural Language Processing

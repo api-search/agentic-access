@@ -9,19 +9,19 @@ api_specs:
   label: KServe Health API
   slug: kserve-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-health-api-openapi.yml
+  url: https://artifacts.apis.io/kserve/openapi/kserve-health-api-openapi.yml
 - filename: kserve-kserve-inference-protocol-api-openapi.yml
   format: yaml
   label: KServe Inference Protocol API
   slug: kserve-kserve-inference-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-kserve-inference-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/kserve/openapi/kserve-kserve-inference-protocol-api-openapi.yml
 - filename: kserve-models-api-openapi.yml
   format: yaml
   label: KServe Models API
   slug: kserve-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/openapi/kserve-models-api-openapi.yml
+  url: https://artifacts.apis.io/kserve/openapi/kserve-models-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kserve
   \  method: post\n  operationId: v1Predict\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/models/{model_name}:explain\n  method: post\n  operationId: v1Explain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2\n  method: get\n  operationId: v2ServerMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/health/live\n  method: get\n  operationId: v2ServerLive\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/health/ready\n  method: get\n  operationId: v2ServerReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}\n  method: get\n  operationId: v2ModelMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}/ready\n  method: get\n  operationId: v2ModelReady\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/models/{model_name}/infer\n  method: post\n  operationId: v2Infer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kserve/refs/heads/main/agentic-access/kserve-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kserve/agentic-access/kserve-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Inference

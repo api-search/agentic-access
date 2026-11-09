@@ -9,13 +9,19 @@ api_specs:
   label: Azure SignalR Service Operations API
   slug: microsoft-azure-signalr-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-operations-api-openapi.yml
 - filename: microsoft-azure-signalr-signalr-api-openapi.yml
   format: yaml
   label: Azure SignalR Service SignalR API
   slug: microsoft-azure-signalr-signalr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
+- filename: microsoft-azure-signalr-general-api-openapi.yml
+  format: yaml
+  label: Azure SignalR Service General API
+  slug: microsoft-azure-signalr-general-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-general-api-openapi.yml
 consequence_counts:
   read: 4
   write: 3
@@ -45,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR\n  method: get\n  operationId: listSignalrByResourceGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{name}\n  method: get\n  operationId: getSignalr\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{name}\n  method: put\n\
   \  operationId: createOrUpdateSignalr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{name}\n  method: patch\n  operationId: updateSignalr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.SignalRService/signalR/{name}\n  method: delete\n  operationId:\
   \ deleteSignalr\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-signalr/refs/heads/main/agentic-access/microsoft-azure-signalr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-signalr/agentic-access/microsoft-azure-signalr-agentic-access.yml
 summary_line: 7 operations · 3 acting
 tags:
 - Real-Time

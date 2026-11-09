@@ -8,37 +8,37 @@ api_specs:
   label: Apache Software Foundation Committees API
   slug: apache-software-foundation-committees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-committees-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-committees-api-openapi.yml
 - filename: apache-software-foundation-groups-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Groups API
   slug: apache-software-foundation-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-groups-api-openapi.yml
 - filename: apache-software-foundation-icla-api-openapi.yml
   format: yaml
   label: Apache Software Foundation ICLA API
   slug: apache-software-foundation-icla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-icla-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-icla-api-openapi.yml
 - filename: apache-software-foundation-members-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Members API
   slug: apache-software-foundation-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-members-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-members-api-openapi.yml
 - filename: apache-software-foundation-people-api-openapi.yml
   format: yaml
   label: Apache Software Foundation People API
   slug: apache-software-foundation-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-people-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-people-api-openapi.yml
 - filename: apache-software-foundation-podlings-api-openapi.yml
   format: yaml
   label: Apache Software Foundation Podlings API
   slug: apache-software-foundation-podlings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/openapi/apache-software-foundation-podlings-api-openapi.yml
+  url: https://artifacts.apis.io/apache-software-foundation/openapi/apache-software-foundation-podlings-api-openapi.yml
 consequence_counts:
   read: 14
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apache
   \      max-ttl: 3600\n    audit: none\n- path: /foundation/projects.json\n  method: get\n  operationId: getProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foundation/releases.json\n  method: get\n  operationId: getReleases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foundation/podlings.json\n  method: get\n  operationId: getPodlings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foundation/people.json\n  method: get\n  operationId: getPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /foundation/people_name.json\n  method: get\n  operationId: getPeopleNames\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /committee-info.json\n  method: get\n  operationId: getCommitteeInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public_ldap_committees.json\n  method: get\n  operationId: getPublicLdapCommittees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public_ldap_groups.json\n  method: get\n  operationId: getPublicLdapGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public_ldap_people.json\n  method: get\n  operationId: getPublicLdapPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /icla-info.json\n  method: get\n  operationId: getIclaInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /member-info.json\n  method: get\n  operationId: getMemberInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public_podlings.json\n  method: get\n  operationId: getPublicPodlings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/agentic-access/apache-software-foundation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apache-software-foundation/agentic-access/apache-software-foundation-agentic-access.yml
 summary_line: 14 operations
 tags:
 - ASF
@@ -75,4 +75,6 @@ tags:
 - Governance
 - Project
 - Apache
+- Foundations
+- Software
 ---

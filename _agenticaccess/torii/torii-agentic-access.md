@@ -9,61 +9,61 @@ api_specs:
   label: Torii Apps API
   slug: torii-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-apps-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-apps-api-openapi.yml
 - filename: torii-audit-api-openapi.yml
   format: yaml
   label: Torii Audit API
   slug: torii-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-audit-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-audit-api-openapi.yml
 - filename: torii-contracts-api-openapi.yml
   format: yaml
   label: Torii Contracts API
   slug: torii-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-contracts-api-openapi.yml
 - filename: torii-files-api-openapi.yml
   format: yaml
   label: Torii Files API
   slug: torii-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-files-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-files-api-openapi.yml
 - filename: torii-metadata-api-openapi.yml
   format: yaml
   label: Torii Metadata API
   slug: torii-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-metadata-api-openapi.yml
 - filename: torii-parsings-api-openapi.yml
   format: yaml
   label: Torii Parsings API
   slug: torii-parsings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-parsings-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-parsings-api-openapi.yml
 - filename: torii-scim-api-openapi.yml
   format: yaml
   label: Torii SCIM API
   slug: torii-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-scim-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-scim-api-openapi.yml
 - filename: torii-services-api-openapi.yml
   format: yaml
   label: Torii Services API
   slug: torii-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-services-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-services-api-openapi.yml
 - filename: torii-users-api-openapi.yml
   format: yaml
   label: Torii Users API
   slug: torii-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-users-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-users-api-openapi.yml
 - filename: torii-workflows-api-openapi.yml
   format: yaml
   label: Torii Workflows API
   slug: torii-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/openapi/torii-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/torii/openapi/torii-workflows-api-openapi.yml
 consequence_counts:
   read: 12
   write: 7
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/torii-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parsings/manual\n  method: put\n  operationId: updateParsingManual\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/sync/custom\n  method: post\n  operationId: syncCustomIntegration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/actionExecutions\n  method: get\n  operationId: getWorkflowActionExecutions\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: get\n  operationId: listScimUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users\n  method: post\n  operationId: createScimUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{idUser}\n  method: get\n  operationId: getScimUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scim/v2/Users/{idUser}\n  method: patch\n  operationId: patchScimUser\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scim/v2/Users/{idUser}\n  method: delete\n  operationId: deleteScimUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/agentic-access/torii-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/torii/agentic-access/torii-agentic-access.yml
 summary_line: 19 operations · 7 acting
 tags:
 - Application

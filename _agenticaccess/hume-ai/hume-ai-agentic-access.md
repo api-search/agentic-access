@@ -9,61 +9,61 @@ api_specs:
   label: Hume AI Subpackage Batch API
   slug: hume-ai-subpackage-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-batch-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-batch-api-openapi.yml
 - filename: hume-ai-subpackage-chatgroups-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Chat Groups API
   slug: hume-ai-subpackage-chatgroups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chatgroups-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-chatgroups-api-openapi.yml
 - filename: hume-ai-subpackage-chats-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Chats API
   slug: hume-ai-subpackage-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-chats-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-chats-api-openapi.yml
 - filename: hume-ai-subpackage-configs-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Configs API
   slug: hume-ai-subpackage-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-configs-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-configs-api-openapi.yml
 - filename: hume-ai-subpackage-controlplane-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Control Plane API
   slug: hume-ai-subpackage-controlplane-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-controlplane-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-controlplane-api-openapi.yml
 - filename: hume-ai-subpackage-prompts-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Prompts API
   slug: hume-ai-subpackage-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-prompts-api-openapi.yml
 - filename: hume-ai-subpackage-tools-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Tools API
   slug: hume-ai-subpackage-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-tools-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-tools-api-openapi.yml
 - filename: hume-ai-subpackage-voices-api-openapi.yml
   format: yaml
   label: Hume AI Subpackage Voices API
   slug: hume-ai-subpackage-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-subpackage-voices-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-subpackage-voices-api-openapi.yml
 - filename: hume-ai-speech-to-speech-evi-api-openapi.yml
   format: yaml
   label: Hume AI Speech To Speech (EVI) API
   slug: hume-ai-speech-to-speech-evi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-speech-to-speech-evi-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-speech-to-speech-evi-api-openapi.yml
 - filename: hume-ai-tts-api-openapi.yml
   format: yaml
   label: Hume AI Tts API
   slug: hume-ai-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/openapi/hume-ai-tts-api-openapi.yml
+  url: https://artifacts.apis.io/hume-ai/openapi/hume-ai-tts-api-openapi.yml
 consequence_counts:
   read: 21
   safety-critical: 1
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/hume-a
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tts\n  method: post\n  operationId: synthesize-json\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tts/file\n  method: post\n  operationId: synthesize-file\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tts/voice_conversion/file\n  method: post\n  operationId: convert-voice-file\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tts/voice_conversion/json\n  method: post\n  operationId: convert-voice-json\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tts/voices\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v0/tts/voices\n  method: get\n  operationId: list\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v0/tts/voices\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/agentic-access/hume-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hume-ai/agentic-access/hume-ai-agentic-access.yml
 summary_line: 49 operations · 28 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

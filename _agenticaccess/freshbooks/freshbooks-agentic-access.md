@@ -21,67 +21,67 @@ api_specs:
   label: FreshBooks Auth API
   slug: freshbooks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-auth-api-openapi.yml
 - filename: freshbooks-clients-api-openapi.yml
   format: yaml
   label: FreshBooks Clients API
   slug: freshbooks-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-clients-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-clients-api-openapi.yml
 - filename: freshbooks-estimates-api-openapi.yml
   format: yaml
   label: FreshBooks Estimates API
   slug: freshbooks-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-estimates-api-openapi.yml
 - filename: freshbooks-expenses-api-openapi.yml
   format: yaml
   label: FreshBooks Expenses API
   slug: freshbooks-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-expenses-api-openapi.yml
 - filename: freshbooks-invoices-api-openapi.yml
   format: yaml
   label: FreshBooks Invoices API
   slug: freshbooks-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-invoices-api-openapi.yml
 - filename: freshbooks-items-api-openapi.yml
   format: yaml
   label: FreshBooks Items API
   slug: freshbooks-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-items-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-items-api-openapi.yml
 - filename: freshbooks-payments-api-openapi.yml
   format: yaml
   label: FreshBooks Payments API
   slug: freshbooks-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-payments-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-payments-api-openapi.yml
 - filename: freshbooks-projects-api-openapi.yml
   format: yaml
   label: FreshBooks Projects API
   slug: freshbooks-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-projects-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-projects-api-openapi.yml
 - filename: freshbooks-tasks-api-openapi.yml
   format: yaml
   label: FreshBooks Tasks API
   slug: freshbooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-tasks-api-openapi.yml
 - filename: freshbooks-taxes-api-openapi.yml
   format: yaml
   label: FreshBooks Taxes API
   slug: freshbooks-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-taxes-api-openapi.yml
 - filename: freshbooks-time-entries-api-openapi.yml
   format: yaml
   label: FreshBooks Time Entries API
   slug: freshbooks-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-time-entries-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 14
@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freshb
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/account/{accountId}/items/items\n  method: get\n  operationId: listItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/account/{accountId}/items/items\n  method: post\n  operationId: createItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/account/{accountId}/taxes/taxes\n  method: get\n  operationId: listTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /accounting/account/{accountId}/taxes/taxes\n  method: post\n  operationId: createTax\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/account/{accountId}/projects/tasks\n  method: get\n  operationId: listTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/account/{accountId}/projects/tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/agentic-access/freshbooks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freshbooks/agentic-access/freshbooks-agentic-access.yml
 summary_line: 27 operations · 13 acting
 tags:
 - Accounting

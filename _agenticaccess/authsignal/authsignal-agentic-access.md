@@ -9,37 +9,37 @@ api_specs:
   label: Authsignal Actions API
   slug: authsignal-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-actions-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-actions-api-openapi.yml
 - filename: authsignal-authenticators-api-openapi.yml
   format: yaml
   label: Authsignal Authenticators API
   slug: authsignal-authenticators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-authenticators-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-authenticators-api-openapi.yml
 - filename: authsignal-challenges-api-openapi.yml
   format: yaml
   label: Authsignal Challenges API
   slug: authsignal-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-challenges-api-openapi.yml
 - filename: authsignal-devices-api-openapi.yml
   format: yaml
   label: Authsignal Devices API
   slug: authsignal-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-devices-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-devices-api-openapi.yml
 - filename: authsignal-sessions-api-openapi.yml
   format: yaml
   label: Authsignal Sessions API
   slug: authsignal-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-sessions-api-openapi.yml
 - filename: authsignal-users-api-openapi.yml
   format: yaml
   label: Authsignal Users API
   slug: authsignal-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/openapi/authsignal-users-api-openapi.yml
+  url: https://artifacts.apis.io/authsignal/openapi/authsignal-users-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 2
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/authsi
   \ post\n  operationId: validateSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/refresh\n  method: post\n  operationId: refreshSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/revoke\n  method: post\n  operationId: revokeSession\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n \
   \     human-in-the-loop: required\n    audit: required\n- path: /sessions/user/revoke\n  method: post\n  operationId: revokeUserSessions\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /users/{userId}/devices\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/devices/{deviceId}\n  method: patch\n  operationId: updateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /users/{userId}/devices/{deviceId}/invalidate\n  method: post\n  operationId: invalidateDevice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/authenticators\n  method: post\n  operationId: batchEnrollAuthenticators\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authsignal/refs/heads/main/agentic-access/authsignal-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/authsignal/agentic-access/authsignal-agentic-access.yml
 summary_line: 26 operations · 18 acting · 2 human-in-the-loop
 tags:
 - Authentication

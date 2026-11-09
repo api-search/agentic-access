@@ -9,109 +9,109 @@ api_specs:
   label: MINE Aispm API
   slug: mine-aispm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispm-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispm-api-openapi.yml
 - filename: mine-aispmdeviceflags-api-openapi.yml
   format: yaml
   label: MINE AispmDeviceFlags API
   slug: mine-aispmdeviceflags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispmdeviceflags-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispmdeviceflags-api-openapi.yml
 - filename: mine-aispmenroll-api-openapi.yml
   format: yaml
   label: MINE AispmEnroll API
   slug: mine-aispmenroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispmenroll-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispmenroll-api-openapi.yml
 - filename: mine-aispmenrollmenttokens-api-openapi.yml
   format: yaml
   label: MINE AispmEnrollmentTokens API
   slug: mine-aispmenrollmenttokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispmenrollmenttokens-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispmenrollmenttokens-api-openapi.yml
 - filename: mine-aispmingest-api-openapi.yml
   format: yaml
   label: MINE AispmIngest API
   slug: mine-aispmingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispmingest-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispmingest-api-openapi.yml
 - filename: mine-aispminsights-api-openapi.yml
   format: yaml
   label: MINE AispmInsights API
   slug: mine-aispminsights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispminsights-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispminsights-api-openapi.yml
 - filename: mine-aispmpublicagents-api-openapi.yml
   format: yaml
   label: MINE AispmPublicAgents API
   slug: mine-aispmpublicagents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispmpublicagents-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispmpublicagents-api-openapi.yml
 - filename: mine-aispmpublicdevices-api-openapi.yml
   format: yaml
   label: MINE AispmPublicDevices API
   slug: mine-aispmpublicdevices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-aispmpublicdevices-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-aispmpublicdevices-api-openapi.yml
 - filename: mine-assessment-api-openapi.yml
   format: yaml
   label: MINE Assessment API
   slug: mine-assessment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-assessment-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-assessment-api-openapi.yml
 - filename: mine-assessmenttemplate-api-openapi.yml
   format: yaml
   label: MINE AssessmentTemplate API
   slug: mine-assessmenttemplate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-assessmenttemplate-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-assessmenttemplate-api-openapi.yml
 - filename: mine-employee-api-openapi.yml
   format: yaml
   label: MINE Employee API
   slug: mine-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-employee-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-employee-api-openapi.yml
 - filename: mine-evidencesearch-api-openapi.yml
   format: yaml
   label: MINE EvidenceSearch API
   slug: mine-evidencesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-evidencesearch-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-evidencesearch-api-openapi.yml
 - filename: mine-partners-api-openapi.yml
   format: yaml
   label: MINE Partners API
   slug: mine-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-partners-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-partners-api-openapi.yml
 - filename: mine-privacyrightspublic-api-openapi.yml
   format: yaml
   label: MINE PrivacyRightsPublic API
   slug: mine-privacyrightspublic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-privacyrightspublic-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-privacyrightspublic-api-openapi.yml
 - filename: mine-system-api-openapi.yml
   format: yaml
   label: MINE System API
   slug: mine-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-system-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-system-api-openapi.yml
 - filename: mine-test-api-openapi.yml
   format: yaml
   label: MINE Test API
   slug: mine-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-test-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-test-api-openapi.yml
 - filename: mine-tickets-api-openapi.yml
   format: yaml
   label: MINE Tickets API
   slug: mine-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-tickets-api-openapi.yml
 - filename: mine-webhooks-api-openapi.yml
   format: yaml
   label: MINE Webhooks API
   slug: mine-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/openapi/mine-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mine/openapi/mine-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 37
@@ -174,7 +174,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mine-o
   \      - abnormal\n      - high-value\n    audit: required\n- path: /ingest\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/aispm/v1/insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/aispm/v1/public/agents\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/aispm/v1/public/agents/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/aispm/v1/public/agents/{id}/vulnerabilities\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/aispm/v1/public/agents/{id}/signals\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/aispm/v1/public/devices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/aispm/v1/public/devices/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Partners/ActivateAccount\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n     \
   \ human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/Partners/AccountInfo\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mine/refs/heads/main/agentic-access/mine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mine/agentic-access/mine-agentic-access.yml
 summary_line: 77 operations · 40 acting · 1 human-in-the-loop
 tags:
 - Company

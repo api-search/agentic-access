@@ -9,79 +9,79 @@ api_specs:
   label: D2L Brightspace Assignments API
   slug: brightspace-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-assignments-api-openapi.yml
 - filename: brightspace-calendar-api-openapi.yml
   format: yaml
   label: D2L Brightspace Calendar API
   slug: brightspace-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-calendar-api-openapi.yml
 - filename: brightspace-content-api-openapi.yml
   format: yaml
   label: D2L Brightspace Content API
   slug: brightspace-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-content-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-content-api-openapi.yml
 - filename: brightspace-data-hub-api-openapi.yml
   format: yaml
   label: D2L Brightspace Data Hub API
   slug: brightspace-data-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-data-hub-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-data-hub-api-openapi.yml
 - filename: brightspace-discussions-api-openapi.yml
   format: yaml
   label: D2L Brightspace Discussions API
   slug: brightspace-discussions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-discussions-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-discussions-api-openapi.yml
 - filename: brightspace-enrollments-api-openapi.yml
   format: yaml
   label: D2L Brightspace Enrollments API
   slug: brightspace-enrollments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-enrollments-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-enrollments-api-openapi.yml
 - filename: brightspace-grades-api-openapi.yml
   format: yaml
   label: D2L Brightspace Grades API
   slug: brightspace-grades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-grades-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-grades-api-openapi.yml
 - filename: brightspace-learning-outcomes-api-openapi.yml
   format: yaml
   label: D2L Brightspace Learning Outcomes API
   slug: brightspace-learning-outcomes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-learning-outcomes-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-learning-outcomes-api-openapi.yml
 - filename: brightspace-news-api-openapi.yml
   format: yaml
   label: D2L Brightspace News API
   slug: brightspace-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-news-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-news-api-openapi.yml
 - filename: brightspace-org-units-api-openapi.yml
   format: yaml
   label: D2L Brightspace Org Units API
   slug: brightspace-org-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-org-units-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-org-units-api-openapi.yml
 - filename: brightspace-quizzes-api-openapi.yml
   format: yaml
   label: D2L Brightspace Quizzes API
   slug: brightspace-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-quizzes-api-openapi.yml
 - filename: brightspace-users-api-openapi.yml
   format: yaml
   label: D2L Brightspace Users API
   slug: brightspace-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-users-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-users-api-openapi.yml
 - filename: brightspace-versions-api-openapi.yml
   format: yaml
   label: D2L Brightspace Versions API
   slug: brightspace-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/openapi/brightspace-versions-api-openapi.yml
+  url: https://artifacts.apis.io/brightspace/openapi/brightspace-versions-api-openapi.yml
 consequence_counts:
   read: 37
   write: 18
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bright
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /le/1.92/{orgUnitId}/news/{newsItemId}\n  method: get\n  operationId: getNewsItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /le/1.92/{orgUnitId}/news/{newsItemId}\n  method: delete\n  operationId: deleteNewsItem\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /le/1.92/lo/outcomeSets/\n  method: get\n  operationId: listOutcomeSets\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /le/1.92/lo/outcomeSets/\n  method: post\n  operationId: createOutcomeSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /le/1.92/{orgUnitId}/lo/alignments/\n  method: get\n  operationId: listOutcomeAlignments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lp/1.53/dataExport/list\n  method: get\n  operationId: listDataSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lp/1.53/dataExport/create\n  method: post\n  operationId: createDataExport\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /lp/1.53/dataExport/jobs\n  method: get\n  operationId: listDataExportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lp/1.53/dataExport/download/{exportJobId}\n  method: get\n  operationId: downloadDataExport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lp/1.53/datasets/bds\n  method: get\n  operationId: listBrightspaceDataSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightspace/refs/heads/main/agentic-access/brightspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brightspace/agentic-access/brightspace-agentic-access.yml
 summary_line: 55 operations · 18 acting
 tags:
 - LMS

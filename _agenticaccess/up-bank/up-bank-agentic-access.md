@@ -9,85 +9,85 @@ api_specs:
   label: Up Accounts API
   slug: up-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-accounts-api-openapi.yml
 - filename: up-bank-attachments-api-openapi.yml
   format: yaml
   label: Up Attachments API
   slug: up-bank-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-attachments-api-openapi.yml
 - filename: up-bank-banking-account-balances-api-openapi.yml
   format: yaml
   label: Up Banking Account Balances API
   slug: up-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-balances-api-openapi.yml
 - filename: up-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Up Banking Account Direct Debits API
   slug: up-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-direct-debits-api-openapi.yml
 - filename: up-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Up Banking Account Scheduled Payments API
   slug: up-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: up-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Up Banking Account Transactions API
   slug: up-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-account-transactions-api-openapi.yml
 - filename: up-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Up Banking Accounts API
   slug: up-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-accounts-api-openapi.yml
 - filename: up-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Up Banking Payees API
   slug: up-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-payees-api-openapi.yml
 - filename: up-bank-banking-products-api-openapi.yml
   format: yaml
   label: Up Banking Products API
   slug: up-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-banking-products-api-openapi.yml
 - filename: up-bank-categories-api-openapi.yml
   format: yaml
   label: Up Categories API
   slug: up-bank-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-categories-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-categories-api-openapi.yml
 - filename: up-bank-tags-api-openapi.yml
   format: yaml
   label: Up Tags API
   slug: up-bank-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-tags-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-tags-api-openapi.yml
 - filename: up-bank-transactions-api-openapi.yml
   format: yaml
   label: Up Transactions API
   slug: up-bank-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-transactions-api-openapi.yml
 - filename: up-bank-utility-endpoints-api-openapi.yml
   format: yaml
   label: Up Utility endpoints API
   slug: up-bank-utility-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-utility-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-utility-endpoints-api-openapi.yml
 - filename: up-bank-webhooks-api-openapi.yml
   format: yaml
   label: Up Webhooks API
   slug: up-bank-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/openapi/up-bank-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/up-bank/openapi/up-bank-webhooks-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 33
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/up-ban
   \  method: get\n  operationId: getTransactionsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: getAccountsByAccountIdTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /util/ping\n  method: get\n  operationId: getUtilPing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: postWebhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: getWebhooksById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: deleteWebhooksById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/ping\n  method: post\n  operationId: postWebhooksByWebhookIdPing\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}/logs\n  method: get\n  operationId: getWebhooksByWebhookIdLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/up-bank/refs/heads/main/agentic-access/up-bank-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/up-bank/agentic-access/up-bank-agentic-access.yml
 summary_line: 39 operations · 6 acting
 tags:
 - Finance

@@ -9,43 +9,43 @@ api_specs:
   label: Voltage Park Bare Metal API
   slug: voltage-park-bare-metal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-bare-metal-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-bare-metal-api-openapi.yml
 - filename: voltage-park-billing-api-openapi.yml
   format: yaml
   label: Voltage Park Billing API
   slug: voltage-park-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-billing-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-billing-api-openapi.yml
 - filename: voltage-park-locations-api-openapi.yml
   format: yaml
   label: Voltage Park Locations API
   slug: voltage-park-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-locations-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-locations-api-openapi.yml
 - filename: voltage-park-organization-api-openapi.yml
   format: yaml
   label: Voltage Park Organization API
   slug: voltage-park-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-organization-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-organization-api-openapi.yml
 - filename: voltage-park-storage-api-openapi.yml
   format: yaml
   label: Voltage Park Storage API
   slug: voltage-park-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-storage-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-storage-api-openapi.yml
 - filename: voltage-park-validation-api-openapi.yml
   format: yaml
   label: Voltage Park Validation API
   slug: voltage-park-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-validation-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-validation-api-openapi.yml
 - filename: voltage-park-virtual-machines-api-openapi.yml
   format: yaml
   label: Voltage Park Virtual Machines API
   slug: voltage-park-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/openapi/voltage-park-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/voltage-park/openapi/voltage-park-virtual-machines-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 25
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/voltag
   \    audit: required\n- path: /locations/\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{location_id}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hostnodes/{hostnode_id}\n  method: get\n  operationId: getHostNode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instant-deploy-presets/\n  method: get\n  operationId: listInstantDeployPresets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /instant-deploy-presets/{instant_deploy_preset_id}\n  method: get\n  operationId:\
   \ getInstantDeployPreset\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/hourly-rate\n  method: get\n  operationId: getHourlyRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /billing/reports/{year}/{month}/transactions\n  method: get\n  operationId: getMonthlyTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /validate/cloudinit\n  method: post\n  operationId: validateCloudInit\n  x-agentic-access:\n    action-class: acting\n \
   \   consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voltage-park/refs/heads/main/agentic-access/voltage-park-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/voltage-park/agentic-access/voltage-park-agentic-access.yml
 summary_line: 48 operations · 23 acting · 7 human-in-the-loop
 tags:
 - GPU

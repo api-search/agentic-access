@@ -9,97 +9,97 @@ api_specs:
   label: Pocket Network Application API
   slug: pocket-network-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-application-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-application-api-openapi.yml
 - filename: pocket-network-bank-api-openapi.yml
   format: yaml
   label: Pocket Network Bank API
   slug: pocket-network-bank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-bank-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-bank-api-openapi.yml
 - filename: pocket-network-blocks-api-openapi.yml
   format: yaml
   label: Pocket Network Blocks API
   slug: pocket-network-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-blocks-api-openapi.yml
 - filename: pocket-network-consensus-api-openapi.yml
   format: yaml
   label: Pocket Network Consensus API
   slug: pocket-network-consensus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-consensus-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-consensus-api-openapi.yml
 - filename: pocket-network-gateway-api-openapi.yml
   format: yaml
   label: Pocket Network Gateway API
   slug: pocket-network-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-gateway-api-openapi.yml
 - filename: pocket-network-health-api-openapi.yml
   format: yaml
   label: Pocket Network Health API
   slug: pocket-network-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-health-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-health-api-openapi.yml
 - filename: pocket-network-mempool-api-openapi.yml
   format: yaml
   label: Pocket Network Mempool API
   slug: pocket-network-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-mempool-api-openapi.yml
 - filename: pocket-network-proof-api-openapi.yml
   format: yaml
   label: Pocket Network Proof API
   slug: pocket-network-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-proof-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-proof-api-openapi.yml
 - filename: pocket-network-relays-api-openapi.yml
   format: yaml
   label: Pocket Network Relays API
   slug: pocket-network-relays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-relays-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-relays-api-openapi.yml
 - filename: pocket-network-service-api-openapi.yml
   format: yaml
   label: Pocket Network Service API
   slug: pocket-network-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-service-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-service-api-openapi.yml
 - filename: pocket-network-session-api-openapi.yml
   format: yaml
   label: Pocket Network Session API
   slug: pocket-network-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-session-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-session-api-openapi.yml
 - filename: pocket-network-status-api-openapi.yml
   format: yaml
   label: Pocket Network Status API
   slug: pocket-network-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-status-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-status-api-openapi.yml
 - filename: pocket-network-supplier-api-openapi.yml
   format: yaml
   label: Pocket Network Supplier API
   slug: pocket-network-supplier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-supplier-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-supplier-api-openapi.yml
 - filename: pocket-network-tokenomics-api-openapi.yml
   format: yaml
   label: Pocket Network Tokenomics API
   slug: pocket-network-tokenomics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-tokenomics-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-tokenomics-api-openapi.yml
 - filename: pocket-network-transactions-api-openapi.yml
   format: yaml
   label: Pocket Network Transactions API
   slug: pocket-network-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-transactions-api-openapi.yml
 - filename: pocket-network-validators-api-openapi.yml
   format: yaml
   label: Pocket Network Validators API
   slug: pocket-network-validators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/openapi/pocket-network-validators-api-openapi.yml
+  url: https://artifacts.apis.io/pocket-network/openapi/pocket-network-validators-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 26
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/pocket
   - path: /cosmos/bank/v1beta1/supply\n  method: get\n  operationId: getShannonTotalSupply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cosmos/staking/v1beta1/validators\n  method: get\n  operationId: listShannonValidators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/application/v1/application\n  method: get\n  operationId: listShannonApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/application/v1/application/{address}\n  method: get\n  operationId: getShannonApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/supplier/v1/supplier\n\
   \  method: get\n  operationId: listShannonSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/supplier/v1/supplier/{address}\n  method: get\n  operationId: getShannonSupplier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/gateway/v1/gateway\n  method: get\n  operationId: listShannonGateways\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/service/v1/service\n  method: get\n  operationId: listShannonServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/service/v1/service/{serviceId}\n  method: get\n  operationId: getShannonService\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/session/v1/get_session\n  method: get\n  operationId: getShannonSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/proof/v1/params\n  method: get\n  operationId: getShannonProofParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pocket/tokenomics/v1/params\n  method: get\n  operationId: getShannonTokenomicsParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/agentic-access/pocket-network-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pocket-network/agentic-access/pocket-network-agentic-access.yml
 summary_line: 29 operations · 3 acting
 tags:
 - Web3
@@ -157,4 +157,8 @@ tags:
 - Shannon
 - Cosmos
 - POKT
+- Decentralized
+- Ethereum
+- EVM
+- Infrastructure
 ---

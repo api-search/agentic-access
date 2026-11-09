@@ -9,73 +9,73 @@ api_specs:
   label: Ando Calls API
   slug: ando-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-calls-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-calls-api-openapi.yml
 - filename: ando-members-api-openapi.yml
   format: yaml
   label: Ando Members API
   slug: ando-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-members-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-members-api-openapi.yml
 - filename: ando-messages-api-openapi.yml
   format: yaml
   label: Ando Messages API
   slug: ando-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-messages-api-openapi.yml
 - filename: ando-realtime-api-openapi.yml
   format: yaml
   label: Ando Realtime API
   slug: ando-realtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-realtime-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-realtime-api-openapi.yml
 - filename: ando-search-api-openapi.yml
   format: yaml
   label: Ando Search API
   slug: ando-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-search-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-search-api-openapi.yml
 - filename: ando-webhooks-api-openapi.yml
   format: yaml
   label: Ando Webhooks API
   slug: ando-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-webhooks-api-openapi.yml
 - filename: ando-agents-api-openapi.yml
   format: yaml
   label: Ando Agents API
   slug: ando-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-agents-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-agents-api-openapi.yml
 - filename: ando-api-keys-api-openapi.yml
   format: yaml
   label: Ando API Keys API
   slug: ando-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-api-keys-api-openapi.yml
 - filename: ando-conversations-api-openapi.yml
   format: yaml
   label: Ando Conversations API
   slug: ando-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-conversations-api-openapi.yml
 - filename: ando-files-api-openapi.yml
   format: yaml
   label: Ando Files API
   slug: ando-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-files-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-files-api-openapi.yml
 - filename: ando-imports-api-openapi.yml
   format: yaml
   label: Ando Imports API
   slug: ando-imports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-imports-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-imports-api-openapi.yml
 - filename: ando-webhook-sources-api-openapi.yml
   format: yaml
   label: Ando Webhook sources API
   slug: ando-webhook-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/openapi/ando-webhook-sources-api-openapi.yml
+  url: https://artifacts.apis.io/ando/openapi/ando-webhook-sources-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 17
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/ando-p
   \ post\n  operationId: replayWebhookDelivery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /members/{memberId}\n  method: get\n  operationId: getMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/calls\n  method: get\n  operationId: searchCalls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/clipboard\n  method: get\n  operationId: searchClipboards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/conversations\n\
   \  method: get\n  operationId: searchConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/members\n  method: get\n  operationId: searchMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/messages\n  method: get\n  operationId: searchMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/tasks\n  method: get\n  operationId: searchTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskId}\n  method: get\n  operationId: getTask\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /tasks/{taskId}/updates\n  method: post\n  operationId: recordTaskUpdate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ando/refs/heads/main/agentic-access/ando-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ando/agentic-access/ando-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
 - Company

@@ -9,19 +9,19 @@ api_specs:
   label: 酷学院 (Cool College) 学习 API
   slug: coolcollege-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-default-api-openapi.yml
+  url: https://artifacts.apis.io/coolcollege/openapi/coolcollege-default-api-openapi.yml
 - filename: coolcollege-pet-api-openapi.yml
   format: yaml
   label: 酷学院 (Cool College) pet API
   slug: coolcollege-pet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-pet-api-openapi.yml
+  url: https://artifacts.apis.io/coolcollege/openapi/coolcollege-pet-api-openapi.yml
 - filename: coolcollege-thirdoa-api-openapi.yml
   format: yaml
   label: 酷学院 (Cool College) thirdoa API
   slug: coolcollege-thirdoa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/openapi/coolcollege-thirdoa-api-openapi.yml
+  url: https://artifacts.apis.io/coolcollege/openapi/coolcollege-thirdoa-api-openapi.yml
 consequence_counts:
   read: 17
   write: 8
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/coolco
   - path: /{enterprise-id}/users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{enterprise-id}/get_certificate_list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{enterprise-id}/get_certificate_rank\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{enterprise-id}/users/{user-id}/certificate\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{enterprise-id}/get_certificate_user_list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /{enterprise-id}/users/{user-id}/score\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{enterprise-id}/operations/{approval-id}/approval\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event/dept\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/post\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/study_project_user\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/user\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coolcollege/refs/heads/main/agentic-access/coolcollege-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/coolcollege/agentic-access/coolcollege-agentic-access.yml
 summary_line: 25 operations · 8 acting
 tags:
 - Company

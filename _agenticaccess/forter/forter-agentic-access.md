@@ -8,25 +8,25 @@ api_specs:
   label: Forter Accounts API
   slug: forter-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-accounts-api-openapi.yml
 - filename: forter-data-privacy-api-openapi.yml
   format: yaml
   label: Forter Data Privacy API
   slug: forter-data-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-data-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-data-privacy-api-openapi.yml
 - filename: forter-disputes-api-openapi.yml
   format: yaml
   label: Forter Disputes API
   slug: forter-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-disputes-api-openapi.yml
 - filename: forter-orders-api-openapi.yml
   format: yaml
   label: Forter Orders API
   slug: forter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-orders-api-openapi.yml
 consequence_counts:
   physical: 4
   write: 4
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/forter
   \    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/status/{orderId}\n  method: post\n  operationId: submitOrderStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/signup/{accountId}\n  method: post\n  operationId: submitSignup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/authentication-result/{loginId}\n  method: post\n  operationId: submitAuthenticationResult\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/unified/compensation/request/{id}\n  method: post\n  operationId: submitCompensationRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/dispute/{id}\n  method: post\n  operationId: submitDispute\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/profile-access/{id}\n  method: post\n  operationId: submitProfileAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/agentic-access/forter-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/forter/agentic-access/forter-agentic-access.yml
 summary_line: 8 operations · 8 acting
 tags:
 - Fraud Prevention

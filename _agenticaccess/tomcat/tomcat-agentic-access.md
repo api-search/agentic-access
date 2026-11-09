@@ -9,43 +9,43 @@ api_specs:
   label: Apache Tomcat Applications API
   slug: tomcat-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-applications-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-applications-api-openapi.yml
 - filename: tomcat-configuration-api-openapi.yml
   format: yaml
   label: Apache Tomcat Configuration API
   slug: tomcat-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-configuration-api-openapi.yml
 - filename: tomcat-diagnostics-api-openapi.yml
   format: yaml
   label: Apache Tomcat Diagnostics API
   slug: tomcat-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-diagnostics-api-openapi.yml
 - filename: tomcat-jmx-api-openapi.yml
   format: yaml
   label: Apache Tomcat JMX API
   slug: tomcat-jmx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-jmx-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-jmx-api-openapi.yml
 - filename: tomcat-sessions-api-openapi.yml
   format: yaml
   label: Apache Tomcat Sessions API
   slug: tomcat-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-sessions-api-openapi.yml
 - filename: tomcat-ssl-api-openapi.yml
   format: yaml
   label: Apache Tomcat SSL API
   slug: tomcat-ssl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-ssl-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-ssl-api-openapi.yml
 - filename: tomcat-status-api-openapi.yml
   format: yaml
   label: Apache Tomcat Status API
   slug: tomcat-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/openapi/tomcat-status-api-openapi.yml
+  url: https://artifacts.apis.io/tomcat/openapi/tomcat-status-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 20
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/tomcat
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/findleaks\n  method: get\n  operationId: findMemoryLeaks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/threaddump\n  method: get\n  operationId: getThreadDump\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/vminfo\n  method: get\n  operationId: getVmInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/sslConnectorCiphers\n  method: get\n  operationId: getSslCiphers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/sslConnectorCerts\n\
   \  method: get\n  operationId: getSslCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/sslConnectorTrustedCerts\n  method: get\n  operationId: getSslTrustedCertificates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/sslReload\n  method: get\n  operationId: reloadSslConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /text/save\n  method: get\n  operationId: saveConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getServerStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /jmxproxy/\n  method: get\n  operationId: jmxProxy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tomcat/refs/heads/main/agentic-access/tomcat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tomcat/agentic-access/tomcat-agentic-access.yml
 summary_line: 21 operations · 1 acting
 tags:
 - Application Server

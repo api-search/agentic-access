@@ -8,7 +8,13 @@ api_specs:
   label: Amazon Health Dashboard AWS Health APIs And Notifications API
   slug: amazon-health-dashboard-aws-health-apis-and-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/openapi/amazon-health-dashboard-aws-health-apis-and-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-health-dashboard/openapi/amazon-health-dashboard-aws-health-apis-and-notifications-api-openapi.yml
+- filename: amazon-health-dashboard-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Health Dashboard Health Dashboard Operations API
+  slug: amazon-health-dashboard-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-health-dashboard/openapi/amazon-health-dashboard-operations-api-openapi.yml
 consequence_counts:
   safety-critical: 1
   write: 12
@@ -48,9 +54,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \  method: post\n  operationId: DescribeEventDetailsForOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSHealth_20160804.DescribeEventTypes\n  method: post\n  operationId: DescribeEventTypes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSHealth_20160804.DescribeEvents\n  method: post\n  operationId: DescribeEvents\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSHealth_20160804.DescribeEventsForOrganization\n  method: post\n  operationId: DescribeEventsForOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSHealth_20160804.DescribeHealthServiceStatusForOrganization\n  method: post\n  operationId: DescribeHealthServiceStatusForOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AWSHealth_20160804.DisableHealthServiceAccessForOrganization\n\
   \  method: post\n  operationId: DisableHealthServiceAccessForOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /#X-Amz-Target=AWSHealth_20160804.EnableHealthServiceAccessForOrganization\n  method: post\n  operationId: EnableHealthServiceAccessForOrganization\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-health-dashboard/refs/heads/main/agentic-access/amazon-health-dashboard-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-health-dashboard/agentic-access/amazon-health-dashboard-agentic-access.yml
 summary_line: 13 operations · 13 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Health Monitoring
 - Notification
 - Service Status

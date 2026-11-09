@@ -9,19 +9,19 @@ api_specs:
   label: Yareta Access API
   slug: university-of-geneva-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-access-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-geneva/openapi/university-of-geneva-access-api-openapi.yml
 - filename: university-of-geneva-ingest-api-openapi.yml
   format: yaml
   label: Yareta Ingest API
   slug: university-of-geneva-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-geneva/openapi/university-of-geneva-ingest-api-openapi.yml
 - filename: university-of-geneva-oai-pmh-api-openapi.yml
   format: yaml
   label: Yareta OAI-PMH Provider API
   slug: university-of-geneva-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/openapi/university-of-geneva-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-geneva/openapi/university-of-geneva-oai-pmh-api-openapi.yml
 consequence_counts:
   physical: 71
   read: 189
@@ -206,8 +206,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/univer
   \  - high-value\n    audit: required\n- path: /access/dip/{parentid}/data/{id}\n  method: get\n  operationId: access_dip_by_id_data_by_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /access/dip/{parentid}/data/{id}\n  method: delete\n  operationId: access_dip_by_id_data_by_id_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/dip/{parentid}/data/{id}\n  method: patch\n  operationId: access_dip_by_id_data_by_id_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /access/dip/{parentid}/aip/{id}\n  method: get\n  operationId: access_dip_by_id_aip_by_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /access/dip/{parentid}/aip/{id}\n  method: delete\n  operationId: access_dip_by_id_aip_by_id_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/dip/{parentid}/aip/{id}\n  method: patch\n  operationId: access_dip_by_id_aip_by_id_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/dip/{id}\n  method: get\n  operationId: access_dip_by_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /access/dip/{id}\n  method: delete\n  operationId: access_dip_by_id_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /access/dip/{id}\n  method: patch\n  operationId: access_dip_by_id_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
-  \    audit: required\n- path: /access/aip/{parentid}/data/{id}\n  method: get\n  operationId: access_aip_by_id_data_by_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /access/aip/{parentid}/data/{id}\n  method: delete\n  operationId: access_aip_by_id_data_by_id_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (103 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/agentic-access/university-of-geneva-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-geneva/refs/heads/main/agentic-access/university-of-geneva-agentic-access.yml
+  \    audit: required\n- path: /access/aip/{parentid}/data/{id}\n  method: get\n  operationId: access_aip_by_id_data_by_id_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /access/aip/{parentid}/data/{id}\n  method: delete\n  operationId: access_aip_by_id_data_by_id_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (103 KB total) ---\n# Full source: https://artifacts.apis.io/university-of-geneva/agentic-access/university-of-geneva-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/university-of-geneva/agentic-access/university-of-geneva-agentic-access.yml
 summary_line: 337 operations · 148 acting
 tags:
 - Education

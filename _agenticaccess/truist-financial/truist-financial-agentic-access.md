@@ -8,25 +8,25 @@ api_specs:
   label: Truist Financial Accounts API
   slug: truist-financial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-accounts-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Accounts API
   slug: truist-financial-commercial-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-accounts-api-openapi.yml
 - filename: truist-financial-commercial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Commercial Transactions API
   slug: truist-financial-commercial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-commercial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-commercial-transactions-api-openapi.yml
 - filename: truist-financial-transactions-api-openapi.yml
   format: yaml
   label: Truist Financial Transactions API
   slug: truist-financial-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/openapi/truist-financial-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/truist-financial/openapi/truist-financial-transactions-api-openapi.yml
 consequence_counts:
   read: 11
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/truist
   \  audit: none\n- path: /commercial/accounts/{accountId}/transactions/{transactionId}\n  method: get\n  operationId: getCommercialTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commercial.transactions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/accounts\n  method: get\n  operationId: listCommercialAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commercial.accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/accounts/{accountId}\n  method: get\n  operationId: getCommercialAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commercial.accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/accounts/{accountId}/balances\n  method: get\n  operationId: getCommercialAccountBalances\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commercial.accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /commercial/accounts/summary\n  method: get\n  operationId: getCommercialAccountSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commercial.accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal/accounts\n  method: get\n  operationId: listPersonalAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal/accounts/{accountId}\n  method: get\n  operationId: getPersonalAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts:read\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /personal/accounts/{accountId}/balances\n  method: get\n  operationId: getPersonalAccountBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - accounts:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal/accounts/{accountId}/transactions\n  method: get\n  operationId: listPersonalTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - transactions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /personal/accounts/{accountId}/transactions/{transactionId}\n  method: get\n  operationId: getPersonalTransaction\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - transactions:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/agentic-access/truist-financial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/truist-financial/agentic-access/truist-financial-agentic-access.yml
 summary_line: 11 operations
 tags:
 - Banking

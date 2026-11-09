@@ -9,25 +9,25 @@ api_specs:
   label: The Philadelphia Inquirer Feeds API
   slug: philadelphia-inquirer-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-feeds-api-openapi.yml
 - filename: philadelphia-inquirer-health-api-openapi.yml
   format: yaml
   label: The Philadelphia Inquirer Health API
   slug: philadelphia-inquirer-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-health-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-health-api-openapi.yml
 - filename: philadelphia-inquirer-mcp-api-openapi.yml
   format: yaml
   label: The Philadelphia Inquirer MCP API
   slug: philadelphia-inquirer-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-mcp-api-openapi.yml
 - filename: philadelphia-inquirer-sitemaps-api-openapi.yml
   format: yaml
   label: The Philadelphia Inquirer Sitemaps API
   slug: philadelphia-inquirer-sitemaps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/openapi/philadelphia-inquirer-sitemaps-api-openapi.yml
+  url: https://artifacts.apis.io/philadelphia-inquirer/openapi/philadelphia-inquirer-sitemaps-api-openapi.yml
 consequence_counts:
   read: 10
   write: 1
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dewey-
   \ action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /readyz\n  method: get\n  operationId: getReadiness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/rss/\n  method: get\n  operationId: getSiteRssFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/rss/category/{category}/\n  method: get\n  operationId: getCategoryRssFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/sitemap-index-2/\n  method: get\n  operationId: getSitemapIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/sitemap/latest/\n  method: get\n  operationId: getLatestSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/sitemap/{date}/\n  method: get\n  operationId: getDailySitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/news-sitemap/\n  method: get\n  operationId: getNewsSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/sitemap-author-page/\n  method: get\n  operationId: getAuthorSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /arc/outboundfeeds/sitemap-restaurant-page/\n\
   \  method: get\n  operationId: getRestaurantSitemap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/agentic-access/philadelphia-inquirer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/philadelphia-inquirer/agentic-access/philadelphia-inquirer-agentic-access.yml
 summary_line: 11 operations · 1 acting
 tags:
 - News

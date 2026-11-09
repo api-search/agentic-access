@@ -9,43 +9,43 @@ api_specs:
   label: Greenspark Account API
   slug: greenspark-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-account-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-account-api-openapi.yml
 - filename: greenspark-email-api-openapi.yml
   format: yaml
   label: Greenspark Email API
   slug: greenspark-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-email-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-email-api-openapi.yml
 - filename: greenspark-estimations-api-openapi.yml
   format: yaml
   label: Greenspark Estimations API
   slug: greenspark-estimations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-estimations-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-estimations-api-openapi.yml
 - filename: greenspark-impacts-api-openapi.yml
   format: yaml
   label: Greenspark Impacts API
   slug: greenspark-impacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-impacts-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-impacts-api-openapi.yml
 - filename: greenspark-projects-api-openapi.yml
   format: yaml
   label: Greenspark Projects API
   slug: greenspark-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-projects-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-projects-api-openapi.yml
 - filename: greenspark-reports-api-openapi.yml
   format: yaml
   label: Greenspark Reports API
   slug: greenspark-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-reports-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-reports-api-openapi.yml
 - filename: greenspark-widgets-api-openapi.yml
   format: yaml
   label: Greenspark Widgets API
   slug: greenspark-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/openapi/greenspark-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/greenspark/openapi/greenspark-widgets-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 33
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/greens
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/widgets/spend-level-widget\n  method: post\n  operationId: spend-level-widget-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /widgets/spend-level-widget\n  method: post\n  operationId: spend-level-widget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/widgets/tiered-spend-level-widget\n  method: post\n  operationId: tiered-spend-level-widget-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /widgets/tiered-spend-level-widget\n  method: post\n  operationId: tiered-spend-level-widget\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/widgets/stats-widget\n  method: post\n  operationId: top-stats-widget-v2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /widgets/stats-widget\n  method: post\n  operationId: top-stats-widget\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenspark/refs/heads/main/agentic-access/greenspark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/greenspark/agentic-access/greenspark-agentic-access.yml
 summary_line: 67 operations · 34 acting · 1 human-in-the-loop
 tags:
 - Sustainability

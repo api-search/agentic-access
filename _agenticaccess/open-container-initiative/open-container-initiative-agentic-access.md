@@ -9,31 +9,31 @@ api_specs:
   label: Open Container Initiative Blobs API
   slug: open-container-initiative-blobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-blobs-api-openapi.yml
+  url: https://artifacts.apis.io/open-container-initiative/openapi/open-container-initiative-blobs-api-openapi.yml
 - filename: open-container-initiative-manifests-api-openapi.yml
   format: yaml
   label: Open Container Initiative Manifests API
   slug: open-container-initiative-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/open-container-initiative/openapi/open-container-initiative-manifests-api-openapi.yml
 - filename: open-container-initiative-oci-distribution-specification-api-openapi.yml
   format: yaml
   label: Open Container Initiative OCI Distribution Specification API
   slug: open-container-initiative-oci-distribution-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-oci-distribution-specification-api-openapi.yml
+  url: https://artifacts.apis.io/open-container-initiative/openapi/open-container-initiative-oci-distribution-specification-api-openapi.yml
 - filename: open-container-initiative-referrers-api-openapi.yml
   format: yaml
   label: Open Container Initiative Referrers API
   slug: open-container-initiative-referrers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-referrers-api-openapi.yml
+  url: https://artifacts.apis.io/open-container-initiative/openapi/open-container-initiative-referrers-api-openapi.yml
 - filename: open-container-initiative-tags-api-openapi.yml
   format: yaml
   label: Open Container Initiative Tags API
   slug: open-container-initiative-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/openapi/open-container-initiative-tags-api-openapi.yml
+  url: https://artifacts.apis.io/open-container-initiative/openapi/open-container-initiative-tags-api-openapi.yml
 consequence_counts:
   read: 8
   write: 7
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-c
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/blobs/uploads/{reference}\n  method: patch\n  operationId: uploadBlobChunk\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}/blobs/uploads/{reference}\n  method: put\n  operationId: completeBlobUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}/blobs/uploads/{reference}\n  method: delete\n  operationId: cancelBlobUpload\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}/manifests/{reference}\n  method: get\n  operationId: getManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/manifests/{reference}\n  method: head\n  operationId: headManifest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/manifests/{reference}\n  method: put\n  operationId: putManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}/manifests/{reference}\n  method: delete\n  operationId: deleteManifest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/{name}/tags/list\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/{name}/referrers/{digest}\n  method: get\n  operationId: listReferrers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-container-initiative/refs/heads/main/agentic-access/open-container-initiative-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-container-initiative/agentic-access/open-container-initiative-agentic-access.yml
 summary_line: 15 operations · 7 acting
 tags:
 - Cloud-Native

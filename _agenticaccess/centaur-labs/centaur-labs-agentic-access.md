@@ -9,97 +9,97 @@ api_specs:
   label: Centaur Labs Add and Manage Labels API
   slug: centaur-labs-add-and-manage-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-add-and-manage-labels-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-add-and-manage-labels-api-openapi.yml
 - filename: centaur-labs-add-and-manage-projects-api-openapi.yml
   format: yaml
   label: Centaur Labs Add and Manage Projects API
   slug: centaur-labs-add-and-manage-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-add-and-manage-projects-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-add-and-manage-projects-api-openapi.yml
 - filename: centaur-labs-add-and-manage-tasks-api-openapi.yml
   format: yaml
   label: Centaur Labs Add and Manage Tasks API
   slug: centaur-labs-add-and-manage-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-add-and-manage-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-add-and-manage-tasks-api-openapi.yml
 - filename: centaur-labs-create-and-manage-cases-api-openapi.yml
   format: yaml
   label: Centaur Labs Create and Manage Cases API
   slug: centaur-labs-create-and-manage-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-create-and-manage-cases-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-create-and-manage-cases-api-openapi.yml
 - filename: centaur-labs-get-api-version-api-openapi.yml
   format: yaml
   label: Centaur Labs Get API Version API
   slug: centaur-labs-get-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-get-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-get-api-version-api-openapi.yml
 - filename: centaur-labs-get-case-results-api-openapi.yml
   format: yaml
   label: Centaur Labs Get Case Results API
   slug: centaur-labs-get-case-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-get-case-results-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-get-case-results-api-openapi.yml
 - filename: centaur-labs-get-task-results-api-openapi.yml
   format: yaml
   label: Centaur Labs Get Task Results API
   slug: centaur-labs-get-task-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-get-task-results-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-get-task-results-api-openapi.yml
 - filename: centaur-labs-import-and-manage-data-api-openapi.yml
   format: yaml
   label: Centaur Labs Import and Manage Data API
   slug: centaur-labs-import-and-manage-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-import-and-manage-data-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-import-and-manage-data-api-openapi.yml
 - filename: centaur-labs-login-api-openapi.yml
   format: yaml
   label: Centaur Labs Login API
   slug: centaur-labs-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-login-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-login-api-openapi.yml
 - filename: centaur-labs-logout-api-openapi.yml
   format: yaml
   label: Centaur Labs Logout API
   slug: centaur-labs-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-logout-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-logout-api-openapi.yml
 - filename: centaur-labs-masks-public-api-openapi.yml
   format: yaml
   label: Centaur Labs Masks Public API
   slug: centaur-labs-masks-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-masks-public-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-masks-public-api-openapi.yml
 - filename: centaur-labs-reads-opinions-lookup-api-openapi.yml
   format: yaml
   label: Centaur Labs Reads (Opinions) Lookup API
   slug: centaur-labs-reads-opinions-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-reads-opinions-lookup-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-reads-opinions-lookup-api-openapi.yml
 - filename: centaur-labs-refresh-token-api-openapi.yml
   format: yaml
   label: Centaur Labs Refresh Token API
   slug: centaur-labs-refresh-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-refresh-token-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-refresh-token-api-openapi.yml
 - filename: centaur-labs-tags-api-openapi.yml
   format: yaml
   label: Centaur Labs Tags API
   slug: centaur-labs-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-tags-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-tags-api-openapi.yml
 - filename: centaur-labs-test-token-api-openapi.yml
   format: yaml
   label: Centaur Labs Test Token API
   slug: centaur-labs-test-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-test-token-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-test-token-api-openapi.yml
 - filename: centaur-labs-version-api-openapi.yml
   format: yaml
   label: Centaur Labs Version API
   slug: centaur-labs-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/openapi/centaur-labs-version-api-openapi.yml
+  url: https://artifacts.apis.io/centaur-labs/openapi/centaur-labs-version-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 25
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/centau
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v1/get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v1/list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v1/version\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v2/get\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v2/getResultsArchiveUrl\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v2/list\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /results/public/v2/version\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /masks/public/v1/commit\n  method: post\n  operationId: public_commit_masks_route_masks_public_v1_commit_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /masks/public/v1/generate-presigned-urls\n  method: post\n  operationId: public_generate_presigned_urls_route_masks_public_v1_generate_presigned_urls_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/centaur-labs/refs/heads/main/agentic-access/centaur-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/centaur-labs/agentic-access/centaur-labs-agentic-access.yml
 summary_line: 76 operations · 51 acting · 3 human-in-the-loop
 tags:
 - Company

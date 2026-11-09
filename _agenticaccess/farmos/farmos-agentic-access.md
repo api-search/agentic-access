@@ -9,37 +9,37 @@ api_specs:
   label: farmOS Assets API
   slug: farmos-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-assets-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-assets-api-openapi.yml
 - filename: farmos-logs-api-openapi.yml
   format: yaml
   label: farmOS Logs API
   slug: farmos-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-logs-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-logs-api-openapi.yml
 - filename: farmos-plans-api-openapi.yml
   format: yaml
   label: farmOS Plans API
   slug: farmos-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-plans-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-plans-api-openapi.yml
 - filename: farmos-quantities-api-openapi.yml
   format: yaml
   label: farmOS Quantities API
   slug: farmos-quantities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-quantities-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-quantities-api-openapi.yml
 - filename: farmos-server-info-api-openapi.yml
   format: yaml
   label: farmOS Server Info API
   slug: farmos-server-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-server-info-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-server-info-api-openapi.yml
 - filename: farmos-taxonomy-api-openapi.yml
   format: yaml
   label: farmOS Taxonomy API
   slug: farmos-taxonomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/openapi/farmos-taxonomy-api-openapi.yml
+  url: https://artifacts.apis.io/farmos/openapi/farmos-taxonomy-api-openapi.yml
 consequence_counts:
   read: 43
   write: 57
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/farmos
   \    - farm_manager\n- path: /taxonomy_term/log_category\n  method: get\n  operationId: listLogCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - farm_manager\n- path: /taxonomy_term/unit\n  method: get\n  operationId: listUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - farm_manager\n- path: /quantity/standard\n  method: get\n  operationId: listStandardQuantities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - farm_manager\n- path: /quantity/standard\n  method: post\n  operationId: createStandardQuantity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - farm_manager\n- path: /quantity/standard/{id}\n  method: get\n  operationId: getStandardQuantity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - farm_manager\n- path: /quantity/standard/{id}\n  method: patch\n  operationId: updateStandardQuantity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - farm_manager\n- path: /quantity/standard/{id}\n  method: delete\n  operationId: deleteStandardQuantity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - farm_manager\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farmos/refs/heads/main/agentic-access/farmos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/farmos/agentic-access/farmos-agentic-access.yml
 summary_line: 100 operations · 57 acting
 tags:
 - Agriculture

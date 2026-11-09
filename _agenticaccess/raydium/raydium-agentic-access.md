@@ -8,25 +8,25 @@ api_specs:
   label: Raydium Farms API
   slug: raydium-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-farms-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-farms-api-openapi.yml
 - filename: raydium-main-api-openapi.yml
   format: yaml
   label: Raydium Main API
   slug: raydium-main-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-main-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-main-api-openapi.yml
 - filename: raydium-mint-api-openapi.yml
   format: yaml
   label: Raydium Mint API
   slug: raydium-mint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-mint-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-mint-api-openapi.yml
 - filename: raydium-pools-api-openapi.yml
   format: yaml
   label: Raydium Pools API
   slug: raydium-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/openapi/raydium-pools-api-openapi.yml
+  url: https://artifacts.apis.io/raydium/openapi/raydium-pools-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/raydiu
   \     max-ttl: 3600\n    audit: none\n- path: /pools/info/ids\n  method: get\n  operationId: getPoolsByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/info/lps\n  method: get\n  operationId: getPoolsByLps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/key/ids\n  method: get\n  operationId: getPoolKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/line/liquidity\n  method: get\n  operationId: getPoolLiquidityLine\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/line/position\n  method: get\n  operationId: getPoolPositionLine\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /farms/info/ids\n  method: get\n  operationId: getFarmsByIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /farms/info/lp\n  method: get\n  operationId: getFarmsByLp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /farms/key/ids\n  method: get\n  operationId: getFarmKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /main/farm/info\n  method: get\n  operationId: getFarmInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /main/farm-apr-tv\n\
   \  method: get\n  operationId: getFarmAprTvl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/main/AvailabilityCheckAPI\n  method: get\n  operationId: getAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/agentic-access/raydium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/raydium/agentic-access/raydium-agentic-access.yml
 summary_line: 23 operations
 tags:
 - Web3

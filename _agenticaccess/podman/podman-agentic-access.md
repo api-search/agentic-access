@@ -9,109 +9,109 @@ api_specs:
   label: Podman Artifacts API
   slug: podman-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-artifacts-api-openapi.yml
 - filename: podman-containers-api-openapi.yml
   format: yaml
   label: Podman Containers API
   slug: podman-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-containers-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-containers-api-openapi.yml
 - filename: podman-containers-compat-api-openapi.yml
   format: yaml
   label: Podman containers (compat) API
   slug: podman-containers-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-containers-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-containers-compat-api-openapi.yml
 - filename: podman-exec-api-openapi.yml
   format: yaml
   label: Podman Exec API
   slug: podman-exec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-exec-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-exec-api-openapi.yml
 - filename: podman-exec-compat-api-openapi.yml
   format: yaml
   label: Podman exec (compat) API
   slug: podman-exec-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-exec-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-exec-compat-api-openapi.yml
 - filename: podman-images-api-openapi.yml
   format: yaml
   label: Podman Images API
   slug: podman-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-images-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-images-api-openapi.yml
 - filename: podman-images-compat-api-openapi.yml
   format: yaml
   label: Podman images (compat) API
   slug: podman-images-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-images-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-images-compat-api-openapi.yml
 - filename: podman-manifests-api-openapi.yml
   format: yaml
   label: Podman Manifests API
   slug: podman-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-manifests-api-openapi.yml
 - filename: podman-networks-api-openapi.yml
   format: yaml
   label: Podman Networks API
   slug: podman-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-networks-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-networks-api-openapi.yml
 - filename: podman-networks-compat-api-openapi.yml
   format: yaml
   label: Podman networks (compat) API
   slug: podman-networks-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-networks-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-networks-compat-api-openapi.yml
 - filename: podman-pods-api-openapi.yml
   format: yaml
   label: Podman Pods API
   slug: podman-pods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-pods-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-pods-api-openapi.yml
 - filename: podman-quadlets-api-openapi.yml
   format: yaml
   label: Podman Quadlets API
   slug: podman-quadlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-quadlets-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-quadlets-api-openapi.yml
 - filename: podman-secrets-api-openapi.yml
   format: yaml
   label: Podman Secrets API
   slug: podman-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-secrets-api-openapi.yml
 - filename: podman-secrets-compat-api-openapi.yml
   format: yaml
   label: Podman secrets (compat) API
   slug: podman-secrets-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-secrets-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-secrets-compat-api-openapi.yml
 - filename: podman-system-api-openapi.yml
   format: yaml
   label: Podman System API
   slug: podman-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-system-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-system-api-openapi.yml
 - filename: podman-system-compat-api-openapi.yml
   format: yaml
   label: Podman system (compat) API
   slug: podman-system-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-system-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-system-compat-api-openapi.yml
 - filename: podman-volumes-api-openapi.yml
   format: yaml
   label: Podman Volumes API
   slug: podman-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-volumes-api-openapi.yml
 - filename: podman-volumes-compat-api-openapi.yml
   format: yaml
   label: Podman volumes (compat) API
   slug: podman-volumes-compat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/openapi/podman-volumes-compat-api-openapi.yml
+  url: https://artifacts.apis.io/podman/openapi/podman-volumes-compat-api-openapi.yml
 consequence_counts:
   read: 78
   safety-critical: 8
@@ -214,8 +214,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/podman
   \ /libpod/images/{name}\n  method: delete\n  operationId: ImageDeleteLibpod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/{name}/changes\n  method: get\n  operationId: ImageChangesLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/exists\n  method: get\n  operationId: ImageExistsLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/get\n  method: get\n  operationId: ImageGetLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/history\n  method: get\n  operationId: ImageHistoryLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/json\n  method: get\n  operationId: ImageInspectLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/push\n  method: post\n  operationId: ImagePushLibpod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/{name}/resolve\n  method: get\n  operationId: ImageResolveLibpod\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/tag\n  method: post\n  operationId: ImageTagLibpod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/{name}/tree\n  method: get\n  operationId: ImageTreeLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/{name}/untag\n  method: post\n  operationId: ImageUntagLibpod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/export\n  method: get\n  operationId: ImageExportLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/import\n  method: post\n  operationId: ImageImportLibpod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/json\n  method: get\n  operationId: ImageListLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/agentic-access/podman-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podman/refs/heads/main/agentic-access/podman-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/export\n  method: get\n  operationId: ImageExportLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /libpod/images/import\n  method: post\n  operationId: ImageImportLibpod\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /libpod/images/json\n  method: get\n  operationId: ImageListLibpod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (55 KB total) ---\n# Full source: https://artifacts.apis.io/podman/agentic-access/podman-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/podman/agentic-access/podman-agentic-access.yml
 summary_line: 193 operations · 115 acting · 8 human-in-the-loop
 tags:
 - Cloud-Native

@@ -9,25 +9,25 @@ api_specs:
   label: Motion Elements Account API
   slug: motion-elements-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-account-api-openapi.yml
+  url: https://artifacts.apis.io/motion-elements/openapi/motion-elements-account-api-openapi.yml
 - filename: motion-elements-elements-api-openapi.yml
   format: yaml
   label: Motion Elements API
   slug: motion-elements-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-elements-api-openapi.yml
+  url: https://artifacts.apis.io/motion-elements/openapi/motion-elements-elements-api-openapi.yml
 - filename: motion-elements-media-types-api-openapi.yml
   format: yaml
   label: Motion Elements Media types API
   slug: motion-elements-media-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-media-types-api-openapi.yml
+  url: https://artifacts.apis.io/motion-elements/openapi/motion-elements-media-types-api-openapi.yml
 - filename: motion-elements-search-api-openapi.yml
   format: yaml
   label: Motion Elements Search API
   slug: motion-elements-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/openapi/motion-elements-search-api-openapi.yml
+  url: https://artifacts.apis.io/motion-elements/openapi/motion-elements-search-api-openapi.yml
 consequence_counts:
   read: 20
   write: 1
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/motion
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/vector\n  method: get\n  operationId: searchVectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/gif\n  method: get\n  operationId: searchGifs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/lottie\n  method: get\n  operationId: searchLottie\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/elements/{id}\n  method: get\n  operationId: getElement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/media-types\n\
   \  method: get\n  operationId: listMediaTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/media-types/{mediaType}/categories\n  method: get\n  operationId: listMediaTypeCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/media-types/{mediaType}/software-versions\n  method: get\n  operationId: listMediaTypeSoftwareVersions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/media-types/{mediaType}/edit-types\n  method: get\n  operationId: listMediaTypeEditTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/media-types/{mediaType}/instruments\n\
   \  method: get\n  operationId: listMediaTypeInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/media-types/{mediaType}/musical-keys\n  method: get\n  operationId: listMediaTypeMusicalKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/motion-elements/refs/heads/main/agentic-access/motion-elements-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/motion-elements/agentic-access/motion-elements-agentic-access.yml
 summary_line: 21 operations · 1 acting
 tags:
 - Media

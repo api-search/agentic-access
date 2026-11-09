@@ -9,61 +9,61 @@ api_specs:
   label: Maersk AirBookings API
   slug: maersk-line-airbookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-airbookings-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-airbookings-api-openapi.yml
 - filename: maersk-line-bookings-api-openapi.yml
   format: yaml
   label: Maersk Bookings API
   slug: maersk-line-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-bookings-api-openapi.yml
 - filename: maersk-line-containers-api-openapi.yml
   format: yaml
   label: Maersk Containers API
   slug: maersk-line-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-containers-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-containers-api-openapi.yml
 - filename: maersk-line-demurragedetention-api-openapi.yml
   format: yaml
   label: Maersk DemurrageDetention API
   slug: maersk-line-demurragedetention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-demurragedetention-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-demurragedetention-api-openapi.yml
 - filename: maersk-line-locations-api-openapi.yml
   format: yaml
   label: Maersk Locations API
   slug: maersk-line-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-locations-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-locations-api-openapi.yml
 - filename: maersk-line-offers-api-openapi.yml
   format: yaml
   label: Maersk Offers API
   slug: maersk-line-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-offers-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-offers-api-openapi.yml
 - filename: maersk-line-schedules-api-openapi.yml
   format: yaml
   label: Maersk Schedules API
   slug: maersk-line-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-schedules-api-openapi.yml
 - filename: maersk-line-tracking-api-openapi.yml
   format: yaml
   label: Maersk Tracking API
   slug: maersk-line-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-tracking-api-openapi.yml
 - filename: maersk-line-vgm-api-openapi.yml
   format: yaml
   label: Maersk VGM API
   slug: maersk-line-vgm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-vgm-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-vgm-api-openapi.yml
 - filename: maersk-line-bill-of-lading-api-openapi.yml
   format: yaml
   label: Maersk Bill of Lading API
   slug: maersk-line-bill-of-lading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-bill-of-lading-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-bill-of-lading-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/maersk
   \ get\n  operationId: listAvailableOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/v2/offers/brand/{brandScac}/locations\n  method: get\n  operationId: getPortPairs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/v2/offers/brand/{brandScac}/locations/origins\n  method: get\n  operationId: getOriginPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/v2/offers/brand/{brandScac}/locations/destinations\n  method: get\n  operationId: getDestinationPorts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers/v2/offers/containers\n  method:\
   \ get\n  operationId: listContainers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /products/ocean-products/point-to-point\n  method: get\n  operationId: getPointToPointSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dcsa/cs/v1/service-schedules\n  method: get\n  operationId: getServiceSchedules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /track-and-trace-private/shipments\n  method: get\n  operationId: listShipmentEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n- path: /track-and-trace-private/events\n  method: get\n  operationId:\
   \ listContainerEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n- path: /export-shipments/vgm/v1/shipments/{transportDocumentReference}/vgm\n  method: post\n  operationId: submitVgm\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - vgm\n- path: /export-shipments/vgm/v1/shipments/{transportDocumentReference}/vgm\n  method: get\n  operationId: getVgm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - vgm\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/agentic-access/maersk-line-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/maersk-line/agentic-access/maersk-line-agentic-access.yml
 summary_line: 20 operations · 6 acting
 tags:
 - Shipping

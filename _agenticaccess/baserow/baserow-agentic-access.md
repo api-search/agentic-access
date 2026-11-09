@@ -9,349 +9,349 @@ api_specs:
   label: Baserow Admin API
   slug: baserow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-admin-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-admin-api-openapi.yml
 - filename: baserow-admin-data-scanner-api-openapi.yml
   format: yaml
   label: Baserow Admin data scanner API
   slug: baserow-admin-data-scanner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-admin-data-scanner-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-admin-data-scanner-api-openapi.yml
 - filename: baserow-ai-assistant-api-openapi.yml
   format: yaml
   label: Baserow AI Assistant API
   slug: baserow-ai-assistant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-ai-assistant-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-ai-assistant-api-openapi.yml
 - filename: baserow-applications-api-openapi.yml
   format: yaml
   label: Baserow Applications API
   slug: baserow-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-applications-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-applications-api-openapi.yml
 - filename: baserow-audit-log-api-openapi.yml
   format: yaml
   label: Baserow Audit log API
   slug: baserow-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-audit-log-api-openapi.yml
 - filename: baserow-auth-api-openapi.yml
   format: yaml
   label: Baserow Auth API
   slug: baserow-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-auth-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-auth-api-openapi.yml
 - filename: baserow-automation-history-api-openapi.yml
   format: yaml
   label: Baserow Automation history API
   slug: baserow-automation-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-automation-history-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-automation-history-api-openapi.yml
 - filename: baserow-automation-nodes-api-openapi.yml
   format: yaml
   label: Baserow Automation nodes API
   slug: baserow-automation-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-automation-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-automation-nodes-api-openapi.yml
 - filename: baserow-automation-workflows-api-openapi.yml
   format: yaml
   label: Baserow Automation workflows API
   slug: baserow-automation-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-automation-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-automation-workflows-api-openapi.yml
 - filename: baserow-builder-data-sources-api-openapi.yml
   format: yaml
   label: Baserow Builder data sources API
   slug: baserow-builder-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-data-sources-api-openapi.yml
 - filename: baserow-builder-domains-api-openapi.yml
   format: yaml
   label: Baserow Builder domains API
   slug: baserow-builder-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-domains-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-domains-api-openapi.yml
 - filename: baserow-builder-elements-api-openapi.yml
   format: yaml
   label: Baserow Builder elements API
   slug: baserow-builder-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-elements-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-elements-api-openapi.yml
 - filename: baserow-builder-pages-api-openapi.yml
   format: yaml
   label: Baserow Builder pages API
   slug: baserow-builder-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-pages-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-pages-api-openapi.yml
 - filename: baserow-builder-public-api-openapi.yml
   format: yaml
   label: Baserow Builder public API
   slug: baserow-builder-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-public-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-public-api-openapi.yml
 - filename: baserow-builder-theme-api-openapi.yml
   format: yaml
   label: Baserow Builder theme API
   slug: baserow-builder-theme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-theme-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-theme-api-openapi.yml
 - filename: baserow-builder-workflow-actions-api-openapi.yml
   format: yaml
   label: Baserow Builder workflow actions API
   slug: baserow-builder-workflow-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-builder-workflow-actions-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-builder-workflow-actions-api-openapi.yml
 - filename: baserow-core-webhooks-api-openapi.yml
   format: yaml
   label: Baserow Core webhooks API
   slug: baserow-core-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-core-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-core-webhooks-api-openapi.yml
 - filename: baserow-dashboard-data-sources-api-openapi.yml
   format: yaml
   label: Baserow Dashboard data sources API
   slug: baserow-dashboard-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-dashboard-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-dashboard-data-sources-api-openapi.yml
 - filename: baserow-dashboard-widgets-api-openapi.yml
   format: yaml
   label: Baserow Dashboard widgets API
   slug: baserow-dashboard-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-dashboard-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-dashboard-widgets-api-openapi.yml
 - filename: baserow-database-table-calendar-view-api-openapi.yml
   format: yaml
   label: Baserow Database table calendar view API
   slug: baserow-database-table-calendar-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-calendar-view-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-calendar-view-api-openapi.yml
 - filename: baserow-database-table-export-api-openapi.yml
   format: yaml
   label: Baserow Database table export API
   slug: baserow-database-table-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-export-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-export-api-openapi.yml
 - filename: baserow-database-table-fields-api-openapi.yml
   format: yaml
   label: Baserow Database table fields API
   slug: baserow-database-table-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-fields-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-fields-api-openapi.yml
 - filename: baserow-database-table-form-view-api-openapi.yml
   format: yaml
   label: Baserow Database table form view API
   slug: baserow-database-table-form-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-form-view-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-form-view-api-openapi.yml
 - filename: baserow-database-table-gallery-view-api-openapi.yml
   format: yaml
   label: Baserow Database table gallery view API
   slug: baserow-database-table-gallery-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-gallery-view-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-gallery-view-api-openapi.yml
 - filename: baserow-database-table-grid-view-api-openapi.yml
   format: yaml
   label: Baserow Database table grid view API
   slug: baserow-database-table-grid-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-grid-view-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-grid-view-api-openapi.yml
 - filename: baserow-database-table-kanban-view-api-openapi.yml
   format: yaml
   label: Baserow Database table kanban view API
   slug: baserow-database-table-kanban-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-kanban-view-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-kanban-view-api-openapi.yml
 - filename: baserow-database-table-rows-api-openapi.yml
   format: yaml
   label: Baserow Database table rows API
   slug: baserow-database-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-rows-api-openapi.yml
 - filename: baserow-database-table-timeline-view-api-openapi.yml
   format: yaml
   label: Baserow Database table timeline view API
   slug: baserow-database-table-timeline-view-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-timeline-view-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-timeline-view-api-openapi.yml
 - filename: baserow-database-table-view-decorations-api-openapi.yml
   format: yaml
   label: Baserow Database table view decorations API
   slug: baserow-database-table-view-decorations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-view-decorations-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-view-decorations-api-openapi.yml
 - filename: baserow-database-table-view-export-api-openapi.yml
   format: yaml
   label: Baserow Database table view export API
   slug: baserow-database-table-view-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-view-export-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-view-export-api-openapi.yml
 - filename: baserow-database-table-view-filters-api-openapi.yml
   format: yaml
   label: Baserow Database table view filters API
   slug: baserow-database-table-view-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-view-filters-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-view-filters-api-openapi.yml
 - filename: baserow-database-table-view-groupings-api-openapi.yml
   format: yaml
   label: Baserow Database table view groupings API
   slug: baserow-database-table-view-groupings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-view-groupings-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-view-groupings-api-openapi.yml
 - filename: baserow-database-table-view-sortings-api-openapi.yml
   format: yaml
   label: Baserow Database table view sortings API
   slug: baserow-database-table-view-sortings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-view-sortings-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-view-sortings-api-openapi.yml
 - filename: baserow-database-table-views-api-openapi.yml
   format: yaml
   label: Baserow Database table views API
   slug: baserow-database-table-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-views-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-views-api-openapi.yml
 - filename: baserow-database-table-webhooks-api-openapi.yml
   format: yaml
   label: Baserow Database table webhooks API
   slug: baserow-database-table-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-table-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-table-webhooks-api-openapi.yml
 - filename: baserow-database-tables-api-openapi.yml
   format: yaml
   label: Baserow Database tables API
   slug: baserow-database-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-tables-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-tables-api-openapi.yml
 - filename: baserow-database-tokens-api-openapi.yml
   format: yaml
   label: Baserow Database tokens API
   slug: baserow-database-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-database-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-database-tokens-api-openapi.yml
 - filename: baserow-field-permissions-api-openapi.yml
   format: yaml
   label: Baserow Field permissions API
   slug: baserow-field-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-field-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-field-permissions-api-openapi.yml
 - filename: baserow-field-rules-api-openapi.yml
   format: yaml
   label: Baserow Field rules API
   slug: baserow-field-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-field-rules-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-field-rules-api-openapi.yml
 - filename: baserow-health-api-openapi.yml
   format: yaml
   label: Baserow Health API
   slug: baserow-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-health-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-health-api-openapi.yml
 - filename: baserow-integrations-api-openapi.yml
   format: yaml
   label: Baserow Integrations API
   slug: baserow-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-integrations-api-openapi.yml
 - filename: baserow-jobs-api-openapi.yml
   format: yaml
   label: Baserow Jobs API
   slug: baserow-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-jobs-api-openapi.yml
 - filename: baserow-mcp-endpoints-api-openapi.yml
   format: yaml
   label: Baserow MCP endpoints API
   slug: baserow-mcp-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-mcp-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-mcp-endpoints-api-openapi.yml
 - filename: baserow-notifications-api-openapi.yml
   format: yaml
   label: Baserow Notifications API
   slug: baserow-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-notifications-api-openapi.yml
 - filename: baserow-role-assignments-api-openapi.yml
   format: yaml
   label: Baserow Role assignments API
   slug: baserow-role-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-role-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-role-assignments-api-openapi.yml
 - filename: baserow-search-api-openapi.yml
   format: yaml
   label: Baserow Search API
   slug: baserow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-search-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-search-api-openapi.yml
 - filename: baserow-secure-file-serve-api-openapi.yml
   format: yaml
   label: Baserow Secure file serve API
   slug: baserow-secure-file-serve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-secure-file-serve-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-secure-file-serve-api-openapi.yml
 - filename: baserow-settings-api-openapi.yml
   format: yaml
   label: Baserow Settings API
   slug: baserow-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-settings-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-settings-api-openapi.yml
 - filename: baserow-snapshots-api-openapi.yml
   format: yaml
   label: Baserow Snapshots API
   slug: baserow-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-snapshots-api-openapi.yml
 - filename: baserow-teams-api-openapi.yml
   format: yaml
   label: Baserow Teams API
   slug: baserow-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-teams-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-teams-api-openapi.yml
 - filename: baserow-templates-api-openapi.yml
   format: yaml
   label: Baserow Templates API
   slug: baserow-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-templates-api-openapi.yml
 - filename: baserow-trash-api-openapi.yml
   format: yaml
   label: Baserow Trash API
   slug: baserow-trash-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-trash-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-trash-api-openapi.yml
 - filename: baserow-user-api-openapi.yml
   format: yaml
   label: Baserow User API
   slug: baserow-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-user-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-user-api-openapi.yml
 - filename: baserow-user-files-api-openapi.yml
   format: yaml
   label: Baserow User files API
   slug: baserow-user-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-user-files-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-user-files-api-openapi.yml
 - filename: baserow-user-source-roles-api-openapi.yml
   format: yaml
   label: Baserow User source roles API
   slug: baserow-user-source-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-user-source-roles-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-user-source-roles-api-openapi.yml
 - filename: baserow-user-sources-api-openapi.yml
   format: yaml
   label: Baserow User sources API
   slug: baserow-user-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-user-sources-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-user-sources-api-openapi.yml
 - filename: baserow-workspace-invitations-api-openapi.yml
   format: yaml
   label: Baserow Workspace invitations API
   slug: baserow-workspace-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-workspace-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-workspace-invitations-api-openapi.yml
 - filename: baserow-workspaces-api-openapi.yml
   format: yaml
   label: Baserow Workspaces API
   slug: baserow-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/openapi/baserow-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/baserow/openapi/baserow-workspaces-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 148
@@ -525,8 +525,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/basero
   \ delete_automation_workflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/automation/workflows/{workflow_id}/duplicate/async/\n  method: post\n  operationId: duplicate_automation_workflow_async\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/automation/workflows/{workflow_id}/history/\n  method: get\n  operationId: get_automation_workflow_history\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/automation/workflows/{workflow_id}/publish/async/\n\
   \  method: post\n  operationId: publish_automation_workflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/automation/workflows/{workflow_id}/test/\n  method: post\n  operationId: test_automation_workflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/builder/data-source/{data_source_id}/\n  method: patch\n  operationId: update_builder_page_data_source\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/builder/data-source/{data_source_id}/\n  method: delete\n  operationId: delete_builder_page_data_source\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/builder/data-source/{data_source_id}/dispatch/\n  method: post\n  operationId: dispatch_builder_page_data_source\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/builder/data-source/{data_source_id}/move/\n\
-  \  method: patch\n  operationId: move_builder_page_data_source\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/builder/data-source/{data_source_id}/record-names/\n  method: get\n  operationId: get_record_names_builder_page_data_source\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (124 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/agentic-access/baserow-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baserow/refs/heads/main/agentic-access/baserow-agentic-access.yml
+  \  method: patch\n  operationId: move_builder_page_data_source\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/builder/data-source/{data_source_id}/record-names/\n  method: get\n  operationId: get_record_names_builder_page_data_source\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (124 KB total) ---\n# Full source: https://artifacts.apis.io/baserow/agentic-access/baserow-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/baserow/agentic-access/baserow-agentic-access.yml
 summary_line: 385 operations · 237 acting · 10 human-in-the-loop
 tags:
 - No-Code

@@ -9,37 +9,37 @@ api_specs:
   label: Document360 Articles API
   slug: document360-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-articles-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-articles-api-openapi.yml
 - filename: document360-categories-api-openapi.yml
   format: yaml
   label: Document360 Categories API
   slug: document360-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-categories-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-categories-api-openapi.yml
 - filename: document360-drive-api-openapi.yml
   format: yaml
   label: Document360 Drive API
   slug: document360-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-drive-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-drive-api-openapi.yml
 - filename: document360-project-versions-api-openapi.yml
   format: yaml
   label: Document360 Project Versions API
   slug: document360-project-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-project-versions-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-project-versions-api-openapi.yml
 - filename: document360-teams-api-openapi.yml
   format: yaml
   label: Document360 Teams API
   slug: document360-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-teams-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-teams-api-openapi.yml
 - filename: document360-users-api-openapi.yml
   format: yaml
   label: Document360 Users API
   slug: document360-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/openapi/document360-users-api-openapi.yml
+  url: https://artifacts.apis.io/document360/openapi/document360-users-api-openapi.yml
 consequence_counts:
   read: 9
   write: 6
@@ -70,11 +70,13 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/docume
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Categories\n  method: post\n  operationId: createCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Categories/{id}\n  method: get\n  operationId: getCategory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Categories/{id}\n\
   \  method: put\n  operationId: updateCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Categories/{id}\n  method: delete\n  operationId: deleteCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Drive/Folders\n  method: get\n  operationId: listDriveFolders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Drive/Files\n  method: get\n  operationId: listDriveFiles\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/document360/refs/heads/main/agentic-access/document360-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/document360/agentic-access/document360-agentic-access.yml
 summary_line: 15 operations · 6 acting
 tags:
 - Documentation
 - Knowledge Base
 - Software-as-a-Service
 - Knowledge Management
+- API Documentation
+- Developer Portal
 ---

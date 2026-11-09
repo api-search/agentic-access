@@ -9,25 +9,85 @@ api_specs:
   label: Amazon EKS Clusters API
   slug: amazon-eks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-clusters-api-openapi.yml
 - filename: amazon-eks-fargate-profiles-api-openapi.yml
   format: yaml
   label: Amazon EKS Fargate Profiles API
   slug: amazon-eks-fargate-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-fargate-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-fargate-profiles-api-openapi.yml
 - filename: amazon-eks-node-groups-api-openapi.yml
   format: yaml
   label: Amazon EKS Node Groups API
   slug: amazon-eks-node-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-node-groups-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-node-groups-api-openapi.yml
 - filename: amazon-eks-add-ons-api-openapi.yml
   format: yaml
   label: Amazon EKS Add Ons API
   slug: amazon-eks-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/openapi/amazon-eks-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-add-ons-api-openapi.yml
+- filename: amazon-eks-access-entries-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Access Entries API
+  slug: amazon-eks-access-entries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-access-entries-api-openapi.yml
+- filename: amazon-eks-access-policies-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Access Policies API
+  slug: amazon-eks-access-policies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-access-policies-api-openapi.yml
+- filename: amazon-eks-capabilities-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Capabilities API
+  slug: amazon-eks-capabilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-capabilities-api-openapi.yml
+- filename: amazon-eks-certificate-authorities-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Certificate Authorities API
+  slug: amazon-eks-certificate-authorities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-certificate-authorities-api-openapi.yml
+- filename: amazon-eks-eks-anywhere-subscriptions-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Eks Anywhere Subscriptions API
+  slug: amazon-eks-eks-anywhere-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-eks-anywhere-subscriptions-api-openapi.yml
+- filename: amazon-eks-identity-provider-configs-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Identity Provider Configs API
+  slug: amazon-eks-identity-provider-configs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-identity-provider-configs-api-openapi.yml
+- filename: amazon-eks-operations-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Operations API
+  slug: amazon-eks-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-operations-api-openapi.yml
+- filename: amazon-eks-pod-identity-associations-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Pod Identity Associations API
+  slug: amazon-eks-pod-identity-associations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-pod-identity-associations-api-openapi.yml
+- filename: amazon-eks-tags-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Tags API
+  slug: amazon-eks-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-tags-api-openapi.yml
+- filename: amazon-eks-updates-api-openapi.yml
+  format: yaml
+  label: Amazon EKS Eks Updates API
+  slug: amazon-eks-updates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-eks/openapi/amazon-eks-updates-api-openapi.yml
 consequence_counts:
   read: 8
   write: 8
@@ -59,9 +119,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{name}/fargate-profiles\n  method: get\n  operationId: ListFargateProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{name}/fargate-profiles/{fargateProfileName}\n  method: get\n  operationId: DescribeFargateProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{name}/fargate-profiles/{fargateProfileName}\n  method: delete\n  operationId: DeleteFargateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{name}/addons\n  method: post\n  operationId: CreateAddon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clusters/{name}/addons\n  method: get\n  operationId: ListAddons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{name}/addons/{addonName}\n  method: get\n  operationId: DescribeAddon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clusters/{name}/addons/{addonName}\n  method:\
   \ delete\n  operationId: DeleteAddon\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-eks/refs/heads/main/agentic-access/amazon-eks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-eks/agentic-access/amazon-eks-agentic-access.yml
 summary_line: 16 operations · 8 acting
 tags:
+- Amazon Web Services
 - Container Orchestration
 - Containers
 - EKS

@@ -9,31 +9,31 @@ api_specs:
   label: Nuclia Ask API
   slug: nuclia-ask-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-ask-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-ask-api-openapi.yml
 - filename: nuclia-knowledge-boxes-api-openapi.yml
   format: yaml
   label: Nuclia Knowledge Boxes API
   slug: nuclia-knowledge-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-knowledge-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-knowledge-boxes-api-openapi.yml
 - filename: nuclia-predict-api-openapi.yml
   format: yaml
   label: Nuclia Predict API
   slug: nuclia-predict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-predict-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-predict-api-openapi.yml
 - filename: nuclia-resources-api-openapi.yml
   format: yaml
   label: Nuclia Resources API
   slug: nuclia-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-resources-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-resources-api-openapi.yml
 - filename: nuclia-search-api-openapi.yml
   format: yaml
   label: Nuclia Search API
   slug: nuclia-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/openapi/nuclia-search-api-openapi.yml
+  url: https://artifacts.apis.io/nuclia/openapi/nuclia-search-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nuclia
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kb/{kbid}/resource/{rid}\n  method: get\n  operationId: getResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kb/{kbid}/resource/{rid}\n  method: patch\n  operationId: modifyResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kb/{kbid}/resource/{rid}\n  method: delete\n  operationId: deleteResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n     \
   \ - high-value\n    audit: required\n- path: /v1/kb/{kbid}/resource/{rid}/file/{field}\n  method: put\n  operationId: uploadFileField\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kb/{kbid}/upload\n  method: post\n  operationId: uploadToKnowledgeBox\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/kb/{kbid}/search\n  method: post\n  operationId: search\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kb/{kbid}/find\n\
   \  method: post\n  operationId: find\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/kb/{kbid}/suggest\n  method: get\n  operationId: suggest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclia/refs/heads/main/agentic-access/nuclia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nuclia/agentic-access/nuclia-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Artificial Intelligence

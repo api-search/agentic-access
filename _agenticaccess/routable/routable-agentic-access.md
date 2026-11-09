@@ -9,43 +9,43 @@ api_specs:
   label: Routable Companies API
   slug: routable-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-companies-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-companies-api-openapi.yml
 - filename: routable-contacts-api-openapi.yml
   format: yaml
   label: Routable Contacts API
   slug: routable-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-contacts-api-openapi.yml
 - filename: routable-funding-sources-api-openapi.yml
   format: yaml
   label: Routable Funding Sources API
   slug: routable-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-funding-sources-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-funding-sources-api-openapi.yml
 - filename: routable-payables-api-openapi.yml
   format: yaml
   label: Routable Payables API
   slug: routable-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-payables-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-payables-api-openapi.yml
 - filename: routable-payment-methods-api-openapi.yml
   format: yaml
   label: Routable Payment Methods API
   slug: routable-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-payment-methods-api-openapi.yml
 - filename: routable-receivables-api-openapi.yml
   format: yaml
   label: Routable Receivables API
   slug: routable-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-receivables-api-openapi.yml
 - filename: routable-webhooks-api-openapi.yml
   format: yaml
   label: Routable Webhooks API
   slug: routable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/openapi/routable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/routable/openapi/routable-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 16
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/routab
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receivables\n  method: get\n  operationId: listReceivables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receivables\n  method: post\n  operationId: createReceivable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receivables/{id}\n  method: get\n  operationId: retrieveReceivable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /receivables/{id}\n  method: patch\n  operationId: updateReceivable\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receivables/{id}/cancel\n  method: post\n  operationId: cancelReceivable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /receivables/{id}/remind\n  method: post\n  operationId: remindReceivable\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /webhook_events\n  method: get\n  operationId: listWebhookEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_events/{id}\n  method: get\n  operationId: retrieveWebhookEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhook_events/{id}/retry\n  method: post\n  operationId: retryWebhookEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/routable/refs/heads/main/agentic-access/routable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/routable/agentic-access/routable-agentic-access.yml
 summary_line: 37 operations · 21 acting
 tags:
 - Payments

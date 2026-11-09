@@ -9,67 +9,67 @@ api_specs:
   label: Microsoft Power Platform APIs Applications API
   slug: power-platform-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-applications-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-applications-api-openapi.yml
 - filename: power-platform-environments-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Environments API
   slug: power-platform-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-environments-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-environments-api-openapi.yml
 - filename: power-platform-flow-runs-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Flow Runs API
   slug: power-platform-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-flow-runs-api-openapi.yml
 - filename: power-platform-licensing-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Licensing API
   slug: power-platform-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-licensing-api-openapi.yml
 - filename: power-platform-metadata-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform Metadata API
   slug: microsoft-power-platform-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-metadata-api-openapi.yml
 - filename: power-platform-records-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform Records API
   slug: microsoft-power-platform-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-records-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-records-api-openapi.yml
 - filename: power-platform-accounts-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Accounts API
   slug: power-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-accounts-api-openapi.yml
 - filename: power-platform-enterprisepolicies-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Enterprise Policies API
   slug: power-platform-enterprisepolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-enterprisepolicies-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-enterprisepolicies-api-openapi.yml
 - filename: power-platform-operations-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Operations API
   slug: power-platform-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-operations-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-operations-api-openapi.yml
 - filename: power-platform-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Private Link Resources API
   slug: power-platform-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-privatelinkresources-api-openapi.yml
 - filename: power-platform-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Private Endpoint Connections API
   slug: power-platform-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-private-endpoint-connections-api-openapi.yml
 consequence_counts:
   read: 24
   write: 16
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/power-
   \  method: delete\n  operationId: PrivateEndpointConnections_Delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerPlatform/enterprisePolicies/{enterprisePolicyName}/privateLinkResources\n  method: get\n  operationId: PrivateLinkResources_ListByEnterprisePolicy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.PowerPlatform/enterprisePolicies/{enterprisePolicyName}/privateLinkResources/{groupName}\n\
   \  method: get\n  operationId: PrivateLinkResources_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user_impersonation\n- path: /{entitySetName}\n  method: get\n  operationId: listRecords\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{entitySetName}\n  method: post\n  operationId: createRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{entitySetName}({id})\n  method: get\n  operationId: getRecord\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /{entitySetName}({id})\n  method: patch\n  operationId: updateRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{entitySetName}({id})\n  method: delete\n  operationId: deleteRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/agentic-access/power-platform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/power-platform/agentic-access/power-platform-agentic-access.yml
 summary_line: 40 operations · 16 acting
 tags:
 - Business Applications

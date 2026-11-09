@@ -9,55 +9,55 @@ api_specs:
   label: Valgo Compute API
   slug: valgo-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-api-openapi.yml
 - filename: valgo-compute-batch-api-openapi.yml
   format: yaml
   label: Valgo Compute Batch API
   slug: valgo-compute-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-batch-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-batch-api-openapi.yml
 - filename: valgo-compute-depot-route-api-openapi.yml
   format: yaml
   label: Valgo Compute Depot Route API
   slug: valgo-compute-depot-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-depot-route-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-depot-route-api-openapi.yml
 - filename: valgo-compute-route-api-openapi.yml
   format: yaml
   label: Valgo Compute Route API
   slug: valgo-compute-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-route-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-route-api-openapi.yml
 - filename: valgo-health-api-openapi.yml
   format: yaml
   label: Valgo Health API
   slug: valgo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-health-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-health-api-openapi.yml
 - filename: valgo-manifest-api-openapi.yml
   format: yaml
   label: Valgo Manifest API
   slug: valgo-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-manifest-api-openapi.yml
 - filename: valgo-request-api-key-api-openapi.yml
   format: yaml
   label: Valgo Request Api Key API
   slug: valgo-request-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-request-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-request-api-key-api-openapi.yml
 - filename: valgo-filters-api-openapi.yml
   format: yaml
   label: Valgo Filters API
   slug: valgo-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-filters-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-filters-api-openapi.yml
 - filename: valgo-regions-api-openapi.yml
   format: yaml
   label: Valgo Regions API
   slug: valgo-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-regions-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-regions-api-openapi.yml
 consequence_counts:
   read: 5
   write: 9
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/valgo-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /compute-depot-route\n  method: post\n  operationId: post_compute_depot_route_compute_depot_route_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /request-api-key\n  method: post\n  operationId: request_api_key_request_api_key_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/filters\n  method: get\n  operationId: v1_filters_v1_filters_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/regions\n  method: get\n  operationId: v1_regions_v1_regions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/manifest\n  method: get\n  operationId: v1_manifest_v1_manifest_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/compute\n  method: post\n  operationId: v1_compute_v1_compute_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/batch\n  method: post\n  operationId: v1_compute_batch_v1_compute_batch_post\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/route\n  method: post\n  operationId: v1_compute_route_v1_compute_route_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/compute/depot-route\n  method: post\n  operationId: v1_compute_depot_route_v1_compute_depot_route_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/agentic-access/valgo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/valgo/agentic-access/valgo-agentic-access.yml
 summary_line: 14 operations · 9 acting
 tags:
 - Company

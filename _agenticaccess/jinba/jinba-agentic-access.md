@@ -9,85 +9,85 @@ api_specs:
   label: Jinba API Keys API
   slug: jinba-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-api-keys-api-openapi.yml
 - filename: jinba-credits-api-openapi.yml
   format: yaml
   label: Jinba Credits API
   slug: jinba-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-credits-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-credits-api-openapi.yml
 - filename: jinba-execution-api-openapi.yml
   format: yaml
   label: Jinba Execution API
   slug: jinba-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-execution-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-execution-api-openapi.yml
 - filename: jinba-explore-api-openapi.yml
   format: yaml
   label: Jinba Explore API
   slug: jinba-explore-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-explore-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-explore-api-openapi.yml
 - filename: jinba-flows-api-openapi.yml
   format: yaml
   label: Jinba Flows API
   slug: jinba-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-flows-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-flows-api-openapi.yml
 - filename: jinba-mcp-api-openapi.yml
   format: yaml
   label: Jinba MCP API
   slug: jinba-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-mcp-api-openapi.yml
 - filename: jinba-members-api-openapi.yml
   format: yaml
   label: Jinba Members API
   slug: jinba-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-members-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-members-api-openapi.yml
 - filename: jinba-organizations-api-openapi.yml
   format: yaml
   label: Jinba Organizations API
   slug: jinba-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-organizations-api-openapi.yml
 - filename: jinba-public-api-openapi.yml
   format: yaml
   label: Jinba Public API
   slug: jinba-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-public-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-public-api-openapi.yml
 - filename: jinba-runs-api-openapi.yml
   format: yaml
   label: Jinba Runs API
   slug: jinba-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-runs-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-runs-api-openapi.yml
 - filename: jinba-tools-api-openapi.yml
   format: yaml
   label: Jinba Tools API
   slug: jinba-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tools-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-tools-api-openapi.yml
 - filename: jinba-versions-api-openapi.yml
   format: yaml
   label: Jinba Versions API
   slug: jinba-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-versions-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-versions-api-openapi.yml
 - filename: jinba-webhooks-api-openapi.yml
   format: yaml
   label: Jinba Webhooks API
   slug: jinba-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-webhooks-api-openapi.yml
 - filename: jinba-tool-sets-api-openapi.yml
   format: yaml
   label: Jinba Tool Sets API
   slug: jinba-tool-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/openapi/jinba-tool-sets-api-openapi.yml
+  url: https://artifacts.apis.io/jinba/openapi/jinba-tool-sets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/jinba-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/webhooks/{id}/test\n  method: post\n  operationId: testWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/credits\n  method: get\n  operationId: getCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/{orgSlug}/{toolsetSlug}/run/{toolSlug}\n  method: post\n  operationId: runPublicTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /public/{orgSlug}/{toolsetSlug}/mcp\n  method: post\n  operationId: publicMcp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/toolsets/{slug}/mcp\n  method: post\n  operationId: orgMcp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /explore/toolsets\n  method: get\n  operationId: exploreToolsets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /explore/tags\n  method: get\n  operationId: exploreTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jinba/refs/heads/main/agentic-access/jinba-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jinba/agentic-access/jinba-agentic-access.yml
 summary_line: 39 operations · 23 acting
 tags:
 - Company

@@ -9,61 +9,61 @@ api_specs:
   label: Regal Reporting Webhooks
   slug: regal-reporting-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/asyncapi/regal-reporting-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/regal-ai/asyncapi/regal-reporting-webhooks-asyncapi.yml
 - filename: regal-ai-campaigns-api-openapi.yml
   format: yaml
   label: Regal Campaigns API
   slug: regal-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-campaigns-api-openapi.yml
 - filename: regal-ai-dispositions-api-openapi.yml
   format: yaml
   label: Regal Dispositions API
   slug: regal-ai-dispositions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-dispositions-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-dispositions-api-openapi.yml
 - filename: regal-ai-events-api-openapi.yml
   format: yaml
   label: Regal Events API
   slug: regal-ai-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-events-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-events-api-openapi.yml
 - filename: regal-ai-messages-api-openapi.yml
   format: yaml
   label: Regal Messages API
   slug: regal-ai-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-messages-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-messages-api-openapi.yml
 - filename: regal-ai-users-api-openapi.yml
   format: yaml
   label: Regal Users API
   slug: regal-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-users-api-openapi.yml
 - filename: regal-ai-activephonenumbers-api-openapi.yml
   format: yaml
   label: Regal Active Phone Numbers API
   slug: regal-ai-activephonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-activephonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-activephonenumbers-api-openapi.yml
 - filename: regal-ai-brandedphonenumbers-api-openapi.yml
   format: yaml
   label: Regal Branded Phone Numbers API
   slug: regal-ai-brandedphonenumbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-brandedphonenumbers-api-openapi.yml
 - filename: regal-ai-businessprofiles-api-openapi.yml
   format: yaml
   label: Regal Business Profiles API
   slug: regal-ai-businessprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-businessprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-businessprofiles-api-openapi.yml
 - filename: regal-ai-callhandoffs-api-openapi.yml
   format: yaml
   label: Regal Call Handoffs API
   slug: regal-ai-callhandoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/openapi/regal-ai-callhandoffs-api-openapi.yml
+  url: https://artifacts.apis.io/regal-ai/openapi/regal-ai-callhandoffs-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 4
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/regal-
   \ abnormal\n      - high-value\n    audit: required\n- path: /brandedPhoneNumbers/{phoneNumber}\n  method: patch\n  operationId: patchBrandedPhoneNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /brandedPhoneNumbers/{phoneNumber}\n  method: delete\n  operationId: deleteBrandedPhoneNumber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: post\n  operationId: postCustomEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /businessProfiles\n  method: get\n  operationId: listBusinessProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activePhoneNumbers\n  method: get\n  operationId: listActivePhoneNumbers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /campaigns\n  method: get\n  operationId: listCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dispositions\n  method: get\n  operationId: listDispositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /messages/send\n  method: post\n  operationId: sendMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-ai/refs/heads/main/agentic-access/regal-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/regal-ai/agentic-access/regal-ai-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Artificial Intelligence

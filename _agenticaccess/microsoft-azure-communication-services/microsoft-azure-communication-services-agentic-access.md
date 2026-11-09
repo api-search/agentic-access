@@ -3,24 +3,66 @@ acting_count: 5
 action_class_counts:
   acting: 5
 api_specs:
+- filename: microsoft-azure-communication-services-callautomation-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services Call Automation API
+  slug: microsoft-azure-communication-services-callautomation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-callautomation-api-openapi.yml
+- filename: microsoft-azure-communication-services-chat-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services Chat API
+  slug: microsoft-azure-communication-services-chat-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-chat-api-openapi.yml
 - filename: microsoft-azure-communication-services-email-api-openapi.yml
   format: yaml
-  label: microsoft-azure-communication-services Email API
+  label: Azure Communication Services Email API
   slug: microsoft-azure-communication-services-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-email-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-email-api-openapi.yml
 - filename: microsoft-azure-communication-services-identity-api-openapi.yml
   format: yaml
-  label: microsoft-azure-communication-services Identity API
+  label: Azure Communication Services Identity API
   slug: microsoft-azure-communication-services-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-identity-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-identity-api-openapi.yml
+- filename: microsoft-azure-communication-services-jobrouter-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services Job Router API
+  slug: microsoft-azure-communication-services-jobrouter-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-jobrouter-api-openapi.yml
+- filename: microsoft-azure-communication-services-messages-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services Advanced Messaging API
+  slug: microsoft-azure-communication-services-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-messages-api-openapi.yml
+- filename: microsoft-azure-communication-services-phonenumbers-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services Phone Numbers API
+  slug: microsoft-azure-communication-services-phonenumbers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-phonenumbers-api-openapi.yml
+- filename: microsoft-azure-communication-services-rooms-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services Rooms API
+  slug: microsoft-azure-communication-services-rooms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-rooms-api-openapi.yml
+- filename: microsoft-azure-communication-services-siprouting-api-openapi.yml
+  format: yaml
+  label: Azure Communication Services SIP Routing API
+  slug: microsoft-azure-communication-services-siprouting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-siprouting-api-openapi.yml
 - filename: microsoft-azure-communication-services-sms-api-openapi.yml
   format: yaml
-  label: microsoft-azure-communication-services SMS API
+  label: Azure Communication Services SMS API
   slug: microsoft-azure-communication-services-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/openapi/microsoft-azure-communication-services-sms-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-communication-services/openapi/microsoft-azure-communication-services-sms-api-openapi.yml
 consequence_counts:
   physical: 2
   write: 3
@@ -59,10 +101,26 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/microsoft-azure-communication-services-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 5\n  by_consequence:\n    write: 3\n    physical: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /identities\n  method: post\n  operationId: createIdentity\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identities/{id}\n  method: delete\n  operationId: deleteIdentity\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /identities/{id}/:issueAccessToken\n  method: post\n  operationId: issueAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sms\n  method: post\n  operationId: sendSms\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /emails:send\n  method: post\n  operationId: sendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-communication-services/refs/heads/main/agentic-access/microsoft-azure-communication-services-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-communication-services/agentic-access/microsoft-azure-communication-services-agentic-access.yml
 summary_line: 5 operations · 5 acting
 tags:
+- Microsoft Azure
+- CPaaS
+- Calling
+- Chat
+- Communications
+- Contact Center
 - Email
 - Identity
+- Messaging
+- Phone Numbers
+- Rooms
+- Routing
+- SIP
 - SMS
+- Telephony
+- Tokens
+- Video
+- Voice
+- WhatsApp
 ---

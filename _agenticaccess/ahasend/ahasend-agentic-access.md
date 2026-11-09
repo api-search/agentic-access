@@ -9,73 +9,103 @@ api_specs:
   label: AhaSend Accounts API
   slug: ahasend-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-accounts-api-openapi.yml
 - filename: ahasend-api-keys-api-openapi.yml
   format: yaml
   label: AhaSend API Keys API
   slug: ahasend-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-api-keys-api-openapi.yml
 - filename: ahasend-domains-api-openapi.yml
   format: yaml
   label: AhaSend Domains API
   slug: ahasend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-domains-api-openapi.yml
 - filename: ahasend-email-api-openapi.yml
   format: yaml
   label: AhaSend Email API
   slug: ahasend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-email-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-email-api-openapi.yml
 - filename: ahasend-messages-api-openapi.yml
   format: yaml
   label: AhaSend Messages API
   slug: ahasend-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-messages-api-openapi.yml
 - filename: ahasend-routes-api-openapi.yml
   format: yaml
   label: AhaSend Routes API
   slug: ahasend-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-routes-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-routes-api-openapi.yml
 - filename: ahasend-smtp-credentials-api-openapi.yml
   format: yaml
   label: AhaSend SMTP Credentials API
   slug: ahasend-smtp-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-smtp-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-smtp-credentials-api-openapi.yml
 - filename: ahasend-statistics-api-openapi.yml
   format: yaml
   label: AhaSend Statistics API
   slug: ahasend-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-statistics-api-openapi.yml
 - filename: ahasend-suppressions-api-openapi.yml
   format: yaml
   label: AhaSend Suppressions API
   slug: ahasend-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-suppressions-api-openapi.yml
 - filename: ahasend-utility-api-openapi.yml
   format: yaml
   label: AhaSend Utility API
   slug: ahasend-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-utility-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-utility-api-openapi.yml
 - filename: ahasend-webhooks-api-openapi.yml
   format: yaml
   label: AhaSend Webhooks API
   slug: ahasend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-webhooks-api-openapi.yml
+- filename: ahasend-campaign-templates-api-openapi.yml
+  format: yaml
+  label: AhaSend Campaign Templates API
+  slug: ahasend-campaign-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-campaign-templates-api-openapi.yml
+- filename: ahasend-campaigns-api-openapi.yml
+  format: yaml
+  label: AhaSend Campaigns API
+  slug: ahasend-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-campaigns-api-openapi.yml
+- filename: ahasend-contacts-api-openapi.yml
+  format: yaml
+  label: AhaSend Contacts API
+  slug: ahasend-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-contacts-api-openapi.yml
+- filename: ahasend-lists-api-openapi.yml
+  format: yaml
+  label: AhaSend Lists API
+  slug: ahasend-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-lists-api-openapi.yml
+- filename: ahasend-templates-api-openapi.yml
+  format: yaml
+  label: AhaSend Templates API
+  slug: ahasend-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-templates-api-openapi.yml
 - filename: ahasend-subaccounts-api-openapi.yml
   format: yaml
   label: AhaSend Subaccounts API
   slug: ahasend-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-subaccounts-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 19
@@ -245,7 +275,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ahasen
   \  subject: optional\n    scope:\n    - smtp-credentials:read:all\n    - smtp-credentials:read:{domain}\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/smtp-credentials/{smtp_credential_id}\n  method: delete\n  operationId: deleteSMTPCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - smtp-credentials:delete:all\n    - smtp-credentials:delete:{domain}\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/accounts/{account_id}/statistics/transactional/deliverability\n  method: get\n  operationId: getDeliverabilityStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - statistics-transactional:read:all\n    - statistics-transactional:read:{domain}\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/statistics/transactional/bounce\n  method: get\n  operationId: getBounceStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - statistics-transactional:read:all\n    - statistics-transactional:read:{domain}\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/accounts/{account_id}/statistics/transactional/delivery-time\n  method: get\n  operationId: getDeliveryTimeStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - statistics-transactional:read:all\n    - statistics-transactional:read:{domain}\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /email/send\n  method: post\n  operationId: sendEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - read:email\n    - write:email\n\
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/agentic-access/ahasend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ahasend/agentic-access/ahasend-agentic-access.yml
 summary_line: 44 operations · 25 acting
 tags:
 - Email

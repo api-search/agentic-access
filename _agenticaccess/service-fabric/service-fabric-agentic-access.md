@@ -9,31 +9,31 @@ api_specs:
   label: Service Fabric Applications API
   slug: service-fabric-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-applications-api-openapi.yml
+  url: https://artifacts.apis.io/service-fabric/openapi/service-fabric-applications-api-openapi.yml
 - filename: service-fabric-cluster-api-openapi.yml
   format: yaml
   label: Service Fabric Cluster API
   slug: service-fabric-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/service-fabric/openapi/service-fabric-cluster-api-openapi.yml
 - filename: service-fabric-health-api-openapi.yml
   format: yaml
   label: Service Fabric Health API
   slug: service-fabric-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-health-api-openapi.yml
+  url: https://artifacts.apis.io/service-fabric/openapi/service-fabric-health-api-openapi.yml
 - filename: service-fabric-nodes-api-openapi.yml
   format: yaml
   label: Service Fabric Nodes API
   slug: service-fabric-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/service-fabric/openapi/service-fabric-nodes-api-openapi.yml
 - filename: service-fabric-services-api-openapi.yml
   format: yaml
   label: Service Fabric Services API
   slug: service-fabric-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/openapi/service-fabric-services-api-openapi.yml
+  url: https://artifacts.apis.io/service-fabric/openapi/service-fabric-services-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/service-fabric-cluster-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 7\n    acting: 2\n  by_consequence:\n    read: 7\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /$/GetClusterHealth\n  method: get\n  operationId: getClusterHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Nodes\n  method: get\n  operationId: getNodeInfoList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Nodes/{nodeName}\n\
   \  method: get\n  operationId: getNodeInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Applications\n  method: get\n  operationId: getApplicationInfoList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Applications/{applicationId}\n  method: get\n  operationId: getApplicationInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Applications/$/Create\n  method: post\n  operationId: createApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /Applications/{applicationId}/$/Delete\n  method: post\n  operationId: deleteApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Applications/{applicationId}/$/GetHealth\n  method: get\n  operationId: getApplicationHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Applications/{applicationId}/$/GetServices\n  method: get\n  operationId: getServiceInfoList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-fabric/refs/heads/main/agentic-access/service-fabric-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/service-fabric/agentic-access/service-fabric-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Distributed Systems

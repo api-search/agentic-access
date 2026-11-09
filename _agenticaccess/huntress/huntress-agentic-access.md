@@ -9,103 +9,103 @@ api_specs:
   label: Huntress Accounts API
   slug: huntress-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-accounts-api-openapi.yml
 - filename: huntress-actor-api-openapi.yml
   format: yaml
   label: Huntress Actor API
   slug: huntress-actor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-actor-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-actor-api-openapi.yml
 - filename: huntress-agents-api-openapi.yml
   format: yaml
   label: Huntress Agents API
   slug: huntress-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-agents-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-agents-api-openapi.yml
 - filename: huntress-escalations-api-openapi.yml
   format: yaml
   label: Huntress Escalations API
   slug: huntress-escalations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-escalations-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-escalations-api-openapi.yml
 - filename: huntress-external-recon-api-openapi.yml
   format: yaml
   label: Huntress External Recon API
   slug: huntress-external-recon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-external-recon-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-external-recon-api-openapi.yml
 - filename: huntress-identities-api-openapi.yml
   format: yaml
   label: Huntress Identities API
   slug: huntress-identities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-identities-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-identities-api-openapi.yml
 - filename: huntress-incident-reports-api-openapi.yml
   format: yaml
   label: Huntress Incident Reports API
   slug: huntress-incident-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-incident-reports-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-incident-reports-api-openapi.yml
 - filename: huntress-invoices-api-openapi.yml
   format: yaml
   label: Huntress Invoices API
   slug: huntress-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-invoices-api-openapi.yml
 - filename: huntress-known-vpns-api-openapi.yml
   format: yaml
   label: Huntress Known VPNs API
   slug: huntress-known-vpns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-known-vpns-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-known-vpns-api-openapi.yml
 - filename: huntress-organizations-api-openapi.yml
   format: yaml
   label: Huntress Organizations API
   slug: huntress-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-organizations-api-openapi.yml
 - filename: huntress-platform-actions-api-openapi.yml
   format: yaml
   label: Huntress Platform Actions API
   slug: huntress-platform-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-platform-actions-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-platform-actions-api-openapi.yml
 - filename: huntress-reseller-api-openapi.yml
   format: yaml
   label: Huntress Reseller API
   slug: huntress-reseller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-reseller-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-reseller-api-openapi.yml
 - filename: huntress-siem-api-openapi.yml
   format: yaml
   label: Huntress SIEM API
   slug: huntress-siem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-siem-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-siem-api-openapi.yml
 - filename: huntress-signals-api-openapi.yml
   format: yaml
   label: Huntress Signals API
   slug: huntress-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-signals-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-signals-api-openapi.yml
 - filename: huntress-summary-reports-api-openapi.yml
   format: yaml
   label: Huntress Summary Reports API
   slug: huntress-summary-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-summary-reports-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-summary-reports-api-openapi.yml
 - filename: huntress-unwanted-access-rules-api-openapi.yml
   format: yaml
   label: Huntress Unwanted Access Rules API
   slug: huntress-unwanted-access-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-unwanted-access-rules-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-unwanted-access-rules-api-openapi.yml
 - filename: huntress-users-api-openapi.yml
   format: yaml
   label: Huntress Users API
   slug: huntress-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/openapi/huntress-users-api-openapi.yml
+  url: https://artifacts.apis.io/huntress/openapi/huntress-users-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 55
@@ -203,7 +203,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/huntre
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic_auth\n- path: /v1/unwanted_access_rules\n  method: get\n  operationId: getV1UnwantedAccessRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic_auth\n- path: /v1/unwanted_access_rules\n  method: post\n  operationId: UnwantedAccessRuleCreationParameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - basic_auth\n- path: /v1/unwanted_access_rules/{id}\n  method: get\n  operationId: getV1UnwantedAccessRulesId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic_auth\n- path: /v1/unwanted_access_rules/{id}\n  method: delete\n  operationId: deleteV1UnwantedAccessRulesId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - basic_auth\n- path: /v1/unwanted_access_rules/{id}\n  method: patch\n  operationId: UnwantedAccessRuleUpdateParameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - basic_auth\n- path: /v1/known_vpns\n  method: get\n  operationId: getV1KnownVpns\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - basic_auth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huntress/refs/heads/main/agentic-access/huntress-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/huntress/agentic-access/huntress-agentic-access.yml
 summary_line: 92 operations · 37 acting · 1 human-in-the-loop
 tags:
 - Company

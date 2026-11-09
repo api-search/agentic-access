@@ -8,25 +8,25 @@ api_specs:
   label: Holiday API Countries API
   slug: holidays-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-countries-api-openapi.yml
+  url: https://artifacts.apis.io/holidays/openapi/holidays-countries-api-openapi.yml
 - filename: holidays-holidays-api-openapi.yml
   format: yaml
   label: Holiday API Holidays API
   slug: holidays-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/holidays/openapi/holidays-holidays-api-openapi.yml
 - filename: holidays-languages-api-openapi.yml
   format: yaml
   label: Holiday API Languages API
   slug: holidays-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-languages-api-openapi.yml
+  url: https://artifacts.apis.io/holidays/openapi/holidays-languages-api-openapi.yml
 - filename: holidays-workdays-api-openapi.yml
   format: yaml
   label: Holiday API Workdays API
   slug: holidays-workdays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/openapi/holidays-workdays-api-openapi.yml
+  url: https://artifacts.apis.io/holidays/openapi/holidays-workdays-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/holidays-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /v1/holidays\n  method: get\n  operationId: listHolidays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries\n  method: get\n  operationId: listCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/languages\n  method: get\n  operationId: listLanguages\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workday\n  method: get\n  operationId: getWorkday\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/workdays\n  method: get\n  operationId: getWorkdays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holidays/refs/heads/main/agentic-access/holidays-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/holidays/agentic-access/holidays-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Calendar

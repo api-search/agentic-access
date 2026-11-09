@@ -3,133 +3,6 @@ acting_count: 55
 action_class_counts:
   acting: 55
   connected: 37
-api_specs:
-- filename: timely-bulk-operations-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Bulk Operations API
-  slug: timely-bulk-operations-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-bulk-operations-api-openapi.yml
-- filename: timely-clients-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Clients API
-  slug: timely-clients-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-clients-api-openapi.yml
-- filename: timely-compliance-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Compliance API
-  slug: timely-compliance-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-compliance-api-openapi.yml
-- filename: timely-day-properties-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Day Properties API
-  slug: timely-day-properties-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-day-properties-api-openapi.yml
-- filename: timely-event-states-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Event States API
-  slug: timely-event-states-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-event-states-api-openapi.yml
-- filename: timely-event-timers-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Event Timers API
-  slug: timely-event-timers-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-event-timers-api-openapi.yml
-- filename: timely-events-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Events API
-  slug: timely-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-events-api-openapi.yml
-- filename: timely-forecasts-tasks-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Forecasts (Tasks) API
-  slug: timely-forecasts-tasks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-forecasts-tasks-api-openapi.yml
-- filename: timely-insights-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Insights API
-  slug: timely-insights-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-insights-api-openapi.yml
-- filename: timely-linked-work-items-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Linked Work Items API
-  slug: timely-linked-work-items-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-linked-work-items-api-openapi.yml
-- filename: timely-oauth-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) OAuth API
-  slug: timely-oauth-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-oauth-api-openapi.yml
-- filename: timely-permissions-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Permissions API
-  slug: timely-permissions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-permissions-api-openapi.yml
-- filename: timely-projects-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Projects API
-  slug: timely-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-projects-api-openapi.yml
-- filename: timely-reports-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Reports API
-  slug: timely-reports-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-reports-api-openapi.yml
-- filename: timely-roles-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Roles API
-  slug: timely-roles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-roles-api-openapi.yml
-- filename: timely-tags-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Tags API
-  slug: timely-tags-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-tags-api-openapi.yml
-- filename: timely-teams-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Teams API
-  slug: timely-teams-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-teams-api-openapi.yml
-- filename: timely-user-capacities-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) User Capacities API
-  slug: timely-user-capacities-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-user-capacities-api-openapi.yml
-- filename: timely-users-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Users API
-  slug: timely-users-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-users-api-openapi.yml
-- filename: timely-webhook-events-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Webhook Events API
-  slug: timely-webhook-events-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-webhook-events-api-openapi.yml
-- filename: timely-webhooks-api-openapi.yml
-  format: yaml
-  label: Timely (Memory AS) Webhooks API
-  slug: timely-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/openapi/timely-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 37
@@ -212,13 +85,12 @@ source_yaml: "generated: '2026-10-27'\nmethod: generated\nsource: openapi/timely
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.1/{account_id}/users/{id}/avatar\n  method: delete\n  operationId: removeUserAvatar\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.1/{account_id}/users/search\n  method: get\n  operationId: searchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - manage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.1/{account_id}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - manage\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /1.1/{account_id}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /1.1/{account_id}/webhooks/{id}\n  method: get\n  operationId: showWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - manage\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /1.1/{account_id}/webhooks/{id}\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /1.1/{account_id}/webhooks/{id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/timely/refs/heads/main/agentic-access/timely-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/timely/agentic-access/timely-agentic-access.yml
 summary_line: 92 operations · 55 acting · 3 human-in-the-loop
 tags:
-- TimeTracking
+- Company
+- Time Tracking
+- Artificial Intelligence
+- Software-as-a-Service
 - Productivity
-- AI
-- SaaS
-- Automation
-- Consulting
 ---

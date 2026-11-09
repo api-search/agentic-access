@@ -9,13 +9,49 @@ api_specs:
   label: Amazon Managed Service for Prometheus Tags API
   slug: amazon-managed-prometheus-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-tags-api-openapi.yml
 - filename: amazon-managed-prometheus-workspaces-api-openapi.yml
   format: yaml
   label: Amazon Managed Service for Prometheus Workspaces API
   slug: amazon-managed-prometheus-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/openapi/amazon-managed-prometheus-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-workspaces-api-openapi.yml
+- filename: amazon-managed-prometheus-anomalydetectors-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Anomalydetectors API
+  slug: amazon-managed-prometheus-anomalydetectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-anomalydetectors-api-openapi.yml
+- filename: amazon-managed-prometheus-logging-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Logging API
+  slug: amazon-managed-prometheus-logging-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-logging-api-openapi.yml
+- filename: amazon-managed-prometheus-logging-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Logging Configuration API
+  slug: amazon-managed-prometheus-logging-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-logging-configuration-api-openapi.yml
+- filename: amazon-managed-prometheus-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Operations API
+  slug: amazon-managed-prometheus-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-operations-api-openapi.yml
+- filename: amazon-managed-prometheus-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Policy API
+  slug: amazon-managed-prometheus-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-policy-api-openapi.yml
+- filename: amazon-managed-prometheus-scrapers-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Prometheus Managed Prometheus Scrapers API
+  slug: amazon-managed-prometheus-scrapers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-prometheus/openapi/amazon-managed-prometheus-scrapers-api-openapi.yml
 consequence_counts:
   read: 7
   write: 14
@@ -49,9 +85,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \ /workspaces/{workspaceId}/rulegroupsnamespaces/{name}\n  method: get\n  operationId: DescribeRuleGroupsNamespace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces/{workspaceId}/rulegroupsnamespaces/{name}\n  method: put\n  operationId: PutRuleGroupsNamespace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}\n  method: delete\n  operationId: DeleteWorkspace\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n  \
   \  audit: required\n- path: /workspaces/{workspaceId}\n  method: get\n  operationId: DescribeWorkspace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: get\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tags/{resourceArn}\n  method: post\n  operationId: TagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{resourceArn}#tagKeys\n  method: delete\n  operationId: UntagResource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{workspaceId}/alias\n  method: post\n  operationId: UpdateWorkspaceAlias\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/agentic-access/amazon-managed-prometheus-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-managed-prometheus/agentic-access/amazon-managed-prometheus-agentic-access.yml
 summary_line: 21 operations · 14 acting
 tags:
+- Amazon Web Services
 - Containers
 - Monitoring
 - Observability

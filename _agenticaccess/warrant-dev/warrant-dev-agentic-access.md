@@ -9,31 +9,31 @@ api_specs:
   label: Warrant Check API
   slug: warrant-dev-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-check-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-check-api-openapi.yml
 - filename: warrant-dev-object-types-api-openapi.yml
   format: yaml
   label: Warrant Object Types API
   slug: warrant-dev-object-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-object-types-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-object-types-api-openapi.yml
 - filename: warrant-dev-objects-api-openapi.yml
   format: yaml
   label: Warrant Objects API
   slug: warrant-dev-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-objects-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-objects-api-openapi.yml
 - filename: warrant-dev-warrants-api-openapi.yml
   format: yaml
   label: Warrant Warrants API
   slug: warrant-dev-warrants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-warrants-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-warrants-api-openapi.yml
 - filename: warrant-dev-roles-permissions-api-openapi.yml
   format: yaml
   label: Warrant Roles & Permissions API
   slug: warrant-dev-roles-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/openapi/warrant-dev-roles-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/warrant-dev/openapi/warrant-dev-roles-permissions-api-openapi.yml
 consequence_counts:
   read: 12
   write: 17
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/warran
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tenants\n  method: get\n  operationId: listTenants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tenants\n  method: post\n  operationId: createTenant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /v1/features\n  method: get\n  operationId: listFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/features\n  method: post\n  operationId: createFeature\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/pricing-tiers\n  method: get\n  operationId: listPricingTiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/pricing-tiers\n  method: post\n  operationId: createPricingTier\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warrant-dev/refs/heads/main/agentic-access/warrant-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/warrant-dev/agentic-access/warrant-dev-agentic-access.yml
 summary_line: 29 operations · 17 acting
 tags:
 - Access Control

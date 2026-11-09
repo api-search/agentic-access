@@ -9,13 +9,31 @@ api_specs:
   label: Inkeep Analytics API
   slug: inkeep-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-analytics-api-openapi.yml
+- filename: inkeep-challenge-api-openapi.yml
+  format: yaml
+  label: Inkeep Challenge API
+  slug: inkeep-challenge-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-challenge-api-openapi.yml
+- filename: inkeep-chat-sessions-api-openapi.yml
+  format: yaml
+  label: Inkeep Chat Sessions API
+  slug: inkeep-chat-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-chat-sessions-api-openapi.yml
+- filename: inkeep-hello-api-openapi.yml
+  format: yaml
+  label: Inkeep Hello API
+  slug: inkeep-hello-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-hello-api-openapi.yml
 - filename: inkeep-chat-completions-api-openapi.yml
   format: yaml
   label: Inkeep Chat Completions API
   slug: inkeep-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/openapi/inkeep-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-chat-completions-api-openapi.yml
 consequence_counts:
   read: 1
   write: 4
@@ -44,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/inkeep-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 4\n    connected: 1\n  by_consequence:\n    write: 4\n    read: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations\n  method: post\n  operationId: createConversation\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{id}\n  method: get\n  operationId: getConversation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /feedback\n  method: post\n  operationId: createFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /events\n  method: post\n  operationId: logEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/agentic-access/inkeep-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/inkeep/agentic-access/inkeep-agentic-access.yml
 summary_line: 5 operations · 4 acting
 tags:
 - Artificial Intelligence

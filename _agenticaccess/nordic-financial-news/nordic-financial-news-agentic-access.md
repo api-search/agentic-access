@@ -8,91 +8,91 @@ api_specs:
   label: Nordic Financial News Articles API
   slug: nordic-financial-news-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-articles-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-articles-api-openapi.yml
 - filename: nordic-financial-news-calendar-events-api-openapi.yml
   format: yaml
   label: Nordic Financial News Calendar Events API
   slug: nordic-financial-news-calendar-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-calendar-events-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-calendar-events-api-openapi.yml
 - filename: nordic-financial-news-categories-api-openapi.yml
   format: yaml
   label: Nordic Financial News Categories API
   slug: nordic-financial-news-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-categories-api-openapi.yml
 - filename: nordic-financial-news-companies-api-openapi.yml
   format: yaml
   label: Nordic Financial News Companies API
   slug: nordic-financial-news-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-companies-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-companies-api-openapi.yml
 - filename: nordic-financial-news-countries-api-openapi.yml
   format: yaml
   label: Nordic Financial News Countries API
   slug: nordic-financial-news-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-countries-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-countries-api-openapi.yml
 - filename: nordic-financial-news-event-types-api-openapi.yml
   format: yaml
   label: Nordic Financial News Event Types API
   slug: nordic-financial-news-event-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-event-types-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-event-types-api-openapi.yml
 - filename: nordic-financial-news-events-api-openapi.yml
   format: yaml
   label: Nordic Financial News Events API
   slug: nordic-financial-news-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-events-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-events-api-openapi.yml
 - filename: nordic-financial-news-exchanges-api-openapi.yml
   format: yaml
   label: Nordic Financial News Exchanges API
   slug: nordic-financial-news-exchanges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-exchanges-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-exchanges-api-openapi.yml
 - filename: nordic-financial-news-health-api-openapi.yml
   format: yaml
   label: Nordic Financial News Health API
   slug: nordic-financial-news-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-health-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-health-api-openapi.yml
 - filename: nordic-financial-news-indices-api-openapi.yml
   format: yaml
   label: Nordic Financial News Indices API
   slug: nordic-financial-news-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-indices-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-indices-api-openapi.yml
 - filename: nordic-financial-news-meta-api-openapi.yml
   format: yaml
   label: Nordic Financial News Meta API
   slug: nordic-financial-news-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-meta-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-meta-api-openapi.yml
 - filename: nordic-financial-news-search-api-openapi.yml
   format: yaml
   label: Nordic Financial News Search API
   slug: nordic-financial-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-search-api-openapi.yml
 - filename: nordic-financial-news-sources-api-openapi.yml
   format: yaml
   label: Nordic Financial News Sources API
   slug: nordic-financial-news-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-sources-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-sources-api-openapi.yml
 - filename: nordic-financial-news-stories-api-openapi.yml
   format: yaml
   label: Nordic Financial News Stories API
   slug: nordic-financial-news-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-stories-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-stories-api-openapi.yml
 - filename: nordic-financial-news-watchlists-api-openapi.yml
   format: yaml
   label: Nordic Financial News Watchlists API
   slug: nordic-financial-news-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/openapi/nordic-financial-news-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/nordic-financial-news/openapi/nordic-financial-news-watchlists-api-openapi.yml
 consequence_counts:
   read: 30
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/nordic
   \ 3600\n    audit: none\n- path: /api/v1/event_types\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/events\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/events/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exchanges\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exchanges/{identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/exchanges/{identifier}/companies\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/indices\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/indices/{identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/indices/{identifier}/companies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/watchlists\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/watchlists/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nordic-financial-news/refs/heads/main/agentic-access/nordic-financial-news-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nordic-financial-news/agentic-access/nordic-financial-news-agentic-access.yml
 summary_line: 30 operations
 tags:
 - Company

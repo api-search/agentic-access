@@ -9,55 +9,55 @@ api_specs:
   label: 01Mind Campaigns API
   slug: 01mind-net-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-campaigns-api-openapi.yml
 - filename: 01mind-net-charon-api-openapi.yml
   format: yaml
   label: 01Mind Charon API
   slug: 01mind-net-charon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-charon-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-charon-api-openapi.yml
 - filename: 01mind-net-document-templates-api-openapi.yml
   format: yaml
   label: 01Mind Document Templates API
   slug: 01mind-net-document-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-document-templates-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-document-templates-api-openapi.yml
 - filename: 01mind-net-execute-api-openapi.yml
   format: yaml
   label: 01Mind Execute API
   slug: 01mind-net-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-execute-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-execute-api-openapi.yml
 - filename: 01mind-net-research-api-openapi.yml
   format: yaml
   label: 01Mind Research API
   slug: 01mind-net-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-research-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-research-api-openapi.yml
 - filename: 01mind-net-sandbox-api-openapi.yml
   format: yaml
   label: 01Mind Sandbox API
   slug: 01mind-net-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-sandbox-api-openapi.yml
 - filename: 01mind-net-token-topups-api-openapi.yml
   format: yaml
   label: 01Mind Token Topups API
   slug: 01mind-net-token-topups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-token-topups-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-token-topups-api-openapi.yml
 - filename: 01mind-net-tool-requests-api-openapi.yml
   format: yaml
   label: 01Mind Tool Requests API
   slug: 01mind-net-tool-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-tool-requests-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-tool-requests-api-openapi.yml
 - filename: 01mind-net-venue-api-openapi.yml
   format: yaml
   label: 01Mind Venue API
   slug: 01mind-net-venue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-venue-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-venue-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 10
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/01mind
   \ 3600\n    audit: none\n- path: /research/converse\n  method: post\n  operationId: converseWithResearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tool-requests/format-guide\n  method: get\n  operationId: getToolRequestFormatGuide\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /charon/menu\n  method: get\n  operationId: getCatalogueMenu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /execute/{listingId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/execute/{listingId}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document-templates\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document-templates\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /document-templates/{templateId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/agentic-access/01mind-net-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/01mind-net/agentic-access/01mind-net-agentic-access.yml
 summary_line: 28 operations · 18 acting · 1 human-in-the-loop
 tags:
 - Agents

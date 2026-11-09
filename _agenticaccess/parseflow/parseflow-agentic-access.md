@@ -9,85 +9,85 @@ api_specs:
   label: Parseflow Admin API
   slug: parseflow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-admin-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-admin-api-openapi.yml
 - filename: parseflow-analyze-api-openapi.yml
   format: yaml
   label: Parseflow Analyze API
   slug: parseflow-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-analyze-api-openapi.yml
 - filename: parseflow-batch-api-openapi.yml
   format: yaml
   label: Parseflow Batch API
   slug: parseflow-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-batch-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-batch-api-openapi.yml
 - filename: parseflow-billing-api-openapi.yml
   format: yaml
   label: Parseflow Billing API
   slug: parseflow-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-billing-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-billing-api-openapi.yml
 - filename: parseflow-health-api-openapi.yml
   format: yaml
   label: Parseflow Health API
   slug: parseflow-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-health-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-health-api-openapi.yml
 - filename: parseflow-index-api-openapi.yml
   format: yaml
   label: Parseflow Index API
   slug: parseflow-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-index-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-index-api-openapi.yml
 - filename: parseflow-jobs-api-openapi.yml
   format: yaml
   label: Parseflow Jobs API
   slug: parseflow-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-jobs-api-openapi.yml
 - filename: parseflow-me-api-openapi.yml
   format: yaml
   label: Parseflow Me API
   slug: parseflow-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-me-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-me-api-openapi.yml
 - filename: parseflow-pack-api-openapi.yml
   format: yaml
   label: Parseflow Pack API
   slug: parseflow-pack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-pack-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-pack-api-openapi.yml
 - filename: parseflow-process-api-openapi.yml
   format: yaml
   label: Parseflow Process API
   slug: parseflow-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-process-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-process-api-openapi.yml
 - filename: parseflow-search-api-openapi.yml
   format: yaml
   label: Parseflow Search API
   slug: parseflow-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-search-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-search-api-openapi.yml
 - filename: parseflow-stats-api-openapi.yml
   format: yaml
   label: Parseflow Stats API
   slug: parseflow-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-stats-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-stats-api-openapi.yml
 - filename: parseflow-usage-api-openapi.yml
   format: yaml
   label: Parseflow Usage API
   slug: parseflow-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-usage-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-usage-api-openapi.yml
 - filename: parseflow-webhooks-api-openapi.yml
   format: yaml
   label: Parseflow Webhooks API
   slug: parseflow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/openapi/parseflow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/parseflow/openapi/parseflow-webhooks-api-openapi.yml
 consequence_counts:
   read: 9
   write: 13
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/parsef
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/batch\n  method: post\n  operationId: batch_v2_v2_batch_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/index\n  method: post\n  operationId: index_document_v2_v2_index_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/search\n\
   \  method: get\n  operationId: search_v2_v2_search_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/documents\n  method: get\n  operationId: list_indexed_documents_v2_v2_search_documents_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/documents/{document_id}\n  method: get\n  operationId: get_indexed_document_v2_v2_search_documents__document_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/documents/{document_id}\n  method: delete\n  operationId: delete_indexed_document_v2_v2_search_documents__document_id__delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /health\n  method: get\n  operationId: health_check_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseflow/refs/heads/main/agentic-access/parseflow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parseflow/agentic-access/parseflow-agentic-access.yml
 summary_line: 22 operations · 13 acting
 tags:
 - Document Parsing

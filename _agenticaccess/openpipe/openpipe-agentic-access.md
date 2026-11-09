@@ -9,61 +9,61 @@ api_specs:
   label: OpenPipe Check Cache API
   slug: openpipe-check-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-check-cache-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-check-cache-api-openapi.yml
 - filename: openpipe-criteria-api-openapi.yml
   format: yaml
   label: OpenPipe Criteria API
   slug: openpipe-criteria-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-criteria-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-criteria-api-openapi.yml
 - filename: openpipe-datasets-api-openapi.yml
   format: yaml
   label: OpenPipe Datasets API
   slug: openpipe-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-datasets-api-openapi.yml
 - filename: openpipe-local-testing-only-get-latest-logged-call-api-openapi.yml
   format: yaml
   label: OpenPipe Local Testing Only Get Latest Logged Call API
   slug: openpipe-local-testing-only-get-latest-logged-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-local-testing-only-get-latest-logged-call-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-local-testing-only-get-latest-logged-call-api-openapi.yml
 - filename: openpipe-logs-api-openapi.yml
   format: yaml
   label: OpenPipe Logs API
   slug: openpipe-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-logs-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-logs-api-openapi.yml
 - filename: openpipe-models-api-openapi.yml
   format: yaml
   label: OpenPipe Models API
   slug: openpipe-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-models-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-models-api-openapi.yml
 - filename: openpipe-report-anthropic-api-openapi.yml
   format: yaml
   label: OpenPipe Report Anthropic API
   slug: openpipe-report-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-report-anthropic-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-report-anthropic-api-openapi.yml
 - filename: openpipe-report-api-openapi.yml
   format: yaml
   label: OpenPipe Report API
   slug: openpipe-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-report-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-report-api-openapi.yml
 - filename: openpipe-unstable-api-openapi.yml
   format: yaml
   label: OpenPipe Unstable API
   slug: openpipe-unstable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-unstable-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-unstable-api-openapi.yml
 - filename: openpipe-chat-completions-api-openapi.yml
   format: yaml
   label: OpenPipe Chat Completions API
   slug: openpipe-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/openapi/openpipe-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/openpipe/openapi/openpipe-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 16
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/openpi
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unstable/dataset/delete\n  method: post\n  operationId: unstableDatasetDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unstable/dataset/list\n  method: get\n  operationId: unstableDatasetList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unstable/dataset-entry/create\n  method: post\n  operationId: unstableDatasetEntryCreate\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unstable/finetune/create\n  method: post\n  operationId: unstableFinetuneCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unstable/finetune/get\n  method: get\n  operationId: unstableFinetuneGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unstable/finetune/delete\n  method: post\n  operationId: unstableFinetuneDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n  \
   \  subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpipe/refs/heads/main/agentic-access/openpipe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openpipe/agentic-access/openpipe-agentic-access.yml
 summary_line: 23 operations · 16 acting
 tags:
 - Artificial Intelligence

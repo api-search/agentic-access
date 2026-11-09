@@ -9,91 +9,91 @@ api_specs:
   label: Loyverse Categories API
   slug: loyverse-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-categories-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-categories-api-openapi.yml
 - filename: loyverse-customers-api-openapi.yml
   format: yaml
   label: Loyverse Customers API
   slug: loyverse-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-customers-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-customers-api-openapi.yml
 - filename: loyverse-discounts-api-openapi.yml
   format: yaml
   label: Loyverse Discounts API
   slug: loyverse-discounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-discounts-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-discounts-api-openapi.yml
 - filename: loyverse-employees-api-openapi.yml
   format: yaml
   label: Loyverse Employees API
   slug: loyverse-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-employees-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-employees-api-openapi.yml
 - filename: loyverse-inventory-api-openapi.yml
   format: yaml
   label: Loyverse Inventory API
   slug: loyverse-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-inventory-api-openapi.yml
 - filename: loyverse-items-api-openapi.yml
   format: yaml
   label: Loyverse Items API
   slug: loyverse-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-items-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-items-api-openapi.yml
 - filename: loyverse-merchants-api-openapi.yml
   format: yaml
   label: Loyverse Merchants API
   slug: loyverse-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-merchants-api-openapi.yml
 - filename: loyverse-modifiers-api-openapi.yml
   format: yaml
   label: Loyverse Modifiers API
   slug: loyverse-modifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-modifiers-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-modifiers-api-openapi.yml
 - filename: loyverse-payment-types-api-openapi.yml
   format: yaml
   label: Loyverse Payment Types API
   slug: loyverse-payment-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-payment-types-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-payment-types-api-openapi.yml
 - filename: loyverse-pos-devices-api-openapi.yml
   format: yaml
   label: Loyverse POS Devices API
   slug: loyverse-pos-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-pos-devices-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-pos-devices-api-openapi.yml
 - filename: loyverse-receipts-api-openapi.yml
   format: yaml
   label: Loyverse Receipts API
   slug: loyverse-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-receipts-api-openapi.yml
 - filename: loyverse-shifts-api-openapi.yml
   format: yaml
   label: Loyverse Shifts API
   slug: loyverse-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-shifts-api-openapi.yml
 - filename: loyverse-stores-api-openapi.yml
   format: yaml
   label: Loyverse Stores API
   slug: loyverse-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-stores-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-stores-api-openapi.yml
 - filename: loyverse-suppliers-api-openapi.yml
   format: yaml
   label: Loyverse Suppliers API
   slug: loyverse-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-suppliers-api-openapi.yml
 - filename: loyverse-taxes-api-openapi.yml
   format: yaml
   label: Loyverse Taxes API
   slug: loyverse-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/openapi/loyverse-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/loyverse/openapi/loyverse-taxes-api-openapi.yml
 consequence_counts:
   read: 22
   write: 10
@@ -132,7 +132,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/loyver
   \ none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /merchants\n  method: get\n  operationId: listMerchants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /taxes\n  method: get\n  operationId: listTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /discounts\n  method: get\n  operationId: listDiscounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n\
   \    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /modifiers\n  method: get\n  operationId: listModifiers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /suppliers\n  method: get\n  operationId: listSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /pos_devices\n  method: get\n  operationId: listPosDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n\
   \    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n- path: /shifts\n  method: get\n  operationId: listShifts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - CUSTOMERS_READ\n    - INVENTORY_READ\n    - ITEMS_READ\n    - RECEIPTS_READ\n    - STORES_READ\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loyverse/refs/heads/main/agentic-access/loyverse-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/loyverse/agentic-access/loyverse-agentic-access.yml
 summary_line: 32 operations · 10 acting
 tags:
 - Point-of-Sale

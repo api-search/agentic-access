@@ -9,31 +9,31 @@ api_specs:
   label: Amazon Redshift Metadata API
   slug: amazon-redshift-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-metadata-api-openapi.yml
 - filename: amazon-redshift-result-retrieval-api-openapi.yml
   format: yaml
   label: Amazon Redshift Result Retrieval API
   slug: amazon-redshift-result-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-result-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-result-retrieval-api-openapi.yml
 - filename: amazon-redshift-statement-execution-api-openapi.yml
   format: yaml
   label: Amazon Redshift Statement Execution API
   slug: amazon-redshift-statement-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-execution-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-statement-execution-api-openapi.yml
 - filename: amazon-redshift-statement-management-api-openapi.yml
   format: yaml
   label: Amazon Redshift Statement Management API
   slug: amazon-redshift-statement-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-statement-management-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-statement-management-api-openapi.yml
 - filename: amazon-redshift-amazon-redshift-api-openapi.yml
   format: yaml
   label: Amazon Redshift Amazon Redshift API
   slug: amazon-redshift-amazon-redshift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/openapi/amazon-redshift-amazon-redshift-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-redshift/openapi/amazon-redshift-amazon-redshift-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 124
@@ -142,8 +142,8 @@ source_yaml: "generated: '2026-09-25'\nmethod: generated\nsource: openapi/amazon
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeAccountAttributes\n  method: get\n  operationId: GET_DescribeAccountAttributes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=DescribeAccountAttributes\n  method: post\n  operationId: POST_DescribeAccountAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeAuthenticationProfiles\n  method: get\n  operationId: GET_DescribeAuthenticationProfiles\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=DescribeAuthenticationProfiles\n  method: post\n  operationId: POST_DescribeAuthenticationProfiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeClusterDbRevisions\n  method: get\n  operationId: GET_DescribeClusterDbRevisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=DescribeClusterDbRevisions\n  method: post\n  operationId: POST_DescribeClusterDbRevisions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n  \
   \  audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeClusterParameterGroups\n  method: get\n  operationId: GET_DescribeClusterParameterGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=DescribeClusterParameterGroups\n  method: post\n  operationId: POST_DescribeClusterParameterGroups\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeClusterParameters\n  method: get\n  operationId: GET_DescribeClusterParameters\n  x-agentic-access:\n    action-class: connected\n    consequence:\
-  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=DescribeClusterParameters\n  method: post\n  operationId: POST_DescribeClusterParameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeClusterSecurityGroups\n  method: get\n  operationId: GET_DescribeClusterSecurityGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/agentic-access/amazon-redshift-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-redshift/refs/heads/main/agentic-access/amazon-redshift-agentic-access.yml
+  \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#Action=DescribeClusterParameters\n  method: post\n  operationId: POST_DescribeClusterParameters\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#Action=DescribeClusterSecurityGroups\n  method: get\n  operationId: GET_DescribeClusterSecurityGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (73 KB total) ---\n# Full source: https://artifacts.apis.io/amazon-redshift/agentic-access/amazon-redshift-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/amazon-redshift/agentic-access/amazon-redshift-agentic-access.yml
 summary_line: 248 operations · 124 acting · 7 human-in-the-loop
 tags:
 - Analytics

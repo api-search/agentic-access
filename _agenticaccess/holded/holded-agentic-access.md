@@ -9,31 +9,31 @@ api_specs:
   label: Holded Accounting API
   slug: holded-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-accounting-api-openapi.yml
 - filename: holded-crm-api-openapi.yml
   format: yaml
   label: Holded Crm API
   slug: holded-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-crm-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-crm-api-openapi.yml
 - filename: holded-invoicing-api-openapi.yml
   format: yaml
   label: Holded Invoicing API
   slug: holded-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-invoicing-api-openapi.yml
 - filename: holded-projects-api-openapi.yml
   format: yaml
   label: Holded Projects API
   slug: holded-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-projects-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-projects-api-openapi.yml
 - filename: holded-team-api-openapi.yml
   format: yaml
   label: Holded Team API
   slug: holded-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/openapi/holded-team-api-openapi.yml
+  url: https://artifacts.apis.io/holded/openapi/holded-team-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 22
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/holded
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/v1/projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/v1/projects\n  method: post\n  operationId: createProject\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/v1/projects/{projectId}/tasks\n  method: get\n  operationId: listProjectTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/v1/projects/{projectId}/tasks\n  method: post\n  operationId: createProjectTask\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/v1/employees\n  method: get\n  operationId: listEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /team/v1/employees\n  method: post\n  operationId: createEmployee\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /team/v1/timetracking\n  method: get\n  operationId: listTimeTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/agentic-access/holded-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/holded/agentic-access/holded-agentic-access.yml
 summary_line: 42 operations · 20 acting
 tags:
 - ERP

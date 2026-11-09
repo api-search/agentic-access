@@ -9,37 +9,37 @@ api_specs:
   label: Epos Now Categories API
   slug: epos-now-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-categories-api-openapi.yml
+  url: https://artifacts.apis.io/epos-now/openapi/epos-now-categories-api-openapi.yml
 - filename: epos-now-customers-api-openapi.yml
   format: yaml
   label: Epos Now Customers API
   slug: epos-now-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-customers-api-openapi.yml
+  url: https://artifacts.apis.io/epos-now/openapi/epos-now-customers-api-openapi.yml
 - filename: epos-now-devices-api-openapi.yml
   format: yaml
   label: Epos Now Devices API
   slug: epos-now-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-devices-api-openapi.yml
+  url: https://artifacts.apis.io/epos-now/openapi/epos-now-devices-api-openapi.yml
 - filename: epos-now-products-api-openapi.yml
   format: yaml
   label: Epos Now Products API
   slug: epos-now-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-products-api-openapi.yml
+  url: https://artifacts.apis.io/epos-now/openapi/epos-now-products-api-openapi.yml
 - filename: epos-now-stock-api-openapi.yml
   format: yaml
   label: Epos Now Stock API
   slug: epos-now-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-stock-api-openapi.yml
+  url: https://artifacts.apis.io/epos-now/openapi/epos-now-stock-api-openapi.yml
 - filename: epos-now-transactions-api-openapi.yml
   format: yaml
   label: Epos Now Transactions API
   slug: epos-now-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/openapi/epos-now-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/epos-now/openapi/epos-now-transactions-api-openapi.yml
 consequence_counts:
   read: 13
   write: 12
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/epos-n
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Customer\n  method: post\n  operationId: createCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Customer/{Id}\n  method: get\n  operationId: getCustomer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Customer/{Id}\n  method: put\n  operationId: updateCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /Customer/{Id}\n  method: delete\n  operationId: deleteCustomer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ProductStock\n  method: get\n  operationId: listProductStock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /StockTransfer\n  method: get\n  operationId: listStockTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /TaxRate\n  method: get\n  operationId: listTaxRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /Device\n  method: get\n  operationId: listDevices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Device/{Id}\n  method: get\n  operationId: getDevice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epos-now/refs/heads/main/agentic-access/epos-now-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/epos-now/agentic-access/epos-now-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - Point-of-Sale

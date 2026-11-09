@@ -8,31 +8,31 @@ api_specs:
   label: Jelly Belly Beans API
   slug: jelly-belly-beans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-beans-api-openapi.yml
+  url: https://artifacts.apis.io/jelly-belly/openapi/jelly-belly-beans-api-openapi.yml
 - filename: jelly-belly-combinations-api-openapi.yml
   format: yaml
   label: Jelly Belly Combinations API
   slug: jelly-belly-combinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-combinations-api-openapi.yml
+  url: https://artifacts.apis.io/jelly-belly/openapi/jelly-belly-combinations-api-openapi.yml
 - filename: jelly-belly-facts-api-openapi.yml
   format: yaml
   label: Jelly Belly Facts API
   slug: jelly-belly-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-facts-api-openapi.yml
+  url: https://artifacts.apis.io/jelly-belly/openapi/jelly-belly-facts-api-openapi.yml
 - filename: jelly-belly-milestones-api-openapi.yml
   format: yaml
   label: Jelly Belly MileStones API
   slug: jelly-belly-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/jelly-belly/openapi/jelly-belly-milestones-api-openapi.yml
 - filename: jelly-belly-recipes-api-openapi.yml
   format: yaml
   label: Jelly Belly Recipes API
   slug: jelly-belly-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/openapi/jelly-belly-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/jelly-belly/openapi/jelly-belly-recipes-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jelly-belly-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /api/Beans\n  method: get\n  operationId: listBeans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Beans/{id}\n  method: get\n  operationId: getBean\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Combinations\n  method: get\n  operationId: listCombinations\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Combinations/{id}\n  method: get\n  operationId: getCombination\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Facts\n  method: get\n  operationId: listFacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Facts/{id}\n  method: get\n  operationId: getFact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/MileStones\n  method: get\n  operationId: listMilestones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/MileStones/{id}\n\
   \  method: get\n  operationId: getMilestone\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Recipes\n  method: get\n  operationId: listRecipes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/Recipes/{id}\n  method: get\n  operationId: getRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jelly-belly/refs/heads/main/agentic-access/jelly-belly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jelly-belly/agentic-access/jelly-belly-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Beans

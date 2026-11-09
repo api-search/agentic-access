@@ -9,73 +9,73 @@ api_specs:
   label: Azure Cosmos DB Collections API
   slug: azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-collections-api-openapi.yml
 - filename: azure-cosmos-db-databases-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Databases API
   slug: azure-cosmos-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-databases-api-openapi.yml
 - filename: azure-cosmos-db-documents-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Documents API
   slug: azure-cosmos-db-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-documents-api-openapi.yml
 - filename: azure-cosmos-db-offers-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Offers API
   slug: azure-cosmos-db-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-offers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-offers-api-openapi.yml
 - filename: azure-cosmos-db-permissions-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Permissions API
   slug: azure-cosmos-db-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-permissions-api-openapi.yml
 - filename: azure-cosmos-db-stored-procedures-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Stored Procedures API
   slug: azure-cosmos-db-stored-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-stored-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-stored-procedures-api-openapi.yml
 - filename: azure-cosmos-db-triggers-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Triggers API
   slug: azure-cosmos-db-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-triggers-api-openapi.yml
 - filename: azure-cosmos-db-user-defined-functions-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB User Defined Functions API
   slug: azure-cosmos-db-user-defined-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-user-defined-functions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-user-defined-functions-api-openapi.yml
 - filename: azure-cosmos-db-users-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Users API
   slug: azure-cosmos-db-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-users-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-users-api-openapi.yml
 - filename: azure-cosmos-db-collections-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Collections API
   slug: microsoft-azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-collections-api-openapi.yml
 - filename: azure-cosmos-db-databases-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Databases API
   slug: microsoft-azure-cosmos-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-databases-api-openapi.yml
 - filename: azure-cosmos-db-documents-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Documents API
   slug: microsoft-azure-cosmos-db-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-documents-api-openapi.yml
 consequence_counts:
   read: 12
   write: 9
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/azure-
   - path: /dbs/{dbId}/colls/{collId}/docs/{docId}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dbs/{dbId}/colls/{collId}/sprocs\n  method: get\n  operationId: listStoredProcedures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dbs/{dbId}/colls/{collId}/sprocs\n  method: post\n  operationId: createStoredProcedure\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dbs/{dbId}/colls/{collId}/triggers\n\
   \  method: get\n  operationId: listTriggers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dbs/{dbId}/colls/{collId}/udfs\n  method: get\n  operationId: listUDFs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dbs/{dbId}/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dbs/{dbId}/users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dbs/{dbId}/users/{userId}/permissions\n\
   \  method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offers\n  method: get\n  operationId: listOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/agentic-access/azure-cosmos-db-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/azure-cosmos-db/agentic-access/azure-cosmos-db-agentic-access.yml
 summary_line: 21 operations · 9 acting
 tags:
 - Database

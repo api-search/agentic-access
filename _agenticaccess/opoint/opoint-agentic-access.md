@@ -9,145 +9,145 @@ api_specs:
   label: Opoint Agreements API
   slug: opoint-agreements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-agreements-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-agreements-api-openapi.yml
 - filename: opoint-alert-info-api-openapi.yml
   format: yaml
   label: Opoint Alert Info API
   slug: opoint-alert-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-alert-info-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-alert-info-api-openapi.yml
 - filename: opoint-alerts-api-openapi.yml
   format: yaml
   label: Opoint Alerts API
   slug: opoint-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-alerts-api-openapi.yml
 - filename: opoint-analytics-api-openapi.yml
   format: yaml
   label: Opoint Analytics API
   slug: opoint-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-analytics-api-openapi.yml
 - filename: opoint-auth-api-openapi.yml
   format: yaml
   label: Opoint Auth API
   slug: opoint-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-auth-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-auth-api-openapi.yml
 - filename: opoint-customers-api-openapi.yml
   format: yaml
   label: Opoint Customers API
   slug: opoint-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-customers-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-customers-api-openapi.yml
 - filename: opoint-folders-api-openapi.yml
   format: yaml
   label: Opoint Folders API
   slug: opoint-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-folders-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-folders-api-openapi.yml
 - filename: opoint-invite-api-openapi.yml
   format: yaml
   label: Opoint Invite API
   slug: opoint-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-invite-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-invite-api-openapi.yml
 - filename: opoint-licenses-api-openapi.yml
   format: yaml
   label: Opoint Licenses API
   slug: opoint-licenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-licenses-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-licenses-api-openapi.yml
 - filename: opoint-mailstatus-api-openapi.yml
   format: yaml
   label: Opoint Mailstatus API
   slug: opoint-mailstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-mailstatus-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-mailstatus-api-openapi.yml
 - filename: opoint-notifications-api-openapi.yml
   format: yaml
   label: Opoint Notifications API
   slug: opoint-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-notifications-api-openapi.yml
 - filename: opoint-profiles-api-openapi.yml
   format: yaml
   label: Opoint Profiles API
   slug: opoint-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-profiles-api-openapi.yml
 - filename: opoint-reports-api-openapi.yml
   format: yaml
   label: Opoint Reports API
   slug: opoint-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-reports-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-reports-api-openapi.yml
 - filename: opoint-safefeeds-api-openapi.yml
   format: yaml
   label: Opoint Safefeeds API
   slug: opoint-safefeeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-safefeeds-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-safefeeds-api-openapi.yml
 - filename: opoint-search-api-openapi.yml
   format: yaml
   label: Opoint Search API
   slug: opoint-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-search-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-search-api-openapi.yml
 - filename: opoint-sites-api-openapi.yml
   format: yaml
   label: Opoint Sites API
   slug: opoint-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-sites-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-sites-api-openapi.yml
 - filename: opoint-stored-search-api-openapi.yml
   format: yaml
   label: Opoint stored search API
   slug: opoint-stored-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-stored-search-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-stored-search-api-openapi.yml
 - filename: opoint-support-api-openapi.yml
   format: yaml
   label: Opoint Support API
   slug: opoint-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-support-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-support-api-openapi.yml
 - filename: opoint-tags-api-openapi.yml
   format: yaml
   label: Opoint Tags API
   slug: opoint-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-tags-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-tags-api-openapi.yml
 - filename: opoint-templates-api-openapi.yml
   format: yaml
   label: Opoint Templates API
   slug: opoint-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-templates-api-openapi.yml
 - filename: opoint-tracking-api-openapi.yml
   format: yaml
   label: Opoint Tracking API
   slug: opoint-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-tracking-api-openapi.yml
 - filename: opoint-trends-api-openapi.yml
   format: yaml
   label: Opoint Trends API
   slug: opoint-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-trends-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-trends-api-openapi.yml
 - filename: opoint-users-api-openapi.yml
   format: yaml
   label: Opoint Users API
   slug: opoint-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-users-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-users-api-openapi.yml
 - filename: opoint-watchqueries-api-openapi.yml
   format: yaml
   label: Opoint Watchqueries API
   slug: opoint-watchqueries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/openapi/opoint-watchqueries-api-openapi.yml
+  url: https://artifacts.apis.io/opoint/openapi/opoint-watchqueries-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 115
@@ -228,8 +228,8 @@ source_yaml: "generated: '2026-10-07'\nmethod: generated\nsource: openapi/opoint
   - path: /invite/direct/\n  method: get\n  operationId: invite_direct_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invite/direct/\n  method: post\n  operationId: invite_direct_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invite/direct/{token}/\n  method: get\n  operationId: invite_direct_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invite/direct/{token}/\n  method: delete\n  operationId: invite_direct_destroy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invite/direct/{token}/accept/\n  method: post\n  operationId: invite_direct_accept_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invite/open/\n  method: get\n  operationId: invite_open_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invite/open/\n  method: post\n  operationId: invite_open_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invite/open/{token}/\n  method: get\n  operationId: invite_open_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /invite/open/{token}/\n  method: put\n  operationId: invite_open_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /invite/open/{token}/\n  method: patch\n  operationId: invite_open_partial_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
-  \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (69 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/agentic-access/opoint-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opoint/refs/heads/main/agentic-access/opoint-agentic-access.yml
+  \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (69 KB total) ---\n# Full source: https://artifacts.apis.io/opoint/agentic-access/opoint-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/opoint/agentic-access/opoint-agentic-access.yml
 summary_line: 242 operations · 127 acting
 tags:
 - Company

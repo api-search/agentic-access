@@ -9,73 +9,73 @@ api_specs:
   label: Neon One Accounts API
   slug: neonone-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-accounts-api-openapi.yml
 - filename: neonone-campaigns-api-openapi.yml
   format: yaml
   label: Neon One Campaigns API
   slug: neonone-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-campaigns-api-openapi.yml
 - filename: neonone-custom-fields-api-openapi.yml
   format: yaml
   label: Neon One Custom Fields API
   slug: neonone-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-custom-fields-api-openapi.yml
 - filename: neonone-donations-api-openapi.yml
   format: yaml
   label: Neon One Donations API
   slug: neonone-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-donations-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-donations-api-openapi.yml
 - filename: neonone-events-api-openapi.yml
   format: yaml
   label: Neon One Events API
   slug: neonone-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-events-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-events-api-openapi.yml
 - filename: neonone-households-api-openapi.yml
   format: yaml
   label: Neon One Households API
   slug: neonone-households-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-households-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-households-api-openapi.yml
 - filename: neonone-memberships-api-openapi.yml
   format: yaml
   label: Neon One Memberships API
   slug: neonone-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-memberships-api-openapi.yml
 - filename: neonone-orders-api-openapi.yml
   format: yaml
   label: Neon One Orders API
   slug: neonone-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-orders-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-orders-api-openapi.yml
 - filename: neonone-properties-api-openapi.yml
   format: yaml
   label: Neon One Properties API
   slug: neonone-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-properties-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-properties-api-openapi.yml
 - filename: neonone-store-api-openapi.yml
   format: yaml
   label: Neon One Store API
   slug: neonone-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-store-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-store-api-openapi.yml
 - filename: neonone-volunteers-api-openapi.yml
   format: yaml
   label: Neon One Volunteers API
   slug: neonone-volunteers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-volunteers-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-volunteers-api-openapi.yml
 - filename: neonone-webhooks-api-openapi.yml
   format: yaml
   label: Neon One Webhooks API
   slug: neonone-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/openapi/neonone-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/neonone/openapi/neonone-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 65
@@ -166,8 +166,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/neonon
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/{id}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{id}\n  method: delete\n  operationId: deleteOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/calculate\n  method: post\n  operationId: calculateOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orders/search\n  method: post\n  operationId: searchOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/shippingMethods\n  method: post\n  operationId: listShippingMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}/payments\n  method: post\n  operationId: createOrderPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /payments/creditCardTypes\n  method: get\n  operationId: listCreditCardTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/tenders\n  method: get\n  operationId: listPaymentTenders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/processorSettings\n  method: get\n  operationId: getPaymentProcessorSettings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/funds\n  method: get\n  operationId: listFunds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /properties/purposes\n\
-  \  method: get\n  operationId: listPurposes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/agentic-access/neonone-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neonone/refs/heads/main/agentic-access/neonone-agentic-access.yml
+  \  method: get\n  operationId: listPurposes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/neonone/agentic-access/neonone-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/neonone/agentic-access/neonone-agentic-access.yml
 summary_line: 137 operations · 72 acting
 tags:
 - Non-Profit

@@ -9,43 +9,43 @@ api_specs:
   label: Uniblock JSON-RPC API
   slug: json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-json-rpc-api-openapi.yml
 - filename: uniblock-direct-pass-through-api-openapi.yml
   format: yaml
   label: Uniblock Direct Pass-Through API
   slug: uniblock-direct-pass-through-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-direct-pass-through-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-direct-pass-through-api-openapi.yml
 - filename: uniblock-market-data-api-openapi.yml
   format: yaml
   label: Uniblock Market Data API
   slug: uniblock-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-market-data-api-openapi.yml
 - filename: uniblock-scan-api-openapi.yml
   format: yaml
   label: Uniblock Scan API
   slug: uniblock-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-scan-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-scan-api-openapi.yml
 - filename: uniblock-tokens-api-openapi.yml
   format: yaml
   label: Uniblock Tokens API
   slug: uniblock-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-tokens-api-openapi.yml
 - filename: uniblock-transactions-api-openapi.yml
   format: yaml
   label: Uniblock Transactions API
   slug: uniblock-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-transactions-api-openapi.yml
 - filename: uniblock-nfts-api-openapi.yml
   format: yaml
   label: Uniblock NF Ts API
   slug: uniblock-nfts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/openapi/uniblock-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/uniblock/openapi/uniblock-nfts-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 24
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/uniblo
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scan/transactions\n  method: get\n  operationId: getScanTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scan/transfers\n  method: get\n  operationId: getScanTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scan/native-supply\n  method: get\n  operationId: getScanNativeSupply\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-data/price\n  method: get\n  operationId: getMarketDataPrice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /market-data/market-cap\n  method: get\n  operationId: getMarketDataMarketCap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-data/volume\n  method: get\n  operationId: getMarketDataVolume\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-data/trending\n  method: get\n  operationId: getMarketDataTrending\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-data/chart\n  method: get\n  operationId: getMarketDataChart\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market-data/history\n  method: get\n  operationId: getMarketDataHistory\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uniblock/refs/heads/main/agentic-access/uniblock-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uniblock/agentic-access/uniblock-agentic-access.yml
 summary_line: 27 operations · 3 acting
 tags:
 - Blockchain

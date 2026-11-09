@@ -9,25 +9,25 @@ api_specs:
   label: Stigg Coupons API
   slug: stigg-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-coupons-api-openapi.yml
 - filename: stigg-customers-api-openapi.yml
   format: yaml
   label: Stigg Customers API
   slug: stigg-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-customers-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-customers-api-openapi.yml
 - filename: stigg-subscriptions-api-openapi.yml
   format: yaml
   label: Stigg Subscriptions API
   slug: stigg-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-subscriptions-api-openapi.yml
 - filename: stigg-usage-api-openapi.yml
   format: yaml
   label: Stigg Usage API
   slug: stigg-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/openapi/stigg-usage-api-openapi.yml
+  url: https://artifacts.apis.io/stigg/openapi/stigg-usage-api-openapi.yml
 consequence_counts:
   read: 5
   safety-critical: 7
@@ -97,7 +97,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stigg-
   \ post\n  operationId: SubscriptionController_provisionSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/subscriptions\n  method: get\n  operationId: SubscriptionController_getSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/subscriptions/{id}\n  method: get\n  operationId: SubscriptionController_getSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/subscriptions/{id}/cancel\n  method: post\n  operationId: SubscriptionController_cancelSubscription\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/subscriptions/preview\n  method: post\n  operationId: SubscriptionController_previewSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/usage\n  method: post\n  operationId: UsageController_reportUsage\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n\
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/events\n  method: post\n  operationId: EventsController_reportEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/coupons\n  method: get\n  operationId: CouponsController_getCoupons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/coupons/{id}\n  method: get\n  operationId: CouponsController_getCoupon\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stigg/refs/heads/main/agentic-access/stigg-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stigg/agentic-access/stigg-agentic-access.yml
 summary_line: 13 operations · 8 acting · 7 human-in-the-loop
 tags:
 - FinOps

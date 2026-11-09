@@ -9,61 +9,61 @@ api_specs:
   label: Sumble Contact Lists API
   slug: sumble-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-contact-lists-api-openapi.yml
 - filename: sumble-jobs-api-openapi.yml
   format: yaml
   label: Sumble Jobs API
   slug: sumble-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-jobs-api-openapi.yml
 - filename: sumble-organization-lists-api-openapi.yml
   format: yaml
   label: Sumble Organization Lists API
   slug: sumble-organization-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-organization-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-organization-lists-api-openapi.yml
 - filename: sumble-organizations-api-openapi.yml
   format: yaml
   label: Sumble Organizations API
   slug: sumble-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-organizations-api-openapi.yml
 - filename: sumble-people-api-openapi.yml
   format: yaml
   label: Sumble People API
   slug: sumble-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-people-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-people-api-openapi.yml
 - filename: sumble-projects-api-openapi.yml
   format: yaml
   label: Sumble Projects API
   slug: sumble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-projects-api-openapi.yml
 - filename: sumble-signals-api-openapi.yml
   format: yaml
   label: Sumble Signals API
   slug: sumble-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-signals-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-signals-api-openapi.yml
 - filename: sumble-support-api-openapi.yml
   format: yaml
   label: Sumble Support API
   slug: sumble-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-support-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-support-api-openapi.yml
 - filename: sumble-teams-api-openapi.yml
   format: yaml
   label: Sumble Teams API
   slug: sumble-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-teams-api-openapi.yml
 - filename: sumble-technologies-api-openapi.yml
   format: yaml
   label: Sumble Technologies API
   slug: sumble-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-technologies-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-technologies-api-openapi.yml
 consequence_counts:
   read: 14
   write: 12
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sumble
   \ 3600\n    audit: none\n- path: /v9/signals/priority\n  method: post\n  operationId: search_priority_signals__api_version__signals_priority_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v9/signals/priority/{item_id}/relevance\n  method: put\n  operationId: update_priority_signal_relevance__api_version__signals_priority__item_id__relevance_put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v9/support/data-quality\n  method: post\n  operationId: create_data_quality_report__api_version__support_data_quality_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n \
   \     max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v9/support\n  method: post\n  operationId: create_support_request__api_version__support_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v9/teams\n  method: post\n  operationId: find_teams__api_version__teams_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v9/technologies/find\n  method: post\n  operationId: get_technologies__api_version__technologies_find_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /v9/technologies/lookup\n  method: post\n  operationId: lookup_technologies__api_version__technologies_lookup_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v9/technologies/categories/lookup\n  method: post\n  operationId: lookup_technology_categories__api_version__technologies_categories_lookup_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/agentic-access/sumble-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sumble/agentic-access/sumble-agentic-access.yml
 summary_line: 26 operations · 12 acting
 tags:
 - Company

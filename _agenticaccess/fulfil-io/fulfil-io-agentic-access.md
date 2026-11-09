@@ -9,61 +9,61 @@ api_specs:
   label: Fulfil Authentication API
   slug: fulfil-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-authentication-api-openapi.yml
 - filename: fulfil-io-customers-api-openapi.yml
   format: yaml
   label: Fulfil Customers API
   slug: fulfil-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-customers-api-openapi.yml
 - filename: fulfil-io-inventory-stock-api-openapi.yml
   format: yaml
   label: Fulfil Inventory & Stock API
   slug: fulfil-io-inventory-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-inventory-stock-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-inventory-stock-api-openapi.yml
 - filename: fulfil-io-manufacturing-api-openapi.yml
   format: yaml
   label: Fulfil Manufacturing API
   slug: fulfil-io-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-manufacturing-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-manufacturing-api-openapi.yml
 - filename: fulfil-io-model-interface-api-openapi.yml
   format: yaml
   label: Fulfil Model Interface API
   slug: fulfil-io-model-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-model-interface-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-model-interface-api-openapi.yml
 - filename: fulfil-io-products-variants-api-openapi.yml
   format: yaml
   label: Fulfil Products & Variants API
   slug: fulfil-io-products-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-products-variants-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-products-variants-api-openapi.yml
 - filename: fulfil-io-purchases-api-openapi.yml
   format: yaml
   label: Fulfil Purchases API
   slug: fulfil-io-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-purchases-api-openapi.yml
 - filename: fulfil-io-sales-orders-api-openapi.yml
   format: yaml
   label: Fulfil Sales Orders API
   slug: fulfil-io-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-sales-orders-api-openapi.yml
 - filename: fulfil-io-shipments-api-openapi.yml
   format: yaml
   label: Fulfil Shipments API
   slug: fulfil-io-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-shipments-api-openapi.yml
 - filename: fulfil-io-webhooks-api-openapi.yml
   format: yaml
   label: Fulfil Webhooks API
   slug: fulfil-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 14
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fulfil
   \ createParties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/party.party/search_read\n  method: put\n  operationId: searchReadParties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/stock.shipment.out\n  method: get\n  operationId: searchOutboundShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/stock.shipment.in\n  method: get\n  operationId: searchInboundShipments\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/purchase.purchase\n  method: get\n  operationId: searchPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/purchase.purchase\n  method: post\n  operationId: createPurchaseOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/production\n  method: get\n  operationId: searchProductionOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /model/production\n  method: post\n  operationId: createProductionOrders\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/webhook.webhook\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/webhook.webhook\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/agentic-access/fulfil-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fulfil-io/agentic-access/fulfil-io-agentic-access.yml
 summary_line: 31 operations · 17 acting
 tags:
 - ERP

@@ -9,91 +9,91 @@ api_specs:
   label: Shodan Account API
   slug: shodan-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-account-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-account-api-openapi.yml
 - filename: shodan-bulk-data-api-openapi.yml
   format: yaml
   label: Shodan Bulk Data API
   slug: shodan-bulk-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-bulk-data-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-bulk-data-api-openapi.yml
 - filename: shodan-cpe-api-openapi.yml
   format: yaml
   label: Shodan CPE API
   slug: shodan-cpe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-cpe-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-cpe-api-openapi.yml
 - filename: shodan-cve-api-openapi.yml
   format: yaml
   label: Shodan CVE API
   slug: shodan-cve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-cve-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-cve-api-openapi.yml
 - filename: shodan-directory-api-openapi.yml
   format: yaml
   label: Shodan Directory API
   slug: shodan-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-directory-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-directory-api-openapi.yml
 - filename: shodan-dns-api-openapi.yml
   format: yaml
   label: Shodan DNS API
   slug: shodan-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-dns-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-dns-api-openapi.yml
 - filename: shodan-internetdb-api-openapi.yml
   format: yaml
   label: Shodan InternetDB API
   slug: shodan-internetdb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-internetdb-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-internetdb-api-openapi.yml
 - filename: shodan-network-alerts-api-openapi.yml
   format: yaml
   label: Shodan Network Alerts API
   slug: shodan-network-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-network-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-network-alerts-api-openapi.yml
 - filename: shodan-notifiers-api-openapi.yml
   format: yaml
   label: Shodan Notifiers API
   slug: shodan-notifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-notifiers-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-notifiers-api-openapi.yml
 - filename: shodan-on-demand-scanning-api-openapi.yml
   format: yaml
   label: Shodan On-Demand Scanning API
   slug: shodan-on-demand-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-on-demand-scanning-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-on-demand-scanning-api-openapi.yml
 - filename: shodan-organization-api-openapi.yml
   format: yaml
   label: Shodan Organization API
   slug: shodan-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-organization-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-organization-api-openapi.yml
 - filename: shodan-search-methods-api-openapi.yml
   format: yaml
   label: Shodan Search Methods API
   slug: shodan-search-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-search-methods-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-search-methods-api-openapi.yml
 - filename: shodan-streaming-api-openapi.yml
   format: yaml
   label: Shodan Streaming API
   slug: shodan-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-streaming-api-openapi.yml
 - filename: shodan-trends-api-openapi.yml
   format: yaml
   label: Shodan Trends API
   slug: shodan-trends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-trends-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-trends-api-openapi.yml
 - filename: shodan-utility-api-openapi.yml
   format: yaml
   label: Shodan Utility API
   slug: shodan-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/openapi/shodan-utility-api-openapi.yml
+  url: https://artifacts.apis.io/shodan/openapi/shodan-utility-api-openapi.yml
 consequence_counts:
   read: 39
   safety-critical: 1
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/shodan
   \  method: get\n  operationId: getApiInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /org/member/{user}\n  method: put\n  operationId: addOrganizationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /org/member/{user}\n  method: delete\n  operationId: removeOrganizationMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shodan/banners\n  method: get\n  operationId: streamBanners\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shodan/asn/{asn}\n  method: get\n  operationId: streamBannersByAsn\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shodan/countries/{countries}\n  method: get\n  operationId: streamBannersByCountry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shodan/ports/{ports}\n  method: get\n  operationId: streamBannersByPort\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /shodan/vulns/{vulns}\n  method: get\n  operationId: streamBannersByVuln\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/search\n  method: get\n  operationId: searchTrends\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/agentic-access/shodan-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shodan/agentic-access/shodan-agentic-access.yml
 summary_line: 51 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Security

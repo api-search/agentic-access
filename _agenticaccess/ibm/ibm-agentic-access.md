@@ -9,175 +9,175 @@ api_specs:
   label: IBM API Keys API
   slug: ibm-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-api-keys-api-openapi.yml
 - filename: ibm-claim-rules-api-openapi.yml
   format: yaml
   label: IBM Claim Rules API
   slug: ibm-claim-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-claim-rules-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-claim-rules-api-openapi.yml
 - filename: ibm-policies-api-openapi.yml
   format: yaml
   label: IBM Policies API
   slug: ibm-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-policies-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-policies-api-openapi.yml
 - filename: ibm-roles-api-openapi.yml
   format: yaml
   label: IBM Roles API
   slug: ibm-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-roles-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-roles-api-openapi.yml
 - filename: ibm-service-ids-api-openapi.yml
   format: yaml
   label: IBM Service IDs API
   slug: ibm-service-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-service-ids-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-service-ids-api-openapi.yml
 - filename: ibm-tokens-api-openapi.yml
   format: yaml
   label: IBM Tokens API
   slug: ibm-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-tokens-api-openapi.yml
 - filename: ibm-trusted-profiles-api-openapi.yml
   format: yaml
   label: IBM Trusted Profiles API
   slug: ibm-trusted-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-trusted-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-trusted-profiles-api-openapi.yml
 - filename: ibm-analyze-api-openapi.yml
   format: yaml
   label: IBM Analyze API
   slug: ibm-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-analyze-api-openapi.yml
 - filename: ibm-buckets-api-openapi.yml
   format: yaml
   label: IBM Buckets API
   slug: ibm-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-buckets-api-openapi.yml
 - filename: ibm-clusters-api-openapi.yml
   format: yaml
   label: IBM Clusters API
   slug: ibm-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-clusters-api-openapi.yml
 - filename: ibm-custom-language-models-api-openapi.yml
   format: yaml
   label: IBM Custom Language Models API
   slug: ibm-custom-language-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-custom-language-models-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-custom-language-models-api-openapi.yml
 - filename: ibm-embeddings-api-openapi.yml
   format: yaml
   label: IBM Embeddings API
   slug: ibm-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-embeddings-api-openapi.yml
 - filename: ibm-environments-api-openapi.yml
   format: yaml
   label: IBM Environments API
   slug: ibm-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-environments-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-environments-api-openapi.yml
 - filename: ibm-instances-api-openapi.yml
   format: yaml
   label: IBM Instances API
   slug: ibm-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-instances-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-instances-api-openapi.yml
 - filename: ibm-messages-api-openapi.yml
   format: yaml
   label: IBM Messages API
   slug: ibm-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-messages-api-openapi.yml
 - filename: ibm-models-api-openapi.yml
   format: yaml
   label: IBM Models API
   slug: ibm-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-models-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-models-api-openapi.yml
 - filename: ibm-objects-api-openapi.yml
   format: yaml
   label: IBM Objects API
   slug: ibm-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-objects-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-objects-api-openapi.yml
 - filename: ibm-pronunciation-api-openapi.yml
   format: yaml
   label: IBM Pronunciation API
   slug: ibm-pronunciation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-pronunciation-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-pronunciation-api-openapi.yml
 - filename: ibm-recognition-api-openapi.yml
   format: yaml
   label: IBM Recognition API
   slug: ibm-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-recognition-api-openapi.yml
 - filename: ibm-security-groups-api-openapi.yml
   format: yaml
   label: IBM Security Groups API
   slug: ibm-security-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-security-groups-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-security-groups-api-openapi.yml
 - filename: ibm-sessions-api-openapi.yml
   format: yaml
   label: IBM Sessions API
   slug: ibm-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-sessions-api-openapi.yml
 - filename: ibm-subnets-api-openapi.yml
   format: yaml
   label: IBM Subnets API
   slug: ibm-subnets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-subnets-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-subnets-api-openapi.yml
 - filename: ibm-synthesis-api-openapi.yml
   format: yaml
   label: IBM Synthesis API
   slug: ibm-synthesis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-synthesis-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-synthesis-api-openapi.yml
 - filename: ibm-text-generation-api-openapi.yml
   format: yaml
   label: IBM Text Generation API
   slug: ibm-text-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-text-generation-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-text-generation-api-openapi.yml
 - filename: ibm-voices-api-openapi.yml
   format: yaml
   label: IBM Voices API
   slug: ibm-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-voices-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-voices-api-openapi.yml
 - filename: ibm-volumes-api-openapi.yml
   format: yaml
   label: IBM Volumes API
   slug: ibm-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-volumes-api-openapi.yml
 - filename: ibm-worker-nodes-api-openapi.yml
   format: yaml
   label: IBM Worker Nodes API
   slug: ibm-worker-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-worker-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-worker-nodes-api-openapi.yml
 - filename: ibm-worker-pools-api-openapi.yml
   format: yaml
   label: IBM Worker Pools API
   slug: ibm-worker-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-worker-pools-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-worker-pools-api-openapi.yml
 - filename: ibm-vpcs-api-openapi.yml
   format: yaml
   label: IBM VP Cs API
   slug: ibm-vpcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/openapi/ibm-vpcs-api-openapi.yml
+  url: https://artifacts.apis.io/ibm/openapi/ibm-vpcs-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 35
@@ -254,7 +254,7 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/ibm-an
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/profiles/{profile-id}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/profiles/{profile-id}\n  method: put\n  operationId: updateProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/profiles/{profile-id}\n  method: delete\n  operationId: deleteProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/voices\n  method: get\n  operationId: listVoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/voices/{voice}\n  method: get\n  operationId: getVoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/volumes\n  method: get\n  operationId: listVolumes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vpcs\n  method: get\n  operationId: listVpcs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/vpcs\n  method: post\n  operationId:\
   \ createVpc\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/getWorkers\n  method: get\n  operationId: getWorkers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/getWorkerPools\n  method: get\n  operationId: getWorkerPools\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/agentic-access/ibm-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ibm/agentic-access/ibm-agentic-access.yml
 summary_line: 81 operations · 46 acting · 2 human-in-the-loop
 tags:
 - Database

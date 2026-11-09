@@ -9,43 +9,43 @@ api_specs:
   label: SmartHR Business Establishments API
   slug: smarthr-business-establishments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-business-establishments-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-business-establishments-api-openapi.yml
 - filename: smarthr-crews-api-openapi.yml
   format: yaml
   label: SmartHR Crews API
   slug: smarthr-crews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-crews-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-crews-api-openapi.yml
 - filename: smarthr-custom-field-templates-api-openapi.yml
   format: yaml
   label: SmartHR Custom Field Templates API
   slug: smarthr-custom-field-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-custom-field-templates-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-custom-field-templates-api-openapi.yml
 - filename: smarthr-departments-api-openapi.yml
   format: yaml
   label: SmartHR Departments API
   slug: smarthr-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-departments-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-departments-api-openapi.yml
 - filename: smarthr-employment-types-api-openapi.yml
   format: yaml
   label: SmartHR Employment Types API
   slug: smarthr-employment-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-employment-types-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-employment-types-api-openapi.yml
 - filename: smarthr-webhooks-api-openapi.yml
   format: yaml
   label: SmartHR Webhooks API
   slug: smarthr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-webhooks-api-openapi.yml
 - filename: smarthr-default-api-openapi.yml
   format: yaml
   label: SmartHR カスタム家族項目テンプレート API
   slug: smarthr-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/openapi/smarthr-default-api-openapi.yml
+  url: https://artifacts.apis.io/smarthr/openapi/smarthr-default-api-openapi.yml
 consequence_counts:
   read: 57
   safety-critical: 1
@@ -114,8 +114,8 @@ source_yaml: "generated: '2026-09-24'\nmethod: generated\nsource: openapi/kufu-d
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/job_categories/{id}\n  method: put\n  operationId: putV1JobCategoriesId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/job_categories/{id}\n  method: patch\n  operationId: patchV1JobCategoriesId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/job_categories/{id}\n  method: delete\n  operationId: deleteV1JobCategoriesId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/job_categories\n  method: get\n  operationId: getV1JobCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/job_categories\n  method: post\n  operationId: postV1JobCategories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/departments\n  method: get\n  operationId: getV1Departments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v1/departments\n  method: post\n  operationId: postV1Departments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/departments/{id}\n  method: get\n  operationId: getV1DepartmentsId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/departments/{id}\n  method: put\n  operationId: putV1DepartmentsId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (42 KB total) ---\n# Full source:\
-  \ https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/agentic-access/smarthr-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarthr/refs/heads/main/agentic-access/smarthr-agentic-access.yml
+  \ https://artifacts.apis.io/smarthr/agentic-access/smarthr-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/smarthr/agentic-access/smarthr-agentic-access.yml
 summary_line: 141 operations · 84 acting · 1 human-in-the-loop
 tags:
 - Human Resources

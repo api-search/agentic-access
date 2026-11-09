@@ -8,31 +8,31 @@ api_specs:
   label: Granular (Corteva Agriscience) Activities API
   slug: granular-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-activities-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-activities-api-openapi.yml
 - filename: granular-crops-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Crops API
   slug: granular-crops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-crops-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-crops-api-openapi.yml
 - filename: granular-farms-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Farms API
   slug: granular-farms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-farms-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-farms-api-openapi.yml
 - filename: granular-fields-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Fields API
   slug: granular-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-fields-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-fields-api-openapi.yml
 - filename: granular-financials-api-openapi.yml
   format: yaml
   label: Granular (Corteva Agriscience) Financials API
   slug: granular-financials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/openapi/granular-financials-api-openapi.yml
+  url: https://artifacts.apis.io/granular/openapi/granular-financials-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/granular-farm-management-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /farms\n  method: get\n  operationId: listFarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /farms/{farmId}\n  method: get\n  operationId: getFarm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n\
   - path: /farms/{farmId}/fields\n  method: get\n  operationId: listFields\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /fields/{fieldId}\n  method: get\n  operationId: getField\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /fields/{fieldId}/activities\n  method: get\n  operationId: listFieldActivities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n- path: /crop-plans\n  method: get\n  operationId: listCropPlans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n\
   \    - read\n    - write\n- path: /financials/summary\n  method: get\n  operationId: getFinancialSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - read\n    - write\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/granular/refs/heads/main/agentic-access/granular-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/granular/agentic-access/granular-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Agriculture

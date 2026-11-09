@@ -9,49 +9,49 @@ api_specs:
   label: Tradier Streaming API
   slug: streaming-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/asyncapi/tradier-asyncapi.yml
+  url: https://artifacts.apis.io/tradier/asyncapi/tradier-asyncapi.yml
 - filename: tradier-accounts-api-openapi.yml
   format: yaml
   label: Tradier Accounts API
   slug: tradier-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-accounts-api-openapi.yml
 - filename: tradier-market-data-api-openapi.yml
   format: yaml
   label: Tradier Market Data API
   slug: tradier-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-market-data-api-openapi.yml
 - filename: tradier-options-api-openapi.yml
   format: yaml
   label: Tradier Options API
   slug: tradier-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-options-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-options-api-openapi.yml
 - filename: tradier-streaming-api-openapi.yml
   format: yaml
   label: Tradier Streaming API
   slug: tradier-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-streaming-api-openapi.yml
 - filename: tradier-trading-api-openapi.yml
   format: yaml
   label: Tradier Trading API
   slug: tradier-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-trading-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-trading-api-openapi.yml
 - filename: tradier-user-api-openapi.yml
   format: yaml
   label: Tradier User API
   slug: tradier-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-user-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-user-api-openapi.yml
 - filename: tradier-watchlists-api-openapi.yml
   format: yaml
   label: Tradier Watchlists API
   slug: tradier-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/openapi/tradier-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/tradier/openapi/tradier-watchlists-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 20
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/tradie
   \     max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{account_id}/orders/{order_id}\n  method: delete\n  operationId: cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /user/profile\n  method: get\n  operationId: getUserProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists\n  method: get\n  operationId: listWatchlists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists\n  method: post\n  operationId: createWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{id}\n  method: get\n  operationId: getWatchlist\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /watchlists/{id}\n  method: put\n  operationId: updateWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /watchlists/{id}\n  method: delete\n\
   \  operationId: deleteWatchlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/agentic-access/tradier-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/tradier/agentic-access/tradier-agentic-access.yml
 summary_line: 28 operations · 8 acting
 tags:
 - Fintech

@@ -9,37 +9,37 @@ api_specs:
   label: Nexar CityStream™ Live Feed API V4 API
   slug: nexar-citystream-live-feed-api-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-citystream-live-feed-api-v4-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-citystream-live-feed-api-v4-api-openapi.yml
 - filename: nexar-get-a-collection-of-road-signs-api-openapi.yml
   format: yaml
   label: Nexar Get a collection of road signs API
   slug: nexar-get-a-collection-of-road-signs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-collection-of-road-signs-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-a-collection-of-road-signs-api-openapi.yml
 - filename: nexar-get-a-collection-of-work-zones-api-openapi.yml
   format: yaml
   label: Nexar Get a collection of work zones API
   slug: nexar-get-a-collection-of-work-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-collection-of-work-zones-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-a-collection-of-work-zones-api-openapi.yml
 - filename: nexar-get-a-specific-work-zone-api-openapi.yml
   format: yaml
   label: Nexar Get a specific work zone API
   slug: nexar-get-a-specific-work-zone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-specific-work-zone-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-a-specific-work-zone-api-openapi.yml
 - filename: nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
   format: yaml
   label: Nexar Get the details of a specific road sign API
   slug: nexar-get-the-details-of-a-specific-road-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
 - filename: nexar-virtualcam-api-api-openapi.yml
   format: yaml
   label: Nexar VirtualCam API
   slug: nexar-virtualcam-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-virtualcam-api-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-virtualcam-api-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/nexar-
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/roadinventory/v3/detections\n  method: post\n  operationId: NexarPlatformAPI_FindDetections\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workzones/v3/detections\n  method: post\n  operationId: NexarPlatformAPI_FindDetections\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/workzones/v3/detections/single\n  method: post\n  operationId: NexarPlatformAPI_GetDetection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/roadinventory/v3/detections/single\n  method: post\n  operationId: NexarPlatformAPI_GetDetection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/virtualcam/v5/frames\n  method: post\n  operationId: VcamService_FindRawFrames\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/virtualcam/v4/coverage\n  method: post\n  operationId: VcamService_GetH3Coverage\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/virtualcam/v4/frames\n  method: post\n  operationId: RoadItemService_FindRawFrames\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/agentic-access/nexar-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nexar/agentic-access/nexar-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - Company

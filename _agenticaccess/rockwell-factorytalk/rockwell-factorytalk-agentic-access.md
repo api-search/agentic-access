@@ -9,31 +9,31 @@ api_specs:
   label: Rockwell FactoryTalk Hub API
   slug: factorytalk-hub-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/asyncapi/rockwell-factorytalk-realtime-asyncapi.yml
 - filename: rockwell-factorytalk-alarms-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Alarms API
   slug: rockwell-factorytalk-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-alarms-api-openapi.yml
 - filename: rockwell-factorytalk-recipes-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Recipes API
   slug: rockwell-factorytalk-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-recipes-api-openapi.yml
 - filename: rockwell-factorytalk-tags-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk Tags API
   slug: rockwell-factorytalk-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-tags-api-openapi.yml
 - filename: rockwell-factorytalk-trenddata-api-openapi.yml
   format: yaml
   label: rockwell-factorytalk TrendData API
   slug: rockwell-factorytalk-trenddata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
+  url: https://artifacts.apis.io/rockwell-factorytalk/openapi/rockwell-factorytalk-trenddata-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/rockwe
   \ writeTagValues\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/{tagName}\n  method: get\n  operationId: getTag\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms\n  method: get\n  operationId: listAlarms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alarms/{alarmId}/acknowledge\n  method: post\n  operationId: acknowledgeAlarm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /alarms/history\n  method: get\n  operationId: getAlarmHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /trends/{tagName}\n  method: get\n  operationId: getTrendData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes\n  method: get\n  operationId: listRecipes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes/{recipeName}/apply\n  method: post\n  operationId: applyRecipe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/agentic-access/rockwell-factorytalk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rockwell-factorytalk/agentic-access/rockwell-factorytalk-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Automation

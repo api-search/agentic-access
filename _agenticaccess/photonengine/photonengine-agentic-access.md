@@ -9,19 +9,19 @@ api_specs:
   label: Photon Realtime Transport Protocol
   slug: photonengine-realtime-transport-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/asyncapi/photonengine-asyncapi.yml
+  url: https://artifacts.apis.io/photonengine/asyncapi/photonengine-asyncapi.yml
 - filename: photonengine-custom-authentication-api-openapi.yml
   format: yaml
   label: Photon Engine Custom Authentication API
   slug: photonengine-custom-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-custom-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/photonengine/openapi/photonengine-custom-authentication-api-openapi.yml
 - filename: photonengine-room-lifecycle-webhooks-api-openapi.yml
   format: yaml
   label: Photon Engine Room Lifecycle WebHooks API
   slug: photonengine-room-lifecycle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/openapi/photonengine-room-lifecycle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/photonengine/openapi/photonengine-room-lifecycle-webhooks-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 1
@@ -60,7 +60,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/photon
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /Join\n  method: post\n  operationId: handlePathJoin\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Leave\n  method: post\n  operationId: handlePathLeave\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Event\n  method: post\n  operationId:\
   \ handlePathEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GameProperties\n  method: post\n  operationId: handlePathGameProperties\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Close\n  method: post\n  operationId: handlePathClose\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /CustomAuth\n  method: get\n  operationId: handleCustomAuthentication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/photonengine/refs/heads/main/agentic-access/photonengine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/photonengine/agentic-access/photonengine-agentic-access.yml
 summary_line: 8 operations · 7 acting · 1 human-in-the-loop
 tags:
 - Gaming

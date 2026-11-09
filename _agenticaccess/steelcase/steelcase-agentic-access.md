@@ -9,19 +9,19 @@ api_specs:
   label: Steelcase Bookings API
   slug: steelcase-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/steelcase/openapi/steelcase-bookings-api-openapi.yml
 - filename: steelcase-rooms-api-openapi.yml
   format: yaml
   label: Steelcase Rooms API
   slug: steelcase-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/steelcase/openapi/steelcase-rooms-api-openapi.yml
 - filename: steelcase-status-api-openapi.yml
   format: yaml
   label: Steelcase Status API
   slug: steelcase-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/openapi/steelcase-status-api-openapi.yml
+  url: https://artifacts.apis.io/steelcase/openapi/steelcase-status-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/steelcase-roomwizard-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 5\n    acting: 2\n  by_consequence:\n    read: 5\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /get_bookings\n  method: get\n  operationId: getBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_availability\n  method: get\n  operationId: getRoomAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /create_booking\n\
   \  method: post\n  operationId: createBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cancel_booking\n  method: post\n  operationId: cancelBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /get_rooms\n  method: get\n  operationId: listRooms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /get_room\n  method: get\n  operationId: getRoom\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getConnectorStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steelcase/refs/heads/main/agentic-access/steelcase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/steelcase/agentic-access/steelcase-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - Office Furniture

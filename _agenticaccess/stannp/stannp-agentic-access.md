@@ -9,43 +9,43 @@ api_specs:
   label: Stannp Account API
   slug: stannp-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-account-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-account-api-openapi.yml
 - filename: stannp-campaigns-api-openapi.yml
   format: yaml
   label: Stannp Campaigns API
   slug: stannp-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-campaigns-api-openapi.yml
 - filename: stannp-events-api-openapi.yml
   format: yaml
   label: Stannp Events API
   slug: stannp-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-events-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-events-api-openapi.yml
 - filename: stannp-groups-api-openapi.yml
   format: yaml
   label: Stannp Groups API
   slug: stannp-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-groups-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-groups-api-openapi.yml
 - filename: stannp-letters-api-openapi.yml
   format: yaml
   label: Stannp Letters API
   slug: stannp-letters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-letters-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-letters-api-openapi.yml
 - filename: stannp-postcards-api-openapi.yml
   format: yaml
   label: Stannp Postcards API
   slug: stannp-postcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-postcards-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-postcards-api-openapi.yml
 - filename: stannp-recipients-api-openapi.yml
   format: yaml
   label: Stannp Recipients API
   slug: stannp-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/openapi/stannp-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/stannp/openapi/stannp-recipients-api-openapi.yml
 consequence_counts:
   read: 12
   write: 20
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/stannp
   \   audit: required\n- path: /postcards/create\n  method: post\n  operationId: createPostcard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /postcards/get/{id}\n  method: get\n  operationId: getPostcard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /postcards/cancel\n  method: post\n  operationId: cancelPostcard\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipients/list\n  method: get\n  operationId: listRecipients\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipients/get/{id}\n  method: get\n  operationId: getRecipient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipients/new\n  method: post\n  operationId: createRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipients/delete\n  method: post\n  operationId: deleteRecipient\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipients/import\n  method: post\n  operationId: importRecipients\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stannp/refs/heads/main/agentic-access/stannp-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stannp/agentic-access/stannp-agentic-access.yml
 summary_line: 32 operations · 20 acting
 tags:
 - Direct Mail

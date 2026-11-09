@@ -9,49 +9,49 @@ api_specs:
   label: Wahoo Fitness Permissions API
   slug: wahoo-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-permissions-api-openapi.yml
 - filename: wahoo-plans-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Plans API
   slug: wahoo-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-plans-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-plans-api-openapi.yml
 - filename: wahoo-power-zones-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Power Zones API
   slug: wahoo-power-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-power-zones-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-power-zones-api-openapi.yml
 - filename: wahoo-routes-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Routes API
   slug: wahoo-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-routes-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-routes-api-openapi.yml
 - filename: wahoo-users-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Users API
   slug: wahoo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-users-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-users-api-openapi.yml
 - filename: wahoo-workout-file-uploads-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Workout File Uploads API
   slug: wahoo-workout-file-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workout-file-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-workout-file-uploads-api-openapi.yml
 - filename: wahoo-workout-summaries-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Workout Summaries API
   slug: wahoo-workout-summaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workout-summaries-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-workout-summaries-api-openapi.yml
 - filename: wahoo-workouts-api-openapi.yml
   format: yaml
   label: Wahoo Fitness Workouts API
   slug: wahoo-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/openapi/wahoo-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/wahoo/openapi/wahoo-workouts-api-openapi.yml
 consequence_counts:
   read: 12
   safety-critical: 1
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wahoo-
   \ required\n    scope:\n    - routes_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/routes/{id}\n  method: delete\n  operationId: deleteRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - routes_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/power_zones\n  method: get\n  operationId: listPowerZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - power_zones_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/power_zones\n  method: post\n  operationId: createPowerZones\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    scope:\n    - power_zones_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/power_zones/{id}\n  method: get\n  operationId: getPowerZones\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - power_zones_read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/power_zones/{id}\n  method: put\n  operationId: updatePowerZones\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - power_zones_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/power_zones/{id}\n  method: delete\n  operationId: deletePowerZones\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    scope:\n    - power_zones_write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/permissions\n  method: delete\n  operationId: revokeAppAccess\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/agentic-access/wahoo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wahoo/agentic-access/wahoo-agentic-access.yml
 summary_line: 28 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Fitness
@@ -112,5 +112,6 @@ tags:
 - Hardware
 - FIT Files
 - Webhook
+- OAuth
 - Authentication
 ---

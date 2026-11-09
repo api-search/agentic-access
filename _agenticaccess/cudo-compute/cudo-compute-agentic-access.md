@@ -9,85 +9,85 @@ api_specs:
   label: CUDO Compute Billing API
   slug: cudo-compute-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-billing-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-billing-api-openapi.yml
 - filename: cudo-compute-disks-api-openapi.yml
   format: yaml
   label: CUDO Compute Disks API
   slug: cudo-compute-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-disks-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-disks-api-openapi.yml
 - filename: cudo-compute-images-api-openapi.yml
   format: yaml
   label: CUDO Compute Images API
   slug: cudo-compute-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-images-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-images-api-openapi.yml
 - filename: cudo-compute-networks-api-openapi.yml
   format: yaml
   label: CUDO Compute Networks API
   slug: cudo-compute-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-networks-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-networks-api-openapi.yml
 - filename: cudo-compute-ssh-keys-api-openapi.yml
   format: yaml
   label: CUDO Compute SSH Keys API
   slug: cudo-compute-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-ssh-keys-api-openapi.yml
 - filename: cudo-compute-virtual-machines-api-openapi.yml
   format: yaml
   label: CUDO Compute Virtual Machines API
   slug: cudo-compute-virtual-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-virtual-machines-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-virtual-machines-api-openapi.yml
 - filename: cudo-compute-api-keys-api-openapi.yml
   format: yaml
   label: CUDO Compute API keys API
   slug: cudo-compute-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-api-keys-api-openapi.yml
 - filename: cudo-compute-clusters-api-openapi.yml
   format: yaml
   label: CUDO Compute Clusters API
   slug: cudo-compute-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-clusters-api-openapi.yml
 - filename: cudo-compute-machines-api-openapi.yml
   format: yaml
   label: CUDO Compute Machines API
   slug: cudo-compute-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-machines-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-machines-api-openapi.yml
 - filename: cudo-compute-object-storage-api-openapi.yml
   format: yaml
   label: CUDO Compute Object storage API
   slug: cudo-compute-object-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-object-storage-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-object-storage-api-openapi.yml
 - filename: cudo-compute-projects-api-openapi.yml
   format: yaml
   label: CUDO Compute Projects API
   slug: cudo-compute-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-projects-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-projects-api-openapi.yml
 - filename: cudo-compute-resources-api-openapi.yml
   format: yaml
   label: CUDO Compute Resources API
   slug: cudo-compute-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-resources-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-resources-api-openapi.yml
 - filename: cudo-compute-users-api-openapi.yml
   format: yaml
   label: CUDO Compute Users API
   slug: cudo-compute-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-users-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-users-api-openapi.yml
 - filename: cudo-compute-volumes-api-openapi.yml
   format: yaml
   label: CUDO Compute Volumes API
   slug: cudo-compute-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/openapi/cudo-compute-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/cudo-compute/openapi/cudo-compute-volumes-api-openapi.yml
 consequence_counts:
   read: 27
   safety-critical: 4
@@ -153,7 +153,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cudo-c
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/project/{projectId}/ssh-keys\n  method: get\n  operationId: listProjectSSHKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/billing-accounts\n  method: get\n  operationId: listBillingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/billing-accounts\n  method: post\n  operationId: createBillingAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/billing-accounts/{id}\n  method: get\n  operationId:\
   \ getBillingAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/billing-accounts/{id}\n  method: delete\n  operationId: deleteBillingAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/billing-accounts/{id}/details\n  method: get\n  operationId: getBillingAccountDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/billing-accounts/invoices\n  method: get\n  operationId: listBillingAccountInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cudo-compute/refs/heads/main/agentic-access/cudo-compute-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cudo-compute/agentic-access/cudo-compute-agentic-access.yml
 summary_line: 49 operations · 22 acting · 4 human-in-the-loop
 tags:
 - GPU

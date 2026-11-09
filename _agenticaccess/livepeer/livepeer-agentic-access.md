@@ -9,115 +9,115 @@ api_specs:
   label: Livepeer Asset API
   slug: livepeer-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-asset-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-asset-api-openapi.yml
 - filename: livepeer-generate-api-openapi.yml
   format: yaml
   label: Livepeer Generate API
   slug: livepeer-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-generate-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-generate-api-openapi.yml
 - filename: livepeer-metrics-api-openapi.yml
   format: yaml
   label: Livepeer Metrics API
   slug: livepeer-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-metrics-api-openapi.yml
 - filename: livepeer-multistream-api-openapi.yml
   format: yaml
   label: Livepeer Multistream API
   slug: livepeer-multistream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-multistream-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-multistream-api-openapi.yml
 - filename: livepeer-playback-api-openapi.yml
   format: yaml
   label: Livepeer Playback API
   slug: livepeer-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-playback-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-playback-api-openapi.yml
 - filename: livepeer-room-api-openapi.yml
   format: yaml
   label: Livepeer Room API
   slug: livepeer-room-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-room-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-room-api-openapi.yml
 - filename: livepeer-session-api-openapi.yml
   format: yaml
   label: Livepeer Session API
   slug: livepeer-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-session-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-session-api-openapi.yml
 - filename: livepeer-stream-api-openapi.yml
   format: yaml
   label: Livepeer Stream API
   slug: livepeer-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-stream-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-stream-api-openapi.yml
 - filename: livepeer-task-api-openapi.yml
   format: yaml
   label: Livepeer Task API
   slug: livepeer-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-task-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-task-api-openapi.yml
 - filename: livepeer-transcode-api-openapi.yml
   format: yaml
   label: Livepeer Transcode API
   slug: livepeer-transcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-transcode-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-transcode-api-openapi.yml
 - filename: livepeer-webhook-api-openapi.yml
   format: yaml
   label: Livepeer Webhook API
   slug: livepeer-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-webhook-api-openapi.yml
 - filename: livepeer-ethereum-api-openapi.yml
   format: yaml
   label: Livepeer Ethereum API
   slug: livepeer-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-ethereum-api-openapi.yml
 - filename: livepeer-gateway-api-openapi.yml
   format: yaml
   label: Livepeer Gateway API
   slug: livepeer-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-gateway-api-openapi.yml
 - filename: livepeer-hardware-api-openapi.yml
   format: yaml
   label: Livepeer Hardware API
   slug: livepeer-hardware-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-hardware-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-hardware-api-openapi.yml
 - filename: livepeer-health-api-openapi.yml
   format: yaml
   label: Livepeer Health API
   slug: livepeer-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-health-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-health-api-openapi.yml
 - filename: livepeer-orchestrator-api-openapi.yml
   format: yaml
   label: Livepeer Orchestrator API
   slug: livepeer-orchestrator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-orchestrator-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-orchestrator-api-openapi.yml
 - filename: livepeer-staking-api-openapi.yml
   format: yaml
   label: Livepeer Staking API
   slug: livepeer-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-staking-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-staking-api-openapi.yml
 - filename: livepeer-status-api-openapi.yml
   format: yaml
   label: Livepeer Status API
   slug: livepeer-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-status-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-status-api-openapi.yml
 - filename: livepeer-access-control-api-openapi.yml
   format: yaml
   label: Livepeer Access Control API
   slug: livepeer-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/openapi/livepeer-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/livepeer/openapi/livepeer-access-control-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 27
@@ -198,7 +198,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/livepe
   \      - abnormal\n      - high-value\n    audit: required\n- path: /playback/{id}\n  method: get\n  operationId: getPlaybackInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/generate/text-to-image\n  method: post\n  operationId: genTextToImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate/image-to-image\n  method: post\n  operationId: genImageToImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /api/generate/image-to-video\n  method: post\n  operationId: genImageToVideo\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate/upscale\n  method: post\n  operationId: genUpscale\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate/audio-to-text\n  method: post\n  operationId: genAudioToText\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate/segment-anything-2\n  method: post\n  operationId: genSegmentAnything2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/generate/llm\n  method: post\n  operationId: genLLM\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/livepeer/refs/heads/main/agentic-access/livepeer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/livepeer/agentic-access/livepeer-agentic-access.yml
 summary_line: 64 operations · 37 acting · 5 human-in-the-loop
 tags:
 - Video

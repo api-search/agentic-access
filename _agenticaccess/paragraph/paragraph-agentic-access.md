@@ -9,61 +9,61 @@ api_specs:
   label: Paragraph Analytics API
   slug: paragraph-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-analytics-api-openapi.yml
 - filename: paragraph-auth-api-openapi.yml
   format: yaml
   label: Paragraph Auth API
   slug: paragraph-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-auth-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-auth-api-openapi.yml
 - filename: paragraph-coins-api-openapi.yml
   format: yaml
   label: Paragraph Coins API
   slug: paragraph-coins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-coins-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-coins-api-openapi.yml
 - filename: paragraph-discover-api-openapi.yml
   format: yaml
   label: Paragraph Discover API
   slug: paragraph-discover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-discover-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-discover-api-openapi.yml
 - filename: paragraph-emails-api-openapi.yml
   format: yaml
   label: Paragraph Emails API
   slug: paragraph-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-emails-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-emails-api-openapi.yml
 - filename: paragraph-me-api-openapi.yml
   format: yaml
   label: Paragraph Me API
   slug: paragraph-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-me-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-me-api-openapi.yml
 - filename: paragraph-posts-api-openapi.yml
   format: yaml
   label: Paragraph Posts API
   slug: paragraph-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-posts-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-posts-api-openapi.yml
 - filename: paragraph-publications-api-openapi.yml
   format: yaml
   label: Paragraph Publications API
   slug: paragraph-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-publications-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-publications-api-openapi.yml
 - filename: paragraph-subscribers-api-openapi.yml
   format: yaml
   label: Paragraph Subscribers API
   slug: paragraph-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-subscribers-api-openapi.yml
 - filename: paragraph-users-api-openapi.yml
   format: yaml
   label: Paragraph Users API
   slug: paragraph-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/openapi/paragraph-users-api-openapi.yml
+  url: https://artifacts.apis.io/paragraph/openapi/paragraph-users-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 31
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/paragr
   \ listSubscribers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/discover/search\n  method: get\n  operationId: searchPosts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/discover/blogs/search\n  method: get\n  operationId: searchBlogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/discover/coins/search\n  method: get\n  operationId: searchCoins\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/analytics/query\n  method: post\n  operationId: analyticsQuery\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/analytics/schema\n  method: get\n  operationId: analyticsSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/emails/send\n  method: post\n  operationId: sendCustomEmail\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/auth/sessions\n  method: post\n  operationId: createAuthSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/api/auth/sessions/{sessionId}\n  method: get\n  operationId: getAuthSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/api/auth/sessions/{sessionId}\n  method: delete\n  operationId: deleteAuthSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paragraph/refs/heads/main/agentic-access/paragraph-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/paragraph/agentic-access/paragraph-agentic-access.yml
 summary_line: 45 operations · 14 acting
 tags:
 - Company

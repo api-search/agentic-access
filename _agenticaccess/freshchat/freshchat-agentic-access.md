@@ -9,79 +9,79 @@ api_specs:
   label: Freshchat Accounts API
   slug: freshchat-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-accounts-api-openapi.yml
 - filename: freshchat-agents-api-openapi.yml
   format: yaml
   label: Freshchat Agents API
   slug: freshchat-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-agents-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-agents-api-openapi.yml
 - filename: freshchat-channels-api-openapi.yml
   format: yaml
   label: Freshchat Channels API
   slug: freshchat-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-channels-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-channels-api-openapi.yml
 - filename: freshchat-conversations-api-openapi.yml
   format: yaml
   label: Freshchat Conversations API
   slug: freshchat-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-conversations-api-openapi.yml
 - filename: freshchat-csat-api-openapi.yml
   format: yaml
   label: Freshchat CSAT API
   slug: freshchat-csat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-csat-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-csat-api-openapi.yml
 - filename: freshchat-files-api-openapi.yml
   format: yaml
   label: Freshchat Files API
   slug: freshchat-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-files-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-files-api-openapi.yml
 - filename: freshchat-groups-api-openapi.yml
   format: yaml
   label: Freshchat Groups API
   slug: freshchat-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-groups-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-groups-api-openapi.yml
 - filename: freshchat-messages-api-openapi.yml
   format: yaml
   label: Freshchat Messages API
   slug: freshchat-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-messages-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-messages-api-openapi.yml
 - filename: freshchat-metrics-api-openapi.yml
   format: yaml
   label: Freshchat Metrics API
   slug: freshchat-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-metrics-api-openapi.yml
 - filename: freshchat-outboundmessages-api-openapi.yml
   format: yaml
   label: Freshchat OutboundMessages API
   slug: freshchat-outboundmessages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-outboundmessages-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-outboundmessages-api-openapi.yml
 - filename: freshchat-roles-api-openapi.yml
   format: yaml
   label: Freshchat Roles API
   slug: freshchat-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-roles-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-roles-api-openapi.yml
 - filename: freshchat-users-api-openapi.yml
   format: yaml
   label: Freshchat Users API
   slug: freshchat-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-users-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-users-api-openapi.yml
 - filename: freshchat-business-hours-api-openapi.yml
   format: yaml
   label: Freshchat Business Hours API
   slug: freshchat-business-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/openapi/freshchat-business-hours-api-openapi.yml
+  url: https://artifacts.apis.io/freshchat/openapi/freshchat-business-hours-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 18
@@ -128,7 +128,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/freshc
   \  method: post\n  operationId: sendOutboundWhatsAppMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /outbound-messages\n  method: get\n  operationId: listOutboundMessages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /roles\n  method: get\n  operationId: listRoles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /users\n  method: post\n  operationId: createUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/fetch\n  method: post\n  operationId: fetchUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_id}\n  method: put\n  operationId: updateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n  \
   \  escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_id}/conversations\n  method: get\n  operationId: listUserConversations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshchat/refs/heads/main/agentic-access/freshchat-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freshchat/agentic-access/freshchat-agentic-access.yml
 summary_line: 31 operations · 13 acting
 tags:
 - Customer Messaging

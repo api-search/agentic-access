@@ -9,25 +9,25 @@ api_specs:
   label: project44 Shipments API
   slug: project44-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-shipments-api-openapi.yml
 - filename: project44-status-api-openapi.yml
   format: yaml
   label: project44 Status API
   slug: project44-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-status-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-status-api-openapi.yml
 - filename: project44-tracking-api-openapi.yml
   format: yaml
   label: project44 Tracking API
   slug: project44-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-tracking-api-openapi.yml
 - filename: project44-webhooks-api-openapi.yml
   format: yaml
   label: project44 Webhooks API
   slug: project44-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/openapi/project44-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/project44/openapi/project44-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/projec
   \ get\n  operationId: listShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{shipmentId}\n  method: get\n  operationId: getShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{shipmentId}\n  method: delete\n  operationId: deleteShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /shipments/{shipmentId}/status-updates\n  method: get\n  operationId: getShipmentStatusUpdates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments/{shipmentId}/positions\n  method: get\n  operationId: getShipmentPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteWebhookSubscription\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/project44/refs/heads/main/agentic-access/project44-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/project44/agentic-access/project44-agentic-access.yml
 summary_line: 9 operations · 4 acting · 1 human-in-the-loop
 tags:
 - Logistics

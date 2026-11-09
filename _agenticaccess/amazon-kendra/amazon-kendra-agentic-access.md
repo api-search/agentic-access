@@ -9,49 +9,85 @@ api_specs:
   label: Amazon Kendra Data Sources API
   slug: amazon-kendra-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-data-sources-api-openapi.yml
 - filename: amazon-kendra-documents-api-openapi.yml
   format: yaml
   label: Amazon Kendra Documents API
   slug: amazon-kendra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-documents-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-documents-api-openapi.yml
 - filename: amazon-kendra-experience-api-openapi.yml
   format: yaml
   label: Amazon Kendra Experience API
   slug: amazon-kendra-experience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-experience-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-experience-api-openapi.yml
 - filename: amazon-kendra-indexes-api-openapi.yml
   format: yaml
   label: Amazon Kendra Indexes API
   slug: amazon-kendra-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-indexes-api-openapi.yml
 - filename: amazon-kendra-queries-api-openapi.yml
   format: yaml
   label: Amazon Kendra Queries API
   slug: amazon-kendra-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-queries-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-queries-api-openapi.yml
 - filename: amazon-kendra-query-suggestions-api-openapi.yml
   format: yaml
   label: Amazon Kendra Query Suggestions API
   slug: amazon-kendra-query-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-query-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-query-suggestions-api-openapi.yml
 - filename: amazon-kendra-thesaurus-api-openapi.yml
   format: yaml
   label: Amazon Kendra Thesaurus API
   slug: amazon-kendra-thesaurus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-thesaurus-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-thesaurus-api-openapi.yml
 - filename: amazon-kendra-faqs-api-openapi.yml
   format: yaml
   label: Amazon Kendra FA Qs API
   slug: amazon-kendra-faqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/openapi/amazon-kendra-faqs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-faqs-api-openapi.yml
+- filename: amazon-kendra-access-control-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Access Control Configuration API
+  slug: amazon-kendra-access-control-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-access-control-configuration-api-openapi.yml
+- filename: amazon-kendra-data-source-sync-job-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Data Source Sync Job API
+  slug: amazon-kendra-data-source-sync-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-data-source-sync-job-api-openapi.yml
+- filename: amazon-kendra-featured-results-set-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Featured Results Set API
+  slug: amazon-kendra-featured-results-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-featured-results-set-api-openapi.yml
+- filename: amazon-kendra-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Operations API
+  slug: amazon-kendra-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-operations-api-openapi.yml
+- filename: amazon-kendra-principal-mapping-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Principal Mapping API
+  slug: amazon-kendra-principal-mapping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-principal-mapping-api-openapi.yml
+- filename: amazon-kendra-query-suggestions-block-list-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Query Suggestions Block List API
+  slug: amazon-kendra-query-suggestions-block-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-query-suggestions-block-list-api-openapi.yml
 consequence_counts:
   read: 12
   write: 14
@@ -86,10 +122,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  audit: required\n- path: /indexes\n  method: post\n  operationId: CreateIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes\n  method: get\n  operationId: ListIndexes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{IndexId}\n  method: get\n  operationId: DescribeIndex\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{IndexId}\n  method: put\n  operationId: UpdateIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n\
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{IndexId}\n  method: delete\n  operationId: DeleteIndex\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{IndexId}/query\n  method: post\n  operationId: Query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{IndexId}/retrieve\n  method: post\n  operationId: Retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{IndexId}/query-suggestions\n  method: post\n  operationId:\
   \ GetQuerySuggestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /indexes/{IndexId}/thesaurus\n  method: post\n  operationId: CreateThesaurus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /indexes/{IndexId}/thesaurus\n  method: get\n  operationId: ListThesauri\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/agentic-access/amazon-kendra-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kendra/agentic-access/amazon-kendra-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Enterprise Search
 - Knowledge Management
 - Machine Learning

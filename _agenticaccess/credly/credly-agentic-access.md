@@ -9,31 +9,31 @@ api_specs:
   label: Credly Badge Templates API
   slug: credly-badge-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-badge-templates-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-badge-templates-api-openapi.yml
 - filename: credly-events-api-openapi.yml
   format: yaml
   label: Credly Events API
   slug: credly-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-events-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-events-api-openapi.yml
 - filename: credly-issued-badges-api-openapi.yml
   format: yaml
   label: Credly Issued Badges API
   slug: credly-issued-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-issued-badges-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-issued-badges-api-openapi.yml
 - filename: credly-obi-recipients-api-openapi.yml
   format: yaml
   label: Credly OBI Recipients API
   slug: credly-obi-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-obi-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-obi-recipients-api-openapi.yml
 - filename: credly-organizations-api-openapi.yml
   format: yaml
   label: Credly Organizations API
   slug: credly-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/openapi/credly-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/credly/openapi/credly-organizations-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/credly
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/badges/{id}/replace\n  method: put\n  operationId: replaceIssuedBadge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organization_id}/badges/{id}/revoke\n  method: put\n  operationId: revokeIssuedBadge\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /organizations/{organization_id}\n  method: get\n  operationId: getOrganization\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/employees\n  method: get\n  operationId: listEmployees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organization_id}/events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /obi/v2/issuers/{organization_id}\n  method: get\n  operationId: getObiIssuer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /obi/v2/organizations/{organization_id}/badge_assertions/{id}\n  method: get\n  operationId: getObiBadgeAssertion\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credly/refs/heads/main/agentic-access/credly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/credly/agentic-access/credly-agentic-access.yml
 summary_line: 15 operations · 6 acting · 1 human-in-the-loop
 tags:
 - Digital Credentials

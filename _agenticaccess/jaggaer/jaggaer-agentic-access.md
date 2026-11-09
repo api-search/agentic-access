@@ -9,97 +9,97 @@ api_specs:
   label: JAGGAER Async API
   slug: jaggaer-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-async-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-async-api-openapi.yml
 - filename: jaggaer-attributes-api-openapi.yml
   format: yaml
   label: JAGGAER Attributes API
   slug: jaggaer-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-attributes-api-openapi.yml
 - filename: jaggaer-awards-api-openapi.yml
   format: yaml
   label: JAGGAER Awards API
   slug: jaggaer-awards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-awards-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-awards-api-openapi.yml
 - filename: jaggaer-bids-api-openapi.yml
   format: yaml
   label: JAGGAER Bids API
   slug: jaggaer-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-bids-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-bids-api-openapi.yml
 - filename: jaggaer-contacts-api-openapi.yml
   format: yaml
   label: JAGGAER Contacts API
   slug: jaggaer-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-contacts-api-openapi.yml
 - filename: jaggaer-customer-hosts-api-openapi.yml
   format: yaml
   label: JAGGAER Customer Hosts API
   slug: jaggaer-customer-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-customer-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-customer-hosts-api-openapi.yml
 - filename: jaggaer-events-api-openapi.yml
   format: yaml
   label: JAGGAER Events API
   slug: jaggaer-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-events-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-events-api-openapi.yml
 - filename: jaggaer-items-api-openapi.yml
   format: yaml
   label: JAGGAER Items API
   slug: jaggaer-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-items-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-items-api-openapi.yml
 - filename: jaggaer-jobs-api-openapi.yml
   format: yaml
   label: JAGGAER Jobs API
   slug: jaggaer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-jobs-api-openapi.yml
 - filename: jaggaer-locations-api-openapi.yml
   format: yaml
   label: JAGGAER Locations API
   slug: jaggaer-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-locations-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-locations-api-openapi.yml
 - filename: jaggaer-rates-api-openapi.yml
   format: yaml
   label: JAGGAER Rates API
   slug: jaggaer-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-rates-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-rates-api-openapi.yml
 - filename: jaggaer-scenarios-api-openapi.yml
   format: yaml
   label: JAGGAER Scenarios API
   slug: jaggaer-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-scenarios-api-openapi.yml
 - filename: jaggaer-suppliers-api-openapi.yml
   format: yaml
   label: JAGGAER Suppliers API
   slug: jaggaer-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-suppliers-api-openapi.yml
 - filename: jaggaer-templates-api-openapi.yml
   format: yaml
   label: JAGGAER Templates API
   slug: jaggaer-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-templates-api-openapi.yml
 - filename: jaggaer-uploads-api-openapi.yml
   format: yaml
   label: JAGGAER Uploads API
   slug: jaggaer-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-uploads-api-openapi.yml
 - filename: jaggaer-users-api-openapi.yml
   format: yaml
   label: JAGGAER Users API
   slug: jaggaer-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/openapi/jaggaer-users-api-openapi.yml
+  url: https://artifacts.apis.io/jaggaer/openapi/jaggaer-users-api-openapi.yml
 consequence_counts:
   read: 30
   write: 20
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jaggae
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/{event-id}/apiSuppliers\n  method: get\n  operationId: getSuppliers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /event/{event-id}/user/{user-id}/apiSuppliers\n  method: post\n  operationId: createSuppliersByUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/{event-id}/user/{user-id}/apiSuppliers\n  method: patch\n  operationId: updateSuppliersByUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /event/{event-id}/user/{user-id}/entity/{entity}/uploadUrl\n  method: get\n  operationId: getUploadUrl\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /submitJob\n  method: post\n  operationId: submitJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cancelJob/{job-id}\n  method: post\n  operationId: cancelJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /jobStatus/{job-id}\n  method: get\n  operationId: getJobStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job/{job-id}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/agentic-access/jaggaer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jaggaer/agentic-access/jaggaer-agentic-access.yml
 summary_line: 50 operations · 20 acting
 tags:
 - Procurement

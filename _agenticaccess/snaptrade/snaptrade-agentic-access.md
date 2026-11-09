@@ -9,43 +9,43 @@ api_specs:
   label: SnapTrade Account Information API
   slug: snaptrade-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-account-information-api-openapi.yml
 - filename: snaptrade-api-status-api-openapi.yml
   format: yaml
   label: SnapTrade API Status API
   slug: snaptrade-api-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-api-status-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-api-status-api-openapi.yml
 - filename: snaptrade-authentication-api-openapi.yml
   format: yaml
   label: SnapTrade Authentication API
   slug: snaptrade-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-authentication-api-openapi.yml
 - filename: snaptrade-connections-api-openapi.yml
   format: yaml
   label: SnapTrade Connections API
   slug: snaptrade-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-connections-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-connections-api-openapi.yml
 - filename: snaptrade-management-api-openapi.yml
   format: yaml
   label: SnapTrade Management API
   slug: snaptrade-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-management-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-management-api-openapi.yml
 - filename: snaptrade-reference-data-api-openapi.yml
   format: yaml
   label: SnapTrade Reference Data API
   slug: snaptrade-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-reference-data-api-openapi.yml
 - filename: snaptrade-trading-api-openapi.yml
   format: yaml
   label: SnapTrade Trading API
   slug: snaptrade-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/openapi/snaptrade-trading-api-openapi.yml
+  url: https://artifacts.apis.io/snaptrade/openapi/snaptrade-trading-api-openapi.yml
 consequence_counts:
   physical: 12
   read: 25
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: generated\nsource: openapi/snaptr
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/orders/details\n  method: post\n  operationId: AccountInformation_getUserAccountOrderDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/trading/crypto\n  method: post\n  operationId: Trading_placeCryptoOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/trading/cancel\n  method: post\n  operationId: Trading_cancelOrder\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/trading/crypto/preview\n  method: post\n  operationId: Trading_previewCryptoOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounts/{accountId}/trading/instruments/cryptocurrencyPairs\n  method: get\n  operationId: Trading_searchCryptocurrencyPairInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /accounts/{accountId}/trading/instruments/cryptocurrencyPairs/{instrumentSymbol}/quote\n  method: get\n  operationId: Trading_getCryptocurrencyPairQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/trading/options/impact\n  method: post\n  operationId: Trading_getOptionImpact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/trading/options\n  method: post\n  operationId: Trading_placeMlegOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snaptrade/refs/heads/main/agentic-access/snaptrade-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snaptrade/agentic-access/snaptrade-agentic-access.yml
 summary_line: 42 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Company

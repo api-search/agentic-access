@@ -9,43 +9,43 @@ api_specs:
   label: ViewsMeet Agent API
   slug: viewsmeet-com-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-agent-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-agent-api-openapi.yml
 - filename: viewsmeet-com-agents-api-openapi.yml
   format: yaml
   label: ViewsMeet Agents API
   slug: viewsmeet-com-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-agents-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-agents-api-openapi.yml
 - filename: viewsmeet-com-assessments-api-openapi.yml
   format: yaml
   label: ViewsMeet Assessments API
   slug: viewsmeet-com-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-assessments-api-openapi.yml
 - filename: viewsmeet-com-connections-api-openapi.yml
   format: yaml
   label: ViewsMeet Connections API
   slug: viewsmeet-com-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-connections-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-connections-api-openapi.yml
 - filename: viewsmeet-com-experiments-api-openapi.yml
   format: yaml
   label: ViewsMeet Experiments API
   slug: viewsmeet-com-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-experiments-api-openapi.yml
 - filename: viewsmeet-com-mcp-api-openapi.yml
   format: yaml
   label: ViewsMeet MCP API
   slug: viewsmeet-com-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-mcp-api-openapi.yml
 - filename: viewsmeet-com-personality-api-openapi.yml
   format: yaml
   label: ViewsMeet Personality API
   slug: viewsmeet-com-personality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/openapi/viewsmeet-com-personality-api-openapi.yml
+  url: https://artifacts.apis.io/viewsmeet-com/openapi/viewsmeet-com-personality-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 2
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: generated\nsource: openapi/viewsm
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/experiments/manage/{token}\n  method: delete\n  operationId: deleteGroupPicksExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/agents/registrations/challenge\n  method: post\n  operationId: requestStableKeyRegistration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/agents/registrations\n  method: post\n  operationId: confirmStableKeyRegistration\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v1/agents/daily\n  method: get\n  operationId: getDailyAgentQuestionSet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/agents/daily\n  method: post\n  operationId: issueDailyAgentChallenge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agent/challenges/{challengeId}\n  method: get\n  operationId: getAgentChallenge\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/agent/ballots\n  method: post\n  operationId: submitAgentBallot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/agents/receipts/{receiptId}\n  method: get\n  operationId: getAgentBallotReceipt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/viewsmeet-com/refs/heads/main/agentic-access/viewsmeet-com-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/viewsmeet-com/agentic-access/viewsmeet-com-agentic-access.yml
 summary_line: 32 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Social

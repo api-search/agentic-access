@@ -8,37 +8,37 @@ api_specs:
   label: TravelCenters of America Fuel Codes API
   slug: travelcenters-of-america-fuel-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-fuel-codes-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-fuel-codes-api-openapi.yml
 - filename: travelcenters-of-america-locations-api-openapi.yml
   format: yaml
   label: TravelCenters of America Locations API
   slug: travelcenters-of-america-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-locations-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-locations-api-openapi.yml
 - filename: travelcenters-of-america-parking-api-openapi.yml
   format: yaml
   label: TravelCenters of America Parking API
   slug: travelcenters-of-america-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-parking-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-parking-api-openapi.yml
 - filename: travelcenters-of-america-pricing-api-openapi.yml
   format: yaml
   label: TravelCenters of America Pricing API
   slug: travelcenters-of-america-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-pricing-api-openapi.yml
 - filename: travelcenters-of-america-showers-api-openapi.yml
   format: yaml
   label: TravelCenters of America Showers API
   slug: travelcenters-of-america-showers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-showers-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-showers-api-openapi.yml
 - filename: travelcenters-of-america-truck-service-api-openapi.yml
   format: yaml
   label: TravelCenters of America Truck Service API
   slug: travelcenters-of-america-truck-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/openapi/travelcenters-of-america-truck-service-api-openapi.yml
+  url: https://artifacts.apis.io/travelcenters-of-america/openapi/travelcenters-of-america-truck-service-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/travelcenters-of-america-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /locations\n  method: get\n  operationId: listLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{id}\n  method: get\n  operationId: getLocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /locations/{id}/amenities\n  method: get\n  operationId:\
   \ getLocationAmenities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parking/availability\n  method: get\n  operationId: getParkingAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /showers/availability\n  method: get\n  operationId: getShowerAvailability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /truck-service/work-orders\n  method: get\n  operationId: listWorkOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /truck-service/work-orders/{id}\n  method: get\n  operationId: getWorkOrder\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /truck-service/documents\n  method: get\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fuel-codes\n  method: get\n  operationId: listFuelCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricing\n  method: get\n  operationId: getPricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travelcenters-of-america/refs/heads/main/agentic-access/travelcenters-of-america-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/travelcenters-of-america/agentic-access/travelcenters-of-america-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Travel Centers

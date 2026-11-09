@@ -9,37 +9,37 @@ api_specs:
   label: LiquiDonate Donate API
   slug: liquidonate-donate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-donate-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-donate-api-openapi.yml
 - filename: liquidonate-match-api-openapi.yml
   format: yaml
   label: LiquiDonate Match API
   slug: liquidonate-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-match-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-match-api-openapi.yml
 - filename: liquidonate-orders-api-openapi.yml
   format: yaml
   label: LiquiDonate Orders API
   slug: liquidonate-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-orders-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-orders-api-openapi.yml
 - filename: liquidonate-retailer-api-openapi.yml
   format: yaml
   label: LiquiDonate Retailer API
   slug: liquidonate-retailer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-retailer-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-retailer-api-openapi.yml
 - filename: liquidonate-ship-api-openapi.yml
   format: yaml
   label: LiquiDonate Ship API
   slug: liquidonate-ship-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-ship-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-ship-api-openapi.yml
 - filename: liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
   format: yaml
   label: LiquiDonate ReturnsDirect By LiquiDonate (Beta) API
   slug: liquidonate-returnsdirect-by-liquidonate-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
+  url: https://artifacts.apis.io/liquidonate/openapi/liquidonate-returnsdirect-by-liquidonate-beta-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 1
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/liquid
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/external-order\n  method: post\n  operationId: pushExternalOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/setupRetailer\n  method: post\n  operationId: setupRetailer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /v1/getRetailer\n  method: post\n  operationId: getRetailer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/matchAndShip\n  method: post\n  operationId: matchAndShip\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/match/ship\n  method: post\n  operationId: attachLabelsToMatch\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v1/ship\n  method: post\n  operationId: ship\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquidonate/refs/heads/main/agentic-access/liquidonate-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liquidonate/agentic-access/liquidonate-agentic-access.yml
 summary_line: 10 operations · 9 acting
 tags:
 - Reverse Logistics

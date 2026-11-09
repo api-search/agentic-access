@@ -9,55 +9,55 @@ api_specs:
   label: Cybereason Authentication API
   slug: cybereason-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-authentication-api-openapi.yml
 - filename: cybereason-customdetectionrules-api-openapi.yml
   format: yaml
   label: Cybereason CustomDetectionRules API
   slug: cybereason-customdetectionrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-customdetectionrules-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-customdetectionrules-api-openapi.yml
 - filename: cybereason-isolationrules-api-openapi.yml
   format: yaml
   label: Cybereason IsolationRules API
   slug: cybereason-isolationrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-isolationrules-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-isolationrules-api-openapi.yml
 - filename: cybereason-malops-api-openapi.yml
   format: yaml
   label: Cybereason Malops API
   slug: cybereason-malops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-malops-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-malops-api-openapi.yml
 - filename: cybereason-remediation-api-openapi.yml
   format: yaml
   label: Cybereason Remediation API
   slug: cybereason-remediation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-remediation-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-remediation-api-openapi.yml
 - filename: cybereason-reputation-api-openapi.yml
   format: yaml
   label: Cybereason Reputation API
   slug: cybereason-reputation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-reputation-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-reputation-api-openapi.yml
 - filename: cybereason-sensors-api-openapi.yml
   format: yaml
   label: Cybereason Sensors API
   slug: cybereason-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-sensors-api-openapi.yml
 - filename: cybereason-threat-intel-api-openapi.yml
   format: yaml
   label: Cybereason Threat Intel API
   slug: cybereason-threat-intel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-threat-intel-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-threat-intel-api-openapi.yml
 - filename: cybereason-visual-search-api-openapi.yml
   format: yaml
   label: Cybereason Visual search API
   slug: cybereason-visual-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/openapi/cybereason-visual-search-api-openapi.yml
+  url: https://artifacts.apis.io/cybereason/openapi/cybereason-visual-search-api-openapi.yml
 consequence_counts:
   read: 11
   write: 15
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cybere
   \ post\n  operationId: postRestSensorsActionDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/monitor/global/commands/isolate\n  method: post\n  operationId: postRestMonitorGlobalCommandsIsolate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/monitor/global/commands/un-isolate\n  method: post\n  operationId: postRestMonitorGlobalCommandsUnIsolate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/classification_v1/file\n  method: get\n  operationId: getRestClassificationV1File\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/classification_v1/domain\n  method: get\n  operationId: getRestClassificationV1Domain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/classification_v1/ip\n  method: get\n  operationId: getRestClassificationV1Ip\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/visualsearch/query/simple\n  method: post\n  operationId: postRestVisualsearchQuerySimple\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cybereason/refs/heads/main/agentic-access/cybereason-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cybereason/agentic-access/cybereason-agentic-access.yml
 summary_line: 26 operations · 15 acting
 tags:
 - Cybersecurity

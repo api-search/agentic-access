@@ -9,25 +9,25 @@ api_specs:
   label: dope.security Authorization API
   slug: dopesecurity-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-authorization-api-openapi.yml
 - filename: dopesecurity-custom-categories-api-openapi.yml
   format: yaml
   label: dope.security Custom Categories API
   slug: dopesecurity-custom-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-custom-categories-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-custom-categories-api-openapi.yml
 - filename: dopesecurity-endpoints-api-openapi.yml
   format: yaml
   label: dope.security Endpoints API
   slug: dopesecurity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-endpoints-api-openapi.yml
 - filename: dopesecurity-policies-api-openapi.yml
   format: yaml
   label: dope.security Policies API
   slug: dopesecurity-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-policies-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-policies-api-openapi.yml
 consequence_counts:
   read: 9
   write: 17
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/dopese
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_categories/{custom_category_name}/urls\n  method: get\n  operationId: listCustomCategoryUrls\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /custom_categories/{custom_category_name}/urls\n  method: post\n  operationId: addCustomCategoryUrls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_categories/{custom_category_name}/urls\n  method: put\n  operationId: overwriteCustomCategoryUrls\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_categories/{custom_category_name}/urls\n  method: delete\n  operationId: deleteAllCustomCategoryUrls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /custom_categories/{custom_category_name}/url/{encoded_url}\n  method: delete\n  operationId: deleteCustomCategoryUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/agentic-access/dopesecurity-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dopesecurity/agentic-access/dopesecurity-agentic-access.yml
 summary_line: 26 operations · 17 acting
 tags:
 - Company

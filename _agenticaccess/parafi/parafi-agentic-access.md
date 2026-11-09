@@ -8,25 +8,25 @@ api_specs:
   label: Parafi Avalanche API
   slug: parafi-avalanche-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-avalanche-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-avalanche-api-openapi.yml
 - filename: parafi-ethereum-api-openapi.yml
   format: yaml
   label: Parafi Ethereum API
   slug: parafi-ethereum-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-ethereum-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-ethereum-api-openapi.yml
 - filename: parafi-market-api-openapi.yml
   format: yaml
   label: Parafi Market API
   slug: parafi-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-market-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-market-api-openapi.yml
 - filename: parafi-solana-api-openapi.yml
   format: yaml
   label: Parafi Solana API
   slug: parafi-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/openapi/parafi-solana-api-openapi.yml
+  url: https://artifacts.apis.io/parafi/openapi/parafi-solana-api-openapi.yml
 consequence_counts:
   read: 23
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/parafi
   \  consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/rewards/staker/{address}\n  method: get\n  operationId: getSolanaStakerRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/rewards/validator/{voteAccount}\n  method: get\n  operationId: getSolanaValidatorRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/rewards/epoch/{epochNumber}\n  method: get\n  operationId: getSolanaEpochRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/mev-rewards\n  method: get\n  operationId: getSolanaMevRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/compute-units\n  method: get\n  operationId: getSolanaComputeUnits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/compute-units/history\n  method: get\n  operationId: getSolanaComputeUnitsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/leader-slots\n  method: get\n  operationId: getSolanaLeaderSlots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/sidecar-stats\n  method: get\n  operationId: getSolanaSidecarStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/solana/network-stats/history\n  method: get\n  operationId: getSolanaNetworkStatsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/solana/delegators\n  method: get\n  operationId: getSolanaDelegators\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ethereum/network-stats\n  method: get\n  operationId: getEthereumNetworkStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ethereum/sidecar-stats\n  method: get\n  operationId: getEthereumSidecarStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parafi/refs/heads/main/agentic-access/parafi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parafi/agentic-access/parafi-agentic-access.yml
 summary_line: 23 operations
 tags:
 - Company

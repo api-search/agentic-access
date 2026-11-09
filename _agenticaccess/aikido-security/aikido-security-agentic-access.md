@@ -9,73 +9,73 @@ api_specs:
   label: Aikido Security Clouds API
   slug: aikido-security-clouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-clouds-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-clouds-api-openapi.yml
 - filename: aikido-security-code-repositories-api-openapi.yml
   format: yaml
   label: Aikido Security Code Repositories API
   slug: aikido-security-code-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-code-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-code-repositories-api-openapi.yml
 - filename: aikido-security-compliance-api-openapi.yml
   format: yaml
   label: Aikido Security Compliance API
   slug: aikido-security-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-compliance-api-openapi.yml
 - filename: aikido-security-containers-api-openapi.yml
   format: yaml
   label: Aikido Security Containers API
   slug: aikido-security-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-containers-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-containers-api-openapi.yml
 - filename: aikido-security-custom-rules-api-openapi.yml
   format: yaml
   label: Aikido Security Custom Rules API
   slug: aikido-security-custom-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-custom-rules-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-custom-rules-api-openapi.yml
 - filename: aikido-security-domains-api-openapi.yml
   format: yaml
   label: Aikido Security Domains API
   slug: aikido-security-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-domains-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-domains-api-openapi.yml
 - filename: aikido-security-issues-api-openapi.yml
   format: yaml
   label: Aikido Security Issues API
   slug: aikido-security-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-issues-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-issues-api-openapi.yml
 - filename: aikido-security-teams-api-openapi.yml
   format: yaml
   label: Aikido Security Teams API
   slug: aikido-security-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-teams-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-teams-api-openapi.yml
 - filename: aikido-security-users-api-openapi.yml
   format: yaml
   label: Aikido Security Users API
   slug: aikido-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-users-api-openapi.yml
 - filename: aikido-security-webhooks-api-openapi.yml
   format: yaml
   label: Aikido Security Webhooks API
   slug: aikido-security-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-webhooks-api-openapi.yml
 - filename: aikido-security-workspace-api-openapi.yml
   format: yaml
   label: Aikido Security Workspace API
   slug: aikido-security-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-workspace-api-openapi.yml
 - filename: aikido-security-zen-api-openapi.yml
   format: yaml
   label: Aikido Security Zen API
   slug: aikido-security-zen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/openapi/aikido-security-zen-api-openapi.yml
+  url: https://artifacts.apis.io/aikido-security/openapi/aikido-security-zen-api-openapi.yml
 consequence_counts:
   read: 27
   write: 23
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aikido
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: addWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n   \
   \   triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: delete\n  operationId: removeWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspace\n  method: get\n  operationId: getWorkspaceInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /openapi\n  method: get\n  operationId: getOpenApiSpec\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zen/apps\n  method: get\n  operationId: listApps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /zen/apps\n  method: post\n  operationId: createApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /zen/apps/{id}\n  method: get\n  operationId: getApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /zen/apps/{id}\n  method: delete\n  operationId: deleteApp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/agentic-access/aikido-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aikido-security/agentic-access/aikido-security-agentic-access.yml
 summary_line: 50 operations · 23 acting
 tags:
 - AI Pentesting

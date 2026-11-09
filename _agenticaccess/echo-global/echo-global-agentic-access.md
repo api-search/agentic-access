@@ -9,55 +9,55 @@ api_specs:
   label: Echo Global Logistics Documents API
   slug: echo-global-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-documents-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-documents-api-openapi.yml
 - filename: echo-global-health-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Health API
   slug: echo-global-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-health-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-health-api-openapi.yml
 - filename: echo-global-ping-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Ping API
   slug: echo-global-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-ping-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-ping-api-openapi.yml
 - filename: echo-global-query-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Query API
   slug: echo-global-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-query-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-query-api-openapi.yml
 - filename: echo-global-quotes-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Quotes API
   slug: echo-global-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-quotes-api-openapi.yml
 - filename: echo-global-rates-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Rates API
   slug: echo-global-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-rates-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-rates-api-openapi.yml
 - filename: echo-global-shipments-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Shipments API
   slug: echo-global-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-shipments-api-openapi.yml
 - filename: echo-global-token-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Token API
   slug: echo-global-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-token-api-openapi.yml
 - filename: echosync-carrier-api.json
   format: json
   label: EchoSync Carrier API
   slug: carrier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echosync-carrier-api.json
+  url: https://artifacts.apis.io/echo-global/openapi/echosync-carrier-api.json
 consequence_counts:
   physical: 3
   read: 9
@@ -104,7 +104,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/echo-g
   \  operationId: Quote_v2.create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/rates/LTL\n  method: post\n  operationId: GetShipmentRatesLTL\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/LTL\n  method: post\n  operationId: CreateShipmentLTL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/TL\n  method: post\n  operationId: CreateShipmentTL\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/PL\n  method: post\n  operationId: CreateShipmentPL\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/shipments/{Id}\n  method: get\n  operationId: GetShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/status\n  method:\
   \ get\n  operationId: GetShipmentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/shipments/{Id}/tracking\n  method: get\n  operationId: GetShipmentTracking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /token\n  method: post\n  operationId: token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/agentic-access/echo-global-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/echo-global/agentic-access/echo-global-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Freight

@@ -9,97 +9,97 @@ api_specs:
   label: Airtop Profiles API
   slug: airtop-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-profiles-api-openapi.yml
 - filename: airtop-sessions-api-openapi.yml
   format: yaml
   label: Airtop Sessions API
   slug: airtop-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-sessions-api-openapi.yml
 - filename: airtop-windows-api-openapi.yml
   format: yaml
   label: Airtop Windows API
   slug: airtop-windows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-windows-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-windows-api-openapi.yml
 - filename: airtop-agent-director-api-openapi.yml
   format: yaml
   label: Airtop Agent Director API
   slug: airtop-agent-director-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-agent-director-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-agent-director-api-openapi.yml
 - filename: airtop-agent-folders-api-openapi.yml
   format: yaml
   label: Airtop Agent Folders API
   slug: airtop-agent-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-agent-folders-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-agent-folders-api-openapi.yml
 - filename: airtop-agents-api-openapi.yml
   format: yaml
   label: Airtop Agents API
   slug: airtop-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-agents-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-agents-api-openapi.yml
 - filename: airtop-automations-api-openapi.yml
   format: yaml
   label: Airtop Automations API
   slug: airtop-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-automations-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-automations-api-openapi.yml
 - filename: airtop-beta-api-openapi.yml
   format: yaml
   label: Airtop Beta API
   slug: airtop-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-beta-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-beta-api-openapi.yml
 - filename: airtop-files-api-openapi.yml
   format: yaml
   label: Airtop Files API
   slug: airtop-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-files-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-files-api-openapi.yml
 - filename: airtop-gtm-engineer-api-openapi.yml
   format: yaml
   label: Airtop GTM Engineer API
   slug: airtop-gtm-engineer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-gtm-engineer-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-gtm-engineer-api-openapi.yml
 - filename: airtop-knowledge-base-api-openapi.yml
   format: yaml
   label: Airtop Knowledge Base API
   slug: airtop-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-knowledge-base-api-openapi.yml
 - filename: airtop-requests-api-openapi.yml
   format: yaml
   label: Airtop Requests API
   slug: airtop-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-requests-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-requests-api-openapi.yml
 - filename: airtop-sensitive-values-api-openapi.yml
   format: yaml
   label: Airtop Sensitive Values API
   slug: airtop-sensitive-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-sensitive-values-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-sensitive-values-api-openapi.yml
 - filename: airtop-services-api-openapi.yml
   format: yaml
   label: Airtop Services API
   slug: airtop-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-services-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-services-api-openapi.yml
 - filename: airtop-team-vault-api-openapi.yml
   format: yaml
   label: Airtop Team Vault API
   slug: airtop-team-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-team-vault-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-team-vault-api-openapi.yml
 - filename: airtop-templates-api-openapi.yml
   format: yaml
   label: Airtop Templates API
   slug: airtop-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/openapi/airtop-templates-api-openapi.yml
+  url: https://artifacts.apis.io/airtop/openapi/airtop-templates-api-openapi.yml
 consequence_counts:
   read: 8
   safety-critical: 1
@@ -142,7 +142,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/airtop
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /requests/{requestId}\n  method: get\n  operationId: getRequestStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/windows\n  method: get\n  operationId: listWindows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/windows\n  method: post\n  operationId: createWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n \
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/windows/{windowId}\n  method: get\n  operationId: getWindowInfo\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/windows/{windowId}\n  method: delete\n  operationId: closeWindow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/{sessionId}/windows/{windowId}/load-url\n  method: post\n  operationId: loadUrl\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airtop/refs/heads/main/agentic-access/airtop-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airtop/agentic-access/airtop-agentic-access.yml
 summary_line: 20 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Browser Automation

@@ -9,49 +9,49 @@ api_specs:
   label: FastPix Data API
   slug: fastpix-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-data-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-data-api-openapi.yml
 - filename: fastpix-drm-api-openapi.yml
   format: yaml
   label: FastPix DRM API
   slug: fastpix-drm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-drm-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-drm-api-openapi.yml
 - filename: fastpix-in-video-ai-api-openapi.yml
   format: yaml
   label: FastPix In-Video AI API
   slug: fastpix-in-video-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-in-video-ai-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-in-video-ai-api-openapi.yml
 - filename: fastpix-live-streaming-api-openapi.yml
   format: yaml
   label: FastPix Live Streaming API
   slug: fastpix-live-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-live-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-live-streaming-api-openapi.yml
 - filename: fastpix-on-demand-api-openapi.yml
   format: yaml
   label: FastPix On-Demand API
   slug: fastpix-on-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-on-demand-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-on-demand-api-openapi.yml
 - filename: fastpix-playback-api-openapi.yml
   format: yaml
   label: FastPix Playback API
   slug: fastpix-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-playback-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-playback-api-openapi.yml
 - filename: fastpix-signing-keys-api-openapi.yml
   format: yaml
   label: FastPix Signing Keys API
   slug: fastpix-signing-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-signing-keys-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-signing-keys-api-openapi.yml
 - filename: fastpix-simulcast-api-openapi.yml
   format: yaml
   label: FastPix Simulcast API
   slug: fastpix-simulcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/openapi/fastpix-simulcast-api-openapi.yml
+  url: https://artifacts.apis.io/fastpix/openapi/fastpix-simulcast-api-openapi.yml
 consequence_counts:
   read: 21
   safety-critical: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fastpi
   \ path: /on-demand/drm-configurations/{drmConfigurationId}\n  method: get\n  operationId: getDrmConfiguration\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/dimensions\n  method: get\n  operationId: listDimensions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/dimensions/{dimensionId}\n  method: get\n  operationId: listDimensionValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/views\n  method: get\n  operationId: listVideoViews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/views/{viewId}\n  method: get\n  operationId: getVideoView\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/errors\n  method: get\n  operationId: listErrors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/metrics/timeseries/{metricId}\n  method: get\n  operationId: getTimeseriesData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/metrics/breakdown/{metricId}\n  method: get\n  operationId: getMetricBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/metrics/overall/{metricId}\n  method: get\n  operationId: getOverallMetric\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fastpix/refs/heads/main/agentic-access/fastpix-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fastpix/agentic-access/fastpix-agentic-access.yml
 summary_line: 42 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Video

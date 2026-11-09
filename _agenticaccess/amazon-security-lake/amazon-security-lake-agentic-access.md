@@ -9,19 +9,31 @@ api_specs:
   label: Amazon Security Lake Data Lakes API
   slug: amazon-security-lake-data-lakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-data-lakes-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-security-lake/openapi/amazon-security-lake-data-lakes-api-openapi.yml
 - filename: amazon-security-lake-log-sources-api-openapi.yml
   format: yaml
   label: Amazon Security Lake Log Sources API
   slug: amazon-security-lake-log-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-log-sources-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-security-lake/openapi/amazon-security-lake-log-sources-api-openapi.yml
 - filename: amazon-security-lake-subscribers-api-openapi.yml
   format: yaml
   label: Amazon Security Lake Subscribers API
   slug: amazon-security-lake-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/openapi/amazon-security-lake-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-security-lake/openapi/amazon-security-lake-subscribers-api-openapi.yml
+- filename: amazon-security-lake-notification-api-openapi.yml
+  format: yaml
+  label: Amazon Security Lake Security Lake Notification API
+  slug: amazon-security-lake-notification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-security-lake/openapi/amazon-security-lake-notification-api-openapi.yml
+- filename: amazon-security-lake-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Security Lake Security Lake Tags API
+  slug: amazon-security-lake-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-security-lake/openapi/amazon-security-lake-tags-api-openapi.yml
 consequence_counts:
   read: 5
   write: 8
@@ -52,9 +64,10 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \  operationId: GetDataLakeSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/logsources/aws\n  method: post\n  operationId: CreateAwsLogSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/logsources/custom\n  method: post\n  operationId: CreateCustomLogSource\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/logsources\n  method: get\n  operationId: ListLogSources\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscribers\n  method: post\n  operationId: CreateSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/subscribers\n  method: get\n  operationId: ListSubscribers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscribers/{subscriberId}\n  method: get\n  operationId: GetSubscriber\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/subscribers/{subscriberId}\n  method: put\n  operationId: UpdateSubscriber\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/subscribers/{subscriberId}\n  method: delete\n  operationId: DeleteSubscriber\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/agentic-access/amazon-security-lake-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-security-lake/agentic-access/amazon-security-lake-agentic-access.yml
 summary_line: 13 operations · 8 acting
 tags:
+- Amazon Web Services
 - Data Lake
 - Security
 - SIEM

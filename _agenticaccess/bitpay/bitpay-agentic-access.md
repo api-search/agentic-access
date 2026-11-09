@@ -9,79 +9,79 @@ api_specs:
   label: BitPay Bills API
   slug: bitpay-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-bills-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-bills-api-openapi.yml
 - filename: bitpay-payouts-api-openapi.yml
   format: yaml
   label: BitPay Payouts API
   slug: bitpay-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-payouts-api-openapi.yml
 - filename: bitpay-refunds-api-openapi.yml
   format: yaml
   label: BitPay Refunds API
   slug: bitpay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-refunds-api-openapi.yml
 - filename: bitpay-settlements-api-openapi.yml
   format: yaml
   label: BitPay Settlements API
   slug: bitpay-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-settlements-api-openapi.yml
 - filename: bitpay-rates-api-openapi.yml
   format: yaml
   label: BitPay Rates API
   slug: bitpay-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-rates-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-rates-api-openapi.yml
 - filename: bitpay-ledgers-api-openapi.yml
   format: yaml
   label: BitPay Ledgers API
   slug: bitpay-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-ledgers-api-openapi.yml
 - filename: bitpay-bills-api-openapi.yml
   format: yaml
   label: BitPay Bills API
   slug: bitpay-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-bills-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-bills-api-openapi.yml
 - filename: bitpay-invoices-api-openapi.yml
   format: yaml
   label: BitPay Invoices API
   slug: bitpay-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-invoices-api-openapi.yml
 - filename: bitpay-ledgers-api-openapi.yml
   format: yaml
   label: BitPay Ledgers API
   slug: bitpay-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-ledgers-api-openapi.yml
 - filename: bitpay-payouts-api-openapi.yml
   format: yaml
   label: BitPay Payouts API
   slug: bitpay-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-payouts-api-openapi.yml
 - filename: bitpay-rates-api-openapi.yml
   format: yaml
   label: BitPay Rates API
   slug: bitpay-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-rates-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-rates-api-openapi.yml
 - filename: bitpay-refunds-api-openapi.yml
   format: yaml
   label: BitPay Refunds API
   slug: bitpay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-refunds-api-openapi.yml
 - filename: bitpay-settlements-api-openapi.yml
   format: yaml
   label: BitPay Settlements API
   slug: bitpay-settlements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/openapi/bitpay-settlements-api-openapi.yml
+  url: https://artifacts.apis.io/bitpay/openapi/bitpay-settlements-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 16
@@ -141,7 +141,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settlements\n  method: get\n  operationId: listSettlements\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements/{settlementId}\n  method: get\n  operationId: getSettlement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settlements/{settlementId}/reconciliationReport\n  method: get\n  operationId: getSettlementReconciliationReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /rates\n  method: get\n  operationId: getRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates/{baseCurrency}\n  method: get\n  operationId: getRatesForCurrency\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rates/{baseCurrency}/{quoteCurrency}\n  method: get\n  operationId: getRate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledgers\n  method: get\n  operationId: listLedgers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ledgers/{currency}\n  method: get\n  operationId: getLedgerEntries\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/agentic-access/bitpay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitpay/agentic-access/bitpay-agentic-access.yml
 summary_line: 24 operations · 8 acting
 tags:
 - Cryptocurrency

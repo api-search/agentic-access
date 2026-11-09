@@ -8,25 +8,25 @@ api_specs:
   label: Science Museum Group Documents API
   slug: science-museum-group-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-documents-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-documents-api-openapi.yml
 - filename: science-museum-group-objects-api-openapi.yml
   format: yaml
   label: Science Museum Group Objects API
   slug: science-museum-group-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-objects-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-objects-api-openapi.yml
 - filename: science-museum-group-people-api-openapi.yml
   format: yaml
   label: Science Museum Group People API
   slug: science-museum-group-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-people-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-people-api-openapi.yml
 - filename: science-museum-group-search-api-openapi.yml
   format: yaml
   label: Science Museum Group Search API
   slug: science-museum-group-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/openapi/science-museum-group-search-api-openapi.yml
+  url: https://artifacts.apis.io/science-museum-group/openapi/science-museum-group-search-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/science-museum-group-collection-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /search\n  method: get\n  operationId: searchAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/objects\n  method: get\n  operationId: searchObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/people\n  method: get\n  operationId: searchPeople\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/documents\n  method: get\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /objects/{id}\n  method: get\n  operationId: getObject\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/{id}\n  method: get\n  operationId: getPerson\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /documents/{id}\n  method: get\n  operationId: getDocument\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/agentic-access/science-museum-group-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/science-museum-group/agentic-access/science-museum-group-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Museums

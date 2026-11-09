@@ -9,37 +9,37 @@ api_specs:
   label: Bank of America Accounts API
   slug: bank-of-america-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-accounts-api-openapi.yml
 - filename: bank-of-america-balances-api-openapi.yml
   format: yaml
   label: Bank of America Balances API
   slug: bank-of-america-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-balances-api-openapi.yml
 - filename: bank-of-america-banking-api-openapi.yml
   format: yaml
   label: Bank of America Banking API
   slug: bank-of-america-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-banking-api-openapi.yml
 - filename: bank-of-america-payments-api-openapi.yml
   format: yaml
   label: Bank of America Payments API
   slug: bank-of-america-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-payments-api-openapi.yml
 - filename: bank-of-america-statements-api-openapi.yml
   format: yaml
   label: Bank of America Statements API
   slug: bank-of-america-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-statements-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-statements-api-openapi.yml
 - filename: bank-of-america-transactions-api-openapi.yml
   format: yaml
   label: Bank of America Transactions API
   slug: bank-of-america-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/openapi/bank-of-america-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-of-america/openapi/bank-of-america-transactions-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -79,7 +79,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bank-o
   \ none\n- path: /accounts/{accountId}\n  method: get\n  operationId: getAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/balances\n  method: get\n  operationId: getAccountBalances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounts/{accountId}/transactions\n  method: get\n  operationId: listTransactions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments\n  method: post\n  operationId: initiatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method: get\n  operationId: listPayments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{paymentId}\n  method: get\n  operationId: getPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /payments/{paymentId}\n  method: delete\n  operationId: cancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statements\n  method: get\n  operationId: listStatements\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statements/{statementId}\n  method: get\n  operationId: getStatement\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/agentic-access/bank-of-america-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bank-of-america/agentic-access/bank-of-america-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Banking

@@ -9,127 +9,127 @@ api_specs:
   label: CAMARA Project Call Forwarding information retrieval API
   slug: camara-project-call-forwarding-information-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-call-forwarding-information-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-call-forwarding-information-retrieval-api-openapi.yml
 - filename: camara-project-check-device-swap-api-openapi.yml
   format: yaml
   label: CAMARA Project Check Device Swap API
   slug: camara-project-check-device-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-check-device-swap-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-check-device-swap-api-openapi.yml
 - filename: camara-project-discovery-api-openapi.yml
   format: yaml
   label: CAMARA Project Discovery API
   slug: camara-project-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-discovery-api-openapi.yml
 - filename: camara-project-fill-in-api-openapi.yml
   format: yaml
   label: CAMARA Project Fill-in API
   slug: camara-project-fill-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-fill-in-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-fill-in-api-openapi.yml
 - filename: camara-project-geofencing-subscriptions-api-openapi.yml
   format: yaml
   label: CAMARA Project Geofencing subscriptions API
   slug: camara-project-geofencing-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-geofencing-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-geofencing-subscriptions-api-openapi.yml
 - filename: camara-project-home-devices-qod-api-openapi.yml
   format: yaml
   label: CAMARA Project Home Devices QoD API
   slug: camara-project-home-devices-qod-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-home-devices-qod-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-home-devices-qod-api-openapi.yml
 - filename: camara-project-location-retrieval-api-openapi.yml
   format: yaml
   label: CAMARA Project Location retrieval API
   slug: camara-project-location-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-location-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-location-retrieval-api-openapi.yml
 - filename: camara-project-match-api-openapi.yml
   format: yaml
   label: CAMARA Project Match API
   slug: camara-project-match-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-match-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-match-api-openapi.yml
 - filename: camara-project-network-quality-api-openapi.yml
   format: yaml
   label: CAMARA Project Network Quality API
   slug: camara-project-network-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-network-quality-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-network-quality-api-openapi.yml
 - filename: camara-project-one-step-payment-api-openapi.yml
   format: yaml
   label: CAMARA Project One Step Payment API
   slug: camara-project-one-step-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-one-step-payment-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-one-step-payment-api-openapi.yml
 - filename: camara-project-otp-management-api-openapi.yml
   format: yaml
   label: CAMARA Project OTP Management API
   slug: camara-project-otp-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-otp-management-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-otp-management-api-openapi.yml
 - filename: camara-project-payment-api-openapi.yml
   format: yaml
   label: CAMARA Project Payment API
   slug: camara-project-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-payment-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-payment-api-openapi.yml
 - filename: camara-project-phone-number-share-api-openapi.yml
   format: yaml
   label: CAMARA Project Phone number share API
   slug: camara-project-phone-number-share-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-phone-number-share-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-phone-number-share-api-openapi.yml
 - filename: camara-project-phone-number-verify-api-openapi.yml
   format: yaml
   label: CAMARA Project Phone number verify API
   slug: camara-project-phone-number-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-phone-number-verify-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-phone-number-verify-api-openapi.yml
 - filename: camara-project-qos-assignment-api-openapi.yml
   format: yaml
   label: CAMARA Project QoS Assignment API
   slug: camara-project-qos-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-qos-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-qos-assignment-api-openapi.yml
 - filename: camara-project-qos-profiles-api-openapi.yml
   format: yaml
   label: CAMARA Project QoS Profiles API
   slug: camara-project-qos-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-qos-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-qos-profiles-api-openapi.yml
 - filename: camara-project-qos-sessions-api-openapi.yml
   format: yaml
   label: CAMARA Project QoS Sessions API
   slug: camara-project-qos-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-qos-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-qos-sessions-api-openapi.yml
 - filename: camara-project-retrieve-device-swap-date-api-openapi.yml
   format: yaml
   label: CAMARA Project Retrieve Device Swap Date API
   slug: camara-project-retrieve-device-swap-date-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-retrieve-device-swap-date-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-retrieve-device-swap-date-api-openapi.yml
 - filename: camara-project-send-sms-api-openapi.yml
   format: yaml
   label: CAMARA Project Send SMS API
   slug: camara-project-send-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-send-sms-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-send-sms-api-openapi.yml
 - filename: camara-project-two-step-payment-api-openapi.yml
   format: yaml
   label: CAMARA Project Two Step Payment API
   slug: camara-project-two-step-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-two-step-payment-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-two-step-payment-api-openapi.yml
 - filename: camara-project-unconditional-call-forwarding-information-retrieval-api-openapi.yml
   format: yaml
   label: CAMARA Project Unconditional Call Forwarding information retrieval API
   slug: camara-project-unconditional-call-forwarding-information-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/openapi/camara-project-unconditional-call-forwarding-information-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/camara-project/openapi/camara-project-unconditional-call-forwarding-information-retrieval-api-openapi.yml
 consequence_counts:
   physical: 8
   read: 14
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/camara
   - path: /payments/prepare\n  method: post\n  operationId: preparePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - carrier-billing:payments:create\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{paymentId}/validate\n  method: post\n  operationId: validatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - carrier-billing:payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{paymentId}/confirm\n  method: post\n  operationId: confirmPayment\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - carrier-billing:payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments/{paymentId}/cancel\n  method: post\n  operationId: cancelPayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - carrier-billing:payments:write\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /unconditional-call-forwardings\n  method: post\n  operationId: retrieveUnconditionalCallForwarding\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    scope:\n    - call-forwarding-signal:unconditional-call-forwardings:read\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/agentic-access/camara-project-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/camara-project/agentic-access/camara-project-agentic-access.yml
 summary_line: 37 operations · 23 acting · 1 human-in-the-loop
 tags:
 - API Standards

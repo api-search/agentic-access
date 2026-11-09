@@ -9,43 +9,43 @@ api_specs:
   label: Microsoft Dynamics 365 Business Central Companies API
   slug: microsoft-dynamics-365-business-central-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-companies-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-customers-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Customers API
   slug: microsoft-dynamics-365-business-central-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-customers-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-items-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Items API
   slug: microsoft-dynamics-365-business-central-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-items-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-vendors-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Vendors API
   slug: microsoft-dynamics-365-business-central-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-vendors-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Purchase Orders API
   slug: microsoft-dynamics-365-business-central-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-purchase-orders-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Sales Invoices API
   slug: microsoft-dynamics-365-business-central-sales-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-sales-invoices-api-openapi.yml
 - filename: microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics 365 Business Central Sales Orders API
   slug: microsoft-dynamics-365-business-central-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/openapi/microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/openapi/microsoft-dynamics-365-business-central-sales-orders-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 12
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \  method: post\n  operationId: salesOrders_create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies({companyId})/salesOrders({id})\n  method: get\n  operationId: salesOrders_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies({companyId})/salesOrders({id})\n  method: patch\n  operationId: salesOrders_update\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /companies({companyId})/salesOrders({id})\n  method: delete\n  operationId: salesOrders_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies({companyId})/salesInvoices\n  method: get\n  operationId: salesInvoices_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies({companyId})/salesInvoices\n  method: post\n  operationId: salesInvoices_create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange:\
   \ true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies({companyId})/purchaseOrders\n  method: get\n  operationId: purchaseOrders_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies({companyId})/purchaseOrders\n  method: post\n  operationId: purchaseOrders_create\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/agentic-access/microsoft-dynamics-365-business-central-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-dynamics-365-business-central/agentic-access/microsoft-dynamics-365-business-central-agentic-access.yml
 summary_line: 26 operations · 14 acting
 tags:
 - ERP

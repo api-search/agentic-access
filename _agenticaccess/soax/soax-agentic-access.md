@@ -9,31 +9,31 @@ api_specs:
   label: SOAX Web Data API
   slug: soax-web-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-web-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-web-data-api-openapi.yml
 - filename: soax-ecommerce-data-api-openapi.yml
   format: yaml
   label: SOAX Ecommerce Data API
   slug: soax-ecommerce-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ecommerce-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ecommerce-data-api-openapi.yml
 - filename: soax-geo-targeting-api-openapi.yml
   format: yaml
   label: SOAX Geo Targeting API
   slug: soax-geo-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-geo-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-geo-targeting-api-openapi.yml
 - filename: soax-ip-whitelist-api-openapi.yml
   format: yaml
   label: SOAX IP Whitelist API
   slug: soax-ip-whitelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-ip-whitelist-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-ip-whitelist-api-openapi.yml
 - filename: soax-serp-data-api-openapi.yml
   format: yaml
   label: SOAX SERP Data API
   slug: soax-serp-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/openapi/soax-serp-data-api-openapi.yml
+  url: https://artifacts.apis.io/soax/openapi/soax-serp-data-api-openapi.yml
 consequence_counts:
   read: 8
   write: 2
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/soax-e
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/geo/regions\n  method: get\n  operationId: listRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/geo/carriers\n  method: get\n  operationId: listMobileCarriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/geo/isps\n  method: get\n  operationId: listWifiIsps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/account/package/{package_key}/ip-list\n  method: get\n  operationId: listWhitelistedIps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /v1/account/package/{package_key}/update-ip\n  method: post\n  operationId: updateWhitelistedIp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/account/package/{package_key}/detach-ip\n  method: post\n  operationId: detachWhitelistedIp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/webdata/serp\n  method: post\n  operationId: fetchSerpData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v2/webdata/fetch-content\n  method: post\n  operationId: fetchWebContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soax/refs/heads/main/agentic-access/soax-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/soax/agentic-access/soax-agentic-access.yml
 summary_line: 10 operations · 2 acting
 tags:
 - Proxy

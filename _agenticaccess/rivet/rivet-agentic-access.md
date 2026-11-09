@@ -9,13 +9,13 @@ api_specs:
   label: Rivet Actors API
   slug: rivet-actors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/openapi/rivet-actors-api-openapi.yml
+  url: https://artifacts.apis.io/rivet/openapi/rivet-actors-api-openapi.yml
 - filename: rivet-gateway-api-openapi.yml
   format: yaml
   label: Rivet Gateway API
   slug: rivet-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/openapi/rivet-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/rivet/openapi/rivet-gateway-api-openapi.yml
 consequence_counts:
   read: 14
   write: 10
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rivet-
   \ none\n- path: /gateway/{actorId}/request/{path}\n  method: options\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/state\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/state\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateway/{actorId}/inspector/connections\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/rpcs\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/action/{name}\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateway/{actorId}/inspector/queue\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/traces\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/workflow-history\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /gateway/{actorId}/inspector/workflow/replay\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /gateway/{actorId}/inspector/summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rivet/refs/heads/main/agentic-access/rivet-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rivet/agentic-access/rivet-agentic-access.yml
 summary_line: 24 operations · 10 acting
 tags:
 - Company

@@ -9,61 +9,61 @@ api_specs:
   label: TrainingPeaks Athlete API
   slug: trainingpeaks-athlete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-athlete-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-athlete-api-openapi.yml
 - filename: trainingpeaks-coach-api-openapi.yml
   format: yaml
   label: TrainingPeaks Coach API
   slug: trainingpeaks-coach-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-coach-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-coach-api-openapi.yml
 - filename: trainingpeaks-events-api-openapi.yml
   format: yaml
   label: TrainingPeaks Events API
   slug: trainingpeaks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-events-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-events-api-openapi.yml
 - filename: trainingpeaks-file-api-openapi.yml
   format: yaml
   label: TrainingPeaks File API
   slug: trainingpeaks-file-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-file-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-file-api-openapi.yml
 - filename: trainingpeaks-info-api-openapi.yml
   format: yaml
   label: TrainingPeaks Info API
   slug: trainingpeaks-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-info-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-info-api-openapi.yml
 - filename: trainingpeaks-metrics-api-openapi.yml
   format: yaml
   label: TrainingPeaks Metrics API
   slug: trainingpeaks-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-metrics-api-openapi.yml
 - filename: trainingpeaks-nutrition-api-openapi.yml
   format: yaml
   label: TrainingPeaks Nutrition API
   slug: trainingpeaks-nutrition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-nutrition-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-nutrition-api-openapi.yml
 - filename: trainingpeaks-routes-api-openapi.yml
   format: yaml
   label: TrainingPeaks Routes API
   slug: trainingpeaks-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-routes-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-routes-api-openapi.yml
 - filename: trainingpeaks-webhooks-api-openapi.yml
   format: yaml
   label: TrainingPeaks Webhooks API
   slug: trainingpeaks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-webhooks-api-openapi.yml
 - filename: trainingpeaks-workouts-api-openapi.yml
   format: yaml
   label: TrainingPeaks Workouts API
   slug: trainingpeaks-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/openapi/trainingpeaks-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/trainingpeaks/openapi/trainingpeaks-workouts-api-openapi.yml
 consequence_counts:
   read: 34
   write: 15
@@ -103,7 +103,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/traini
   \ path: /v2/athletes/{athleteId}/strength-workouts\n  method: get\n  operationId: getStrengthWorkouts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/events/next\n  method: get\n  operationId: getNextEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/events/{date}\n  method: get\n  operationId: getEventsByDate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/events\n  method: post\n  operationId: createEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /v2/athletes/{athleteId}/routes\n  method: get\n  operationId: getRoutes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/athlete/{athleteId}/routes\n  method: post\n  operationId: createRoute\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/subscriptions\n  method: get\n  operationId: getWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhook/subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/subscriptions/{subscriptionId}\n  method: put\n  operationId: updateWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhook/subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trainingpeaks/refs/heads/main/agentic-access/trainingpeaks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trainingpeaks/agentic-access/trainingpeaks-agentic-access.yml
 summary_line: 49 operations · 15 acting
 tags:
 - Fitness

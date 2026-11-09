@@ -9,31 +9,31 @@ api_specs:
   label: Athelas Auth API
   slug: athelas-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-auth-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-auth-api-openapi.yml
 - filename: athelas-patients-api-openapi.yml
   format: yaml
   label: Athelas Patients API
   slug: athelas-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-patients-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-patients-api-openapi.yml
 - filename: athelas-prescribers-api-openapi.yml
   format: yaml
   label: Athelas Prescribers API
   slug: athelas-prescribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-prescribers-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-prescribers-api-openapi.yml
 - filename: athelas-sites-api-openapi.yml
   format: yaml
   label: Athelas Sites API
   slug: athelas-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-sites-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-sites-api-openapi.yml
 - filename: athelas-test-types-api-openapi.yml
   format: yaml
   label: Athelas Test Types API
   slug: athelas-test-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-test-types-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-test-types-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/athela
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patients/{id}/address_verified\n  method: get\n  operationId: address-verified\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/create\n  method: post\n  operationId: create-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sites/{id}/update\n  method: post\n  operationId: edit-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /sites/{id}\n  method: get\n  operationId: get-1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{id}/patients\n  method: get\n  operationId: get-patients\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sites/{id}/prescribers\n  method: get\n  operationId: get-prescribers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /prescribers/create\n  method: post\n  operationId: create-2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prescribers/{id}/update\n\
   \  method: post\n  operationId: update-1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /prescribers/{id}\n  method: get\n  operationId: get-2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test_types/{id}/ship_rpm_device\n  method: post\n  operationId: queue-rpm-device-for-shipping\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/agentic-access/athelas-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/athelas/agentic-access/athelas-agentic-access.yml
 summary_line: 18 operations · 11 acting
 tags:
 - Company

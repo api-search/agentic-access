@@ -8,25 +8,25 @@ api_specs:
   label: United States Steel Inventory API
   slug: united-states-steel-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-inventory-api-openapi.yml
 - filename: united-states-steel-orders-api-openapi.yml
   format: yaml
   label: United States Steel Orders API
   slug: united-states-steel-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-orders-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-orders-api-openapi.yml
 - filename: united-states-steel-shipments-api-openapi.yml
   format: yaml
   label: United States Steel Shipments API
   slug: united-states-steel-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-shipments-api-openapi.yml
 - filename: united-states-steel-test-reports-api-openapi.yml
   format: yaml
   label: United States Steel Test Reports API
   slug: united-states-steel-test-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/openapi/united-states-steel-test-reports-api-openapi.yml
+  url: https://artifacts.apis.io/united-states-steel/openapi/united-states-steel-test-reports-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/united-states-steel-steeltrack-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /orders\n  method: get\n  operationId: listOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orders/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /inventory\n  method: get\n  operationId: listInventory\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /shipments\n  method: get\n  operationId: listShipments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /test-reports\n  method: get\n  operationId: listTestReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/agentic-access/united-states-steel-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/united-states-steel/agentic-access/united-states-steel-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Steel

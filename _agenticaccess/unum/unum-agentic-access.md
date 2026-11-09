@@ -9,37 +9,37 @@ api_specs:
   label: Unum Authentication API
   slug: unum-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-authentication-api-openapi.yml
 - filename: unum-billing-api-openapi.yml
   format: yaml
   label: Unum Billing API
   slug: unum-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-billing-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-billing-api-openapi.yml
 - filename: unum-eligibility-api-openapi.yml
   format: yaml
   label: Unum Eligibility API
   slug: unum-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-eligibility-api-openapi.yml
 - filename: unum-enrollment-api-openapi.yml
   format: yaml
   label: Unum Enrollment API
   slug: unum-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-enrollment-api-openapi.yml
 - filename: unum-evidence-of-insurability-api-openapi.yml
   format: yaml
   label: Unum Evidence of Insurability API
   slug: unum-evidence-of-insurability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-evidence-of-insurability-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-evidence-of-insurability-api-openapi.yml
 - filename: unum-leave-management-api-openapi.yml
   format: yaml
   label: Unum Leave Management API
   slug: unum-leave-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/openapi/unum-leave-management-api-openapi.yml
+  url: https://artifacts.apis.io/unum/openapi/unum-leave-management-api-openapi.yml
 consequence_counts:
   read: 10
   safety-critical: 1
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/unum-h
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path: /leave/requests/{requestId}\n  method: get\n  operationId: getLeaveRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path: /leave/requests/{requestId}\n  method: put\n  operationId: updateLeaveRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path:\
   \ /eoi/submissions\n  method: get\n  operationId: listEoiSubmissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path: /eoi/submissions\n  method: post\n  operationId: submitEoi\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path: /eoi/submissions/{submissionId}\n  method: get\n  operationId: getEoiSubmission\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path: /billing/invoices\n  method: get\n  operationId: listBillingInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n- path: /billing/invoices/{invoiceId}\n  method: get\n  operationId: getBillingInvoice\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - billing:read\n    - eligibility:read\n    - enrollment:read\n    - eoi:read\n    - leave:read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/agentic-access/unum-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unum/agentic-access/unum-agentic-access.yml
 summary_line: 18 operations · 8 acting · 1 human-in-the-loop
 tags:
 - Insurance

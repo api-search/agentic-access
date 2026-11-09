@@ -8,31 +8,31 @@ api_specs:
   label: Larridin Adoption API
   slug: larridin-adoption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-adoption-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-adoption-api-openapi.yml
 - filename: larridin-proficiency-api-openapi.yml
   format: yaml
   label: Larridin Proficiency API
   slug: larridin-proficiency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-proficiency-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-proficiency-api-openapi.yml
 - filename: larridin-surveys-api-openapi.yml
   format: yaml
   label: Larridin Surveys API
   slug: larridin-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-surveys-api-openapi.yml
 - filename: larridin-tools-api-openapi.yml
   format: yaml
   label: Larridin Tools API
   slug: larridin-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-tools-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-tools-api-openapi.yml
 - filename: larridin-workflow-intelligence-api-openapi.yml
   format: yaml
   label: Larridin Workflow Intelligence API
   slug: larridin-workflow-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/openapi/larridin-workflow-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/larridin/openapi/larridin-workflow-intelligence-api-openapi.yml
 consequence_counts:
   read: 41
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/larrid
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/ai/breakdown\n  method: get\n  operationId: getWorkflowAiBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/ai/category-outcome-breakdown\n  method: get\n  operationId: getWorkflowAiCategoryOutcomeBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/overview\n  method: get\n  operationId: getWorkflowToolsOverview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/search\n  method: get\n  operationId: getWorkflowToolsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/{toolId}\n  method: get\n  operationId: getWorkflowToolsByToolid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/{toolId}/verdict\n  method: get\n  operationId: getWorkflowToolsByToolidVerdict\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/{toolId}/category-outcome\n  method: get\n  operationId: getWorkflowToolsByToolidCategoryOutcome\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/{toolId}/frictions\n  method: get\n  operationId: getWorkflowToolsByToolidFrictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflow/tools/{toolId}/workflows\n  method: get\n  operationId: getWorkflowToolsByToolidWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/larridin/refs/heads/main/agentic-access/larridin-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/larridin/agentic-access/larridin-agentic-access.yml
 summary_line: 41 operations
 tags:
 - Company

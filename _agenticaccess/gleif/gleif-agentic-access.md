@@ -8,31 +8,31 @@ api_specs:
   label: GLEIF Corporate Relationships API
   slug: gleif-corporate-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/openapi/gleif-corporate-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/gleif/openapi/gleif-corporate-relationships-api-openapi.yml
 - filename: gleif-lei-issuers-api-openapi.yml
   format: yaml
   label: GLEIF LEI Issuers API
   slug: gleif-lei-issuers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/openapi/gleif-lei-issuers-api-openapi.yml
+  url: https://artifacts.apis.io/gleif/openapi/gleif-lei-issuers-api-openapi.yml
 - filename: gleif-lei-records-api-openapi.yml
   format: yaml
   label: GLEIF LEI Records API
   slug: gleif-lei-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/openapi/gleif-lei-records-api-openapi.yml
+  url: https://artifacts.apis.io/gleif/openapi/gleif-lei-records-api-openapi.yml
 - filename: gleif-reference-data-api-openapi.yml
   format: yaml
   label: GLEIF Reference Data API
   slug: gleif-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/openapi/gleif-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/gleif/openapi/gleif-reference-data-api-openapi.yml
 - filename: gleif-search-api-openapi.yml
   format: yaml
   label: GLEIF Search API
   slug: gleif-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/openapi/gleif-search-api-openapi.yml
+  url: https://artifacts.apis.io/gleif/openapi/gleif-search-api-openapi.yml
 consequence_counts:
   read: 16
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gleif-
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lei-issuers\n  method: get\n  operationId: listLeiIssuers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lei-issuers/{id}\n  method: get\n  operationId: getLeiIssuer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lei-issuers/{id}/jurisdictions\n  method: get\n  operationId: getLeiIssuerJurisdictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /lei-issuers/{id}/fundJurisdictions\n  method: get\n  operationId: getLeiIssuerFundJurisdictions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fuzzycompletions\n  method: get\n  operationId: getFuzzyCompletions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity-legal-forms\n  method: get\n  operationId: listEntityLegalForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entity-legal-forms/{id}\n  method: get\n  operationId: getEntityLegalForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /registration-authorities\n  method: get\n  operationId: listRegistrationAuthorities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /registration-authorities/{id}\n  method: get\n  operationId: getRegistrationAuthority\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gleif/refs/heads/main/agentic-access/gleif-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gleif/agentic-access/gleif-agentic-access.yml
 summary_line: 16 operations
 tags:
 - Legal Entity Identifier

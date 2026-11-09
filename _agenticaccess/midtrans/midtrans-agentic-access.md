@@ -9,43 +9,43 @@ api_specs:
   label: Midtrans Card Tokenization API
   slug: midtrans-card-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-card-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-card-tokenization-api-openapi.yml
 - filename: midtrans-core-api-api-openapi.yml
   format: yaml
   label: Midtrans Core API
   slug: midtrans-core-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-core-api-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-core-api-api-openapi.yml
 - filename: midtrans-gopay-tokenization-api-openapi.yml
   format: yaml
   label: Midtrans GoPay Tokenization API
   slug: midtrans-gopay-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-gopay-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-gopay-tokenization-api-openapi.yml
 - filename: midtrans-iris-disbursement-api-openapi.yml
   format: yaml
   label: Midtrans Iris Disbursement API
   slug: midtrans-iris-disbursement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-iris-disbursement-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-iris-disbursement-api-openapi.yml
 - filename: midtrans-payment-link-api-openapi.yml
   format: yaml
   label: Midtrans Payment Link API
   slug: midtrans-payment-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-payment-link-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-payment-link-api-openapi.yml
 - filename: midtrans-snap-api-openapi.yml
   format: yaml
   label: Midtrans Snap API
   slug: midtrans-snap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-snap-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-snap-api-openapi.yml
 - filename: midtrans-subscription-api-openapi.yml
   format: yaml
   label: Midtrans Subscription API
   slug: midtrans-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/openapi/midtrans-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/midtrans/openapi/midtrans-subscription-api-openapi.yml
 consequence_counts:
   physical: 13
   read: 12
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/midtra
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iris/api/v1/beneficiaries/{alias_name}\n  method: patch\n  operationId: updateBeneficiary\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iris/api/v1/payouts\n  method: post\n  operationId: createPayouts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iris/api/v1/payouts/approve\n  method: post\n  operationId: approvePayouts\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iris/api/v1/payouts/reject\n  method: post\n  operationId: rejectPayouts\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /iris/api/v1/payouts/{reference_no}\n  method: get\n  operationId: getPayoutDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iris/api/v1/balance\n  method: get\n  operationId:\
   \ getBalance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iris/api/v1/bank_accounts\n  method: get\n  operationId: listBankAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /iris/api/v1/account_validation\n  method: get\n  operationId: validateBankAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/midtrans/refs/heads/main/agentic-access/midtrans-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/midtrans/agentic-access/midtrans-agentic-access.yml
 summary_line: 33 operations · 21 acting · 1 human-in-the-loop
 tags:
 - Payments

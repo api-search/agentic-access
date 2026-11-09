@@ -9,55 +9,55 @@ api_specs:
   label: Unstoppable Finance (Iron) Addresses API
   slug: unstoppable-finance-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-addresses-api-openapi.yml
 - filename: unstoppable-finance-autoramp-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Autoramp API
   slug: unstoppable-finance-autoramp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-autoramp-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-autoramp-api-openapi.yml
 - filename: unstoppable-finance-currencies-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Currencies API
   slug: unstoppable-finance-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-currencies-api-openapi.yml
 - filename: unstoppable-finance-customer-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Customer API
   slug: unstoppable-finance-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-customer-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-customer-api-openapi.yml
 - filename: unstoppable-finance-sandbox-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Sandbox API
   slug: unstoppable-finance-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-sandbox-api-openapi.yml
 - filename: unstoppable-finance-webhooks-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Webhooks API
   slug: unstoppable-finance-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-webhooks-api-openapi.yml
 - filename: unstoppable-finance-exchange-rate-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Exchange Rate API
   slug: unstoppable-finance-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-exchange-rate-api-openapi.yml
 - filename: unstoppable-finance-fee-profiles-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Fee Profiles API
   slug: unstoppable-finance-fee-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-fee-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-fee-profiles-api-openapi.yml
 - filename: unstoppable-finance-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Unstoppable Finance (Iron) Terms And Conditions API
   slug: unstoppable-finance-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/openapi/unstoppable-finance-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/unstoppable-finance/openapi/unstoppable-finance-terms-and-conditions-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 38
@@ -125,7 +125,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/unstop
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/reset\n  method: post\n  operationId: resetSandbox\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /sandbox/transaction\n  method: post\n  operationId: createSandboxTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sandbox/transaction/{id}/state\n  method: put\n  operationId: updateSandboxTransactionState\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /terms-and-conditions\n  method: get\n  operationId: getAllCurrentTermsAndConditions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}/ping\n  method: post\n  operationId: pingWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unstoppable-finance/refs/heads/main/agentic-access/unstoppable-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/unstoppable-finance/agentic-access/unstoppable-finance-agentic-access.yml
 summary_line: 69 operations · 31 acting · 2 human-in-the-loop
 tags:
 - Company

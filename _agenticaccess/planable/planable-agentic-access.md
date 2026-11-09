@@ -9,67 +9,67 @@ api_specs:
   label: Planable Campaigns API
   slug: planable-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-campaigns-api-openapi.yml
 - filename: planable-competitors-api-openapi.yml
   format: yaml
   label: Planable Competitors API
   slug: planable-competitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-competitors-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-competitors-api-openapi.yml
 - filename: planable-labels-api-openapi.yml
   format: yaml
   label: Planable Labels API
   slug: planable-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-labels-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-labels-api-openapi.yml
 - filename: planable-media-api-openapi.yml
   format: yaml
   label: Planable Media API
   slug: planable-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-media-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-media-api-openapi.yml
 - filename: planable-members-api-openapi.yml
   format: yaml
   label: Planable Members API
   slug: planable-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-members-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-members-api-openapi.yml
 - filename: planable-pages-api-openapi.yml
   format: yaml
   label: Planable Pages API
   slug: planable-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-pages-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-pages-api-openapi.yml
 - filename: planable-posts-api-openapi.yml
   format: yaml
   label: Planable Posts API
   slug: planable-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-posts-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-posts-api-openapi.yml
 - filename: planable-social-listening-api-openapi.yml
   format: yaml
   label: Planable Social Listening API
   slug: planable-social-listening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-social-listening-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-social-listening-api-openapi.yml
 - filename: planable-stories-api-openapi.yml
   format: yaml
   label: Planable Stories API
   slug: planable-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-stories-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-stories-api-openapi.yml
 - filename: planable-system-api-openapi.yml
   format: yaml
   label: Planable System API
   slug: planable-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-system-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-system-api-openapi.yml
 - filename: planable-workspaces-api-openapi.yml
   format: yaml
   label: Planable Workspaces API
   slug: planable-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/openapi/planable-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/planable/openapi/planable-workspaces-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 26
@@ -140,7 +140,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/planab
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keywords/{keywordId}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /keywords/{keywordId}/mentions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/{keywordId}/metrics/summary\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/{keywordId}/metrics\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /keywords/{keywordId}/sync-status\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stories\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ping\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workspaces\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workspaces/{id}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/planable/refs/heads/main/agentic-access/planable-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/planable/agentic-access/planable-agentic-access.yml
 summary_line: 51 operations · 25 acting · 3 human-in-the-loop
 tags:
 - Social Media

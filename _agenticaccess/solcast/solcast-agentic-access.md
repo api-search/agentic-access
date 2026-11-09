@@ -9,37 +9,37 @@ api_specs:
   label: Solcast Aggregations API
   slug: solcast-aggregations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-aggregations-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-aggregations-api-openapi.yml
 - filename: solcast-forecast-data-api-openapi.yml
   format: yaml
   label: Solcast Forecast Data API
   slug: solcast-forecast-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-forecast-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-forecast-data-api-openapi.yml
 - filename: solcast-historic-data-api-openapi.yml
   format: yaml
   label: Solcast Historic Data API
   slug: solcast-historic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-historic-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-historic-data-api-openapi.yml
 - filename: solcast-live-data-api-openapi.yml
   format: yaml
   label: Solcast Live Data API
   slug: solcast-live-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-live-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-live-data-api-openapi.yml
 - filename: solcast-pv-power-sites-api-openapi.yml
   format: yaml
   label: Solcast PV Power Sites API
   slug: solcast-pv-power-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-pv-power-sites-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-pv-power-sites-api-openapi.yml
 - filename: solcast-tmy-data-api-openapi.yml
   format: yaml
   label: Solcast TMY Data API
   slug: solcast-tmy-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/openapi/solcast-tmy-data-api-openapi.yml
+  url: https://artifacts.apis.io/solcast/openapi/solcast-tmy-data-api-openapi.yml
 consequence_counts:
   read: 21
   write: 4
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/solcas
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/historic/soiling/hsu\n  method: get\n  operationId: getHistoricSoilingHsu\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/tmy/radiation_and_weather\n  method: get\n  operationId: getTmyRadiationAndWeather\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/tmy/rooftop_pv_power\n  method: get\n  operationId: getTmyRooftopPvPower\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /data/live/aggregations\n  method: get\n  operationId: getLiveAggregations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n   \
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources/pv_power_sites\n  method: get\n  operationId: listPvPowerSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources/pv_power_site\n  method: get\n  operationId: getPvPowerSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /resources/pv_power_site\n  method: post\n  operationId: createPvPowerSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources/pv_power_site\n  method: patch\n  operationId: patchPvPowerSite\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources/pv_power_site\n  method: put\n  operationId: updatePvPowerSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /resources/pv_power_site\n  method: delete\n  operationId: deletePvPowerSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/agentic-access/solcast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/solcast/agentic-access/solcast-agentic-access.yml
 summary_line: 25 operations · 4 acting
 tags:
 - Solar

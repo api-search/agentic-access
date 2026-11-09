@@ -9,67 +9,67 @@ api_specs:
   label: Verta AuthzService API
   slug: verta-authzservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-authzservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-authzservice-api-openapi.yml
 - filename: verta-datasetservice-api-openapi.yml
   format: yaml
   label: Verta DatasetService API
   slug: verta-datasetservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-datasetservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-datasetservice-api-openapi.yml
 - filename: verta-experimentrunservice-api-openapi.yml
   format: yaml
   label: Verta ExperimentRunService API
   slug: verta-experimentrunservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-experimentrunservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-experimentrunservice-api-openapi.yml
 - filename: verta-experimentservice-api-openapi.yml
   format: yaml
   label: Verta ExperimentService API
   slug: verta-experimentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-experimentservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-experimentservice-api-openapi.yml
 - filename: verta-monitoredentityservice-api-openapi.yml
   format: yaml
   label: Verta MonitoredEntityService API
   slug: verta-monitoredentityservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-monitoredentityservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-monitoredentityservice-api-openapi.yml
 - filename: verta-projectservice-api-openapi.yml
   format: yaml
   label: Verta ProjectService API
   slug: verta-projectservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-projectservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-projectservice-api-openapi.yml
 - filename: verta-registryservice-api-openapi.yml
   format: yaml
   label: Verta RegistryService API
   slug: verta-registryservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-registryservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-registryservice-api-openapi.yml
 - filename: verta-scimconfigurationservice-api-openapi.yml
   format: yaml
   label: Verta SCIMConfigurationService API
   slug: verta-scimconfigurationservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-scimconfigurationservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-scimconfigurationservice-api-openapi.yml
 - filename: verta-stageservice-api-openapi.yml
   format: yaml
   label: Verta StageService API
   slug: verta-stageservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-stageservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-stageservice-api-openapi.yml
 - filename: verta-uacservice-api-openapi.yml
   format: yaml
   label: Verta UACService API
   slug: verta-uacservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-uacservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-uacservice-api-openapi.yml
 - filename: verta-versioningservice-api-openapi.yml
   format: yaml
   label: Verta VersioningService API
   slug: verta-versioningservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/openapi/verta-versioningservice-api-openapi.yml
+  url: https://artifacts.apis.io/verta/openapi/verta-versioningservice-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 86
@@ -144,8 +144,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/verta-
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/addExperimentTags\n  method: post\n  operationId: ExperimentService_addExperimentTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/createExperiment\n  method: post\n  operationId: ExperimentService_createExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/deleteArtifact\n  method: delete\n\
   \  operationId: ExperimentService_deleteArtifact\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/deleteExperiment\n  method: delete\n  operationId: ExperimentService_deleteExperiment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/deleteExperimentAttributes\n  method: delete\n  operationId: ExperimentService_deleteExperimentAttributes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/deleteExperimentTag\n  method: delete\n  operationId: ExperimentService_deleteExperimentTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/deleteExperimentTags\n  method: delete\n  operationId: ExperimentService_deleteExperimentTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/deleteExperiments\n  method: delete\n  operationId: ExperimentService_deleteExperiments\n\
-  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/findExperiments\n  method: post\n  operationId: ExperimentService_findExperiments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/getArtifacts\n  method: get\n  operationId: ExperimentService_getArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (90 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/agentic-access/verta-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verta/refs/heads/main/agentic-access/verta-agentic-access.yml
+  \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/findExperiments\n  method: post\n  operationId: ExperimentService_findExperiments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /experiment/getArtifacts\n  method: get\n  operationId: ExperimentService_getArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (90 KB total) ---\n# Full source: https://artifacts.apis.io/verta/agentic-access/verta-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/verta/agentic-access/verta-agentic-access.yml
 summary_line: 264 operations · 178 acting
 tags:
 - MLOps

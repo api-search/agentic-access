@@ -9,79 +9,79 @@ api_specs:
   label: Sysdig Activity Audit API
   slug: sysdig-activity-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-activity-audit-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-activity-audit-api-openapi.yml
 - filename: sysdig-alerts-api-openapi.yml
   format: yaml
   label: Sysdig Alerts API
   slug: sysdig-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-alerts-api-openapi.yml
 - filename: sysdig-compliance-api-openapi.yml
   format: yaml
   label: Sysdig Compliance API
   slug: sysdig-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-compliance-api-openapi.yml
 - filename: sysdig-dashboards-api-openapi.yml
   format: yaml
   label: Sysdig Dashboards API
   slug: sysdig-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-dashboards-api-openapi.yml
 - filename: sysdig-events-api-openapi.yml
   format: yaml
   label: Sysdig Events API
   slug: sysdig-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-events-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-events-api-openapi.yml
 - filename: sysdig-image-scanning-api-openapi.yml
   format: yaml
   label: Sysdig Image Scanning API
   slug: sysdig-image-scanning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-image-scanning-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-image-scanning-api-openapi.yml
 - filename: sysdig-metrics-api-openapi.yml
   format: yaml
   label: Sysdig Metrics API
   slug: sysdig-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-metrics-api-openapi.yml
 - filename: sysdig-notification-channels-api-openapi.yml
   format: yaml
   label: Sysdig Notification Channels API
   slug: sysdig-notification-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-notification-channels-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-notification-channels-api-openapi.yml
 - filename: sysdig-policies-api-openapi.yml
   format: yaml
   label: Sysdig Policies API
   slug: sysdig-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-policies-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-policies-api-openapi.yml
 - filename: sysdig-rules-api-openapi.yml
   format: yaml
   label: Sysdig Rules API
   slug: sysdig-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-rules-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-rules-api-openapi.yml
 - filename: sysdig-sbom-api-openapi.yml
   format: yaml
   label: Sysdig SBOM API
   slug: sysdig-sbom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-sbom-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-sbom-api-openapi.yml
 - filename: sysdig-teams-api-openapi.yml
   format: yaml
   label: Sysdig Teams API
   slug: sysdig-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-teams-api-openapi.yml
 - filename: sysdig-vulnerabilities-api-openapi.yml
   format: yaml
   label: Sysdig Vulnerabilities API
   slug: sysdig-vulnerabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/openapi/sysdig-vulnerabilities-api-openapi.yml
+  url: https://artifacts.apis.io/sysdig/openapi/sysdig-vulnerabilities-api-openapi.yml
 consequence_counts:
   read: 23
   write: 20
@@ -121,7 +121,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/sysdig
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/scanning/v1/images/{imageId}/sbom\n  method: get\n  operationId: getImageSBOM\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams\n  method: get\n  operationId: listTeams\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams\n  method: post\n  operationId: createTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams/{teamId}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/teams/{teamId}\n  method: put\n  operationId: updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/teams/{teamId}\n  method: delete\n  operationId: deleteTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/scanning/v1/resultsDirect\n\
   \  method: get\n  operationId: listVulnerabilityResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/scanning/v1/images/{imageId}/vulnDirect\n  method: get\n  operationId: getImageVulnerabilities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/agentic-access/sysdig-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sysdig/agentic-access/sysdig-agentic-access.yml
 summary_line: 43 operations · 20 acting
 tags:
 - Cloud Security

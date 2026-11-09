@@ -9,43 +9,43 @@ api_specs:
   label: Onomondo Connectors API
   slug: onomondo-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-connectors-api-openapi.yml
 - filename: onomondo-network-lists-api-openapi.yml
   format: yaml
   label: Onomondo Network Lists API
   slug: onomondo-network-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-network-lists-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-network-lists-api-openapi.yml
 - filename: onomondo-sms-api-openapi.yml
   format: yaml
   label: Onomondo SMS API
   slug: onomondo-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sms-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-sms-api-openapi.yml
 - filename: onomondo-tags-api-openapi.yml
   format: yaml
   label: Onomondo Tags API
   slug: onomondo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-tags-api-openapi.yml
 - filename: onomondo-usage-api-openapi.yml
   format: yaml
   label: Onomondo Usage API
   slug: onomondo-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-usage-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-usage-api-openapi.yml
 - filename: onomondo-webhooks-api-openapi.yml
   format: yaml
   label: Onomondo Webhooks API
   slug: onomondo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-webhooks-api-openapi.yml
 - filename: onomondo-sims-api-openapi.yml
   format: yaml
   label: Onomondo SI Ms API
   slug: onomondo-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/openapi/onomondo-sims-api-openapi.yml
+  url: https://artifacts.apis.io/onomondo/openapi/onomondo-sims-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 14
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/onomon
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{webhook_id}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors\n  method: get\n  operationId: listConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connectors\n  method: post\n  operationId: createConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors/{connector_name}\n  method: patch\n  operationId: updateConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /connectors/{connector_name}\n  method: delete\n  operationId: deleteConnector\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tags/search/tags\n  method: get\n  operationId: searchTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/onomondo/refs/heads/main/agentic-access/onomondo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/onomondo/agentic-access/onomondo-agentic-access.yml
 summary_line: 28 operations · 14 acting
 tags:
 - IoT

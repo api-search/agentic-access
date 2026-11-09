@@ -9,61 +9,61 @@ api_specs:
   label: Vast.ai Accounts API
   slug: vast-ai-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-accounts-api-openapi.yml
 - filename: vast-ai-billing-api-openapi.yml
   format: yaml
   label: Vast.ai Billing API
   slug: vast-ai-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-billing-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-billing-api-openapi.yml
 - filename: vast-ai-instances-api-openapi.yml
   format: yaml
   label: Vast.ai Instances API
   slug: vast-ai-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-instances-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-instances-api-openapi.yml
 - filename: vast-ai-machines-api-openapi.yml
   format: yaml
   label: Vast.ai Machines API
   slug: vast-ai-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-machines-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-machines-api-openapi.yml
 - filename: vast-ai-network-volumes-api-openapi.yml
   format: yaml
   label: Vast.ai Network Volumes API
   slug: vast-ai-network-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-network-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-network-volumes-api-openapi.yml
 - filename: vast-ai-search-api-openapi.yml
   format: yaml
   label: Vast.ai Search API
   slug: vast-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-search-api-openapi.yml
 - filename: vast-ai-serverless-api-openapi.yml
   format: yaml
   label: Vast.ai Serverless API
   slug: vast-ai-serverless-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-serverless-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-serverless-api-openapi.yml
 - filename: vast-ai-team-api-openapi.yml
   format: yaml
   label: Vast.ai Team API
   slug: vast-ai-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-team-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-team-api-openapi.yml
 - filename: vast-ai-templates-api-openapi.yml
   format: yaml
   label: Vast.ai Templates API
   slug: vast-ai-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-templates-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-templates-api-openapi.yml
 - filename: vast-ai-volumes-api-openapi.yml
   format: yaml
   label: Vast.ai Volumes API
   slug: vast-ai-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/openapi/vast-ai-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/vast-ai/openapi/vast-ai-volumes-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 32
@@ -139,7 +139,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vast-a
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/team/roles-full/\n  method: get\n  operationId: getApiV0TeamRolesFull\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/template/\n  method: post\n  operationId: postApiV0Template\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/volumes\n  method: delete\n  operationId: deleteApiV0Volumes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/volumes/\n  method: put\n  operationId: putApiV0Volumes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/volumes/\n  method: get\n  operationId: getApiV0Volumes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/volumes/search/\n  method: post\n  operationId: postApiV0VolumesSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/volumes/unlist\n\
   \  method: post\n  operationId: postApiV0VolumesUnlist\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vast-ai/refs/heads/main/agentic-access/vast-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vast-ai/agentic-access/vast-ai-agentic-access.yml
 summary_line: 89 operations · 57 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

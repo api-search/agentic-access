@@ -9,103 +9,103 @@ api_specs:
   label: Interfolio Activities API
   slug: interfolio-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-activities-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-activities-api-openapi.yml
 - filename: interfolio-activity-classifications-api-openapi.yml
   format: yaml
   label: Interfolio Activity Classifications API
   slug: interfolio-activity-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-activity-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-activity-classifications-api-openapi.yml
 - filename: interfolio-activity-input-api-openapi.yml
   format: yaml
   label: Interfolio Activity Input API
   slug: interfolio-activity-input-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-activity-input-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-activity-input-api-openapi.yml
 - filename: interfolio-courses-api-openapi.yml
   format: yaml
   label: Interfolio Courses API
   slug: interfolio-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-courses-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-courses-api-openapi.yml
 - filename: interfolio-download-attachments-api-openapi.yml
   format: yaml
   label: Interfolio Download Attachments API
   slug: interfolio-download-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-download-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-download-attachments-api-openapi.yml
 - filename: interfolio-emails-api-openapi.yml
   format: yaml
   label: Interfolio Emails API
   slug: interfolio-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-emails-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-emails-api-openapi.yml
 - filename: interfolio-evaluations-api-openapi.yml
   format: yaml
   label: Interfolio Evaluations API
   slug: interfolio-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-evaluations-api-openapi.yml
 - filename: interfolio-faculty-classifications-api-openapi.yml
   format: yaml
   label: Interfolio Faculty Classifications API
   slug: interfolio-faculty-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-faculty-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-faculty-classifications-api-openapi.yml
 - filename: interfolio-faq-api-openapi.yml
   format: yaml
   label: Interfolio FAQ API
   slug: interfolio-faq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-faq-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-faq-api-openapi.yml
 - filename: interfolio-permissions-api-openapi.yml
   format: yaml
   label: Interfolio Permissions API
   slug: interfolio-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-permissions-api-openapi.yml
 - filename: interfolio-sections-api-openapi.yml
   format: yaml
   label: Interfolio Sections API
   slug: interfolio-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-sections-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-sections-api-openapi.yml
 - filename: interfolio-sso-api-openapi.yml
   format: yaml
   label: Interfolio SSO API
   slug: interfolio-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-sso-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-sso-api-openapi.yml
 - filename: interfolio-terms-api-openapi.yml
   format: yaml
   label: Interfolio Terms API
   slug: interfolio-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-terms-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-terms-api-openapi.yml
 - filename: interfolio-units-api-openapi.yml
   format: yaml
   label: Interfolio Units API
   slug: interfolio-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-units-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-units-api-openapi.yml
 - filename: interfolio-user-data-api-openapi.yml
   format: yaml
   label: Interfolio User Data API
   slug: interfolio-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-user-data-api-openapi.yml
 - filename: interfolio-users-api-openapi.yml
   format: yaml
   label: Interfolio Users API
   slug: interfolio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-users-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-users-api-openapi.yml
 - filename: interfolio-vitas-api-openapi.yml
   format: yaml
   label: Interfolio Vitas API
   slug: interfolio-vitas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/openapi/interfolio-vitas-api-openapi.yml
+  url: https://artifacts.apis.io/interfolio/openapi/interfolio-vitas-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 36
@@ -154,7 +154,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: generated\nsource: openapi/interf
   \  method: get\n  operationId: userdata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api.php/users/permissions\n  method: get\n  operationId: facultyPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api.php/users/permissions\n  method: post\n  operationId: createUsersPermissions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api.php/users/{userid}/permissions\n  method: get\n  operationId: facultyPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /users/activity_input_request\n  method: get\n  operationId: ActivityInputRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/current\n  method: get\n  operationId: CurrentUserPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api.php/vitas\n  method: get\n  operationId: vitas\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api.php/vitas/{vitaid}/{userid}\n  method: get\n  operationId: userVita\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{tenant_id}/vita_templates\n  method: get\n  operationId: userVita\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interfolio/refs/heads/main/agentic-access/interfolio-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/interfolio/agentic-access/interfolio-agentic-access.yml
 summary_line: 56 operations · 20 acting
 tags:
 - Company

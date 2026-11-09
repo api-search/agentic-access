@@ -9,67 +9,67 @@ api_specs:
   label: Semaphore Dashboards API
   slug: semaphore-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-dashboards-api-openapi.yml
 - filename: semaphore-deploymenttargets-api-openapi.yml
   format: yaml
   label: Semaphore DeploymentTargets API
   slug: semaphore-deploymenttargets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-deploymenttargets-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-deploymenttargets-api-openapi.yml
 - filename: semaphore-notifications-api-openapi.yml
   format: yaml
   label: Semaphore Notifications API
   slug: semaphore-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-notifications-api-openapi.yml
 - filename: semaphore-pipelines-api-openapi.yml
   format: yaml
   label: Semaphore Pipelines API
   slug: semaphore-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-pipelines-api-openapi.yml
 - filename: semaphore-projects-api-openapi.yml
   format: yaml
   label: Semaphore Projects API
   slug: semaphore-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-projects-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-projects-api-openapi.yml
 - filename: semaphore-projectsecrets-api-openapi.yml
   format: yaml
   label: Semaphore ProjectSecrets API
   slug: semaphore-projectsecrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-projectsecrets-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-projectsecrets-api-openapi.yml
 - filename: semaphore-secrets-api-openapi.yml
   format: yaml
   label: Semaphore Secrets API
   slug: semaphore-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-secrets-api-openapi.yml
 - filename: semaphore-selfhostedagents-api-openapi.yml
   format: yaml
   label: Semaphore SelfHostedAgents API
   slug: semaphore-selfhostedagents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-selfhostedagents-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-selfhostedagents-api-openapi.yml
 - filename: semaphore-selfhostedagenttypes-api-openapi.yml
   format: yaml
   label: Semaphore SelfHostedAgentTypes API
   slug: semaphore-selfhostedagenttypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-selfhostedagenttypes-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-selfhostedagenttypes-api-openapi.yml
 - filename: semaphore-tasks-api-openapi.yml
   format: yaml
   label: Semaphore Tasks API
   slug: semaphore-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-tasks-api-openapi.yml
 - filename: semaphore-workflows-api-openapi.yml
   format: yaml
   label: Semaphore Workflows API
   slug: semaphore-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/openapi/semaphore-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/semaphore/openapi/semaphore-workflows-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 24
@@ -160,7 +160,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/semaph
   \  method: put\n  operationId: SelfHostedAgentTypes.Update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /self_hosted_agent_types/{agent_type_name}/disable_all\n  method: post\n  operationId: SelfHostedAgentTypes.DisableAll\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /workflows\n  method: get\n  operationId: Workflows.List\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n\
   \  method: post\n  operationId: Workflows.Schedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{wf_id}\n  method: get\n  operationId: Workflows.Describe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{wf_id}/reschedule\n  method: post\n  operationId: Workflows.Reschedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /workflows/{wf_id}/terminate\n  method: post\n  operationId: Workflows.Terminate\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /yaml\n  method: post\n  operationId: Pipelines.ValidateYaml\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/agentic-access/semaphore-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/semaphore/agentic-access/semaphore-agentic-access.yml
 summary_line: 59 operations · 35 acting · 3 human-in-the-loop
 tags:
 - CI/CD

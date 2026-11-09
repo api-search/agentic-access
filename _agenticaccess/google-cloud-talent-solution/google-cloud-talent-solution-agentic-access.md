@@ -9,19 +9,19 @@ api_specs:
   label: Google Cloud Talent Solution Companies API
   slug: google-cloud-talent-solution-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-companies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-companies-api-openapi.yml
 - filename: google-cloud-talent-solution-jobs-api-openapi.yml
   format: yaml
   label: Google Cloud Talent Solution Jobs API
   slug: google-cloud-talent-solution-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-jobs-api-openapi.yml
 - filename: google-cloud-talent-solution-tenants-api-openapi.yml
   format: yaml
   label: Google Cloud Talent Solution Tenants API
   slug: google-cloud-talent-solution-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/openapi/google-cloud-talent-solution-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-talent-solution/openapi/google-cloud-talent-solution-tenants-api-openapi.yml
 consequence_counts:
   read: 6
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/google
   \ get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/tenants/{tenantId}/jobs/{jobId}\n  method: patch\n  operationId: updateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/tenants/{tenantId}/jobs/{jobId}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/tenants/{tenantId}/jobs:search\n\
   \  method: post\n  operationId: searchJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/tenants\n  method: get\n  operationId: listTenants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /projects/{projectId}/tenants\n  method: post\n  operationId: createTenant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /projects/{projectId}/tenants/{tenantId}\n  method: get\n  operationId: getTenant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /projects/{projectId}/tenants/{tenantId}\n  method: delete\n  operationId: deleteTenant\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/agentic-access/google-cloud-talent-solution-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-talent-solution/agentic-access/google-cloud-talent-solution-agentic-access.yml
 summary_line: 12 operations · 6 acting
 tags:
 - Google Cloud

@@ -9,19 +9,19 @@ api_specs:
   label: Snowplow Authentication API
   slug: snowplow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-authentication-api-openapi.yml
 - filename: snowplow-data-products-api-openapi.yml
   format: yaml
   label: Snowplow Data Products API
   slug: snowplow-data-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-products-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-products-api-openapi.yml
 - filename: snowplow-data-structures-api-openapi.yml
   format: yaml
   label: Snowplow Data Structures API
   slug: snowplow-data-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-structures-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-structures-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/snowpl
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/data-structures/v1/{dataStructureHash}/deployments\n  method: get\n  operationId: getDataStructureDeployments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/data-structures/v1/deployment-requests\n  method: post\n  operationId: deployDataStructure\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/data-structures/v1/{dataStructureHash}/meta\n\
   \  method: put\n  operationId: updateDataStructureMeta\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/data-products/v2\n  method: get\n  operationId: listDataProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/data-products/v2\n  method: post\n  operationId: createDataProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/data-products/v2/{dataProductId}\n\
   \  method: get\n  operationId: getDataProduct\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/data-products/v2/{dataProductId}\n  method: post\n  operationId: updateDataProduct\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /organizations/{organizationId}/data-products/v2/{dataProductId}/history\n  method: get\n  operationId: getDataProductHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/agentic-access/snowplow-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/snowplow/agentic-access/snowplow-agentic-access.yml
 summary_line: 13 operations · 6 acting
 tags:
 - Analytics Platform

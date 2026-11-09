@@ -9,85 +9,85 @@ api_specs:
   label: Mithril API Keys API
   slug: mithril-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-api-keys-api-openapi.yml
 - filename: mithril-image-versions-api-openapi.yml
   format: yaml
   label: Mithril image versions API
   slug: mithril-image-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-image-versions-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-image-versions-api-openapi.yml
 - filename: mithril-instance-types-api-openapi.yml
   format: yaml
   label: Mithril instance types API
   slug: mithril-instance-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-instance-types-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-instance-types-api-openapi.yml
 - filename: mithril-instances-api-openapi.yml
   format: yaml
   label: Mithril Instances API
   slug: mithril-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-instances-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-instances-api-openapi.yml
 - filename: mithril-kubernetes-clusters-api-openapi.yml
   format: yaml
   label: Mithril kubernetes clusters API
   slug: mithril-kubernetes-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-kubernetes-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-kubernetes-clusters-api-openapi.yml
 - filename: mithril-lifecycle-scripts-api-openapi.yml
   format: yaml
   label: Mithril lifecycle scripts API
   slug: mithril-lifecycle-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-lifecycle-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-lifecycle-scripts-api-openapi.yml
 - filename: mithril-pricing-api-openapi.yml
   format: yaml
   label: Mithril Pricing API
   slug: mithril-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-pricing-api-openapi.yml
 - filename: mithril-profile-api-openapi.yml
   format: yaml
   label: Mithril Profile API
   slug: mithril-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-profile-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-profile-api-openapi.yml
 - filename: mithril-projects-api-openapi.yml
   format: yaml
   label: Mithril Projects API
   slug: mithril-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-projects-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-projects-api-openapi.yml
 - filename: mithril-quotas-api-openapi.yml
   format: yaml
   label: Mithril Quotas API
   slug: mithril-quotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-quotas-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-quotas-api-openapi.yml
 - filename: mithril-reservations-api-openapi.yml
   format: yaml
   label: Mithril Reservations API
   slug: mithril-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-reservations-api-openapi.yml
 - filename: mithril-spot-api-openapi.yml
   format: yaml
   label: Mithril Spot API
   slug: mithril-spot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-spot-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-spot-api-openapi.yml
 - filename: mithril-ssh-keys-api-openapi.yml
   format: yaml
   label: Mithril SSH Keys API
   slug: mithril-ssh-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-ssh-keys-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-ssh-keys-api-openapi.yml
 - filename: mithril-volumes-api-openapi.yml
   format: yaml
   label: Mithril Volumes API
   slug: mithril-volumes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/openapi/mithril-volumes-api-openapi.yml
+  url: https://artifacts.apis.io/mithril/openapi/mithril-volumes-api-openapi.yml
 consequence_counts:
   read: 32
   safety-critical: 2
@@ -145,7 +145,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mithri
   \  method: get\n  operationId: get_instance_status_v2_instances__instance_fid__status_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/instances/{instance_fid}/refresh-boot-disk\n  method: post\n  operationId: refresh_instance_boot_disk_v2_instances__instance_fid__refresh_boot_disk_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/instances/status/history\n  method: get\n  operationId: get_instance_status_history_v2_instances_status_history_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/instances/pricing/history\n  method:\
   \ get\n  operationId: get_instance_pricing_history_v2_instances_pricing_history_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/instance-types\n  method: get\n  operationId: get_instance_types_v2_instance_types_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/projects\n  method: get\n  operationId: get_projects_v2_projects_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/image-versions\n  method: get\n  operationId: get_image_versions_v2_image_versions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/mcc-image-versions\n  method: get\n \
   \ operationId: get_mcc_image_versions_v2_mcc_image_versions_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/quotas\n  method: get\n  operationId: get_quotas_v2_quotas_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mithril/refs/heads/main/agentic-access/mithril-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mithril/agentic-access/mithril-agentic-access.yml
 summary_line: 54 operations · 22 acting · 2 human-in-the-loop
 tags:
 - Company

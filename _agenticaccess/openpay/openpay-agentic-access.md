@@ -9,67 +9,67 @@ api_specs:
   label: Openpay Cards API
   slug: openpay-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-cards-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-cards-api-openapi.yml
 - filename: openpay-charges-api-openapi.yml
   format: yaml
   label: Openpay Charges API
   slug: openpay-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-charges-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-charges-api-openapi.yml
 - filename: openpay-customers-api-openapi.yml
   format: yaml
   label: Openpay Customers API
   slug: openpay-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-customers-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-customers-api-openapi.yml
 - filename: openpay-fees-api-openapi.yml
   format: yaml
   label: Openpay Fees API
   slug: openpay-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-fees-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-fees-api-openapi.yml
 - filename: openpay-payouts-api-openapi.yml
   format: yaml
   label: Openpay Payouts API
   slug: openpay-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-payouts-api-openapi.yml
 - filename: openpay-plans-api-openapi.yml
   format: yaml
   label: Openpay Plans API
   slug: openpay-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-plans-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-plans-api-openapi.yml
 - filename: openpay-subscriptions-api-openapi.yml
   format: yaml
   label: Openpay Subscriptions API
   slug: openpay-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-subscriptions-api-openapi.yml
 - filename: openpay-tokens-api-openapi.yml
   format: yaml
   label: Openpay Tokens API
   slug: openpay-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-tokens-api-openapi.yml
 - filename: openpay-transfers-api-openapi.yml
   format: yaml
   label: Openpay Transfers API
   slug: openpay-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-transfers-api-openapi.yml
 - filename: openpay-webhooks-api-openapi.yml
   format: yaml
   label: Openpay Webhooks API
   slug: openpay-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-webhooks-api-openapi.yml
 - filename: openpay-bank-accounts-api-openapi.yml
   format: yaml
   label: Openpay Bank Accounts API
   slug: openpay-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/openapi/openpay-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/openpay/openapi/openpay-bank-accounts-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 23
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openpa
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{merchant_id}/customers/{customer_id}/transfers\n  method: post\n  operationId: createTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{merchant_id}/customers/{customer_id}/transfers\n  method: get\n  operationId: listTransfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{merchant_id}/customers/{customer_id}/transfers/{transfer_id}\n  method: get\n  operationId: getTransfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /{merchant_id}/fees\n  method: post\n  operationId: createFee\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{merchant_id}/fees\n  method: get\n  operationId: listFees\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{merchant_id}/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /{merchant_id}/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{merchant_id}/webhooks/{webhook_id}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{merchant_id}/webhooks/{webhook_id}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openpay/refs/heads/main/agentic-access/openpay-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openpay/agentic-access/openpay-agentic-access.yml
 summary_line: 48 operations · 25 acting
 tags:
 - Payments

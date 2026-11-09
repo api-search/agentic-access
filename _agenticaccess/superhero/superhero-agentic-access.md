@@ -8,13 +8,13 @@ api_specs:
   label: Superhero API Characters API
   slug: superhero-characters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/superhero-characters-api-openapi.yml
+  url: https://artifacts.apis.io/superhero/openapi/superhero-characters-api-openapi.yml
 - filename: superhero-search-api-openapi.yml
   format: yaml
   label: Superhero API Search API
   slug: superhero-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/openapi/superhero-search-api-openapi.yml
+  url: https://artifacts.apis.io/superhero/openapi/superhero-search-api-openapi.yml
 consequence_counts:
   read: 8
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -42,7 +42,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 8\n  by_consequence:\n    read: 8\n  human_in_the_loop_required: 0\noperations:\n- path: /{access-token}/{id}\n  method: get\n  operationId: getCharacterById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/{id}/powerstats\n  method: get\n  operationId: getCharacterPowerstats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/{id}/biography\n  method:\
   \ get\n  operationId: getCharacterBiography\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/{id}/appearance\n  method: get\n  operationId: getCharacterAppearance\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/{id}/work\n  method: get\n  operationId: getCharacterWork\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/{id}/connections\n  method: get\n  operationId: getCharacterConnections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/{id}/image\n  method: get\n  operationId: getCharacterImage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{access-token}/search/{name}\n  method: get\n  operationId: searchCharacterByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/agentic-access/superhero-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/superhero/agentic-access/superhero-agentic-access.yml
 summary_line: 8 operations
 tags:
 - Superheroes

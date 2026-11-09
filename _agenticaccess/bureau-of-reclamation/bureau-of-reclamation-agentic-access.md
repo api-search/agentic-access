@@ -8,37 +8,37 @@ api_specs:
   label: Bureau of Reclamation Catalog API
   slug: bureau-of-reclamation-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-catalog-api-openapi.yml
 - filename: bureau-of-reclamation-locations-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Locations API
   slug: bureau-of-reclamation-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-locations-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-locations-api-openapi.yml
 - filename: bureau-of-reclamation-model-runs-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Model Runs API
   slug: bureau-of-reclamation-model-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-model-runs-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-model-runs-api-openapi.yml
 - filename: bureau-of-reclamation-parameters-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Parameters API
   slug: bureau-of-reclamation-parameters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-parameters-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-parameters-api-openapi.yml
 - filename: bureau-of-reclamation-reference-data-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Reference Data API
   slug: bureau-of-reclamation-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-reference-data-api-openapi.yml
 - filename: bureau-of-reclamation-results-api-openapi.yml
   format: yaml
   label: Bureau of Reclamation Results API
   slug: bureau-of-reclamation-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/openapi/bureau-of-reclamation-results-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-reclamation/openapi/bureau-of-reclamation-results-api-openapi.yml
 consequence_counts:
   read: 17
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bureau
   \   token:\n      max-ttl: 3600\n    audit: none\n- path: /model-name\n  method: get\n  operationId: listModelNames\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model-run\n  method: get\n  operationId: listModelRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model-run-member\n  method: get\n  operationId: listModelRunMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parameter\n  method: get\n  operationId: listParameters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /parameter-group\n  method: get\n  operationId: listParameterGroups\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reclamation-region\n  method: get\n  operationId: listReclamationRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /result\n  method: get\n  operationId: listResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /state\n  method: get\n  operationId: listStates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sub-theme\n  method: get\n  operationId: listSubThemes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /unified-region\n\
   \  method: get\n  operationId: listUnifiedRegions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-reclamation/refs/heads/main/agentic-access/bureau-of-reclamation-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-reclamation/agentic-access/bureau-of-reclamation-agentic-access.yml
 summary_line: 17 operations
 tags:
 - Energy

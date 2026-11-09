@@ -9,49 +9,49 @@ api_specs:
   label: Parsec App Rule API
   slug: parsec-app-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-app-rule-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-app-rule-api-openapi.yml
 - filename: parsec-audit-log-api-openapi.yml
   format: yaml
   label: Parsec Audit Log API
   slug: parsec-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-audit-log-api-openapi.yml
 - filename: parsec-group-api-openapi.yml
   format: yaml
   label: Parsec Group API
   slug: parsec-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-group-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-group-api-openapi.yml
 - filename: parsec-guest-access-invite-api-openapi.yml
   format: yaml
   label: Parsec Guest Access Invite API
   slug: parsec-guest-access-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-guest-access-invite-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-guest-access-invite-api-openapi.yml
 - filename: parsec-machine-api-openapi.yml
   format: yaml
   label: Parsec Machine API
   slug: parsec-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-machine-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-machine-api-openapi.yml
 - filename: parsec-member-api-openapi.yml
   format: yaml
   label: Parsec Member API
   slug: parsec-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-member-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-member-api-openapi.yml
 - filename: parsec-member-invite-api-openapi.yml
   format: yaml
   label: Parsec Member Invite API
   slug: parsec-member-invite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-member-invite-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-member-invite-api-openapi.yml
 - filename: parsec-relay-api-openapi.yml
   format: yaml
   label: Parsec Relay API
   slug: parsec-relay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/openapi/parsec-relay-api-openapi.yml
+  url: https://artifacts.apis.io/parsec/openapi/parsec-relay-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 16
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/parsec
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{teamID}/guest-access-invite-credits\n  method: get\n  operationId: getGuestAccessInviteCredits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{teamID}/app-rules\n  method: get\n  operationId: getAppRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{teamID}/app-rules/{appRuleID}/assign\n  method: post\n  operationId: assignAppRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{teamID}/app-rules/{appRuleID}/unassign\n\
   \  method: post\n  operationId: unassignAppRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{teamID}/relays\n  method: get\n  operationId: getRelays\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/teams/{teamID}/relays/{relayID}\n  method: put\n  operationId: updateRelay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/teams/{teamID}/events\n  method: get\n  operationId: getAuditLogEvents\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{teamID}/events\n  method: get\n  operationId: listAuditLogEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsec/refs/heads/main/agentic-access/parsec-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/parsec/agentic-access/parsec-agentic-access.yml
 summary_line: 42 operations · 26 acting
 tags:
 - Company

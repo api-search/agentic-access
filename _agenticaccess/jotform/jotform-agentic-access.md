@@ -9,49 +9,49 @@ api_specs:
   label: Jotform Folder API
   slug: jotform-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-folder-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-folder-api-openapi.yml
 - filename: jotform-form-api-openapi.yml
   format: yaml
   label: Jotform Form API
   slug: jotform-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-form-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-form-api-openapi.yml
 - filename: jotform-label-api-openapi.yml
   format: yaml
   label: Jotform Label API
   slug: jotform-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-label-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-label-api-openapi.yml
 - filename: jotform-report-api-openapi.yml
   format: yaml
   label: Jotform Report API
   slug: jotform-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-report-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-report-api-openapi.yml
 - filename: jotform-submission-api-openapi.yml
   format: yaml
   label: Jotform Submission API
   slug: jotform-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-submission-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-submission-api-openapi.yml
 - filename: jotform-system-api-openapi.yml
   format: yaml
   label: Jotform System API
   slug: jotform-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-system-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-system-api-openapi.yml
 - filename: jotform-user-api-openapi.yml
   format: yaml
   label: Jotform User API
   slug: jotform-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-user-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-user-api-openapi.yml
 - filename: jotform-webhook-api-openapi.yml
   format: yaml
   label: Jotform Webhook API
   slug: jotform-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/openapi/jotform-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/jotform/openapi/jotform-webhook-api-openapi.yml
 consequence_counts:
   read: 24
   write: 21
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/jotfor
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /system/plan/{planName}\n  method: get\n  operationId: getSystemPlan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /label\n  method: post\n  operationId: createLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /label/{labelID}\n  method: put\n  operationId: updateLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n\
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /label/{labelID}\n  method: delete\n  operationId: deleteLabel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /label/{labelID}/add-resources\n  method: put\n  operationId: addLabelResources\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /label/{labelID}/remove-resources\n  method: put\n  operationId: removeLabelResources\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jotform/refs/heads/main/agentic-access/jotform-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jotform/agentic-access/jotform-agentic-access.yml
 summary_line: 45 operations · 21 acting
 tags:
 - Forms
@@ -101,4 +101,8 @@ tags:
 - Workflows
 - HIPAA
 - EU
+- MCP
+- E-Signature
+- Webhook
+- Online Payments
 ---

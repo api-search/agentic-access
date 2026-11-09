@@ -9,43 +9,43 @@ api_specs:
   label: RavenPack Analyst Estimates API
   slug: bigdata-analyst-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-analyst-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-analyst-estimates-api-openapi.yml
 - filename: bigdata-company-events-api-openapi.yml
   format: yaml
   label: RavenPack Company & Events API
   slug: bigdata-company-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-company-events-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-company-events-api-openapi.yml
 - filename: bigdata-financials-ratios-api-openapi.yml
   format: yaml
   label: RavenPack Financials & Ratios API
   slug: bigdata-financials-ratios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-financials-ratios-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-financials-ratios-api-openapi.yml
 - filename: bigdata-fixed-income-api-openapi.yml
   format: yaml
   label: RavenPack Fixed Income API
   slug: bigdata-fixed-income-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-fixed-income-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-fixed-income-api-openapi.yml
 - filename: bigdata-fund-holdings-api-openapi.yml
   format: yaml
   label: RavenPack Fund Holdings API
   slug: bigdata-fund-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-fund-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-fund-holdings-api-openapi.yml
 - filename: bigdata-market-data-api-openapi.yml
   format: yaml
   label: RavenPack Market Data API
   slug: bigdata-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-market-data-api-openapi.yml
 - filename: bigdata-private-markets-api-openapi.yml
   format: yaml
   label: RavenPack Private Markets API
   slug: bigdata-private-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/openapi/bigdata-private-markets-api-openapi.yml
+  url: https://artifacts.apis.io/bigdata/openapi/bigdata-private-markets-api-openapi.yml
 consequence_counts:
   read: 25
   write: 6
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-10-19'\nmethod: generated\nsource: openapi/bigdat
   - path: /v1/entity-sentiment/\n  method: post\n  operationId: query_entity_sentiment_v1_entity_sentiment__post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/esg-performance-score/query\n  method: post\n  operationId: query_esg_performance_score_v1_esg_performance_score__post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/economic-calendar/query\n  method: post\n  operationId: query_economic_calendar_v1_economic_calendar_query__post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/private-companies/query\n  method: post\n  operationId: Private_Company_Overview_v1_private_companies_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/funding-rounds/query\n  method: post\n  operationId: Private_Company_Funding_Rounds_v1_funding_rounds_query_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fixed-income/corporate/issuer/query\n  method: post\n  operationId: query_bonds_by_issuer_v1_fixed_income_corporate_issuer_query__post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/private-company-people/query\n  method: post\n  operationId: Private_Company_People_v1_private_company_people_query_post\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/fixed-income/corporate/isin/query\n  method: post\n  operationId: query_bond_by_isin_v1_fixed_income_corporate_isin_query__post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigdata/refs/heads/main/agentic-access/bigdata-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bigdata/agentic-access/bigdata-agentic-access.yml
 summary_line: 31 operations · 6 acting
 tags:
 - Company

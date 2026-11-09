@@ -9,67 +9,67 @@ api_specs:
   label: Nudge Security Accounts API
   slug: nudge-security-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-accounts-api-openapi.yml
 - filename: nudge-security-app-integrations-api-openapi.yml
   format: yaml
   label: Nudge Security App Integrations API
   slug: nudge-security-app-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-app-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-app-integrations-api-openapi.yml
 - filename: nudge-security-apps-api-openapi.yml
   format: yaml
   label: Nudge Security Apps API
   slug: nudge-security-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-apps-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-apps-api-openapi.yml
 - filename: nudge-security-events-api-openapi.yml
   format: yaml
   label: Nudge Security Events API
   slug: nudge-security-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-events-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-events-api-openapi.yml
 - filename: nudge-security-fields-api-openapi.yml
   format: yaml
   label: Nudge Security Fields API
   slug: nudge-security-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-fields-api-openapi.yml
 - filename: nudge-security-findings-api-openapi.yml
   format: yaml
   label: Nudge Security Findings API
   slug: nudge-security-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-findings-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-findings-api-openapi.yml
 - filename: nudge-security-labels-api-openapi.yml
   format: yaml
   label: Nudge Security Labels API
   slug: nudge-security-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-labels-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-labels-api-openapi.yml
 - filename: nudge-security-notifications-api-openapi.yml
   format: yaml
   label: Nudge Security Notifications API
   slug: nudge-security-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-notifications-api-openapi.yml
 - filename: nudge-security-oauth-grants-api-openapi.yml
   format: yaml
   label: Nudge Security OAuth Grants API
   slug: nudge-security-oauth-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-oauth-grants-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-oauth-grants-api-openapi.yml
 - filename: nudge-security-user-groups-api-openapi.yml
   format: yaml
   label: Nudge Security User Groups API
   slug: nudge-security-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-user-groups-api-openapi.yml
 - filename: nudge-security-users-api-openapi.yml
   format: yaml
   label: Nudge Security Users API
   slug: nudge-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/openapi/nudge-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/nudge-security/openapi/nudge-security-users-api-openapi.yml
 consequence_counts:
   read: 16
   write: 3
@@ -100,17 +100,18 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/nudge-
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{event_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-groups\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-groups/{group_id}/members\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /notifications\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /fields\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /labels\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /labels\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /findings\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /app-to-app-integrations\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nudge-security/refs/heads/main/agentic-access/nudge-security-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nudge-security/agentic-access/nudge-security-agentic-access.yml
 summary_line: 19 operations · 3 acting
 tags:
 - Identity and Access Management
 - AI Security
 - Compliance
 - Governance
-- Authentication
+- OAuth
 - SaaS Management
 - SaaS Security
 - Security
 - Shadow IT
 - SSPM
+- Authentication
 ---

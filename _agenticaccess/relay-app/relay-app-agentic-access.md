@@ -9,19 +9,19 @@ api_specs:
   label: Relay App Runs API
   slug: relay-app-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-runs-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-runs-api-openapi.yml
 - filename: relay-app-webhooks-api-openapi.yml
   format: yaml
   label: Relay App Webhooks API
   slug: relay-app-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-webhooks-api-openapi.yml
 - filename: relay-app-workflows-api-openapi.yml
   format: yaml
   label: Relay App Workflows API
   slug: relay-app-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/openapi/relay-app-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/relay-app/openapi/relay-app-workflows-api-openapi.yml
 consequence_counts:
   read: 5
   write: 3
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/relay-app-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    write: 3\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /webhooks/{webhookId}\n  method: post\n  operationId: triggerWebhookWorkflow\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{webhookId}\n  method: get\n  operationId: triggerWebhookWorkflowGet\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows\n  method: get\n  operationId: listWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{workflowId}\n  method: get\n  operationId: getWorkflow\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /workflows/{workflowId}/runs\n  method: get\n  operationId: listWorkflowRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /runs/{runId}\n  method: get\n  operationId: getWorkflowRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /runs/{runId}/cancel\n  method: post\n  operationId: cancelWorkflowRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /runs/{runId}/approve\n  method: post\n  operationId: approveWorkflowRunStep\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relay-app/refs/heads/main/agentic-access/relay-app-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/relay-app/agentic-access/relay-app-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Automation

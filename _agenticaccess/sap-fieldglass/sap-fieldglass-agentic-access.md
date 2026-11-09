@@ -9,55 +9,55 @@ api_specs:
   label: SAP Fieldglass Approval API
   slug: sap-fieldglass-approval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-approval-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-approval-api-openapi.yml
 - filename: sap-fieldglass-audit-trail-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Audit Trail API
   slug: sap-fieldglass-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-audit-trail-api-openapi.yml
 - filename: sap-fieldglass-get-data-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Get Data API
   slug: sap-fieldglass-get-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-get-data-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-get-data-api-openapi.yml
 - filename: sap-fieldglass-get-entities-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Get Entities API
   slug: sap-fieldglass-get-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-get-entities-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-get-entities-api-openapi.yml
 - filename: sap-fieldglass-get-metadata-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Get Metadata API
   slug: sap-fieldglass-get-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-get-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-get-metadata-api-openapi.yml
 - filename: sap-fieldglass-get-providers-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Get Providers API
   slug: sap-fieldglass-get-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-get-providers-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-get-providers-api-openapi.yml
 - filename: sap-fieldglass-order-confirmation-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Order Confirmation API
   slug: sap-fieldglass-order-confirmation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-order-confirmation-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-order-confirmation-api-openapi.yml
 - filename: sap-fieldglass-reports-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Reports API
   slug: sap-fieldglass-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-reports-api-openapi.yml
 - filename: sap-fieldglass-results-api-openapi.yml
   format: yaml
   label: SAP Fieldglass Results API
   slug: sap-fieldglass-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/openapi/sap-fieldglass-results-api-openapi.yml
+  url: https://artifacts.apis.io/sap-fieldglass/openapi/sap-fieldglass-results-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sap-fi
   \  method: get\n  operationId: getRejectionReasons\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user\n- path: /auditTrail\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user\n- path: /order_confirmation\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user\n- path: /result\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - user\n- path: /report\n  method: get\n  operationId: getReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report/{report_id}\n  method: get\n  operationId: getReportById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Providers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{ProviderID}/$metadata\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    scope:\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{ServiceURL}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{ProviderID}/{entityName}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - user\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/agentic-access/sap-fieldglass-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sap-fieldglass/agentic-access/sap-fieldglass-agentic-access.yml
 summary_line: 14 operations · 3 acting
 tags:
 - Contingent Workforce

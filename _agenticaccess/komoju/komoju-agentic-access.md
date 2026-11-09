@@ -9,49 +9,49 @@ api_specs:
   label: KOMOJU Barcodes API
   slug: komoju-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-barcodes-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-barcodes-api-openapi.yml
 - filename: komoju-customers-api-openapi.yml
   format: yaml
   label: KOMOJU Customers API
   slug: komoju-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-customers-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-customers-api-openapi.yml
 - filename: komoju-events-api-openapi.yml
   format: yaml
   label: KOMOJU Events API
   slug: komoju-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-events-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-events-api-openapi.yml
 - filename: komoju-payment-methods-api-openapi.yml
   format: yaml
   label: KOMOJU Payment Methods API
   slug: komoju-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-payment-methods-api-openapi.yml
 - filename: komoju-payments-api-openapi.yml
   format: yaml
   label: KOMOJU Payments API
   slug: komoju-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-payments-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-payments-api-openapi.yml
 - filename: komoju-sessions-api-openapi.yml
   format: yaml
   label: KOMOJU Sessions API
   slug: komoju-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-sessions-api-openapi.yml
 - filename: komoju-subscriptions-api-openapi.yml
   format: yaml
   label: KOMOJU Subscriptions API
   slug: komoju-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-subscriptions-api-openapi.yml
 - filename: komoju-tokens-api-openapi.yml
   format: yaml
   label: KOMOJU Tokens API
   slug: komoju-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/openapi/komoju-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/komoju/openapi/komoju-tokens-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 12
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/komoju
   - path: /subscriptions\n  method: get\n  operationId: listSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions\n  method: post\n  operationId: createSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /subscriptions/{id}\n  method: get\n  operationId: showSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /subscriptions/{id}\n  method: delete\n  operationId: deleteSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payment_methods\n  method: get\n  operationId: listPaymentMethods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{id}\n  method: get\n  operationId: showEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /barcodes/{payment_id}\n  method: get\n  operationId: showBarcode\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/agentic-access/komoju-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/komoju/agentic-access/komoju-agentic-access.yml
 summary_line: 28 operations · 16 acting
 tags:
 - Payments

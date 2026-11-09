@@ -9,19 +9,31 @@ api_specs:
   label: Amazon Cloud Map Instances API
   slug: amazon-cloud-map-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloud-map/openapi/amazon-cloud-map-instances-api-openapi.yml
 - filename: amazon-cloud-map-namespaces-api-openapi.yml
   format: yaml
   label: Amazon Cloud Map Namespaces API
   slug: amazon-cloud-map-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloud-map/openapi/amazon-cloud-map-namespaces-api-openapi.yml
 - filename: amazon-cloud-map-services-api-openapi.yml
   format: yaml
   label: Amazon Cloud Map Services API
   slug: amazon-cloud-map-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/openapi/amazon-cloud-map-services-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloud-map/openapi/amazon-cloud-map-services-api-openapi.yml
+- filename: amazon-cloud-map-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Cloud Map Cloud Map Operations API
+  slug: amazon-cloud-map-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloud-map/openapi/amazon-cloud-map-operations-api-openapi.yml
+- filename: amazon-cloud-map-service-attribute-api-openapi.yml
+  format: yaml
+  label: Amazon Cloud Map Cloud Map Service Attribute API
+  slug: amazon-cloud-map-service-attribute-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloud-map/openapi/amazon-cloud-map-service-attribute-api-openapi.yml
 consequence_counts:
   read: 3
   write: 3
@@ -50,9 +62,10 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon-cloud-map-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 3\n    acting: 3\n  by_consequence:\n    read: 3\n    write: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /namespaces\n  method: get\n  operationId: ListNamespaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: get\n  operationId: ListServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services\n  method: post\n  operationId:\
   \ CreateService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /services/{ServiceId}/instances\n  method: get\n  operationId: ListInstances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /services/{ServiceId}/instances\n  method: post\n  operationId: RegisterInstance\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /instances/discover\n  method: post\n  operationId: DiscoverInstances\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud-map/refs/heads/main/agentic-access/amazon-cloud-map-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cloud-map/agentic-access/amazon-cloud-map-agentic-access.yml
 summary_line: 6 operations · 3 acting
 tags:
+- Amazon Web Services
 - Cloud Map
 - Service Discovery
 - Microservices

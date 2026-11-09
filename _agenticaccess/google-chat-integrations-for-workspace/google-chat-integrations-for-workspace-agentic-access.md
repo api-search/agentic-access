@@ -9,43 +9,43 @@ api_specs:
   label: Google Chat Integrations for Workspace Google Chat API
   slug: google-chat-integrations-for-workspace-google-chat-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-members-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Members API
   slug: google-chat-integrations-for-workspace-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-members-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-members-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-message-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Message API
   slug: google-chat-integrations-for-workspace-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-message-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-message-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-messages-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Messages API
   slug: google-chat-integrations-for-workspace-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-messages-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-reactions-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Reactions API
   slug: google-chat-integrations-for-workspace-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-reactions-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-spaces-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Spaces API
   slug: google-chat-integrations-for-workspace-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-spaces-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-custom-emojis-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Custom Emojis API
   slug: google-chat-integrations-for-workspace-custom-emojis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/openapi/google-chat-integrations-for-workspace-custom-emojis-api-openapi.yml
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-custom-emojis-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 5
@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/google
   \  operationId: listSpaces\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/{name}\n  method: get\n  operationId: getSpace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/{parent}/messages\n  method: post\n  operationId: createMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/{parent}/messages\n  method: get\n  operationId: listMessages\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/{name}/message\n  method: delete\n  operationId: deleteMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/{parent}/members\n  method: post\n  operationId: createMembership\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - chat.messages\n\
   \    - chat.spaces\n- path: /v1/{parent}/members\n  method: get\n  operationId: listMemberships\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/{parent}/reactions\n  method: post\n  operationId: createReaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - chat.messages\n    - chat.spaces\n- path: /v1/customEmojis\n  method: get\n  operationId: listCustomEmojis\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - chat.messages\n    - chat.spaces\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-chat-integrations-for-workspace/refs/heads/main/agentic-access/google-chat-integrations-for-workspace-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-chat-integrations-for-workspace/agentic-access/google-chat-integrations-for-workspace-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Google Workspace

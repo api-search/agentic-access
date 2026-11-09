@@ -9,61 +9,61 @@ api_specs:
   label: Free Law Project Alerts API
   slug: free-law-project-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-alerts-api-openapi.yml
 - filename: free-law-project-case-law-api-openapi.yml
   format: yaml
   label: Free Law Project Case Law API
   slug: free-law-project-case-law-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-case-law-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-case-law-api-openapi.yml
 - filename: free-law-project-citations-api-openapi.yml
   format: yaml
   label: Free Law Project Citations API
   slug: free-law-project-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-citations-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-citations-api-openapi.yml
 - filename: free-law-project-financial-disclosures-api-openapi.yml
   format: yaml
   label: Free Law Project Financial Disclosures API
   slug: free-law-project-financial-disclosures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-financial-disclosures-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-financial-disclosures-api-openapi.yml
 - filename: free-law-project-judges-api-openapi.yml
   format: yaml
   label: Free Law Project Judges API
   slug: free-law-project-judges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-judges-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-judges-api-openapi.yml
 - filename: free-law-project-oral-arguments-api-openapi.yml
   format: yaml
   label: Free Law Project Oral Arguments API
   slug: free-law-project-oral-arguments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-oral-arguments-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-oral-arguments-api-openapi.yml
 - filename: free-law-project-pacer-api-openapi.yml
   format: yaml
   label: Free Law Project PACER API
   slug: free-law-project-pacer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-pacer-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-pacer-api-openapi.yml
 - filename: free-law-project-recap-api-openapi.yml
   format: yaml
   label: Free Law Project RECAP API
   slug: free-law-project-recap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-recap-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-recap-api-openapi.yml
 - filename: free-law-project-search-api-openapi.yml
   format: yaml
   label: Free Law Project Search API
   slug: free-law-project-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-search-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-search-api-openapi.yml
 - filename: free-law-project-tags-api-openapi.yml
   format: yaml
   label: Free Law Project Tags API
   slug: free-law-project-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/openapi/free-law-project-tags-api-openapi.yml
+  url: https://artifacts.apis.io/free-law-project/openapi/free-law-project-tags-api-openapi.yml
 consequence_counts:
   read: 14
   write: 1
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/free-l
   \  method: get\n  operationId: listClusters\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /citation-lookup/\n  method: post\n  operationId: lookupCitations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /financial-disclosures/\n  method: get\n  operationId: listFinancialDisclosures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /people/\n  method: get\n  operationId: listPeople\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /positions/\n  method: get\n  operationId: listPositions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /audio/\n  method: get\n  operationId: listOralArguments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /dockets/\n  method: get\n  operationId: listDockets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /docket-entries/\n  method: get\n  operationId: listDocketEntries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recap-documents/\n  method: get\n  operationId: listRecapDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/\n  method: get\n  operationId: search\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tag/\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/free-law-project/refs/heads/main/agentic-access/free-law-project-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/free-law-project/agentic-access/free-law-project-agentic-access.yml
 summary_line: 15 operations · 1 acting
 tags:
 - Courts

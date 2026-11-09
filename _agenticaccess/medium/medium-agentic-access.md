@@ -9,37 +9,37 @@ api_specs:
   label: medium Authorization API
   slug: medium-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-authorization-api-openapi.yml
 - filename: medium-images-api-openapi.yml
   format: yaml
   label: medium Images API
   slug: medium-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-images-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-images-api-openapi.yml
 - filename: medium-posts-api-openapi.yml
   format: yaml
   label: medium Posts API
   slug: medium-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-posts-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-posts-api-openapi.yml
 - filename: medium-publications-api-openapi.yml
   format: yaml
   label: medium Publications API
   slug: medium-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-publications-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-publications-api-openapi.yml
 - filename: medium-tokens-api-openapi.yml
   format: yaml
   label: medium Tokens API
   slug: medium-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-tokens-api-openapi.yml
 - filename: medium-users-api-openapi.yml
   format: yaml
   label: medium Users API
   slug: medium-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/openapi/medium-users-api-openapi.yml
+  url: https://artifacts.apis.io/medium/openapi/medium-users-api-openapi.yml
 consequence_counts:
   read: 4
   write: 5
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/medium
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/refresh\n  method: post\n  operationId: refreshAccessToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me\n  method: get\n  operationId: getAuthenticatedUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}/publications\n  method: get\n  operationId: listUserPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publications/{publicationId}/contributors\n  method: get\n\
   \  operationId: listPublicationContributors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{authorId}/posts\n  method: post\n  operationId: createUserPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /publications/{publicationId}/posts\n  method: post\n  operationId: createPublicationPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images\n  method: post\n  operationId: uploadImage\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/medium/refs/heads/main/agentic-access/medium-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/medium/agentic-access/medium-agentic-access.yml
 summary_line: 9 operations · 5 acting
 tags:
 - Publishing
@@ -78,6 +78,7 @@ tags:
 - Media
 - Social
 - Writing
-- Authentication
+- OAuth
 - Deprecated API
+- Authentication
 ---

@@ -8,223 +8,223 @@ api_specs:
   label: Art Institute of Chicago Agent Roles API
   slug: art-institute-of-chicago-agent-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-agent-roles-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-agent-roles-api-openapi.yml
 - filename: art-institute-of-chicago-agent-types-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Agent Types API
   slug: art-institute-of-chicago-agent-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-agent-types-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-agent-types-api-openapi.yml
 - filename: art-institute-of-chicago-agents-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Agents API
   slug: art-institute-of-chicago-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-agents-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-agents-api-openapi.yml
 - filename: art-institute-of-chicago-articles-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Articles API
   slug: art-institute-of-chicago-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-articles-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-articles-api-openapi.yml
 - filename: art-institute-of-chicago-artists-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Artists API
   slug: art-institute-of-chicago-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-artists-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-artists-api-openapi.yml
 - filename: art-institute-of-chicago-artwork-date-qualifiers-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Artwork Date Qualifiers API
   slug: art-institute-of-chicago-artwork-date-qualifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-artwork-date-qualifiers-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-artwork-date-qualifiers-api-openapi.yml
 - filename: art-institute-of-chicago-artwork-place-qualifiers-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Artwork Place Qualifiers API
   slug: art-institute-of-chicago-artwork-place-qualifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-artwork-place-qualifiers-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-artwork-place-qualifiers-api-openapi.yml
 - filename: art-institute-of-chicago-artwork-types-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Artwork Types API
   slug: art-institute-of-chicago-artwork-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-artwork-types-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-artwork-types-api-openapi.yml
 - filename: art-institute-of-chicago-artworks-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Artworks API
   slug: art-institute-of-chicago-artworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-artworks-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-artworks-api-openapi.yml
 - filename: art-institute-of-chicago-category-terms-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Category Terms API
   slug: art-institute-of-chicago-category-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-category-terms-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-category-terms-api-openapi.yml
 - filename: art-institute-of-chicago-digital-publication-articles-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Digital Publication Articles API
   slug: art-institute-of-chicago-digital-publication-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-digital-publication-articles-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-digital-publication-articles-api-openapi.yml
 - filename: art-institute-of-chicago-digital-publications-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Digital Publications API
   slug: art-institute-of-chicago-digital-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-digital-publications-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-digital-publications-api-openapi.yml
 - filename: art-institute-of-chicago-educator-resources-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Educator Resources API
   slug: art-institute-of-chicago-educator-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-educator-resources-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-educator-resources-api-openapi.yml
 - filename: art-institute-of-chicago-event-occurrences-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Event Occurrences API
   slug: art-institute-of-chicago-event-occurrences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-event-occurrences-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-event-occurrences-api-openapi.yml
 - filename: art-institute-of-chicago-event-programs-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Event Programs API
   slug: art-institute-of-chicago-event-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-event-programs-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-event-programs-api-openapi.yml
 - filename: art-institute-of-chicago-events-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Events API
   slug: art-institute-of-chicago-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-events-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-events-api-openapi.yml
 - filename: art-institute-of-chicago-exhibitions-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Exhibitions API
   slug: art-institute-of-chicago-exhibitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-exhibitions-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-exhibitions-api-openapi.yml
 - filename: art-institute-of-chicago-galleries-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Galleries API
   slug: art-institute-of-chicago-galleries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-galleries-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-galleries-api-openapi.yml
 - filename: art-institute-of-chicago-generic-pages-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Generic Pages API
   slug: art-institute-of-chicago-generic-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-generic-pages-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-generic-pages-api-openapi.yml
 - filename: art-institute-of-chicago-highlights-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Highlights API
   slug: art-institute-of-chicago-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-highlights-api-openapi.yml
 - filename: art-institute-of-chicago-hours-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Hours API
   slug: art-institute-of-chicago-hours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-hours-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-hours-api-openapi.yml
 - filename: art-institute-of-chicago-images-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Images API
   slug: art-institute-of-chicago-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-images-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-images-api-openapi.yml
 - filename: art-institute-of-chicago-landing-pages-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Landing Pages API
   slug: art-institute-of-chicago-landing-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-landing-pages-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-landing-pages-api-openapi.yml
 - filename: art-institute-of-chicago-mobile-sounds-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Mobile Sounds API
   slug: art-institute-of-chicago-mobile-sounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-mobile-sounds-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-mobile-sounds-api-openapi.yml
 - filename: art-institute-of-chicago-places-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Places API
   slug: art-institute-of-chicago-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-places-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-places-api-openapi.yml
 - filename: art-institute-of-chicago-press-releases-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Press Releases API
   slug: art-institute-of-chicago-press-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-press-releases-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-press-releases-api-openapi.yml
 - filename: art-institute-of-chicago-printed-publications-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Printed Publications API
   slug: art-institute-of-chicago-printed-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-printed-publications-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-printed-publications-api-openapi.yml
 - filename: art-institute-of-chicago-products-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Products API
   slug: art-institute-of-chicago-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-products-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-products-api-openapi.yml
 - filename: art-institute-of-chicago-publications-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Publications API
   slug: art-institute-of-chicago-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-publications-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-publications-api-openapi.yml
 - filename: art-institute-of-chicago-search-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Search API
   slug: art-institute-of-chicago-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-search-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-search-api-openapi.yml
 - filename: art-institute-of-chicago-sections-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Sections API
   slug: art-institute-of-chicago-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-sections-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-sections-api-openapi.yml
 - filename: art-institute-of-chicago-sites-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Sites API
   slug: art-institute-of-chicago-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-sites-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-sites-api-openapi.yml
 - filename: art-institute-of-chicago-sounds-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Sounds API
   slug: art-institute-of-chicago-sounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-sounds-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-sounds-api-openapi.yml
 - filename: art-institute-of-chicago-static-pages-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Static Pages API
   slug: art-institute-of-chicago-static-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-static-pages-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-static-pages-api-openapi.yml
 - filename: art-institute-of-chicago-texts-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Texts API
   slug: art-institute-of-chicago-texts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-texts-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-texts-api-openapi.yml
 - filename: art-institute-of-chicago-tours-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Tours API
   slug: art-institute-of-chicago-tours-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-tours-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-tours-api-openapi.yml
 - filename: art-institute-of-chicago-videos-api-openapi.yml
   format: yaml
   label: Art Institute of Chicago Videos API
   slug: art-institute-of-chicago-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/openapi/art-institute-of-chicago-videos-api-openapi.yml
+  url: https://artifacts.apis.io/art-institute-of-chicago/openapi/art-institute-of-chicago-videos-api-openapi.yml
 consequence_counts:
   read: 103
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -272,7 +272,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/art-in
   \ listDigitalPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digital-publications/search\n  method: get\n  operationId: searchDigitalPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digital-publications/{id}\n  method: get\n  operationId: getDigitalPublication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digital-publication-articles\n  method: get\n  operationId: listDigitalPublicationArticles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digital-publication-articles/search\n  method: get\n  operationId: searchDigitalPublicationArticles\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /digital-publication-articles/{id}\n  method: get\n  operationId: getDigitalPublicationArticle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printed-publications\n  method: get\n  operationId: listPrintedPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printed-publications/search\n  method: get\n  operationId: searchPrintedPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /printed-publications/{id}\n  method: get\n  operationId: getPrintedPublication\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hours\n  method: get\n  operationId: listHours\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hours/search\n  method: get\n  operationId: searchHours\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hours/{id}\n  method: get\n  operationId: getHour\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/art-institute-of-chicago/refs/heads/main/agentic-access/art-institute-of-chicago-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/art-institute-of-chicago/agentic-access/art-institute-of-chicago-agentic-access.yml
 summary_line: 103 operations
 tags:
 - Museums

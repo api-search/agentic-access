@@ -9,13 +9,13 @@ api_specs:
   label: shveik Discovery API
   slug: shveik-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shveik/refs/heads/main/openapi/shveik-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/shveik/openapi/shveik-discovery-api-openapi.yml
 - filename: shveik-scraping-api-openapi.yml
   format: yaml
   label: shveik Scraping API
   slug: shveik-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shveik/refs/heads/main/openapi/shveik-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/shveik/openapi/shveik-scraping-api-openapi.yml
 consequence_counts:
   read: 5
   write: 72
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/shveik
   \ 3600\n    audit: none\n- path: /mpp/vps-medium\n  method: post\n  operationId: mppVpsMedium\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mpp/vps-medium-renew\n  method: post\n  operationId: mppVpsMediumRenew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mpp/vps-small\n  method: post\n  operationId: mppVpsSmall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /mpp/vps-small-renew\n  method: post\n  operationId: mppVpsSmallRenew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402/vps-medium\n  method: post\n  operationId: x402VpsMedium\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402/vps-medium-renew\n  method: post\n  operationId: x402VpsMediumRenew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402/vps-small\n  method: post\n  operationId: x402VpsSmall\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /x402/vps-small-renew\n  method: post\n  operationId: x402VpsSmallRenew\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shveik/refs/heads/main/agentic-access/shveik-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/shveik/agentic-access/shveik-agentic-access.yml
 summary_line: 77 operations · 72 acting
 tags:
 - Company

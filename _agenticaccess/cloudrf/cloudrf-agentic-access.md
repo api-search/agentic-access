@@ -9,43 +9,43 @@ api_specs:
   label: CloudRF Account API
   slug: cloudrf-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-account-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-account-api-openapi.yml
 - filename: cloudrf-analyse-api-openapi.yml
   format: yaml
   label: CloudRF Analyse API
   slug: cloudrf-analyse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-analyse-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-analyse-api-openapi.yml
 - filename: cloudrf-create-api-openapi.yml
   format: yaml
   label: CloudRF Create API
   slug: cloudrf-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-create-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-create-api-openapi.yml
 - filename: cloudrf-manage-api-openapi.yml
   format: yaml
   label: CloudRF Manage API
   slug: cloudrf-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-manage-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-manage-api-openapi.yml
 - filename: cloudrf-satellite-api-openapi.yml
   format: yaml
   label: CloudRF Satellite API
   slug: cloudrf-satellite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-satellite-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-satellite-api-openapi.yml
 - filename: cloudrf-template-api-openapi.yml
   format: yaml
   label: CloudRF Template API
   slug: cloudrf-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-template-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-template-api-openapi.yml
 - filename: cloudrf-3-d-api-openapi.yml
   format: yaml
   label: CloudRF 3 D API
   slug: cloudrf-3-d-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/openapi/cloudrf-3-d-api-openapi.yml
+  url: https://artifacts.apis.io/cloudrf/openapi/cloudrf-3-d-api-openapi.yml
 consequence_counts:
   read: 11
   write: 18
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cloudr
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /clutter\n  method: get\n  operationId: listClutter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /clutter/delete\n  method: get\n  operationId: deleteClutter\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /noise\n  method: post\n  operationId: submitNoise\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /noise-average\n\
   \  method: post\n  operationId: noiseAverage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /noise/map\n  method: get\n  operationId: noiseMap\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /noise/delete\n  method: post\n  operationId: deleteNoise\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/metrics\n  method: get\n  operationId: accountMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template\n  method: get\n  operationId: listTemplates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /satellite\n  method: post\n  operationId: createSatellite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudrf/refs/heads/main/agentic-access/cloudrf-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cloudrf/agentic-access/cloudrf-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
 - Coverage Modeling

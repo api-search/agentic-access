@@ -9,19 +9,19 @@ api_specs:
   label: TRM Labs Reports API
   slug: trm-labs-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-reports-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-reports-api-openapi.yml
 - filename: trm-labs-sanctions-api-openapi.yml
   format: yaml
   label: TRM Labs Sanctions API
   slug: trm-labs-sanctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-sanctions-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-sanctions-api-openapi.yml
 - filename: trm-labs-sanctions-screening-api-openapi.yml
   format: yaml
   label: TRM Labs Sanctions Screening API
   slug: trm-labs-sanctions-screening-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/openapi/trm-labs-sanctions-screening-api-openapi.yml
+  url: https://artifacts.apis.io/trm-labs/openapi/trm-labs-sanctions-screening-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/trm-labs-chainabuse-openapi.yml, openapi/trm-labs-sanctions-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 3\n    acting: 2\n  by_consequence:\n    read: 3\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /reports\n  method: get\n  operationId: GetReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports\n  method: post\n  operationId: CreateReports\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports/{reportId}\n  method: get\n  operationId: Report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sanctioned-addresses/{address}\n  method: get\n  operationId: CheckSanctionedAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /public/v1/sanctions/screening\n  method: post\n  operationId: PublicV1SanctionsScreeningPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trm-labs/refs/heads/main/agentic-access/trm-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/trm-labs/agentic-access/trm-labs-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Company

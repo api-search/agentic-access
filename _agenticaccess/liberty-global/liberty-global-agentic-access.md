@@ -9,19 +9,19 @@ api_specs:
   label: Liberty Global Applications API
   slug: liberty-global-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-applications-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-applications-api-openapi.yml
 - filename: liberty-global-maintainer-api-openapi.yml
   format: yaml
   label: Liberty Global Maintainer API
   slug: liberty-global-maintainer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-maintainer-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-maintainer-api-openapi.yml
 - filename: liberty-global-stb-api-openapi.yml
   format: yaml
   label: Liberty Global STB API
   slug: liberty-global-stb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/openapi/liberty-global-stb-api-openapi.yml
+  url: https://artifacts.apis.io/liberty-global/openapi/liberty-global-stb-api-openapi.yml
 consequence_counts:
   read: 8
   write: 6
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-25'\nmethod: generated\nsource: openapi/libert
   \    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintainers/{maintainerCode}\n  method: get\n  operationId: getMaintainer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maintainers/{maintainerCode}\n  method: put\n  operationId: replaceMaintainer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintainers/{maintainerCode}\n  method: delete\n  operationId: deleteMaintainer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintainers/{maintainerCode}/apps\n  method: get\n  operationId: listMaintainerApplications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maintainers/{maintainerCode}/apps\n  method: post\n  operationId: createMaintainerApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintainers/{maintainerCode}/apps/{applicationId}\n  method: put\n  operationId: replaceMaintainerApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maintainers/{maintainerCode}/apps/{applicationId}\n  method: get\n  operationId: getMaintainerApplication\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /maintainers/{maintainerCode}/apps/{applicationId}\n  method: delete\n  operationId: deleteMaintainerApplication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liberty-global/refs/heads/main/agentic-access/liberty-global-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/liberty-global/agentic-access/liberty-global-agentic-access.yml
 summary_line: 14 operations · 6 acting
 tags:
 - Telecommunications

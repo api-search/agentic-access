@@ -9,31 +9,31 @@ api_specs:
   label: LabVantage Solutions Containers API
   slug: labvantage-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-containers-api-openapi.yml
+  url: https://artifacts.apis.io/labvantage/openapi/labvantage-containers-api-openapi.yml
 - filename: labvantage-instruments-api-openapi.yml
   format: yaml
   label: LabVantage Solutions Instruments API
   slug: labvantage-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/labvantage/openapi/labvantage-instruments-api-openapi.yml
 - filename: labvantage-results-api-openapi.yml
   format: yaml
   label: LabVantage Solutions Results API
   slug: labvantage-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-results-api-openapi.yml
+  url: https://artifacts.apis.io/labvantage/openapi/labvantage-results-api-openapi.yml
 - filename: labvantage-samples-api-openapi.yml
   format: yaml
   label: LabVantage Solutions Samples API
   slug: labvantage-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-samples-api-openapi.yml
+  url: https://artifacts.apis.io/labvantage/openapi/labvantage-samples-api-openapi.yml
 - filename: labvantage-tests-api-openapi.yml
   format: yaml
   label: LabVantage Solutions Tests API
   slug: labvantage-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/openapi/labvantage-tests-api-openapi.yml
+  url: https://artifacts.apis.io/labvantage/openapi/labvantage-tests-api-openapi.yml
 consequence_counts:
   read: 6
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/labvan
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /samples/{sampleId}\n  method: get\n  operationId: getSample\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /samples/{sampleId}\n  method: patch\n  operationId: updateSample\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /samples/{sampleId}/tests\n  method: get\n  operationId: listSampleTests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /samples/{sampleId}/tests\n  method: post\n  operationId: requestTest\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tests/{testId}/results\n  method: get\n  operationId: getTestResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tests/{testId}/results\n  method: post\n  operationId: enterTestResults\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /containers\n  method: get\n  operationId: listContainers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /instruments\n  method: get\n  operationId: listInstruments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/agentic-access/labvantage-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/labvantage/agentic-access/labvantage-agentic-access.yml
 summary_line: 10 operations · 4 acting
 tags:
 - Pharma

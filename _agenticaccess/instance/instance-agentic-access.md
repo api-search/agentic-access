@@ -9,169 +9,169 @@ api_specs:
   label: Instance Archive API
   slug: instance-archive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-archive-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-archive-api-openapi.yml
 - filename: instance-audit-api-openapi.yml
   format: yaml
   label: Instance Audit API
   slug: instance-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-audit-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-audit-api-openapi.yml
 - filename: instance-batch-api-openapi.yml
   format: yaml
   label: Instance Batch API
   slug: instance-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-batch-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-batch-api-openapi.yml
 - filename: instance-captions-api-openapi.yml
   format: yaml
   label: Instance Captions API
   slug: instance-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-captions-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-captions-api-openapi.yml
 - filename: instance-clip-api-openapi.yml
   format: yaml
   label: Instance Clip API
   slug: instance-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-clip-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-clip-api-openapi.yml
 - filename: instance-download-api-openapi.yml
   format: yaml
   label: Instance Download API
   slug: instance-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-download-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-download-api-openapi.yml
 - filename: instance-example-api-openapi.yml
   format: yaml
   label: Instance Example API
   slug: instance-example-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-example-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-example-api-openapi.yml
 - filename: instance-examples-api-openapi.yml
   format: yaml
   label: Instance Examples API
   slug: instance-examples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-examples-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-examples-api-openapi.yml
 - filename: instance-fast-api-openapi.yml
   format: yaml
   label: Instance Fast API
   slug: instance-fast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-fast-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-fast-api-openapi.yml
 - filename: instance-feed-api-openapi.yml
   format: yaml
   label: Instance Feed API
   slug: instance-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-feed-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-feed-api-openapi.yml
 - filename: instance-h1-api-openapi.yml
   format: yaml
   label: Instance H1 API
   slug: instance-h1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-h1-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-h1-api-openapi.yml
 - filename: instance-health-api-openapi.yml
   format: yaml
   label: Instance Health API
   slug: instance-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-health-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-health-api-openapi.yml
 - filename: instance-ingest-api-openapi.yml
   format: yaml
   label: Instance Ingest API
   slug: instance-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-ingest-api-openapi.yml
 - filename: instance-job-api-openapi.yml
   format: yaml
   label: Instance Job API
   slug: instance-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-job-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-job-api-openapi.yml
 - filename: instance-live-example-api-openapi.yml
   format: yaml
   label: Instance Live Example API
   slug: instance-live-example-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-live-example-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-live-example-api-openapi.yml
 - filename: instance-live-example-video-api-openapi.yml
   format: yaml
   label: Instance Live Example Video API
   slug: instance-live-example-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-live-example-video-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-live-example-video-api-openapi.yml
 - filename: instance-live-state-api-openapi.yml
   format: yaml
   label: Instance Live State API
   slug: instance-live-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-live-state-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-live-state-api-openapi.yml
 - filename: instance-opus-api-openapi.yml
   format: yaml
   label: Instance Opus API
   slug: instance-opus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-opus-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-opus-api-openapi.yml
 - filename: instance-qr-api-openapi.yml
   format: yaml
   label: Instance Qr API
   slug: instance-qr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-qr-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-qr-api-openapi.yml
 - filename: instance-record-api-openapi.yml
   format: yaml
   label: Instance Record API
   slug: instance-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-record-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-record-api-openapi.yml
 - filename: instance-robot-rollout-verifier-api-openapi.yml
   format: yaml
   label: Instance Robot Rollout Verifier API
   slug: instance-robot-rollout-verifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-robot-rollout-verifier-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-robot-rollout-verifier-api-openapi.yml
 - filename: instance-segment-api-openapi.yml
   format: yaml
   label: Instance Segment API
   slug: instance-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-segment-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-segment-api-openapi.yml
 - filename: instance-subtasks-api-openapi.yml
   format: yaml
   label: Instance Subtasks API
   slug: instance-subtasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-subtasks-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-subtasks-api-openapi.yml
 - filename: instance-subtasks-trace-api-openapi.yml
   format: yaml
   label: Instance Subtasks Trace API
   slug: instance-subtasks-trace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-subtasks-trace-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-subtasks-trace-api-openapi.yml
 - filename: instance-upload-api-openapi.yml
   format: yaml
   label: Instance Upload API
   slug: instance-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-upload-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-upload-api-openapi.yml
 - filename: instance-usage-api-openapi.yml
   format: yaml
   label: Instance Usage API
   slug: instance-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-usage-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-usage-api-openapi.yml
 - filename: instance-verify-api-openapi.yml
   format: yaml
   label: Instance Verify API
   slug: instance-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-verify-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-verify-api-openapi.yml
 - filename: instance-verify-frames-api-openapi.yml
   format: yaml
   label: Instance Verify Frames API
   slug: instance-verify-frames-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/openapi/instance-verify-frames-api-openapi.yml
+  url: https://artifacts.apis.io/instance/openapi/instance-verify-frames-api-openapi.yml
 consequence_counts:
   read: 22
   write: 15
@@ -208,7 +208,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/instan
   \      - high-value\n    audit: required\n- path: /v1/batch/{batch_id}\n  method: get\n  operationId: v1_batch_status_v1_batch__batch_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/verify_frames\n  method: post\n  operationId: v1_verify_frames_v1_verify_frames_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /fast\n  method: get\n  operationId: fast_page_fast_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/subtasks_trace\n  method: get\n  operationId: subtasks_trace_api_subtasks_trace_get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/subtasks\n  method: post\n  operationId: subtasks_endpoint_api_subtasks_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/captions\n  method: post\n  operationId: captions_endpoint_api_captions_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/clip/{clip_id}\n  method: get\n  operationId: clip_video_api_clip__clip_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/download\n  method: get\n  operationId: download_api_download_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/usage\n  method: get\n  operationId: usage_api_api_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/archive/{fname}\n  method: get\n  operationId: archive_clip_api_archive__fname__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage\n  method: get\n  operationId: usage_page_usage_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instance/refs/heads/main/agentic-access/instance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instance/agentic-access/instance-agentic-access.yml
 summary_line: 37 operations · 15 acting
 tags:
 - Company

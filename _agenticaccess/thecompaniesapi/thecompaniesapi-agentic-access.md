@@ -9,73 +9,73 @@ api_specs:
   label: The Companies API Actions API
   slug: thecompaniesapi-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-actions-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-actions-api-openapi.yml
 - filename: thecompaniesapi-analytics-api-openapi.yml
   format: yaml
   label: The Companies API Analytics API
   slug: thecompaniesapi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-analytics-api-openapi.yml
 - filename: thecompaniesapi-companies-api-openapi.yml
   format: yaml
   label: The Companies API Companies API
   slug: thecompaniesapi-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-companies-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-companies-api-openapi.yml
 - filename: thecompaniesapi-industries-api-openapi.yml
   format: yaml
   label: The Companies API Industries API
   slug: thecompaniesapi-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-industries-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-industries-api-openapi.yml
 - filename: thecompaniesapi-job-titles-api-openapi.yml
   format: yaml
   label: The Companies API Job Titles API
   slug: thecompaniesapi-job-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-job-titles-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-job-titles-api-openapi.yml
 - filename: thecompaniesapi-lists-api-openapi.yml
   format: yaml
   label: The Companies API Lists API
   slug: thecompaniesapi-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-lists-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-lists-api-openapi.yml
 - filename: thecompaniesapi-locations-api-openapi.yml
   format: yaml
   label: The Companies API Locations API
   slug: thecompaniesapi-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-locations-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-locations-api-openapi.yml
 - filename: thecompaniesapi-prompts-api-openapi.yml
   format: yaml
   label: The Companies API Prompts API
   slug: thecompaniesapi-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-prompts-api-openapi.yml
 - filename: thecompaniesapi-teams-api-openapi.yml
   format: yaml
   label: The Companies API Teams API
   slug: thecompaniesapi-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-teams-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-teams-api-openapi.yml
 - filename: thecompaniesapi-technologies-api-openapi.yml
   format: yaml
   label: The Companies API Technologies API
   slug: thecompaniesapi-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-technologies-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-technologies-api-openapi.yml
 - filename: thecompaniesapi-users-api-openapi.yml
   format: yaml
   label: The Companies API Users API
   slug: thecompaniesapi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-users-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-users-api-openapi.yml
 - filename: thecompaniesapi-utilities-api-openapi.yml
   format: yaml
   label: The Companies API Utilities API
   slug: thecompaniesapi-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/openapi/thecompaniesapi-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/thecompaniesapi/openapi/thecompaniesapi-utilities-api-openapi.yml
 consequence_counts:
   read: 33
   write: 13
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/thecom
   \ required\n- path: /v2/prompts/product\n  method: post\n  operationId: productPrompt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/prompts/segmentation\n  method: post\n  operationId: promptToSegmentation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/teams/{teamId}\n  method: get\n  operationId: fetchTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/teams/{teamId}\n  method: patch\n  operationId:\
   \ updateTeam\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/technologies\n  method: get\n  operationId: searchTechnologies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/user\n  method: get\n  operationId: fetchUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /\n  method: get\n  operationId: fetchApiHealth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/openapi\n  method: get\n  operationId: fetchOpenApi\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecompaniesapi/refs/heads/main/agentic-access/thecompaniesapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/thecompaniesapi/agentic-access/thecompaniesapi-agentic-access.yml
 summary_line: 46 operations · 13 acting
 tags:
 - Company Data

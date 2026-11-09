@@ -9,67 +9,67 @@ api_specs:
   label: Simpro Companies API
   slug: simpro-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-companies-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-companies-api-openapi.yml
 - filename: simpro-cost-centers-api-openapi.yml
   format: yaml
   label: Simpro Cost Centers API
   slug: simpro-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-cost-centers-api-openapi.yml
 - filename: simpro-customers-api-openapi.yml
   format: yaml
   label: Simpro Customers API
   slug: simpro-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-customers-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-customers-api-openapi.yml
 - filename: simpro-invoices-api-openapi.yml
   format: yaml
   label: Simpro Invoices API
   slug: simpro-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-invoices-api-openapi.yml
 - filename: simpro-jobs-api-openapi.yml
   format: yaml
   label: Simpro Jobs API
   slug: simpro-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-jobs-api-openapi.yml
 - filename: simpro-quotes-api-openapi.yml
   format: yaml
   label: Simpro Quotes API
   slug: simpro-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-quotes-api-openapi.yml
 - filename: simpro-schedules-api-openapi.yml
   format: yaml
   label: Simpro Schedules API
   slug: simpro-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-schedules-api-openapi.yml
 - filename: simpro-sites-api-openapi.yml
   format: yaml
   label: Simpro Sites API
   slug: simpro-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-sites-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-sites-api-openapi.yml
 - filename: simpro-stock-api-openapi.yml
   format: yaml
   label: Simpro Stock API
   slug: simpro-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-stock-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-stock-api-openapi.yml
 - filename: simpro-vendor-orders-api-openapi.yml
   format: yaml
   label: Simpro Vendor Orders API
   slug: simpro-vendor-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-vendor-orders-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-vendor-orders-api-openapi.yml
 - filename: simpro-webhooks-api-openapi.yml
   format: yaml
   label: Simpro Webhooks API
   slug: simpro-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/openapi/simpro-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/simpro/openapi/simpro-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 25
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/simpro
   \  method: get\n  operationId: listStock\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{companyID}/storageDevices/{storageDeviceID}/stock/{catalogID}\n  method: get\n  operationId: getStockItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{companyID}/setup/webhooks/\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{companyID}/setup/webhooks/\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n     \
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{companyID}/setup/webhooks/{webhookID}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /companies/{companyID}/setup/webhooks/{webhookID}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /companies/{companyID}/setup/webhooks/{webhookID}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpro/refs/heads/main/agentic-access/simpro-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/simpro/agentic-access/simpro-agentic-access.yml
 summary_line: 52 operations · 27 acting
 tags:
 - Field Service Management

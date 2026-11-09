@@ -9,19 +9,19 @@ api_specs:
   label: Microsoft Office Drive API
   slug: microsoft-office-drive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-drive-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-drive-api-openapi.yml
 - filename: microsoft-office-mail-api-openapi.yml
   format: yaml
   label: Microsoft Office Mail API
   slug: microsoft-office-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-mail-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-mail-api-openapi.yml
 - filename: microsoft-office-teams-api-openapi.yml
   format: yaml
   label: Microsoft Office Teams API
   slug: microsoft-office-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/openapi/microsoft-office-teams-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-office/openapi/microsoft-office-teams-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 11
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \      max-ttl: 3600\n    audit: none\n- path: /me/drive/items/{item_id}\n  method: get\n  operationId: getMyDriveItem\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/drive/items/{item_id}/content\n  method: get\n  operationId: downloadMyDriveItemContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/drive/items/{item_id}/content\n  method: put\n  operationId: uploadMyDriveItemContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/joinedTeams\n  method: get\n  operationId: listMyJoinedTeams\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}\n  method: get\n  operationId: getTeam\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/channels\n  method: get\n  operationId: listTeamChannels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/channels\n  method: post\n  operationId: createTeamChannel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /teams/{team_id}/channels/{channel_id}/messages\n  method: get\n  operationId: listChannelMessages\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /teams/{team_id}/channels/{channel_id}/messages\n  method: post\n  operationId: sendChannelMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/agentic-access/microsoft-office-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-office/agentic-access/microsoft-office-agentic-access.yml
 summary_line: 15 operations · 4 acting
 tags:
 - Collaboration

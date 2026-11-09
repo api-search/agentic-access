@@ -8,31 +8,31 @@ api_specs:
   label: Fortnite Tracker Challenges API
   slug: fortnite-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-challenges-api-openapi.yml
 - filename: fortnite-leaderboards-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Leaderboards API
   slug: fortnite-leaderboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-leaderboards-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-leaderboards-api-openapi.yml
 - filename: fortnite-power-rankings-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Power Rankings API
   slug: fortnite-power-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-power-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-power-rankings-api-openapi.yml
 - filename: fortnite-profile-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Profile API
   slug: fortnite-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-profile-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-profile-api-openapi.yml
 - filename: fortnite-store-api-openapi.yml
   format: yaml
   label: Fortnite Tracker Store API
   slug: fortnite-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/openapi/fortnite-store-api-openapi.yml
+  url: https://artifacts.apis.io/fortnite/openapi/fortnite-store-api-openapi.yml
 consequence_counts:
   read: 7
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -60,7 +60,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/fortnite-tracker.yaml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    connected: 7\n  by_consequence:\n    read: 7\n  human_in_the_loop_required: 0\noperations:\n- path: /profile/{platform}/{epicNickname}\n  method: get\n  operationId: getProfile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/account/{accountId}\n  method: get\n  operationId: getProfileByAccountId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leaderboards/{mode}/{platform}/{window}\n\
   \  method: get\n  operationId: listLeaderboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /powerrankings/top500\n  method: get\n  operationId: listTopPowerRankings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /powerrankings/{platform}/{region}/{epicNickname}\n  method: get\n  operationId: getPlayerPowerRanking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /store\n  method: get\n  operationId: listStoreItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /challenges\n  method: get\n  operationId: listChallenges\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fortnite/refs/heads/main/agentic-access/fortnite-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/fortnite/agentic-access/fortnite-agentic-access.yml
 summary_line: 7 operations
 tags:
 - Public APIs

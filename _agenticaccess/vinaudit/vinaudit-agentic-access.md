@@ -9,43 +9,43 @@ api_specs:
   label: VINaudit Getownershipcost.php API
   slug: vinaudit-getownershipcost-php-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-getownershipcost-php-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-getownershipcost-php-api-openapi.yml
 - filename: vinaudit-pullreport-api-openapi.yml
   format: yaml
   label: VINaudit Pullreport API
   slug: vinaudit-pullreport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-pullreport-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-pullreport-api-openapi.yml
 - filename: vinaudit-query-api-openapi.yml
   format: yaml
   label: VINaudit Query API
   slug: vinaudit-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-query-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-query-api-openapi.yml
 - filename: vinaudit-report-api-openapi.yml
   format: yaml
   label: VINaudit Report API
   slug: vinaudit-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-report-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-report-api-openapi.yml
 - filename: vinaudit-selections-api-openapi.yml
   format: yaml
   label: VINaudit Selections API
   slug: vinaudit-selections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-selections-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-selections-api-openapi.yml
 - filename: vinaudit-specifications-api-openapi.yml
   format: yaml
   label: VINaudit Specifications API
   slug: vinaudit-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-specifications-api-openapi.yml
 - filename: vinaudit-market-value-api-openapi.yml
   format: yaml
   label: VINaudit Market Value API
   slug: vinaudit-market-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/openapi/vinaudit-market-value-api-openapi.yml
+  url: https://artifacts.apis.io/vinaudit/openapi/vinaudit-market-value-api-openapi.yml
 consequence_counts:
   read: 9
   write: 1
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/vinaud
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /getownershipcost.php\n  method: post\n  operationId: getOwnershipCostPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marketvalue\n  method: get\n  operationId: getMarketValue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pullreport\n  method: get\n  operationId: pullReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pullreport\n  method: post\n  operationId: pullReportPost\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /query\n  method: get\n  operationId: queryVin\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: post\n  operationId: queryVinPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /report\n  method: get\n  operationId: viewReport\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /selections\n  method: get\n  operationId: getVehicleSelections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /specifications\n  method: get\n  operationId: getVehicleSpecifications\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vinaudit/refs/heads/main/agentic-access/vinaudit-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vinaudit/agentic-access/vinaudit-agentic-access.yml
 summary_line: 10 operations · 1 acting
 tags:
 - Vehicle History

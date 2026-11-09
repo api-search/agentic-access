@@ -8,253 +8,253 @@ api_specs:
   label: U.S. Geological Survey Catalog API
   slug: u-s-geological-survey-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-catalog-api-openapi.yml
 - filename: u-s-geological-survey-earthquakes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Earthquakes API
   slug: u-s-geological-survey-earthquakes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-earthquakes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-earthquakes-api-openapi.yml
 - filename: u-s-geological-survey-monitoring-locations-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Monitoring Locations API
   slug: u-s-geological-survey-monitoring-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-monitoring-locations-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-monitoring-locations-api-openapi.yml
 - filename: u-s-geological-survey-reference-data-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Reference Data API
   slug: u-s-geological-survey-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-reference-data-api-openapi.yml
 - filename: u-s-geological-survey-time-series-data-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Time Series Data API
   slug: u-s-geological-survey-time-series-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-time-series-data-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-time-series-data-api-openapi.yml
 - filename: u-s-geological-survey-agency-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Agency Codes API
   slug: u-s-geological-survey-agency-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-agency-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-agency-codes-api-openapi.yml
 - filename: u-s-geological-survey-altitude-datums-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Altitude Datums API
   slug: u-s-geological-survey-altitude-datums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-altitude-datums-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-altitude-datums-api-openapi.yml
 - filename: u-s-geological-survey-aquifer-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Aquifer Codes API
   slug: u-s-geological-survey-aquifer-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-aquifer-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-aquifer-codes-api-openapi.yml
 - filename: u-s-geological-survey-aquifer-types-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Aquifer Types API
   slug: u-s-geological-survey-aquifer-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-aquifer-types-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-aquifer-types-api-openapi.yml
 - filename: u-s-geological-survey-channel-measurements-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Channel Measurements API
   slug: u-s-geological-survey-channel-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-channel-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-channel-measurements-api-openapi.yml
 - filename: u-s-geological-survey-citations-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Citations API
   slug: u-s-geological-survey-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-citations-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-citations-api-openapi.yml
 - filename: u-s-geological-survey-combined-metadata-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Combined Metadata API
   slug: u-s-geological-survey-combined-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-combined-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-combined-metadata-api-openapi.yml
 - filename: u-s-geological-survey-continuous-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Continuous API
   slug: u-s-geological-survey-continuous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-continuous-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-continuous-api-openapi.yml
 - filename: u-s-geological-survey-coordinate-accuracy-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Coordinate Accuracy Codes API
   slug: u-s-geological-survey-coordinate-accuracy-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-coordinate-accuracy-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-coordinate-accuracy-codes-api-openapi.yml
 - filename: u-s-geological-survey-coordinate-datum-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Coordinate Datum Codes API
   slug: u-s-geological-survey-coordinate-datum-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-coordinate-datum-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-coordinate-datum-codes-api-openapi.yml
 - filename: u-s-geological-survey-coordinate-method-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Coordinate Method Codes API
   slug: u-s-geological-survey-coordinate-method-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-coordinate-method-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-coordinate-method-codes-api-openapi.yml
 - filename: u-s-geological-survey-counties-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Counties API
   slug: u-s-geological-survey-counties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-counties-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-counties-api-openapi.yml
 - filename: u-s-geological-survey-countries-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Countries API
   slug: u-s-geological-survey-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-countries-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-countries-api-openapi.yml
 - filename: u-s-geological-survey-daily-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Daily API
   slug: u-s-geological-survey-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-daily-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-daily-api-openapi.yml
 - filename: u-s-geological-survey-field-measurements-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Field Measurements API
   slug: u-s-geological-survey-field-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-field-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-field-measurements-api-openapi.yml
 - filename: u-s-geological-survey-field-measurements-metadata-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Field Measurements Metadata API
   slug: u-s-geological-survey-field-measurements-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-field-measurements-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-field-measurements-metadata-api-openapi.yml
 - filename: u-s-geological-survey-hydrologic-unit-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Hydrologic Unit Codes API
   slug: u-s-geological-survey-hydrologic-unit-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-hydrologic-unit-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-hydrologic-unit-codes-api-openapi.yml
 - filename: u-s-geological-survey-latest-continuous-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Latest Continuous API
   slug: u-s-geological-survey-latest-continuous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-latest-continuous-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-latest-continuous-api-openapi.yml
 - filename: u-s-geological-survey-latest-daily-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Latest Daily API
   slug: u-s-geological-survey-latest-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-latest-daily-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-latest-daily-api-openapi.yml
 - filename: u-s-geological-survey-latest-field-measurements-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Latest Field Measurements API
   slug: u-s-geological-survey-latest-field-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-latest-field-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-latest-field-measurements-api-openapi.yml
 - filename: u-s-geological-survey-medium-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Medium Codes API
   slug: u-s-geological-survey-medium-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-medium-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-medium-codes-api-openapi.yml
 - filename: u-s-geological-survey-method-categories-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Method Categories API
   slug: u-s-geological-survey-method-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-method-categories-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-method-categories-api-openapi.yml
 - filename: u-s-geological-survey-method-citations-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Method Citations API
   slug: u-s-geological-survey-method-citations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-method-citations-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-method-citations-api-openapi.yml
 - filename: u-s-geological-survey-methods-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Methods API
   slug: u-s-geological-survey-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-methods-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-methods-api-openapi.yml
 - filename: u-s-geological-survey-national-aquifer-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey National Aquifer Codes API
   slug: u-s-geological-survey-national-aquifer-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-national-aquifer-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-national-aquifer-codes-api-openapi.yml
 - filename: u-s-geological-survey-parameter-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Parameter Codes API
   slug: u-s-geological-survey-parameter-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-parameter-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-parameter-codes-api-openapi.yml
 - filename: u-s-geological-survey-peaks-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Peaks API
   slug: u-s-geological-survey-peaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-peaks-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-peaks-api-openapi.yml
 - filename: u-s-geological-survey-reliability-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Reliability Codes API
   slug: u-s-geological-survey-reliability-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-reliability-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-reliability-codes-api-openapi.yml
 - filename: u-s-geological-survey-server-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Server API
   slug: u-s-geological-survey-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-server-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-server-api-openapi.yml
 - filename: u-s-geological-survey-site-types-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Site Types API
   slug: u-s-geological-survey-site-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-site-types-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-site-types-api-openapi.yml
 - filename: u-s-geological-survey-states-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey States API
   slug: u-s-geological-survey-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-states-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-states-api-openapi.yml
 - filename: u-s-geological-survey-statistic-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Statistic Codes API
   slug: u-s-geological-survey-statistic-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-statistic-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-statistic-codes-api-openapi.yml
 - filename: u-s-geological-survey-time-series-metadata-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Time Series Metadata API
   slug: u-s-geological-survey-time-series-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-time-series-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-time-series-metadata-api-openapi.yml
 - filename: u-s-geological-survey-time-series-revisions-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Time Series Revisions API
   slug: u-s-geological-survey-time-series-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-time-series-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-time-series-revisions-api-openapi.yml
 - filename: u-s-geological-survey-time-zone-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Time Zone Codes API
   slug: u-s-geological-survey-time-zone-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-time-zone-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-time-zone-codes-api-openapi.yml
 - filename: u-s-geological-survey-topographic-codes-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Topographic Codes API
   slug: u-s-geological-survey-topographic-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-topographic-codes-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-topographic-codes-api-openapi.yml
 - filename: u-s-geological-survey-collections-api-openapi.yml
   format: yaml
   label: U.S. Geological Survey Collections API
   slug: u-s-geological-survey-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/openapi/u-s-geological-survey-collections-api-openapi.yml
+  url: https://artifacts.apis.io/u-s-geological-survey/openapi/u-s-geological-survey-collections-api-openapi.yml
 consequence_counts:
   read: 301
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -312,8 +312,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/u-s-ge
   - path: /collections/countries/queryables\n  method: get\n  operationId: getCountriesQueryables\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/countries/schema\n  method: get\n  operationId: getCountriesSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily\n  method: get\n  operationId: describeDailyCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/items\n  method: get\n  operationId: getDailyFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/items\n  method: options\n  operationId:\
   \ optionsDailyFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/items\n  method: post\n  operationId: getCQL2DailyFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/items/{featureId}\n  method: get\n  operationId: getDailyFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/items/{featureId}\n  method: options\n  operationId: optionsDailyFeature\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/queryables\n  method: get\n  operationId: getDailyQueryables\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/daily/schema\n  method: get\n  operationId: getDailySchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query\n  method: get\n  operationId: queryEarthquakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /count\n  method: get\n  operationId: countEarthquakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements\n  method: get\n  operationId: describeField-measurementsCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
-  \ 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: get\n  operationId: getField-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: options\n  operationId: optionsField-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: post\n  operationId: getCQL2Field-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (74 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/agentic-access/u-s-geological-survey-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/u-s-geological-survey/refs/heads/main/agentic-access/u-s-geological-survey-agentic-access.yml
+  \ 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: get\n  operationId: getField-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: options\n  operationId: optionsField-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /collections/field-measurements/items\n  method: post\n  operationId: getCQL2Field-measurementsFeatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (74 KB total) ---\n# Full source: https://artifacts.apis.io/u-s-geological-survey/agentic-access/u-s-geological-survey-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/u-s-geological-survey/agentic-access/u-s-geological-survey-agentic-access.yml
 summary_line: 301 operations
 tags:
 - Federal Government

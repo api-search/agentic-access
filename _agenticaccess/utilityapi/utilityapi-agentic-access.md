@@ -9,55 +9,55 @@ api_specs:
   label: UtilityAPI Accounting API
   slug: utilityapi-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-accounting-api-openapi.yml
 - filename: utilityapi-authorizations-api-openapi.yml
   format: yaml
   label: UtilityAPI Authorizations API
   slug: utilityapi-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-authorizations-api-openapi.yml
 - filename: utilityapi-bills-api-openapi.yml
   format: yaml
   label: UtilityAPI Bills API
   slug: utilityapi-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-bills-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-bills-api-openapi.yml
 - filename: utilityapi-events-api-openapi.yml
   format: yaml
   label: UtilityAPI Events API
   slug: utilityapi-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-events-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-events-api-openapi.yml
 - filename: utilityapi-files-api-openapi.yml
   format: yaml
   label: UtilityAPI Files API
   slug: utilityapi-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-files-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-files-api-openapi.yml
 - filename: utilityapi-forms-api-openapi.yml
   format: yaml
   label: UtilityAPI Forms API
   slug: utilityapi-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-forms-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-forms-api-openapi.yml
 - filename: utilityapi-intervals-api-openapi.yml
   format: yaml
   label: UtilityAPI Intervals API
   slug: utilityapi-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-intervals-api-openapi.yml
 - filename: utilityapi-meters-api-openapi.yml
   format: yaml
   label: UtilityAPI Meters API
   slug: utilityapi-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-meters-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-meters-api-openapi.yml
 - filename: utilityapi-templates-api-openapi.yml
   format: yaml
   label: UtilityAPI Templates API
   slug: utilityapi-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/openapi/utilityapi-templates-api-openapi.yml
+  url: https://artifacts.apis.io/utilityapi/openapi/utilityapi-templates-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/utilit
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /meters/{uid}/monitor\n  method: post\n  operationId: monitorMeterData\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /bills\n  method: get\n  operationId: listBills\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /intervals\n  method: get\n  operationId: listIntervals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /files\n  method: get\n  operationId: listFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events\n  method: get\n  operationId: listEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{uid}\n  method: get\n  operationId: getEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /events/{uid}\n  method: put\n  operationId: modifyEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /accounting/billing-accounts\n  method: get\n  operationId: listBillingAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/billing-accounts/{uid}\n  method: get\n  operationId: getBillingAccount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/billing-summaries\n  method: get\n  operationId: listBillingSummaries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /accounting/billing-summaries/{uid}\n  method: get\n  operationId: getBillingSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/utilityapi/refs/heads/main/agentic-access/utilityapi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/utilityapi/agentic-access/utilityapi-agentic-access.yml
 summary_line: 27 operations · 10 acting · 1 human-in-the-loop
 tags:
 - Energy

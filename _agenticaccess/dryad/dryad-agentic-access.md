@@ -9,43 +9,43 @@ api_specs:
   label: Dryad Datasets API
   slug: dryad-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-datasets-api-openapi.yml
 - filename: dryad-files-api-openapi.yml
   format: yaml
   label: Dryad Files API
   slug: dryad-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-files-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-files-api-openapi.yml
 - filename: dryad-internal-api-openapi.yml
   format: yaml
   label: Dryad Internal API
   slug: dryad-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-internal-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-internal-api-openapi.yml
 - filename: dryad-reports-api-openapi.yml
   format: yaml
   label: Dryad Reports API
   slug: dryad-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-reports-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-reports-api-openapi.yml
 - filename: dryad-root-api-openapi.yml
   format: yaml
   label: Dryad Root API
   slug: dryad-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-root-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-root-api-openapi.yml
 - filename: dryad-search-api-openapi.yml
   format: yaml
   label: Dryad Search API
   slug: dryad-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-search-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-search-api-openapi.yml
 - filename: dryad-versions-api-openapi.yml
   format: yaml
   label: Dryad Versions API
   slug: dryad-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/openapi/dryad-versions-api-openapi.yml
+  url: https://artifacts.apis.io/dryad/openapi/dryad-versions-api-openapi.yml
 consequence_counts:
   read: 16
   write: 9
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{doi}/urls\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /processor_results/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /processor_results/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /versions/{version_id}/processor_results\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /versions/{version_id}/processor_results\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datasets/{doi}/related_works/{related_doi}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /reports\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reports/{name}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dryad/refs/heads/main/agentic-access/dryad-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dryad/agentic-access/dryad-agentic-access.yml
 summary_line: 25 operations · 9 acting
 tags:
 - Research Data

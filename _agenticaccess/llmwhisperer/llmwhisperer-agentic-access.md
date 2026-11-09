@@ -9,31 +9,31 @@ api_specs:
   label: LLMWhisperer Extraction API
   slug: llmwhisperer-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-extraction-api-openapi.yml
 - filename: llmwhisperer-highlights-api-openapi.yml
   format: yaml
   label: LLMWhisperer Highlights API
   slug: llmwhisperer-highlights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-highlights-api-openapi.yml
 - filename: llmwhisperer-retrieve-api-openapi.yml
   format: yaml
   label: LLMWhisperer Retrieve API
   slug: llmwhisperer-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-retrieve-api-openapi.yml
 - filename: llmwhisperer-status-api-openapi.yml
   format: yaml
   label: LLMWhisperer Status API
   slug: llmwhisperer-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-status-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-status-api-openapi.yml
 - filename: llmwhisperer-webhooks-api-openapi.yml
   format: yaml
   label: LLMWhisperer Webhooks API
   slug: llmwhisperer-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/openapi/llmwhisperer-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/llmwhisperer/openapi/llmwhisperer-webhooks-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -62,7 +62,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/llmwhisperer-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 4\n    connected: 4\n  by_consequence:\n    write: 4\n    read: 4\n  human_in_the_loop_required: 0\noperations:\n- path: /whisper\n  method: post\n  operationId: whisper\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whisper-status\n  method: get\n  operationId: whisperStatus\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whisper-retrieve\n  method: get\n  operationId: whisperRetrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /highlights\n  method: get\n  operationId: highlights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whisper-manage-callback\n  method: post\n  operationId: registerWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whisper-manage-callback\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /whisper-manage-callback\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /whisper-manage-callback\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/llmwhisperer/refs/heads/main/agentic-access/llmwhisperer-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/llmwhisperer/agentic-access/llmwhisperer-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Artificial Intelligence

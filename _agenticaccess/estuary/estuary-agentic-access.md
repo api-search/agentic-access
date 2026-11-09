@@ -9,49 +9,49 @@ api_specs:
   label: Estuary Auth API
   slug: estuary-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-auth-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-auth-api-openapi.yml
 - filename: estuary-captures-api-openapi.yml
   format: yaml
   label: Estuary Captures API
   slug: estuary-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-captures-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-captures-api-openapi.yml
 - filename: estuary-collections-api-openapi.yml
   format: yaml
   label: Estuary Collections API
   slug: estuary-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-collections-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-collections-api-openapi.yml
 - filename: estuary-connectors-api-openapi.yml
   format: yaml
   label: Estuary Connectors API
   slug: estuary-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-connectors-api-openapi.yml
 - filename: estuary-drafts-api-openapi.yml
   format: yaml
   label: Estuary Drafts API
   slug: estuary-drafts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-drafts-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-drafts-api-openapi.yml
 - filename: estuary-materializations-api-openapi.yml
   format: yaml
   label: Estuary Materializations API
   slug: estuary-materializations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-materializations-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-materializations-api-openapi.yml
 - filename: estuary-publications-api-openapi.yml
   format: yaml
   label: Estuary Publications API
   slug: estuary-publications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-publications-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-publications-api-openapi.yml
 - filename: estuary-tenants-api-openapi.yml
   format: yaml
   label: Estuary Tenants API
   slug: estuary-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/openapi/estuary-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/estuary/openapi/estuary-tenants-api-openapi.yml
 consequence_counts:
   read: 13
   safety-critical: 1
@@ -93,7 +93,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/estuar
   \      max-ttl: 3600\n    audit: none\n- path: /draft_specs\n  method: post\n  operationId: upsertDraftSpec\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /publications\n  method: get\n  operationId: listPublications\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /publications\n  method: post\n  operationId: createPublication\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /discovers\n  method: post\n  operationId:\
   \ createDiscover\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /connectors\n  method: get\n  operationId: listConnectors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /connector_tags\n  method: get\n  operationId: listConnectorTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tenants\n  method: get\n  operationId: listTenants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog_stats\n  method: get\n  operationId: listCatalogStats\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rpc/billing_report_202308\n  method: post\n  operationId: billingReport\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/estuary/refs/heads/main/agentic-access/estuary-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/estuary/agentic-access/estuary-agentic-access.yml
 summary_line: 22 operations · 9 acting · 1 human-in-the-loop
 tags:
 - Data Integration

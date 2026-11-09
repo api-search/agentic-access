@@ -9,31 +9,31 @@ api_specs:
   label: Rasa Domain API
   slug: rasa-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-domain-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-domain-api-openapi.yml
 - filename: rasa-model-api-openapi.yml
   format: yaml
   label: Rasa Model API
   slug: rasa-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-model-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-model-api-openapi.yml
 - filename: rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
   format: yaml
   label: Rasa SDK Action Server Endpoint API
   slug: rasa-rasa-sdk-action-server-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-rasa-sdk-action-server-endpoint-api-openapi.yml
 - filename: rasa-server-information-api-openapi.yml
   format: yaml
   label: Rasa Server Information API
   slug: rasa-server-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-server-information-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-server-information-api-openapi.yml
 - filename: rasa-tracker-api-openapi.yml
   format: yaml
   label: Rasa Tracker API
   slug: rasa-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/openapi/rasa-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/rasa/openapi/rasa-tracker-api-openapi.yml
 consequence_counts:
   read: 6
   write: 14
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/rasa-a
   \  method: post\n  operationId: addConversationMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/train\n  method: post\n  operationId: trainModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/test/stories\n  method: post\n  operationId: testModelStories\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /model/test/intents\n  method: post\n  operationId: testModelIntent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/predict\n  method: post\n  operationId: predictModelAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/parse\n  method: post\n  operationId: parseModelMessage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model\n  method: put\n  operationId: replaceModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model\n  method: delete\n  operationId: unloadModel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domain\n  method: get\n  operationId: getDomain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasa/refs/heads/main/agentic-access/rasa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rasa/agentic-access/rasa-agentic-access.yml
 summary_line: 20 operations · 14 acting
 tags:
 - Company

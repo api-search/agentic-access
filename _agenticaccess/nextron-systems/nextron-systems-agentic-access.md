@@ -9,19 +9,19 @@ api_specs:
   label: Nextron Systems Info API
   slug: nextron-systems-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/openapi/nextron-systems-info-api-openapi.yml
+  url: https://artifacts.apis.io/nextron-systems/openapi/nextron-systems-info-api-openapi.yml
 - filename: nextron-systems-results-api-openapi.yml
   format: yaml
   label: Nextron Systems Results API
   slug: nextron-systems-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/openapi/nextron-systems-results-api-openapi.yml
+  url: https://artifacts.apis.io/nextron-systems/openapi/nextron-systems-results-api-openapi.yml
 - filename: nextron-systems-scan-api-openapi.yml
   format: yaml
   label: Nextron Systems Scan API
   slug: nextron-systems-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/openapi/nextron-systems-scan-api-openapi.yml
+  url: https://artifacts.apis.io/nextron-systems/openapi/nextron-systems-scan-api-openapi.yml
 consequence_counts:
   read: 5
   write: 2
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/nextron-systems-thunderstorm-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 7\n  by_action_class:\n    acting: 2\n    connected: 5\n  by_consequence:\n    write: 2\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /check\n  method: post\n  operationId: check\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkAsync\n  method: post\n  operationId: checkAsync\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /getAsyncResults\n  method: get\n  operationId: getAsyncResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /queueHistory\n  method: get\n  operationId: queueHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sampleHistory\n  method: get\n  operationId: sampleHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /info\n  method: get\n  operationId: info\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextron-systems/refs/heads/main/agentic-access/nextron-systems-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nextron-systems/agentic-access/nextron-systems-agentic-access.yml
 summary_line: 7 operations · 2 acting
 tags:
 - Company

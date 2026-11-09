@@ -8,43 +8,43 @@ api_specs:
   label: Stormglass Astronomy API
   slug: stormglass-astronomy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-astronomy-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-astronomy-api-openapi.yml
 - filename: stormglass-bio-api-openapi.yml
   format: yaml
   label: Stormglass Bio API
   slug: stormglass-bio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-bio-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-bio-api-openapi.yml
 - filename: stormglass-elevation-api-openapi.yml
   format: yaml
   label: Stormglass Elevation API
   slug: stormglass-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-elevation-api-openapi.yml
 - filename: stormglass-marine-api-openapi.yml
   format: yaml
   label: Stormglass Marine API
   slug: stormglass-marine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-marine-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-marine-api-openapi.yml
 - filename: stormglass-solar-api-openapi.yml
   format: yaml
   label: Stormglass Solar API
   slug: stormglass-solar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-solar-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-solar-api-openapi.yml
 - filename: stormglass-tides-api-openapi.yml
   format: yaml
   label: Stormglass Tides API
   slug: stormglass-tides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-tides-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-tides-api-openapi.yml
 - filename: stormglass-weather-api-openapi.yml
   format: yaml
   label: Stormglass Weather API
   slug: stormglass-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/openapi/stormglass-weather-api-openapi.yml
+  url: https://artifacts.apis.io/stormglass/openapi/stormglass-weather-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -72,7 +72,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/stormglass-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /weather/point\n  method: get\n  operationId: getWeatherPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /marine/point\n  method: get\n  operationId: getMarinePoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tide/extremes\n  method: get\n  operationId: getTideExtremes\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tide/sea-level\n  method: get\n  operationId: getTideSeaLevel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tide/stations\n  method: get\n  operationId: getTideStations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tide/stations/area\n  method: get\n  operationId: getTideStationsArea\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /astronomy/point\n  method: get\n  operationId: getAstronomyPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /solar/point\n  method: get\n  operationId: getSolarPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /bio/point\n  method: get\n  operationId: getBioPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /elevation/point\n  method: get\n  operationId: getElevationPoint\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stormglass/refs/heads/main/agentic-access/stormglass-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/stormglass/agentic-access/stormglass-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Astronomy

@@ -9,55 +9,55 @@ api_specs:
   label: Prezent Audiences API
   slug: prezent-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-audiences-api-openapi.yml
 - filename: prezent-autogenerator-api-openapi.yml
   format: yaml
   label: Prezent AutoGenerator API
   slug: prezent-autogenerator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-autogenerator-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-autogenerator-api-openapi.yml
 - filename: prezent-file-access-api-openapi.yml
   format: yaml
   label: Prezent File Access API
   slug: prezent-file-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-file-access-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-file-access-api-openapi.yml
 - filename: prezent-health-api-openapi.yml
   format: yaml
   label: Prezent Health API
   slug: prezent-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-health-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-health-api-openapi.yml
 - filename: prezent-streaming-api-openapi.yml
   format: yaml
   label: Prezent Streaming API
   slug: prezent-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-streaming-api-openapi.yml
 - filename: prezent-template-converter-api-openapi.yml
   format: yaml
   label: Prezent Template Converter API
   slug: prezent-template-converter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-template-converter-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-template-converter-api-openapi.yml
 - filename: prezent-themes-api-openapi.yml
   format: yaml
   label: Prezent Themes API
   slug: prezent-themes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-themes-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-themes-api-openapi.yml
 - filename: prezent-upload-api-openapi.yml
   format: yaml
   label: Prezent Upload API
   slug: prezent-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-upload-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-upload-api-openapi.yml
 - filename: prezent-webhooks-api-openapi.yml
   format: yaml
   label: Prezent Webhooks API
   slug: prezent-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/openapi/prezent-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/prezent/openapi/prezent-webhooks-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 19
@@ -106,7 +106,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/prezen
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/validate\n  method: post\n  operationId: validateFiles\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook-subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook-subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhook-subscriptions/{id}\n  method: get\n  operationId: getWebhookSubscription\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/webhook-subscriptions/{id}\n  method: patch\n  operationId: updateWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook-subscriptions/{id}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n  \
   \    - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook-subscriptions/{id}/rotate-secret\n  method: post\n  operationId: rotateWebhookSubscriptionSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/webhook-subscriptions/{id}/test\n  method: post\n  operationId: testWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prezent/refs/heads/main/agentic-access/prezent-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/prezent/agentic-access/prezent-agentic-access.yml
 summary_line: 48 operations · 29 acting
 tags:
 - Company

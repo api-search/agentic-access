@@ -9,19 +9,19 @@ api_specs:
   label: PDF Monkey Authentication API
   slug: pdf-monkey-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-authentication-api-openapi.yml
 - filename: pdf-monkey-documents-api-openapi.yml
   format: yaml
   label: PDF Monkey Documents API
   slug: pdf-monkey-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-documents-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-documents-api-openapi.yml
 - filename: pdf-monkey-templates-api-openapi.yml
   format: yaml
   label: PDF Monkey Templates API
   slug: pdf-monkey-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/openapi/pdf-monkey-templates-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-monkey/openapi/pdf-monkey-templates-api-openapi.yml
 consequence_counts:
   read: 6
   write: 7
@@ -52,7 +52,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ /documents/{id}\n  method: delete\n  operationId: deleteDocument\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document_cards\n  method: get\n  operationId: listDocumentCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document_cards/{id}\n  method: get\n  operationId: getDocumentCard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document_template_cards\n  method: get\n  operationId: listTemplateCards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /document_templates\n  method: post\n  operationId: createTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document_templates/{id}\n  method: get\n  operationId: getTemplate\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /document_templates/{id}\n  method: put\n  operationId: updateTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /document_templates/{id}\n  method: delete\n\
   \  operationId: deleteTemplate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdf-monkey/refs/heads/main/agentic-access/pdf-monkey-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pdf-monkey/agentic-access/pdf-monkey-agentic-access.yml
 summary_line: 13 operations · 7 acting
 tags:
 - PDF

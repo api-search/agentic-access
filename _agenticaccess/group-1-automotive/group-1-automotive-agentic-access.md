@@ -28,7 +28,7 @@ source_yaml: "generated: '2026-08-28'\nmethod: searched\nsource: https://www.gro
   \ false\n  note: >-\n    robots.txt does not disallow /llm/, so the advertised agent endpoint is crawlable under the\n    site's own rules. There is no ai.txt, no AIPREF signal, and no Content-Signal header. The\n    Terms of Use at https://www.group1auto.com/terms-of-use/ (effective 2026-06-29) does contain\n    an \"AI tool usage\" section, so the company's agent posture is split across two documents that\n    do not reference each other.\ndivergence:\n  finding: >-\n    The surface Group 1 advertises to agents is reachable by a browser-class client and refused\n    to a plain HTTP client. Cloudflare bot management on www.group1auto.com answered HTTP 403 to\n    every curl request for /llm/inventory/ (and for the site root, /openapi.json, /wp-json/ and\n    /sitemap.xml) even with a current desktop browser User-Agent, while the same URL fetched\n    through a browser-class path returned the full inventory listing. /llms.txt and /robots.txt\n    themselves are served to plain clients\
   \ at 200.\n  implication: >-\n    An agent that speaks plain HTTP reads the llms.txt telling it to call /llm/inventory/, then\n    gets a 403 at that endpoint. The instruction and the enforcement disagree. This is a\n    provider-side edge-policy gap, not an absence of intent — the endpoint is real and the\n    content is there.\n  evidence:\n    - url: https://www.group1auto.com/llms.txt\n      client: curl (desktop browser UA)\n      status: 200\n    - url: https://www.group1auto.com/llm/inventory/\n      client: curl (desktop browser UA)\n      status: 403\n      body: Cloudflare \"Attention Required!\" interstitial, 4,569 bytes\n    - url: https://www.group1auto.com/llm/inventory/?bodytype=SUVs&limit=2\n      client: browser-class fetch\n      status: 200\n      body: server-rendered inventory listing, 26,088 records reported\ngaps:\n  - No JSON representation. format=json is ignored; /llm/inventory.json returns the site 404.\n  - No OpenAPI, AsyncAPI, GraphQL SDL or Postman collection\
   \ describing the endpoint.\n  - No /.well-known/api-catalog pointing at the surface (all /.well-known/ paths 404).\n  - No MCP server and no A2A agent card.\n  - llms.txt does not state a rate limit, a change policy, a contact, or terms for agent use.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/group-1-automotive/refs/heads/main/agentic-access/group-1-automotive-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/group-1-automotive/agentic-access/group-1-automotive-agentic-access.yml
 summary_line: 1 operation
 tags:
 - Fortune 500
@@ -38,5 +38,5 @@ tags:
 - Dealership
 - Retail
 - Agentic Access
-- llms-txt
+- Llms.txt
 ---

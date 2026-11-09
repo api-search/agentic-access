@@ -9,37 +9,37 @@ api_specs:
   label: LangDB Analytics API
   slug: langdb-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-analytics-api-openapi.yml
 - filename: langdb-embeddings-api-openapi.yml
   format: yaml
   label: LangDB Embeddings API
   slug: langdb-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-embeddings-api-openapi.yml
 - filename: langdb-images-api-openapi.yml
   format: yaml
   label: LangDB Images API
   slug: langdb-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-images-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-images-api-openapi.yml
 - filename: langdb-models-api-openapi.yml
   format: yaml
   label: LangDB Models API
   slug: langdb-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-models-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-models-api-openapi.yml
 - filename: langdb-threads-api-openapi.yml
   format: yaml
   label: LangDB Threads API
   slug: langdb-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-threads-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-threads-api-openapi.yml
 - filename: langdb-chat-completions-api-openapi.yml
   format: yaml
   label: LangDB Chat Completions API
   slug: langdb-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/openapi/langdb-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/langdb/openapi/langdb-chat-completions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/langdb
   \ fetchAnalyticsSummary\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/total\n  method: post\n  operationId: getTotalUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/models\n  method: post\n  operationId: getUsageByModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /embeddings\n  method: post\n  operationId:\
   \ createEmbedding\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /images/generations\n  method: post\n  operationId: createImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /models\n  method: get\n  operationId: listModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threads/{thread_id}/messages\n  method: get\n  operationId: getThreadMessages\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /threads/{thread_id}/cost\n  method: get\n  operationId: getThreadCost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langdb/refs/heads/main/agentic-access/langdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/langdb/agentic-access/langdb-agentic-access.yml
 summary_line: 10 operations · 3 acting
 tags:
 - Artificial Intelligence

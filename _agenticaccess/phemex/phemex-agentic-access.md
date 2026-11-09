@@ -9,55 +9,55 @@ api_specs:
   label: Phemex Account API
   slug: phemex-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-account-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-account-api-openapi.yml
 - filename: phemex-conversion-api-openapi.yml
   format: yaml
   label: Phemex Conversion API
   slug: phemex-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-conversion-api-openapi.yml
 - filename: phemex-market-data-api-openapi.yml
   format: yaml
   label: Phemex Market Data API
   slug: phemex-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-market-data-api-openapi.yml
 - filename: phemex-orders-api-openapi.yml
   format: yaml
   label: Phemex Orders API
   slug: phemex-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-orders-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-orders-api-openapi.yml
 - filename: phemex-positions-api-openapi.yml
   format: yaml
   label: Phemex Positions API
   slug: phemex-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-positions-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-positions-api-openapi.yml
 - filename: phemex-sub-account-transfers-api-openapi.yml
   format: yaml
   label: Phemex Sub-Account Transfers API
   slug: phemex-sub-account-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-sub-account-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-sub-account-transfers-api-openapi.yml
 - filename: phemex-trades-api-openapi.yml
   format: yaml
   label: Phemex Trades API
   slug: phemex-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-trades-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-trades-api-openapi.yml
 - filename: phemex-transfers-api-openapi.yml
   format: yaml
   label: Phemex Transfers API
   slug: phemex-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-transfers-api-openapi.yml
 - filename: phemex-wallets-api-openapi.yml
   format: yaml
   label: Phemex Wallets API
   slug: phemex-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/openapi/phemex-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/phemex/openapi/phemex-wallets-api-openapi.yml
 consequence_counts:
   physical: 25
   read: 57
@@ -236,7 +236,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/contra
   \  method: post\n  operationId: transferSpotSubAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/spots/sub-accounts/transfer\n  method: get\n  operationId: getSpotSubAccountTransferHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/futures/sub-accounts/transfer\n  method: post\n  operationId: transferFuturesSubAccount\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/futures/sub-accounts/transfer\n  method: get\n  operationId: getFuturesSubAccountTransferHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/universal-transfer\n  method: post\n  operationId: universalTransfer\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/quote\n  method: get\n  operationId: getConversionQuote\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets/convert\n\
   \  method: post\n  operationId: executeConversion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/convert\n  method: get\n  operationId: getConversionHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/agentic-access/phemex-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/phemex/agentic-access/phemex-agentic-access.yml
 summary_line: 89 operations · 32 acting
 tags:
 - Cryptocurrency

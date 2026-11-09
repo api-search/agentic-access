@@ -9,37 +9,37 @@ api_specs:
   label: Capella Space Collects API
   slug: capella-space-collects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-collects-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-collects-api-openapi.yml
 - filename: capella-space-keys-api-openapi.yml
   format: yaml
   label: Capella Space Keys API
   slug: capella-space-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-keys-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-keys-api-openapi.yml
 - filename: capella-space-orders-api-openapi.yml
   format: yaml
   label: Capella Space Orders API
   slug: capella-space-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-orders-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-orders-api-openapi.yml
 - filename: capella-space-repeatrequests-api-openapi.yml
   format: yaml
   label: Capella Space RepeatRequests API
   slug: capella-space-repeatrequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-repeatrequests-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-repeatrequests-api-openapi.yml
 - filename: capella-space-tasking-api-openapi.yml
   format: yaml
   label: Capella Space Tasking API
   slug: capella-space-tasking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-tasking-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-tasking-api-openapi.yml
 - filename: capella-space-tiles-api-openapi.yml
   format: yaml
   label: Capella Space Tiles API
   slug: capella-space-tiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/openapi/capella-space-tiles-api-openapi.yml
+  url: https://artifacts.apis.io/capella-space/openapi/capella-space-tiles-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 9
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/capell
   \  max-ttl: 3600\n    audit: none\n- path: /repeat-requests/{repeatrequestId}/status\n  method: get\n  operationId: getRepeatRequestsByRepeatrequestIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /repeat-requests/{repeatrequestId}/status\n  method: post\n  operationId: postRepeatRequestsByRepeatrequestIdStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /repeat-requests/search\n  method: post\n  operationId: postRepeatRequestsSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task\n  method: post\n  operationId: postTask\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /task/{taskingrequestId}\n  method: get\n  operationId: getTaskByTaskingrequestId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{taskingrequestId}/status\n  method: get\n  operationId: getTaskByTaskingrequestIdStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /task/{taskingrequestId}/status\n  method: post\n  operationId: postTaskByTaskingrequestIdStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n   \
   \   max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tasks/search\n  method: post\n  operationId: postTasksSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tiles/list/{taskingrequestId}\n  method: get\n  operationId: getTilesListByTaskingrequestId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capella-space/refs/heads/main/agentic-access/capella-space-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/capella-space/agentic-access/capella-space-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - Synthetic Aperture Radar

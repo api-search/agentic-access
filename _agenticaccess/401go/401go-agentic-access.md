@@ -9,61 +9,61 @@ api_specs:
   label: 401GO Affiliates & Firms API
   slug: 401go-affiliates-firms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-affiliates-firms-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-affiliates-firms-api-openapi.yml
 - filename: 401go-beneficiaries-api-openapi.yml
   format: yaml
   label: 401GO Beneficiaries API
   slug: 401go-beneficiaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-beneficiaries-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-beneficiaries-api-openapi.yml
 - filename: 401go-companies-plans-api-openapi.yml
   format: yaml
   label: 401GO Companies & Plans API
   slug: 401go-companies-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-companies-plans-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-companies-plans-api-openapi.yml
 - filename: 401go-contributions-payroll-api-openapi.yml
   format: yaml
   label: 401GO Contributions & Payroll API
   slug: 401go-contributions-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-contributions-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-contributions-payroll-api-openapi.yml
 - filename: 401go-documents-api-openapi.yml
   format: yaml
   label: 401GO Documents API
   slug: 401go-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-documents-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-documents-api-openapi.yml
 - filename: 401go-investments-portfolios-api-openapi.yml
   format: yaml
   label: 401GO Investments & Portfolios API
   slug: 401go-investments-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-investments-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-investments-portfolios-api-openapi.yml
 - filename: 401go-money-movement-api-openapi.yml
   format: yaml
   label: 401GO Money Movement API
   slug: 401go-money-movement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-money-movement-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-money-movement-api-openapi.yml
 - filename: 401go-notifications-api-openapi.yml
   format: yaml
   label: 401GO Notifications API
   slug: 401go-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-notifications-api-openapi.yml
 - filename: 401go-participants-api-openapi.yml
   format: yaml
   label: 401GO Participants API
   slug: 401go-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-participants-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-participants-api-openapi.yml
 - filename: 401go-retirement-planning-api-openapi.yml
   format: yaml
   label: 401GO Retirement Planning API
   slug: 401go-retirement-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/openapi/401go-retirement-planning-api-openapi.yml
+  url: https://artifacts.apis.io/401go/openapi/401go-retirement-planning-api-openapi.yml
 consequence_counts:
   read: 43
   write: 29
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: generated\nsource: openapi/401go-
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /participants/{participant_id}/rollovers/{rollover_id}/\n  method: get\n  operationId: participants_rollovers_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /participants/{participant_id}/rollovers/{rollover_id}/\n  method: put\n  operationId: participants_rollovers_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /participants/{participant_id}/rollovers/{rollover_id}/\n  method: delete\n  operationId: participants_rollovers_destroy\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /participants/{participant_id}/start-participant-rebalance/\n  method: post\n  operationId: participants_start_participant_rebalance_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /participants/{participant_id}/totals/\n  method: get\n  operationId: participants_totals_retrieve\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /plan-setup/\n  method: post\n  operationId: plan_setup_create\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /plan-setup/{company_id}/\n  method: put\n  operationId: plan_setup_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/401go/refs/heads/main/agentic-access/401go-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/401go/agentic-access/401go-agentic-access.yml
 summary_line: 72 operations · 29 acting
 tags:
 - Company

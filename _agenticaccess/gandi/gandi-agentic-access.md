@@ -9,67 +9,67 @@ api_specs:
   label: Gandi Authorization API
   slug: gandi-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-authorization-api-openapi.yml
 - filename: gandi-availability-api-openapi.yml
   format: yaml
   label: Gandi Availability API
   slug: gandi-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-availability-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-availability-api-openapi.yml
 - filename: gandi-dnssec-api-openapi.yml
   format: yaml
   label: Gandi DNSSEC API
   slug: gandi-dnssec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-dnssec-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-dnssec-api-openapi.yml
 - filename: gandi-domains-api-openapi.yml
   format: yaml
   label: Gandi Domains API
   slug: gandi-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-domains-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-domains-api-openapi.yml
 - filename: gandi-ownership-api-openapi.yml
   format: yaml
   label: Gandi Ownership API
   slug: gandi-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-ownership-api-openapi.yml
 - filename: gandi-records-api-openapi.yml
   format: yaml
   label: Gandi Records API
   slug: gandi-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-records-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-records-api-openapi.yml
 - filename: gandi-renewal-api-openapi.yml
   format: yaml
   label: Gandi Renewal API
   slug: gandi-renewal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-renewal-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-renewal-api-openapi.yml
 - filename: gandi-trademark-api-openapi.yml
   format: yaml
   label: Gandi Trademark API
   slug: gandi-trademark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-trademark-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-trademark-api-openapi.yml
 - filename: gandi-tsig-api-openapi.yml
   format: yaml
   label: Gandi TSIG API
   slug: gandi-tsig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-tsig-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-tsig-api-openapi.yml
 - filename: gandi-utilities-api-openapi.yml
   format: yaml
   label: Gandi Utilities API
   slug: gandi-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-utilities-api-openapi.yml
 - filename: gandi-zone-transfers-api-openapi.yml
   format: yaml
   label: Gandi Zone Transfers API
   slug: gandi-zone-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-zone-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-zone-transfers-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 18
@@ -146,7 +146,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/domain
   \   audit: required\n- path: /axfr/tsig/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /axfr/tsig/{id}/config/{software}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{fqdn}/axfr/slaves/{ip}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{fqdn}/axfr/slaves/{ip}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /domains/{fqdn}/axfr/slaves/{ip}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{fqdn}/axfr/tsig/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domains/{fqdn}/axfr/tsig/{id}\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /domains/{fqdn}/axfr/tsig/{id}\n\
   \  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /dns/rrtypes\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/agentic-access/gandi-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gandi/agentic-access/gandi-agentic-access.yml
 summary_line: 37 operations · 19 acting · 1 human-in-the-loop
 tags:
 - DNS

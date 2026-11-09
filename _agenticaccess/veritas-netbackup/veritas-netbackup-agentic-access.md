@@ -9,31 +9,31 @@ api_specs:
   label: Veritas NetBackup Clients API
   slug: veritas-netbackup-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-clients-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-clients-api-openapi.yml
 - filename: veritas-netbackup-images-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Images API
   slug: veritas-netbackup-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-images-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-images-api-openapi.yml
 - filename: veritas-netbackup-jobs-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Jobs API
   slug: veritas-netbackup-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-jobs-api-openapi.yml
 - filename: veritas-netbackup-login-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Login API
   slug: veritas-netbackup-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-login-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-login-api-openapi.yml
 - filename: veritas-netbackup-policies-api-openapi.yml
   format: yaml
   label: Veritas NetBackup Policies API
   slug: veritas-netbackup-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/openapi/veritas-netbackup-policies-api-openapi.yml
+  url: https://artifacts.apis.io/veritas-netbackup/openapi/veritas-netbackup-policies-api-openapi.yml
 consequence_counts:
   read: 14
   write: 13
@@ -68,7 +68,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/verita
   \ x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/policies/{policyName}/schedules/{scheduleName}\n  method: put\n  operationId: updatePolicySchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/policies/{policyName}/schedules/{scheduleName}\n  method: delete\n  operationId: deletePolicySchedule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /config/hosts\n  method: get\n  operationId: listClients\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /config/hosts/{hostId}\n  method: get\n  operationId: getClient\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/images\n  method: get\n  operationId: listImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/images/{backupId}\n  method: get\n  operationId: getImage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/images/{backupId}\n  method: delete\n  operationId: expireImage\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n  \
   \  token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalog/images/{backupId}/contents\n  method: get\n  operationId: getImageContents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veritas-netbackup/refs/heads/main/agentic-access/veritas-netbackup-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/veritas-netbackup/agentic-access/veritas-netbackup-agentic-access.yml
 summary_line: 27 operations · 13 acting
 tags:
 - Backup

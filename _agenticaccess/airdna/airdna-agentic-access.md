@@ -9,37 +9,37 @@ api_specs:
   label: AirDNA Market Data API
   slug: airdna-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/airdna/openapi/airdna-market-data-api-openapi.yml
 - filename: airdna-smart-rates-api-openapi.yml
   format: yaml
   label: AirDNA Smart Rates API
   slug: airdna-smart-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-smart-rates-api-openapi.yml
+  url: https://artifacts.apis.io/airdna/openapi/airdna-smart-rates-api-openapi.yml
 - filename: airdna-listing-data-api-openapi.yml
   format: yaml
   label: AirDNA Listing Data API
   slug: airdna-listing-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-listing-data-api-openapi.yml
+  url: https://artifacts.apis.io/airdna/openapi/airdna-listing-data-api-openapi.yml
 - filename: airdna-rentalizer-data-api-openapi.yml
   format: yaml
   label: AirDNA Rentalizer Data API
   slug: airdna-rentalizer-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-rentalizer-data-api-openapi.yml
+  url: https://artifacts.apis.io/airdna/openapi/airdna-rentalizer-data-api-openapi.yml
 - filename: airdna-rentalizer-summary-data-api-openapi.yml
   format: yaml
   label: AirDNA Rentalizer Summary Data API
   slug: airdna-rentalizer-summary-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-rentalizer-summary-data-api-openapi.yml
+  url: https://artifacts.apis.io/airdna/openapi/airdna-rentalizer-summary-data-api-openapi.yml
 - filename: airdna-submarket-data-api-openapi.yml
   format: yaml
   label: AirDNA Submarket Data API
   slug: airdna-submarket-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/openapi/airdna-submarket-data-api-openapi.yml
+  url: https://artifacts.apis.io/airdna/openapi/airdna-submarket-data-api-openapi.yml
 consequence_counts:
   read: 19
   write: 7
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/airdna
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /smart-rates/{listingId}\n  method: get\n  operationId: getSmartRatesBase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /smart-rates/{listingId}\n  method: post\n  operationId: getSmartRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listing/search\n  method: post\n  operationId: searchListings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /market/{marketId}/listings\n  method: post\n  operationId: exploreMarketListings\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listings/radius\n  method: post\n  operationId: exploreListingsRadius\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /listing/{listingId}\n  method: get\n  operationId: getListing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listings/details\n  method: post\n  operationId: getListingsDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listing/{listingId}/metrics/historical\n\
   \  method: post\n  operationId: getListingHistoricalMetrics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listing/{listingId}/comps\n  method: post\n  operationId: getListingComps\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /listing/{listingId}/pricing/future\n  method: post\n  operationId: getListingFuturePricing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/agentic-access/airdna-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/airdna/agentic-access/airdna-agentic-access.yml
 summary_line: 26 operations · 7 acting
 tags:
 - Short-Term Rental

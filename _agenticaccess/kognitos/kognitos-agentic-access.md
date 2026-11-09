@@ -9,49 +9,49 @@ api_specs:
   label: Kognitos Analytics API
   slug: kognitos-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-analytics-api-openapi.yml
 - filename: kognitos-automations-api-openapi.yml
   format: yaml
   label: Kognitos Automations API
   slug: kognitos-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-automations-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-automations-api-openapi.yml
 - filename: kognitos-books-api-openapi.yml
   format: yaml
   label: Kognitos Books API
   slug: kognitos-books-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-books-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-books-api-openapi.yml
 - filename: kognitos-exceptions-api-openapi.yml
   format: yaml
   label: Kognitos Exceptions API
   slug: kognitos-exceptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-exceptions-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-exceptions-api-openapi.yml
 - filename: kognitos-files-api-openapi.yml
   format: yaml
   label: Kognitos Files API
   slug: kognitos-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-files-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-files-api-openapi.yml
 - filename: kognitos-organizations-api-openapi.yml
   format: yaml
   label: Kognitos Organizations API
   slug: kognitos-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-organizations-api-openapi.yml
 - filename: kognitos-runs-api-openapi.yml
   format: yaml
   label: Kognitos Runs API
   slug: kognitos-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-runs-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-runs-api-openapi.yml
 - filename: kognitos-workspaces-api-openapi.yml
   format: yaml
   label: Kognitos Workspaces API
   slug: kognitos-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/openapi/kognitos-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/kognitos/openapi/kognitos-workspaces-api-openapi.yml
 consequence_counts:
   read: 72
   safety-critical: 1
@@ -119,8 +119,8 @@ source_yaml: "generated: '2026-10-09'\nmethod: generated\nsource: openapi/kognit
   \ none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/exceptions/{exception_id}\n  method: get\n  operationId: GetException\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/exceptions\n  method: get\n  operationId: ListExceptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/automations/{automation_id}/runs/{run_id}/agents/{agent_id}/events\n  method: post\n  operationId: CreateEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/automations/{automation_id}/runs/{run_id}/agents/{agent_id}/events\n  method: get\n  operationId: ListEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/automations/{automation_id}/runs/{run_id}/agents/{agent_id}/events/{event_id}\n  method: get\n  operationId: GetEvent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/automations/{automation_id}/runs/{run_id}/agents/{agent_id}/events:stream\n  method: get\n  operationId: StreamEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/automations/{automation_id}/runs/{run_id}/agents/{agent_id}/events:cancelGeneration\n  method: post\n  operationId: CancelGeneration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/exceptionGroups\n  method: get\n  operationId: ListExceptionGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/organizations/{organization_id}/workspaces/{workspace_id}/exceptions:countByGroup\n  method: get\n  operationId: CountExceptionsByGroup\n  x-agentic-access:\n \
-  \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/agentic-access/kognitos-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kognitos/refs/heads/main/agentic-access/kognitos-agentic-access.yml
+  \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/kognitos/agentic-access/kognitos-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kognitos/agentic-access/kognitos-agentic-access.yml
 summary_line: 102 operations · 30 acting · 1 human-in-the-loop
 tags:
 - Company

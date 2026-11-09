@@ -9,67 +9,67 @@ api_specs:
   label: ZnanyLekarz Addresses API
   slug: znanylekarz-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-addresses-api-openapi.yml
 - filename: znanylekarz-api-notification-callbacks-api-openapi.yml
   format: yaml
   label: ZnanyLekarz API Notification Callbacks API
   slug: znanylekarz-api-notification-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
 - filename: znanylekarz-bookings-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Bookings API
   slug: znanylekarz-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-bookings-api-openapi.yml
 - filename: znanylekarz-calendar-breaks-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Calendar Breaks API
   slug: znanylekarz-calendar-breaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendar-breaks-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-calendar-breaks-api-openapi.yml
 - filename: znanylekarz-calendars-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Calendars API
   slug: znanylekarz-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-calendars-api-openapi.yml
 - filename: znanylekarz-doctors-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Doctors API
   slug: znanylekarz-doctors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-doctors-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-doctors-api-openapi.yml
 - filename: znanylekarz-facilities-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Facilities API
   slug: znanylekarz-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-facilities-api-openapi.yml
 - filename: znanylekarz-insurances-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Insurances API
   slug: znanylekarz-insurances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-insurances-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-insurances-api-openapi.yml
 - filename: znanylekarz-patient-presence-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Patient Presence API
   slug: znanylekarz-patient-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-patient-presence-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-patient-presence-api-openapi.yml
 - filename: znanylekarz-services-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Services API
   slug: znanylekarz-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-services-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-services-api-openapi.yml
 - filename: znanylekarz-slots-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Slots API
   slug: znanylekarz-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-slots-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-slots-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 2
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/znanyl
   - path: /facilities/{facility_id}/doctors/{doctor_id}/addresses/{address_id}/services/{address_service_id}\n  method: patch\n  operationId: updateAddressService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - integration\n- path: /facilities/{facility_id}/doctors/{doctor_id}/addresses/{address_id}/services/{address_service_id}\n  method: delete\n  operationId: deleteAddressService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - integration\n- path: /facilities/{facility_id}/doctors/{doctor_id}/addresses/{address_id}/slots\n\
   \  method: get\n  operationId: getSlots\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n    scope:\n    - integration\n- path: /facilities/{facility_id}/doctors/{doctor_id}/addresses/{address_id}/slots\n  method: put\n  operationId: replaceSlots\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - integration\n- path: /facilities/{facility_id}/doctors/{doctor_id}/addresses/{address_id}/slots/{start}/book\n  method: post\n  operationId: bookSlot\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - integration\n- path: /facilities/{facility_id}/doctors/{doctor_id}/addresses/{address_id}/slots/{date}\n  method: delete\n  operationId: deleteSlots\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n    scope:\n    - integration\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/agentic-access/znanylekarz-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/znanylekarz/agentic-access/znanylekarz-agentic-access.yml
 summary_line: 44 operations · 24 acting · 2 human-in-the-loop
 tags:
 - Company

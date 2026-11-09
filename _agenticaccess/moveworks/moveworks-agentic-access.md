@@ -9,97 +9,97 @@ api_specs:
   label: Moveworks Authentication API
   slug: moveworks-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-authentication-api-openapi.yml
 - filename: moveworks-conversations-api-openapi.yml
   format: yaml
   label: Moveworks Conversations API
   slug: moveworks-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-conversations-api-openapi.yml
 - filename: moveworks-deprecated-api-openapi.yml
   format: yaml
   label: Moveworks Deprecated API
   slug: moveworks-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-deprecated-api-openapi.yml
 - filename: moveworks-events-api-openapi.yml
   format: yaml
   label: Moveworks Events API
   slug: moveworks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-events-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-events-api-openapi.yml
 - filename: moveworks-messages-api-openapi.yml
   format: yaml
   label: Moveworks Messages API
   slug: moveworks-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-messages-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-messages-api-openapi.yml
 - filename: moveworks-responses-api-openapi.yml
   format: yaml
   label: Moveworks Responses API
   slug: moveworks-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-responses-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-responses-api-openapi.yml
 - filename: moveworks-smartforms-api-openapi.yml
   format: yaml
   label: Moveworks Smart Forms API
   slug: moveworks-smartforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-smartforms-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-smartforms-api-openapi.yml
 - filename: moveworks-webhooks-api-openapi.yml
   format: yaml
   label: Moveworks Webhooks API
   slug: moveworks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-webhooks-api-openapi.yml
 - filename: moveworks-articles-api-openapi.yml
   format: yaml
   label: Moveworks Articles API
   slug: moveworks-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-articles-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-articles-api-openapi.yml
 - filename: moveworks-files-api-openapi.yml
   format: yaml
   label: Moveworks Files API
   slug: moveworks-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-files-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-files-api-openapi.yml
 - filename: moveworks-groups-api-openapi.yml
   format: yaml
   label: Moveworks Groups API
   slug: moveworks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-groups-api-openapi.yml
 - filename: moveworks-interactions-api-openapi.yml
   format: yaml
   label: Moveworks Interactions API
   slug: moveworks-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-interactions-api-openapi.yml
 - filename: moveworks-plugin-calls-api-openapi.yml
   format: yaml
   label: Moveworks Plugin Calls API
   slug: moveworks-plugin-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-plugin-calls-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-plugin-calls-api-openapi.yml
 - filename: moveworks-plugin-resources-api-openapi.yml
   format: yaml
   label: Moveworks Plugin Resources API
   slug: moveworks-plugin-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-plugin-resources-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-plugin-resources-api-openapi.yml
 - filename: moveworks-records-api-openapi.yml
   format: yaml
   label: Moveworks Records API
   slug: moveworks-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-records-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-records-api-openapi.yml
 - filename: moveworks-users-api-openapi.yml
   format: yaml
   label: Moveworks Users API
   slug: moveworks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/openapi/moveworks-users-api-openapi.yml
+  url: https://artifacts.apis.io/moveworks/openapi/moveworks-users-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 31
@@ -155,7 +155,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/movewo
   \ /oauth/v1/token\n  method: post\n  operationId: create-o-auth-token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rest/v1/auth/test\n  method: get\n  operationId: test-auth\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rest/v1/messages/send\n  method: post\n  operationId: send-message\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /forms\n  method: get\n\
   \  operationId: list-forms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{formId}\n  method: get\n  operationId: get-form-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /forms/{formId}/submit\n  method: post\n  operationId: submit-form\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users\n  method: get\n  operationId: list-users\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{userId}\n  method: get\n  operationId:\
   \ get-user-by-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /articles\n  method: get\n  operationId: list-articles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/v1/listeners/{listener_id}/notify\n  method: post\n  operationId: send-a-webhook-to-a-webhook-listener\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moveworks/refs/heads/main/agentic-access/moveworks-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moveworks/agentic-access/moveworks-agentic-access.yml
 summary_line: 46 operations · 15 acting
 tags:
 - Company

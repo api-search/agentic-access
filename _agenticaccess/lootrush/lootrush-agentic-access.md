@@ -9,25 +9,25 @@ api_specs:
   label: LootRush Connect API
   slug: lootrush-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-connect-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-connect-api-openapi.yml
 - filename: lootrush-history-api-openapi.yml
   format: yaml
   label: LootRush History API
   slug: lootrush-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-history-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-history-api-openapi.yml
 - filename: lootrush-mcp-api-openapi.yml
   format: yaml
   label: LootRush MCP API
   slug: lootrush-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-mcp-api-openapi.yml
 - filename: lootrush-withdrawals-api-openapi.yml
   format: yaml
   label: LootRush Withdrawals API
   slug: lootrush-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/openapi/lootrush-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/lootrush/openapi/lootrush-withdrawals-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -61,7 +61,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/lootrush-openapi-original.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 1\n    physical: 1\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /mcp\n  method: post\n  operationId: callMcpTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/crypto/{userId}/withdraw\n  method: post\n  operationId: createWithdrawal\n  x-agentic-access:\n  \
   \  action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/crypto/{userId}/withdraws\n  method: get\n  operationId: listWithdrawals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/history\n  method: get\n  operationId: getUserHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/consent/{consentId}/user\n  method: get\n  operationId: getConsentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lootrush/refs/heads/main/agentic-access/lootrush-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lootrush/agentic-access/lootrush-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - Company

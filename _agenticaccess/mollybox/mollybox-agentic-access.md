@@ -9,25 +9,25 @@ api_specs:
   label: MollyBox Admin API
   slug: mollybox-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-admin-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-admin-api-openapi.yml
 - filename: mollybox-health-api-openapi.yml
   format: yaml
   label: MollyBox Health API
   slug: mollybox-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-health-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-health-api-openapi.yml
 - filename: mollybox-me-api-openapi.yml
   format: yaml
   label: MollyBox Me API
   slug: mollybox-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-me-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-me-api-openapi.yml
 - filename: mollybox-resources-api-openapi.yml
   format: yaml
   label: MollyBox Resources API
   slug: mollybox-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/openapi/mollybox-resources-api-openapi.yml
+  url: https://artifacts.apis.io/mollybox/openapi/mollybox-resources-api-openapi.yml
 consequence_counts:
   read: 4
   write: 4
@@ -57,14 +57,14 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/mollyb
   \ post\n  operationId: capture_resource_api_resources_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/resources\n  method: get\n  operationId: list_resources_api_resources_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/admin/import/resources\n  method: post\n  operationId: import_resources_api_admin_import_resources_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/resources/{resource_id}\n\
   \  method: get\n  operationId: get_resource_api_resources__resource_id__get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/resources/{resource_id}/status\n  method: patch\n  operationId: update_resource_status_api_resources__resource_id__status_patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/resources/{resource_id}/open\n  method: post\n  operationId: open_resource_api_resources__resource_id__open_post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mollybox/refs/heads/main/agentic-access/mollybox-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/mollybox/agentic-access/mollybox-agentic-access.yml
 summary_line: 8 operations · 4 acting
 tags:
 - Company
 - Consumer
 - Bookmarking
 - Resource Capture
-- Read It Later
+- Read-it-later
 - FastAPI
 - Self-Hosted
 ---

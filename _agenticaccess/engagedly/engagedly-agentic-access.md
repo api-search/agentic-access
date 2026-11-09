@@ -9,49 +9,49 @@ api_specs:
   label: Engagedly Activities API
   slug: engagedly-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-activities-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-activities-api-openapi.yml
 - filename: engagedly-businesses-api-openapi.yml
   format: yaml
   label: Engagedly Businesses API
   slug: engagedly-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-businesses-api-openapi.yml
 - filename: engagedly-departments-api-openapi.yml
   format: yaml
   label: Engagedly Departments API
   slug: engagedly-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-departments-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-departments-api-openapi.yml
 - filename: engagedly-job-titles-api-openapi.yml
   format: yaml
   label: Engagedly Job Titles API
   slug: engagedly-job-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-job-titles-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-job-titles-api-openapi.yml
 - filename: engagedly-locations-api-openapi.yml
   format: yaml
   label: Engagedly Locations API
   slug: engagedly-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-locations-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-locations-api-openapi.yml
 - filename: engagedly-permissions-api-openapi.yml
   format: yaml
   label: Engagedly Permissions API
   slug: engagedly-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-permissions-api-openapi.yml
 - filename: engagedly-user-attributes-api-openapi.yml
   format: yaml
   label: Engagedly User Attributes API
   slug: engagedly-user-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-user-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-user-attributes-api-openapi.yml
 - filename: engagedly-users-api-openapi.yml
   format: yaml
   label: Engagedly Users API
   slug: engagedly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-users-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-users-api-openapi.yml
 consequence_counts:
   read: 15
   write: 19
@@ -88,7 +88,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/engage
   \ token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /locations/{id}\n  method: delete\n  operationId: deleteLocation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job_titles\n  method: get\n  operationId: listJobTitles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_titles\n  method: post\n  operationId: createJobTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /job_titles/{id}\n  method: get\n  operationId: getJobTitle\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /job_titles/{id}\n  method: put\n  operationId: updateJobTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /job_titles/{id}\n  method: delete\n  operationId: deleteJobTitle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /permissions\n \
   \ method: get\n  operationId: listPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /activities/praises\n  method: get\n  operationId: listPublicPraises\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/agentic-access/engagedly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/engagedly/agentic-access/engagedly-agentic-access.yml
 summary_line: 34 operations · 19 acting
 tags:
 - Performance Management

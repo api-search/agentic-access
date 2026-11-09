@@ -9,91 +9,91 @@ api_specs:
   label: Breeze Admin API
   slug: breeze-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-admin-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-admin-api-openapi.yml
 - filename: breeze-deposits-api-openapi.yml
   format: yaml
   label: Breeze Deposits API
   slug: breeze-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-deposits-api-openapi.yml
 - filename: breeze-fund-api-openapi.yml
   format: yaml
   label: Breeze Fund API
   slug: breeze-fund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-fund-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-fund-api-openapi.yml
 - filename: breeze-funds-api-openapi.yml
   format: yaml
   label: Breeze Funds API
   slug: breeze-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-funds-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-funds-api-openapi.yml
 - filename: breeze-global-config-api-openapi.yml
   format: yaml
   label: Breeze Global Config API
   slug: breeze-global-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-global-config-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-global-config-api-openapi.yml
 - filename: breeze-organization-api-keys-api-openapi.yml
   format: yaml
   label: Breeze Organization API Keys API
   slug: breeze-organization-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-organization-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-organization-api-keys-api-openapi.yml
 - filename: breeze-organization-api-openapi.yml
   format: yaml
   label: Breeze Organization API
   slug: breeze-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-organization-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-organization-api-openapi.yml
 - filename: breeze-organization-funds-api-openapi.yml
   format: yaml
   label: Breeze Organization Funds API
   slug: breeze-organization-funds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-organization-funds-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-organization-funds-api-openapi.yml
 - filename: breeze-organization-settings-api-openapi.yml
   format: yaml
   label: Breeze Organization Settings API
   slug: breeze-organization-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-organization-settings-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-organization-settings-api-openapi.yml
 - filename: breeze-selective-yield-sources-api-openapi.yml
   format: yaml
   label: Breeze Selective Yield Sources API
   slug: breeze-selective-yield-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-selective-yield-sources-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-selective-yield-sources-api-openapi.yml
 - filename: breeze-strategies-api-openapi.yml
   format: yaml
   label: Breeze Strategies API
   slug: breeze-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-strategies-api-openapi.yml
 - filename: breeze-strategy-api-openapi.yml
   format: yaml
   label: Breeze Strategy API
   slug: breeze-strategy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-strategy-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-strategy-api-openapi.yml
 - filename: breeze-user-data-api-openapi.yml
   format: yaml
   label: Breeze User Data API
   slug: breeze-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-user-data-api-openapi.yml
 - filename: breeze-withdrawals-api-openapi.yml
   format: yaml
   label: Breeze Withdrawals API
   slug: breeze-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-withdrawals-api-openapi.yml
 - filename: breeze-yield-sources-api-openapi.yml
   format: yaml
   label: Breeze Yield Sources API
   slug: breeze-yield-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/openapi/breeze-yield-sources-api-openapi.yml
+  url: https://artifacts.apis.io/breeze/openapi/breeze-yield-sources-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 48
@@ -187,7 +187,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/breeze
   \    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /strategy/{strategy_id}/metrics-old\n  method: get\n  operationId: get_strategy_metrics_old\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /template/{template_id}\n  method: get\n  operationId: get_template\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organization/get-strategy\n  method: post\n  operationId: get_strategy_template_by_tags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-balances/{fund_user}\n  method: get\n  operationId: get_user_balances\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /user-yield/{fund_user}\n  method: get\n  operationId: get_user_yield\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /withdraw/ix\n  method: post\n  operationId: process_for_withdraw_with_instruction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /withdraw/tx\n  method: post\n  operationId: process_for_withdraw_with_transaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /assets/apy\n  method: post\n  operationId: get_assets_apy\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /yield-source/{yield_source_id}\n  method: get\n  operationId: get_yield_source\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /yield-sources\n  method: get\n  operationId: get_yield_sources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/agentic-access/breeze-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/breeze/agentic-access/breeze-agentic-access.yml
 summary_line: 89 operations · 41 acting · 1 human-in-the-loop
 tags:
 - Company

@@ -9,61 +9,61 @@ api_specs:
   label: Flock Safety Alerts API
   slug: flock-safety-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-alerts-api-openapi.yml
 - filename: flock-safety-cad-events-api-openapi.yml
   format: yaml
   label: Flock Safety CAD Events API
   slug: flock-safety-cad-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-cad-events-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-cad-events-api-openapi.yml
 - filename: flock-safety-custom-hotlists-api-openapi.yml
   format: yaml
   label: Flock Safety Custom Hotlists API
   slug: flock-safety-custom-hotlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-custom-hotlists-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-custom-hotlists-api-openapi.yml
 - filename: flock-safety-devices-api-openapi.yml
   format: yaml
   label: Flock Safety Devices API
   slug: flock-safety-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-devices-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-devices-api-openapi.yml
 - filename: flock-safety-lpr-hotlist-alert-subscriptions-api-openapi.yml
   format: yaml
   label: Flock Safety LPR Hotlist Alert Subscriptions API
   slug: flock-safety-lpr-hotlist-alert-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-lpr-hotlist-alert-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-lpr-hotlist-alert-subscriptions-api-openapi.yml
 - filename: flock-safety-plate-reads-api-openapi.yml
   format: yaml
   label: Flock Safety Plate Reads API
   slug: flock-safety-plate-reads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-plate-reads-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-plate-reads-api-openapi.yml
 - filename: flock-safety-tracked-subject-types-api-openapi.yml
   format: yaml
   label: Flock Safety Tracked Subject Types API
   slug: flock-safety-tracked-subject-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-tracked-subject-types-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-tracked-subject-types-api-openapi.yml
 - filename: flock-safety-tracked-subjects-api-openapi.yml
   format: yaml
   label: Flock Safety Tracked Subjects API
   slug: flock-safety-tracked-subjects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-tracked-subjects-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-tracked-subjects-api-openapi.yml
 - filename: flock-safety-vehicle-images-api-openapi.yml
   format: yaml
   label: Flock Safety Vehicle Images API
   slug: flock-safety-vehicle-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-vehicle-images-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-vehicle-images-api-openapi.yml
 - filename: flock-safety-oauth2-api-openapi.yml
   format: yaml
   label: Flock Safety O Auth2 API
   slug: flock-safety-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/openapi/flock-safety-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/flock-safety/openapi/flock-safety-oauth2-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 1
@@ -113,7 +113,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/flock-
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /reads/lookup\n  method: post\n  operationId: postReadsLookup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo/types/{typeId}\n  method: delete\n  operationId: deleteGeoTypesByTypeId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /geo/types\n  method: get\n  operationId: getGeoTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo/types\n  method: post\n  operationId: postGeoTypes\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /geo/subjects/{externalSubjectId}\n  method: delete\n  operationId: deleteGeoSubjectsByExternalSubjectId\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /geo/subjects/{externalSubjectId}\n  method: get\n  operationId: getGeoSubjectsByExternalSubjectId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo/subjects\n  method: get\n  operationId: getGeoSubjects\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /geo/subjects\n  method: put\n  operationId: putGeoSubjects\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /devices/{deviceId}/images\n  method: post\n  operationId: postDevicesByDeviceIdImages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flock-safety/refs/heads/main/agentic-access/flock-safety-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flock-safety/agentic-access/flock-safety-agentic-access.yml
 summary_line: 43 operations · 26 acting · 1 human-in-the-loop
 tags:
 - Company

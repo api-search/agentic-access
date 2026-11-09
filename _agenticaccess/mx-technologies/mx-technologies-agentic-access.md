@@ -9,157 +9,157 @@ api_specs:
   label: MX Technologies Accounts API
   slug: mx-technologies-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-accounts-api-openapi.yml
 - filename: mx-technologies-ach-return-api-openapi.yml
   format: yaml
   label: MX Technologies ach return API
   slug: mx-technologies-ach-return-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-ach-return-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-ach-return-api-openapi.yml
 - filename: mx-technologies-budgets-api-openapi.yml
   format: yaml
   label: MX Technologies Budgets API
   slug: mx-technologies-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-budgets-api-openapi.yml
 - filename: mx-technologies-categories-api-openapi.yml
   format: yaml
   label: MX Technologies Categories API
   slug: mx-technologies-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-categories-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-categories-api-openapi.yml
 - filename: mx-technologies-goals-api-openapi.yml
   format: yaml
   label: MX Technologies Goals API
   slug: mx-technologies-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-goals-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-goals-api-openapi.yml
 - filename: mx-technologies-insights-api-openapi.yml
   format: yaml
   label: MX Technologies Insights API
   slug: mx-technologies-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-insights-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-insights-api-openapi.yml
 - filename: mx-technologies-institutions-api-openapi.yml
   format: yaml
   label: MX Technologies Institutions API
   slug: mx-technologies-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-institutions-api-openapi.yml
 - filename: mx-technologies-investment-holdings-api-openapi.yml
   format: yaml
   label: MX Technologies investment holdings API
   slug: mx-technologies-investment-holdings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-investment-holdings-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-investment-holdings-api-openapi.yml
 - filename: mx-technologies-managed-data-api-openapi.yml
   format: yaml
   label: MX Technologies managed data API
   slug: mx-technologies-managed-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-managed-data-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-managed-data-api-openapi.yml
 - filename: mx-technologies-managed-data-deprecated-api-openapi.yml
   format: yaml
   label: MX Technologies managed data [deprecated] API
   slug: mx-technologies-managed-data-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-managed-data-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-managed-data-deprecated-api-openapi.yml
 - filename: mx-technologies-members-api-openapi.yml
   format: yaml
   label: MX Technologies Members API
   slug: mx-technologies-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-members-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-members-api-openapi.yml
 - filename: mx-technologies-merchants-api-openapi.yml
   format: yaml
   label: MX Technologies Merchants API
   slug: mx-technologies-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-merchants-api-openapi.yml
 - filename: mx-technologies-microdeposits-api-openapi.yml
   format: yaml
   label: MX Technologies Microdeposits API
   slug: mx-technologies-microdeposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-microdeposits-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-microdeposits-api-openapi.yml
 - filename: mx-technologies-monthly-cash-flow-profile-api-openapi.yml
   format: yaml
   label: MX Technologies monthly cash flow profile API
   slug: mx-technologies-monthly-cash-flow-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-monthly-cash-flow-profile-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-monthly-cash-flow-profile-api-openapi.yml
 - filename: mx-technologies-notifications-api-openapi.yml
   format: yaml
   label: MX Technologies Notifications API
   slug: mx-technologies-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-notifications-api-openapi.yml
 - filename: mx-technologies-processor-token-api-openapi.yml
   format: yaml
   label: MX Technologies processor token API
   slug: mx-technologies-processor-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-processor-token-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-processor-token-api-openapi.yml
 - filename: mx-technologies-rewards-api-openapi.yml
   format: yaml
   label: MX Technologies Rewards API
   slug: mx-technologies-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-rewards-api-openapi.yml
 - filename: mx-technologies-spending-plan-api-openapi.yml
   format: yaml
   label: MX Technologies spending plan API
   slug: mx-technologies-spending-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-spending-plan-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-spending-plan-api-openapi.yml
 - filename: mx-technologies-statements-api-openapi.yml
   format: yaml
   label: MX Technologies Statements API
   slug: mx-technologies-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-statements-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-statements-api-openapi.yml
 - filename: mx-technologies-taggings-api-openapi.yml
   format: yaml
   label: MX Technologies Taggings API
   slug: mx-technologies-taggings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-taggings-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-taggings-api-openapi.yml
 - filename: mx-technologies-tags-api-openapi.yml
   format: yaml
   label: MX Technologies Tags API
   slug: mx-technologies-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-tags-api-openapi.yml
 - filename: mx-technologies-transaction-rules-api-openapi.yml
   format: yaml
   label: MX Technologies transaction rules API
   slug: mx-technologies-transaction-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-transaction-rules-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-transaction-rules-api-openapi.yml
 - filename: mx-technologies-transactions-api-openapi.yml
   format: yaml
   label: MX Technologies Transactions API
   slug: mx-technologies-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-transactions-api-openapi.yml
 - filename: mx-technologies-users-api-openapi.yml
   format: yaml
   label: MX Technologies Users API
   slug: mx-technologies-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-users-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-users-api-openapi.yml
 - filename: mx-technologies-verifiable-credentials-api-openapi.yml
   format: yaml
   label: MX Technologies verifiable credentials API
   slug: mx-technologies-verifiable-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-verifiable-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-verifiable-credentials-api-openapi.yml
 - filename: mx-technologies-widgets-api-openapi.yml
   format: yaml
   label: MX Technologies Widgets API
   slug: mx-technologies-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/openapi/mx-technologies-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/mx-technologies/openapi/mx-technologies-widgets-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 125
@@ -239,8 +239,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/mx-tec
   \ subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_guid}/managed_members/{member_guid}/accounts/{account_guid}/transactions/{transaction_guid}\n  method: put\n  operationId: updateManagedTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_guid}/members\n  method: post\n  operationId: createMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members/{member_guid}\n  method: delete\n  operationId: deleteMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members/{member_guid}\n  method: get\n  operationId: readMember\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_guid}/members/{member_guid}\n  method: put\n  operationId: updateMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n \
   \     triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members/{member_guid}/aggregate\n  method: post\n  operationId: aggregateMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members/{member_guid}/challenges\n  method: get\n  operationId: listMemberChallenges\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_guid}/members/{member_guid}/check_balance\n  method: post\n  operationId: checkBalances\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members/{member_guid}/credentials\n  method: get\n  operationId: listMemberCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_guid}/members/{member_guid}/identify\n  method: post\n  operationId: identifyMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/agentic-access/mx-technologies-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/agentic-access/mx-technologies-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /users/{user_guid}/members/{member_guid}/credentials\n  method: get\n  operationId: listMemberCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{user_guid}/members/{member_guid}/identify\n  method: post\n  operationId: identifyMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (67 KB total) ---\n# Full source: https://artifacts.apis.io/mx-technologies/agentic-access/mx-technologies-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mx-technologies/agentic-access/mx-technologies-agentic-access.yml
 summary_line: 221 operations · 96 acting
 tags:
 - Financial Data

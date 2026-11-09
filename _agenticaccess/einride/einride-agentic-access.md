@@ -9,19 +9,19 @@ api_specs:
   label: Einride BookingService API
   slug: einride-bookingservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-bookingservice-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-bookingservice-api-openapi.yml
 - filename: einride-shipmentservice-api-openapi.yml
   format: yaml
   label: Einride ShipmentService API
   slug: einride-shipmentservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-shipmentservice-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-shipmentservice-api-openapi.yml
 - filename: einride-authentication-service-api-openapi.yml
   format: yaml
   label: Einride Authentication Service API
   slug: einride-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/openapi/einride-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/einride/openapi/einride-authentication-service-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 7
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/einrid
   \   token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta1/{space}/shipments\n  method: post\n  operationId: ShipmentService_CreateShipment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta1/{space}/tours\n  method: post\n  operationId: BookingService_CreateTour\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /v1beta1/{tour.name}\n  method: patch\n  operationId: BookingService_UpdateTour\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1beta1/{tour}\n  method: get\n  operationId: BookingService_GetTour\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta1/{tour}:cancel\n  method: get\n  operationId: BookingService_CancelTour\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1beta1/{tour}:confirm\n  method: get\n  operationId: BookingService_ConfirmTour\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/einride/refs/heads/main/agentic-access/einride-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/einride/agentic-access/einride-agentic-access.yml
 summary_line: 14 operations · 7 acting
 tags:
 - Company

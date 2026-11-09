@@ -9,97 +9,97 @@ api_specs:
   label: Omnisend Brands API
   slug: omnisend-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-brands-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-brands-api-openapi.yml
 - filename: omnisend-campaigns-api-openapi.yml
   format: yaml
   label: Omnisend Campaigns API
   slug: omnisend-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-campaigns-api-openapi.yml
 - filename: omnisend-contacts-api-openapi.yml
   format: yaml
   label: Omnisend Contacts API
   slug: omnisend-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-contacts-api-openapi.yml
 - filename: omnisend-events-api-openapi.yml
   format: yaml
   label: Omnisend Events API
   slug: omnisend-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-events-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-events-api-openapi.yml
 - filename: omnisend-images-api-openapi.yml
   format: yaml
   label: Omnisend Images API
   slug: omnisend-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-images-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-images-api-openapi.yml
 - filename: omnisend-products-api-openapi.yml
   format: yaml
   label: Omnisend Products API
   slug: omnisend-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-products-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-products-api-openapi.yml
 - filename: omnisend-segments-api-openapi.yml
   format: yaml
   label: Omnisend Segments API
   slug: omnisend-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-segments-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-segments-api-openapi.yml
 - filename: omnisend-automations-api-openapi.yml
   format: yaml
   label: Omnisend Automations API
   slug: omnisend-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-automations-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-automations-api-openapi.yml
 - filename: omnisend-event-metadata-api-openapi.yml
   format: yaml
   label: Omnisend Event Metadata API
   slug: omnisend-event-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-event-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-event-metadata-api-openapi.yml
 - filename: omnisend-batch-api-openapi.yml
   format: yaml
   label: Omnisend Batch API
   slug: omnisend-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-batch-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-batch-api-openapi.yml
 - filename: omnisend-email-content-api-openapi.yml
   format: yaml
   label: Omnisend Email Content API
   slug: omnisend-email-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-content-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-email-content-api-openapi.yml
 - filename: omnisend-email-templates-api-openapi.yml
   format: yaml
   label: Omnisend Email Templates API
   slug: omnisend-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-email-templates-api-openapi.yml
 - filename: omnisend-email-universal-layouts-api-openapi.yml
   format: yaml
   label: Omnisend Email Universal Layouts API
   slug: omnisend-email-universal-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-email-universal-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-email-universal-layouts-api-openapi.yml
 - filename: omnisend-product-categories-api-openapi.yml
   format: yaml
   label: Omnisend Product Categories API
   slug: omnisend-product-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-product-categories-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-product-categories-api-openapi.yml
 - filename: omnisend-reports-api-openapi.yml
   format: yaml
   label: Omnisend Reports API
   slug: omnisend-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-reports-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-reports-api-openapi.yml
 - filename: omnisend-statistics-api-openapi.yml
   format: yaml
   label: Omnisend Statistics API
   slug: omnisend-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/openapi/omnisend-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/omnisend/openapi/omnisend-statistics-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 28
@@ -191,7 +191,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/omnise
   \    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - segments.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments\n  method: post\n  operationId: postSegments\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - segments.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments/{segmentID}\n  method: delete\n  operationId: deleteSegmentsBySegmentID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - segments.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments/{segmentID}\n  method: get\n  operationId: getSegmentsBySegmentID\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - segments.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments/{segmentID}\n  method: put\n  operationId: putSegmentsBySegmentID\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - segments.write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /segments/{segmentID}/statistics\n  method: get\n  operationId: getSegmentsBySegmentIDStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - segments.read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /analytics/statistics\n  method: post\n  operationId: postAnalyticsStatistics\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    scope:\n    - analytics.read\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omnisend/refs/heads/main/agentic-access/omnisend-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/omnisend/agentic-access/omnisend-agentic-access.yml
 summary_line: 82 operations · 54 acting · 2 human-in-the-loop
 tags:
 - Email Marketing

@@ -9,67 +9,67 @@ api_specs:
   label: Hacware Admin API
   slug: hacware-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-admin-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-admin-api-openapi.yml
 - filename: hacware-compliance-api-openapi.yml
   format: yaml
   label: Hacware Compliance API
   slug: hacware-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-compliance-api-openapi.yml
 - filename: hacware-compliance-tenant-api-openapi.yml
   format: yaml
   label: Hacware Compliance-Tenant API
   slug: hacware-compliance-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-compliance-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-compliance-tenant-api-openapi.yml
 - filename: hacware-customer-api-openapi.yml
   format: yaml
   label: Hacware Customer API
   slug: hacware-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-customer-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-customer-api-openapi.yml
 - filename: hacware-email-tenant-api-openapi.yml
   format: yaml
   label: Hacware Email-Tenant API
   slug: hacware-email-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-email-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-email-tenant-api-openapi.yml
 - filename: hacware-group-api-openapi.yml
   format: yaml
   label: Hacware Group API
   slug: hacware-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-group-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-group-api-openapi.yml
 - filename: hacware-multi-tenant-api-openapi.yml
   format: yaml
   label: Hacware Multi-Tenant API
   slug: hacware-multi-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-multi-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-multi-tenant-api-openapi.yml
 - filename: hacware-phishing-api-openapi.yml
   format: yaml
   label: Hacware Phishing API
   slug: hacware-phishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-phishing-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-phishing-api-openapi.yml
 - filename: hacware-report-api-openapi.yml
   format: yaml
   label: Hacware Report API
   slug: hacware-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-report-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-report-api-openapi.yml
 - filename: hacware-training-api-openapi.yml
   format: yaml
   label: Hacware Training API
   slug: hacware-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-training-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-training-api-openapi.yml
 - filename: hacware-user-api-openapi.yml
   format: yaml
   label: Hacware User API
   slug: hacware-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/openapi/hacware-user-api-openapi.yml
+  url: https://artifacts.apis.io/hacware/openapi/hacware-user-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 60
@@ -154,8 +154,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hacwar
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/license/set_train_link/\n  method: post\n  operationId: PostSetTrainLink\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/get/train/history/\n  method: get\n  operationId: PostTrainHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/train/status/\n  method: get\n  operationId: PostTrainStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/train/update_quiz_rec/\n  method: post\n  operationId:\
   \ PostUpdateRecommendation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/user/manage-departments/\n  method: get\n  operationId: GetUserDeptManagment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/get_user_list\n  method: get\n  operationId: GetUserList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/reports/\n  method: get\n  operationId: GetUserReports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /api/v1/user/user_sms_status/\n  method: post\n  operationId: GetUserSMSStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/search/vulnerability/\n  method: get\n  operationId: GetUserVulnerability\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/search/email/\n  method: get\n  operationId: GetUserWithEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/user/add-users/\n  method: post\n  operationId: PostAddUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
-  \   - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/agentic-access/hacware-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hacware/refs/heads/main/agentic-access/hacware-agentic-access.yml
+  \   - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (32 KB total) ---\n# Full source: https://artifacts.apis.io/hacware/agentic-access/hacware-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/hacware/agentic-access/hacware-agentic-access.yml
 summary_line: 113 operations · 53 acting · 3 human-in-the-loop
 tags:
 - Company

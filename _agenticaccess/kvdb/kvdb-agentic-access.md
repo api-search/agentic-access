@@ -9,19 +9,19 @@ api_specs:
   label: KVdb Buckets API
   slug: kvdb-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-buckets-api-openapi.yml
 - filename: kvdb-keys-api-openapi.yml
   format: yaml
   label: KVdb Keys API
   slug: kvdb-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-keys-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-keys-api-openapi.yml
 - filename: kvdb-scripts-api-openapi.yml
   format: yaml
   label: KVdb Scripts API
   slug: kvdb-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/openapi/kvdb-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/kvdb/openapi/kvdb-scripts-api-openapi.yml
 consequence_counts:
   read: 3
   write: 7
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kvdb-o
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket_id}\n  method: delete\n  operationId: deleteBucket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket_id}\n  method: get\n  operationId: listKeys\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket_id}/{key}\n  method: get\n  operationId: getKey\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{bucket_id}/{key}\n  method: post\n\
   \  operationId: setKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket_id}/{key}\n  method: patch\n  operationId: patchKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket_id}/{key}\n  method: delete\n  operationId: deleteKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /{bucket_id}/scripts/{script_name}\n  method: put\n  operationId: uploadScript\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{bucket_id}/scripts/{script_name}\n  method: get\n  operationId: executeScript\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kvdb/refs/heads/main/agentic-access/kvdb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kvdb/agentic-access/kvdb-agentic-access.yml
 summary_line: 10 operations · 7 acting
 tags:
 - Database

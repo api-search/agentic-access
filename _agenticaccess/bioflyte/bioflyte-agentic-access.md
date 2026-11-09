@@ -9,55 +9,55 @@ api_specs:
   label: BioFlyte Alert API
   slug: bioflyte-alert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-alert-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-alert-api-openapi.yml
 - filename: bioflyte-client-api-openapi.yml
   format: yaml
   label: BioFlyte Client API
   slug: bioflyte-client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-client-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-client-api-openapi.yml
 - filename: bioflyte-files-api-openapi.yml
   format: yaml
   label: BioFlyte Files API
   slug: bioflyte-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-files-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-files-api-openapi.yml
 - filename: bioflyte-filters-api-openapi.yml
   format: yaml
   label: BioFlyte Filters API
   slug: bioflyte-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-filters-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-filters-api-openapi.yml
 - filename: bioflyte-locations-api-openapi.yml
   format: yaml
   label: BioFlyte Locations API
   slug: bioflyte-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-locations-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-locations-api-openapi.yml
 - filename: bioflyte-organization-api-openapi.yml
   format: yaml
   label: BioFlyte Organization API
   slug: bioflyte-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-organization-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-organization-api-openapi.yml
 - filename: bioflyte-permissions-api-openapi.yml
   format: yaml
   label: BioFlyte Permissions API
   slug: bioflyte-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-permissions-api-openapi.yml
 - filename: bioflyte-requesthelp-api-openapi.yml
   format: yaml
   label: BioFlyte Request Help API
   slug: bioflyte-requesthelp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-requesthelp-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-requesthelp-api-openapi.yml
 - filename: bioflyte-test-api-openapi.yml
   format: yaml
   label: BioFlyte Test API
   slug: bioflyte-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/openapi/bioflyte-test-api-openapi.yml
+  url: https://artifacts.apis.io/bioflyte/openapi/bioflyte-test-api-openapi.yml
 consequence_counts:
   read: 38
   write: 109
@@ -116,8 +116,8 @@ source_yaml: "generated: '2026-08-07'\nmethod: generated\nsource: openapi/biofly
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/users\n  method: get\n  operationId: getUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/users\n  method: post\n  operationId: createUsers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/{id}\n  method: get\n  operationId: getUsersById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/users/{id}\n  method: post\n  operationId: createUsersById\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/{id}\n  method: put\n  operationId: updateUsersById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/{id}\n  method: patch\n  operationId: patchUsersById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/{id}\n  method: delete\n  operationId:\
   \ deleteUsersById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/me\n  method: get\n  operationId: getUsersMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /wp/v2/users/me\n  method: post\n  operationId: createUsersMe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/me\n  method: put\n  operationId: updateUsersMe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n \
-  \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/me\n  method: patch\n  operationId: patchUsersMe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/me\n  method: delete\n  operationId: deleteUsersMe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/agentic-access/bioflyte-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bioflyte/refs/heads/main/agentic-access/bioflyte-agentic-access.yml
+  \   subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/me\n  method: patch\n  operationId: patchUsersMe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /wp/v2/users/me\n  method: delete\n  operationId: deleteUsersMe\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/bioflyte/agentic-access/bioflyte-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/bioflyte/agentic-access/bioflyte-agentic-access.yml
 summary_line: 147 operations · 109 acting
 tags:
 - Company

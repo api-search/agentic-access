@@ -9,37 +9,109 @@ api_specs:
   label: apaleo Availability API
   slug: apaleo-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-availability-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-availability-api-openapi.yml
 - filename: apaleo-booking-api-openapi.yml
   format: yaml
   label: apaleo Booking API
   slug: apaleo-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-booking-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-booking-api-openapi.yml
 - filename: apaleo-finance-api-openapi.yml
   format: yaml
   label: apaleo Finance API
   slug: apaleo-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-finance-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-finance-api-openapi.yml
 - filename: apaleo-inventory-api-openapi.yml
   format: yaml
   label: apaleo Inventory API
   slug: apaleo-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-inventory-api-openapi.yml
 - filename: apaleo-rate-plan-api-openapi.yml
   format: yaml
   label: apaleo Rate Plan API
   slug: apaleo-rate-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-rate-plan-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-rate-plan-api-openapi.yml
 - filename: apaleo-settings-api-openapi.yml
   format: yaml
   label: apaleo Settings API
   slug: apaleo-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/openapi/apaleo-settings-api-openapi.yml
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-settings-api-openapi.yml
+- filename: apaleo-authorization-api-openapi.yml
+  format: yaml
+  label: apaleo Authorization API
+  slug: apaleo-authorization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-authorization-api-openapi.yml
+- filename: apaleo-authorizationactions-api-openapi.yml
+  format: yaml
+  label: apaleo Authorization Actions API
+  slug: apaleo-authorizationactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-authorizationactions-api-openapi.yml
+- filename: apaleo-block-api-openapi.yml
+  format: yaml
+  label: apaleo Block API
+  slug: apaleo-block-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-block-api-openapi.yml
+- filename: apaleo-blockactions-api-openapi.yml
+  format: yaml
+  label: apaleo Block Actions API
+  slug: apaleo-blockactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-blockactions-api-openapi.yml
+- filename: apaleo-group-api-openapi.yml
+  format: yaml
+  label: apaleo Group API
+  slug: apaleo-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-group-api-openapi.yml
+- filename: apaleo-groupactions-api-openapi.yml
+  format: yaml
+  label: apaleo Group Actions API
+  slug: apaleo-groupactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-groupactions-api-openapi.yml
+- filename: apaleo-offer-api-openapi.yml
+  format: yaml
+  label: apaleo Offer API
+  slug: apaleo-offer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-offer-api-openapi.yml
+- filename: apaleo-paymentaccountactions-api-openapi.yml
+  format: yaml
+  label: apaleo Payment Account Actions API
+  slug: apaleo-paymentaccountactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-paymentaccountactions-api-openapi.yml
+- filename: apaleo-reservation-api-openapi.yml
+  format: yaml
+  label: apaleo Reservation API
+  slug: apaleo-reservation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-reservation-api-openapi.yml
+- filename: apaleo-reservationactions-api-openapi.yml
+  format: yaml
+  label: apaleo Reservation Actions API
+  slug: apaleo-reservationactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-reservationactions-api-openapi.yml
+- filename: apaleo-types-api-openapi.yml
+  format: yaml
+  label: apaleo Types API
+  slug: apaleo-types-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-types-api-openapi.yml
+- filename: apaleo-payment-account-api-openapi.yml
+  format: yaml
+  label: apaleo Payment Account API
+  slug: apaleo-payment-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-payment-account-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 24
@@ -99,7 +171,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/apaleo
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/v1/folios/{folioId}/payments\n  method: post\n  operationId: FinanceCreatePayment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /finance/v1/invoices\n  method: get\n  operationId: FinanceGetInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /finance/v1/invoices\n  method: post\n  operationId: FinanceCreateInvoice\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/v1/city-tax\n  method: get\n  operationId: SettingsGetCityTaxes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/v1/city-tax\n  method: post\n  operationId: SettingsCreateCityTax\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/v1/market-segments\n  method: get\n  operationId: SettingsGetMarketSegments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /settings/v1/market-segments\n\
   \  method: post\n  operationId: SettingsCreateMarketSegment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /settings/v1/languages\n  method: get\n  operationId: SettingsGetLanguages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apaleo/refs/heads/main/agentic-access/apaleo-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apaleo/agentic-access/apaleo-agentic-access.yml
 summary_line: 41 operations · 17 acting
 tags:
 - Hospitality

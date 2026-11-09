@@ -9,163 +9,205 @@ api_specs:
   label: Amazon Incident Manager DeleteResourcePolicy API
   slug: amazon-incident-manager-deleteresourcepolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-deleteresourcepolicy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-deleteresourcepolicy-api-openapi.yml
 - filename: amazon-incident-manager-putresourcepolicy-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager PutResourcePolicy API
   slug: amazon-incident-manager-putresourcepolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-putresourcepolicy-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-putresourcepolicy-api-openapi.yml
 - filename: amazon-incident-manager-tags-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Tags API
   slug: amazon-incident-manager-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-tags-api-openapi.yml
 - filename: amazon-incident-manager-deletereplicationset-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Delete Replication Set API
   slug: amazon-incident-manager-deletereplicationset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-deletereplicationset-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-deletereplicationset-api-openapi.yml
 - filename: amazon-incident-manager-getincidentrecord-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Get Incident Record API
   slug: amazon-incident-manager-getincidentrecord-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getincidentrecord-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-getincidentrecord-api-openapi.yml
 - filename: amazon-incident-manager-getreplicationset-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Get Replication Set API
   slug: amazon-incident-manager-getreplicationset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getreplicationset-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-getreplicationset-api-openapi.yml
 - filename: amazon-incident-manager-getresourcepolicies-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Get Resource Policies API
   slug: amazon-incident-manager-getresourcepolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getresourcepolicies-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-getresourcepolicies-api-openapi.yml
 - filename: amazon-incident-manager-getresponseplan-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Get Response Plan API
   slug: amazon-incident-manager-getresponseplan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-getresponseplan-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-getresponseplan-api-openapi.yml
 - filename: amazon-incident-manager-gettimelineevent-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Get Timeline Event API
   slug: amazon-incident-manager-gettimelineevent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-gettimelineevent-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-gettimelineevent-api-openapi.yml
+- filename: amazon-incident-manager-contact-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Contact API
+  slug: amazon-incident-manager-contact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-contact-api-openapi.yml
+- filename: amazon-incident-manager-contact-channel-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Contact Channel API
+  slug: amazon-incident-manager-contact-channel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-contact-channel-api-openapi.yml
+- filename: amazon-incident-manager-engagement-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Engagement API
+  slug: amazon-incident-manager-engagement-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-engagement-api-openapi.yml
+- filename: amazon-incident-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Operations API
+  slug: amazon-incident-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-operations-api-openapi.yml
+- filename: amazon-incident-manager-page-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Page API
+  slug: amazon-incident-manager-page-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-page-api-openapi.yml
+- filename: amazon-incident-manager-rotation-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Rotation API
+  slug: amazon-incident-manager-rotation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-rotation-api-openapi.yml
+- filename: amazon-incident-manager-rotation-override-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Rotation Override API
+  slug: amazon-incident-manager-rotation-override-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-rotation-override-api-openapi.yml
 - filename: amazon-incident-manager-create-replication-set-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Create Replication Set API
   slug: amazon-incident-manager-create-replication-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-create-replication-set-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-create-replication-set-api-openapi.yml
 - filename: amazon-incident-manager-create-response-plan-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Create Response Plan API
   slug: amazon-incident-manager-create-response-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-create-response-plan-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-create-response-plan-api-openapi.yml
 - filename: amazon-incident-manager-create-timeline-event-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Create Timeline Event API
   slug: amazon-incident-manager-create-timeline-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-create-timeline-event-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-create-timeline-event-api-openapi.yml
 - filename: amazon-incident-manager-delete-incident-record-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Delete Incident Record API
   slug: amazon-incident-manager-delete-incident-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-delete-incident-record-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-delete-incident-record-api-openapi.yml
 - filename: amazon-incident-manager-delete-response-plan-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Delete Response Plan API
   slug: amazon-incident-manager-delete-response-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-delete-response-plan-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-delete-response-plan-api-openapi.yml
 - filename: amazon-incident-manager-delete-timeline-event-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Delete Timeline Event API
   slug: amazon-incident-manager-delete-timeline-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-delete-timeline-event-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-delete-timeline-event-api-openapi.yml
 - filename: amazon-incident-manager-list-incident-records-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager List Incident Records API
   slug: amazon-incident-manager-list-incident-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-list-incident-records-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-list-incident-records-api-openapi.yml
 - filename: amazon-incident-manager-list-related-items-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager List Related Items API
   slug: amazon-incident-manager-list-related-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-list-related-items-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-list-related-items-api-openapi.yml
 - filename: amazon-incident-manager-list-replication-sets-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager List Replication Sets API
   slug: amazon-incident-manager-list-replication-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-list-replication-sets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-list-replication-sets-api-openapi.yml
 - filename: amazon-incident-manager-list-response-plans-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager List Response Plans API
   slug: amazon-incident-manager-list-response-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-list-response-plans-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-list-response-plans-api-openapi.yml
 - filename: amazon-incident-manager-list-timeline-events-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager List Timeline Events API
   slug: amazon-incident-manager-list-timeline-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-list-timeline-events-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-list-timeline-events-api-openapi.yml
 - filename: amazon-incident-manager-start-incident-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Start Incident API
   slug: amazon-incident-manager-start-incident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-start-incident-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-start-incident-api-openapi.yml
 - filename: amazon-incident-manager-update-deletion-protection-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Update Deletion Protection API
   slug: amazon-incident-manager-update-deletion-protection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-update-deletion-protection-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-deletion-protection-api-openapi.yml
 - filename: amazon-incident-manager-update-incident-record-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Update Incident Record API
   slug: amazon-incident-manager-update-incident-record-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-update-incident-record-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-incident-record-api-openapi.yml
 - filename: amazon-incident-manager-update-related-items-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Update Related Items API
   slug: amazon-incident-manager-update-related-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-update-related-items-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-related-items-api-openapi.yml
 - filename: amazon-incident-manager-update-replication-set-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Update Replication Set API
   slug: amazon-incident-manager-update-replication-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-update-replication-set-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-replication-set-api-openapi.yml
 - filename: amazon-incident-manager-update-response-plan-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Update Response Plan API
   slug: amazon-incident-manager-update-response-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-update-response-plan-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-response-plan-api-openapi.yml
 - filename: amazon-incident-manager-update-timeline-event-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Update Timeline Event API
   slug: amazon-incident-manager-update-timeline-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/openapi/amazon-incident-manager-update-timeline-event-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-timeline-event-api-openapi.yml
 consequence_counts:
   read: 11
   write: 18
@@ -203,10 +245,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateDeletionProtection\n  method: post\n  operationId: UpdateDeletionProtection\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateIncidentRecord\n  method: post\n  operationId: UpdateIncidentRecord\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateRelatedItems\n  method: post\n  operationId: UpdateRelatedItems\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateReplicationSet\n  method: post\n  operationId: UpdateReplicationSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /updateResponsePlan\n  method: post\n  operationId: UpdateResponsePlan\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path:\
   \ /updateTimelineEvent\n  method: post\n  operationId: UpdateTimelineEvent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-incident-manager/refs/heads/main/agentic-access/amazon-incident-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-incident-manager/agentic-access/amazon-incident-manager-agentic-access.yml
 summary_line: 29 operations · 18 acting
 tags:
 - Automation
+- Amazon Web Services
 - DevOps
 - Incident Management
 ---

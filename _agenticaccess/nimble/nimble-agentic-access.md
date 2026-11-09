@@ -9,73 +9,73 @@ api_specs:
   label: Nimble Activities API
   slug: nimble-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-activities-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-activities-api-openapi.yml
 - filename: nimble-contacts-api-openapi.yml
   format: yaml
   label: Nimble Contacts API
   slug: nimble-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-contacts-api-openapi.yml
 - filename: nimble-contacts-fields-api-openapi.yml
   format: yaml
   label: Nimble Contacts Fields API
   slug: nimble-contacts-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-contacts-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-contacts-fields-api-openapi.yml
 - filename: nimble-contacts-pipelines-api-openapi.yml
   format: yaml
   label: Nimble Contacts Pipelines API
   slug: nimble-contacts-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-contacts-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-contacts-pipelines-api-openapi.yml
 - filename: nimble-deals-api-openapi.yml
   format: yaml
   label: Nimble Deals API
   slug: nimble-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-deals-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-deals-api-openapi.yml
 - filename: nimble-deals-fields-api-openapi.yml
   format: yaml
   label: Nimble Deals Fields API
   slug: nimble-deals-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-deals-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-deals-fields-api-openapi.yml
 - filename: nimble-deals-pipelines-api-openapi.yml
   format: yaml
   label: Nimble Deals Pipelines API
   slug: nimble-deals-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-deals-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-deals-pipelines-api-openapi.yml
 - filename: nimble-deals-pipelines-fields-api-openapi.yml
   format: yaml
   label: Nimble Deals Pipelines Fields API
   slug: nimble-deals-pipelines-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-deals-pipelines-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-deals-pipelines-fields-api-openapi.yml
 - filename: nimble-leads-api-openapi.yml
   format: yaml
   label: Nimble Leads API
   slug: nimble-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-leads-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-leads-api-openapi.yml
 - filename: nimble-messages-api-openapi.yml
   format: yaml
   label: Nimble Messages API
   slug: nimble-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-messages-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-messages-api-openapi.yml
 - filename: nimble-tasks-api-openapi.yml
   format: yaml
   label: Nimble Tasks API
   slug: nimble-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-tasks-api-openapi.yml
 - filename: nimble-users-api-openapi.yml
   format: yaml
   label: Nimble Users API
   slug: nimble-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/openapi/nimble-users-api-openapi.yml
+  url: https://artifacts.apis.io/nimble/openapi/nimble-users-api-openapi.yml
 consequence_counts:
   read: 26
   write: 70
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/nimble
   \ triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/leads/{lead_id}/{pipeline_id}/unsuccessful\n  method: put\n  operationId: put-lead-exit-unsuccessful\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/leads/{lead_id}/{pipeline_id}/move\n  method: post\n  operationId: move-lead\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/leads/{lead_id}/{pipeline_id}/undo\n  method: post\n  operationId: undo-lead-transition\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/leads/{lead_id}/{pipeline_id}\n  method: delete\n  operationId: delete-lead-transitions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/messages/drafts\n  method: get\n  operationId: list-messages-drafts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/messages/drafts\n  method: post\n  operationId: post-message-draft\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/tasks\n  method: post\n  operationId: post-task\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/myself\n  method: get\n  operationId: get-myself\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nimble/refs/heads/main/agentic-access/nimble-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/nimble/agentic-access/nimble-agentic-access.yml
 summary_line: 96 operations · 70 acting
 tags:
 - CRM

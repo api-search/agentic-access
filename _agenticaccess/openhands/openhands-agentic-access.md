@@ -9,61 +9,61 @@ api_specs:
   label: OpenHands Add Git Providers API
   slug: openhands-add-git-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-add-git-providers-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-add-git-providers-api-openapi.yml
 - filename: openhands-alive-api-openapi.yml
   format: yaml
   label: OpenHands Alive API
   slug: openhands-alive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-alive-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-alive-api-openapi.yml
 - filename: openhands-conversations-api-openapi.yml
   format: yaml
   label: OpenHands Conversations API
   slug: openhands-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-conversations-api-openapi.yml
 - filename: openhands-health-api-openapi.yml
   format: yaml
   label: OpenHands Health API
   slug: openhands-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-health-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-health-api-openapi.yml
 - filename: openhands-options-api-openapi.yml
   format: yaml
   label: OpenHands Options API
   slug: openhands-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-options-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-options-api-openapi.yml
 - filename: openhands-reset-settings-api-openapi.yml
   format: yaml
   label: OpenHands Reset Settings API
   slug: openhands-reset-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-reset-settings-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-reset-settings-api-openapi.yml
 - filename: openhands-secrets-api-openapi.yml
   format: yaml
   label: OpenHands Secrets API
   slug: openhands-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-secrets-api-openapi.yml
 - filename: openhands-settings-api-openapi.yml
   format: yaml
   label: OpenHands Settings API
   slug: openhands-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-settings-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-settings-api-openapi.yml
 - filename: openhands-unset-provider-tokens-api-openapi.yml
   format: yaml
   label: OpenHands Unset Provider Tokens API
   slug: openhands-unset-provider-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-unset-provider-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-unset-provider-tokens-api-openapi.yml
 - filename: openhands-user-api-openapi.yml
   format: yaml
   label: OpenHands User API
   slug: openhands-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/openapi/openhands-user-api-openapi.yml
+  url: https://artifacts.apis.io/openhands/openapi/openhands-user-api-openapi.yml
 consequence_counts:
   read: 28
   safety-critical: 2
@@ -118,7 +118,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openha
   \ 3600\n    audit: none\n- path: /api/user/search/repositories\n  method: get\n  operationId: search_repositories_api_user_search_repositories_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/suggested-tasks\n  method: get\n  operationId: get_suggested_tasks_api_user_suggested_tasks_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/repository/branches\n  method: get\n  operationId: get_repository_branches_api_user_repository_branches_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/repository/{repository_name}/microagents\n  method: get\n  operationId: get_repository_microagents_api_user_repository__repository_name__microagents_get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/user/repository/{repository_name}/microagents/content\n  method: get\n  operationId: get_repository_microagent_content_api_user_repository__repository_name__microagents_content_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/conversations/{conversation_id}/trajectory\n  method: get\n  operationId: get_trajectory_api_conversations__conversation_id__trajectory_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /alive\n  method: get\n  operationId: alive_alive_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /health\n  method: get\n  operationId: health_health_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/agentic-access/openhands-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/openhands/agentic-access/openhands-agentic-access.yml
 summary_line: 43 operations · 15 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

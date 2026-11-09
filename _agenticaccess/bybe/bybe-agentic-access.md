@@ -9,43 +9,43 @@ api_specs:
   label: BYBE Clips API
   slug: bybe-clips-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-clips-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-clips-api-openapi.yml
 - filename: bybe-consumers-api-openapi.yml
   format: yaml
   label: BYBE Consumers API
   slug: bybe-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-consumers-api-openapi.yml
 - filename: bybe-manufacturers-api-openapi.yml
   format: yaml
   label: BYBE Manufacturers API
   slug: bybe-manufacturers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-manufacturers-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-manufacturers-api-openapi.yml
 - filename: bybe-offers-api-openapi.yml
   format: yaml
   label: BYBE Offers API
   slug: bybe-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-offers-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-offers-api-openapi.yml
 - filename: bybe-products-api-openapi.yml
   format: yaml
   label: BYBE Products API
   slug: bybe-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-products-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-products-api-openapi.yml
 - filename: bybe-redemptions-api-openapi.yml
   format: yaml
   label: BYBE Redemptions API
   slug: bybe-redemptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-redemptions-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-redemptions-api-openapi.yml
 - filename: bybe-stores-api-openapi.yml
   format: yaml
   label: BYBE Stores API
   slug: bybe-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/openapi/bybe-stores-api-openapi.yml
+  url: https://artifacts.apis.io/bybe/openapi/bybe-stores-api-openapi.yml
 consequence_counts:
   read: 13
   write: 3
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/bybe-a
   \    audit: required\n- path: /v1/clips/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/consumers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/consumers/{retailer_identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/manufacturers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/manufacturers/{id}\n  method: get\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/offers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/offers/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/products/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/redemption_disbursements\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n   \
   \ token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/redemption_disbursements\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/redemption_disbursements/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stores\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stores/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bybe/refs/heads/main/agentic-access/bybe-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bybe/agentic-access/bybe-agentic-access.yml
 summary_line: 16 operations · 3 acting
 tags:
 - Company

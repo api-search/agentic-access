@@ -9,19 +9,19 @@ api_specs:
   label: Microsoft Outlook Attachments API
   slug: microsoft-outlook-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-outlook/openapi/microsoft-outlook-attachments-api-openapi.yml
 - filename: microsoft-outlook-mail-folders-api-openapi.yml
   format: yaml
   label: Microsoft Outlook Mail Folders API
   slug: microsoft-outlook-mail-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-mail-folders-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-outlook/openapi/microsoft-outlook-mail-folders-api-openapi.yml
 - filename: microsoft-outlook-messages-api-openapi.yml
   format: yaml
   label: Microsoft Outlook Messages API
   slug: microsoft-outlook-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/openapi/microsoft-outlook-messages-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-outlook/openapi/microsoft-outlook-messages-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 8
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/micros
   \ path: /me/mailFolders/{mailFolder-id}/messages\n  method: get\n  operationId: listMessagesInFolder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/mailFolders/{mailFolder-id}/messages\n  method: post\n  operationId: createMessageInFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/mailFolders/{mailFolder-id}/copy\n  method: post\n  operationId: copyMailFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /me/mailFolders/{mailFolder-id}/move\n  method: post\n  operationId: moveMailFolder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/messages/{message-id}/attachments\n  method: get\n  operationId: listAttachments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/messages/{message-id}/attachments\n  method: post\n  operationId: addAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/messages/{message-id}/attachments/{attachment-id}\n\
   \  method: get\n  operationId: getAttachment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/messages/{message-id}/attachments/{attachment-id}\n  method: delete\n  operationId: deleteAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/messages/{message-id}/attachments/createUploadSession\n  method: post\n  operationId: createAttachmentUploadSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/agentic-access/microsoft-outlook-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-outlook/agentic-access/microsoft-outlook-agentic-access.yml
 summary_line: 31 operations · 23 acting
 tags:
 - Calendar

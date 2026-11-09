@@ -9,55 +9,55 @@ api_specs:
   label: Filevine Identity API
   slug: filevine-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-identity-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-identity-api-openapi.yml
 - filename: filevine-projects-api-openapi.yml
   format: yaml
   label: Filevine Projects API
   slug: filevine-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-projects-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-projects-api-openapi.yml
 - filename: filevine-contacts-api-openapi.yml
   format: yaml
   label: Filevine Contacts API
   slug: filevine-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-contacts-api-openapi.yml
 - filename: filevine-documents-api-openapi.yml
   format: yaml
   label: Filevine Documents API
   slug: filevine-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-documents-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-documents-api-openapi.yml
 - filename: filevine-notes-api-openapi.yml
   format: yaml
   label: Filevine Notes API
   slug: filevine-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-notes-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-notes-api-openapi.yml
 - filename: filevine-deadlines-api-openapi.yml
   format: yaml
   label: Filevine Deadlines API
   slug: filevine-deadlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-deadlines-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-deadlines-api-openapi.yml
 - filename: filevine-tasks-api-openapi.yml
   format: yaml
   label: Filevine Tasks API
   slug: filevine-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-tasks-api-openapi.yml
 - filename: filevine-webhooks-api-openapi.yml
   format: yaml
   label: Filevine Webhooks API
   slug: filevine-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-webhooks-api-openapi.yml
 - filename: filevine-time-entries-api-openapi.yml
   format: yaml
   label: Filevine Time Entries API
   slug: filevine-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/openapi/filevine-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/filevine/openapi/filevine-time-entries-api-openapi.yml
 consequence_counts:
   read: 11
   write: 14
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/filevi
   \ listProjectTasks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/projects/{projectId}/tasks\n  method: post\n  operationId: createTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/tasks/{taskId}\n  method: patch\n  operationId: updateTask\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/time-entries\n  method: get\n  operationId: listTimeEntries\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/time-entries\n  method: post\n  operationId: createTimeEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /core/webhooks/subscriptions\n  method: get\n  operationId: listWebhookSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/webhooks/subscriptions\n  method: post\n  operationId: createWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /core/webhooks/subscriptions/{subscriptionId}\n  method: delete\n  operationId: deleteWebhookSubscription\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/agentic-access/filevine-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/filevine/agentic-access/filevine-agentic-access.yml
 summary_line: 25 operations · 14 acting
 tags:
 - Legal

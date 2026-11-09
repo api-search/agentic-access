@@ -9,37 +9,37 @@ api_specs:
   label: Smartrr Bills API
   slug: smartrr-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-bills-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-bills-api-openapi.yml
 - filename: smartrr-orders-api-openapi.yml
   format: yaml
   label: Smartrr Orders API
   slug: smartrr-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-orders-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-orders-api-openapi.yml
 - filename: smartrr-plans-api-openapi.yml
   format: yaml
   label: Smartrr Plans API
   slug: smartrr-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-plans-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-plans-api-openapi.yml
 - filename: smartrr-subscribers-api-openapi.yml
   format: yaml
   label: Smartrr Subscribers API
   slug: smartrr-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-subscribers-api-openapi.yml
 - filename: smartrr-subscriptions-api-openapi.yml
   format: yaml
   label: Smartrr Subscriptions API
   slug: smartrr-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-subscriptions-api-openapi.yml
 - filename: smartrr-webhooks-api-openapi.yml
   format: yaml
   label: Smartrr Webhooks API
   slug: smartrr-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/openapi/smartrr-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartrr/openapi/smartrr-webhooks-api-openapi.yml
 consequence_counts:
   physical: 15
   read: 22
@@ -156,7 +156,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/smartr
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/purchasable\n  method: put\n  operationId: updatePurchasable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendor/purchasable/{id}\n  method: get\n  operationId: getPurchasableById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/purchasable-collection\n  method: get\n  operationId: getPurchasableCollection\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/selling-plan-group\n\
   \  method: get\n  operationId: getSellingPlanGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/selling-plan-configs\n  method: get\n  operationId: getSellingPlanConfigs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/webhook\n  method: get\n  operationId: getWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vendor/webhook\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /vendor/webhook/{webhookId}\n  method: put\n  operationId: editWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vendor/webhook/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartrr/refs/heads/main/agentic-access/smartrr-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/smartrr/agentic-access/smartrr-agentic-access.yml
 summary_line: 43 operations · 21 acting
 tags:
 - Subscription

@@ -9,37 +9,37 @@ api_specs:
   label: Even Financial Analytics API
   slug: even-financial-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-analytics-api-openapi.yml
 - filename: even-financial-approval-probability-api-openapi.yml
   format: yaml
   label: Even Financial Approval Probability API
   slug: even-financial-approval-probability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-approval-probability-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-approval-probability-api-openapi.yml
 - filename: even-financial-lead-api-openapi.yml
   format: yaml
   label: Even Financial Lead API
   slug: even-financial-lead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-lead-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-lead-api-openapi.yml
 - filename: even-financial-offer-preview-api-openapi.yml
   format: yaml
   label: Even Financial Offer Preview API
   slug: even-financial-offer-preview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-offer-preview-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-offer-preview-api-openapi.yml
 - filename: even-financial-ui-utils-api-openapi.yml
   format: yaml
   label: Even Financial UI Utils API
   slug: even-financial-ui-utils-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-ui-utils-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-ui-utils-api-openapi.yml
 - filename: even-financial-pre-fill-api-openapi.yml
   format: yaml
   label: Even Financial Pre Fill API
   slug: even-financial-pre-fill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/openapi/even-financial-pre-fill-api-openapi.yml
+  url: https://artifacts.apis.io/even-financial/openapi/even-financial-pre-fill-api-openapi.yml
 consequence_counts:
   read: 19
   write: 3
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/even-f
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /offerPreview/savingsOffers\n  method: get\n  operationId: getPreviewSavingsOffers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /originator/prefills/{prefillToken}\n  method: get\n  operationId: getPrefill\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /originator/prefills\n  method: post\n  operationId: prefill\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /leads/universities\n  method: get\n  operationId: getUniversities\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/vehicles/years\n  method: get\n  operationId: getVehicleYears\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/vehicles/makes\n  method: get\n  operationId: getVehicleMakes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/vehicles/models\n  method: get\n  operationId: getVehicleModels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /leads/vehicles/trims\n  method: get\n  operationId: getVehicleTrims\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n\
   \      max-ttl: 3600\n    audit: none\n- path: /uiUtil/featuredFinancialInstitutions\n  method: get\n  operationId: getFeaturedFinancialInstitutions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/agentic-access/even-financial-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/even-financial/agentic-access/even-financial-agentic-access.yml
 summary_line: 22 operations · 3 acting
 tags:
 - Company

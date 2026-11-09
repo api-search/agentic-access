@@ -9,43 +9,43 @@ api_specs:
   label: Murf Subpackage Auth API
   slug: murf-subpackage-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-auth-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-auth-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
   format: yaml
   label: Murf subpackage_dubbing.subpackage_dubbing/jobs API
   slug: murf-subpackage-dubbing-subpackage-dubbing-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-dubbing-subpackage-dubbing-jobs-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
   format: yaml
   label: Murf Subpackage Dubbing.subpackage Dubbing/languages API
   slug: murf-subpackage-dubbing-subpackage-dubbing-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-dubbing-subpackage-dubbing-languages-api-openapi.yml
 - filename: murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
   format: yaml
   label: Murf Subpackage Dubbing.subpackage Dubbing/projects API
   slug: murf-subpackage-dubbing-subpackage-dubbing-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-dubbing-subpackage-dubbing-projects-api-openapi.yml
 - filename: murf-subpackage-text-api-openapi.yml
   format: yaml
   label: Murf Subpackage Text API
   slug: murf-subpackage-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-text-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-text-api-openapi.yml
 - filename: murf-subpackage-texttospeech-api-openapi.yml
   format: yaml
   label: Murf Subpackage Text To Speech API
   slug: murf-subpackage-texttospeech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-texttospeech-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-texttospeech-api-openapi.yml
 - filename: murf-subpackage-voicechanger-api-openapi.yml
   format: yaml
   label: Murf Subpackage Voice Changer API
   slug: murf-subpackage-voicechanger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/openapi/murf-subpackage-voicechanger-api-openapi.yml
+  url: https://artifacts.apis.io/murf/openapi/murf-subpackage-voicechanger-api-openapi.yml
 consequence_counts:
   read: 6
   write: 8
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/murf-o
   \   escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/auth/token\n  method: get\n  operationId: generate-token\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/murfdub/list-destination-languages\n  method: get\n  operationId: list-destination-languages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/murfdub/list-source-languages\n  method: get\n  operationId: list-source-languages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/murfdub/jobs/create\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/murfdub/jobs/create-with-project-id\n  method: post\n  operationId: create-with-project-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/murfdub/jobs/{job_id}/status\n  method: get\n  operationId: get-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/murfdub/projects/create\n  method: post\n  operationId: create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/murfdub/projects/list\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/murfdub/projects/{project_id}/update\n  method: put\n  operationId: update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/agentic-access/murf-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/murf/agentic-access/murf-agentic-access.yml
 summary_line: 14 operations · 8 acting
 tags:
 - Artificial Intelligence

@@ -9,55 +9,55 @@ api_specs:
   label: Folk Companies API
   slug: folk-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-companies-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-companies-api-openapi.yml
 - filename: folk-deals-api-openapi.yml
   format: yaml
   label: Folk Deals API
   slug: folk-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-deals-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-deals-api-openapi.yml
 - filename: folk-groups-api-openapi.yml
   format: yaml
   label: Folk Groups API
   slug: folk-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-groups-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-groups-api-openapi.yml
 - filename: folk-interactions-api-openapi.yml
   format: yaml
   label: Folk Interactions API
   slug: folk-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-interactions-api-openapi.yml
 - filename: folk-notes-api-openapi.yml
   format: yaml
   label: Folk Notes API
   slug: folk-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-notes-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-notes-api-openapi.yml
 - filename: folk-people-api-openapi.yml
   format: yaml
   label: Folk People API
   slug: folk-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-people-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-people-api-openapi.yml
 - filename: folk-reminders-api-openapi.yml
   format: yaml
   label: Folk Reminders API
   slug: folk-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-reminders-api-openapi.yml
 - filename: folk-users-api-openapi.yml
   format: yaml
   label: Folk Users API
   slug: folk-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-users-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-users-api-openapi.yml
 - filename: folk-webhooks-api-openapi.yml
   format: yaml
   label: Folk Webhooks API
   slug: folk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/openapi/folk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/folk/openapi/folk-webhooks-api-openapi.yml
 consequence_counts:
   read: 20
   write: 19
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/folk-c
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/reminders/{reminderId}\n  method: patch\n  operationId: updateReminder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/reminders/{reminderId}\n  method: delete\n  operationId: deleteReminder\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/users\n  method: get\n  operationId: listUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/me\n  method: get\n  operationId: getCurrentUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{userId}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhookId}\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/{webhookId}\n  method: patch\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/{webhookId}\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/folk/refs/heads/main/agentic-access/folk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/folk/agentic-access/folk-agentic-access.yml
 summary_line: 39 operations · 19 acting
 tags:
 - CRM

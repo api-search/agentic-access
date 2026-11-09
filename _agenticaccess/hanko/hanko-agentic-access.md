@@ -9,127 +9,127 @@ api_specs:
   label: Hanko Audit Logs API
   slug: hanko-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-audit-logs-api-openapi.yml
 - filename: hanko-credentials-api-openapi.yml
   format: yaml
   label: Hanko Credentials API
   slug: hanko-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-credentials-api-openapi.yml
 - filename: hanko-email-management-api-openapi.yml
   format: yaml
   label: Hanko Email Management API
   slug: hanko-email-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-email-management-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-email-management-api-openapi.yml
 - filename: hanko-login-api-openapi.yml
   format: yaml
   label: Hanko Login API
   slug: hanko-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-login-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-login-api-openapi.yml
 - filename: hanko-metrics-api-openapi.yml
   format: yaml
   label: Hanko Metrics API
   slug: hanko-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-metrics-api-openapi.yml
 - filename: hanko-mfa-api-openapi.yml
   format: yaml
   label: Hanko Mfa API
   slug: hanko-mfa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-mfa-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-mfa-api-openapi.yml
 - filename: hanko-passcode-api-openapi.yml
   format: yaml
   label: Hanko Passcode API
   slug: hanko-passcode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-passcode-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-passcode-api-openapi.yml
 - filename: hanko-password-api-openapi.yml
   format: yaml
   label: Hanko Password API
   slug: hanko-password-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-password-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-password-api-openapi.yml
 - filename: hanko-saml-api-openapi.yml
   format: yaml
   label: Hanko SAML API
   slug: hanko-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-saml-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-saml-api-openapi.yml
 - filename: hanko-session-management-api-openapi.yml
   format: yaml
   label: Hanko Session Management API
   slug: hanko-session-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-session-management-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-session-management-api-openapi.yml
 - filename: hanko-sessions-api-openapi.yml
   format: yaml
   label: Hanko Sessions API
   slug: hanko-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-sessions-api-openapi.yml
 - filename: hanko-status-api-openapi.yml
   format: yaml
   label: Hanko Status API
   slug: hanko-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-status-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-status-api-openapi.yml
 - filename: hanko-third-party-api-openapi.yml
   format: yaml
   label: Hanko Third Party API
   slug: hanko-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-third-party-api-openapi.yml
 - filename: hanko-token-api-openapi.yml
   format: yaml
   label: Hanko Token API
   slug: hanko-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-token-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-token-api-openapi.yml
 - filename: hanko-transaction-api-openapi.yml
   format: yaml
   label: Hanko Transaction API
   slug: hanko-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-transaction-api-openapi.yml
 - filename: hanko-user-management-api-openapi.yml
   format: yaml
   label: Hanko User Management API
   slug: hanko-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-user-management-api-openapi.yml
 - filename: hanko-user-metadata-management-api-openapi.yml
   format: yaml
   label: Hanko User Metadata Management API
   slug: hanko-user-metadata-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-user-metadata-management-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-user-metadata-management-api-openapi.yml
 - filename: hanko-users-api-openapi.yml
   format: yaml
   label: Hanko Users API
   slug: hanko-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-users-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-users-api-openapi.yml
 - filename: hanko-webauthn-api-openapi.yml
   format: yaml
   label: Hanko Webauthn API
   slug: hanko-webauthn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-webauthn-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-webauthn-api-openapi.yml
 - filename: hanko-webhooks-api-openapi.yml
   format: yaml
   label: Hanko Webhooks API
   slug: hanko-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-webhooks-api-openapi.yml
 - filename: hanko-well-known-api-openapi.yml
   format: yaml
   label: Hanko .well-known API
   slug: hanko-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/openapi/hanko-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/hanko/openapi/hanko-well-known-api-openapi.yml
 consequence_counts:
   read: 31
   write: 51
@@ -182,7 +182,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/hanko-
   \  method: get\n  operationId: listCredentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webauthn/credentials/{id}\n  method: patch\n  operationId: updateCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webauthn/credentials/{id}\n  method: delete\n  operationId: deleteCredential\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: list-webhooks\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: create-db-webhooks\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: get-webhooks-id\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: delete-webhooks-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: put\n  operationId: put-webhooks-id\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /.well-known/jwks.json\n  method: get\n  operationId: getJwks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /.well-known/config\n  method: get\n  operationId: getConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hanko/refs/heads/main/agentic-access/hanko-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/hanko/agentic-access/hanko-agentic-access.yml
 summary_line: 82 operations · 51 acting
 tags:
 - Authentication
@@ -190,6 +190,7 @@ tags:
 - WebAuthn
 - FIDO2
 - Identity
+- OAuth
 - SAML
 - Passwordless
 - Open Source

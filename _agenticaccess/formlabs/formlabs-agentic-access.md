@@ -9,31 +9,31 @@ api_specs:
   label: Formlabs Consumables API
   slug: formlabs-consumables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-consumables-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-consumables-api-openapi.yml
 - filename: formlabs-events-api-openapi.yml
   format: yaml
   label: Formlabs Events API
   slug: formlabs-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-events-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-events-api-openapi.yml
 - filename: formlabs-groups-api-openapi.yml
   format: yaml
   label: Formlabs Groups API
   slug: formlabs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-groups-api-openapi.yml
 - filename: formlabs-printers-api-openapi.yml
   format: yaml
   label: Formlabs Printers API
   slug: formlabs-printers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-printers-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-printers-api-openapi.yml
 - filename: formlabs-prints-api-openapi.yml
   format: yaml
   label: Formlabs Prints API
   slug: formlabs-prints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/openapi/formlabs-prints-api-openapi.yml
+  url: https://artifacts.apis.io/formlabs/openapi/formlabs-prints-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/formla
   \ 3600\n    audit: none\n- path: /groups/\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/\n  method: patch\n  operationId: updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/\n  method: delete\n  operationId: deleteGroup\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/bulk-add-printers/\n  method: post\n  operationId: bulkAddPrintersToGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/members/\n  method: post\n  operationId: inviteGroupMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/members/\n\
   \  method: put\n  operationId: updateGroupMember\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/members/\n  method: delete\n  operationId: removeGroupMember\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{group_id}/queue/\n  method: get\n  operationId: listGroupQueue\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/agentic-access/formlabs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/formlabs/agentic-access/formlabs-agentic-access.yml
 summary_line: 16 operations · 7 acting
 tags:
 - 3D Printing

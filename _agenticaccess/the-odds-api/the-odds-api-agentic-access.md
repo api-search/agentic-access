@@ -8,37 +8,37 @@ api_specs:
   label: The Odds API Events API
   slug: the-odds-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-events-api-openapi.yml
 - filename: the-odds-api-historical-api-openapi.yml
   format: yaml
   label: The Odds API Historical API
   slug: the-odds-api-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-historical-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-historical-api-openapi.yml
 - filename: the-odds-api-odds-api-openapi.yml
   format: yaml
   label: The Odds API Odds API
   slug: the-odds-api-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-odds-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-odds-api-openapi.yml
 - filename: the-odds-api-participants-api-openapi.yml
   format: yaml
   label: The Odds API Participants API
   slug: the-odds-api-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-participants-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-participants-api-openapi.yml
 - filename: the-odds-api-scores-api-openapi.yml
   format: yaml
   label: The Odds API Scores API
   slug: the-odds-api-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-scores-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-scores-api-openapi.yml
 - filename: the-odds-api-sports-api-openapi.yml
   format: yaml
   label: The Odds API Sports API
   slug: the-odds-api-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/openapi/the-odds-api-sports-api-openapi.yml
+  url: https://artifacts.apis.io/the-odds-api/openapi/the-odds-api-sports-api-openapi.yml
 consequence_counts:
   read: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -66,7 +66,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/the-odds-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 10\n  by_action_class:\n    connected: 10\n  by_consequence:\n    read: 10\n  human_in_the_loop_required: 0\noperations:\n- path: /v4/sports\n  method: get\n  operationId: getSports\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/sports/{sport}/odds\n  method: get\n  operationId: getSportOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/sports/{sport}/scores\n  method: get\n  operationId: getSportScores\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/sports/{sport}/events\n  method: get\n  operationId: getSportEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/sports/{sport}/events/{eventId}/odds\n  method: get\n  operationId: getEventOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/sports/{sport}/events/{eventId}/markets\n  method: get\n  operationId: getEventMarkets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/sports/{sport}/participants\n  method: get\n  operationId: getSportParticipants\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/historical/sports/{sport}/odds\n  method: get\n  operationId: getHistoricalOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/historical/sports/{sport}/events\n  method: get\n  operationId: getHistoricalEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v4/historical/sports/{sport}/events/{eventId}/odds\n  method: get\n  operationId: getHistoricalEventOdds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/agentic-access/the-odds-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/the-odds-api/agentic-access/the-odds-api-agentic-access.yml
 summary_line: 10 operations
 tags:
 - Betting

@@ -9,25 +9,25 @@ api_specs:
   label: Handwrite IO Handwriting API
   slug: handwrite-io-handwriting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-handwriting-api-openapi.yml
+  url: https://artifacts.apis.io/handwrite-io/openapi/handwrite-io-handwriting-api-openapi.yml
 - filename: handwrite-io-orders-api-openapi.yml
   format: yaml
   label: Handwrite IO Orders API
   slug: handwrite-io-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-orders-api-openapi.yml
+  url: https://artifacts.apis.io/handwrite-io/openapi/handwrite-io-orders-api-openapi.yml
 - filename: handwrite-io-send-api-openapi.yml
   format: yaml
   label: Handwrite IO Send API
   slug: handwrite-io-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-send-api-openapi.yml
+  url: https://artifacts.apis.io/handwrite-io/openapi/handwrite-io-send-api-openapi.yml
 - filename: handwrite-io-stationery-api-openapi.yml
   format: yaml
   label: Handwrite IO Stationery API
   slug: handwrite-io-stationery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/openapi/handwrite-io-stationery-api-openapi.yml
+  url: https://artifacts.apis.io/handwrite-io/openapi/handwrite-io-stationery-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 3
@@ -60,7 +60,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/handwrite-io-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    connected: 3\n    acting: 1\n  by_consequence:\n    read: 3\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /handwriting\n  method: get\n  operationId: getHandwritings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /stationery\n  method: get\n  operationId: getStationery\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /send\n  method: post\n  operationId:\
   \ sendLetter\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/{orderId}\n  method: get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/agentic-access/handwrite-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/handwrite-io/agentic-access/handwrite-io-agentic-access.yml
 summary_line: 4 operations · 1 acting
 tags:
 - Direct Mail

@@ -9,31 +9,31 @@ api_specs:
   label: Towers Watson Benefits API
   slug: towers-watson-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-benefits-api-openapi.yml
 - filename: towers-watson-cases-api-openapi.yml
   format: yaml
   label: Towers Watson Cases API
   slug: towers-watson-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-cases-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-cases-api-openapi.yml
 - filename: towers-watson-content-api-openapi.yml
   format: yaml
   label: Towers Watson Content API
   slug: towers-watson-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-content-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-content-api-openapi.yml
 - filename: towers-watson-employees-api-openapi.yml
   format: yaml
   label: Towers Watson Employees API
   slug: towers-watson-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-employees-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-employees-api-openapi.yml
 - filename: towers-watson-total-rewards-api-openapi.yml
   format: yaml
   label: Towers Watson Total Rewards API
   slug: towers-watson-total-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-total-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-total-rewards-api-openapi.yml
 consequence_counts:
   read: 8
   write: 4
@@ -63,7 +63,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/wtw-hr
   \  method: get\n  operationId: getEmployeeTotalRewards\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content\n  method: get\n  operationId: listContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content\n  method: post\n  operationId: createContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /content/{contentId}\n  method: get\n  operationId: getContent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /content/{contentId}\n \
   \ method: put\n  operationId: updateContent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cases\n  method: get\n  operationId: listCases\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases\n  method: post\n  operationId: createCase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cases/{caseId}\n  method: get\n  operationId: getCase\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n \
   \   subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cases/{caseId}\n  method: put\n  operationId: updateCase\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /employees/{employeeId}/benefits\n  method: get\n  operationId: getEmployeeBenefits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/agentic-access/towers-watson-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/towers-watson/agentic-access/towers-watson-agentic-access.yml
 summary_line: 12 operations · 4 acting
 tags:
 - Human Resources

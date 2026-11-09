@@ -9,19 +9,19 @@ api_specs:
   label: Freedom of Information Act Agency Components API
   slug: freedom-of-information-act-agency-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-components-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-agency-components-api-openapi.yml
 - filename: freedom-of-information-act-agency-submission-api-openapi.yml
   format: yaml
   label: Freedom of Information Act Agency Submission API
   slug: freedom-of-information-act-agency-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-agency-submission-api-openapi.yml
 - filename: freedom-of-information-act-annual-reports-api-openapi.yml
   format: yaml
   label: Freedom of Information Act Annual Reports API
   slug: freedom-of-information-act-annual-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
+  url: https://artifacts.apis.io/freedom-of-information-act/openapi/freedom-of-information-act-annual-reports-api-openapi.yml
 consequence_counts:
   read: 4
   write: 1
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/freedom-of-information-act-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 4\n    acting: 1\n  by_consequence:\n    read: 4\n    write: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /api/agency_components\n  method: get\n  operationId: listAgencyComponents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/agency_components/{id}\n  method: get\n  operationId: getAgencyComponent\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /api/agency_components/{id}/request_form\n  method: get\n  operationId: getAgencyComponentRequestForm\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/annual-report-xml/{agencyAbbreviation}/{year}\n  method: get\n  operationId: getAnnualReportXml\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /components/{id}/requests/\n  method: post\n  operationId: submitAgencyRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/agentic-access/freedom-of-information-act-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/freedom-of-information-act/agentic-access/freedom-of-information-act-agentic-access.yml
 summary_line: 5 operations · 1 acting
 tags:
 - Federal Government

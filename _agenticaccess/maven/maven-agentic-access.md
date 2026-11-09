@@ -9,19 +9,19 @@ api_specs:
   label: Maven Deployment API
   slug: maven-deployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/openapi/maven-deployment-api-openapi.yml
+  url: https://artifacts.apis.io/maven/openapi/maven-deployment-api-openapi.yml
 - filename: maven-download-api-openapi.yml
   format: yaml
   label: Maven Download API
   slug: maven-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/openapi/maven-download-api-openapi.yml
+  url: https://artifacts.apis.io/maven/openapi/maven-download-api-openapi.yml
 - filename: maven-search-api-openapi.yml
   format: yaml
   label: Maven Search API
   slug: maven-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/openapi/maven-search-api-openapi.yml
+  url: https://artifacts.apis.io/maven/openapi/maven-search-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 5
@@ -65,7 +65,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/maven-deployment-api-openapi.yml, openapi/maven-download-api-openapi.yml, openapi/maven-search-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    acting: 3\n    connected: 5\n  by_consequence:\n    physical: 3\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /upload\n  method: post\n  operationId: uploadBundle\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /status\n  method: post\n  operationId: getDeploymentStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployment/{deploymentId}\n  method: post\n  operationId: publishDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /deployment/{deploymentId}\n  method: delete\n  operationId: dropDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /deployment/{deploymentId}/download/{relativePath}\n  method: get\n  operationId: downloadDeploymentFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /deployments/download/{relativePath}\n  method: get\n  operationId: downloadValidatedFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /remotecontent\n  method: get\n  operationId: downloadArtifact\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /select\n  method: get\n  operationId: searchArtifacts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven/refs/heads/main/agentic-access/maven-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/maven/agentic-access/maven-agentic-access.yml
 summary_line: 8 operations · 3 acting
 tags:
 - Artifacts

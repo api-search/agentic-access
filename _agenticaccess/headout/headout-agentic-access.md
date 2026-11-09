@@ -9,37 +9,37 @@ api_specs:
   label: HeadOut Booking API
   slug: headout-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-booking-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-booking-api-openapi.yml
 - filename: headout-categories-api-openapi.yml
   format: yaml
   label: HeadOut Categories API
   slug: headout-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-categories-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-categories-api-openapi.yml
 - filename: headout-collections-api-openapi.yml
   format: yaml
   label: HeadOut Collections API
   slug: headout-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-collections-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-collections-api-openapi.yml
 - filename: headout-inventory-api-openapi.yml
   format: yaml
   label: HeadOut Inventory API
   slug: headout-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-inventory-api-openapi.yml
 - filename: headout-products-api-openapi.yml
   format: yaml
   label: HeadOut Products API
   slug: headout-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-products-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-products-api-openapi.yml
 - filename: headout-subcategories-api-openapi.yml
   format: yaml
   label: HeadOut Subcategories API
   slug: headout-subcategories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/openapi/headout-subcategories-api-openapi.yml
+  url: https://artifacts.apis.io/headout/openapi/headout-subcategories-api-openapi.yml
 consequence_counts:
   read: 7
   write: 2
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/headout-partner-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 7\n    acting: 2\n  by_consequence:\n    read: 7\n    write: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /api/public/v2/products\n  method: get\n  operationId: listProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v2/categories\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v2/collections\n\
   \  method: get\n  operationId: listCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v2/subcategories\n  method: get\n  operationId: listSubcategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/inventory/list-by/variant\n  method: get\n  operationId: listInventoryByVariant\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/booking\n  method: get\n  operationId: listBookings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/booking\n  method: post\n  operationId: createBooking\n  x-agentic-access:\n \
   \   action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/public/v1/booking/{id}\n  method: get\n  operationId: getBooking\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/booking/{id}\n  method: put\n  operationId: updateBooking\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/agentic-access/headout-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/headout/agentic-access/headout-agentic-access.yml
 summary_line: 9 operations · 2 acting
 tags:
 - Travel

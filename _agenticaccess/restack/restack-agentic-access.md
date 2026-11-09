@@ -9,19 +9,19 @@ api_specs:
   label: Restack Agents API
   slug: restack-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-agents-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-agents-api-openapi.yml
 - filename: restack-system-api-openapi.yml
   format: yaml
   label: Restack System API
   slug: restack-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-system-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-system-api-openapi.yml
 - filename: restack-workflows-api-openapi.yml
   format: yaml
   label: Restack Workflows API
   slug: restack-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-workflows-api-openapi.yml
 consequence_counts:
   read: 3
   write: 2
@@ -49,7 +49,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/restack-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 2\n    connected: 3\n  by_consequence:\n    write: 2\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /api/agents/{agentName}\n  method: post\n  operationId: scheduleAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/workflows/{workflowName}\n  method: post\n  operationId: scheduleWorkflow\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/agents/{agentName}/{runId}\n  method: get\n  operationId: getAgentRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/workflows/{workflowName}/{runId}\n  method: get\n  operationId: getWorkflowRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  operationId: healthCheck\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/agentic-access/restack-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/restack/agentic-access/restack-agentic-access.yml
 summary_line: 5 operations · 2 acting
 tags:
 - AI Agents

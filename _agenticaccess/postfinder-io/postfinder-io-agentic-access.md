@@ -8,31 +8,31 @@ api_specs:
   label: Postfinder Nearby API
   slug: postfinder-io-nearby-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/openapi/postfinder-io-nearby-api-openapi.yml
+  url: https://artifacts.apis.io/postfinder-io/openapi/postfinder-io-nearby-api-openapi.yml
 - filename: postfinder-io-places-api-openapi.yml
   format: yaml
   label: Postfinder Places API
   slug: postfinder-io-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/openapi/postfinder-io-places-api-openapi.yml
+  url: https://artifacts.apis.io/postfinder-io/openapi/postfinder-io-places-api-openapi.yml
 - filename: postfinder-io-postcodes-api-openapi.yml
   format: yaml
   label: Postfinder Postcodes API
   slug: postfinder-io-postcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/openapi/postfinder-io-postcodes-api-openapi.yml
+  url: https://artifacts.apis.io/postfinder-io/openapi/postfinder-io-postcodes-api-openapi.yml
 - filename: postfinder-io-reference-api-openapi.yml
   format: yaml
   label: Postfinder Reference API
   slug: postfinder-io-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/openapi/postfinder-io-reference-api-openapi.yml
+  url: https://artifacts.apis.io/postfinder-io/openapi/postfinder-io-reference-api-openapi.yml
 - filename: postfinder-io-search-api-openapi.yml
   format: yaml
   label: Postfinder Search API
   slug: postfinder-io-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/openapi/postfinder-io-search-api-openapi.yml
+  url: https://artifacts.apis.io/postfinder-io/openapi/postfinder-io-search-api-openapi.yml
 consequence_counts:
   read: 12
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-10-02'\nmethod: generated\nsource: openapi/postfi
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries/{country}/regions/{region}\n  method: get\n  operationId: region\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries/{country}/categories/{category}\n  method: get\n  operationId: category\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries/{country}/postcodes\n  method: get\n  operationId: postcodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/countries/{country}/postcodes/{postcode}\n  method: get\n  operationId: postcodeDetail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/localities/{country}/{region}/{locality}\n  method: get\n  operationId: locality\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/places\n  method: get\n  operationId: places\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/places/{publicID}\n  method: get\n  operationId: place\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/nearby\n  method: get\n  operationId: nearby\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/openapi.json\n  method: get\n  operationId: openapi\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/postfinder-io/refs/heads/main/agentic-access/postfinder-io-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/postfinder-io/agentic-access/postfinder-io-agentic-access.yml
 summary_line: 12 operations
 tags:
 - Company

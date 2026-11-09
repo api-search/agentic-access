@@ -8,85 +8,85 @@ api_specs:
   label: Serper Autocomplete API
   slug: serper-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-autocomplete-api-openapi.yml
 - filename: serper-images-api-openapi.yml
   format: yaml
   label: Serper Images API
   slug: serper-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-images-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-images-api-openapi.yml
 - filename: serper-lens-api-openapi.yml
   format: yaml
   label: Serper Lens API
   slug: serper-lens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-lens-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-lens-api-openapi.yml
 - filename: serper-locations-api-openapi.yml
   format: yaml
   label: Serper Locations API
   slug: serper-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-locations-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-locations-api-openapi.yml
 - filename: serper-maps-api-openapi.yml
   format: yaml
   label: Serper Maps API
   slug: serper-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-maps-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-maps-api-openapi.yml
 - filename: serper-news-api-openapi.yml
   format: yaml
   label: Serper News API
   slug: serper-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-news-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-news-api-openapi.yml
 - filename: serper-patents-api-openapi.yml
   format: yaml
   label: Serper Patents API
   slug: serper-patents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-patents-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-patents-api-openapi.yml
 - filename: serper-places-api-openapi.yml
   format: yaml
   label: Serper Places API
   slug: serper-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-places-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-places-api-openapi.yml
 - filename: serper-reviews-api-openapi.yml
   format: yaml
   label: Serper Reviews API
   slug: serper-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-reviews-api-openapi.yml
 - filename: serper-scholar-api-openapi.yml
   format: yaml
   label: Serper Scholar API
   slug: serper-scholar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-scholar-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-scholar-api-openapi.yml
 - filename: serper-search-api-openapi.yml
   format: yaml
   label: Serper Search API
   slug: serper-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-search-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-search-api-openapi.yml
 - filename: serper-shopping-api-openapi.yml
   format: yaml
   label: Serper Shopping API
   slug: serper-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-shopping-api-openapi.yml
 - filename: serper-videos-api-openapi.yml
   format: yaml
   label: Serper Videos API
   slug: serper-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-videos-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-videos-api-openapi.yml
 - filename: serper-scrape-api-openapi.yml
   format: yaml
   label: Serper Scrape API
   slug: serper-scrape-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/openapi/serper-scrape-api-openapi.yml
+  url: https://artifacts.apis.io/serper/openapi/serper-scrape-api-openapi.yml
 consequence_counts:
   write: 10
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/serper
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /news\n  method: post\n  operationId: newsSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /maps\n  method: post\n  operationId: mapsSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /places\n  method: post\n  operationId: placesSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /videos\n  method: post\n  operationId: videoSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /shopping\n  method: post\n  operationId: shoppingSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /scholar\n  method: post\n  operationId: scholarSearch\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patents\n  method: post\n  operationId: patentsSearch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /autocomplete\n  method: post\n  operationId: autocomplete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serper/refs/heads/main/agentic-access/serper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/serper/agentic-access/serper-agentic-access.yml
 summary_line: 10 operations · 10 acting
 tags:
 - Search

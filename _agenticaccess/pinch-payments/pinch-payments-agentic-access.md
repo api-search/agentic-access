@@ -9,103 +9,103 @@ api_specs:
   label: Pinch Payments Connect API
   slug: pinch-payments-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-connect-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-connect-api-openapi.yml
 - filename: pinch-payments-contacts-api-openapi.yml
   format: yaml
   label: Pinch Payments Contacts API
   slug: pinch-payments-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-contacts-api-openapi.yml
 - filename: pinch-payments-events-api-openapi.yml
   format: yaml
   label: Pinch Payments Events API
   slug: pinch-payments-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-events-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-events-api-openapi.yml
 - filename: pinch-payments-fees-api-openapi.yml
   format: yaml
   label: Pinch Payments Fees API
   slug: pinch-payments-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-fees-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-fees-api-openapi.yml
 - filename: pinch-payments-health-api-openapi.yml
   format: yaml
   label: Pinch Payments Health API
   slug: pinch-payments-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-health-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-health-api-openapi.yml
 - filename: pinch-payments-merchant-financial-data-api-openapi.yml
   format: yaml
   label: Pinch Payments Merchant Financial Data API
   slug: pinch-payments-merchant-financial-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-merchant-financial-data-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-merchant-financial-data-api-openapi.yml
 - filename: pinch-payments-merchants-api-openapi.yml
   format: yaml
   label: Pinch Payments Merchants API
   slug: pinch-payments-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-merchants-api-openapi.yml
 - filename: pinch-payments-payers-api-openapi.yml
   format: yaml
   label: Pinch Payments Payers API
   slug: pinch-payments-payers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payers-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-payers-api-openapi.yml
 - filename: pinch-payments-payment-links-api-openapi.yml
   format: yaml
   label: Pinch Payments Payment Links API
   slug: pinch-payments-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-payment-links-api-openapi.yml
 - filename: pinch-payments-payments-api-openapi.yml
   format: yaml
   label: Pinch Payments API
   slug: pinch-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-payments-api-openapi.yml
 - filename: pinch-payments-plans-api-openapi.yml
   format: yaml
   label: Pinch Payments Plans API
   slug: pinch-payments-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-plans-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-plans-api-openapi.yml
 - filename: pinch-payments-refund-api-openapi.yml
   format: yaml
   label: Pinch Payments Refund API
   slug: pinch-payments-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-refund-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-refund-api-openapi.yml
 - filename: pinch-payments-refunds-api-openapi.yml
   format: yaml
   label: Pinch Payments Refunds API
   slug: pinch-payments-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-refunds-api-openapi.yml
 - filename: pinch-payments-subscriptions-api-openapi.yml
   format: yaml
   label: Pinch Payments Subscriptions API
   slug: pinch-payments-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-subscriptions-api-openapi.yml
 - filename: pinch-payments-tokens-api-openapi.yml
   format: yaml
   label: Pinch Payments Tokens API
   slug: pinch-payments-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-tokens-api-openapi.yml
 - filename: pinch-payments-transfers-api-openapi.yml
   format: yaml
   label: Pinch Payments Transfers API
   slug: pinch-payments-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-transfers-api-openapi.yml
 - filename: pinch-payments-webhooks-api-openapi.yml
   format: yaml
   label: Pinch Payments Webhooks API
   slug: pinch-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/openapi/pinch-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pinch-payments/openapi/pinch-payments-webhooks-api-openapi.yml
 consequence_counts:
   physical: 11
   read: 29
@@ -205,7 +205,7 @@ source_yaml: "generated: '2026-07-24'\nmethod: generated\nsource: openapi/pinch-
   \  triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /payments\n  method: post\n  operationId: save-payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /transfers/{id}\n  method: get\n  operationId: get-transfer\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers\n  method: get\n  operationId: list-all-transfers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /transfers/items/{id}\n  method: get\n  operationId: list-transfer-line-items\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks\n  method: post\n  operationId: create-or-update-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks\n  method: get\n  operationId: list-webhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}\n  method: delete\n  operationId: delete-webhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /webhooks/{id}\n  method: get\n  operationId: get-webhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinch-payments/refs/heads/main/agentic-access/pinch-payments-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/pinch-payments/agentic-access/pinch-payments-agentic-access.yml
 summary_line: 56 operations · 27 acting
 tags:
 - Payments

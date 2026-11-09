@@ -195,7 +195,7 @@ source_yaml_url: https://artifacts.apis.io/cekura-ai/agentic-access/cekura-ai-ag
 summary_line: 302 operations · 200 acting · 2 human-in-the-loop
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - QA
 - Testing
 - Benchmarking

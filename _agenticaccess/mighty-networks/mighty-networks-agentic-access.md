@@ -9,157 +9,157 @@ api_specs:
   label: Mighty Networks Answers API
   slug: mighty-networks-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-answers-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-answers-api-openapi.yml
 - filename: mighty-networks-assets-api-openapi.yml
   format: yaml
   label: Mighty Networks Assets API
   slug: mighty-networks-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-assets-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-assets-api-openapi.yml
 - filename: mighty-networks-badges-api-openapi.yml
   format: yaml
   label: Mighty Networks Badges API
   slug: mighty-networks-badges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-badges-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-badges-api-openapi.yml
 - filename: mighty-networks-collections-api-openapi.yml
   format: yaml
   label: Mighty Networks Collections API
   slug: mighty-networks-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-collections-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-collections-api-openapi.yml
 - filename: mighty-networks-comments-api-openapi.yml
   format: yaml
   label: Mighty Networks Comments API
   slug: mighty-networks-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-comments-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-comments-api-openapi.yml
 - filename: mighty-networks-courseworks-api-openapi.yml
   format: yaml
   label: Mighty Networks Courseworks API
   slug: mighty-networks-courseworks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-courseworks-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-courseworks-api-openapi.yml
 - filename: mighty-networks-events-api-openapi.yml
   format: yaml
   label: Mighty Networks Events API
   slug: mighty-networks-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-events-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-events-api-openapi.yml
 - filename: mighty-networks-invites-api-openapi.yml
   format: yaml
   label: Mighty Networks Invites API
   slug: mighty-networks-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-invites-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-invites-api-openapi.yml
 - filename: mighty-networks-me-api-openapi.yml
   format: yaml
   label: Mighty Networks Me API
   slug: mighty-networks-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-me-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-me-api-openapi.yml
 - filename: mighty-networks-members-api-openapi.yml
   format: yaml
   label: Mighty Networks Members API
   slug: mighty-networks-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-members-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-members-api-openapi.yml
 - filename: mighty-networks-mute-api-openapi.yml
   format: yaml
   label: Mighty Networks Mute API
   slug: mighty-networks-mute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-mute-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-mute-api-openapi.yml
 - filename: mighty-networks-networks-api-openapi.yml
   format: yaml
   label: Mighty Networks API
   slug: mighty-networks-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-networks-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-networks-api-openapi.yml
 - filename: mighty-networks-options-api-openapi.yml
   format: yaml
   label: Mighty Networks Options API
   slug: mighty-networks-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-options-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-options-api-openapi.yml
 - filename: mighty-networks-passwordresets-api-openapi.yml
   format: yaml
   label: Mighty Networks PasswordResets API
   slug: mighty-networks-passwordresets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-passwordresets-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-passwordresets-api-openapi.yml
 - filename: mighty-networks-plans-api-openapi.yml
   format: yaml
   label: Mighty Networks Plans API
   slug: mighty-networks-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-plans-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-plans-api-openapi.yml
 - filename: mighty-networks-polls-api-openapi.yml
   format: yaml
   label: Mighty Networks Polls API
   slug: mighty-networks-polls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-polls-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-polls-api-openapi.yml
 - filename: mighty-networks-posts-api-openapi.yml
   format: yaml
   label: Mighty Networks Posts API
   slug: mighty-networks-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-posts-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-posts-api-openapi.yml
 - filename: mighty-networks-purchases-api-openapi.yml
   format: yaml
   label: Mighty Networks Purchases API
   slug: mighty-networks-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-purchases-api-openapi.yml
 - filename: mighty-networks-reactions-api-openapi.yml
   format: yaml
   label: Mighty Networks Reactions API
   slug: mighty-networks-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-reactions-api-openapi.yml
 - filename: mighty-networks-rsvps-api-openapi.yml
   format: yaml
   label: Mighty Networks Rsvps API
   slug: mighty-networks-rsvps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-rsvps-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-rsvps-api-openapi.yml
 - filename: mighty-networks-spaces-api-openapi.yml
   format: yaml
   label: Mighty Networks Spaces API
   slug: mighty-networks-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-spaces-api-openapi.yml
 - filename: mighty-networks-subscriptions-api-openapi.yml
   format: yaml
   label: Mighty Networks Subscriptions API
   slug: mighty-networks-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-subscriptions-api-openapi.yml
 - filename: mighty-networks-tags-api-openapi.yml
   format: yaml
   label: Mighty Networks Tags API
   slug: mighty-networks-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-tags-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-tags-api-openapi.yml
 - filename: mighty-networks-webhooks-api-openapi.yml
   format: yaml
   label: Mighty Networks Webhooks API
   slug: mighty-networks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-webhooks-api-openapi.yml
 - filename: mighty-networks-abuse-reports-api-openapi.yml
   format: yaml
   label: Mighty Networks Abuse Reports API
   slug: mighty-networks-abuse-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-abuse-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-abuse-reports-api-openapi.yml
 - filename: mighty-networks-custom-fields-api-openapi.yml
   format: yaml
   label: Mighty Networks Custom Fields API
   slug: mighty-networks-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/openapi/mighty-networks-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/mighty-networks/openapi/mighty-networks-custom-fields-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 53
@@ -278,8 +278,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/mighty
   \ high-value\n    audit: required\n- path: /admin/v1/networks/{network_id}/polls/{id}/\n  method: get\n  operationId: show_poll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/networks/{network_id}/polls/{id}/\n  method: patch\n  operationId: update_polls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/networks/{network_id}/polls/{id}/\n  method: put\n  operationId: replace_polls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /admin/v1/networks/{network_id}/polls/{id}/\n  method: delete\n  operationId: delete_polls\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/networks/{network_id}/plans\n  method: get\n  operationId: list_plans\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/networks/{network_id}/plans/{id}/\n  method: get\n  operationId: show_plan\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/networks/{network_id}/plans/{id}/\n  method: delete\n  operationId: delete_plans\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /admin/v1/networks/{network_id}/plans/{plan_id}/members/{id}/\n  method: delete\n  operationId: delete_plans\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/networks/{network_id}/\n  method: get\n  operationId: show_network\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/networks/{network_id}/members\n\
-  \  method: get\n  operationId: list_members\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/networks/{network_id}/members\n  method: post\n  operationId: create_members\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/networks/{network_id}/members/{id}/\n  method: get\n  operationId: show_member\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/agentic-access/mighty-networks-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mighty-networks/refs/heads/main/agentic-access/mighty-networks-agentic-access.yml
+  \  method: get\n  operationId: list_members\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /admin/v1/networks/{network_id}/members\n  method: post\n  operationId: create_members\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /admin/v1/networks/{network_id}/members/{id}/\n  method: get\n  operationId: show_member\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (44 KB total) ---\n# Full source: https://artifacts.apis.io/mighty-networks/agentic-access/mighty-networks-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/mighty-networks/agentic-access/mighty-networks-agentic-access.yml
 summary_line: 137 operations · 84 acting · 4 human-in-the-loop
 tags:
 - Community

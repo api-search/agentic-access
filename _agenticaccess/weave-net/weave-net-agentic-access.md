@@ -9,31 +9,31 @@ api_specs:
   label: Weave Net DNS API
   slug: weave-net-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-dns-api-openapi.yml
+  url: https://artifacts.apis.io/weave-net/openapi/weave-net-dns-api-openapi.yml
 - filename: weave-net-ipam-api-openapi.yml
   format: yaml
   label: Weave Net IPAM API
   slug: weave-net-ipam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-ipam-api-openapi.yml
+  url: https://artifacts.apis.io/weave-net/openapi/weave-net-ipam-api-openapi.yml
 - filename: weave-net-network-api-openapi.yml
   format: yaml
   label: Weave Net Network API
   slug: weave-net-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-network-api-openapi.yml
+  url: https://artifacts.apis.io/weave-net/openapi/weave-net-network-api-openapi.yml
 - filename: weave-net-peers-api-openapi.yml
   format: yaml
   label: Weave Net Peers API
   slug: weave-net-peers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-peers-api-openapi.yml
+  url: https://artifacts.apis.io/weave-net/openapi/weave-net-peers-api-openapi.yml
 - filename: weave-net-status-api-openapi.yml
   format: yaml
   label: Weave Net Status API
   slug: weave-net-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/openapi/weave-net-status-api-openapi.yml
+  url: https://artifacts.apis.io/weave-net/openapi/weave-net-status-api-openapi.yml
 consequence_counts:
   read: 4
   write: 9
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/weave-
   \  method: delete\n  operationId: releaseIPs\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ip/{containerId}/{subnet}\n  method: post\n  operationId: allocateIPInSubnet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ip/{containerId}/{subnet}\n  method: put\n  operationId: claimIP\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n \
   \     - high-value\n    audit: required\n- path: /peer/{peerName}\n  method: delete\n  operationId: removePeer\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ipinfo/defaultsubnet\n  method: get\n  operationId: getDefaultSubnet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /domain\n  method: get\n  operationId: getDNSDomain\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /name/{containerId}/{ip}\n  method: put\n  operationId: registerDNS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /name/{containerId}/{ip}\n  method: delete\n  operationId: deregisterDNS\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/weave-net/refs/heads/main/agentic-access/weave-net-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/weave-net/agentic-access/weave-net-agentic-access.yml
 summary_line: 13 operations · 9 acting
 tags:
 - Containers

@@ -9,217 +9,217 @@ api_specs:
   label: EGYM 1. Cardio Measurements API
   slug: egym-1-cardio-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-1-cardio-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-1-cardio-measurements-api-openapi.yml
 - filename: egym-2-workouts-api-openapi.yml
   format: yaml
   label: EGYM 2. Workouts API
   slug: egym-2-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-2-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-2-workouts-api-openapi.yml
 - filename: egym-alive-api-openapi.yml
   format: yaml
   label: EGYM Alive API
   slug: egym-alive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-alive-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-alive-api-openapi.yml
 - filename: egym-asynchronous-exports-api-openapi.yml
   format: yaml
   label: EGYM Asynchronous exports API
   slug: egym-asynchronous-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-asynchronous-exports-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-asynchronous-exports-api-openapi.yml
 - filename: egym-body-measurement-api-openapi.yml
   format: yaml
   label: EGYM Body Measurement API
   slug: egym-body-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-body-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-body-measurement-api-openapi.yml
 - filename: egym-cardio-measurement-api-openapi.yml
   format: yaml
   label: EGYM Cardio Measurement API
   slug: egym-cardio-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-cardio-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-cardio-measurement-api-openapi.yml
 - filename: egym-cardio-test-api-openapi.yml
   format: yaml
   label: EGYM Cardio Test API
   slug: egym-cardio-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-cardio-test-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-cardio-test-api-openapi.yml
 - filename: egym-cardio-workouts-api-openapi.yml
   format: yaml
   label: EGYM Cardio Workouts API
   slug: egym-cardio-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-cardio-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-cardio-workouts-api-openapi.yml
 - filename: egym-flexibility-measurement-api-openapi.yml
   format: yaml
   label: EGYM Flexibility Measurement API
   slug: egym-flexibility-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-flexibility-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-flexibility-measurement-api-openapi.yml
 - filename: egym-gym-api-openapi.yml
   format: yaml
   label: EGYM Gym API
   slug: egym-gym-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-gym-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-gym-api-openapi.yml
 - filename: egym-gym-visit-api-openapi.yml
   format: yaml
   label: EGYM Gym Visit API
   slug: egym-gym-visit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-gym-visit-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-gym-visit-api-openapi.yml
 - filename: egym-image-api-openapi.yml
   format: yaml
   label: EGYM Image API
   slug: egym-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-image-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-image-api-openapi.yml
 - filename: egym-l2-api-openapi.yml
   format: yaml
   label: EGYM L2 API
   slug: egym-l2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-l2-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-l2-api-openapi.yml
 - filename: egym-l3-api-openapi.yml
   format: yaml
   label: EGYM L3 API
   slug: egym-l3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-l3-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-l3-api-openapi.yml
 - filename: egym-machine-api-openapi.yml
   format: yaml
   label: EGYM Machine API
   slug: egym-machine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-machine-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-machine-api-openapi.yml
 - filename: egym-measurements-api-openapi.yml
   format: yaml
   label: EGYM Measurements API
   slug: egym-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-measurements-api-openapi.yml
 - filename: egym-member-account-api-openapi.yml
   format: yaml
   label: EGYM Member Account API
   slug: egym-member-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-member-account-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-member-account-api-openapi.yml
 - filename: egym-member-account-nfc-api-openapi.yml
   format: yaml
   label: EGYM Member Account NFC API
   slug: egym-member-account-nfc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-member-account-nfc-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-member-account-nfc-api-openapi.yml
 - filename: egym-member-account-roles-api-openapi.yml
   format: yaml
   label: EGYM Member Account Roles API
   slug: egym-member-account-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-member-account-roles-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-member-account-roles-api-openapi.yml
 - filename: egym-member-rfids-api-openapi.yml
   format: yaml
   label: EGYM Member RFIDs API
   slug: egym-member-rfids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-member-rfids-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-member-rfids-api-openapi.yml
 - filename: egym-migrating-members-api-openapi.yml
   format: yaml
   label: EGYM Migrating members API
   slug: egym-migrating-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-migrating-members-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-migrating-members-api-openapi.yml
 - filename: egym-open-exercise-workouts-api-openapi.yml
   format: yaml
   label: EGYM Open Exercise Workouts API
   slug: egym-open-exercise-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-open-exercise-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-open-exercise-workouts-api-openapi.yml
 - filename: egym-partners-api-openapi.yml
   format: yaml
   label: EGYM Partners API
   slug: egym-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-partners-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-partners-api-openapi.yml
 - filename: egym-products-booking-api-openapi.yml
   format: yaml
   label: EGYM Products booking API
   slug: egym-products-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-products-booking-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-products-booking-api-openapi.yml
 - filename: egym-push-notifications-api-openapi.yml
   format: yaml
   label: EGYM Push notifications API
   slug: egym-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-push-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-push-notifications-api-openapi.yml
 - filename: egym-resource-api-openapi.yml
   format: yaml
   label: EGYM Resource API
   slug: egym-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-resource-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-resource-api-openapi.yml
 - filename: egym-statistics-api-openapi.yml
   format: yaml
   label: EGYM Statistics API
   slug: egym-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-statistics-api-openapi.yml
 - filename: egym-strength-workouts-api-openapi.yml
   format: yaml
   label: EGYM Strength Workouts API
   slug: egym-strength-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-strength-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-strength-workouts-api-openapi.yml
 - filename: egym-synchronous-exports-api-openapi.yml
   format: yaml
   label: EGYM Synchronous exports API
   slug: egym-synchronous-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-synchronous-exports-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-synchronous-exports-api-openapi.yml
 - filename: egym-task-api-openapi.yml
   format: yaml
   label: EGYM Task API
   slug: egym-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-task-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-task-api-openapi.yml
 - filename: egym-trainer-task-api-openapi.yml
   format: yaml
   label: EGYM Trainer Task API
   slug: egym-trainer-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-trainer-task-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-trainer-task-api-openapi.yml
 - filename: egym-user-api-openapi.yml
   format: yaml
   label: EGYM User API
   slug: egym-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-user-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-user-api-openapi.yml
 - filename: egym-user-details-api-openapi.yml
   format: yaml
   label: EGYM User Details API
   slug: egym-user-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-user-details-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-user-details-api-openapi.yml
 - filename: egym-webhooks-api-openapi.yml
   format: yaml
   label: EGYM Webhooks API
   slug: egym-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-webhooks-api-openapi.yml
 - filename: egym-workouts-api-openapi.yml
   format: yaml
   label: EGYM Workouts API
   slug: egym-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-workouts-api-openapi.yml
 - filename: egym-oauth-api-openapi.yml
   format: yaml
   label: EGYM O Auth API
   slug: egym-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/openapi/egym-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/egym/openapi/egym-oauth-api-openapi.yml
 consequence_counts:
   physical: 5
   read: 55
@@ -305,8 +305,8 @@ source_yaml: "generated: '2026-08-12'\nmethod: generated\nsource: openapi/egym-c
   \  consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/accounts/{accountId}/admissions\n  method: post\n  operationId: checkAdmission\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/accounts/membership/{membershipId}/notifications\n  method: post\n  operationId: sendPushNotificationByMembershipId\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products\n  method: get\n  operationId: listGymProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/products/{productId}\n  method: get\n  operationId: productDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/rfid/{rfid}\n  method: get\n  operationId: getByRfid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/nfc/{nfc}\n  method: get\n  operationId: getByNfc\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/membership/{membershipId}\n\
   \  method: get\n  operationId: retrieveAccountByMembershipId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/email/{email}\n  method: get\n  operationId: getByEmail\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/corporate-fitness\n  method: get\n  operationId: getCorporateFitnessMemberAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/accounts/{accountId}/rfids/{rfid}\n  method: delete\n  operationId: deleteRfid\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
-  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/agentic-access/egym-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/egym/refs/heads/main/agentic-access/egym-agentic-access.yml
+  \      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (33 KB total) ---\n# Full source: https://artifacts.apis.io/egym/agentic-access/egym-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/egym/agentic-access/egym-agentic-access.yml
 summary_line: 117 operations · 62 acting
 tags:
 - Company

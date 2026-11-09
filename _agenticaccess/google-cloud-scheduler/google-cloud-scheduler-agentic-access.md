@@ -9,7 +9,7 @@ api_specs:
   label: Google Cloud Scheduler Projects API
   slug: google-cloud-scheduler-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-scheduler/refs/heads/main/openapi/google-cloud-scheduler-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-scheduler/openapi/google-cloud-scheduler-projects-api-openapi.yml
 consequence_counts:
   read: 2
   write: 6
@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/jobs/{job}\n  method: get\n  operationId: getJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/projects/{project}/locations/{location}/jobs/{job}\n  method: patch\n  operationId: updateJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/jobs/{job}\n  method: delete\n  operationId: deleteJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/jobs/{job}:pause\n  method: post\n  operationId: pauseJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/jobs/{job}:resume\n  method: post\n  operationId: resumeJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{project}/locations/{location}/jobs/{job}:run\n \
   \ method: post\n  operationId: runJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-scheduler/refs/heads/main/agentic-access/google-cloud-scheduler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-scheduler/agentic-access/google-cloud-scheduler-agentic-access.yml
 summary_line: 8 operations · 6 acting
 tags:
 - Automation

@@ -9,85 +9,85 @@ api_specs:
   label: Quaderno Authentication API
   slug: quaderno-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-authentication-api-openapi.yml
 - filename: quaderno-checkout-api-openapi.yml
   format: yaml
   label: Quaderno Checkout API
   slug: quaderno-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-checkout-api-openapi.yml
 - filename: quaderno-contacts-api-openapi.yml
   format: yaml
   label: Quaderno Contacts API
   slug: quaderno-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-contacts-api-openapi.yml
 - filename: quaderno-credits-api-openapi.yml
   format: yaml
   label: Quaderno Credits API
   slug: quaderno-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-credits-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-credits-api-openapi.yml
 - filename: quaderno-estimates-api-openapi.yml
   format: yaml
   label: Quaderno Estimates API
   slug: quaderno-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-estimates-api-openapi.yml
 - filename: quaderno-evidences-api-openapi.yml
   format: yaml
   label: Quaderno Evidences API
   slug: quaderno-evidences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-evidences-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-evidences-api-openapi.yml
 - filename: quaderno-expenses-api-openapi.yml
   format: yaml
   label: Quaderno Expenses API
   slug: quaderno-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-expenses-api-openapi.yml
 - filename: quaderno-invoices-api-openapi.yml
   format: yaml
   label: Quaderno Invoices API
   slug: quaderno-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-invoices-api-openapi.yml
 - filename: quaderno-items-api-openapi.yml
   format: yaml
   label: Quaderno Items API
   slug: quaderno-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-items-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-items-api-openapi.yml
 - filename: quaderno-payments-api-openapi.yml
   format: yaml
   label: Quaderno Payments API
   slug: quaderno-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-payments-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-payments-api-openapi.yml
 - filename: quaderno-recurring-api-openapi.yml
   format: yaml
   label: Quaderno Recurring API
   slug: quaderno-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-recurring-api-openapi.yml
 - filename: quaderno-taxes-api-openapi.yml
   format: yaml
   label: Quaderno Taxes API
   slug: quaderno-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-taxes-api-openapi.yml
 - filename: quaderno-transactions-api-openapi.yml
   format: yaml
   label: Quaderno Transactions API
   slug: quaderno-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-transactions-api-openapi.yml
 - filename: quaderno-webhooks-api-openapi.yml
   format: yaml
   label: Quaderno Webhooks API
   slug: quaderno-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/openapi/quaderno-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/quaderno/openapi/quaderno-webhooks-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 25
@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/quader
   \    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /checkout/sessions/{id}.json\n  method: get\n  operationId: getCheckoutSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks.json\n  method: get\n  operationId: listWebhooks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks.json\n  method: post\n  operationId: createWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /webhooks/{id}.json\n  method: get\n  operationId: getWebhook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /webhooks/{id}.json\n  method: put\n  operationId: updateWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /webhooks/{id}.json\n  method: delete\n  operationId: deleteWebhook\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /evidences.json\n  method: get\n  operationId: listEvidences\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quaderno/refs/heads/main/agentic-access/quaderno-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/quaderno/agentic-access/quaderno-agentic-access.yml
 summary_line: 53 operations · 28 acting
 tags:
 - Tax Compliance

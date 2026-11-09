@@ -9,7 +9,7 @@ api_specs:
   label: Kubecost Model API
   slug: kubecost-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/openapi/kubecost-model-api-openapi.yml
+  url: https://artifacts.apis.io/kubecost/openapi/kubecost-model-api-openapi.yml
 consequence_counts:
   read: 15
   write: 3
@@ -41,7 +41,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kubeco
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /model/cloudCost\n  method: get\n  operationId: getCloudCost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/cloudCost/view\n  method: get\n  operationId: getCloudCostView\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/cloudCost/top\n  method: get\n  operationId: getCloudCostTop\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/forecast/allocation\n  method: get\n  operationId: getForecastAllocation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/savings/clusterSizingETL\n\
   \  method: get\n  operationId: getClusterRightSizing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/savings/requestSizingV2\n  method: get\n  operationId: getContainerRequestRightSizing\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/savings/abandonedWorkloads\n  method: get\n  operationId: getAbandonedWorkloads\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/savings/orphanedDisks\n  method: get\n  operationId: getOrphanedDisks\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /model/savings/orphanedIPs\n  method: get\n  operationId: getOrphanedIPs\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kubecost/refs/heads/main/agentic-access/kubecost-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kubecost/agentic-access/kubecost-agentic-access.yml
 summary_line: 18 operations · 3 acting
 tags:
 - Cloud Cost

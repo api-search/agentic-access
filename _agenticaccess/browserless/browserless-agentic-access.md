@@ -9,19 +9,109 @@ api_specs:
   label: Browserless Browser REST APIs API
   slug: browserless-browser-rest-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-browser-rest-apis-api-openapi.yml
-- filename: browserless-browser-websocket-apis-api-openapi.yml
-  format: yaml
-  label: Browserless Browser WebSocket APIs API
-  slug: browserless-browser-websocket-apis-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-browser-websocket-apis-api-openapi.yml
+  url: https://artifacts.apis.io/browserless/openapi/browserless-browser-rest-apis-api-openapi.yml
 - filename: browserless-management-rest-apis-api-openapi.yml
   format: yaml
   label: Browserless Management REST APIs API
   slug: browserless-management-rest-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/openapi/browserless-management-rest-apis-api-openapi.yml
+  url: https://artifacts.apis.io/browserless/openapi/browserless-management-rest-apis-api-openapi.yml
+- filename: browserless-agent-api-openapi.yml
+  format: yaml
+  label: Browserless Agent API
+  slug: browserless-agent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-agent-api-openapi.yml
+- filename: browserless-bql-execution-api-openapi.yml
+  format: yaml
+  label: Browserless BQL Execution API
+  slug: browserless-bql-execution-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-bql-execution-api-openapi.yml
+- filename: browserless-browser-management-api-openapi.yml
+  format: yaml
+  label: Browserless Browser Management API
+  slug: browserless-browser-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-browser-management-api-openapi.yml
+- filename: browserless-cdp-devtools-connections-api-openapi.yml
+  format: yaml
+  label: Browserless CDP & DevTools Connections API
+  slug: browserless-cdp-devtools-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-cdp-devtools-connections-api-openapi.yml
+- filename: browserless-chrome-licensed-build-api-openapi.yml
+  format: yaml
+  label: Browserless Chrome (licensed build) API
+  slug: browserless-chrome-licensed-build-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-chrome-licensed-build-api-openapi.yml
+- filename: browserless-crawling-api-openapi.yml
+  format: yaml
+  label: Browserless Crawling API
+  slug: browserless-crawling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-crawling-api-openapi.yml
+- filename: browserless-functions-downloads-api-openapi.yml
+  format: yaml
+  label: Browserless Functions & Downloads API
+  slug: browserless-functions-downloads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-functions-downloads-api-openapi.yml
+- filename: browserless-integrations-api-openapi.yml
+  format: yaml
+  label: Browserless Integrations API
+  slug: browserless-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-integrations-api-openapi.yml
+- filename: browserless-platform-skills-api-openapi.yml
+  format: yaml
+  label: Browserless Platform / Skills API
+  slug: browserless-platform-skills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-platform-skills-api-openapi.yml
+- filename: browserless-profiles-api-openapi.yml
+  format: yaml
+  label: Browserless Profiles API
+  slug: browserless-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-profiles-api-openapi.yml
+- filename: browserless-proxy-api-openapi.yml
+  format: yaml
+  label: Browserless Proxy API
+  slug: browserless-proxy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-proxy-api-openapi.yml
+- filename: browserless-scraping-content-api-openapi.yml
+  format: yaml
+  label: Browserless Scraping & Content API
+  slug: browserless-scraping-content-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-scraping-content-api-openapi.yml
+- filename: browserless-screenshots-pdfs-api-openapi.yml
+  format: yaml
+  label: Browserless Screenshots & PDFs API
+  slug: browserless-screenshots-pdfs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-screenshots-pdfs-api-openapi.yml
+- filename: browserless-sessions-connections-api-openapi.yml
+  format: yaml
+  label: Browserless Sessions & Connections API
+  slug: browserless-sessions-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-sessions-connections-api-openapi.yml
+- filename: browserless-unblock-stealth-api-openapi.yml
+  format: yaml
+  label: Browserless Unblock & Stealth API
+  slug: browserless-unblock-stealth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-unblock-stealth-api-openapi.yml
+- filename: browserless-websocket-apis-api-openapi.yml
+  format: yaml
+  label: Browserless WebSocket APIs API
+  slug: browserless-websocket-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browserless/openapi/browserless-websocket-apis-api-openapi.yml
 consequence_counts:
   read: 35
   write: 46
@@ -72,7 +162,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/browse
   \    audit: required\n- path: /profile\n  method: post\n  operationId: postProfile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/*\n  method: delete\n  operationId: deleteProfile*\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/*\n  method: get\n  operationId: getProfile*\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/*\n  method: put\n  operationId: putProfile*\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profiles\n  method: get\n  operationId: getProfiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /profile/refresh\n  method: post\n  operationId: postProfileRefresh\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /profile/upload\n  method: post\n  operationId: postProfileUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserless/refs/heads/main/agentic-access/browserless-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/browserless/agentic-access/browserless-agentic-access.yml
 summary_line: 81 operations · 46 acting
 tags:
 - Browser Automation

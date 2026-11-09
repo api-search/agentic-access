@@ -9,49 +9,49 @@ api_specs:
   label: Peakon Actions API
   slug: peakon-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-actions-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-actions-api-openapi.yml
 - filename: peakon-answers-api-openapi.yml
   format: yaml
   label: Peakon Answers API
   slug: peakon-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-answers-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-answers-api-openapi.yml
 - filename: peakon-audits-api-openapi.yml
   format: yaml
   label: Peakon Audits API
   slug: peakon-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-audits-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-audits-api-openapi.yml
 - filename: peakon-authentication-api-openapi.yml
   format: yaml
   label: Peakon Authentication API
   slug: peakon-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-authentication-api-openapi.yml
 - filename: peakon-employees-api-openapi.yml
   format: yaml
   label: Peakon Employees API
   slug: peakon-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-employees-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-employees-api-openapi.yml
 - filename: peakon-engagement-api-openapi.yml
   format: yaml
   label: Peakon Engagement API
   slug: peakon-engagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-engagement-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-engagement-api-openapi.yml
 - filename: peakon-scores-api-openapi.yml
   format: yaml
   label: Peakon Scores API
   slug: peakon-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-scores-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-scores-api-openapi.yml
 - filename: peakon-segments-api-openapi.yml
   format: yaml
   label: Peakon Segments API
   slug: peakon-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/openapi/peakon-segments-api-openapi.yml
+  url: https://artifacts.apis.io/peakon/openapi/peakon-segments-api-openapi.yml
 consequence_counts:
   read: 20
   write: 4
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/peakon
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /engagement/overview\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/contexts/{contextId}/overview\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/drivers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/contexts/{contextId}/drivers\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/drivers/{driver}\n\
   \  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/contexts/{contextId}/drivers/{driver}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/contexts/{contextId}/segments/v2\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/contexts/{contextId}/segments/groups\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /engagement/contexts/{contextId}/segments/v2/attributes/{attributeId}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /scores/contexts/{contextId}/group/{group}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /scores/contexts/{contextId}/questions/group/{group}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /segments\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /answers/export\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/peakon/refs/heads/main/agentic-access/peakon-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/peakon/agentic-access/peakon-agentic-access.yml
 summary_line: 24 operations · 4 acting
 tags:
 - Company

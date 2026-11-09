@@ -9,43 +9,43 @@ api_specs:
   label: agilent-technologies Cores API
   slug: agilent-technologies-cores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-cores-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-cores-api-openapi.yml
 - filename: agilent-technologies-invoices-api-openapi.yml
   format: yaml
   label: agilent-technologies Invoices API
   slug: agilent-technologies-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-invoices-api-openapi.yml
 - filename: agilent-technologies-members-api-openapi.yml
   format: yaml
   label: agilent-technologies Members API
   slug: agilent-technologies-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-members-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-members-api-openapi.yml
 - filename: agilent-technologies-projects-api-openapi.yml
   format: yaml
   label: agilent-technologies Projects API
   slug: agilent-technologies-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-projects-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-projects-api-openapi.yml
 - filename: agilent-technologies-reservations-api-openapi.yml
   format: yaml
   label: agilent-technologies Reservations API
   slug: agilent-technologies-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-reservations-api-openapi.yml
 - filename: agilent-technologies-service-requests-api-openapi.yml
   format: yaml
   label: agilent-technologies Service Requests API
   slug: agilent-technologies-service-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-service-requests-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-service-requests-api-openapi.yml
 - filename: agilent-technologies-services-api-openapi.yml
   format: yaml
   label: agilent-technologies Services API
   slug: agilent-technologies-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/openapi/agilent-technologies-services-api-openapi.yml
+  url: https://artifacts.apis.io/agilent-technologies/openapi/agilent-technologies-services-api-openapi.yml
 consequence_counts:
   read: 9
   write: 2
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/agilen
   \  operationId: listServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cores/{core_id}/services/{service_id}/prices\n  method: get\n  operationId: listServicePrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cores/{core_id}/services/{service_id}/prices/{price_id}\n  method: put\n  operationId: updateServicePrice\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cores/{core_id}/service_requests\n  method: get\n  operationId: listServiceRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /cores/{core_id}/service_requests\n  method: post\n  operationId: createServiceRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /cores/{core_id}/reservations\n  method: get\n  operationId: listReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cores/{core_id}/invoices\n  method: get\n  operationId: listInvoices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cores/{core_id}/members\n  method: get\n  operationId: listMembers\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cores/{core_id}/projects\n  method: get\n  operationId: listProjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agilent-technologies/refs/heads/main/agentic-access/agilent-technologies-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agilent-technologies/agentic-access/agilent-technologies-agentic-access.yml
 summary_line: 11 operations · 2 acting
 tags:
 - Fortune 500

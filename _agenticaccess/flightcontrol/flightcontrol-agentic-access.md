@@ -9,37 +9,37 @@ api_specs:
   label: Flightcontrol CloudFront API
   slug: flightcontrol-cloudfront-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-cloudfront-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-cloudfront-api-openapi.yml
 - filename: flightcontrol-deploy-hooks-api-openapi.yml
   format: yaml
   label: Flightcontrol Deploy Hooks API
   slug: flightcontrol-deploy-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-deploy-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-deploy-hooks-api-openapi.yml
 - filename: flightcontrol-deployments-api-openapi.yml
   format: yaml
   label: Flightcontrol Deployments API
   slug: flightcontrol-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-deployments-api-openapi.yml
 - filename: flightcontrol-environment-variables-api-openapi.yml
   format: yaml
   label: Flightcontrol Environment Variables API
   slug: flightcontrol-environment-variables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-environment-variables-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-environment-variables-api-openapi.yml
 - filename: flightcontrol-environments-api-openapi.yml
   format: yaml
   label: Flightcontrol Environments API
   slug: flightcontrol-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-environments-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-environments-api-openapi.yml
 - filename: flightcontrol-services-api-openapi.yml
   format: yaml
   label: Flightcontrol Services API
   slug: flightcontrol-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/openapi/flightcontrol-services-api-openapi.yml
+  url: https://artifacts.apis.io/flightcontrol/openapi/flightcontrol-services-api-openapi.yml
 consequence_counts:
   read: 5
   write: 5
@@ -69,10 +69,11 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/flight
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/projects/{projectId}/environments\n  method: patch\n  operationId: editEnvironment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/services\n  method: get\n  operationId: getServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/services/{serviceId}/scaling\n  method: post\n  operationId: updateScaling\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/environments/{environmentId}/env-variables\n  method: post\n  operationId: createEnvironmentEnvVariables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/services/{serviceId}/cloudfront/invalidation\n  method: post\n  operationId: createCloudFrontInvalidation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/cloudfront/invalidation/{invalidationId}\n  method: get\n  operationId: getCloudFrontInvalidationStatus\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/deploy-hook/{envId}/{secret}\n  method: get\n  operationId: triggerDeployHook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/deploy-hook/{previewEnvId}/{secret}/{prNumber}/{commitSHA}\n  method: get\n  operationId: triggerPreviewDeployHook\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flightcontrol/refs/heads/main/agentic-access/flightcontrol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/flightcontrol/agentic-access/flightcontrol-agentic-access.yml
 summary_line: 10 operations · 5 acting
 tags:
 - Deployment
+- Amazon Web Services
 - Platform-as-a-Service
 - Infrastructure
 - DevOps

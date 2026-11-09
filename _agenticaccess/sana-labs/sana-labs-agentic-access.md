@@ -9,67 +9,67 @@ api_specs:
   label: Sana Assignments API
   slug: sana-labs-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-assignments-api-openapi.yml
 - filename: sana-labs-authentication-api-openapi.yml
   format: yaml
   label: Sana Authentication API
   slug: sana-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-authentication-api-openapi.yml
 - filename: sana-labs-courses-api-openapi.yml
   format: yaml
   label: Sana Courses API
   slug: sana-labs-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-courses-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-courses-api-openapi.yml
 - filename: sana-labs-groups-api-openapi.yml
   format: yaml
   label: Sana Groups API
   slug: sana-labs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-groups-api-openapi.yml
 - filename: sana-labs-insights-api-openapi.yml
   format: yaml
   label: Sana Insights API
   slug: sana-labs-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-insights-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-insights-api-openapi.yml
 - filename: sana-labs-paths-api-openapi.yml
   format: yaml
   label: Sana Paths API
   slug: sana-labs-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-paths-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-paths-api-openapi.yml
 - filename: sana-labs-programs-api-openapi.yml
   format: yaml
   label: Sana Programs API
   slug: sana-labs-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-programs-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-programs-api-openapi.yml
 - filename: sana-labs-reporting-api-openapi.yml
   format: yaml
   label: Sana Reporting API
   slug: sana-labs-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-reporting-api-openapi.yml
 - filename: sana-labs-teamspaces-api-openapi.yml
   format: yaml
   label: Sana Teamspaces API
   slug: sana-labs-teamspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-teamspaces-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-teamspaces-api-openapi.yml
 - filename: sana-labs-users-api-openapi.yml
   format: yaml
   label: Sana Users API
   slug: sana-labs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-users-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-users-api-openapi.yml
 - filename: sana-labs-x-api-api-openapi.yml
   format: yaml
   label: Sana x API
   slug: sana-labs-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/openapi/sana-labs-x-api-api-openapi.yml
+  url: https://artifacts.apis.io/sana-labs/openapi/sana-labs-x-api-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 20
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/sana-l
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/reports/{reportId}/jobs\n  method: get\n  operationId: getReportJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v0/reports/{reportId}/jobs\n  method: post\n  operationId: createReportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v0/reports/{reportId}/jobs/{jobId}\n  method: get\n  operationId: getReportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/reports/query\n  method: post\n  operationId: createInsightsReportJob\n \
   \ x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/reports/jobs/{jobId}\n  method: get\n  operationId: getInsightsReportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/oauth/token\n  method: post\n  operationId: createXapiToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /xapi/v1/statements\n  method: post\n  operationId: sendXapiStatements\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sana-labs/refs/heads/main/agentic-access/sana-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sana-labs/agentic-access/sana-labs-agentic-access.yml
 summary_line: 56 operations · 36 acting · 1 human-in-the-loop
 tags:
 - Artificial Intelligence

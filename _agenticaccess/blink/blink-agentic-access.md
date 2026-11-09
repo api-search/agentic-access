@@ -8,19 +8,19 @@ api_specs:
   label: Blink Charging Locations API
   slug: blink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-locations-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-locations-api-openapi.yml
 - filename: blink-search-api-openapi.yml
   format: yaml
   label: Blink Charging Search API
   slug: blink-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-search-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-search-api-openapi.yml
 - filename: blink-status-api-openapi.yml
   format: yaml
   label: Blink Charging Status API
   slug: blink-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-status-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-status-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/blink-charging-locations-status-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /locations\n  method: get\n  operationId: findLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search\n  method: get\n  operationId: searchLocations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /status\n  method: get\n  operationId: getLocationStatus\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/agentic-access/blink-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/blink/agentic-access/blink-agentic-access.yml
 summary_line: 3 operations
 tags:
 - EV Charging

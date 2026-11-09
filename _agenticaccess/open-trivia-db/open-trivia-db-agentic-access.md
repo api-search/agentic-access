@@ -8,19 +8,19 @@ api_specs:
   label: Open Trivia DB Categories API
   slug: open-trivia-db-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-categories-api-openapi.yml
+  url: https://artifacts.apis.io/open-trivia-db/openapi/open-trivia-db-categories-api-openapi.yml
 - filename: open-trivia-db-questions-api-openapi.yml
   format: yaml
   label: Open Trivia DB Questions API
   slug: open-trivia-db-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-questions-api-openapi.yml
+  url: https://artifacts.apis.io/open-trivia-db/openapi/open-trivia-db-questions-api-openapi.yml
 - filename: open-trivia-db-tokens-api-openapi.yml
   format: yaml
   label: Open Trivia DB Tokens API
   slug: open-trivia-db-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/openapi/open-trivia-db-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/open-trivia-db/openapi/open-trivia-db-tokens-api-openapi.yml
 consequence_counts:
   read: 5
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/open-trivia-db-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    connected: 5\n  by_consequence:\n    read: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /api.php\n  method: get\n  operationId: getQuestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_category.php\n  method: get\n  operationId: getCategories\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_count.php\n  method: get\n  operationId: getCategoryCount\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_count_global.php\n  method: get\n  operationId: getGlobalCount\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api_token.php\n  method: get\n  operationId: manageToken\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-trivia-db/refs/heads/main/agentic-access/open-trivia-db-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/open-trivia-db/agentic-access/open-trivia-db-agentic-access.yml
 summary_line: 5 operations
 tags:
 - Free

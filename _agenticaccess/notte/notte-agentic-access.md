@@ -9,43 +9,43 @@ api_specs:
   label: Notte Agents API
   slug: notte-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-agents-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-agents-api-openapi.yml
 - filename: notte-health-api-openapi.yml
   format: yaml
   label: Notte Health API
   slug: notte-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-health-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-health-api-openapi.yml
 - filename: notte-page-api-openapi.yml
   format: yaml
   label: Notte Page API
   slug: notte-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-page-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-page-api-openapi.yml
 - filename: notte-personas-api-openapi.yml
   format: yaml
   label: Notte Personas API
   slug: notte-personas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-personas-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-personas-api-openapi.yml
 - filename: notte-scraping-api-openapi.yml
   format: yaml
   label: Notte Scraping API
   slug: notte-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-scraping-api-openapi.yml
 - filename: notte-sessions-api-openapi.yml
   format: yaml
   label: Notte Sessions API
   slug: notte-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-sessions-api-openapi.yml
 - filename: notte-vaults-api-openapi.yml
   format: yaml
   label: Notte Vaults API
   slug: notte-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/openapi/notte-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/notte/openapi/notte-vaults-api-openapi.yml
 consequence_counts:
   read: 16
   safety-critical: 2
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/notte-
   \ get\n  operationId: sessionCookiesGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{session_id}/cookies\n  method: post\n  operationId: sessionCookiesSet\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaults/create\n  method: post\n  operationId: vaultCreate\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaults\n  method: get\n  operationId: listVaults\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults/{vault_id}\n  method: delete\n  operationId: vaultDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vaults/{vault_id}/credentials\n  method: get\n  operationId: vaultCredentialsGet\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vaults/{vault_id}/credentials\n  method: post\n  operationId: vaultCredentialsAdd\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n    \
   \  - abnormal\n      - high-value\n    audit: required\n- path: /vaults/{vault_id}/credentials\n  method: delete\n  operationId: vaultCredentialsDelete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notte/refs/heads/main/agentic-access/notte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/notte/agentic-access/notte-agentic-access.yml
 summary_line: 33 operations · 17 acting · 2 human-in-the-loop
 tags:
 - Artificial Intelligence

@@ -15,121 +15,121 @@ api_specs:
   label: Reverb Accounts API
   slug: reverb-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-accounts-api-openapi.yml
 - filename: reverb-articles-api-openapi.yml
   format: yaml
   label: Reverb Articles API
   slug: reverb-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-articles-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-articles-api-openapi.yml
 - filename: reverb-auth-api-openapi.yml
   format: yaml
   label: Reverb Auth API
   slug: reverb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-auth-api-openapi.yml
 - filename: reverb-autocomplete-api-openapi.yml
   format: yaml
   label: Reverb Autocomplete API
   slug: reverb-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-autocomplete-api-openapi.yml
 - filename: reverb-autosuggest-api-openapi.yml
   format: yaml
   label: Reverb Autosuggest API
   slug: reverb-autosuggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-autosuggest-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-autosuggest-api-openapi.yml
 - filename: reverb-braintree-api-openapi.yml
   format: yaml
   label: Reverb Braintree API
   slug: reverb-braintree-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-braintree-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-braintree-api-openapi.yml
 - filename: reverb-cart-api-openapi.yml
   format: yaml
   label: Reverb Cart API
   slug: reverb-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-cart-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-cart-api-openapi.yml
 - filename: reverb-categories-api-openapi.yml
   format: yaml
   label: Reverb Categories API
   slug: reverb-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-categories-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-categories-api-openapi.yml
 - filename: reverb-collections-api-openapi.yml
   format: yaml
   label: Reverb Collections API
   slug: reverb-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-collections-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-collections-api-openapi.yml
 - filename: reverb-countries-api-openapi.yml
   format: yaml
   label: Reverb Countries API
   slug: reverb-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-countries-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-countries-api-openapi.yml
 - filename: reverb-currencies-api-openapi.yml
   format: yaml
   label: Reverb Currencies API
   slug: reverb-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-currencies-api-openapi.yml
 - filename: reverb-listings-api-openapi.yml
   format: yaml
   label: Reverb Listings API
   slug: reverb-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-listings-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-listings-api-openapi.yml
 - filename: reverb-my-api-openapi.yml
   format: yaml
   label: Reverb My API
   slug: reverb-my-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-my-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-my-api-openapi.yml
 - filename: reverb-payment-methods-api-openapi.yml
   format: yaml
   label: Reverb Payment Methods API
   slug: reverb-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-payment-methods-api-openapi.yml
 - filename: reverb-priceguide-api-openapi.yml
   format: yaml
   label: Reverb Priceguide API
   slug: reverb-priceguide-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-priceguide-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-priceguide-api-openapi.yml
 - filename: reverb-push-notifications-api-openapi.yml
   format: yaml
   label: Reverb Push Notifications API
   slug: reverb-push-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-push-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-push-notifications-api-openapi.yml
 - filename: reverb-reverb-api-api-openapi.yml
   format: yaml
   label: Reverb API
   slug: reverb-reverb-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-reverb-api-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-reverb-api-api-openapi.yml
 - filename: reverb-shipping-api-openapi.yml
   format: yaml
   label: Reverb Shipping API
   slug: reverb-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-shipping-api-openapi.yml
 - filename: reverb-shop-api-openapi.yml
   format: yaml
   label: Reverb Shop API
   slug: reverb-shop-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-shop-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-shop-api-openapi.yml
 - filename: reverb-wants-api-openapi.yml
   format: yaml
   label: Reverb Wants API
   slug: reverb-wants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/openapi/reverb-wants-api-openapi.yml
+  url: https://artifacts.apis.io/reverb/openapi/reverb-wants-api-openapi.yml
 consequence_counts:
   read: 45
   write: 4
@@ -167,7 +167,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/reverb
   \ getMyLists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/listings\n  method: get\n  operationId: getMyListings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/listings/drafts\n  method: get\n  operationId: getMyDraftListings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/negotiations/buying\n  method: get\n  operationId: getMyNegotiationsBuying\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/listings/negotiations\n  method: get\n  operationId: getMyNegotiationsSelling\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/orders/buying/all\n  method: get\n  operationId: getMyOrdersBuyingAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/orders/buying/unpaid\n  method: get\n  operationId: getMyOrdersBuyingUnpaid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/orders/selling/all\n  method: get\n  operationId: getMyOrdersSellingAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/orders/selling/unpaid\n  method: get\n  operationId: getMyOrdersSellingUnpaid\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /api/my/orders/selling/awaiting_shipment\n  method: get\n  operationId: getMyOrdersAwaitingShipment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/my/orders/awaiting_feedback\n  method: get\n  operationId: getMyOrdersAwaitingFeedback\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wants\n  method: get\n  operationId: getMyWants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/push_notifications/registrations\n  method: get\n  operationId: getPushNotificationRegistrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reverb/refs/heads/main/agentic-access/reverb-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/reverb/agentic-access/reverb-agentic-access.yml
 summary_line: 49 operations · 4 acting
 tags:
 - Marketplace

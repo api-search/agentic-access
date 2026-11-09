@@ -9,103 +9,103 @@ api_specs:
   label: Obol Address API
   slug: obol-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-address-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-address-api-openapi.yml
 - filename: obol-cluster-definition-api-openapi.yml
   format: yaml
   label: Obol Cluster Definition API
   slug: obol-cluster-definition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-cluster-definition-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-cluster-definition-api-openapi.yml
 - filename: obol-cluster-effectiveness-api-openapi.yml
   format: yaml
   label: Obol Cluster Effectiveness API
   slug: obol-cluster-effectiveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-cluster-effectiveness-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-cluster-effectiveness-api-openapi.yml
 - filename: obol-cluster-lock-api-openapi.yml
   format: yaml
   label: Obol Cluster Lock API
   slug: obol-cluster-lock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-cluster-lock-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-cluster-lock-api-openapi.yml
 - filename: obol-deposit-data-api-openapi.yml
   format: yaml
   label: Obol Deposit Data API
   slug: obol-deposit-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-deposit-data-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-deposit-data-api-openapi.yml
 - filename: obol-dv-exit-api-openapi.yml
   format: yaml
   label: Obol DV Exit API
   slug: obol-dv-exit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-dv-exit-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-dv-exit-api-openapi.yml
 - filename: obol-dv-migrate-api-openapi.yml
   format: yaml
   label: Obol DV Migrate API
   slug: obol-dv-migrate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-dv-migrate-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-dv-migrate-api-openapi.yml
 - filename: obol-fee-recipient-api-openapi.yml
   format: yaml
   label: Obol Fee Recipient API
   slug: obol-fee-recipient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-fee-recipient-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-fee-recipient-api-openapi.yml
 - filename: obol-metrics-api-openapi.yml
   format: yaml
   label: Obol Metrics API
   slug: obol-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-metrics-api-openapi.yml
 - filename: obol-owr-information-api-openapi.yml
   format: yaml
   label: Obol OWR Information API
   slug: obol-owr-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-owr-information-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-owr-information-api-openapi.yml
 - filename: obol-positions-api-openapi.yml
   format: yaml
   label: Obol Positions API
   slug: obol-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-positions-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-positions-api-openapi.yml
 - filename: obol-state-api-openapi.yml
   format: yaml
   label: Obol State API
   slug: obol-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-state-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-state-api-openapi.yml
 - filename: obol-system-api-openapi.yml
   format: yaml
   label: Obol System API
   slug: obol-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-system-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-system-api-openapi.yml
 - filename: obol-techne-credentials-api-openapi.yml
   format: yaml
   label: Obol Techne Credentials API
   slug: obol-techne-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-techne-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-techne-credentials-api-openapi.yml
 - filename: obol-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Obol Terms And Conditions API
   slug: obol-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-terms-and-conditions-api-openapi.yml
 - filename: obol-test-api-openapi.yml
   format: yaml
   label: Obol Test API
   slug: obol-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-test-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-test-api-openapi.yml
 - filename: obol-tvs-api-openapi.yml
   format: yaml
   label: Obol Tvs API
   slug: obol-tvs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/openapi/obol-tvs-api-openapi.yml
+  url: https://artifacts.apis.io/obol/openapi/obol-tvs-api-openapi.yml
 consequence_counts:
   read: 57
   safety-critical: 14
@@ -226,7 +226,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/obol-a
   \   consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/techne/bronze/{index}\n  method: get\n  operationId: TechneController_getBronzeCred_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/techne/silver/{index}\n  method: get\n  operationId: TechneController_getSilverCred_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/techne/gold/{index}\n  method: get\n  operationId: TechneController_getGoldCred_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/termsAndConditions\n  method: post\n  operationId: TermsAndConditionsController_signTermsAndConditions_v1\n  x-agentic-access:\n    action-class: acting\n   \
   \ consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/termsAndConditions/{address}\n  method: get\n  operationId: TermsAndConditionsController_getTermsAndConditionsSigned_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/test\n  method: post\n  operationId: TestController_postTestResult_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/test/enr/{enr}\n  method: get\n  operationId: TestController_getTestResultByEnr_v1\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tvs/{network}\n  method: get\n  operationId: TVSController_getTVS[0]\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tvs/{network}\n  method: get\n  operationId: TVSController_getTVS[1]_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/obol/refs/heads/main/agentic-access/obol-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/obol/agentic-access/obol-agentic-access.yml
 summary_line: 71 operations · 14 acting · 14 human-in-the-loop
 tags:
 - Company

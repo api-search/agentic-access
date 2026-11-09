@@ -9,43 +9,43 @@ api_specs:
   label: BigOven Collection API
   slug: bigoven-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-collection-api-openapi.yml
 - filename: bigoven-grocerylist-api-openapi.yml
   format: yaml
   label: BigOven GroceryList API
   slug: bigoven-grocerylist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-grocerylist-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-grocerylist-api-openapi.yml
 - filename: bigoven-images-api-openapi.yml
   format: yaml
   label: BigOven Images API
   slug: bigoven-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-images-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-images-api-openapi.yml
 - filename: bigoven-me-api-openapi.yml
   format: yaml
   label: BigOven Me API
   slug: bigoven-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-me-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-me-api-openapi.yml
 - filename: bigoven-note-api-openapi.yml
   format: yaml
   label: BigOven Note API
   slug: bigoven-note-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-note-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-note-api-openapi.yml
 - filename: bigoven-recipe-api-openapi.yml
   format: yaml
   label: BigOven Recipe API
   slug: bigoven-recipe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-recipe-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-recipe-api-openapi.yml
 - filename: bigoven-review-api-openapi.yml
   format: yaml
   label: BigOven Review API
   slug: bigoven-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/openapi/bigoven-review-api-openapi.yml
+  url: https://artifacts.apis.io/bigoven/openapi/bigoven-review-api-openapi.yml
 consequence_counts:
   read: 33
   write: 33
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/bigove
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipe/{recipeId}/review/{reviewId}\n  method: get\n  operationId: Review_Get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipe/{recipeId}/review/{reviewId}\n  method: put\n  operationId: Review_PutLegacy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recipe/{recipeId}/reviews\n  method: get\n  operationId: Review_GetReviews\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipe/{recipeId}/scans\n  method: get\n  operationId: Images_GetScanImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes\n  method: get\n  operationId: Recipe_RecipeSearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes/random\n  method: get\n  operationId: Recipe_GetRandomRecipe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes/raves\n  method: get\n  operationId: Recipe_Raves\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes/recentviews\n  method: get\n  operationId: Recipe_RecentViews\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes/top25random\n  method: get\n  operationId: Recipe_RecipeSearchRandom\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recipes/{id}\n  method: get\n  operationId: Recipe_GetV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bigoven/refs/heads/main/agentic-access/bigoven-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bigoven/agentic-access/bigoven-agentic-access.yml
 summary_line: 66 operations · 33 acting
 tags:
 - Recipes

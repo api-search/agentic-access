@@ -9,19 +9,19 @@ api_specs:
   label: Lightning Social Ventures Applications API
   slug: lightning-social-ventures-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-applications-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-social-ventures/openapi/lightning-social-ventures-applications-api-openapi.yml
 - filename: lightning-social-ventures-support-schemes-api-openapi.yml
   format: yaml
   label: Lightning Social Ventures Support Schemes API
   slug: lightning-social-ventures-support-schemes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-support-schemes-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-social-ventures/openapi/lightning-social-ventures-support-schemes-api-openapi.yml
 - filename: lightning-social-ventures-webhooks-api-openapi.yml
   format: yaml
   label: Lightning Social Ventures Webhooks API
   slug: lightning-social-ventures-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/openapi/lightning-social-ventures-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lightning-social-ventures/openapi/lightning-social-ventures-webhooks-api-openapi.yml
 consequence_counts:
   read: 6
   safety-critical: 3
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/lightn
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/applications/{id}\n  method: get\n  operationId: PublicGrantApplicationsController_findById_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/{id}/assets\n  method: get\n  operationId: PublicGrantApplicationsController_getFiles_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/applications/{id}/status\n  method: put\n  operationId: PublicGrantApplicationsController_updateStatusById_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n   \
   \ token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/applications/{id}/referral\n  method: post\n  operationId: PublicGrantApplicationsController_submitApplicationReferral_v1\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /v1/support-schemes\n  method: get\n  operationId: PublicGrantsController_findAll_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks\n  method: get\n  operationId: PublicWebhooksController_findAll_v1\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/webhooks/keys/{id}/public\n  method: get\n  operationId: PublicWebhooksController_getPublicKey_v1\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightning-social-ventures/refs/heads/main/agentic-access/lightning-social-ventures-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/lightning-social-ventures/agentic-access/lightning-social-ventures-agentic-access.yml
 summary_line: 9 operations · 3 acting · 3 human-in-the-loop
 tags:
 - Company

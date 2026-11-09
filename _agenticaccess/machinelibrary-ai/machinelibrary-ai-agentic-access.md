@@ -9,37 +9,37 @@ api_specs:
   label: Space Frontiers Documents API
   slug: machinelibrary-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-documents-api-openapi.yml
 - filename: machinelibrary-ai-payments-api-openapi.yml
   format: yaml
   label: Space Frontiers Payments API
   slug: machinelibrary-ai-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-payments-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-payments-api-openapi.yml
 - filename: machinelibrary-ai-raw-document-downloads-api-openapi.yml
   format: yaml
   label: Space Frontiers Raw document downloads API
   slug: machinelibrary-ai-raw-document-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-raw-document-downloads-api-openapi.yml
 - filename: machinelibrary-ai-recognition-api-openapi.yml
   format: yaml
   label: Space Frontiers Recognition API
   slug: machinelibrary-ai-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-recognition-api-openapi.yml
 - filename: machinelibrary-ai-search-api-openapi.yml
   format: yaml
   label: Space Frontiers Search API
   slug: machinelibrary-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-search-api-openapi.yml
 - filename: machinelibrary-ai-conversations-api-openapi.yml
   format: yaml
   label: Space Frontiers Conversations API
   slug: machinelibrary-ai-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/openapi/machinelibrary-ai-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/machinelibrary-ai/openapi/machinelibrary-ai-conversations-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 24
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: generated\nsource: openapi/machin
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/payments/mpp/top-up\n  method: post\n  operationId: createMppBalanceTopUp\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/downloads/{filename}\n  method: get\n  operationId: downloadOriginaldocumentbyID\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/downloads/by-uri/{uri}\n  method: get\n  operationId: downloadOriginaldocumentbyURI\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/recognitions\n  method:\
   \ post\n  operationId: create_recognition\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/recognitions/{id}\n  method: get\n  operationId: get_recognition\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/recognitions/{id}/report\n  method: get\n  operationId: get_recognition_report\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/recognitions/{id}/result\n  method: get\n  operationId: get_recognition_result\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v2/search/\n  method: post\n  operationId: searchDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/search/feedback\n  method: post\n  operationId: submitSearchFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/search/similar\n  method: post\n  operationId: findSimilarDocuments\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/machinelibrary-ai/refs/heads/main/agentic-access/machinelibrary-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/machinelibrary-ai/agentic-access/machinelibrary-ai-agentic-access.yml
 summary_line: 42 operations · 18 acting
 tags:
 - Research

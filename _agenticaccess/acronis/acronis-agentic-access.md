@@ -9,427 +9,427 @@ api_specs:
   label: Acronis Activities API
   slug: acronis-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-activities-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-activities-api-openapi.yml
 - filename: acronis-agent-updates-api-openapi.yml
   format: yaml
   label: Acronis Agent Updates API
   slug: acronis-agent-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-updates-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-agent-updates-api-openapi.yml
 - filename: acronis-agents-v2-openapi.json
   format: json
   label: Acronis Agents API
   slug: acronis-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-agents-v2-openapi.json
+  url: https://artifacts.apis.io/acronis/openapi/_original/acronis-agents-v2-openapi.json
 - filename: acronis-clients-api-openapi.yml
   format: yaml
   label: Acronis Clients API
   slug: acronis-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-clients-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-clients-api-openapi.yml
 - filename: acronis-hardware-nodes-api-openapi.yml
   format: yaml
   label: Acronis Hardware Nodes API
   slug: acronis-hardware-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-hardware-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-hardware-nodes-api-openapi.yml
 - filename: acronis-tasks-v2-openapi.json
   format: json
   label: Acronis Tasks API
   slug: acronis-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/_original/acronis-tasks-v2-openapi.json
+  url: https://artifacts.apis.io/acronis/openapi/_original/acronis-tasks-v2-openapi.json
 - filename: acronis-tenants-api-openapi.yml
   format: yaml
   label: Acronis Tenants API
   slug: acronis-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-tenants-api-openapi.yml
 - filename: acronis-users-api-openapi.yml
   format: yaml
   label: Acronis Users API
   slug: acronis-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-users-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-users-api-openapi.yml
 - filename: acronis-abgw-storages-api-openapi.yml
   format: yaml
   label: Acronis Abgw Storages API
   slug: acronis-abgw-storages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-abgw-storages-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-abgw-storages-api-openapi.yml
 - filename: acronis-accounts-api-openapi.yml
   format: yaml
   label: Acronis Accounts API
   slug: acronis-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-accounts-api-openapi.yml
 - filename: acronis-agent-update-references-api-openapi.yml
   format: yaml
   label: Acronis Agent Update References API
   slug: acronis-agent-update-references-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-update-references-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-agent-update-references-api-openapi.yml
 - filename: acronis-agent-update-settings-api-openapi.yml
   format: yaml
   label: Acronis Agent Update Settings API
   slug: acronis-agent-update-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-agent-update-settings-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-agent-update-settings-api-openapi.yml
 - filename: acronis-alerts-api-openapi.yml
   format: yaml
   label: Acronis Alerts API
   slug: acronis-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-alerts-api-openapi.yml
 - filename: acronis-antimalware-scan-stats-api-openapi.yml
   format: yaml
   label: Acronis Antimalware Scan Stats API
   slug: acronis-antimalware-scan-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-antimalware-scan-stats-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-antimalware-scan-stats-api-openapi.yml
 - filename: acronis-applications-api-openapi.yml
   format: yaml
   label: Acronis Applications API
   slug: acronis-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-applications-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-applications-api-openapi.yml
 - filename: acronis-archives-api-openapi.yml
   format: yaml
   label: Acronis Archives API
   slug: acronis-archives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-archives-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-archives-api-openapi.yml
 - filename: acronis-audit-log-api-openapi.yml
   format: yaml
   label: Acronis Audit Log API
   slug: acronis-audit-log-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-audit-log-api-openapi.yml
 - filename: acronis-backed-up-resources-api-openapi.yml
   format: yaml
   label: Acronis Backed Up Resources API
   slug: acronis-backed-up-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-backed-up-resources-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-backed-up-resources-api-openapi.yml
 - filename: acronis-backups-api-openapi.yml
   format: yaml
   label: Acronis Backups API
   slug: acronis-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-backups-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-backups-api-openapi.yml
 - filename: acronis-call-api-openapi.yml
   format: yaml
   label: Acronis Call API
   slug: acronis-call-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-call-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-call-api-openapi.yml
 - filename: acronis-categories-api-openapi.yml
   format: yaml
   label: Acronis Categories API
   slug: acronis-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-categories-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-categories-api-openapi.yml
 - filename: acronis-contractpart-api-openapi.yml
   format: yaml
   label: Acronis Contract Part API
   slug: acronis-contractpart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-contractpart-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-contractpart-api-openapi.yml
 - filename: acronis-contracts-api-openapi.yml
   format: yaml
   label: Acronis Contracts API
   slug: acronis-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-contracts-api-openapi.yml
 - filename: acronis-count-api-openapi.yml
   format: yaml
   label: Acronis Count API
   slug: acronis-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-count-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-count-api-openapi.yml
 - filename: acronis-customer-alerts-api-openapi.yml
   format: yaml
   label: Acronis Customer Alerts API
   slug: acronis-customer-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-customer-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-customer-alerts-api-openapi.yml
 - filename: acronis-customer-alerts-count-api-openapi.yml
   format: yaml
   label: Acronis Customer Alerts Count API
   slug: acronis-customer-alerts-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-customer-alerts-count-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-customer-alerts-count-api-openapi.yml
 - filename: acronis-devices-api-openapi.yml
   format: yaml
   label: Acronis Devices API
   slug: acronis-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-devices-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-devices-api-openapi.yml
 - filename: acronis-downloadinvoice-api-openapi.yml
   format: yaml
   label: Acronis Download Invoice API
   slug: acronis-downloadinvoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-downloadinvoice-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-downloadinvoice-api-openapi.yml
 - filename: acronis-effective-price-lists-api-openapi.yml
   format: yaml
   label: Acronis Effective Price Lists API
   slug: acronis-effective-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-effective-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-effective-price-lists-api-openapi.yml
 - filename: acronis-emailupdates-api-openapi.yml
   format: yaml
   label: Acronis Email Updates API
   slug: acronis-emailupdates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-emailupdates-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-emailupdates-api-openapi.yml
 - filename: acronis-events-api-openapi.yml
   format: yaml
   label: Acronis Events API
   slug: acronis-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-events-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-events-api-openapi.yml
 - filename: acronis-exportinvoice-api-openapi.yml
   format: yaml
   label: Acronis Export Invoice API
   slug: acronis-exportinvoice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-exportinvoice-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-exportinvoice-api-openapi.yml
 - filename: acronis-idp-api-openapi.yml
   format: yaml
   label: Acronis Idp API
   slug: acronis-idp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-idp-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-idp-api-openapi.yml
 - filename: acronis-incidents-api-openapi.yml
   format: yaml
   label: Acronis Incidents API
   slug: acronis-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-incidents-api-openapi.yml
 - filename: acronis-infra-api-openapi.yml
   format: yaml
   label: Acronis Infra API
   slug: acronis-infra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-infra-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-infra-api-openapi.yml
 - filename: acronis-invoiceoverview-api-openapi.yml
   format: yaml
   label: Acronis Invoice Overview API
   slug: acronis-invoiceoverview-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-invoiceoverview-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-invoiceoverview-api-openapi.yml
 - filename: acronis-ledger-api-openapi.yml
   format: yaml
   label: Acronis Ledger API
   slug: acronis-ledger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-ledger-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-ledger-api-openapi.yml
 - filename: acronis-ledgers-api-openapi.yml
   format: yaml
   label: Acronis Ledgers API
   slug: acronis-ledgers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-ledgers-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-ledgers-api-openapi.yml
 - filename: acronis-locations-api-openapi.yml
   format: yaml
   label: Acronis Locations API
   slug: acronis-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-locations-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-locations-api-openapi.yml
 - filename: acronis-policy-management-api-openapi.yml
   format: yaml
   label: Acronis Policy Management API
   slug: acronis-policy-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-policy-management-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-policy-management-api-openapi.yml
 - filename: acronis-priorities-api-openapi.yml
   format: yaml
   label: Acronis Priorities API
   slug: acronis-priorities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-priorities-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-priorities-api-openapi.yml
 - filename: acronis-product-api-openapi.yml
   format: yaml
   label: Acronis Product API
   slug: acronis-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-product-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-product-api-openapi.yml
 - filename: acronis-registration-tokens-api-openapi.yml
   format: yaml
   label: Acronis Registration Tokens API
   slug: acronis-registration-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-registration-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-registration-tokens-api-openapi.yml
 - filename: acronis-reports-api-openapi.yml
   format: yaml
   label: Acronis Reports API
   slug: acronis-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-reports-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-reports-api-openapi.yml
 - filename: acronis-resource-management-api-openapi.yml
   format: yaml
   label: Acronis Resource Management API
   slug: acronis-resource-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-resource-management-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-resource-management-api-openapi.yml
 - filename: acronis-resource-status-api-openapi.yml
   format: yaml
   label: Acronis Resource Status API
   slug: acronis-resource-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-resource-status-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-resource-status-api-openapi.yml
 - filename: acronis-salesitems-api-openapi.yml
   format: yaml
   label: Acronis Sales Items API
   slug: acronis-salesitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-salesitems-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-salesitems-api-openapi.yml
 - filename: acronis-schedulertickets-api-openapi.yml
   format: yaml
   label: Acronis Scheduler Tickets API
   slug: acronis-schedulertickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-schedulertickets-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-schedulertickets-api-openapi.yml
 - filename: acronis-search-api-openapi.yml
   format: yaml
   label: Acronis Search API
   slug: acronis-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-search-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-search-api-openapi.yml
 - filename: acronis-search-index-size-stats-api-openapi.yml
   format: yaml
   label: Acronis Search Index Size Stats API
   slug: acronis-search-index-size-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-search-index-size-stats-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-search-index-size-stats-api-openapi.yml
 - filename: acronis-servers-api-openapi.yml
   format: yaml
   label: Acronis Servers API
   slug: acronis-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-servers-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-servers-api-openapi.yml
 - filename: acronis-settings-api-openapi.yml
   format: yaml
   label: Acronis Settings API
   slug: acronis-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-settings-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-settings-api-openapi.yml
 - filename: acronis-sites-api-openapi.yml
   format: yaml
   label: Acronis Sites API
   slug: acronis-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-sites-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-sites-api-openapi.yml
 - filename: acronis-sla-api-openapi.yml
   format: yaml
   label: Acronis SLA API
   slug: acronis-sla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-sla-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-sla-api-openapi.yml
 - filename: acronis-stats-api-openapi.yml
   format: yaml
   label: Acronis Stats API
   slug: acronis-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-stats-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-stats-api-openapi.yml
 - filename: acronis-status-api-openapi.yml
   format: yaml
   label: Acronis Status API
   slug: acronis-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-status-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-status-api-openapi.yml
 - filename: acronis-statuses-api-openapi.yml
   format: yaml
   label: Acronis Statuses API
   slug: acronis-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-statuses-api-openapi.yml
 - filename: acronis-storage-dirs-api-openapi.yml
   format: yaml
   label: Acronis Storage Dirs API
   slug: acronis-storage-dirs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-storage-dirs-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-storage-dirs-api-openapi.yml
 - filename: acronis-storage-nodes-api-openapi.yml
   format: yaml
   label: Acronis Storage Nodes API
   slug: acronis-storage-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-storage-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-storage-nodes-api-openapi.yml
 - filename: acronis-storage-usage-stats-api-openapi.yml
   format: yaml
   label: Acronis Storage Usage Stats API
   slug: acronis-storage-usage-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-storage-usage-stats-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-storage-usage-stats-api-openapi.yml
 - filename: acronis-subscriptions-api-openapi.yml
   format: yaml
   label: Acronis Subscriptions API
   slug: acronis-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-subscriptions-api-openapi.yml
 - filename: acronis-sync-and-share-nodes-api-openapi.yml
   format: yaml
   label: Acronis Sync And Share Nodes API
   slug: acronis-sync-and-share-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-sync-and-share-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-sync-and-share-nodes-api-openapi.yml
 - filename: acronis-sync-api-openapi.yml
   format: yaml
   label: Acronis Sync API
   slug: acronis-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-sync-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-sync-api-openapi.yml
 - filename: acronis-taxes-api-openapi.yml
   format: yaml
   label: Acronis Taxes API
   slug: acronis-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-taxes-api-openapi.yml
 - filename: acronis-topics-api-openapi.yml
   format: yaml
   label: Acronis Topics API
   slug: acronis-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-topics-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-topics-api-openapi.yml
 - filename: acronis-types-api-openapi.yml
   format: yaml
   label: Acronis Types API
   slug: acronis-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-types-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-types-api-openapi.yml
 - filename: acronis-uploadedfiles-api-openapi.yml
   format: yaml
   label: Acronis Uploaded Files API
   slug: acronis-uploadedfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-uploadedfiles-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-uploadedfiles-api-openapi.yml
 - filename: acronis-vaults-api-openapi.yml
   format: yaml
   label: Acronis Vaults API
   slug: acronis-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-vaults-api-openapi.yml
 - filename: acronis-well-known-api-openapi.yml
   format: yaml
   label: Acronis .well Known API
   slug: acronis-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-well-known-api-openapi.yml
 - filename: acronis-dashboard-data-api-openapi.yml
   format: yaml
   label: Acronis Dashboard Data API
   slug: acronis-dashboard-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-dashboard-data-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-dashboard-data-api-openapi.yml
 - filename: acronis-health-check-api-openapi.yml
   format: yaml
   label: Acronis Health Check API
   slug: acronis-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/openapi/acronis-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/acronis/openapi/acronis-health-check-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 153
@@ -538,8 +538,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/acroni
   \    - urn:acronis.com::backup::backup_user\n    - urn:acronis.com::backup::protection_admin\n    - urn:acronis.com::files_cloud::sync_share_user\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /idp/device_authorization/approval\n  method: post\n  operationId: DeviceAuthorizationApproval_1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - urn:acronis.com::backup::backup_user\n    - urn:acronis.com::backup::protection_admin\n    - urn:acronis.com::files_cloud::sync_share_user\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /idp/external-login\n  method: get\n  operationId: FetchOneTimeTokenLoginPage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents\n  method:\
   \ get\n  operationId: getIncidents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - edr_mgmtsvc::incidents_viewer\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents/investigation_state\n  method: post\n  operationId: postIncidentsInvestigationState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - edr_mgmtsvc::automation\n    - edr_mgmtsvc::security_analyst\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{incident_id}\n  method: get\n  operationId: getIncidentsByIncidentId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - edr_mgmtsvc::incidents_viewer\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /incidents/{incident_id}/investigation_state\n\
   \  method: post\n  operationId: postIncidentsByIncidentIdInvestigationState\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - edr_mgmtsvc::automation\n    - edr_mgmtsvc::security_analyst\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{incident_id}/response_action\n  method: post\n  operationId: postIncidentsByIncidentIdResponseAction\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - edr_mgmtsvc::automation\n    - edr_mgmtsvc::security_analyst\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /incidents/{incident_id}/response_action\n  method: get\n  operationId: getIncidentsByIncidentIdResponseAction\n\
-  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - edr_mgmtsvc::incidents_viewer\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (117 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/agentic-access/acronis-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acronis/refs/heads/main/agentic-access/acronis-agentic-access.yml
+  \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - edr_mgmtsvc::incidents_viewer\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (117 KB total) ---\n# Full source: https://artifacts.apis.io/acronis/agentic-access/acronis-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/acronis/agentic-access/acronis-agentic-access.yml
 summary_line: 320 operations · 167 acting · 5 human-in-the-loop
 tags:
 - Cybersecurity

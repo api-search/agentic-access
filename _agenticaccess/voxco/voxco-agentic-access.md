@@ -9,67 +9,67 @@ api_specs:
   label: Voxco AICoder API
   slug: voxco-aicoder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-aicoder-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-aicoder-api-openapi.yml
 - filename: voxco-codebooks-api-openapi.yml
   format: yaml
   label: Voxco Codebooks API
   slug: voxco-codebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-codebooks-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-codebooks-api-openapi.yml
 - filename: voxco-companies-api-openapi.yml
   format: yaml
   label: Voxco Companies API
   slug: voxco-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-companies-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-companies-api-openapi.yml
 - filename: voxco-exports-api-openapi.yml
   format: yaml
   label: Voxco Exports API
   slug: voxco-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-exports-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-exports-api-openapi.yml
 - filename: voxco-languages-api-openapi.yml
   format: yaml
   label: Voxco Languages API
   slug: voxco-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-languages-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-languages-api-openapi.yml
 - filename: voxco-questions-api-openapi.yml
   format: yaml
   label: Voxco Questions API
   slug: voxco-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-questions-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-questions-api-openapi.yml
 - filename: voxco-responses-api-openapi.yml
   format: yaml
   label: Voxco Responses API
   slug: voxco-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-responses-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-responses-api-openapi.yml
 - filename: voxco-sessions-api-openapi.yml
   format: yaml
   label: Voxco Sessions API
   slug: voxco-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-sessions-api-openapi.yml
 - filename: voxco-studies-api-openapi.yml
   format: yaml
   label: Voxco Studies API
   slug: voxco-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-studies-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-studies-api-openapi.yml
 - filename: voxco-studyrespondents-api-openapi.yml
   format: yaml
   label: Voxco StudyRespondents API
   slug: voxco-studyrespondents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-studyrespondents-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-studyrespondents-api-openapi.yml
 - filename: voxco-users-api-openapi.yml
   format: yaml
   label: Voxco Users API
   slug: voxco-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/openapi/voxco-users-api-openapi.yml
+  url: https://artifacts.apis.io/voxco/openapi/voxco-users-api-openapi.yml
 consequence_counts:
   read: 18
   write: 35
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/voxco-
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Studies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Studies\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Studies\n  method: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n \
   \     - abnormal\n      - high-value\n    audit: required\n- path: /Studies\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Studies/{studyKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Studies/Translate\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Studies/{studyKey}/Respondents\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /Users\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voxco/refs/heads/main/agentic-access/voxco-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/voxco/agentic-access/voxco-agentic-access.yml
 summary_line: 53 operations · 35 acting
 tags:
 - Survey Software

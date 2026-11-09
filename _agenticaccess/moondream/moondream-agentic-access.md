@@ -9,13 +9,13 @@ api_specs:
   label: Moondream OpenAI Compatibility API
   slug: moondream-openai-compatibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-openai-compatibility-api-openapi.yml
+  url: https://artifacts.apis.io/moondream/openapi/moondream-openai-compatibility-api-openapi.yml
 - filename: moondream-skills-api-openapi.yml
   format: yaml
   label: Moondream Skills API
   slug: moondream-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/openapi/moondream-skills-api-openapi.yml
+  url: https://artifacts.apis.io/moondream/openapi/moondream-skills-api-openapi.yml
 consequence_counts:
   read: 1
   safety-critical: 4
@@ -68,7 +68,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/moondream-openai-compatibility-api-openapi.yml, openapi/moondream-skills-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    acting: 5\n    connected: 1\n  by_consequence:\n    write: 1\n    read: 1\n    safety-critical: 4\n  human_in_the_loop_required: 4\noperations:\n- path: /chat/completions\n  method: post\n  operationId: createChatCompletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /query\n  method:\
   \ post\n  operationId: query\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /caption\n  method: post\n  operationId: caption\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /detect\n  method: post\n  operationId: detect\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /point\n  method: post\n  operationId: point\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /segment\n  method: post\n  operationId: segment\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/moondream/refs/heads/main/agentic-access/moondream-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/moondream/agentic-access/moondream-agentic-access.yml
 summary_line: 6 operations · 5 acting · 4 human-in-the-loop
 tags:
 - Company

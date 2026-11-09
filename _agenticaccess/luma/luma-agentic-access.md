@@ -9,43 +9,43 @@ api_specs:
   label: Luma Calendars API
   slug: luma-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-calendars-api-openapi.yml
 - filename: luma-events-api-openapi.yml
   format: yaml
   label: Luma Events API
   slug: luma-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-events-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-events-api-openapi.yml
 - filename: luma-memberships-api-openapi.yml
   format: yaml
   label: Luma Memberships API
   slug: luma-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-memberships-api-openapi.yml
 - filename: luma-miscellaneous-api-openapi.yml
   format: yaml
   label: Luma Miscellaneous API
   slug: luma-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-miscellaneous-api-openapi.yml
 - filename: luma-organizations-api-openapi.yml
   format: yaml
   label: Luma Organizations API
   slug: luma-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-organizations-api-openapi.yml
 - filename: luma-webhooks-api-openapi.yml
   format: yaml
   label: Luma Webhooks API
   slug: luma-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-webhooks-api-openapi.yml
 - filename: luma-webhook-types-api-openapi.yml
   format: yaml
   label: Luma Webhook Types API
   slug: luma-webhook-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/openapi/luma-webhook-types-api-openapi.yml
+  url: https://artifacts.apis.io/luma/openapi/luma-webhook-types-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 22
@@ -111,7 +111,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openap
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/webhooks/delete\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/events/cancel/request\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/events/cancel\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl:\
   \ 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/calendars/update\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/organizations/calendars/create\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/events/transfer-calendar\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luma/refs/heads/main/agentic-access/luma-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/luma/agentic-access/luma-agentic-access.yml
 summary_line: 62 operations · 40 acting
 tags:
 - Event

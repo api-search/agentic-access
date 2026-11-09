@@ -9,37 +9,37 @@ api_specs:
   label: Instabase Audit API
   slug: instabase-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-audit-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-audit-api-openapi.yml
 - filename: instabase-batches-api-openapi.yml
   format: yaml
   label: Instabase Batches API
   slug: instabase-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-batches-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-batches-api-openapi.yml
 - filename: instabase-files-api-openapi.yml
   format: yaml
   label: Instabase Files API
   slug: instabase-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-files-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-files-api-openapi.yml
 - filename: instabase-jobs-api-openapi.yml
   format: yaml
   label: Instabase Jobs API
   slug: instabase-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-jobs-api-openapi.yml
 - filename: instabase-runs-api-openapi.yml
   format: yaml
   label: Instabase Runs API
   slug: instabase-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-runs-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-runs-api-openapi.yml
 - filename: instabase-secrets-api-openapi.yml
   format: yaml
   label: Instabase Secrets API
   slug: instabase-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/openapi/instabase-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/instabase/openapi/instabase-secrets-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 12
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/instab
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/apps/runs\n  method: get\n  operationId: listRuns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/apps/deployments/{deployment-id}/runs\n  method: post\n  operationId: runDeployment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/apps/runs/{run_id}\n  method: get\n  operationId: getRunStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v2/apps/runs/{run_id}\n  method: delete\n  operationId: deleteRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/apps/runs/{run_id}/results\n  method: get\n  operationId: getRunResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/aihub/secrets\n  method: get\n  operationId: listSecrets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v2/aihub/secrets\n  method: post\n  operationId: createSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n\
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/aihub/secrets\n  method: patch\n  operationId: updateSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/aihub/secrets\n  method: delete\n  operationId: deleteSecret\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/instabase/refs/heads/main/agentic-access/instabase-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/instabase/agentic-access/instabase-agentic-access.yml
 summary_line: 27 operations · 15 acting
 tags:
 - Company

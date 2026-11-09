@@ -9,115 +9,115 @@ api_specs:
   label: Authenticx Agent API
   slug: authenticx-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-agent-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-agent-api-openapi.yml
 - filename: authenticx-conversations-api-openapi.yml
   format: yaml
   label: Authenticx Conversations API
   slug: authenticx-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-conversations-api-openapi.yml
 - filename: authenticx-evaluations-api-openapi.yml
   format: yaml
   label: Authenticx Evaluations API
   slug: authenticx-evaluations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-evaluations-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-evaluations-api-openapi.yml
 - filename: authenticx-hierarchy-api-openapi.yml
   format: yaml
   label: Authenticx Hierarchy API
   slug: authenticx-hierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-hierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-hierarchy-api-openapi.yml
 - filename: authenticx-interactions-api-openapi.yml
   format: yaml
   label: Authenticx Interactions API
   slug: authenticx-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-interactions-api-openapi.yml
 - filename: authenticx-media-api-openapi.yml
   format: yaml
   label: Authenticx Media API
   slug: authenticx-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-media-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-media-api-openapi.yml
 - filename: authenticx-metadata-api-openapi.yml
   format: yaml
   label: Authenticx Metadata API
   slug: authenticx-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-metadata-api-openapi.yml
 - filename: authenticx-modelresults-api-openapi.yml
   format: yaml
   label: Authenticx Model Results API
   slug: authenticx-modelresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-modelresults-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-modelresults-api-openapi.yml
 - filename: authenticx-receipts-api-openapi.yml
   format: yaml
   label: Authenticx Receipts API
   slug: authenticx-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-receipts-api-openapi.yml
 - filename: authenticx-roles-api-openapi.yml
   format: yaml
   label: Authenticx Roles API
   slug: authenticx-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-roles-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-roles-api-openapi.yml
 - filename: authenticx-scim-resourcetypes-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) ResourceTypes API
   slug: authenticx-scim-resourcetypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-resourcetypes-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-resourcetypes-api-openapi.yml
 - filename: authenticx-scim-schemas-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) Schemas API
   slug: authenticx-scim-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-schemas-api-openapi.yml
 - filename: authenticx-scim-serviceproviderconfig-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) ServiceProviderConfig API
   slug: authenticx-scim-serviceproviderconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-serviceproviderconfig-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-serviceproviderconfig-api-openapi.yml
 - filename: authenticx-scim-users-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) Users API
   slug: authenticx-scim-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-users-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-users-api-openapi.yml
 - filename: authenticx-textmedia-api-openapi.yml
   format: yaml
   label: Authenticx Text Media API
   slug: authenticx-textmedia-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-textmedia-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-textmedia-api-openapi.yml
 - filename: authenticx-user-api-openapi.yml
   format: yaml
   label: Authenticx User API
   slug: authenticx-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-user-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-user-api-openapi.yml
 - filename: authenticx-userhierarchy-api-openapi.yml
   format: yaml
   label: Authenticx User Hierarchy API
   slug: authenticx-userhierarchy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-userhierarchy-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-userhierarchy-api-openapi.yml
 - filename: authenticx-workflows-api-openapi.yml
   format: yaml
   label: Authenticx Workflows API
   slug: authenticx-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-workflows-api-openapi.yml
 - filename: authenticx-scim-groups-api-openapi.yml
   format: yaml
   label: Authenticx (Scim) Groups API
   slug: authenticx-scim-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/openapi/authenticx-scim-groups-api-openapi.yml
+  url: https://artifacts.apis.io/authenticx/openapi/authenticx-scim-groups-api-openapi.yml
 consequence_counts:
   read: 30
   write: 16
@@ -157,7 +157,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/authen
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /TextMedia/Upload\n  method: post\n  operationId: postTextMediaUpload\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /User\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /User\n  method: post\n  operationId: postUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /User/{UserId}\n\
   \  method: get\n  operationId: getUserByUserId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /User/{UserId}\n  method: put\n  operationId: putUserByUserId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /User/All\n  method: get\n  operationId: getUserAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /UserHierarchy/{UserId}/{HierarchyId}\n  method: get\n  operationId: getUserHierarchyByUserIdByHierarchyId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /UserHierarchy/{UserId}/{HierarchyId}\n  method: put\n  operationId: putUserHierarchyByUserIdByHierarchyId\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /UserHierarchy/{UserId}/All\n  method: get\n  operationId: getUserHierarchyByUserIdAll\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /Workflows\n  method: get\n  operationId: getWorkflows\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authenticx/refs/heads/main/agentic-access/authenticx-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/authenticx/agentic-access/authenticx-agentic-access.yml
 summary_line: 46 operations · 16 acting
 tags:
 - Conversation Intelligence
@@ -171,5 +171,6 @@ tags:
 - Transcription
 - Life Sciences
 - SCIM
+- OAuth
 - Authentication
 ---

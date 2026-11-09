@@ -9,19 +9,19 @@ api_specs:
   label: Meta Custom Audiences API
   slug: meta-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-custom-audiences-api-openapi.yml
 - filename: meta-pages-api-openapi.yml
   format: yaml
   label: Meta Pages API
   slug: meta-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-pages-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-pages-api-openapi.yml
 - filename: meta-users-api-openapi.yml
   format: yaml
   label: Meta Users API
   slug: meta-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/openapi/meta-users-api-openapi.yml
+  url: https://artifacts.apis.io/meta/openapi/meta-users-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -50,7 +50,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/meta-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 3\n    acting: 5\n  by_consequence:\n    read: 3\n    write: 5\n  human_in_the_loop_required: 0\noperations:\n- path: /me\n  method: get\n  operationId: getMe\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{user-id}\n  method: get\n  operationId: getUser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{user-id}\n  method: post\n  operationId: updateUser\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{user-id}\n  method: delete\n  operationId: deleteUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{user-id}/feed\n  method: get\n  operationId: getUserFeed\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{custom-audience-id}/users\n  method: post\n  operationId: addUsersToCustomAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{custom-audience-id}/users\n  method: delete\n  operationId: removeUsersFromCustomAudience\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{page-id}/blocked\n  method: delete\n  operationId: unblockPageUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/agentic-access/meta-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/meta/agentic-access/meta-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Meta

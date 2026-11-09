@@ -9,55 +9,55 @@ api_specs:
   label: Repsly Clients API
   slug: repsly-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-clients-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-clients-api-openapi.yml
 - filename: repsly-forms-api-openapi.yml
   format: yaml
   label: Repsly Forms API
   slug: repsly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-forms-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-forms-api-openapi.yml
 - filename: repsly-import-api-openapi.yml
   format: yaml
   label: Repsly Import API
   slug: repsly-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-import-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-import-api-openapi.yml
 - filename: repsly-photos-api-openapi.yml
   format: yaml
   label: Repsly Photos API
   slug: repsly-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-photos-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-photos-api-openapi.yml
 - filename: repsly-products-api-openapi.yml
   format: yaml
   label: Repsly Products API
   slug: repsly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-products-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-products-api-openapi.yml
 - filename: repsly-purchase-orders-api-openapi.yml
   format: yaml
   label: Repsly Purchase Orders API
   slug: repsly-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-purchase-orders-api-openapi.yml
 - filename: repsly-representatives-api-openapi.yml
   format: yaml
   label: Repsly Representatives API
   slug: repsly-representatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-representatives-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-representatives-api-openapi.yml
 - filename: repsly-visits-api-openapi.yml
   format: yaml
   label: Repsly Visits API
   slug: repsly-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-visits-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-visits-api-openapi.yml
 - filename: repsly-price-lists-api-openapi.yml
   format: yaml
   label: Repsly Price Lists API
   slug: repsly-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-price-lists-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 18
@@ -96,7 +96,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/repsly
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /import/package\n  method: post\n  operationId: importPackages\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /export/retailaudits/{lastRetailAuditID}\n  method: get\n  operationId: exportRetailAudits\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export/forms/{lastFormID}\n  method: get\n  operationId: exportForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export/photos/{lastPhotoID}\n\
   \  method: get\n  operationId: exportPhotos\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export/pricelists/\n  method: get\n  operationId: exportPricelists\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /export/pricelists/{pricelistID}\n  method: get\n  operationId: exportPricelistItems\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /import/pricelist\n  method: post\n  operationId: importPricelists\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /export/purchaseorders/{lastDocumentID}\n  method: get\n  operationId: exportPurchaseOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /import/sales-document-status\n  method: post\n  operationId: updateSalesDocumentStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /export/importStatus/{importJobID}\n  method: get\n  operationId: getImportStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/agentic-access/repsly-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/repsly/agentic-access/repsly-agentic-access.yml
 summary_line: 24 operations · 6 acting
 tags:
 - Retail Execution

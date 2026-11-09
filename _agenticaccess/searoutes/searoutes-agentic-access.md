@@ -9,37 +9,37 @@ api_specs:
   label: Searoutes CO2 Emissions API
   slug: searoutes-co2-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-co2-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-co2-emissions-api-openapi.yml
 - filename: searoutes-geocoding-api-openapi.yml
   format: yaml
   label: Searoutes Geocoding API
   slug: searoutes-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-geocoding-api-openapi.yml
 - filename: searoutes-ocean-routing-api-openapi.yml
   format: yaml
   label: Searoutes Ocean Routing API
   slug: searoutes-ocean-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-ocean-routing-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-ocean-routing-api-openapi.yml
 - filename: searoutes-search-api-openapi.yml
   format: yaml
   label: Searoutes Search API
   slug: searoutes-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-search-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-search-api-openapi.yml
 - filename: searoutes-vessel-api-openapi.yml
   format: yaml
   label: Searoutes Vessel API
   slug: searoutes-vessel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-vessel-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-vessel-api-openapi.yml
 - filename: searoutes-weather-api-openapi.yml
   format: yaml
   label: Searoutes Weather API
   slug: searoutes-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/openapi/searoutes-weather-api-openapi.yml
+  url: https://artifacts.apis.io/searoutes/openapi/searoutes-weather-api-openapi.yml
 consequence_counts:
   read: 31
   write: 1
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/searou
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/v2/carriers\n  method: get\n  operationId: searchCarriers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/v2/carrier/{id}\n  method: get\n  operationId: getCarrier\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/v2/service\n  method: get\n  operationId: searchServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /search/v2/service/{id}\n  method: get\n  operationId: getService\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel/v2/position\n  method: get\n  operationId: getVesselPosition\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel/v2/eta\n  method: get\n  operationId: getVesselEta\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel/v2/arrivals\n  method: get\n  operationId: getVesselArrivals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel/v2/name\n  method: get\n  operationId: searchVesselByName\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vessel/v2/timeseries\n  method: get\n  operationId: getVesselTimeseries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /vessel/v2/trace\n  method: get\n  operationId: getVesselTrace\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/v2/forecast\n  method: get\n  operationId: getWeatherForecast\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/v2/historical\n  method: get\n  operationId: getWeatherHistorical\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /weather/v2/track\n  method: post\n  operationId: getWeatherAlongTrack\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/searoutes/refs/heads/main/agentic-access/searoutes-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/searoutes/agentic-access/searoutes-agentic-access.yml
 summary_line: 32 operations · 1 acting
 tags:
 - Maritime

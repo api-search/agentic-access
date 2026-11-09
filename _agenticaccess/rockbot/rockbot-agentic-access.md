@@ -9,37 +9,37 @@ api_specs:
   label: Rockbot Audio Messaging API
   slug: rockbot-audio-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-audio-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-audio-messaging-api-openapi.yml
 - filename: rockbot-auth-api-openapi.yml
   format: yaml
   label: Rockbot Auth API
   slug: rockbot-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-auth-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-auth-api-openapi.yml
 - filename: rockbot-data-api-openapi.yml
   format: yaml
   label: Rockbot Data API
   slug: rockbot-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-data-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-data-api-openapi.yml
 - filename: rockbot-devices-api-openapi.yml
   format: yaml
   label: Rockbot Devices API
   slug: rockbot-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-devices-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-devices-api-openapi.yml
 - filename: rockbot-music-api-openapi.yml
   format: yaml
   label: Rockbot Music API
   slug: rockbot-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-music-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-music-api-openapi.yml
 - filename: rockbot-signage-api-openapi.yml
   format: yaml
   label: Rockbot Signage API
   slug: rockbot-signage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/openapi/rockbot-signage-api-openapi.yml
+  url: https://artifacts.apis.io/rockbot/openapi/rockbot-signage-api-openapi.yml
 consequence_counts:
   read: 17
   safety-critical: 7
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/rockbo
   \ abnormal\n      - high-value\n    audit: required\n- path: /ext/signage/asset/zone\n  method: post\n  operationId: uploadSignageAssetZone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ext/signage/asset/zone\n  method: delete\n  operationId: deleteSignageAssetZone\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ext/data/signage/history\n  method: get\n  operationId: getSignageHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n \
   \   audit: none\n- path: /ext/data/music/history\n  method: get\n  operationId: getMusicHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ext/data/messaging/history\n  method: get\n  operationId: getMessagingHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ext/data/music/history/export\n  method: post\n  operationId: exportMusicHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ext/data/signage/history/export\n  method: post\n  operationId: exportSignageHistory\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ext/data/messaging/history/export\n  method: post\n  operationId: exportMessagingHistory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /ext/data/history/exports/{job_id}\n  method: get\n  operationId: getExportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rockbot/refs/heads/main/agentic-access/rockbot-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rockbot/agentic-access/rockbot-agentic-access.yml
 summary_line: 55 operations · 38 acting · 7 human-in-the-loop
 tags:
 - Company

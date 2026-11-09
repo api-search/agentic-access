@@ -9,61 +9,61 @@ api_specs:
   label: Figshare Altmetric API
   slug: figshare-altmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-altmetric-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-altmetric-api-openapi.yml
 - filename: figshare-articles-api-openapi.yml
   format: yaml
   label: Figshare Articles API
   slug: figshare-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-articles-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-articles-api-openapi.yml
 - filename: figshare-authors-api-openapi.yml
   format: yaml
   label: Figshare Authors API
   slug: figshare-authors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-authors-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-authors-api-openapi.yml
 - filename: figshare-collections-api-openapi.yml
   format: yaml
   label: Figshare Collections API
   slug: figshare-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-collections-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-collections-api-openapi.yml
 - filename: figshare-institutions-api-openapi.yml
   format: yaml
   label: Figshare Institutions API
   slug: figshare-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-institutions-api-openapi.yml
 - filename: figshare-other-api-openapi.yml
   format: yaml
   label: Figshare Other API
   slug: figshare-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-other-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-other-api-openapi.yml
 - filename: figshare-profiles-api-openapi.yml
   format: yaml
   label: Figshare Profiles API
   slug: figshare-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-profiles-api-openapi.yml
 - filename: figshare-projects-api-openapi.yml
   format: yaml
   label: Figshare Projects API
   slug: figshare-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-projects-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-projects-api-openapi.yml
 - filename: figshare-symplectic-api-openapi.yml
   format: yaml
   label: Figshare Symplectic API
   slug: figshare-symplectic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-symplectic-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-symplectic-api-openapi.yml
 - filename: figshare-oauth-api-openapi.yml
   format: yaml
   label: Figshare OAUTH API
   slug: figshare-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/openapi/figshare-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/figshare/openapi/figshare-oauth-api-openapi.yml
 consequence_counts:
   read: 78
   safety-critical: 2
@@ -136,8 +136,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/figsha
   \ required\n- path: /account/collections/{collection_id}/articles/{article_id}\n  method: delete\n  operationId: private_collection_article_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - all\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/collections/{collection_id}/private_links\n  method: get\n  operationId: private_collection_private_links_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/collections/{collection_id}/private_links\n  method: post\n  operationId: private_collection_private_link_create\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - all\n    audience:\
   \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/collections/{collection_id}/private_links/{link_id}\n  method: get\n  operationId: private_collection_private_link_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/collections/{collection_id}/private_links/{link_id}\n  method: put\n  operationId: private_collection_private_link_update\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - all\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /account/collections/{collection_id}/private_links/{link_id}\n  method:\
   \ delete\n  operationId: private_collection_private_link_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    scope:\n    - all\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /institutions/{institution_string_id}/articles/filter-by\n  method: get\n  operationId: institution_articles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/institution\n  method: get\n  operationId: private_institution_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/institution/embargo_options\n  method: get\n  operationId:\
-  \ private_institution_embargo_options_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/institution/articles\n  method: get\n  operationId: private_institution_articles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/institution/custom_fields\n  method: get\n  operationId: custom_fields_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/agentic-access/figshare-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/figshare/refs/heads/main/agentic-access/figshare-agentic-access.yml
+  \ private_institution_embargo_options_details\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/institution/articles\n  method: get\n  operationId: private_institution_articles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /account/institution/custom_fields\n  method: get\n  operationId: custom_fields_list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - all\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (50 KB total) ---\n# Full source: https://artifacts.apis.io/figshare/agentic-access/figshare-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/figshare/agentic-access/figshare-agentic-access.yml
 summary_line: 157 operations · 79 acting · 2 human-in-the-loop
 tags:
 - Research Data

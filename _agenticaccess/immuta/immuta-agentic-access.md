@@ -9,67 +9,67 @@ api_specs:
   label: Immuta Access Request API
   slug: immuta-access-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-access-request-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-access-request-api-openapi.yml
 - filename: immuta-asset-api-openapi.yml
   format: yaml
   label: Immuta Asset API
   slug: immuta-asset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-asset-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-asset-api-openapi.yml
 - filename: immuta-auth-api-openapi.yml
   format: yaml
   label: Immuta Auth API
   slug: immuta-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-auth-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-auth-api-openapi.yml
 - filename: immuta-data-product-api-openapi.yml
   format: yaml
   label: Immuta Data Product API
   slug: immuta-data-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-product-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-data-product-api-openapi.yml
 - filename: immuta-data-source-api-openapi.yml
   format: yaml
   label: Immuta Data Source API
   slug: immuta-data-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-source-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-data-source-api-openapi.yml
 - filename: immuta-data-use-agreement-api-openapi.yml
   format: yaml
   label: Immuta Data Use Agreement API
   slug: immuta-data-use-agreement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-data-use-agreement-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-data-use-agreement-api-openapi.yml
 - filename: immuta-health-api-openapi.yml
   format: yaml
   label: Immuta Health API
   slug: immuta-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-health-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-health-api-openapi.yml
 - filename: immuta-metadata-api-openapi.yml
   format: yaml
   label: Immuta Metadata API
   slug: immuta-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-metadata-api-openapi.yml
 - filename: immuta-notification-api-openapi.yml
   format: yaml
   label: Immuta Notification API
   slug: immuta-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-notification-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-notification-api-openapi.yml
 - filename: immuta-request-form-api-openapi.yml
   format: yaml
   label: Immuta Request Form API
   slug: immuta-request-form-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-request-form-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-request-form-api-openapi.yml
 - filename: immuta-settings-api-openapi.yml
   format: yaml
   label: Immuta Settings API
   slug: immuta-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/openapi/immuta-settings-api-openapi.yml
+  url: https://artifacts.apis.io/immuta/openapi/immuta-settings-api-openapi.yml
 consequence_counts:
   read: 59
   safety-critical: 4
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/immuta
   \  method: get\n  operationId: searchRequestForms\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/request-form/{id}\n  method: get\n  operationId: getRequestFormById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/request-form/{id}\n  method: delete\n  operationId: deleteRequestFormById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/request-form/{id}\n  method: put\n  operationId: updateRequestForm\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n  \
   \    max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/request-form/version/{version}\n  method: get\n  operationId: getRequestFormByVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/request-form/{id}/data-products\n  method: get\n  operationId: getDataProducts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/request-form/{id}/assets\n  method: get\n  operationId: getAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/settings/frontend\n  method: get\n  operationId: getFrontendSettings\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/immuta/refs/heads/main/agentic-access/immuta-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/immuta/agentic-access/immuta-agentic-access.yml
 summary_line: 95 operations · 36 acting · 4 human-in-the-loop
 tags:
 - Company

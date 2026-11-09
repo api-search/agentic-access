@@ -9,193 +9,193 @@ api_specs:
   label: Asana Attachments  API
   slug: asana-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-attachments-api-openapi.yml
 - filename: asana-custom-fields-api-openapi.yml
   format: yaml
   label: Asana Custom Fields  API
   slug: asana-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-custom-fields-api-openapi.yml
 - filename: asana-events-api-openapi.yml
   format: yaml
   label: Asana Events  API
   slug: asana-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-events-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-events-api-openapi.yml
 - filename: asana-goal-relationships-api-openapi.yml
   format: yaml
   label: Asana Goal Relationships  API
   slug: asana-goal-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-goal-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-goal-relationships-api-openapi.yml
 - filename: asana-goals-api-openapi.yml
   format: yaml
   label: Asana Goals  API
   slug: asana-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-goals-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-goals-api-openapi.yml
 - filename: asana-jobs-api-openapi.yml
   format: yaml
   label: Asana Jobs  API
   slug: asana-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-jobs-api-openapi.yml
 - filename: asana-organization-exports-api-openapi.yml
   format: yaml
   label: Asana Organization Exports  API
   slug: asana-organization-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-organization-exports-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-organization-exports-api-openapi.yml
 - filename: asana-portfolios-api-openapi.yml
   format: yaml
   label: Asana Portfolios  API
   slug: asana-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-portfolios-api-openapi.yml
 - filename: asana-project-templates-api-openapi.yml
   format: yaml
   label: Asana Project Templates  API
   slug: asana-project-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-project-templates-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-project-templates-api-openapi.yml
 - filename: asana-projects-api-openapi.yml
   format: yaml
   label: Asana Projects  API
   slug: asana-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-projects-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-projects-api-openapi.yml
 - filename: asana-sections-api-openapi.yml
   format: yaml
   label: Asana Sections  API
   slug: asana-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-sections-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-sections-api-openapi.yml
 - filename: asana-status-updates-api-openapi.yml
   format: yaml
   label: Asana Status Updates  API
   slug: asana-status-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-status-updates-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-status-updates-api-openapi.yml
 - filename: asana-tags-api-openapi.yml
   format: yaml
   label: Asana Tags  API
   slug: asana-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-tags-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-tags-api-openapi.yml
 - filename: asana-tasks-api-openapi.yml
   format: yaml
   label: Asana Tasks  API
   slug: asana-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-tasks-api-openapi.yml
 - filename: asana-teams-api-openapi.yml
   format: yaml
   label: Asana Teams  API
   slug: asana-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-teams-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-teams-api-openapi.yml
 - filename: asana-time-periods-api-openapi.yml
   format: yaml
   label: Asana Time Periods  API
   slug: asana-time-periods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-time-periods-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-time-periods-api-openapi.yml
 - filename: asana-user-task-lists-api-openapi.yml
   format: yaml
   label: Asana User Task Lists  API
   slug: asana-user-task-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-user-task-lists-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-user-task-lists-api-openapi.yml
 - filename: asana-users-api-openapi.yml
   format: yaml
   label: Asana Users  API
   slug: asana-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-users-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-users-api-openapi.yml
 - filename: asana-webhooks-api-openapi.yml
   format: yaml
   label: Asana Webhooks  API
   slug: asana-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-webhooks-api-openapi.yml
 - filename: asana-workspaces-api-openapi.yml
   format: yaml
   label: Asana Workspaces  API
   slug: asana-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-workspaces-api-openapi.yml
 - filename: asana-audit-log-api-api-openapi.yml
   format: yaml
   label: Asana Audit Log API
   slug: asana-audit-log-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-audit-log-api-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-audit-log-api-api-openapi.yml
 - filename: asana-batch-api-api-openapi.yml
   format: yaml
   label: Asana Batch API
   slug: asana-batch-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-batch-api-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-batch-api-api-openapi.yml
 - filename: asana-custom-field-settings-api-openapi.yml
   format: yaml
   label: Asana Custom Field Settings API
   slug: asana-custom-field-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-custom-field-settings-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-custom-field-settings-api-openapi.yml
 - filename: asana-portfolio-memberships-api-openapi.yml
   format: yaml
   label: Asana Portfolio Memberships API
   slug: asana-portfolio-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-portfolio-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-portfolio-memberships-api-openapi.yml
 - filename: asana-project-briefs-api-openapi.yml
   format: yaml
   label: Asana Project Briefs API
   slug: asana-project-briefs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-project-briefs-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-project-briefs-api-openapi.yml
 - filename: asana-project-memberships-api-openapi.yml
   format: yaml
   label: Asana Project Memberships API
   slug: asana-project-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-project-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-project-memberships-api-openapi.yml
 - filename: asana-project-statuses-api-openapi.yml
   format: yaml
   label: Asana Project Statuses API
   slug: asana-project-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-project-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-project-statuses-api-openapi.yml
 - filename: asana-rules-api-openapi.yml
   format: yaml
   label: Asana Rules API
   slug: asana-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-rules-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-rules-api-openapi.yml
 - filename: asana-stories-api-openapi.yml
   format: yaml
   label: Asana Stories API
   slug: asana-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-stories-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-stories-api-openapi.yml
 - filename: asana-team-memberships-api-openapi.yml
   format: yaml
   label: Asana Team Memberships API
   slug: asana-team-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-team-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-team-memberships-api-openapi.yml
 - filename: asana-typeahead-api-openapi.yml
   format: yaml
   label: Asana Typeahead API
   slug: asana-typeahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-typeahead-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-typeahead-api-openapi.yml
 - filename: asana-workspace-memberships-api-openapi.yml
   format: yaml
   label: Asana Workspace Memberships API
   slug: asana-workspace-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/openapi/asana-workspace-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/asana/openapi/asana-workspace-memberships-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 147
@@ -325,8 +325,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/asana-
   \   audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}\n  method: delete\n  operationId: deletePortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}/items\n  method: get\n  operationId: getItemsForPortfolio\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - portfolios:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /portfolios/{portfolio_gid}/addItem\n  method: post\n  operationId: addItemForPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}/removeItem\n  method: post\n  operationId: removeItemForPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}/addCustomFieldSetting\n  method: post\n  operationId: addCustomFieldSettingForPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}/removeCustomFieldSetting\n\
   \  method: post\n  operationId: removeCustomFieldSettingForPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}/addMembers\n  method: post\n  operationId: addMembersForPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /portfolios/{portfolio_gid}/removeMembers\n  method: post\n  operationId: removeMembersForPortfolio\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
-  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project_briefs/{project_brief_gid}\n  method: get\n  operationId: getProjectBrief\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project_briefs/{project_brief_gid}\n  method: put\n  operationId: updateProjectBrief\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (94 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/agentic-access/asana-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/asana/refs/heads/main/agentic-access/asana-agentic-access.yml
+  \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /project_briefs/{project_brief_gid}\n  method: get\n  operationId: getProjectBrief\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /project_briefs/{project_brief_gid}\n  method: put\n  operationId: updateProjectBrief\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (94 KB total) ---\n# Full source: https://artifacts.apis.io/asana/agentic-access/asana-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/asana/agentic-access/asana-agentic-access.yml
 summary_line: 316 operations · 169 acting
 tags:
 - Collaboration

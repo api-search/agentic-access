@@ -8,127 +8,127 @@ api_specs:
   label: AccuWeather Active Storms API
   slug: accuweather-active-storms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-active-storms-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-active-storms-api-openapi.yml
 - filename: accuweather-ads-api-openapi.yml
   format: yaml
   label: AccuWeather Ads API
   slug: accuweather-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-ads-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-ads-api-openapi.yml
 - filename: accuweather-autocomplete-api-openapi.yml
   format: yaml
   label: AccuWeather Autocomplete API
   slug: accuweather-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-autocomplete-api-openapi.yml
 - filename: accuweather-current-api-openapi.yml
   format: yaml
   label: AccuWeather Current API
   slug: accuweather-current-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-current-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-current-api-openapi.yml
 - filename: accuweather-current-conditions-api-openapi.yml
   format: yaml
   label: AccuWeather Current Conditions API
   slug: accuweather-current-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-current-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-current-conditions-api-openapi.yml
 - filename: accuweather-daily-api-openapi.yml
   format: yaml
   label: AccuWeather Daily API
   slug: accuweather-daily-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-daily-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-daily-api-openapi.yml
 - filename: accuweather-daily-indices-api-openapi.yml
   format: yaml
   label: AccuWeather Daily Indices API
   slug: accuweather-daily-indices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-daily-indices-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-daily-indices-api-openapi.yml
 - filename: accuweather-favorite-api-openapi.yml
   format: yaml
   label: AccuWeather Favorite API
   slug: accuweather-favorite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-favorite-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-favorite-api-openapi.yml
 - filename: accuweather-hourly-api-openapi.yml
   format: yaml
   label: AccuWeather Hourly API
   slug: accuweather-hourly-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-hourly-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-hourly-api-openapi.yml
 - filename: accuweather-hourlyaq-api-openapi.yml
   format: yaml
   label: AccuWeather Hourlyaq API
   slug: accuweather-hourlyaq-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-hourlyaq-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-hourlyaq-api-openapi.yml
 - filename: accuweather-minutecast-api-openapi.yml
   format: yaml
   label: AccuWeather Minutecast API
   slug: accuweather-minutecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-minutecast-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-minutecast-api-openapi.yml
 - filename: accuweather-partner-api-openapi.yml
   format: yaml
   label: AccuWeather Partner API
   slug: accuweather-partner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-partner-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-partner-api-openapi.yml
 - filename: accuweather-raine-api-openapi.yml
   format: yaml
   label: AccuWeather Raine API
   slug: accuweather-raine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-raine-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-raine-api-openapi.yml
 - filename: accuweather-resolve-location-api-openapi.yml
   format: yaml
   label: AccuWeather Resolve Location API
   slug: accuweather-resolve-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-resolve-location-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-resolve-location-api-openapi.yml
 - filename: accuweather-resolve-location-redirect-api-openapi.yml
   format: yaml
   label: AccuWeather Resolve Location Redirect API
   slug: accuweather-resolve-location-redirect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-resolve-location-redirect-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-resolve-location-redirect-api-openapi.yml
 - filename: accuweather-staticmap-api-openapi.yml
   format: yaml
   label: AccuWeather StaticMap API
   slug: accuweather-staticmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-staticmap-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-staticmap-api-openapi.yml
 - filename: accuweather-storm-api-openapi.yml
   format: yaml
   label: AccuWeather Storm API
   slug: accuweather-storm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-storm-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-storm-api-openapi.yml
 - filename: accuweather-test-api-openapi.yml
   format: yaml
   label: AccuWeather Test API
   slug: accuweather-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-test-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-test-api-openapi.yml
 - filename: accuweather-tropical-api-openapi.yml
   format: yaml
   label: AccuWeather Tropical API
   slug: accuweather-tropical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-tropical-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-tropical-api-openapi.yml
 - filename: accuweather-wintercast-api-openapi.yml
   format: yaml
   label: AccuWeather Wintercast API
   slug: accuweather-wintercast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-wintercast-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-wintercast-api-openapi.yml
 - filename: accuweather-air-quality-api-openapi.yml
   format: yaml
   label: AccuWeather Air Quality API
   slug: accuweather-air-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/openapi/accuweather-air-quality-api-openapi.yml
+  url: https://artifacts.apis.io/accuweather/openapi/accuweather-air-quality-api-openapi.yml
 consequence_counts:
   read: 21
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -158,7 +158,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/accuwe
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/current-conditions/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/airQuality/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/hourlyaq/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/raine\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/wintercast/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/tropical/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/active-storms/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/storm/{year}/{basinId}/{depressionNumber}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/staticMap/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/partner/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/daily-indices/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/ads/{locationKey}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/test/linked-scope\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accuweather/refs/heads/main/agentic-access/accuweather-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/accuweather/agentic-access/accuweather-agentic-access.yml
 summary_line: 21 operations
 tags:
 - Weather

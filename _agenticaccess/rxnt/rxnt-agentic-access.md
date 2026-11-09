@@ -9,13 +9,13 @@ api_specs:
   label: RXNT Authentication API
   slug: rxnt-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/rxnt/openapi/rxnt-authentication-api-openapi.yml
 - filename: rxnt-clinical-data-api-openapi.yml
   format: yaml
   label: RXNT Clinical Data API
   slug: rxnt-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/openapi/rxnt-clinical-data-api-openapi.yml
+  url: https://artifacts.apis.io/rxnt/openapi/rxnt-clinical-data-api-openapi.yml
 consequence_counts:
   read: 2
   write: 1
@@ -43,7 +43,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/rxnt-authentication-api-openapi.yml, openapi/rxnt-clinical-data-api-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    acting: 1\n    connected: 2\n  by_consequence:\n    write: 1\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /authentication/AuthenticateUser\n  method: post\n  operationId: authenticateUser\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /patientdashboard/patientccd/GetV1PatientInfoByExternalPatientId\n\
   \  method: post\n  operationId: getPatientInfoByExternalPatientId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /patientdashboard/patientccd/GetPatientCCDSData\n  method: post\n  operationId: getPatientCCDSData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rxnt/refs/heads/main/agentic-access/rxnt-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/rxnt/agentic-access/rxnt-agentic-access.yml
 summary_line: 3 operations · 1 acting
 tags:
 - Healthcare

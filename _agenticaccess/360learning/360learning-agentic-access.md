@@ -9,139 +9,139 @@ api_specs:
   label: 360Learning Authentication API
   slug: 360learning-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-authentication-api-openapi.yml
 - filename: 360learning-certificate-outlines-api-openapi.yml
   format: yaml
   label: 360Learning Certificate Outlines API
   slug: 360learning-certificate-outlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-certificate-outlines-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-certificate-outlines-api-openapi.yml
 - filename: 360learning-classrooms-api-openapi.yml
   format: yaml
   label: 360Learning Classrooms API
   slug: 360learning-classrooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-classrooms-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-classrooms-api-openapi.yml
 - filename: 360learning-courses-api-openapi.yml
   format: yaml
   label: 360Learning Courses API
   slug: 360learning-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-courses-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-courses-api-openapi.yml
 - filename: 360learning-custom-fields-api-openapi.yml
   format: yaml
   label: 360Learning Custom Fields API
   slug: 360learning-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-custom-fields-api-openapi.yml
 - filename: 360learning-custom-links-api-openapi.yml
   format: yaml
   label: 360Learning Custom Links API
   slug: 360learning-custom-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-custom-links-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-custom-links-api-openapi.yml
 - filename: 360learning-external-ids-api-openapi.yml
   format: yaml
   label: 360Learning External IDs API
   slug: 360learning-external-ids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-external-ids-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-external-ids-api-openapi.yml
 - filename: 360learning-groups-api-openapi.yml
   format: yaml
   label: 360Learning Groups API
   slug: 360learning-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-groups-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-groups-api-openapi.yml
 - filename: 360learning-integrations-api-openapi.yml
   format: yaml
   label: 360Learning Integrations API
   slug: 360learning-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-integrations-api-openapi.yml
 - filename: 360learning-learning-needs-api-openapi.yml
   format: yaml
   label: 360Learning Learning Needs API
   slug: 360learning-learning-needs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-learning-needs-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-learning-needs-api-openapi.yml
 - filename: 360learning-operations-api-openapi.yml
   format: yaml
   label: 360Learning Operations API
   slug: 360learning-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-operations-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-operations-api-openapi.yml
 - filename: 360learning-paths-api-openapi.yml
   format: yaml
   label: 360Learning Paths API
   slug: 360learning-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-paths-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-paths-api-openapi.yml
 - filename: 360learning-projects-api-openapi.yml
   format: yaml
   label: 360Learning Projects API
   slug: 360learning-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-projects-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-projects-api-openapi.yml
 - filename: 360learning-skills-api-openapi.yml
   format: yaml
   label: 360Learning Skills API
   slug: 360learning-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-skills-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-skills-api-openapi.yml
 - filename: 360learning-subscriptions-api-openapi.yml
   format: yaml
   label: 360Learning Subscriptions API
   slug: 360learning-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-subscriptions-api-openapi.yml
 - filename: 360learning-tags-api-openapi.yml
   format: yaml
   label: 360Learning Tags API
   slug: 360learning-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-tags-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-tags-api-openapi.yml
 - filename: 360learning-users-api-openapi.yml
   format: yaml
   label: 360Learning Users API
   slug: 360learning-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-users-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-users-api-openapi.yml
 - filename: 360learning-bulk-api-openapi.yml
   format: yaml
   label: 360Learning Bulk API
   slug: 360learning-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-bulk-api-openapi.yml
 - filename: 360learning-course-api-openapi.yml
   format: yaml
   label: 360Learning Course API
   slug: 360learning-course-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-course-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-course-api-openapi.yml
 - filename: 360learning-group-api-openapi.yml
   format: yaml
   label: 360Learning Group API
   slug: 360learning-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-group-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-group-api-openapi.yml
 - filename: 360learning-path-api-openapi.yml
   format: yaml
   label: 360Learning Path API
   slug: 360learning-path-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-path-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-path-api-openapi.yml
 - filename: 360learning-user-api-openapi.yml
   format: yaml
   label: 360Learning User API
   slug: 360learning-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-user-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-user-api-openapi.yml
 - filename: 360learning-x-api-api-openapi.yml
   format: yaml
   label: 360Learning x API
   slug: 360learning-x-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/openapi/360learning-x-api-api-openapi.yml
+  url: https://artifacts.apis.io/360learning/openapi/360learning-x-api-api-openapi.yml
 consequence_counts:
   read: 60
   safety-critical: 104
@@ -328,8 +328,8 @@ source_yaml: "generated: '2026-07-17'\nmethod: generated\nsource: openapi/360lea
   \ /api/v2/groups/{groupId}/{role}/{userId}\n  method: post\n  operationId: v2.groups.AddUserRoleToGroupController_addUserRoleToGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/groups/{groupId}/{role}/{userId}\n  method: delete\n  operationId: v2.groups.RemoveUserRoleFromGroupController_removeUserRoleFromGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/groups\n  method: post\n  operationId: v2.groups.CreateGroupController_createGroup\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/groups\n  method: get\n  operationId: v2.groups.GetGroupsController_getGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/groups/{groupId}\n  method: delete\n  operationId: v2.groups.DeleteGroupController_deleteGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/groups/{groupId}\n\
   \  method: get\n  operationId: v2.groups.GetGroupController_getGroup\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/groups/{groupId}\n  method: patch\n  operationId: v2.groups.UpdateGroupController_updateGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/v2/groups/{groupId}/roles\n  method: get\n  operationId: v2.groups.GetGroupMembersController_getGroupMembers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/groups/{groupId}/catalog/{contentType}-ids\n  method: get\n  operationId:\
-  \ v2.groups.GetCatalogContentIdsController_getCatalogContentIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/groups/{groupId}/library/{contentType}-ids\n  method: get\n  operationId: v2.groups.GetLibraryContentIdsController_getLibraryContentIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (60 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/agentic-access/360learning-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/agentic-access/360learning-agentic-access.yml
+  \ v2.groups.GetCatalogContentIdsController_getCatalogContentIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/groups/{groupId}/library/{contentType}-ids\n  method: get\n  operationId: v2.groups.GetLibraryContentIdsController_getLibraryContentIds\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (60 KB total) ---\n# Full source: https://artifacts.apis.io/360learning/agentic-access/360learning-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/360learning/agentic-access/360learning-agentic-access.yml
 summary_line: 164 operations · 104 acting · 104 human-in-the-loop
 tags:
 - Company

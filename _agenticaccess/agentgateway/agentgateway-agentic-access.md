@@ -9,37 +9,37 @@ api_specs:
   label: AgentGateway Config API
   slug: agentgateway-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-config-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-config-api-openapi.yml
 - filename: agentgateway-debug-api-openapi.yml
   format: yaml
   label: AgentGateway Debug API
   slug: agentgateway-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-debug-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-debug-api-openapi.yml
 - filename: agentgateway-lifecycle-api-openapi.yml
   format: yaml
   label: AgentGateway Lifecycle API
   slug: agentgateway-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-lifecycle-api-openapi.yml
 - filename: agentgateway-logging-api-openapi.yml
   format: yaml
   label: AgentGateway Logging API
   slug: agentgateway-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-logging-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-logging-api-openapi.yml
 - filename: agentgateway-memory-api-openapi.yml
   format: yaml
   label: AgentGateway Memory API
   slug: agentgateway-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-memory-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-memory-api-openapi.yml
 - filename: agentgateway-profiling-api-openapi.yml
   format: yaml
   label: AgentGateway Profiling API
   slug: agentgateway-profiling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-profiling-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-profiling-api-openapi.yml
 consequence_counts:
   read: 7
   safety-critical: 1
@@ -77,7 +77,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/agentgateway-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 9\n  by_action_class:\n    connected: 7\n    acting: 2\n  by_consequence:\n    read: 7\n    write: 1\n    safety-critical: 1\n  human_in_the_loop_required: 1\noperations:\n- path: /config_dump\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/trace\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logging\n  method: get\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /logging\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /memory\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/pprof/profile\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/pprof/heap\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /debug/tasks\n  method: get\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /quitquitquit\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/agentic-access/agentgateway-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/agentgateway/agentic-access/agentgateway-agentic-access.yml
 summary_line: 9 operations · 2 acting · 1 human-in-the-loop
 tags:
 - AI Gateway

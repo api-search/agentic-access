@@ -9,127 +9,163 @@ api_specs:
   label: Euler Finance Accounts API
   slug: euler-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-accounts-api-openapi.yml
 - filename: euler-apys-api-openapi.yml
   format: yaml
   label: Euler Finance APYs API
   slug: euler-apys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-apys-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-apys-api-openapi.yml
 - filename: euler-auth-api-openapi.yml
   format: yaml
   label: Euler Finance Auth API
   slug: euler-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-auth-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-auth-api-openapi.yml
 - filename: euler-chains-api-openapi.yml
   format: yaml
   label: Euler Finance Chains API
   slug: euler-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-chains-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-chains-api-openapi.yml
 - filename: euler-curator-api-openapi.yml
   format: yaml
   label: Euler Finance Curator API
   slug: euler-curator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-curator-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-curator-api-openapi.yml
 - filename: euler-earn-api-openapi.yml
   format: yaml
   label: Euler Finance Earn API
   slug: euler-earn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-earn-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-earn-api-openapi.yml
 - filename: euler-entities-api-openapi.yml
   format: yaml
   label: Euler Finance Entities API
   slug: euler-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-entities-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-entities-api-openapi.yml
 - filename: euler-evc-api-openapi.yml
   format: yaml
   label: Euler Finance EVC API
   slug: euler-evc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-evc-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-evc-api-openapi.yml
 - filename: euler-feeflow-api-openapi.yml
   format: yaml
   label: Euler Finance FeeFlow API
   slug: euler-feeflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-feeflow-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-feeflow-api-openapi.yml
 - filename: euler-health-api-openapi.yml
   format: yaml
   label: Euler Finance Health API
   slug: euler-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-health-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-health-api-openapi.yml
 - filename: euler-liquidations-api-openapi.yml
   format: yaml
   label: Euler Finance Liquidations API
   slug: euler-liquidations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-liquidations-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-liquidations-api-openapi.yml
 - filename: euler-oracles-api-openapi.yml
   format: yaml
   label: Euler Finance Oracles API
   slug: euler-oracles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-oracles-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-oracles-api-openapi.yml
 - filename: euler-prices-api-openapi.yml
   format: yaml
   label: Euler Finance Prices API
   slug: euler-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-prices-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-prices-api-openapi.yml
 - filename: euler-protocol-api-openapi.yml
   format: yaml
   label: Euler Finance Protocol API
   slug: euler-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-protocol-api-openapi.yml
 - filename: euler-publicallocator-api-openapi.yml
   format: yaml
   label: Euler Finance PublicAllocator API
   slug: euler-publicallocator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-publicallocator-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-publicallocator-api-openapi.yml
 - filename: euler-rewards-api-openapi.yml
   format: yaml
   label: Euler Finance Rewards API
   slug: euler-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-rewards-api-openapi.yml
 - filename: euler-termsofuse-api-openapi.yml
   format: yaml
   label: Euler Finance TermsOfUse API
   slug: euler-termsofuse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-termsofuse-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-termsofuse-api-openapi.yml
 - filename: euler-tokens-api-openapi.yml
   format: yaml
   label: Euler Finance Tokens API
   slug: euler-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-tokens-api-openapi.yml
 - filename: euler-usage-api-openapi.yml
   format: yaml
   label: Euler Finance Usage API
   slug: euler-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-usage-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-usage-api-openapi.yml
 - filename: euler-vaults-api-openapi.yml
   format: yaml
   label: Euler Finance Vaults API
   slug: euler-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-vaults-api-openapi.yml
+- filename: euler-activity-api-openapi.yml
+  format: yaml
+  label: Euler Finance Activity API
+  slug: euler-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-activity-api-openapi.yml
+- filename: euler-changes-api-openapi.yml
+  format: yaml
+  label: Euler Finance Changes API
+  slug: euler-changes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-changes-api-openapi.yml
+- filename: euler-compliance-api-openapi.yml
+  format: yaml
+  label: Euler Finance Compliance API
+  slug: euler-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-compliance-api-openapi.yml
+- filename: euler-images-api-openapi.yml
+  format: yaml
+  label: Euler Finance Images API
+  slug: euler-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-images-api-openapi.yml
+- filename: euler-labels-api-openapi.yml
+  format: yaml
+  label: Euler Finance Labels API
+  slug: euler-labels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-labels-api-openapi.yml
+- filename: euler-securitize-api-openapi.yml
+  format: yaml
+  label: Euler Finance Securitize API
+  slug: euler-securitize-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-securitize-api-openapi.yml
 - filename: euler-graph-ql-api-openapi.yml
   format: yaml
   label: Euler Finance Graph QL API
   slug: euler-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/openapi/euler-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/euler/openapi/euler-graph-ql-api-openapi.yml
 consequence_counts:
   read: 72
   safety-critical: 3
@@ -199,7 +235,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/euler-
   \      max-ttl: 3600\n    audit: none\n- path: /v3/evk/vaults/bad-debt\n  method: get\n  operationId: getVaultsBadDebt\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/accounts/{address}/sub-accounts\n  method: get\n  operationId: getAccountsByAddressSubAccounts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/evc/accounts/{address}/events\n  method: get\n  operationId: getEvcAccountsByAddressEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/public-allocator/events\n  method: get\n  operationId: getPublicAllocatorEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n- path: /v3/fee-flow/events\n  method: get\n  operationId: getFeeFlowEvents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/rewards/breakdown\n  method: get\n  operationId: getRewardsBreakdown\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/terms-of-use/signatures\n  method: get\n  operationId: getTermsOfUseSignatures\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/terms-of-use/check/{address}\n  method: get\n  operationId: getTermsOfUseCheckByAddress\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/graphql\n  method: get\n  operationId: getGraphql\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v3/graphql\n  method: post\n  operationId: postGraphql\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/euler/refs/heads/main/agentic-access/euler-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/euler/agentic-access/euler-agentic-access.yml
 summary_line: 91 operations · 19 acting · 3 human-in-the-loop
 tags:
 - DeFi

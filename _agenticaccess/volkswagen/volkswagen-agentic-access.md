@@ -9,19 +9,19 @@ api_specs:
   label: Volkswagen Catalog API
   slug: volkswagen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-catalog-api-openapi.yml
 - filename: volkswagen-configuration-api-openapi.yml
   format: yaml
   label: Volkswagen Configuration API
   slug: volkswagen-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-configuration-api-openapi.yml
 - filename: volkswagen-information-api-openapi.yml
   format: yaml
   label: Volkswagen Information API
   slug: volkswagen-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-information-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-information-api-openapi.yml
 consequence_counts:
   read: 9
   write: 3
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/volksw
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{countryCode}/brands/{brandId}/models\n  method: get\n  operationId: listModelsByBrand\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{countryCode}/models/{modelId}/types\n  method: get\n  operationId: listTypesByModel\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /catalog/{countryCode}/types/{typeId}/options\n  method: get\n  operationId: listOptionsByType\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operation/{countryCode}/check\n  method: post\n  operationId: checkBuildability\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/{countryCode}/recover\n  method: post\n  operationId: recoverConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/{countryCode}/configure\n  method: post\n  operationId: getConfigurationOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operation/{countryCode}/resolve\n  method: post\n  operationId: resolveConfiguration\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /operation/{countryCode}/wltp\n  method: post\n  operationId: getWltpData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operation/{countryCode}/images\n  method: post\n  operationId: getConfigurationImages\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /operation/{countryCode}/order\n  method: post\n  operationId: getOrderInformation\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/agentic-access/volkswagen-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/volkswagen/agentic-access/volkswagen-agentic-access.yml
 summary_line: 12 operations · 3 acting
 tags:
 - Automobiles

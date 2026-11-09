@@ -9,43 +9,43 @@ api_specs:
   label: engageSPARK Balance API
   slug: engagespark-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-balance-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-balance-api-openapi.yml
 - filename: engagespark-campaigns-api-openapi.yml
   format: yaml
   label: engageSPARK Campaigns API
   slug: engagespark-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-campaigns-api-openapi.yml
 - filename: engagespark-contacts-api-openapi.yml
   format: yaml
   label: engageSPARK Contacts API
   slug: engagespark-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-contacts-api-openapi.yml
 - filename: engagespark-files-api-openapi.yml
   format: yaml
   label: engageSPARK Files API
   slug: engagespark-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-files-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-files-api-openapi.yml
 - filename: engagespark-sms-api-openapi.yml
   format: yaml
   label: engageSPARK SMS API
   slug: engagespark-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-sms-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-sms-api-openapi.yml
 - filename: engagespark-top-up-api-openapi.yml
   format: yaml
   label: engageSPARK Top-Up API
   slug: engagespark-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-top-up-api-openapi.yml
 - filename: engagespark-whats-app-api-openapi.yml
   format: yaml
   label: engageSPARK Whats App API
   slug: engagespark-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-whats-app-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 11
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/engage
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{orgId}/files/{filename}\n  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/files/{filename}\n  method: post\n  operationId: updateFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{orgId}/files/{filename}\n  method: delete\n  operationId: deleteFile\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{orgId}/topup/\n  method: post\n  operationId: sendOrgTopup\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{orgId}/topups/\n  method: get\n  operationId: getOrgTopupsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/topups/{topupId}/\n  method: get\n  operationId: getOrgTopups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/whatsapp/contact\n  method: post\n\
   \  operationId: sendWhatsAppContact\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/organizations/{orgId}/whatsapp/\n  method: get\n  operationId: getWhatsAppList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/organizations/{orgId}/whatsapp/{messageId}/\n  method: get\n  operationId: getWhatsApp\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/agentic-access/engagespark-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/engagespark/agentic-access/engagespark-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - Company

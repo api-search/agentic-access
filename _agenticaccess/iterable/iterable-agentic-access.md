@@ -9,151 +9,151 @@ api_specs:
   label: Iterable Export API
   slug: export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-export-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-export-api-openapi.yml
 - filename: iterable-campaigns-api-openapi.yml
   format: yaml
   label: Iterable Campaigns API
   slug: iterable-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-campaigns-api-openapi.yml
 - filename: iterable-catalogs-api-openapi.yml
   format: yaml
   label: Iterable Catalogs API
   slug: iterable-catalogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-catalogs-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-catalogs-api-openapi.yml
 - filename: iterable-channels-api-openapi.yml
   format: yaml
   label: Iterable Channels API
   slug: iterable-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-channels-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-channels-api-openapi.yml
 - filename: iterable-commerce-api-openapi.yml
   format: yaml
   label: Iterable Commerce API
   slug: iterable-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-commerce-api-openapi.yml
 - filename: iterable-email-api-openapi.yml
   format: yaml
   label: Iterable Email API
   slug: iterable-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-email-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-email-api-openapi.yml
 - filename: iterable-events-api-openapi.yml
   format: yaml
   label: Iterable Events API
   slug: iterable-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-events-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-events-api-openapi.yml
 - filename: iterable-experiments-api-openapi.yml
   format: yaml
   label: Iterable Experiments API
   slug: iterable-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-experiments-api-openapi.yml
 - filename: iterable-lists-api-openapi.yml
   format: yaml
   label: Iterable Lists API
   slug: iterable-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-lists-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-lists-api-openapi.yml
 - filename: iterable-metadata-api-openapi.yml
   format: yaml
   label: Iterable Metadata API
   slug: iterable-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-metadata-api-openapi.yml
 - filename: iterable-push-api-openapi.yml
   format: yaml
   label: Iterable Push API
   slug: iterable-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-push-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-push-api-openapi.yml
 - filename: iterable-sms-api-openapi.yml
   format: yaml
   label: Iterable SMS API
   slug: iterable-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-sms-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-sms-api-openapi.yml
 - filename: iterable-templates-api-openapi.yml
   format: yaml
   label: Iterable Templates API
   slug: iterable-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-templates-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-templates-api-openapi.yml
 - filename: iterable-users-api-openapi.yml
   format: yaml
   label: Iterable Users API
   slug: iterable-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-users-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-users-api-openapi.yml
 - filename: iterable-workflows-api-openapi.yml
   format: yaml
   label: Iterable Workflows API
   slug: iterable-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-workflows-api-openapi.yml
 - filename: iterable-embedded-messaging-api-openapi.yml
   format: yaml
   label: Iterable Embedded Messaging API
   slug: iterable-embedded-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-embedded-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-embedded-messaging-api-openapi.yml
 - filename: iterable-in-app-api-openapi.yml
   format: yaml
   label: Iterable In App API
   slug: iterable-in-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-in-app-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-in-app-api-openapi.yml
 - filename: iterable-in-app-web-api-openapi.yml
   format: yaml
   label: Iterable In App Web API
   slug: iterable-in-app-web-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-in-app-web-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-in-app-web-api-openapi.yml
 - filename: iterable-snippets-api-openapi.yml
   format: yaml
   label: Iterable Snippets API
   slug: iterable-snippets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-snippets-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-snippets-api-openapi.yml
 - filename: iterable-subscriptions-api-openapi.yml
   format: yaml
   label: Iterable Subscriptions API
   slug: iterable-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-subscriptions-api-openapi.yml
 - filename: iterable-verify-api-openapi.yml
   format: yaml
   label: Iterable Verify API
   slug: iterable-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-verify-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-verify-api-openapi.yml
 - filename: iterable-webhooks-api-openapi.yml
   format: yaml
   label: Iterable Webhooks API
   slug: iterable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-webhooks-api-openapi.yml
 - filename: iterable-message-types-api-openapi.yml
   format: yaml
   label: Iterable Message types API
   slug: iterable-message-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-message-types-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-message-types-api-openapi.yml
 - filename: iterable-web-push-api-openapi.yml
   format: yaml
   label: Iterable Web Push API
   slug: iterable-web-push-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-web-push-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-web-push-api-openapi.yml
 - filename: iterable-whats-app-api-openapi.yml
   format: yaml
   label: Iterable Whats App API
   slug: iterable-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/openapi/iterable-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/iterable/openapi/iterable-whats-app-api-openapi.yml
 consequence_counts:
   physical: 17
   read: 71
@@ -307,8 +307,8 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/iterab
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/metadata/{table}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/metadata/{table}\n  method: get\n  operationId: list\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/metadata/{table}/{key}\n  method: delete\n  operationId: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n-\
   \ path: /api/metadata/{table}/{key}\n  method: get\n  operationId: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/metadata/{table}/{key}\n  method: put\n  operationId: put\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata/{table}\n  method: get\n  operationId: getMetadataTable\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/{table}\n  method: delete\n  operationId: deleteMetadataTable\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n    \
   \  max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata/{table}/{key}\n  method: get\n  operationId: getMetadataEntry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metadata/{table}/{key}\n  method: put\n  operationId: putMetadataEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metadata/{table}/{key}\n  method: delete\n  operationId: deleteMetadataEntry\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
-  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/push/cancel\n  method: post\n  operationId: cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/push/target\n  method: post\n  operationId: target\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/agentic-access/iterable-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/iterable/refs/heads/main/agentic-access/iterable-agentic-access.yml
+  \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/push/cancel\n  method: post\n  operationId: cancel\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/push/target\n  method: post\n  operationId: target\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (57 KB total) ---\n# Full source: https://artifacts.apis.io/iterable/agentic-access/iterable-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/iterable/agentic-access/iterable-agentic-access.yml
 summary_line: 192 operations · 121 acting · 1 human-in-the-loop
 tags:
 - Cross-Channel Messaging

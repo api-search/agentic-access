@@ -15,115 +15,115 @@ api_specs:
   label: MadeOnSol Account API
   slug: madeonsol-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-account-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-account-api-openapi.yml
 - filename: madeonsol-alpha-api-openapi.yml
   format: yaml
   label: MadeOnSol Alpha API
   slug: madeonsol-alpha-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-alpha-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-alpha-api-openapi.yml
 - filename: madeonsol-copy-trade-api-openapi.yml
   format: yaml
   label: MadeOnSol Copy Trade API
   slug: madeonsol-copy-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-copy-trade-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-copy-trade-api-openapi.yml
 - filename: madeonsol-deployer-hunter-api-openapi.yml
   format: yaml
   label: MadeOnSol Deployer Hunter API
   slug: madeonsol-deployer-hunter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-deployer-hunter-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-deployer-hunter-api-openapi.yml
 - filename: madeonsol-exports-api-openapi.yml
   format: yaml
   label: MadeOnSol Exports API
   slug: madeonsol-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-exports-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-exports-api-openapi.yml
 - filename: madeonsol-kol-api-openapi.yml
   format: yaml
   label: MadeOnSol KOL API
   slug: madeonsol-kol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-kol-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-kol-api-openapi.yml
 - filename: madeonsol-meta-api-openapi.yml
   format: yaml
   label: MadeOnSol Meta API
   slug: madeonsol-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-meta-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-meta-api-openapi.yml
 - filename: madeonsol-price-alerts-api-openapi.yml
   format: yaml
   label: MadeOnSol Price Alerts API
   slug: madeonsol-price-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-price-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-price-alerts-api-openapi.yml
 - filename: madeonsol-robinhood-chain-api-openapi.yml
   format: yaml
   label: MadeOnSol Robinhood Chain API
   slug: madeonsol-robinhood-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-robinhood-chain-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-robinhood-chain-api-openapi.yml
 - filename: madeonsol-sniper-api-openapi.yml
   format: yaml
   label: MadeOnSol Sniper API
   slug: madeonsol-sniper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-sniper-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-sniper-api-openapi.yml
 - filename: madeonsol-status-api-openapi.yml
   format: yaml
   label: MadeOnSol Status API
   slug: madeonsol-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-status-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-status-api-openapi.yml
 - filename: madeonsol-streaming-api-openapi.yml
   format: yaml
   label: MadeOnSol Streaming API
   slug: madeonsol-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-streaming-api-openapi.yml
 - filename: madeonsol-tokens-api-openapi.yml
   format: yaml
   label: MadeOnSol Tokens API
   slug: madeonsol-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-tokens-api-openapi.yml
 - filename: madeonsol-tools-api-openapi.yml
   format: yaml
   label: MadeOnSol Tools API
   slug: madeonsol-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-tools-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-tools-api-openapi.yml
 - filename: madeonsol-wallet-api-openapi.yml
   format: yaml
   label: MadeOnSol Wallet API
   slug: madeonsol-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-wallet-api-openapi.yml
 - filename: madeonsol-wallet-tracker-api-openapi.yml
   format: yaml
   label: MadeOnSol Wallet Tracker API
   slug: madeonsol-wallet-tracker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-wallet-tracker-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-wallet-tracker-api-openapi.yml
 - filename: madeonsol-webhooks-api-openapi.yml
   format: yaml
   label: MadeOnSol Webhooks API
   slug: madeonsol-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-webhooks-api-openapi.yml
 - filename: madeonsol-x402-robinhood-chain-api-openapi.yml
   format: yaml
   label: MadeOnSol x402 Robinhood Chain API
   slug: madeonsol-x402-robinhood-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-x402-robinhood-chain-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-x402-robinhood-chain-api-openapi.yml
 - filename: madeonsol-x402-solana-api-openapi.yml
   format: yaml
   label: MadeOnSol x402 Solana API
   slug: madeonsol-x402-solana-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/openapi/madeonsol-x402-solana-api-openapi.yml
+  url: https://artifacts.apis.io/madeonsol/openapi/madeonsol-x402-solana-api-openapi.yml
 consequence_counts:
   physical: 10
   read: 187
@@ -242,8 +242,8 @@ source_yaml: "generated: '2026-10-17'\nmethod: generated\nsource: openapi/madeon
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/wallet-tracker/watchlist/{address}\n  method: delete\n  operationId: deleteRhcWalletTrackerWatchlistByAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/wallet-tracker/watchlist/{address}\n  method: patch\n  operationId: patchRhcWalletTrackerWatchlistByAddress\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /rhc/copytrade/subscriptions\n  method: get\n  operationId: getRhcCopytradeSubscriptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rhc/copytrade/subscriptions\n  method: post\n  operationId: postRhcCopytradeSubscriptions\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/copytrade/subscriptions/{id}\n  method: get\n  operationId: getRhcCopytradeSubscriptionsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rhc/copytrade/subscriptions/{id}\n  method: patch\n\
   \  operationId: patchRhcCopytradeSubscriptionsById\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/copytrade/subscriptions/{id}\n  method: delete\n  operationId: deleteRhcCopytradeSubscriptionsById\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/copytrade/signals\n  method: get\n  operationId: getRhcCopytradeSignals\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
-  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rhc/price-alerts\n  method: get\n  operationId: getRhcPriceAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rhc/price-alerts\n  method: post\n  operationId: postRhcPriceAlerts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/price-alerts/{id}\n  method: get\n  operationId: getRhcPriceAlertsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/agentic-access/madeonsol-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/madeonsol/refs/heads/main/agentic-access/madeonsol-agentic-access.yml
+  \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rhc/price-alerts\n  method: get\n  operationId: getRhcPriceAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /rhc/price-alerts\n  method: post\n  operationId: postRhcPriceAlerts\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /rhc/price-alerts/{id}\n  method: get\n  operationId: getRhcPriceAlertsById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (58 KB total) ---\n# Full source: https://artifacts.apis.io/madeonsol/agentic-access/madeonsol-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/madeonsol/agentic-access/madeonsol-agentic-access.yml
 summary_line: 233 operations · 46 acting · 1 human-in-the-loop
 tags:
 - Blockchain

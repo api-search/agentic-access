@@ -9,37 +9,37 @@ api_specs:
   label: kapa.ai Analytics API
   slug: kapa-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-analytics-api-openapi.yml
 - filename: kapa-ai-chat-api-openapi.yml
   format: yaml
   label: kapa.ai Chat API
   slug: kapa-ai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-chat-api-openapi.yml
 - filename: kapa-ai-feedback-api-openapi.yml
   format: yaml
   label: kapa.ai Feedback API
   slug: kapa-ai-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-feedback-api-openapi.yml
 - filename: kapa-ai-projects-api-openapi.yml
   format: yaml
   label: kapa.ai Projects API
   slug: kapa-ai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-projects-api-openapi.yml
 - filename: kapa-ai-retrieval-api-openapi.yml
   format: yaml
   label: kapa.ai Retrieval API
   slug: kapa-ai-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-retrieval-api-openapi.yml
 - filename: kapa-ai-threads-api-openapi.yml
   format: yaml
   label: kapa.ai Threads API
   slug: kapa-ai-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/openapi/kapa-ai-threads-api-openapi.yml
+  url: https://artifacts.apis.io/kapa-ai/openapi/kapa-ai-threads-api-openapi.yml
 consequence_counts:
   read: 13
   write: 7
@@ -72,7 +72,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/kapa-a
   \ audit: none\n- path: /query/v1/projects/{project_id}/integrations\n  method: get\n  operationId: listIntegrations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ingestion/v1/projects/{project_id}/sources\n  method: get\n  operationId: listSources\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/v1/projects/{project_id}/activity\n  method: get\n  operationId: getActivity\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/v1/projects/{project_id}/question-answers\n  method: get\n  operationId: listQuestionAnswers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /query/v1/projects/{project_id}/end-users\n  method: get\n  operationId: listEndUsers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/v1/projects/{project_id}/coverage-gaps/periods\n  method: get\n  operationId: listCoverageGapsPeriods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/v1/coverage-gaps/periods/{period_id}\n  method: get\n  operationId: getCoverageGapsPeriod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /query/v1/projects/{project_id}/top-questions/periods\n  method: get\n  operationId: listTopQuestionsPeriods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /query/v1/top-questions/periods/{period_id}\n  method: get\n  operationId: getTopQuestionsPeriod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kapa-ai/refs/heads/main/agentic-access/kapa-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/kapa-ai/agentic-access/kapa-ai-agentic-access.yml
 summary_line: 20 operations · 7 acting
 tags:
 - Artificial Intelligence

@@ -9,31 +9,31 @@ api_specs:
   label: Testiny Automation API
   slug: testiny-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-automation-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-automation-api-openapi.yml
 - filename: testiny-projects-api-openapi.yml
   format: yaml
   label: Testiny Projects API
   slug: testiny-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-projects-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-projects-api-openapi.yml
 - filename: testiny-test-cases-api-openapi.yml
   format: yaml
   label: Testiny Test Cases API
   slug: testiny-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-cases-api-openapi.yml
 - filename: testiny-test-plans-api-openapi.yml
   format: yaml
   label: Testiny Test Plans API
   slug: testiny-test-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-plans-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-plans-api-openapi.yml
 - filename: testiny-test-runs-api-openapi.yml
   format: yaml
   label: Testiny Test Runs API
   slug: testiny-test-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/openapi/testiny-test-runs-api-openapi.yml
+  url: https://artifacts.apis.io/testiny/openapi/testiny-test-runs-api-openapi.yml
 consequence_counts:
   read: 19
   write: 24
@@ -73,7 +73,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/testin
   \ - abnormal\n      - high-value\n    audit: required\n- path: /testrun/bulk\n  method: delete\n  operationId: bulkDeleteTestRuns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testrun/{id}\n  method: get\n  operationId: getTestRun\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /testrun/{id}\n  method: put\n  operationId: updateTestRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testrun/{id}\n  method: delete\n\
   \  operationId: deleteTestRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testrun/mapping/bulk/{otherEntities}\n  method: post\n  operationId: mapTestRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /testrun/upload-attachment/{trId}/{tcId}\n  method: post\n  operationId: uploadTestRunResultAttachment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /export/testrun/csv\n  method: get\n  operationId: exportTestRunsCsv\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/testiny/refs/heads/main/agentic-access/testiny-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/testiny/agentic-access/testiny-agentic-access.yml
 summary_line: 43 operations · 24 acting
 tags:
 - Test Runs

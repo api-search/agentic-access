@@ -9,43 +9,43 @@ api_specs:
   label: VideoSDK HLS Streaming API
   slug: videosdk-hls-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-hls-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-hls-streaming-api-openapi.yml
 - filename: videosdk-participant-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Participant Recordings API
   slug: videosdk-participant-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-participant-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-participant-recordings-api-openapi.yml
 - filename: videosdk-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Recordings API
   slug: videosdk-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-recordings-api-openapi.yml
 - filename: videosdk-rooms-api-openapi.yml
   format: yaml
   label: VideoSDK Rooms API
   slug: videosdk-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-rooms-api-openapi.yml
 - filename: videosdk-rtmp-streaming-api-openapi.yml
   format: yaml
   label: VideoSDK RTMP Streaming API
   slug: videosdk-rtmp-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-rtmp-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-rtmp-streaming-api-openapi.yml
 - filename: videosdk-sessions-api-openapi.yml
   format: yaml
   label: VideoSDK Sessions API
   slug: videosdk-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-sessions-api-openapi.yml
 - filename: videosdk-track-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Track Recordings API
   slug: videosdk-track-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-track-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-track-recordings-api-openapi.yml
 consequence_counts:
   read: 19
   safety-critical: 5
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/videos
   \      max-ttl: 3600\n    audit: none\n- path: /recordings/participant/track/start\n  method: post\n  operationId: startTrackRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/participant/track/stop\n  method: post\n  operationId: stopTrackRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /recordings/participant/track\n  method: get\n  operationId: fetchTrackRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/participant/track/{trackRecordingId}\n  method: get\n  operationId: fetchTrackRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/participant/track/{trackRecordingId}\n  method: delete\n  operationId: deleteTrackRecording\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/participant/merge\n  method: post\n  operationId: startCompositeMerge\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /recordings/participant/merge\n  method: get\n  operationId: fetchMergeRecordings\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /recordings/participant/merge/{mergeId}\n  method: get\n  operationId: fetchMergeRecording\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/agentic-access/videosdk-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/videosdk/agentic-access/videosdk-agentic-access.yml
 summary_line: 36 operations · 17 acting · 5 human-in-the-loop
 tags:
 - Video

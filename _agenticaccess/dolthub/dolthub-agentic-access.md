@@ -9,43 +9,43 @@ api_specs:
   label: DoltHub Branches API
   slug: dolthub-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-branches-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-branches-api-openapi.yml
 - filename: dolthub-databases-api-openapi.yml
   format: yaml
   label: DoltHub Databases API
   slug: dolthub-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-databases-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-databases-api-openapi.yml
 - filename: dolthub-jobs-api-openapi.yml
   format: yaml
   label: DoltHub Jobs API
   slug: dolthub-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-jobs-api-openapi.yml
 - filename: dolthub-operations-api-openapi.yml
   format: yaml
   label: DoltHub Operations API
   slug: dolthub-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-operations-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-operations-api-openapi.yml
 - filename: dolthub-pull-requests-api-openapi.yml
   format: yaml
   label: DoltHub Pull Requests API
   slug: dolthub-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-pull-requests-api-openapi.yml
 - filename: dolthub-sql-api-openapi.yml
   format: yaml
   label: DoltHub SQL API
   slug: dolthub-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-sql-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-sql-api-openapi.yml
 - filename: dolthub-tags-api-openapi.yml
   format: yaml
   label: DoltHub Tags API
   slug: dolthub-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/openapi/dolthub-tags-api-openapi.yml
+  url: https://artifacts.apis.io/dolthub/openapi/dolthub-tags-api-openapi.yml
 consequence_counts:
   read: 10
   write: 8
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/dolthu
   \ post\n  operationId: createBranch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{owner}/{database}/tags\n  method: get\n  operationId: listTags\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{owner}/{database}/tags\n  method: post\n  operationId: createTag\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{owner}/{database}/pulls\n  method: post\n  operationId: createPullRequest\n  x-agentic-access:\n    action-class:\
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{owner}/{database}/pulls/{pullId}/comments\n  method: post\n  operationId: addPullRequestComment\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{owner}/{database}/pulls/{pullId}/merge\n  method: post\n  operationId: mergePullRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\
   - path: /{owner}/{database}/pulls/{pullId}/merge\n  method: get\n  operationId: pollMergePullRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{owner}/{database}/jobs\n  method: get\n  operationId: listJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /users/{username}/operations\n  method: get\n  operationId: listOperations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dolthub/refs/heads/main/agentic-access/dolthub-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/dolthub/agentic-access/dolthub-agentic-access.yml
 summary_line: 18 operations · 8 acting
 tags:
 - Database

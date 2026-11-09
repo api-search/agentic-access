@@ -9,25 +9,25 @@ api_specs:
   label: Aloha POS Catalog API
   slug: aloha-pos-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-catalog-api-openapi.yml
 - filename: aloha-pos-menu-api-openapi.yml
   format: yaml
   label: Aloha POS Menu API
   slug: aloha-pos-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-menu-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-menu-api-openapi.yml
 - filename: aloha-pos-order-api-openapi.yml
   format: yaml
   label: Aloha POS Order API
   slug: aloha-pos-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-order-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-order-api-openapi.yml
 - filename: aloha-pos-site-api-openapi.yml
   format: yaml
   label: Aloha POS Site API
   slug: aloha-pos-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/openapi/aloha-pos-site-api-openapi.yml
+  url: https://artifacts.apis.io/aloha-pos/openapi/aloha-pos-site-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 9
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aloha-
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /catalog/item-prices/get-multiple\n  method: post\n  operationId: getMultipleItemPrices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /menu/v2/menu-details/{menuMapping}\n  method: get\n  operationId: getMenuDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/orders\n  method: post\n  operationId: createOrder\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /order/3/orders/1/{orderId}\n  method:\
   \ get\n  operationId: getOrder\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /order/3/orders/1/find\n  method: post\n  operationId: findOrders\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/sites\n  method: post\n  operationId: createSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/sites/find-by-criteria\n  method: post\n  operationId: findSitesByCriteria\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/sites/{siteId}\n\
   \  method: get\n  operationId: getSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/sites/{siteId}\n  method: put\n  operationId: updateSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/agentic-access/aloha-pos-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aloha-pos/agentic-access/aloha-pos-agentic-access.yml
 summary_line: 14 operations · 5 acting
 tags:
 - Point-of-Sale

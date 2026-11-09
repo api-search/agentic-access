@@ -9,49 +9,49 @@ api_specs:
   label: Ribbon Finance Account API
   slug: ribbon-finance-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-account-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-account-api-openapi.yml
 - filename: ribbon-finance-api-keys-api-openapi.yml
   format: yaml
   label: Ribbon Finance API Keys API
   slug: ribbon-finance-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-api-keys-api-openapi.yml
 - filename: ribbon-finance-instruments-api-openapi.yml
   format: yaml
   label: Ribbon Finance Instruments API
   slug: ribbon-finance-instruments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-instruments-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-instruments-api-openapi.yml
 - filename: ribbon-finance-market-data-api-openapi.yml
   format: yaml
   label: Ribbon Finance Market Data API
   slug: ribbon-finance-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-market-data-api-openapi.yml
 - filename: ribbon-finance-orders-api-openapi.yml
   format: yaml
   label: Ribbon Finance Orders API
   slug: ribbon-finance-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-orders-api-openapi.yml
 - filename: ribbon-finance-positions-api-openapi.yml
   format: yaml
   label: Ribbon Finance Positions API
   slug: ribbon-finance-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-positions-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-positions-api-openapi.yml
 - filename: ribbon-finance-statistics-api-openapi.yml
   format: yaml
   label: Ribbon Finance Statistics API
   slug: ribbon-finance-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-statistics-api-openapi.yml
 - filename: ribbon-finance-trade-history-api-openapi.yml
   format: yaml
   label: Ribbon Finance Trade History API
   slug: ribbon-finance-trade-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/openapi/ribbon-finance-trade-history-api-openapi.yml
+  url: https://artifacts.apis.io/ribbon-finance/openapi/ribbon-finance-trade-history-api-openapi.yml
 consequence_counts:
   physical: 7
   read: 23
@@ -123,7 +123,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/aevo-p
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /funding\n  method: get\n  operationId: getFunding\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /funding-history\n  method: get\n  operationId: getFundingHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statistics\n  method: get\n  operationId: getStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /mark-history\n  method: get\n  operationId: getMarkHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\
   - path: /settlement-history\n  method: get\n  operationId: getSettlementHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /options-history\n  method: get\n  operationId: getOptionsHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /assets\n  method: get\n  operationId: getAssets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /expiries\n  method: get\n  operationId: getExpiries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /time\n  method: get\n  operationId: getTime\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /coingecko-statistics\n  method: get\n  operationId: getCoinGeckoStatistics\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/agentic-access/ribbon-finance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ribbon-finance/agentic-access/ribbon-finance-agentic-access.yml
 summary_line: 33 operations · 10 acting
 tags:
 - DeFi

@@ -9,43 +9,43 @@ api_specs:
   label: VidGrid Caption API
   slug: vidgrid-caption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-caption-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-caption-api-openapi.yml
 - filename: vidgrid-folder-api-openapi.yml
   format: yaml
   label: VidGrid Folder API
   slug: vidgrid-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-folder-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-folder-api-openapi.yml
 - filename: vidgrid-search-api-openapi.yml
   format: yaml
   label: VidGrid Search API
   slug: vidgrid-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-search-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-search-api-openapi.yml
 - filename: vidgrid-token-api-openapi.yml
   format: yaml
   label: VidGrid Token API
   slug: vidgrid-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-token-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-token-api-openapi.yml
 - filename: vidgrid-user-api-openapi.yml
   format: yaml
   label: VidGrid User API
   slug: vidgrid-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-user-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-user-api-openapi.yml
 - filename: vidgrid-video-api-openapi.yml
   format: yaml
   label: VidGrid Video API
   slug: vidgrid-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-video-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-video-api-openapi.yml
 - filename: vidgrid-webhooks-api-openapi.yml
   format: yaml
   label: VidGrid Webhooks API
   slug: vidgrid-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/openapi/vidgrid-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/vidgrid/openapi/vidgrid-webhooks-api-openapi.yml
 consequence_counts:
   read: 5
   write: 10
@@ -76,7 +76,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: generated\nsource: openapi/vidgri
   \ get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vidgrid/v2/folders/{identifier}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vidgrid/v2/folders/{identifier}\n  method: patch\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vidgrid/v2/users/{identifier}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl:\
   \ 3600\n    audit: none\n- path: /vidgrid/v2/users/{identifier}\n  method: delete\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vidgrid/v2/search/{resource}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vidgrid/v2/captions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vidgrid/v2/folders\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vidgrid/v2/tokens\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /vidgrid/v2/webhooks\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vidgrid/refs/heads/main/agentic-access/vidgrid-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vidgrid/agentic-access/vidgrid-agentic-access.yml
 summary_line: 15 operations · 10 acting
 tags:
 - Video

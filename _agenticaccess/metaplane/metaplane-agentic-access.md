@@ -9,19 +9,19 @@ api_specs:
   label: Metaplane Connections API
   slug: metaplane-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-connections-api-openapi.yml
+  url: https://artifacts.apis.io/metaplane/openapi/metaplane-connections-api-openapi.yml
 - filename: metaplane-monitors-api-openapi.yml
   format: yaml
   label: Metaplane Monitors API
   slug: metaplane-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/metaplane/openapi/metaplane-monitors-api-openapi.yml
 - filename: metaplane-tags-api-openapi.yml
   format: yaml
   label: Metaplane Tags API
   slug: metaplane-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/openapi/metaplane-tags-api-openapi.yml
+  url: https://artifacts.apis.io/metaplane/openapi/metaplane-tags-api-openapi.yml
 consequence_counts:
   read: 11
   write: 12
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/metapl
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/monitors/run\n  method: post\n  operationId: runMonitors\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/batch/fetch-tags\n  method: post\n  operationId: fetchTagDefinitions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/tagged-monitors/{tag}\n  method: get\n  operationId: fetchTaggedMonitors\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/tagged-objects/{tag}\n  method: get\n  operationId:\
   \ fetchTaggedObjects\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/tags/remove-monitor-tags\n  method: post\n  operationId: removeMonitorTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/remove-table-tags\n  method: post\n  operationId: removeTableTags\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/batch/tag-monitors\n  method: post\n  operationId: tagMonitors\n  x-agentic-access:\n   \
   \ action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/tags/batch/tag-tables\n  method: post\n  operationId: tagTables\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metaplane/refs/heads/main/agentic-access/metaplane-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/metaplane/agentic-access/metaplane-agentic-access.yml
 summary_line: 23 operations · 12 acting
 tags:
 - AIOps

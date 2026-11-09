@@ -8,25 +8,25 @@ api_specs:
   label: Vesper Finance Pools API
   slug: vesper-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-pools-api-openapi.yml
+  url: https://artifacts.apis.io/vesper/openapi/vesper-pools-api-openapi.yml
 - filename: vesper-rates-api-openapi.yml
   format: yaml
   label: Vesper Finance Rates API
   slug: vesper-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-rates-api-openapi.yml
+  url: https://artifacts.apis.io/vesper/openapi/vesper-rates-api-openapi.yml
 - filename: vesper-tvl-api-openapi.yml
   format: yaml
   label: Vesper Finance TVL API
   slug: vesper-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/vesper/openapi/vesper-tvl-api-openapi.yml
 - filename: vesper-vsp-api-openapi.yml
   format: yaml
   label: Vesper Finance VSP API
   slug: vesper-vsp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/openapi/vesper-vsp-api-openapi.yml
+  url: https://artifacts.apis.io/vesper/openapi/vesper-vsp-api-openapi.yml
 consequence_counts:
   read: 6
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -53,7 +53,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 6\n  by_action_class:\n    connected: 6\n  by_consequence:\n    read: 6\n  human_in_the_loop_required: 0\noperations:\n- path: /dashboard\n  method: get\n  operationId: getDashboard\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /loan-rates\n  method: get\n  operationId: getLoanRates\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools\n  method: get\n  operationId: getPools\n  x-agentic-access:\n    action-class:\
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pools/{address}/data-points\n  method: get\n  operationId: getPoolDataPoints\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /values-locked\n  method: get\n  operationId: getValuesLocked\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /vsp-stats\n  method: get\n  operationId: getVspStats\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vesper/refs/heads/main/agentic-access/vesper-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/vesper/agentic-access/vesper-agentic-access.yml
 summary_line: 6 operations
 tags:
 - DeFi

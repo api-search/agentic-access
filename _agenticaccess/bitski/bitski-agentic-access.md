@@ -9,31 +9,31 @@ api_specs:
   label: Bitski Activity API
   slug: bitski-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-activity-api-openapi.yml
+  url: https://artifacts.apis.io/bitski/openapi/bitski-activity-api-openapi.yml
 - filename: bitski-commerce-api-openapi.yml
   format: yaml
   label: Bitski Commerce API
   slug: bitski-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/bitski/openapi/bitski-commerce-api-openapi.yml
 - filename: bitski-droplinks-api-openapi.yml
   format: yaml
   label: Bitski Droplinks API
   slug: bitski-droplinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-droplinks-api-openapi.yml
+  url: https://artifacts.apis.io/bitski/openapi/bitski-droplinks-api-openapi.yml
 - filename: bitski-minting-api-openapi.yml
   format: yaml
   label: Bitski Minting API
   slug: bitski-minting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-minting-api-openapi.yml
+  url: https://artifacts.apis.io/bitski/openapi/bitski-minting-api-openapi.yml
 - filename: bitski-token-gating-api-openapi.yml
   format: yaml
   label: Bitski Token Gating API
   slug: bitski-token-gating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/openapi/bitski-token-gating-api-openapi.yml
+  url: https://artifacts.apis.io/bitski/openapi/bitski-token-gating-api-openapi.yml
 consequence_counts:
   physical: 6
   read: 21
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/bitski
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/orders/{order_id}\n  method: get\n  operationId: get_order\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commerce\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/orders/{order_id}/payments/{payment_id}\n  method: patch\n  operationId: patch_order_payment\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - commerce\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/products\n  method: get\n  operationId: list_products\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n\
   \    audit: none\n- path: /v1/products/{product_id}\n  method: get\n  operationId: get_product\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/stores/{store_id}\n  method: get\n  operationId: store_public\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}/payment-methods\n  method: get\n  operationId: list_payment_methods\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - commerce\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/users/{user_id}/payment-methods\n  method: post\n  operationId: add_payment_method\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    scope:\n    - commerce\n    audience: null\n    token:\n      max-ttl:\
   \ 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/activities\n  method: get\n  operationId: list_activities\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitski/refs/heads/main/agentic-access/bitski-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/bitski/agentic-access/bitski-agentic-access.yml
 summary_line: 35 operations · 14 acting
 tags:
 - Web3
@@ -111,6 +111,7 @@ tags:
 - NFT
 - Blockchain
 - Authentication
+- OAuth
 - Payments
 - Developer Tools
 - Company

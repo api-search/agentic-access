@@ -9,19 +9,19 @@ api_specs:
   label: Wealth Reader Advanced API
   slug: wealth-reader-advanced-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-advanced-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-advanced-api-openapi.yml
 - filename: wealth-reader-cards-real-time-api-openapi.yml
   format: yaml
   label: Wealth Reader Cards (real time) API
   slug: wealth-reader-cards-real-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-cards-real-time-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-cards-real-time-api-openapi.yml
 - filename: wealth-reader-core-api-openapi.yml
   format: yaml
   label: Wealth Reader Core API
   slug: wealth-reader-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/openapi/wealth-reader-core-api-openapi.yml
+  url: https://artifacts.apis.io/wealth-reader/openapi/wealth-reader-core-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 8
@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/wealth
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /cards/transactions/\n  method: get\n  operationId: cardsTransactionsList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /entities/\n  method: post\n  operationId: postEntities\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /entities/category-types/\n  method: get\n  operationId: getEntitiesCategoryTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /tokens/\n  method: post\n  operationId:\
   \ queryTokensByApiKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tokens/revoke/\n  method: post\n  operationId: revokeToken\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /tokens/reasign/\n  method: post\n  operationId: reasignToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n- path: /domains/\n  method: post\n  operationId: addDomain\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /error-codes/\n  method: get\n  operationId: getErrorCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /warning-codes/\n  method: get\n  operationId: getWarningCodes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wealth-reader/refs/heads/main/agentic-access/wealth-reader-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/wealth-reader/agentic-access/wealth-reader-agentic-access.yml
 summary_line: 20 operations · 12 acting · 2 human-in-the-loop
 tags:
 - Bank Aggregation

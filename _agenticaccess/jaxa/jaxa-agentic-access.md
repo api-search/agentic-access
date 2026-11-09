@@ -8,19 +8,19 @@ api_specs:
   label: JAXA CSW API
   slug: jaxa-csw-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-csw-api-openapi.yml
+  url: https://artifacts.apis.io/jaxa/openapi/jaxa-csw-api-openapi.yml
 - filename: jaxa-wcs-api-openapi.yml
   format: yaml
   label: JAXA WCS API
   slug: jaxa-wcs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-wcs-api-openapi.yml
+  url: https://artifacts.apis.io/jaxa/openapi/jaxa-wcs-api-openapi.yml
 - filename: jaxa-wms-api-openapi.yml
   format: yaml
   label: JAXA WMS API
   slug: jaxa-wms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/openapi/jaxa-wms-api-openapi.yml
+  url: https://artifacts.apis.io/jaxa/openapi/jaxa-wms-api-openapi.yml
 consequence_counts:
   read: 3
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -47,7 +47,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/g-portal-web-api.json\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 3\n  by_action_class:\n    connected: 3\n  by_consequence:\n    read: 3\n  human_in_the_loop_required: 0\noperations:\n- path: /examind/api/WS/csw/preview/opensearch\n  method: get\n  operationId: searchCollections\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /csw/csw\n  method: get\n  operationId: searchGranules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /ows\n  method: get\n  operationId: owsRequest\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jaxa/refs/heads/main/agentic-access/jaxa-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/jaxa/agentic-access/jaxa-agentic-access.yml
 summary_line: 3 operations
 tags:
 - Space

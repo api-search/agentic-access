@@ -9,61 +9,61 @@ api_specs:
   label: Ceramic Config API
   slug: ceramic-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-config-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-config-api-openapi.yml
 - filename: ceramic-debug-api-openapi.yml
   format: yaml
   label: Ceramic Debug API
   slug: ceramic-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-debug-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-debug-api-openapi.yml
 - filename: ceramic-events-api-openapi.yml
   format: yaml
   label: Ceramic Events API
   slug: ceramic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-events-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-events-api-openapi.yml
 - filename: ceramic-experimental-api-openapi.yml
   format: yaml
   label: Ceramic Experimental API
   slug: ceramic-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-experimental-api-openapi.yml
 - filename: ceramic-feed-api-openapi.yml
   format: yaml
   label: Ceramic Feed API
   slug: ceramic-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-feed-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-feed-api-openapi.yml
 - filename: ceramic-interests-api-openapi.yml
   format: yaml
   label: Ceramic Interests API
   slug: ceramic-interests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-interests-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-interests-api-openapi.yml
 - filename: ceramic-liveness-api-openapi.yml
   format: yaml
   label: Ceramic Liveness API
   slug: ceramic-liveness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-liveness-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-liveness-api-openapi.yml
 - filename: ceramic-peers-api-openapi.yml
   format: yaml
   label: Ceramic Peers API
   slug: ceramic-peers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-peers-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-peers-api-openapi.yml
 - filename: ceramic-streams-api-openapi.yml
   format: yaml
   label: Ceramic Streams API
   slug: ceramic-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-streams-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-streams-api-openapi.yml
 - filename: ceramic-version-api-openapi.yml
   format: yaml
   label: Ceramic Version API
   slug: ceramic-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/openapi/ceramic-version-api-openapi.yml
+  url: https://artifacts.apis.io/ceramic/openapi/ceramic-version-api-openapi.yml
 consequence_counts:
   read: 26
   write: 4
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/cerami
   \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /liveness\n  method: get\n  operationId: getLiveness\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peers\n  method: options\n  operationId: optionsPeers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peers\n  method: get\n  operationId: getPeers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /peers\n  method: post\n  operationId: postPeers\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /streams/{stream_id}\n  method: options\n  operationId: optionsStreamsByStreamId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /streams/{stream_id}\n  method: get\n  operationId: getStreamsByStreamId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: options\n  operationId: optionsVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: get\n  operationId: getVersion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /version\n  method: post\n  operationId: postVersion\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/agentic-access/ceramic-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ceramic/agentic-access/ceramic-agentic-access.yml
 summary_line: 30 operations · 4 acting
 tags:
 - Decentralized

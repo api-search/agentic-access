@@ -9,37 +9,91 @@ api_specs:
   label: Amazon ECS Capacity Providers API
   slug: amazon-ecs-capacity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-capacity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-capacity-providers-api-openapi.yml
 - filename: amazon-ecs-clusters-api-openapi.yml
   format: yaml
   label: Amazon ECS Clusters API
   slug: amazon-ecs-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-clusters-api-openapi.yml
 - filename: amazon-ecs-container-instances-api-openapi.yml
   format: yaml
   label: Amazon ECS Container Instances API
   slug: amazon-ecs-container-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-container-instances-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-container-instances-api-openapi.yml
 - filename: amazon-ecs-task-definitions-api-openapi.yml
   format: yaml
   label: Amazon ECS Task Definitions API
   slug: amazon-ecs-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-task-definitions-api-openapi.yml
 - filename: amazon-ecs-tasks-api-openapi.yml
   format: yaml
   label: Amazon ECS Tasks API
   slug: amazon-ecs-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-tasks-api-openapi.yml
 - filename: amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api-openapi.yml
   format: yaml
   label: Amazon ECS Amazon ECS Amazon Elastic Container Service (ECS) API
   slug: amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/openapi/amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-amazon-ecs-amazon-elastic-container-service-ecs-api-api-openapi.yml
+- filename: amazon-ecs-account-setting-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Account Setting API
+  slug: amazon-ecs-account-setting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-account-setting-api-openapi.yml
+- filename: amazon-ecs-attribute-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Attribute API
+  slug: amazon-ecs-attribute-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-attribute-api-openapi.yml
+- filename: amazon-ecs-daemon-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Daemon API
+  slug: amazon-ecs-daemon-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-daemon-api-openapi.yml
+- filename: amazon-ecs-daemon-task-definition-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Daemon Task Definition API
+  slug: amazon-ecs-daemon-task-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-daemon-task-definition-api-openapi.yml
+- filename: amazon-ecs-express-gateway-service-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Express Gateway Service API
+  slug: amazon-ecs-express-gateway-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-express-gateway-service-api-openapi.yml
+- filename: amazon-ecs-gateway-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Gateway API
+  slug: amazon-ecs-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-gateway-api-openapi.yml
+- filename: amazon-ecs-operations-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Operations API
+  slug: amazon-ecs-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-operations-api-openapi.yml
+- filename: amazon-ecs-service-deployment-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Service Deployment API
+  slug: amazon-ecs-service-deployment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-service-deployment-api-openapi.yml
+- filename: amazon-ecs-task-set-api-openapi.yml
+  format: yaml
+  label: Amazon ECS Ecs Task Set API
+  slug: amazon-ecs-task-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ecs/openapi/amazon-ecs-task-set-api-openapi.yml
 consequence_counts:
   read: 9
   safety-critical: 1
@@ -88,10 +142,11 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/amazon
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ListTagsForResource\n  method: post\n  operationId: ListTagsForResource\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ExecuteCommand\n  method: post\n  operationId: ExecuteCommand\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.CreateService\n  method: post\n  operationId: CreateService\n  x-agentic-access:\n\
   \    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DeleteService\n  method: post\n  operationId: DeleteService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DescribeServices\n  method: post\n  operationId: DescribeServices\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n   \
   \   - abnormal\n      - high-value\n    audit: required\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ListServices\n  method: post\n  operationId: ListServices\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.UpdateService\n  method: post\n  operationId: UpdateService\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/agentic-access/amazon-ecs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-ecs/agentic-access/amazon-ecs-agentic-access.yml
 summary_line: 34 operations · 25 acting · 1 human-in-the-loop
 tags:
 - Amazon
+- Amazon Web Services
 - Containers
 - Docker
 - ECS

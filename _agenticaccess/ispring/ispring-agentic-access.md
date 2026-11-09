@@ -9,121 +9,121 @@ api_specs:
   label: iSpring Learn Assignments API
   slug: ispring-assignments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-assignments-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-assignments-api-openapi.yml
 - filename: ispring-certificate-api-openapi.yml
   format: yaml
   label: iSpring Learn Certificate API
   slug: ispring-certificate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-certificate-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-certificate-api-openapi.yml
 - filename: ispring-content-api-openapi.yml
   format: yaml
   label: iSpring Learn Content API
   slug: ispring-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-content-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-content-api-openapi.yml
 - filename: ispring-department-api-openapi.yml
   format: yaml
   label: iSpring Learn Department API
   slug: ispring-department-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-department-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-department-api-openapi.yml
 - filename: ispring-departments-api-openapi.yml
   format: yaml
   label: iSpring Learn Departments API
   slug: ispring-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-departments-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-departments-api-openapi.yml
 - filename: ispring-enrollment-api-openapi.yml
   format: yaml
   label: iSpring Learn Enrollment API
   slug: ispring-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-enrollment-api-openapi.yml
 - filename: ispring-gamification-api-openapi.yml
   format: yaml
   label: iSpring Learn Gamification API
   slug: ispring-gamification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-gamification-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-gamification-api-openapi.yml
 - filename: ispring-group-api-openapi.yml
   format: yaml
   label: iSpring Learn Group API
   slug: ispring-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-group-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-group-api-openapi.yml
 - filename: ispring-jobtraining-api-openapi.yml
   format: yaml
   label: iSpring Learn Jobtraining API
   slug: ispring-jobtraining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-jobtraining-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-jobtraining-api-openapi.yml
 - filename: ispring-learning-track-api-openapi.yml
   format: yaml
   label: iSpring Learn Learning Track API
   slug: ispring-learning-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-learning-track-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-learning-track-api-openapi.yml
 - filename: ispring-performance-management-api-openapi.yml
   format: yaml
   label: iSpring Learn Performance Management API
   slug: ispring-performance-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-performance-management-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-performance-management-api-openapi.yml
 - filename: ispring-quizzes-api-openapi.yml
   format: yaml
   label: iSpring Learn Quizzes API
   slug: ispring-quizzes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-quizzes-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-quizzes-api-openapi.yml
 - filename: ispring-report-api-openapi.yml
   format: yaml
   label: iSpring Learn Report API
   slug: ispring-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-report-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-report-api-openapi.yml
 - filename: ispring-results-api-openapi.yml
   format: yaml
   label: iSpring Learn Results API
   slug: ispring-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-results-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-results-api-openapi.yml
 - filename: ispring-statistics-api-openapi.yml
   format: yaml
   label: iSpring Learn Statistics API
   slug: ispring-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-statistics-api-openapi.yml
 - filename: ispring-task-api-openapi.yml
   format: yaml
   label: iSpring Learn Task API
   slug: ispring-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-task-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-task-api-openapi.yml
 - filename: ispring-token-api-openapi.yml
   format: yaml
   label: iSpring Learn Token API
   slug: ispring-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-token-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-token-api-openapi.yml
 - filename: ispring-training-api-openapi.yml
   format: yaml
   label: iSpring Learn Training API
   slug: ispring-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-training-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-training-api-openapi.yml
 - filename: ispring-user-api-openapi.yml
   format: yaml
   label: iSpring Learn User API
   slug: ispring-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-user-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-user-api-openapi.yml
 - filename: ispring-webhook-api-openapi.yml
   format: yaml
   label: iSpring Learn Webhook API
   slug: ispring-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/openapi/ispring-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/ispring/openapi/ispring-webhook-api-openapi.yml
 consequence_counts:
   physical: 3
   read: 61
@@ -217,8 +217,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/isprin
   \    audit: none\n- path: /report/answer-breakdown\n  method: get\n  operationId: ListAnswerBreakdownResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /learners/results\n  method: get\n  operationId: ListLearnerResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /learners/modules/results\n  method: get\n  operationId: ListLearnerModulesResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /statistics/course\n  method: post\n  operationId: UpdateCourseStatus\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n  \
   \    triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statistics/module\n  method: post\n  operationId: UpdateModuleStatuses\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /statistics/module\n  method: delete\n  operationId: ResetModuleStatistics\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /task/{taskId}/status\n  method: get\n  operationId: GetTaskStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v3/token\n  method: post\n  operationId: AccessRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /training/{trainingId}\n  method: get\n  operationId: GetTrainingById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/session/{trainingSessionId}\n  method: get\n  operationId: GetTrainingSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/{trainingId}/sessions\n  method: get\n  operationId: ListSessionsByTrainingId\n  x-agentic-access:\n    action-class:\
-  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/day/{dayId}\n  method: get\n  operationId: GetDay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/day/{dayId}\n  method: post\n  operationId: UpdateDay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /training/session/participants/{sessionId}\n  method: get\n  operationId: ListSessionParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/agentic-access/ispring-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/agentic-access/ispring-agentic-access.yml
+  \ connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/day/{dayId}\n  method: get\n  operationId: GetDay\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /training/day/{dayId}\n  method: post\n  operationId: UpdateDay\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /training/session/participants/{sessionId}\n  method: get\n  operationId: ListSessionParticipants\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (43 KB total) ---\n# Full source: https://artifacts.apis.io/ispring/agentic-access/ispring-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ispring/agentic-access/ispring-agentic-access.yml
 summary_line: 142 operations · 81 acting · 3 human-in-the-loop
 tags:
 - E-Learning

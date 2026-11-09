@@ -9,73 +9,73 @@ api_specs:
   label: Criteo Accounts API
   slug: criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-accounts-api-openapi.yml
 - filename: criteo-advertiser-api-openapi.yml
   format: yaml
   label: Criteo Advertiser API
   slug: criteo-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-advertiser-api-openapi.yml
 - filename: criteo-analytics-api-openapi.yml
   format: yaml
   label: Criteo Analytics API
   slug: criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-analytics-api-openapi.yml
 - filename: criteo-audience-api-openapi.yml
   format: yaml
   label: Criteo Audience API
   slug: criteo-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-audience-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-audience-api-openapi.yml
 - filename: criteo-balance-api-openapi.yml
   format: yaml
   label: Criteo Balance API
   slug: criteo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-balance-api-openapi.yml
 - filename: criteo-billing-api-openapi.yml
   format: yaml
   label: Criteo Billing API
   slug: criteo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-billing-api-openapi.yml
 - filename: criteo-campaign-api-openapi.yml
   format: yaml
   label: Criteo Campaign API
   slug: criteo-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-campaign-api-openapi.yml
 - filename: criteo-catalog-api-openapi.yml
   format: yaml
   label: Criteo Catalog API
   slug: criteo-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-catalog-api-openapi.yml
 - filename: criteo-creative-api-openapi.yml
   format: yaml
   label: Criteo Creative API
   slug: criteo-creative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-creative-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-creative-api-openapi.yml
 - filename: criteo-gateway-api-openapi.yml
   format: yaml
   label: Criteo Gateway API
   slug: criteo-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-gateway-api-openapi.yml
 - filename: criteo-reco-api-openapi.yml
   format: yaml
   label: Criteo Reco API
   slug: criteo-reco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-reco-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-reco-api-openapi.yml
 - filename: criteo-segment-api-openapi.yml
   format: yaml
   label: Criteo Segment API
   slug: criteo-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-segment-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-segment-api-openapi.yml
 consequence_counts:
   read: 105
   safety-critical: 4
@@ -158,8 +158,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/criteo
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/marketing-solutions/ad-sets/search\n  method: post\n  operationId: SearchAdSets\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/ad-sets/start\n  method: post\n  operationId: StartAdSets\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - MarketingSolutions_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/marketing-solutions/ad-sets/stop\n  method: post\n  operationId: StopAdSets\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n \
   \   scope:\n    - MarketingSolutions_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /2026-07/marketing-solutions/campaigns\n  method: patch\n  operationId: PatchCampaigns\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - MarketingSolutions_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/marketing-solutions/campaigns\n  method: post\n  operationId: CreateCampaign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - MarketingSolutions_Campaign_Manage\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /2026-07/marketing-solutions/campaigns/{campaign-id}\n  method: get\n  operationId: GetCampaign\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/campaigns/search\n  method: post\n  operationId: SearchCampaigns\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/marketplace-performance-outcomes/advertisers\n  method: get\n  operationId: GetMarketplaceAdvertisers\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n\
-  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/marketplace-performance-outcomes/advertisers/{advertiserId}\n  method: get\n  operationId: GetMarketplaceAdvertiser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/marketplace-performance-outcomes/advertisers/{advertiserId}/ad-preview\n  method: get\n  operationId: GetMarketplaceSellerAdPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (81 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/agentic-access/criteo-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/agentic-access/criteo-agentic-access.yml
+  \    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/marketplace-performance-outcomes/advertisers/{advertiserId}\n  method: get\n  operationId: GetMarketplaceAdvertiser\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /2026-07/marketing-solutions/marketplace-performance-outcomes/advertisers/{advertiserId}/ad-preview\n  method: get\n  operationId: GetMarketplaceSellerAdPreview\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - MarketingSolutions_Campaign_Read\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (81 KB total) ---\n# Full source: https://artifacts.apis.io/criteo/agentic-access/criteo-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/criteo/agentic-access/criteo-agentic-access.yml
 summary_line: 219 operations · 114 acting · 4 human-in-the-loop
 tags:
 - Advertising
@@ -174,7 +174,7 @@ tags:
 - Marketing
 - MCP
 - Media
-- Authentication
+- OAuth
 - OpenAPI
 - Reporting
 - Retail
@@ -182,4 +182,5 @@ tags:
 - Sponsored Products
 - A2A
 - AdTech
+- Authentication
 ---

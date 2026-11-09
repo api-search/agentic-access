@@ -9,25 +9,25 @@ api_specs:
   label: Brandcast Account API
   slug: brandcast-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-account-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-account-api-openapi.yml
 - filename: brandcast-salesforce-api-openapi.yml
   format: yaml
   label: Brandcast Salesforce API
   slug: brandcast-salesforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-salesforce-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-salesforce-api-openapi.yml
 - filename: brandcast-templates-api-openapi.yml
   format: yaml
   label: Brandcast Templates API
   slug: brandcast-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-templates-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-templates-api-openapi.yml
 - filename: brandcast-websites-api-openapi.yml
   format: yaml
   label: Brandcast Websites API
   slug: brandcast-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/openapi/brandcast-websites-api-openapi.yml
+  url: https://artifacts.apis.io/brandcast/openapi/brandcast-websites-api-openapi.yml
 consequence_counts:
   read: 14
   safety-critical: 1
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: generated\nsource: openapi/brandc
   \   action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /websites/{websiteId}/publish\n  method: post\n  operationId: createPublishJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /websites/{websiteId}/publish/{publishId}\n  method: get\n  operationId: getPublishJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /websites/{websiteId}/unpublish\n  method: post\n  operationId: unpublishWebsite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /websites/{websiteId}/publish/{publishId}/export\n  method: post\n  operationId: createExportJob\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /websites/{websiteId}/publish/{publishId}/export/{fileName}\n  method: get\n  operationId: getExportJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /websites/{websiteId}/export\n  method: get\n  operationId: getExportList\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /websites/{websiteId}/protection\n\
   \  method: put\n  operationId: protectWebsite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brandcast/refs/heads/main/agentic-access/brandcast-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/brandcast/agentic-access/brandcast-agentic-access.yml
 summary_line: 26 operations · 12 acting · 1 human-in-the-loop
 tags:
 - Company

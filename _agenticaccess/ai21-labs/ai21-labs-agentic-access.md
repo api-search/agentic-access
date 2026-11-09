@@ -15,19 +15,19 @@ api_specs:
   label: AI21 Labs Library API
   slug: ai21-labs-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-library-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-library-api-openapi.yml
 - filename: ai21-labs-maestro-api-openapi.yml
   format: yaml
   label: AI21 Labs Maestro API
   slug: ai21-labs-maestro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-maestro-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-maestro-api-openapi.yml
 - filename: ai21-labs-chat-completions-api-openapi.yml
   format: yaml
   label: AI21 Labs Chat Completions API
   slug: ai21-labs-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/openapi/ai21-labs-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ai21-labs/openapi/ai21-labs-chat-completions-api-openapi.yml
 consequence_counts:
   read: 2
   write: 3
@@ -55,7 +55,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ai21-labs-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 5\n  by_action_class:\n    acting: 3\n    connected: 2\n  by_consequence:\n    write: 3\n    read: 2\n  human_in_the_loop_required: 0\noperations:\n- path: /studio/v1/chat/completions\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studio/v1/maestro/runs\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /studio/v1/maestro/runs/{run_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studio/v1/library/files\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /studio/v1/library/files\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/agentic-access/ai21-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/ai21-labs/agentic-access/ai21-labs-agentic-access.yml
 summary_line: 5 operations · 3 acting
 tags:
 - Artificial Intelligence

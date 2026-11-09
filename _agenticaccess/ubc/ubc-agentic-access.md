@@ -9,13 +9,13 @@ api_specs:
   label: UBC Library Abacus Dataverse API
   slug: abacus-dataverse
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-access-api-openapi.yml
+  url: https://artifacts.apis.io/ubc/openapi/ubc-access-api-openapi.yml
 - filename: ubc-collections-api-openapi.yml
   format: yaml
   label: University of British Columbia Collections API
   slug: ubc-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/openapi/ubc-collections-api-openapi.yml
+  url: https://artifacts.apis.io/ubc/openapi/ubc-collections-api-openapi.yml
 consequence_counts:
   physical: 2
   read: 201
@@ -115,8 +115,8 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/ubc-ab
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/filemetadata/{dataset_id}\n  method: get\n  operationId: getFileMetadataByDatasetId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/filesearch\n  method: get\n  operationId: filesearch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/mod\n  method: get\n  operationId: indexMod\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/perms\n  method: get\n  operationId: indexAllPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/perms/{id}\n  method: get\n  operationId: indexPermissions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/permsDebug\n  method: get\n  operationId: searchPermsDebug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/solr/schema\n  method: get\n  operationId: getSolrSchema\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/status\n  method: get\n  operationId: indexStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/test\n\
   \  method: get\n  operationId: searchDebug\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/admin/index/timestamps\n  method: delete\n  operationId: deleteAllTimestamps\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/admin/index/timestamps/{dvObjectId}\n  method: delete\n  operationId: deleteTimestamp\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (108 KB total) ---\n# Full source:\
-  \ https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/agentic-access/ubc-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ubc/refs/heads/main/agentic-access/ubc-agentic-access.yml
+  \ https://artifacts.apis.io/ubc/agentic-access/ubc-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/ubc/agentic-access/ubc-agentic-access.yml
 summary_line: 378 operations · 177 acting · 5 human-in-the-loop
 tags:
 - Education

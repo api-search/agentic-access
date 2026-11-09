@@ -9,55 +9,55 @@ api_specs:
   label: Beyond Pricing Accounts API
   slug: beyond-pricing-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-accounts-api-openapi.yml
 - filename: beyond-pricing-compsets-api-openapi.yml
   format: yaml
   label: Beyond Pricing Compsets API
   slug: beyond-pricing-compsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-compsets-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-compsets-api-openapi.yml
 - filename: beyond-pricing-customizations-api-openapi.yml
   format: yaml
   label: Beyond Pricing Customizations API
   slug: beyond-pricing-customizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-customizations-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-customizations-api-openapi.yml
 - filename: beyond-pricing-insights-api-openapi.yml
   format: yaml
   label: Beyond Pricing Insights API
   slug: beyond-pricing-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-insights-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-insights-api-openapi.yml
 - filename: beyond-pricing-listings-api-openapi.yml
   format: yaml
   label: Beyond Pricing Listings API
   slug: beyond-pricing-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-listings-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-listings-api-openapi.yml
 - filename: beyond-pricing-users-api-openapi.yml
   format: yaml
   label: Beyond Pricing Users API
   slug: beyond-pricing-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-users-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-users-api-openapi.yml
 - filename: beyond-pricing-webhooks-api-openapi.yml
   format: yaml
   label: Beyond Pricing Webhooks API
   slug: beyond-pricing-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-webhooks-api-openapi.yml
 - filename: beyond-pricing-oauth2-api-openapi.yml
   format: yaml
   label: Beyond Pricing O Auth2 API
   slug: beyond-pricing-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-oauth2-api-openapi.yml
 - filename: beyond-pricing-reservations-api-openapi.yml
   format: yaml
   label: Beyond Pricing Reservations API
   slug: beyond-pricing-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-reservations-api-openapi.yml
 consequence_counts:
   read: 18
   write: 13
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-18'\nmethod: generated\nsource: openapi/beyond
   \ required\n- path: /api/v1/users/{user_id}/accounts/{account_id}/\n  method: get\n  operationId: get_account\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user_id}/accounts/{account_id}/\n  method: delete\n  operationId: delete_account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/accounts/{account_id}/refresh/\n  method: post\n  operationId: refresh_account\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - user:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n\
   \      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/users/{user_id}/credentials/\n  method: get\n  operationId: list_user_credentials\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - user:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/users/{user_id}/market-insights/\n  method: get\n  operationId: get_market_insights\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - insights:read\n    - user:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /o/token/\n  method: post\n  operationId: create_token\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n\
   \    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/agentic-access/beyond-pricing-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/beyond-pricing/agentic-access/beyond-pricing-agentic-access.yml
 summary_line: 31 operations · 13 acting
 tags:
 - Company

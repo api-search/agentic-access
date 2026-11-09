@@ -9,31 +9,31 @@ api_specs:
   label: VictoriaMetrics Admin API
   slug: victoriametrics-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-admin-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-admin-api-openapi.yml
 - filename: victoriametrics-export-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Export API
   slug: victoriametrics-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-export-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-export-api-openapi.yml
 - filename: victoriametrics-import-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Import API
   slug: victoriametrics-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-import-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-import-api-openapi.yml
 - filename: victoriametrics-query-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Query API
   slug: victoriametrics-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-query-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-query-api-openapi.yml
 - filename: victoriametrics-third-party-api-openapi.yml
   format: yaml
   label: VictoriaMetrics Third-Party API
   slug: victoriametrics-third-party-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/openapi/victoriametrics-third-party-api-openapi.yml
+  url: https://artifacts.apis.io/victoriametrics/openapi/victoriametrics-third-party-api-openapi.yml
 consequence_counts:
   read: 13
   write: 12
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/victor
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/labels\n  method: get\n  operationId: getLabels\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/label/{label}/values\n  method: get\n  operationId: getLabelValues\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/series\n  method: get\n  operationId: getSeries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/series\n  method: post\n  operationId: getSeriesPost\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/status/tsdb\n  method: get\n  operationId: getTsdbStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/metadata\n  method: get\n  operationId: getMetadata\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /datadog/api/v1/series\n  method: post\n  operationId: datadogV1\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /datadog/api/v2/series\n  method: post\n  operationId: datadogV2\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
   \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /graphite/metrics/find\n  method: get\n  operationId: graphiteFind\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/put\n  method: post\n  operationId: opentsdbPut\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/victoriametrics/refs/heads/main/agentic-access/victoriametrics-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/victoriametrics/agentic-access/victoriametrics-agentic-access.yml
 summary_line: 25 operations · 12 acting
 tags:
 - Database

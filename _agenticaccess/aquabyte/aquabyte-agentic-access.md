@@ -8,43 +8,43 @@ api_specs:
   label: Aquabyte Behaviour API
   slug: aquabyte-behaviour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-behaviour-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-behaviour-api-openapi.yml
 - filename: aquabyte-biomass-api-openapi.yml
   format: yaml
   label: Aquabyte Biomass API
   slug: aquabyte-biomass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-biomass-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-biomass-api-openapi.yml
 - filename: aquabyte-environmental-api-openapi.yml
   format: yaml
   label: Aquabyte Environmental API
   slug: aquabyte-environmental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-environmental-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-environmental-api-openapi.yml
 - filename: aquabyte-lice-api-openapi.yml
   format: yaml
   label: Aquabyte Lice API
   slug: aquabyte-lice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-lice-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-lice-api-openapi.yml
 - filename: aquabyte-sites-api-openapi.yml
   format: yaml
   label: Aquabyte Sites API
   slug: aquabyte-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-sites-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-sites-api-openapi.yml
 - filename: aquabyte-welfare-api-openapi.yml
   format: yaml
   label: Aquabyte Welfare API
   slug: aquabyte-welfare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-welfare-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-welfare-api-openapi.yml
 - filename: aquabyte-pens-api-openapi.yml
   format: yaml
   label: Aquabyte Pens API
   slug: aquabyte-pens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-pens-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-pens-api-openapi.yml
 consequence_counts:
   read: 19
 description: Recommended x-agentic-access execution contracts, classified heuristically from the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind audience per deployment. See research/curity/agentic-governance/.
@@ -75,7 +75,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/aquaby
   \  method: get\n  operationId: get_environmental_deprecated_pens__penId__environmental_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/environmental/latest\n  method: get\n  operationId: get_environmental_latest_pens__penId__environmental_latest_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/biomass\n  method: get\n  operationId: get_biomass_daily_deprecated_pens__penId__biomass_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/biomass/harvestReport\n  method: get\n  operationId: get_biomass_harvest_report_deprecated_pens__penId__biomass_harvestReport_get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/liceCount\n  method: get\n  operationId: get_pen_lice_count_deprecated_pens__penId__liceCount_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/behavior/swimSpeed\n  method: get\n  operationId: get_behavior_swim_speed_deprecated_pens__penId__behavior_swimSpeed_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/behavior/breathingIndex\n  method: get\n  operationId: get_behavior_breathing_index_deprecated_pens__penId__behavior_breathingIndex_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pens/{penId}/welfareScores\n  method: get\n  operationId:\
   \ get_pen_welfare_data_deprecated_pens__penId__welfareScores_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /welfareScores\n  method: get\n  operationId: get_pen_welfare_data_welfareScores_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /superiorRate\n  method: post\n  operationId: get_pen_superior_rate_superiorRate_post\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/agentic-access/aquabyte-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/aquabyte/agentic-access/aquabyte-agentic-access.yml
 summary_line: 19 operations
 tags:
 - Aquaculture

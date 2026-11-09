@@ -9,247 +9,247 @@ api_specs:
   label: WorkOS Admin Portal API
   slug: workos-admin-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-admin-portal-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-admin-portal-api-openapi.yml
 - filename: workos-api-keys-api-openapi.yml
   format: yaml
   label: WorkOS API Keys API
   slug: workos-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-api-keys-api-openapi.yml
 - filename: workos-application-client-secrets-api-openapi.yml
   format: yaml
   label: WorkOS Application.client Secrets API
   slug: workos-application-client-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-application-client-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-application-client-secrets-api-openapi.yml
 - filename: workos-applications-api-openapi.yml
   format: yaml
   label: WorkOS Applications API
   slug: workos-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-applications-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-applications-api-openapi.yml
 - filename: workos-audit-logs-api-openapi.yml
   format: yaml
   label: WorkOS Audit Logs API
   slug: workos-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-audit-logs-api-openapi.yml
 - filename: workos-authorization-api-openapi.yml
   format: yaml
   label: WorkOS Authorization API
   slug: workos-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-authorization-api-openapi.yml
 - filename: workos-connections-api-openapi.yml
   format: yaml
   label: WorkOS Connections API
   slug: workos-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-connections-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-connections-api-openapi.yml
 - filename: workos-directories-api-openapi.yml
   format: yaml
   label: WorkOS Directories API
   slug: workos-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-directories-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-directories-api-openapi.yml
 - filename: workos-directory-groups-api-openapi.yml
   format: yaml
   label: WorkOS Directory Groups API
   slug: workos-directory-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-directory-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-directory-groups-api-openapi.yml
 - filename: workos-directory-users-api-openapi.yml
   format: yaml
   label: WorkOS Directory Users API
   slug: workos-directory-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-directory-users-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-directory-users-api-openapi.yml
 - filename: workos-events-api-openapi.yml
   format: yaml
   label: WorkOS Events API
   slug: workos-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-events-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-events-api-openapi.yml
 - filename: workos-feature-flags-api-openapi.yml
   format: yaml
   label: WorkOS Feature Flags API
   slug: workos-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-feature-flags-api-openapi.yml
 - filename: workos-feature-flags-targets-api-openapi.yml
   format: yaml
   label: WorkOS Feature Flags.targets API
   slug: workos-feature-flags-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-feature-flags-targets-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-feature-flags-targets-api-openapi.yml
 - filename: workos-groups-api-openapi.yml
   format: yaml
   label: WorkOS Groups API
   slug: workos-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-groups-api-openapi.yml
 - filename: workos-multi-factor-auth-api-openapi.yml
   format: yaml
   label: WorkOS Multi Factor Auth API
   slug: workos-multi-factor-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-multi-factor-auth-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-multi-factor-auth-api-openapi.yml
 - filename: workos-multi-factor-auth-challenges-api-openapi.yml
   format: yaml
   label: WorkOS Multi Factor Auth.challenges API
   slug: workos-multi-factor-auth-challenges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-multi-factor-auth-challenges-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-multi-factor-auth-challenges-api-openapi.yml
 - filename: workos-organization-domains-api-openapi.yml
   format: yaml
   label: WorkOS Organization Domains API
   slug: workos-organization-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organization-domains-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-organization-domains-api-openapi.yml
 - filename: workos-organizations-api-keys-api-openapi.yml
   format: yaml
   label: WorkOS Organizations.api Keys API
   slug: workos-organizations-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organizations-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-organizations-api-keys-api-openapi.yml
 - filename: workos-organizations-api-openapi.yml
   format: yaml
   label: WorkOS Organizations API
   slug: workos-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-organizations-api-openapi.yml
 - filename: workos-organizations-feature-flags-api-openapi.yml
   format: yaml
   label: WorkOS Organizations.feature Flags API
   slug: workos-organizations-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-organizations-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-organizations-feature-flags-api-openapi.yml
 - filename: workos-permissions-api-openapi.yml
   format: yaml
   label: WorkOS Permissions API
   slug: workos-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-permissions-api-openapi.yml
 - filename: workos-pipes-api-openapi.yml
   format: yaml
   label: WorkOS Pipes API
   slug: workos-pipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-pipes-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-pipes-api-openapi.yml
 - filename: workos-radar-api-openapi.yml
   format: yaml
   label: WorkOS Radar API
   slug: workos-radar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-radar-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-radar-api-openapi.yml
 - filename: workos-sso-api-openapi.yml
   format: yaml
   label: WorkOS SSO API
   slug: workos-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-sso-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-sso-api-openapi.yml
 - filename: workos-user-management-authentication-api-openapi.yml
   format: yaml
   label: WorkOS User Management.authentication API
   slug: workos-user-management-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-authentication-api-openapi.yml
 - filename: workos-user-management-cors-origins-api-openapi.yml
   format: yaml
   label: WorkOS User Management.cors Origins API
   slug: workos-user-management-cors-origins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-cors-origins-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-cors-origins-api-openapi.yml
 - filename: workos-user-management-data-providers-api-openapi.yml
   format: yaml
   label: WorkOS User Management.data Providers API
   slug: workos-user-management-data-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-data-providers-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-data-providers-api-openapi.yml
 - filename: workos-user-management-invitations-api-openapi.yml
   format: yaml
   label: WorkOS User Management.invitations API
   slug: workos-user-management-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-invitations-api-openapi.yml
 - filename: workos-user-management-jwt-template-api-openapi.yml
   format: yaml
   label: WorkOS User Management.jwt Template API
   slug: workos-user-management-jwt-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-jwt-template-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-jwt-template-api-openapi.yml
 - filename: workos-user-management-magic-auth-api-openapi.yml
   format: yaml
   label: WorkOS User Management.magic Auth API
   slug: workos-user-management-magic-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-magic-auth-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-magic-auth-api-openapi.yml
 - filename: workos-user-management-multi-factor-authentication-api-openapi.yml
   format: yaml
   label: WorkOS User Management.multi Factor Authentication API
   slug: workos-user-management-multi-factor-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-multi-factor-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-multi-factor-authentication-api-openapi.yml
 - filename: workos-user-management-organization-membership-api-openapi.yml
   format: yaml
   label: WorkOS User Management.organization Membership API
   slug: workos-user-management-organization-membership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-organization-membership-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-organization-membership-api-openapi.yml
 - filename: workos-user-management-organization-membership-groups-api-openapi.yml
   format: yaml
   label: WorkOS User Management.organization Membership.groups API
   slug: workos-user-management-organization-membership-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-organization-membership-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-organization-membership-groups-api-openapi.yml
 - filename: workos-user-management-redirect-uris-api-openapi.yml
   format: yaml
   label: WorkOS User Management.redirect Uris API
   slug: workos-user-management-redirect-uris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-redirect-uris-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-redirect-uris-api-openapi.yml
 - filename: workos-user-management-session-tokens-api-openapi.yml
   format: yaml
   label: WorkOS User Management.session Tokens API
   slug: workos-user-management-session-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-session-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-session-tokens-api-openapi.yml
 - filename: workos-user-management-users-api-openapi.yml
   format: yaml
   label: WorkOS User Management.users API
   slug: workos-user-management-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-users-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-users-api-openapi.yml
 - filename: workos-user-management-users-authorized-applications-api-openapi.yml
   format: yaml
   label: WorkOS User Management.users.authorized Applications API
   slug: workos-user-management-users-authorized-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-users-authorized-applications-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-users-authorized-applications-api-openapi.yml
 - filename: workos-user-management-users-feature-flags-api-openapi.yml
   format: yaml
   label: WorkOS User Management.users.feature Flags API
   slug: workos-user-management-users-feature-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-user-management-users-feature-flags-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-user-management-users-feature-flags-api-openapi.yml
 - filename: workos-webhooks-api-openapi.yml
   format: yaml
   label: WorkOS Webhooks API
   slug: workos-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-webhooks-api-openapi.yml
 - filename: workos-widgets-api-openapi.yml
   format: yaml
   label: WorkOS Widgets API
   slug: workos-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-widgets-api-openapi.yml
 - filename: workos-workos-connect-api-openapi.yml
   format: yaml
   label: WorkOS-connect API
   slug: workos-workos-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/openapi/workos-workos-connect-api-openapi.yml
+  url: https://artifacts.apis.io/workos/openapi/workos-workos-connect-api-openapi.yml
 consequence_counts:
   read: 76
   safety-critical: 96
@@ -436,8 +436,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/workos
   \  method: delete\n  operationId: GroupsController_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /organizations/{organizationId}/groups/{groupId}/organization-memberships\n  method: post\n  operationId: GroupMembershipsController_addMember\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /organizations/{organizationId}/groups/{groupId}/organization-memberships\n  method: get\n  operationId: GroupMembershipsController_listMembers\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /organizations/{organizationId}/groups/{groupId}/organization-memberships/{omId}\n  method: delete\n  operationId: GroupMembershipsController_removeMember\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /auth/factors/enroll\n  method: post\n  operationId: AuthenticationFactorsController_create\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n \
   \   audit: required\n- path: /auth/factors/{id}\n  method: get\n  operationId: AuthenticationFactorsController_get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /auth/factors/{id}\n  method: delete\n  operationId: AuthenticationFactorsController_delete\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /auth/factors/{id}/challenge\n  method: post\n  operationId: AuthenticationFactorsController_challenge\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n  \
-  \    proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /auth/challenges/{id}/verify\n  method: post\n  operationId: AuthenticationChallengesController_verify\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/agentic-access/workos-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workos/refs/heads/main/agentic-access/workos-agentic-access.yml
+  \    proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /auth/challenges/{id}/verify\n  method: post\n  operationId: AuthenticationChallengesController_verify\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n\n\n# --- truncated at 32 KB (61 KB total) ---\n# Full source: https://artifacts.apis.io/workos/agentic-access/workos-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/workos/agentic-access/workos-agentic-access.yml
 summary_line: 172 operations · 96 acting · 96 human-in-the-loop
 tags:
 - Authentication

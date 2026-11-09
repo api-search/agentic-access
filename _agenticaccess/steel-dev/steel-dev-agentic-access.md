@@ -9,25 +9,25 @@ api_specs:
   label: Steel Files API
   slug: steel-dev-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-files-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-files-api-openapi.yml
 - filename: steel-dev-quick-actions-api-openapi.yml
   format: yaml
   label: Steel Quick Actions API
   slug: steel-dev-quick-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-quick-actions-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-quick-actions-api-openapi.yml
 - filename: steel-dev-session-actions-api-openapi.yml
   format: yaml
   label: Steel Session Actions API
   slug: steel-dev-session-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-session-actions-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-session-actions-api-openapi.yml
 - filename: steel-dev-sessions-api-openapi.yml
   format: yaml
   label: Steel Sessions API
   slug: steel-dev-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/openapi/steel-dev-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/steel-dev/openapi/steel-dev-sessions-api-openapi.yml
 consequence_counts:
   read: 7
   write: 10
@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/steel-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/screenshot\n  method: post\n  operationId: screenshotSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/pdf\n  method: post\n  operationId: pdfSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions\n  method: get\n  operationId: listSessions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}\n  method: get\n  operationId: getSession\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/context\n  method: get\n  operationId: getSessionContext\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /sessions/{sessionId}/live-details\n  method: get\n  operationId: getSessionLiveDetails\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path:\
   \ /sessions/{sessionId}/release\n  method: post\n  operationId: releaseSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /sessions/release\n  method: post\n  operationId: releaseSessions\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/steel-dev/refs/heads/main/agentic-access/steel-dev-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/steel-dev/agentic-access/steel-dev-agentic-access.yml
 summary_line: 17 operations · 10 acting
 tags:
 - Browser

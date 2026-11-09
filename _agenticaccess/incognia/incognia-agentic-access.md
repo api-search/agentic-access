@@ -8,25 +8,25 @@ api_specs:
   label: Incognia Authentication API
   slug: incognia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-authentication-api-openapi.yml
 - filename: incognia-feedback-api-openapi.yml
   format: yaml
   label: Incognia Feedback API
   slug: incognia-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-feedback-api-openapi.yml
 - filename: incognia-onboarding-api-openapi.yml
   format: yaml
   label: Incognia Onboarding API
   slug: incognia-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-onboarding-api-openapi.yml
 - filename: incognia-transactions-api-openapi.yml
   format: yaml
   label: Incognia Transactions API
   slug: incognia-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/openapi/incognia-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/incognia/openapi/incognia-transactions-api-openapi.yml
 consequence_counts:
   physical: 1
   write: 3
@@ -59,7 +59,7 @@ source_heading: Agentic Access
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: generated\nsource: openapi/incognia-openapi-original.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 4\n  by_action_class:\n    acting: 4\n  by_consequence:\n    write: 3\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /v2/token\n  method: post\n  operationId: createToken\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/onboarding/signups\n  method: post\n  operationId: registerSignup\n  x-agentic-access:\n    action-class: acting\n    consequence:\
   \ write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/authentication/transactions\n  method: post\n  operationId: registerTransaction\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/feedbacks\n  method: post\n  operationId: registerFeedback\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/incognia/refs/heads/main/agentic-access/incognia-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/incognia/agentic-access/incognia-agentic-access.yml
 summary_line: 4 operations · 4 acting
 tags:
 - Company

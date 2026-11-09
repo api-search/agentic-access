@@ -9,139 +9,139 @@ api_specs:
   label: Uphold Accounts API
   slug: uphold-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-accounts-api-openapi.yml
 - filename: uphold-assets-api-openapi.yml
   format: yaml
   label: Uphold Assets API
   slug: uphold-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-assets-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-assets-api-openapi.yml
 - filename: uphold-authentication-api-openapi.yml
   format: yaml
   label: Uphold Authentication API
   slug: uphold-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-authentication-api-openapi.yml
 - filename: uphold-capabilities-api-openapi.yml
   format: yaml
   label: Uphold Capabilities API
   slug: uphold-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-capabilities-api-openapi.yml
 - filename: uphold-countries-api-openapi.yml
   format: yaml
   label: Uphold Countries API
   slug: uphold-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-countries-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-countries-api-openapi.yml
 - filename: uphold-external-accounts-api-openapi.yml
   format: yaml
   label: Uphold External accounts API
   slug: uphold-external-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-external-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-external-accounts-api-openapi.yml
 - filename: uphold-files-api-openapi.yml
   format: yaml
   label: Uphold Files API
   slug: uphold-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-files-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-files-api-openapi.yml
 - filename: uphold-general-api-openapi.yml
   format: yaml
   label: Uphold General API
   slug: uphold-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-general-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-general-api-openapi.yml
 - filename: uphold-ingestions-api-openapi.yml
   format: yaml
   label: Uphold Ingestions API
   slug: uphold-ingestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-ingestions-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-ingestions-api-openapi.yml
 - filename: uphold-kyb-api-openapi.yml
   format: yaml
   label: Uphold KYB API
   slug: uphold-kyb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-kyb-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-kyb-api-openapi.yml
 - filename: uphold-kyc-api-openapi.yml
   format: yaml
   label: Uphold KYC API
   slug: uphold-kyc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-kyc-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-kyc-api-openapi.yml
 - filename: uphold-kyc-sharing-api-openapi.yml
   format: yaml
   label: Uphold KYC sharing API
   slug: uphold-kyc-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-kyc-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-kyc-sharing-api-openapi.yml
 - filename: uphold-metadata-api-openapi.yml
   format: yaml
   label: Uphold Metadata API
   slug: uphold-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-metadata-api-openapi.yml
 - filename: uphold-payment-api-openapi.yml
   format: yaml
   label: Uphold Payment API
   slug: uphold-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-payment-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-payment-api-openapi.yml
 - filename: uphold-portfolio-api-openapi.yml
   format: yaml
   label: Uphold Portfolio API
   slug: uphold-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-portfolio-api-openapi.yml
 - filename: uphold-statements-api-openapi.yml
   format: yaml
   label: Uphold Statements API
   slug: uphold-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-statements-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-statements-api-openapi.yml
 - filename: uphold-sumsub-api-openapi.yml
   format: yaml
   label: Uphold Sumsub API
   slug: uphold-sumsub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-sumsub-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-sumsub-api-openapi.yml
 - filename: uphold-terms-of-service-api-openapi.yml
   format: yaml
   label: Uphold Terms of service API
   slug: uphold-terms-of-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-terms-of-service-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-terms-of-service-api-openapi.yml
 - filename: uphold-transactions-api-openapi.yml
   format: yaml
   label: Uphold Transactions API
   slug: uphold-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-transactions-api-openapi.yml
 - filename: uphold-travel-rule-api-openapi.yml
   format: yaml
   label: Uphold Travel rule API
   slug: uphold-travel-rule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-travel-rule-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-travel-rule-api-openapi.yml
 - filename: uphold-users-api-openapi.yml
   format: yaml
   label: Uphold Users API
   slug: uphold-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-users-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-users-api-openapi.yml
 - filename: uphold-veriff-api-openapi.yml
   format: yaml
   label: Uphold Veriff API
   slug: uphold-veriff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-veriff-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-veriff-api-openapi.yml
 - filename: uphold-webhooks-api-openapi.yml
   format: yaml
   label: Uphold Webhooks API
   slug: uphold-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/openapi/uphold-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/uphold/openapi/uphold-webhooks-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 50
@@ -222,7 +222,7 @@ source_yaml: "generated: '2026-10-12'\nmethod: generated\nsource: openapi/uphold
   \   token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kyc-connector/veriff/ingestions\n  method: post\n  operationId: kyc-connector.create-veriff-ingestion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - kyc-connector.veriff.ingestions:create\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kyc-connector/veriff/ingestions\n  method: get\n  operationId: kyc-connector.list-veriff-ingestions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - kyc-connector.veriff.ingestions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kyc-connector/veriff/ingestions/{ingestionId}\n  method: get\n  operationId:\
   \ kyc-connector.get-veriff-ingestion\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - kyc-connector.veriff.ingestions:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /kyc-connector/veriff/config\n  method: put\n  operationId: kyc-connector.set-veriff-config\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - kyc-connector.veriff.config:write\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /kyc-connector/veriff/config\n  method: get\n  operationId: kyc-connector.get-veriff-config\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    scope:\n    - kyc-connector.veriff.config:read\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /core/webhooks/management-link\n\
   \  method: post\n  operationId: core.create-webhook-management-link\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    scope:\n    - core.webhooks:management-link\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uphold/refs/heads/main/agentic-access/uphold-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/uphold/agentic-access/uphold-agentic-access.yml
 summary_line: 92 operations · 42 acting
 tags:
 - Company

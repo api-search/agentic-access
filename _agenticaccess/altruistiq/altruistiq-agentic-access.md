@@ -9,55 +9,55 @@ api_specs:
   label: Altruistiq Export API
   slug: altruistiq-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-export-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-export-api-openapi.yml
 - filename: altruistiq-facility-api-openapi.yml
   format: yaml
   label: Altruistiq Facility API
   slug: altruistiq-facility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-facility-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-facility-api-openapi.yml
 - filename: altruistiq-location-api-openapi.yml
   format: yaml
   label: Altruistiq Location API
   slug: altruistiq-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-location-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-location-api-openapi.yml
 - filename: altruistiq-organization-api-openapi.yml
   format: yaml
   label: Altruistiq Organization API
   slug: altruistiq-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-organization-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-organization-api-openapi.yml
 - filename: altruistiq-product-api-openapi.yml
   format: yaml
   label: Altruistiq Product API
   slug: altruistiq-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-api-openapi.yml
 - filename: altruistiq-product-structure-api-openapi.yml
   format: yaml
   label: Altruistiq Product structure API
   slug: altruistiq-product-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-structure-api-openapi.yml
 - filename: altruistiq-product-structure-inputs-api-openapi.yml
   format: yaml
   label: Altruistiq Product structure inputs API
   slug: altruistiq-product-structure-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-product-structure-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-product-structure-inputs-api-openapi.yml
 - filename: altruistiq-security-api-openapi.yml
   format: yaml
   label: Altruistiq Security API
   slug: altruistiq-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-security-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-security-api-openapi.yml
 - filename: altruistiq-data-source-api-openapi.yml
   format: yaml
   label: Altruistiq Data Source API
   slug: altruistiq-data-source-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/openapi/altruistiq-data-source-api-openapi.yml
+  url: https://artifacts.apis.io/altruistiq/openapi/altruistiq-data-source-api-openapi.yml
 consequence_counts:
   read: 15
   safety-critical: 25
@@ -230,7 +230,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/altrui
   \    purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/public/v1/facilities/{facilityId}/persistent\n  method: patch\n  operationId: FacilitiesPublicController.updateFacilityPersistent\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /api/public/v1/facilities/{facilityId}/versions\n  method: post\n  operationId: FacilitiesPublicController.createFacilityVersion\n  x-agentic-access:\n    action-class: acting\n    consequence: safety-critical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 120\n      exchange: true\n      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop:\
   \ required\n    audit: required\n- path: /api/public/v1/facilities/types\n  method: get\n  operationId: FacilitiesPublicController.getFacilityTypes\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/location/countries\n  method: get\n  operationId: LocationController.getCountries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/location/countries/{countryCode}/subdivisions\n  method: get\n  operationId: LocationController.getCountrySubdivisions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/public/v1/organization/\n  method: get\n  operationId: OrganizationPublicController.getOrganization\n  x-agentic-access:\n    action-class: connected\n\
   \    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/agentic-access/altruistiq-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/altruistiq/agentic-access/altruistiq-agentic-access.yml
 summary_line: 44 operations · 29 acting · 25 human-in-the-loop
 tags:
 - Sustainability

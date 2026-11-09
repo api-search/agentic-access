@@ -9,145 +9,145 @@ api_specs:
   label: Kentik AiAdvisorDataService API
   slug: kentik-aiadvisordataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-aiadvisordataservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-aiadvisordataservice-api-openapi.yml
 - filename: kentik-alertservice-api-openapi.yml
   format: yaml
   label: Kentik AlertService API
   slug: kentik-alertservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-alertservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-alertservice-api-openapi.yml
 - filename: kentik-asgroupservice-api-openapi.yml
   format: yaml
   label: Kentik ASGroupService API
   slug: kentik-asgroupservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-asgroupservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-asgroupservice-api-openapi.yml
 - filename: kentik-bgpmonitoringadminservice-api-openapi.yml
   format: yaml
   label: Kentik BgpMonitoringAdminService API
   slug: kentik-bgpmonitoringadminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-bgpmonitoringadminservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-bgpmonitoringadminservice-api-openapi.yml
 - filename: kentik-bgpmonitoringdataservice-api-openapi.yml
   format: yaml
   label: Kentik BgpMonitoringDataService API
   slug: kentik-bgpmonitoringdataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-bgpmonitoringdataservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-bgpmonitoringdataservice-api-openapi.yml
 - filename: kentik-capacityplanservice-api-openapi.yml
   format: yaml
   label: Kentik CapacityPlanService API
   slug: kentik-capacityplanservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-capacityplanservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-capacityplanservice-api-openapi.yml
 - filename: kentik-cloudexportadminservice-api-openapi.yml
   format: yaml
   label: Kentik CloudExportAdminService API
   slug: kentik-cloudexportadminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-cloudexportadminservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-cloudexportadminservice-api-openapi.yml
 - filename: kentik-costservice-api-openapi.yml
   format: yaml
   label: Kentik CostService API
   slug: kentik-costservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-costservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-costservice-api-openapi.yml
 - filename: kentik-customdimensionservice-api-openapi.yml
   format: yaml
   label: Kentik CustomDimensionService API
   slug: kentik-customdimensionservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-customdimensionservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-customdimensionservice-api-openapi.yml
 - filename: kentik-deviceservice-api-openapi.yml
   format: yaml
   label: Kentik DeviceService API
   slug: kentik-deviceservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-deviceservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-deviceservice-api-openapi.yml
 - filename: kentik-flowtagservice-api-openapi.yml
   format: yaml
   label: Kentik FlowTagService API
   slug: kentik-flowtagservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-flowtagservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-flowtagservice-api-openapi.yml
 - filename: kentik-kmiservice-api-openapi.yml
   format: yaml
   label: Kentik KmiService API
   slug: kentik-kmiservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-kmiservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-kmiservice-api-openapi.yml
 - filename: kentik-labelservice-api-openapi.yml
   format: yaml
   label: Kentik LabelService API
   slug: kentik-labelservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-labelservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-labelservice-api-openapi.yml
 - filename: kentik-mitigationsservice-api-openapi.yml
   format: yaml
   label: Kentik MitigationsService API
   slug: kentik-mitigationsservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-mitigationsservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-mitigationsservice-api-openapi.yml
 - filename: kentik-notificationchannelservice-api-openapi.yml
   format: yaml
   label: Kentik NotificationChannelService API
   slug: kentik-notificationchannelservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-notificationchannelservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-notificationchannelservice-api-openapi.yml
 - filename: kentik-packageservice-api-openapi.yml
   format: yaml
   label: Kentik PackageService API
   slug: kentik-packageservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-packageservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-packageservice-api-openapi.yml
 - filename: kentik-policyservice-api-openapi.yml
   format: yaml
   label: Kentik PolicyService API
   slug: kentik-policyservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-policyservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-policyservice-api-openapi.yml
 - filename: kentik-siteservice-api-openapi.yml
   format: yaml
   label: Kentik SiteService API
   slug: kentik-siteservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-siteservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-siteservice-api-openapi.yml
 - filename: kentik-syntheticsadminservice-api-openapi.yml
   format: yaml
   label: Kentik SyntheticsAdminService API
   slug: kentik-syntheticsadminservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-syntheticsadminservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-syntheticsadminservice-api-openapi.yml
 - filename: kentik-syntheticsdataservice-api-openapi.yml
   format: yaml
   label: Kentik SyntheticsDataService API
   slug: kentik-syntheticsdataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-syntheticsdataservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-syntheticsdataservice-api-openapi.yml
 - filename: kentik-tenantservice-api-openapi.yml
   format: yaml
   label: Kentik TenantService API
   slug: kentik-tenantservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-tenantservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-tenantservice-api-openapi.yml
 - filename: kentik-tenantuserservice-api-openapi.yml
   format: yaml
   label: Kentik TenantUserService API
   slug: kentik-tenantuserservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-tenantuserservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-tenantuserservice-api-openapi.yml
 - filename: kentik-userservice-api-openapi.yml
   format: yaml
   label: Kentik UserService API
   slug: kentik-userservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-userservice-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-userservice-api-openapi.yml
 - filename: kentik-audit-service-api-openapi.yml
   format: yaml
   label: Kentik Audit Service API
   slug: kentik-audit-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/openapi/kentik-audit-service-api-openapi.yml
+  url: https://artifacts.apis.io/kentik/openapi/kentik-audit-service-api-openapi.yml
 consequence_counts:
   read: 66
   safety-critical: 3
@@ -225,8 +225,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/kentik
   \   human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/v202509/site_markets/{id}\n  method: put\n  operationId: UpdateSiteMarket\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/v202509/sites\n  method: get\n  operationId: ListSites\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/v202509/sites\n  method: post\n  operationId: CreateSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n\
   \      - high-value\n    audit: required\n- path: /site/v202509/sites/{id}\n  method: get\n  operationId: GetSite\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /site/v202509/sites/{id}\n  method: delete\n  operationId: DeleteSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /site/v202509/sites/{id}\n  method: put\n  operationId: UpdateSite\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetics/v202309/agentAlerts\n\
   \  method: get\n  operationId: ListAgentAlerts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /synthetics/v202309/agentAlerts\n  method: post\n  operationId: CreateAgentAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetics/v202309/agentAlerts/{id}\n  method: get\n  operationId: GetAgentAlert\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /synthetics/v202309/agentAlerts/{id}\n  method: delete\n  operationId: DeleteAgentAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience:\
-  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetics/v202309/agentAlerts/{id}\n  method: put\n  operationId: UpdateAgentAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetics/v202309/agents\n  method: get\n  operationId: ListAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/agentic-access/kentik-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kentik/refs/heads/main/agentic-access/kentik-agentic-access.yml
+  \ null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetics/v202309/agentAlerts/{id}\n  method: put\n  operationId: UpdateAgentAlert\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /synthetics/v202309/agents\n  method: get\n  operationId: ListAgents\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (39 KB total) ---\n# Full source: https://artifacts.apis.io/kentik/agentic-access/kentik-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/kentik/agentic-access/kentik-agentic-access.yml
 summary_line: 135 operations · 69 acting · 3 human-in-the-loop
 tags:
 - Network Observability

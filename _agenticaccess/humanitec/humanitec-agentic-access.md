@@ -9,19 +9,19 @@ api_specs:
   label: Humanitec Agents API
   slug: humanitec-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-agents-api-openapi.yml
+  url: https://artifacts.apis.io/humanitec/openapi/humanitec-agents-api-openapi.yml
 - filename: humanitec-public-api-openapi.yml
   format: yaml
   label: Humanitec Public API
   slug: humanitec-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-public-api-openapi.yml
+  url: https://artifacts.apis.io/humanitec/openapi/humanitec-public-api-openapi.yml
 - filename: humanitec-user-role-api-openapi.yml
   format: yaml
   label: Humanitec User Role API
   slug: humanitec-user-role-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/openapi/humanitec-user-role-api-openapi.yml
+  url: https://artifacts.apis.io/humanitec/openapi/humanitec-user-role-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 103
@@ -110,8 +110,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/humani
   \  operationId: cancelPipelineRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/restart\n  method: post\n  operationId: restartPipelineRun\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/jobs\n  method: get\n  operationId: listPipelineJobs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/jobs/{jobId}\n\
   \  method: get\n  operationId: getPipelineJob\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/jobs/{jobId}/steps/{stepIndex}/logs\n  method: get\n  operationId: listPipelineStepLogs\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/apps/{appId}/approvals\n  method: get\n  operationId: listPipelineApprovalRequests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/jobs/{jobId}/approvals/{approvalId}\n  method: get\n  operationId: getPipelineApprovalRequest\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject:\
   \ optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/jobs/{jobId}/approvals/{approvalId}/approve\n  method: post\n  operationId: approvePipelineApprovalRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/runs/{runId}/jobs/{jobId}/approvals/{approvalId}/deny\n  method: post\n  operationId: denyPipelineApprovalRequest\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /orgs/{orgId}/apps/{appId}/pipelines/{pipelineId}/batches/{batchType}\n\
-  \  method: get\n  operationId: GetBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/registries\n  method: get\n  operationId: getOrgsByOrgIdRegistries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/registries\n  method: post\n  operationId: postOrgsByOrgIdRegistries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/agentic-access/humanitec-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanitec/refs/heads/main/agentic-access/humanitec-agentic-access.yml
+  \  method: get\n  operationId: GetBatch\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/registries\n  method: get\n  operationId: getOrgsByOrgIdRegistries\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /orgs/{orgId}/registries\n  method: post\n  operationId: postOrgsByOrgIdRegistries\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n\n\n# --- truncated at 32 KB (68 KB total) ---\n# Full source: https://artifacts.apis.io/humanitec/agentic-access/humanitec-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/humanitec/agentic-access/humanitec-agentic-access.yml
 summary_line: 221 operations · 118 acting · 1 human-in-the-loop
 tags:
 - Deployment

@@ -9,13 +9,13 @@ api_specs:
   label: Qoala Authentication API
   slug: qoala-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/qoala/openapi/qoala-authentication-api-openapi.yml
 - filename: qoala-api-specification-api-openapi.yml
   format: yaml
   label: Qoala API Specification API
   slug: qoala-api-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/openapi/qoala-api-specification-api-openapi.yml
+  url: https://artifacts.apis.io/qoala/openapi/qoala-api-specification-api-openapi.yml
 consequence_counts:
   read: 3
   write: 9
@@ -46,7 +46,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: generated\nsource: openapi/qoala-
   \      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/products/finance/partner/products/stoploss/{claim_pool_code}\n  method: get\n  operationId: getPool\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/claims/partner/status\n  method: get\n  operationId: statusClaim\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/quotation/quotes\n  method: post\n  operationId: postApiV2QuotationQuotes\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/quotation/quotes/partner/status\n  method: get\n  operationId: detailPolicy\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v2/policies/partner/cancel\n  method: patch\n  operationId: cancelPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v2/policies/documents/activation\n  method: post\n  operationId: activationPolicy\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sessions\n  method: post\n  operationId: createSession\n  x-agentic-access:\n    action-class: acting\n\
   \    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/sessions/refresh\n  method: post\n  operationId: refreshSession\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qoala/refs/heads/main/agentic-access/qoala-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/qoala/agentic-access/qoala-agentic-access.yml
 summary_line: 12 operations · 9 acting
 tags:
 - Insurance

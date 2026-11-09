@@ -9,55 +9,55 @@ api_specs:
   label: Sybilion Alerts API
   slug: sybilion-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-alerts-api-openapi.yml
 - filename: sybilion-categories-api-openapi.yml
   format: yaml
   label: Sybilion Categories API
   slug: sybilion-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-categories-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-categories-api-openapi.yml
 - filename: sybilion-drivers-api-openapi.yml
   format: yaml
   label: Sybilion Drivers API
   slug: sybilion-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-drivers-api-openapi.yml
 - filename: sybilion-forecasts-api-openapi.yml
   format: yaml
   label: Sybilion Forecasts API
   slug: sybilion-forecasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-forecasts-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-forecasts-api-openapi.yml
 - filename: sybilion-health-api-openapi.yml
   format: yaml
   label: Sybilion Health API
   slug: sybilion-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-health-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-health-api-openapi.yml
 - filename: sybilion-jobs-api-openapi.yml
   format: yaml
   label: Sybilion Jobs API
   slug: sybilion-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-jobs-api-openapi.yml
 - filename: sybilion-me-api-openapi.yml
   format: yaml
   label: Sybilion Me API
   slug: sybilion-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-me-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-me-api-openapi.yml
 - filename: sybilion-regions-api-openapi.yml
   format: yaml
   label: Sybilion Regions API
   slug: sybilion-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-regions-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-regions-api-openapi.yml
 - filename: sybilion-usage-api-openapi.yml
   format: yaml
   label: Sybilion Usage API
   slug: sybilion-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/openapi/sybilion-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sybilion/openapi/sybilion-usage-api-openapi.yml
 consequence_counts:
   read: 8
   write: 3
@@ -87,7 +87,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: generated\nsource: openapi/sybili
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/drivers\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/forecasts\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/v1/forecasts/{id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/forecasts/{id}/artifacts/{name}\n  method: get\n  x-agentic-access:\n    action-class: connected\n   \
   \ consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/jobs\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/me\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/regions\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api/v1/usage\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /health\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sybilion/refs/heads/main/agentic-access/sybilion-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/sybilion/agentic-access/sybilion-agentic-access.yml
 summary_line: 11 operations · 3 acting
 tags:
 - Industrial market intelligence

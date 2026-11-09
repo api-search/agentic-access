@@ -9,55 +9,55 @@ api_specs:
   label: Threads Authorization API
   slug: threads-api-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-authorization-api-openapi.yml
 - filename: threads-api-post-to-threads-quote-threads-posts-api-openapi.yml
   format: yaml
   label: Threads Post to Threads > Quote Threads Posts API
   slug: threads-api-post-to-threads-quote-threads-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-post-to-threads-quote-threads-posts-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-post-to-threads-quote-threads-posts-api-openapi.yml
 - filename: threads-api-post-to-threads-repost-threads-posts-api-openapi.yml
   format: yaml
   label: Threads Post to Threads > Repost Threads Posts API
   slug: threads-api-post-to-threads-repost-threads-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-post-to-threads-repost-threads-posts-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-post-to-threads-repost-threads-posts-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-read-and-manage-threads-replies-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Read and Manage Threads Replies API
   slug: threads-api-read-and-manage-threads-read-and-manage-threads-replies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-read-and-manage-threads-replies-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-read-and-manage-threads-replies-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-read-replies-media-objects-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Read Replies Media Objects API
   slug: threads-api-read-and-manage-threads-read-replies-media-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-read-replies-media-objects-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-read-replies-media-objects-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-read-threads-insights-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Read Threads Insights API
   slug: threads-api-read-and-manage-threads-read-threads-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-read-threads-insights-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-read-threads-insights-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-retrieve-threads-media-objects-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Retrieve Threads Media Objects API
   slug: threads-api-read-and-manage-threads-retrieve-threads-media-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-retrieve-threads-media-objects-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-retrieve-threads-media-objects-api-openapi.yml
 - filename: threads-api-read-and-manage-threads-retrieve-threads-profiles-api-openapi.yml
   format: yaml
   label: Threads Read And Manage Threads > Retrieve Threads Profiles API
   slug: threads-api-read-and-manage-threads-retrieve-threads-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-read-and-manage-threads-retrieve-threads-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-read-and-manage-threads-retrieve-threads-profiles-api-openapi.yml
 - filename: threads-api-troubleshooting-api-openapi.yml
   format: yaml
   label: Threads Troubleshooting API
   slug: threads-api-troubleshooting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/openapi/threads-api-troubleshooting-api-openapi.yml
+  url: https://artifacts.apis.io/threads-api/openapi/threads-api-troubleshooting-api-openapi.yml
 consequence_counts:
   read: 22
   safety-critical: 2
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/thread
   \      purpose-required: true\n      proof-of-possession: true\n    escalation:\n      human-in-the-loop: required\n    audit: required\n- path: /me/threads\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/threads_publish\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /{thread_id}/repost\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me\n  method: get\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{thread_id}\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{thread_id}/insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/threads_insights\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{thread_id}/replies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{thread_id}/conversation\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence:\
   \ read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{reply_thread_id}/manage_reply\n  method: post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /me/replies\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /{container_id}/\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /me/threads_publishing_limit\n  method: get\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/agentic-access/threads-api-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/threads-api/agentic-access/threads-api-agentic-access.yml
 summary_line: 32 operations · 10 acting · 2 human-in-the-loop
 tags:
 - Social

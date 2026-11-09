@@ -9,37 +9,37 @@ api_specs:
   label: Oracle Enterprise Manager Blackouts API
   slug: oracle-enterprise-manager-blackouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-blackouts-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-enterprise-manager/openapi/oracle-enterprise-manager-blackouts-api-openapi.yml
 - filename: oracle-enterprise-manager-events-api-openapi.yml
   format: yaml
   label: Oracle Enterprise Manager Events API
   slug: oracle-enterprise-manager-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-events-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-enterprise-manager/openapi/oracle-enterprise-manager-events-api-openapi.yml
 - filename: oracle-enterprise-manager-global-target-properties-api-openapi.yml
   format: yaml
   label: Oracle Enterprise Manager Global Target Properties API
   slug: oracle-enterprise-manager-global-target-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-global-target-properties-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-enterprise-manager/openapi/oracle-enterprise-manager-global-target-properties-api-openapi.yml
 - filename: oracle-enterprise-manager-incidents-api-openapi.yml
   format: yaml
   label: Oracle Enterprise Manager Incidents API
   slug: oracle-enterprise-manager-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-enterprise-manager/openapi/oracle-enterprise-manager-incidents-api-openapi.yml
 - filename: oracle-enterprise-manager-metrics-api-openapi.yml
   format: yaml
   label: Oracle Enterprise Manager Metrics API
   slug: oracle-enterprise-manager-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-enterprise-manager/openapi/oracle-enterprise-manager-metrics-api-openapi.yml
 - filename: oracle-enterprise-manager-targets-api-openapi.yml
   format: yaml
   label: Oracle Enterprise Manager Targets API
   slug: oracle-enterprise-manager-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/openapi/oracle-enterprise-manager-targets-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-enterprise-manager/openapi/oracle-enterprise-manager-targets-api-openapi.yml
 consequence_counts:
   read: 20
   safety-critical: 1
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/oracle
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /globalTargetProperties\n  method: get\n  operationId: listGlobalTargetProperties\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /globalTargetProperties\n  method: post\n  operationId: createGlobalTargetProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /globalTargetProperties/{globalTargetPropertyId}\n  method: get\n  operationId: getGlobalTargetProperty\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n\
   \    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /globalTargetProperties/{globalTargetPropertyId}\n  method: patch\n  operationId: modifyGlobalTargetProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /globalTargetProperties/{globalTargetPropertyId}\n  method: delete\n  operationId: deleteGlobalTargetProperty\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /globalTargetProperties/{globalTargetPropertyId}/validValues\n  method: get\n  operationId: getGlobalTargetPropertyValidValues\n\
   \  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/agentic-access/oracle-enterprise-manager-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/oracle-enterprise-manager/agentic-access/oracle-enterprise-manager-agentic-access.yml
 summary_line: 36 operations · 16 acting · 1 human-in-the-loop
 tags:
 - Cloud Management

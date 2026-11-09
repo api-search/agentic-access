@@ -9,37 +9,37 @@ api_specs:
   label: Betfair Exchange Stream API
   slug: betfair-exchange-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/asyncapi/betfair-asyncapi.yml
+  url: https://artifacts.apis.io/betfair/asyncapi/betfair-asyncapi.yml
 - filename: betfair-accounts-api-openapi.yml
   format: yaml
   label: Betfair Accounts API
   slug: betfair-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-accounts-api-openapi.yml
 - filename: betfair-betting-api-openapi.yml
   format: yaml
   label: Betfair Betting API
   slug: betfair-betting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-betting-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-betting-api-openapi.yml
 - filename: betfair-heartbeat-api-openapi.yml
   format: yaml
   label: Betfair Heartbeat API
   slug: betfair-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-heartbeat-api-openapi.yml
 - filename: betfair-historic-data-api-openapi.yml
   format: yaml
   label: Betfair Historic Data API
   slug: betfair-historic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-historic-data-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-historic-data-api-openapi.yml
 - filename: betfair-identity-api-openapi.yml
   format: yaml
   label: Betfair Identity API
   slug: betfair-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-identity-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-identity-api-openapi.yml
 consequence_counts:
   physical: 4
   read: 19
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/betfai
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /GetMyData\n  method: post\n  operationId: getMyData\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetCollectionOptions\n  method: post\n  operationId: getCollectionOptions\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /GetAdvBasketDataSize\n  method: post\n  operationId: getAdvBasketDataSize\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DownloadListOfFiles\n  method: post\n  operationId: downloadListOfFiles\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /DownloadFile\n\
   \  method: get\n  operationId: downloadFile\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /login\n  method: post\n  operationId: login\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keepAlive\n  method: post\n  operationId: keepAlive\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /logout\n  method: post\n  operationId: logout\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/agentic-access/betfair-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/betfair/agentic-access/betfair-agentic-access.yml
 summary_line: 27 operations · 8 acting
 tags:
 - Betting Exchange

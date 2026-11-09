@@ -9,19 +9,19 @@ api_specs:
   label: RoomKeyPMS POS API
   slug: roomkeypms-pos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-pos-api-openapi.yml
+  url: https://artifacts.apis.io/roomkeypms/openapi/roomkeypms-pos-api-openapi.yml
 - filename: roomkeypms-reservation-data-api-openapi.yml
   format: yaml
   label: RoomKeyPMS Reservation Data API
   slug: roomkeypms-reservation-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-reservation-data-api-openapi.yml
+  url: https://artifacts.apis.io/roomkeypms/openapi/roomkeypms-reservation-data-api-openapi.yml
 - filename: roomkeypms-statistics-api-openapi.yml
   format: yaml
   label: RoomKeyPMS Statistics API
   slug: roomkeypms-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/roomkeypms/openapi/roomkeypms-statistics-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 7
@@ -55,7 +55,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/roomkeypms-openapi.yml\ndescription: Recommended x-agentic-access execution contracts, classified heuristically from\n  the OpenAPI. A governance starting point for exposing this API to AI agents — review and bind\n  audience per deployment. See research/curity/agentic-governance/.\nsummary:\n  operations: 8\n  by_action_class:\n    connected: 7\n    acting: 1\n  by_consequence:\n    read: 7\n    physical: 1\n  human_in_the_loop_required: 0\noperations:\n- path: /hotels/{hotelId}/reservations/guestprofile\n  method: get\n  operationId: listReservations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotels/{hotelId}/reservations/guestprofile/inhouse\n  method: get\n  operationId: listInHouseGuests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n   \
   \   max-ttl: 3600\n    audit: none\n- path: /hotels/{hotelId}/reservations/guestprofile/checkedout\n  method: get\n  operationId: listCheckedOutGuests\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotels/{hotelId}/reservations/guestprofile/cancellations\n  method: get\n  operationId: listCancellations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotels/{hotelId}/reservations/guestprofile/reserved\n  method: get\n  operationId: listReservedNotArrived\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotels/{hotelId}/guests/roominquiry\n  method: get\n  operationId: roomInquiry\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n\
   \    token:\n      max-ttl: 3600\n    audit: none\n- path: /hotels/{hotelId}/transactions/roomcharges\n  method: post\n  operationId: postRoomCharge\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /hotels/{hotelId}/statistics/receipts\n  method: get\n  operationId: listReceipts\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/agentic-access/roomkeypms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/roomkeypms/agentic-access/roomkeypms-agentic-access.yml
 summary_line: 8 operations · 1 acting
 tags:
 - Hospitality

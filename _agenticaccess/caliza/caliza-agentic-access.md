@@ -9,67 +9,67 @@ api_specs:
   label: Caliza Beneficiary V1 API
   slug: caliza-beneficiary-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-beneficiary-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-beneficiary-v1-api-openapi.yml
 - filename: caliza-integrator-capabilities-v1-api-openapi.yml
   format: yaml
   label: Caliza Integrator Capabilities V1 API
   slug: caliza-integrator-capabilities-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-integrator-capabilities-v1-api-openapi.yml
 - filename: caliza-integrator-v1-api-openapi.yml
   format: yaml
   label: Caliza Integrator V1 API
   slug: caliza-integrator-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-integrator-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-integrator-v1-api-openapi.yml
 - filename: caliza-kyc-kyb-v1-api-openapi.yml
   format: yaml
   label: Caliza KYC/KYB V1 API
   slug: caliza-kyc-kyb-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-kyc-kyb-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-kyc-kyb-v1-api-openapi.yml
 - filename: caliza-payment-v1-api-openapi.yml
   format: yaml
   label: Caliza Payment V1 API
   slug: caliza-payment-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-payment-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-payment-v1-api-openapi.yml
 - filename: caliza-recipient-v1-api-openapi.yml
   format: yaml
   label: Caliza Recipient V1 API
   slug: caliza-recipient-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-recipient-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-recipient-v1-api-openapi.yml
 - filename: caliza-related-person-api-openapi.yml
   format: yaml
   label: Caliza Related Person API
   slug: caliza-related-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-related-person-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-related-person-api-openapi.yml
 - filename: caliza-terms-and-conditions-v1-api-openapi.yml
   format: yaml
   label: Caliza Terms and Conditions V1 API
   slug: caliza-terms-and-conditions-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-terms-and-conditions-v1-api-openapi.yml
 - filename: caliza-transaction-v1-api-openapi.yml
   format: yaml
   label: Caliza Transaction V1 API
   slug: caliza-transaction-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-transaction-v1-api-openapi.yml
 - filename: caliza-transaction-v1-sandbox-api-openapi.yml
   format: yaml
   label: Caliza Transaction V1 Sandbox API
   slug: caliza-transaction-v1-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-transaction-v1-sandbox-api-openapi.yml
 - filename: caliza-travel-rule-v1-api-openapi.yml
   format: yaml
   label: Caliza Travel Rule V1 API
   slug: caliza-travel-rule-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/openapi/caliza-travel-rule-v1-api-openapi.yml
+  url: https://artifacts.apis.io/caliza/openapi/caliza-travel-rule-v1-api-openapi.yml
 consequence_counts:
   physical: 14
   read: 30
@@ -198,7 +198,7 @@ source_yaml: "generated: '2026-10-14'\nmethod: generated\nsource: openapi/caliza
   \    audit: required\n- path: /v1/transactions/{id}/proof-of-payment\n  method: get\n  operationId: getTransactionProofOfPayment\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/travel-rule/proofs\n  method: post\n  operationId: submitProof\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/travel-rule/proofs\n  method: get\n  operationId: getProof\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /v1/travel-rule/proofs/delegate-token\n  method: post\n  operationId: issueDelegateToken\n\
   \  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/travel-rule/proofs/manual-attestation\n  method: post\n  operationId: issueManualAttestation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v1/travel-rule/proofs/microtransfer\n  method: post\n  operationId: startMicrotransferTest\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required:\
   \ true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulations\n  method: post\n  operationId: createSimulation\n  x-agentic-access:\n    action-class: acting\n    consequence: physical\n    subject: required\n    audience: null\n    token:\n      max-ttl: 300\n      exchange: true\n      purpose-required: true\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /v2/simulations/{id}\n  method: get\n  operationId: getSimulationByIdV2\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caliza/refs/heads/main/agentic-access/caliza-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/caliza/agentic-access/caliza-agentic-access.yml
 summary_line: 68 operations · 38 acting · 1 human-in-the-loop
 tags:
 - Company

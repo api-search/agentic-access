@@ -9,133 +9,133 @@ api_specs:
   label: Cartesia TTS WebSocket API
   slug: cartesia-ai-tts-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/asyncapi/cartesia-ai-asyncapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/asyncapi/cartesia-ai-asyncapi.yml
 - filename: cartesia-ai-asyncapi.yml
   format: yaml
   label: Cartesia STT WebSocket API
   slug: cartesia-ai-stt-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/asyncapi/cartesia-ai-asyncapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/asyncapi/cartesia-ai-asyncapi.yml
 - filename: cartesia-ai-agents-api-openapi.yml
   format: yaml
   label: Cartesia Agents API
   slug: cartesia-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-agents-api-openapi.yml
 - filename: cartesia-ai-api-keys-api-openapi.yml
   format: yaml
   label: Cartesia API Keys API
   slug: cartesia-ai-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-api-keys-api-openapi.yml
 - filename: cartesia-ai-auth-api-openapi.yml
   format: yaml
   label: Cartesia Auth API
   slug: cartesia-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-auth-api-openapi.yml
 - filename: cartesia-ai-calls-api-openapi.yml
   format: yaml
   label: Cartesia Calls API
   slug: cartesia-ai-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-calls-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-calls-api-openapi.yml
 - filename: cartesia-ai-datasets-api-openapi.yml
   format: yaml
   label: Cartesia Datasets API
   slug: cartesia-ai-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-datasets-api-openapi.yml
 - filename: cartesia-ai-deployments-api-openapi.yml
   format: yaml
   label: Cartesia Deployments API
   slug: cartesia-ai-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-deployments-api-openapi.yml
 - filename: cartesia-ai-infill-api-openapi.yml
   format: yaml
   label: Cartesia Infill API
   slug: cartesia-ai-infill-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-infill-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-infill-api-openapi.yml
 - filename: cartesia-ai-knowledge-base-api-openapi.yml
   format: yaml
   label: Cartesia Knowledge Base API
   slug: cartesia-ai-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-knowledge-base-api-openapi.yml
 - filename: cartesia-ai-metrics-api-openapi.yml
   format: yaml
   label: Cartesia Metrics API
   slug: cartesia-ai-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-metrics-api-openapi.yml
 - filename: cartesia-ai-phone-numbers-api-openapi.yml
   format: yaml
   label: Cartesia Phone Numbers API
   slug: cartesia-ai-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-phone-numbers-api-openapi.yml
 - filename: cartesia-ai-pronunciation-dictionaries-api-openapi.yml
   format: yaml
   label: Cartesia Pronunciation Dictionaries API
   slug: cartesia-ai-pronunciation-dictionaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-pronunciation-dictionaries-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-pronunciation-dictionaries-api-openapi.yml
 - filename: cartesia-ai-providers-api-openapi.yml
   format: yaml
   label: Cartesia Providers API
   slug: cartesia-ai-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-providers-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-providers-api-openapi.yml
 - filename: cartesia-ai-speech-to-text-api-openapi.yml
   format: yaml
   label: Cartesia Speech-to-Text API
   slug: cartesia-ai-speech-to-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-speech-to-text-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-speech-to-text-api-openapi.yml
 - filename: cartesia-ai-status-api-openapi.yml
   format: yaml
   label: Cartesia Status API
   slug: cartesia-ai-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-status-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-status-api-openapi.yml
 - filename: cartesia-ai-text-to-speech-api-openapi.yml
   format: yaml
   label: Cartesia Text-to-Speech API
   slug: cartesia-ai-text-to-speech-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-text-to-speech-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-text-to-speech-api-openapi.yml
 - filename: cartesia-ai-usage-api-openapi.yml
   format: yaml
   label: Cartesia Usage API
   slug: cartesia-ai-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-usage-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-usage-api-openapi.yml
 - filename: cartesia-ai-voice-changer-api-openapi.yml
   format: yaml
   label: Cartesia Voice Changer API
   slug: cartesia-ai-voice-changer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-voice-changer-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-voice-changer-api-openapi.yml
 - filename: cartesia-ai-voices-api-openapi.yml
   format: yaml
   label: Cartesia Voices API
   slug: cartesia-ai-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-voices-api-openapi.yml
 - filename: cartesia-ai-webhooks-api-openapi.yml
   format: yaml
   label: Cartesia Webhooks API
   slug: cartesia-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-webhooks-api-openapi.yml
 - filename: cartesia-ai-stt-api-openapi.yml
   format: yaml
   label: Cartesia STT API
   slug: cartesia-ai-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/openapi/cartesia-ai-stt-api-openapi.yml
+  url: https://artifacts.apis.io/cartesia-ai/openapi/cartesia-ai-stt-api-openapi.yml
 consequence_counts:
   physical: 1
   read: 38
@@ -193,7 +193,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/cartes
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/{id}\n  method: get\n  operationId: getMetric\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{id}\n  method: delete\n  operationId: deleteMetric\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /metrics/{id}/results\n  method: get\n  operationId: listMetricResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /metrics/{id}/results/export\n  method: get\n  operationId:\
   \ exportMetricResults\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /agents/{id}/metrics/{metric_id}\n  method: post\n  operationId: addMetricToAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /agents/{id}/metrics/{metric_id}\n  method: delete\n  operationId: removeMetricFromAgent\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /usage/credits\n  method: get\n  operationId: getCreditUsage\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /usage/agents\n  method: get\n  operationId: getAgentUsage\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /api-status\n  method: get\n  operationId: getApiStatus\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/agentic-access/cartesia-ai-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/cartesia-ai/agentic-access/cartesia-ai-agentic-access.yml
 summary_line: 86 operations · 48 acting
 tags:
 - Artificial Intelligence

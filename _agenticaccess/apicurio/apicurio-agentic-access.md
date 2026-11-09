@@ -9,115 +9,115 @@ api_specs:
   label: Apicurio Admin API
   slug: apicurio-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-admin-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-admin-api-openapi.yml
 - filename: apicurio-ai-api-openapi.yml
   format: yaml
   label: Apicurio AI API
   slug: apicurio-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-ai-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-ai-api-openapi.yml
 - filename: apicurio-artifact-rules-api-openapi.yml
   format: yaml
   label: Apicurio Artifact rules API
   slug: apicurio-artifact-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-artifact-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-artifact-rules-api-openapi.yml
 - filename: apicurio-artifact-type-api-openapi.yml
   format: yaml
   label: Apicurio Artifact Type API
   slug: apicurio-artifact-type-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-artifact-type-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-artifact-type-api-openapi.yml
 - filename: apicurio-artifacts-api-openapi.yml
   format: yaml
   label: Apicurio Artifacts API
   slug: apicurio-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-artifacts-api-openapi.yml
 - filename: apicurio-branches-api-openapi.yml
   format: yaml
   label: Apicurio Branches API
   slug: apicurio-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-branches-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-branches-api-openapi.yml
 - filename: apicurio-content-api-openapi.yml
   format: yaml
   label: Apicurio Content API
   slug: apicurio-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-content-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-content-api-openapi.yml
 - filename: apicurio-contracts-api-openapi.yml
   format: yaml
   label: Apicurio Contracts API
   slug: apicurio-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-contracts-api-openapi.yml
 - filename: apicurio-global-rules-api-openapi.yml
   format: yaml
   label: Apicurio Global rules API
   slug: apicurio-global-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-global-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-global-rules-api-openapi.yml
 - filename: apicurio-group-rules-api-openapi.yml
   format: yaml
   label: Apicurio Group rules API
   slug: apicurio-group-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-group-rules-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-group-rules-api-openapi.yml
 - filename: apicurio-groups-api-openapi.yml
   format: yaml
   label: Apicurio Groups API
   slug: apicurio-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-groups-api-openapi.yml
 - filename: apicurio-kafkasql-api-openapi.yml
   format: yaml
   label: Apicurio KafkaSQL API
   slug: apicurio-kafkasql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-kafkasql-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-kafkasql-api-openapi.yml
 - filename: apicurio-metadata-api-openapi.yml
   format: yaml
   label: Apicurio Metadata API
   slug: apicurio-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-metadata-api-openapi.yml
 - filename: apicurio-search-api-openapi.yml
   format: yaml
   label: Apicurio Search API
   slug: apicurio-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-search-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-search-api-openapi.yml
 - filename: apicurio-snapshot-api-openapi.yml
   format: yaml
   label: Apicurio Snapshot API
   slug: apicurio-snapshot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-snapshot-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-snapshot-api-openapi.yml
 - filename: apicurio-system-api-openapi.yml
   format: yaml
   label: Apicurio System API
   slug: apicurio-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-system-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-system-api-openapi.yml
 - filename: apicurio-users-api-openapi.yml
   format: yaml
   label: Apicurio Users API
   slug: apicurio-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-users-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-users-api-openapi.yml
 - filename: apicurio-versions-api-openapi.yml
   format: yaml
   label: Apicurio Versions API
   slug: apicurio-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-versions-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-versions-api-openapi.yml
 - filename: apicurio-git-ops-api-openapi.yml
   format: yaml
   label: Apicurio Git Ops API
   slug: apicurio-git-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/openapi/apicurio-git-ops-api-openapi.yml
+  url: https://artifacts.apis.io/apicurio/openapi/apicurio-git-ops-api-openapi.yml
 consequence_counts:
   read: 70
   safety-critical: 1
@@ -185,8 +185,8 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apicur
   \      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/rules\n  method: get\n  operationId: listGroupRules\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}/rules\n  method: post\n  operationId: createGroupRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/rules\n  method: delete\n  operationId: deleteGroupRules\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/rules/{ruleType}\n  method: get\n  operationId: getGroupRuleConfig\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}/rules/{ruleType}\n  method: put\n  operationId: updateGroupRuleConfig\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}/rules/{ruleType}\n  method: delete\n  operationId: deleteGroupRule\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n\
   \      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups\n  method: get\n  operationId: listGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups\n  method: post\n  operationId: createGroup\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}\n  method: get\n  operationId: getGroupById\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /groups/{groupId}\n  method: put\n  operationId: updateGroupById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n\
-  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}\n  method: delete\n  operationId: deleteGroupById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/groups\n  method: get\n  operationId: searchGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/agentic-access/apicurio-agentic-access.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apicurio/refs/heads/main/agentic-access/apicurio-agentic-access.yml
+  \    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /groups/{groupId}\n  method: delete\n  operationId: deleteGroupById\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /search/groups\n  method: get\n  operationId: searchGroups\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n\n\n# --- truncated at 32 KB (41 KB total) ---\n# Full source: https://artifacts.apis.io/apicurio/agentic-access/apicurio-agentic-access.yml\n"
+source_yaml_url: https://artifacts.apis.io/apicurio/agentic-access/apicurio-agentic-access.yml
 summary_line: 137 operations · 67 acting · 1 human-in-the-loop
 tags:
 - Apache License

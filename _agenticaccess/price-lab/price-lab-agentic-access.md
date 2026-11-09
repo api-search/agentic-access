@@ -9,55 +9,55 @@ api_specs:
   label: Price Lab Authentication API
   slug: price-lab-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-authentication-api-openapi.yml
 - filename: price-lab-categories-api-openapi.yml
   format: yaml
   label: Price Lab Categories API
   slug: price-lab-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-categories-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-categories-api-openapi.yml
 - filename: price-lab-competitor-pricing-api-openapi.yml
   format: yaml
   label: Price Lab Competitor Pricing API
   slug: price-lab-competitor-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-competitor-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-competitor-pricing-api-openapi.yml
 - filename: price-lab-data-import-api-openapi.yml
   format: yaml
   label: Price Lab Data Import API
   slug: price-lab-data-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-data-import-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-data-import-api-openapi.yml
 - filename: price-lab-electronic-price-tags-api-openapi.yml
   format: yaml
   label: Price Lab Electronic Price Tags API
   slug: price-lab-electronic-price-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-electronic-price-tags-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-electronic-price-tags-api-openapi.yml
 - filename: price-lab-price-management-api-openapi.yml
   format: yaml
   label: Price Lab Price Management API
   slug: price-lab-price-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-price-management-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-price-management-api-openapi.yml
 - filename: price-lab-products-api-openapi.yml
   format: yaml
   label: Price Lab Products API
   slug: price-lab-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-products-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-products-api-openapi.yml
 - filename: price-lab-recommendations-api-openapi.yml
   format: yaml
   label: Price Lab Recommendations API
   slug: price-lab-recommendations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-recommendations-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-recommendations-api-openapi.yml
 - filename: price-lab-users-api-openapi.yml
   format: yaml
   label: Price Lab Users API
   slug: price-lab-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/openapi/price-lab-users-api-openapi.yml
+  url: https://artifacts.apis.io/price-lab/openapi/price-lab-users-api-openapi.yml
 consequence_counts:
   read: 15
   write: 20
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: generated\nsource: openapi/price-
   \  method: get\n  operationId: exportPricingPolicies\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricescrapings/\n  method: get\n  operationId: exportPriceBySku\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricemachines/export_for_batch/\n  method: get\n  operationId: exportRecommendations\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /pricemachines/export_history_prices/\n  method: get\n  operationId: exportPriceHistory\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categoryproducts/\n  method: get\n  operationId: listCategories\n  x-agentic-access:\n\
   \    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /categoryproducts/\n  method: post\n  operationId: createCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categoryproducts/{id}/\n  method: put\n  operationId: updateCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /categoryproducts/{id}/\n  method: delete\n  operationId: deleteCategory\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject:\
   \ required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/price-lab/refs/heads/main/agentic-access/price-lab-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/price-lab/agentic-access/price-lab-agentic-access.yml
 summary_line: 35 operations · 20 acting
 tags:
 - Company

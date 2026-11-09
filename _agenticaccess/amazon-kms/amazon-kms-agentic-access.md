@@ -9,13 +9,49 @@ api_specs:
   label: Amazon KMS Cryptographic Operations API
   slug: amazon-kms-cryptographic-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-cryptographic-operations-api-openapi.yml
 - filename: amazon-kms-keys-api-openapi.yml
   format: yaml
   label: Amazon KMS Keys API
   slug: amazon-kms-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/openapi/amazon-kms-keys-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-keys-api-openapi.yml
+- filename: amazon-kms-alias-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Alias API
+  slug: amazon-kms-alias-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-alias-api-openapi.yml
+- filename: amazon-kms-custom-key-store-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Custom Key Store API
+  slug: amazon-kms-custom-key-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-custom-key-store-api-openapi.yml
+- filename: amazon-kms-grant-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Grant API
+  slug: amazon-kms-grant-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-grant-api-openapi.yml
+- filename: amazon-kms-key-policy-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Key Policy API
+  slug: amazon-kms-key-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-key-policy-api-openapi.yml
+- filename: amazon-kms-key-rotation-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Key Rotation API
+  slug: amazon-kms-key-rotation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-key-rotation-api-openapi.yml
+- filename: amazon-kms-operations-api-openapi.yml
+  format: yaml
+  label: Amazon KMS Kms Operations API
+  slug: amazon-kms-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kms/openapi/amazon-kms-operations-api-openapi.yml
 consequence_counts:
   read: 2
   safety-critical: 1
@@ -55,9 +91,10 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/amazon
   \    audit: required\n- path: /keys/{KeyId}/deletion\n  method: post\n  operationId: ScheduleKeyDeletion\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{KeyId}/encrypt\n  method: post\n  operationId: Encrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /decrypt\n  method: post\n  operationId: Decrypt\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n\
   \      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{KeyId}/data-key\n  method: post\n  operationId: GenerateDataKey\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{KeyId}/sign\n  method: post\n  operationId: Sign\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /keys/{KeyId}/verify\n  method: post\n  operationId: Verify\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop:\
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/agentic-access/amazon-kms-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/amazon-kms/agentic-access/amazon-kms-agentic-access.yml
 summary_line: 11 operations · 9 acting · 1 human-in-the-loop
 tags:
+- Amazon Web Services
 - Cryptography
 - Data Protection
 - Encryption

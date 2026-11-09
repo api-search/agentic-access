@@ -9,19 +9,19 @@ api_specs:
   label: APOLLO Insurance Affiliates API
   slug: apollo-insurance-affiliates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-affiliates-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-affiliates-api-openapi.yml
 - filename: apollo-insurance-compliance-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Compliance API
   slug: apollo-insurance-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-compliance-api-openapi.yml
 - filename: apollo-insurance-quote-api-openapi.yml
   format: yaml
   label: APOLLO Insurance Quote API
   slug: apollo-insurance-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/openapi/apollo-insurance-quote-api-openapi.yml
+  url: https://artifacts.apis.io/apollo-insurance/openapi/apollo-insurance-quote-api-openapi.yml
 consequence_counts:
   read: 3
   write: 5
@@ -51,7 +51,7 @@ source_yaml: "generated: '2026-09-23'\nmethod: generated\nsource: openapi/apollo
   \ conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/affiliates/{affiliateId}/tenant/application\n  method: post\n  operationId: post-affiliates-affiliateId-application\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/affiliates/{affiliateId}/{insuranceType}/application\n  method: post\n  operationId: public-api-affiliates-application-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /api/affiliates/{affiliateId}/{insuranceType}/quote\n  method: post\n  operationId:\
   \ public-api-affiliates-quote-post\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /compliance/{partnerId}/{propertyId}/{tenantId}\n  method: get\n  operationId: get-compliance-status\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance/{partnerId}/{propertyId}\n  method: get\n  operationId: get-compliance-partnerId-propertyId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n- path: /compliance/callback/example\n  method: post\n  operationId: post-compliance-callback-example\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n\
   \    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /quote/tenant/{partnerId}\n  method: post\n  operationId: post-quote-tenant-partnerId\n  x-agentic-access:\n    action-class: connected\n    consequence: read\n    subject: optional\n    token:\n      max-ttl: 3600\n    audit: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apollo-insurance/refs/heads/main/agentic-access/apollo-insurance-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/apollo-insurance/agentic-access/apollo-insurance-agentic-access.yml
 summary_line: 8 operations · 5 acting
 tags:
 - Insurance

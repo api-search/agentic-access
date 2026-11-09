@@ -9,37 +9,37 @@ api_specs:
   label: Gradient Labs Actions & Tools API
   slug: gradient-labs-actions-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-actions-tools-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-actions-tools-api-openapi.yml
 - filename: gradient-labs-conversations-api-openapi.yml
   format: yaml
   label: Gradient Labs Conversations API
   slug: gradient-labs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-conversations-api-openapi.yml
 - filename: gradient-labs-hand-off-api-openapi.yml
   format: yaml
   label: Gradient Labs Hand-off API
   slug: gradient-labs-hand-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-hand-off-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-hand-off-api-openapi.yml
 - filename: gradient-labs-knowledge-api-openapi.yml
   format: yaml
   label: Gradient Labs Knowledge API
   slug: gradient-labs-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-knowledge-api-openapi.yml
 - filename: gradient-labs-messages-api-openapi.yml
   format: yaml
   label: Gradient Labs Messages API
   slug: gradient-labs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-messages-api-openapi.yml
 - filename: gradient-labs-gradient-labs-api-api-openapi.yml
   format: yaml
   label: Gradient Labs Gradient Labs API
   slug: gradient-labs-gradient-labs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-gradient-labs-api-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-gradient-labs-api-api-openapi.yml
 consequence_counts:
   read: 1
   write: 10
@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-07-15'\nmethod: generated\nsource: openapi/gradie
   \ acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationID}/cancel\n  method: put\n  operationId: cancelConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationID}/resume\n  method: put\n  operationId: resumeConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /conversations/{conversationID}/rate\n\
   \  method: put\n  operationId: rateConversation\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools\n  method: post\n  operationId: createTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n- path: /tools/{id}/execute\n  method: post\n  operationId: executeTool\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit:\
   \ required\n- path: /articles\n  method: post\n  operationId: upsertArticle\n  x-agentic-access:\n    action-class: acting\n    consequence: write\n    subject: required\n    audience: null\n    token:\n      max-ttl: 900\n    escalation:\n      human-in-the-loop: conditional\n      triggers:\n      - abnormal\n      - high-value\n    audit: required\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/agentic-access/gradient-labs-agentic-access.yml
+source_yaml_url: https://artifacts.apis.io/gradient-labs/agentic-access/gradient-labs-agentic-access.yml
 summary_line: 11 operations · 10 acting
 tags:
 - Artificial Intelligence
