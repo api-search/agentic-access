@@ -70,6 +70,9 @@ layout: default
   {% if page.method %}<span class="stat-badge">Method: <strong>{{ page.method }}</strong></span>{% endif %}
 </div>
 
+{%- comment -%} roadmap#1121: API Stock read these as claims about its API. They are our recommendations. {%- endcomment -%}
+<p style="font-size: 0.88rem; color: #475569; background: #f8fafc; border-left: 3px solid #94a3b8; padding: 0.6rem 0.8rem; margin: 1rem 0;"><strong>API Evangelist recommendations, not provider rules.</strong> These classifications are generated heuristically from each operation's method, path and name. They suggest how an agent's access could be scoped. They are not authorization, approval or human-in-the-loop requirements that the provider enforces.</p>
+
 <h2 class="section-title">By consequence</h2>
 <div class="stat-badges">
   {% if page.consequence_counts.read %}<span class="stat-badge"><span class="con-pill con-read">read</span> <strong>{{ page.consequence_counts.read }}</strong></span>{% endif %}
@@ -83,7 +86,7 @@ layout: default
 <p style="font-size: 0.85rem; color: #6c757d; margin-bottom: 0.75rem;">The physical and safety-critical operations an agent could invoke — the ones that most warrant scoped tokens, tight TTLs, and escalation. Full per-operation contracts are in the source below.</p>
 <table class="op-table">
   <thead>
-    <tr><th style="width: 10%;">Method</th><th>Path</th><th style="width: 20%;">Consequence</th><th style="width: 18%;">Human-in-loop</th></tr>
+    <tr><th style="width: 10%;">Method</th><th>Path</th><th style="width: 20%;">Consequence</th><th style="width: 18%;">Recommended human-in-loop</th></tr>
   </thead>
   <tbody>
     {% for op in page.notable_actions %}
